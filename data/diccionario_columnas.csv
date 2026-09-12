@@ -1,36 +1,53 @@
-columna;bloque;etiqueta;unidad;tipo_dato;obligatoria;minimo;maximo;definicion
-n;Identificación;Nº;;OFICIAL;sí;1.0;41.0;Numeración fija 1-41 en el orden acordado (27 del MAPA 1.0 + 14 añadidos).
-municipio;Identificación;Municipio;;OFICIAL;sí;;;Nombre oficial del municipio o núcleo (entre paréntesis el municipio cuando el núcleo no coincide).
-provincia;Identificación;Provincia;;OFICIAL;sí;;;Provincia (España) o distrito (Portugal).
-comarca;Identificación;Comarca;;OFICIAL;sí;;;Comarca oficial o de uso común.
-pais;Identificación;País;;OFICIAL;sí;;;España o Portugal.
-lat;Técnica;Latitud;grados;OFICIAL;sí;41.0;44.0;Latitud WGS84 del núcleo principal.
-lon;Técnica;Longitud;grados;OFICIAL;sí;-9.5;-2.5;Longitud WGS84 del núcleo principal.
-min_playa;Técnica;Min. a playa;min;DERIVADO;sí;0.0;30.0;Minutos en coche desde el núcleo principal a la playa de mar más cercana. Condición del proyecto: ≤ 30.
-sol_horas_anio;Clima;Sol (h/año);h;OFICIAL;sí;1400.0;3000.0;Horas de sol anuales. Normales AEMET 1991-2020 / IPMA 1981-2010 de la estación más próxima, ajustadas a la costa.
-sol_dias_equiv;Clima;Sol (días equiv.);d;DERIVADO;sí;175.0;375.0;Horas de sol / 8 (jornada solar de 8 h), redondeado.
-lluvia_dias_anio;Clima;Días lluvia/año;d;OFICIAL;sí;60.0;200.0;Días al año con precipitación ≥ 1 mm. Normales AEMET / IPMA.
-lluvia_mm_anio;Clima;Lluvia (mm/año);mm;OFICIAL;sí;500.0;2500.0;Precipitación anual acumulada. Complementa a los días de lluvia: la costa cantábrica tiene más días pero menos mm que el Baixo Miño.
-temp_verano_c;Clima;T. verano;°C;OFICIAL;sí;15.0;26.0;Temperatura media junio-agosto.
-temp_invierno_c;Clima;T. invierno;°C;OFICIAL;sí;4.0;14.0;Temperatura media diciembre-febrero.
-humedad_pct;Clima;Humedad;%;OFICIAL;sí;60.0;95.0;Humedad relativa media anual.
-clase_clima;Clima;Clase clima;;DERIVADO;sí;;;Regla fija sobre sol y días de lluvia (ver CLASES_CLIMA). Es una clasificación por umbrales, no un ranking.
-servicios_1_10;Servicios;Servicios (1-10);1-10;CRITERIO;sí;1.0;10.0;"1-2 aldea sin comercio diario; 3-4 villa con lo básico; 5-6 villa con centro de salud, institutos y comercio completo; 7-8 cabecera comarcal; 9-10 ciudad con hospital y todo tipo de servicios."
-hospital_referencia;Servicios;Hospital referencia;;OFICIAL;sí;;;Hospital asignado en el proyecto (ver HOSPITALES_ACORDADOS).
-min_hospital;Servicios;Min. a hospital;min;DERIVADO;sí;0.0;60.0;Minutos en coche al hospital de referencia, sin tráfico.
-aeropuerto_principal;Servicios;Aeropuerto principal;;OFICIAL;sí;;;Aeropuerto asignado en el proyecto (ver AEROPUERTOS_ACORDADOS).
-min_aeropuerto;Servicios;Min. a aeropuerto;min;DERIVADO;sí;0.0;150.0;Minutos en coche al aeropuerto principal, sin tráfico.
-comunicaciones;Servicios;Comunicaciones;;TEXTO;sí;;;"Vías principales; tren/bus/barco disponibles."
-precio_m2_eur;Mercado;Precio €/m²;€/m²;MERCADO;sí;500.0;5000.0;Precio medio de venta de vivienda usada en el municipio (portales inmobiliarios, 2026), redondeado a 50 €.
-viv_2hab_5min_eur;Mercado;2 hab ≤5 min playa;€;DERIVADO;no;;;Vivienda de 2 dormitorios (65 m²) en la franja costera del propio municipio (≤ 5 min a playa): precio_m2 × 1,10 × 65, redondeado a 100 €. Vacío si el núcleo no tiene playa a ≤ 5 min.
-viv_2hab_20_30min_eur;Mercado;2 hab 20-30 min playa;€;DERIVADO;sí;;;Vivienda de 2 dormitorios (65 m²) en el interior del área de influencia (20-30 min a playa): precio_m2 × 0,75 × 65, redondeado a 100 €.
-viv_3hab_5min_eur;Mercado;3 hab ≤5 min playa;€;DERIVADO;no;;;Vivienda de 3 dormitorios (90 m²) en la franja costera: precio_m2 × 1,10 × 90, redondeado a 100 €. Vacío si el núcleo no tiene playa a ≤ 5 min.
-viv_3hab_20_30min_eur;Mercado;3 hab 20-30 min playa;€;DERIVADO;sí;;;Vivienda de 3 dormitorios (90 m²) en el interior del área de influencia: precio_m2 × 0,75 × 90, redondeado a 100 €.
-prima_terraza_pct;Mercado;+ Terraza;%;MERCADO;sí;0.0;30.0;Sobreprecio habitual por terraza útil sobre el precio base.
-prima_vistas_mar_pct;Mercado;+ Vistas mar;%;MERCADO;no;0.0;40.0;Sobreprecio habitual por vistas al mar. Vacío en municipios sin costa (Tui, Tomiño).
-prima_terraza_vistas_pct;Mercado;+ Terraza + vistas;%;MERCADO;no;0.0;50.0;Sobreprecio combinado. Debe estar entre el mayor de los dos y su suma.
-facilidad_venta_1_10;Inversión;Facilidad de venta (1-10);1-10;CRITERIO;sí;1.0;10.0;"Liquidez del mercado: 1-3 muy pocas operaciones/año, meses de venta; 4-6 mercado local activo; 7-8 demanda estable de fuera de la comarca; 9-10 demanda urbana/metropolitana continua."
-revalorizacion_1_10;Inversión;Revalorización esperada (1-10);1-10;CRITERIO;sí;1.0;10.0;Expectativa a 10 años según demografía, demanda externa, suelo disponible y precio actual relativo. 5 = mantiene valor real.
-dependencia_coche_1_10;Operativa;Dependencia coche (1-10);1-10;CRITERIO;sí;1.0;10.0;"10 = coche imprescindible para todo; 1 = vida diaria completa a pie/transporte público. Considera compacidad del núcleo, tren/bus y distancia a hospital."
-debilidad_principal;Operativa;Debilidad principal;;TEXTO;sí;;;El punto débil más relevante para residencia habitual o jubilación.
-notas;Operativa;Notas;;TEXTO;no;;;Aclaraciones de la fila (alternativas, vacíos justificados).
+columna;bloque;etiqueta;unidad;tipo_dato;obligatoria;minimo;maximo;valores_admitidos;definicion
+n;Identificación;Nº;;OFICIAL;sí;1.0;;;"Numeración correlativa por zonas, de sur a norte y de oeste a este; Portugal al final."
+zona;Identificación;Zona;;OFICIAL;sí;;;;Zona geográfica del proyecto (ver ZONAS).
+municipio;Identificación;Municipio;;OFICIAL;sí;;;;Municipio o núcleo (entre paréntesis el municipio cuando el núcleo no coincide).
+provincia;Identificación;Provincia;;OFICIAL;sí;;;;Provincia (España) o distrito (Portugal).
+pais;Identificación;País;;OFICIAL;sí;;;España | Portugal;España o Portugal.
+origen;Identificación;Origen;;OFICIAL;sí;;;MAPA 1.0 | MAPA 2.0 | Ampliación;En qué versión entró en la lista.
+lat;Técnica;Latitud;grados;OFICIAL;sí;41.0;44.0;;Latitud WGS84 del núcleo principal.
+lon;Técnica;Longitud;grados;OFICIAL;sí;-9.5;-2.5;;Longitud WGS84 del núcleo principal.
+sol_horas_anio;Clima;Sol (h/año);h;OFICIAL;sí;1400.0;3000.0;;Horas de sol anuales. Normales AEMET 1991-2020 / IPMA 1981-2010 de la estación más próxima, ajustadas a la costa. Referencia Palma: ~2.800 h.
+sol_dias_equiv;Clima;Sol (días equiv.);d;DERIVADO;sí;175.0;375.0;;Horas de sol / 8, redondeado.
+dias_despejados;Clima;Días despejados;d;OFICIAL;sí;20.0;150.0;;Días al año con cielo despejado (nubosidad ≤ 1/8). Referencia Palma: ~90.
+dias_cubiertos;Clima;Días cubiertos;d;OFICIAL;sí;50.0;220.0;;Días al año con cielo cubierto (nubosidad ≥ 7/8). Referencia Palma: ~70.
+lluvia_dias_anio;Clima;Días lluvia/año;d;OFICIAL;sí;60.0;200.0;;Días al año con precipitación ≥ 1 mm. Referencia Palma: ~50.
+lluvia_mm_anio;Clima;Lluvia (mm/año);mm;OFICIAL;sí;500.0;2500.0;;Precipitación anual acumulada.
+temp_verano_c;Clima;T. verano;°C;OFICIAL;sí;15.0;26.0;;Temperatura media junio-agosto.
+temp_invierno_c;Clima;T. invierno;°C;OFICIAL;sí;4.0;14.0;;Temperatura media diciembre-febrero.
+humedad_pct;Clima;Humedad;%;OFICIAL;sí;60.0;95.0;;Humedad relativa media anual.
+viento;Clima;Viento;;CRITERIO;sí;;;Baja | Media | Alta;Frecuencia de viento molesto: Baja (ocasional), Media (nortada o sur habitual en verano/otoño), Alta (frecuente gran parte del año).
+niebla;Clima;Niebla;;CRITERIO;sí;;;Baja | Media | Alta;Frecuencia de niebla o bruma costera: Baja (rara), Media (algunas mañanas de verano o valle en invierno), Alta (habitual, p. ej. néboa de A Mariña).
+clase_clima;Clima;Clase clima;;DERIVADO;sí;;;;Regla fija sobre sol y días de lluvia (ver CLASES_CLIMA). Clasificación por umbrales, no ranking.
+min_costa;Mar;Min. costa abierta;min;DERIVADO;sí;0.0;30.0;;Minutos en coche desde el núcleo a la costa de mar abierto o paseo marítimo más cercano (para pasear).
+playa_bano;Mar;Playa de baño;;OFICIAL;sí;;;;Playa con agua apta y tranquila para bañarse (ría o abrigada) más cercana.
+min_bano;Mar;Min. baño;min;DERIVADO;sí;0.0;30.0;;Minutos en coche a la playa de baño. Condición del proyecto: ≤ 30.
+temp_agua_verano;Mar;Agua verano;°C;OFICIAL;sí;;;;Temperatura habitual del agua en julio-agosto en la playa de baño.
+franja;Mar;Franja;;DERIVADO;sí;;;A | B;"A si el núcleo está a ≤ 5 min de la costa; B si está entre 5 y 30 min."
+servicios_1_10;Servicios;Servicios (1-10);1-10;CRITERIO;sí;1.0;10.0;;"1-2 aldea sin comercio diario; 3-4 villa con lo básico (farmacia, centro de salud, supermercado, cafeterías); 5-6 villa completa con institutos y comercio; 7-8 cabecera comarcal; 9-10 ciudad con hospital y todo tipo de servicios."
+servicios_nota;Servicios;Falta / añade;;TEXTO;sí;;;;Qué falta importante o qué añade relevante respecto a la escala.
+fibra;Servicios;Fibra;;CRITERIO;sí;;;Sí | Parcial | No;Sí: fibra óptica en el núcleo y en la mayoría del municipio. Parcial: fibra en el casco, parroquias con 4G/5G o satélite. No: sin fibra.
+comunicaciones;Servicios;Comunicaciones;;TEXTO;sí;;;;"Vías principales; tren/bus/barco disponibles."
+hospitales;Sanidad;Hospitales (km · min);;DERIVADO;sí;;;;"Hospitales con urgencias 24 h a ≤ 60 min, públicos [Púb] y privados [Priv], con km por carretera y minutos; el más cercano primero."
+hospital_km;Sanidad;Hospital más cercano (km);km;DERIVADO;sí;0.0;120.0;;Kilómetros por carretera al hospital más cercano.
+hospital_min;Sanidad;Hospital más cercano (min);min;DERIVADO;sí;0.0;90.0;;"Minutos en coche al hospital más cercano. Deseable ≤ 30; máximo del proyecto 60."
+aeropuertos;Aeropuertos;Aeropuertos (km · min · Palma);;DERIVADO;sí;;;;Los 2-3 aeropuertos más cercanos con km, minutos y si tienen vuelo directo a Palma.
+aeropuerto_min;Aeropuertos;Aeropuerto más cercano (min);min;DERIVADO;sí;0.0;150.0;;"Minutos en coche al aeropuerto más cercano. Deseable ≤ 60; aceptable hasta 120."
+palma_mas_cercano;Aeropuertos;Palma desde el más cercano;;OFICIAL;sí;;;Todo el año | Casi todo el año | Verano | No;Vuelo directo a Palma desde el aeropuerto más cercano (horarios publicados 2026).
+palma_mejor_opcion;Aeropuertos;Mejor opción Palma;;DERIVADO;sí;;;;Aeropuerto a ≤ 120 min con mejor conexión directa a Palma y minutos hasta él.
+precio_m2_eur;Mercado;Precio €/m²;€/m²;MERCADO;sí;500.0;5000.0;;Precio medio de venta de vivienda usada en el municipio (portales, 2026), redondeado a 50 €.
+A_2hab_eur;Mercado;A · 2 hab;€;DERIVADO;no;;;;Franja A (≤ 5 min costa): 2 dormitorios, 65 m², reciente, con vistas y exterior = €/m² × 65 × 1,30, redondeado a 100 €. Vacío si el núcleo está en franja B.
+A_3hab_eur;Mercado;A · 3 hab;€;DERIVADO;no;;;;Franja A: 3 dormitorios, 90 m², mismas condiciones = €/m² × 90 × 1,30.
+B_2hab_eur;Mercado;B · 2 hab;€;DERIVADO;sí;;;;Franja B (5-30 min costa, interior del área): 2 dormitorios, 65 m², reciente, vistas abiertas y exterior = €/m² × 65 × 1,05.
+B_3hab_eur;Mercado;B · 3 hab;€;DERIVADO;sí;;;;Franja B: 3 dormitorios, 90 m² = €/m² × 90 × 1,05.
+producto_en_presupuesto;Mercado;Entra en 260.000 €;;DERIVADO;sí;;;"Sí, en ambas franjas | Sí en B; en A solo 2 hab | Solo 2 hab | Difícil";Qué producto cabe en el presupuesto según las columnas A/B.
+obra_nueva;Mercado;Obra nueva;;CRITERIO;sí;;;Sí | Poca | No;Sí: promociones recientes o en curso habituales. Poca: alguna promoción puntual. No: prácticamente sin obra nueva.
+prima_terraza_pct;Mercado;+ Terraza;%;MERCADO;sí;0.0;30.0;;Sobreprecio habitual por terraza útil.
+prima_vistas_mar_pct;Mercado;+ Vistas mar;%;MERCADO;no;0.0;40.0;;Sobreprecio habitual por vistas al mar. Vacío en municipios sin vistas al mar posibles.
+prima_terraza_vistas_pct;Mercado;+ Terraza + vistas;%;MERCADO;no;0.0;50.0;;Sobreprecio combinado: entre el mayor de los dos y su suma.
+facilidad_venta_1_10;Inversión;Facilidad de venta (1-10);1-10;CRITERIO;sí;1.0;10.0;;"Liquidez: 1-3 muy pocas operaciones/año; 4-6 mercado local activo; 7-8 demanda estable de fuera; 9-10 demanda urbana continua."
+revalorizacion_1_10;Inversión;Revalorización esperada (1-10);1-10;CRITERIO;sí;1.0;10.0;;Expectativa a 10 años según demografía, demanda externa, suelo y precio actual. 5 = mantiene valor real.
+dependencia_coche_1_10;Operativa;Dependencia coche (1-10);1-10;CRITERIO;sí;1.0;10.0;;"10 = coche imprescindible para todo; 1 = vida diaria completa a pie/transporte público."
+debilidad_principal;Operativa;Debilidad principal;;TEXTO;sí;;;;El punto débil más relevante para residencia habitual o jubilación.
+comparado_con_mejor;Operativa;Comparado con el mejor;;DERIVADO;sí;;;;Diferencia frente al mejor valor de la tabla en los cuatro criterios prioritarios: sol, días de lluvia, minutos a hospital y minutos a aeropuerto.
+notas;Operativa;Notas;;TEXTO;no;;;;Aclaraciones de la fila.

@@ -1,23 +1,64 @@
 # MAPA 2.0 · Norte de España + Norte de Portugal
 
-Comparativa de **41 municipios costeros a menos de 30 minutos de una playa** (Pontevedra, Lugo, Asturias, Cantabria y Alto Minho) orientada a compra de vivienda, residencia habitual, jubilación, calidad de vida y potencial inmobiliario.
+Base de datos comparativa de **83 municipios costeros del norte de España y del norte de Portugal a ≤ 30 minutos de una playa de baño**, ordenados en **16 zonas** (de sur a norte y de oeste a este, Portugal al final), para comprar una vivienda de residencia habitual y jubilación.
 
-Este repositorio contiene la **tabla maestra completa** (41 filas × todas las columnas acordadas), el **validador fila a fila** que la comprueba contra el esquema cerrado del proyecto y el **generador de la imagen** final (mapa + tabla).
+El repositorio contiene la **tabla maestra completa** (83 filas × 52 columnas), el **validador fila a fila** que la comprueba contra el esquema cerrado del proyecto y el **generador de las dos hojas** finales: hoja 1 mapa y hoja 2 tabla.
 
-No hay rankings ni resúmenes: los únicos colores de la imagen son umbrales fijos documentados en `mapa2/esquema.py`.
+No hay rankings ni resúmenes: los únicos colores de las hojas son umbrales fijos documentados en `mapa2/esquema.py`.
+
+## Ficha de búsqueda (criterios acordados)
+
+| Apartado | Criterio |
+|---|---|
+| Comprador | Vive en Mallorca; compra en ≤ 6 meses y se traslada de inmediato. Jubilación a los 63; muchos años con coche. |
+| Presupuesto | 260.000 € máximo, impuestos y gastos aparte. Opción secundaria poco probable: dos viviendas de ~130.000 € con los mismos criterios. El precio es un límite, no una prioridad. |
+| Vivienda | Piso o casa. 2 dormitorios mínimo (≥ 65 m²), idealmente 3. Vistas abiertas (mar, montaña o ambas), sin edificios delante. Terraza o exterior. Ascensor imprescindible por encima de 1º. Reciente o nueva, sin reforma o mínima. Eficiencia energética deseable. Internet en casa (fibra o similar). |
+| Opcionales | Garaje, piscina comunitaria, urbanización cerrada, ausencia de ruido. |
+| Franjas | **A** = ≤ 5 min en coche de la costa. **B** = de 5 a 20-30 min de la costa. |
+| Entorno | Servicios mínimos (farmacia, centro de salud, supermercado, cafeterías) a ≤ 10-15 min. Vida todo el año; la estacionalidad turística no importa. Tamaño del núcleo indiferente. |
+| Mar | Costa abierta cerca para pasear; baño a ≤ 30 min en agua apta y tranquila (ría o playa abrigada). |
+| Clima | Prioridad máxima al sol y a pocos días de lluvia/nublados. Viento y niebla aceptados si son poco frecuentes. |
+| Sanidad y conexiones | Hospital (público o privado) a ≤ 45-60 min; **deseable ≤ 30 min**. Aeropuerto entre 1 y 2 h aceptable; **deseable ≤ 60 min**. Interesa vuelo directo a Palma. |
+| Prioridades | 1 sol · 2 servicios · 3 hospital · 4 aeropuerto. |
+| Obra nueva sobre plano | Solo con licencia concedida, aval bancario de las cantidades y promotor con obras terminadas; si no, vivienda terminada nueva o reciente. |
+| Regla | No se descarta ningún municipio por sol, hospital ni aeropuerto: la tabla muestra las diferencias. |
+
+## Zonas y municipios (Nº de la tabla)
+
+| Nº | Zona | Municipios |
+|---|---|---|
+| 1-5 | Baixo Miño | A Guarda, Oia, O Rosal, Tomiño, Tui |
+| 6-8 | Val Miñor | Baiona, Nigrán, Gondomar |
+| 9-12 | Vigo e ría | Vigo (litoral sur y Canido), Redondela, Soutomaior, Vilaboa |
+| 13-16 | O Morrazo | Cangas, Moaña, Bueu, Marín |
+| 17-20 | Pontevedra e Sanxenxo | Pontevedra, Poio, Sanxenxo, O Grove |
+| 21-25 | O Salnés | Meaño, Cambados, A Illa de Arousa, Vilanova de Arousa, Vilagarcía de Arousa |
+| 26-31 | Barbanza e Noia | Rianxo, Boiro, A Pobra do Caramiñal, Ribeira, Porto do Son, Noia |
+| 32-38 | Golfo Ártabro e Ferrol | A Coruña, Oleiros, Sada, Bergondo, Miño, Ares, Ferrol |
+| 39-46 | A Mariña | O Vicedo, Viveiro, Xove, Cervo, Burela, Foz, Barreiros, Ribadeo |
+| 47-50 | Asturias Occidente | Castropol, Tapia de Casariego, Navia, Luarca (Valdés) |
+| 51-57 | Asturias Centro | Cudillero, Muros de Nalón, Soto del Barco, Salinas (Castrillón), Luanco (Gozón), Candás (Carreño), Gijón |
+| 58-62 | Asturias Oriente | Villaviciosa, Colunga, Ribadesella, Llanes, Ribadedeva |
+| 63-67 | Cantabria Occidental | San Vicente de la Barquera, Comillas, Suances, Liencres (Piélagos), Santander |
+| 68-72 | Cantabria Oriental | Ribamontán al Mar, Noja, Santoña, Laredo, Castro-Urdiales |
+| 73-80 | Alto Minho (PT) | Valença, Vila Nova de Cerveira, Caminha, Moledo, Vila Praia de Âncora, Afife-Carreço, Viana do Castelo, Ponte de Lima |
+| 81-83 | Litoral Norte (PT) | Esposende, Póvoa de Varzim, Vila do Conde |
+
+Columna `origen`: **MAPA 1.0** (27 municipios de la versión anterior), **MAPA 2.0** (14 añadidos en la primera revisión) y **Ampliación** (42 añadidos en esta versión por cumplir la ficha). Ningún valor del MAPA 1.0 se ha copiado sin revisar.
 
 ## Ficheros
 
 | Ruta | Qué es |
 |---|---|
-| `data/municipios.csv` | **Tabla maestra** (fuente de verdad). 41 filas, separador `;`, UTF-8. |
-| `data/diccionario_columnas.csv` | Definición, unidad, tipo de dato y rango válido de cada columna (generado desde el esquema). |
+| `data/municipios.csv` | **Tabla maestra** (fuente de verdad). 83 filas × 52 columnas, separador `;`, UTF-8. |
+| `data/diccionario_columnas.csv` | Definición, unidad, tipo de dato, rango y valores admitidos de cada columna (generado desde el esquema). |
 | `data/geo/*.geojson` | Cartografía base (Natural Earth 10 m) recortada al norte peninsular. |
-| `mapa2/esquema.py` | Columnas acordadas, tipos de dato, lista de los 41 municipios, hospitales y aeropuertos asignados, umbrales de clima y reglas de precios. |
+| `mapa2/esquema.py` | Ficha de búsqueda, columnas, zonas, hospitales (33, públicos y privados), aeropuertos (7) con su situación de vuelo a Palma, umbrales y reglas de cálculo, resumen Portugal. |
 | `mapa2/validar.py` | Validación fila a fila. Falla si algo no cuadra con el esquema. |
-| `mapa2/render.py` | Genera `output/mapa_2_0.png` (mapa + tabla). Se niega a renderizar si la tabla no valida. |
-| `mapa2/exportar.py` | Exporta la tabla a Excel (`output/tabla_maestra_mapa_2_0.xlsx`) y regenera el diccionario. |
-| `output/mapa_2_0.png` | Imagen final MAPA 2.0 (5.522 × 4.845 px). |
+| `mapa2/render.py` | Genera las dos hojas PNG. Se niega a renderizar si la tabla no valida. |
+| `mapa2/exportar.py` | Exporta a Excel (`output/tabla_maestra_mapa_2_0.xlsx`, 7 hojas) y regenera el diccionario. |
+| `output/mapa_2_0_mapa.png` | **Hoja 1**: mapa numerado, leyenda, zonas, ficha de búsqueda, aeropuertos-Palma y mini resumen para comprar en Portugal. |
+| `output/mapa_2_0_tabla.png` | **Hoja 2**: tabla maestra completa (83 filas, 46 columnas visibles, cabeceras por zona). |
 | `output/informe_validacion.md` | Resultado de la última validación, fila a fila y columna a columna. |
 
 ## Cómo ejecutarlo
@@ -26,8 +67,8 @@ No hay rankings ni resúmenes: los únicos colores de la imagen son umbrales fij
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
-python -m mapa2.validar --informe   # valida las 41 filas y escribe output/informe_validacion.md
-python -m mapa2.render              # genera output/mapa_2_0.png
+python -m mapa2.validar --informe   # valida las 83 filas y escribe output/informe_validacion.md
+python -m mapa2.render              # genera output/mapa_2_0_mapa.png y output/mapa_2_0_tabla.png
 python -m mapa2.exportar            # genera el Excel y data/diccionario_columnas.csv
 ```
 
@@ -35,45 +76,69 @@ Para cambiar un dato: edita `data/municipios.csv`, vuelve a ejecutar `validar` y
 
 ## Columnas de la tabla
 
-**Identificación**: Nº · Municipio · Provincia · Comarca
+**Identificación**: Nº · Zona · Municipio · Provincia/distrito · País · Origen · (lat, lon técnicas)
 
-**Clima**: Sol (h/año + días equivalentes = h/8) · Días de lluvia/año (≥ 1 mm) · Lluvia mm/año (complementaria) · Temperatura media verano / invierno · Humedad
+**Clima**: Sol h/año (+ días equivalentes = h/8) · Días despejados · Días cubiertos · Días de lluvia · Lluvia mm · T. verano / invierno · Humedad · Viento (Baja/Media/Alta) · Niebla (Baja/Media/Alta) · Clase clima
 
-**Servicios y accesibilidad**: Servicios (1-10) · Hospital de referencia · Minutos a hospital · Aeropuerto principal · Minutos a aeropuerto · Comunicaciones
+**Mar**: Minutos a costa abierta · Playa de baño (agua apta y tranquila) · Minutos a la playa de baño (≤ 30) · Temperatura del agua en verano · Franja A/B
 
-**Mercado inmobiliario**: Precio €/m² · Vivienda 2 hab ≤ 5 min playa · 2 hab 20-30 min playa · 3 hab ≤ 5 min playa · 3 hab 20-30 min playa · Prima terraza · Prima vistas mar · Prima terraza + vistas
+**Servicios**: Servicios (1-10) · Qué falta / qué añade · Fibra (Sí/Parcial/No) · Comunicaciones
+
+**Sanidad**: Hospitales con urgencias a ≤ 60 min, públicos [Púb] y privados [Priv], con km y minutos (hasta 4, el más cercano primero) · Km y minutos al más cercano del propio país
+
+**Aeropuertos**: 2-3 aeropuertos a ≤ 120 min con km, minutos y vuelo directo a Palma · Minutos al más cercano · Palma desde el más cercano · Mejor opción Palma (conexión anual primero, luego el más cercano)
+
+**Mercado**: Precio €/m² · A 2 hab · A 3 hab · B 2 hab · B 3 hab · Entra en 260.000 € · Obra nueva (Sí/Poca/No) · Primas por terraza / vistas al mar / ambas
 
 **Inversión**: Facilidad de venta (1-10) · Revalorización esperada (1-10)
 
-**Operativa**: Dependencia futura del coche (1-10) · Debilidad principal
+**Operativa**: Dependencia del coche (1-10) · Debilidad principal · Comparado con el mejor · Notas
 
-Columnas técnicas (no se muestran en la tabla, sirven para el mapa y la condición principal): latitud, longitud, minutos a la playa más cercana, país, clase de clima, notas.
+### Vuelo directo a Palma (horarios publicados 2026)
 
-La variable *Encaje inmobiliario* queda eliminada, como se acordó.
+| Aeropuerto | Situación | Detalle |
+|---|---|---|
+| Bilbao (BIO) | Todo el año | Vueling y Air Europa, diario |
+| Santiago (SCQ) | Casi todo el año | Vueling salvo semanas de invierno; Ryanair estacional |
+| Santander (SDR) | Casi todo el año | Vueling marzo-noviembre |
+| Vigo (VGO) | Verano | Vueling ~4/semana junio-septiembre; Air Nostrum julio-agosto |
+| A Coruña (LCG) | Verano | Vueling verano (sin horario confirmado) |
+| Asturias (OVD) | Verano | Volotea marzo-octubre; Vueling junio-septiembre |
+| Porto (OPO) | Verano | Ryanair marzo-octubre; easyJet verano |
 
 ## Tipo de dato de cada columna
 
-Para no volver a mezclar datos medidos con estimaciones sin decirlo, cada columna lleva un único tipo:
+| Tipo | Significado |
+|---|---|
+| `OFICIAL` | Normales climáticas AEMET (1991-2020) / IPMA (1981-2010) de la estación más próxima ajustadas a la costa; geografía; horarios publicados |
+| `DERIVADO` | Calculado con una regla explícita del esquema (días de sol, clase clima, franja, precios A/B, producto en presupuesto, km/min a hospitales y aeropuertos, mejor opción Palma, comparado con el mejor) |
+| `MERCADO` | Referencia de portales inmobiliarios (Idealista, Fotocasa, Idealista PT) 2026, redondeada |
+| `CRITERIO` | Escala o categoría asignada con los criterios escritos en el diccionario (servicios, fibra, viento, niebla, obra nueva, facilidad de venta, revalorización, dependencia del coche) |
+| `TEXTO` | Cualitativo |
 
-| Tipo | Significado | Columnas |
-|---|---|---|
-| `OFICIAL` | Normales climáticas AEMET (1991-2020) / IPMA (1981-2010) de la estación más próxima ajustadas a la costa; geografía; asignaciones acordadas | Identificación, Sol, Días lluvia, mm, Temperaturas, Humedad, Hospital, Aeropuerto |
-| `DERIVADO` | Calculado con una regla explícita del esquema | Días equivalentes de sol, Clase clima, Minutos a hospital/aeropuerto/playa, las cuatro viviendas de referencia |
-| `MERCADO` | Referencia de portales inmobiliarios (Idealista, Fotocasa, Idealista PT) 2026, redondeada | Precio €/m², primas por terraza / vistas |
-| `CRITERIO` | Escala 1-10 asignada con los criterios escritos en el diccionario | Servicios, Facilidad de venta, Revalorización, Dependencia del coche |
-| `TEXTO` | Cualitativo | Comunicaciones, Debilidad principal, Notas |
+### Reglas de cálculo
 
-Reglas de las viviendas de referencia: 2 hab = 65 m², 3 hab = 90 m²; franja ≤ 5 min a playa = €/m² × 1,10; franja 20-30 min = €/m² × 0,75; redondeo a 100 €. Las columnas ≤ 5 min quedan en «—» cuando el núcleo no tiene playa a ≤ 5 min (O Rosal, Tui, Pontevedra, Villaviciosa, Gondomar, Tomiño, Castropol); la justificación va en `notas`. Tui y Tomiño no tienen prima de vistas al mar (vistas al Miño).
-
-Clase de clima (leyenda del mapa): *Más favorable* = sol ≥ 2.400 h y ≤ 120 días de lluvia · *Favorable* = sol ≥ 2.200 h y ≤ 130 días · *Intermedio* = sol ≥ 1.850 h · *Más húmedo / nublado* = resto.
+- **Clase clima**: *Más favorable* = sol ≥ 2.400 h y ≤ 120 días de lluvia · *Favorable* = sol ≥ 2.200 h y ≤ 130 días · *Intermedio* = sol ≥ 1.850 h · *Más húmedo / nublado* = resto.
+- **Franja**: A si el núcleo está a ≤ 5 min de la costa; B entre 5 y 30 min. Las columnas de precio A quedan en «—» en franja B y la justificación va en `notas`.
+- **Precios de referencia**: 2 hab = 65 m², 3 hab = 90 m². Franja A = €/m² × m² × 1,30 (reciente, vistas, exterior, a ≤ 5 min de la costa); franja B = €/m² × m² × 1,05. Redondeo a 100 €. **Entra en 260.000 €**: *Sí, en ambas franjas* si A 3 hab ≤ 260.000; *Sí en B; en A solo 2 hab*; *Solo 2 hab*; *Difícil*.
+- **Km y minutos por carretera**: estimados desde la distancia en línea recta (hospital ×1,30 a 60 km/h + 3 min; aeropuerto ×1,22 a 85 km/h + 5 min), redondeados a 5 min, con correcciones manuales donde una ría o la frontera alargan el trayecto. Los hospitales de otro país se muestran marcados «fuera del SNS» y no cuentan como más cercano.
+- **Comparado con el mejor**: diferencia frente al mejor valor de toda la tabla en sol (h), días de lluvia, minutos a hospital y minutos a aeropuerto.
+- Sin prima de vistas al mar (municipios sin mar visible): Tui, Tomiño, Valença, Vila Nova de Cerveira, Ponte de Lima.
 
 ## Qué comprueba el validador
 
-- 41 filas, numeración 1-41 consecutiva, nombres y orden exactamente los acordados (27 del MAPA 1.0 + 14 añadidos), sin duplicados.
-- Todas las columnas del esquema presentes y ninguna extra; obligatorias rellenas; rangos numéricos válidos.
-- Hospital y aeropuerto de cada fila coinciden con la asignación cerrada del proyecto.
-- Días equivalentes de sol = horas / 8; clase de clima coherente con la regla; verano > invierno.
-- Precios de vivienda coherentes con la regla y con `min_playa`; primas combinadas entre el máximo de las simples y su suma.
-- Avisos no bloqueantes (hospital > 45 min, aeropuerto > 90 min, incoherencias servicios/coche).
+- 83 filas, numeración 1-83 consecutiva, orden y nombres exactamente los de las zonas acordadas, sin duplicados; zona, origen y país coherentes.
+- Todas las columnas del esquema y ninguna extra; obligatorias rellenas; rangos numéricos y valores cerrados válidos.
+- Derivadas recalculadas: días de sol, clase clima, franja, precios A/B, producto en presupuesto, comparado con el mejor.
+- Lista de hospitales legible, ordenada por minutos, con hospitales del esquema, tipo correcto, marca «fuera del SNS» coherente, al menos un público; km/min del más cercano coinciden con la lista; ≤ 60 min.
+- Lista de aeropuertos legible (1-3, ≤ 120 min), situación Palma coherente con el esquema; minutos al más cercano y mejor opción Palma coinciden con la lista.
+- Baño a ≤ 30 min; primas coherentes; notas obligatorias en franja B; nota de servicios obligatoria cuando servicios ≤ 4.
+- Avisos no bloqueantes: hospital > 30 min o aeropuerto > 60 min (fuera de lo deseable, no descartan).
 
-Los errores concretos del MAPA 1.0 (hospital de Vigo en filas de Lugo, «433 días» de sol, prima combinada menor que las simples, numeración) quedan bloqueados por estas reglas.
+## Comprar en Portugal (mini resumen)
+
+NIF portugués y cuenta bancaria · IMT (~4-6 % efectivo en 260.000 €) + Imposto do Selo 0,8 % + notaría y registro · IMI anual 0,3-0,45 % · CPCV con señal 10-20 % y escritura ante notario, revisando caderneta predial, licença de utilização y certificado energético · Obra nueva solo con licença y garantía bancaria · Tras 3 meses, CRUE en la Câmara y acceso al SNS; hasta entonces seguro privado · Residente fiscal si > 183 días (pensión tributa en Portugal con convenio; NHR cerrado) · Alquiler turístico con licencia de Alojamento Local · Coche con matrícula española hasta 183 días.
+
+## Siguiente fase
+
+Con los conceptos cerrados, la siguiente fase es la búsqueda intensiva en portales (Idealista, Fotocasa, Idealista PT, Imovirtual) por municipio y franja, aplicando la ficha de búsqueda.

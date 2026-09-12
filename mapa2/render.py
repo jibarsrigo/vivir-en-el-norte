@@ -1,8 +1,12 @@
-"""Genera la imagen MAPA 2.0 (mapa + tabla maestra) a partir del CSV validado.
+"""Genera las dos hojas de MAPA 2.0 a partir del CSV validado.
+
+    output/mapa_2_0_mapa.png   Hoja 1: mapa numerado, leyenda, zonas, ficha de búsqueda, aeropuertos-Palma y resumen Portugal
+    output/mapa_2_0_tabla.png  Hoja 2: tabla maestra completa (83 municipios × todas las columnas)
 
 Uso:
-    python -m mapa2.render            # escribe output/mapa_2_0.png
+    python -m mapa2.render            # escribe ambas hojas
     python -m mapa2.render --dpi 90   # versión más ligera
+    python -m mapa2.render --solo mapa|tabla
 """
 from __future__ import annotations
 
@@ -15,15 +19,21 @@ import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
-from matplotlib.patches import Circle, FancyBboxPatch, Rectangle  # noqa: E402
+from matplotlib.patches import FancyBboxPatch, Rectangle  # noqa: E402
 
 from . import esquema as E  # noqa: E402
 from .validar import cargar, validar  # noqa: E402
 
 AZUL = "#1f3c68"
 GRIS = "#5b6472"
+TINTA = "#22262c"
 MAR = "#d6e9f5"
 FONDO = "#f6f8fb"
+VERDE = "#2e9e44"
+VERDE_CLARO = "#8fc43f"
+AMBAR = "#e2a72e"
+ROJO = "#d9542b"
+DESTACADO = "#dff3e3"   # fondo de celda para hospital ≤ 30 min / aeropuerto ≤ 60 min
 
 COLOR_PROVINCIA = {
     "Pontevedra": "#f6e6a3", "La Coruña": "#efe4bf", "Orense": "#efe4bf", "Lugo": "#f4d78a",
@@ -31,82 +41,22 @@ COLOR_PROVINCIA = {
     "Porto": "#f3dcc4", "Bizkaia": "#e6e6e6",
 }
 CIUDADES = [
-    ("Vigo", 42.231, -8.712), ("Santiago", 42.880, -8.545), ("A Coruña", 43.362, -8.411), ("Lugo", 43.010, -7.556),
-    ("Ourense", 42.336, -7.864), ("Oviedo", 43.362, -5.849), ("Gijón", 43.532, -5.661), ("Santander", 43.462, -3.810),
+    ("Santiago", 42.880, -8.545), ("Lugo", 43.010, -7.556), ("Ourense", 42.336, -7.864), ("Oviedo", 43.362, -5.849),
     ("Bilbao", 43.263, -2.935), ("Porto", 41.158, -8.629), ("Braga", 41.551, -8.428),
 ]
-AEROPUERTOS = [
-    ("Vigo", 42.231, -8.627), ("Asturias", 43.563, -6.034), ("Santander", 43.427, -3.820),
-    ("Bilbao", 43.301, -2.911), ("Oporto", 41.248, -8.681),
-]
-HOSPITALES = [
-    ("Álvaro Cunqueiro", 42.204, -8.734), ("Montecelo", 42.421, -8.617), ("Salnés", 42.571, -8.749),
-    ("Mariña", 43.650, -7.374), ("HUCA", 43.373, -5.826), ("Arriondas", 43.386, -5.187), ("Jarrio", 43.535, -6.795),
-    ("Laredo", 43.404, -3.428), ("Sierrallana", 43.360, -4.060), ("Cruces", 43.291, -2.990), ("Viana do Castelo", 41.707, -8.807),
-]
-# Posición del círculo numerado (lon, lat); el punto real queda unido por una línea.
-POS_ETIQUETA = {
-    1: (-9.25, 41.95), 2: (-8.65, 41.84), 3: (-8.42, 42.07), 4: (-8.42, 42.26), 5: (-8.42, 42.46),
-    6: (-9.10, 42.66), 7: (-9.10, 42.46), 8: (-9.10, 42.56),
-    9: (-7.14, 43.90), 10: (-7.26, 43.90), 11: (-7.38, 43.90), 12: (-7.50, 43.90), 13: (-7.62, 43.90), 14: (-7.74, 43.90),
-    15: (-7.02, 43.90), 16: (-6.90, 43.90),
-    17: (-6.30, 43.90), 18: (-6.18, 43.90), 19: (-6.06, 43.90), 20: (-5.86, 43.90), 21: (-5.74, 43.90),
-    22: (-5.435, 43.80), 23: (-4.755, 43.75), 24: (-3.56, 43.74), 25: (-3.36, 43.72), 26: (-4.045, 43.75), 27: (-3.12, 43.66),
-    28: (-9.25, 42.10), 29: (-9.25, 42.22), 30: (-8.63, 42.04), 31: (-8.50, 41.94),
-    32: (-9.10, 42.14), 33: (-9.10, 42.24), 34: (-9.10, 42.34),
-    35: (-9.25, 41.84), 36: (-9.25, 41.73), 37: (-9.25, 41.62), 38: (-9.25, 41.51),
-    39: (-6.66, 43.90), 40: (-6.78, 43.90), 41: (-6.54, 43.90),
-}
-EXTENSION = (-9.62, -2.72, 41.12, 44.02)  # lon_min, lon_max, lat_min, lat_max
+EXTENSION = (-10.2, -2.7, 41.1, 44.3)  # lon_min, lon_max, lat_min, lat_max
+ASPECTO = 1.36
+ANCHO_MAPA_IN = 19.4
+ALTO_MAPA_IN = ANCHO_MAPA_IN * (EXTENSION[3] - EXTENSION[2]) * ASPECTO / (EXTENSION[1] - EXTENSION[0])
 
-# Definición de la tabla: (columna, cabecera, ancho en pulgadas, alineación, formato)
-TABLA = [
-    ("n", "Nº", 0.62, "center", "badge"),
-    ("municipio", "Municipio", 3.05, "left", "bold"),
-    ("provincia", "Provincia", 1.65, "left", "txt"),
-    ("comarca", "Comarca", 1.95, "left", "txt"),
-    ("sol_horas_anio", "Sol\n(h/año · d)", 1.75, "center", "sol"),
-    ("lluvia_dias_anio", "Lluvia\n(días/año)", 1.05, "center", "int"),
-    ("lluvia_mm_anio", "Lluvia\n(mm/año)", 1.05, "center", "int"),
-    ("temp_verano_c", "Temp.\nverano / inv.", 1.45, "center", "temp"),
-    ("humedad_pct", "Humedad\n(%)", 1.0, "center", "pct"),
-    ("servicios_1_10", "Servicios\n(1-10)", 1.0, "center", "escala"),
-    ("hospital_referencia", "Hospital referencia", 3.2, "left", "txt"),
-    ("min_hospital", "Min.\nhospital", 0.85, "center", "int"),
-    ("aeropuerto_principal", "Aeropuerto\nprincipal", 1.2, "left", "txt"),
-    ("min_aeropuerto", "Min.\naeropuerto", 0.95, "center", "int"),
-    ("comunicaciones", "Comunicaciones", 4.9, "left", "txt_s"),
-    ("precio_m2_eur", "Precio\n€/m²", 1.05, "center", "eur"),
-    ("viv_2hab_5min_eur", "2 hab\n≤5 min playa", 1.45, "center", "eur"),
-    ("viv_2hab_20_30min_eur", "2 hab\n20-30 min playa", 1.45, "center", "eur"),
-    ("viv_3hab_5min_eur", "3 hab\n≤5 min playa", 1.45, "center", "eur"),
-    ("viv_3hab_20_30min_eur", "3 hab\n20-30 min playa", 1.45, "center", "eur"),
-    ("prima_terraza_pct", "+ Terraza", 0.95, "center", "prima"),
-    ("prima_vistas_mar_pct", "+ Vistas\nmar", 0.95, "center", "prima"),
-    ("prima_terraza_vistas_pct", "+ Terraza\n+ vistas", 0.95, "center", "prima"),
-    ("facilidad_venta_1_10", "Facilidad\nventa (1-10)", 1.3, "center", "escala"),
-    ("revalorizacion_1_10", "Revaloriz.\nesperada (1-10)", 1.45, "center", "escala"),
-    ("dependencia_coche_1_10", "Depend.\ncoche (1-10)", 1.3, "center", "escala_inv"),
-    ("debilidad_principal", "Debilidad principal", 5.7, "left", "txt_s"),
-]
-BLOQUES = [
-    ("IDENTIFICACIÓN", "n", "comarca", "#3d5a8a"),
-    ("CLIMA", "sol_horas_anio", "humedad_pct", "#2f7fb5"),
-    ("SERVICIOS Y ACCESIBILIDAD", "servicios_1_10", "comunicaciones", "#3b8c5a"),
-    ("MERCADO INMOBILIARIO  (2 hab = 65 m² · 3 hab = 90 m²)", "precio_m2_eur", "viv_3hab_20_30min_eur", "#b0662b"),
-    ("EXTRAS SOBRE PRECIO BASE", "prima_terraza_pct", "prima_terraza_vistas_pct", "#8a5a9e"),
-    ("INVERSIÓN", "facilidad_venta_1_10", "revalorizacion_1_10", "#a83c3c"),
-    ("OPERATIVA", "dependencia_coche_1_10", "debilidad_principal", "#5b6472"),
-]
-
-ANCHO_TABLA = sum(c[2] for c in TABLA)
-MARGEN = 0.45
-ANCHO_FIG = ANCHO_TABLA + 2 * MARGEN
-ALTO_TITULO = 1.9
-ALTO_MAPA = 18.0
-ALTO_FILA = 0.43
-ALTO_CABECERA = 1.35
-ALTO_PIE = 1.15
+# Raíles de etiquetas: los círculos numerados se alinean fuera de la costa y una línea los une con su ubicación real.
+RAILES_NORTE = (44.03, 44.20)     # latitudes; para municipios con lat ≥ LAT_NORTE
+RAILES_OESTE = (-9.5, -9.82)      # longitudes; costa atlántica gallega y portuguesa
+RAIL_ESTE = -7.9                  # longitud; municipios interiores (franja B del Miño, ría de Vigo, Pontevedra)
+LAT_NORTE = 43.2
+LON_INTERIOR = -8.66
+PASO_LAT, PASO_LON = 0.105, 0.14
+TAM_BADGE = 430
 
 
 def _vacio(v) -> bool:
@@ -117,64 +67,144 @@ def fmt_eur(v) -> str:
     return "—" if _vacio(v) else f"{int(v):,} €".replace(",", ".")
 
 
+def fmt_int(v) -> str:
+    return "—" if _vacio(v) else f"{int(v)}"
+
+
 def color_escala(v: float, invertir: bool = False) -> str:
     x = 11 - v if invertir else v
     if x >= 7:
-        return "#2e9e44"
+        return VERDE
     if x >= 4:
-        return "#e2a72e"
-    return "#d9542b"
+        return AMBAR
+    return ROJO
 
 
-# ----------------------------------------------------------------------------- mapa
+def envolver(texto: str, ancho_in: float, fontsize: float) -> list[str]:
+    if _vacio(texto):
+        return ["—"]
+    chars = max(6, int(ancho_in / (fontsize * 0.0079)))
+    return textwrap.wrap(str(texto), width=chars) or ["—"]
+
+
+def envolver_lista(texto: str, ancho_in: float, fontsize: float) -> list[str]:
+    """Texto con elementos separados por «;»: cada elemento empieza en su propia línea."""
+    if _vacio(texto):
+        return ["—"]
+    lineas = []
+    for parte in str(texto).split(";"):
+        lineas += envolver(parte.strip(), ancho_in, fontsize)
+    return lineas
+
+
+def distribuir(objetivos: list[float], paso: float, lo: float, hi: float) -> list[float]:
+    """Separa valores ordenados al menos «paso», manteniéndolos cerca de su objetivo y dentro de [lo, hi]."""
+    pos = list(objetivos)
+    if not pos:
+        return pos
+    for i in range(1, len(pos)):
+        pos[i] = max(pos[i], pos[i - 1] + paso)
+    exceso = pos[-1] - hi
+    if exceso > 0:
+        pos = [p - exceso for p in pos]
+    for i in range(len(pos) - 2, -1, -1):
+        pos[i] = min(pos[i], pos[i + 1] - paso)
+    if pos[0] < lo:
+        d = lo - pos[0]
+        pos = [p + d for p in pos]
+        for i in range(1, len(pos)):
+            pos[i] = max(pos[i], pos[i - 1] + paso)
+    return pos
+
+
+def posiciones_etiquetas(df) -> dict[int, tuple[float, float]]:
+    lon0, lon1, lat0, lat1 = EXTENSION
+    norte, oeste, este = [], [], []
+    for _, f in df.iterrows():
+        t = (int(f["n"]), float(f["lat"]), float(f["lon"]))
+        if t[1] >= LAT_NORTE:
+            norte.append(t)
+        elif t[2] > LON_INTERIOR:
+            este.append(t)
+        else:
+            oeste.append(t)
+    pos = {}
+    norte.sort(key=lambda t: t[2])
+    for k, rail in enumerate(RAILES_NORTE):
+        sub = norte[k::2]
+        xs = distribuir([t[2] for t in sub], PASO_LON, lon0 + 0.3, lon1 - 0.25)
+        for t, x in zip(sub, xs):
+            pos[t[0]] = (x, rail)
+    oeste.sort(key=lambda t: t[1])
+    for k, rail in enumerate(RAILES_OESTE):
+        sub = oeste[k::2]
+        ys = distribuir([t[1] for t in sub], PASO_LAT, lat0 + 0.2, LAT_NORTE + 0.15)
+        for t, y in zip(sub, ys):
+            pos[t[0]] = (rail, y)
+    este.sort(key=lambda t: t[1])
+    ys = distribuir([t[1] for t in este], PASO_LAT, lat0 + 0.3, 43.0)
+    for t, y in zip(este, ys):
+        pos[t[0]] = (RAIL_ESTE, y)
+    return pos
+
+
+def destacado(f) -> bool:
+    return int(f["hospital_min"]) <= E.HOSPITAL_DESEABLE_MIN and int(f["aeropuerto_min"]) <= E.AEROPUERTO_DESEABLE_MIN
+
+
+# ----------------------------------------------------------------------------- hoja 1: mapa
 
 def dibujar_mapa(ax, df):
     lon0, lon1, lat0, lat1 = EXTENSION
     ax.set_facecolor(MAR)
     prov = gpd.read_file(E.DIR_GEO / "provincias_norte.geojson")
     for _, p in prov.iterrows():
-        gpd.GeoSeries([p.geometry]).plot(
-            ax=ax, color=COLOR_PROVINCIA.get(p["name"], "#ececec"), edgecolor="white", linewidth=0.9,
-        )
+        gpd.GeoSeries([p.geometry]).plot(ax=ax, color=COLOR_PROVINCIA.get(p["name"], "#ececec"), edgecolor="white", linewidth=0.9)
     paises = gpd.read_file(E.DIR_GEO / "paises_norte.geojson")
     paises.boundary.plot(ax=ax, color="#7d8590", linewidth=1.3)
 
-    ax.text(-8.05, 42.72, "GALICIA", fontsize=26, weight="bold", color="#6b5d1e", ha="center", alpha=0.85)
-    ax.text(-6.0, 43.18, "ASTURIAS", fontsize=26, weight="bold", color="#3f6b2c", ha="center", alpha=0.85)
-    ax.text(-4.05, 43.22, "CANTABRIA", fontsize=24, weight="bold", color="#5a4a80", ha="center", alpha=0.85)
-    ax.text(-8.35, 41.42, "PORTUGAL", fontsize=24, weight="bold", color="#8a4f1f", ha="center", alpha=0.85)
-    ax.text(-5.3, 43.93, "Mar Cantábrico", fontsize=20, style="italic", color="#3f6f9c", ha="center")
-    ax.text(-9.35, 43.15, "Océano\nAtlántico", fontsize=20, style="italic", color="#3f6f9c", ha="center")
+    ax.text(-7.9, 42.85, "GALICIA", fontsize=26, weight="bold", color="#6b5d1e", ha="center", alpha=0.8)
+    ax.text(-6.0, 43.12, "ASTURIAS", fontsize=26, weight="bold", color="#3f6b2c", ha="center", alpha=0.8)
+    ax.text(-4.05, 43.15, "CANTABRIA", fontsize=24, weight="bold", color="#5a4a80", ha="center", alpha=0.8)
+    ax.text(-8.2, 41.35, "PORTUGAL", fontsize=24, weight="bold", color="#8a4f1f", ha="center", alpha=0.8)
+    ax.text(-5.3, 43.82, "Mar Cantábrico", fontsize=18, style="italic", color="#3f6f9c", ha="center")
+    ax.text(-9.15, 43.55, "Océano\nAtlántico", fontsize=18, style="italic", color="#3f6f9c", ha="center")
 
     for nombre, lat, lon in CIUDADES:
         ax.plot(lon, lat, marker="s", ms=7, color="#2b2f36", zorder=5)
-        ax.text(lon + 0.05, lat + 0.02, nombre, fontsize=13, color="#2b2f36", zorder=5)
-    for nombre, lat, lon in HOSPITALES:
-        ax.plot(lon, lat, marker="P", ms=13, color="#d9302e", mec="white", mew=1.2, zorder=6)
-    for nombre, lat, lon in AEROPUERTOS:
-        ax.text(lon, lat, "✈", fontsize=22, color="#1f3c68", ha="center", va="center", zorder=6)
-        ax.text(lon, lat - 0.09, f"Aeropuerto {nombre}", fontsize=10.5, color="#1f3c68", ha="center", va="top", zorder=6)
+        ax.text(lon + 0.05, lat + 0.02, nombre, fontsize=12, color="#2b2f36", zorder=5)
+    for h in E.HOSPITALES.values():
+        if h.tipo == "Púb":
+            ax.plot(h.lon, h.lat, marker="P", ms=12, color="#d9302e", mec="white", mew=1.1, zorder=6)
+        else:
+            ax.plot(h.lon, h.lat, marker="P", ms=9, color="#8a3fa0", mec="white", mew=1.0, zorder=6)
+    for a in E.AEROPUERTOS.values():
+        ax.text(a.lon, a.lat, "✈", fontsize=21, color=AZUL, ha="center", va="center", zorder=6)
+        ax.text(a.lon, a.lat - 0.085, f"{a.nombre} · Palma: {a.palma.lower()}", fontsize=9.5, color=AZUL, ha="center", va="top", zorder=6,
+                bbox=dict(boxstyle="round,pad=0.15", facecolor="white", edgecolor="none", alpha=0.75))
 
+    pos = posiciones_etiquetas(df)
     for _, f in df.iterrows():
         n = int(f["n"])
         lon, lat = float(f["lon"]), float(f["lat"])
-        elon, elat = POS_ETIQUETA[n]
+        elon, elat = pos[n]
         color = E.COLOR_CLASE[f["clase_clima"]]
-        ax.plot([lon, elon], [lat, elat], color="#4a4f57", linewidth=0.9, zorder=7, alpha=0.8)
-        ax.plot(lon, lat, marker="o", ms=6, color="#22262c", mec="white", mew=0.8, zorder=8)
-        ax.scatter([elon], [elat], s=640, color=color, edgecolor="white", linewidth=1.6, zorder=9)
-        ax.text(elon, elat, str(n), fontsize=12.5, weight="bold", color="white", ha="center", va="center", zorder=10)
+        ax.plot([lon, elon], [lat, elat], color="#4a4f57", linewidth=0.75, zorder=7, alpha=0.75)
+        ax.plot(lon, lat, marker="o", ms=5, color=TINTA, mec="white", mew=0.7, zorder=8)
+        borde = "#111111" if destacado(f) else "white"
+        ax.scatter([elon], [elat], s=TAM_BADGE, color=color, edgecolor=borde, linewidth=1.6 if borde == "white" else 2.2, zorder=9)
+        ax.text(elon, elat, str(n), fontsize=9.5, weight="bold", color="white", ha="center", va="center", zorder=10)
 
     ax.set_xlim(lon0, lon1)
     ax.set_ylim(lat0, lat1)
-    ax.set_aspect(1.36)
+    ax.set_aspect(ASPECTO)
     ax.set_xticks([])
     ax.set_yticks([])
     for s in ax.spines.values():
         s.set_edgecolor("#9aa4b1")
 
     # Escala gráfica (100 km ≈ 1,23° de longitud a 43° N)
-    x0, y0 = -3.55, 41.32
+    x0, y0 = -3.55, 41.27
     for i, km in enumerate((0, 25, 50, 75, 100)):
         x = x0 + km / 100 * 1.23
         if i < 4:
@@ -182,144 +212,359 @@ def dibujar_mapa(ax, df):
         ax.text(x, y0 + 0.08, f"{km}" + (" km" if km == 100 else ""), fontsize=11, ha="center")
 
 
-def dibujar_leyenda(ax, df, ancho_in: float, alto_in: float):
-    """Panel lateral. Las coordenadas del eje son pulgadas (x desde la izquierda, y desde arriba)."""
-    ax.set_xlim(0, ancho_in)
-    ax.set_ylim(alto_in, 0)
-    ax.axis("off")
-    ax.add_patch(FancyBboxPatch((0.1, 0.1), ancho_in - 0.2, alto_in - 0.2, boxstyle="round,pad=0.02,rounding_size=0.3",
-                                facecolor="white", edgecolor="#c8d0da", linewidth=1.4))
-    x0, xi, xt = 0.5, 0.95, 1.45
-    y = 0.65
-    ax.text(x0, y, "LEYENDA DEL MAPA", fontsize=19, weight="bold", color=AZUL, va="center")
-    y += 0.75
+class Panel:
+    """Dibujo en pulgadas dentro de un eje: x desde la izquierda, y desde arriba."""
+
+    def __init__(self, ax, ancho: float, alto: float, titulo: str | None = None):
+        self.ax, self.ancho, self.alto = ax, ancho, alto
+        ax.set_xlim(0, ancho)
+        ax.set_ylim(alto, 0)
+        ax.axis("off")
+        ax.add_patch(FancyBboxPatch((0.08, 0.08), ancho - 0.16, alto - 0.16, boxstyle="round,pad=0.02,rounding_size=0.25",
+                                    facecolor="white", edgecolor="#c8d0da", linewidth=1.3))
+        self.x0 = 0.42
+        self.y = 0.62
+        if titulo:
+            self.titulo(titulo)
+
+    def titulo(self, texto: str, fontsize: float = 17):
+        self.ax.text(self.x0, self.y, texto, fontsize=fontsize, weight="bold", color=AZUL, va="center")
+        self.y += 0.62
+
+    def subtitulo(self, texto: str):
+        self.y += 0.1
+        self.ax.text(self.x0, self.y, texto, fontsize=13.5, weight="bold", color=AZUL, va="center")
+        self.y += 0.45
+
+    def parrafo(self, etiqueta: str | None, texto: str, fontsize: float = 11.5, sangria: float = 0.0, paso: float = 0.27):
+        ancho = self.ancho - self.x0 - 0.35 - sangria
+        if etiqueta:
+            full = f"{etiqueta}: {texto}"
+            lineas = envolver(full, ancho, fontsize)
+            primera = lineas[0]
+            corte = len(etiqueta) + 1
+            t = self.ax.text(self.x0 + sangria, self.y, primera[:corte], fontsize=fontsize, weight="bold", color=TINTA, va="center")
+            # el resto de la primera línea se dibuja a continuación de la etiqueta, midiendo su anchura real
+            bb = t.get_window_extent(renderer=self.ax.figure.canvas.get_renderer())
+            x_fin = self.ax.transData.inverted().transform((bb.x1, bb.y0))[0]
+            self.ax.text(x_fin + 0.05, self.y, primera[corte:].lstrip(), fontsize=fontsize, color=TINTA, va="center")
+            self.y += paso
+            for linea in lineas[1:]:
+                self.ax.text(self.x0 + sangria, self.y, linea, fontsize=fontsize, color=TINTA, va="center")
+                self.y += paso
+        else:
+            for linea in envolver(texto, ancho, fontsize):
+                self.ax.text(self.x0 + sangria, self.y, linea, fontsize=fontsize, color=TINTA, va="center")
+                self.y += paso
+        self.y += 0.08
+
+
+def altura_parrafos(items: list[tuple[str, str]], ancho_panel: float, fontsize: float = 11.5, paso: float = 0.27) -> float:
+    ancho = ancho_panel - 0.42 - 0.35
+    total = 0.0
+    for etiqueta, texto in items:
+        total += paso * len(envolver(f"{etiqueta}: {texto}", ancho, fontsize)) + 0.08
+    return total
+
+
+def dibujar_leyenda(ax, df, ancho: float, alto: float):
+    p = Panel(ax, ancho, alto, "LEYENDA DEL MAPA")
+    xi, xt = p.x0 + 0.42, p.x0 + 0.95
     for nombre, regla, color in E.CLASES_CLIMA:
         n_mun = int((df["clase_clima"] == nombre).sum())
-        ax.scatter([xi], [y + 0.12], s=520, color=color, edgecolor="white", linewidth=1.5, zorder=3)
-        ax.text(xt, y, f"{nombre}  ({n_mun} municipios)", fontsize=15, weight="bold", color="#2b2f36", va="center")
-        ax.text(xt, y + 0.32, regla, fontsize=12.5, color=GRIS, va="center")
-        y += 0.82
-    y += 0.1
-    ax.plot(xi, y, marker="P", ms=15, color="#d9302e", mec="white", mew=1.2)
-    ax.text(xt, y, "Hospital de referencia (11)", fontsize=14.5, color="#2b2f36", va="center")
-    y += 0.48
-    ax.text(xi, y, "✈", fontsize=21, color=AZUL, ha="center", va="center")
-    ax.text(xt, y, "Aeropuerto principal (5)", fontsize=14.5, color="#2b2f36", va="center")
-    y += 0.48
-    ax.plot(xi, y, marker="s", ms=9, color="#2b2f36")
-    ax.text(xt, y, "Ciudad de referencia", fontsize=14.5, color="#2b2f36", va="center")
-    y += 0.6
-    ax.text(x0, y, "Círculo numerado = municipio (Nº de la tabla); la línea lo une con su ubicación real.",
-            fontsize=12.5, color=GRIS, va="center")
-    y += 0.85
-    ax.text(x0, y, "ESCALAS 1-10 DE LA TABLA", fontsize=16, weight="bold", color=AZUL, va="center")
-    y += 0.6
-    for color, texto in (("#2e9e44", "7-10 favorable"), ("#e2a72e", "4-6 intermedio"), ("#d9542b", "1-3 desfavorable")):
-        ax.add_patch(Rectangle((xi - 0.25, y - 0.16), 0.5, 0.32, facecolor=color))
-        ax.text(xt, y, texto, fontsize=14, color="#2b2f36", va="center")
-        y += 0.5
-    ax.text(x0, y, "Dependencia del coche: 10 = coche imprescindible; se colorea invertida (verde = poca dependencia).",
-            fontsize=12.5, color=GRIS, va="center")
-    y += 0.85
-    ax.text(x0, y, "TIPO DE DATO POR COLUMNA", fontsize=16, weight="bold", color=AZUL, va="center")
-    y += 0.6
-    tipos = {
-        E.OFICIAL: "normales climáticas AEMET / IPMA, geografía",
-        E.DERIVADO: "calculado con una regla explícita del esquema",
-        E.MERCADO: "referencia de portales inmobiliarios 2026",
-        E.CRITERIO: "escala 1-10 con criterios escritos",
-        E.TEXTO: "descripción cualitativa",
-    }
-    en_tabla = {t[0] for t in TABLA}
-    ancho_chars = int((ancho_in - x0 - 0.3) / 0.083)
-    for tipo, desc in tipos.items():
-        cols = [c.etiqueta.replace("\n", " ") for c in E.COLUMNAS if c.tipo == tipo and c.nombre in en_tabla]
-        lineas = textwrap.wrap(f"{tipo} — {desc}: {', '.join(cols)}.", width=ancho_chars)
-        for j, linea in enumerate(lineas):
-            ax.text(x0, y, linea, fontsize=11.5, color="#2b2f36" if j == 0 else GRIS, va="center")
-            y += 0.31
-        y += 0.15
+        ax.scatter([xi], [p.y + 0.1], s=430, color=color, edgecolor="white", linewidth=1.5, zorder=3)
+        ax.text(xt, p.y, f"{nombre}  ({n_mun} municipios)", fontsize=13.5, weight="bold", color=TINTA, va="center")
+        ax.text(xt, p.y + 0.28, regla, fontsize=11, color=GRIS, va="center")
+        p.y += 0.64
+    ax.scatter([xi], [p.y], s=430, color="#b9bfc7", edgecolor="#111111", linewidth=2.2, zorder=3)
+    n_dest = int(sum(destacado(f) for _, f in df.iterrows()))
+    ax.text(xt, p.y, f"Borde negro = hospital ≤ {E.HOSPITAL_DESEABLE_MIN} min y aeropuerto ≤ {E.AEROPUERTO_DESEABLE_MIN} min ({n_dest} municipios)",
+            fontsize=12, weight="bold", color=TINTA, va="center")
+    p.y += 0.42
+    ax.plot(xi, p.y, marker="P", ms=13, color="#d9302e", mec="white", mew=1.1)
+    ax.text(xt, p.y, f"Hospital público con urgencias ({sum(h.tipo == 'Púb' for h in E.HOSPITALES.values())})", fontsize=12.5, color=TINTA, va="center")
+    p.y += 0.36
+    ax.plot(xi, p.y, marker="P", ms=10, color="#8a3fa0", mec="white", mew=1.0)
+    ax.text(xt, p.y, f"Hospital privado con urgencias ({sum(h.tipo == 'Priv' for h in E.HOSPITALES.values())})", fontsize=12.5, color=TINTA, va="center")
+    p.y += 0.36
+    ax.text(xi, p.y, "✈", fontsize=19, color=AZUL, ha="center", va="center")
+    ax.text(xt, p.y, f"Aeropuerto ({len(E.AEROPUERTOS)}) y situación del vuelo directo a Palma", fontsize=12.5, color=TINTA, va="center")
+    p.y += 0.36
+    ax.plot(xi, p.y, marker="s", ms=8, color=TINTA)
+    ax.text(xt, p.y, "Ciudad de referencia", fontsize=12.5, color=TINTA, va="center")
+    p.y += 0.36
+    ax.plot(xi, p.y, marker="o", ms=6, color=TINTA, mec="white")
+    ax.text(xt, p.y, "Ubicación real del núcleo; la línea lo une con su círculo numerado (Nº de la tabla)", fontsize=12, color=GRIS, va="center")
+    p.y += 0.55
 
-    # Asignaciones acordadas, expresadas con el Nº de la tabla
-    y += 0.3
-    ax.text(x0, y, "HOSPITALES Y AEROPUERTOS ASIGNADOS (Nº de municipio)", fontsize=16, weight="bold", color=AZUL, va="center")
-    y += 0.6
+    p.subtitulo("ZONAS (Nº de la tabla · provincia · municipios)")
     num = dict(zip(df["municipio"], df["n"].astype(int)))
-    y_h = y
-    for hosp, muns in E.HOSPITALES_ACORDADOS.items():
-        nums = ", ".join(str(num[m]) for m in muns)
-        ax.text(x0, y_h, f"{hosp}:", fontsize=11.5, weight="bold", color="#2b2f36", va="center")
-        ax.text(x0 + 3.6, y_h, nums, fontsize=11.5, color=GRIS, va="center")
-        y_h += 0.28
-    x_a = ancho_in * 0.62
-    y_a = y
-    for aero, muns in E.AEROPUERTOS_ACORDADOS.items():
-        nums = ", ".join(str(num[m]) for m in muns)
-        lineas = textwrap.wrap(nums, width=int((ancho_in - x_a - 2.2) / 0.083))
-        ax.text(x_a, y_a, f"✈ {aero}:", fontsize=11.5, weight="bold", color="#2b2f36", va="center")
-        for linea in lineas:
-            ax.text(x_a + 1.7, y_a, linea, fontsize=11.5, color=GRIS, va="center")
-            y_a += 0.3
+    mitad = (len(E.ZONAS) + 1) // 2
+    ancho_col = (ancho - 2 * p.x0) / 2
+    y_ini = p.y
+    for k, (zona, prov, muns) in enumerate(E.ZONAS):
+        col, fila = divmod(k, mitad)
+        x, y = p.x0 + col * ancho_col, y_ini + fila * 0.47
+        ns = [num[m] for m in muns]
+        ax.text(x, y, f"{ns[0]}-{ns[-1]}", fontsize=12, weight="bold", color=AZUL, va="center")
+        ax.text(x + 0.7, y, zona, fontsize=12, weight="bold", color=TINTA, va="center")
+        ax.text(x + 0.7, y + 0.24, f"{prov} · {len(muns)} municipios", fontsize=10.5, color=GRIS, va="center")
+    p.y = y_ini + mitad * 0.47 + 0.1
+    cuenta = df["origen"].value_counts()
+    p.parrafo(None, "Origen de los municipios: " + " · ".join(f"{o} ({int(cuenta.get(o, 0))})" for o in E.ORIGEN)
+                    + ". Ampliación = añadidos en esta versión por cumplir la ficha.", fontsize=10.5, paso=0.25)
 
 
-# ----------------------------------------------------------------------------- tabla
+def dibujar_ficha(ax, ancho: float, alto: float):
+    p = Panel(ax, ancho, alto, "FICHA DE BÚSQUEDA (criterios acordados)")
+    for etiqueta, texto in E.FICHA_BUSQUEDA.items():
+        p.parrafo(etiqueta, texto)
 
-def dibujar_tabla(ax, df):
+
+def dibujar_portugal(ax, ancho: float, alto: float):
+    p = Panel(ax, ancho, alto, "COMPRAR EN PORTUGAL · mini resumen")
+    for etiqueta, texto in E.RESUMEN_PORTUGAL:
+        p.parrafo(etiqueta, texto)
+
+
+def dibujar_aeropuertos(ax, ancho: float, alto: float):
+    p = Panel(ax, ancho, alto, "AEROPUERTOS Y VUELO DIRECTO A PALMA")
+    color_palma = {"Todo el año": VERDE, "Casi todo el año": VERDE_CLARO, "Verano": AMBAR, "No": ROJO}
+    for a in sorted(E.AEROPUERTOS.values(), key=lambda a: (E.ORDEN_PALMA[a.palma], a.nombre)):
+        ax.add_patch(FancyBboxPatch((p.x0, p.y - 0.14), 1.55, 0.28, boxstyle="round,pad=0.01,rounding_size=0.06",
+                                    facecolor=color_palma[a.palma], edgecolor="none"))
+        ax.text(p.x0 + 0.775, p.y, a.palma, fontsize=10, weight="bold", color="white", ha="center", va="center")
+        ax.text(p.x0 + 1.7, p.y, f"{a.nombre} ({a.codigo})", fontsize=12.5, weight="bold", color=TINTA, va="center")
+        p.y += 0.28
+        for linea in envolver(a.palma_detalle, ancho - p.x0 - 2.0, 10.5):
+            ax.text(p.x0 + 1.7, p.y, linea, fontsize=10.5, color=GRIS, va="center")
+            p.y += 0.24
+        p.y += 0.14
+    p.y += 0.05
+    p.parrafo(None, "Horarios publicados en 2026; las temporadas cambian cada año y conviene comprobarlas antes de decidir. "
+                    "En la tabla, «Mejor opción Palma» elige primero el aeropuerto con conexión anual y, entre ellos, el más cercano.", fontsize=10.5, paso=0.25)
+
+
+def generar_mapa(df, dpi: int, salida=None):
+    margen, hueco = 0.45, 0.4
+    ancho_ley = 10.4
+    ancho_fig = margen * 2 + ANCHO_MAPA_IN + hueco + ancho_ley
+    alto_titulo = 1.75
+
+    # Paneles inferiores: ficha, aeropuertos-Palma y Portugal
+    ancho_util = ancho_fig - 2 * margen - 2 * hueco
+    w_ficha, w_aero = ancho_util * 0.40, ancho_util * 0.24
+    w_pt = ancho_util - w_ficha - w_aero
+    h_ficha = 1.0 + altura_parrafos(list(E.FICHA_BUSQUEDA.items()), w_ficha)
+    h_pt = 1.0 + altura_parrafos(E.RESUMEN_PORTUGAL, w_pt)
+    h_aero = 1.0 + sum(0.28 + 0.24 * len(envolver(a.palma_detalle, w_aero - 2.42, 10.5)) + 0.14 for a in E.AEROPUERTOS.values()) + 0.9
+    alto_inferior = max(h_ficha, h_pt, h_aero) + 0.2
+    alto_pie = 0.75
+    alto_fig = alto_titulo + ALTO_MAPA_IN + hueco + alto_inferior + alto_pie
+
+    fig = plt.figure(figsize=(ancho_fig, alto_fig), dpi=dpi, facecolor=FONDO)
+
+    def ejes(x_in, y_top_in, w_in, h_in):
+        return fig.add_axes([x_in / ancho_fig, 1 - (y_top_in + h_in) / alto_fig, w_in / ancho_fig, h_in / alto_fig])
+
+    fig.text(margen / ancho_fig, 1 - 0.5 / alto_fig, "MAPA 2.0", fontsize=42, weight="bold", color=AZUL, va="center")
+    fig.text((margen + 4.7) / ancho_fig, 1 - 0.5 / alto_fig,
+             f"{len(df)} MUNICIPIOS DEL NORTE DE ESPAÑA Y NORTE DE PORTUGAL A ≤ 30 MIN DE UNA PLAYA DE BAÑO",
+             fontsize=25, weight="bold", color=TINTA, va="center")
+    fig.text(margen / ancho_fig, 1 - 1.2 / alto_fig,
+             "Hoja 1 · Mapa numerado por zonas, ficha de búsqueda, aeropuertos con vuelo a Palma y resumen para comprar en Portugal  ·  "
+             "Hoja 2 · Tabla maestra completa", fontsize=16, color=GRIS, va="center")
+    fig.text(1 - margen / ancho_fig, 1 - 0.5 / alto_fig, f"{len(E.ZONAS)} zonas · {len(df)} municipios · {len(E.COLUMNAS)} columnas",
+             fontsize=15, color=GRIS, va="center", ha="right")
+    fig.text(1 - margen / ancho_fig, 1 - 1.2 / alto_fig, "Sin rankings: los colores solo aplican umbrales fijos documentados en el esquema",
+             fontsize=15, color=GRIS, va="center", ha="right")
+
+    dibujar_mapa(ejes(margen, alto_titulo, ANCHO_MAPA_IN, ALTO_MAPA_IN), df)
+    dibujar_leyenda(ejes(margen + ANCHO_MAPA_IN + hueco, alto_titulo, ancho_ley, ALTO_MAPA_IN), df, ancho_ley, ALTO_MAPA_IN)
+
+    y_inf = alto_titulo + ALTO_MAPA_IN + hueco
+    dibujar_ficha(ejes(margen, y_inf, w_ficha, alto_inferior), w_ficha, alto_inferior)
+    dibujar_aeropuertos(ejes(margen + w_ficha + hueco, y_inf, w_aero, alto_inferior), w_aero, alto_inferior)
+    dibujar_portugal(ejes(margen + w_ficha + hueco + w_aero + hueco, y_inf, w_pt, alto_inferior), w_pt, alto_inferior)
+
+    fig.text(margen / ancho_fig, 0.35 / alto_fig,
+             "Cartografía: Natural Earth 10m. Clima: normales AEMET 1991-2020 / IPMA 1981-2010 de la estación más próxima. "
+             "Tiempos en coche sin tráfico. Hospitales con urgencias 24 h, públicos y privados. Vuelos: horarios publicados 2026.",
+             fontsize=10.5, color=GRIS, va="center")
+    fig.text(1 - margen / ancho_fig, 0.35 / alto_fig, "MAPA 2.0 · hoja 1 de 2 · base de datos validada fila a fila (mapa2/validar.py)",
+             fontsize=10.5, color=GRIS, va="center", ha="right")
+
+    E.DIR_SALIDA.mkdir(exist_ok=True)
+    salida = salida or (E.DIR_SALIDA / "mapa_2_0_mapa.png")
+    fig.savefig(salida, dpi=dpi, facecolor=FONDO)
+    plt.close(fig)
+    return salida
+
+
+# ----------------------------------------------------------------------------- hoja 2: tabla
+
+# (columna, cabecera, ancho en pulgadas, alineación, formato)
+TABLA = [
+    ("n", "Nº", 0.55, "center", "badge"),
+    ("municipio", "Municipio", 2.55, "left", "bold"),
+    ("provincia", "Provincia /\ndistrito", 1.35, "left", "txt"),
+    ("origen", "Origen", 1.0, "center", "txt_s"),
+    ("sol_horas_anio", "Sol\n(h/año · d)", 1.4, "center", "sol"),
+    ("dias_despejados", "Días\ndespej.", 0.75, "center", "int"),
+    ("dias_cubiertos", "Días\ncubiertos", 0.8, "center", "int"),
+    ("lluvia_dias_anio", "Lluvia\n(días)", 0.75, "center", "int"),
+    ("lluvia_mm_anio", "Lluvia\n(mm)", 0.75, "center", "int"),
+    ("temp_verano_c", "Temp.\nver. / inv.", 1.2, "center", "temp"),
+    ("humedad_pct", "Hum.\n(%)", 0.7, "center", "pct"),
+    ("viento", "Viento", 0.8, "center", "nivel"),
+    ("niebla", "Niebla", 0.8, "center", "nivel"),
+    ("clase_clima", "Clase clima", 1.6, "center", "clase"),
+    ("min_costa", "Min.\ncosta", 0.7, "center", "int"),
+    ("playa_bano", "Playa de baño", 2.4, "left", "txt_s"),
+    ("min_bano", "Min.\nbaño", 0.65, "center", "int"),
+    ("temp_agua_verano", "Agua\nverano", 0.75, "center", "txt"),
+    ("franja", "Franja", 0.65, "center", "franja"),
+    ("servicios_1_10", "Servicios\n(1-10)", 0.85, "center", "escala"),
+    ("servicios_nota", "Servicios: qué falta / qué añade", 3.9, "left", "txt_s"),
+    ("fibra", "Fibra", 0.75, "center", "fibra"),
+    ("comunicaciones", "Comunicaciones", 3.1, "left", "txt_s"),
+    ("hospitales", "Hospitales con urgencias a ≤ 60 min  [Púb] / [Priv] · km · min", 4.9, "left", "lista"),
+    ("hospital_km", "Hosp.\nkm", 0.7, "center", "int"),
+    ("hospital_min", "Hosp.\nmin", 0.75, "center", "hosp_min"),
+    ("aeropuertos", "Aeropuertos a ≤ 120 min · km · min · vuelo a Palma", 4.5, "left", "lista"),
+    ("aeropuerto_min", "Aerop.\nmin", 0.75, "center", "aero_min"),
+    ("palma_mas_cercano", "Palma desde\nel más cercano", 1.35, "center", "palma"),
+    ("palma_mejor_opcion", "Mejor opción\nPalma", 2.35, "left", "txt_s"),
+    ("precio_m2_eur", "Precio\n€/m²", 0.9, "center", "eur"),
+    ("A_2hab_eur", "A · 2 hab\n65 m²", 1.1, "center", "eur"),
+    ("A_3hab_eur", "A · 3 hab\n90 m²", 1.1, "center", "eur"),
+    ("B_2hab_eur", "B · 2 hab\n65 m²", 1.1, "center", "eur"),
+    ("B_3hab_eur", "B · 3 hab\n90 m²", 1.1, "center", "eur"),
+    ("producto_en_presupuesto", "Entra en\n260.000 €", 2.05, "center", "producto"),
+    ("obra_nueva", "Obra\nnueva", 0.75, "center", "obra"),
+    ("prima_terraza_pct", "+ Terraza", 0.8, "center", "prima"),
+    ("prima_vistas_mar_pct", "+ Vistas\nmar", 0.8, "center", "prima"),
+    ("prima_terraza_vistas_pct", "+ Terraza\n+ vistas", 0.8, "center", "prima"),
+    ("facilidad_venta_1_10", "Facilidad\nventa", 0.85, "center", "escala"),
+    ("revalorizacion_1_10", "Revaloriz.\nesperada", 0.9, "center", "escala"),
+    ("dependencia_coche_1_10", "Depend.\ncoche", 0.85, "center", "escala_inv"),
+    ("debilidad_principal", "Debilidad principal", 4.0, "left", "txt_s"),
+    ("comparado_con_mejor", "Comparado con el mejor de la tabla\n(sol · lluvia · hospital · aeropuerto)", 3.5, "left", "txt_s"),
+    ("notas", "Notas", 3.7, "left", "txt_s"),
+]
+BLOQUES = [
+    ("IDENTIFICACIÓN", "n", "origen", "#3d5a8a"),
+    ("CLIMA", "sol_horas_anio", "clase_clima", "#2f7fb5"),
+    ("MAR", "min_costa", "franja", "#2a8f8f"),
+    ("SERVICIOS", "servicios_1_10", "comunicaciones", "#3b8c5a"),
+    ("SANIDAD", "hospitales", "hospital_min", "#b03a3a"),
+    ("AEROPUERTOS Y PALMA", "aeropuertos", "palma_mejor_opcion", "#4b5fa8"),
+    ("MERCADO  (A = ≤ 5 min costa ×1,30 · B = 5-30 min ×1,05 · 2 hab 65 m² · 3 hab 90 m²)", "precio_m2_eur", "prima_terraza_vistas_pct", "#b0662b"),
+    ("INVERSIÓN", "facilidad_venta_1_10", "revalorizacion_1_10", "#a83c3c"),
+    ("OPERATIVA", "dependencia_coche_1_10", "notas", "#5b6472"),
+]
+ANCHO_COL = {t[0]: t[2] for t in TABLA}
+ANCHO_TABLA = sum(ANCHO_COL.values())
+FS_TXT, FS_S = 10.5, 8.6
+PASO_LINEA_S = 0.155
+ALTO_FILA_MIN = 0.48
+ALTO_ZONA = 0.36
+ALTO_CABECERA = 1.5
+COLOR_NIVEL = {"Baja": VERDE, "Media": AMBAR, "Alta": ROJO}
+COLOR_FIBRA = {"Sí": VERDE, "Parcial": AMBAR, "No": ROJO}
+COLOR_OBRA = {"Sí": VERDE, "Poca": AMBAR, "No": ROJO}
+COLOR_PALMA = {"Todo el año": VERDE, "Casi todo el año": VERDE_CLARO, "Verano": AMBAR, "No": ROJO}
+COLOR_PRODUCTO = {"Sí, en ambas franjas": VERDE, "Sí en B; en A solo 2 hab": VERDE_CLARO, "Solo 2 hab": AMBAR, "Difícil": ROJO}
+
+
+def lineas_celda(col: str, v, fmt: str) -> list[str]:
+    ancho = ANCHO_COL[col] - 0.16
+    if fmt == "lista":
+        return envolver_lista(v, ancho, FS_S)
+    if fmt == "txt_s":
+        return envolver(v, ancho, FS_S)
+    return [str(v)]
+
+
+def alto_fila(f) -> float:
+    n_max = 1
+    for col, _, _, _, fmt in TABLA:
+        if fmt in ("lista", "txt_s"):
+            n_max = max(n_max, len(lineas_celda(col, f[col], fmt)))
+    return max(ALTO_FILA_MIN, n_max * PASO_LINEA_S + 0.14)
+
+
+def pastilla(ax, xc, yc, ancho, texto, color, fontsize=9.5):
+    ax.add_patch(FancyBboxPatch((xc - ancho / 2, yc - 0.135), ancho, 0.27, boxstyle="round,pad=0.01,rounding_size=0.07",
+                                facecolor=color, edgecolor="none"))
+    ax.text(xc, yc, texto, fontsize=fontsize, weight="bold", color="white", ha="center", va="center")
+
+
+def dibujar_tabla(ax, df, altos: list[float], alto_total: float):
     ax.set_xlim(0, ANCHO_TABLA)
-    n_filas = len(df)
-    alto_total = ALTO_CABECERA + n_filas * ALTO_FILA
     ax.set_ylim(alto_total, 0)
     ax.axis("off")
-
-    x_ini = {}
-    x = 0.0
+    x_ini, x = {}, 0.0
     for col, _, ancho, _, _ in TABLA:
         x_ini[col] = x
         x += ancho
 
-    # Cabecera de bloques
     for titulo, c0, c1, color in BLOQUES:
-        x0 = x_ini[c0]
-        x1 = x_ini[c1] + dict((t[0], t[2]) for t in TABLA)[c1]
-        ax.add_patch(Rectangle((x0, 0), x1 - x0, 0.42, facecolor=color, edgecolor="white", linewidth=1.5))
-        ax.text((x0 + x1) / 2, 0.21, titulo, fontsize=11.5, weight="bold", color="white", ha="center", va="center")
-    # Cabecera de columnas
-    for col, cab, ancho, alin, _ in TABLA:
+        x0, x1 = x_ini[c0], x_ini[c1] + ANCHO_COL[c1]
+        ax.add_patch(Rectangle((x0, 0), x1 - x0, 0.4, facecolor=color, edgecolor="white", linewidth=1.5))
+        ax.text((x0 + x1) / 2, 0.2, titulo, fontsize=11, weight="bold", color="white", ha="center", va="center")
+    for col, cab, ancho, _, _ in TABLA:
         x0 = x_ini[col]
-        ax.add_patch(Rectangle((x0, 0.42), ancho, ALTO_CABECERA - 0.42, facecolor="#e6ecf3", edgecolor="white", linewidth=1.5))
-        ax.text(x0 + ancho / 2, 0.42 + (ALTO_CABECERA - 0.42) / 2, cab, fontsize=10, weight="bold", color=AZUL,
+        ax.add_patch(Rectangle((x0, 0.4), ancho, ALTO_CABECERA - 0.4, facecolor="#e6ecf3", edgecolor="white", linewidth=1.5))
+        fs = 9.5 if ancho >= 1.0 else 8.6
+        lineas = []
+        for parte in cab.split("\n"):
+            lineas += envolver(parte, ancho - 0.1, fs)
+        ax.text(x0 + ancho / 2, 0.4 + (ALTO_CABECERA - 0.4) / 2, "\n".join(lineas), fontsize=fs, weight="bold", color=AZUL,
                 ha="center", va="center", linespacing=1.15)
 
+    y = ALTO_CABECERA
+    zona_actual = None
     for i, (_, f) in enumerate(df.iterrows()):
-        y0 = ALTO_CABECERA + i * ALTO_FILA
-        yc = y0 + ALTO_FILA / 2
+        if f["zona"] != zona_actual:
+            zona_actual = f["zona"]
+            ns = df.loc[df["zona"] == zona_actual, "n"].astype(int)
+            prov = next(pz for z, pz, _ in E.ZONAS if z == zona_actual)
+            ax.add_patch(Rectangle((0, y), ANCHO_TABLA, ALTO_ZONA, facecolor="#31445f", edgecolor="white", linewidth=0.8))
+            ax.text(0.15, y + ALTO_ZONA / 2, f"ZONA · {zona_actual.upper()}   ·   {prov}   ·   Nº {ns.min()}-{ns.max()}   ·   {len(ns)} municipios",
+                    fontsize=11, weight="bold", color="white", va="center")
+            y += ALTO_ZONA
+        h = altos[i]
+        yc = y + h / 2
         n = int(f["n"])
-        anadido = f["municipio"] not in E.ORIGINALES_MAPA_1
-        fondo = ("#eef6e6" if i % 2 == 0 else "#f6faf1") if anadido else ("#ffffff" if i % 2 == 0 else "#f3f5f8")
-        ax.add_patch(Rectangle((0, y0), ANCHO_TABLA, ALTO_FILA, facecolor=fondo, edgecolor="#dde3ea", linewidth=0.6))
-        if n in (28,):
-            ax.plot([0, ANCHO_TABLA], [y0, y0], color="#3b8c5a", linewidth=2.2)
+        fondo = "#ffffff" if i % 2 == 0 else "#f3f5f8"
+        if f["pais"] == "Portugal":
+            fondo = "#fdf3e7" if i % 2 == 0 else "#f9ebdb"
+        ax.add_patch(Rectangle((0, y), ANCHO_TABLA, h, facecolor=fondo, edgecolor="#dde3ea", linewidth=0.6))
 
         for col, _, ancho, alin, fmt in TABLA:
             x0 = x_ini[col]
             xt = x0 + 0.08 if alin == "left" else x0 + ancho / 2
             v = f[col]
-            kw = dict(fontsize=11, color="#22262c", ha=alin, va="center")
+            kw = dict(fontsize=FS_TXT, color=TINTA, ha=alin, va="center")
             if fmt == "badge":
-                color = E.COLOR_CLASE[f["clase_clima"]]
-                ax.add_patch(Circle((x0 + ancho / 2, yc), 0.165, facecolor=color, edgecolor="white", linewidth=1.2))
-                ax.text(x0 + ancho / 2, yc, str(n), fontsize=10.5, weight="bold", color="white", ha="center", va="center")
+                ax.scatter([x0 + ancho / 2], [yc], s=330, color=E.COLOR_CLASE[f["clase_clima"]],
+                           edgecolor="#111111" if destacado(f) else "white", linewidth=1.8 if destacado(f) else 1.2, zorder=4)
+                ax.text(x0 + ancho / 2, yc, str(n), fontsize=9, weight="bold", color="white", ha="center", va="center", zorder=5)
             elif fmt == "bold":
                 ax.text(xt, yc, str(v), weight="bold", **kw)
             elif fmt == "txt":
-                ax.text(xt, yc, str(v), **kw)
-            elif fmt == "txt_s":
-                kw["fontsize"] = 9.3
-                ax.text(xt, yc, str(v), **kw)
+                ax.text(xt, yc, "—" if _vacio(v) else str(v), **kw)
+            elif fmt in ("txt_s", "lista"):
+                lineas = lineas_celda(col, v, fmt)
+                y_txt = yc - (len(lineas) - 1) * PASO_LINEA_S / 2
+                for linea in lineas:
+                    ax.text(xt, y_txt, linea, fontsize=FS_S, color=TINTA if not _vacio(v) else GRIS, ha=alin, va="center")
+                    y_txt += PASO_LINEA_S
             elif fmt == "sol":
                 ax.text(xt, yc, f"{int(v):,} h · {int(f['sol_dias_equiv'])} d".replace(",", "."), **kw)
             elif fmt == "int":
-                ax.text(xt, yc, "—" if _vacio(v) else f"{int(v)}", **kw)
+                ax.text(xt, yc, fmt_int(v), **kw)
             elif fmt == "temp":
                 ax.text(xt, yc, f"{f['temp_verano_c']:.1f}° / {f['temp_invierno_c']:.1f}°", **kw)
             elif fmt == "pct":
@@ -329,84 +574,118 @@ def dibujar_tabla(ax, df):
             elif fmt == "prima":
                 ax.text(xt, yc, "—" if _vacio(v) else f"+{int(v)} %", **kw)
             elif fmt in ("escala", "escala_inv"):
-                color = color_escala(float(v), invertir=(fmt == "escala_inv"))
-                ax.add_patch(FancyBboxPatch((x0 + ancho / 2 - 0.2, yc - 0.15), 0.4, 0.3, boxstyle="round,pad=0.01,rounding_size=0.08",
-                                            facecolor=color, edgecolor="none"))
-                ax.text(x0 + ancho / 2, yc, str(int(v)), fontsize=10.5, weight="bold", color="white", ha="center", va="center")
+                pastilla(ax, x0 + ancho / 2, yc, 0.4, str(int(v)), color_escala(float(v), invertir=(fmt == "escala_inv")))
+            elif fmt == "nivel":
+                pastilla(ax, x0 + ancho / 2, yc, ancho - 0.14, str(v), COLOR_NIVEL[v], 9)
+            elif fmt == "fibra":
+                pastilla(ax, x0 + ancho / 2, yc, ancho - 0.14, str(v), COLOR_FIBRA[v], 9)
+            elif fmt == "obra":
+                pastilla(ax, x0 + ancho / 2, yc, ancho - 0.14, str(v), COLOR_OBRA[v], 9)
+            elif fmt == "palma":
+                pastilla(ax, x0 + ancho / 2, yc, ancho - 0.12, str(v), COLOR_PALMA[v], 8.6)
+            elif fmt == "producto":
+                pastilla(ax, x0 + ancho / 2, yc, ancho - 0.12, str(v), COLOR_PRODUCTO[v], 8.6)
+            elif fmt == "clase":
+                pastilla(ax, x0 + ancho / 2, yc, ancho - 0.12, str(v), E.COLOR_CLASE[v], 8.6)
+            elif fmt == "franja":
+                ax.text(xt, yc, str(v), weight="bold", color=AZUL if v == "A" else "#7a5a2e", fontsize=FS_TXT, ha="center", va="center")
+            elif fmt in ("hosp_min", "aero_min"):
+                umbral = E.HOSPITAL_DESEABLE_MIN if fmt == "hosp_min" else E.AEROPUERTO_DESEABLE_MIN
+                if int(v) <= umbral:
+                    ax.add_patch(Rectangle((x0 + 0.03, y + 0.03), ancho - 0.06, h - 0.06, facecolor=DESTACADO, edgecolor="none"))
+                    ax.text(xt, yc, str(int(v)), weight="bold", color="#1d6b2f", fontsize=FS_TXT, ha="center", va="center")
+                else:
+                    ax.text(xt, yc, str(int(v)), **kw)
+        y += h
 
-    # Líneas verticales de separación de bloques
-    for _, c0, _, color in BLOQUES[1:]:
+    for _, c0, _, _ in BLOQUES[1:]:
         ax.plot([x_ini[c0], x_ini[c0]], [0, alto_total], color="#b7c1cd", linewidth=1.2)
     ax.add_patch(Rectangle((0, 0), ANCHO_TABLA, alto_total, fill=False, edgecolor="#9aa4b1", linewidth=1.2))
 
 
-# ----------------------------------------------------------------------------- composición
+def generar_tabla(df, dpi: int, salida=None):
+    margen = 0.45
+    ancho_fig = ANCHO_TABLA + 2 * margen
+    alto_titulo = 1.7
+    alto_pie = 2.1
+    altos = [alto_fila(f) for _, f in df.iterrows()]
+    alto_total = ALTO_CABECERA + sum(altos) + ALTO_ZONA * len(E.ZONAS)
+    alto_fig = alto_titulo + alto_total + alto_pie
+    fig = plt.figure(figsize=(ancho_fig, alto_fig), dpi=dpi, facecolor=FONDO)
 
-def generar(dpi: int = 120, salida=None):
-    df = cargar()
-    estructura, filas = validar(df)
-    errores = len(estructura) + sum(len(f.errores) for f in filas)
-    if errores:
-        raise SystemExit(f"La tabla tiene {errores} errores de validación; corrige data/municipios.csv antes de renderizar.")
+    fig.text(margen / ancho_fig, 1 - 0.5 / alto_fig, "MAPA 2.0 · TABLA MAESTRA", fontsize=40, weight="bold", color=AZUL, va="center")
+    fig.text((margen + 12.6) / ancho_fig, 1 - 0.5 / alto_fig,
+             f"{len(df)} municipios · {len(E.ZONAS)} zonas · {len(TABLA)} columnas visibles · hoja 2 de 2",
+             fontsize=22, weight="bold", color=TINTA, va="center")
+    fig.text(margen / ancho_fig, 1 - 1.15 / alto_fig,
+             "Orden por zonas de sur a norte y de oeste a este; Portugal al final (filas en tono naranja). Nº = círculo del mapa (color = clase clima; borde negro = hospital ≤ 30 min y aeropuerto ≤ 60 min). "
+             "Celdas verdes en «Hosp. min» y «Aerop. min» = dentro de lo deseable. Sin rankings: colores por umbrales fijos.",
+             fontsize=13.5, color=GRIS, va="center")
 
-    alto_tabla = ALTO_CABECERA + len(df) * ALTO_FILA
-    alto_fig = ALTO_TITULO + ALTO_MAPA + 0.35 + alto_tabla + ALTO_PIE
-    fig = plt.figure(figsize=(ANCHO_FIG, alto_fig), dpi=dpi, facecolor=FONDO)
+    ax = fig.add_axes([margen / ancho_fig, alto_pie / alto_fig, ANCHO_TABLA / ancho_fig, alto_total / alto_fig])
+    dibujar_tabla(ax, df, altos, alto_total)
 
-    def ejes(x_in, y_top_in, w_in, h_in):
-        return fig.add_axes([x_in / ANCHO_FIG, 1 - (y_top_in + h_in) / alto_fig, w_in / ANCHO_FIG, h_in / alto_fig])
-
-    # Título
-    fig.text(MARGEN / ANCHO_FIG, 1 - 0.55 / alto_fig, "MAPA 2.0", fontsize=44, weight="bold", color=AZUL, va="center")
-    fig.text((MARGEN + 4.9) / ANCHO_FIG, 1 - 0.55 / alto_fig,
-             "41 MUNICIPIOS DEL NORTE DE ESPAÑA Y NORTE DE PORTUGAL A MENOS DE 30 MINUTOS DE UNA PLAYA",
-             fontsize=27, weight="bold", color="#2b2f36", va="center")
-    fig.text(MARGEN / ANCHO_FIG, 1 - 1.25 / alto_fig,
-             "Tabla maestra completa · Compra de vivienda · Residencia habitual · Jubilación · Calidad de vida · Potencial inmobiliario",
-             fontsize=18, color=GRIS, va="center")
-    fig.text(1 - MARGEN / ANCHO_FIG, 1 - 0.55 / alto_fig,
-             f"{len(df)} municipios · {len(TABLA)} columnas · 27 del MAPA 1.0 + 14 añadidos (filas en verde)",
-             fontsize=15, color=GRIS, va="center", ha="right")
-    fig.text(1 - MARGEN / ANCHO_FIG, 1 - 1.25 / alto_fig,
-             "Sin rankings: los colores solo aplican umbrales fijos documentados en el esquema",
-             fontsize=15, color=GRIS, va="center", ha="right")
-
-    # Mapa y leyenda
-    ancho_mapa = ALTO_MAPA * (EXTENSION[1] - EXTENSION[0]) / (EXTENSION[3] - EXTENSION[2]) / 1.36
-    ax_mapa = ejes(MARGEN, ALTO_TITULO, ancho_mapa, ALTO_MAPA)
-    dibujar_mapa(ax_mapa, df)
-    ancho_ley = ANCHO_TABLA - ancho_mapa - 0.4
-    ax_ley = ejes(MARGEN + ancho_mapa + 0.4, ALTO_TITULO, ancho_ley, ALTO_MAPA)
-    dibujar_leyenda(ax_ley, df, ancho_ley, ALTO_MAPA)
-
-    # Tabla
-    ax_tabla = ejes(MARGEN, ALTO_TITULO + ALTO_MAPA + 0.35, ANCHO_TABLA, alto_tabla)
-    dibujar_tabla(ax_tabla, df)
-
-    # Pie
-    pie = (
-        "Fuentes: normales climáticas AEMET (1991-2020) e IPMA (1981-2010) de la estación más próxima; tiempos de desplazamiento en coche sin tráfico; "
-        "precios medios de vivienda usada en portales inmobiliarios (Idealista, Fotocasa, Idealista PT), 2026, redondeados. "
-        "Las viviendas de referencia se derivan del €/m² con reglas fijas (costa ×1,10; interior 20-30 min ×0,75). "
-        "«—» = no aplicable (núcleo sin playa a ≤ 5 min o municipio sin costa). Hospitales y aeropuertos: asignación acordada del proyecto."
+    tipos = {
+        E.OFICIAL: "normales climáticas AEMET / IPMA, geografía, horarios publicados",
+        E.DERIVADO: "calculado con una regla explícita del esquema (mapa2/esquema.py)",
+        E.MERCADO: "referencia de portales inmobiliarios 2026, redondeada",
+        E.CRITERIO: "escala o categoría asignada con criterios escritos en el diccionario",
+        E.TEXTO: "descripción cualitativa",
+    }
+    en_tabla = {t[0] for t in TABLA}
+    y = alto_pie - 0.25
+    ax_pie = fig.add_axes([margen / ancho_fig, 0, ANCHO_TABLA / ancho_fig, alto_pie / alto_fig])
+    ax_pie.set_xlim(0, ANCHO_TABLA)
+    ax_pie.set_ylim(0, alto_pie)
+    ax_pie.axis("off")
+    ax_pie.text(0, y, "TIPO DE DATO POR COLUMNA", fontsize=12, weight="bold", color=AZUL, va="center")
+    y -= 0.3
+    for tipo, desc in tipos.items():
+        cols = [c.etiqueta.replace("\n", " ") for c in E.COLUMNAS if c.tipo == tipo and c.nombre in en_tabla]
+        ax_pie.text(0, y, f"{tipo} — {desc}: ", fontsize=10.5, weight="bold", color=TINTA, va="center")
+        ax_pie.text(9.2, y, ", ".join(cols) + ".", fontsize=10.5, color=GRIS, va="center")
+        y -= 0.27
+    y -= 0.08
+    reglas = (
+        f"Reglas: sol (d) = h/8 · clase clima: {'; '.join(f'{n} = {r}' for n, r, _ in E.CLASES_CLIMA)} · franja A si costa ≤ {E.MAX_MIN_COSTA_FRANJA_A} min · "
+        f"precios A = €/m² × m² × {E.FACTOR_A:.2f}, B = €/m² × m² × {E.FACTOR_B:.2f} (redondeo 100 €) · «—» = no aplicable (columnas A vacías en franja B; vistas al mar vacías sin mar visible) · "
+        "km y min por carretera estimados desde la distancia en línea recta con factores fijos y correcciones manuales en rías y frontera · "
+        "hospitales de otro país marcados «fuera del SNS» y no cuentan como más cercano · Comparado con el mejor: diferencia frente al mejor valor de la tabla (− peor en sol; + peor en lluvia, hospital y aeropuerto)."
     )
-    fig.text(MARGEN / ANCHO_FIG, 0.55 / alto_fig, pie, fontsize=11, color=GRIS, va="center", wrap=True)
-    fig.text(1 - MARGEN / ANCHO_FIG, 0.2 / alto_fig, "MAPA 2.0 · base de datos validada fila a fila (mapa2/validar.py)",
-             fontsize=11, color=GRIS, va="center", ha="right")
+    for linea in textwrap.wrap(reglas, width=int(ANCHO_TABLA / (10.5 * 0.0079))):
+        ax_pie.text(0, y, linea, fontsize=10.5, color=GRIS, va="center")
+        y -= 0.26
 
     E.DIR_SALIDA.mkdir(exist_ok=True)
-    salida = salida or (E.DIR_SALIDA / "mapa_2_0.png")
+    salida = salida or (E.DIR_SALIDA / "mapa_2_0_tabla.png")
     fig.savefig(salida, dpi=dpi, facecolor=FONDO)
     plt.close(fig)
     return salida
 
 
+# ----------------------------------------------------------------------------- composición
+
+def generar(dpi: int = 110, solo: str | None = None) -> list:
+    df = cargar()
+    estructura, filas = validar(df)
+    errores = len(estructura) + sum(len(f.errores) for f in filas)
+    if errores:
+        raise SystemExit(f"La tabla tiene {errores} errores de validación; corrige data/municipios.csv antes de renderizar.")
+    salidas = []
+    if solo in (None, "mapa"):
+        salidas.append(generar_mapa(df, dpi))
+    if solo in (None, "tabla"):
+        salidas.append(generar_tabla(df, dpi))
+    return salidas
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--dpi", type=int, default=120)
+    ap.add_argument("--dpi", type=int, default=110)
+    ap.add_argument("--solo", choices=("mapa", "tabla"))
     args = ap.parse_args(argv)
-    ruta = generar(dpi=args.dpi)
-    print(f"Imagen escrita en {ruta.relative_to(E.RAIZ)}")
+    for ruta in generar(dpi=args.dpi, solo=args.solo):
+        print(f"Imagen escrita en {ruta.relative_to(E.RAIZ)}")
     return 0
 
 

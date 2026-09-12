@@ -27,10 +27,13 @@ franja;Mar;Franja;;DERIVADO;sí;;;A | B;"A si el núcleo está a ≤ 5 min de la
 servicios_1_10;Servicios;Servicios (1-10);1-10;CRITERIO;sí;1.0;10.0;;"1-2 aldea sin comercio diario; 3-4 villa con lo básico (farmacia, centro de salud, supermercado, cafeterías); 5-6 villa completa con institutos y comercio; 7-8 cabecera comarcal; 9-10 ciudad con hospital y todo tipo de servicios."
 servicios_nota;Servicios;Falta / añade;;TEXTO;sí;;;;Qué falta importante o qué añade relevante respecto a la escala.
 fibra;Servicios;Fibra;;CRITERIO;sí;;;Sí | Parcial | No;Sí: fibra óptica en el núcleo y en la mayoría del municipio. Parcial: fibra en el casco, parroquias con 4G/5G o satélite. No: sin fibra.
-comunicaciones;Servicios;Comunicaciones;;TEXTO;sí;;;;"Vías principales; tren/bus/barco disponibles."
+comunicaciones;Servicios;Comunicaciones (detalle);;TEXTO;sí;;;;"Vías principales; tren/bus/barco disponibles."
+comunicaciones_1_10;Servicios;Comunicaciones (1-10);1-10;CRITERIO;sí;1.0;10.0;;"9-10 autopista/autovía inmediata + tren o metro + aeropuerto cerca (ciudades); 7-8 autopista a ≤ 10 min y tren o bus frecuente; 5-6 autopista a 10-20 min o solo tren regional + nacional; 3-4 solo carretera nacional/comarcal y bus; 1-2 aislado, bus escaso."
 hospitales;Sanidad;Hospitales (km · min);;DERIVADO;sí;;;;"Hospitales con urgencias 24 h a ≤ 60 min, públicos [Púb] y privados [Priv], con km por carretera y minutos; el más cercano primero."
 hospital_km;Sanidad;Hospital más cercano (km);km;DERIVADO;sí;0.0;120.0;;Kilómetros por carretera al hospital más cercano.
 hospital_min;Sanidad;Hospital más cercano (min);min;DERIVADO;sí;0.0;90.0;;"Minutos en coche al hospital más cercano. Deseable ≤ 30; máximo del proyecto 60."
+hospital_pub;Sanidad;Hospital público km · min;;DERIVADO;sí;;;;Hospital público con urgencias más cercano del propio país: «km · min · nombre». Se destaca si ≤ 30 min.
+hospital_priv;Sanidad;Hospital privado km · min;;DERIVADO;no;;;;Hospital privado con urgencias más cercano a ≤ 60 min (del propio país): «km · min · nombre». Vacío si no hay ninguno.
 aeropuertos;Aeropuertos;Aeropuertos (km · min · Palma);;DERIVADO;sí;;;;Los 2-3 aeropuertos más cercanos con km, minutos y si tienen vuelo directo a Palma.
 aeropuerto_min;Aeropuertos;Aeropuerto más cercano (min);min;DERIVADO;sí;0.0;150.0;;"Minutos en coche al aeropuerto más cercano. Deseable ≤ 60; aceptable hasta 120."
 palma_mas_cercano;Aeropuertos;Palma desde el más cercano;;OFICIAL;sí;;;Todo el año | Casi todo el año | Verano | No;Vuelo directo a Palma desde el aeropuerto más cercano (horarios publicados 2026).
@@ -48,6 +51,5 @@ prima_terraza_vistas_pct;Mercado;+ Terraza + vistas;%;MERCADO;no;0.0;50.0;;Sobre
 facilidad_venta_1_10;Inversión;Facilidad de venta (1-10);1-10;CRITERIO;sí;1.0;10.0;;"Liquidez: 1-3 muy pocas operaciones/año; 4-6 mercado local activo; 7-8 demanda estable de fuera; 9-10 demanda urbana continua."
 revalorizacion_1_10;Inversión;Revalorización esperada (1-10);1-10;CRITERIO;sí;1.0;10.0;;Expectativa a 10 años según demografía, demanda externa, suelo y precio actual. 5 = mantiene valor real.
 dependencia_coche_1_10;Operativa;Dependencia coche (1-10);1-10;CRITERIO;sí;1.0;10.0;;"10 = coche imprescindible para todo; 1 = vida diaria completa a pie/transporte público."
-debilidad_principal;Operativa;Debilidad principal;;TEXTO;sí;;;;El punto débil más relevante para residencia habitual o jubilación.
+debilidad_principal;Operativa;Puntos débiles y observaciones;;TEXTO;sí;;;;"Primero el punto débil principal (juicio escrito); si el núcleo está en franja B, la explicación («Franja B: …»); después, separados por «·», los hechos de la propia fila que juegan en contra: hospital > 30 min, aeropuerto > 60 min, vuelo a Palma solo en verano, sol y lluvia frente al mejor de la tabla, viento/niebla, fibra, obra nueva, precio de 3 hab en franja A por encima del presupuesto, servicios limitados, dependencia del coche."
 comparado_con_mejor;Operativa;Comparado con el mejor;;DERIVADO;sí;;;;Diferencia frente al mejor valor de la tabla en los cuatro criterios prioritarios: sol, días de lluvia, minutos a hospital y minutos a aeropuerto.
-notas;Operativa;Notas;;TEXTO;no;;;;Aclaraciones de la fila.

@@ -99,11 +99,14 @@ COLUMNAS: list[Columna] = [
     Columna("servicios_1_10", "Servicios", "Servicios (1-10)", "1-10", CRITERIO, "1-2 aldea sin comercio diario; 3-4 villa con lo básico (farmacia, centro de salud, supermercado, cafeterías); 5-6 villa completa con institutos y comercio; 7-8 cabecera comarcal; 9-10 ciudad con hospital y todo tipo de servicios.", minimo=1, maximo=10),
     Columna("servicios_nota", "Servicios", "Falta / añade", "", TEXTO, "Qué falta importante o qué añade relevante respecto a la escala."),
     Columna("fibra", "Servicios", "Fibra", "", CRITERIO, "Sí: fibra óptica en el núcleo y en la mayoría del municipio. Parcial: fibra en el casco, parroquias con 4G/5G o satélite. No: sin fibra.", valores=FIBRA),
-    Columna("comunicaciones", "Servicios", "Comunicaciones", "", TEXTO, "Vías principales; tren/bus/barco disponibles."),
+    Columna("comunicaciones", "Servicios", "Comunicaciones (detalle)", "", TEXTO, "Vías principales; tren/bus/barco disponibles."),
+    Columna("comunicaciones_1_10", "Servicios", "Comunicaciones (1-10)", "1-10", CRITERIO, "9-10 autopista/autovía inmediata + tren o metro + aeropuerto cerca (ciudades); 7-8 autopista a ≤ 10 min y tren o bus frecuente; 5-6 autopista a 10-20 min o solo tren regional + nacional; 3-4 solo carretera nacional/comarcal y bus; 1-2 aislado, bus escaso.", minimo=1, maximo=10),
     # ---- Sanidad
     Columna("hospitales", "Sanidad", "Hospitales (km · min)", "", DERIVADO, "Hospitales con urgencias 24 h a ≤ 60 min, públicos [Púb] y privados [Priv], con km por carretera y minutos; el más cercano primero."),
     Columna("hospital_km", "Sanidad", "Hospital más cercano (km)", "km", DERIVADO, "Kilómetros por carretera al hospital más cercano.", minimo=0, maximo=120),
     Columna("hospital_min", "Sanidad", "Hospital más cercano (min)", "min", DERIVADO, "Minutos en coche al hospital más cercano. Deseable ≤ 30; máximo del proyecto 60.", minimo=0, maximo=90),
+    Columna("hospital_pub", "Sanidad", "Hospital público\nkm · min", "", DERIVADO, "Hospital público con urgencias más cercano del propio país: «km · min · nombre». Se destaca si ≤ 30 min."),
+    Columna("hospital_priv", "Sanidad", "Hospital privado\nkm · min", "", DERIVADO, "Hospital privado con urgencias más cercano a ≤ 60 min (del propio país): «km · min · nombre». Vacío si no hay ninguno.", obligatoria=False),
     # ---- Aeropuertos
     Columna("aeropuertos", "Aeropuertos", "Aeropuertos (km · min · Palma)", "", DERIVADO, "Los 2-3 aeropuertos más cercanos con km, minutos y si tienen vuelo directo a Palma."),
     Columna("aeropuerto_min", "Aeropuertos", "Aeropuerto más cercano (min)", "min", DERIVADO, "Minutos en coche al aeropuerto más cercano. Deseable ≤ 60; aceptable hasta 120.", minimo=0, maximo=150),
@@ -125,9 +128,8 @@ COLUMNAS: list[Columna] = [
     Columna("revalorizacion_1_10", "Inversión", "Revalorización esperada (1-10)", "1-10", CRITERIO, "Expectativa a 10 años según demografía, demanda externa, suelo y precio actual. 5 = mantiene valor real.", minimo=1, maximo=10),
     # ---- Operativa
     Columna("dependencia_coche_1_10", "Operativa", "Dependencia coche (1-10)", "1-10", CRITERIO, "10 = coche imprescindible para todo; 1 = vida diaria completa a pie/transporte público.", minimo=1, maximo=10),
-    Columna("debilidad_principal", "Operativa", "Debilidad principal", "", TEXTO, "El punto débil más relevante para residencia habitual o jubilación."),
+    Columna("debilidad_principal", "Operativa", "Puntos débiles y observaciones", "", TEXTO, "Primero el punto débil principal (juicio escrito); si el núcleo está en franja B, la explicación («Franja B: …»); después, separados por «·», los hechos de la propia fila que juegan en contra: hospital > 30 min, aeropuerto > 60 min, vuelo a Palma solo en verano, sol y lluvia frente al mejor de la tabla, viento/niebla, fibra, obra nueva, precio de 3 hab en franja A por encima del presupuesto, servicios limitados, dependencia del coche."),
     Columna("comparado_con_mejor", "Operativa", "Comparado con el mejor", "", DERIVADO, "Diferencia frente al mejor valor de la tabla en los cuatro criterios prioritarios: sol, días de lluvia, minutos a hospital y minutos a aeropuerto."),
-    Columna("notas", "Operativa", "Notas", "", TEXTO, "Aclaraciones de la fila.", obligatoria=False),
 ]
 COLUMNAS_POR_NOMBRE = {c.nombre: c for c in COLUMNAS}
 

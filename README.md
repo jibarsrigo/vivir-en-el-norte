@@ -2,7 +2,7 @@
 
 Base de datos comparativa de **83 municipios costeros del norte de España y del norte de Portugal a ≤ 30 minutos de una playa de baño**, ordenados en **16 zonas** (de sur a norte y de oeste a este, Portugal al final), para comprar una vivienda de residencia habitual y jubilación.
 
-El repositorio contiene la **tabla maestra completa** (83 filas × 52 columnas), el **validador fila a fila** que la comprueba contra el esquema cerrado del proyecto y el **generador de las dos hojas** finales: hoja 1 mapa y hoja 2 tabla.
+El repositorio contiene la **tabla maestra completa** (83 filas × 54 columnas), el **validador fila a fila** que la comprueba contra el esquema cerrado del proyecto y el **generador de las tres hojas** finales: hoja 1 mapa, hoja 2 tabla maestra (columnas de decisión) y hoja 3 tabla 2 (comparativa, Palma, presupuesto, sobreprecios y detalle).
 
 No hay rankings ni resúmenes: los únicos colores de las hojas son umbrales fijos documentados en `mapa2/esquema.py`.
 
@@ -50,16 +50,17 @@ Columna `origen`: **MAPA 1.0** (27 municipios de la versión anterior), **MAPA 2
 
 | Ruta | Qué es |
 |---|---|
-| `data/municipios.csv` | **Tabla maestra** (fuente de verdad). 83 filas × 52 columnas, separador `;`, UTF-8. |
+| `data/municipios.csv` | **Tabla maestra** (fuente de verdad). 83 filas × 54 columnas, separador `;`, UTF-8. |
 | `data/diccionario_columnas.csv` | Definición, unidad, tipo de dato, rango y valores admitidos de cada columna (generado desde el esquema). |
 | `data/geo/*.geojson` | Cartografía base (Natural Earth 10 m) recortada al norte peninsular. |
 | `mapa2/esquema.py` | Ficha de búsqueda, columnas, zonas, hospitales (33, públicos y privados), aeropuertos (7) con su situación de vuelo a Palma, umbrales y reglas de cálculo, resumen Portugal. |
 | `mapa2/validar.py` | Validación fila a fila. Falla si algo no cuadra con el esquema. |
-| `mapa2/render.py` | Genera las dos hojas PNG. Se niega a renderizar si la tabla no valida. |
+| `mapa2/render.py` | Genera las tres hojas (PNG y, con `--pdf`, PDF vectorial por hoja + PDF completo). Se niega a renderizar si la tabla no valida. |
 | `mapa2/exportar.py` | Exporta a Excel (`output/tabla_maestra_mapa_2_0.xlsx`, 7 hojas) y regenera el diccionario. |
 | `output/mapa_2_0_mapa.png` | **Hoja 1**: mapa numerado, leyenda, zonas, ficha de búsqueda, aeropuertos-Palma y mini resumen para comprar en Portugal. |
-| `output/mapa_2_0_tabla.png` | **Hoja 2**: tabla maestra completa (83 filas, 46 columnas visibles, cabeceras por zona). |
-| `output/mapa_2_0_mapa.pdf` · `output/mapa_2_0_tabla.pdf` | Las mismas dos hojas en **PDF vectorial**: zoom sin pérdida, ideal para verlas en el móvil (< 250 KB cada una). |
+| `output/mapa_2_0_tabla.png` | **Hoja 2**: tabla maestra compacta (83 filas, 32 columnas de decisión, cabeceras por zona, explicación de columnas al pie). |
+| `output/mapa_2_0_tabla2.png` | **Hoja 3**: tabla 2 con la comparativa frente al mejor, vuelo a Palma, qué entra en 260.000 €, sobreprecios y detalle de comunicaciones y hospitales. |
+| `output/mapa_2_0_completo.pdf` | Las tres hojas en un solo **PDF vectorial** (3 páginas, zoom sin pérdida). También una por una: `mapa_2_0_mapa.pdf`, `mapa_2_0_tabla.pdf`, `mapa_2_0_tabla2.pdf`. |
 | `output/informe_validacion.md` | Resultado de la última validación, fila a fila y columna a columna. |
 
 ## Cómo ejecutarlo
@@ -69,8 +70,8 @@ python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
 python -m mapa2.validar --informe   # valida las 83 filas y escribe output/informe_validacion.md
-python -m mapa2.render              # genera output/mapa_2_0_mapa.png y output/mapa_2_0_tabla.png
-python -m mapa2.render --pdf        # además, las dos hojas en PDF vectorial
+python -m mapa2.render              # genera las tres hojas PNG en output/
+python -m mapa2.render --pdf        # además, PDF vectorial por hoja y output/mapa_2_0_completo.pdf (3 páginas)
 python -m mapa2.exportar            # genera el Excel y data/diccionario_columnas.csv
 ```
 
@@ -84,9 +85,9 @@ Para cambiar un dato: edita `data/municipios.csv`, vuelve a ejecutar `validar` y
 
 **Mar**: Minutos a costa abierta · Playa de baño (agua apta y tranquila) · Minutos a la playa de baño (≤ 30) · Temperatura del agua en verano · Franja A/B
 
-**Servicios**: Servicios (1-10) · Qué falta / qué añade · Fibra (Sí/Parcial/No) · Comunicaciones
+**Servicios**: Servicios (1-10) · Qué falta / qué añade (solo lo relevante) · Fibra (Sí/Parcial/No) · Comunicaciones (1-10: 9-10 autopista + tren/metro + aeropuerto; 7-8 autopista ≤ 10 min y tren o bus frecuente; 5-6 autopista a 10-20 min o tren regional; 3-4 nacional/comarcal; 1-2 aislado) · Comunicaciones (detalle)
 
-**Sanidad**: Hospitales con urgencias a ≤ 60 min, públicos [Púb] y privados [Priv], con km y minutos (hasta 4, el más cercano primero) · Km y minutos al más cercano del propio país
+**Sanidad**: Hospital público más cercano (km · min · nombre) · Hospital privado más cercano a ≤ 60 min (km · min · nombre; vacío si no hay) · Lista completa de hospitales con urgencias a ≤ 60 min, públicos [Púb] y privados [Priv] (hasta 4) · Km y minutos al más cercano del propio país
 
 **Aeropuertos**: 2-3 aeropuertos a ≤ 120 min con km, minutos y vuelo directo a Palma · Minutos al más cercano · Palma desde el más cercano · Mejor opción Palma (conexión anual primero, luego el más cercano)
 
@@ -94,7 +95,7 @@ Para cambiar un dato: edita `data/municipios.csv`, vuelve a ejecutar `validar` y
 
 **Inversión**: Facilidad de venta (1-10) · Revalorización esperada (1-10)
 
-**Operativa**: Dependencia del coche (1-10) · Debilidad principal · Comparado con el mejor · Notas
+**Operativa**: Dependencia del coche (1-10) · Puntos débiles y observaciones (juicio principal + explicación de la franja B + «Además:» con los hechos de la fila que juegan en contra) · Comparado con el mejor
 
 ### Vuelo directo a Palma (horarios publicados 2026)
 
@@ -121,11 +122,16 @@ Para cambiar un dato: edita `data/municipios.csv`, vuelve a ejecutar `validar` y
 ### Reglas de cálculo
 
 - **Clase clima**: *Más favorable* = sol ≥ 2.400 h y ≤ 120 días de lluvia · *Favorable* = sol ≥ 2.200 h y ≤ 130 días · *Intermedio* = sol ≥ 1.850 h · *Más húmedo / nublado* = resto.
-- **Franja**: A si el núcleo está a ≤ 5 min de la costa; B entre 5 y 30 min. Las columnas de precio A quedan en «—» en franja B y la justificación va en `notas`.
+- **Franja**: A si el núcleo está a ≤ 5 min de la costa; B entre 5 y 30 min. Las columnas de precio A quedan en «—» en franja B y la explicación («Franja B: …») va en «Puntos débiles y observaciones».
 - **Precios de referencia**: 2 hab = 65 m², 3 hab = 90 m². Franja A = €/m² × m² × 1,30 (reciente, vistas, exterior, a ≤ 5 min de la costa); franja B = €/m² × m² × 1,05. Redondeo a 100 €. **Entra en 260.000 €**: *Sí, en ambas franjas* si A 3 hab ≤ 260.000; *Sí en B; en A solo 2 hab*; *Solo 2 hab*; *Difícil*.
 - **Km y minutos por carretera**: estimados desde la distancia en línea recta (hospital ×1,30 a 60 km/h + 3 min; aeropuerto ×1,22 a 85 km/h + 5 min), redondeados a 5 min, con correcciones manuales donde una ría o la frontera alargan el trayecto. Los hospitales de otro país se muestran marcados «fuera del SNS» y no cuentan como más cercano.
 - **Comparado con el mejor**: diferencia frente al mejor valor de toda la tabla en sol (h), días de lluvia, minutos a hospital y minutos a aeropuerto.
 - Sin prima de vistas al mar (municipios sin mar visible): Tui, Tomiño, Valença, Vila Nova de Cerveira, Ponte de Lima.
+
+### Qué hay en cada hoja
+
+- **Hoja 2 · Tabla maestra**: Nº y municipio; clima (sol, despejados, cubiertos, lluvia, temperaturas, humedad, viento, niebla); mar (costa abierta con franja A/B y minutos, playa de baño, minutos, agua); servicios (1-10, qué falta / añade, fibra, comunicaciones 1-10); hospital público y privado más cercanos (km · min); aeropuertos a ≤ 2 h con vuelo a Palma (★ = mejor opción Palma); precios A/B; obra nueva; facilidad de venta; revalorización; dependencia del coche; puntos débiles y observaciones. Al pie, cómo leer cada columna y el resumen de sobreprecios.
+- **Hoja 3 · Tabla 2**: provincia y origen; clase clima; diferencia frente al mejor de la tabla en sol, lluvia, hospital y aeropuerto; Palma desde el aeropuerto más cercano y mejor opción Palma; qué entra en 260.000 €; sobreprecios por terraza / vistas / ambas; comunicaciones (detalle); todos los hospitales a ≤ 60 min.
 
 ## Qué comprueba el validador
 
@@ -134,7 +140,7 @@ Para cambiar un dato: edita `data/municipios.csv`, vuelve a ejecutar `validar` y
 - Derivadas recalculadas: días de sol, clase clima, franja, precios A/B, producto en presupuesto, comparado con el mejor.
 - Lista de hospitales legible, ordenada por minutos, con hospitales del esquema, tipo correcto, marca «fuera del SNS» coherente, al menos un público; km/min del más cercano coinciden con la lista; ≤ 60 min.
 - Lista de aeropuertos legible (1-3, ≤ 120 min), situación Palma coherente con el esquema; minutos al más cercano y mejor opción Palma coinciden con la lista.
-- Baño a ≤ 30 min; primas coherentes; notas obligatorias en franja B; nota de servicios obligatoria cuando servicios ≤ 4.
+- Baño a ≤ 30 min; primas coherentes; explicación «Franja B: …» obligatoria en franja B; nota de servicios obligatoria cuando servicios ≤ 4 y prohibido «Falta: nada»; hospital público/privado más cercano coherentes con la lista; bloque «Además:» presente cuando el hospital está a > 30 min.
 - Avisos no bloqueantes: hospital > 30 min o aeropuerto > 60 min (fuera de lo deseable, no descartan).
 
 ## Comprar en Portugal (mini resumen)

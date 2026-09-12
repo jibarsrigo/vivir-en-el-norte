@@ -1,6 +1,6 @@
 # Informe de validación · MAPA 2.0
 
-- Filas: **83** · Columnas: **52** · Zonas: **16**
+- Filas: **83** · Columnas: **54** · Zonas: **16**
 - Errores de estructura: **0**
 - Filas con errores: **0** / 83
 - Avisos (no bloqueantes): **23**
@@ -131,9 +131,12 @@
 | servicios_nota | Servicios | TEXTO | 83 | 0 | — |
 | fibra | Servicios | CRITERIO | 83 | 0 | — |
 | comunicaciones | Servicios | TEXTO | 83 | 0 | — |
+| comunicaciones_1_10 | Servicios | CRITERIO | 83 | 0 | — |
 | hospitales | Sanidad | DERIVADO | 83 | 0 | — |
 | hospital_km | Sanidad | DERIVADO | 83 | 0 | — |
 | hospital_min | Sanidad | DERIVADO | 83 | 0 | — |
+| hospital_pub | Sanidad | DERIVADO | 83 | 0 | — |
+| hospital_priv | Sanidad | DERIVADO | 61 | 22 | sí (columna opcional) |
 | aeropuertos | Aeropuertos | DERIVADO | 83 | 0 | — |
 | aeropuerto_min | Aeropuertos | DERIVADO | 83 | 0 | — |
 | palma_mas_cercano | Aeropuertos | OFICIAL | 83 | 0 | — |
@@ -153,4 +156,3 @@
 | dependencia_coche_1_10 | Operativa | CRITERIO | 83 | 0 | — |
 | debilidad_principal | Operativa | TEXTO | 83 | 0 | — |
 | comparado_con_mejor | Operativa | DERIVADO | 83 | 0 | — |
-| notas | Operativa | TEXTO | 13 | 70 | sí (columna opcional) |

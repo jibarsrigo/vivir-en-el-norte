@@ -161,6 +161,14 @@ def validar_fila(fila: pd.Series, mejores: tuple[int, int, int, int]) -> Resulta
             err(f"hospital_km/min: {fila['hospital_km']:g}/{fila['hospital_min']:g} ≠ primer hospital del propio país {propios[0][1]}/{propios[0][0]}")
         if not any(p[2].tipo == "Púb" for p in parseados):
             err("hospitales: no hay ningún hospital público en la lista")
+        pub = next((p for p in parseados if p[2].tipo == "Púb" and p[2].pais == fila["pais"]), None)
+        priv = next((p for p in parseados if p[2].tipo == "Priv" and p[2].pais == fila["pais"]), None)
+        esp_pub = f"{pub[1]} km · {pub[0]} min · {pub[2].nombre}" if pub else ""
+        esp_priv = f"{priv[1]} km · {priv[0]} min · {priv[2].nombre}" if priv else ""
+        if str(fila["hospital_pub"]) != esp_pub:
+            err(f"hospital_pub: {fila['hospital_pub']!r} ≠ {esp_pub!r}")
+        if ("" if _vacio(fila["hospital_priv"]) else str(fila["hospital_priv"])) != esp_priv:
+            err(f"hospital_priv: {fila['hospital_priv']!r} ≠ {esp_priv!r}")
     hmin = int(fila["hospital_min"])
     if hmin > E.HOSPITAL_MAXIMO_MIN:
         err(f"hospital_min: {hmin} > máximo del proyecto {E.HOSPITAL_MAXIMO_MIN}")
@@ -227,8 +235,8 @@ def validar_fila(fila: pd.Series, mejores: tuple[int, int, int, int]) -> Resulta
             err(f"{col}: {int(v)} ≠ {esperado} según la regla")
     if fila["producto_en_presupuesto"] != E.producto_en_presupuesto(pm2):
         err(f"producto_en_presupuesto: {fila['producto_en_presupuesto']!r} ≠ regla {E.producto_en_presupuesto(pm2)!r}")
-    if not en_a and _vacio(fila["notas"]):
-        err("notas: hay que justificar por qué el núcleo está en franja B")
+    if not en_a and "Franja B:" not in str(fila["debilidad_principal"]):
+        err("debilidad_principal: en franja B debe incluir la explicación «Franja B: …»")
 
     # Primas
     pt, pv, ptv = fila["prima_terraza_pct"], fila["prima_vistas_mar_pct"], fila["prima_terraza_vistas_pct"]
@@ -253,6 +261,10 @@ def validar_fila(fila: pd.Series, mejores: tuple[int, int, int, int]) -> Resulta
         aviso("dependencia del coche muy baja para un nivel de servicios < 7")
     if int(fila["servicios_1_10"]) <= 4 and "Falta" not in str(fila["servicios_nota"]):
         err("servicios_nota: con servicios ≤ 4 hay que indicar qué falta")
+    if "Falta: nada" in str(fila["servicios_nota"]):
+        err("servicios_nota: si no falta nada relevante, no se dice")
+    if "Además:" not in str(fila["debilidad_principal"]) and int(fila["hospital_min"]) > E.HOSPITAL_DESEABLE_MIN:
+        err("debilidad_principal: falta el bloque de hechos derivados («Además: …»)")
     return r
 
 

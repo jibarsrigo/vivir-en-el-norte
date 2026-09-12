@@ -59,6 +59,7 @@ Columna `origen`: **MAPA 1.0** (27 municipios de la versión anterior), **MAPA 2
 | `mapa2/exportar.py` | Exporta a Excel (`output/tabla_maestra_mapa_2_0.xlsx`, 7 hojas) y regenera el diccionario. |
 | `output/mapa_2_0_mapa.png` | **Hoja 1**: mapa numerado, leyenda, zonas, ficha de búsqueda, aeropuertos-Palma y mini resumen para comprar en Portugal. |
 | `output/mapa_2_0_tabla.png` | **Hoja 2**: tabla maestra completa (83 filas, 46 columnas visibles, cabeceras por zona). |
+| `output/mapa_2_0_mapa.pdf` · `output/mapa_2_0_tabla.pdf` | Las mismas dos hojas en **PDF vectorial**: zoom sin pérdida, ideal para verlas en el móvil (< 250 KB cada una). |
 | `output/informe_validacion.md` | Resultado de la última validación, fila a fila y columna a columna. |
 
 ## Cómo ejecutarlo
@@ -69,6 +70,7 @@ pip install -r requirements.txt
 
 python -m mapa2.validar --informe   # valida las 83 filas y escribe output/informe_validacion.md
 python -m mapa2.render              # genera output/mapa_2_0_mapa.png y output/mapa_2_0_tabla.png
+python -m mapa2.render --pdf        # además, las dos hojas en PDF vectorial
 python -m mapa2.exportar            # genera el Excel y data/diccionario_columnas.csv
 ```
 

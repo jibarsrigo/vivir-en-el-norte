@@ -7,6 +7,7 @@ Uso:
     python -m mapa2.render            # escribe ambas hojas
     python -m mapa2.render --dpi 90   # versión más ligera
     python -m mapa2.render --solo mapa|tabla
+    python -m mapa2.render --pdf        # además, output/mapa_2_0_mapa.pdf y output/mapa_2_0_tabla.pdf (vectoriales)
 """
 from __future__ import annotations
 
@@ -345,7 +346,7 @@ def dibujar_aeropuertos(ax, ancho: float, alto: float):
                     "En la tabla, «Mejor opción Palma» elige primero el aeropuerto con conexión anual y, entre ellos, el más cercano.", fontsize=10.5, paso=0.25)
 
 
-def generar_mapa(df, dpi: int, salida=None):
+def generar_mapa(df, dpi: int, salida=None, formato: str = "png"):
     margen, hueco = 0.45, 0.4
     ancho_ley = 10.4
     ancho_fig = margen * 2 + ANCHO_MAPA_IN + hueco + ancho_ley
@@ -395,7 +396,7 @@ def generar_mapa(df, dpi: int, salida=None):
              fontsize=10.5, color=GRIS, va="center", ha="right")
 
     E.DIR_SALIDA.mkdir(exist_ok=True)
-    salida = salida or (E.DIR_SALIDA / "mapa_2_0_mapa.png")
+    salida = salida or (E.DIR_SALIDA / f"mapa_2_0_mapa.{formato}")
     fig.savefig(salida, dpi=dpi, facecolor=FONDO)
     plt.close(fig)
     return salida
@@ -603,7 +604,7 @@ def dibujar_tabla(ax, df, altos: list[float], alto_total: float):
     ax.add_patch(Rectangle((0, 0), ANCHO_TABLA, alto_total, fill=False, edgecolor="#9aa4b1", linewidth=1.2))
 
 
-def generar_tabla(df, dpi: int, salida=None):
+def generar_tabla(df, dpi: int, salida=None, formato: str = "png"):
     margen = 0.45
     ancho_fig = ANCHO_TABLA + 2 * margen
     alto_titulo = 1.7
@@ -657,7 +658,7 @@ def generar_tabla(df, dpi: int, salida=None):
         y -= 0.26
 
     E.DIR_SALIDA.mkdir(exist_ok=True)
-    salida = salida or (E.DIR_SALIDA / "mapa_2_0_tabla.png")
+    salida = salida or (E.DIR_SALIDA / f"mapa_2_0_tabla.{formato}")
     fig.savefig(salida, dpi=dpi, facecolor=FONDO)
     plt.close(fig)
     return salida
@@ -665,17 +666,18 @@ def generar_tabla(df, dpi: int, salida=None):
 
 # ----------------------------------------------------------------------------- composición
 
-def generar(dpi: int = 110, solo: str | None = None) -> list:
+def generar(dpi: int = 110, solo: str | None = None, formatos: tuple[str, ...] = ("png",)) -> list:
     df = cargar()
     estructura, filas = validar(df)
     errores = len(estructura) + sum(len(f.errores) for f in filas)
     if errores:
         raise SystemExit(f"La tabla tiene {errores} errores de validación; corrige data/municipios.csv antes de renderizar.")
     salidas = []
-    if solo in (None, "mapa"):
-        salidas.append(generar_mapa(df, dpi))
-    if solo in (None, "tabla"):
-        salidas.append(generar_tabla(df, dpi))
+    for formato in formatos:
+        if solo in (None, "mapa"):
+            salidas.append(generar_mapa(df, dpi, formato=formato))
+        if solo in (None, "tabla"):
+            salidas.append(generar_tabla(df, dpi, formato=formato))
     return salidas
 
 
@@ -683,8 +685,9 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--dpi", type=int, default=110)
     ap.add_argument("--solo", choices=("mapa", "tabla"))
+    ap.add_argument("--pdf", action="store_true", help="además del PNG, escribe PDF vectorial (ideal para móvil: zoom sin pérdida)")
     args = ap.parse_args(argv)
-    for ruta in generar(dpi=args.dpi, solo=args.solo):
+    for ruta in generar(dpi=args.dpi, solo=args.solo, formatos=("png", "pdf") if args.pdf else ("png",)):
         print(f"Imagen escrita en {ruta.relative_to(E.RAIZ)}")
     return 0
 

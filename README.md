@@ -65,6 +65,8 @@ Columna `origen`: **MAPA 1.0** (27 municipios de la versión anterior), **MAPA 2
 | `docs/estudio_zonas.md` | **Estudio detallado por zonas** (tercer documento, tras mapa y tablas): las 16 zonas en el orden de la tabla, cada una con clima mes a mes, mar y baño, paseos y montaña, servicios, sanidad, aeropuertos, precios, seguridad, parecido con Mancor de la Vall, lo que no tendrás, y los 83 municipios uno a uno. Cierra con el orden "si yo fuera tú" y los datos pendientes de añadir a la tabla. |
 | `output/mapa_2_0_estudio.pdf` | El estudio anterior en PDF A4 paginado con índice (marcadores) por zona, generado por `mapa2/estudio.py`. |
 | `mapa2/estudio.py` | Convierte `docs/estudio_zonas.md` en `output/mapa_2_0_estudio.pdf` (`python -m mapa2.estudio`). |
+| `mapa2/osm.py` | Descarga de OpenStreetMap (Overpass) y guarda en `data/osm/` los elementos de cada término municipal: playas, puertos, tren, centros de salud, farmacias, supermercados, miradores, montes, monumentos, mercados, golf, termas y carreteras. |
+| `mapa2/mapas_municipio.py` | Mapa detallado + ficha visual por municipio (`output/mapas_municipios/NN_slug.png`): término municipal con los elementos OSM, y ficha con sol, lluvia, verano, mar, hospital, aeropuerto, servicios y precio comparados con Mancor. Se insertan en "Municipio a municipio". |
 | `mapa2/mapas_zona.py` | Genera un mapa por zona en `output/mapas_zonas/zona_XX.png` (municipios numerados, hospitales, aeropuertos, autopistas, playas, montes, paseos y lugares nombrados en el estudio; localizador y leyenda comunes). Se insertan al inicio de cada zona del estudio (`python -m mapa2.mapas_zona`). |
 
 ## Cómo ejecutarlo
@@ -78,6 +80,8 @@ python -m mapa2.render              # genera las tres hojas PNG en output/
 python -m mapa2.render --pdf        # además, PDF vectorial por hoja y output/mapa_2_0_completo.pdf (3 páginas)
 python -m mapa2.exportar            # genera el Excel y data/diccionario_columnas.csv
 python -m mapa2.mapas_zona          # genera los 16 mapas de zona en output/mapas_zonas/
+python -m mapa2.osm "A Guarda"      # descarga (o lee de caché) los elementos OSM del municipio
+python -m mapa2.mapas_municipio "A Guarda"   # mapa detallado + ficha del municipio en output/mapas_municipios/
 python -m mapa2.estudio             # convierte docs/estudio_zonas.md (con sus mapas) en output/mapa_2_0_estudio.pdf
 ```
 

@@ -41,8 +41,10 @@ def html_desde_markdown(texto: str) -> str:
     # Las reglas horizontales del markdown sobran: cada zona empieza en página nueva.
     html = re.sub(r"<hr\s*/?>", "", html)
     # Cada zona empieza en página nueva, con su mapa arriba del título.
-    html = re.sub(r'<p><img alt="([^"]*)" src="\.\./output/([^"]+)"\s*/?></p>',
+    html = re.sub(r'<p><img alt="([^"]*)" src="\.\./output/(mapas_zonas/[^"]+)"\s*/?></p>',
                   r'<p style="page-break-before: always; margin: 0 0 4pt 0"><img alt="\1" src="output/\2" /></p>', html)
+    html = re.sub(r'<p><img alt="([^"]*)" src="\.\./output/(mapas_municipios/[^"]+)"\s*/?></p>',
+                  r'<p style="margin: 2pt 0 4pt 0"><img alt="\1" src="output/\2" /></p>', html)
     html = re.sub(r"<h2>(Cierre|Pendiente)", r'<h2 style="page-break-before: always">\1', html)
     html = re.sub(r"<h2>(\d+\. )", r'<h2 style="margin-top: 2pt">\1', html)
     return html

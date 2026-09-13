@@ -248,7 +248,7 @@ def _base(ax, bbox, detalle: bool, df_zona: pd.DataFrame | None = None):
                 if len(poligonos):
                     poligonos.plot(ax=ax, color="#fff1bf", edgecolor="#c79a1a", linewidth=0.7, zorder=2)
         _geo("provincias_norte").boundary.plot(ax=ax, color=COL_BORDE, linewidth=0.5, linestyle=(0, (3, 2)), zorder=2.5)
-        _geo("paises_norte").boundary.plot(ax=ax, color="#6d6d6d", linewidth=0.7, zorder=2.6)
+        _geo("frontera_es_pt").plot(ax=ax, color="#6d6d6d", linewidth=0.9, zorder=2.6)
     else:
         for _, fila in _geo("paises_norte").iterrows():
             color = COL_PORTUGAL if "portugal" in str(fila.get("ADMIN", "")).lower() else COL_ESPANA

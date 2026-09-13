@@ -4,7 +4,9 @@ Tercer documento del proyecto, después del mapa (hoja 1) y de las tablas (hojas
 
 Cada zona empieza con su mapa. Todos los mapas siguen el mismo patrón: a la izquierda la zona ampliada, con los términos municipales de la tabla sombreados en amarillo y numerados (el número es la fila de la tabla), los hospitales (cuadrado con H: rojo público, granate privado), los aeropuertos (triángulo gris), las autopistas (rojo), las carreteras principales (gris discontinuo), las ciudades de referencia (cuadrado negro) y los lugares que se nombran en el texto: playas (triángulo azul), montes y miradores (triángulo verde), paseos (rombo verde), balnearios, campos de golf y barcos de pasajeros. Arriba a la derecha, un localizador del norte peninsular con la zona marcada; debajo, la lista de municipios con horas de sol y minutos a hospital y aeropuerto; y en la base, la leyenda, igual en todos. Cuando la zona toca Portugal, Portugal aparece en color más oscuro.
 
-Convenciones del texto: el sol se da como horas al año y días despejados (cielo limpio casi todo el día), y siempre con el dato de Mancor al lado; la lluvia, en días al mes por temporada, con el mes peor señalado; cada playa, monte o paseo lleva la distancia en kilómetros y minutos de coche desde el pueblo, y está en el mapa. Las zonas 1 y 2 ya están en este formato; de la 3 a la 16 conservan por ahora el formato anterior y se irán rehaciendo con el mismo patrón.
+El documento está planteado como una guía para vivir, no para visitar: cada zona lleva su historia en pocas líneas, los lugares que la definen, playas, paseos, mercados y fiestas y cómo se llega, y después los apartados de decisión (servicios con lo que hay y lo que falta, sanidad, aeropuertos, precios, seguridad, parecido con Mancor, lo que no tendrás). En "Municipio a municipio" cada pueblo tiene su propio mapa detallado con ficha (a la izquierda el término municipal con lo que hay dentro según OpenStreetMap; a la derecha sol, lluvia, verano, mar, hospital, aeropuerto, servicios y precio comparados con Mancor) y un bloque "De dónde viene" con su historia y sus lugares emblemáticos.
+
+Convenciones del texto: el sol se da como horas al año y días despejados (cielo limpio casi todo el día), y siempre con el dato de Mancor al lado; la lluvia, en días al mes por temporada, con el mes peor señalado; cada playa, monte o paseo lleva la distancia en kilómetros y minutos de coche desde el pueblo, y está en el mapa. La zona 1 es la primera completa en este formato (prototipo para revisar); la 2 tiene el formato nuevo sin guía ni mapas municipales; de la 3 a la 16 conservan por ahora el formato anterior.
 
 Los números de sol, lluvia, hospital, aeropuerto, servicios y precios son los de `data/municipios.csv`. Los días de lluvia por mes, las temperaturas mensuales y los días por encima de 30 °C son valores climatológicos de referencia (AEMET / IPMA, normales 1991-2020 de las estaciones más próximas) redondeados; todavía no están en la tabla. La tasa de criminalidad es la del Balance de Criminalidad 2025 del Ministerio del Interior (solo municipios de más de 20.000 habitantes; en el resto se indica la de la comunidad autónoma).
 
@@ -41,6 +43,8 @@ Es la esquina suroeste de Galicia: el último tramo del río Miño antes de entr
 
 Es la zona de la tabla que más se parece a Mancor en textura: granito, bancales de viñedo, casas de piedra repartidas en parroquias, monte detrás del pueblo y un ritmo lento. También es la más rural: la ciudad (Vigo) está a 40 minutos y el hospital a 30-45. A cambio, Portugal a cinco minutos multiplica lo que tienes a mano: Valença (comercio, restaurantes, el mercado de toallas y manteles dentro de la fortaleza), Vila Nova de Cerveira (mercado de los sábados, paseo junto al río), Caminha y Vila Praia de Âncora (playas y vida de villa), y la sanidad privada portuguesa, bastante más barata que la española.
 
+Un apunte de historia para entender el paisaje: esta frontera se fijó en el siglo XII, cuando Portugal se separó del reino de León, y durante quinientos años el Miño fue línea de guerra. Por eso hay fortalezas a los dos lados (Valença, Tui, Goián, Vila Nova de Cerveira, Caminha, la Ínsua) y por eso los pueblos de las dos orillas se parecen tanto y se tratan tan poco. Hoy es la frontera más permeable de Europa: se cruza en coche, en bici o a pie por tres puentes y un barco.
+
 ### Clima: qué notarás respecto a Mancor
 
 Cómo leer los números de sol: primero las horas de sol al año y después los días despejados (cielo limpio casi todo el día) y los cubiertos (cielo tapado casi todo el día); el resto del año son días de nubes y claros.
@@ -60,12 +64,23 @@ Cómo leer los números de sol: primero las horas de sol al año y después los 
 - **Calor.** En A Guarda y Oia, 5 días al año por encima de 30 °C (Mancor: 37). En Tui y Tomiño, 15-20 días, con puntas de 36-38 °C en las olas de calor: los valles del Miño son la única parte gallega de la tabla donde vuelve algo del verano que quieres dejar atrás.
 - **Viento y niebla.** Viento medio en A Guarda (la punta está expuesta al noroeste) y bajo en el valle. Niebla baja en la costa; media en Tomiño y Tui, con nieblas de río en mañanas de otoño e invierno que levantan a media mañana.
 
-### Mar y baño
+### Qué ver: los lugares que definen la zona
+
+- **Monte Santa Trega y su castro (A Guarda).** Un monte redondo de 341 m que cae directamente sobre la desembocadura. En la ladera está el castro: un poblado fortificado de la Edad del Hierro (siglos IV a.C. a I d.C.) con decenas de casas circulares de piedra, algunas reconstruidas con techo de paja, que se recorren por callejuelas entre los muros. Es el castro más visitado de Galicia. Arriba hay un pequeño museo arqueológico, una ermita y un mirador desde el que se ve el Miño abriéndose al océano, la costa portuguesa hasta Viana y, en días claros, las Cíes.
+- **Monasterio de Santa María de Oia.** Cisterciense, del siglo XII, plantado directamente frente al mar; es el único monasterio de la orden en toda Europa construido a pie de océano. En 1624 sus monjes rechazaron a cañonazos a una escuadra turca, y el rey les dio el título de "Real". Desamortizado en 1835, hoy es privado y se visita con guía. Su iglesia y su claustro se ven desde la senda litoral.
+- **Catedral de Tui.** Una catedral-fortaleza románica y gótica (consagrada en 1225) con almenas, torres y un claustro gótico, la única catedral de Galicia que conserva el claustro medieval completo. Desde su torre y desde el paseo de la muralla se ve el Miño y Valença. Alrededor, un casco histórico de calles empedradas, soportales, conventos (Santo Domingo, las Clarisas, que venden dulces por el torno) y una judería medieval.
+- **Fortaleza de Valença (Portugal, enfrente de Tui).** Una ciudad amurallada abaluartada de los siglos XVII y XVIII, con dos recintos, puertas y fosos, que se recorre por lo alto de las murallas. Dentro, un pueblo entero de tiendas de toallas, sábanas y manteles, restaurantes y cafés, al que los gallegos van los fines de semana.
+- **Fortalezas de Goián (Tomiño).** San Lourenzo y Medos, dos fuertes de la Guerra de Restauración portuguesa (siglo XVII) junto al río, en un paseo fluvial que mira a Vila Nova de Cerveira.
+- **Muíños do Folón e do Picón (O Rosal).** Sesenta y siete molinos de agua de los siglos XVII y XVIII escalonados en dos regueros que bajan por la ladera, declarados Bien de Interés Cultural. Se recorren en un circuito de 4-5 km entre molinos, pequeñas cascadas y viñedo, con el valle abajo.
+- **Parque Natural Monte Aloia (Tui).** El primer parque natural de Galicia (1978): pinar y bosque de ribera sobre un monte de 629 m, con senderos señalizados, áreas recreativas, la ermita de San Xián y miradores sobre la vega del Miño.
+- **Serra da Groba y sus caballos.** Meseta granítica de 600-660 m, sin árboles, donde pastan los garranos (caballos salvajes gallegos). En primavera se celebran los curros: se bajan los caballos del monte a un cercado de piedra, se marcan y se les corta la crin.
+
+### Playas y baño
 
 La costa de Oia es Atlántico puro: rocas oscuras, oleaje, acantilados bajos y el ruido del mar de fondo. Es una costa para pasear, no para nadar. Para bañarse con calma hay que ir a la desembocadura del Miño o cruzar a Portugal.
 
 - **Area Grande (A Guarda · 1,5 km · 4 min desde el centro, se va andando).** Cala de arena fina abrigada entre rocas al norte del casco urbano, con paseo de madera y el Santa Trega detrás. Es la playa "de diario" de A Guarda. Agua a 17-19 °C en agosto: fresca, pero se aguanta.
-- **O Muíño (A Guarda-Camposancos · 3 km · 6 min).** Ya dentro del estuario del Miño, con Portugal enfrente y agua tranquila sin olas, algo más templada que la costa abierta. Merendero bajo los pinos y un pequeño puerto donde sale el barco a Caminha.
+- **O Muíño (A Guarda-Camposancos · 3 km · 6 min).** Ya dentro del estuario del Miño, con Portugal enfrente y agua tranquila sin olas, algo más templada que la costa abierta. Merendero bajo los pinos y el embarcadero del barco a Caminha.
 - **Praia de Mougás (Oia · 6 km · 8 min desde el centro de Oia).** Pequeña, mezcla de arena y cantos, batida por el oleaje. Para mojarse los pies y mirar el océano, no para nadar. Desde Oia, la playa de baño real es la de Baiona (14 km · 18 min, zona 2).
 - **Cesantes (Redondela, ría de Vigo · 30 km · 25 min desde Tui, 38 km · 30 min desde Goián por la A-55 y la AP-9).** Playa larga de arena en el fondo de la ría, frente a la isla de San Simón, sin oleaje y con el agua más templada de la zona (18-20 °C). Es la playa cómoda para Tui y Tomiño.
 - **Moledo y Vila Praia de Âncora (Portugal · 35-40 km · 40-45 min en coche por el puente de Goián-Cerveira; o 15 min de barco desde A Guarda a Caminha más 5-8 km).** Arenales atlánticos largos con dunas y pinar, Moledo con el fuerte de la Ínsua delante y Vila Praia de Âncora con puerto pesquero y vida de villa. Agua abierta, fría, oleaje moderado.
@@ -74,20 +89,33 @@ En el mapa, las playas son los triángulos azules invertidos y el barco A Guarda
 
 ### Paseos y montaña
 
-- **Monte Santa Trega (A Guarda · 5 km · 10 min en coche hasta arriba, o una hora subiendo a pie desde el pueblo).** Un monte redondo de 341 m que cae directamente sobre la desembocadura. En la ladera está el castro: un poblado fortificado de la Edad del Hierro (siglos IV a.C. a I d.C.) con decenas de casas circulares de piedra, algunas reconstruidas con techo de paja, que se recorren por callejuelas entre los muros. Arriba hay un museo arqueológico pequeño, una ermita y un mirador desde el que se ve el Miño abriéndose al océano, la costa portuguesa hasta Viana y, en días claros, las Cíes. Es el sitio al que llevarías a cualquier visita.
+- **Monte Santa Trega (A Guarda · 5 km · 10 min en coche hasta arriba, o una hora subiendo a pie desde el pueblo).** El castro, el museo, la ermita y el mirador. Es el sitio al que llevarías a cualquier visita.
 - **Senda litoral A Guarda-Oia-Baiona (unos 30 km, se hace por tramos).** Es el Camino Portugués de la Costa: un camino junto al mar, en parte pasarela de madera y en parte pista, que pasa por las aldeas de Portecelo y Mougás, el monasterio de Oia y el faro de Cabo Silleiro. Llano, con el Atlántico siempre a la izquierda y la Groba a la derecha. Cualquier tramo de 5-6 km es un paseo de tarde.
-- **Muíños do Folón e do Picón (O Rosal · 4 km · 7 min desde O Rosal, 10 min desde A Guarda).** Sesenta y siete molinos de agua de los siglos XVII y XVIII, escalonados en dos regueros que bajan por la ladera, declarados Bien de Interés Cultural. La ruta es un circuito de 4-5 km entre molinos, pequeñas cascadas y viñedo, con el valle de O Rosal y el Miño abajo. Es el paseo más "de Mancor" de toda la tabla.
-- **Serra da Groba (Alto da Groba · 12 km · 20 min desde Oia por Torroña; 10 km · 15 min desde Baiona).** Meseta granítica de 600-660 m con brezo y tojo, sin árboles, donde pastan los garranos, los caballos salvajes gallegos. En primavera se celebran los curros (la rapa das bestas): se bajan los caballos del monte, se marcan y se les corta la crin, en Mougás y Torroña. Desde arriba se ve el océano por un lado y el valle del Miño por el otro.
-- **Parque Natural Monte Aloia (Tui · 8 km · 15 min desde Tui).** El primer parque natural de Galicia (1978): pinar y bosque de ribera sobre un monte de 629 m con senderos señalizados, áreas recreativas con mesas, la ermita de San Xián y varios miradores sobre la vega del Miño, Tui y Valença. Es donde los de Tui van a pasear el domingo.
+- **Muíños do Folón e do Picón (O Rosal · 4 km · 7 min desde O Rosal, 10 min desde A Guarda).** Circuito de 4-5 km entre molinos, cascadas y viñedo. Es el paseo más "de Mancor" de toda la tabla.
+- **Serra da Groba (Alto da Groba · 12 km · 20 min desde Oia por Torroña; 10 km · 15 min desde Baiona).** Meseta alta de brezo y tojo con los caballos salvajes; desde arriba se ve el océano por un lado y el valle del Miño por el otro. Los curros de Mougás y Torroña, en mayo y junio.
+- **Parque Natural Monte Aloia (Tui · 8 km · 15 min desde Tui).** Senderos señalizados, áreas recreativas con mesas y varios miradores sobre la vega del Miño, Tui y Valença. Es donde los de Tui van a pasear el domingo.
 - **Paseo fluvial del Miño en Goián (Tomiño · en el pueblo) y en Tui (en la ciudad).** Camino llano junto al río, con la fortaleza de San Lourenzo en Goián y el puente de la Amizade a Vila Nova de Cerveira. En Tui, el paseo va bajo la catedral hasta el puente internacional de hierro (1886).
 - **Ecopista do Minho (Portugal · Valença-Monção, 15 km llanos · a 2 km del centro de Tui cruzando el puente).** Antigua vía de tren convertida en camino para andar o ir en bicicleta, entre viñedo de Alvarinho y el río. Al final, en Monção, unas termas municipales (25 km · 25 min desde Tui).
+
+### Mercados, fiestas y mesa
+
+- **Mercados.** A Guarda: mercado municipal diario y mercadillo semanal. Tui: mercado de abastos y mercadillo de los jueves. Vila Nova de Cerveira (a 2 min de Goián): la feria de los sábados, la más grande de la raia, con fruta, ropa, artesanía y comida; medio Baixo Miño va. Valença: las tiendas de la fortaleza, todos los días.
+- **Fiestas.** Festa da Langosta e da Cociña Mariñeira en A Guarda (primer fin de semana de julio), San Telmo en Tui (Lunes de Pascua, la fiesta grande de la ciudad, con procesión, feria y fuegos), Festa do Viño do Rosal (julio), curros de Mougás y Torroña (mayo-junio), Festa do Monte en A Guarda (agosto, romería en el Santa Trega). Al otro lado, la Bienal de Arte de Cerveira (verano de los años impares) y las fiestas de Valença en agosto.
+- **Mesa.** Langosta y bogavante de A Guarda, pulpo, almejas y berberechos del Miño, lamprea en primavera (Tui y Arbo), anguila y sábalo del río; vino de O Rosal (Albariño con Loureiro y Caíño, más fresco que el del Salnés); en Portugal, bacalao, arroz de marisco y el Alvarinho de Monção. Comer bien cuesta la mitad que en Mallorca; en Portugal, un tercio.
+
+### Cómo se llega y cómo se mueve uno
+
+- **Desde Palma:** vuelo a Vigo (solo en verano) y 25-50 min de coche; el resto del año, vuelo a Santiago (90-105 min) o a Porto (90-100 min por la A28, con Ryanair y easyJet en temporada).
+- **Carretera:** la A-55 une Tui con Vigo en 25 min y enlaza con la AP-9 (Pontevedra, Santiago, A Coruña) y la A-52 (Ourense, Madrid). A Guarda y Oia dependen de la PO-552, una carretera de costa de dos carriles, lenta en verano. A Portugal: puente de Tui-Valença (A3 hacia Porto), puente de Goián-Cerveira, barco de A Guarda a Caminha.
+- **Tren:** Tui tiene estación (regional a Vigo y a Porto, pocos trenes); el resto, nada.
+- **Autobús:** A Guarda-Vigo por la costa cada hora aproximadamente; Tui-Vigo frecuente.
 
 ### Servicios: qué hay y qué falta
 
 No hay ciudad en la comarca; hay dos villas con lo esencial (A Guarda y Tui) y tres municipios de parroquias que dependen de ellas.
 
 - **A Guarda (10.000 hab.) · 6/10.** Tiene: centro de salud con urgencias 24 h (PAC), cuatro o cinco farmacias, supermercados medianos (Gadis, Froiz, Eroski, Lidl), mercado municipal y mercado semanal, puerto con lonja y restaurantes de marisco abiertos todo el año, bancos, colegios e instituto, biblioteca, polideportivo, piscina cubierta. Falta: hospital y especialistas (Vigo), gran superficie, cine, El Corte Inglés o similar, tren.
-- **Tui (17.000 hab.) · 7/10.** Tiene: centro de salud con urgencias, farmacias, supermercados grandes (incluido uno a la salida hacia la A-55), casco histórico con comercio y cafeterías con vida todo el año por el Camino, instituto, conservatorio, estación de tren (regional a Vigo y Porto), y Valença enfrente con su propio comercio. Falta: hospital, cine, gran superficie (en Vigo, 30 min).
+- **Tui (17.000 hab.) · 7/10.** Tiene: centro de salud con urgencias, farmacias, supermercados grandes (incluido uno a la salida hacia la A-55), casco histórico con comercio y cafeterías con vida todo el año por el Camino, instituto, conservatorio, estación de tren, y Valença enfrente con su propio comercio. Falta: hospital, cine, gran superficie (en Vigo, 30 min).
 - **Tomiño (13.000 hab., núcleo en Goián) · 5/10.** Tiene: centro de salud, farmacias, supermercado, bares, panaderías, y Vila Nova de Cerveira a 2 minutos por el puente (mercado de los sábados, restaurantes, cafés). Falta: casi todo lo que no sea básico.
 - **O Rosal (6.000 hab.) · 4/10.** Tiene: centro de salud, farmacia, supermercado pequeño, bares, panadería, bodegas. Falta: el resto, en A Guarda a 10 minutos.
 - **Oia (3.000 hab.) · 3/10.** Tiene: consultorio médico, una farmacia, tiendas de pueblo, bares en Mougás y Oia. Falta: supermercado grande, instituto, casi todo. Dependencia total del coche.
@@ -136,9 +164,15 @@ Alto en paisaje y en forma de vida (pueblo pequeño, monte detrás, piedra, viñ
 
 ### Municipio a municipio
 
+Cada municipio lleva su mapa: a la izquierda el término con lo que tiene dentro (playas, puerto, tren, centro de salud, farmacias, supermercados, miradores, montes, monumentos, mercado), y a la derecha la ficha con los datos que no se dibujan, comparados con Mancor. Los elementos del mapa salen de OpenStreetMap y pueden faltar algunos; la ficha sale de la tabla maestra.
+
 #### 1 · A Guarda
 
-Villa marinera de 10.000 habitantes en la punta donde el Miño entra en el Atlántico. El pueblo baja en cuesta hasta un puerto de bajura pequeño y muy vivo (la langosta es su emblema y tiene fiesta propia en julio), con la lonja, las casas de colores de los marineros y las terrazas del paseo. Detrás, siempre, el Santa Trega. Portugal está tan cerca que se oyen las campanas de Caminha.
+![Mapa de A Guarda](../output/mapas_municipios/01_a_guarda.png)
+
+Villa marinera de 10.000 habitantes en la punta donde el Miño entra en el Atlántico. El pueblo baja en cuesta hasta un puerto de bajura pequeño y muy vivo, con la lonja, las casas de colores de los marineros y las terrazas del paseo. Detrás, siempre, el Santa Trega. Portugal está tan cerca que se oyen las campanas de Caminha.
+
+**De dónde viene.** Antes que el pueblo existió el castro del Santa Trega, hace más de dos mil años; el nombre de la villa (guarda, vigía) viene de su papel medieval de atalaya sobre la boca del río. Vivió de la pesca y, desde el siglo XIX, de la emigración a Puerto Rico: muchos guardeses volvieron ricos y dejaron casas de indianos con palmeras y galerías que todavía se ven en la Praza do Reló y en la carretera de Camposancos. Hoy vive del puerto (la langosta es su emblema y tiene fiesta propia en julio), de la industria pequeña y del turismo de verano. Lugares emblemáticos: el castro y el mirador del Santa Trega, el puerto y su paseo, la Torre do Reló (el reloj del siglo XVIII que preside la plaza), la iglesia de Santa María (origen del siglo XII), el Museo do Mar en el antiguo castillo de Santa Cruz (fortaleza del XVII de la guerra con Portugal), y Camposancos, la parroquia del estuario con el embarcadero y la playa de O Muíño.
 
 - **Playas:** Area Grande (1,5 km · 4 min, andando), O Muíño en el estuario (3 km · 6 min), Praia da Lamiña. Agua 17-19 °C.
 - **Paseos:** Santa Trega (castro y mirador), paseo marítimo del puerto a Camposancos (4 km llanos junto al mar), senda litoral hacia Oia, molinos del Folón en O Rosal a 10 min.
@@ -150,10 +184,14 @@ Villa marinera de 10.000 habitantes en la punta donde el Miño entra en el Atlá
 
 #### 2 · Oia
 
-La costa más salvaje y solitaria de la tabla: 3.000 habitantes repartidos en siete parroquias colgadas entre la Serra da Groba y el Atlántico, sin un casco urbano de verdad. Su símbolo es el monasterio cisterciense de Santa María de Oia (siglo XII), plantado directamente frente al mar con los cañones que un día defendieron la costa. Al atardecer el sol se mete en el agua delante de casa.
+![Mapa de Oia](../output/mapas_municipios/02_oia.png)
+
+La costa más salvaje y solitaria de la tabla: 3.000 habitantes repartidos en siete parroquias colgadas entre la Serra da Groba y el Atlántico, sin un casco urbano de verdad. Al atardecer el sol se mete en el agua delante de casa.
+
+**De dónde viene.** Todo gira alrededor del monasterio: los monjes cistercienses llegaron en el siglo XII, roturaron la ladera, plantaron viña y organizaron las aldeas que hoy son las parroquias (Oia, Mougás, Viladesuso, Pedornes, Burgueira, Loureza, Torroña). En 1624 rechazaron a cañonazos a una flota turca y el rey les concedió el título de Real Monasterio. Cuando se cerró, en 1835, el municipio quedó como lo ves: aldeas de pescadores y campesinos, con la sierra y sus caballos detrás. Lugares emblemáticos: el monasterio de Santa María frente al mar, los petroglifos de la Cabeciña en Mougás (grabados en la roca de hace 4.000 años junto a un castro), la senda litoral y los curros de caballos salvajes de Mougás y Torroña.
 
 - **Playas:** Mougás (6 km · 8 min; pequeña, oleaje) para mirar el mar; para bañarse, Baiona a 14 km · 18 min.
-- **Paseos:** senda litoral (pasa por la puerta), petroglifos de la Groba, los curros de caballos salvajes en primavera, el Alto da Groba (12 km · 20 min).
+- **Paseos:** senda litoral (pasa por la puerta), petroglifos de la Groba, los curros en primavera, el Alto da Groba (12 km · 20 min).
 - **Servicios 3/10:** consultorio, una farmacia, tiendas de pueblo y bares. Falta supermercado grande e instituto (en Baiona o A Guarda a 15-20 min). Dependencia del coche 8/10.
 - **Sanidad y aeropuerto:** Álvaro Cunqueiro 40 min; Povisa 45. Vigo 45 min.
 - **Precio:** 1.600 €/m². Sin obra nueva; casas de piedra rehabilitadas y algún chalé con vistas al océano.
@@ -162,7 +200,11 @@ La costa más salvaje y solitaria de la tabla: 3.000 habitantes repartidos en si
 
 #### 3 · O Rosal
 
+![Mapa de O Rosal](../output/mapas_municipios/03_o_rosal.png)
+
 Valle interior a 10 minutos de A Guarda, con 6.000 habitantes, viñedo de Albariño y Loureiro en pérgola (las parras altas bajo las que se pasa andando), casas de piedra, y las cascadas de los molinos del Folón y del Picón. Es el municipio de la tabla que más se parece a Mancor en paisaje: valle cerrado, bancales, piedra, monte detrás (la Groba y el Santa Trega) y una plaza con bares donde todos se conocen.
+
+**De dónde viene.** Un valle agrícola desde siempre: viña, maíz, huerta, y los molinos comunales donde cada casa tenía sus horas de molienda; de ahí los sesenta y siete molinos del Folón y del Picón. Fue tierra de emigración a América y de contrabando con Portugal en la posguerra (el río está a un paso). Desde los años 80 el vino lo cambió todo: O Rosal es subzona de la Denominación de Origen Rías Baixas, con bodegas grandes (Terras Gauda, Santiago Ruiz) y pequeñas, y una Festa do Viño en julio. Lugares emblemáticos: los molinos, la plaza de O Calvario con la iglesia de Santa Mariña, los miradores hacia el Miño desde la ladera del Santa Trega, y el propio paisaje de parras.
 
 - **Playas:** Area Grande a 7 km · 10 min (franja B). O Muíño a 8 km · 12 min.
 - **Paseos:** Muíños do Folón (4 km · 7 min), Santa Trega (12 min), viñedos del valle, senda litoral en A Guarda.
@@ -174,7 +216,11 @@ Valle interior a 10 minutos de A Guarda, con 6.000 habitantes, viñedo de Albari
 
 #### 4 · Tomiño
 
-Municipio ribereño del Miño de 13.000 habitantes, con Goián como núcleo, frente a Vila Nova de Cerveira. El río aquí es ancho y manso, con paseo fluvial, la fortaleza de San Lourenzo y el puente de la Amizade por el que se cruza a Portugal en dos minutos para el mercado del sábado o para cenar. Es el municipio más barato de la zona y el más caluroso junto a Tui.
+![Mapa de Tomiño](../output/mapas_municipios/04_tomino.png)
+
+Municipio ribereño del Miño de 13.000 habitantes, con Goián como núcleo, frente a Vila Nova de Cerveira. El río aquí es ancho y manso, con paseo fluvial y el puente de la Amizade por el que se cruza a Portugal en dos minutos para el mercado del sábado o para cenar. Es el municipio más barato de la zona y el más caluroso junto a Tui.
+
+**De dónde viene.** Tierra de frontera y de vega: las fortalezas de San Lourenzo y Medos, en Goián, se levantaron en el siglo XVII cuando Portugal se independizó de España y el Miño volvió a ser línea de guerra. Después, siglos de agricultura en la vega y, desde hace treinta años, viveros: Tomiño es la capital gallega de la planta ornamental, con decenas de invernaderos que se ven desde la carretera. El puente a Cerveira (2004) lo cambió: hoy Goián y Cerveira funcionan como un solo pueblo con dos monedas de costumbres. Lugares emblemáticos: la fortaleza de San Lourenzo y el paseo del Miño en Goián, el mercado de los sábados de Cerveira, los viveros, y la Bienal de Arte de Cerveira en verano.
 
 - **Playas:** Area Grande a 17 km · 20 min (franja B); Cesantes a 38 km · 30 min por autopista.
 - **Paseos:** paseo fluvial de Goián, fortaleza, el Aloia a 20 min, la Ecopista portuguesa a 10 min.
@@ -186,9 +232,13 @@ Municipio ribereño del Miño de 13.000 habitantes, con Goián como núcleo, fre
 
 #### 5 · Tui
 
-Ciudad episcopal de 17.000 habitantes sobre el Miño, frente a Valença: catedral-fortaleza románica en lo alto, casco histórico de calles empedradas y soportales con vida todo el año (es la última etapa del Camino Portugués antes de Santiago), el Parque Natural del Monte Aloia encima y el puente internacional de hierro para cruzar a Portugal a pie. Es el municipio más completo del Baixo Miño y el mejor comunicado.
+![Mapa de Tui](../output/mapas_municipios/05_tui.png)
 
-- **Playas:** Cesantes a 30 km · 25 min; Area Grande a 30 km · 30 min (franja B).
+Ciudad episcopal de 17.000 habitantes sobre el Miño, frente a Valença: catedral-fortaleza en lo alto, casco histórico de calles empedradas y soportales con vida todo el año (es la última etapa del Camino Portugués antes de Santiago), el Parque Natural del Monte Aloia encima y el puente internacional de hierro para cruzar a Portugal a pie. Es el municipio más completo del Baixo Miño y el mejor comunicado.
+
+**De dónde viene.** Tude fue ciudad romana, capital de reino suevo en el siglo VI y sede episcopal desde entonces; en la Edad Media fue una de las siete capitales del Reino de Galicia y su catedral se construyó como fortaleza porque la frontera estaba a un tiro de piedra. El puente internacional de 1886, de hierro y escuela de Eiffel, la unió a Valença por tren y carretera. Hoy Tui y Valença forman una "eurociudad" que comparte servicios, y el Camino Portugués le da un goteo constante de peregrinos. Lugares emblemáticos: la catedral de Santa María y su claustro, el paseo de la muralla y el mirador sobre el río, la iglesia románica de San Bartolomeu de Rebordáns (siglo XI), los conventos de Santo Domingo y de las Clarisas, la judería, el puente internacional y el Monte Aloia. Su fiesta grande es San Telmo, el Lunes de Pascua.
+
+- **Playas:** Cesantes a 30 km · 25 min; Area Grande a 30 km · 30 min (franja B). Playa fluvial de Areeiros en el propio Miño.
 - **Paseos:** Monte Aloia (8 km · 15 min), paseo fluvial, casco histórico, Ecopista de Valença a Monção (a 2 km), termas de Monção (25 min).
 - **Servicios 7/10:** centro de salud con urgencias, farmacias, supermercados grandes, comercio, cafeterías, instituto, tren regional a Vigo y Porto, Valença enfrente. Falta hospital y cine (Vigo, 30 min).
 - **Sanidad y aeropuerto:** Álvaro Cunqueiro 30 min; Povisa 30. Vigo 25 min (el mejor tiempo de la zona).

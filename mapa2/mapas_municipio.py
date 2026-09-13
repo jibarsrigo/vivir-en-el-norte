@@ -1,10 +1,10 @@
 """Mapa detallado + ficha visual de cada municipio para el estudio (docs/estudio_zonas.md).
 
-Formato homogéneo (un tercio de página A4): a la izquierda el término municipal con lo que
-tiene dentro según OpenStreetMap (playas, puerto, tren, centro de salud, farmacias,
-supermercados, miradores, montes, monumentos, mercado, golf, termas) más las carreteras;
-a la derecha la ficha con lo que no se puede dibujar (sol, lluvia, verano, mar, hospital,
-aeropuerto, servicios, precio) comparado con Mancor; abajo la leyenda común.
+Formato homogéneo (media página A4, pensado para tablet u ordenador): a la izquierda el
+término municipal con lo esencial (pueblos, playas con nombre, puerto, tren, centro de
+salud, tres montes, tres o cuatro monumentos, paseos, carreteras); a la derecha la ficha
+con sol, lluvia, verano, mar, hospital, aeropuerto, servicios y precio comparados con
+Mancor; abajo la leyenda común. Farmacias y supermercados no se dibujan: van en el recuento.
 
 Uso:  python -m mapa2.mapas_municipio ["A Guarda" ...]   -> output/mapas_municipios/NN_slug.png
 """
@@ -32,7 +32,7 @@ from . import osm  # noqa: E402
 
 RAIZ = Path(__file__).resolve().parent.parent
 DIR_SALIDA = RAIZ / "output" / "mapas_municipios"
-ANCHO_IN, ALTO_IN, PPP = 6.7, 3.15, 220
+ANCHO_IN, ALTO_IN, PPP = 6.7, 4.55, 220
 
 MANCOR = {"sol": 2800, "despejados": 120, "lluvia_dias": 58, "lluvia_mm": 600, "dias_30": 37, "verano": 25.5}
 
@@ -40,17 +40,34 @@ HALO = [pe.withStroke(linewidth=1.6, foreground="white")]
 
 # Lugares que OSM no tiene o que conviene forzar (nombre, lat, lon, tipo).
 EXTRAS: dict[str, list[tuple[str, float, float, str]]] = {
-    "A Guarda": [("Barco a Caminha", 41.876, -8.862, "puerto"), ("Camposancos", 41.880, -8.865, "lugar"),
+    "A Guarda": [("Castro de Santa Trega", 41.893, -8.872, "historico"),
+                 ("Castillo de Santa Cruz", 41.899, -8.875, "historico"),
+                 ("Barco a Caminha", 41.876, -8.862, "puerto"),
+                 ("Camposancos", 41.880, -8.865, "lugar"),
                  ("Paseo marítimo", 41.895, -8.876, "paseo")],
     "Oia": [("Senda litoral", 42.03, -8.888, "paseo"), ("Curros de Mougás", 42.06, -8.86, "paseo"),
             ("Mosteiro de Oia", 42.001, -8.879, "historico"), ("Praia de Mougás", 42.053, -8.887, "playa"),
             ("Mougás", 42.052, -8.874, "lugar"), ("Viladesuso", 42.030, -8.872, "lugar"), ("Pedornes", 41.985, -8.875, "lugar")],
-    "O Rosal": [("O Calvario", 41.935, -8.836, "lugar")],
-    "Tomiño": [("Paseo fluvial", 41.950, -8.758, "paseo"), ("Puente a Cerveira", 41.943, -8.752, "lugar"),
-               ("Goián", 41.953, -8.762, "lugar")],
+    "O Rosal": [("Muíños do Folón", 41.965, -8.826, "paseo"), ("O Calvario", 41.935, -8.836, "lugar")],
+    "Tomiño": [("Paseo fluvial", 41.950, -8.758, "paseo"), ("Fortaleza de San Lourenzo", 41.948, -8.755, "historico"),
+               ("Puente a Cerveira", 41.943, -8.752, "lugar"), ("Goián", 41.953, -8.762, "lugar")],
     "Tui": [("Paseo fluvial", 42.043, -8.648, "paseo"), ("Puente internacional", 42.038, -8.646, "lugar"),
-            ("Ecopista (Valença)", 42.032, -8.632, "paseo")],
+            ("Ecopista (Valença)", 42.032, -8.632, "paseo"), ("Catedral de Tui", 42.046, -8.644, "historico")],
 }
+
+# Monumentos OSM que sí se dibujan (el resto de yacimientos y petroglifos se omiten).
+HISTORICOS_OK = {
+    "a guarda": {"castro de santa trega", "castro de santa tegra", "castelo de santa cruz", "castillo de santa cruz",
+                 "museo do mar"},
+    "oia": {"mosteiro de oia", "mosteiro de santa maría de oia", "mosteiro de santa maria de oia"},
+    "o rosal": {"muíños do folón", "muinos do folon"},
+    "tomiño": {"fortaleza de san lourenzo", "forte de san lourenzo", "castelo de goián"},
+    "tui": {"catedral de santa maría de tui", "catedral de tui", "mosteiro de san domingos",
+            "mosteiro de nosa señora da concepción"},
+}
+
+# Tipos que no se dibujan: el recuento de la ficha ya los cubre.
+OCULTOS = {"farmacia", "supermercado", "mirador"}
 
 ESTILO = {
     "playa": dict(marker="v", color=MZ.COL_PLAYA, s=20, etiqueta=True, cursiva=True),
@@ -58,10 +75,7 @@ ESTILO = {
     "tren": dict(marker="s", color="#212121", s=26, etiqueta=True, texto="T"),
     "salud": dict(marker="s", color=MZ.COL_HOSP_PUB, s=30, etiqueta=True, texto="+"),
     "hospital": dict(marker="s", color=MZ.COL_HOSP_PUB, s=40, etiqueta=True, texto="H"),
-    "farmacia": dict(marker="P", color="#2e7d32", s=12, etiqueta=False),
-    "supermercado": dict(marker="s", color="#ef6c00", s=10, etiqueta=False),
-    "mirador": dict(marker="^", color=MZ.COL_MONTE, s=18, etiqueta=True, cursiva=True, hueco=True),
-    "cima": dict(marker="^", color=MZ.COL_MONTE, s=26, etiqueta=True, cursiva=True),
+    "cima": dict(marker="^", color=MZ.COL_MONTE, s=32, etiqueta=True, cursiva=True),
     "historico": dict(marker="*", color="#6d4c41", s=34, etiqueta=True),
     "museo": dict(marker="D", color="#6d4c41", s=12, etiqueta=True),
     "golf": dict(marker="P", color="#00897b", s=24, etiqueta=True),
@@ -73,7 +87,7 @@ ESTILO = {
 }
 # Orden de prioridad para las etiquetas (primero las más importantes).
 ORDEN = ["aeropuerto", "hospital", "salud", "tren", "puerto", "historico", "playa", "paseo", "cima", "lugar", "termas", "golf",
-         "mercado", "museo", "mirador", "farmacia", "supermercado"]
+         "mercado", "museo"]
 
 
 class Etiquetador:
@@ -199,24 +213,33 @@ def _puntos(ax, datos, bbox, f, poligono, et: Etiquetador):
     puntos = [dict(p) for p in datos["puntos"]]
     for nombre, la, lo, tipo in EXTRAS.get(f["municipio"], []):
         puntos.append({"tipo": tipo, "nombre": nombre, "lat": la, "lon": lo, "dentro": True, "ele": ""})
-    # Cimas: solo las cinco más altas con nombre, para no llenar el mapa de triángulos.
+    # Cimas: solo las tres más altas con nombre.
     cimas = sorted([p for p in puntos if p["tipo"] == "cima" and p.get("nombre")],
                    key=lambda p: -float(p.get("ele") or 0))
-    descartar = {id(p) for p in cimas[5:]}
+    descartar = {id(p) for p in cimas[3:]}
     puntos = [p for p in puntos if id(p) not in descartar]
     puntos.sort(key=lambda p: ORDEN.index(p["tipo"]) if p["tipo"] in ORDEN else 0)
     centro = Point(f["lon"], f["lat"])
+    permitidos = HISTORICOS_OK.get(f["municipio"].split(" (")[0].lower(), set())
+    extras_hist = {n.lower() for n, _, _, t in EXTRAS.get(f["municipio"], []) if t == "historico"}
+    permitidos = permitidos | extras_hist
     for p in puntos:
         if not MZ._dentro(p["lat"], p["lon"], bbox, 0.004):
             continue
         tipo, nombre = p["tipo"], (p["nombre"] or "").strip()
+        if tipo in OCULTOS:
+            continue
         st = ESTILO.get(tipo)
         if not st:
             continue
-        # Fuera del término solo lo que orienta: playas, puertos, tren, sanidad, pueblos, montes con nombre.
-        if not p["dentro"] and tipo in ("farmacia", "supermercado", "mirador", "museo", "mercado", "historico"):
+        if tipo == "historico" and nombre.lower() not in permitidos:
             continue
-        if tipo in ("mirador", "cima", "historico", "museo", "lugar", "golf", "termas") and not nombre:
+        # Fuera del término solo lo que orienta: playas, puertos, tren, sanidad, pueblos, montes con nombre.
+        if not p["dentro"] and tipo in ("museo", "mercado", "historico"):
+            continue
+        if tipo in ("cima", "historico", "museo", "lugar", "golf", "termas") and not nombre:
+            continue
+        if tipo == "playa" and not nombre:
             continue
         if tipo == "lugar" and Point(p["lon"], p["lat"]).distance(centro) < 0.012:
             continue
@@ -240,7 +263,7 @@ def _puntos(ax, datos, bbox, f, poligono, et: Etiquetador):
                 etiqueta = "Centro de salud" if "sa" in nombre.lower() else nombre
             if len(etiqueta) > 30:
                 etiqueta = etiqueta[:28] + "…"
-            et.poner(etiqueta, (p["lon"], p["lat"]), fontsize=4.8, color=st["color"], zorder=8, path_effects=HALO,
+            et.poner(etiqueta, (p["lon"], p["lat"]), fontsize=5.8, color=st["color"], zorder=8, path_effects=HALO,
                      style="italic" if st.get("cursiva") else "normal")
 
 
@@ -248,8 +271,8 @@ def _municipio(ax, f, et: Etiquetador):
     color = E.COLOR_CLASE.get(f["clase_clima"], "#666")
     ax.scatter([f["lon"]], [f["lat"]], marker="o", c=color, s=170, zorder=9, edgecolors="black", linewidths=0.8)
     et.reservar_punto(f["lon"], f["lat"], 7 * PPP / 72)
-    ax.text(f["lon"], f["lat"], str(int(f["n"])), fontsize=6.4, ha="center", va="center", color="white", fontweight="bold", zorder=10)
-    a = ax.annotate(f["municipio"].split(" (")[0], (f["lon"], f["lat"]), xytext=(9, 0), textcoords="offset points", fontsize=7,
+    ax.text(f["lon"], f["lat"], str(int(f["n"])), fontsize=7.2, ha="center", va="center", color="white", fontweight="bold", zorder=10)
+    a = ax.annotate(f["municipio"].split(" (")[0], (f["lon"], f["lat"]), xytext=(9, 0), textcoords="offset points", fontsize=8.2,
                     fontweight="bold", ha="left", va="center", zorder=10, path_effects=[pe.withStroke(linewidth=2, foreground="white")])
     et.reservar(a)
 
@@ -262,7 +285,7 @@ def _escala(ax, bbox):
     x0 = bbox[0] + (bbox[2] - bbox[0]) * 0.03
     y0 = bbox[3] - (bbox[3] - bbox[1]) * 0.05
     ax.plot([x0, x0 + km / kmg], [y0, y0], color="black", linewidth=1.5, zorder=9)
-    ax.text(x0 + km / kmg / 2, y0 - (bbox[3] - bbox[1]) * 0.015, f"{km} km", fontsize=4.8, ha="center", va="top", zorder=9)
+    ax.text(x0 + km / kmg / 2, y0 - (bbox[3] - bbox[1]) * 0.015, f"{km} km", fontsize=5.6, ha="center", va="top", zorder=9)
 
 
 def _conteo(datos, poligono, municipio: str) -> dict[str, int]:
@@ -309,8 +332,8 @@ def _barra(ax, y, valor, referencia, maximo, color, texto_ref):
 def _ficha(ax, f, conteo):
     ax.axis("off")
     sub = f"{f['provincia']} · {f['pais']} · franja {f['franja']} ({int(f['min_costa'])} min al mar)"
-    ax.text(0, 1.0, f"{int(f['n'])} · {f['municipio']}", fontsize=8.2, fontweight="bold", color="#0b3d5c", va="top", transform=ax.transAxes)
-    ax.text(0, 0.935, sub, fontsize=5.4, color="#555", va="top", transform=ax.transAxes)
+    ax.text(0, 1.0, f"{int(f['n'])} · {f['municipio']}", fontsize=10.5, fontweight="bold", color="#0b3d5c", va="top", transform=ax.transAxes)
+    ax.text(0, 0.935, sub, fontsize=6.4, color="#555", va="top", transform=ax.transAxes)
 
     filas = []
     filas.append(("☀", f"Sol {_num(f['sol_horas_anio'])} h/año · {int(f['dias_despejados'])} días despejados · {int(f['dias_cubiertos'])} cubiertos", "#b26a00"))
@@ -353,10 +376,10 @@ def _ficha(ax, f, conteo):
         if icono.startswith("barra"):
             preparadas.append((icono, None, None, 2.0))
         else:
-            lineas = textwrap.wrap(texto, 66)
+            lineas = textwrap.wrap(texto, 58)
             preparadas.append((icono, lineas, color, 1.0 + 0.72 * (len(lineas) - 1)))
     total = sum(u for *_, u in preparadas)
-    unidad = min(0.052, 0.87 / total)
+    unidad = min(0.058, 0.87 / total)
     y = 0.87
     for icono, lineas, color, unidades in preparadas:
         if icono == "barra_sol":
@@ -364,9 +387,9 @@ def _ficha(ax, f, conteo):
         elif icono == "barra_lluvia":
             _barra(ax, y - 0.004, float(f["lluvia_dias_anio"]), MANCOR["lluvia_dias"], 200, "#64b5f6", "Mancor 58 días")
         else:
-            ax.text(0.0, y, icono, fontsize=6.2, color=color, va="top", ha="left", fontweight="bold", transform=ax.transAxes)
+            ax.text(0.0, y, icono, fontsize=7.2, color=color, va="top", ha="left", fontweight="bold", transform=ax.transAxes)
             for i, l in enumerate(lineas):
-                ax.text(0.05, y - i * unidad * 0.72, l, fontsize=5.4, color="#222" if icono != "" else "#555", va="top",
+                ax.text(0.05, y - i * unidad * 0.72, l, fontsize=6.2, color="#222" if icono != "" else "#555", va="top",
                         transform=ax.transAxes)
         y -= unidades * unidad
 
@@ -381,10 +404,7 @@ def _leyenda(ax):
         (Line2D([], [], marker="s", color="w", markerfacecolor="#0d47a1", markersize=5), "Puerto o embarcadero"),
         (Line2D([], [], marker="s", color="w", markerfacecolor="#212121", markersize=5), "Estación de tren"),
         (Line2D([], [], marker="s", color="w", markerfacecolor=MZ.COL_HOSP_PUB, markersize=5), "Centro de salud / hospital"),
-        (Line2D([], [], marker="P", color="w", markerfacecolor="#2e7d32", markersize=4), "Farmacia"),
-        (Line2D([], [], marker="s", color="w", markerfacecolor="#ef6c00", markersize=3.5), "Supermercado"),
         (Line2D([], [], marker="D", color="w", markerfacecolor="#ef6c00", markersize=4), "Mercado"),
-        (Line2D([], [], marker="^", color="w", markerfacecolor="white", markeredgecolor=MZ.COL_MONTE, markersize=5), "Mirador"),
         (Line2D([], [], marker="^", color="w", markerfacecolor=MZ.COL_MONTE, markersize=5), "Monte o cima"),
         (Line2D([], [], marker="*", color="w", markerfacecolor="#6d4c41", markersize=6), "Monumento (castro, castillo, monasterio…)"),
         (Line2D([], [], marker="D", color="w", markerfacecolor="#6d4c41", markersize=3.5), "Museo"),
@@ -395,7 +415,7 @@ def _leyenda(ax):
         (Line2D([], [], color="#e0973a", linewidth=1.0), "Carretera principal"),
         (Line2D([], [], color="#424242", linewidth=0.7, linestyle=(0, (3, 2))), "Ferrocarril"),
     ]
-    leg = ax.legend([a for a, _ in filas], [b for _, b in filas], loc="upper center", ncol=5, fontsize=4.8, frameon=False,
+    leg = ax.legend([a for a, _ in filas], [b for _, b in filas], loc="upper center", ncol=5, fontsize=5.6, frameon=False,
                     handlelength=1.4, columnspacing=0.9, handletextpad=0.4, borderaxespad=0)
     for t in leg.get_texts():
         t.set_color("#333")

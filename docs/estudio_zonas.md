@@ -4,9 +4,11 @@ Tercer documento del proyecto, después del mapa (hoja 1) y de las tablas (hojas
 
 Cada zona empieza con su mapa. Todos los mapas siguen el mismo patrón: a la izquierda la zona ampliada, con los términos municipales de la tabla sombreados en amarillo y numerados (el número es la fila de la tabla), los hospitales (cuadrado con H: rojo público, granate privado), los aeropuertos (triángulo gris), las autopistas (rojo), las carreteras principales (gris discontinuo), las ciudades de referencia (cuadrado negro) y los lugares que se nombran en el texto: playas (triángulo azul), montes y miradores (triángulo verde), paseos (rombo verde), balnearios, campos de golf y barcos de pasajeros. Arriba a la derecha, un localizador del norte peninsular con la zona marcada; debajo, la lista de municipios con horas de sol y minutos a hospital y aeropuerto; y en la base, la leyenda, igual en todos. Cuando la zona toca Portugal, Portugal aparece en color más oscuro.
 
-El documento está planteado como una guía para vivir, no para visitar: cada zona lleva su historia en pocas líneas, los lugares que la definen, playas, paseos, mercados y fiestas y cómo se llega, y después los apartados de decisión (servicios con lo que hay y lo que falta, sanidad, aeropuertos, precios, seguridad, parecido con Mancor, lo que no tendrás). En "Municipio a municipio" cada pueblo tiene su propio mapa detallado con ficha (a la izquierda el término municipal con lo que hay dentro según OpenStreetMap; a la derecha sol, lluvia, verano, mar, hospital, aeropuerto, servicios y precio comparados con Mancor) y un bloque "De dónde viene" con su historia y sus lugares emblemáticos.
+El documento está planteado como una guía para vivir, no para visitar. Tras el mapa y el clima, cada zona lleva los lugares que la definen, playas, paseos, mercados y fiestas, cómo se llega, y los apartados de decisión (servicios, sanidad, aeropuertos, precios, seguridad, parecido con Mancor, lo que no tendrás). Después va un **«Si yo fuera tú» de zona**, que compara los municipios y decide la estrategia; y luego **Municipio a municipio**, cada uno en página nueva: mapa y ficha, cómo se vive hoy, «De dónde viene», playas y paseos descritos, y un «Si yo fuera tú» del pueblo con veredicto.
 
-Convenciones del texto: el sol se da como horas al año y días despejados (cielo limpio casi todo el día), y siempre con el dato de Mancor al lado; la lluvia, en días al mes por temporada, con el mes peor señalado; cada playa, monte o paseo lleva la distancia en kilómetros y minutos de coche desde el pueblo, y está en el mapa. La zona 1 es la primera completa en este formato (prototipo para revisar); la 2 tiene el formato nuevo sin guía ni mapas municipales; de la 3 a la 16 conservan por ahora el formato anterior.
+El mapa municipal dibuja solo lo esencial (pueblos, playas, puerto, tren, centro de salud, tres montes, tres o cuatro monumentos, paseos, carreteras). Farmacias y supermercados van en el recuento de la ficha, no en el mapa. Pensado para tablet u ordenador.
+
+La zona 1 es la primera completa en este formato (prototipo para revisar); la 2 tiene el formato anterior; de la 3 a la 16 conservan el formato más breve.
 
 Los números de sol, lluvia, hospital, aeropuerto, servicios y precios son los de `data/municipios.csv`. Los días de lluvia por mes, las temperaturas mensuales y los días por encima de 30 °C son valores climatológicos de referencia (AEMET / IPMA, normales 1991-2020 de las estaciones más próximas) redondeados; todavía no están en la tabla. La tasa de criminalidad es la del Balance de Criminalidad 2025 del Ministerio del Interior (solo municipios de más de 20.000 habitantes; en el resto se indica la de la comunidad autónoma).
 
@@ -162,98 +164,118 @@ Alto en paisaje y en forma de vida (pueblo pequeño, monte detrás, piedra, viñ
 - Verano suave en Tui y Tomiño: 15-20 días > 30 °C.
 - Playa de arena grande y templada a menos de 20 min desde Tui y Tomiño.
 
+### Si yo fuera tú (la zona)
+
+Solo vendría al Baixo Miño si el paisaje pesa más que la logística. Vigo está a 40 minutos y el hospital a 30-45: eso no se arregla eligiendo bien el pueblo. Lo que sí se elige es el tipo de vida.
+
+Ordenaría así:
+
+1. **O Rosal primero.** Es el único que se siente como Mancor: valle, parra, piedra, monte detrás, plaza donde todos se conocen. El mar a 10 minutos, A Guarda para lo diario, Portugal para los sábados. El precio deja margen (130.000-180.000 € por una casa con terreno).
+2. **Tui si no quiero renunciar a servicios.** Hospital a 30, aeropuerto a 25, tren, Valença enfrente. A cambio, el mar a 25 minutos y un verano con 15-20 días de calor de verdad, que es justo lo que quieres dejar atrás.
+3. **A Guarda como complemento, no como casa principal.** Villa con vida y puerto, pero el hospital a 45 y el viento de la punta. Tiene sentido un piso pequeño con vistas si sobra presupuesto de O Rosal.
+4. **Tomiño no.** Casa grande y barata, sí; pero calor de valle, playa a 20 minutos y nieblas de río. No resuelve lo que O Rosal ya resuelve mejor.
+5. **Oia no.** El silencio y el océano son de postal; la vida diaria es de coche y soledad. No tiene nada de Mancor salvo el silencio.
+
+Estrategia con 260.000 €: una casa en O Rosal y, si sobra, un piso en A Guarda; o una sola vivienda en Tui si priorizo hospital y ciudad. No compraría sobre plano aquí: hay poco y no hace falta. Vendría a verlo en noviembre, no en agosto: el invierno es lo que se come o se acepta.
+
 ### Municipio a municipio
 
-Cada municipio lleva su mapa: a la izquierda el término con lo que tiene dentro (playas, puerto, tren, centro de salud, farmacias, supermercados, miradores, montes, monumentos, mercado), y a la derecha la ficha con los datos que no se dibujan, comparados con Mancor. Los elementos del mapa salen de OpenStreetMap y pueden faltar algunos; la ficha sale de la tabla maestra.
+Cada municipio empieza en página nueva. El mapa dibuja lo esencial; la ficha, a la derecha, compara sol, lluvia, hospital, aeropuerto, servicios y precio con Mancor. Los elementos salen de OpenStreetMap y pueden faltar algunos.
 
 #### 1 · A Guarda
 
 ![Mapa de A Guarda](../output/mapas_municipios/01_a_guarda.png)
 
-Villa marinera de 10.000 habitantes en la punta donde el Miño entra en el Atlántico. El pueblo baja en cuesta hasta un puerto de bajura pequeño y muy vivo, con la lonja, las casas de colores de los marineros y las terrazas del paseo. Detrás, siempre, el Santa Trega. Portugal está tan cerca que se oyen las campanas de Caminha.
+A Guarda es una villa de 10.000 habitantes que se siente más grande de lo que es: hay lonja, mercado, restaurantes abiertos en enero y un paseo donde se sale a tomar café. El pueblo baja en cuesta hasta el puerto; las casas de los marineros, de colores, dan a la dársena; detrás, siempre, el Santa Trega. Portugal está tan cerca que se oyen las campanas de Caminha. Quien vive aquí es gente local, muchos jubilados del propio pueblo y veraneantes en agosto; no es una urbanización de foráneos. En invierno el puerto sigue trabajando y las terrazas del paseo no se cierran, aunque el viento de noroeste se nota: la villa está en la punta. El modelo de casa es piso en edificio bajo (años 90-2010) con terraza al río o al puerto, o chalé en las laderas hacia Camposancos, con Portugal delante. No hay urbanizaciones cerradas. El tráfico es de pueblo salvo julio y agosto en la PO-552. Para lo diario no hace falta coche; para el hospital, sí.
 
-**De dónde viene.** Antes que el pueblo existió el castro del Santa Trega, hace más de dos mil años; el nombre de la villa (guarda, vigía) viene de su papel medieval de atalaya sobre la boca del río. Vivió de la pesca y, desde el siglo XIX, de la emigración a Puerto Rico: muchos guardeses volvieron ricos y dejaron casas de indianos con palmeras y galerías que todavía se ven en la Praza do Reló y en la carretera de Camposancos. Hoy vive del puerto (la langosta es su emblema y tiene fiesta propia en julio), de la industria pequeña y del turismo de verano. Lugares emblemáticos: el castro y el mirador del Santa Trega, el puerto y su paseo, la Torre do Reló (el reloj del siglo XVIII que preside la plaza), la iglesia de Santa María (origen del siglo XII), el Museo do Mar en el antiguo castillo de Santa Cruz (fortaleza del XVII de la guerra con Portugal), y Camposancos, la parroquia del estuario con el embarcadero y la playa de O Muíño.
+**De dónde viene.** Antes que el pueblo existió el castro del Santa Trega, hace más de dos mil años; el nombre (guarda, vigía) viene de su papel medieval de atalaya sobre la boca del río. Vivió de la pesca y, desde el siglo XIX, de la emigración a Puerto Rico: muchos guardeses volvieron ricos y dejaron casas de indianos con palmeras y galerías que todavía se ven en la Praza do Reló y en la carretera de Camposancos. Hoy vive del puerto —la langosta es su emblema y tiene fiesta propia en julio—, de la industria pequeña y del turismo de verano. Lugares emblemáticos: el castro y el mirador del Santa Trega, el puerto y su paseo, la Torre do Reló (el reloj del siglo XVIII que preside la plaza), la iglesia de Santa María (origen del siglo XII), el Museo do Mar en el antiguo castillo de Santa Cruz, y Camposancos, la parroquia del estuario.
 
-- **Playas:** Area Grande (1,5 km · 4 min, andando), O Muíño en el estuario (3 km · 6 min), Praia da Lamiña. Agua 17-19 °C.
-- **Paseos:** Santa Trega (castro y mirador), paseo marítimo del puerto a Camposancos (4 km llanos junto al mar), senda litoral hacia Oia, molinos del Folón en O Rosal a 10 min.
+- **Playas.** Area Grande (1,5 km · 4 min, andando): cala de arena fina, abrigada entre rocas, con el Santa Trega detrás; es la playa de diario, agua 17-19 °C. O Muíño (3 km · 6 min): ya en el estuario, arena y agua plana, Portugal enfrente, merendero bajo los pinos; más templada y sin olas. Praia da Lamiña: más pequeña, entre rocas, al norte. Ninguna tiene problema de acceso; en agosto Area Grande se llena y el aparcamiento junto al paseo se queda corto.
+- **Paseos.** Santa Trega: una hora a pie desde el pueblo o 10 min en coche hasta arriba; se camina entre las casas circulares del castro y se sale al mirador sobre la desembocadura. Paseo marítimo del puerto a Camposancos: 4 km llanos, asfalto y pasarela, el mar a un lado y las casas al otro; el paseo de todos los días. Senda litoral hacia Oia: el océano a la izquierda, la Groba a la derecha, tramos de madera sobre las rocas. Molinos del Folón en O Rosal, a 10 min.
 - **Servicios 6/10:** centro de salud con urgencias 24 h, farmacias, supermercados, mercado, colegios, piscina cubierta, puerto y restaurantes de marisco. Falta hospital, especialistas y gran superficie.
 - **Sanidad y aeropuerto:** Álvaro Cunqueiro 45 min; Povisa 50. Vigo 50 min; Porto 95.
 - **Precio:** 1.450 €/m². Piso reciente de 3 habitaciones con vistas al Miño, 170.000 €.
-- **Casa que encontrarás:** piso en edificio bajo de los años 90-2010 con terraza al río o al puerto; chalé en las laderas hacia Camposancos con vistas a Portugal. Fibra sí. Viento medio: la punta está expuesta.
-- **Para quién:** quien quiera una villa con vida propia, puerto y vistas a Portugal, y acepte el hospital a 45 min.
+- **Casa que encontrarás:** piso en edificio bajo de los 90-2010 con terraza al río o al puerto; chalé en las laderas hacia Camposancos. Fibra sí. Viento medio.
+
+### Si yo fuera tú (A Guarda)
+
+Iría solo como segunda vivienda o si no encontrara casa en O Rosal. Buscaría piso con terraza al Miño o al puerto, 150.000-180.000 €, cerca del paseo, no en la punta más expuesta al noroeste. Comprobaría el viento un día de nortada y el aparcamiento de Area Grande un sábado de agosto. **Veredicto: iría como complemento; no como casa única.** El hospital a 45 minutos es el problema que no se arregla.
 
 #### 2 · Oia
 
 ![Mapa de Oia](../output/mapas_municipios/02_oia.png)
 
-La costa más salvaje y solitaria de la tabla: 3.000 habitantes repartidos en siete parroquias colgadas entre la Serra da Groba y el Atlántico, sin un casco urbano de verdad. Al atardecer el sol se mete en el agua delante de casa.
+Oia no es un pueblo: son siete parroquias (unas 3.000 personas) colgadas entre la Serra da Groba y el Atlántico, sin plaza que haga de centro. Se vive en aldea, con el océano delante y la sierra detrás, y al atardecer el sol se mete en el agua. Quien está aquí es gente de toda la vida, algún jubilado que buscó silencio y veraneantes en las casas de la costa. En invierno las aldeas se vacían de verdad: el bar de Mougás y el de Oia son el único sitio donde hay gente. No hay urbanización ni calle de casas bajas; el modelo es casa aislada de piedra o chalé con vistas. El coche es obligatorio para todo (supermercado, médico, instituto). La PO-552 pasa pegada a la costa: hay tramos donde se oye. Fibra parcial: hay que comprobarla casa por casa.
 
-**De dónde viene.** Todo gira alrededor del monasterio: los monjes cistercienses llegaron en el siglo XII, roturaron la ladera, plantaron viña y organizaron las aldeas que hoy son las parroquias (Oia, Mougás, Viladesuso, Pedornes, Burgueira, Loureza, Torroña). En 1624 rechazaron a cañonazos a una flota turca y el rey les concedió el título de Real Monasterio. Cuando se cerró, en 1835, el municipio quedó como lo ves: aldeas de pescadores y campesinos, con la sierra y sus caballos detrás. Lugares emblemáticos: el monasterio de Santa María frente al mar, los petroglifos de la Cabeciña en Mougás (grabados en la roca de hace 4.000 años junto a un castro), la senda litoral y los curros de caballos salvajes de Mougás y Torroña.
+**De dónde viene.** Todo gira alrededor del monasterio: los monjes cistercienses llegaron en el siglo XII, roturaron la ladera, plantaron viña y organizaron las aldeas que hoy son las parroquias (Oia, Mougás, Viladesuso, Pedornes, Burgueira, Loureza, Torroña). En 1624 rechazaron a cañonazos a una flota turca y el rey les dio el título de Real Monasterio. Cuando se cerró, en 1835, el municipio quedó como lo ves. Lugares emblemáticos: el monasterio de Santa María plantado frente al mar (el único cisterciense de Europa a pie de océano), los petroglifos de la Cabeciña en Mougás y los curros de caballos salvajes de Mougás y Torroña.
 
-- **Playas:** Mougás (6 km · 8 min; pequeña, oleaje) para mirar el mar; para bañarse, Baiona a 14 km · 18 min.
-- **Paseos:** senda litoral (pasa por la puerta), petroglifos de la Groba, los curros en primavera, el Alto da Groba (12 km · 20 min).
-- **Servicios 3/10:** consultorio, una farmacia, tiendas de pueblo y bares. Falta supermercado grande e instituto (en Baiona o A Guarda a 15-20 min). Dependencia del coche 8/10.
+- **Playas.** Praia de Mougás (6 km · 8 min): pequeña, mezcla de arena y cantos, batida por el oleaje; se va a mirar el mar, no a nadar. Acceso fácil desde la carretera. Para bañarse de verdad, Baiona a 14 km · 18 min (arena fina, bahía abrigada).
+- **Paseos.** Senda litoral: pasa por la puerta de las aldeas; tramos de pasarela de madera sobre las rocas y tramos de pista, el océano siempre a un lado. Alto da Groba (12 km · 20 min): meseta de brezo sin árboles, caballos sueltos, el océano a un lado y el valle al otro. Los curros, en mayo y junio, son un día de pueblo: se bajan los caballos a un cercado de piedra.
+- **Servicios 3/10:** consultorio, una farmacia, tiendas de pueblo y bares. Falta supermercado grande e instituto (Baiona o A Guarda, 15-20 min). Dependencia del coche 8/10.
 - **Sanidad y aeropuerto:** Álvaro Cunqueiro 40 min; Povisa 45. Vigo 45 min.
-- **Precio:** 1.600 €/m². Sin obra nueva; casas de piedra rehabilitadas y algún chalé con vistas al océano.
-- **Casa que encontrarás:** casa aislada en aldea con el mar delante y la sierra detrás; muy poco piso. Fibra parcial.
-- **Para quién:** quien quiera vivir mirando al océano y le sobre la soledad. No tiene nada de Mancor salvo el silencio.
+- **Precio:** 1.600 €/m². Sin obra nueva; casas de piedra y algún chalé con vistas.
+- **Casa que encontrarás:** casa aislada en aldea. Fibra parcial.
+
+### Si yo fuera tú (Oia)
+
+No iría. El paisaje es el más salvaje de la tabla y eso tiene un precio: soledad de verdad, coche para todo, supermercado a 15 minutos, hospital a 40. No se parece a Mancor (Mancor tiene plaza, super, farmacia y Inca a 5 min). **Veredicto: no iría.** Solo si lo que buscas es vivir solo frente al océano y te sobra el silencio de noviembre.
 
 #### 3 · O Rosal
 
 ![Mapa de O Rosal](../output/mapas_municipios/03_o_rosal.png)
 
-Valle interior a 10 minutos de A Guarda, con 6.000 habitantes, viñedo de Albariño y Loureiro en pérgola (las parras altas bajo las que se pasa andando), casas de piedra, y las cascadas de los molinos del Folón y del Picón. Es el municipio de la tabla que más se parece a Mancor en paisaje: valle cerrado, bancales, piedra, monte detrás (la Groba y el Santa Trega) y una plaza con bares donde todos se conocen.
+O Rosal es un valle interior de 6.000 habitantes a 10 minutos de A Guarda. Se vive entre parras altas (se pasa andando por debajo), casas de piedra y el monte detrás: la Groba a un lado, el Santa Trega al otro. El núcleo de O Calvario tiene plaza, bares y la iglesia; alrededor, parroquias (Tabagón, San Miguel, Eiras, As Eiras) de casas con huerto y viña. Es el municipio de la tabla que más se parece a Mancor en paisaje y en ritmo: gente local, pocos foráneos, poco tráfico, agosto sin llenarse. No hay urbanización; el modelo es casa de piedra rehabilitada o chalé de los 2000 en ladera, con vistas al valle o al Miño. En invierno el valle se queda en lo suyo: húmedo, verde, con las parras desnudas. Lo diario (farmacia, súper pequeño, centro de salud) está en el pueblo; el resto, en A Guarda a 10 minutos. La fibra es parcial: en las parroquias altas hay que comprobarla.
 
-**De dónde viene.** Un valle agrícola desde siempre: viña, maíz, huerta, y los molinos comunales donde cada casa tenía sus horas de molienda; de ahí los sesenta y siete molinos del Folón y del Picón. Fue tierra de emigración a América y de contrabando con Portugal en la posguerra (el río está a un paso). Desde los años 80 el vino lo cambió todo: O Rosal es subzona de la Denominación de Origen Rías Baixas, con bodegas grandes (Terras Gauda, Santiago Ruiz) y pequeñas, y una Festa do Viño en julio. Lugares emblemáticos: los molinos, la plaza de O Calvario con la iglesia de Santa Mariña, los miradores hacia el Miño desde la ladera del Santa Trega, y el propio paisaje de parras.
+**De dónde viene.** Valle agrícola desde siempre: viña, maíz, huerta, y molinos comunales donde cada casa tenía sus horas de molienda; de ahí los sesenta y siete molinos del Folón y del Picón. Tierra de emigración a América y de contrabando con Portugal en la posguerra. Desde los años 80 el vino lo cambió: O Rosal es subzona de la D.O. Rías Baixas, con bodegas grandes (Terras Gauda, Santiago Ruiz) y una Festa do Viño en julio. Lugares emblemáticos: los molinos, la plaza de O Calvario, los miradores hacia el Miño y el propio paisaje de parras.
 
-- **Playas:** Area Grande a 7 km · 10 min (franja B). O Muíño a 8 km · 12 min.
-- **Paseos:** Muíños do Folón (4 km · 7 min), Santa Trega (12 min), viñedos del valle, senda litoral en A Guarda.
-- **Servicios 4/10:** centro de salud, farmacia, supermercado pequeño, bares, panadería, bodegas. Falta el resto: A Guarda a 10 min, Tui a 20.
+- **Playas.** Area Grande (A Guarda, 7 km · 10 min): la cala de arena fina de diario. O Muíño (8 km · 12 min): estuario, agua plana. Ninguna está en el municipio (franja B).
+- **Paseos.** Muíños do Folón e do Picón (4 km · 7 min): un circuito de 4-5 km entre molinos de piedra, pequeñas cascadas y viña, con el valle abajo; es el paseo de Mancor de esta tabla. Santa Trega a 12 min. Caminar entre las parras del propio valle, por pistas de tierra.
+- **Servicios 4/10:** centro de salud, farmacia, supermercado pequeño, bares, panadería, bodegas. Falta el resto: A Guarda a 10 min.
 - **Sanidad y aeropuerto:** Álvaro Cunqueiro 40 min; Povisa 45. Vigo 45 min.
 - **Precio:** 1.350 €/m². Casa de piedra rehabilitada con terreno, 130.000-180.000 €. Poca obra nueva.
-- **Casa que encontrarás:** casa de piedra con parra y huerto, o chalé de los 2000 en ladera con vistas al valle. Fibra parcial.
-- **Para quién:** quien priorice paisaje y tranquilidad sobre logística. Es la casilla "Mancor" del Baixo Miño.
+- **Casa que encontrarás:** casa de piedra con parra y huerto, o chalé de los 2000 en ladera. Fibra parcial.
+
+### Si yo fuera tú (O Rosal)
+
+Aquí vendría. Buscaría casa de piedra rehabilitada, o chalé de los 2000 bien orientado al sur, en Tabagón, San Miguel o Eiras, con vistas al valle o al Miño, 130.000-180.000 €. Comprobaría la fibra en esa casa, la humedad de las paredes en noviembre y cuánto tarda el coche a Area Grande un domingo de agosto. **Veredicto: iría.** Es la casilla Mancor del Baixo Miño. Acepto el hospital a 40 minutos y Vigo a 40.
 
 #### 4 · Tomiño
 
 ![Mapa de Tomiño](../output/mapas_municipios/04_tomino.png)
 
-Municipio ribereño del Miño de 13.000 habitantes, con Goián como núcleo, frente a Vila Nova de Cerveira. El río aquí es ancho y manso, con paseo fluvial y el puente de la Amizade por el que se cruza a Portugal en dos minutos para el mercado del sábado o para cenar. Es el municipio más barato de la zona y el más caluroso junto a Tui.
+Tomiño es un municipio de 13.000 habitantes extendido por la vega del Miño, con Goián como núcleo, frente a Vila Nova de Cerveira. El río aquí es ancho y manso; se cruza a Portugal en dos minutos por el puente de la Amizade. Quien vive aquí es gente local, trabajadores de los viveros (Tomiño es la capital gallega de la planta ornamental: se ven los invernaderos desde la carretera) y quien busca casa grande barata. Goián tiene lo básico; Cerveira, al otro lado, tiene el mercado de los sábados y más restaurantes: los dos pueblos funcionan como uno. En julio y agosto el valle aprieta: 21 °C de media, 15-20 días por encima de 30 °C, que es el calor que quieres dejar. En otoño e invierno, nieblas de río que levantan a media mañana. El modelo es casa con finca en la vega; poco piso, ninguna urbanización. Fibra parcial. El coche hace falta para la playa (20 min) y para Tui (15 min).
 
-**De dónde viene.** Tierra de frontera y de vega: las fortalezas de San Lourenzo y Medos, en Goián, se levantaron en el siglo XVII cuando Portugal se independizó de España y el Miño volvió a ser línea de guerra. Después, siglos de agricultura en la vega y, desde hace treinta años, viveros: Tomiño es la capital gallega de la planta ornamental, con decenas de invernaderos que se ven desde la carretera. El puente a Cerveira (2004) lo cambió: hoy Goián y Cerveira funcionan como un solo pueblo con dos monedas de costumbres. Lugares emblemáticos: la fortaleza de San Lourenzo y el paseo del Miño en Goián, el mercado de los sábados de Cerveira, los viveros, y la Bienal de Arte de Cerveira en verano.
+**De dónde viene.** Tierra de frontera: las fortalezas de San Lourenzo y Medos se levantaron en el siglo XVII cuando Portugal se independizó y el Miño volvió a ser línea de guerra. Después, siglos de agricultura en la vega y, desde hace treinta años, los viveros. El puente a Cerveira (2004) lo cambió. Lugares emblemáticos: la fortaleza de San Lourenzo y el paseo del Miño en Goián, el mercado de los sábados de Cerveira y la Bienal de Arte de Cerveira (veranos impares).
 
-- **Playas:** Area Grande a 17 km · 20 min (franja B); Cesantes a 38 km · 30 min por autopista.
-- **Paseos:** paseo fluvial de Goián, fortaleza, el Aloia a 20 min, la Ecopista portuguesa a 10 min.
-- **Servicios 5/10:** centro de salud, farmacias, supermercado, bares, panaderías; Cerveira a 2 min. Falta lo que no sea básico (Tui a 15 min).
+- **Playas.** Area Grande (17 km · 20 min): la cala de arena de A Guarda. Cesantes (38 km · 30 min por autopista): playa larga de arena en el fondo de la ría de Vigo, sin olas, agua 18-20 °C; es la más cómoda desde aquí. Ninguna está en el municipio.
+- **Paseos.** Paseo fluvial de Goián: llano, junto al río, con la fortaleza a un lado y Cerveira enfrente. Ecopista portuguesa (Valença-Monção) a 10 min: antigua vía de tren, 15 km llanos entre viña. Monte Aloia a 20 min.
+- **Servicios 5/10:** centro de salud, farmacias, supermercado, bares; Cerveira a 2 min. Falta lo que no sea básico (Tui a 15 min).
 - **Sanidad y aeropuerto:** Álvaro Cunqueiro 35 min; Povisa 40. Vigo 30 min.
-- **Precio:** 1.100 €/m². Casa grande con terreno junto al río por muy poco dinero.
-- **Casa que encontrarás:** casa con finca en las vegas del río; poco piso. Fibra parcial. Verano de 21 °C de media y 15-20 días > 30 °C, nieblas de río.
-- **Para quién:** quien quiera casa grande con terreno por poco dinero y no le importe la playa a 20 min ni el calor de julio.
+- **Precio:** 1.100 €/m², el más bajo de la zona. Casa grande con terreno por poco dinero.
+- **Casa que encontrarás:** casa con finca en la vega. Fibra parcial. Verano cálido y nieblas de río.
+
+### Si yo fuera tú (Tomiño)
+
+No iría. La casa grande barata tienta, pero el calor de julio es el que huyes, la playa está a 20 minutos y O Rosal da el paisaje y la tranquilidad sin ese verano. **Veredicto: no iría**, salvo que el presupuesto real fuera mucho más bajo y la casa con finca fuera innegociable. En ese caso, Goián, no las parroquias del fondo del valle, y una semana de julio de prueba.
 
 #### 5 · Tui
 
 ![Mapa de Tui](../output/mapas_municipios/05_tui.png)
 
-Ciudad episcopal de 17.000 habitantes sobre el Miño, frente a Valença: catedral-fortaleza en lo alto, casco histórico de calles empedradas y soportales con vida todo el año (es la última etapa del Camino Portugués antes de Santiago), el Parque Natural del Monte Aloia encima y el puente internacional de hierro para cruzar a Portugal a pie. Es el municipio más completo del Baixo Miño y el mejor comunicado.
+Tui es una ciudad pequeña de 17.000 habitantes sobre el Miño, frente a Valença. Tiene casco histórico de verdad (calles empedradas, soportales, catedral arriba) y un ensanche con supermercados, instituto y pisos nuevos. El Camino Portugués le da un goteo de peregrinos todo el año: hay cafeterías abiertas en enero. Quien vive aquí es gente local, funcionarios, algún jubilado gallego; no es una urbanización de veraneantes. En verano el valle calienta (21 °C de media, 15-20 días > 30 °C) y en invierno hay mañanas de niebla de río. El Aloia está encima del pueblo; Portugal, al otro lado del puente, a pie. El modelo de casa es piso nuevo o reciente con ascensor en el ensanche, o casa en parroquia de la ladera del Aloia. Fibra sí. Es el único de la zona con tren y con la A-55 a cinco minutos: Vigo en 25. El mar, a 25 minutos.
 
-**De dónde viene.** Tude fue ciudad romana, capital de reino suevo en el siglo VI y sede episcopal desde entonces; en la Edad Media fue una de las siete capitales del Reino de Galicia y su catedral se construyó como fortaleza porque la frontera estaba a un tiro de piedra. El puente internacional de 1886, de hierro y escuela de Eiffel, la unió a Valença por tren y carretera. Hoy Tui y Valença forman una "eurociudad" que comparte servicios, y el Camino Portugués le da un goteo constante de peregrinos. Lugares emblemáticos: la catedral de Santa María y su claustro, el paseo de la muralla y el mirador sobre el río, la iglesia románica de San Bartolomeu de Rebordáns (siglo XI), los conventos de Santo Domingo y de las Clarisas, la judería, el puente internacional y el Monte Aloia. Su fiesta grande es San Telmo, el Lunes de Pascua.
+**De dónde viene.** Tude fue ciudad romana, capital del reino suevo en el siglo VI y sede episcopal desde entonces; en la Edad Media, una de las siete capitales de Galicia. La catedral se construyó como fortaleza porque la frontera estaba a un tiro de piedra. El puente internacional de 1886 (hierro, escuela de Eiffel) la unió a Valença. Hoy Tui y Valença forman una «eurociudad». Lugares emblemáticos: la catedral de Santa María y su claustro (el único claustro medieval completo de las catedrales gallegas), el paseo de la muralla sobre el río, San Bartolomeu de Rebordáns (románico del siglo XI), los conventos de Santo Domingo y de las Clarisas, la judería, el puente y el Monte Aloia. Fiesta grande: San Telmo, Lunes de Pascua.
 
-- **Playas:** Cesantes a 30 km · 25 min; Area Grande a 30 km · 30 min (franja B). Playa fluvial de Areeiros en el propio Miño.
-- **Paseos:** Monte Aloia (8 km · 15 min), paseo fluvial, casco histórico, Ecopista de Valença a Monção (a 2 km), termas de Monção (25 min).
-- **Servicios 7/10:** centro de salud con urgencias, farmacias, supermercados grandes, comercio, cafeterías, instituto, tren regional a Vigo y Porto, Valença enfrente. Falta hospital y cine (Vigo, 30 min).
-- **Sanidad y aeropuerto:** Álvaro Cunqueiro 30 min; Povisa 30. Vigo 25 min (el mejor tiempo de la zona).
-- **Precio:** 1.250 €/m². Piso nuevo de 3 habitaciones, 120.000 €. Obra nueva disponible.
-- **Casa que encontrarás:** piso nuevo o reciente con ascensor en el ensanche, o casa en parroquia de la ladera del Aloia con vistas al valle. Fibra sí. Verano cálido (21 °C, 15-20 días > 30 °C) y niebla media.
-- **Para quién:** quien quiera ciudad pequeña histórica con servicios, Portugal enfrente y hospital a media hora, y acepte tener el mar a 25 min y algo de calor.
+- **Playas.** Cesantes (30 km · 25 min): arena larga, ría, sin olas, agua 18-20 °C. Area Grande (30 km · 30 min). Playa fluvial de Areeiros, en el propio Miño: agua de río, no de mar; se usa en verano. Ninguna playa de mar está en el municipio (franja B).
+- **Paseos.** Casco histórico y muralla: se sube por calles empedradas hasta la catedral y se recorre el adarve con el Miño y Valença debajo. Paseo fluvial: llano, bajo la catedral, hasta el puente de hierro. Monte Aloia (8 km · 15 min): pinar, mesas, miradores sobre la vega; el paseo del domingo. Ecopista de Valença a Monção, a 2 km cruzando el puente.
+- **Servicios 7/10:** centro de salud con urgencias, farmacias, supermercados grandes, comercio, cafeterías, instituto, tren, Valença enfrente. Falta hospital y cine (Vigo, 30 min).
+- **Sanidad y aeropuerto:** Álvaro Cunqueiro 30 min; Povisa 30. Vigo 25 min.
+- **Precio:** 1.250 €/m². Piso nuevo de 3 habitaciones, 120.000 €. Obra nueva sí.
+- **Casa que encontrarás:** piso nuevo con ascensor en el ensanche, o casa en la ladera del Aloia. Fibra sí. Verano cálido, niebla media.
 
-### Si yo fuera tú
+### Si yo fuera tú (Tui)
 
-Solo vendría a esta zona si el paisaje pesa más que la logística, y lo haría con una de estas dos ideas:
-
-- **O Rosal para vivir como en Mancor.** Buscaría casa de piedra rehabilitada con terreno en las parroquias altas del valle (Tabagón, San Miguel, Eiras), orientada al sur y con vistas al valle o al Miño, entre 130.000 y 180.000 €. Con lo que sobra del presupuesto, o bien un pequeño piso en A Guarda con vistas para alquilar, o bien nada. Tendría el mar a 10 minutos, los molinos para pasear cada tarde, A Guarda para lo diario y Portugal para los sábados. Lo que aceptaría a cambio: el hospital a 40 minutos y Vigo a 40; la fibra habría que comprobarla casa por casa antes de firmar.
-- **Tui para no renunciar a servicios.** Piso nuevo de 3 habitaciones con terraza en el ensanche, cerca del casco histórico, por 120.000-150.000 €. Hospital a 30, aeropuerto a 25, tren, Valença enfrente. A cambio, el mar a 25 minutos y un verano con 15-20 días de calor de verdad. Si el sol de la terraza en verano es lo primero, Tui te lo da; si el calor de julio es lo que huyes, Tui no.
-
-Qué comprobaría en la visita: en O Rosal, cobertura de fibra o de antena en la casa concreta y cuánto tarda el coche hasta Area Grande un domingo de agosto; en Tui, el ruido de la A-55 según la calle y la humedad del río en invierno (las mañanas de niebla). Y en los dos, pasar una semana de noviembre antes de decidir.
+Iría solo si el hospital a 30 minutos y la ciudad pequeña pesan más que el mar y el calor. Buscaría piso nuevo de 3 habitaciones con terraza, en el ensanche cerca del casco, no pegado a la A-55, 120.000-150.000 €. Comprobaría el ruido de la autovía según la calle y una mañana de niebla de noviembre. **Veredicto: iría solo si…** no acepto el hospital a 40 de O Rosal y me da igual el mar a 25 minutos y 15-20 días de calor. Si el calor de julio es lo que huyes, Tui no.
 
 ![Mapa de la zona 2 · Val Miñor](../output/mapas_zonas/zona_02.png)
 

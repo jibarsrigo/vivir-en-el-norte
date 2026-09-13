@@ -19,6 +19,8 @@ body { font-family: sans-serif; font-size: 9.6pt; line-height: 1.32; color: #1a1
 h1 { font-size: 20pt; color: #0b3d5c; margin: 0 0 6pt 0; }
 h2 { font-size: 14pt; color: #0b3d5c; margin: 14pt 0 6pt 0; }
 h3 { font-size: 10.6pt; color: #b3541e; margin: 9pt 0 3pt 0; }
+h4 { font-size: 10pt; color: #0b3d5c; margin: 8pt 0 2pt 0; border-bottom: 0.5pt solid #b9c7d2; }
+img { width: 100%; }
 p { margin: 0 0 5pt 0; text-align: justify; }
 ul, ol { margin: 0 0 5pt 0; }
 li { margin: 0 0 1.5pt 0; }
@@ -38,13 +40,17 @@ def html_desde_markdown(texto: str) -> str:
     html = markdown.markdown(texto, extensions=["tables"])
     # Las reglas horizontales del markdown sobran: cada zona empieza en página nueva.
     html = re.sub(r"<hr\s*/?>", "", html)
-    html = re.sub(r"<h2>(\d+\. |Cierre|Pendiente)", r'<h2 style="page-break-before: always">\1', html)
+    # Cada zona empieza en página nueva, con su mapa arriba del título.
+    html = re.sub(r'<p><img alt="([^"]*)" src="\.\./output/([^"]+)"\s*/?></p>',
+                  r'<p style="page-break-before: always; margin: 0 0 4pt 0"><img alt="\1" src="output/\2" /></p>', html)
+    html = re.sub(r"<h2>(Cierre|Pendiente)", r'<h2 style="page-break-before: always">\1', html)
+    html = re.sub(r"<h2>(\d+\. )", r'<h2 style="margin-top: 2pt">\1', html)
     return html
 
 
 def generar(origen: Path = ORIGEN, destino: Path = DESTINO) -> Path:
     html = html_desde_markdown(origen.read_text(encoding="utf-8"))
-    story = pymupdf.Story(html=html, user_css=CSS)
+    story = pymupdf.Story(html=html, user_css=CSS, archive=pymupdf.Archive(str(RAIZ)))
     destino.parent.mkdir(parents=True, exist_ok=True)
     escritor = pymupdf.DocumentWriter(str(destino))
     zona = A4 + (MARGEN, MARGEN, -MARGEN, -MARGEN - 14)

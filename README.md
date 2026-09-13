@@ -52,7 +52,7 @@ Columna `origen`: **MAPA 1.0** (27 municipios de la versión anterior), **MAPA 2
 |---|---|
 | `data/municipios.csv` | **Tabla maestra** (fuente de verdad). 83 filas × 54 columnas, separador `;`, UTF-8. |
 | `data/diccionario_columnas.csv` | Definición, unidad, tipo de dato, rango y valores admitidos de cada columna (generado desde el esquema). |
-| `data/geo/*.geojson` | Cartografía base (Natural Earth 10 m) recortada al norte peninsular. |
+| `data/geo/*.geojson` | Cartografía base recortada al norte peninsular: países y provincias (Natural Earth 10 m), términos municipales de España y Portugal (GADM 4.1, para la costa detallada de los mapas de zona), ríos y carreteras (Natural Earth). |
 | `mapa2/esquema.py` | Ficha de búsqueda, columnas, zonas, hospitales (33, públicos y privados), aeropuertos (7) con su situación de vuelo a Palma, umbrales y reglas de cálculo, resumen Portugal. |
 | `mapa2/validar.py` | Validación fila a fila. Falla si algo no cuadra con el esquema. |
 | `mapa2/render.py` | Genera las tres hojas (PNG y, con `--pdf`, PDF vectorial por hoja + PDF completo). Se niega a renderizar si la tabla no valida. |
@@ -65,6 +65,7 @@ Columna `origen`: **MAPA 1.0** (27 municipios de la versión anterior), **MAPA 2
 | `docs/estudio_zonas.md` | **Estudio detallado por zonas** (tercer documento, tras mapa y tablas): las 16 zonas en el orden de la tabla, cada una con clima mes a mes, mar y baño, paseos y montaña, servicios, sanidad, aeropuertos, precios, seguridad, parecido con Mancor de la Vall, lo que no tendrás, y los 83 municipios uno a uno. Cierra con el orden "si yo fuera tú" y los datos pendientes de añadir a la tabla. |
 | `output/mapa_2_0_estudio.pdf` | El estudio anterior en PDF A4 paginado con índice (marcadores) por zona, generado por `mapa2/estudio.py`. |
 | `mapa2/estudio.py` | Convierte `docs/estudio_zonas.md` en `output/mapa_2_0_estudio.pdf` (`python -m mapa2.estudio`). |
+| `mapa2/mapas_zona.py` | Genera un mapa por zona en `output/mapas_zonas/zona_XX.png` (municipios numerados, hospitales, aeropuertos, autopistas, playas, montes, paseos y lugares nombrados en el estudio; localizador y leyenda comunes). Se insertan al inicio de cada zona del estudio (`python -m mapa2.mapas_zona`). |
 
 ## Cómo ejecutarlo
 
@@ -76,6 +77,8 @@ python -m mapa2.validar --informe   # valida las 83 filas y escribe output/infor
 python -m mapa2.render              # genera las tres hojas PNG en output/
 python -m mapa2.render --pdf        # además, PDF vectorial por hoja y output/mapa_2_0_completo.pdf (3 páginas)
 python -m mapa2.exportar            # genera el Excel y data/diccionario_columnas.csv
+python -m mapa2.mapas_zona          # genera los 16 mapas de zona en output/mapas_zonas/
+python -m mapa2.estudio             # convierte docs/estudio_zonas.md (con sus mapas) en output/mapa_2_0_estudio.pdf
 ```
 
 Para cambiar un dato: edita `data/municipios.csv`, vuelve a ejecutar `validar` y, si está en verde, `render`.

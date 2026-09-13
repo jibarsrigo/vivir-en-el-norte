@@ -2,6 +2,10 @@
 
 Tercer documento del proyecto, después del mapa (hoja 1) y de las tablas (hojas 2 y 3). Aquí no hay columnas: hay texto. Cada zona se explica como si fuera yo quien tuviera que dejar Mancor de la Vall e irme a vivir allí, con lo que tendría y lo que no tendría, y después cada municipio uno por uno. El orden es el de la tabla, de arriba abajo: Pontevedra (Baixo Miño, Val Miñor, Vigo e ría, O Morrazo, Pontevedra e Sanxenxo, O Salnés), A Coruña (Barbanza e Noia, Golfo Ártabro e Ferrol), Lugo (A Mariña), Asturias (Occidente, Centro, Oriente), Cantabria (Occidental, Oriental) y Portugal (Alto Minho, Litoral Norte).
 
+Cada zona empieza con su mapa. Todos los mapas siguen el mismo patrón: a la izquierda la zona ampliada, con los términos municipales de la tabla sombreados en amarillo y numerados (el número es la fila de la tabla), los hospitales (cuadrado con H: rojo público, granate privado), los aeropuertos (triángulo gris), las autopistas (rojo), las carreteras principales (gris discontinuo), las ciudades de referencia (cuadrado negro) y los lugares que se nombran en el texto: playas (triángulo azul), montes y miradores (triángulo verde), paseos (rombo verde), balnearios, campos de golf y barcos de pasajeros. Arriba a la derecha, un localizador del norte peninsular con la zona marcada; debajo, la lista de municipios con horas de sol y minutos a hospital y aeropuerto; y en la base, la leyenda, igual en todos. Cuando la zona toca Portugal, Portugal aparece en color más oscuro.
+
+Convenciones del texto: el sol se da como horas al año y días despejados (cielo limpio casi todo el día), y siempre con el dato de Mancor al lado; la lluvia, en días al mes por temporada, con el mes peor señalado; cada playa, monte o paseo lleva la distancia en kilómetros y minutos de coche desde el pueblo, y está en el mapa. Las zonas 1 y 2 ya están en este formato; de la 3 a la 16 conservan por ahora el formato anterior y se irán rehaciendo con el mismo patrón.
+
 Los números de sol, lluvia, hospital, aeropuerto, servicios y precios son los de `data/municipios.csv`. Los días de lluvia por mes, las temperaturas mensuales y los días por encima de 30 °C son valores climatológicos de referencia (AEMET / IPMA, normales 1991-2020 de las estaciones más próximas) redondeados; todavía no están en la tabla. La tasa de criminalidad es la del Balance de Criminalidad 2025 del Ministerio del Interior (solo municipios de más de 20.000 habitantes; en el resto se indica la de la comunidad autónoma).
 
 ## La referencia: Mancor de la Vall y Mallorca
@@ -27,55 +31,94 @@ Las dos verdades generales antes de entrar en cada zona:
 1. **Invierno.** En toda la costa norte llueve entre 12 y 16 días al mes de octubre a marzo (en Mancor, 6-8). Eso significa que en invierno la terraza se usa la mitad o menos. Las temperaturas de invierno, en cambio, son casi las mismas que en Mancor (6-8 °C de mínima, 13-14 °C de máxima en enero) porque el mar templa la costa.
 2. **Verano.** En las Rías Baixas y en el Minho llueve 3-5 días al mes de junio a agosto y hay 3-8 días al año por encima de 30 °C; en el Cantábrico llueve 9-11 días al mes en verano y hay 1-3 días por encima de 30 °C. En Mancor, 37 días. El calor que no quieres desaparece en todas las zonas costeras de la tabla; solo vuelve en los valles interiores del Miño (Tui, Tomiño, Valença, Ponte de Lima).
 
----
+![Mapa de la zona 1 · Baixo Miño](../output/mapas_zonas/zona_01.png)
 
 ## 1. Baixo Miño (Pontevedra) · A Guarda, Oia, O Rosal, Tomiño, Tui
 
 ### La zona
 
-Es la esquina suroeste de Galicia: el último tramo del río Miño antes de entrar en el Atlántico, con Portugal en la otra orilla. Hacia el mar, A Guarda y Oia; hacia el interior, el valle de O Rosal, las vegas de Tomiño y la ciudad episcopal de Tui, frente a Valença. Detrás de todo, la Serra da Groba (660 m) y el Monte Aloia (629 m), y sobre A Guarda el Monte Santa Trega (341 m), con el castro celta más visitado de Galicia y la vista de la desembocadura.
+Es la esquina suroeste de Galicia: el último tramo del río Miño antes de entrar en el Atlántico, con Portugal en la otra orilla. Mirando al mar están A Guarda, una villa de pescadores apretada en la punta donde el río se rinde al océano, y Oia, una hilera de aldeas colgadas entre la sierra y las rocas. Tierra adentro, siguiendo el río hacia arriba, vienen el valle de O Rosal (viñedo, molinos, casas de piedra), las vegas de Tomiño con Goián asomado a Portugal, y Tui, la pequeña ciudad episcopal que se mira en Valença. Detrás de todo, la Serra da Groba (660 m) y el Monte Aloia (629 m); sobre A Guarda, el Monte Santa Trega (341 m), que es el balcón natural de toda la desembocadura.
 
-Es la zona de la tabla que más se parece a Mancor en textura: granito, bancales de viñedo, casas de piedra en parroquias dispersas, monte detrás del pueblo, y un ritmo lento. También es la más rural: la ciudad (Vigo) está a 40 minutos y el hospital a 30-45. Portugal a cinco minutos multiplica los servicios: Valença tiene comercio y restaurantes, Caminha y Vila Praia de Âncora tienen playa y vida de villa, y la sanidad privada portuguesa (más barata) queda a mano.
+Es la zona de la tabla que más se parece a Mancor en textura: granito, bancales de viñedo, casas de piedra repartidas en parroquias, monte detrás del pueblo y un ritmo lento. También es la más rural: la ciudad (Vigo) está a 40 minutos y el hospital a 30-45. A cambio, Portugal a cinco minutos multiplica lo que tienes a mano: Valença (comercio, restaurantes, el mercado de toallas y manteles dentro de la fortaleza), Vila Nova de Cerveira (mercado de los sábados, paseo junto al río), Caminha y Vila Praia de Âncora (playas y vida de villa), y la sanidad privada portuguesa, bastante más barata que la española.
 
-### Clima mes a mes
+### Clima: qué notarás respecto a Mancor
+
+Cómo leer los números de sol: primero las horas de sol al año y después los días despejados (cielo limpio casi todo el día) y los cubiertos (cielo tapado casi todo el día); el resto del año son días de nubes y claros.
 
 | | Oct-Mar | Abr-May | Jun-Sep | Año |
 |---|---|---|---|---|
-| Días de lluvia al mes | 13-16 | 10-12 | 3-6 | 118-122 |
-| Máxima / mínima típica | 14 / 7 °C (ene.) | 19 / 10 °C | 25 / 15 °C (jul., costa) · 28-29 / 15 °C (Tui) | |
-| Horas de sol al mes | 100-140 | 200-230 | 260-300 | 2.350-2.450 |
+| Días de lluvia al mes · **Baixo Miño** | 13-16 (el peor, diciembre-enero: 16-17) | 10-12 | 3-6 (julio: 3) | 118-122 |
+| Días de lluvia al mes · Mancor | 6-8 | 4-5 | 1-3 | 55-60 |
+| Horas de sol al mes · **Baixo Miño** | 100-140 (diciembre: 95-100, 3 h al día) | 200-230 | 260-300 (julio: 300, casi 10 h al día) | 2.350-2.450 |
+| Horas de sol al mes · Mancor | 150-205 | 235-285 | 230-345 | 2.800 |
+| Máxima / mínima típica · **Baixo Miño** | 14 / 7 °C (enero) | 19 / 10 °C | 25 / 15 °C en la costa · 28-29 / 15 °C en Tui | |
+| Máxima / mínima típica · Mancor | 14 / 6 °C (enero) | 22 / 11 °C | 30 / 20 °C (julio) | |
 
-Sol: 2.350-2.450 h, 75-78 días despejados, 115 cubiertos. Es el segundo mejor grupo climático de la tabla en España, solo por detrás del Val Miñor. Comparado con Mancor: 350-450 h de sol menos, el doble de días de lluvia (concentrados de octubre a marzo), 1.500-1.650 mm frente a 455-700. Viento medio en A Guarda y bajo en el valle; niebla baja en la costa y media en Tomiño y Tui (nieblas de río en otoño e invierno).
-
-Calor: en A Guarda y Oia, 5 días al año por encima de 30 °C y 19,5 °C de media estival; en Tui y Tomiño, 15-20 días y 21 °C, con puntas de 36-38 °C en olas de calor. Es la única zona gallega de la tabla donde el interior recupera parte del verano de Mancor, que es justo lo que no quieres.
+- **Sol: 2.350-2.450 h al año / 75-78 días despejados (115 cubiertos).** Mancor: 2.800 h / 120 despejados (60 cubiertos). Pierdes 350-450 horas de sol, casi todas entre noviembre y febrero: de junio a septiembre la diferencia es pequeña (aquí 260-300 h al mes, en Mancor 230-345). En verano tomarás el sol en la terraza igual que ahora; en invierno, la mitad de días.
+- **Lluvia: 1.500-1.650 mm en 118-122 días.** En Mancor caen 455-700 mm en 55-60 días. Es decir: llueve el doble de días y cae casi tres veces más agua, porque aquí, cuando llueve, llueve en serio. De octubre a marzo cuenta con 13-16 días de lluvia al mes (diciembre y enero son los peores, 16-17); en abril y mayo 10-12; de junio a septiembre 3-6, con julio prácticamente seco.
+- **Temperatura.** Invierno casi idéntico a Mancor (enero 14 / 7 °C, sin heladas en la costa; en Tui y Tomiño alguna helada de madrugada). Verano mucho más suave en la costa: 25 °C de máxima típica en julio en A Guarda y Oia frente a los 30 de Mancor, y noches de 15 °C en lugar de 20-22.
+- **Calor.** En A Guarda y Oia, 5 días al año por encima de 30 °C (Mancor: 37). En Tui y Tomiño, 15-20 días, con puntas de 36-38 °C en las olas de calor: los valles del Miño son la única parte gallega de la tabla donde vuelve algo del verano que quieres dejar atrás.
+- **Viento y niebla.** Viento medio en A Guarda (la punta está expuesta al noroeste) y bajo en el valle. Niebla baja en la costa; media en Tomiño y Tui, con nieblas de río en mañanas de otoño e invierno que levantan a media mañana.
 
 ### Mar y baño
 
-La costa de Oia es Atlántico abierto: rocas, oleaje, acantilados bajos y una playa pequeña (Mougás). Para bañarse con calma hay que ir a la desembocadura del Miño: Area Grande y O Muíño en A Guarda (arena, agua de estuario, 17-19 °C) o cruzar a Moledo y Caminha. Desde Tui y Tomiño la playa más cómoda es Cesantes (Redondela, ría de Vigo, agua de 18-20 °C) a 25 min, o Area Grande a 20-25. El mar abierto para pasear lo tienes en el paseo marítimo de A Guarda y en la senda litoral Baiona-A Guarda.
+La costa de Oia es Atlántico puro: rocas oscuras, oleaje, acantilados bajos y el ruido del mar de fondo. Es una costa para pasear, no para nadar. Para bañarse con calma hay que ir a la desembocadura del Miño o cruzar a Portugal.
+
+- **Area Grande (A Guarda · 1,5 km · 4 min desde el centro, se va andando).** Cala de arena fina abrigada entre rocas al norte del casco urbano, con paseo de madera y el Santa Trega detrás. Es la playa "de diario" de A Guarda. Agua a 17-19 °C en agosto: fresca, pero se aguanta.
+- **O Muíño (A Guarda-Camposancos · 3 km · 6 min).** Ya dentro del estuario del Miño, con Portugal enfrente y agua tranquila sin olas, algo más templada que la costa abierta. Merendero bajo los pinos y un pequeño puerto donde sale el barco a Caminha.
+- **Praia de Mougás (Oia · 6 km · 8 min desde el centro de Oia).** Pequeña, mezcla de arena y cantos, batida por el oleaje. Para mojarse los pies y mirar el océano, no para nadar. Desde Oia, la playa de baño real es la de Baiona (14 km · 18 min, zona 2).
+- **Cesantes (Redondela, ría de Vigo · 30 km · 25 min desde Tui, 38 km · 30 min desde Goián por la A-55 y la AP-9).** Playa larga de arena en el fondo de la ría, frente a la isla de San Simón, sin oleaje y con el agua más templada de la zona (18-20 °C). Es la playa cómoda para Tui y Tomiño.
+- **Moledo y Vila Praia de Âncora (Portugal · 35-40 km · 40-45 min en coche por el puente de Goián-Cerveira; o 15 min de barco desde A Guarda a Caminha más 5-8 km).** Arenales atlánticos largos con dunas y pinar, Moledo con el fuerte de la Ínsua delante y Vila Praia de Âncora con puerto pesquero y vida de villa. Agua abierta, fría, oleaje moderado.
+
+En el mapa, las playas son los triángulos azules invertidos y el barco A Guarda-Caminha la línea de puntos azul (servicio estacional: hay que comprobar cada temporada si funciona).
 
 ### Paseos y montaña
 
-Monte Santa Trega (castro, museo, mirador); senda litoral A Guarda-Oia-Baiona (unos 30 km, tramo del Camino Portugués de la Costa); Muíños do Folón e do Picón en O Rosal (más de 60 molinos en cascada, ruta circular de 4 km); Serra da Groba con sus caballos salvajes (curros de Mougás y Torroña en primavera); Parque Natural Monte Aloia en Tui (senderos, miradores, el primer parque natural de Galicia); paseo fluvial del Miño en Goián y Tui; Ecopista do Minho al otro lado (Valença-Monção, 15 km llanos para andar o bicicleta).
+- **Monte Santa Trega (A Guarda · 5 km · 10 min en coche hasta arriba, o una hora subiendo a pie desde el pueblo).** Un monte redondo de 341 m que cae directamente sobre la desembocadura. En la ladera está el castro: un poblado fortificado de la Edad del Hierro (siglos IV a.C. a I d.C.) con decenas de casas circulares de piedra, algunas reconstruidas con techo de paja, que se recorren por callejuelas entre los muros. Arriba hay un museo arqueológico pequeño, una ermita y un mirador desde el que se ve el Miño abriéndose al océano, la costa portuguesa hasta Viana y, en días claros, las Cíes. Es el sitio al que llevarías a cualquier visita.
+- **Senda litoral A Guarda-Oia-Baiona (unos 30 km, se hace por tramos).** Es el Camino Portugués de la Costa: un camino junto al mar, en parte pasarela de madera y en parte pista, que pasa por las aldeas de Portecelo y Mougás, el monasterio de Oia y el faro de Cabo Silleiro. Llano, con el Atlántico siempre a la izquierda y la Groba a la derecha. Cualquier tramo de 5-6 km es un paseo de tarde.
+- **Muíños do Folón e do Picón (O Rosal · 4 km · 7 min desde O Rosal, 10 min desde A Guarda).** Sesenta y siete molinos de agua de los siglos XVII y XVIII, escalonados en dos regueros que bajan por la ladera, declarados Bien de Interés Cultural. La ruta es un circuito de 4-5 km entre molinos, pequeñas cascadas y viñedo, con el valle de O Rosal y el Miño abajo. Es el paseo más "de Mancor" de toda la tabla.
+- **Serra da Groba (Alto da Groba · 12 km · 20 min desde Oia por Torroña; 10 km · 15 min desde Baiona).** Meseta granítica de 600-660 m con brezo y tojo, sin árboles, donde pastan los garranos, los caballos salvajes gallegos. En primavera se celebran los curros (la rapa das bestas): se bajan los caballos del monte, se marcan y se les corta la crin, en Mougás y Torroña. Desde arriba se ve el océano por un lado y el valle del Miño por el otro.
+- **Parque Natural Monte Aloia (Tui · 8 km · 15 min desde Tui).** El primer parque natural de Galicia (1978): pinar y bosque de ribera sobre un monte de 629 m con senderos señalizados, áreas recreativas con mesas, la ermita de San Xián y varios miradores sobre la vega del Miño, Tui y Valença. Es donde los de Tui van a pasear el domingo.
+- **Paseo fluvial del Miño en Goián (Tomiño · en el pueblo) y en Tui (en la ciudad).** Camino llano junto al río, con la fortaleza de San Lourenzo en Goián y el puente de la Amizade a Vila Nova de Cerveira. En Tui, el paseo va bajo la catedral hasta el puente internacional de hierro (1886).
+- **Ecopista do Minho (Portugal · Valença-Monção, 15 km llanos · a 2 km del centro de Tui cruzando el puente).** Antigua vía de tren convertida en camino para andar o ir en bicicleta, entre viñedo de Alvarinho y el río. Al final, en Monção, unas termas municipales (25 km · 25 min desde Tui).
 
-### Servicios y ciudad de referencia
+### Servicios: qué hay y qué falta
 
-No hay ciudad. A Guarda (10.000 hab.) tiene centro de salud con urgencias (PAC), farmacias, supermercados, puerto con lonja y restaurantes de marisco, mercado semanal; servicios 6/10. Tui (17.000) es más completa: casco histórico con vida, comercio, centro de salud, autopista, y Valença enfrente; 7/10. O Rosal (4/10) y Tomiño (5/10, en Goián) tienen lo básico; Oia (3/10) casi nada. Vigo, con todo, a 40 minutos desde A Guarda por la costa o desde Tui por la A-55.
+No hay ciudad en la comarca; hay dos villas con lo esencial (A Guarda y Tui) y tres municipios de parroquias que dependen de ellas.
+
+- **A Guarda (10.000 hab.) · 6/10.** Tiene: centro de salud con urgencias 24 h (PAC), cuatro o cinco farmacias, supermercados medianos (Gadis, Froiz, Eroski, Lidl), mercado municipal y mercado semanal, puerto con lonja y restaurantes de marisco abiertos todo el año, bancos, colegios e instituto, biblioteca, polideportivo, piscina cubierta. Falta: hospital y especialistas (Vigo), gran superficie, cine, El Corte Inglés o similar, tren.
+- **Tui (17.000 hab.) · 7/10.** Tiene: centro de salud con urgencias, farmacias, supermercados grandes (incluido uno a la salida hacia la A-55), casco histórico con comercio y cafeterías con vida todo el año por el Camino, instituto, conservatorio, estación de tren (regional a Vigo y Porto), y Valença enfrente con su propio comercio. Falta: hospital, cine, gran superficie (en Vigo, 30 min).
+- **Tomiño (13.000 hab., núcleo en Goián) · 5/10.** Tiene: centro de salud, farmacias, supermercado, bares, panaderías, y Vila Nova de Cerveira a 2 minutos por el puente (mercado de los sábados, restaurantes, cafés). Falta: casi todo lo que no sea básico.
+- **O Rosal (6.000 hab.) · 4/10.** Tiene: centro de salud, farmacia, supermercado pequeño, bares, panadería, bodegas. Falta: el resto, en A Guarda a 10 minutos.
+- **Oia (3.000 hab.) · 3/10.** Tiene: consultorio médico, una farmacia, tiendas de pueblo, bares en Mougás y Oia. Falta: supermercado grande, instituto, casi todo. Dependencia total del coche.
+
+Ciudad de referencia: **Vigo** (297.000 hab., 40 min desde A Guarda por la costa, 30 desde Tui por la A-55): hospitales, El Corte Inglés, AVE, aeropuerto, todo. Como Inca, pero a 40 minutos en vez de a 5.
 
 ### Sanidad
 
-Hospital Álvaro Cunqueiro (Vigo, público, de referencia de Galicia sur): 30 min desde Tui, 35 desde Tomiño, 40 desde O Rosal y Oia, 45 desde A Guarda. Privado Povisa (Vigo): 30-50 min. Ningún hospital en la comarca; en Portugal, el hospital de Viana do Castelo (Santa Luzia) queda a 35-40 min desde A Guarda. Es la peor sanidad de las Rías Baixas, aunque dentro de tu máximo de 45-60.
+- **Público:** Hospital Álvaro Cunqueiro (Vigo), de referencia de toda Galicia sur: 30 min desde Tui, 35 desde Tomiño, 40 desde O Rosal y Oia, 45 desde A Guarda.
+- **Privado:** Povisa (Vigo), 30-50 min. Vithas Vigo y Hospital Fátima, también en Vigo.
+- **En Portugal:** hospital de Santa Luzia (Viana do Castelo, público portugués, fuera del SNS) a 35-40 min desde A Guarda; en Valença y Vila Nova de Cerveira hay clínicas privadas con precios más bajos que en España.
+- Ningún hospital en la comarca. Es la peor sanidad de las Rías Baixas, aunque dentro de tu máximo de 45-60 min.
 
 ### Aeropuertos y Palma
 
-Vigo-Peinador a 25 min desde Tui y 50 desde A Guarda, con vuelo directo a Palma solo en verano. Santiago (vuelo a Palma casi todo el año) a 90-105 min. Porto (vuelo a Palma en verano; gran aeropuerto para viajar) a 90-100 min desde A Guarda por la A28.
+- **Vigo-Peinador:** 25 min desde Tui, 30 desde Goián, 45 desde Oia y O Rosal, 50 desde A Guarda. Vuelo directo a Palma solo en verano (Vueling, unas cuatro frecuencias por semana de junio a septiembre).
+- **Santiago:** 90-105 min. Vuelo a Palma casi todo el año.
+- **Porto:** 90-100 min desde A Guarda por la A28. Vuelo a Palma en verano; gran aeropuerto para viajar a cualquier sitio.
 
 ### Precios y qué compras con 260.000 €
 
-Los más bajos de las Rías Baixas: Tomiño 1.100 €/m², Tui 1.250, O Rosal 1.350, A Guarda 1.450, Oia 1.600. En A Guarda, un piso de 3 habitaciones con vistas al Miño y a menos de 5 min del mar ronda 170.000 €; en Oia, 187.000. En O Rosal y Tomiño (franja B) una casa de piedra rehabilitada con terreno y viñedo entra en 130.000-180.000. Obra nueva: solo en Tui; poca en A Guarda y O Rosal; ninguna en Oia. Con 260.000 € aquí podrías plantearte la opción de dos viviendas.
+Los más bajos de las Rías Baixas: Tomiño 1.100 €/m², Tui 1.250, O Rosal 1.350, A Guarda 1.450, Oia 1.600.
+
+- En A Guarda, un piso de 3 habitaciones con vistas al Miño y a menos de 5 min del mar ronda 170.000 €; en Oia, 187.000.
+- En O Rosal y Tomiño (franja B), una casa de piedra rehabilitada con terreno y viñedo entra en 130.000-180.000 €.
+- Obra nueva: solo en Tui; poca en A Guarda y O Rosal; ninguna en Oia.
+- Con 260.000 € aquí es donde tiene más sentido la opción de dos viviendas.
 
 ### Seguridad y ambiente
 
-Ninguno de los cinco supera los 20.000 habitantes, así que no tienen tasa propia publicada; Galicia está en 35 infracciones por 1.000 (la segunda comunidad más segura de España, Baleares 61). Población extranjera en Pontevedra provincia alrededor del 5 %. Ambiente: rural, gente local, poco tráfico salvo la PO-552 en verano. Turismo moderado en A Guarda (agosto) y en Tui (peregrinos del Camino Portugués todo el año).
+Ninguno de los cinco supera los 20.000 habitantes, así que no tienen tasa propia publicada; Galicia está en 35 infracciones por 1.000 habitantes (la segunda comunidad más segura de España; Baleares, 61). Población extranjera en la provincia de Pontevedra alrededor del 5 % (Baleares, 21,7 %). Ambiente rural, gente local, poco tráfico salvo la PO-552 en verano. Turismo moderado en A Guarda (agosto) y en Tui (peregrinos del Camino todo el año, que dan vida sin llenar).
 
 ### Parecido con Mancor / Mallorca
 
@@ -83,7 +126,7 @@ Alto en paisaje y en forma de vida (pueblo pequeño, monte detrás, piedra, viñ
 
 ### Lo que no tendrás
 
-- Hospital a menos de 30 min ni ninguno en la comarca.
+- Hospital a menos de 30 min, ni ninguno en la comarca.
 - Una ciudad a 5-15 min: Vigo está a 40.
 - Vuelo a Palma todo el año a menos de 90 min.
 - Urbanizaciones: el modelo es casa aislada en parroquia o piso en villa.
@@ -93,67 +136,157 @@ Alto en paisaje y en forma de vida (pueblo pequeño, monte detrás, piedra, viñ
 
 ### Municipio a municipio
 
-**A Guarda (nº 1).** Villa marinera de 10.000 habitantes en la punta del Miño, con puerto de bajura (la langosta es su emblema), lonja, paseo marítimo hasta Camposancos y el Monte Santa Trega encima. Playas: Area Grande y O Muíño (estuario, agua tranquila) a 5 min; Praia da Lamiña. Paseos: Santa Trega, paseo marítimo, senda litoral hacia Oia, ruta de los molinos en O Rosal a 10 min. Servicios 6/10: centro de salud con urgencias, farmacias, supermercados, mercado. Hospital 45 min (Vigo). Aeropuerto Vigo 50; Porto 95. Precio 1.450 €/m²; piso nuevo de 3 habitaciones con vistas 170.000 €. Fibra sí. Viento medio. Para quién: quien quiera villa con vida propia, puerto y vistas a Portugal, aceptando el hospital a 45.
+#### 1 · A Guarda
 
-**Oia (nº 2).** La costa más salvaje y solitaria de la tabla: 3.000 habitantes en aldeas colgadas entre la Serra da Groba y el Atlántico, con el monasterio cisterciense de Santa María de Oia (siglo XII) plantado frente al mar. Playa: Mougás (pequeña, de cantos y arena) a 1 min; para baño tranquilo, Baiona a 15. Paseos: senda litoral, petroglifos, los curros de caballos salvajes en primavera, la Groba. Servicios 3/10: lo básico en Mougás y Oia; dependencia del coche 8/10. Hospital 40. Aeropuerto 45. Precio 1.600 €/m²; sin obra nueva. Fibra parcial. Para quién: quien quiera vivir mirando al océano y le sobre la soledad. No tiene nada de Mancor salvo el silencio.
+Villa marinera de 10.000 habitantes en la punta donde el Miño entra en el Atlántico. El pueblo baja en cuesta hasta un puerto de bajura pequeño y muy vivo (la langosta es su emblema y tiene fiesta propia en julio), con la lonja, las casas de colores de los marineros y las terrazas del paseo. Detrás, siempre, el Santa Trega. Portugal está tan cerca que se oyen las campanas de Caminha.
 
-**O Rosal (nº 3).** Valle interior a 10 min de A Guarda, con 6.000 habitantes, viñedo de Albariño y Loureiro en pérgola, casas de piedra y las cascadas de los molinos del Folón y del Picón. Es el municipio de la tabla que más se parece a Mancor en paisaje: valle cerrado, bancales, piedra, monte detrás (Groba y Santa Trega). Mar: Area Grande a 10 min (franja B). Servicios 4/10: farmacia, centro de salud, supermercado, bares; el resto en A Guarda o Tui. Hospital 40. Aeropuerto 45. Precio 1.350 €/m²; casa con terreno rehabilitada 130.000-180.000. Fibra parcial. Para quién: quien priorice paisaje y tranquilidad sobre logística.
+- **Playas:** Area Grande (1,5 km · 4 min, andando), O Muíño en el estuario (3 km · 6 min), Praia da Lamiña. Agua 17-19 °C.
+- **Paseos:** Santa Trega (castro y mirador), paseo marítimo del puerto a Camposancos (4 km llanos junto al mar), senda litoral hacia Oia, molinos del Folón en O Rosal a 10 min.
+- **Servicios 6/10:** centro de salud con urgencias 24 h, farmacias, supermercados, mercado, colegios, piscina cubierta, puerto y restaurantes de marisco. Falta hospital, especialistas y gran superficie.
+- **Sanidad y aeropuerto:** Álvaro Cunqueiro 45 min; Povisa 50. Vigo 50 min; Porto 95.
+- **Precio:** 1.450 €/m². Piso reciente de 3 habitaciones con vistas al Miño, 170.000 €.
+- **Casa que encontrarás:** piso en edificio bajo de los años 90-2010 con terraza al río o al puerto; chalé en las laderas hacia Camposancos con vistas a Portugal. Fibra sí. Viento medio: la punta está expuesta.
+- **Para quién:** quien quiera una villa con vida propia, puerto y vistas a Portugal, y acepte el hospital a 45 min.
 
-**Tomiño (nº 4).** Municipio ribereño del Miño (13.000 hab.), con Goián como núcleo frente a Vila Nova de Cerveira (puente de la Amizade), fortaleza y paseo fluvial. Es el más barato de la zona (1.100 €/m²) y el más caluroso junto a Tui (21 °C de media estival, 15-20 días > 30 °C, nieblas de río). Mar: Area Grande a 20 min (franja B). Servicios 5/10 en Goián. Hospital 35. Aeropuerto Vigo 30. Fibra parcial. Para quién: quien quiera casa grande con terreno junto al río por muy poco dinero y no le importe la playa a 20 min.
+#### 2 · Oia
 
-**Tui (nº 5).** Ciudad episcopal de 17.000 habitantes sobre el Miño frente a Valença: catedral-fortaleza románica, casco histórico con vida, Parque Natural del Monte Aloia encima, puente internacional. Es el municipio más completo del Baixo Miño: servicios 7/10, comunicaciones 8/10 (A-55, AP-9, puente a Portugal), hospital de Vigo a 30, aeropuerto a 25, obra nueva disponible, fibra. Sus contras: 25 min al mar (franja B: Cesantes o Area Grande) y verano cálido (21 °C, 15-20 días > 30 °C, niebla media). Precio 1.250 €/m²; piso nuevo de 3 habitaciones 120.000. Para quién: quien quiera ciudad pequeña histórica con servicios, Portugal enfrente y hospital a media hora, y acepte tener el mar a 25 min y algo de calor.
+La costa más salvaje y solitaria de la tabla: 3.000 habitantes repartidos en siete parroquias colgadas entre la Serra da Groba y el Atlántico, sin un casco urbano de verdad. Su símbolo es el monasterio cisterciense de Santa María de Oia (siglo XII), plantado directamente frente al mar con los cañones que un día defendieron la costa. Al atardecer el sol se mete en el agua delante de casa.
+
+- **Playas:** Mougás (6 km · 8 min; pequeña, oleaje) para mirar el mar; para bañarse, Baiona a 14 km · 18 min.
+- **Paseos:** senda litoral (pasa por la puerta), petroglifos de la Groba, los curros de caballos salvajes en primavera, el Alto da Groba (12 km · 20 min).
+- **Servicios 3/10:** consultorio, una farmacia, tiendas de pueblo y bares. Falta supermercado grande e instituto (en Baiona o A Guarda a 15-20 min). Dependencia del coche 8/10.
+- **Sanidad y aeropuerto:** Álvaro Cunqueiro 40 min; Povisa 45. Vigo 45 min.
+- **Precio:** 1.600 €/m². Sin obra nueva; casas de piedra rehabilitadas y algún chalé con vistas al océano.
+- **Casa que encontrarás:** casa aislada en aldea con el mar delante y la sierra detrás; muy poco piso. Fibra parcial.
+- **Para quién:** quien quiera vivir mirando al océano y le sobre la soledad. No tiene nada de Mancor salvo el silencio.
+
+#### 3 · O Rosal
+
+Valle interior a 10 minutos de A Guarda, con 6.000 habitantes, viñedo de Albariño y Loureiro en pérgola (las parras altas bajo las que se pasa andando), casas de piedra, y las cascadas de los molinos del Folón y del Picón. Es el municipio de la tabla que más se parece a Mancor en paisaje: valle cerrado, bancales, piedra, monte detrás (la Groba y el Santa Trega) y una plaza con bares donde todos se conocen.
+
+- **Playas:** Area Grande a 7 km · 10 min (franja B). O Muíño a 8 km · 12 min.
+- **Paseos:** Muíños do Folón (4 km · 7 min), Santa Trega (12 min), viñedos del valle, senda litoral en A Guarda.
+- **Servicios 4/10:** centro de salud, farmacia, supermercado pequeño, bares, panadería, bodegas. Falta el resto: A Guarda a 10 min, Tui a 20.
+- **Sanidad y aeropuerto:** Álvaro Cunqueiro 40 min; Povisa 45. Vigo 45 min.
+- **Precio:** 1.350 €/m². Casa de piedra rehabilitada con terreno, 130.000-180.000 €. Poca obra nueva.
+- **Casa que encontrarás:** casa de piedra con parra y huerto, o chalé de los 2000 en ladera con vistas al valle. Fibra parcial.
+- **Para quién:** quien priorice paisaje y tranquilidad sobre logística. Es la casilla "Mancor" del Baixo Miño.
+
+#### 4 · Tomiño
+
+Municipio ribereño del Miño de 13.000 habitantes, con Goián como núcleo, frente a Vila Nova de Cerveira. El río aquí es ancho y manso, con paseo fluvial, la fortaleza de San Lourenzo y el puente de la Amizade por el que se cruza a Portugal en dos minutos para el mercado del sábado o para cenar. Es el municipio más barato de la zona y el más caluroso junto a Tui.
+
+- **Playas:** Area Grande a 17 km · 20 min (franja B); Cesantes a 38 km · 30 min por autopista.
+- **Paseos:** paseo fluvial de Goián, fortaleza, el Aloia a 20 min, la Ecopista portuguesa a 10 min.
+- **Servicios 5/10:** centro de salud, farmacias, supermercado, bares, panaderías; Cerveira a 2 min. Falta lo que no sea básico (Tui a 15 min).
+- **Sanidad y aeropuerto:** Álvaro Cunqueiro 35 min; Povisa 40. Vigo 30 min.
+- **Precio:** 1.100 €/m². Casa grande con terreno junto al río por muy poco dinero.
+- **Casa que encontrarás:** casa con finca en las vegas del río; poco piso. Fibra parcial. Verano de 21 °C de media y 15-20 días > 30 °C, nieblas de río.
+- **Para quién:** quien quiera casa grande con terreno por poco dinero y no le importe la playa a 20 min ni el calor de julio.
+
+#### 5 · Tui
+
+Ciudad episcopal de 17.000 habitantes sobre el Miño, frente a Valença: catedral-fortaleza románica en lo alto, casco histórico de calles empedradas y soportales con vida todo el año (es la última etapa del Camino Portugués antes de Santiago), el Parque Natural del Monte Aloia encima y el puente internacional de hierro para cruzar a Portugal a pie. Es el municipio más completo del Baixo Miño y el mejor comunicado.
+
+- **Playas:** Cesantes a 30 km · 25 min; Area Grande a 30 km · 30 min (franja B).
+- **Paseos:** Monte Aloia (8 km · 15 min), paseo fluvial, casco histórico, Ecopista de Valença a Monção (a 2 km), termas de Monção (25 min).
+- **Servicios 7/10:** centro de salud con urgencias, farmacias, supermercados grandes, comercio, cafeterías, instituto, tren regional a Vigo y Porto, Valença enfrente. Falta hospital y cine (Vigo, 30 min).
+- **Sanidad y aeropuerto:** Álvaro Cunqueiro 30 min; Povisa 30. Vigo 25 min (el mejor tiempo de la zona).
+- **Precio:** 1.250 €/m². Piso nuevo de 3 habitaciones, 120.000 €. Obra nueva disponible.
+- **Casa que encontrarás:** piso nuevo o reciente con ascensor en el ensanche, o casa en parroquia de la ladera del Aloia con vistas al valle. Fibra sí. Verano cálido (21 °C, 15-20 días > 30 °C) y niebla media.
+- **Para quién:** quien quiera ciudad pequeña histórica con servicios, Portugal enfrente y hospital a media hora, y acepte tener el mar a 25 min y algo de calor.
 
 ### Si yo fuera tú
 
-Solo si el paisaje pesa más que la logística. O Rosal para vivir como en Mancor (valle, viñedo, piedra, monte) con el mar a 10 min; Tui si no quieres renunciar a servicios ni a hospital a 30. En los dos casos aceptas que la ciudad esté a 40 min.
+Solo vendría a esta zona si el paisaje pesa más que la logística, y lo haría con una de estas dos ideas:
 
----
+- **O Rosal para vivir como en Mancor.** Buscaría casa de piedra rehabilitada con terreno en las parroquias altas del valle (Tabagón, San Miguel, Eiras), orientada al sur y con vistas al valle o al Miño, entre 130.000 y 180.000 €. Con lo que sobra del presupuesto, o bien un pequeño piso en A Guarda con vistas para alquilar, o bien nada. Tendría el mar a 10 minutos, los molinos para pasear cada tarde, A Guarda para lo diario y Portugal para los sábados. Lo que aceptaría a cambio: el hospital a 40 minutos y Vigo a 40; la fibra habría que comprobarla casa por casa antes de firmar.
+- **Tui para no renunciar a servicios.** Piso nuevo de 3 habitaciones con terraza en el ensanche, cerca del casco histórico, por 120.000-150.000 €. Hospital a 30, aeropuerto a 25, tren, Valença enfrente. A cambio, el mar a 25 minutos y un verano con 15-20 días de calor de verdad. Si el sol de la terraza en verano es lo primero, Tui te lo da; si el calor de julio es lo que huyes, Tui no.
+
+Qué comprobaría en la visita: en O Rosal, cobertura de fibra o de antena en la casa concreta y cuánto tarda el coche hasta Area Grande un domingo de agosto; en Tui, el ruido de la A-55 según la calle y la humedad del río en invierno (las mañanas de niebla). Y en los dos, pasar una semana de noviembre antes de decidir.
+
+![Mapa de la zona 2 · Val Miñor](../output/mapas_zonas/zona_02.png)
 
 ## 2. Val Miñor (Pontevedra) · Baiona, Nigrán, Gondomar
 
 ### La zona
 
-El valle del río Miñor baja desde la Serra do Galiñeiro (711 m) y la Groba hasta la bahía de Baiona y las playas de Nigrán, mirando a las Islas Cíes. Tres municipios que funcionan como uno: Baiona es la villa amurallada con puerto deportivo y Parador; Nigrán es un municipio de parroquias con playa y urbanizaciones de casas bajas (Praia América, Panxón, Patos); Gondomar es el valle interior de casas de piedra y monte (Vincios, Donas, Chaín, Morgadáns). Vigo, con su hospital y su aeropuerto, está a 15-25 min por la autovía AG-57 o por la costa (PO-552).
+El valle del río Miñor baja desde la Serra do Galiñeiro (711 m) y la Groba hasta la bahía de Baiona y las playas de Nigrán, con las Islas Cíes cerrando el horizonte. Tres municipios que funcionan como uno: Baiona es la villa amurallada con puerto deportivo, Parador y paseo; Nigrán es un municipio sin casco fuerte pero con playa y urbanizaciones de casas bajas (Praia América, Panxón, Patos); Gondomar es el valle interior de casas de piedra y monte (Vincios, Donas, Chaín, Morgadáns). Vigo, con su hospital y su aeropuerto, está a 15-25 minutos por la autovía AG-57 o por la carretera de la costa (PO-552).
 
-Es la comarca más soleada de España dentro de la tabla, y la que mejor combina lo que buscas: sol, monte detrás, mar a 2-15 min, urbanizaciones, ciudad grande a un cuarto de hora, hospital de primera a 15-20. Su precio es literal: es cara para Galicia.
+Es la comarca más soleada de España dentro de la tabla, y la que mejor combina lo que buscas: sol, monte detrás, mar a 2-15 minutos, urbanizaciones, ciudad grande a un cuarto de hora, hospital de primera a 15-20. Su precio es literal: es cara para Galicia.
 
-### Clima mes a mes
+### Clima: qué notarás respecto a Mancor
 
 | | Oct-Mar | Abr-May | Jun-Sep | Año |
 |---|---|---|---|---|
-| Días de lluvia al mes | 13-15 | 9-11 | 3-5 | 115-118 |
-| Máxima / mínima típica | 14 / 7 °C (ene.) | 19 / 10 °C | 25-26 / 15 °C (jul.) | |
-| Horas de sol al mes | 110-140 | 210-240 | 280-310 | 2.450-2.500 |
+| Días de lluvia al mes · **Val Miñor** | 13-15 (el peor, diciembre: 15-16) | 9-11 | 3-5 (julio: 3) | 115-118 |
+| Días de lluvia al mes · Mancor | 6-8 | 4-5 | 1-3 | 55-60 |
+| Horas de sol al mes · **Val Miñor** | 110-140 (diciembre: 100-105) | 210-240 | 280-310 (julio: 310, 10 h al día) | 2.450-2.500 |
+| Horas de sol al mes · Mancor | 150-205 | 235-285 | 230-345 | 2.800 |
+| Máxima / mínima típica · **Val Miñor** | 14 / 7 °C (enero) | 19 / 10 °C | 25-26 / 15 °C (julio) | |
+| Máxima / mínima típica · Mancor | 14 / 6 °C (enero) | 22 / 11 °C | 30 / 20 °C (julio) | |
 
-Sol: 2.450-2.500 h, 78 días despejados, 110 cubiertos. Lluvia: 1.400-1.500 mm en 115-118 días. Verano de 20-20,5 °C de media, 3-8 días > 30 °C, brisa de mar por la tarde. Viento bajo, niebla baja (algunas mañanas de niebla marina en verano en Baiona). Comparado con Mancor: 300-350 h de sol menos, 60 días de lluvia más (todos entre octubre y abril), 30 días menos de calor. Invierno de temperaturas iguales, pero con 15 días de lluvia al mes.
+- **Sol: 2.450-2.500 h al año / 78 días despejados (110 cubiertos).** Mancor: 2.800 h / 120 despejados (60 cubiertos). Pierdes 300-350 horas, de noviembre a febrero. De junio a septiembre, 280-310 h al mes: la terraza funciona igual que ahora.
+- **Lluvia: 1.400-1.500 mm en 115-118 días.** Mancor: 455-700 mm en 55-60 días. Son 60 días de lluvia más, todos entre octubre y abril: de octubre a marzo llueve 13-15 días al mes (diciembre el peor, 15-16), en abril y mayo 9-11, y de junio a septiembre 3-5 días, con julio casi seco.
+- **Temperatura.** Invierno igual que Mancor (14 / 7 °C en enero, sin heladas). Verano de 20-20,5 °C de media, máxima típica de 25-26 °C en julio y noches de 15 °C; brisa de mar por la tarde.
+- **Calor.** 3-8 días al año por encima de 30 °C (Mancor: 37). Gondomar, en el valle, un poco más que la costa.
+- **Viento y niebla.** Viento bajo, protegido por Monteferro y la Groba. Niebla baja: algunas mañanas de niebla marina en verano en Baiona, que levanta antes del mediodía.
 
 ### Mar y baño
 
-Bahía de Baiona: Ladeira (larga, arena fina, familiar, frente a la marisma del Miñor), Barbeira (pequeña y abrigada bajo la fortaleza), Santa Marta, Os Frades. Nigrán: Praia América (la más larga, con chalés detrás), Panxón (villa marinera con puerto y playa), Patos (surf, vistas a las Cíes), Madorra. Agua 17-19 °C en agosto (más fresca que en el fondo de la ría). Desde Gondomar, Patos y Praia América a 12-15 min. Las Cíes se ven desde toda la comarca; ferry desde Baiona en verano.
+Aquí el mar está en casa. La bahía de Baiona y la ensenada de Nigrán están protegidas de mar abierto por Monteferro y por las Cíes, así que las playas son de arena y agua tranquila, aunque fresca (17-19 °C en agosto; en el fondo de la ría de Vigo, 18-20).
+
+- **Praia Ladeira (Baiona · 1 km · 3 min, andando desde el centro).** Un kilómetro largo de arena fina que cierra la bahía por el sur, frente a la marisma del Miñor, con paseo detrás. Familiar, sin olas, con la fortaleza de Monterreal al fondo.
+- **Barbeira (Baiona · en el pueblo, a pie).** Calita abrigada bajo las murallas de la fortaleza, dentro del casco; agua plana, muy concurrida en agosto.
+- **Praia América (Nigrán · 2 km · 4 min desde Nigrán, 4 km · 7 min desde Baiona).** La playa larga de la comarca (1,4 km), con paseo, chalés y urbanizaciones detrás; arena fina, poca ola. Es la playa "de urbanización".
+- **Panxón (Nigrán · 3 km · 5 min).** Villa marinera con puerto pesquero y deportivo, playa urbana y el Templo Votivo do Mar del arquitecto Antonio Palacios en lo alto. Terrazas y vida todo el año.
+- **Patos (Nigrán · 4 km · 7 min desde Nigrán, 10 km · 14 min desde Gondomar).** Abierta al oeste, con las Cíes delante; es la playa de surf de la comarca, con oleaje suave y escuelas de surf.
+- **Samil (Vigo · 15 km · 20 min desde Gondomar).** La playa urbana de Vigo, con paseo, jardines y piscinas.
+- **Illas Cíes (barco desde Baiona en verano, 45 min de travesía).** Parque Nacional: la playa de Rodas, de arena blanca y agua transparente, y senderos hasta los faros. Se ven desde toda la comarca; es la excursión de un día de sol.
 
 ### Paseos y montaña
 
-Serra do Galiñeiro desde Vincios (Gondomar): cumbres graníticas de 700 m con vistas a la ría, las Cíes y el Miño; petroglifos. Alto da Groba (660 m) sobre Baiona, con caballos salvajes. Monteferro (Nigrán): pinar en península con el monumento a la Marina Universal y sendero circular sobre el mar. Marisma de la Foz do Miñor (paseo llano entre Nigrán y Baiona). Paseo marítimo de Baiona hasta la Virxe da Rocha y la senda litoral hacia Oia. Senda fluvial del Miñor en Gondomar. Es la zona con más "Tramuntana" cerca de casa: monte real a 10 minutos.
+Es la zona con más "Tramuntana" cerca de casa: monte de verdad a diez minutos.
 
-### Servicios y ciudad de referencia
+- **Serra do Galiñeiro (desde Vincios, Gondomar · 5 km · 8 min desde Gondomar, 8 km · 12 min desde Nigrán; hasta la cima, hora y media a pie).** Cumbres de granito de 700 m que se alzan justo detrás del valle, con vistas a la ría de Vigo, a las Cíes y, hacia el sur, al Miño y a Portugal. Hay petroglifos (grabados en la roca de hace 4.000 años) junto al camino y un área recreativa en Vincios para empezar la ruta.
+- **Alto da Groba (10 km · 15 min desde Baiona).** La meseta alta de brezo donde viven los caballos salvajes, con el océano a un lado y el valle al otro (ver zona 1).
+- **Monteferro (Nigrán · 5 km · 8 min desde Nigrán, 6 km · 10 min desde Baiona).** Península de pinar que separa Patos de Praia América, con un sendero circular de una hora sobre el mar, un monumento de piedra a la Marina Universal en lo alto y las Cíes enfrente. El paseo de tarde por excelencia.
+- **Marisma de la Foz do Miñor (entre Nigrán y Baiona, en A Ramallosa).** Paseo llano de madera y tierra por la desembocadura del Miñor, con garzas y aves, el puente medieval de A Ramallosa y la playa de Ladeira al final. Ideal para andar a diario sin coger el coche.
+- **Paseo marítimo de Baiona y la Virxe da Rocha (en el pueblo).** Desde el puerto, bordeando la fortaleza (3 km de murallas con el mar debajo), hasta la estatua de granito de 15 m de la Virxe da Rocha, a la que se puede subir por dentro; desde ahí sigue la senda litoral hacia Oia.
+- **Senda fluvial del Miñor (Gondomar, en el pueblo).** Camino de ribera bajo alisos junto al río, llano, desde la villa hacia el valle.
+- **Balneario de Mondariz (35 km · 35 min desde Gondomar, 45 min desde Baiona).** Gran balneario histórico de aguas termales con hotel, piscinas y circuito de agua; el sitio para los días de lluvia de invierno.
+- **Golf:** Golf Peinador (Aeroclub de Vigo, junto al aeropuerto, 20 min) y Ría de Vigo Golf en Domaio (Moaña, 30 min por el puente de Rande).
 
-Baiona (12.000 hab.) tiene centro de salud, farmacias, supermercados, mercado en Sabarís, restaurantes todo el año, puerto deportivo; 6/10. Nigrán (18.000) tiene servicios repartidos por parroquias (centro de salud, supermercados grandes, colegios, farmacias) sin un casco urbano fuerte; 7/10. Gondomar (15.000) tiene una villa con todo lo básico y comercio local; 6/10. Vigo (297.000, servicios 10/10, El Corte Inglés, AVE, hospitales, Puerto) a 15-25 min. La equivalencia con Inca funciona: Vigo es tu Inca grande a un cuarto de hora, y Baiona/Nigrán tu pueblo.
+### Servicios: qué hay y qué falta
+
+- **Baiona (12.000 hab.) · 6/10.** Tiene: centro de salud, farmacias, supermercados (Gadis, Froiz, Mercadona en Sabarís), mercado semanal en Sabarís, comercio y restaurantes abiertos todo el año, puerto deportivo (Monte Real Club de Yates), colegios e instituto, biblioteca, piscina municipal. Falta: hospital, cine, gran superficie (Vigo, 20 min).
+- **Nigrán (18.000 hab.) · 7/10.** Tiene: centro de salud, supermercados grandes (Mercadona, Gadis, Froiz, Lidl en A Ramallosa y Nigrán), farmacias en cada parroquia, colegios e institutos, polideportivos, puerto en Panxón, restaurantes todo el año. Falta: casco urbano con paseo comercial (los servicios están repartidos por las parroquias), hospital, cine.
+- **Gondomar (15.000 hab.) · 6/10.** Tiene: una villa con plaza, mercado semanal, centro de salud, farmacias, supermercados, comercio local, bares, instituto, piscina. Falta: gran superficie, hospital, ambiente de costa (no hay mar en el pueblo).
+- Ciudad de referencia: **Vigo** (297.000 hab., servicios 10/10: hospitales, El Corte Inglés, AVE, puerto, aeropuerto) a 15-25 min. Aquí la equivalencia con Inca funciona: Vigo es tu Inca grande a un cuarto de hora, y Baiona o Nigrán tu pueblo.
 
 ### Sanidad
 
-Hospital Álvaro Cunqueiro (Vigo, público, 2015, uno de los mejores de España): 15 min desde Nigrán y Gondomar, 20 desde Baiona. Povisa (privado-concertado, Vigo) a 20-25. Vithas Vigo y Hospital Fátima también en Vigo. Centro de salud en los tres municipios. Cumple el "deseable ≤ 30 min" con holgura.
+- **Público:** Hospital Álvaro Cunqueiro (Vigo, 2015, uno de los grandes de España): 15 min desde Nigrán y Gondomar, 20 desde Baiona.
+- **Privado:** Povisa (Vigo), 20-25 min. Vithas Vigo y Hospital Fátima, también en Vigo.
+- Centro de salud en los tres municipios. Cumple el "deseable ≤ 30 min" con holgura; es mejor tiempo que el que tienes ahora hasta Son Espases.
 
 ### Aeropuertos y Palma
 
-Vigo-Peinador a 20 min desde Nigrán y Gondomar, 25 desde Baiona: vuelo directo a Palma en verano. Santiago (Palma casi todo el año) a 80-85 min. Porto a 90-100.
+- **Vigo-Peinador:** 20 min desde Nigrán y Gondomar, 25 desde Baiona. Vuelo directo a Palma en verano (Vueling, junio-septiembre).
+- **Santiago:** 80-85 min. Vuelo a Palma casi todo el año.
+- **Porto:** 90-100 min. Vuelo a Palma en verano; muchos destinos.
 
 ### Precios y qué compras con 260.000 €
 
-Nigrán 2.600 €/m², Baiona 2.500, Gondomar 1.700. En franja A (≤ 5 min del mar), 2 habitaciones nuevas o recientes con exterior: 211.000-220.000 (entra); 3 habitaciones: 292.000-304.000 (no entra en primera línea; sí en parroquias interiores de Nigrán como Priegue, Camos o Parada, a 5-10 min de la playa, por 240.000-260.000). En Gondomar, franja B (15 min al mar): 3 habitaciones por 160.000, casa con terreno 200.000-260.000. Obra nueva en los tres. Facilidad de venta 8-9/10, la más alta de la tabla fuera de las ciudades.
+Nigrán 2.600 €/m², Baiona 2.500, Gondomar 1.700.
+
+- Franja A (≤ 5 min del mar): 2 habitaciones nuevas o recientes con exterior, 211.000-220.000 € (entra). 3 habitaciones: 292.000-304.000 € (no entra en primera línea; sí en parroquias interiores de Nigrán como Priegue, Camos o Parada, a 5-10 min de la playa, por 240.000-260.000).
+- Gondomar (franja B, 15 min al mar): 3 habitaciones por 160.000 €; casa de piedra con terreno 200.000-260.000.
+- Obra nueva en los tres. Facilidad de venta 8-9/10, la más alta de la tabla fuera de las ciudades.
 
 ### Seguridad y ambiente
 
-Ninguno supera 20.000 habitantes; Galicia 35/1.000. Vigo, la ciudad de referencia, 39/1.000 (Palma 88). Ambiente: residencial de clase media-alta viguesa, mucho jubilado gallego y madrileño en Nigrán y Baiona, gente local en Gondomar. Tráfico: la PO-552 Baiona-Vigo se atasca en julio-agosto y en hora punta; la AG-57 desde Gondomar es fluida. Baiona pasa de 12.000 a 40.000 personas en agosto; Nigrán se llena de forma repartida; Gondomar apenas cambia.
+Ninguno supera 20.000 habitantes; Galicia, 35 infracciones por 1.000. Vigo, la ciudad de referencia, 39 (Palma, 88). Ambiente residencial de clase media-alta viguesa, mucho jubilado gallego y madrileño en Nigrán y Baiona, gente local en Gondomar. Tráfico: la PO-552 Baiona-Vigo se atasca en julio y agosto y en hora punta; la AG-57 desde Gondomar es fluida. Baiona pasa de 12.000 a 40.000 personas en agosto; Nigrán se llena de forma repartida; Gondomar apenas cambia.
 
 ### Parecido con Mancor / Mallorca
 
@@ -169,17 +302,53 @@ El más alto de la tabla en conjunto: 4/5. Gondomar es "Mancor con el mar a 15 m
 
 ### Municipio a municipio
 
-**Baiona (nº 6).** Villa amurallada de 12.000 habitantes con la fortaleza de Monterreal (Parador) en su península, casco antiguo de piedra con soportales, réplica de la carabela Pinta, puerto deportivo (Monte Real Club de Yates) y paseo marítimo. Playas: Ladeira y Barbeira a 1-2 min. Paseos: fortaleza, paseo hasta la Virxe da Rocha, senda litoral hacia Oia, Alto da Groba. Servicios 6/10. Hospital 20. Aeropuerto 25. Precio 2.500 €/m²; 2 habitaciones franja A 211.000; 3 habitaciones 292.000 (fuera). Obra nueva sí, fibra sí. Facilidad de venta 8/10, revalorización 8/10; alquiler vacacional fácil si vas a la opción de dos viviendas. Para quién: quien quiera vivir en una villa histórica con vida todo el año y acepte el lleno de verano.
+#### 6 · Baiona
 
-**Nigrán (nº 7).** 18.000 habitantes repartidos en parroquias con playa: Panxón (villa marinera, templo Votivo do Mar), Praia América (chalés y urbanizaciones detrás de la playa más larga), Patos (surf y Cíes), Nigrán (la capital administrativa), Priegue y Camos (altas, con vistas), Chandebrito (monte). Es el municipio-urbanización de Galicia: casas bajas, calles tranquilas, mucho jardín. Playas a 2-3 min. Paseos: Monteferro, marisma del Miñor, paseo de Panxón a Praia América. Servicios 7/10 (sin casco fuerte, pero todo cerca). Hospital 15 (el mejor tiempo de la comarca). Aeropuerto 20. Precio 2.600 €/m², el más caro; 2 habitaciones franja A 220.000; 3 habitaciones en parroquias altas 240.000-260.000. Obra nueva sí. Facilidad de venta 9/10. Para quién: quien quiera exactamente "urbanización limpia y segura con playa a pie y Vigo a 15 min" y esté dispuesto a pagar precio de Vigo.
+Villa amurallada de 12.000 habitantes. La fortaleza de Monterreal ocupa toda una península con el Parador dentro y tres kilómetros de murallas por las que se pasea sobre el mar; abajo, el casco antiguo de piedra con soportales, terrazas y la réplica de la carabela Pinta (aquí llegó en marzo de 1493 la primera noticia de América); delante, el puerto deportivo y la bahía. Tiene vida todo el año y demasiada en agosto.
 
-**Gondomar (nº 8).** Valle interior de 15.000 habitantes, 15 min del mar (franja B), con una villa pequeña con plaza, mercado y comercio, y parroquias de casas de piedra en las laderas: Vincios (al pie del Galiñeiro), Donas, Chaín, Morgadáns, Couso, Peitieiros, Vilaza. Monte detrás de verdad, río Miñor en el fondo, vistas al valle y, desde las parroquias altas, al mar. Playa: Patos y Praia América a 12-15 min. Paseos: Galiñeiro (petroglifos, cumbres), senda del Miñor, ruta de los molinos de Zamáns. Servicios 6/10 en la villa. Hospital 15 por la AG-57. Aeropuerto 20. Precio 1.700 €/m²; 3 habitaciones 160.000; casa de piedra con terreno 200.000-260.000. Obra nueva sí; fibra parcial en parroquias altas. Dependencia del coche 7/10. Verano ligeramente más cálido que la costa (20,5 °C; 5-8 días > 30 °C). Para quién: el que quiera Mancor con hospital y aeropuerto a 15 min y playa a 15.
+- **Playas:** Ladeira (1 km · 3 min, a pie) y Barbeira (en el casco); Santa Marta y Os Frades a 3-5 min. Barco a las Cíes en verano.
+- **Paseos:** murallas de la fortaleza, paseo hasta la Virxe da Rocha, senda litoral hacia Oia, Alto da Groba (15 min), marisma del Miñor.
+- **Servicios 6/10:** centro de salud, farmacias, supermercados, mercado de Sabarís, puerto deportivo, comercio y restaurantes todo el año. Falta hospital, cine y gran superficie.
+- **Sanidad y aeropuerto:** Álvaro Cunqueiro 20 min; Povisa 25. Vigo 25 min.
+- **Precio:** 2.500 €/m². 2 habitaciones en franja A, 211.000 €; 3 habitaciones, 292.000 (fuera). Obra nueva sí.
+- **Casa que encontrarás:** piso con terraza a la bahía en edificio de los 2000 con ascensor; chalé en las laderas de Baíña o Belesar con vistas. Fibra sí. Facilidad de venta 8/10, revalorización 8/10; alquiler vacacional fácil si vas a la opción de dos viviendas.
+- **Para quién:** quien quiera vivir en una villa histórica con vida todo el año y acepte el lleno de verano.
+
+#### 7 · Nigrán
+
+18.000 habitantes repartidos en parroquias con playa y sin un centro urbano fuerte: Panxón (villa marinera), Praia América (chalés y urbanizaciones detrás de la playa larga), Patos (surf y Cíes), Nigrán (la capital administrativa, tierra adentro), Priegue y Camos (altas, con vistas al mar), Chandebrito (monte). Es el municipio-urbanización de Galicia: casas bajas, calles tranquilas, jardín, coche en la puerta y la playa a tres minutos.
+
+- **Playas:** Praia América (2 km · 4 min), Panxón (3 km · 5 min), Patos (4 km · 7 min), Madorra. Agua 17-19 °C.
+- **Paseos:** Monteferro (5 km · 8 min), marisma del Miñor, paseo de Panxón a Praia América, Galiñeiro desde Vincios (8 km · 12 min).
+- **Servicios 7/10:** centro de salud, supermercados grandes, farmacias en cada parroquia, colegios, polideportivos, puerto de Panxón, restaurantes. Falta casco con paseo comercial, hospital y cine (Vigo a 15).
+- **Sanidad y aeropuerto:** Álvaro Cunqueiro 15 min (el mejor tiempo de la comarca); Povisa 20. Vigo 20 min.
+- **Precio:** 2.600 €/m², el más caro. 2 habitaciones en franja A, 220.000 €; 3 habitaciones en parroquias altas, 240.000-260.000.
+- **Casa que encontrarás:** adosado o chalé en urbanización de los 90-2010 en Praia América, Panxón o A Ramallosa; piso con terraza en Panxón; casa con vistas en Priegue o Camos. Obra nueva sí. Fibra sí. Facilidad de venta 9/10.
+- **Para quién:** quien quiera exactamente "urbanización limpia y segura con playa a pie y Vigo a 15 min" y esté dispuesto a pagar precio de Vigo.
+
+#### 8 · Gondomar
+
+Valle interior de 15.000 habitantes a 15 minutos del mar (franja B). La villa es pequeña, con plaza, mercado y comercio de toda la vida; alrededor, parroquias de casas de piedra en las laderas: Vincios al pie del Galiñeiro, Donas, Chaín, Morgadáns, Couso, Peitieiros, Vilaza. Monte detrás de verdad, el río Miñor en el fondo, vistas al valle y, desde las parroquias altas, al mar y a las Cíes.
+
+- **Playas:** Patos (10 km · 14 min), Praia América (9 km · 12 min), Samil (15 km · 20 min).
+- **Paseos:** Galiñeiro (5 km · 8 min; petroglifos, cumbres), senda fluvial del Miñor, ruta de los molinos de Zamáns, Mondariz a 35 min.
+- **Servicios 6/10:** centro de salud, farmacias, supermercados, mercado semanal, comercio, bares, instituto, piscina. Falta gran superficie y ambiente de costa; hospital en Vigo.
+- **Sanidad y aeropuerto:** Álvaro Cunqueiro 15 min por la AG-57; Povisa 20. Vigo 20 min.
+- **Precio:** 1.700 €/m². 3 habitaciones, 160.000 €; casa de piedra con terreno, 200.000-260.000.
+- **Casa que encontrarás:** casa de piedra rehabilitada con finca en parroquia alta, o chalé de los 2000 con vistas; piso nuevo en la villa. Fibra parcial en parroquias altas. Dependencia del coche 7/10. Verano ligeramente más cálido que la costa (20,5 °C; 5-8 días > 30 °C).
+- **Para quién:** el que quiera Mancor con hospital y aeropuerto a 15 minutos y playa a 15.
 
 ### Si yo fuera tú
 
-Aquí iría primero. Gondomar si quieres casa con terreno, piedra y monte; Nigrán si quieres urbanización y playa andando; Baiona si prefieres villa histórica con vida y aceptas el verano lleno. En los tres, Vigo a un cuarto de hora hace de Inca, y el hospital está más cerca de lo que lo tienes ahora.
+Aquí vendría primero, y lo haría así:
 
----
+- **Primera opción: Gondomar, parroquias altas (Vincios, Donas, Morgadáns, Chaín).** Casa de piedra rehabilitada o chalé de los 2000 con terraza al sur y vistas al valle o al mar, 200.000-260.000 €. Es lo más parecido a tu calle de Mancor: casas bajas, monte detrás, silencio, vecinos de toda la vida. Con la ventaja de que el hospital y el aeropuerto están a 15 minutos (menos de lo que tardas ahora a Inca y vuelta) y la playa a 12-15. Lo que aceptaría: fibra que hay que comprobar casa por casa, coche para todo, y 5-8 días de calor en julio.
+- **Segunda opción: Nigrán, Priegue o Camos.** Casa o adosado con vistas al mar en las parroquias altas, 240.000-260.000 €, con Praia América a 5-10 minutos y el Cunqueiro a 15. Es la urbanización limpia y segura que te gusta, con el Atlántico delante. Lo que aceptaría: pagar precio de Vigo y renunciar a las 3 habitaciones nuevas en primera línea.
+- **Tercera opción: Baiona, solo con 2 habitaciones.** Piso con terraza a la bahía por 211.000 €, para vivir dentro de una villa histórica con paseo y puerto. Lo que aceptaría: agosto lleno y la PO-552 atascada en verano.
+
+Qué comprobaría en la visita: en Gondomar, la fibra de la casa concreta y la orientación (los valles hacia el Galiñeiro tienen sombra pronto en invierno); en Nigrán, el ruido de la PO-552 según la parroquia y cuánta gente hay en Praia América un sábado de agosto; en Baiona, qué se oye desde la terraza en las fiestas de la Arribada (marzo) y en agosto. Y en los tres, cronometrar el trayecto al Cunqueiro un martes a las ocho de la mañana.
+
+![Mapa de la zona 3](../output/mapas_zonas/zona_03.png)
 
 ## 3. Vigo e ría (Pontevedra) · Vigo, Redondela, Soutomaior, Vilaboa
 
@@ -253,7 +422,7 @@ Bajo en Vigo ciudad (2/5), medio en las parroquias del suroeste de Vigo y en Vil
 
 Redondela como opción práctica (hospital, aeropuerto, tren, agua templada y 3 habitaciones por 170.000), o Vigo-Coruxo si quieres pagar por las Cíes delante. No es la zona más bonita, pero es la que menos coche exige.
 
----
+![Mapa de la zona 4](../output/mapas_zonas/zona_04.png)
 
 ## 4. O Morrazo (Pontevedra) · Cangas, Moaña, Bueu, Marín
 
@@ -328,7 +497,7 @@ Medio: 3/5. Aldán e Hío (Cangas) son parroquias de casas bajas con vistas al m
 
 Cangas (Aldán, Hío) si mar y senderos pesan más que el hospital a 35; Marín (Aguete, Mogor) si manda el hospital y Pontevedra a 10 min. Bueu si quieres el silencio.
 
----
+![Mapa de la zona 5](../output/mapas_zonas/zona_05.png)
 
 ## 5. Pontevedra e Sanxenxo (Pontevedra) · Pontevedra, Poio, Sanxenxo, O Grove
 
@@ -402,7 +571,7 @@ Poio 4/5: pueblo de piedra a 5 min de una ciudad pequeña y buena, con el agua d
 
 Poio (Raxó, Samieira, Combarro) es mi segunda opción de toda la tabla, y quizá la primera si pesa la ciudad a 5 minutos: pueblo de piedra, agua delante, monte detrás, hospital público y privado a 10, Pontevedra a 5-10, aeropuerto a 25, y 3 habitaciones nuevas dentro del presupuesto.
 
----
+![Mapa de la zona 6](../output/mapas_zonas/zona_06.png)
 
 ## 6. O Salnés (Pontevedra) · Meaño, Cambados, A Illa de Arousa, Vilanova de Arousa, Vilagarcía de Arousa
 
@@ -479,7 +648,7 @@ Meaño 3/5 (viñedo, piedra, casas bajas: es el "Binissalem con ría"); Cambados
 
 Cambados, o una casa de piedra en las laderas de Meaño con vistas a la ría. Compras holgado, tienes hospital a 15-20, Santiago (Palma casi todo el año) a 50, la ría más seca y templada de Galicia, y un paisaje de viña y piedra. Sabiendo que la ciudad buena está a 25 min y no a 5, y que no hay sierra detrás.
 
----
+![Mapa de la zona 7](../output/mapas_zonas/zona_07.png)
 
 ## 7. Barbanza e Noia (A Coruña) · Rianxo, Boiro, A Pobra do Caramiñal, Ribeira, Porto do Son, Noia
 
@@ -558,7 +727,7 @@ Ribeira 48/1.000 (puerto grande, la más alta de la zona); Boiro, Rianxo, A Pobr
 
 Boiro o A Pobra: la versión "de presupuesto" de Mancor con playa. Sierra detrás, ría templada delante, 3 habitaciones por 150.000-160.000, hospital a 10-20, Santiago (Palma casi todo el año) a 45. Aceptas que la ciudad y el privado estén a 45-60.
 
----
+![Mapa de la zona 8](../output/mapas_zonas/zona_08.png)
 
 ## 8. Golfo Ártabro e Ferrol (A Coruña) · A Coruña, Oleiros, Sada, Bergondo, Miño, Ares, Ferrol
 
@@ -639,7 +808,7 @@ En urbanismo, el más alto de la tabla: Oleiros y Costa Miño son la "urbanizaci
 
 Oleiros (Mera, Santa Cruz) si te quedas con la urbanización limpia y segura y A Coruña a 10 min como Inca, o Costa Miño si prefieres golf, playa grande y pagar menos. Es la zona donde más "urbanización de Mallorca" vas a sentir, con el cielo más gris de las Rías.
 
----
+![Mapa de la zona 9](../output/mapas_zonas/zona_09.png)
 
 ## 9. A Mariña (Lugo) · O Vicedo, Viveiro, Xove, Cervo, Burela, Foz, Barreiros, Ribadeo
 
@@ -722,7 +891,7 @@ Ninguno supera 20.000 habitantes; Lugo es una de las provincias más tranquilas 
 
 No iría. Es la zona que más se aleja de tus cuatro prioridades (sol, servicios, hospital, aeropuerto). Si alguna vez la miras, solo Viveiro o Ribadeo, y solo por precio.
 
----
+![Mapa de la zona 10](../output/mapas_zonas/zona_10.png)
 
 ## 10. Asturias Occidente (Asturias) · Castropol, Tapia de Casariego, Navia, Luarca (Valdés)
 
@@ -797,7 +966,7 @@ Ninguno supera 20.000 habitantes; Asturias 36/1.000. Población extranjera baja 
 
 Luarca, por encanto y aeropuerto a 40 min, si la Asturias verde te enamora en una visita. Por criterios, no es tu zona.
 
----
+![Mapa de la zona 11](../output/mapas_zonas/zona_11.png)
 
 ## 11. Asturias Centro (Asturias) · Cudillero, Muros de Nalón, Soto del Barco, Salinas (Castrillón), Luanco (Gozón), Candás (Carreño), Gijón
 
@@ -878,7 +1047,7 @@ Castrillón 33/1.000, Avilés 30, Gijón 39, Oviedo 35 (toda el área es más se
 
 Salinas, si aceptas mil horas menos de sol que en Mancor a cambio de aeropuerto, hospital y ciudad a 10 min y una villa de casas bajas junto a la playa. En Asturias es la que más encaja.
 
----
+![Mapa de la zona 12](../output/mapas_zonas/zona_12.png)
 
 ## 12. Asturias Oriente (Asturias) · Villaviciosa, Colunga, Ribadesella, Llanes, Ribadedeva
 
@@ -955,7 +1124,7 @@ Paisaje 3/5 (pueblo de piedra con la sierra encima, como Fornalutx o Sóller con
 
 Ribadesella o Villaviciosa si un día decides que los Picos pesan más que el sol. Con tus prioridades actuales, no: es el clima más opuesto a Mallorca de toda la tabla, y la sanidad y el aeropuerto están en el límite.
 
----
+![Mapa de la zona 13](../output/mapas_zonas/zona_13.png)
 
 ## 13. Cantabria Occidental (Cantabria) · San Vicente de la Barquera, Comillas, Suances, Liencres (Piélagos), Santander
 
@@ -1032,7 +1201,7 @@ Urbanismo de Liencres 4/5 (urbanizaciones de casas bajas junto a dunas y acantil
 
 Liencres o Mortera. Es la mejor combinación de seguridad, hospital y aeropuerto con vuelo anual a Palma de toda la tabla, con una urbanización de casas bajas junto a dunas y acantilados. Lo único que la descarta es el sol: 1.700 horas y 40 días despejados frente a los 2.500 y 78 del Val Miñor.
 
----
+![Mapa de la zona 14](../output/mapas_zonas/zona_14.png)
 
 ## 14. Cantabria Oriental (Cantabria) · Ribamontán al Mar, Noja, Santoña, Laredo, Castro-Urdiales
 
@@ -1109,7 +1278,7 @@ Castro 46/1.000; el resto no medidos; Cantabria 43. Población extranjera 6-8 %.
 
 Solo Castro (por Bilbao y el vuelo anual a Palma) o Ribamontán (Loredo, Langre) por casas bajas y calma; y solo si el aeropuerto pasa a ser prioridad. Con sol como prioridad 1, esta zona no.
 
----
+![Mapa de la zona 15](../output/mapas_zonas/zona_15.png)
 
 ## 15. Alto Minho (Portugal) · Valença, Vila Nova de Cerveira, Caminha, Moledo, Vila Praia de Âncora, Afife-Carreço, Viana do Castelo, Ponte de Lima
 
@@ -1193,7 +1362,7 @@ Afife-Carreço 4/5: aldea de granito con la sierra encima, viñas en pérgola, h
 
 Afife, Carreço o Areosa (aldea de granito con monte y mar, Viana a 10-15) o Vila Praia de Âncora (villa con servicios y playa abrigada). Es mi tercera opción de toda la tabla, con la sanidad privada y el papeleo portugués como precio, y el viento de las tardes de verano como sorpresa a comprobar en persona en julio.
 
----
+![Mapa de la zona 16](../output/mapas_zonas/zona_16.png)
 
 ## 16. Litoral Norte (Portugal) · Esposende, Póvoa de Varzim, Vila do Conde
 

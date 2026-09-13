@@ -62,7 +62,9 @@ Columna `origen`: **MAPA 1.0** (27 municipios de la versión anterior), **MAPA 2
 | `output/mapa_2_0_tabla2.png` | **Hoja 3**: tabla 2 con la comparativa frente al mejor, vuelo a Palma, qué entra en 260.000 €, sobreprecios y detalle de comunicaciones y hospitales. |
 | `output/mapa_2_0_completo.pdf` | Las tres hojas en un solo **PDF vectorial** (3 páginas, zoom sin pérdida). También una por una: `mapa_2_0_mapa.pdf`, `mapa_2_0_tabla.pdf`, `mapa_2_0_tabla2.pdf`. |
 | `output/informe_validacion.md` | Resultado de la última validación, fila a fila y columna a columna. |
-| `docs/analisis_zonas.md` | Análisis "si yo fuera tú" de las 16 zonas y 83 municipios: qué tendrás y qué no tendrás en cada una respecto a Mancor de la Vall, con orden final de zonas y datos pendientes de añadir a la tabla. |
+| `docs/estudio_zonas.md` | **Estudio detallado por zonas** (tercer documento, tras mapa y tablas): las 16 zonas en el orden de la tabla, cada una con clima mes a mes, mar y baño, paseos y montaña, servicios, sanidad, aeropuertos, precios, seguridad, parecido con Mancor de la Vall, lo que no tendrás, y los 83 municipios uno a uno. Cierra con el orden "si yo fuera tú" y los datos pendientes de añadir a la tabla. |
+| `output/mapa_2_0_estudio.pdf` | El estudio anterior en PDF A4 paginado con índice (marcadores) por zona, generado por `mapa2/estudio.py`. |
+| `mapa2/estudio.py` | Convierte `docs/estudio_zonas.md` en `output/mapa_2_0_estudio.pdf` (`python -m mapa2.estudio`). |
 
 ## Cómo ejecutarlo
 

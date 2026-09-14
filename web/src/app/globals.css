@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --mar: #dceaf2;
+  --papel: #f7f1e6;
+  --tinta: #1c2a32;
+  --tinta-suave: #4a5c66;
+  --linea: #c9bba8;
+  --acento: #0b3d5c;
+  --calor: #c62828;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--papel);
+  color: var(--tinta);
+}
+
+.mapa-leaflet {
+  height: 100%;
+  width: 100%;
+  background: var(--mar);
+}
+
+.mapa-leaflet .leaflet-tooltip.zona-etiqueta {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  color: #1c2a32;
+  font-weight: 650;
+  font-size: 12px;
+  text-shadow: 0 0 4px #fff, 0 0 8px #fff;
+}
+
+.mapa-leaflet .leaflet-tooltip.zona-etiqueta::before {
+  display: none;
+}

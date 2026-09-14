@@ -26,11 +26,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="es">
       <body className={`${serif.variable} ${sans.variable} font-sans antialiased`}>
         <header className="border-b border-[var(--linea)] bg-[var(--papel)]/90 backdrop-blur">
-          <div className="mx-auto flex max-w-6xl items-baseline justify-between px-4 py-3">
+          <div className="mx-auto max-w-6xl px-4 py-3">
             <Link href="/" className="font-[family-name:var(--font-serif)] text-xl text-[var(--acento)]">
               Vivir en el norte
             </Link>
-            <p className="hidden text-sm text-[var(--tinta-suave)] sm:block">Costa norte · tiempo y calle</p>
           </div>
         </header>
         {children}

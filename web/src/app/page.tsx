@@ -102,7 +102,7 @@ export default function Portada() {
           <li key={z.id}>
             <Link
               href={`/zona/${z.id}/`}
-              className="flex flex-col gap-2 px-4 py-4 sm:flex-row sm:items-start sm:justify-between sm:gap-6"
+              className="flex min-h-[4.75rem] touch-manipulation flex-col gap-2 px-4 py-5 sm:min-h-0 sm:flex-row sm:items-start sm:justify-between sm:gap-6 sm:py-4"
             >
               <div className="min-w-[11rem]">
                 <p className="font-[family-name:var(--font-serif)] text-xl text-[var(--acento)]">

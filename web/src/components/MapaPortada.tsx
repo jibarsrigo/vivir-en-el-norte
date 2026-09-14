@@ -31,11 +31,13 @@ export default function MapaPortada({ zonas }: Props) {
         if (muerto) return;
         const capa = L.geoJSON(geo, {
           style: (feat) => {
-            const p = feat?.properties as { clase?: string; portugal?: boolean; activa?: boolean };
+            const p = feat?.properties as { id?: string; clase?: string; portugal?: boolean };
+            const z = zonas.find((x) => x.id === p.id);
             const color = COLOR_CLASE[p.clase ?? ""] ?? "#888";
+            const calor = Boolean(z?.calorAprieta);
             return {
-              color: p.activa ? "#0b3d5c" : color,
-              weight: p.activa ? 2.4 : 1.2,
+              color: calor ? "#c62828" : z?.activa ? "#0b3d5c" : color,
+              weight: calor ? 3 : z?.activa ? 2.4 : 1.2,
               fillColor: color,
               fillOpacity: p.portugal ? 0.28 : 0.45,
               dashArray: p.portugal ? "4 4" : undefined,
@@ -45,25 +47,39 @@ export default function MapaPortada({ zonas }: Props) {
             const id = (feat.properties as { id: string }).id;
             const z = zonas.find((x) => x.id === id);
             if (!z) return;
-            const centro = (layer as L.Polygon).getBounds?.().getCenter?.();
-            if (centro) {
-              L.tooltip({ permanent: true, direction: "center", className: "zona-etiqueta", opacity: 1 })
-                .setLatLng(centro)
-                .setContent(z.zona.replace(" (PT)", ""))
-                .addTo(map);
-            }
-            layer.on("click", () => router.push(`/zona/${z.id}/`));
-            layer.on("mouseover", () => (layer as L.Path).setStyle({ weight: 3, fillOpacity: 0.6 }));
-            layer.on("mouseout", () =>
-              (layer as L.Path).setStyle({
-                weight: z.activa ? 2.4 : 1.2,
+            const path = layer as L.Path;
+            path.on("click", () => router.push(`/zona/${z.id}/`));
+            path.on("mouseover", () => path.setStyle({ weight: 3.2, fillOpacity: 0.62 }));
+            path.on("mouseout", () =>
+              path.setStyle({
+                weight: z.calorAprieta ? 3 : z.activa ? 2.4 : 1.2,
                 fillOpacity: z.portugal ? 0.28 : 0.45,
               }),
             );
+
+            const centro = (layer as L.Polygon).getBounds?.().getCenter?.();
+            if (!centro) return;
+            L.tooltip({ permanent: true, direction: "center", className: "zona-etiqueta", opacity: 1 })
+              .setLatLng(centro)
+              .setContent(z.zona.replace(" (PT)", ""))
+              .addTo(map);
+            if (z.calorAprieta) {
+              L.marker(centro, {
+                icon: L.divIcon({
+                  className: "zona-calor",
+                  html: "<span>El calor aprieta</span>",
+                  iconSize: [118, 18],
+                  iconAnchor: [59, -10],
+                }),
+                interactive: false,
+                keyboard: false,
+              }).addTo(map);
+            }
           },
         });
         capa.addTo(map);
         map.fitBounds(capa.getBounds().pad(0.08));
+        setTimeout(() => map.invalidateSize(), 80);
       })
       .catch(() => undefined);
 

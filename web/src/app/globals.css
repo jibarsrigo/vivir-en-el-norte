@@ -19,10 +19,8 @@ body {
   color: var(--tinta);
 }
 
-.mapa-leaflet {
-  height: 100%;
-  width: 100%;
-  background: var(--mar);
+.mapa-leaflet .leaflet-interactive {
+  cursor: pointer;
 }
 
 .mapa-leaflet .leaflet-tooltip.zona-etiqueta {
@@ -37,4 +35,23 @@ body {
 
 .mapa-leaflet .leaflet-tooltip.zona-etiqueta::before {
   display: none;
+}
+
+.mapa-leaflet .zona-calor {
+  background: transparent;
+  border: 0;
+}
+
+.mapa-leaflet .zona-calor span {
+  display: inline-block;
+  background: var(--calor);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+  padding: 2px 7px;
+  border-radius: 999px;
+  white-space: nowrap;
+  box-shadow: 0 0 0 1px #fff;
 }

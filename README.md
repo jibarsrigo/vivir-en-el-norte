@@ -1,5 +1,7 @@
 # MAPA 2.0 · Norte de España + Norte de Portugal
 
+La guía en web se llama **Vivir en el norte** (`web/`): portada con el mapa de zonas y el tiempo. Se publica en GitHub Pages o Vercel desde esa carpeta.
+
 Base de datos comparativa de **83 municipios costeros del norte de España y del norte de Portugal a ≤ 30 minutos de una playa de baño**, ordenados en **16 zonas** (de sur a norte y de oeste a este, Portugal al final), para comprar una vivienda de residencia habitual y jubilación.
 
 El repositorio contiene la **tabla maestra completa** (83 filas × 54 columnas), el **validador fila a fila** que la comprueba contra el esquema cerrado del proyecto y el **generador de las tres hojas** finales: hoja 1 mapa, hoja 2 tabla maestra (columnas de decisión) y hoja 3 tabla 2 (comparativa, Palma, presupuesto, sobreprecios y detalle).

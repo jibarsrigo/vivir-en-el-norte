@@ -49,6 +49,19 @@ export const VISTA_NORTE: [[number, number], [number, number]] = [
   [43.98, -2.68],
 ];
 
+/** Un clic de + en el mapa. */
+export const ZOOM_PASO = 0.5;
+export const ZOOM_MIN = 6;
+export const ZOOM_MAX = 11;
+/** A los 2 clics el resto de municipios puede poner nombre, sin pisarse. */
+export const CLICS_PUEBLOS_MAS = 2;
+/** A los 4 clics ya están todos los nombres. Más + solo acerca. */
+export const CLICS_HASTA_TODO = 4;
+
+export function zoomTrasClics(inicio: number, clics: number): number {
+  return Math.min(ZOOM_MAX, inicio + clics * ZOOM_PASO);
+}
+
 export function colorProvincia(region?: string, admin?: string): string {
   if (admin === "Portugal") return "#f3d2b0";
   if (region === "Galicia") return "#f0dc9a";
@@ -78,13 +91,32 @@ export function prioridadNombre(m: MunicipioPunto): 0 | 1 {
   return conocido ? 0 : 1;
 }
 
+const ETIQUETA_ATLAS: Record<string, string> = {
+  "A Illa de Arousa": "A Illa",
+  "Vilanova de Arousa": "Vilanova",
+  "Vilagarcía de Arousa": "Vilagarcía",
+  "A Pobra do Caramiñal": "A Pobra",
+  "San Vicente de la Barquera": "San Vicente",
+  "Tapia de Casariego": "Tapia",
+  "Muros de Nalón": "Muros",
+  "Soto del Barco": "Soto",
+  "Ribamontán al Mar": "Ribamontán",
+  "Castro-Urdiales": "Castro",
+  "Vila Nova de Cerveira": "Cerveira",
+  "Vila Praia de Âncora": "Âncora",
+  "Viana do Castelo": "Viana",
+  "Póvoa de Varzim": "Póvoa",
+  "Afife-Carreço": "Afife",
+};
+
 export function etiquetaCorta(m: MunicipioPunto): string {
   const conocido = PUEBLOS_MAPA.find(
     (p) =>
       p.zonaId === m.zonaId &&
       (p.nombre === m.etiqueta || m.nombre.startsWith(p.nombre) || m.etiqueta.startsWith(p.nombre)),
   );
-  return conocido?.nombre ?? m.etiqueta;
+  const base = conocido?.nombre ?? m.etiqueta;
+  return ETIQUETA_ATLAS[base] ?? ETIQUETA_ATLAS[m.etiqueta] ?? base;
 }
 
 export { hrefMunicipio };

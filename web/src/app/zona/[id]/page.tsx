@@ -21,7 +21,7 @@ export default async function PaginaZona({ params }: { params: Promise<{ id: str
     <main className="mx-auto max-w-6xl px-4 py-8">
       <p className="text-sm text-[var(--tinta-suave)]">
         <Link href="/" className="underline-offset-2 hover:underline">
-          Vivir en el norte
+          Inicio
         </Link>
         {" · "}
         {z.provincia}

@@ -51,6 +51,15 @@ export function zonaPorId(id: string): Zona | undefined {
   return zonas.find((z) => z.id === id);
 }
 
+export type ComunidadId = "galicia" | "asturias" | "cantabria" | "portugal";
+
+export function comunidadDeZona(z: Zona): ComunidadId {
+  if (z.pais === "Portugal" || z.portugal) return "portugal";
+  if (z.provincia === "Asturias") return "asturias";
+  if (z.provincia === "Cantabria") return "cantabria";
+  return "galicia";
+}
+
 export const COLOR_CLASE: Record<string, string> = {
   "Más favorable": "#2e9e44",
   Favorable: "#8fc43f",

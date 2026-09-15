@@ -9,8 +9,14 @@ import {
   COLOR_MAR,
   ETIQUETAS_MAR,
   ETIQUETAS_TIERRA,
+  CLICS_HASTA_TODO,
+  CLICS_PUEBLOS_MAS,
   VISTA_NORTE,
+  ZOOM_MAX,
+  ZOOM_MIN,
+  ZOOM_PASO,
   colorProvincia,
+  zoomTrasClics,
   dirMunicipio,
   etiquetaCorta,
   hrefMunicipio,
@@ -23,6 +29,12 @@ type Rect = { x: number; y: number; w: number; h: number };
 
 function choca(a: Rect, b: Rect, hueco = 4): boolean {
   return !(a.x + a.w + hueco < b.x || b.x + b.w + hueco < a.x || a.y + a.h + hueco < b.y || b.y + b.h + hueco < a.y);
+}
+
+function areaSolape(a: Rect, b: Rect): number {
+  const x = Math.max(0, Math.min(a.x + a.w, b.x + b.w) - Math.max(a.x, b.x));
+  const y = Math.max(0, Math.min(a.y + a.h, b.y + b.h) - Math.max(a.y, b.y));
+  return x * y;
 }
 
 function rectDir(pt: L.Point, ancho: number, alto: number, dir: DirEtiqueta, desfase = 0): Rect {
@@ -39,6 +51,77 @@ function anclaDir(ancho: number, alto: number, dir: DirEtiqueta, desfase = 0): [
   return [ancho / 2, -desfase];
 }
 
+function opuesta(dir: DirEtiqueta): DirEtiqueta {
+  if (dir === "left") return "right";
+  if (dir === "right") return "left";
+  if (dir === "top") return "bottom";
+  return "top";
+}
+
+function ordenDirs(pref: DirEtiqueta): DirEtiqueta[] {
+  const lados: DirEtiqueta[] = ["left", "right", "top", "bottom"];
+  return [pref, opuesta(pref), ...lados.filter((d) => d !== pref && d !== opuesta(pref))];
+}
+
+type SitioNombre = { dir: DirEtiqueta; desfase: number; ancho: number; alto: number };
+
+function aplicarSitio(el: HTMLElement, sitio: SitioNombre) {
+  const [ax, ay] = anclaDir(sitio.ancho, sitio.alto, sitio.dir, sitio.desfase);
+  el.style.marginLeft = `${-ax}px`;
+  el.style.marginTop = `${-ay}px`;
+  el.style.width = `${sitio.ancho}px`;
+  el.style.height = `${sitio.alto}px`;
+  el.style.display = "";
+}
+
+function buscarSitio(
+  pt: L.Point,
+  n: { ancho: number; alto: number; dir: DirEtiqueta; desfase: number; prioridad: number },
+  ocupados: Rect[],
+  hueco: number,
+  compacto: boolean,
+): SitioNombre | null {
+  const ancho = compacto ? Math.max(22, Math.round(n.ancho * 0.82)) : n.ancho;
+  const alto = compacto ? Math.max(12, n.alto - 2) : n.alto;
+  const desfases =
+    n.prioridad <= -3
+      ? [Math.max(12, n.desfase), 16, 22, 8]
+      : compacto
+        ? [4, 8, 14, 20, 28]
+        : [5, 10, 16, 22];
+  for (const dir of ordenDirs(n.dir)) {
+    for (const desfase of desfases) {
+      const rect = rectDir(pt, ancho, alto, dir, desfase);
+      if (!ocupados.some((o) => choca(rect, o, hueco))) {
+        return { dir, desfase, ancho, alto };
+      }
+    }
+  }
+  return null;
+}
+
+function sitioMenosPisa(
+  pt: L.Point,
+  n: { ancho: number; alto: number; dir: DirEtiqueta; desfase: number },
+  ocupados: Rect[],
+): SitioNombre {
+  const ancho = Math.max(22, Math.round(n.ancho * 0.82));
+  const alto = Math.max(12, n.alto - 2);
+  let mejor: SitioNombre = { dir: n.dir, desfase: n.desfase || 6, ancho, alto };
+  let min = Number.POSITIVE_INFINITY;
+  for (const dir of ordenDirs(n.dir)) {
+    for (const desfase of [6, 12, 18, 26]) {
+      const rect = rectDir(pt, ancho, alto, dir, desfase);
+      const pisa = ocupados.reduce((s, o) => s + areaSolape(rect, o), 0);
+      if (pisa < min) {
+        min = pisa;
+        mejor = { dir, desfase, ancho, alto };
+      }
+    }
+  }
+  return mejor;
+}
+
 const CAPITALES_NOM = new Set(CAPITALES.map((c) => c.nombre));
 
 export default function MapaPortada() {
@@ -51,10 +134,10 @@ export default function MapaPortada() {
       zoomControl: true,
       attributionControl: true,
       scrollWheelZoom: false,
-      zoomSnap: 0.25,
-      zoomDelta: 0.5,
-      minZoom: 6,
-      maxZoom: 11,
+      zoomSnap: ZOOM_PASO,
+      zoomDelta: ZOOM_PASO,
+      minZoom: ZOOM_MIN,
+      maxZoom: ZOOM_MAX,
     });
     map.getContainer().style.background = COLOR_MAR;
     map.attributionControl.setPrefix(false);
@@ -101,6 +184,17 @@ export default function MapaPortada() {
       desfase: number;
     };
     const nombres: MarcaNombre[] = [];
+    let zoomTodo = zoomTrasClics(ZOOM_MIN, CLICS_HASTA_TODO);
+
+    const aplicarEscalaNombres = () => {
+      const inicio = map.getZoom();
+      zoomTodo = zoomTrasClics(inicio, CLICS_HASTA_TODO);
+      const pueblosMas = zoomTrasClics(inicio, CLICS_PUEBLOS_MAS);
+      for (const n of nombres) {
+        if (n.prioridad === 1) n.minZoom = pueblosMas;
+        if (n.sinColision && n.maxZoom != null) n.maxZoom = zoomTodo;
+      }
+    };
 
     const colocarNombre = (
       lat: number,
@@ -132,8 +226,11 @@ export default function MapaPortada() {
 
     const actualizarNombres = () => {
       const zoom = map.getZoom();
+      const todos = zoom + 1e-6 >= zoomTodo;
+      map.getContainer().classList.toggle("mapa-nombres-todos", todos);
       const ocupados: Rect[] = [];
       const orden = [...nombres].sort((a, b) => a.prioridad - b.prioridad);
+      const pendientes: typeof nombres = [];
       for (const n of orden) {
         const el = n.marker.getElement();
         if (!el) continue;
@@ -147,13 +244,32 @@ export default function MapaPortada() {
           continue;
         }
         const pt = map.latLngToContainerPoint([n.lat, n.lon]);
-        const rect = rectDir(pt, n.ancho, n.alto, n.dir, n.desfase);
-        if (ocupados.some((o) => choca(rect, o))) {
-          el.style.display = "none";
-        } else {
-          el.style.display = "";
-          ocupados.push(rect);
+        if (!todos) {
+          const sitio = { dir: n.dir, desfase: n.desfase, ancho: n.ancho, alto: n.alto };
+          const rect = rectDir(pt, sitio.ancho, sitio.alto, sitio.dir, sitio.desfase);
+          if (ocupados.some((o) => choca(rect, o))) {
+            el.style.display = "none";
+          } else {
+            aplicarSitio(el, sitio);
+            ocupados.push(rect);
+          }
+          continue;
         }
+        const sitio = buscarSitio(pt, n, ocupados, 1, false) ?? buscarSitio(pt, n, ocupados, 1, true);
+        if (sitio) {
+          aplicarSitio(el, sitio);
+          ocupados.push(rectDir(pt, sitio.ancho, sitio.alto, sitio.dir, sitio.desfase));
+        } else {
+          pendientes.push(n);
+        }
+      }
+      for (const n of pendientes) {
+        const el = n.marker.getElement();
+        if (!el) continue;
+        const pt = map.latLngToContainerPoint([n.lat, n.lon]);
+        const sitio = sitioMenosPisa(pt, n, ocupados);
+        aplicarSitio(el, sitio);
+        ocupados.push(rectDir(pt, sitio.ancho, sitio.alto, sitio.dir, sitio.desfase));
       }
     };
 
@@ -205,8 +321,8 @@ export default function MapaPortada() {
             ancho,
             "bottom",
             -2,
-            6,
-            8.8,
+            ZOOM_MIN,
+            zoomTodo,
             true,
           );
         }
@@ -220,8 +336,8 @@ export default function MapaPortada() {
             ancho,
             "bottom",
             -1,
-            6,
-            8.2,
+            ZOOM_MIN,
+            zoomTodo,
             true,
           );
         }
@@ -249,7 +365,7 @@ export default function MapaPortada() {
             ancho,
             c.dir,
             -3,
-            6,
+            ZOOM_MIN,
             undefined,
             false,
             22,
@@ -309,12 +425,13 @@ export default function MapaPortada() {
             alto: 16,
             dir,
             prioridad: prio,
-            minZoom: prio === 0 ? 6 : 8,
+            minZoom: prio === 0 ? ZOOM_MIN : zoomTrasClics(ZOOM_MIN, CLICS_PUEBLOS_MAS),
             desfase: 0,
           });
         }
 
         encuadrar();
+        aplicarEscalaNombres();
         actualizarNombres();
         map.on("zoomend moveend", actualizarNombres);
       })

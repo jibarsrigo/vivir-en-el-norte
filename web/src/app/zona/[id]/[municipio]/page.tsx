@@ -24,7 +24,7 @@ export default async function PaginaMunicipio({
     <main className="mx-auto max-w-6xl px-4 py-8">
       <p className="text-sm text-[var(--tinta-suave)]">
         <Link href="/" className="underline-offset-2 hover:underline">
-          Vivir en el norte
+          Inicio
         </Link>
         {" · "}
         <Link href={`/zona/${z.id}/`} className="underline-offset-2 hover:underline">
@@ -36,6 +36,14 @@ export default async function PaginaMunicipio({
       </h1>
       <p className="mt-2 text-[var(--tinta-suave)]">
         {ficha.provincia} · franja {ficha.franja} · {ficha.minCosta} min al mar
+      </p>
+      <p className="mt-3">
+        <Link
+          href={`/compara/?con=${ficha.slug}`}
+          className="text-sm font-semibold text-[var(--acento)] underline-offset-2 hover:underline"
+        >
+          Comparar con…
+        </Link>
       </p>
 
       <figure className="mt-6 overflow-hidden rounded-xl border border-[var(--linea)] bg-white">

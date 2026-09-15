@@ -173,6 +173,11 @@ body {
   white-space: nowrap;
 }
 
+.mapa-atlas.mapa-nombres-todos .atlas-nombre a {
+  font-size: 10px;
+  letter-spacing: -0.01em;
+}
+
 .mapa-leaflet .portugal-marca {
   background: transparent;
   border: 0;

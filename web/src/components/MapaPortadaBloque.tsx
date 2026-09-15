@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import MapaPortadaCliente from "@/components/MapaPortadaCliente";
-import { COLOR_COMUNIDAD } from "@/lib/mapa-base";
 
 function Chip({
   pressed,
@@ -50,54 +49,44 @@ export default function MapaPortadaBloque() {
         </div>
       </div>
       <div className="grid gap-4 border-t border-[var(--linea)] p-4 sm:grid-cols-2">
-        <div className="grid gap-4">
-          <div>
-            <p className="text-xs font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
-              Territorio
-            </p>
-            <ul className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-sm">
-              {COLOR_COMUNIDAD.map((c) => (
-                <li key={c.id} className="flex items-center gap-1.5">
-                  <span className="inline-block h-3 w-3 rounded-sm" style={{ background: c.color }} />
-                  {c.nombre}
-                </li>
-              ))}
-            </ul>
-            <p className="mt-2 text-sm text-[var(--tinta-suave)]">
-              Cada punto es un municipio. El cuadrado y la letra más grande, una capital.
-            </p>
-          </div>
-          {clima ? (
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
-                Clima
-              </p>
-              <p className="mt-2 text-sm leading-relaxed text-[var(--tinta)]">
-                Esta capa irá encima del territorio, sin quitarlo. La dibujamos a continuación.
-              </p>
-            </div>
-          ) : null}
-          {servicios ? (
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
-                Servicios
-              </p>
-              <p className="mt-2 text-sm leading-relaxed text-[var(--tinta)]">
-                Hospital, fibra y el resto, como iconos. Se puede ver a la vez que el clima.
-              </p>
-            </div>
-          ) : null}
-        </div>
         <div>
           <p className="text-xs font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
-            Cómo se mira
+            Mapa
           </p>
-          <p className="mt-2 text-sm leading-relaxed text-[var(--tinta)]">
-            Pulsa un nombre o un punto. Con + se acercan más pueblos, sin pisarse. Clima y
-            servicios se pueden marcar juntos: cada uno tiene su leyenda debajo, para que no se
-            pisen.
+          <ul className="mt-2 flex flex-wrap items-center gap-x-5 gap-y-1 text-sm text-[var(--tinta)]">
+            <li className="flex items-center gap-1.5">
+              <span className="inline-block h-2.5 w-2.5 rounded-full border border-white bg-[#1c2a32] shadow-[0_0_0_1px_#1c2a32]" />
+              Municipio
+            </li>
+            <li className="flex items-center gap-1.5">
+              <span className="inline-block h-2.5 w-2.5 border-2 border-[#1a2228] bg-white shadow-[0_0_0_1px_#fff]" />
+              Capital
+            </li>
+          </ul>
+          <p className="mt-2 text-sm text-[var(--tinta-suave)]">
+            Pulsa un nombre o un punto. Con + salen más pueblos, sin pisarse.
           </p>
         </div>
+        {clima ? (
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
+              Clima
+            </p>
+            <p className="mt-2 text-sm leading-relaxed text-[var(--tinta)]">
+              Esta capa irá encima del territorio, sin quitarlo. La dibujamos a continuación.
+            </p>
+          </div>
+        ) : null}
+        {servicios ? (
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
+              Servicios
+            </p>
+            <p className="mt-2 text-sm leading-relaxed text-[var(--tinta)]">
+              Hospital, fibra y el resto, como iconos. Se puede ver a la vez que el clima.
+            </p>
+          </div>
+        ) : null}
       </div>
     </section>
   );

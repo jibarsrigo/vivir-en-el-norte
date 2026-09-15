@@ -21,3 +21,5 @@ La web es estática (`output: "export"`).
 3. Si el sitio queda en `https://USUARIO.github.io/NOMBRE-DEL-REPO/`, hay que poner `basePath` en `next.config.ts`.
 
 Hasta entonces se puede usar **Vercel** (Publish) con raíz `web`.
+
+Publicación actual: [https://jibarsrigo.github.io/vivir-en-el-norte/](https://jibarsrigo.github.io/vivir-en-el-norte/) (GitHub Pages, carpeta `web/`).

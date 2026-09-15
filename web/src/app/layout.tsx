@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="es">
       <body className={`${serif.variable} ${sans.variable} font-sans antialiased`}>
         <header className="border-b border-[var(--linea)] bg-[var(--papel)]/90 backdrop-blur">
-          <div className="mx-auto max-w-6xl px-4 py-3">
+          <div className="mx-auto max-w-7xl px-4 py-3">
             <Link href="/" className="font-[family-name:var(--font-serif)] text-xl text-[var(--acento)]">
               Vivir en el norte
             </Link>

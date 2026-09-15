@@ -30,6 +30,7 @@ body {
   color: #1c2a32;
   font-weight: 650;
   font-size: 12px;
+  pointer-events: none;
   text-shadow: 0 0 4px #fff, 0 0 8px #fff;
 }
 
@@ -37,13 +38,11 @@ body {
   display: none;
 }
 
-.mapa-leaflet .zona-calor {
-  background: transparent;
-  border: 0;
-}
-
-.mapa-leaflet .zona-calor span {
+.mapa-leaflet .zona-etiqueta .zona-calor-txt,
+.mapa-leaflet .zona-globo .zona-calor-txt,
+.mapa-leaflet .zona-calor-marca .zona-calor-txt {
   display: inline-block;
+  margin-top: 2px;
   background: var(--calor);
   color: #fff;
   font-size: 10px;
@@ -53,5 +52,175 @@ body {
   padding: 2px 7px;
   border-radius: 999px;
   white-space: nowrap;
+  text-shadow: none;
   box-shadow: 0 0 0 1px #fff;
+}
+
+.mapa-leaflet .leaflet-tooltip.zona-globo {
+  background: #fff;
+  border: 1px solid var(--linea);
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgb(28 42 50 / 12%);
+  color: var(--tinta);
+  font-weight: 650;
+  font-size: 13px;
+  padding: 6px 9px;
+}
+
+.mapa-leaflet .zona-calor-marca {
+  background: transparent;
+  border: 0;
+}
+
+.mapa-leaflet .municipio-marca {
+  background: transparent;
+  border: 0;
+}
+
+.mapa-leaflet .municipio-marca span {
+  color: #1c2a32;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 650;
+  font-size: 11px;
+  line-height: 1.15;
+  pointer-events: auto;
+  text-shadow: 0 0 4px #fff, 0 0 8px #fff;
+  white-space: nowrap;
+}
+
+.mapa-atlas {
+  background: #d6e9f5;
+}
+
+.mapa-atlas.leaflet-container,
+.mapa-atlas .leaflet-container {
+  background: #d6e9f5;
+}
+
+.mapa-leaflet .atlas-ccaa,
+.mapa-leaflet .atlas-mar,
+.mapa-leaflet .atlas-capital,
+.mapa-leaflet .atlas-capital-nom,
+.mapa-leaflet .atlas-nombre {
+  background: transparent;
+  border: 0;
+}
+
+.mapa-leaflet .atlas-ccaa span {
+  color: #6b5d1e;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  pointer-events: none;
+  text-shadow: 0 0 6px #fff, 0 0 12px #fff;
+}
+
+.mapa-leaflet .atlas-ccaa.ccaa-asturias span {
+  color: #3f6b2c;
+}
+
+.mapa-leaflet .atlas-ccaa.ccaa-cantabria span {
+  color: #5a4a80;
+}
+
+.mapa-leaflet .atlas-ccaa.ccaa-portugal span {
+  color: #8a4f1f;
+}
+
+.mapa-leaflet .atlas-mar span {
+  color: #3f6f9c;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 600;
+  pointer-events: none;
+  text-shadow: 0 0 6px #d6e9f5, 0 0 10px #fff;
+}
+
+.mapa-leaflet .atlas-capital i {
+  background: #fff;
+  border: 2px solid #1a2228;
+  box-shadow: 0 0 0 1.4px #fff;
+  display: block;
+  height: 8px;
+  width: 8px;
+}
+
+.mapa-leaflet .atlas-capital-clic {
+  cursor: pointer;
+}
+
+.mapa-leaflet .atlas-capital-nom span {
+  color: #1a2228;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  pointer-events: none;
+  text-shadow: 0 0 4px #fff, 0 0 9px #fff;
+  white-space: nowrap;
+}
+
+.mapa-leaflet .atlas-nombre a {
+  color: #1c2a32;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 650;
+  line-height: 1.15;
+  pointer-events: auto;
+  text-decoration: none;
+  text-shadow: 0 0 4px #fff, 0 0 8px #fff;
+  white-space: nowrap;
+}
+
+.mapa-leaflet .portugal-marca {
+  background: transparent;
+  border: 0;
+}
+
+.mapa-leaflet .portugal-marca span {
+  color: #6b3f24;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  pointer-events: none;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff;
+  text-transform: uppercase;
+}
+
+.mapa-leaflet .municipio-zona {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  display: flex;
+  gap: 4px;
+  pointer-events: none;
+}
+
+.mapa-leaflet .municipio-zona .punto {
+  background: #0b3d5c;
+  border: 1.5px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgb(11 61 92 / 25%);
+  flex-shrink: 0;
+  height: 8px;
+  width: 8px;
+}
+
+.mapa-leaflet .municipio-zona .nombre {
+  color: #1c2a32;
+  font-size: 11px;
+  font-weight: 650;
+  line-height: 1.15;
+  text-shadow: 0 0 4px #fff, 0 0 8px #fff;
+  white-space: nowrap;
+}
+
+@media (max-width: 639px) {
+  .mapa-leaflet .leaflet-tooltip.zona-etiqueta,
+  .mapa-leaflet .leaflet-tooltip.municipio-etiqueta,
+  .mapa-leaflet .municipio-marca {
+    display: none;
+  }
 }

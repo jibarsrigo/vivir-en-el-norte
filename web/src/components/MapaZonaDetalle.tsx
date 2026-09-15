@@ -5,10 +5,16 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { TESELA_CLARA } from "@/lib/teselas";
 import { COLOR_CLASE } from "@/lib/zonas";
+import type { MunicipioPunto } from "@/lib/municipios-puntos";
 
-type Props = { zonaId: string; nombre: string };
+type Props = {
+  zonaId: string;
+  lat: number;
+  lon: number;
+  pueblos: MunicipioPunto[];
+};
 
-export default function MapaLocalizador({ zonaId, nombre }: Props) {
+export default function MapaZonaDetalle({ zonaId, lat, lon, pueblos }: Props) {
   const caja = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -19,7 +25,7 @@ export default function MapaLocalizador({ zonaId, nombre }: Props) {
       scrollWheelZoom: false,
       dragging: true,
       zoomSnap: 0.25,
-    }).setView([42.9, -6.1], 7);
+    }).setView([lat, lon], 10);
 
     L.tileLayer(TESELA_CLARA.url, { attribution: TESELA_CLARA.attribution }).addTo(map);
 
@@ -28,7 +34,7 @@ export default function MapaLocalizador({ zonaId, nombre }: Props) {
     const encuadrar = () => {
       if (!limites || !caja.current || caja.current.clientHeight < 40) return;
       map.invalidateSize();
-      map.fitBounds(limites, { padding: [18, 22], maxZoom: 10, animate: false });
+      map.fitBounds(limites, { padding: [36, 44], maxZoom: 12, animate: false });
     };
     const ro = new ResizeObserver(encuadrar);
     ro.observe(caja.current);
@@ -45,29 +51,39 @@ export default function MapaLocalizador({ zonaId, nombre }: Props) {
             const color = COLOR_CLASE[p.clase ?? ""] ?? "#888";
             return {
               color: esta ? "#0b3d5c" : "#8a97a0",
-              weight: esta ? 2.6 : 0.9,
+              weight: esta ? 2.4 : 0.8,
               fillColor: esta ? color : "#c5cdd2",
-              fillOpacity: esta ? 0.72 : 0.14,
+              fillOpacity: esta ? 0.42 : 0.1,
             };
           },
           onEachFeature: (feat, layer) => {
-            const p = feat.properties as { id: string; lat?: number; lon?: number };
-            if (p.id !== zonaId) return;
-            foco = layer;
-            const centro =
-              p.lat != null && p.lon != null
-                ? L.latLng(p.lat, p.lon)
-                : (layer as L.Polygon).getBounds?.().getCenter?.();
-            if (centro) {
-              L.tooltip({ permanent: true, direction: "center", className: "zona-etiqueta", opacity: 1 })
-                .setLatLng(centro)
-                .setContent(nombre.replace(" (PT)", ""))
-                .addTo(map);
-            }
+            const p = feat.properties as { id: string };
+            if (p.id === zonaId) foco = layer;
           },
         });
         capa.addTo(map);
         limites = (foco as L.Polygon | null)?.getBounds?.() ?? capa.getBounds();
+
+        for (const pueblo of pueblos) {
+          const dir = pueblo.lon <= lon ? "left" : "right";
+          const ancho = Math.max(40, pueblo.etiqueta.length * 7.2 + 18);
+          const html =
+            dir === "left"
+              ? `<span class="nombre">${pueblo.etiqueta}</span><span class="punto"></span>`
+              : `<span class="punto"></span><span class="nombre">${pueblo.etiqueta}</span>`;
+          L.marker([pueblo.lat, pueblo.lon], {
+            interactive: false,
+            keyboard: false,
+            zIndexOffset: 600,
+            icon: L.divIcon({
+              className: `municipio-zona municipio-zona-${dir}`,
+              html,
+              iconSize: [ancho, 16],
+              iconAnchor: dir === "left" ? [ancho - 5, 8] : [5, 8],
+            }),
+          }).addTo(map);
+        }
+
         encuadrar();
       })
       .catch(() => undefined);
@@ -77,7 +93,7 @@ export default function MapaLocalizador({ zonaId, nombre }: Props) {
       ro.disconnect();
       map.remove();
     };
-  }, [zonaId, nombre]);
+  }, [zonaId, lat, lon, pueblos]);
 
   return <div ref={caja} className="mapa-leaflet h-full w-full" />;
 }

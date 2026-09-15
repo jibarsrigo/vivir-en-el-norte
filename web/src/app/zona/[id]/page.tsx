@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-import dynamic from "next/dynamic";
 import { notFound } from "next/navigation";
+import MapaLocalizadorCliente from "@/components/MapaLocalizadorCliente";
+import MapaZonaDetalleCliente from "@/components/MapaZonaDetalleCliente";
 import RelatoBaixoMino from "@/components/RelatoBaixoMino";
+import { municipiosDeZona } from "@/lib/municipios-puntos";
 import { mallorca, zonaPorId, zonas } from "@/lib/zonas";
-
-const MapaLocalizador = dynamic(() => import("@/components/MapaLocalizador"), { ssr: false });
 
 export function generateStaticParams() {
   return zonas.map((z) => ({ id: z.id }));
@@ -15,6 +15,7 @@ export default async function PaginaZona({ params }: { params: Promise<{ id: str
   const { id } = await params;
   const z = zonaPorId(id);
   if (!z) notFound();
+  const pueblos = municipiosDeZona(z.id);
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-8">
@@ -32,11 +33,11 @@ export default async function PaginaZona({ params }: { params: Promise<{ id: str
         <p className="mt-3 text-[var(--tinta-suave)]">El verano no aprieta como en Mallorca.</p>
       )}
 
-      <div className="mt-6 grid gap-4 lg:grid-cols-[1.4fr_1fr]">
+      <div className="mt-6 grid gap-4 lg:grid-cols-2">
         <figure className="overflow-hidden rounded-xl border border-[var(--linea)] bg-white">
-          <div className="relative aspect-[16/10] min-h-[240px]">
+          <div className="relative aspect-[16/10] min-h-[280px]">
             <div className="absolute inset-0">
-              <MapaLocalizador zonaId={z.id} nombre={z.zona} />
+              <MapaLocalizadorCliente zonaId={z.id} nombre={z.zona} />
             </div>
           </div>
           <figcaption className="px-3 py-2 text-sm text-[var(--tinta-suave)]">
@@ -53,8 +54,10 @@ export default async function PaginaZona({ params }: { params: Promise<{ id: str
               className="h-auto w-full"
             />
           ) : (
-            <div className="flex aspect-[16/10] items-center justify-center bg-[#f1f0e8] px-6 text-center text-[var(--tinta-suave)]">
-              El mapa de detalle se añade con el relato de la zona.
+            <div className="relative aspect-[16/10] min-h-[280px]">
+              <div className="absolute inset-0">
+                <MapaZonaDetalleCliente zonaId={z.id} lat={z.lat} lon={z.lon} pueblos={pueblos} />
+              </div>
             </div>
           )}
           <figcaption className="px-3 py-2 text-sm text-[var(--tinta-suave)]">La zona por dentro.</figcaption>

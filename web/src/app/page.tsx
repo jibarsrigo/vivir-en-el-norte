@@ -1,9 +1,6 @@
-import dynamic from "next/dynamic";
 import Link from "next/link";
-import { mallorca, zonas } from "@/lib/zonas";
-import { COLOR_CLASE } from "@/lib/zonas";
-
-const MapaPortada = dynamic(() => import("@/components/MapaPortada"), { ssr: false });
+import MapaPortadaBloque from "@/components/MapaPortadaBloque";
+import { zonas } from "@/lib/zonas";
 
 function Cifras({
   despejados,
@@ -46,7 +43,7 @@ function Cifras({
 
 export default function Portada() {
   return (
-    <main className="mx-auto max-w-6xl px-4 py-8 sm:py-10">
+    <main className="mx-auto max-w-7xl px-4 py-8 sm:py-10">
       <h1
         className="font-[family-name:var(--font-serif)] text-4xl leading-tight text-[var(--acento)] sm:text-5xl"
       >
@@ -57,41 +54,7 @@ export default function Portada() {
         imaginar el día a día en la costa norte —no unas vacaciones— y decidir con calma.
       </p>
 
-      <section className="mt-8 overflow-hidden rounded-xl border border-[var(--linea)] bg-white shadow-sm">
-        <div className="h-[52vh] min-h-[280px] sm:h-[58vh]">
-          <MapaPortada zonas={zonas} />
-        </div>
-        <div className="grid gap-4 border-t border-[var(--linea)] p-4 sm:grid-cols-2">
-          <div>
-            <p className="text-xs font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
-              Color del mapa
-            </p>
-            <ul className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-sm">
-              {Object.entries(COLOR_CLASE).map(([nombre, color]) => (
-                <li key={nombre} className="flex items-center gap-1.5">
-                  <span className="inline-block h-3 w-3 rounded-sm" style={{ background: color }} />
-                  {nombre === "Más favorable"
-                    ? "Más sol, menos lluvia"
-                    : nombre === "Más húmedo / nublado"
-                      ? "Más nublado"
-                      : nombre}
-                </li>
-              ))}
-            </ul>
-            <p className="mt-2 text-sm text-[var(--calor)]">
-              Si el verano se parece al de Mallorca: aviso en rojo, «el calor aprieta».
-            </p>
-          </div>
-          <div>
-            <p className="text-xs font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
-              Mallorca, para comparar el tiempo
-            </p>
-            <div className="mt-2">
-              <Cifras {...mallorca} />
-            </div>
-          </div>
-        </div>
-      </section>
+      <MapaPortadaBloque />
 
       <p className="mt-6 text-sm text-[var(--tinta-suave)] sm:hidden">
         En el teléfono, elige la zona en la lista. En el mapa también se puede pulsar.
@@ -111,6 +74,9 @@ export default function Portada() {
                 <p className="text-sm text-[var(--tinta-suave)]">
                   {z.provincia}
                   {z.portugal ? " · más adelante" : z.activa ? " · se puede entrar" : " · relato en curso"}
+                </p>
+                <p className="mt-2 max-w-xl text-[15px] leading-snug text-[var(--tinta)]">
+                  {z.municipios.join(" · ")}
                 </p>
                 {z.calorAprieta ? (
                   <p className="mt-1 text-sm font-semibold text-[var(--calor)]">

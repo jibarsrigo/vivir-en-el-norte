@@ -652,7 +652,7 @@ export default function MapaPortada({
               iconAnchor: [18, 9],
             }),
           }).addTo(map);
-          marca.bindTooltip(textoClima({ nombre: m.nombre, ...dato }), {
+          marca.bindTooltip(textoClima({ ...dato, nombre: m.nombre }), {
             direction: "top",
             opacity: 1,
             className: "zona-globo",

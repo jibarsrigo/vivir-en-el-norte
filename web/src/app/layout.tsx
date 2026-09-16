@@ -18,7 +18,7 @@ const sans = Source_Sans_3({
 export const metadata: Metadata = {
   title: "Vivir en el norte",
   description:
-    "Cerca del mar - El mejor clima de cada zona. Para imaginar la vida en cada costa.",
+    "Cerca del mar - El mejor clima de cada zona.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

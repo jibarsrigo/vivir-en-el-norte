@@ -10,10 +10,10 @@ export default function PaginaCompara() {
           Inicio
         </Link>
         {" · "}
-        Compara pueblos
+        Busca y compara
       </p>
       <h1 className="mt-2 font-[family-name:var(--font-serif)] text-4xl text-[var(--acento)]">
-        Compara pueblos
+        Busca y compara
       </h1>
       <Suspense>
         <NotaCompara />

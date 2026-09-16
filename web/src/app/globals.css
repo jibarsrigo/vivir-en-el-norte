@@ -8,6 +8,12 @@
   --linea: #c9bba8;
   --acento: #0b3d5c;
   --calor: #c62828;
+  --capa-clima: rgb(240 230 212 / 28%);
+  --capa-mar: rgb(221 232 240 / 32%);
+  --capa-servicios: rgb(226 235 227 / 28%);
+  --capa-hospital: rgb(239 228 228 / 28%);
+  --capa-avion: rgb(228 231 239 / 28%);
+  --capa-precio: rgb(235 230 220 / 28%);
 }
 
 html {
@@ -107,6 +113,13 @@ body {
   border: 0;
 }
 
+.mapa-leaflet .atlas-clima-marca,
+.mapa-leaflet .atlas-mar-marca {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
 .mapa-leaflet .atlas-ccaa span {
   color: #6b5d1e;
   font-size: 15px;
@@ -178,6 +191,77 @@ body {
   letter-spacing: -0.01em;
 }
 
+.mapa-leaflet .atlas-clima {
+  background: transparent;
+  border: 0;
+}
+
+.atlas-clima {
+  align-items: center;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgb(28 42 50 / 22%), 0 1px 4px rgb(28 42 50 / 16%);
+  display: flex;
+  justify-content: center;
+}
+
+.atlas-clima svg {
+  display: block;
+}
+
+.atlas-clima-pueblo {
+  height: 18px;
+  width: 18px;
+}
+
+.atlas-clima-pueblo svg {
+  height: 16px;
+  width: 16px;
+}
+
+.atlas-clima-zona {
+  height: 24px;
+  width: 24px;
+}
+
+.atlas-clima-zona svg {
+  height: 20px;
+  width: 20px;
+}
+
+.atlas-mar-ico {
+  align-items: center;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgb(28 42 50 / 22%), 0 1px 4px rgb(28 42 50 / 16%);
+  display: flex;
+  justify-content: center;
+}
+
+.atlas-mar-ico svg {
+  display: block;
+}
+
+.atlas-mar-pueblo {
+  height: 18px;
+  width: 18px;
+}
+
+.atlas-mar-pueblo svg {
+  height: 16px;
+  width: 16px;
+}
+
+.atlas-mar-zona {
+  height: 24px;
+  width: 24px;
+}
+
+.atlas-mar-zona svg {
+  height: 20px;
+  width: 20px;
+}
+
 .mapa-leaflet .portugal-marca {
   background: transparent;
   border: 0;
@@ -228,4 +312,37 @@ body {
   .mapa-leaflet .municipio-marca {
     display: none;
   }
+}
+
+/* Agrupación visual de columnas por capa en la tabla inferior */
+.tabla-capas th.tabla-grupo-capa,
+.tabla-capas td.tabla-celda-capa {
+  border-left: 1px solid rgb(28 42 50 / 6%);
+}
+
+.tabla-capas th.tabla-grupo-capa:first-of-type,
+.tabla-capas .tabla-fijas {
+  border-left: 0;
+}
+
+.tabla-capas .capa-clima { background: var(--capa-clima); }
+.tabla-capas .capa-mar { background: var(--capa-mar); }
+.tabla-capas .capa-servicios { background: var(--capa-servicios); }
+.tabla-capas .capa-hospital { background: var(--capa-hospital); }
+.tabla-capas .capa-avion { background: var(--capa-avion); }
+.tabla-capas .capa-precio { background: var(--capa-precio); }
+
+.tabla-capas thead .tabla-grupo-capa {
+  border-bottom: 1px solid rgb(28 42 50 / 10%);
+  color: var(--tinta-suave);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  padding-bottom: 0.35rem;
+  padding-top: 0.4rem;
+  text-transform: uppercase;
+}
+
+.tabla-capas thead .tabla-col-capa {
+  border-bottom: 1px solid var(--linea);
 }

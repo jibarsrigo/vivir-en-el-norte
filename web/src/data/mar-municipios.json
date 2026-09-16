@@ -1,0 +1,666 @@
+[
+  {
+    "zonaId": "baixo-mino",
+    "nombre": "A Guarda",
+    "minCosta": 3,
+    "minBano": 5,
+    "playaBano": "Area Grande / O Muíño (Miño)",
+    "franja": "A"
+  },
+  {
+    "zonaId": "baixo-mino",
+    "nombre": "Oia",
+    "minCosta": 1,
+    "minBano": 15,
+    "playaBano": "Praia de Mougás (abierta) / Baiona 15 min",
+    "franja": "A"
+  },
+  {
+    "zonaId": "baixo-mino",
+    "nombre": "O Rosal",
+    "minCosta": 10,
+    "minBano": 10,
+    "playaBano": "Area Grande (A Guarda)",
+    "franja": "B"
+  },
+  {
+    "zonaId": "baixo-mino",
+    "nombre": "Tomiño",
+    "minCosta": 20,
+    "minBano": 20,
+    "playaBano": "Area Grande (A Guarda)",
+    "franja": "B"
+  },
+  {
+    "zonaId": "baixo-mino",
+    "nombre": "Tui",
+    "minCosta": 25,
+    "minBano": 25,
+    "playaBano": "Cesantes (Redondela) / Area Grande",
+    "franja": "B"
+  },
+  {
+    "zonaId": "val-minor",
+    "nombre": "Baiona",
+    "minCosta": 1,
+    "minBano": 1,
+    "playaBano": "Barbeira",
+    "franja": "A"
+  },
+  {
+    "zonaId": "val-minor",
+    "nombre": "Nigrán",
+    "minCosta": 4,
+    "minBano": 4,
+    "playaBano": "Praia América",
+    "franja": "A"
+  },
+  {
+    "zonaId": "val-minor",
+    "nombre": "Gondomar",
+    "minCosta": 12,
+    "minBano": 12,
+    "playaBano": "Praia América",
+    "franja": "B"
+  },
+  {
+    "zonaId": "vigo-e-ria",
+    "nombre": "Vigo",
+    "minCosta": 4,
+    "minBano": 10,
+    "playaBano": "Samil",
+    "franja": "A"
+  },
+  {
+    "zonaId": "vigo-e-ria",
+    "nombre": "Redondela",
+    "minCosta": 6,
+    "minBano": 6,
+    "playaBano": "Cesantes",
+    "franja": "B"
+  },
+  {
+    "zonaId": "vigo-e-ria",
+    "nombre": "Soutomaior",
+    "minCosta": 8,
+    "minBano": 10,
+    "playaBano": "Cesantes",
+    "franja": "B"
+  },
+  {
+    "zonaId": "vigo-e-ria",
+    "nombre": "Vilaboa",
+    "minCosta": 3,
+    "minBano": 10,
+    "playaBano": "Cesantes",
+    "franja": "A"
+  },
+  {
+    "zonaId": "o-morrazo",
+    "nombre": "Cangas",
+    "minCosta": 5,
+    "minBano": 5,
+    "playaBano": "Rodeira",
+    "franja": "A"
+  },
+  {
+    "zonaId": "o-morrazo",
+    "nombre": "Moaña",
+    "minCosta": 2,
+    "minBano": 7,
+    "playaBano": "Rodeira",
+    "franja": "A"
+  },
+  {
+    "zonaId": "o-morrazo",
+    "nombre": "Bueu",
+    "minCosta": 5,
+    "minBano": 12,
+    "playaBano": "Rodeira",
+    "franja": "A"
+  },
+  {
+    "zonaId": "o-morrazo",
+    "nombre": "Marín",
+    "minCosta": 1,
+    "minBano": 16,
+    "playaBano": "Silgar",
+    "franja": "A"
+  },
+  {
+    "zonaId": "pontevedra-e-sanxenxo",
+    "nombre": "Pontevedra",
+    "minCosta": 1,
+    "minBano": 24,
+    "playaBano": "Areas",
+    "franja": "A"
+  },
+  {
+    "zonaId": "pontevedra-e-sanxenxo",
+    "nombre": "Poio",
+    "minCosta": 2,
+    "minBano": 20,
+    "playaBano": "Areas",
+    "franja": "A"
+  },
+  {
+    "zonaId": "pontevedra-e-sanxenxo",
+    "nombre": "Sanxenxo",
+    "minCosta": 6,
+    "minBano": 6,
+    "playaBano": "Silgar",
+    "franja": "B"
+  },
+  {
+    "zonaId": "pontevedra-e-sanxenxo",
+    "nombre": "O Grove",
+    "minCosta": 2,
+    "minBano": 5,
+    "playaBano": "Foxos",
+    "franja": "A"
+  },
+  {
+    "zonaId": "o-salnes",
+    "nombre": "Meaño",
+    "minCosta": 3,
+    "minBano": 7,
+    "playaBano": "Areas",
+    "franja": "A"
+  },
+  {
+    "zonaId": "o-salnes",
+    "nombre": "Cambados",
+    "minCosta": 8,
+    "minBano": 13,
+    "playaBano": "Foxos",
+    "franja": "B"
+  },
+  {
+    "zonaId": "o-salnes",
+    "nombre": "A Illa de Arousa",
+    "minCosta": 4,
+    "minBano": 15,
+    "playaBano": "Foxos",
+    "franja": "A"
+  },
+  {
+    "zonaId": "o-salnes",
+    "nombre": "Vilanova de Arousa",
+    "minCosta": 3,
+    "minBano": 18,
+    "playaBano": "Foxos",
+    "franja": "A"
+  },
+  {
+    "zonaId": "o-salnes",
+    "nombre": "Vilagarcía de Arousa",
+    "minCosta": 5,
+    "minBano": 28,
+    "playaBano": "Foxos",
+    "franja": "A"
+  },
+  {
+    "zonaId": "barbanza-e-noia",
+    "nombre": "Rianxo",
+    "minCosta": 7,
+    "minBano": 29,
+    "playaBano": "Ribeira",
+    "franja": "B"
+  },
+  {
+    "zonaId": "barbanza-e-noia",
+    "nombre": "Boiro",
+    "minCosta": 1,
+    "minBano": 21,
+    "playaBano": "Ribeira",
+    "franja": "A"
+  },
+  {
+    "zonaId": "barbanza-e-noia",
+    "nombre": "A Pobra do Caramiñal",
+    "minCosta": 10,
+    "minBano": 11,
+    "playaBano": "Ribeira",
+    "franja": "B"
+  },
+  {
+    "zonaId": "barbanza-e-noia",
+    "nombre": "Ribeira",
+    "minCosta": 12,
+    "minBano": 12,
+    "playaBano": "Ribeira",
+    "franja": "B"
+  },
+  {
+    "zonaId": "barbanza-e-noia",
+    "nombre": "Porto do Son",
+    "minCosta": 4,
+    "minBano": 21,
+    "playaBano": "Carnota",
+    "franja": "A"
+  },
+  {
+    "zonaId": "barbanza-e-noia",
+    "nombre": "Noia",
+    "minCosta": 21,
+    "minBano": 29,
+    "playaBano": "Carnota",
+    "franja": "B"
+  },
+  {
+    "zonaId": "golfo-artabro-e-ferrol",
+    "nombre": "A Coruña",
+    "minCosta": 3,
+    "minBano": 3,
+    "playaBano": "Orzán",
+    "franja": "A"
+  },
+  {
+    "zonaId": "golfo-artabro-e-ferrol",
+    "nombre": "Oleiros",
+    "minCosta": 13,
+    "minBano": 14,
+    "playaBano": "Orzán",
+    "franja": "B"
+  },
+  {
+    "zonaId": "golfo-artabro-e-ferrol",
+    "nombre": "Sada",
+    "minCosta": 14,
+    "minBano": 21,
+    "playaBano": "Orzán",
+    "franja": "B"
+  },
+  {
+    "zonaId": "golfo-artabro-e-ferrol",
+    "nombre": "Bergondo",
+    "minCosta": 22,
+    "minBano": 25,
+    "playaBano": "Orzán",
+    "franja": "B"
+  },
+  {
+    "zonaId": "golfo-artabro-e-ferrol",
+    "nombre": "Miño",
+    "minCosta": 19,
+    "minBano": 28,
+    "playaBano": "Orzán",
+    "franja": "B"
+  },
+  {
+    "zonaId": "golfo-artabro-e-ferrol",
+    "nombre": "Ares",
+    "minCosta": 4,
+    "minBano": 17,
+    "playaBano": "Doniños",
+    "franja": "A"
+  },
+  {
+    "zonaId": "golfo-artabro-e-ferrol",
+    "nombre": "Ferrol",
+    "minCosta": 1,
+    "minBano": 12,
+    "playaBano": "Doniños",
+    "franja": "A"
+  },
+  {
+    "zonaId": "a-marina",
+    "nombre": "O Vicedo",
+    "minCosta": 19,
+    "minBano": 19,
+    "playaBano": "Area Longa",
+    "franja": "B"
+  },
+  {
+    "zonaId": "a-marina",
+    "nombre": "Viveiro",
+    "minCosta": 4,
+    "minBano": 4,
+    "playaBano": "Area Longa",
+    "franja": "A"
+  },
+  {
+    "zonaId": "a-marina",
+    "nombre": "Xove",
+    "minCosta": 4,
+    "minBano": 9,
+    "playaBano": "Covas",
+    "franja": "A"
+  },
+  {
+    "zonaId": "a-marina",
+    "nombre": "Cervo",
+    "minCosta": 4,
+    "minBano": 23,
+    "playaBano": "Covas",
+    "franja": "A"
+  },
+  {
+    "zonaId": "a-marina",
+    "nombre": "Burela",
+    "minCosta": 7,
+    "minBano": 21,
+    "playaBano": "Foz",
+    "franja": "B"
+  },
+  {
+    "zonaId": "a-marina",
+    "nombre": "Foz",
+    "minCosta": 13,
+    "minBano": 13,
+    "playaBano": "Foz",
+    "franja": "B"
+  },
+  {
+    "zonaId": "a-marina",
+    "nombre": "Barreiros",
+    "minCosta": 17,
+    "minBano": 17,
+    "playaBano": "Foz",
+    "franja": "B"
+  },
+  {
+    "zonaId": "a-marina",
+    "nombre": "Ribadeo",
+    "minCosta": 3,
+    "minBano": 8,
+    "playaBano": "As Catedrais",
+    "franja": "A"
+  },
+  {
+    "zonaId": "asturias-occidente",
+    "nombre": "Castropol",
+    "minCosta": 5,
+    "minBano": 10,
+    "playaBano": "As Catedrais",
+    "franja": "A"
+  },
+  {
+    "zonaId": "asturias-occidente",
+    "nombre": "Tapia de Casariego",
+    "minCosta": 4,
+    "minBano": 4,
+    "playaBano": "Tapia",
+    "franja": "A"
+  },
+  {
+    "zonaId": "asturias-occidente",
+    "nombre": "Navia",
+    "minCosta": 3,
+    "minBano": 3,
+    "playaBano": "Navia",
+    "franja": "A"
+  },
+  {
+    "zonaId": "asturias-occidente",
+    "nombre": "Luarca (Valdés)",
+    "minCosta": 2,
+    "minBano": 2,
+    "playaBano": "Luarca",
+    "franja": "A"
+  },
+  {
+    "zonaId": "asturias-centro",
+    "nombre": "Cudillero",
+    "minCosta": 4,
+    "minBano": 4,
+    "playaBano": "Cudillero",
+    "franja": "A"
+  },
+  {
+    "zonaId": "asturias-centro",
+    "nombre": "Muros de Nalón",
+    "minCosta": 3,
+    "minBano": 7,
+    "playaBano": "Cudillero",
+    "franja": "A"
+  },
+  {
+    "zonaId": "asturias-centro",
+    "nombre": "Soto del Barco",
+    "minCosta": 4,
+    "minBano": 12,
+    "playaBano": "Cudillero",
+    "franja": "A"
+  },
+  {
+    "zonaId": "asturias-centro",
+    "nombre": "Salinas (Castrillón)",
+    "minCosta": 5,
+    "minBano": 5,
+    "playaBano": "Salinas",
+    "franja": "A"
+  },
+  {
+    "zonaId": "asturias-centro",
+    "nombre": "Luanco (Gozón)",
+    "minCosta": 12,
+    "minBano": 22,
+    "playaBano": "San Lorenzo",
+    "franja": "B"
+  },
+  {
+    "zonaId": "asturias-centro",
+    "nombre": "Candás (Carreño)",
+    "minCosta": 7,
+    "minBano": 16,
+    "playaBano": "San Lorenzo",
+    "franja": "B"
+  },
+  {
+    "zonaId": "asturias-centro",
+    "nombre": "Gijón",
+    "minCosta": 4,
+    "minBano": 4,
+    "playaBano": "San Lorenzo",
+    "franja": "A"
+  },
+  {
+    "zonaId": "asturias-oriente",
+    "nombre": "Villaviciosa",
+    "minCosta": 6,
+    "minBano": 12,
+    "playaBano": "Rodiles",
+    "franja": "B"
+  },
+  {
+    "zonaId": "asturias-oriente",
+    "nombre": "Colunga",
+    "minCosta": 1,
+    "minBano": 17,
+    "playaBano": "Rodiles",
+    "franja": "A"
+  },
+  {
+    "zonaId": "asturias-oriente",
+    "nombre": "Ribadesella",
+    "minCosta": 3,
+    "minBano": 3,
+    "playaBano": "Santa Marina (Ribadesella)",
+    "franja": "A"
+  },
+  {
+    "zonaId": "asturias-oriente",
+    "nombre": "Llanes",
+    "minCosta": 5,
+    "minBano": 14,
+    "playaBano": "Torimbia",
+    "franja": "A"
+  },
+  {
+    "zonaId": "asturias-oriente",
+    "nombre": "Ribadedeva",
+    "minCosta": 12,
+    "minBano": 27,
+    "playaBano": "Oyambre",
+    "franja": "B"
+  },
+  {
+    "zonaId": "cantabria-occidental",
+    "nombre": "San Vicente de la Barquera",
+    "minCosta": 12,
+    "minBano": 12,
+    "playaBano": "Oyambre",
+    "franja": "B"
+  },
+  {
+    "zonaId": "cantabria-occidental",
+    "nombre": "Comillas",
+    "minCosta": 12,
+    "minBano": 12,
+    "playaBano": "Comillas",
+    "franja": "B"
+  },
+  {
+    "zonaId": "cantabria-occidental",
+    "nombre": "Suances",
+    "minCosta": 3,
+    "minBano": 34,
+    "playaBano": "Comillas",
+    "franja": "A"
+  },
+  {
+    "zonaId": "cantabria-occidental",
+    "nombre": "Liencres (Piélagos)",
+    "minCosta": 2,
+    "minBano": 24,
+    "playaBano": "El Sardinero",
+    "franja": "A"
+  },
+  {
+    "zonaId": "cantabria-occidental",
+    "nombre": "Santander",
+    "minCosta": 11,
+    "minBano": 11,
+    "playaBano": "El Sardinero",
+    "franja": "B"
+  },
+  {
+    "zonaId": "cantabria-oriental",
+    "nombre": "Ribamontán al Mar",
+    "minCosta": 13,
+    "minBano": 13,
+    "playaBano": "Somo",
+    "franja": "B"
+  },
+  {
+    "zonaId": "cantabria-oriental",
+    "nombre": "Noja",
+    "minCosta": 17,
+    "minBano": 21,
+    "playaBano": "Laredo",
+    "franja": "B"
+  },
+  {
+    "zonaId": "cantabria-oriental",
+    "nombre": "Santoña",
+    "minCosta": 9,
+    "minBano": 9,
+    "playaBano": "Laredo",
+    "franja": "B"
+  },
+  {
+    "zonaId": "cantabria-oriental",
+    "nombre": "Laredo",
+    "minCosta": 4,
+    "minBano": 4,
+    "playaBano": "Laredo",
+    "franja": "A"
+  },
+  {
+    "zonaId": "cantabria-oriental",
+    "nombre": "Castro-Urdiales",
+    "minCosta": 4,
+    "minBano": 4,
+    "playaBano": "Ostende (Castro)",
+    "franja": "A"
+  },
+  {
+    "zonaId": "alto-minho",
+    "nombre": "Valença",
+    "minCosta": 32,
+    "minBano": 32,
+    "playaBano": "Praia Ladeira",
+    "franja": "B"
+  },
+  {
+    "zonaId": "alto-minho",
+    "nombre": "Vila Nova de Cerveira",
+    "minCosta": 19,
+    "minBano": 19,
+    "playaBano": "Area Grande",
+    "franja": "B"
+  },
+  {
+    "zonaId": "alto-minho",
+    "nombre": "Caminha",
+    "minCosta": 6,
+    "minBano": 6,
+    "playaBano": "O Muíño",
+    "franja": "B"
+  },
+  {
+    "zonaId": "alto-minho",
+    "nombre": "Moledo (Caminha)",
+    "minCosta": 4,
+    "minBano": 4,
+    "playaBano": "Moledo",
+    "franja": "A"
+  },
+  {
+    "zonaId": "alto-minho",
+    "nombre": "Vila Praia de Âncora (Caminha)",
+    "minCosta": 2,
+    "minBano": 2,
+    "playaBano": "Vila Praia de Âncora",
+    "franja": "A"
+  },
+  {
+    "zonaId": "alto-minho",
+    "nombre": "Afife-Carreço (Viana)",
+    "minCosta": 1,
+    "minBano": 7,
+    "playaBano": "Vila Praia de Âncora",
+    "franja": "A"
+  },
+  {
+    "zonaId": "alto-minho",
+    "nombre": "Viana do Castelo",
+    "minCosta": 3,
+    "minBano": 3,
+    "playaBano": "Viana do Castelo",
+    "franja": "A"
+  },
+  {
+    "zonaId": "alto-minho",
+    "nombre": "Ponte de Lima",
+    "minCosta": 38,
+    "minBano": 38,
+    "playaBano": "Viana do Castelo",
+    "franja": "B"
+  },
+  {
+    "zonaId": "litoral-norte",
+    "nombre": "Esposende",
+    "minCosta": 3,
+    "minBano": 3,
+    "playaBano": "Ofir",
+    "franja": "A"
+  },
+  {
+    "zonaId": "litoral-norte",
+    "nombre": "Póvoa de Varzim",
+    "minCosta": 1,
+    "minBano": 25,
+    "playaBano": "Ofir",
+    "franja": "A"
+  },
+  {
+    "zonaId": "litoral-norte",
+    "nombre": "Vila do Conde",
+    "minCosta": 1,
+    "minBano": 31,
+    "playaBano": "Ofir",
+    "franja": "A"
+  }
+]

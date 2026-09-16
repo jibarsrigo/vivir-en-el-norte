@@ -2,6 +2,12 @@
 
 import { useState } from "react";
 import MapaPortadaCliente from "@/components/MapaPortadaCliente";
+import { LeyendaMapa } from "@/components/CapaMapaLeyenda";
+import { LeyendaClima } from "@/components/CapaClimaLeyenda";
+import { LeyendaMar } from "@/components/CapaMarLeyenda";
+import TablaCapasMunicipios from "@/components/TablaCapasMunicipios";
+import EnlaceBuscaCompara from "@/components/EnlaceBuscaCompara";
+import { type ComunidadId } from "@/lib/capas-tabla";
 
 const CAPAS = [
   {
@@ -12,7 +18,7 @@ const CAPAS = [
   {
     id: "mar",
     etiqueta: "Mar",
-    nota: "Franja A o B, minutos al baño y el agua en verano.",
+    nota: "Minutos a la costa y a la playa de baño.",
   },
   {
     id: "servicios",
@@ -62,8 +68,30 @@ function Chip({
   );
 }
 
+function ChipsCapas({
+  activas,
+  onToggle,
+  className = "",
+}: {
+  activas: ReadonlySet<string>;
+  onToggle: (id: string) => void;
+  className?: string;
+}) {
+  return (
+    <div className={`flex max-w-full flex-wrap gap-2 ${className}`.trim()}>
+      {CAPAS.map((c) => (
+        <Chip key={c.id} pressed={activas.has(c.id)} onClick={() => onToggle(c.id)}>
+          {c.etiqueta}
+        </Chip>
+      ))}
+    </div>
+  );
+}
+
 export default function MapaPortadaBloque() {
   const [activas, setActivas] = useState<ReadonlySet<string>>(new Set());
+  const [comunidad, setComunidad] = useState<ComunidadId | null>(null);
+  const [tramo, setTramo] = useState<string | null>(null);
 
   function toggle(id: string) {
     setActivas((prev) => {
@@ -74,51 +102,69 @@ export default function MapaPortadaBloque() {
     });
   }
 
+  function toggleComunidad(id: ComunidadId) {
+    setComunidad((prev) => (prev === id ? null : id));
+    setTramo(null);
+  }
+
+  function toggleTramo(id: string) {
+    setTramo((prev) => (prev === id ? null : id));
+  }
+
   const leyendas = CAPAS.filter((c) => activas.has(c.id));
+  const acordeon = {
+    comunidad,
+    tramo,
+    onToggleComunidad: toggleComunidad,
+    onToggleTramo: toggleTramo,
+  };
 
   return (
-    <section className="mt-8 overflow-hidden rounded-xl border border-[var(--linea)] bg-white shadow-sm">
-      <div className="relative h-[360px] sm:h-[460px] lg:h-[540px]">
-        <MapaPortadaCliente />
-        <div className="pointer-events-none absolute inset-x-3 top-3 z-[1100] flex flex-wrap justify-end gap-2">
-          <div className="pointer-events-auto flex max-w-full flex-wrap justify-end gap-2">
-            {CAPAS.map((c) => (
-              <Chip key={c.id} pressed={activas.has(c.id)} onClick={() => toggle(c.id)}>
-                {c.etiqueta}
-              </Chip>
-            ))}
+    <>
+      <section className="mt-8 overflow-hidden rounded-xl border border-[var(--linea)] bg-white shadow-sm">
+        <div className="relative h-[360px] sm:h-[460px] lg:h-[540px]">
+          <MapaPortadaCliente clima={activas.has("clima")} mar={activas.has("mar")} />
+          <div className="pointer-events-none absolute inset-x-3 top-3 z-[1100] flex flex-wrap justify-end gap-2">
+            <div className="pointer-events-auto">
+              <ChipsCapas activas={activas} onToggle={toggle} className="justify-end" />
+            </div>
           </div>
         </div>
-      </div>
-      <div className="grid gap-4 border-t border-[var(--linea)] p-4 sm:grid-cols-2 lg:grid-cols-3">
-        <div>
-          <p className="text-xs font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
-            Mapa
-          </p>
-          <ul className="mt-2 flex flex-wrap items-center gap-x-5 gap-y-1 text-sm text-[var(--tinta)]">
-            <li className="flex items-center gap-1.5">
-              <span className="inline-block h-2.5 w-2.5 rounded-full border border-white bg-[#1c2a32] shadow-[0_0_0_1px_#1c2a32]" />
-              Municipio
-            </li>
-            <li className="flex items-center gap-1.5">
-              <span className="inline-block h-2.5 w-2.5 border-2 border-[#1a2228] bg-white shadow-[0_0_0_1px_#fff]" />
-              Capital
-            </li>
-          </ul>
-          <p className="mt-2 text-sm text-[var(--tinta-suave)]">
-            Pulsa un nombre o un punto. Con + salen más pueblos; a la cuarta vez ya están
-            todos. Más + solo acerca.
-          </p>
+        <div className="grid h-[8.75rem] grid-cols-2 content-start gap-x-3 gap-y-1 overflow-hidden border-t border-[var(--linea)] p-4 sm:grid-cols-3 lg:grid-cols-4">
+          <LeyendaMapa />
+          {leyendas.map((c) =>
+            c.id === "clima" ? (
+              <LeyendaClima key={c.id} compacta />
+            ) : c.id === "mar" ? (
+              <LeyendaMar key={c.id} compacta />
+            ) : (
+              <div key={c.id} className="min-w-0">
+                <p className="text-[10px] font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
+                  {c.etiqueta}
+                </p>
+                <p className="mt-0.5 line-clamp-1 text-[11px] leading-snug text-[var(--tinta)]">
+                  {c.nota}
+                </p>
+              </div>
+            ),
+          )}
         </div>
-        {leyendas.map((c) => (
-          <div key={c.id}>
-            <p className="text-xs font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
-              {c.etiqueta}
-            </p>
-            <p className="mt-2 text-sm leading-relaxed text-[var(--tinta)]">{c.nota}</p>
-          </div>
-        ))}
+      </section>
+
+      <section className="mt-4 overflow-hidden rounded-xl border border-[var(--linea)] bg-white">
+        <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-2 border-b border-[var(--linea)] px-4 py-3">
+          <p className="shrink-0 text-xs font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
+            Por comunidad
+          </p>
+          <ChipsCapas activas={activas} onToggle={toggle} className="justify-end" />
+        </div>
+
+        <TablaCapasMunicipios capasActivas={activas} embebido {...acordeon} />
+      </section>
+
+      <div className="mt-3 px-1">
+        <EnlaceBuscaCompara />
       </div>
-    </section>
+    </>
   );
 }

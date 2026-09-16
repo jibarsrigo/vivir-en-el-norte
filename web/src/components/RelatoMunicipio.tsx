@@ -1,6 +1,7 @@
 import Encaja from "@/components/Encaja";
 import Foto from "@/components/Foto";
 import TablaPrecios from "@/components/TablaPrecios";
+import EnlaceIdealista from "@/components/EnlaceIdealista";
 import type { FichaMunicipio } from "@/lib/municipios";
 
 export type RelatoMun = {
@@ -210,6 +211,7 @@ export default function RelatoMunicipio({ ficha }: { ficha: FichaMunicipio }) {
         Obra nueva: {ficha.obraNueva.toLowerCase()}.
       </p>
       <TablaPrecios filas={[ficha]} />
+      <EnlaceIdealista ambito="municipio" slug={ficha.slug} nombre={ficha.municipio} />
 
       <Encaja si={r.encaja.si} no={r.encaja.no} veredicto={r.encaja.veredicto} />
 

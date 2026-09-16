@@ -24,6 +24,20 @@ import {
   type DirEtiqueta,
 } from "@/lib/mapa-base";
 import { municipiosPuntos } from "@/lib/municipios-puntos";
+import {
+  cieloDeClase,
+  climaDeMunicipio,
+  CLIMA_ZONAS_MAPA,
+  htmlIconoCielo,
+  textoClima,
+} from "@/lib/clima";
+import {
+  htmlIconoCosta,
+  htmlIconoPlaya,
+  marDeMunicipio,
+  MAR_ZONAS_MAPA,
+  textoMar,
+} from "@/lib/mar";
 
 type Rect = { x: number; y: number; w: number; h: number };
 
@@ -124,9 +138,24 @@ function sitioMenosPisa(
 
 const CAPITALES_NOM = new Set(CAPITALES.map((c) => c.nombre));
 
-export default function MapaPortada() {
+export default function MapaPortada({
+  clima = false,
+  mar = false,
+}: {
+  clima?: boolean;
+  mar?: boolean;
+}) {
   const caja = useRef<HTMLDivElement>(null);
   const router = useRouter();
+  const climaRef = useRef(clima);
+  const marRef = useRef(mar);
+  const pintarCapas = useRef<() => void>(() => {});
+  climaRef.current = clima;
+  marRef.current = mar;
+
+  useEffect(() => {
+    pintarCapas.current();
+  }, [clima, mar]);
 
   useEffect(() => {
     if (!caja.current) return;
@@ -147,6 +176,18 @@ export default function MapaPortada() {
     if (panePueblos) {
       panePueblos.style.zIndex = "450";
       panePueblos.style.pointerEvents = "auto";
+    }
+    map.createPane("clima");
+    const paneClima = map.getPane("clima");
+    if (paneClima) {
+      paneClima.style.zIndex = "460";
+      paneClima.style.pointerEvents = "auto";
+    }
+    map.createPane("mar");
+    const paneMar = map.getPane("mar");
+    if (paneMar) {
+      paneMar.style.zIndex = "470";
+      paneMar.style.pointerEvents = "auto";
     }
 
     let muerto = false;
@@ -182,17 +223,52 @@ export default function MapaPortada() {
       maxZoom?: number;
       sinColision?: boolean;
       desfase: number;
+      /** Punto del pueblo: radio según si el nombre está visible. */
+      punto?: L.CircleMarker;
     };
     const nombres: MarcaNombre[] = [];
     let zoomTodo = zoomTrasClics(ZOOM_MIN, CLICS_HASTA_TODO);
+    let zoomPueblosMas = zoomTrasClics(ZOOM_MIN, CLICS_PUEBLOS_MAS);
+
+    const RADIO_CON_NOMBRE = 3.6;
+    const RADIO_SIN_NOMBRE = 2.0;
+    const radioHover = (base: number) => Math.max(base * 1.45, base + 1.2);
+    const climaZona: L.Marker[] = [];
+    const climaPueblo: {
+      marker: L.Marker;
+      lat: number;
+      lon: number;
+      minZoom: number;
+      punto?: L.CircleMarker;
+    }[] = [];
+    const marZona: L.Marker[] = [];
+    const marPueblo: {
+      marker: L.Marker;
+      lat: number;
+      lon: number;
+      minZoom: number;
+      punto?: L.CircleMarker;
+    }[] = [];
+    /** Icono de playa (sin etiqueta de nombre; el nombre va en el tooltip). */
+    const marPlaya: {
+      marker: L.Marker;
+      lat: number;
+      lon: number;
+      minZoom: number;
+      punto?: L.CircleMarker;
+    }[] = [];
 
     const aplicarEscalaNombres = () => {
       const inicio = map.getZoom();
       zoomTodo = zoomTrasClics(inicio, CLICS_HASTA_TODO);
-      const pueblosMas = zoomTrasClics(inicio, CLICS_PUEBLOS_MAS);
+      zoomPueblosMas = zoomTrasClics(inicio, CLICS_PUEBLOS_MAS);
       for (const n of nombres) {
-        if (n.prioridad === 1) n.minZoom = pueblosMas;
+        if (n.prioridad === 1) n.minZoom = zoomPueblosMas;
         if (n.sinColision && n.maxZoom != null) n.maxZoom = zoomTodo;
+      }
+      for (const c of climaPueblo) {
+        const n = nombres.find((x) => x.lat === c.lat && x.lon === c.lon && x.prioridad >= 0);
+        c.minZoom = n?.minZoom ?? zoomPueblosMas;
       }
     };
 
@@ -271,7 +347,90 @@ export default function MapaPortada() {
         aplicarSitio(el, sitio);
         ocupados.push(rectDir(pt, sitio.ancho, sitio.alto, sitio.dir, sitio.desfase));
       }
+      for (const n of nombres) {
+        if (!n.punto) continue;
+        const el = n.marker.getElement();
+        const conNombre = Boolean(el && el.style.display !== "none");
+        const base = conNombre ? RADIO_CON_NOMBRE : RADIO_SIN_NOMBRE;
+        n.punto.setStyle({ radius: base });
+        (n.punto as L.CircleMarker & { _radioBase?: number })._radioBase = base;
+      }
+      actualizarCapas();
     };
+
+    const actualizarCapas = () => {
+      const climaOn = climaRef.current;
+      const marOn = marRef.current;
+      map.getContainer().classList.toggle("mapa-con-clima", climaOn);
+      map.getContainer().classList.toggle("mapa-con-mar", marOn);
+      const zoom = map.getZoom();
+      const aPueblos = zoom + 1e-6 >= zoomPueblosMas;
+
+      for (const m of climaZona) {
+        const el = m.getElement();
+        if (el) el.style.display = climaOn && !aPueblos ? "" : "none";
+      }
+      for (const m of marZona) {
+        const el = m.getElement();
+        if (el) el.style.display = marOn && !aPueblos ? "" : "none";
+      }
+
+      for (const c of climaPueblo) {
+        const el = c.marker.getElement();
+        if (!el) continue;
+        let visible = false;
+        if (climaOn && aPueblos) {
+          const nom = nombres.find((n) => n.lat === c.lat && n.lon === c.lon && n.prioridad >= 0);
+          const nomEl = nom?.marker.getElement();
+          visible = nom ? nomEl?.style.display !== "none" : zoom + 1e-6 >= c.minZoom;
+        }
+        el.style.display = visible ? "" : "none";
+      }
+
+      for (const c of marPueblo) {
+        const el = c.marker.getElement();
+        if (!el) continue;
+        let visible = false;
+        if (marOn && aPueblos) {
+          const nom = nombres.find((n) => n.lat === c.lat && n.lon === c.lon && n.prioridad >= 0);
+          const nomEl = nom?.marker.getElement();
+          visible = nom ? nomEl?.style.display !== "none" : zoom + 1e-6 >= c.minZoom;
+        }
+        el.style.display = visible ? "" : "none";
+      }
+
+      for (const c of marPlaya) {
+        const el = c.marker.getElement();
+        if (!el) continue;
+        let visible = false;
+        if (marOn && aPueblos) {
+          const nom = nombres.find((n) => n.lat === c.lat && n.lon === c.lon && n.prioridad >= 0);
+          const nomEl = nom?.marker.getElement();
+          visible = nom ? nomEl?.style.display !== "none" : zoom + 1e-6 >= c.minZoom;
+        }
+        el.style.display = visible ? "" : "none";
+      }
+
+      const clave = (lat: number, lon: number) => `${lat},${lon}`;
+      const climaVis = new Set(
+        climaPueblo
+          .filter((c) => c.marker.getElement()?.style.display !== "none")
+          .map((c) => clave(c.lat, c.lon)),
+      );
+      const marVis = new Set(
+        [...marPueblo, ...marPlaya]
+          .filter((c) => c.marker.getElement()?.style.display !== "none")
+          .map((c) => clave(c.lat, c.lon)),
+      );
+
+      for (const c of [...climaPueblo, ...marPueblo, ...marPlaya]) {
+        if (!c.punto) continue;
+        const hide = climaVis.has(clave(c.lat, c.lon)) || marVis.has(clave(c.lat, c.lon));
+        c.punto.setStyle(hide ? { opacity: 0, fillOpacity: 0 } : { opacity: 1, fillOpacity: 1 });
+      }
+    };
+
+    pintarCapas.current = actualizarCapas;
 
     const base = process.env.NEXT_PUBLIC_BASE || "";
     Promise.all([
@@ -374,25 +533,34 @@ export default function MapaPortada() {
         }
 
         const pueblos = municipiosPuntos.filter((m) => !CAPITALES_NOM.has(m.etiqueta) && !CAPITALES_NOM.has(m.nombre));
+        const puntosPorClave = new Map<string, L.CircleMarker>();
         for (const m of pueblos) {
           const href = hrefMunicipio(m);
           const punto = L.circleMarker([m.lat, m.lon], {
-            radius: 3.6,
+            radius: RADIO_CON_NOMBRE,
             color: "#fff",
             weight: 1.1,
             fillColor: "#1c2a32",
             fillOpacity: 1,
             pane: "pueblos",
           }).addTo(map);
+          const puntoExt = punto as L.CircleMarker & { _radioBase?: number };
+          puntoExt._radioBase = RADIO_CON_NOMBRE;
           punto.bindTooltip(m.nombre, { direction: "top", opacity: 1, className: "zona-globo" });
           punto.on("click", () => router.push(href));
-          punto.on("mouseover", () => punto.setStyle({ radius: 5.2 }));
-          punto.on("mouseout", () => punto.setStyle({ radius: 3.6 }));
+          punto.on("mouseover", () =>
+            punto.setStyle({ radius: radioHover(puntoExt._radioBase ?? RADIO_CON_NOMBRE) }),
+          );
+          punto.on("mouseout", () =>
+            punto.setStyle({ radius: puntoExt._radioBase ?? RADIO_CON_NOMBRE }),
+          );
+          puntosPorClave.set(`${m.lat},${m.lon}`, punto);
 
           const dir = dirMunicipio(m);
           const etiqueta = etiquetaCorta(m);
           const prio = prioridadNombre(m);
           const ancho = Math.max(28, etiqueta.length * 7 + 8);
+          const desfase = 6;
           const marca = L.marker([m.lat, m.lon], {
             interactive: false,
             keyboard: false,
@@ -401,7 +569,7 @@ export default function MapaPortada() {
               className: "atlas-nombre",
               html: `<a href="${base}${href}">${etiqueta}</a>`,
               iconSize: [ancho, 16],
-              iconAnchor: anclaDir(ancho, 16, dir),
+              iconAnchor: anclaDir(ancho, 16, dir, desfase),
             }),
           });
           const enganchar = () => {
@@ -426,7 +594,172 @@ export default function MapaPortada() {
             dir,
             prioridad: prio,
             minZoom: prio === 0 ? ZOOM_MIN : zoomTrasClics(ZOOM_MIN, CLICS_PUEBLOS_MAS),
-            desfase: 0,
+            desfase,
+            punto,
+          });
+        }
+
+        for (const t of CLIMA_ZONAS_MAPA) {
+          const cielo = cieloDeClase(t.clase);
+          const marca = L.marker([t.lat, t.lon], {
+            interactive: true,
+            keyboard: true,
+            pane: "clima",
+            zIndexOffset: 550,
+            icon: L.divIcon({
+              className: "atlas-clima-marca",
+              html: htmlIconoCielo(cielo, "zona"),
+              iconSize: [24, 24],
+              // Izquierda del centroide de la zona (Mar a la derecha).
+              iconAnchor: [24, 12],
+            }),
+          }).addTo(map);
+          marca.bindTooltip(
+            textoClima({
+              nombre: `${t.nombre} (${t.nMunicipios} municipios)`,
+              solHoras: t.solHoras,
+              despejados: t.despejados,
+              lluviaDias: t.lluviaDias,
+              tempVerano: t.tempVerano,
+              viento: t.viento,
+              niebla: t.niebla,
+            }),
+            {
+              direction: "top",
+              opacity: 1,
+              className: "zona-globo",
+            },
+          );
+          marca.on("click", () => router.push(`/zona/${t.zonaId}/`));
+          const elZona = marca.getElement();
+          if (elZona) elZona.style.display = "none";
+          climaZona.push(marca);
+        }
+
+        for (const m of municipiosPuntos) {
+          const dato = climaDeMunicipio(m.zonaId, m.nombre);
+          if (!dato) continue;
+          const href = hrefMunicipio(m);
+          const marca = L.marker([m.lat, m.lon], {
+            interactive: true,
+            keyboard: true,
+            pane: "clima",
+            zIndexOffset: 480,
+            icon: L.divIcon({
+              className: "atlas-clima-marca",
+              html: htmlIconoCielo(cieloDeClase(dato.clase), "pueblo"),
+              iconSize: [18, 18],
+              iconAnchor: [18, 9],
+            }),
+          }).addTo(map);
+          marca.bindTooltip(textoClima({ nombre: m.nombre, ...dato }), {
+            direction: "top",
+            opacity: 1,
+            className: "zona-globo",
+          });
+          marca.on("click", () => router.push(href));
+          const elPueblo = marca.getElement();
+          if (elPueblo) elPueblo.style.display = "none";
+          climaPueblo.push({
+            marker: marca,
+            lat: m.lat,
+            lon: m.lon,
+            minZoom: prioridadNombre(m) === 0 ? ZOOM_MIN : zoomTrasClics(ZOOM_MIN, CLICS_PUEBLOS_MAS),
+            punto: puntosPorClave.get(`${m.lat},${m.lon}`),
+          });
+        }
+
+        for (const t of MAR_ZONAS_MAPA) {
+          const marca = L.marker([t.lat, t.lon], {
+            interactive: true,
+            keyboard: true,
+            pane: "mar",
+            zIndexOffset: 560,
+            icon: L.divIcon({
+              className: "atlas-mar-marca",
+              html: htmlIconoCosta(t.tramo, "zona"),
+              iconSize: [24, 24],
+              // Derecha del centroide (Clima a la izquierda).
+              iconAnchor: [0, 12],
+            }),
+          }).addTo(map);
+          marca.bindTooltip(t.tooltip, {
+            direction: "top",
+            opacity: 1,
+            className: "zona-globo",
+          });
+          marca.on("click", () => router.push(`/zona/${t.zonaId}/`));
+          const elZona = marca.getElement();
+          if (elZona) elZona.style.display = "none";
+          marZona.push(marca);
+        }
+
+        for (const m of municipiosPuntos) {
+          const dato = marDeMunicipio(m.zonaId, m.nombre);
+          if (!dato) continue;
+          const href = hrefMunicipio(m);
+          const minZ = prioridadNombre(m) === 0 ? ZOOM_MIN : zoomTrasClics(ZOOM_MIN, CLICS_PUEBLOS_MAS);
+          const punto = puntosPorClave.get(`${m.lat},${m.lon}`);
+
+          // Costa: a la derecha del punto (Clima queda a la izquierda).
+          const marcaCosta = L.marker([m.lat, m.lon], {
+            interactive: true,
+            keyboard: true,
+            pane: "mar",
+            zIndexOffset: 490,
+            icon: L.divIcon({
+              className: "atlas-mar-marca",
+              html: htmlIconoCosta(dato.tramo, "pueblo"),
+              iconSize: [18, 18],
+              iconAnchor: [0, 9],
+            }),
+          }).addTo(map);
+          marcaCosta.bindTooltip(textoMar(dato), {
+            direction: "top",
+            opacity: 1,
+            className: "zona-globo",
+          });
+          marcaCosta.on("click", () => router.push(href));
+          const elCosta = marcaCosta.getElement();
+          if (elCosta) elCosta.style.display = "none";
+          marPueblo.push({
+            marker: marcaCosta,
+            lat: m.lat,
+            lon: m.lon,
+            minZoom: minZ,
+            punto,
+          });
+
+          // Playa: más a la derecha y un poco abajo.
+          const marcaPlaya = L.marker([m.lat, m.lon], {
+            interactive: true,
+            keyboard: true,
+            pane: "mar",
+            zIndexOffset: 495,
+            icon: L.divIcon({
+              className: "atlas-mar-marca",
+              html: htmlIconoPlaya("pueblo"),
+              iconSize: [18, 18],
+              iconAnchor: [-14, 18],
+            }),
+          }).addTo(map);
+          marcaPlaya.bindTooltip(
+            `${dato.nombre}: playa ${dato.minBano} min · ${dato.playaBano}`,
+            {
+              direction: "top",
+              opacity: 1,
+              className: "zona-globo",
+            },
+          );
+          marcaPlaya.on("click", () => router.push(href));
+          const elPlaya = marcaPlaya.getElement();
+          if (elPlaya) elPlaya.style.display = "none";
+          marPlaya.push({
+            marker: marcaPlaya,
+            lat: m.lat,
+            lon: m.lon,
+            minZoom: minZ,
+            punto,
           });
         }
 
@@ -439,6 +772,7 @@ export default function MapaPortada() {
 
     return () => {
       muerto = true;
+      pintarCapas.current = () => {};
       ro.disconnect();
       map.off("zoomend moveend");
       map.remove();

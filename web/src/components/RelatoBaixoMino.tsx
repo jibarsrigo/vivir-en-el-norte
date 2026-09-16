@@ -2,6 +2,7 @@ import Link from "next/link";
 import Encaja from "@/components/Encaja";
 import Foto from "@/components/Foto";
 import TablaPrecios from "@/components/TablaPrecios";
+import EnlaceIdealista from "@/components/EnlaceIdealista";
 import { mallorca, type Zona } from "@/lib/zonas";
 import { municipiosBaixoMino } from "@/lib/municipios";
 
@@ -231,6 +232,7 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
           ya hechas; aquí hay poco y no hace falta.
         </P>
         <TablaPrecios filas={municipiosBaixoMino} />
+        <EnlaceIdealista ambito="zona" zonaId={zona.id} nombre={zona.zona} />
       </section>
 
       <Encaja

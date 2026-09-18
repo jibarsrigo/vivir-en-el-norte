@@ -8,6 +8,7 @@ import {
   iconosMapaPueblo,
   type IconoCapaMapa,
 } from "@/lib/capas-mapa-pueblo";
+import { rutaPublica } from "@/lib/ruta-publica";
 
 /**
  * Mapa estático del municipio. Con `capasPortada`, muestra exactamente
@@ -33,7 +34,7 @@ export default function MapaMunicipioFicha({
     <figure className="mt-6 max-w-xl overflow-hidden rounded-xl border border-[var(--linea)] bg-white">
       <div className="relative">
         <Image
-          src={`/mapas/municipios/${ficha.mapa}`}
+          src={rutaPublica(`/mapas/municipios/${ficha.mapa}`)}
           alt={`Mapa de ${ficha.municipio}`}
           width={811}
           height={791}

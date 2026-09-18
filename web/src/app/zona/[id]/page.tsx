@@ -104,7 +104,7 @@ export default async function PaginaZona({ params }: { params: Promise<{ id: str
         <figure className="overflow-hidden rounded-xl border border-[var(--linea)] bg-white">
           {mapaEstatico ? (
             <Image
-              src={mapaEstatico}
+              src={rutaPublica(mapaEstatico)}
               alt={`Detalle de ${z.zona}`}
               width={965}
               height={879}

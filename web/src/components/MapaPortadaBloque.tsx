@@ -153,17 +153,8 @@ export default function MapaPortadaBloque() {
               <LeyendaHospital key={c.id} compacta />
             ) : c.id === "avion" ? (
               <LeyendaAvion key={c.id} compacta />
-            ) : c.id === "precio" ? (
-              <LeyendaPrecio key={c.id} compacta />
             ) : (
-              <div key={c.id} className="min-w-0">
-                <p className="text-[10px] font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
-                  {c.etiqueta}
-                </p>
-                <p className="mt-0.5 line-clamp-1 text-[11px] leading-snug text-[var(--tinta)]">
-                  {c.nota}
-                </p>
-              </div>
+              <LeyendaPrecio key={c.id} compacta />
             ),
           )}
         </div>

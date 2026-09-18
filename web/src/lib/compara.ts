@@ -34,8 +34,10 @@ export type FilaCompara = {
   aeropuertoMin: number | null;
   aeroCercano: string | null;
   palma: string | null;
-  /** Resumen del «encaja si» del relato (primera frase útil). */
+  /** Resumen del «encaja si» del relato. */
   encajaSiCorto: string;
+  /** Resumen del «no encaja» del relato. */
+  encajaNoCorto: string;
 };
 
 export const MALLORCA_REF = {
@@ -49,18 +51,40 @@ function zonaNombreDe(zonaId: string, fichaZona: string): string {
   return (z?.zona ?? fichaZona).replace(" (PT)", "");
 }
 
-function encajaSiCortoDe(si: string[]): string {
-  const t = (si[0] ?? "").trim();
+function fraseEncajaCorta(
+  textos: string[],
+  prefijos: RegExp[],
+  maxLen = 220,
+): string {
+  const t = (textos[0] ?? "").trim();
   if (!t) return "";
-  // Evitar «Encaja si · Encaja si se quiere…»
-  let body = t
-    .replace(/^También encaja\s+(si\s+|para\s+)/i, "")
-    .replace(/^Encaja si\s+/i, "");
+  let body = t;
+  for (const re of prefijos) {
+    const next = body.replace(re, "");
+    if (next !== body) {
+      body = next;
+      break;
+    }
+  }
   if (body !== t && body.length > 0) {
     body = body.charAt(0).toUpperCase() + body.slice(1);
   }
   const frase = body.split(/(?<=[.!?])\s+/)[0] ?? body;
-  return frase.length > 160 ? `${frase.slice(0, 158).trim()}…` : frase;
+  return frase.length > maxLen ? `${frase.slice(0, maxLen - 1).trim()}…` : frase;
+}
+
+function encajaSiCortoDe(si: string[]): string {
+  return fraseEncajaCorta(si, [
+    /^También encaja\s+(si\s+|para\s+)/i,
+    /^Encaja si\s+/i,
+  ]);
+}
+
+function encajaNoCortoDe(no: string[]): string {
+  return fraseEncajaCorta(no, [
+    /^Tampoco (si\s+|encaja si\s+)/i,
+    /^No encaja si\s+/i,
+  ]);
 }
 
 export function filaCompara(slug: string): FilaCompara | undefined {
@@ -95,6 +119,7 @@ export function filaCompara(slug: string): FilaCompara | undefined {
     aeroCercano: avion?.aeroCercano ?? null,
     palma: avion ? etiquetaPalmaCorta(avion.palmaMasCercano) : null,
     encajaSiCorto: relato ? encajaSiCortoDe(relato.encaja.si) : "",
+    encajaNoCorto: relato ? encajaNoCortoDe(relato.encaja.no) : "",
   };
 }
 
@@ -175,15 +200,20 @@ export const FILAS_MESA: FilaMesaDef[] = [
   },
   {
     id: "mar",
-    etiqueta: "Mar / baño",
+    etiqueta: "Baño",
     sentido: "menor",
     valor: (f) => f.minBano ?? f.minCosta,
     formato: (f) => {
       if (f.minBano == null && f.minCosta == null) return "—";
-      const playa = f.playaCorta ? ` (${f.playaCorta})` : "";
-      const fr = f.franja ? ` · ${f.franja}` : "";
-      const min = f.minBano ?? f.minCosta;
-      return `${min} min${playa}${fr}`;
+      const min = f.minBano ?? f.minCosta!;
+      const playa = f.playaCorta ? ` · playa ${f.playaCorta}` : "";
+      const donde =
+        f.franja === "A"
+          ? " · en el municipio"
+          : f.franja === "B"
+            ? " · fuera del municipio"
+            : "";
+      return `Baño a ${min} min${playa}${donde}`;
     },
   },
   {
@@ -224,13 +254,6 @@ export const FILAS_MESA: FilaMesaDef[] = [
       const palma = f.palma ? ` · Palma ${f.palma}` : "";
       return `${f.aeropuertoMin} min${aero}${palma}`;
     },
-  },
-  {
-    id: "encaja-si",
-    etiqueta: "Encaja si",
-    sentido: "neutro",
-    valor: (f) => f.encajaSiCorto || null,
-    formato: (f) => f.encajaSiCorto || "—",
   },
 ];
 

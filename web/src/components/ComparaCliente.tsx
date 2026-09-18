@@ -60,10 +60,10 @@ function MesaCompara({ filas }: { filas: FilaCompara[] }) {
       <h2 className="font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">
         Mesa de contraste
       </h2>
-      <p className="mt-1 text-sm text-[var(--tinta-suave)]">
-        Misma fila, pueblos distintos. El tono suave marca el valor más favorable de cada
-        criterio (cuando aplica). La última fila, Encaja si, resume para quién encaja cada
-        pueblo.
+      <p className="mt-1 max-w-3xl text-sm text-[var(--tinta-suave)]">
+        Cifras de la tabla maestra entre estos pueblos: clima, baño, precio, servicios, hospital y
+        vuelo. El tono suave marca el valor más favorable de cada criterio (cuando aplica). Debajo,
+        el balance del relato resume para quién sí y para quién no.
       </p>
       <div className="mt-4 overflow-x-auto rounded-lg border border-[var(--linea)] bg-white">
         <table className="min-w-full border-collapse text-left text-sm">
@@ -118,10 +118,54 @@ function MesaCompara({ filas }: { filas: FilaCompara[] }) {
         </table>
       </div>
       <p className="mt-2 text-xs text-[var(--tinta-suave)]">
-        «vs Mallorca»: % de sol y despejados respecto a la isla en el estudio (
+        Baño: minutos en coche hasta la playa de referencia del estudio, con su nombre; «en el
+        municipio» o «fuera» según si esa playa está dentro del ayuntamiento. «vs Mallorca»: % de
+        sol y despejados frente a la isla (
         {MALLORCA_REF.solHoras.toLocaleString("es-ES")} h · {MALLORCA_REF.despejados} días
         despejados).
       </p>
+
+      <div className="mt-8">
+        <h3 className="font-[family-name:var(--font-serif)] text-xl text-[var(--acento)]">
+          Balance del relato
+        </h3>
+        <p className="mt-1 text-sm text-[var(--tinta-suave)]">
+          Lo bueno y lo malo según la ficha de cada pueblo (no repite las cifras de arriba).
+        </p>
+        <ul className="mt-4 space-y-4">
+          {filas.map((f) => (
+            <li
+              key={f.slug}
+              className="rounded-lg border border-[var(--linea)] bg-white px-4 py-3"
+            >
+              <Link
+                href={f.href}
+                className="font-semibold text-[var(--acento)] underline-offset-2 hover:underline"
+              >
+                {f.nombre}
+              </Link>
+              {f.escala ? (
+                <span className="mt-0.5 block text-xs text-[var(--tinta-suave)]">{f.escala}</span>
+              ) : null}
+              {f.encajaSiCorto ? (
+                <p className="mt-2 text-[15px] leading-snug text-[var(--tinta)]">
+                  <span className="font-semibold text-[var(--tinta)]">Encaja si </span>
+                  {f.encajaSiCorto.charAt(0).toLowerCase() + f.encajaSiCorto.slice(1)}
+                </p>
+              ) : null}
+              {f.encajaNoCorto ? (
+                <p className="mt-1.5 text-[15px] leading-snug text-[var(--tinta)]">
+                  <span className="font-semibold text-[var(--tinta)]">Mejor no si </span>
+                  {f.encajaNoCorto.charAt(0).toLowerCase() + f.encajaNoCorto.slice(1)}
+                </p>
+              ) : null}
+              {!f.encajaSiCorto && !f.encajaNoCorto ? (
+                <p className="mt-2 text-sm text-[var(--tinta-suave)]">Sin balance en el relato.</p>
+              ) : null}
+            </li>
+          ))}
+        </ul>
+      </div>
     </section>
   );
 }

@@ -167,6 +167,17 @@ export function climaDeMunicipio(zonaId: string, nombre: string): ClimaMunicipio
   return climaMunicipios.find((c) => c.zonaId === zonaId && c.nombre === nombre);
 }
 
+export function cuerpoClima(c: {
+  solHoras: number;
+  despejados: number;
+  lluviaDias: number;
+  tempVerano: number;
+  viento: string;
+  niebla: string;
+}): string {
+  return `${c.solHoras.toLocaleString("es-ES")} h de sol · ${c.despejados} despejados · ${c.lluviaDias} días de lluvia · verano ${c.tempVerano.toLocaleString("es-ES")} °C · viento ${c.viento.toLowerCase()} · niebla ${c.niebla.toLowerCase()}`;
+}
+
 export function textoClima(c: {
   nombre: string;
   solHoras: number;
@@ -176,7 +187,7 @@ export function textoClima(c: {
   viento: string;
   niebla: string;
 }): string {
-  return `${c.nombre}: ${c.solHoras.toLocaleString("es-ES")} h de sol · ${c.despejados} despejados · ${c.lluviaDias} días de lluvia · verano ${c.tempVerano.toLocaleString("es-ES")} °C · viento ${c.viento.toLowerCase()} · niebla ${c.niebla.toLowerCase()}`;
+  return `<span class="globo-nom">${c.nombre}</span>: ${cuerpoClima(c)}`;
 }
 
 /** Un icono por zona del atlas (zoom bajo), sobre el centroide de la zona. */

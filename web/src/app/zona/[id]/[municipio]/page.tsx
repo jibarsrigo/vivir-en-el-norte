@@ -1,12 +1,17 @@
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import BloqueZonaFicha from "@/components/BloqueZonaFicha";
+import MapaMunicipioFicha from "@/components/MapaMunicipioFicha";
 import RelatoMunicipio from "@/components/RelatoMunicipio";
-import { municipiosBaixoMino, municipioPorSlug } from "@/lib/municipios";
+import { municipiosFicha, municipioPorSlug, zonaIdDeFicha } from "@/lib/municipios";
+import { resumenZona } from "@/lib/zona-resumen";
 import { zonaPorId } from "@/lib/zonas";
 
 export function generateStaticParams() {
-  return municipiosBaixoMino.map((m) => ({ id: "baixo-mino", municipio: m.slug }));
+  return municipiosFicha.map((m) => ({
+    id: zonaIdDeFicha(m),
+    municipio: m.slug,
+  }));
 }
 
 export default async function PaginaMunicipio({
@@ -15,10 +20,9 @@ export default async function PaginaMunicipio({
   params: Promise<{ id: string; municipio: string }>;
 }) {
   const { id, municipio } = await params;
-  if (id !== "baixo-mino") notFound();
   const z = zonaPorId(id);
   const ficha = municipioPorSlug(municipio);
-  if (!z || !ficha) notFound();
+  if (!z || !ficha || zonaIdDeFicha(ficha) !== id) notFound();
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-8">
@@ -35,7 +39,7 @@ export default async function PaginaMunicipio({
         {ficha.municipio}
       </h1>
       <p className="mt-2 text-[var(--tinta-suave)]">
-        {ficha.provincia} · franja {ficha.franja} · {ficha.minCosta} min al mar
+        {ficha.provincia} · {ficha.minCosta} min al mar
       </p>
       <p className="mt-3">
         <Link
@@ -46,18 +50,12 @@ export default async function PaginaMunicipio({
         </Link>
       </p>
 
-      <figure className="mt-6 overflow-hidden rounded-xl border border-[var(--linea)] bg-white">
-        <Image
-          src={`/mapas/municipios/${ficha.mapa}`}
-          alt={`Mapa de ${ficha.municipio}`}
-          width={811}
-          height={791}
-          className="h-auto w-full"
-        />
-        <figcaption className="px-3 py-2 text-sm text-[var(--tinta-suave)]">{ficha.municipio}</figcaption>
-      </figure>
+      <BloqueZonaFicha zonaId={z.id} nombreZona={z.zona} resumen={resumenZona(z.id)} />
 
-      <RelatoMunicipio ficha={ficha} />
+      {/* Mapa arriba + pastilla de capas (= portada con todas las capas de mapa). */}
+      <MapaMunicipioFicha ficha={ficha} capasPortada={Boolean(ficha.mapa)} />
+
+      <RelatoMunicipio ficha={ficha} zonaId={z.id} />
     </main>
   );
 }

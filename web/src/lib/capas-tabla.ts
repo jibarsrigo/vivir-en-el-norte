@@ -1,6 +1,10 @@
 import { COLOR_COMUNIDAD } from "@/lib/mapa-base";
 import { climaMunicipios, type ClimaMunicipio } from "@/lib/clima";
 import { marDeMunicipio, type MarMunicipio } from "@/lib/mar";
+import { avionDeMunicipio, etiquetaPalmaCorta, type AvionMunicipio } from "@/lib/avion";
+import { serviciosDeMunicipio, type ServiciosMunicipio } from "@/lib/servicios";
+import { hospitalDeMunicipio, type HospitalMunicipio } from "@/lib/hospital";
+import { precioDeMunicipio, type PrecioMunicipio } from "@/lib/precio";
 import { hrefMunicipio, municipiosPuntos } from "@/lib/municipios-puntos";
 import { comunidadDeZona, zonas, type ComunidadId } from "@/lib/zonas";
 
@@ -29,6 +33,10 @@ export type FilaMunicipioTabla = {
   href: string;
   clima: ClimaMunicipio | null;
   mar: MarMunicipio | null;
+  servicios: ServiciosMunicipio | null;
+  hospital: HospitalMunicipio | null;
+  avion: AvionMunicipio | null;
+  precio: PrecioMunicipio | null;
 };
 
 /** Galicia: oeste = Rías Baixas; norte = Ártabro + Mariña. El resto de CCAA no usa tramo. */
@@ -98,10 +106,70 @@ export const COLUMNAS_CAPA: Record<CapaTablaId, ColumnaTabla[]> = {
       valor: (f) => f.mar?.minBano ?? null,
     },
   ],
-  servicios: [],
-  hospital: [],
-  avion: [],
-  precio: [],
+  servicios: [
+    {
+      id: "serviciosNota",
+      capa: "servicios",
+      etiqueta: "Nota",
+      mejorEsMayor: true,
+      formato: (f) => (f.servicios ? `${f.servicios.nota}/10` : "—"),
+      valor: (f) => f.servicios?.nota ?? null,
+    },
+  ],
+  hospital: [
+    {
+      id: "hospitalMin",
+      capa: "hospital",
+      etiqueta: "Hospital",
+      mejorEsMayor: false,
+      formato: (f) => (f.hospital ? `${f.hospital.hospitalMin} min` : "—"),
+      valor: (f) => f.hospital?.hospitalMin ?? null,
+    },
+  ],
+  avion: [
+    {
+      id: "aeropuertoMin",
+      capa: "avion",
+      etiqueta: "Aeropuerto",
+      mejorEsMayor: false,
+      formato: (f) => (f.avion ? `${f.avion.aeropuertoMin} min` : "—"),
+      valor: (f) => f.avion?.aeropuertoMin ?? null,
+    },
+    {
+      id: "palmaCercano",
+      capa: "avion",
+      etiqueta: "Palma",
+      mejorEsMayor: true,
+      formato: (f) => (f.avion ? etiquetaPalmaCorta(f.avion.palmaMasCercano) : "—"),
+      valor: (f) => {
+        if (!f.avion) return null;
+        const orden = { "Todo el año": 3, "Casi todo el año": 2, Verano: 1, No: 0 } as const;
+        return orden[f.avion.palmaMasCercano];
+      },
+    },
+  ],
+  precio: [
+    {
+      id: "precioM2",
+      capa: "precio",
+      etiqueta: "€/m²",
+      mejorEsMayor: false,
+      formato: (f) =>
+        f.precio ? `${f.precio.precioM2.toLocaleString("es-ES")} €` : "—",
+      valor: (f) => f.precio?.precioM2 ?? null,
+    },
+    {
+      id: "A_3hab",
+      capa: "precio",
+      etiqueta: "3 hab",
+      mejorEsMayor: false,
+      formato: (f) =>
+        f.precio?.A_3hab != null
+          ? `${Math.round(f.precio.A_3hab).toLocaleString("es-ES")} €`
+          : "—",
+      valor: (f) => f.precio?.A_3hab ?? null,
+    },
+  ],
 };
 
 /** Columnas al pulsar “+ capa” (no caben en la vista corta). */
@@ -158,10 +226,69 @@ export const COLUMNAS_EXTRA_CAPA: Record<CapaTablaId, ColumnaTabla[]> = {
       valor: (f) => f.mar?.playaCorta ?? null,
     },
   ],
-  servicios: [],
-  hospital: [],
-  avion: [],
-  precio: [],
+  servicios: [
+    {
+      id: "serviciosDetalle",
+      capa: "servicios",
+      etiqueta: "Detalle",
+      mejorEsMayor: true,
+      formato: (f) => {
+        if (!f.servicios) return "—";
+        const t = f.servicios.notaTexto;
+        return t.length > 42 ? `${t.slice(0, 40)}…` : t;
+      },
+      valor: (f) => f.servicios?.notaTexto ?? null,
+    },
+    {
+      id: "fibra",
+      capa: "servicios",
+      etiqueta: "Fibra",
+      mejorEsMayor: true,
+      formato: (f) => f.servicios?.fibra ?? "—",
+      valor: (f) => f.servicios?.fibra ?? null,
+    },
+  ],
+  hospital: [
+    {
+      id: "hospitalNom",
+      capa: "hospital",
+      etiqueta: "Centro",
+      mejorEsMayor: true,
+      formato: (f) => f.hospital?.hospitalCorto ?? "—",
+      valor: (f) => f.hospital?.hospitalCorto ?? null,
+    },
+  ],
+  avion: [
+    {
+      id: "palmaMejor",
+      capa: "avion",
+      etiqueta: "Mejor Palma",
+      mejorEsMayor: true,
+      formato: (f) => f.avion?.palmaMejor ?? "—",
+      valor: (f) => f.avion?.palmaMejor ?? null,
+    },
+    {
+      id: "aeroCercano",
+      capa: "avion",
+      etiqueta: "Más cerca",
+      mejorEsMayor: true,
+      formato: (f) => f.avion?.aeroCercano ?? "—",
+      valor: (f) => f.avion?.aeroCercano ?? null,
+    },
+  ],
+  precio: [
+    {
+      id: "A_2hab",
+      capa: "precio",
+      etiqueta: "2 hab",
+      mejorEsMayor: false,
+      formato: (f) =>
+        f.precio?.A_2hab != null
+          ? `${Math.round(f.precio.A_2hab).toLocaleString("es-ES")} €`
+          : "—",
+      valor: (f) => f.precio?.A_2hab ?? null,
+    },
+  ],
 };
 
 export function columnasDeCapas(
@@ -195,6 +322,10 @@ export function filasMunicipioTabla(): FilaMunicipioTabla[] {
     const clima =
       climaMunicipios.find((c) => c.zonaId === m.zonaId && c.nombre === m.nombre) ?? null;
     const mar = marDeMunicipio(m.zonaId, m.nombre) ?? null;
+    const servicios = serviciosDeMunicipio(m.zonaId, m.nombre) ?? null;
+    const hospital = hospitalDeMunicipio(m.zonaId, m.nombre) ?? null;
+    const avion = avionDeMunicipio(m.zonaId, m.nombre) ?? null;
+    const precio = precioDeMunicipio(m.zonaId, m.nombre) ?? null;
     return {
       key: `${m.zonaId}:${m.nombre}`,
       zonaId: m.zonaId,
@@ -206,6 +337,10 @@ export function filasMunicipioTabla(): FilaMunicipioTabla[] {
       href: hrefMunicipio(m),
       clima,
       mar,
+      servicios,
+      hospital,
+      avion,
+      precio,
     };
   });
 }

@@ -3,12 +3,67 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import MapaLocalizadorCliente from "@/components/MapaLocalizadorCliente";
 import MapaZonaDetalleCliente from "@/components/MapaZonaDetalleCliente";
+import MarcarZonaLeida from "@/components/MarcarZonaLeida";
 import RelatoBaixoMino from "@/components/RelatoBaixoMino";
+import RelatoValMinor from "@/components/RelatoValMinor";
+import RelatoVigoERia from "@/components/RelatoVigoERia";
+import RelatoOMorrazo from "@/components/RelatoOMorrazo";
+import RelatoPontevedraESanxenxo from "@/components/RelatoPontevedraESanxenxo";
+import RelatoOSalnes from "@/components/RelatoOSalnes";
+import RelatoBarbanzaENoia from "@/components/RelatoBarbanzaENoia";
+import RelatoGolfoArtabroEFerrol from "@/components/RelatoGolfoArtabroEFerrol";
+import RelatoAMarina from "@/components/RelatoAMarina";
+import RelatoAsturiasOccidente from "@/components/RelatoAsturiasOccidente";
+import RelatoAsturiasCentro from "@/components/RelatoAsturiasCentro";
+import RelatoAsturiasOriente from "@/components/RelatoAsturiasOriente";
+import RelatoCantabriaOccidental from "@/components/RelatoCantabriaOccidental";
+import RelatoCantabriaOriental from "@/components/RelatoCantabriaOriental";
+import RelatoAltoMinho from "@/components/RelatoAltoMinho";
+import RelatoLitoralNorte from "@/components/RelatoLitoralNorte";
 import { municipiosDeZona } from "@/lib/municipios-puntos";
-import { mallorca, zonaPorId, zonas } from "@/lib/zonas";
+import { mallorca, zonaPorId, zonas, type Zona } from "@/lib/zonas";
 
 export function generateStaticParams() {
   return zonas.map((z) => ({ id: z.id }));
+}
+
+const MAPA_DETALLE_ESTATICO: Record<string, string> = {
+  "baixo-mino": "/mapas/zona_01_detalle.png",
+  "val-minor": "/mapas/zona_02_detalle.png",
+  "vigo-e-ria": "/mapas/zona_03_detalle.png",
+  "o-morrazo": "/mapas/zona_04_detalle.png",
+  "pontevedra-e-sanxenxo": "/mapas/zona_05_detalle.png",
+  "o-salnes": "/mapas/zona_06_detalle.png",
+  "barbanza-e-noia": "/mapas/zona_07_detalle.png",
+  "golfo-artabro-e-ferrol": "/mapas/zona_08_detalle.png",
+  "a-marina": "/mapas/zona_09_detalle.png",
+  "asturias-occidente": "/mapas/zona_10_detalle.png",
+  "asturias-centro": "/mapas/zona_11_detalle.png",
+  "asturias-oriente": "/mapas/zona_12_detalle.png",
+  "cantabria-occidental": "/mapas/zona_13_detalle.png",
+  "cantabria-oriental": "/mapas/zona_14_detalle.png",
+  "alto-minho": "/mapas/zona_15_detalle.png",
+  "litoral-norte": "/mapas/zona_16_detalle.png",
+};
+
+function RelatoZona({ zona }: { zona: Zona }) {
+  if (zona.id === "baixo-mino") return <RelatoBaixoMino zona={zona} />;
+  if (zona.id === "val-minor") return <RelatoValMinor zona={zona} />;
+  if (zona.id === "vigo-e-ria") return <RelatoVigoERia zona={zona} />;
+  if (zona.id === "o-morrazo") return <RelatoOMorrazo zona={zona} />;
+  if (zona.id === "pontevedra-e-sanxenxo") return <RelatoPontevedraESanxenxo zona={zona} />;
+  if (zona.id === "o-salnes") return <RelatoOSalnes zona={zona} />;
+  if (zona.id === "barbanza-e-noia") return <RelatoBarbanzaENoia zona={zona} />;
+  if (zona.id === "golfo-artabro-e-ferrol") return <RelatoGolfoArtabroEFerrol zona={zona} />;
+  if (zona.id === "a-marina") return <RelatoAMarina zona={zona} />;
+  if (zona.id === "asturias-occidente") return <RelatoAsturiasOccidente zona={zona} />;
+  if (zona.id === "asturias-centro") return <RelatoAsturiasCentro zona={zona} />;
+  if (zona.id === "asturias-oriente") return <RelatoAsturiasOriente zona={zona} />;
+  if (zona.id === "cantabria-occidental") return <RelatoCantabriaOccidental zona={zona} />;
+  if (zona.id === "cantabria-oriental") return <RelatoCantabriaOriental zona={zona} />;
+  if (zona.id === "alto-minho") return <RelatoAltoMinho zona={zona} />;
+  if (zona.id === "litoral-norte") return <RelatoLitoralNorte zona={zona} />;
+  return null;
 }
 
 export default async function PaginaZona({ params }: { params: Promise<{ id: string }> }) {
@@ -16,9 +71,11 @@ export default async function PaginaZona({ params }: { params: Promise<{ id: str
   const z = zonaPorId(id);
   if (!z) notFound();
   const pueblos = municipiosDeZona(z.id);
+  const mapaEstatico = MAPA_DETALLE_ESTATICO[z.id];
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-8">
+      <MarcarZonaLeida zonaId={z.id} />
       <p className="text-sm text-[var(--tinta-suave)]">
         <Link href="/" className="underline-offset-2 hover:underline">
           Inicio
@@ -45,9 +102,9 @@ export default async function PaginaZona({ params }: { params: Promise<{ id: str
           </figcaption>
         </figure>
         <figure className="overflow-hidden rounded-xl border border-[var(--linea)] bg-white">
-          {z.id === "baixo-mino" ? (
+          {mapaEstatico ? (
             <Image
-              src="/mapas/zona_01_detalle.png"
+              src={mapaEstatico}
               alt={`Detalle de ${z.zona}`}
               width={965}
               height={879}
@@ -65,10 +122,12 @@ export default async function PaginaZona({ params }: { params: Promise<{ id: str
       </div>
 
       {z.activa ? (
-        <RelatoBaixoMino zona={z} />
+        <RelatoZona zona={z} />
       ) : (
         <section className="mt-8 max-w-2xl text-[17px] leading-relaxed">
-          <h2 className="font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">El tiempo</h2>
+          <h2 className="font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">
+            El tiempo comparado con Baleares
+          </h2>
           <ul className="mt-3 space-y-1">
             <li>Despejados: {z.despejados} días (Mallorca, {mallorca.despejados}).</li>
             <li>

@@ -134,8 +134,17 @@ class Etiquetador:
 def _poligono(f: pd.Series):
     capa = "municipios_pt_norte" if f["pais"] == "Portugal" else "municipios_es_norte"
     g = MZ._geo(capa)
-    d = g[g.geometry.contains(Point(f["lon"], f["lat"]))]
-    return d.iloc[0].geometry if len(d) else None
+    p = Point(f["lon"], f["lat"])
+    d = g[g.geometry.contains(p)]
+    if len(d):
+        return d.iloc[0].geometry
+    # Punto en agua o justo fuera del límite GADM (p. ej. Moaña): el más cercano.
+    g2 = g.copy()
+    g2["_d"] = g2.geometry.distance(p)
+    near = g2.nsmallest(1, "_d")
+    if len(near) and float(near.iloc[0]["_d"]) < 0.01:
+        return near.iloc[0].geometry
+    return None
 
 
 def _nombre_gadm(fila) -> str:
@@ -466,13 +475,20 @@ def nombre_fichero(f: pd.Series) -> str:
 
 
 def generar(nombres: list[str] | None = None) -> list[Path]:
+    import time
+
     df = pd.read_csv(E.CSV_MAESTRO, sep=";", encoding="utf-8")
     if nombres:
         df = df[df["municipio"].isin(nombres)]
+    filas = list(df.iterrows())
     salidas = []
-    for _, f in df.iterrows():
+    for i, (_, f) in enumerate(filas):
         salidas.append(mapa_municipio(f, DIR_SALIDA / nombre_fichero(f)))
         print(f"  {salidas[-1].relative_to(RAIZ)}")
+        if i + 1 < len(filas):
+            siguiente = filas[i + 1][1]["municipio"]
+            if not osm.ruta_cache(siguiente).exists():
+                time.sleep(10)
     return salidas
 
 

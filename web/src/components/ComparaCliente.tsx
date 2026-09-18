@@ -1,0 +1,327 @@
+"use client";
+
+import {
+  useCallback,
+  useDeferredValue,
+  useEffect,
+  useId,
+  useRef,
+  useState,
+  startTransition,
+} from "react";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import Link from "next/link";
+import { buscarMunicipios, type HitBuscaMunicipio } from "@/lib/busca-municipios";
+import {
+  FILAS_MESA,
+  LS_BANDEJA,
+  MALLORCA_REF,
+  TOPE_BANDEJA,
+  anadirABandeja,
+  filaCompara,
+  indiceMejor,
+  parseVs,
+  quitarDeBandeja,
+  serializeVs,
+  type FilaCompara,
+} from "@/lib/compara";
+
+function leerLocal(): string[] {
+  if (typeof window === "undefined") return [];
+  try {
+    return parseVs(window.localStorage.getItem(LS_BANDEJA));
+  } catch {
+    return [];
+  }
+}
+
+function escribirLocal(slugs: string[]) {
+  try {
+    window.localStorage.setItem(LS_BANDEJA, serializeVs(slugs));
+  } catch {
+    /* ignore */
+  }
+}
+
+function CifrasHit({ hit }: { hit: HitBuscaMunicipio }) {
+  return (
+    <span className="text-[13px] text-[var(--tinta-suave)]">
+      Hospital {hit.hospitalMin} min · {hit.precioM2.toLocaleString("es-ES")} €/m² · S
+      {hit.servicios}
+    </span>
+  );
+}
+
+function MesaCompara({ filas }: { filas: FilaCompara[] }) {
+  if (filas.length === 0) return null;
+
+  return (
+    <section className="mt-10">
+      <h2 className="font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">
+        Mesa de contraste
+      </h2>
+      <p className="mt-1 text-sm text-[var(--tinta-suave)]">
+        Misma fila, pueblos distintos. El tono suave marca el valor más favorable de cada
+        criterio (cuando aplica). La última fila, Encaja si, resume para quién encaja cada
+        pueblo.
+      </p>
+      <div className="mt-4 overflow-x-auto rounded-lg border border-[var(--linea)] bg-white">
+        <table className="min-w-full border-collapse text-left text-sm">
+          <thead>
+            <tr className="border-b border-[var(--linea)]">
+              <th className="sticky left-0 z-[1] bg-white px-3 py-2.5 font-semibold text-[var(--tinta-suave)]">
+                Criterio
+              </th>
+              {filas.map((f) => (
+                <th
+                  key={f.slug}
+                  className="min-w-[10rem] px-3 py-2.5 font-semibold text-[var(--tinta)]"
+                >
+                  <Link
+                    href={f.href}
+                    className="text-[var(--acento)] underline-offset-2 hover:underline"
+                  >
+                    {f.nombre}
+                  </Link>
+                  {f.escala ? (
+                    <span className="mt-0.5 block text-xs font-normal leading-snug text-[var(--tinta-suave)]">
+                      {f.escala}
+                    </span>
+                  ) : null}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {FILAS_MESA.map((def) => {
+              const mejor = indiceMejor(filas, def);
+              return (
+                <tr key={def.id} className="border-b border-[var(--linea)] last:border-0">
+                  <th className="sticky left-0 z-[1] bg-white px-3 py-2.5 align-top text-xs font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
+                    {def.etiqueta}
+                  </th>
+                  {filas.map((f, i) => (
+                    <td
+                      key={f.slug}
+                      className={
+                        "px-3 py-2.5 align-top leading-snug text-[var(--tinta)] " +
+                        (mejor === i ? "bg-[var(--acento)]/[0.07]" : "")
+                      }
+                    >
+                      {def.formato(f)}
+                    </td>
+                  ))}
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+      <p className="mt-2 text-xs text-[var(--tinta-suave)]">
+        «vs Mallorca»: % de sol y despejados respecto a la isla en el estudio (
+        {MALLORCA_REF.solHoras.toLocaleString("es-ES")} h · {MALLORCA_REF.despejados} días
+        despejados).
+      </p>
+    </section>
+  );
+}
+
+export default function ComparaCliente() {
+  const listId = useId();
+  const inputRef = useRef<HTMLInputElement>(null);
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+  const con = searchParams.get("con");
+  const vsParam = searchParams.get("vs");
+
+  const [slugs, setSlugs] = useState<string[]>([]);
+  const [listo, setListo] = useState(false);
+  const [q, setQ] = useState("");
+  const deferredQ = useDeferredValue(q);
+  const hits =
+    deferredQ.trim().length >= 1 ? buscarMunicipios(deferredQ, 12) : [];
+
+  const syncUrl = useCallback(
+    (next: string[]) => {
+      const params = new URLSearchParams();
+      const vs = serializeVs(next);
+      if (vs) params.set("vs", vs);
+      const qs = params.toString();
+      router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
+    },
+    [pathname, router],
+  );
+
+  // Carga inicial: ?vs= > localStorage; ?con= se añade a la bandeja.
+  useEffect(() => {
+    const desdeUrl = parseVs(vsParam);
+    const base = desdeUrl.length > 0 ? desdeUrl : leerLocal();
+    const conSlug = con?.trim() ?? "";
+    const next = conSlug ? anadirABandeja(base, conSlug) : base;
+    setSlugs(next);
+    escribirLocal(next);
+    setListo(true);
+    const vs = serializeVs(next);
+    const params = new URLSearchParams();
+    if (vs) params.set("vs", vs);
+    const qs = params.toString();
+    router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
+    // Solo al montar
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
+    inputRef.current?.focus();
+  }, []);
+
+  function actualizar(next: string[]) {
+    setSlugs(next);
+    escribirLocal(next);
+    startTransition(() => syncUrl(next));
+  }
+
+  function anadir(slug: string) {
+    const next = anadirABandeja(slugs, slug);
+    actualizar(next);
+    setQ("");
+    inputRef.current?.focus();
+  }
+
+  function quitar(slug: string) {
+    actualizar(quitarDeBandeja(slugs, slug));
+  }
+
+  const filas = slugs
+    .map((s) => filaCompara(s))
+    .filter((f): f is FilaCompara => Boolean(f));
+
+  const enBandeja = new Set(slugs);
+
+  return (
+    <div className="mt-6">
+      <p className="mb-4 max-w-2xl text-[15px] leading-snug text-[var(--tinta-suave)]">
+        Busca pueblos y añádelos a la bandeja (máximo {TOPE_BANDEJA}; si está llena, el nuevo
+        sustituye al más antiguo). La mesa compara lo que cambia al vivir: clima, mar, precio,
+        hospital…
+      </p>
+
+      <section className="max-w-xl">
+        <h2 className="text-xs font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
+          Buscar
+        </h2>
+        <label className="mt-1.5 block">
+          <span className="sr-only">Buscar pueblo o ciudad</span>
+          <input
+            ref={inputRef}
+            type="search"
+            value={q}
+            onChange={(e) => setQ(e.target.value)}
+            placeholder="Buscar pueblo o ciudad…"
+            autoComplete="off"
+            spellCheck={false}
+            role="combobox"
+            aria-expanded={hits.length > 0}
+            aria-controls={listId}
+            aria-autocomplete="list"
+            className="w-full rounded-lg border border-[var(--linea)] bg-white px-3.5 py-2.5 text-[17px] text-[var(--tinta)] shadow-sm outline-none placeholder:text-[var(--tinta-suave)] focus:border-[var(--acento)] focus:ring-2 focus:ring-[var(--acento)]/25"
+          />
+        </label>
+
+        {q.trim().length >= 1 && hits.length === 0 ? (
+          <p className="mt-3 text-sm text-[var(--tinta-suave)]">
+            Ningún municipio encaja con «{q.trim()}».
+          </p>
+        ) : null}
+
+        {hits.length > 0 ? (
+          <ul
+            id={listId}
+            role="listbox"
+            className="mt-2 divide-y divide-[var(--linea)] rounded-lg border border-[var(--linea)] bg-white shadow-sm"
+          >
+            {hits.map((h) => {
+              const ya = enBandeja.has(h.slug);
+              const sustituye =
+                !ya && slugs.length >= TOPE_BANDEJA;
+              return (
+                <li key={h.slug} role="option" className="px-2 py-1.5">
+                  <button
+                    type="button"
+                    disabled={ya}
+                    onClick={() => {
+                      if (ya) return;
+                      anadir(h.slug);
+                    }}
+                    className={
+                      "w-full rounded-lg px-2 py-2 text-left transition-colors " +
+                      (ya
+                        ? "cursor-default opacity-55"
+                        : "cursor-pointer hover:bg-black/[0.03] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--acento)]")
+                    }
+                  >
+                    <span className="font-semibold text-[var(--tinta)]">{h.nombre}</span>
+                    <span className="mt-0.5 block text-sm text-[var(--tinta-suave)]">
+                      {h.zonaNombre}
+                      {h.escala ? ` · ${h.escala}` : ""}
+                      {ya
+                        ? " · ya en la bandeja"
+                        : sustituye
+                          ? " · al añadir, sale el más antiguo"
+                          : ""}
+                    </span>
+                    <span className="mt-0.5 block">
+                      <CifrasHit hit={h} />
+                    </span>
+                  </button>
+                </li>
+              );
+            })}
+          </ul>
+        ) : null}
+      </section>
+
+      <section className="mt-8">
+        <div className="flex flex-wrap items-baseline justify-between gap-2">
+          <h2 className="text-xs font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
+            Mis candidatos
+          </h2>
+          <span className="text-xs text-[var(--tinta-suave)]">
+            {listo ? `${slugs.length} / ${TOPE_BANDEJA}` : "…"}
+          </span>
+        </div>
+        {filas.length === 0 ? (
+          <p className="mt-2 text-sm text-[var(--tinta-suave)]">
+            Aún no hay pueblos. Busca arriba o entra desde una ficha con «Compara con».
+          </p>
+        ) : (
+          <ul className="mt-2 flex flex-wrap gap-2">
+            {filas.map((f) => (
+              <li
+                key={f.slug}
+                className="inline-flex max-w-full items-center gap-1.5 rounded-full border border-[var(--linea)] bg-white py-1 pl-3 pr-1 text-sm shadow-sm"
+              >
+                <Link
+                  href={f.href}
+                  className="truncate font-semibold text-[var(--acento)] underline-offset-2 hover:underline"
+                >
+                  {f.nombre}
+                </Link>
+                <button
+                  type="button"
+                  onClick={() => quitar(f.slug)}
+                  aria-label={`Quitar ${f.nombre}`}
+                  className="shrink-0 rounded-full px-2 py-0.5 text-xs font-semibold text-[var(--tinta-suave)] hover:bg-black/[0.05] hover:text-[var(--tinta)]"
+                >
+                  ✕
+                </button>
+              </li>
+            ))}
+          </ul>
+        )}
+      </section>
+
+      {filas.length >= 1 ? <MesaCompara filas={filas} /> : null}
+    </div>
+  );
+}

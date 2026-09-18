@@ -1,4 +1,5 @@
 import MapaPortadaBloque from "@/components/MapaPortadaBloque";
+import EnlaceBuscaCompara from "@/components/EnlaceBuscaCompara";
 
 export default function Portada() {
   return (
@@ -9,8 +10,13 @@ export default function Portada() {
       <p className="mt-2 text-base text-[var(--tinta-suave)] sm:text-lg">
         Cerca del mar - El mejor clima de cada zona
       </p>
+      <div className="mt-3">
+        <EnlaceBuscaCompara />
+      </div>
 
-      <MapaPortadaBloque />
+      <div className="mt-6">
+        <MapaPortadaBloque />
+      </div>
     </main>
   );
 }

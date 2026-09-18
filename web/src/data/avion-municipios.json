@@ -1,0 +1,749 @@
+[
+  {
+    "zonaId": "baixo-mino",
+    "nombre": "A Guarda",
+    "aeropuertoMin": 50,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 105 min",
+    "aeropuertos": "Vigo 64 km · 50 min (Palma: verano); Porto 99 km · 75 min (Palma: verano); Santiago 142 km · 105 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "baixo-mino",
+    "nombre": "Oia",
+    "aeropuertoMin": 45,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 95 min",
+    "aeropuertos": "Vigo 57 km · 45 min (Palma: verano); Porto 113 km · 85 min (Palma: verano); Santiago 129 km · 95 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "baixo-mino",
+    "nombre": "O Rosal",
+    "aeropuertoMin": 45,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 100 min",
+    "aeropuertos": "Vigo 57 km · 45 min (Palma: verano); Porto 92 km · 70 min (Palma: verano); Santiago 137 km · 100 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "baixo-mino",
+    "nombre": "Tomiño",
+    "aeropuertoMin": 30,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 95 min",
+    "aeropuertos": "Vigo 34 km · 30 min (Palma: verano); Porto 85 km · 65 min (Palma: verano); Santiago 127 km · 95 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "baixo-mino",
+    "nombre": "Tui",
+    "aeropuertoMin": 25,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 90 min",
+    "aeropuertos": "Vigo 25 km · 25 min (Palma: verano); Porto 78 km · 60 min (Palma: verano); Santiago 117 km · 90 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "val-minor",
+    "nombre": "Baiona",
+    "aeropuertoMin": 25,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 85 min",
+    "aeropuertos": "Vigo 27 km · 25 min (Palma: verano); Santiago 114 km · 85 min (Palma: casi todo el año); Porto 113 km · 85 min (Palma: verano)"
+  },
+  {
+    "zonaId": "val-minor",
+    "nombre": "Nigrán",
+    "aeropuertoMin": 20,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 80 min",
+    "aeropuertos": "Vigo 22 km · 20 min (Palma: verano); Santiago 110 km · 80 min (Palma: casi todo el año); Porto 106 km · 80 min (Palma: verano)"
+  },
+  {
+    "zonaId": "val-minor",
+    "nombre": "Gondomar",
+    "aeropuertoMin": 20,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 85 min",
+    "aeropuertos": "Vigo 21 km · 20 min (Palma: verano); Porto 106 km · 80 min (Palma: verano); Santiago 112 km · 85 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "vigo-e-ria",
+    "nombre": "Vigo",
+    "aeropuertoMin": 10,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 70 min",
+    "aeropuertos": "Vigo 9 km · 10 min (Palma: verano); Santiago 95 km · 70 min (Palma: casi todo el año); Porto 133 km · 100 min (Palma: verano)"
+  },
+  {
+    "zonaId": "vigo-e-ria",
+    "nombre": "Redondela",
+    "aeropuertoMin": 10,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 65 min",
+    "aeropuertos": "Vigo 7 km · 10 min (Palma: verano); Santiago 85 km · 65 min (Palma: casi todo el año); Porto 141 km · 105 min (Palma: verano)"
+  },
+  {
+    "zonaId": "vigo-e-ria",
+    "nombre": "Soutomaior",
+    "aeropuertoMin": 15,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 60 min",
+    "aeropuertos": "Vigo 15 km · 15 min (Palma: verano); Santiago 78 km · 60 min (Palma: casi todo el año); Porto 147 km · 110 min (Palma: verano)"
+  },
+  {
+    "zonaId": "vigo-e-ria",
+    "nombre": "Vilaboa",
+    "aeropuertoMin": 15,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 60 min",
+    "aeropuertos": "Vigo 16 km · 15 min (Palma: verano); Santiago 77 km · 60 min (Palma: casi todo el año); Porto 150 km · 110 min (Palma: verano)"
+  },
+  {
+    "zonaId": "o-morrazo",
+    "nombre": "Cangas",
+    "aeropuertoMin": 40,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 70 min",
+    "aeropuertos": "Vigo 50 km · 40 min (Palma: verano); Santiago 93 km · 70 min (Palma: casi todo el año); Porto 138 km · 105 min (Palma: verano)"
+  },
+  {
+    "zonaId": "o-morrazo",
+    "nombre": "Moaña",
+    "aeropuertoMin": 35,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 70 min",
+    "aeropuertos": "Vigo 42 km · 35 min (Palma: verano); Santiago 89 km · 70 min (Palma: casi todo el año); Porto 140 km · 105 min (Palma: verano)"
+  },
+  {
+    "zonaId": "o-morrazo",
+    "nombre": "Bueu",
+    "aeropuertoMin": 45,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 65 min",
+    "aeropuertos": "Vigo 57 km · 45 min (Palma: verano); Santiago 86 km · 65 min (Palma: casi todo el año); Porto 146 km · 110 min (Palma: verano)"
+  },
+  {
+    "zonaId": "o-morrazo",
+    "nombre": "Marín",
+    "aeropuertoMin": 40,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 55 min",
+    "aeropuertos": "Vigo 50 km · 40 min (Palma: verano); Santiago 74 km · 55 min (Palma: casi todo el año); Porto 155 km · 115 min (Palma: verano)"
+  },
+  {
+    "zonaId": "pontevedra-e-sanxenxo",
+    "nombre": "Pontevedra",
+    "aeropuertoMin": 25,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 50 min",
+    "aeropuertos": "Vigo 27 km · 25 min (Palma: verano); Santiago 67 km · 50 min (Palma: casi todo el año); Porto 161 km · 120 min (Palma: verano)"
+  },
+  {
+    "zonaId": "pontevedra-e-sanxenxo",
+    "nombre": "Poio",
+    "aeropuertoMin": 25,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 50 min",
+    "aeropuertos": "Vigo 30 km · 25 min (Palma: verano); Santiago 67 km · 50 min (Palma: casi todo el año); Porto 162 km · 120 min (Palma: verano)"
+  },
+  {
+    "zonaId": "pontevedra-e-sanxenxo",
+    "nombre": "Sanxenxo",
+    "aeropuertoMin": 50,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 55 min",
+    "aeropuertos": "Vigo 64 km · 50 min (Palma: verano); Santiago 71 km · 55 min (Palma: casi todo el año); Porto 157 km · 115 min (Palma: verano)"
+  },
+  {
+    "zonaId": "pontevedra-e-sanxenxo",
+    "nombre": "O Grove",
+    "aeropuertoMin": 60,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 60 min",
+    "aeropuertos": "Vigo 78 km · 60 min (Palma: verano); Santiago 78 km · 60 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "o-salnes",
+    "nombre": "Meaño",
+    "aeropuertoMin": 30,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 55 min",
+    "aeropuertos": "Vigo 33 km · 30 min (Palma: verano); Santiago 71 km · 55 min (Palma: casi todo el año); Porto 163 km · 120 min (Palma: verano)"
+  },
+  {
+    "zonaId": "o-salnes",
+    "nombre": "Cambados",
+    "aeropuertoMin": 35,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 50 min",
+    "aeropuertos": "Vigo 42 km · 35 min (Palma: verano); Santiago 66 km · 50 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "o-salnes",
+    "nombre": "A Illa de Arousa",
+    "aeropuertoMin": 40,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 50 min",
+    "aeropuertos": "Vigo 50 km · 40 min (Palma: verano); Santiago 65 km · 50 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "o-salnes",
+    "nombre": "Vilanova de Arousa",
+    "aeropuertoMin": 40,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 50 min",
+    "aeropuertos": "Vigo 50 km · 40 min (Palma: verano); Santiago 61 km · 50 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "o-salnes",
+    "nombre": "Vilagarcía de Arousa",
+    "aeropuertoMin": 40,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 45 min",
+    "aeropuertos": "Vigo 51 km · 40 min (Palma: verano); Santiago 54 km · 45 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "barbanza-e-noia",
+    "nombre": "Rianxo",
+    "aeropuertoMin": 40,
+    "aeroCercano": "Santiago",
+    "palmaMasCercano": "Casi todo el año",
+    "palmaMejor": "Santiago (casi todo el año) · 40 min",
+    "aeropuertos": "Santiago 52 km · 40 min (Palma: casi todo el año); Vigo 60 km · 50 min (Palma: verano); A Coruña 98 km · 75 min (Palma: verano)"
+  },
+  {
+    "zonaId": "barbanza-e-noia",
+    "nombre": "Boiro",
+    "aeropuertoMin": 45,
+    "aeroCercano": "Santiago",
+    "palmaMasCercano": "Casi todo el año",
+    "palmaMejor": "Santiago (casi todo el año) · 45 min",
+    "aeropuertos": "Santiago 58 km · 45 min (Palma: casi todo el año); Vigo 62 km · 50 min (Palma: verano); A Coruña 102 km · 75 min (Palma: verano)"
+  },
+  {
+    "zonaId": "barbanza-e-noia",
+    "nombre": "A Pobra do Caramiñal",
+    "aeropuertoMin": 50,
+    "aeroCercano": "Santiago",
+    "palmaMasCercano": "Casi todo el año",
+    "palmaMejor": "Santiago (casi todo el año) · 50 min",
+    "aeropuertos": "Santiago 65 km · 50 min (Palma: casi todo el año); Vigo 106 km · 80 min (Palma: verano); A Coruña 110 km · 80 min (Palma: verano)"
+  },
+  {
+    "zonaId": "barbanza-e-noia",
+    "nombre": "Ribeira",
+    "aeropuertoMin": 50,
+    "aeroCercano": "Santiago",
+    "palmaMasCercano": "Casi todo el año",
+    "palmaMejor": "Santiago (casi todo el año) · 50 min",
+    "aeropuertos": "Santiago 64 km · 50 min (Palma: casi todo el año); Vigo 113 km · 85 min (Palma: verano); A Coruña 118 km · 90 min (Palma: verano)"
+  },
+  {
+    "zonaId": "barbanza-e-noia",
+    "nombre": "Porto do Son",
+    "aeropuertoMin": 50,
+    "aeroCercano": "Santiago",
+    "palmaMasCercano": "Casi todo el año",
+    "palmaMejor": "Santiago (casi todo el año) · 50 min",
+    "aeropuertos": "Santiago 64 km · 50 min (Palma: casi todo el año); Vigo 77 km · 60 min (Palma: verano); A Coruña 100 km · 75 min (Palma: verano)"
+  },
+  {
+    "zonaId": "barbanza-e-noia",
+    "nombre": "Noia",
+    "aeropuertoMin": 40,
+    "aeroCercano": "Santiago",
+    "palmaMasCercano": "Casi todo el año",
+    "palmaMejor": "Santiago (casi todo el año) · 40 min",
+    "aeropuertos": "Santiago 49 km · 40 min (Palma: casi todo el año); Vigo 79 km · 60 min (Palma: verano); A Coruña 87 km · 65 min (Palma: verano)"
+  },
+  {
+    "zonaId": "golfo-artabro-e-ferrol",
+    "nombre": "A Coruña",
+    "aeropuertoMin": 10,
+    "aeroCercano": "A Coruña",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 50 min",
+    "aeropuertos": "A Coruña 9 km · 10 min (Palma: verano); Santiago 63 km · 50 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "golfo-artabro-e-ferrol",
+    "nombre": "Oleiros",
+    "aeropuertoMin": 10,
+    "aeroCercano": "A Coruña",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 45 min",
+    "aeropuertos": "A Coruña 7 km · 10 min (Palma: verano); Santiago 60 km · 45 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "golfo-artabro-e-ferrol",
+    "nombre": "Sada",
+    "aeropuertoMin": 15,
+    "aeroCercano": "A Coruña",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 50 min",
+    "aeropuertos": "A Coruña 14 km · 15 min (Palma: verano); Santiago 65 km · 50 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "golfo-artabro-e-ferrol",
+    "nombre": "Bergondo",
+    "aeropuertoMin": 15,
+    "aeroCercano": "A Coruña",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 45 min",
+    "aeropuertos": "A Coruña 14 km · 15 min (Palma: verano); Santiago 60 km · 45 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "golfo-artabro-e-ferrol",
+    "nombre": "Miño",
+    "aeropuertoMin": 30,
+    "aeroCercano": "A Coruña",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 50 min",
+    "aeropuertos": "A Coruña 35 km · 30 min (Palma: verano); Santiago 65 km · 50 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "golfo-artabro-e-ferrol",
+    "nombre": "Ares",
+    "aeropuertoMin": 45,
+    "aeroCercano": "A Coruña",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 75 min",
+    "aeropuertos": "A Coruña 57 km · 45 min (Palma: verano); Santiago 99 km · 75 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "golfo-artabro-e-ferrol",
+    "nombre": "Ferrol",
+    "aeropuertoMin": 35,
+    "aeroCercano": "A Coruña",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 65 min",
+    "aeropuertos": "A Coruña 42 km · 35 min (Palma: verano); Santiago 82 km · 65 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "a-marina",
+    "nombre": "O Vicedo",
+    "aeropuertoMin": 100,
+    "aeroCercano": "A Coruña",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 100 min",
+    "aeropuertos": "A Coruña 135 km · 100 min (Palma: verano); Santiago 135 km · 100 min (Palma: casi todo el año); Asturias 156 km · 115 min (Palma: verano)"
+  },
+  {
+    "zonaId": "a-marina",
+    "nombre": "Viveiro",
+    "aeropuertoMin": 100,
+    "aeroCercano": "Santiago",
+    "palmaMasCercano": "Casi todo el año",
+    "palmaMejor": "Santiago (casi todo el año) · 100 min",
+    "aeropuertos": "Santiago 132 km · 100 min (Palma: casi todo el año); Asturias 142 km · 105 min (Palma: verano); A Coruña 142 km · 105 min (Palma: verano)"
+  },
+  {
+    "zonaId": "a-marina",
+    "nombre": "Xove",
+    "aeropuertoMin": 95,
+    "aeroCercano": "Asturias",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 105 min",
+    "aeropuertos": "Asturias 128 km · 95 min (Palma: verano); Santiago 139 km · 105 min (Palma: casi todo el año); A Coruña 149 km · 110 min (Palma: verano)"
+  },
+  {
+    "zonaId": "a-marina",
+    "nombre": "Cervo",
+    "aeropuertoMin": 90,
+    "aeroCercano": "Asturias",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 105 min",
+    "aeropuertos": "Asturias 120 km · 90 min (Palma: verano); Santiago 144 km · 105 min (Palma: casi todo el año); A Coruña 156 km · 115 min (Palma: verano)"
+  },
+  {
+    "zonaId": "a-marina",
+    "nombre": "Burela",
+    "aeropuertoMin": 85,
+    "aeroCercano": "Asturias",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 110 min",
+    "aeropuertos": "Asturias 113 km · 85 min (Palma: verano); A Coruña 111 km · 85 min (Palma: verano); Santiago 147 km · 110 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "a-marina",
+    "nombre": "Foz",
+    "aeropuertoMin": 80,
+    "aeroCercano": "Asturias",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 110 min",
+    "aeropuertos": "Asturias 106 km · 80 min (Palma: verano); A Coruña 116 km · 85 min (Palma: verano); Santiago 146 km · 110 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "a-marina",
+    "nombre": "Barreiros",
+    "aeropuertoMin": 70,
+    "aeroCercano": "Asturias",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 110 min",
+    "aeropuertos": "Asturias 92 km · 70 min (Palma: verano); A Coruña 117 km · 90 min (Palma: verano); Santiago 145 km · 110 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "a-marina",
+    "nombre": "Ribadeo",
+    "aeropuertoMin": 60,
+    "aeroCercano": "Asturias",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 120 min",
+    "aeropuertos": "Asturias 78 km · 60 min (Palma: verano); A Coruña 135 km · 100 min (Palma: verano); Santiago 161 km · 120 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "asturias-occidente",
+    "nombre": "Castropol",
+    "aeropuertoMin": 75,
+    "aeroCercano": "Asturias",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 120 min",
+    "aeropuertos": "Asturias 98 km · 75 min (Palma: verano); A Coruña 136 km · 100 min (Palma: verano); Santiago 161 km · 120 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "asturias-occidente",
+    "nombre": "Tapia de Casariego",
+    "aeropuertoMin": 70,
+    "aeroCercano": "Asturias",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Asturias (verano) · 70 min",
+    "aeropuertos": "Asturias 89 km · 70 min (Palma: verano); A Coruña 146 km · 110 min (Palma: verano)"
+  },
+  {
+    "zonaId": "asturias-occidente",
+    "nombre": "Navia",
+    "aeropuertoMin": 55,
+    "aeroCercano": "Asturias",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Asturias (verano) · 55 min",
+    "aeropuertos": "Asturias 68 km · 55 min (Palma: verano); A Coruña 166 km · 120 min (Palma: verano)"
+  },
+  {
+    "zonaId": "asturias-occidente",
+    "nombre": "Luarca (Valdés)",
+    "aeropuertoMin": 40,
+    "aeroCercano": "Asturias",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Asturias (verano) · 40 min",
+    "aeropuertos": "Asturias 49 km · 40 min (Palma: verano)"
+  },
+  {
+    "zonaId": "asturias-centro",
+    "nombre": "Cudillero",
+    "aeropuertoMin": 15,
+    "aeroCercano": "Asturias",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Asturias (verano) · 15 min",
+    "aeropuertos": "Asturias 11 km · 15 min (Palma: verano)"
+  },
+  {
+    "zonaId": "asturias-centro",
+    "nombre": "Muros de Nalón",
+    "aeropuertoMin": 10,
+    "aeroCercano": "Asturias",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Asturias (verano) · 10 min",
+    "aeropuertos": "Asturias 7 km · 10 min (Palma: verano)"
+  },
+  {
+    "zonaId": "asturias-centro",
+    "nombre": "Soto del Barco",
+    "aeropuertoMin": 10,
+    "aeroCercano": "Asturias",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Asturias (verano) · 10 min",
+    "aeropuertos": "Asturias 6 km · 10 min (Palma: verano)"
+  },
+  {
+    "zonaId": "asturias-centro",
+    "nombre": "Salinas (Castrillón)",
+    "aeropuertoMin": 10,
+    "aeroCercano": "Asturias",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Asturias (verano) · 10 min",
+    "aeropuertos": "Asturias 8 km · 10 min (Palma: verano)"
+  },
+  {
+    "zonaId": "asturias-centro",
+    "nombre": "Luanco (Gozón)",
+    "aeropuertoMin": 20,
+    "aeroCercano": "Asturias",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Asturias (verano) · 20 min",
+    "aeropuertos": "Asturias 25 km · 20 min (Palma: verano)"
+  },
+  {
+    "zonaId": "asturias-centro",
+    "nombre": "Candás (Carreño)",
+    "aeropuertoMin": 25,
+    "aeroCercano": "Asturias",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Asturias (verano) · 25 min",
+    "aeropuertos": "Asturias 27 km · 25 min (Palma: verano)"
+  },
+  {
+    "zonaId": "asturias-centro",
+    "nombre": "Gijón",
+    "aeropuertoMin": 30,
+    "aeroCercano": "Asturias",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Asturias (verano) · 30 min",
+    "aeropuertos": "Asturias 37 km · 30 min (Palma: verano)"
+  },
+  {
+    "zonaId": "asturias-oriente",
+    "nombre": "Villaviciosa",
+    "aeropuertoMin": 45,
+    "aeroCercano": "Asturias",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santander (casi todo el año) · 115 min",
+    "aeropuertos": "Asturias 60 km · 45 min (Palma: verano); Santander 159 km · 115 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "asturias-oriente",
+    "nombre": "Colunga",
+    "aeropuertoMin": 60,
+    "aeroCercano": "Asturias",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santander (casi todo el año) · 105 min",
+    "aeropuertos": "Asturias 76 km · 60 min (Palma: verano); Santander 143 km · 105 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "asturias-oriente",
+    "nombre": "Ribadesella",
+    "aeropuertoMin": 75,
+    "aeroCercano": "Asturias",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santander (casi todo el año) · 90 min",
+    "aeropuertos": "Asturias 97 km · 75 min (Palma: verano); Santander 122 km · 90 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "asturias-oriente",
+    "nombre": "Llanes",
+    "aeropuertoMin": 70,
+    "aeroCercano": "Santander",
+    "palmaMasCercano": "Casi todo el año",
+    "palmaMejor": "Santander (casi todo el año) · 70 min",
+    "aeropuertos": "Santander 92 km · 70 min (Palma: casi todo el año); Asturias 127 km · 95 min (Palma: verano)"
+  },
+  {
+    "zonaId": "asturias-oriente",
+    "nombre": "Ribadedeva",
+    "aeropuertoMin": 55,
+    "aeroCercano": "Santander",
+    "palmaMasCercano": "Casi todo el año",
+    "palmaMejor": "Santander (casi todo el año) · 55 min",
+    "aeropuertos": "Santander 70 km · 55 min (Palma: casi todo el año); Asturias 150 km · 110 min (Palma: verano); Bilbao 160 km · 120 min (Palma: todo el año)"
+  },
+  {
+    "zonaId": "cantabria-occidental",
+    "nombre": "San Vicente de la Barquera",
+    "aeropuertoMin": 45,
+    "aeroCercano": "Santander",
+    "palmaMasCercano": "Casi todo el año",
+    "palmaMejor": "Santander (casi todo el año) · 45 min",
+    "aeropuertos": "Santander 57 km · 45 min (Palma: casi todo el año); Bilbao 147 km · 110 min (Palma: todo el año); Asturias 163 km · 120 min (Palma: verano)"
+  },
+  {
+    "zonaId": "cantabria-occidental",
+    "nombre": "Comillas",
+    "aeropuertoMin": 40,
+    "aeroCercano": "Santander",
+    "palmaMasCercano": "Casi todo el año",
+    "palmaMejor": "Santander (casi todo el año) · 40 min",
+    "aeropuertos": "Santander 47 km · 40 min (Palma: casi todo el año); Bilbao 137 km · 100 min (Palma: todo el año)"
+  },
+  {
+    "zonaId": "cantabria-occidental",
+    "nombre": "Suances",
+    "aeropuertoMin": 20,
+    "aeroCercano": "Santander",
+    "palmaMasCercano": "Casi todo el año",
+    "palmaMejor": "Santander (casi todo el año) · 20 min",
+    "aeropuertos": "Santander 22 km · 20 min (Palma: casi todo el año); Bilbao 113 km · 85 min (Palma: todo el año)"
+  },
+  {
+    "zonaId": "cantabria-occidental",
+    "nombre": "Liencres (Piélagos)",
+    "aeropuertoMin": 15,
+    "aeroCercano": "Santander",
+    "palmaMasCercano": "Casi todo el año",
+    "palmaMejor": "Santander (casi todo el año) · 15 min",
+    "aeropuertos": "Santander 14 km · 15 min (Palma: casi todo el año); Bilbao 105 km · 80 min (Palma: todo el año)"
+  },
+  {
+    "zonaId": "cantabria-occidental",
+    "nombre": "Santander",
+    "aeropuertoMin": 10,
+    "aeroCercano": "Santander",
+    "palmaMasCercano": "Casi todo el año",
+    "palmaMejor": "Santander (casi todo el año) · 10 min",
+    "aeropuertos": "Santander 5 km · 10 min (Palma: casi todo el año); Bilbao 99 km · 75 min (Palma: todo el año)"
+  },
+  {
+    "zonaId": "cantabria-oriental",
+    "nombre": "Ribamontán al Mar",
+    "aeropuertoMin": 15,
+    "aeroCercano": "Santander",
+    "palmaMasCercano": "Casi todo el año",
+    "palmaMejor": "Santander (casi todo el año) · 15 min",
+    "aeropuertos": "Santander 13 km · 15 min (Palma: casi todo el año); Bilbao 92 km · 70 min (Palma: todo el año)"
+  },
+  {
+    "zonaId": "cantabria-oriental",
+    "nombre": "Noja",
+    "aeropuertoMin": 25,
+    "aeroCercano": "Santander",
+    "palmaMasCercano": "Casi todo el año",
+    "palmaMejor": "Santander (casi todo el año) · 25 min",
+    "aeropuertos": "Santander 30 km · 25 min (Palma: casi todo el año); Bilbao 78 km · 60 min (Palma: todo el año)"
+  },
+  {
+    "zonaId": "cantabria-oriental",
+    "nombre": "Santoña",
+    "aeropuertoMin": 30,
+    "aeroCercano": "Santander",
+    "palmaMasCercano": "Casi todo el año",
+    "palmaMejor": "Santander (casi todo el año) · 30 min",
+    "aeropuertos": "Santander 36 km · 30 min (Palma: casi todo el año); Bilbao 78 km · 60 min (Palma: todo el año)"
+  },
+  {
+    "zonaId": "cantabria-oriental",
+    "nombre": "Laredo",
+    "aeropuertoMin": 35,
+    "aeroCercano": "Santander",
+    "palmaMasCercano": "Casi todo el año",
+    "palmaMejor": "Santander (casi todo el año) · 35 min",
+    "aeropuertos": "Santander 40 km · 35 min (Palma: casi todo el año); Bilbao 64 km · 50 min (Palma: todo el año)"
+  },
+  {
+    "zonaId": "cantabria-oriental",
+    "nombre": "Castro-Urdiales",
+    "aeropuertoMin": 35,
+    "aeroCercano": "Bilbao",
+    "palmaMasCercano": "Todo el año",
+    "palmaMejor": "Bilbao (todo el año) · 35 min",
+    "aeropuertos": "Bilbao 42 km · 35 min (Palma: todo el año); Santander 64 km · 50 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "alto-minho",
+    "nombre": "Valença",
+    "aeropuertoMin": 35,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 90 min",
+    "aeropuertos": "Vigo 42 km · 35 min (Palma: verano); Porto 106 km · 80 min (Palma: verano); Santiago 120 km · 90 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "alto-minho",
+    "nombre": "Vila Nova de Cerveira",
+    "aeropuertoMin": 45,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 100 min",
+    "aeropuertos": "Vigo 57 km · 45 min (Palma: verano); Porto 94 km · 70 min (Palma: verano); Santiago 134 km · 100 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "alto-minho",
+    "nombre": "Caminha",
+    "aeropuertoMin": 60,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 105 min",
+    "aeropuertos": "Vigo 78 km · 60 min (Palma: verano); Porto 87 km · 65 min (Palma: verano); Santiago 145 km · 105 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "alto-minho",
+    "nombre": "Moledo (Caminha)",
+    "aeropuertoMin": 60,
+    "aeroCercano": "Vigo",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 110 min",
+    "aeropuertos": "Vigo 78 km · 60 min (Palma: verano); Porto 83 km · 65 min (Palma: verano); Santiago 150 km · 110 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "alto-minho",
+    "nombre": "Vila Praia de Âncora (Caminha)",
+    "aeropuertoMin": 60,
+    "aeroCercano": "Porto",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 115 min",
+    "aeropuertos": "Porto 79 km · 60 min (Palma: verano); Vigo 85 km · 65 min (Palma: verano); Santiago 154 km · 115 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "alto-minho",
+    "nombre": "Afife-Carreço (Viana)",
+    "aeropuertoMin": 55,
+    "aeroCercano": "Porto",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 115 min",
+    "aeropuertos": "Porto 74 km · 55 min (Palma: verano); Vigo 92 km · 70 min (Palma: verano); Santiago 158 km · 115 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "alto-minho",
+    "nombre": "Viana do Castelo",
+    "aeropuertoMin": 50,
+    "aeroCercano": "Porto",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Porto (verano) · 50 min",
+    "aeropuertos": "Porto 62 km · 50 min (Palma: verano); Vigo 99 km · 75 min (Palma: verano)"
+  },
+  {
+    "zonaId": "alto-minho",
+    "nombre": "Ponte de Lima",
+    "aeropuertoMin": 55,
+    "aeroCercano": "Porto",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Santiago (casi todo el año) · 115 min",
+    "aeropuertos": "Porto 71 km · 55 min (Palma: verano); Vigo 85 km · 65 min (Palma: verano); Santiago 154 km · 115 min (Palma: casi todo el año)"
+  },
+  {
+    "zonaId": "litoral-norte",
+    "nombre": "Esposende",
+    "aeropuertoMin": 35,
+    "aeroCercano": "Porto",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Porto (verano) · 35 min",
+    "aeropuertos": "Porto 40 km · 35 min (Palma: verano); Vigo 113 km · 85 min (Palma: verano)"
+  },
+  {
+    "zonaId": "litoral-norte",
+    "nombre": "Póvoa de Varzim",
+    "aeropuertoMin": 20,
+    "aeroCercano": "Porto",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Porto (verano) · 20 min",
+    "aeropuertos": "Porto 20 km · 20 min (Palma: verano); Vigo 128 km · 95 min (Palma: verano)"
+  },
+  {
+    "zonaId": "litoral-norte",
+    "nombre": "Vila do Conde",
+    "aeropuertoMin": 15,
+    "aeroCercano": "Porto",
+    "palmaMasCercano": "Verano",
+    "palmaMejor": "Porto (verano) · 15 min",
+    "aeropuertos": "Porto 16 km · 15 min (Palma: verano); Vigo 135 km · 100 min (Palma: verano)"
+  }
+]

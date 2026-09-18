@@ -94,8 +94,12 @@ export function htmlIconoPlaya(tamano: "zona" | "pueblo" = "pueblo"): string {
   return `<div class="${clase}">${svgPlaya()}</div>`;
 }
 
+export function cuerpoMar(m: MarMunicipio): string {
+  return `<span class="globo-clave">Costa</span> ${m.minCosta} min · <span class="globo-clave">Playa</span> (${m.playaBano}) ${m.minBano} min`;
+}
+
 export function textoMar(m: MarMunicipio): string {
-  return `${m.nombre}: costa ${m.minCosta} min · playa ${m.minBano} min · ${m.playaBano}`;
+  return `<span class="globo-nom">${m.nombre}</span>: ${cuerpoMar(m)}`;
 }
 
 export type MarZonaMapa = {
@@ -105,6 +109,7 @@ export type MarZonaMapa = {
   lon: number;
   tramo: TramoCosta;
   minCostaMed: number;
+  cuerpo: string;
   tooltip: string;
 };
 
@@ -119,6 +124,7 @@ export const MAR_ZONAS_MAPA: MarZonaMapa[] = zonas
     const costaMin = Math.min(...filas.map((m) => m.minCosta));
     const costaMax = Math.max(...filas.map((m) => m.minCosta));
     const nombre = z.zona.replace(" (PT)", "");
+    const cuerpo = `<span class="globo-clave">Costa</span> ${costaMin}–${costaMax} min · <span class="globo-clave">Playa</span> ~${minBanoMed} min · ${n} municipios`;
     return {
       zonaId: z.id,
       nombre,
@@ -126,7 +132,8 @@ export const MAR_ZONAS_MAPA: MarZonaMapa[] = zonas
       lon: z.lon,
       tramo: tramoCosta(minCostaMed),
       minCostaMed,
-      tooltip: `${nombre}: costa ${costaMin}–${costaMax} min (media ${minCostaMed}) · playa ~${minBanoMed} min · ${n} municipios`,
+      cuerpo,
+      tooltip: `<span class="globo-nom">${nombre}</span>: ${cuerpo}`,
     };
   })
   .filter((x): x is MarZonaMapa => Boolean(x));

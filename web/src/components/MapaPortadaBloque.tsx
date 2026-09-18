@@ -5,15 +5,18 @@ import MapaPortadaCliente from "@/components/MapaPortadaCliente";
 import { LeyendaMapa } from "@/components/CapaMapaLeyenda";
 import { LeyendaClima } from "@/components/CapaClimaLeyenda";
 import { LeyendaMar } from "@/components/CapaMarLeyenda";
+import { LeyendaServicios } from "@/components/CapaServiciosLeyenda";
+import { LeyendaHospital } from "@/components/CapaHospitalLeyenda";
+import { LeyendaAvion } from "@/components/CapaAvionLeyenda";
+import { LeyendaPrecio } from "@/components/CapaPrecioLeyenda";
 import TablaCapasMunicipios from "@/components/TablaCapasMunicipios";
-import EnlaceBuscaCompara from "@/components/EnlaceBuscaCompara";
 import { type ComunidadId } from "@/lib/capas-tabla";
 
 const CAPAS = [
   {
     id: "clima",
     etiqueta: "Clima",
-    nota: "Esta capa irá encima del territorio, sin quitarlo. La dibujamos a continuación.",
+    nota: "Sol, despejados y lluvia frente a Mallorca.",
   },
   {
     id: "mar",
@@ -23,7 +26,7 @@ const CAPAS = [
   {
     id: "servicios",
     etiqueta: "Servicios",
-    nota: "Servicios, fibra y el coche de cada día, como iconos. Se puede ver a la vez que las otras capas.",
+    nota: "Nota 1–10 de vida diaria (tiendas, farmacia, centro de salud…).",
   },
   {
     id: "hospital",
@@ -123,7 +126,14 @@ export default function MapaPortadaBloque() {
     <>
       <section className="mt-8 overflow-hidden rounded-xl border border-[var(--linea)] bg-white shadow-sm">
         <div className="relative h-[360px] sm:h-[460px] lg:h-[540px]">
-          <MapaPortadaCliente clima={activas.has("clima")} mar={activas.has("mar")} />
+          <MapaPortadaCliente
+            clima={activas.has("clima")}
+            mar={activas.has("mar")}
+            servicios={activas.has("servicios")}
+            hospital={activas.has("hospital")}
+            avion={activas.has("avion")}
+            precio={activas.has("precio")}
+          />
           <div className="pointer-events-none absolute inset-x-3 top-3 z-[1100] flex flex-wrap justify-end gap-2">
             <div className="pointer-events-auto">
               <ChipsCapas activas={activas} onToggle={toggle} className="justify-end" />
@@ -137,6 +147,14 @@ export default function MapaPortadaBloque() {
               <LeyendaClima key={c.id} compacta />
             ) : c.id === "mar" ? (
               <LeyendaMar key={c.id} compacta />
+            ) : c.id === "servicios" ? (
+              <LeyendaServicios key={c.id} compacta />
+            ) : c.id === "hospital" ? (
+              <LeyendaHospital key={c.id} compacta />
+            ) : c.id === "avion" ? (
+              <LeyendaAvion key={c.id} compacta />
+            ) : c.id === "precio" ? (
+              <LeyendaPrecio key={c.id} compacta />
             ) : (
               <div key={c.id} className="min-w-0">
                 <p className="text-[10px] font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
@@ -161,10 +179,6 @@ export default function MapaPortadaBloque() {
 
         <TablaCapasMunicipios capasActivas={activas} embebido {...acordeon} />
       </section>
-
-      <div className="mt-3 px-1">
-        <EnlaceBuscaCompara />
-      </div>
     </>
   );
 }

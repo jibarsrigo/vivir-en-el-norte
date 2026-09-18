@@ -1,4 +1,4 @@
-import { LEYENDA_COSTA, htmlIconoCosta, htmlIconoPlaya } from "@/lib/mar";
+import { LEYENDA_COSTA, htmlIconoCosta } from "@/lib/mar";
 
 function IconoCosta({ tramo }: { tramo: (typeof LEYENDA_COSTA)[number]["id"] }) {
   return (
@@ -23,13 +23,6 @@ export function LeyendaMar({ compacta = false }: { compacta?: boolean }) {
               <span className="font-semibold leading-none">{c.etiqueta}</span>
             </li>
           ))}
-          <li className="flex items-center gap-1">
-            <span
-              className="inline-flex shrink-0"
-              dangerouslySetInnerHTML={{ __html: htmlIconoPlaya("pueblo") }}
-            />
-            <span className="font-semibold leading-none">Baño</span>
-          </li>
         </ul>
       </div>
     );
@@ -48,15 +41,9 @@ export function LeyendaMar({ compacta = false }: { compacta?: boolean }) {
           </li>
         ))}
       </ul>
-      <p className="mt-1 flex items-start gap-1.5 text-[11px] leading-snug text-[var(--tinta-suave)]">
-        <span
-          className="mt-0.5 inline-flex shrink-0"
-          dangerouslySetInnerHTML={{ __html: htmlIconoPlaya("pueblo") }}
-        />
-        <span>
-          Icono de baño en el mapa (sin nombre; al pasar el ratón). Tabla: minutos a costa y a
-          baño; con + mar, el nombre de la playa.
-        </span>
+      <p className="mt-1 text-[11px] leading-snug text-[var(--tinta-suave)]">
+        En el mapa: minutos a la costa. Al pasar el ratón, playa de baño. Tabla: costa, baño; con +
+        mar, el nombre de la playa.
       </p>
     </div>
   );

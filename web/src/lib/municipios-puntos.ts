@@ -1,5 +1,5 @@
 import datos from "@/data/municipios-puntos.json";
-import { municipiosBaixoMino } from "@/lib/municipios";
+import { municipiosFicha, zonaIdDeFicha } from "@/lib/municipios";
 
 export type MunicipioPunto = {
   zonaId: string;
@@ -16,7 +16,7 @@ export function municipiosDeZona(zonaId: string): MunicipioPunto[] {
 }
 
 export function hrefMunicipio(m: MunicipioPunto): string {
-  const ficha = municipiosBaixoMino.find((x) => x.municipio === m.nombre);
-  if (ficha) return `/zona/baixo-mino/${ficha.slug}/`;
+  const ficha = municipiosFicha.find((x) => x.municipio === m.nombre);
+  if (ficha) return `/zona/${zonaIdDeFicha(ficha)}/${ficha.slug}/`;
   return `/zona/${m.zonaId}/`;
 }

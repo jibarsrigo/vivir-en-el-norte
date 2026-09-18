@@ -25,7 +25,12 @@ from . import esquema as E
 
 RAIZ = Path(__file__).resolve().parent.parent
 DIR_OSM = RAIZ / "data" / "osm"
-OVERPASS = "https://overpass-api.de/api/interpreter"
+OVERPASS_ENDPOINTS = [
+    "https://overpass.kumi.systems/api/interpreter",
+    "https://lz4.overpass-api.de/api/interpreter",
+    "https://overpass-api.de/api/interpreter",
+]
+
 
 CONSULTA = """
 [out:json][timeout:90];
@@ -115,17 +120,24 @@ def _consultar(bbox: tuple[float, float, float, float], intentos: int = 4) -> di
     q = CONSULTA.format(bbox=f"{lat0:.4f},{lon0:.4f},{lat1:.4f},{lon1:.4f}")
     datos = urllib.parse.urlencode({"data": q}).encode()
     espera = 5
-    for i in range(intentos):
-        try:
-            peticion = urllib.request.Request(OVERPASS, data=datos, headers={"User-Agent": "MAPA2/1.0 (estudio de municipios; contacto vía repositorio)"})
-            with urllib.request.urlopen(peticion, timeout=180) as r:
-                cuerpo = r.read().decode("utf-8")
-            if cuerpo.lstrip().startswith("{"):
-                return json.loads(cuerpo)
-        except Exception as exc:  # noqa: BLE001
-            print(f"   reintento {i + 1}: {exc}")
-        time.sleep(espera)
-        espera *= 2
+    n = 0
+    for ep in OVERPASS_ENDPOINTS:
+        for _ in range(intentos):
+            n += 1
+            try:
+                peticion = urllib.request.Request(
+                    ep,
+                    data=datos,
+                    headers={"User-Agent": "MAPA2/1.0 (estudio de municipios; contacto vía repositorio)"},
+                )
+                with urllib.request.urlopen(peticion, timeout=180) as r:
+                    cuerpo = r.read().decode("utf-8")
+                if cuerpo.lstrip().startswith("{"):
+                    return json.loads(cuerpo)
+            except Exception as exc:  # noqa: BLE001
+                print(f"   reintento {n} ({ep}): {exc}")
+            time.sleep(espera)
+            espera = min(espera * 2, 60)
     raise RuntimeError("Overpass no respondió")
 
 
@@ -136,6 +148,12 @@ def _poligono_municipio(municipio: str, lat: float, lon: float, pais: str):
     dentro = g[g.geometry.contains(p)]
     if len(dentro):
         return dentro.iloc[0].geometry
+    # Punto en agua / borde GADM (p. ej. Moaña): el polígono más cercano.
+    g2 = g.copy()
+    g2["_d"] = g2.geometry.distance(p)
+    near = g2.nsmallest(1, "_d")
+    if len(near) and float(near.iloc[0]["_d"]) < 0.01:
+        return near.iloc[0].geometry
     return None
 
 

@@ -649,12 +649,29 @@ body {
 }
 
 /* Agrupación visual de columnas por capa en la tabla inferior */
-.tabla-capas th.tabla-grupo-capa,
-.tabla-capas td.tabla-celda-capa {
-  border-left: 1px solid rgb(28 42 50 / 6%);
+.tabla-capas.tabla-capas--capas {
+  table-layout: fixed;
 }
 
-.tabla-capas th.tabla-grupo-capa:first-of-type,
+.tabla-capas .tabla-col-nombre {
+  width: 9.5rem;
+}
+
+.tabla-capas .tabla-col-zona {
+  width: 7.5rem;
+}
+
+.tabla-capas th.tabla-grupo-capa,
+.tabla-capas td.tabla-celda-capa,
+.tabla-capas th.tabla-col-capa {
+  border-left: 1px solid rgb(28 42 50 / 6%);
+  box-sizing: border-box;
+  min-width: 4.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.75rem;
+  vertical-align: top;
+}
+
 .tabla-capas .tabla-fijas {
   border-left: 0;
 }
@@ -674,11 +691,13 @@ body {
   letter-spacing: 0.06em;
   padding-bottom: 0.35rem;
   padding-top: 0.4rem;
+  text-align: left;
   text-transform: uppercase;
 }
 
 .tabla-capas thead .tabla-col-capa {
   border-bottom: 1px solid var(--linea);
+  text-align: left;
 }
 
 /* Capas clima/mar/avión sobre el mapa estático de ficha de municipio */

@@ -70,7 +70,7 @@ function CabeceraColumna({
 }) {
   const activa = prioridad != null;
   return (
-    <th className={`tabla-col-capa py-2 pr-3 font-semibold ${claseCapa}`}>
+    <th className={`tabla-col-capa py-2 font-semibold ${claseCapa}`}>
       <button
         type="button"
         onClick={onClick}
@@ -119,16 +119,16 @@ function TablaFilas({
       <table
         className={
           "tabla-capas w-full border-collapse text-left text-sm " +
-          (conCapas ? "min-w-[28rem]" : "")
+          (conCapas ? "tabla-capas--capas min-w-[28rem]" : "")
         }
       >
         <thead>
           <tr>
-            <th rowSpan={conCapas ? 2 : 1} className={fijas}>
-              Municipio
+            <th rowSpan={conCapas ? 2 : 1} className={`${fijas} tabla-col-nombre`}>
+              <span className="sr-only">Pueblo</span>
             </th>
             {mostrarZona ? (
-              <th rowSpan={conCapas ? 2 : 1} className={fijas}>
+              <th rowSpan={conCapas ? 2 : 1} className={`${fijas} tabla-col-zona`}>
                 Zona
               </th>
             ) : null}
@@ -136,7 +136,7 @@ function TablaFilas({
               <th
                 key={g.capa}
                 colSpan={g.columnas.length}
-                className={`tabla-grupo-capa capa-${g.capa} px-2 text-left`}
+                className={`tabla-grupo-capa capa-${g.capa} text-left`}
               >
                 <div className="flex items-center gap-1.5">
                   <span>{ETIQUETA_CAPA[g.capa]}</span>
@@ -188,19 +188,21 @@ function TablaFilas({
         <tbody>
           {filas.map((f) => (
             <tr key={f.key} className="border-b border-[var(--linea)]/70">
-              <td className="tabla-fijas py-2 pr-3 font-medium text-[var(--acento)]">
+              <td className="tabla-fijas tabla-col-nombre py-2 pr-3 font-medium text-[var(--acento)]">
                 <Link href={f.href} className="underline-offset-2 hover:underline">
                   {f.etiqueta}
                 </Link>
               </td>
               {mostrarZona ? (
-                <td className="tabla-fijas py-2 pr-3 text-[var(--tinta-suave)]">{f.zona}</td>
+                <td className="tabla-fijas tabla-col-zona py-2 pr-3 text-[var(--tinta-suave)]">
+                  {f.zona}
+                </td>
               ) : null}
               {grupos.flatMap((g) =>
                 g.columnas.map((c) => (
                   <td
                     key={c.id}
-                    className={`tabla-celda-capa capa-${g.capa} py-2 pr-3 tabular-nums text-[var(--tinta)]`}
+                    className={`tabla-celda-capa capa-${g.capa} py-2 tabular-nums text-[var(--tinta)]`}
                   >
                     {c.formato(f)}
                   </td>

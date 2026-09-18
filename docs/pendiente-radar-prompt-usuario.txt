@@ -1,0 +1,662 @@
+Sistema de gestión del proceso de compra de vivienda.
+
+# INSTRUCCIONES PARA CURSOR
+
+Analiza este documento completo.
+
+Antes de proponer ninguna solución:
+
+1. Critica los requisitos.
+2. Detecta contradicciones.
+3. Identifica riesgos.
+4. Señala qué partes están sobredimensionadas.
+5. Propón mejoras al documento.
+6. Haz únicamente las preguntas imprescindibles.
+7. Diseña el MVP más pequeño posible que aporte valor real.
+8. Diseña la arquitectura mínima necesaria para construirlo.
+9. Explica qué funcionalidades retrasarías o eliminarías inicialmente.
+
+No empieces programando.
+
+Actúa primero como arquitecto de producto y arquitecto de software.
+
+---
+
+# CONTEXTO
+
+Estoy desarrollando una web personal llamada provisionalmente:
+
+MAPA 2.0
+
+La web ya existe y está siendo construida.
+
+Tecnología actual:
+
+- GitHub Pages
+- HTML
+- CSS
+- JavaScript
+- JSON
+
+La web NO pretende ser:
+
+- una startup
+- un clon de Idealista
+- un portal inmobiliario
+- una empresa
+
+La finalidad es exclusivamente personal y familiar.
+
+---
+
+# FASE 1 (YA RESUELTA)
+
+La web ya me ayuda a responder:
+
+"¿Dónde quiero vivir?"
+
+Actualmente contiene:
+
+- mapa interactivo del norte de España y norte de Portugal
+- capas seleccionables
+- clima
+- servicios
+- hospitales
+- aeropuertos
+- comunicaciones
+- distancia a costa
+- comparativas
+
+Estoy realizando viajes físicos a las zonas y recopilando impresiones reales.
+
+El objetivo de esta primera fase es terminar con 4-10 municipios finalistas.
+
+Ejemplos:
+
+- Nigrán
+- Baiona
+- Gondomar
+- Navia
+- Tapia de Casariego
+
+(son ejemplos)
+
+---
+
+# NUEVO PROBLEMA
+
+Una vez seleccionados los municipios finalistas cambia completamente la necesidad.
+
+Ya NO quiero seguir estudiando municipios.
+
+Ahora quiero encontrar la mejor vivienda posible.
+
+Necesito una segunda parte de la aplicación.
+
+Posibles nombres:
+
+- Radar Inmobiliario
+- Oportunidades
+- Viviendas
+- Candidatos
+
+---
+
+# OBJETIVO REAL
+
+No quiero gestionar anuncios.
+
+Quiero gestionar viviendas.
+
+No quiero copiar Idealista.
+
+No quiero crear otro portal inmobiliario.
+
+Quiero centralizar la búsqueda de vivienda.
+
+---
+
+# NECESIDADES REALES
+
+## 1. Cobertura
+
+Quiero alcanzar una cobertura suficientemente alta para que la probabilidad de perder una oportunidad relevante sea mínima.
+
+Fuentes objetivo:
+
+- Idealista
+- Fotocasa
+- Yaencontre
+- Pisos.com
+- inmobiliarias locales
+- agencias pequeñas
+
+## 2. Automatización
+
+Quiero dejar de revisar manualmente decenas de webs.
+
+La aplicación debe automatizar todo lo razonablemente posible sin generar un sistema complejo o difícil de mantener.
+
+## 3. Novedades
+
+Quiero detectar:
+
+- viviendas nuevas
+- bajadas de precio
+- viviendas desaparecidas
+- oportunidades interesantes
+
+## 4. Colaboración
+
+La vivienda es para mi suegra.
+
+Yo la estoy ayudando en la búsqueda.
+
+Necesitamos poder:
+
+- guardar favoritos
+- guardar comentarios
+- comparar opiniones
+
+## 5. Multidispositivo
+
+La aplicación debe poder utilizarse desde:
+
+- ordenador
+- móvil
+
+## 6. Coste
+
+No quiero depender de múltiples servicios de pago.
+
+Actualmente ya pago Cursor.
+
+---
+
+# RESTRICCIONES
+
+No soy desarrollador web.
+
+Tengo conocimientos técnicos moderados.
+
+Utilizo Cursor como herramienta principal.
+
+Prefiero:
+
+- GitHub Pages
+- GitHub
+- JSON
+- JavaScript
+
+antes que:
+
+- backend complejo
+- Docker
+- Kubernetes
+- servidores propios
+
+---
+
+# MODELO DE DATOS FUNDAMENTAL
+
+La entidad principal NO son los anuncios.
+
+La entidad principal son las viviendas.
+
+Ejemplo:
+
+Una vivienda puede aparecer en:
+
+- Idealista
+- Fotocasa
+- Yaencontre
+- Web de una inmobiliaria
+
+y seguir siendo una única vivienda.
+
+La arquitectura debe estar centrada en:
+
+Vivienda
+↓
+Anuncios asociados
+↓
+Fuentes asociadas
+↓
+Histórico
+↓
+Comentarios
+↓
+Visitas
+↓
+Documentación
+
+---
+
+# CAPTURA DE VIVIENDAS
+
+La incorporación de viviendas debe ser extremadamente sencilla.
+
+Flujo ideal:
+
+1. Encontrar vivienda.
+2. Copiar URL.
+3. Abrir Radar.
+4. Pulsar "Añadir vivienda".
+5. Pegar URL.
+6. Importar.
+
+Fuentes típicas:
+
+- Idealista
+- Fotocasa
+- Web inmobiliaria
+
+El tiempo de incorporación debería ser inferior a 30 segundos.
+
+La facilidad de uso tiene prioridad sobre la perfección de los datos.
+
+---
+
+# INVENTARIO DE VIVIENDAS
+
+Cada vivienda debería poder almacenar:
+
+- ID interno
+- municipio
+- dirección
+- coordenadas
+- portal
+- inmobiliaria
+- fuente principal
+- URLs asociadas
+- precio actual
+- histórico de precios
+- superficie
+- habitaciones
+- fecha de detección
+- fecha de última revisión
+
+---
+
+# DETECCIÓN DE DUPLICADOS
+
+Una vivienda puede aparecer en múltiples portales.
+
+La aplicación debe intentar detectar duplicados mediante:
+
+- dirección
+- coordenadas
+- superficie
+- precio
+- fotografías
+- descripción
+- referencias
+
+Si se detectan duplicados:
+
+- consolidar en una única vivienda
+- conservar todas las URLs
+- conservar todas las fuentes
+
+El objetivo es gestionar viviendas, no anuncios.
+
+---
+
+# DETECCIÓN DE CAMBIOS
+
+La aplicación debe detectar:
+
+- nuevas viviendas
+- viviendas desaparecidas
+- cambios de precio
+- cambios relevantes
+
+---
+
+# GESTIÓN DE CANDIDATOS
+
+Estados posibles:
+
+- Nuevo
+- Revisado
+- Interesante
+- Favorito
+- Visitar
+- Finalista
+- Descartado
+- Comprada
+
+La aplicación debe mantener histórico completo de cambios.
+
+---
+
+# COLABORACIÓN
+
+Usuarios principales:
+
+- Jose
+- Suegra
+
+Usuarios potenciales:
+
+- otros familiares
+
+El sistema debe permitir:
+
+- saber quién añadió la vivienda
+- saber quién escribió cada comentario
+- saber quién modificó estados
+- mantener el histórico de actividad
+
+---
+
+# VALORACIÓN INDEPENDIENTE
+
+Ejemplo:
+
+Jose: 7/10
+Suegra: 9/10
+
+Media: 8/10
+
+La valoración de un usuario nunca debe sobrescribir la de otro.
+
+---
+
+# VISITAS
+
+Cada vivienda puede registrar:
+
+- fecha
+- asistentes
+- notas
+- observaciones
+- fotografías
+- valoración posterior
+
+---
+
+# DOCUMENTACIÓN
+
+Cada vivienda puede almacenar:
+
+- PDF
+- fotografías
+- presupuestos
+- tasaciones
+- capturas
+
+La información debe conservarse aunque desaparezca el anuncio original.
+
+---
+
+# GALERÍA PROPIA
+
+Quiero poder conservar:
+
+- fotografías descargadas
+- capturas de pantalla
+- fotografías propias
+
+aunque el anuncio desaparezca.
+
+---
+
+# FUENTE DE LA VERDAD
+
+Los portales inmobiliarios NO son la fuente de verdad.
+
+La fuente de verdad será mi propia base de datos de viviendas.
+
+Todo debe conservarse aunque el anuncio original desaparezca.
+
+---
+
+# PREFERENCIAS
+
+Quiero definir preferencias explícitas.
+
+Ejemplos:
+
+- terraza
+- ascensor
+- vistas despejadas
+- cercanía a playa
+- cercanía a hospital
+- presupuesto máximo
+
+Estas preferencias podrán utilizarse para:
+
+- ordenar viviendas
+- priorizar resultados
+- análisis futuros
+
+---
+
+# HISTÓRICO DEL MERCADO
+
+Quiero conservar:
+
+- precio inicial
+- precio actual
+- historial completo
+- número de bajadas
+- tiempo publicado
+
+La aplicación debe responder:
+
+- cuánto tiempo lleva publicada una vivienda
+- cuántas veces ha bajado
+- cuándo apareció
+- cuál fue su primer precio
+
+---
+
+# FUENTES
+
+Cada fuente debe clasificarse como:
+
+- Portal nacional
+- Portal regional
+- Inmobiliaria local
+- Agencia independiente
+
+La aplicación debe permitir:
+
+- añadir fuentes
+- desactivar fuentes
+- asociarlas a municipios
+
+---
+
+# DESCUBRIMIENTO DE FUENTES
+
+Quiero una estrategia para descubrir nuevas fuentes:
+
+- inmobiliarias locales
+- nuevas webs
+- nuevas agencias
+
+La cobertura de fuentes es más importante que la sofisticación visual.
+
+---
+
+# UBICACIÓN
+
+Cada vivienda debería intentar almacenar:
+
+- municipio
+- calle (si existe)
+- coordenadas
+- distancia a playa
+- distancia a hospital
+- distancia al centro urbano
+
+---
+
+# PRIORIZACIÓN
+
+El sistema debe ayudarme a reducir ruido.
+
+No quiero revisar cientos de viviendas.
+
+Quiero identificar rápidamente:
+
+- oportunidades excepcionales
+- viviendas alineadas con mis preferencias
+- viviendas alineadas con las preferencias de mi suegra
+
+---
+
+# COPIAS DE SEGURIDAD
+
+Toda la información importante debe poder exportarse a:
+
+- JSON
+- CSV
+- Excel
+
+No quiero quedar bloqueado por ninguna tecnología.
+
+---
+
+# PRINCIPIO DE REDUCCIÓN DE TRABAJO
+
+El éxito del sistema se medirá por el tiempo que me ahorre.
+
+Cada funcionalidad debe responder:
+
+¿Reduce trabajo o lo aumenta?
+
+Si aumenta trabajo, probablemente no debe implementarse.
+
+---
+
+# CRITERIOS DE ÉXITO
+
+Consideraré que el sistema tiene éxito si:
+
+- reduzco drásticamente el tiempo dedicado a revisar portales
+- detecto rápidamente nuevas oportunidades
+- no pierdo oportunidades relevantes
+- puedo comparar viviendas fácilmente
+- puedo justificar decisiones
+- puedo colaborar con mi familia
+- puedo conservar el conocimiento acumulado
+
+---
+
+# ORDEN DE PRIORIDAD
+
+Si existe conflicto entre funcionalidades:
+
+1. No perder oportunidades relevantes
+2. Reducir trabajo manual
+3. Simplicidad de mantenimiento
+4. Históricos y trazabilidad
+5. Automatización
+6. IA
+7. Aspecto visual
+
+La utilidad es más importante que el diseño.
+
+---
+
+# IA (NO PRIORITARIA)
+
+Posible evolución futura:
+
+"Analizar vivienda"
+
+La IA podría analizar:
+
+- descripción
+- características
+- fotografías
+
+y devolver:
+
+- fortalezas
+- debilidades
+- riesgos
+- ajuste a preferencias
+
+La IA no debe condicionar el diseño inicial.
+
+---
+
+# REALIDAD DE USO
+
+Usuarios previstos: 2-5
+
+Municipios finalistas: 4-10
+
+Viviendas simultáneas: 50-300 inicialmente
+
+Posible acumulado histórico:
+500-1000 viviendas
+
+Frecuencia de consulta:
+diaria
+
+Duración estimada:
+1-3 años
+
+Objetivo final:
+comprar una vivienda.
+
+---
+
+# PRIMERA IMPLEMENTACIÓN
+
+La V1 NO debe intentar resolver todo.
+
+Debe centrarse únicamente en:
+
+- inventario de viviendas
+- captura mediante URL
+- favoritos
+- estados
+- notas
+- novedades
+- cambios de precio
+- comparación básica
+
+Todo lo demás puede esperar.
+
+La primera implementación debe ser funcional aunque no exista automatización.
+
+Si es necesario, las viviendas podrán añadirse manualmente mediante URL.
+
+La automatización de captura puede implementarse posteriormente.
+
+
+
+---
+
+# DECISIÓN FINAL
+
+Antes de proponer cualquier arquitectura responde:
+
+1. ¿Construirías realmente este sistema de esta manera?
+
+2. Si no lo harías:
+   - explica por qué
+   - qué simplificarías
+   - qué eliminarías
+   - qué retrasarías
+   - qué cambiarías
+
+3. ¿Cuál sería el MVP más pequeño posible que ya aporte valor real?
+
+4. ¿Cuál sería la arquitectura mínima viable para conseguirlo?
+
+5. ¿Qué partes del problema parecen importantes pero aportan poco valor al usuario?
+
+6. ¿Qué funcionalidades eliminarías o retrasarías para acelerar la entrega de valor?
+
+7. ¿Qué harías diferente si este fuera tu proyecto personal?
+
+Quiero la mejor solución real, no la solución más impresionante técnicamente.
+
+Si detectas que alguna parte del documento es innecesaria, está sobredimensionada o contradice el objetivo principal, señálalo claramente y propón una alternativa más simple.

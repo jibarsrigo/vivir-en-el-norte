@@ -18,7 +18,7 @@ const sans = Source_Sans_3({
 export const metadata: Metadata = {
   title: "Vivir en el norte",
   description:
-    "Cerca del mar - El mejor clima de cada zona.",
+    "Mapa y fichas para elegir dónde vivir en el norte de España y el norte de Portugal, comparado con Mallorca.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

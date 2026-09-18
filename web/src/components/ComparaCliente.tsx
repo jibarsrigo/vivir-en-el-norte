@@ -8,6 +8,7 @@ import {
   useRef,
   useState,
   startTransition,
+  type ReactNode,
 } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
@@ -49,6 +50,143 @@ function CifrasHit({ hit }: { hit: HitBuscaMunicipio }) {
       Hospital {hit.hospitalMin} min · {hit.precioM2.toLocaleString("es-ES")} €/m² · S
       {hit.servicios}
     </span>
+  );
+}
+
+function BloqueEncajaColapsable({
+  id,
+  titulo,
+  abierto,
+  onToggle,
+  children,
+}: {
+  id: string;
+  titulo: string;
+  abierto: boolean;
+  onToggle: () => void;
+  children: ReactNode;
+}) {
+  return (
+    <div className="mt-2">
+      <button
+        type="button"
+        aria-expanded={abierto}
+        aria-controls={id}
+        onClick={onToggle}
+        className="flex w-full items-center gap-2 text-left"
+      >
+        <span className="text-xs font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
+          {titulo}
+        </span>
+        <span
+          className="ml-auto flex h-6 w-6 shrink-0 items-center justify-center rounded border border-[var(--linea)] text-base leading-none text-[var(--tinta)]"
+          aria-hidden
+        >
+          {abierto ? "−" : "+"}
+        </span>
+      </button>
+      {abierto ? (
+        <div id={id} className="mt-1.5">
+          {children}
+        </div>
+      ) : null}
+    </div>
+  );
+}
+
+function BloqueParaDecidirte({ filas }: { filas: FilaCompara[] }) {
+  const [abiertos, setAbiertos] = useState<ReadonlySet<string>>(() => new Set());
+
+  function toggle(key: string) {
+    setAbiertos((prev) => {
+      const next = new Set(prev);
+      if (next.has(key)) next.delete(key);
+      else next.add(key);
+      return next;
+    });
+  }
+
+  return (
+    <div className="mt-8">
+      <h3 className="font-[family-name:var(--font-serif)] text-xl text-[var(--acento)]">
+        Para decidirte
+      </h3>
+      <p className="mt-1 text-sm text-[var(--tinta-suave)]">
+        Solo los títulos a la vista. Pulsa + en Encaja si, Mejor no si o Veredicto para leer el
+        texto.
+      </p>
+      <ul className="mt-4 space-y-3">
+        {filas.map((f) => (
+          <li
+            key={f.slug}
+            className="rounded-lg border border-[var(--linea)] bg-white px-4 py-3"
+          >
+            <Link
+              href={f.href}
+              className="font-semibold text-[var(--acento)] underline-offset-2 hover:underline"
+            >
+              {f.nombre}
+            </Link>
+            {f.escala ? (
+              <span className="mt-0.5 block text-xs text-[var(--tinta-suave)]">{f.escala}</span>
+            ) : null}
+
+            {f.encajaSi.length > 0 ? (
+              <BloqueEncajaColapsable
+                id={`encaja-si-${f.slug}`}
+                titulo="Encaja si"
+                abierto={abiertos.has(`${f.slug}:si`)}
+                onToggle={() => toggle(`${f.slug}:si`)}
+              >
+                {f.encajaSi.map((p, i) => (
+                  <p
+                    key={`si-${i}`}
+                    className="mt-1.5 text-[15px] leading-relaxed text-[var(--tinta)] first:mt-0"
+                  >
+                    {p}
+                  </p>
+                ))}
+              </BloqueEncajaColapsable>
+            ) : null}
+
+            {f.encajaNo.length > 0 ? (
+              <BloqueEncajaColapsable
+                id={`encaja-no-${f.slug}`}
+                titulo="Mejor no si"
+                abierto={abiertos.has(`${f.slug}:no`)}
+                onToggle={() => toggle(`${f.slug}:no`)}
+              >
+                {f.encajaNo.map((p, i) => (
+                  <p
+                    key={`no-${i}`}
+                    className="mt-1.5 text-[15px] leading-relaxed text-[var(--tinta)] first:mt-0"
+                  >
+                    {p}
+                  </p>
+                ))}
+              </BloqueEncajaColapsable>
+            ) : null}
+
+            {f.encajaVeredicto ? (
+              <BloqueEncajaColapsable
+                id={`encaja-veredicto-${f.slug}`}
+                titulo="Veredicto"
+                abierto={abiertos.has(`${f.slug}:veredicto`)}
+                onToggle={() => toggle(`${f.slug}:veredicto`)}
+              >
+                <p className="text-[15px] leading-relaxed text-[var(--tinta)]">
+                  {f.encajaVeredicto}
+                </p>
+              </BloqueEncajaColapsable>
+            ) : null}
+
+            {!f.encajaSi.length && !f.encajaNo.length && !f.encajaVeredicto ? (
+              <p className="mt-2 text-sm text-[var(--tinta-suave)]">Sin balance en el relato.</p>
+            ) : null}
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }
 
@@ -125,80 +263,7 @@ function MesaCompara({ filas }: { filas: FilaCompara[] }) {
         despejados).
       </p>
 
-      <div className="mt-8">
-        <h3 className="font-[family-name:var(--font-serif)] text-xl text-[var(--acento)]">
-          Para decidirte
-        </h3>
-        <p className="mt-1 text-sm text-[var(--tinta-suave)]">
-          Esto te ayuda a elegir: para quién sí encaja cada pueblo, para quién mejor no, y un
-          veredicto claro.
-        </p>
-        <ul className="mt-4 space-y-6">
-          {filas.map((f) => (
-            <li
-              key={f.slug}
-              className="rounded-lg border border-[var(--linea)] bg-white px-4 py-4"
-            >
-              <Link
-                href={f.href}
-                className="font-semibold text-[var(--acento)] underline-offset-2 hover:underline"
-              >
-                {f.nombre}
-              </Link>
-              {f.escala ? (
-                <span className="mt-0.5 block text-xs text-[var(--tinta-suave)]">{f.escala}</span>
-              ) : null}
-
-              {f.encajaSi.length > 0 ? (
-                <div className="mt-3">
-                  <p className="text-xs font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
-                    Encaja si
-                  </p>
-                  {f.encajaSi.map((p, i) => (
-                    <p
-                      key={`si-${i}`}
-                      className="mt-1.5 text-[15px] leading-relaxed text-[var(--tinta)]"
-                    >
-                      {p}
-                    </p>
-                  ))}
-                </div>
-              ) : null}
-
-              {f.encajaNo.length > 0 ? (
-                <div className="mt-3">
-                  <p className="text-xs font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
-                    Mejor no si
-                  </p>
-                  {f.encajaNo.map((p, i) => (
-                    <p
-                      key={`no-${i}`}
-                      className="mt-1.5 text-[15px] leading-relaxed text-[var(--tinta)]"
-                    >
-                      {p}
-                    </p>
-                  ))}
-                </div>
-              ) : null}
-
-              {f.encajaVeredicto ? (
-                <div className="mt-3">
-                  <p className="text-xs font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
-                    Veredicto
-                  </p>
-                  <p className="mt-1.5 text-[15px] leading-relaxed text-[var(--tinta)]">
-                    {f.encajaVeredicto}
-                  </p>
-                </div>
-              ) : null}
-
-              {!f.encajaSi.length && !f.encajaNo.length && !f.encajaVeredicto ? (
-                <p className="mt-2 text-sm text-[var(--tinta-suave)]">Sin balance en el relato.</p>
-              ) : null}
-            </li>
-          ))}
-        </ul>
-      </div>
+      <BloqueParaDecidirte filas={filas} />
     </section>
   );
 }

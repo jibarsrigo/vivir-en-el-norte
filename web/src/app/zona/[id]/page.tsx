@@ -21,6 +21,7 @@ import RelatoCantabriaOriental from "@/components/RelatoCantabriaOriental";
 import RelatoAltoMinho from "@/components/RelatoAltoMinho";
 import RelatoLitoralNorte from "@/components/RelatoLitoralNorte";
 import { municipiosDeZona } from "@/lib/municipios-puntos";
+import { rutaPublica } from "@/lib/ruta-publica";
 import { mallorca, zonaPorId, zonas, type Zona } from "@/lib/zonas";
 
 export function generateStaticParams() {

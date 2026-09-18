@@ -34,10 +34,10 @@ export type FilaCompara = {
   aeropuertoMin: number | null;
   aeroCercano: string | null;
   palma: string | null;
-  /** Resumen del «encaja si» del relato. */
-  encajaSiCorto: string;
-  /** Resumen del «no encaja» del relato. */
-  encajaNoCorto: string;
+  /** Párrafos completos del Encaja de la ficha. */
+  encajaSi: string[];
+  encajaNo: string[];
+  encajaVeredicto: string;
 };
 
 export const MALLORCA_REF = {
@@ -49,42 +49,6 @@ export const MALLORCA_REF = {
 function zonaNombreDe(zonaId: string, fichaZona: string): string {
   const z = zonas.find((x) => x.id === zonaId);
   return (z?.zona ?? fichaZona).replace(" (PT)", "");
-}
-
-function fraseEncajaCorta(
-  textos: string[],
-  prefijos: RegExp[],
-  maxLen = 220,
-): string {
-  const t = (textos[0] ?? "").trim();
-  if (!t) return "";
-  let body = t;
-  for (const re of prefijos) {
-    const next = body.replace(re, "");
-    if (next !== body) {
-      body = next;
-      break;
-    }
-  }
-  if (body !== t && body.length > 0) {
-    body = body.charAt(0).toUpperCase() + body.slice(1);
-  }
-  const frase = body.split(/(?<=[.!?])\s+/)[0] ?? body;
-  return frase.length > maxLen ? `${frase.slice(0, maxLen - 1).trim()}…` : frase;
-}
-
-function encajaSiCortoDe(si: string[]): string {
-  return fraseEncajaCorta(si, [
-    /^También encaja\s+(si\s+|para\s+)/i,
-    /^Encaja si\s+/i,
-  ]);
-}
-
-function encajaNoCortoDe(no: string[]): string {
-  return fraseEncajaCorta(no, [
-    /^Tampoco (si\s+|encaja si\s+)/i,
-    /^No encaja si\s+/i,
-  ]);
 }
 
 export function filaCompara(slug: string): FilaCompara | undefined {
@@ -118,8 +82,9 @@ export function filaCompara(slug: string): FilaCompara | undefined {
     aeropuertoMin: avion?.aeropuertoMin ?? f.aeropuertoMin ?? null,
     aeroCercano: avion?.aeroCercano ?? null,
     palma: avion ? etiquetaPalmaCorta(avion.palmaMasCercano) : null,
-    encajaSiCorto: relato ? encajaSiCortoDe(relato.encaja.si) : "",
-    encajaNoCorto: relato ? encajaNoCortoDe(relato.encaja.no) : "",
+    encajaSi: relato?.encaja.si ?? [],
+    encajaNo: relato?.encaja.no ?? [],
+    encajaVeredicto: relato?.encaja.veredicto ?? "",
   };
 }
 

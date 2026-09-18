@@ -58,12 +58,12 @@ function MesaCompara({ filas }: { filas: FilaCompara[] }) {
   return (
     <section className="mt-10">
       <h2 className="font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">
-        Mesa de contraste
+        Pueblo a pueblo
       </h2>
       <p className="mt-1 max-w-3xl text-sm text-[var(--tinta-suave)]">
-        Cifras de la tabla maestra entre estos pueblos: clima, baño, precio, servicios, hospital y
-        vuelo. El tono suave marca el valor más favorable de cada criterio (cuando aplica). Debajo,
-        el balance del relato resume para quién sí y para quién no.
+        Misma fila, pueblos distintos: clima, baño, precio, servicios, hospital y vuelo. El tono
+        suave marca el valor más favorable de cada criterio. Debajo, «Para decidirte» cuenta para
+        quién sí y para quién no.
       </p>
       <div className="mt-4 overflow-x-auto rounded-lg border border-[var(--linea)] bg-white">
         <table className="min-w-full border-collapse text-left text-sm">
@@ -127,16 +127,17 @@ function MesaCompara({ filas }: { filas: FilaCompara[] }) {
 
       <div className="mt-8">
         <h3 className="font-[family-name:var(--font-serif)] text-xl text-[var(--acento)]">
-          Balance del relato
+          Para decidirte
         </h3>
         <p className="mt-1 text-sm text-[var(--tinta-suave)]">
-          Lo bueno y lo malo según la ficha de cada pueblo (no repite las cifras de arriba).
+          Esto te ayuda a elegir: para quién sí encaja cada pueblo, para quién mejor no, y un
+          veredicto claro.
         </p>
-        <ul className="mt-4 space-y-4">
+        <ul className="mt-4 space-y-6">
           {filas.map((f) => (
             <li
               key={f.slug}
-              className="rounded-lg border border-[var(--linea)] bg-white px-4 py-3"
+              className="rounded-lg border border-[var(--linea)] bg-white px-4 py-4"
             >
               <Link
                 href={f.href}
@@ -147,19 +148,51 @@ function MesaCompara({ filas }: { filas: FilaCompara[] }) {
               {f.escala ? (
                 <span className="mt-0.5 block text-xs text-[var(--tinta-suave)]">{f.escala}</span>
               ) : null}
-              {f.encajaSiCorto ? (
-                <p className="mt-2 text-[15px] leading-snug text-[var(--tinta)]">
-                  <span className="font-semibold text-[var(--tinta)]">Encaja si </span>
-                  {f.encajaSiCorto.charAt(0).toLowerCase() + f.encajaSiCorto.slice(1)}
-                </p>
+
+              {f.encajaSi.length > 0 ? (
+                <div className="mt-3">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
+                    Encaja si
+                  </p>
+                  {f.encajaSi.map((p, i) => (
+                    <p
+                      key={`si-${i}`}
+                      className="mt-1.5 text-[15px] leading-relaxed text-[var(--tinta)]"
+                    >
+                      {p}
+                    </p>
+                  ))}
+                </div>
               ) : null}
-              {f.encajaNoCorto ? (
-                <p className="mt-1.5 text-[15px] leading-snug text-[var(--tinta)]">
-                  <span className="font-semibold text-[var(--tinta)]">Mejor no si </span>
-                  {f.encajaNoCorto.charAt(0).toLowerCase() + f.encajaNoCorto.slice(1)}
-                </p>
+
+              {f.encajaNo.length > 0 ? (
+                <div className="mt-3">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
+                    Mejor no si
+                  </p>
+                  {f.encajaNo.map((p, i) => (
+                    <p
+                      key={`no-${i}`}
+                      className="mt-1.5 text-[15px] leading-relaxed text-[var(--tinta)]"
+                    >
+                      {p}
+                    </p>
+                  ))}
+                </div>
               ) : null}
-              {!f.encajaSiCorto && !f.encajaNoCorto ? (
+
+              {f.encajaVeredicto ? (
+                <div className="mt-3">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
+                    Veredicto
+                  </p>
+                  <p className="mt-1.5 text-[15px] leading-relaxed text-[var(--tinta)]">
+                    {f.encajaVeredicto}
+                  </p>
+                </div>
+              ) : null}
+
+              {!f.encajaSi.length && !f.encajaNo.length && !f.encajaVeredicto ? (
                 <p className="mt-2 text-sm text-[var(--tinta-suave)]">Sin balance en el relato.</p>
               ) : null}
             </li>

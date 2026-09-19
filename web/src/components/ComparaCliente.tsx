@@ -305,15 +305,67 @@ function MesaCompara({ filas }: { filas: FilaCompara[] }) {
             })}
           </tbody>
         </table>
+        <div className="border-t border-[var(--linea)] bg-[#f5f6f7] px-3 py-3 sm:px-4">
+          <dl className="grid grid-cols-2 gap-x-6 gap-y-1.5 [&_dd]:m-0 [&_dt]:m-0">
+            <div className="min-w-0 text-[11px] leading-snug">
+              <dt className="inline font-semibold text-[var(--tinta)]">Sol / Despejados</dt>
+              <dd className="inline text-[var(--tinta-suave)]">
+                {" "}
+                — Horas de sol y días de cielo claro al año.
+              </dd>
+            </div>
+            <div className="min-w-0 text-[11px] leading-snug">
+              <dt className="inline font-semibold text-[var(--tinta)]">Lluvia</dt>
+              <dd className="inline text-[var(--tinta-suave)]">
+                {" "}
+                — Días al año; debajo, días/mes de octubre a marzo.
+              </dd>
+            </div>
+            <div className="min-w-0 text-[11px] leading-snug">
+              <dt className="inline font-semibold text-[var(--tinta)]">vs Mallorca</dt>
+              <dd className="inline text-[var(--tinta-suave)]">
+                {" "}
+                — % de sol y despejados frente a la isla.
+              </dd>
+            </div>
+            <div className="min-w-0 text-[11px] leading-snug">
+              <dt className="inline font-semibold text-[var(--tinta)]">Baño</dt>
+              <dd className="inline text-[var(--tinta-suave)]">
+                {" "}
+                — Minutos en coche hasta la playa de referencia.
+              </dd>
+            </div>
+            <div className="min-w-0 text-[11px] leading-snug">
+              <dt className="inline font-semibold text-[var(--tinta)]">Precio</dt>
+              <dd className="inline text-[var(--tinta-suave)]">
+                {" "}
+                — €/m² y, si hay, piso de 3 hab. en franja asequible.
+              </dd>
+            </div>
+            <div className="min-w-0 text-[11px] leading-snug">
+              <dt className="inline font-semibold text-[var(--tinta)]">Servicios</dt>
+              <dd className="inline text-[var(--tinta-suave)]">
+                {" "}
+                — Vida diaria 1–10 (tiendas, farmacia, súper, colegio…). Sin hospital ni aeropuerto.
+              </dd>
+            </div>
+            <div className="min-w-0 text-[11px] leading-snug">
+              <dt className="inline font-semibold text-[var(--tinta)]">Hospital</dt>
+              <dd className="inline text-[var(--tinta-suave)]">
+                {" "}
+                — Minutos al hospital público de referencia.
+              </dd>
+            </div>
+            <div className="min-w-0 text-[11px] leading-snug">
+              <dt className="inline font-semibold text-[var(--tinta)]">Aeropuerto</dt>
+              <dd className="inline text-[var(--tinta-suave)]">
+                {" "}
+                — Minutos al más cercano y vuelo a Palma (Año / Casi siempre / solo Verano / No).
+              </dd>
+            </div>
+          </dl>
+        </div>
       </div>
-      <p className="mt-2 text-xs text-[var(--tinta-suave)]">
-        Baño: minutos en coche hasta la playa de referencia del estudio, con su nombre; «en el
-        municipio» o «fuera» según si esa playa está dentro del ayuntamiento. Primera fila de
-        lluvia: días al año. Segunda (Octubre-Marzo): días de lluvia al mes en ese tramo (dato de
-        la zona; Mallorca {MALLORCA_REF.lluviaOctMar} días/mes). «vs Mallorca»: % de sol y
-        despejados frente a la isla ({MALLORCA_REF.solHoras.toLocaleString("es-ES")} h ·{" "}
-        {MALLORCA_REF.despejados} días despejados).
-      </p>
 
       <BloqueParaDecidirte filas={filas} />
     </section>

@@ -37,8 +37,8 @@ export function tramoAvion(min: number): TramoAvion {
 
 export function etiquetaPalmaCorta(p: PalmaCategoria): string {
   if (p === "Todo el año") return "Año";
-  if (p === "Casi todo el año") return "Casi";
-  if (p === "Verano") return "Verano";
+  if (p === "Casi todo el año") return "Casi siempre";
+  if (p === "Verano") return "solo Verano";
   return "No";
 }
 

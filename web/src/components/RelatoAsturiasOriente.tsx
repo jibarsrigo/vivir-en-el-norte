@@ -163,7 +163,7 @@ export default function RelatoAsturiasOriente({ zona }: { zona: Zona }) {
         <P>
           Conviene probar la calle elegida en fiestas, en un agosto de Llanes o Ribadesella y en
           un martes de cielo cubierto —el contraste entre temporada y noviembre explica mejor la
-          zona que cualquier postal—.
+          zona que cualquier foto de turismo—.
         </P>
         <Foto
           src="/fotos/asturias-oriente/zona-picos.jpg"

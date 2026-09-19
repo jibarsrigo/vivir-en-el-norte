@@ -166,7 +166,7 @@ export default function RelatoCantabriaOriental({ zona }: { zona: Zona }) {
         <P>
           Conviene probar la calle elegida en fiestas, en un agosto de Noja o Laredo y en un
           martes de cielo cubierto —el contraste entre temporada y noviembre explica mejor la zona
-          que cualquier postal de Buciero—.
+          que cualquier foto del Buciero—.
         </P>
         <Foto
           src="/fotos/cantabria-oriental/zona-castro.jpg"

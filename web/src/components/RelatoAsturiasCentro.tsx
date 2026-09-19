@@ -36,7 +36,7 @@ export default function RelatoAsturiasCentro({ zona }: { zona: Zona }) {
           Asturias, en Santiago del Monte (Castrillón), está a unos diez minutos de Salinas.
         </P>
         <P>
-          Cudillero es el pueblo colgado de postal sobre el puerto. Muros de Nalón y Soto del
+          Cudillero es el pueblo colgado de foto turística sobre el puerto. Muros de Nalón y Soto del
           Barco miran el estuario tranquilo del Nalón —valle fluvial inundado por el mar—.
           Salinas, en el concejo de Castrillón, es la villa-playa residencial de chalés y casas
           bajas junto a Avilés. Luanco (Gozón) y Candás (Carreño) son villas marineras del Cabo
@@ -157,7 +157,7 @@ export default function RelatoAsturiasCentro({ zona }: { zona: Zona }) {
         <P>
           Las patronales locales y el verano en playa y puerto marcan el impacto al vivir:
           ruido, afluencia y aparcamiento justo unos días o semanas. Cudillero se elige por la
-          postal del pueblo colgado; Salinas, por el paseo residencial; Luanco y Candás, por
+          foto típica del pueblo colgado; Salinas, por el paseo residencial; Luanco y Candás, por
           villa marinera entre Avilés y Gijón.
         </P>
         <P>
@@ -233,9 +233,9 @@ export default function RelatoAsturiasCentro({ zona }: { zona: Zona }) {
         ]}
         no={[
           `Se necesita el cielo de Baleares: Asturias Centro tiene ${zona.lluviaDias} días de lluvia, ${zona.despejados} despejados y ${zona.cubiertos} cubiertos, frente a ${mallorca.lluviaDias} y ${mallorca.despejados} en Mallorca. El verano sigue trayendo lluvia varios días al mes.`,
-          "Se busca aire limpio garantizado junto a la siderurgia de Avilés o a Aboño, o calma total en el pueblo colgado de Cudillero en temporada. Cudillero encanta para visitar; para vivir suele pesar más la cuesta y el visitante de día que la postal.",
+          "Se busca aire limpio garantizado junto a la siderurgia de Avilés o a Aboño, o calma total en el pueblo colgado de Cudillero en temporada. Cudillero encanta para visitar; para vivir suele pesar más la cuesta y el visitante de día que la foto bonita.",
         ]}
-        veredicto="Veredicto de zona: Asturias Centro gana por aeropuerto, hospitales y ciudades a diez o treinta minutos, no por sol. Si la logística manda, Salinas es la apuesta práctica —villa de casas bajas junto a la playa, San Agustín y el aeropuerto a diez minutos—, aceptando la siderurgia a unos tres kilómetros según el viento. Luanco y Candás aportan villa marinera; Gijón, ciudad completa (Somió, si se busca casas bajas cerca de la playa); Muros y Soto, estuario y precio; Cudillero, postal —mejor visitarla o vivir arriba, en El Pito—. Antes de elegir, probaría un noviembre cubierto, un día con viento del sur cerca de Avilés o Aboño y un agosto en Cudillero o San Lorenzo."
+        veredicto="Veredicto de zona: Asturias Centro gana por aeropuerto, hospitales y ciudades a diez o treinta minutos, no por sol. Si la logística manda, Salinas es la apuesta práctica —villa de casas bajas junto a la playa, San Agustín y el aeropuerto a diez minutos—, aceptando la siderurgia a unos tres kilómetros según el viento. Luanco y Candás aportan villa marinera; Gijón, ciudad completa (Somió, si se busca casas bajas cerca de la playa); Muros y Soto, estuario y precio; Cudillero, pueblo de foto —mejor visitarla o vivir arriba, en El Pito—. Antes de elegir, probaría un noviembre cubierto, un día con viento del sur cerca de Avilés o Aboño y un agosto en Cudillero o San Lorenzo."
       />
 
       <MunicipiosZonaFin

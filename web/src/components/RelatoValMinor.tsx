@@ -99,7 +99,7 @@ export default function RelatoValMinor({ zona }: { zona: Zona }) {
       <section>
         <H2>Cómo se vive</H2>
         <P>
-          Un martes de noviembre enseña el lugar mejor que una postal. En Baiona hay persianas
+          Un martes de noviembre enseña el lugar mejor que una foto de turismo. En Baiona hay persianas
           abiertas, mercado, puerto y gente haciendo recados por el casco; la villa baja el volumen,
           pero no desaparece. En Nigrán la vida se reparte entre A Ramallosa, Panxón y las
           parroquias: colegio, supermercado, gimnasio y coche entre casas bajas. En Gondomar el

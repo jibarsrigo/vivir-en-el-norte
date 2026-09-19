@@ -66,7 +66,7 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
           templa—, sino porque el cielo se comporta distinto. Aquí hay unos {zona.despejados} días
           despejados al año; en Mallorca, {mallorca.despejados}. El sol suma{" "}
           {zona.solHoras.toLocaleString("es-ES")} horas frente a las{" "}
-          {mallorca.solHoras.toLocaleString("es-ES")} de allí. La diferencia se come casi toda entre
+          {mallorca.solHoras.toLocaleString("es-ES")} de allí. La diferencia se nota casi toda entre
           noviembre y febrero: mañanas grises, terraza que se usa la mitad o menos. De junio a
           septiembre, en cambio, la diferencia se estrecha. En verano la terraza se usa. El cuerpo
           lo nota.
@@ -94,7 +94,7 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
           El viento es medio en A Guarda —la punta está expuesta al noroeste— y bajo en el valle.
           La niebla es baja en la costa; en Tui y Tomiño, mañanas de niebla de río que borran el
           mundo hasta media mañana y luego lo devuelven. No es drama. Es el clima de frontera
-          atlántica, y conviene vivirlo un noviembre antes de firmar.
+          atlántica, y conviene vivirlo un noviembre antes de comprar.
         </P>
         <p className="mt-4 max-w-2xl font-semibold text-[var(--calor)]">
           El calor aprieta en julio y agosto en el interior (Tui, Tomiño). En A Guarda y Oia, unos
@@ -121,14 +121,14 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
           Grande; el parking junto al paseo se queda corto; la PO-552, dos carriles de costa, va
           lenta entre quien baja a la playa y quien vuelve con arena. O Rosal no se satura: sigue
           siendo valle, parra, ritmo de siempre. Tui calienta en el fondo del río —el calor de
-          valle que en la costa casi no existe— y el goteo del Camino no para. Tomiño, en la vega,
+          valle que en la costa casi no existe— y la llegada constante de peregrinos del Camino no para. Tomiño, en la vega,
           siente ese mismo calor; Goián se llena un poco más los sábados porque medio Baixo Miño
           cruza a la feria de Cerveira. Oia mira el Atlántico con más gente en las casas de costa,
           pero el silencio de las aldeas interiores no desaparece del todo.
         </P>
         <P>
           Entre noviembre y agosto está el año de verdad —el que decide si uno se queda—. Un día
-          laborable cualquiera no es postal: es farmacia, pan, colegio, centro de salud, el súper
+          laborable cualquiera no es una foto de turismo: es farmacia, pan, colegio, centro de salud, el súper
           o el mercado, y la pregunta de si eso se hace a pie o en coche. En A Guarda y en Tui se
           puede bajar andando a casi todo lo diario; en O Calvario también, si vives cerca de la
           plaza. En Tomiño y en Oia el volante abre la semana: el pan puede estar cerca, el
@@ -144,7 +144,7 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
           tiene su bar.
         </P>
         <P>
-          La semana tiene también sus anclas. A Guarda conserva mercado diario; Tui, mercadillo
+          La semana tiene también sus rutinas claras. A Guarda conserva mercado diario; Tui, mercadillo
           los jueves; Cerveira, la gran feria de los sábados al otro lado del puente. Después
           llega el calendario mayor: el vino de O Rosal a mediados de julio, los curros de la
           Groba entre mayo y junio, San Telmo en Tui desde Semana Santa hasta el lunes siguiente
@@ -156,11 +156,11 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
         <P>
           Primavera y otoño merecen su propio párrafo. En mayo el valle se pone casi imposible de
           verde, la Groba suelta los garranos hacia los curros, y el Atlántico aún muerde si te
-          metes. En octubre empieza el aprendizaje de la lluvia seria: no el chaparrón breve, sino
+          metes. En octubre empieza la lluvia de verdad: no el chaparrón breve, sino
           el agua que empapa el circuito de molinos del Folón, en O Rosal, y te enseña, si miras bien
           las paredes, si esa casa aguanta
-          la humedad. Quien solo conozca agosto se quedará con la foto bonita del paisaje; quien haya visto un octubre y
-          un noviembre decidirá —o no— si quiere vivir aquí.
+          la humedad. Si solo conoces agosto, te llevas la imagen de folleto del paisaje. Si has visto un octubre y
+          un noviembre, ya puedes decidir si de verdad quieres vivir aquí.
         </P>
         <P>
           Al final la pregunta que importa más que el sol es esta: ¿quieres calle que una, o
@@ -184,7 +184,7 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
         <P>
           Area Grande, en A Guarda, es la playa de diario de la punta. Queda a pie desde el casco:
           poco más de un kilómetro, cuatro minutos andando cuesta abajo hacia el océano. Es una
-          cala de arena fina, abrigada entre rocas, con el Monte Santa Trega detrás como telón. En un
+          cala de arena fina, abrigada entre rocas, con el Monte Santa Trega detrás de fondo. En un
           martes de junio puedes tener casi toda la arena; un domingo de agosto el aparcamiento
           junto al paseo marítimo se queda corto y hay que buscar sitio con paciencia. Es playa de gente
           local, de baño corto y de vuelta al café del puerto.
@@ -294,7 +294,7 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
           El Folón, con lluvia fina, se vuelve musgo y regueros: casi mejor que con sol seco. Con
           chaparrón cerrado, mejor otro plan —un café en O Calvario, el paseo bajo los soportales
           de Tui, Portugal a un puente—. La lluvia aquí no es defecto del folleto; es el precio del
-          verde. Quien la acepte vivirá el valle. Quien la negocie solo en agosto se decidirá sin conocer el invierno.
+          verde. Quien acepte el valle vivirá bien aquí. Quien solo lo mire en agosto se decidirá sin haber visto el invierno.
         </P>
         <Foto src="/fotos/baixo-mino/rosal-folon-vista.jpg" pie="Muíños do Folón: aún más vivos con lluvia fina" />
       </section>

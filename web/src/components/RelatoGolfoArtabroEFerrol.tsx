@@ -160,7 +160,7 @@ export default function RelatoGolfoArtabroEFerrol({ zona }: { zona: Zona }) {
           Marineda City, El Corte Inglés—. Las fiestas de María Pita, en torno a agosto, llenan el
           centro con música, actos y mucha gente: quien viva junto al recorrido nota ruido, cortes y
           aparcamiento difícil. San Juan enciende hogueras en la orilla; las noches de junio piden
-          probar la calle antes de firmar.
+          probar la calle antes de comprar.
         </P>
         <P>
           Oleiros y Sada encadenan verbenas de verano y veraneo hacia Santa Cristina, Mera y

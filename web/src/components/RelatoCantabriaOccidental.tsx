@@ -124,7 +124,7 @@ export default function RelatoCantabriaOccidental({ zona }: { zona: Zona }) {
       <section>
         <H2>Mar, dunas y camino</H2>
         <P>
-          En San Vicente, la ría con los Picos al fondo —la postal más citada de Cantabria—, el
+          En San Vicente, la ría con los Picos al fondo —la foto más citada de Cantabria—, el
           puente de la Maza, Merón —playa de unos cuatro kilómetros— y Oyambre —parque natural—
           cubren orilla y paseo. Comillas aporta playa a dos minutos del casco, Oyambre cercano y
           Santillana del Mar a unos quince minutos. Suances une La Concha —larga, familiar—, Los
@@ -171,7 +171,7 @@ export default function RelatoCantabriaOccidental({ zona }: { zona: Zona }) {
         <P>
           Conviene probar la calle elegida en fiestas, en un agosto de Comillas o San Vicente y en
           un martes de cielo cubierto —el contraste entre temporada y noviembre explica mejor la
-          zona que cualquier postal de ría con Picos—.
+          zona que cualquier foto de ría con Picos—.
         </P>
         <Foto
           src="/fotos/cantabria-occidental/zona-sardinero.jpg"
@@ -244,7 +244,7 @@ export default function RelatoCantabriaOccidental({ zona }: { zona: Zona }) {
           `Se necesita el cielo de Baleares: Cantabria Occidental tiene ${zona.lluviaDias} días de lluvia, ${zona.despejados} despejados y ${zona.cubiertos} cubiertos, frente a ${mallorca.lluviaDias} y ${mallorca.despejados} en Mallorca. Es uno de los climas más opuestos a Mallorca de toda la tabla.`,
           "Se buscan tres habitaciones en Comillas o Santander dentro de la franja asequible habitual, calma turística en Comillas y San Vicente en verano, hospital cerca desde San Vicente (unos cuarenta minutos) o montaña detrás de casa en Liencres y Santander —los Picos quedan a una hora—.",
         ]}
-        veredicto="Veredicto de zona: Cantabria Occidental gana por logística y seguridad —Valdecilla, vuelo a Palma casi todo el año, Piélagos al mínimo de la tabla—, no por sol. Si un día hospital y aeropuerto pesan más que el cielo balear, Liencres o Mortera son la apuesta más equilibrada; Suances, villa-playa con Torrelavega a quince; San Vicente, la postal de ría y Picos a cambio de hospital y aeropuerto a cuarenta o cuarenta y cinco; Comillas, villa-museo cara y muy cuidada, muy tranquila en invierno; Santander, ciudad de referencia. Antes de elegir, probaría un noviembre cubierto y un agosto en Comillas, San Vicente o el Sardinero."
+        veredicto="Veredicto de zona: Cantabria Occidental gana por logística y seguridad —Valdecilla, vuelo a Palma casi todo el año, Piélagos al mínimo de la tabla—, no por sol. Si un día hospital y aeropuerto pesan más que el cielo balear, Liencres o Mortera son la apuesta más equilibrada; Suances, villa-playa con Torrelavega a quince; San Vicente, la foto típica de ría y Picos a cambio de hospital y aeropuerto a cuarenta o cuarenta y cinco; Comillas, villa-museo cara y muy cuidada, muy tranquila en invierno; Santander, ciudad de referencia. Antes de elegir, probaría un noviembre cubierto y un agosto en Comillas, San Vicente o el Sardinero."
       />
 
       <MunicipiosZonaFin

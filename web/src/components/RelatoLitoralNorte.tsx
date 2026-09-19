@@ -101,7 +101,7 @@ export default function RelatoLitoralNorte({ zona }: { zona: Zona }) {
         <P>
           Conviene probar la calle elegida en un agosto de Póvoa o Vila do Conde y en un martes de
           cielo cubierto: el contraste entre temporada y noviembre explica mejor la zona que
-          cualquier postal de dunas.
+          cualquier foto de dunas.
         </P>
         <Foto
           src="/fotos/litoral-norte/zona-ofir.jpg"
@@ -114,7 +114,7 @@ export default function RelatoLitoralNorte({ zona }: { zona: Zona }) {
         <P>
           El Parque Natural do Litoral Norte —pasarelas de madera sobre dunas, unos dieciséis
           kilómetros entre Apúlia y la Foz do Cávado— es el paseo de referencia. Los molinos de
-          Apúlia marcan la postal de dunas; el estuario del Cávado en Esposende aporta la orilla
+          Apúlia marcan la foto de dunas; el estuario del Cávado en Esposende aporta la orilla
           abrigada.
         </P>
         <P>
@@ -155,7 +155,7 @@ export default function RelatoLitoralNorte({ zona }: { zona: Zona }) {
         </P>
         <P>
           Conviene contrastar un agosto de orilla llena con un noviembre de cielo cubierto —el
-          contraste explica mejor la zona que cualquier postal de casino o acueducto—.
+          contraste explica mejor la zona que cualquier foto de casino o acueducto—.
         </P>
         <Foto
           src="/fotos/litoral-norte/zona-vila-do-conde.jpg"

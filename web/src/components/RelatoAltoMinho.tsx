@@ -123,7 +123,7 @@ export default function RelatoAltoMinho({ zona }: { zona: Zona }) {
           El distrito de Viana es de los más tranquilos de Portugal. El tráfico es ligero salvo la
           N-13 en verano. Conviene probar la calle elegida en un agosto de Moledo o Âncora y en un
           martes de cielo cubierto: el contraste entre temporada y noviembre explica mejor la zona
-          que cualquier postal de Santa Luzia.
+          que cualquier foto de Santa Luzia.
         </P>
         <Foto
           src="/fotos/alto-minho/zona-caminha.jpg"
@@ -176,14 +176,14 @@ export default function RelatoAltoMinho({ zona }: { zona: Zona }) {
           En Ponte de Lima, las Feiras Novas de septiembre y el Festival de Jardines llenan la
           villa: ruido, afluencia y aparcamiento justo unos días. En Cerveira, la Bienal de Arte
           marca el calendario cultural. En Moledo y Âncora, el veraneo de Porto y Braga en agosto
-          corta calles y llena la orilla. El Camino Portugués de la Costa aporta goteo de
+          corta calles y llena la orilla. El Camino Portugués de la Costa trae un flujo constante de
           peregrinos todo el año. Pescado, vino verde y la mesa de villa son gastronomía del Alto
           Minho.
         </P>
         <P>
           Conviene probar la calle elegida en fiestas, en un agosto de costa y en un martes de
           cielo cubierto —el contraste entre temporada y noviembre explica mejor la zona que
-          cualquier postal de Arga—.
+          cualquier foto de Arga—.
         </P>
         <Foto
           src="/fotos/alto-minho/zona-viana.jpg"

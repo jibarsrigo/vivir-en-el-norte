@@ -114,7 +114,7 @@ export default function RelatoAsturiasOccidente({ zona }: { zona: Zona }) {
         <P>
           Entre Castropol y Tapia, Penarronda —playa de dunas— marca la orilla compartida. En Tapia
           el surf mira a Arnao, Anguileiro-Represas y Serantes; el paseo costero y la isla del faro
-          cierran la postal. La ruta costera Tapia–Figueras y el paseo de la ría del Eo —Reserva de
+          cierran la foto típica de la costa. La ruta costera Tapia–Figueras y el paseo de la ría del Eo —Reserva de
           la Biosfera Río Eo, Oscos e Terras de Burón— enlazan frontera y acantilado.
         </P>
         <P>

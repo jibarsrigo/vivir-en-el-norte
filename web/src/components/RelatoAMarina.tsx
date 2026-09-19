@@ -160,7 +160,7 @@ export default function RelatoAMarina({ zona }: { zona: Zona }) {
         <P>
           La fiesta que más marca la vida en la comarca es la Semana Santa de Viveiro, de interés
           turístico internacional: procesiones, cortes de tráfico, ruido y mucha gente en el casco
-          durante varios días. Quien firme cerca del recorrido debe probar esas jornadas, no solo
+          durante varios días. Quien se decida a vivir cerca del recorrido debe probar esas jornadas, no solo
           un martes gris de noviembre. En verano As Catedrais, Covas y las playas de Barreiros y
           Foz reciben afluencia: aparcamiento, toallas y un volumen que no existe en enero.
         </P>

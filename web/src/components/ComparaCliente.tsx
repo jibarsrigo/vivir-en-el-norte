@@ -112,11 +112,13 @@ function BloqueParaDecidirte({ filas }: { filas: FilaCompara[] }) {
         Para decidirte
       </h3>
       <p className="mt-1 text-sm text-[var(--tinta-suave)]">
-        Solo los títulos a la vista. Pulsa + en Encaja si, Mejor no si o Veredicto para leer el
-        texto.
+        Solo los títulos a la vista. Pulsa + en Frente a Mallorca, Encaja si, Mejor no si o
+        Veredicto para leer el texto.
       </p>
       <ul className="mt-4 space-y-3">
-        {filas.map((f) => (
+        {filas.map((f) => {
+          const hayFrente = f.frenteClima.length > 0 || f.frenteVivir.length > 0;
+          return (
           <li
             key={f.slug}
             className="rounded-lg border border-[var(--linea)] bg-white px-4 py-3"
@@ -129,6 +131,46 @@ function BloqueParaDecidirte({ filas }: { filas: FilaCompara[] }) {
             </Link>
             {f.escala ? (
               <span className="mt-0.5 block text-xs text-[var(--tinta-suave)]">{f.escala}</span>
+            ) : null}
+
+            {hayFrente ? (
+              <BloqueEncajaColapsable
+                id={`frente-mallorca-${f.slug}`}
+                titulo="Frente a Mallorca"
+                abierto={abiertos.has(`${f.slug}:frente`)}
+                onToggle={() => toggle(`${f.slug}:frente`)}
+              >
+                {f.frenteClima.length > 0 ? (
+                  <div>
+                    <p className="text-[11px] font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
+                      Clima
+                    </p>
+                    {f.frenteClima.map((p, i) => (
+                      <p
+                        key={`clima-${i}`}
+                        className="mt-1.5 text-[15px] leading-relaxed text-[var(--tinta)]"
+                      >
+                        {p}
+                      </p>
+                    ))}
+                  </div>
+                ) : null}
+                {f.frenteVivir.length > 0 ? (
+                  <div className={f.frenteClima.length ? "mt-4" : undefined}>
+                    <p className="text-[11px] font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
+                      Vivir
+                    </p>
+                    {f.frenteVivir.map((p, i) => (
+                      <p
+                        key={`vivir-${i}`}
+                        className="mt-1.5 text-[15px] leading-relaxed text-[var(--tinta)]"
+                      >
+                        {p}
+                      </p>
+                    ))}
+                  </div>
+                ) : null}
+              </BloqueEncajaColapsable>
             ) : null}
 
             {f.encajaSi.length > 0 ? (
@@ -175,16 +217,20 @@ function BloqueParaDecidirte({ filas }: { filas: FilaCompara[] }) {
                 onToggle={() => toggle(`${f.slug}:veredicto`)}
               >
                 <p className="text-[15px] leading-relaxed text-[var(--tinta)]">
-                  {f.encajaVeredicto}
+                  {f.encajaVeredicto.replace(/^Veredicto:\s*/i, "")}
                 </p>
               </BloqueEncajaColapsable>
             ) : null}
 
-            {!f.encajaSi.length && !f.encajaNo.length && !f.encajaVeredicto ? (
+            {!hayFrente &&
+            !f.encajaSi.length &&
+            !f.encajaNo.length &&
+            !f.encajaVeredicto ? (
               <p className="mt-2 text-sm text-[var(--tinta-suave)]">Sin balance en el relato.</p>
             ) : null}
           </li>
-        ))}
+          );
+        })}
       </ul>
     </div>
   );
@@ -237,6 +283,11 @@ function MesaCompara({ filas }: { filas: FilaCompara[] }) {
                 <tr key={def.id} className="border-b border-[var(--linea)] last:border-0">
                   <th className="sticky left-0 z-[1] bg-white px-3 py-2.5 align-top text-xs font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
                     {def.etiqueta}
+                    {def.id === "lluvia-oct-mar" ? (
+                      <span className="mt-0.5 block text-[9px] font-normal normal-case leading-snug tracking-normal text-[var(--tinta-suave)]">
+                        (Octubre-Marzo)
+                      </span>
+                    ) : null}
                   </th>
                   {filas.map((f, i) => (
                     <td
@@ -257,10 +308,11 @@ function MesaCompara({ filas }: { filas: FilaCompara[] }) {
       </div>
       <p className="mt-2 text-xs text-[var(--tinta-suave)]">
         Baño: minutos en coche hasta la playa de referencia del estudio, con su nombre; «en el
-        municipio» o «fuera» según si esa playa está dentro del ayuntamiento. «vs Mallorca»: % de
-        sol y despejados frente a la isla (
-        {MALLORCA_REF.solHoras.toLocaleString("es-ES")} h · {MALLORCA_REF.despejados} días
-        despejados).
+        municipio» o «fuera» según si esa playa está dentro del ayuntamiento. Primera fila de
+        lluvia: días al año. Segunda (Octubre-Marzo): días de lluvia al mes en ese tramo (dato de
+        la zona; Mallorca {MALLORCA_REF.lluviaOctMar} días/mes). «vs Mallorca»: % de sol y
+        despejados frente a la isla ({MALLORCA_REF.solHoras.toLocaleString("es-ES")} h ·{" "}
+        {MALLORCA_REF.despejados} días despejados).
       </p>
 
       <BloqueParaDecidirte filas={filas} />

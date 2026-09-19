@@ -1,0 +1,223 @@
+---
+description: Criterios obligatorios de fichas de zona y municipio (Vivir en el norte)
+alwaysApply: true
+---
+
+# Fichas de zona y municipio — estándar homogéneo
+
+Toda página de **zona** y de **municipio** (ya publicada o nueva) debe cumplir esto. No hay excepciones por “borrador” o “stub”: o está al estándar o no se activa (`activa: false` y sin rutas de municipio).
+
+Fuente de hechos: `docs/estudio_zonas.md` + datos JSON (clima/mar/avion/fichas) + Wikipedia / fuentes locales para fiestas e historia. No inventar.
+
+## Página de zona
+
+### Mapas (cabecera, antes del relato)
+
+Tras el título, **dos mapas** en rejilla (como `zona/[id]/page.tsx`):
+
+1. **Localizador** — `MapaLocalizadorCliente`: dónde está la zona en el norte.
+2. **Detalle** — mapa estático `MAPA_DETALLE_ESTATICO` (`/mapas/zona_XX_detalle.png`) o, si no hay, `MapaZonaDetalleCliente` con los pueblos.
+
+### Secciones del relato
+
+Prosa de libro (no listas secas), con topónimos explicados la primera vez:
+
+1. **Dónde está** — geografía, escala (villa / parroquias / ciudad), relación con ciudades vecinas y Portugal si aplica.
+2. **El tiempo comparado con Baleares** — sol, despejados, lluvia, verano vs Mallorca; usar datos de `zona` + `mallorca`.
+3. **Cómo se vive** — martes de noviembre vs agosto; quién vive; coche vs a pie; escalas distintas entre municipios.
+4. **Mar, río y camino** (o equivalente) — playas/paseos con nombres glosados.
+5. **Mercados, fiestas y calendario / cultura** — fiestas mayores de la comarca, impacto (ruido, tráfico, afluencia), mercados, gastronomía emblema.
+6. **Qué cuesta una casa** + `TablaPrecios` + Idealista — franjas **asequible / media / cara** del mercado real; ver regla de precios abajo.
+7. **Servicios, hospital, aeropuerto**.
+8. **Encaja** — párrafos `si` / `no` / `veredicto` claros y explicativos (nunca taquigrafía).
+9. **Municipios** — cierre homogéneo: `MunicipiosZonaFin` = tabla comparativa de notas (misma que en fichas de pueblo) **con la escala bajo cada nombre** + lista enlazada con etiquetas de escala (villa, isla, parroquia de viñedo…).
+10. **Fotos: 6** repartidas en secciones del relato (no un collage). Crédito al final. Ver **Fotos — unicidad**.
+
+## Página de municipio
+
+### Cabecera y mapa
+
+Orden fijo tras título / comparar:
+
+1. `BloqueZonaFicha` (cuadro Zona).
+2. **`MapaMunicipioFicha`** — mapa estático del pueblo **aquí arriba**, nunca al final de la página. **Obligatorio** en todo municipio publicado (mismo tipo que Baixo Miño: PNG real de `mapa2`, no Leaflet).
+   - **Fuente:** `python -m mapa2.mapas_municipio` → `output/mapas_municipios/NN_slug.png`; recortar solo el panel del mapa (sin ficha Mancor ni leyenda) con `python scripts/preparar_mapas_web.py` → `public/mapas/municipios/NN_slug.png` + campo `mapa` en el JSON.
+   - Pie: `Situación de {municipio} - Clic sobre iconos para ver detalles.` (si hay iconos de capas).
+   - **Capas / iconos:** los mismos que mostraría el mapa de la página principal para ese municipio con **todas las capas de mapa activas** — aunque en el futuro haya solo 4 chips o cambien de nombre. Fuente única: `iconosMapaPueblo(zonaId, nombre, "todas")` en `lib/capas-mapa-pueblo.ts` (también la usa `MapaPortada`). Al activar todas las capas en portada se ven **siempre los mismos iconos** por pueblo (no menos). Si una capa aporta dos iconos, ambos entran en esa pastilla.
+   - **Interacción:** un clic en **cualquier parte de la pastilla agrupada** abre el **globo unificado** con todas las capas a la vez (como el tooltip de la portada). Prohibido abrir un detalle distinto por icono suelto.
+   - Activar pastilla con `capasPortada` en **todos** los municipios (tienen `mapa` PNG). Sin mapa generado: no publicar el municipio / no dejar `mapa` vacío.
+3. Relato (`RelatoMunicipio`).
+
+### Secciones del relato
+
+1. Escala (Villa / Urbanización y parroquias / Casas dispersas / Ciudad / …).
+2. **Cómo se vive** — prosa vivida + **calendario festivo** (fechas, qué pasa, impacto al vivir: ruido, cortes, multitud).
+3. **El tiempo comparado con Baleares** — en fichas de municipio pasa a ser el bloque **Frente a Mallorca → Clima** (más **Vivir** cuando esté escrito). En páginas de zona puede seguir el título antiguo hasta homogeneizar.
+4. **De dónde viene** — historia útil (batallas, monumentos con historia, museos, oficios, frontera, Camino, hechos de Wikipedia que aporten).
+5. **Mar, río y camino**.
+6. **Casa** + precios + Idealista.
+7. **Encaja** — `si` / `no` / `veredicto` explicativos (mar, hospital, tiempo libre, dónde comprar, calor vs costa, etc.).
+8. **Más pueblos de {zona}** — título con enlace a la zona + `TablaComparativaZona` con **escala bajo cada nombre** (misma tabla que cierra la zona). **Sin** párrafo “forma parte de…”.
+9. **Fotos: 6 por municipio** — plantilla 2 + 2 + 2: 2 en «Cómo se vive» / abrir, 2 en historia, 2 en mar-río-camino. Si falta una imagen real distinta, omitir ese slot —nunca rellenar con duplicado—. Crédito al final.
+10. Ver **Fotos — unicidad** (obligatorio).
+
+### Frente a Mallorca (municipio)
+
+Tras «Cómo se vive», bloque único:
+
+1. **Frente a Mallorca**
+   - **Clima** — campo `tiempo` (sol, lluvia, verano vs Mallorca).
+   - **Vivir** — campo `vivir` (opcional hasta rellenar): invierno en casa, sin coche / enero, integración, sanidad práctica, vuelos a Palma, tipología de casa. Prosa local del pueblo; no genéricos copiados.
+
+En **Busca y compara** → «Para decidirte»: acordeón **Frente a Mallorca +** con Clima + Vivir de la ficha (mismo texto).
+
+**Estado:** `vivir` escrito en todos los municipios publicados. Clima sigue en `tiempo`. En Compara, acordeón **Frente a Mallorca +** muestra Clima + Vivir.
+
+## Fotos — unicidad (obligatorio)
+
+**Cantidad:** 6 en página de zona · 6 en página de municipio.
+
+Prohibido en cualquier página de zona o municipio:
+
+1. **Misma página:** dos pies de foto distintos con la misma imagen (mismo archivo **o** mismo contenido / mismo hash SHA-256). Si dos captions hablan de sitios distintos (p. ej. «O Xufre» y «Carreirón»), las fotos **deben** ser visualmente distintas.
+2. **Misma zona:** reutilizar el mismo archivo o el mismo hash en **dos municipios distintos** (o en la página de zona y un municipio) salvo que sea deliberado y el pie describa exactamente la misma escena. Lo normal: cada pueblo tiene su propio set; no «préstamos» de stand-ins.
+3. **Stand-ins:** no vale copiar un JPEG genérico y renombrarlo (`meano-vinedos.jpg` y `meano-san-xoan.jpg` con el mismo binario). Si falta foto real, **omitir** el slot o descargar otra imagen distinta de Wikimedia; nunca rellenar con un duplicado.
+4. **Antes de publicar** una zona: `node scripts/auditar_fotos_unicas.mjs {zonaId}` sobre Relato de zona + `relatos-{zonaId}.ts`. Si hay colisión, sustituir o quitar. Tras sustituir un stand-in, **cambiar el nombre de archivo** (no solo el contenido) para invalidar caché del navegador.
+5. El pie debe corresponder al contenido real de la imagen (puerto ≠ mirador ≠ viñedo ≠ iglesia).
+
+## Reglas de tono y contenido
+
+- Prosa de libro que transporta; explicar **todos** los nombres de lugar la primera vez.
+- Nunca la palabra **jubilado** / jubilada.
+- Nunca nombrar el tope de presupuesto **260.000 €** ni “nuestro presupuesto máximo”. Sí usar precios reales del mercado en franjas útiles (~asequible / media); no ruinas irrelevantes ni tramos de 400–500.000 salvo para decir que esa tipología queda fuera de la orilla habitual.
+- Encaja y veredictos: explicar del todo (ensanche vs autovía, calor vs pueblo X, etc.), no frases crípticas.
+- Comparar con Baleares/Mallorca en clima, no con Mancor como marco principal en la web.
+- Servicios en leyenda/tabla = vida diaria en el municipio (tiendas, farmacia, centro de salud, súper, colegio…), no el hospital.
+
+## Infra al publicar una zona nueva
+
+1. `municipios-{zonaId}.json` con fichas completas **incluyendo `mapa`: `NN_slug.png`**.
+2. `relatos-{zonaId}.ts` + `Relato{Zona}.tsx` (6 fotos en zona; 6 por municipio en el relato).
+3. Registrar en `municipios.ts`, `RELATO_MUNICIPIOS`, página `zona/[id]`, `zona-resumen`, `idealista`, `zonas.json` (`activa: true`) y copia en `public/data` si aplica.
+4. Fotos en `public/fotos/{zonaId}/`; mapa detalle de zona en `public/mapas/` / `output/mapas_zonas`.
+5. Mapas de municipio: generar con `mapa2.mapas_municipio`, recortar y volcar con `scripts/preparar_mapas_web.py` a `public/mapas/municipios/`. Misma fuente OSM/GADM que Baixo Miño; **no** sustituir por Leaflet.
+6. `hrefMunicipio` debe apuntar a la ficha cuando exista.
+7. Página de municipio: `MapaMunicipioFicha` bajo el cuadro Zona, con `capasPortada` (misma pastilla que portada vía `iconosMapaPueblo`).
+
+Orden de zonas: el de `zonas.json` / estudio (tras Baixo Miño → Val Miñor → Vigo e ría → O Morrazo → …).
+
+## Pendiente — CAPAS del mapa (revisar más adelante; no implementar aún)
+
+Ideas del usuario + criterio acordado en conversación. Cuando se retome, leer esto antes de tocar código.
+
+### Destino deseado (usuario)
+
+- Pasar de **6 chips** a **unas 4 capas**.
+- Posible agrupación:
+  1. **Clima + mar** (una sola capa; iconos a definir).
+  2. **Servicios** (vida diaria; mantener nota 1–10).
+  3. **Salud** (hoy “Hospital”).
+  4. **Aeropuerto + carreteras/autopistas** — nombre por decidir (**Conexiones** o **Acceso** son candidatos).
+- **Precio:** no entra claro en esas 4; decidir si queda como 5.ª capa, solo en tabla, o otra fórmula.
+- Redacción de servicios: **Añade → Tiene**; **Falta** se mantiene; si no falta nada → **«No falta nada»** (nunca «Falta: no falta nada»).
+- Sacar **comunicaciones** de la nota de servicios; juntarlas con aeropuerto en la capa de acceso/conexiones.
+- **Fibra:** probablemente **fuera del icono de mapa** (opcional en tabla/globo).
+
+### Criterio técnico ya fijado (aunque cambien nombres o el nº de chips)
+
+- En el **mapa de inicio**, al pulsar **todas** las capas que pintan icono, se ven **siempre los mismos iconos** por municipio (no menos por haber fusionado chips).
+- Misma pastilla en ficha de pueblo: `iconosMapaPueblo(..., "todas")` en `lib/capas-mapa-pueblo.ts` (fuente única con `MapaPortada`).
+- Un clic en **toda la pastilla** → globo unificado con todas esas capas.
+
+### Opinión / propuesta del agente (para revisar)
+
+- Orden de trabajo recomendado: **1)** detallar e implementar icono+tabla+texto de **Servicios, Salud y Precio** como capas propias al mismo estándar que clima/mar/avión; **2)** limpiar notas Tiene/Falta y sacar comunicaciones de servicios; **3)** recién entonces fusionar a 4 (clima+mar, servicios, salud, conexiones) y decidir el destino de precio.
+- Nombre sugerido para avión+carreteras: **Conexiones** (alineado con la columna de la tabla comparativa).
+- Fibra: de acuerdo en que **sobra como icono** de mapa.
+- Precio: no fusionarlo a la fuerza; mejor 5.ª capa o solo tabla.
+- Fusionar antes de tener bloques sólidos = rediseñar dos veces.
+
+### Estado hoy
+
+- Con icono en mapa y columnas de tabla: clima, mar, **servicios**, **hospital**, avión, **precio**.
+- Hospital: marcas fijas de **públicos y privados** citados en las fichas (edificio rojo / violeta); minutos del pueblo = público de referencia.
+- Fusión a 4 chips: **aún no** (siguiente paso cuando se retome CAPAS).
+- Servicios: nota 1–10 + Tiene/Falta (Añade ya normalizado a Tiene en lib + Baixo Miño). Fibra solo en columnas extra de tabla, no como icono de mapa.
+- Pendiente al fusionar: sacar comunicaciones de la prosa de serviciosNota; renombrar Hospital→Salud; avión+carreteras→Conexiones; decidir precio como 5.ª o solo tabla.
+
+## Pendiente — Busca y compara (en curso)
+
+**Hecho:** busca; bandeja (5, `localStorage` + `?vs=`); `?con=`; mesa «Pueblo a pueblo»; fila Lluvia anual + Lluvia (Octubre-Marzo) días/mes; escala bajo el nombre; resaltado del mejor por fila; «Para decidirte» con Frente a Mallorca / Encaja si / Mejor no si / Veredicto colapsables (+). Frase de contraste retirada.
+
+**Siguiente (si se retoma):** filtros de criterio; alinear filas con CAPAS si cambian.
+
+**Pendiente — separación visual en «Para decidirte» (no implementar aún):** al abrir varios apartados de un pueblo, el texto se funde. Ideas que gustan: **cabecera con fondo suave al estar abierta**, o **título del apartado dentro de un marco/cuadro al desplegar**. Evitar línea horizontal de título hasta el + (satura de líneas). Otras ideas en chat: más margen, borde izquierdo, accordion estricto (un solo abierto), pestañas.
+
+Stub sustituido: `/compara/` → `ComparaCliente` + `lib/compara.ts` + `lib/busca-municipios.ts`.
+
+## Pendiente — Radar inmobiliario / candidatos (fase 2; no implementar aún)
+
+**No implementar todavía.** Conservar ideas; el prompt original del usuario tiene mucho sobredimensionado.
+
+### Documento adjunto
+
+Prompt completo del usuario (borrador de ideas, no especificación limpia):
+
+`docs/pendiente-radar-prompt-usuario.txt`
+
+Resumen del enfoque acordado (para no perder lo hablado):
+
+`docs/pendiente-radar-enfoque.md`
+
+### Qué hay de «mal» o sobredimensionado en ese prompt (no perder el aviso)
+
+El **objetivo** (gestionar viviendas candidatas en finalistas, no clonar Idealista) es bueno. El **diseño técnico del txt** mezcla un CRM familiar sensato con un agregador inmobiliario frágil:
+
+- Contradicción: cobertura/automatización diaria vs GitHub Pages + JSON + sin backend + sin pagos.
+- Scraping Idealista/Fotocasa/etc.: ToS, rotura frecuente, mantenimiento continuo — no es V1.
+- Deduplicación «inteligente» (fotos, coords, descripción): difícil y poco fiable con 50–300 fichas; mejor merge manual.
+- Colaboración con historial de autores vs sitio estático: hace falta escritura compartida mínima.
+- Históricos finos, galería/PDFs, discovery de agencias, scoring por preferencias, IA: aportan poco al cribado inicial; aumentan mantenimiento.
+- Stack del txt (HTML/JS «puro») desactualizado respecto a la web actual (Next + Pages).
+
+**No construir el sistema «tal cual el txt».** Construir la idea (vivienda como centro, familia, finalistas) por capas.
+
+### Qué quiere Jose de verdad (aclarado en conversación)
+
+1. Cerrados 1–varios pueblos → listar **todos los portales / inmobiliarias** donde pueda haber oferta.
+2. Pegar URL de anuncio → meter en la web como **candidato** (datos útiles + **1 foto** para reconocer sin abrir Idealista).
+3. Después: con portales y búsquedas conocidas, **revisar a menudo** y publicar en vivir-en-el-norte novedades útiles (nuevo, bajada/subida de precio, enlace…).
+
+### Enfoque acordado (propuesta del agente; conservar)
+
+Orden de valor / riesgo:
+
+| Paso | Qué | Notas |
+|------|-----|--------|
+| **A** | Apartado **Candidatos** en la web | URL → ficha; estado; notas; valoración Jose/suegra; 1 foto. Sustituye favoritos Idealista + WhatsApp. |
+| **B** | **Mapa de fuentes** por municipio | Lista curada (portales + agencias locales). Investigación humana + Cursor; no robot que «descubra internet». |
+| **C** | **Barrido inicial** guiado | Pasada fuerte humana con sistema; llenar candidatos. |
+| **D** | **Radar** (después) | Primero: recheck de URLs ya guardadas + alertas oficiales. Scrapear búsquedas predefinidas solo si el dolor sigue; nunca vaciar todo el norte. |
+
+Arquitectura mínima cuando toque: UI en Next/Pages; escritura compartida (Sheet/Airtable/Firebase free…); fotos/PDFs en Drive enlazado, no gestor documental propio. Pages solo no cubre colaboración + novedades diarias.
+
+MVP que ya aporta: inventario colaborativo + pegar URL + estados + foto. Sin scraping masivo el día 1.
+
+### Criterio
+
+Utilidad familiar > sofisticación. Cada feature: ¿reduce trabajo o lo aumenta?
+
+## Pendiente — Enriquecer sin hinchar (voz mallorquina / vivir, no solo mapa)
+
+**Hecho:** bloque **Frente a Mallorca** (Clima + Vivir) en fichas de municipio + acordeón en Compara; `vivir` en todos los pueblos.
+
+Ideas cubiertas en Vivir (por pueblo):
+
+1. Invierno en casa — frío interior, humedad, calefacción, moho.
+2. Día a día sin coche — bus, tiendas a pie, enero.
+3. Integración — idioma, apertura, entre semana vs verano.
+4. Sanidad en la práctica — cabecera, especialistas, ciudad de referencia.
+5. Ir y volver a Mallorca — vuelos invierno/verano.
+6. Tipología de casa — piso/finca, reforma, escaleras, terraza.
+
+**Aparcado:** página «si vienes de Mallorca» (descartada).

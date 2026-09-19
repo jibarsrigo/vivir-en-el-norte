@@ -22,6 +22,8 @@ export type FilaCompara = {
   solHoras: number | null;
   despejados: number | null;
   lluviaDias: number | null;
+  /** Días de lluvia/mes de octubre a marzo (rango de la zona, p. ej. «13–16»). */
+  lluviaOctMar: string | null;
   minCosta: number | null;
   minBano: number | null;
   playaCorta: string | null;
@@ -38,13 +40,27 @@ export type FilaCompara = {
   encajaSi: string[];
   encajaNo: string[];
   encajaVeredicto: string;
+  /** Frente a Mallorca: clima (tiempo) + vivir de la ficha. */
+  frenteClima: string[];
+  frenteVivir: string[];
 };
 
 export const MALLORCA_REF = {
   solHoras: mallorca.solHoras,
   despejados: mallorca.despejados,
   lluviaDias: mallorca.lluviaDias,
+  lluviaOctMar: mallorca.lluvia.oct_mar,
 };
+
+/** Media de un rango «13–16» / «13-16» para ordenar en la mesa. */
+export function mediaRangoDias(s: string | null | undefined): number | null {
+  if (!s?.trim()) return null;
+  const norm = s.replace(/–/g, "-");
+  const m = norm.match(/(\d+)\s*-\s*(\d+)/);
+  if (m) return (Number(m[1]) + Number(m[2])) / 2;
+  const n = Number(norm.replace(/[^\d.]/g, ""));
+  return Number.isFinite(n) ? n : null;
+}
 
 function zonaNombreDe(zonaId: string, fichaZona: string): string {
   const z = zonas.find((x) => x.id === zonaId);
@@ -59,6 +75,7 @@ export function filaCompara(slug: string): FilaCompara | undefined {
   const clima = climaDeMunicipio(zonaId, f.municipio);
   const mar = marDeMunicipio(zonaId, f.municipio);
   const avion = avionDeMunicipio(zonaId, f.municipio);
+  const zona = zonas.find((x) => x.id === zonaId);
 
   return {
     slug: f.slug,
@@ -70,6 +87,7 @@ export function filaCompara(slug: string): FilaCompara | undefined {
     solHoras: clima?.solHoras ?? f.solHoras ?? null,
     despejados: clima?.despejados ?? f.despejados ?? null,
     lluviaDias: clima?.lluviaDias ?? f.lluviaDias ?? null,
+    lluviaOctMar: zona?.lluvia.oct_mar ?? null,
     minCosta: mar?.minCosta ?? f.minCosta ?? null,
     minBano: mar?.minBano ?? f.minBano ?? null,
     playaCorta: mar?.playaCorta ?? null,
@@ -85,6 +103,8 @@ export function filaCompara(slug: string): FilaCompara | undefined {
     encajaSi: relato?.encaja.si ?? [],
     encajaNo: relato?.encaja.no ?? [],
     encajaVeredicto: relato?.encaja.veredicto ?? "",
+    frenteClima: relato?.tiempo ?? [],
+    frenteVivir: relato?.vivir ?? [],
   };
 }
 
@@ -150,6 +170,14 @@ export const FILAS_MESA: FilaMesaDef[] = [
     sentido: "menor",
     valor: (f) => f.lluviaDias,
     formato: (f) => (f.lluviaDias != null ? `${f.lluviaDias} días` : "—"),
+  },
+  {
+    id: "lluvia-oct-mar",
+    etiqueta: "Lluvia",
+    sentido: "menor",
+    valor: (f) => mediaRangoDias(f.lluviaOctMar),
+    formato: (f) =>
+      f.lluviaOctMar ? `${f.lluviaOctMar} días/mes` : "—",
   },
   {
     id: "vs-mallorca",

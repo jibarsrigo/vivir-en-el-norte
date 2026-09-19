@@ -28,7 +28,6 @@ import {
   type FilaCompara,
 } from "@/lib/compara";
 import { rutaPublica } from "@/lib/ruta-publica";
-import { objectPositionIdentidad } from "@/lib/encuadre-identidad";
 
 function leerLocal(): string[] {
   if (typeof window === "undefined") return [];
@@ -121,11 +120,39 @@ function BloqueParaDecidirte({ filas }: { filas: FilaCompara[] }) {
       <ul className="mt-4 space-y-3">
         {filas.map((f) => {
           const hayFrente = f.frenteClima.length > 0 || f.frenteVivir.length > 0;
-          /** Polaroid en todos salvo Llanes (queda el formato thumbnail anterior). */
-          const polaroid = f.slug !== "llanes" && Boolean(f.fotoIdentidad);
+          const leyendaFoto = f.escala || f.fotoIdentidad?.pie || "";
 
-          const acordeones = (
-            <>
+          return (
+            <li
+              key={f.slug}
+              className="rounded-lg border border-[var(--linea)] bg-white px-4 py-3"
+            >
+              <Link
+                href={f.href}
+                className="font-semibold text-[var(--acento)] underline-offset-2 hover:underline"
+              >
+                {f.nombre}
+              </Link>
+
+              {f.fotoIdentidad ? (
+                <figure className="mt-2.5 w-44 max-w-full overflow-hidden rounded border border-[var(--linea)] bg-[var(--fondo)]">
+                  <Image
+                    src={rutaPublica(f.fotoIdentidad.src)}
+                    alt={leyendaFoto || f.nombre}
+                    width={176}
+                    height={96}
+                    className="h-24 w-full object-cover"
+                    sizes="176px"
+                    unoptimized
+                  />
+                  {leyendaFoto ? (
+                    <figcaption className="line-clamp-2 px-1.5 py-1 text-[10px] leading-snug text-[var(--tinta-suave)]">
+                      {leyendaFoto}
+                    </figcaption>
+                  ) : null}
+                </figure>
+              ) : null}
+
               {hayFrente ? (
                 <BloqueEncajaColapsable
                   id={`frente-mallorca-${f.slug}`}
@@ -221,94 +248,7 @@ function BloqueParaDecidirte({ filas }: { filas: FilaCompara[] }) {
               !f.encajaVeredicto ? (
                 <p className="mt-2 text-sm text-[var(--tinta-suave)]">Sin balance en el relato.</p>
               ) : null}
-            </>
-          );
-
-          if (polaroid && f.fotoIdentidad) {
-            const objectPosition = objectPositionIdentidad(f.fotoIdentidad.src);
-            return (
-              <li
-                key={f.slug}
-                className="overflow-hidden rounded-lg border border-[var(--linea)] bg-white"
-              >
-                {/* Foto con margen (no pegada a esquinas); nombre en recuadro blanco. */}
-                <figure className="border-b border-[var(--linea)] px-3 pt-3">
-                  <div className="relative h-[7.5rem] overflow-hidden rounded-md">
-                    <Image
-                      src={rutaPublica(f.fotoIdentidad.src)}
-                      alt={[f.nombre, f.escala].filter(Boolean).join(" — ")}
-                      fill
-                      className="object-cover"
-                      style={{ objectPosition }}
-                      sizes="(max-width: 640px) 100vw, 36rem"
-                      unoptimized
-                    />
-                    <figcaption
-                      className={`absolute bottom-2 left-2 z-[1] max-w-[calc(100%-1rem)] rounded border border-[var(--linea)] bg-white px-3 py-1.5${
-                        f.slug === "a-guarda" || f.slug === "a-pobra-do-caraminal"
-                          ? " leading-none"
-                          : ""
-                      }`}
-                    >
-                      <Link
-                        href={f.href}
-                        className="font-semibold text-[var(--acento)] underline-offset-2 hover:underline"
-                      >
-                        {f.nombre}
-                      </Link>
-                      {f.escala ? (
-                        <span
-                          className={`block text-xs text-[var(--tinta-suave)]${
-                            f.slug === "a-guarda" || f.slug === "a-pobra-do-caraminal"
-                              ? " mt-0 leading-none"
-                              : " mt-0.5"
-                          }`}
-                        >
-                          {f.escala}
-                        </span>
-                      ) : null}
-                    </figcaption>
-                  </div>
-                </figure>
-                <div className="px-4 pb-3 pt-1">{acordeones}</div>
-              </li>
-            );
-          }
-
-          return (
-          <li
-            key={f.slug}
-            className="rounded-lg border border-[var(--linea)] bg-white px-4 py-3"
-          >
-            <Link
-              href={f.href}
-              className="font-semibold text-[var(--acento)] underline-offset-2 hover:underline"
-            >
-              {f.nombre}
-            </Link>
-            {f.escala ? (
-              <span className="mt-0.5 block text-xs text-[var(--tinta-suave)]">{f.escala}</span>
-            ) : null}
-
-            {f.fotoIdentidad ? (
-              <figure className="mt-2.5 w-44 max-w-full overflow-hidden rounded border border-[var(--linea)] bg-[var(--fondo)]">
-                <Image
-                  src={rutaPublica(f.fotoIdentidad.src)}
-                  alt={f.fotoIdentidad.pie}
-                  width={176}
-                  height={96}
-                  className="h-24 w-full object-cover"
-                  sizes="176px"
-                  unoptimized
-                />
-                <figcaption className="line-clamp-2 px-1.5 py-1 text-[10px] leading-snug text-[var(--tinta-suave)]">
-                  {f.fotoIdentidad.pie}
-                </figcaption>
-              </figure>
-            ) : null}
-
-            {acordeones}
-          </li>
+            </li>
           );
         })}
       </ul>

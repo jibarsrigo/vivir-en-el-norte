@@ -243,7 +243,13 @@ function BloqueParaDecidirte({ filas }: { filas: FilaCompara[] }) {
                       sizes="(max-width: 640px) 100vw, 36rem"
                       unoptimized
                     />
-                    <figcaption className="absolute bottom-2 left-2 z-[1] max-w-[calc(100%-1rem)] rounded border border-[var(--linea)] bg-white px-3 py-1.5">
+                    <figcaption
+                      className={`absolute bottom-2 left-2 z-[1] max-w-[calc(100%-1rem)] rounded border border-[var(--linea)] bg-white px-3 py-1.5${
+                        f.slug === "a-guarda" || f.slug === "a-pobra-do-caraminal"
+                          ? " leading-none"
+                          : ""
+                      }`}
+                    >
                       <Link
                         href={f.href}
                         className="font-semibold text-[var(--acento)] underline-offset-2 hover:underline"
@@ -251,7 +257,13 @@ function BloqueParaDecidirte({ filas }: { filas: FilaCompara[] }) {
                         {f.nombre}
                       </Link>
                       {f.escala ? (
-                        <span className="mt-0.5 block text-xs text-[var(--tinta-suave)]">
+                        <span
+                          className={`block text-xs text-[var(--tinta-suave)]${
+                            f.slug === "a-guarda" || f.slug === "a-pobra-do-caraminal"
+                              ? " mt-0 leading-none"
+                              : " mt-0.5"
+                          }`}
+                        >
                           {f.escala}
                         </span>
                       ) : null}

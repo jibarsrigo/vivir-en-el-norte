@@ -110,6 +110,9 @@ function TablaFilas({
 }) {
   const grupos = gruposDeColumnas(columnas);
   const conCapas = grupos.length > 0;
+  const nColsCapa = grupos.reduce((n, g) => n + g.columnas.length, 0);
+  /* Nombre (~9.5rem) + columnas de capa (~4.75rem c/u) → scroll horizontal en móvil */
+  const minTablaRem = conCapas ? Math.max(28, 9.5 + nColsCapa * 4.75 + (mostrarZona ? 7.5 : 0)) : undefined;
   const fijas = conCapas
     ? "tabla-fijas border-b border-[var(--linea)] py-2 pr-3 align-bottom font-semibold uppercase tracking-wide text-[var(--tinta-suave)]"
     : "border-b border-[var(--linea)] py-2 pr-3 font-semibold uppercase tracking-wide text-[var(--tinta-suave)]";
@@ -119,8 +122,9 @@ function TablaFilas({
       <table
         className={
           "tabla-capas w-full border-collapse text-left text-sm " +
-          (conCapas ? "tabla-capas--capas min-w-[28rem]" : "")
+          (conCapas ? "tabla-capas--capas" : "")
         }
+        style={minTablaRem != null ? { minWidth: `${minTablaRem}rem` } : undefined}
       >
         <thead>
           <tr>

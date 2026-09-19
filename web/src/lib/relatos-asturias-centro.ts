@@ -51,6 +51,10 @@ export const RELATOS_ASTURIAS_CENTRO: Record<string, RelatoMun> = {
       veredicto:
         "Veredicto: Cudillero es la foto típica de Asturias Centro, no la opción práctica. Buscaría vivienda en El Pito —llano, con coche— si el encanto de puerto, Aguilar y Vidio mandan, tras probar un agosto en el casco y un martes de noviembre arriba; si mandan servicios y calma, miraría Salinas o el estuario. Se ganan costa abierta y aeropuerto a quince minutos; se aceptan cuestas, turismo de día, servicios 4/10 y San Agustín a veinticinco.",
     },
+    fotoIdentidad: {
+      src: "/fotos/asturias-centro/cudillero-identidad.jpg",
+      pie: "Cudillero: casas de colores subiendo la ladera desde la lonja — pueblo colgado sobre el puerto",
+    },
     fotosAbrir: [
       { src: "/fotos/asturias-centro/cudillero-puerto.jpg", pie: "Puerto de Cudillero" },
       { src: "/fotos/asturias-centro/cudillero-pueblo.jpg", pie: "Pueblo colgado de Cudillero" },
@@ -113,6 +117,10 @@ export const RELATOS_ASTURIAS_CENTRO: Record<string, RelatoMun> = {
       ],
       veredicto:
         "Veredicto: Muros es la apuesta barata y tranquila del estuario. Buscaría vivienda con vistas claras al Nalón y fibra comprobada —es parcial—, apoyándome en Avilés para el día a día, tras probar un noviembre de niebla y un agosto suave en Aguilar. Se ganan miradores, precio bajo y aeropuerto a diez minutos; se aceptan servicios 3/10, coche casi cada día y San Agustín a veinte.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/asturias-centro/muros-de-nalon-identidad.jpg",
+      pie: "San Esteban (Muros de Nalón): casas del puerto frente al estuario, con el monte detrás",
     },
     fotosAbrir: [
       { src: "/fotos/asturias-centro/muros-miradores.jpg", pie: "Miradores de Muros de Nalón" },
@@ -239,6 +247,10 @@ export const RELATOS_ASTURIAS_CENTRO: Record<string, RelatoMun> = {
       ],
       veredicto:
         "Veredicto: Salinas es la elección práctica de Asturias Centro. Buscaría casa baja o chalé caminable al paseo —franja asequible alrededor de 199.000 euros—, tras probar un día con viento del sur y un agosto en la playa. Se ganan aeropuerto y San Agustín a diez minutos, villa residencial y Avilés cerca; se aceptan cielo cantábrico y la industria cercana como parte del trato.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/asturias-centro/salinas-castrillon-identidad.jpg",
+      pie: "Salinas: casas y chalés frente al Cantábrico, con el cabo detrás",
     },
     fotosAbrir: [
       { src: "/fotos/asturias-centro/salinas-playa.jpg", pie: "Playa de Salinas" },

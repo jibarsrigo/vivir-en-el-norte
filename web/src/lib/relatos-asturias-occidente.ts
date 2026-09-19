@@ -1,4 +1,4 @@
-import type { RelatoMun } from "@/components/RelatoMunicipio";
+﻿import type { RelatoMun } from "@/components/RelatoMunicipio";
 
 const credito = "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen).";
 
@@ -49,6 +49,10 @@ export const RELATOS_ASTURIAS_OCCIDENTE: Record<string, RelatoMun> = {
       ],
       veredicto:
         "Veredicto: Castropol encaja como pueblo blanco de ría y frontera —vivienda con vistas claras al Eo, hacia Figueras o el promontorio, no como villa autosuficiente— sobre todo si la orilla y el precio importan más que los servicios a pie. Apoyarse en Ribadeo para el día a día; comprobar fibra, humedad de ría y un noviembre de niebla antes de comprar. Se ganan silencio, Penarronda a diez minutos y el metro más bajo de la zona; se aceptan servicios 3/10, Jarrio a treinta minutos y Asturias a unos setenta y cinco. Quien priorice sanidad o villa completa, mirar Navia o Luarca.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/asturias-occidente/castropol-identidad.jpg",
+      pie: "Castropol: pueblo blanco sobre la ría del Eo, con monte detrás — así se vive mirando a Figueras",
     },
     fotosAbrir: [
       { src: "/fotos/asturias-occidente/castropol-villa.jpg", pie: "Castropol: pueblo blanco sobre la ría" },

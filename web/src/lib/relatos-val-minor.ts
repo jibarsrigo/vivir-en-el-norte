@@ -48,6 +48,10 @@ export const RELATOS_VAL_MINOR: Record<string, RelatoMun> = {
       veredicto:
         "Veredicto: Baiona es la opción más completa si se quiere vivir en una villa de mar, caminar a la playa y conservar el hospital público a unos veinte minutos. Buscaría un piso de dos habitaciones con terraza en el ensanche —las calles más recientes que rodean el casco antiguo— o junto a la bahía, sin pegarlo a las terrazas más ruidosas ni a la PO-552: esa es la franja asequible de la villa. Visitaría la vivienda una noche de agosto y durante la Arribada antes de decidir. El verano costero rara vez supera los 30 °C y las máximas habituales se quedan en 25–26 °C, una ventaja clara frente al calor de Mallorca y también frente al fondo del valle de Gondomar, donde aparecen entre cinco y ocho días anuales por encima de 30 °C. Si hacen falta tres habitaciones y silencio, elegiría una parroquia alta de Nigrán o una casa de Gondomar; si hay que contar con más el paseo, el puerto y el baño a un minuto, Baiona justifica renunciar a metros.",
     },
+    fotoIdentidad: {
+      src: "/fotos/val-minor/baiona-identidad.jpg",
+      pie: "Baiona de noche: casas sobre el puerto, la marina y Monterreal — vivir mirando la bahía",
+    },
     fotosAbrir: [
       {
         src: "/fotos/val-minor/baiona-villa.jpg",
@@ -129,6 +133,10 @@ export const RELATOS_VAL_MINOR: Record<string, RelatoMun> = {
       veredicto:
         "Veredicto: Nigrán es la recomendación más equilibrada para quien quiera mar, hospital y vida residencial ordenada. Buscaría tres habitaciones en Priegue o Camos —parroquias altas con casas y vistas, a cinco o diez minutos de Praia América, en la franja media del municipio—, o dos habitaciones cerca de Panxón si caminar al puerto importa más que los metros. Evitaría una vivienda pegada a la PO-552 sin haber escuchado el tráfico un día laborable y comprobaría el aparcamiento y el ruido de la playa en agosto. El verano costero ronda máximas de 25–26 °C y solo aporta unos tres a cinco días por encima de 30 °C; es claramente más fresco que Mallorca y algo más suave que Gondomar, donde el valle alcanza entre cinco y ocho días sobre esa cifra. Frente a Baiona se pierde casco histórico, pero se gana variedad residencial y mejor tiempo al hospital; frente a Gondomar se paga bastante más por conservar la playa a cuatro minutos.",
     },
+    fotoIdentidad: {
+      src: "/fotos/val-minor/nigran-identidad.jpg",
+      pie: "Panxón (Nigrán): casas del pueblo junto a la bahía, con el monte detrás",
+    },
     fotosAbrir: [
       {
         src: "/fotos/val-minor/nigran-praia-america.jpg",
@@ -209,6 +217,10 @@ export const RELATOS_VAL_MINOR: Record<string, RelatoMun> = {
       ],
       veredicto:
         "Veredicto: Gondomar ofrece la mejor relación entre espacio, silencio, hospital y precio. Buscaría casa de piedra o chalé en Vincios, Donas, Chaín o Morgadáns, con terraza orientada al sur y una comprobación real de fibra, humedad y horas de sombra en invierno. El hospital Álvaro Cunqueiro está a unos quince minutos, el aeropuerto a veinte y Praia América a doce: el mar no se vive a pie, pero cabe en cualquier tarde. Tres habitaciones en la villa rondan 160.000 euros; una casa con terreno, 200.000–250.000. En la primera línea de Baiona o Nigrán tres habitaciones se acercan a 290.000–300.000. Frente a la costa se gana calma y espacio; se aceptan coche y entre cinco y ocho días anuales sobre 30 °C, todavía muy por debajo del calor de Mallorca. Si caminar a la playa es irrenunciable, elegiría Baiona o Nigrán; si la prioridad es volver del mar a una casa silenciosa con monte detrás, Gondomar es la primera recomendación.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/val-minor/gondomar-identidad.jpg",
+      pie: "Gondomar: casas de Mañufe en la ladera, con el monte del valle detrás",
     },
     fotosAbrir: [
       {

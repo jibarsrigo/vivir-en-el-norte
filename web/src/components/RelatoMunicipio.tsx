@@ -1,10 +1,12 @@
 import Link from "next/link";
+import Image from "next/image";
 import Encaja from "@/components/Encaja";
 import Foto from "@/components/Foto";
 import TablaPrecios from "@/components/TablaPrecios";
 import TablaComparativaZona from "@/components/TablaComparativaZona";
 import EnlaceIdealista from "@/components/EnlaceIdealista";
 import { municipiosDeZonaFicha, type FichaMunicipio } from "@/lib/municipios";
+import { rutaPublica } from "@/lib/ruta-publica";
 import { RELATOS_VAL_MINOR } from "@/lib/relatos-val-minor";
 import { RELATOS_VIGO_E_RIA } from "@/lib/relatos-vigo-e-ria";
 import { RELATOS_O_MORRAZO } from "@/lib/relatos-o-morrazo";
@@ -37,6 +39,11 @@ export type RelatoMun = {
   fuera: string[];
   casa: string[];
   encaja: { si: string[]; no: string[]; veredicto: string };
+  /**
+   * Foto de identidad: casas del pueblo + mar/ría/monte en el mismo encuadre.
+   * Se muestra arriba del relato (una sola vez; si coincide con otra foto, no se repite abajo).
+   */
+  fotoIdentidad?: FotoRelato;
   fotosAbrir: FotoRelato[];
   fotosHistoria: FotoRelato[];
   fotosFuera: FotoRelato[];
@@ -55,20 +62,39 @@ function Parrafos({ textos }: { textos: string[] }) {
   );
 }
 
-function Fotos({ items }: { items: FotoRelato[] }) {
+function Fotos({ items, omitSrc }: { items: FotoRelato[]; omitSrc?: string }) {
   if (!items.length) return null;
   const seen = new Set<string>();
+  if (omitSrc) seen.add(omitSrc);
   const unicas = items.filter((f) => {
     if (seen.has(f.src)) return false;
     seen.add(f.src);
     return true;
   });
+  if (!unicas.length) return null;
   return (
     <>
       {unicas.map((f) => (
         <Foto key={f.src} src={f.src} pie={f.pie} />
       ))}
     </>
+  );
+}
+
+/** Hero de ficha: casas + entorno (mar/ría/monte), para imaginar vivir ahí. */
+function FotoIdentidad({ foto }: { foto: FotoRelato }) {
+  return (
+    <figure className="mt-6 overflow-hidden rounded-xl border border-[var(--linea)] bg-white">
+      <Image
+        src={rutaPublica(foto.src)}
+        alt={foto.pie}
+        width={1600}
+        height={1000}
+        className="h-auto w-full"
+        priority
+      />
+      <figcaption className="px-3 py-2 text-sm text-[var(--tinta-suave)]">{foto.pie}</figcaption>
+    </figure>
   );
 }
 
@@ -124,6 +150,10 @@ const RELATOS_BAIXO_MINO: Record<string, RelatoMun> = {
       ],
       veredicto:
         "Veredicto de quien conoce la comarca: A Guarda encaja como villa de mar y oficio —piso con terraza al río Miño o al puerto, cerca del paseo marítimo, no en la esquina más abierta al Atlántico— sobre todo si el mar cerca y el tiempo para recorrerlo importan más que el hospital. Como casa única solo si se acepta Vigo y el hospital Álvaro Cunqueiro a tres cuartos de hora. Mejor complemento de una casa en el valle (O Rosal) que única apuesta. Comprobar la nortada y un sábado de agosto en Area Grande antes de comprar.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/baixo-mino/a-guarda-identidad.jpg",
+      pie: "A Guarda: casas del paseo, Atlántico delante y el monte detrás — así se vive en la punta",
     },
     fotosAbrir: [
       { src: "/fotos/baixo-mino/a-guarda-villa.jpg", pie: "La villa pegada al Atlántico, con el Monte Santa Trega detrás" },
@@ -185,6 +215,10 @@ const RELATOS_BAIXO_MINO: Record<string, RelatoMun> = {
       veredicto:
         "Veredicto: Oia no es la opción de quien busca pueblo compacto ni hospital cerca. Es la de quien quiere océano y silencio y acepta pagarlos con distancia, fibra a comprobar casa por casa y un invierno que vacía las aldeas. Solo si eso es exactamente lo que se busca —y se ha visto un noviembre—; si no, mirar A Guarda (mar con villa) o el valle de O Rosal.",
     },
+    fotoIdentidad: {
+      src: "/fotos/baixo-mino/oia-identidad.jpg",
+      pie: "Oia: casas junto al monasterio, Atlántico delante y la sierra detrás",
+    },
     fotosAbrir: [
       { src: "/fotos/baixo-mino/oia-mosteiro.jpg", pie: "Mosteiro de Santa María de Oia: piedra entre sierra y océano" },
       { src: "/fotos/baixo-mino/oia-costa.jpg", pie: "La costa atlántica hacia Oia: oleaje y aldeas" },
@@ -244,6 +278,10 @@ const RELATOS_BAIXO_MINO: Record<string, RelatoMun> = {
       ],
       veredicto:
         "Veredicto: O Rosal es la opción de valle de Baixo Miño. Encaja si el paisaje y el ritmo de pueblo importan más que hospital y ciudad cerca, y si diez minutos al mar bastan. Casa de piedra o chalé orientado al sur en las parroquias de Tabagón, San Miguel o Eiras; comprobar fibra, humedad de noviembre y el trayecto a la playa de Area Grande un domingo de agosto. Quien priorice sanidad a treinta minutos, mirar Tui; quien priorice mar a la puerta, A Guarda.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/baixo-mino/o-rosal-identidad.jpg",
+      pie: "O Rosal: casas de San Miguel de Tabagón junto al puente del Tamuxe, con el valle detrás",
     },
     fotosAbrir: [
       { src: "/fotos/baixo-mino/rosal-concello.jpg", pie: "Casa do concello: el núcleo de O Calvario" },
@@ -418,15 +456,19 @@ export default function RelatoMunicipio({
     }),
   );
 
+  const identidad = r.fotoIdentidad ?? r.fotosAbrir[0];
+  const omitIdentidad = identidad?.src;
+
   return (
     <article className="mt-8">
       <p className="text-sm font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">{r.escala}</p>
+      {identidad ? <FotoIdentidad foto={identidad} /> : null}
 
       <h2 className="mt-6 font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">
         Cómo se vive
       </h2>
       <Parrafos textos={r.abrir} />
-      <Fotos items={r.fotosAbrir} />
+      <Fotos items={r.fotosAbrir} omitSrc={omitIdentidad} />
 
       <h2 className="mt-10 font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">
         Frente a Mallorca
@@ -448,13 +490,13 @@ export default function RelatoMunicipio({
         De dónde viene
       </h2>
       <Parrafos textos={r.historia} />
-      <Fotos items={r.fotosHistoria} />
+      <Fotos items={r.fotosHistoria} omitSrc={omitIdentidad} />
 
       <h2 className="mt-10 font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">
         Mar, río y camino
       </h2>
       <Parrafos textos={r.fuera} />
-      <Fotos items={r.fotosFuera} />
+      <Fotos items={r.fotosFuera} omitSrc={omitIdentidad} />
 
       <h2 className="mt-10 font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">Casa</h2>
       <Parrafos textos={r.casa} />

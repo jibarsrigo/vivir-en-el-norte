@@ -50,6 +50,10 @@ export const RELATOS_GOLFO_ARTABRO_E_FERROL: Record<string, RelatoMun> = {
       veredicto:
         "Veredicto: A Coruña es la capital atlántica del golfo —piso caminable a paseo y servicios, fuera del tramo más ruidoso de María Pita y San Juan—, no la urbanización residencial. Encaja si ciudad, hospital a cinco minutos y mar juntos importan más que el silencio de chalé. Como casa única, tras comprobar un invierno húmedo y el frente de oleaje; si mandan jardín y ría calmada, Oleiros o Sada a diez o quince minutos. Se ganan servicios 10/10 y Alvedro a diez minutos; se aceptan precio alto, agua fresca y cielo gris frente a Mallorca.",
     },
+    fotoIdentidad: {
+      src: "/fotos/golfo-artabro-e-ferrol/a-coruna-identidad.jpg",
+      pie: "A Coruña: galerías y casas de la marina frente al puerto",
+    },
     fotosAbrir: [
       { src: "/fotos/golfo-artabro-e-ferrol/coruna-hercules.jpg", pie: "Torre de Hércules sobre el Atlántico" },
       { src: "/fotos/golfo-artabro-e-ferrol/coruna-paseo.jpg", pie: "Paseo marítimo de A Coruña" },
@@ -111,6 +115,10 @@ export const RELATOS_GOLFO_ARTABRO_E_FERROL: Record<string, RelatoMun> = {
       ],
       veredicto:
         "Veredicto: Oleiros es la apuesta urbanización-playa del golfo —vivienda en Mera o Santa Cruz, fuera del tramo más ocupado de agosto—. Encaja si orden, playa y A Coruña a diez minutos importan más que el metro bajo o el casco antiguo. Como casa única, tras comprobar sol real en noviembre y una tarde de veraneo en la orilla; si mandan precio o villa con puerto, Sada o Costa Miño. Se ganan CHUAC a diez minutos y Alvedro a diez; se aceptan precio alto y cielo gris frente a Mallorca.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/golfo-artabro-e-ferrol/oleiros-identidad.jpg",
+      pie: "Oleiros–Santa Cristina: casas frente a la ría, con el monte detrás",
     },
     fotosAbrir: [
       { src: "/fotos/golfo-artabro-e-ferrol/oleiros-santa-cruz.jpg", pie: "Santa Cruz: castillo en islote y paseo" },
@@ -234,6 +242,10 @@ export const RELATOS_GOLFO_ARTABRO_E_FERROL: Record<string, RelatoMun> = {
       ],
       veredicto:
         "Veredicto: Bergondo es la apuesta jardín-ría del arco —casa con terreno lejos del tramo más ocupado de Gandarío en agosto, con fibra y acceso comprobados—. Encaja si calma, agua templada y precio más bajo que Oleiros importan más que villa caminable. Como casa única solo si se acepta coche y hospital a veinte minutos; si mandan puerto y comercio, Sada; si mandan chalé ordenado junto a la ciudad, Oleiros. Se ganan ría y parcela; se aceptan servicios 4/10 y cielo gris frente a Mallorca.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/golfo-artabro-e-ferrol/bergondo-identidad.jpg",
+      pie: "Bergondo: casas junto a la ría de Betanzos y el puente do Pedrido",
     },
     fotosAbrir: [
       { src: "/fotos/golfo-artabro-e-ferrol/bergondo-marinan.jpg", pie: "Pazo de Mariñán hacia la ría" },

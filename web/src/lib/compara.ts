@@ -43,6 +43,8 @@ export type FilaCompara = {
   /** Frente a Mallorca: clima (tiempo) + vivir de la ficha. */
   frenteClima: string[];
   frenteVivir: string[];
+  /** Foto de identidad (casas + entorno); misma que abre la ficha. */
+  fotoIdentidad: { src: string; pie: string } | null;
 };
 
 export const MALLORCA_REF = {
@@ -105,6 +107,10 @@ export function filaCompara(slug: string): FilaCompara | undefined {
     encajaVeredicto: relato?.encaja.veredicto ?? "",
     frenteClima: relato?.tiempo ?? [],
     frenteVivir: relato?.vivir ?? [],
+    fotoIdentidad: (() => {
+      const f = relato?.fotoIdentidad ?? relato?.fotosAbrir[0];
+      return f ? { src: f.src, pie: f.pie } : null;
+    })(),
   };
 }
 

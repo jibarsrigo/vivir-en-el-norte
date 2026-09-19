@@ -50,6 +50,10 @@ export const RELATOS_O_SALNES: Record<string, RelatoMun> = {
       veredicto:
         "Veredicto: Meaño es la opción rural de O Salnés —casa orientada al sur en Xil, Simes o Padrenda tras comprobar fibra, humedad y acceso en noviembre; Dena si los recados hay que contar con más—. Encaja si viñedo, piedra y A Lanzada a diez minutos importan más que villa a pie. Se ganan ~1.350 €/m², verano fresco frente a Mallorca y hospital a veinte; se aceptan coche diario, servicios 3/10 y 118 días de lluvia. Si mandan mercado y Fefiñáns caminables, Cambados; si ría asequible con baño cerca, Vilanova; si isla y calas a pie, A Illa.",
     },
+    fotoIdentidad: {
+      src: "/fotos/o-salnes/meano-identidad.jpg",
+      pie: "Meaño: casas de parroquia y monte Castrove detrás",
+    },
     fotosAbrir: [
       { src: "/fotos/o-salnes/meano-emparrado.jpg", pie: "Meaño: viñedos en emparrado entre parroquias" },
       { src: "/fotos/o-salnes/meano-dena.jpg", pie: "Dena, el núcleo práctico del municipio" },
@@ -238,6 +242,10 @@ export const RELATOS_O_SALNES: Record<string, RelatoMun> = {
       veredicto:
         "Veredicto: Vilanova encaja como equilibrio asequible de la ría —tres habitaciones cerca del paseo fuera del recorrido festivo, o casa en Baión tras revisar reforma y humedad—. Sobre todo si baño, calma y ~1.350 €/m² importan más que villa monumental o isla. Probar agosto–septiembre y un noviembre antes de comprar. Se ganan As Sinas, hospital a quince y Vilagarcía próxima; se aceptan servicios 5/10, oferta cultural modesta y lluvia honesta. Si mandan piedra y Albariño, Cambados; si calas a pie, A Illa; si tren y hospital a cinco, Vilagarcía.",
     },
+    fotoIdentidad: {
+      src: "/fotos/o-salnes/vilanova-de-arousa-identidad.jpg",
+      pie: "Vilanova de Arousa: casas frente a la ría, con bateas y monte detrás",
+    },
     fotosAbrir: [
       { src: "/fotos/o-salnes/vilanova-paseo.jpg", pie: "Vilanova: paseo y villa frente a la ría" },
       { src: "/fotos/o-salnes/vilanova-terron.jpg", pie: "O Terrón, puerto y playa junto al casco" },
@@ -300,6 +308,10 @@ export const RELATOS_O_SALNES: Record<string, RelatoMun> = {
       ],
       veredicto:
         "Veredicto: Vilagarcía encaja como elección logística de O Salnés —tres habitaciones entre estación, mercado y Compostela, fuera de la zona más húmeda de San Roque y tras escuchar el puerto; Carril si hay que contar con paseo y marisqueo—. Sobre todo si hospital a cinco, tren y servicios 8/10 importan más que Fefiñáns. Probar agosto y un noviembre antes de comprar. Se ganan Santiago a veinticinco en tren y baño urbano de ría; se acepta ciudad portuaria menos armoniosa, más lluvia que la isla y precio por encima de Vilanova. Si mandan piedra y vino, Cambados; si calma y ~1.350 €/m², Vilanova; si calas a pie, A Illa.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/o-salnes/vilagarcia-de-arousa-identidad.jpg",
+      pie: "Vilagarcía–Carril: casas junto a la ría de Arousa y el monte detrás",
     },
     fotosAbrir: [
       { src: "/fotos/o-salnes/vilagarcia-paseo.jpg", pie: "Vilagarcía y Carril: ciudad, puerto y ría de Arousa" },

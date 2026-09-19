@@ -110,6 +110,10 @@ export const RELATOS_ALTO_MINHO: Record<string, RelatoMun> = {
       veredicto:
         "Veredicto: Vila Nova de Cerveira es villa fluvial y arte —Miño, puente a Goián y cultura a cambio de servicios medios y mar a veinte minutos—. Buscaría tres habitaciones hacia el casco o el río, tras probar un martes de noviembre y un fin de semana de exposición o de praia fluvial llena. Se ganan ~1.500 €/m², frontera cotidiana y calendario cultural; se aceptan servicios 5/10, aeropuerto a unos cuarenta y cinco minutos (Vigo) y seguro privado portugués. Si mandan playa abrigada y mercado a pie, Âncora encaja mejor; si hay que contar con río, arte y precio de interior, Cerveira es coherente.",
     },
+    fotoIdentidad: {
+      src: "/fotos/alto-minho/vila-nova-de-cerveira-identidad.jpg",
+      pie: "Vila Nova de Cerveira: casas junto al Miño, con el monte y el estuario",
+    },
     fotosAbrir: [
       { src: "/fotos/alto-minho/cerveira-villa.jpg", pie: "Vila Nova de Cerveira sobre el Miño" },
     ],
@@ -226,6 +230,10 @@ export const RELATOS_ALTO_MINHO: Record<string, RelatoMun> = {
       veredicto:
         "Veredicto: Moledo es pinar y playa elegante —dunas e Ínsua a cambio de viento, precio alto y servicios mínimos—. Buscaría dos habitaciones o chalé retirado de la primera línea más ventosa, tras probar nortada de tarde y un noviembre entre pinos. Se ganan Atlántico a dos minutos y el cielo más limpio de la zona; se aceptan ~2.300 €/m², servicios 3/10, mar a 16–18 °C, aeropuerto a unos sesenta minutos y seguro privado portugués. Si mandan villa con mercado y espigón abrigado, Âncora; si hay que contar con granito, monte y Viana a quince, Afife-Carreço; si la prioridad es la orilla más escénica y se acepta el viento, Moledo.",
     },
+    fotoIdentidad: {
+      src: "/fotos/alto-minho/moledo-identidad.jpg",
+      pie: "Moledo: casas junto al paseo y la playa, con el monte detrás",
+    },
     fotosAbrir: [
       { src: "/fotos/alto-minho/moledo-playa.jpg", pie: "Playa de Moledo: dunas y Atlántico" },
     ],
@@ -339,6 +347,10 @@ export const RELATOS_ALTO_MINHO: Record<string, RelatoMun> = {
       ],
       veredicto:
         "Veredicto: Afife-Carreço es aldea de granito entre monte y mar —Arga detrás, Paçô a tres y Viana a quince a cambio de coche y servicios mínimos—. Buscaría casa de granito con terreno en Afife, Carreço o Areosa, con fibra comprobada y acceso claro a la playa, tras probar un martes de noviembre y un julio con nortada en la orilla. Se ganan ~2.100 €/m² de costa, hospital a unos quince minutos y aeropuerto a unos cincuenta y cinco; se aceptan servicios 3/10, mar a 16–18 °C y seguro privado portugués. Si mandan villa con mercado y espigón, Âncora; si hay que contar con ciudad 9/10, Viana; si la prioridad es granito, monte y mar en el mismo gesto, esta es la elección del estudio en Portugal.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/alto-minho/afife-carreco-identidad.jpg",
+      pie: "Afife–Carreço: casa entre pinos con el Atlántico al fondo",
     },
     fotosAbrir: [
       { src: "/fotos/alto-minho/afife-aldea.jpg", pie: "Afife: aldea de granito" },

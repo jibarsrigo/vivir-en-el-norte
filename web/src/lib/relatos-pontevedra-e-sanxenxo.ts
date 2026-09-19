@@ -175,6 +175,10 @@ export const RELATOS_PONTEVEDRA_E_SANXENXO: Record<string, RelatoMun> = {
       veredicto:
         "Veredicto: Sanxenxo encaja como opción de playa y temporada —dos habitaciones caminables a Silgar o Portonovo solo tras dormir allí en agosto y medir ruido; para tres habitaciones, fuera de primera línea o cambiar de municipio—. Sobre todo si variedad de orilla y verano fresco frente a Mallorca importan más que silencio y precio. Se gana el litoral más completo; se pagan saturación, ~2.900 €/m² y aeropuerto a ~50 minutos. Si mandan calma de ría y hospital a diez, Poio; si peatonalidad y sanidad a cinco, Pontevedra; si lonja y península con metro más bajo, O Grove.",
     },
+    fotoIdentidad: {
+      src: "/fotos/pontevedra-e-sanxenxo/sanxenxo-identidad.jpg",
+      pie: "Sanxenxo: casas frente a la ría, con el monte detrás",
+    },
     fotosAbrir: [
       { src: "/fotos/pontevedra-e-sanxenxo/sanxenxo-silgar.jpg", pie: "Silgar, paseo y playa urbana de Sanxenxo" },
       { src: "/fotos/pontevedra-e-sanxenxo/sanxenxo-portonovo.jpg", pie: "Portonovo conserva puerto y vida propia todo el año" },

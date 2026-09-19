@@ -50,6 +50,10 @@ export const RELATOS_A_MARINA: Record<string, RelatoMun> = {
       veredicto:
         "Veredicto: O Vicedo es el extremo aislado de A Mariña —precio y Cantábrico a cambio de servicios mínimos—. Buscaría vivienda con fibra comprobada (es parcial), acceso claro en invierno y orientación que aguante viento y humedad, lejos del atasco de agosto en Xilloi o Fuciño do Porco. Se ganan costa atlántica y el metro más barato de la zona; se aceptan coche casi cada día, hospital a treinta y cinco minutos, aeropuerto a unos cien y un cielo que no es el de Mallorca.",
     },
+    fotoIdentidad: {
+      src: "/fotos/a-marina/o-vicedo-identidad.jpg",
+      pie: "O Vicedo: casas junto a la ría, con el monte detrás",
+    },
     fotosAbrir: [
       { src: "/fotos/a-marina/vicedo-villa.jpg", pie: "O Vicedo: villa marinera en el extremo occidental" },
       { src: "/fotos/a-marina/vicedo-puerto.jpg", pie: "Puerto y orilla de trabajo en O Vicedo" },
@@ -234,6 +238,10 @@ export const RELATOS_A_MARINA: Record<string, RelatoMun> = {
       veredicto:
         "Veredicto: Cervo es costa, cerámica y hospital cerca. Buscaría vivienda en San Cibrao o cerca de Sargadelos, con fibra comprobada (es parcial), tras probar un agosto en la península y un día de niebla. Se ganan Cubelas, O Torno, Sargadelos y Burela a unos diez minutos; se aceptan servicios limitados, coche para el comercio grande, cielo de Mariña y Alcoa en el horizonte.",
     },
+    fotoIdentidad: {
+      src: "/fotos/a-marina/cervo-identidad.jpg",
+      pie: "Cervo: casas del pueblo frente al mar",
+    },
     fotosAbrir: [
       { src: "/fotos/a-marina/cervo-sargadelos.jpg", pie: "Sargadelos: cerámica y Real Fábrica en Cervo" },
       { src: "/fotos/a-marina/cervo-villa.jpg", pie: "Cervo y el entorno de San Cibrao" },
@@ -417,6 +425,10 @@ export const RELATOS_A_MARINA: Record<string, RelatoMun> = {
       ],
       veredicto:
         "Veredicto: Barreiros es playas y veraneo, no villa completa. Buscaría vivienda con fibra comprobada y acceso claro, lejos del atasco de As Catedrais en agosto, tras probar un martes de noviembre vacío y decidir si Foz o Ribadeo pueden ser la villa de apoyo. Se ganan arena, arcos a cinco minutos y Asturias a unos setenta; se aceptan servicios 3/10, hospital a veinticinco minutos e invierno quieto.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/a-marina/barreiros-identidad.jpg",
+      pie: "Barreiros: casas junto al mar, con la sierra detrás",
     },
     fotosAbrir: [
       { src: "/fotos/a-marina/barreiros-catedrais.jpg", pie: "As Catedrais a minutos de Barreiros" },

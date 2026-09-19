@@ -113,6 +113,10 @@ export const RELATOS_ASTURIAS_ORIENTE: Record<string, RelatoMun> = {
       veredicto:
         "Veredicto: Colunga encaja como Lastres y el Sueve —vivienda con acceso claro al pueblo colgado o hacia el Fitu, fibra comprobada, no como villa autosuficiente— sobre todo si paisaje Jurásico y Arriondas a veinte minutos importan más que servicios a pie. Probar un agosto en Lastres y un martes de noviembre antes de comprar. Se ganan La Griega, La Isla, el MUJA y sierra sobre el mar a ~1.700 €/m²; se aceptan servicios 4/10, coche diario y Asturias a unos sesenta. Quien priorice villa caminable, mirar Villaviciosa o Ribadesella; quien priorice muro y playas sin cuesta, Llanes.",
     },
+    fotoIdentidad: {
+      src: "/fotos/asturias-oriente/colunga-identidad.jpg",
+      pie: "Lastres (Colunga): casas blancas colgadas sobre la bahía — así se vive entre cuesta y mar",
+    },
     fotosAbrir: [
       { src: "/fotos/asturias-oriente/colunga-lastres.jpg", pie: "Lastres, pueblo colgado" },
       { src: "/fotos/asturias-oriente/colunga-mirador.jpg", pie: "Mirador de San Roque, Lastres" },
@@ -176,6 +180,10 @@ export const RELATOS_ASTURIAS_ORIENTE: Record<string, RelatoMun> = {
       veredicto:
         "Veredicto: Ribadesella encaja como villa del Sella e Indianos —piso o vivienda en casco o cerca del paseo, fuera del tramo más ocupado de Santa Marina en agosto— sobre todo si Arriondas a veinte, Picos a treinta y villa 7/10 todo el año importan más que el silencio de julio. Probar el Descenso o un sábado de afluencia y un martes de noviembre antes de comprar. Se ganan puerto, Tito Bustillo, Vega y el paisaje más completo del oriente; se aceptan ~2.200 €/m², agosto lleno y aeropuerto lejos. Quien priorice sanidad hacia Gijón y metro más bajo, Villaviciosa; quien priorice treinta playas y muro, Llanes.",
     },
+    fotoIdentidad: {
+      src: "/fotos/asturias-oriente/ribadesella-identidad.jpg",
+      pie: "Ribadesella: casas junto a la desembocadura del Sella, con los Picos al fondo",
+    },
     fotosAbrir: [
       { src: "/fotos/asturias-oriente/ribadesella-puerto.jpg", pie: "Puerto de Ribadesella" },
       { src: "/fotos/asturias-oriente/ribadesella-santa-marina.jpg", pie: "Paseo de Santa Marina" },
@@ -238,6 +246,10 @@ export const RELATOS_ASTURIAS_ORIENTE: Record<string, RelatoMun> = {
       ],
       veredicto:
         "Veredicto: Llanes encaja como villa amurallada de playas y Cuera —piso o vivienda en casco o pueblo interior, no en primera línea de Barro o Celorio en temporada— sobre todo si la costa más completa del oriente importa más que Arriondas a treinta y cinco. Probar un agosto lleno y un martes de noviembre antes de comprar. Se ganan muro, más de treinta playas, servicios 7/10 y Santander a unos setenta hacia Palma; se aceptan agosto multiplicado, ~2.100 €/m² y el sol mínimo de la tabla. Quien priorice hospital a veinte, Ribadesella; quien priorice metro y Cabueñes, Villaviciosa; quien priorice vuelo corto y calma de frontera, Ribadedeva.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/asturias-oriente/llanes-identidad.jpg",
+      pie: "Llanes: casas con galerías sobre el puerto — vivir pegado al Cantábrico",
     },
     fotosAbrir: [
       { src: "/fotos/asturias-oriente/llanes-casco.jpg", pie: "Casco amurallado de Llanes" },

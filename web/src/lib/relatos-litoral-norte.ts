@@ -50,6 +50,10 @@ export const RELATOS_LITORAL_NORTE: Record<string, RelatoMun> = {
       veredicto:
         "Veredicto de quien mira la costa llana al norte de Porto: Esposende encaja como villa y dunas residenciales —tres habitaciones a cinco–diez minutos de la playa en Ofir o Apúlia, o piso hacia el estuario, no en la esquina más abierta al Atlántico— sobre todo si el máximo sol, el parque natural y la calma frente a los bloques importan más que el hospital a pie y el metro. Comprobar la nortada de tarde y un noviembre antes de comprar. Se ganan ~2.300 €/m², estuario abrigado, Braga y Porto a 30–40 y Sá Carneiro a treinta y cinco; se aceptan servicios 6/10, mar frío 16–18 °C, sin montaña y seguro privado portugués en lugar de la tarjeta española.",
     },
+    fotoIdentidad: {
+      src: "/fotos/litoral-norte/esposende-identidad.jpg",
+      pie: "Esposende: plaza y casas del centro, con la iglesia matriz al fondo",
+    },
     fotosAbrir: [
       { src: "/fotos/litoral-norte/esposende-ofir.jpg", pie: "Ofir: pinos y urbanización en Esposende" },
     ],

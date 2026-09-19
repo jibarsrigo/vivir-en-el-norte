@@ -11,6 +11,7 @@ import {
   type ReactNode,
 } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import Image from "next/image";
 import Link from "next/link";
 import { buscarMunicipios, type HitBuscaMunicipio } from "@/lib/busca-municipios";
 import {
@@ -26,6 +27,8 @@ import {
   serializeVs,
   type FilaCompara,
 } from "@/lib/compara";
+import { rutaPublica } from "@/lib/ruta-publica";
+import { objectPositionIdentidad } from "@/lib/encuadre-identidad";
 
 function leerLocal(): string[] {
   if (typeof window === "undefined") return [];
@@ -118,6 +121,148 @@ function BloqueParaDecidirte({ filas }: { filas: FilaCompara[] }) {
       <ul className="mt-4 space-y-3">
         {filas.map((f) => {
           const hayFrente = f.frenteClima.length > 0 || f.frenteVivir.length > 0;
+          /** Polaroid en todos salvo Llanes (queda el formato thumbnail anterior). */
+          const polaroid = f.slug !== "llanes" && Boolean(f.fotoIdentidad);
+
+          const acordeones = (
+            <>
+              {hayFrente ? (
+                <BloqueEncajaColapsable
+                  id={`frente-mallorca-${f.slug}`}
+                  titulo="Frente a Mallorca"
+                  abierto={abiertos.has(`${f.slug}:frente`)}
+                  onToggle={() => toggle(`${f.slug}:frente`)}
+                >
+                  {f.frenteClima.length > 0 ? (
+                    <div>
+                      <p className="text-[11px] font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
+                        Clima
+                      </p>
+                      {f.frenteClima.map((p, i) => (
+                        <p
+                          key={`clima-${i}`}
+                          className="mt-1.5 text-[15px] leading-relaxed text-[var(--tinta)]"
+                        >
+                          {p}
+                        </p>
+                      ))}
+                    </div>
+                  ) : null}
+                  {f.frenteVivir.length > 0 ? (
+                    <div className={f.frenteClima.length ? "mt-4" : undefined}>
+                      <p className="text-[11px] font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
+                        Vivir
+                      </p>
+                      {f.frenteVivir.map((p, i) => (
+                        <p
+                          key={`vivir-${i}`}
+                          className="mt-1.5 text-[15px] leading-relaxed text-[var(--tinta)]"
+                        >
+                          {p}
+                        </p>
+                      ))}
+                    </div>
+                  ) : null}
+                </BloqueEncajaColapsable>
+              ) : null}
+
+              {f.encajaSi.length > 0 ? (
+                <BloqueEncajaColapsable
+                  id={`encaja-si-${f.slug}`}
+                  titulo="Encaja si"
+                  abierto={abiertos.has(`${f.slug}:si`)}
+                  onToggle={() => toggle(`${f.slug}:si`)}
+                >
+                  {f.encajaSi.map((p, i) => (
+                    <p
+                      key={`si-${i}`}
+                      className="mt-1.5 text-[15px] leading-relaxed text-[var(--tinta)] first:mt-0"
+                    >
+                      {p}
+                    </p>
+                  ))}
+                </BloqueEncajaColapsable>
+              ) : null}
+
+              {f.encajaNo.length > 0 ? (
+                <BloqueEncajaColapsable
+                  id={`encaja-no-${f.slug}`}
+                  titulo="Mejor no si"
+                  abierto={abiertos.has(`${f.slug}:no`)}
+                  onToggle={() => toggle(`${f.slug}:no`)}
+                >
+                  {f.encajaNo.map((p, i) => (
+                    <p
+                      key={`no-${i}`}
+                      className="mt-1.5 text-[15px] leading-relaxed text-[var(--tinta)] first:mt-0"
+                    >
+                      {p}
+                    </p>
+                  ))}
+                </BloqueEncajaColapsable>
+              ) : null}
+
+              {f.encajaVeredicto ? (
+                <BloqueEncajaColapsable
+                  id={`encaja-veredicto-${f.slug}`}
+                  titulo="Veredicto"
+                  abierto={abiertos.has(`${f.slug}:veredicto`)}
+                  onToggle={() => toggle(`${f.slug}:veredicto`)}
+                >
+                  <p className="text-[15px] leading-relaxed text-[var(--tinta)]">
+                    {f.encajaVeredicto.replace(/^Veredicto:\s*/i, "")}
+                  </p>
+                </BloqueEncajaColapsable>
+              ) : null}
+
+              {!hayFrente &&
+              !f.encajaSi.length &&
+              !f.encajaNo.length &&
+              !f.encajaVeredicto ? (
+                <p className="mt-2 text-sm text-[var(--tinta-suave)]">Sin balance en el relato.</p>
+              ) : null}
+            </>
+          );
+
+          if (polaroid && f.fotoIdentidad) {
+            const objectPosition = objectPositionIdentidad(f.fotoIdentidad.src);
+            return (
+              <li
+                key={f.slug}
+                className="overflow-hidden rounded-lg border border-[var(--linea)] bg-white"
+              >
+                {/* Foto con margen (no pegada a esquinas); nombre en recuadro blanco. */}
+                <figure className="border-b border-[var(--linea)] px-3 pt-3">
+                  <div className="relative h-[7.5rem] overflow-hidden rounded-md">
+                    <Image
+                      src={rutaPublica(f.fotoIdentidad.src)}
+                      alt={[f.nombre, f.escala].filter(Boolean).join(" — ")}
+                      fill
+                      className="object-cover"
+                      style={{ objectPosition }}
+                      sizes="(max-width: 640px) 100vw, 36rem"
+                      unoptimized
+                    />
+                    <figcaption className="absolute bottom-2 left-2 z-[1] max-w-[calc(100%-1rem)] rounded border border-[var(--linea)] bg-white px-3 py-1.5">
+                      <Link
+                        href={f.href}
+                        className="font-semibold text-[var(--acento)] underline-offset-2 hover:underline"
+                      >
+                        {f.nombre}
+                      </Link>
+                      {f.escala ? (
+                        <span className="mt-0.5 block text-xs text-[var(--tinta-suave)]">
+                          {f.escala}
+                        </span>
+                      ) : null}
+                    </figcaption>
+                  </div>
+                </figure>
+                <div className="px-4 pb-3 pt-1">{acordeones}</div>
+              </li>
+            );
+          }
+
           return (
           <li
             key={f.slug}
@@ -133,101 +278,24 @@ function BloqueParaDecidirte({ filas }: { filas: FilaCompara[] }) {
               <span className="mt-0.5 block text-xs text-[var(--tinta-suave)]">{f.escala}</span>
             ) : null}
 
-            {hayFrente ? (
-              <BloqueEncajaColapsable
-                id={`frente-mallorca-${f.slug}`}
-                titulo="Frente a Mallorca"
-                abierto={abiertos.has(`${f.slug}:frente`)}
-                onToggle={() => toggle(`${f.slug}:frente`)}
-              >
-                {f.frenteClima.length > 0 ? (
-                  <div>
-                    <p className="text-[11px] font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
-                      Clima
-                    </p>
-                    {f.frenteClima.map((p, i) => (
-                      <p
-                        key={`clima-${i}`}
-                        className="mt-1.5 text-[15px] leading-relaxed text-[var(--tinta)]"
-                      >
-                        {p}
-                      </p>
-                    ))}
-                  </div>
-                ) : null}
-                {f.frenteVivir.length > 0 ? (
-                  <div className={f.frenteClima.length ? "mt-4" : undefined}>
-                    <p className="text-[11px] font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
-                      Vivir
-                    </p>
-                    {f.frenteVivir.map((p, i) => (
-                      <p
-                        key={`vivir-${i}`}
-                        className="mt-1.5 text-[15px] leading-relaxed text-[var(--tinta)]"
-                      >
-                        {p}
-                      </p>
-                    ))}
-                  </div>
-                ) : null}
-              </BloqueEncajaColapsable>
+            {f.fotoIdentidad ? (
+              <figure className="mt-2.5 w-44 max-w-full overflow-hidden rounded border border-[var(--linea)] bg-[var(--fondo)]">
+                <Image
+                  src={rutaPublica(f.fotoIdentidad.src)}
+                  alt={f.fotoIdentidad.pie}
+                  width={176}
+                  height={96}
+                  className="h-24 w-full object-cover"
+                  sizes="176px"
+                  unoptimized
+                />
+                <figcaption className="line-clamp-2 px-1.5 py-1 text-[10px] leading-snug text-[var(--tinta-suave)]">
+                  {f.fotoIdentidad.pie}
+                </figcaption>
+              </figure>
             ) : null}
 
-            {f.encajaSi.length > 0 ? (
-              <BloqueEncajaColapsable
-                id={`encaja-si-${f.slug}`}
-                titulo="Encaja si"
-                abierto={abiertos.has(`${f.slug}:si`)}
-                onToggle={() => toggle(`${f.slug}:si`)}
-              >
-                {f.encajaSi.map((p, i) => (
-                  <p
-                    key={`si-${i}`}
-                    className="mt-1.5 text-[15px] leading-relaxed text-[var(--tinta)] first:mt-0"
-                  >
-                    {p}
-                  </p>
-                ))}
-              </BloqueEncajaColapsable>
-            ) : null}
-
-            {f.encajaNo.length > 0 ? (
-              <BloqueEncajaColapsable
-                id={`encaja-no-${f.slug}`}
-                titulo="Mejor no si"
-                abierto={abiertos.has(`${f.slug}:no`)}
-                onToggle={() => toggle(`${f.slug}:no`)}
-              >
-                {f.encajaNo.map((p, i) => (
-                  <p
-                    key={`no-${i}`}
-                    className="mt-1.5 text-[15px] leading-relaxed text-[var(--tinta)] first:mt-0"
-                  >
-                    {p}
-                  </p>
-                ))}
-              </BloqueEncajaColapsable>
-            ) : null}
-
-            {f.encajaVeredicto ? (
-              <BloqueEncajaColapsable
-                id={`encaja-veredicto-${f.slug}`}
-                titulo="Veredicto"
-                abierto={abiertos.has(`${f.slug}:veredicto`)}
-                onToggle={() => toggle(`${f.slug}:veredicto`)}
-              >
-                <p className="text-[15px] leading-relaxed text-[var(--tinta)]">
-                  {f.encajaVeredicto.replace(/^Veredicto:\s*/i, "")}
-                </p>
-              </BloqueEncajaColapsable>
-            ) : null}
-
-            {!hayFrente &&
-            !f.encajaSi.length &&
-            !f.encajaNo.length &&
-            !f.encajaVeredicto ? (
-              <p className="mt-2 text-sm text-[var(--tinta-suave)]">Sin balance en el relato.</p>
-            ) : null}
+            {acordeones}
           </li>
           );
         })}

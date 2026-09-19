@@ -177,6 +177,10 @@ export const RELATOS_CANTABRIA_ORIENTAL: Record<string, RelatoMun> = {
       veredicto:
         "Veredicto: Santoña encaja como villa marinera y monte —tres habitaciones en casco o hacia Berria, fuera del tramo más ocupado en agosto— sobre todo si precio ~1.900 €/m², hospital a diez y Buciero importan más que el veraneo de bloques. Probar un martes de noviembre y una subida al faro del Caballo antes de comprar. Se ganan anchoas, marismas y Laredo a diez minutos; se aceptan el sol bajo de la zona, aeropuerto a treinta y el carácter de villa de trabajo. Quien priorice Bilbao y Palma todo el año, Castro; quien priorice Salvé y hospital a pie, Laredo.",
     },
+    fotoIdentidad: {
+      src: "/fotos/cantabria-oriental/santona-identidad.jpg",
+      pie: "Santoña: casas frente a la bahía, con el Monte Buciero detrás",
+    },
     fotosAbrir: [
       { src: "/fotos/cantabria-oriental/santona-berria.jpg", pie: "Playa de Berria, Santoña" },
       { src: "/fotos/cantabria-oriental/santona-puerto.jpg", pie: "Iglesia de Santa María del Puerto, Santoña" },
@@ -238,6 +242,10 @@ export const RELATOS_CANTABRIA_ORIENTAL: Record<string, RelatoMun> = {
       ],
       veredicto:
         "Veredicto: Laredo encaja como playa larga y hospital —tres habitaciones en casco o algo retiradas del frente más ocupado de La Salvé— sobre todo si sanidad a cinco minutos y servicios 7/10 importan más que el urbanismo de torres. Probar un agosto lleno y un noviembre de villa antes de comprar. Se ganan Salvé, Puebla Vieja y hospital a pie; se aceptan ~2.100 €/m², afluencia de verano y el sol bajo de Cantabria Oriental. Quien priorice chalés, Ribamontán; quien priorice Bilbao y Palma todo el año, Castro.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/cantabria-oriental/laredo-identidad.jpg",
+      pie: "Laredo: casas del pueblo junto a la playa, con el monte Buciero enfrente",
     },
     fotosAbrir: [
       { src: "/fotos/cantabria-oriental/laredo-salve.jpg", pie: "Playa de La Salvé, Laredo" },

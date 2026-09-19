@@ -51,6 +51,10 @@ export const RELATOS_CANTABRIA_OCCIDENTAL: Record<string, RelatoMun> = {
       veredicto:
         "Veredicto: San Vicente encaja como villa marinera y ría —piso o vivienda en casco o hacia Merón, fuera del tramo más ocupado en agosto— sobre todo si la foto de Picos importa más que el hospital cerca. Probar un martes de noviembre y un agosto de temporada antes de comprar. Se ganan Maza, Merón, Oyambre y fibra; se aceptan servicios 5/10, Sierrallana a cuarenta minutos, aeropuerto a cuarenta y cinco y unas 1.700 horas de sol. Quien priorice Valdecilla y vuelo corto, Liencres o Santander; quien priorice villa viva todo el año con playa, Suances.",
     },
+    fotoIdentidad: {
+      src: "/fotos/cantabria-occidental/san-vicente-identidad.jpg",
+      pie: "San Vicente de la Barquera: casas junto al castillo y la ría — villa entre monte y marea",
+    },
     fotosAbrir: [
       { src: "/fotos/cantabria-occidental/san-vicente-villa.jpg", pie: "San Vicente de la Barquera: villa marinera" },
       { src: "/fotos/cantabria-occidental/san-vicente-ria.jpg", pie: "Ría de San Vicente con los Picos al fondo" },
@@ -113,6 +117,10 @@ export const RELATOS_CANTABRIA_OCCIDENTAL: Record<string, RelatoMun> = {
       ],
       veredicto:
         "Veredicto: Comillas encaja como villa modernista —dos habitaciones en casco, o tres algo retiradas de la primera línea de temporada— sobre todo si Capricho, Sobrellano y la playa a dos minutos importan más que el comercio de invierno. Probar un agosto lleno y un noviembre quieto antes de comprar. Se ganan museo al aire libre, Sierrallana a treinta y fibra; se aceptan servicios 4/10, precio alto (~2.400 €/m²) y unas 1.700 horas de sol. Quien priorice vida diaria todo el año, Suances; quien priorice logística y dunas, Liencres.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/cantabria-occidental/comillas-identidad.jpg",
+      pie: "Comillas: casas en la ladera bajo la Universidad Pontificia, con el monte detrás",
     },
     fotosAbrir: [
       { src: "/fotos/cantabria-occidental/comillas-capricho.jpg", pie: "El Capricho de Gaudí, Comillas" },
@@ -177,6 +185,10 @@ export const RELATOS_CANTABRIA_OCCIDENTAL: Record<string, RelatoMun> = {
       veredicto:
         "Veredicto: Suances encaja como villa-playa equilibrada —tres habitaciones en casco o cerca del paseo, fuera del tramo más ocupado de La Concha en agosto— sobre todo si hospital a quince, aeropuerto a veinte y vida de villa en noviembre importan más que la foto típica del oeste. Probar un martes gris y un día de temporada en la playa antes de comprar. Se ganan Concha, Locos, Torrelavega a quince y Seve Ballesteros a veinte; se aceptan ~2.000 €/m², servicios 6/10 y el sol bajo de Cantabria. Quien priorice dunas y seguridad máxima, Liencres; quien priorice ría y Picos, San Vicente.",
     },
+    fotoIdentidad: {
+      src: "/fotos/cantabria-occidental/suances-identidad.jpg",
+      pie: "Suances: casas sobre la bahía y la ría — vivir entre playa y puerto",
+    },
     fotosAbrir: [
       { src: "/fotos/cantabria-occidental/suances-villa.jpg", pie: "Suances: villa-playa" },
       { src: "/fotos/cantabria-occidental/suances-concha.jpg", pie: "Playa de La Concha, Suances" },
@@ -238,6 +250,10 @@ export const RELATOS_CANTABRIA_OCCIDENTAL: Record<string, RelatoMun> = {
       ],
       veredicto:
         "Veredicto: Liencres (Piélagos) encaja como la apuesta fuerte de Cantabria Occidental —casa baja o adosado en Liencres o Mortera, con fibra comprobada y acceso claro a Valdearenas o Canallave— sobre todo si seguridad, Valdecilla y Palma a quince minutos importan más que el cielo. Probar un martes de noviembre y un agosto en las dunas antes de comprar. Se ganan criminalidad mínima de la tabla, obra nueva, Mompía a diez y Seve Ballesteros a quince; se aceptan ~2.000 €/m² y unas 1.700 horas de sol. Quien priorice ciudad a pie, Santander; quien priorice villa-playa, Suances.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/cantabria-occidental/liencres-pielagos-identidad.jpg",
+      pie: "Liencres–Mortera: casas bajas con el monte detrás",
     },
     fotosAbrir: [
       { src: "/fotos/cantabria-occidental/liencres-urbanizacion.jpg", pie: "Urbanización de casas bajas en Liencres" },
@@ -301,6 +317,10 @@ export const RELATOS_CANTABRIA_OCCIDENTAL: Record<string, RelatoMun> = {
       ],
       veredicto:
         "Veredicto: Santander encaja como ciudad de bahía —dos habitaciones en ensanche o cerca del Sardinero, o como capital de apoyo desde Liencres— sobre todo si Valdecilla a cinco, aeropuerto a diez y servicios 10/10 importan más que el metro bajo. Probar un martes de noviembre y un agosto en la playa antes de comprar. Se ganan bahía, Magdalena, Botín y Palma casi todo el año a diez minutos; se aceptan ~2.600 €/m² y unas 1.700 horas de sol. Quien priorice casas bajas y seguridad, Liencres; quien priorice villa-playa, Suances.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/cantabria-occidental/santander-identidad.jpg",
+      pie: "Santander: casas de la ciudad frente a la bahía, con los montes detrás",
     },
     fotosAbrir: [
       { src: "/fotos/cantabria-occidental/santander-bahia.jpg", pie: "Bahía de Santander" },

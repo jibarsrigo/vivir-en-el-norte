@@ -49,6 +49,10 @@ export const RELATOS_BARBANZA_E_NOIA: Record<string, RelatoMun> = {
       veredicto:
         "Veredicto de quien conoce la comarca: Rianxo encaja como villa literaria de ría —piso o casa de piedra en el casco, caminable a Tanxil y al puerto, lejos del tramo más ruidoso del Carmen— sobre todo si el agua calmada de Arousa, Santiago a unos cuarenta y el precio más bajo de la zona importan más que el hospital. Como casa única solo si se acepta el Hospital do Barbanza a media hora y Lavacolla a unos cuarenta. Comprobar humedad en noviembre y una noche de fiesta marinera antes de comprar.",
     },
+    fotoIdentidad: {
+      src: "/fotos/barbanza-e-noia/rianxo-identidad.jpg",
+      pie: "Rianxo: casas de la villa frente a la ría de Arousa, con el monte detrás",
+    },
     fotosAbrir: [
       { src: "/fotos/barbanza-e-noia/rianxo-villa.jpg", pie: "Rianxo: villa de piedra al fondo de la ría de Arousa" },
       { src: "/fotos/barbanza-e-noia/rianxo-tanxil.jpg", pie: "Tanxil, playa urbana de agua calma" },
@@ -169,6 +173,10 @@ export const RELATOS_BARBANZA_E_NOIA: Record<string, RelatoMun> = {
       ],
       veredicto:
         "Veredicto de quien conoce la comarca: A Pobra encaja como la apuesta sierra-ría —tres habitaciones en el casco o hacia Cabío, tras probar viento y un sábado de agosto, o casa en ladera solo si el acceso en invierno está claro— sobre todo si A Curota, las pozas y el Hospital do Barbanza a unos diez minutos importan más que la escala comercial. Se ganan granito, ría templada y Lavacolla a unos cincuenta; se acepta una villa de servicios medios y Santiago lejos para el privado. Comprobar orientación al viento y humedad de piedra antes de comprar.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/barbanza-e-noia/a-pobra-do-caraminal-identidad.jpg",
+      pie: "A Pobra do Caramiñal: casas del puerto frente a la ría, con el monte detrás",
     },
     fotosAbrir: [
       { src: "/fotos/barbanza-e-noia/pobra-casco.jpg", pie: "Casco de piedra de A Pobra do Caramiñal" },
@@ -292,6 +300,10 @@ export const RELATOS_BARBANZA_E_NOIA: Record<string, RelatoMun> = {
       veredicto:
         "Veredicto de quien conoce la comarca: Porto do Son encaja como la apuesta atlántica del Barbanza —casa abrigada del viento, con fibra comprobada, lejos del tramo más ocupado de Portosín en agosto— sobre todo si Baroña, playas largas y soledad importan más que la villa completa. Se ganan océano y Enxa; se aceptan coche, servicios escasos, Hospital do Barbanza a unos veinticinco y Lavacolla a unos cincuenta. Probar un frente de invierno y un sábado de verano en la costa antes de comprar.",
     },
+    fotoIdentidad: {
+      src: "/fotos/barbanza-e-noia/porto-do-son-identidad.jpg",
+      pie: "Porto do Son: casas junto al mar, con la iglesia y el monte detrás",
+    },
     fotosAbrir: [
       { src: "/fotos/barbanza-e-noia/son-baroña.jpg", pie: "Castro de Baroña sobre el Atlántico" },
       { src: "/fotos/barbanza-e-noia/son-area-longa.jpg", pie: "Area Longa, arenal atlántico" },
@@ -352,6 +364,10 @@ export const RELATOS_BARBANZA_E_NOIA: Record<string, RelatoMun> = {
       ],
       veredicto:
         "Veredicto de quien conoce la comarca: Noia encaja como la villa histórica de la ría de Muros e Noia —tres habitaciones en el casco, fuera del recorrido más ruidoso de San Bartolomeu y la Empanada, tras comprobar humedad y aparcamiento— sobre todo si gótico, mercado y Santiago-Lavacolla a unos cuarenta importan más que el Hospital do Barbanza. Se ganan piedra, precio amable en franja B y otra ría; se acepta sanidad en la ciudad a unos cuarenta minutos. Comprobar marea en Testal y un agosto de fiestas antes de comprar.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/barbanza-e-noia/noia-identidad.jpg",
+      pie: "Noia: casas de la villa frente a la ría, con el monte detrás",
     },
     fotosAbrir: [
       { src: "/fotos/barbanza-e-noia/noia-san-martino.jpg", pie: "San Martiño, gótico de Noia" },

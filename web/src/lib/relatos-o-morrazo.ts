@@ -49,6 +49,10 @@ export const RELATOS_O_MORRAZO: Record<string, RelatoMun> = {
       veredicto:
         "Veredicto: Cangas encaja como opción de mar y sendero de O Morrazo —piso caminable a mercado y barco en franja asequible, o casa en Aldán u O Hío solo tras comprobar acceso, humedad y tráfico de agosto—. Sobre todo si Rodeira, Aldán y Costa da Vela importan más que Montecelo a treinta y cinco. Probar agosto y un noviembre antes de comprar. Se ganan Vigo por mar, verano fresco frente a Mallorca y servicios 7/10; se aceptan 125 días de lluvia y sanidad lejos. Si mandan hospital y Pontevedra a diez, Marín; si calma y Ons, Bueu; si barco y paseo frente a Vigo, Moaña.",
     },
+    fotoIdentidad: {
+      src: "/fotos/o-morrazo/cangas-identidad.jpg",
+      pie: "Cangas: casas del casco junto a la ría de Vigo, con el monte del Morrazo detrás",
+    },
     fotosAbrir: [
       { src: "/fotos/o-morrazo/cangas-villa.jpg", pie: "Cangas: villa, puerto y ría de Vigo" },
       { src: "/fotos/o-morrazo/cangas-rodeira.jpg", pie: "Rodeira, la playa urbana junto al paseo" },
@@ -111,6 +115,10 @@ export const RELATOS_O_MORRAZO: Record<string, RelatoMun> = {
       ],
       veredicto:
         "Veredicto: Moaña encaja como base de cara a Vigo sin vivir en Vigo —piso de tres habitaciones cerca del paseo y del embarcadero en franja asequible, o casa alta solo tras medir acceso y sol de invierno—. Sobre todo si barco, baño urbano y verano fresco importan más que hospital a diez minutos. Probar hora punta hacia Rande y un noviembre antes de comprar. Se ganan ría cotidiana y ~1.600 €/m²; se aceptan villa lineal, servicios 6/10 y 128 días de lluvia. Si mandan Costa da Vela, Cangas; si Montecelo a diez, Marín; si silencio y Ons, Bueu.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/o-morrazo/moana-identidad.jpg",
+      pie: "Moaña: casas sobre la ría de Vigo, con el monte del Morrazo detrás",
     },
     fotosAbrir: [
       { src: "/fotos/o-morrazo/moana-villa.jpg", pie: "Casa consistorial de Moaña y un hórreo de piedra" },

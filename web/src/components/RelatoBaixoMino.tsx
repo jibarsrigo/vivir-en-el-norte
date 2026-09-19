@@ -61,7 +61,7 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
       <section>
         <H2>El tiempo comparado con Baleares</H2>
         <P>
-          Si vienes de Baleares, el cuerpo tarda unas semanas en recalibrar. No porque el invierno
+          Si vienes de Baleares, notará el cielo más gris y con menos sol que en Mallorca; el cuerpo tarda unas semanas en acostumbrarse. No porque el invierno
           sea más frío —en enero las máximas y mínimas se parecen mucho a las de la isla; el mar
           templa—, sino porque el cielo se comporta distinto. Aquí hay unos {zona.despejados} días
           despejados al año; en Mallorca, {mallorca.despejados}. El sol suma{" "}
@@ -159,8 +159,8 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
           metes. En octubre empieza el aprendizaje de la lluvia seria: no el chaparrón breve, sino
           el agua que empapa el circuito de molinos del Folón, en O Rosal, y te enseña, si miras bien
           las paredes, si esa casa aguanta
-          la humedad. Quien solo conozca agosto firmará el paisaje; quien haya visto un octubre y
-          un noviembre firmará la vida.
+          la humedad. Quien solo conozca agosto se quedará con la foto bonita del paisaje; quien haya visto un octubre y
+          un noviembre decidirá —o no— si quiere vivir aquí.
         </P>
         <P>
           Al final la pregunta que importa más que el sol es esta: ¿quieres calle que una, o
@@ -294,7 +294,7 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
           El Folón, con lluvia fina, se vuelve musgo y regueros: casi mejor que con sol seco. Con
           chaparrón cerrado, mejor otro plan —un café en O Calvario, el paseo bajo los soportales
           de Tui, Portugal a un puente—. La lluvia aquí no es defecto del folleto; es el precio del
-          verde. Quien la acepte vivirá el valle. Quien la negocie solo en agosto firmará a ciegas.
+          verde. Quien la acepte vivirá el valle. Quien la negocie solo en agosto se decidirá sin conocer el invierno.
         </P>
         <Foto src="/fotos/baixo-mino/rosal-folon-vista.jpg" pie="Muíños do Folón: aún más vivos con lluvia fina" />
       </section>
@@ -381,14 +381,14 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
 
       <Encaja
         si={[
-          "El paisaje —valle de parras, piedra, monte detrás— y el tiempo para recorrerlo pesan más que tener la ciudad y el hospital a un cuarto de hora. Quien acepte Vigo a unos cuarenta minutos y el hospital público Álvaro Cunqueiro (en Vigo) entre treinta y cuarenta y cinco encontrará en esta comarca un tramo donde el día a día cabe en villa o valle, con Portugal como costumbre semanal: Valença, Cerveira, Caminha a un puente. Un invierno de trece a dieciséis días de lluvia al mes (octubre a marzo) tiene que caber: la terraza se usa la mitad; a cambio, de junio a septiembre el sol se estrecha con Baleares.",
+          "El paisaje —valle de parras, piedra, monte detrás— y el tiempo para recorrerlo importan más que tener la ciudad y el hospital a un cuarto de hora. Quien acepte Vigo a unos cuarenta minutos y el hospital público Álvaro Cunqueiro (en Vigo) entre treinta y cuarenta y cinco encontrará en esta comarca un tramo donde el día a día cabe en villa o valle, con Portugal como costumbre semanal: Valença, Cerveira, Caminha a un puente. Un invierno de trece a dieciséis días de lluvia al mes (octubre a marzo) tiene que caber: la terraza se usa la mitad; a cambio, de junio a septiembre el sol se estrecha con Baleares.",
           "El mar a diez minutos desde el valle de O Rosal basta para quien no necesita océano en la puerta —Area Grande, la cala de A Guarda, o O Muíño, la playa del estuario—; o a veinticinco desde Tui, si lo que pesa es el hospital. Quien tenga tiempo libre para el circuito de molinos del Folón (O Rosal), para subir al Monte Santa Trega (castro y mirador sobre la desembocadura), al Monte Aloia (parque natural sobre Tui), para la lonja de A Guarda y la frontera portuguesa sacará de Baixo Miño lo que el folleto no cuenta.",
         ]}
         no={[
-          "Hace falta hospital a menos de treinta minutos y ciudad a un cuarto de hora —salvo Tui, y Tui trae el calor de valle en julio—. Quien busque pueblo compacto de plaza, súper y farmacia a pie y mire Oia se equivoca de casilla: ahí hay aldeas colgadas entre sierra y océano, no calle que una.",
+          "Hace falta hospital a menos de treinta minutos y ciudad a un cuarto de hora —salvo Tui, y Tui trae el calor de valle en julio—. Quien busque pueblo compacto de plaza, súper y farmacia a pie y mire Oia se equivoca de pueblo: ahí hay aldeas colgadas entre sierra y océano, no calle que una.",
           "El verano tiene que ser fresco y se elige Tui o Tomiño: en el fondo del Miño vuelven quince o veinte días por encima de treinta grados. Quien huya del calor debería mirar A Guarda u Oia (punta atlántica) u O Rosal (valle sin ese calor extremo), no la vega de Tomiño ni el ensanche de Tui.",
         ]}
-        veredicto="Veredicto de zona: O Rosal es donde el día a día se siente pueblo —valle, plaza de O Calvario, monte detrás, mar a diez minutos—. Tui, solo si el hospital a treinta minutos y la ciudad pequeña pesan más que el mar y el calor. A Guarda funciona como villa de mar y complemento, no siempre como casa única. Tomiño exige aceptar calor de vega; Oia, soledad atlántica. Mejor verlo en noviembre que en agosto: el invierno es lo que se come o se acepta."
+        veredicto="Veredicto de zona: O Rosal es donde el día a día se siente pueblo —valle, plaza de O Calvario, monte detrás, mar a diez minutos—. Tui, solo si el hospital a treinta minutos y la ciudad pequeña importan más que el mar y el calor. A Guarda funciona como villa de mar y complemento, no siempre como casa única. Tomiño exige aceptar calor de vega; Oia, soledad atlántica. Mejor verlo en noviembre que en agosto: el invierno es lo que se come o se acepta."
       />
 
       <MunicipiosZonaFin zonaId={zona.id} municipios={municipiosBaixoMino} escalas={ESCALA} />

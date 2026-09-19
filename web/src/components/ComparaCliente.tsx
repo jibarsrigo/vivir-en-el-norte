@@ -114,44 +114,56 @@ function BloqueParaDecidirte({ filas }: { filas: FilaCompara[] }) {
         Para decidirte
       </h3>
       <p className="mt-1 text-sm text-[var(--tinta-suave)]">
-        Solo los títulos a la vista. Pulsa + en Frente a Mallorca, Encaja si, Mejor no si o
-        Veredicto para leer el texto.
+        Pulsa + para leer el texto.
       </p>
       <ul className="mt-4 space-y-3">
         {filas.map((f) => {
           const hayFrente = f.frenteClima.length > 0 || f.frenteVivir.length > 0;
-          const leyendaFoto = f.escala || f.fotoIdentidad?.pie || "";
+          const escalaTexto = f.escala || f.fotoIdentidad?.pie || "";
 
           return (
             <li
               key={f.slug}
               className="rounded-lg border border-[var(--linea)] bg-white px-4 py-3"
             >
-              <Link
-                href={f.href}
-                className="font-semibold text-[var(--acento)] underline-offset-2 hover:underline"
-              >
-                {f.nombre}
-              </Link>
-
               {f.fotoIdentidad ? (
-                <figure className="mt-2.5 w-44 max-w-full overflow-hidden rounded border border-[var(--linea)] bg-[var(--fondo)]">
-                  <Image
-                    src={rutaPublica(f.fotoIdentidad.src)}
-                    alt={leyendaFoto || f.nombre}
-                    width={176}
-                    height={96}
-                    className="h-24 w-full object-cover"
-                    sizes="176px"
-                    unoptimized
-                  />
-                  {leyendaFoto ? (
-                    <figcaption className="line-clamp-2 px-1.5 py-1 text-[10px] leading-snug text-[var(--tinta-suave)]">
-                      {leyendaFoto}
-                    </figcaption>
+                <div className="flex items-center gap-3">
+                  <figure className="h-24 w-44 max-w-[45%] shrink-0 overflow-hidden rounded border border-[var(--linea)] bg-[var(--fondo)]">
+                    <Image
+                      src={rutaPublica(f.fotoIdentidad.src)}
+                      alt={escalaTexto || f.nombre}
+                      width={176}
+                      height={96}
+                      className="h-full w-full object-cover"
+                      sizes="176px"
+                      unoptimized
+                    />
+                  </figure>
+                  <div className="min-w-0">
+                    <Link
+                      href={f.href}
+                      className="font-semibold text-[var(--acento)] underline-offset-2 hover:underline"
+                    >
+                      {f.nombre}
+                    </Link>
+                    {escalaTexto ? (
+                      <p className="mt-0.5 text-xs text-[var(--tinta-suave)]">{escalaTexto}</p>
+                    ) : null}
+                  </div>
+                </div>
+              ) : (
+                <>
+                  <Link
+                    href={f.href}
+                    className="font-semibold text-[var(--acento)] underline-offset-2 hover:underline"
+                  >
+                    {f.nombre}
+                  </Link>
+                  {escalaTexto ? (
+                    <p className="mt-0.5 text-xs text-[var(--tinta-suave)]">{escalaTexto}</p>
                   ) : null}
-                </figure>
-              ) : null}
+                </>
+              )}
 
               {hayFrente ? (
                 <BloqueEncajaColapsable
@@ -262,12 +274,11 @@ function MesaCompara({ filas }: { filas: FilaCompara[] }) {
   return (
     <section className="mt-10">
       <h2 className="font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">
-        Pueblo a pueblo
+        Tabla comparativa
       </h2>
       <p className="mt-1 max-w-3xl text-sm text-[var(--tinta-suave)]">
         Misma fila, pueblos distintos: clima, baño, precio, servicios, hospital y vuelo. El tono
-        suave marca el valor más favorable de cada criterio. Debajo, «Para decidirte» cuenta para
-        quién sí y para quién no.
+        suave marca el valor más favorable de cada criterio.
       </p>
       <div className="mt-4 overflow-x-auto rounded-lg border border-[var(--linea)] bg-white">
         <table className="min-w-full border-collapse text-left text-sm">

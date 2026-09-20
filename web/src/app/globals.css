@@ -70,7 +70,9 @@ body {
   color: var(--tinta);
   font-weight: 500;
   font-size: 13px;
+  max-width: min(24rem, 92vw);
   padding: 6px 9px;
+  white-space: normal;
 }
 
 .mapa-leaflet .zona-globo .globo-nom {
@@ -91,14 +93,19 @@ body {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .mapa-leaflet .zona-globo .globo-capa-fila {
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   gap: 6px;
-  white-space: nowrap;
+  white-space: normal;
+}
+
+.mapa-leaflet .zona-globo .globo-capa-txt {
+  min-width: 0;
+  white-space: normal;
 }
 
 .mapa-leaflet .zona-globo .globo-capa-fila .atlas-clima,

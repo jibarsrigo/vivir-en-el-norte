@@ -232,11 +232,7 @@ export const COLUMNAS_EXTRA_CAPA: Record<CapaTablaId, ColumnaTabla[]> = {
       capa: "servicios",
       etiqueta: "Detalle",
       mejorEsMayor: true,
-      formato: (f) => {
-        if (!f.servicios) return "—";
-        const t = f.servicios.notaTexto;
-        return t.length > 42 ? `${t.slice(0, 40)}…` : t;
-      },
+      formato: (f) => f.servicios?.notaTexto ?? "—",
       valor: (f) => f.servicios?.notaTexto ?? null,
     },
     {

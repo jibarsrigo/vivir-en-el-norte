@@ -92,7 +92,5 @@ export function htmlIconoServicios(nota: number, tamano: "zona" | "pueblo" = "pu
 }
 
 export function cuerpoServicios(s: ServiciosMunicipio): string {
-  const corta =
-    s.notaTexto.length > 72 ? `${s.notaTexto.slice(0, 70).trim()}…` : s.notaTexto;
-  return `<span class="globo-clave">Servicios</span> ${s.nota}/10 · ${corta}`;
+  return `<span class="globo-clave">Servicios</span> ${s.nota}/10 · ${s.notaTexto}`;
 }

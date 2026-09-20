@@ -321,8 +321,7 @@ export function tramoHospital(min: number): TramoHospital {
 
 export function hospitalCortoDe(hospitalPub: string): string {
   const partes = hospitalPub.split("·").map((p) => p.trim()).filter(Boolean);
-  const ultimo = partes[partes.length - 1] ?? hospitalPub;
-  return ultimo.length > 36 ? `${ultimo.slice(0, 34)}…` : ultimo;
+  return partes[partes.length - 1] ?? hospitalPub;
 }
 
 function deFicha(f: FichaMunicipio): HospitalMunicipio {

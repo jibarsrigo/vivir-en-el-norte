@@ -81,7 +81,7 @@ function CapasSobreMapa({
         </button>
         {abierto ? (
           <div
-            className="mapa-muni-globo globo-capas mt-1.5 max-w-[18rem] rounded-lg border border-[var(--linea)] bg-white px-2.5 py-2 text-left text-xs leading-snug text-[var(--tinta)] shadow-md"
+            className="mapa-muni-globo globo-capas mt-1.5 max-w-[min(28rem,92vw)] rounded-lg border border-[var(--linea)] bg-white px-2.5 py-2 text-left text-xs leading-snug text-[var(--tinta)] shadow-md"
             role="status"
           >
             <div className="globo-nom font-semibold text-[var(--acento)]">{nombre}</div>

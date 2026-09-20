@@ -206,7 +206,12 @@ function TablaFilas({
                 g.columnas.map((c) => (
                   <td
                     key={c.id}
-                    className={`tabla-celda-capa capa-${g.capa} py-2 tabular-nums text-[var(--tinta)]`}
+                    className={
+                      `tabla-celda-capa capa-${g.capa} py-2 text-[var(--tinta)] ` +
+                      (c.id === "serviciosDetalle"
+                        ? "tabla-celda-detalle min-w-[14rem] max-w-[28rem] whitespace-normal leading-snug"
+                        : "tabular-nums")
+                    }
                   >
                     {c.formato(f)}
                   </td>

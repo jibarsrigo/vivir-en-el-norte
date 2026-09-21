@@ -28,7 +28,7 @@ export type FilaCompara = {
   minBano: number | null;
   playaCorta: string | null;
   franja: "A" | "B" | null;
-  precioM2: number;
+  precioM2: number | null;
   A_3hab: number | null;
   servicios: number;
   hospitalMin: number;
@@ -221,6 +221,7 @@ export const FILAS_MESA: FilaMesaDef[] = [
     sentido: "menor",
     valor: (f) => f.precioM2,
     formato: (f) => {
+      if (f.precioM2 == null) return "—";
       const m2 = `${f.precioM2.toLocaleString("es-ES")} €/m²`;
       if (f.A_3hab != null) {
         return `${m2} · 3 hab ~${Math.round(f.A_3hab).toLocaleString("es-ES")} €`;

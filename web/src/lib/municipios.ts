@@ -52,7 +52,7 @@ export type FichaMunicipio = {
   aeropuertoMin: number;
   palmaMasCercano: string;
   palmaMejor: string;
-  precioM2: number;
+  precioM2: number | null;
   A_2hab: number | null;
   A_3hab: number | null;
   B_2hab: number | null;

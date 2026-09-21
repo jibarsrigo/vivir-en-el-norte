@@ -17,16 +17,16 @@ function notaPrecio(precio: number, minZona: number, maxZona: number): number {
 }
 
 function filasConNotas(municipios: FichaMunicipio[]) {
-  const precios = municipios.map((m) => m.precioM2);
-  const minP = Math.min(...precios);
-  const maxP = Math.max(...precios);
+  const precios = municipios.map((m) => m.precioM2).filter((p): p is number => p != null);
+  const minP = precios.length ? Math.min(...precios) : 0;
+  const maxP = precios.length ? Math.max(...precios) : 0;
   return municipios.map((m) => ({
     m,
     mar: notaCercania(m.minCosta, 0, 30),
     bano: notaCercania(m.minBano, 0, 30),
     servicios: m.servicios,
     hospital: notaCercania(m.hospitalMin, 20, 50),
-    precio: notaPrecio(m.precioM2, minP, maxP),
+    precio: m.precioM2 == null ? null : notaPrecio(m.precioM2, minP, maxP),
     conexiones: m.comunicacionesNota10,
   }));
 }
@@ -107,7 +107,7 @@ export default function TablaComparativaZona({
                 <td className="px-3 py-2.5 tabular-nums">{bano}</td>
                 <td className="px-3 py-2.5 tabular-nums">{servicios}</td>
                 <td className="px-3 py-2.5 tabular-nums">{hospital}</td>
-                <td className="px-3 py-2.5 tabular-nums">{precio}</td>
+                <td className="px-3 py-2.5 tabular-nums">{precio ?? "—"}</td>
                 <td className="px-3 py-2.5 tabular-nums">{conexiones}</td>
               </tr>
             );

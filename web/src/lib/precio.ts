@@ -25,7 +25,8 @@ function euro(n: number): string {
   return `${Math.round(n).toLocaleString("es-ES")} €`;
 }
 
-function deFicha(f: FichaMunicipio): PrecioMunicipio {
+function deFicha(f: FichaMunicipio): PrecioMunicipio | null {
+  if (f.precioM2 == null) return null;
   return {
     zonaId: zonaIdDeFicha(f),
     nombre: f.municipio,
@@ -36,7 +37,9 @@ function deFicha(f: FichaMunicipio): PrecioMunicipio {
   };
 }
 
-export const precioMunicipios: PrecioMunicipio[] = municipiosFicha.map(deFicha);
+export const precioMunicipios: PrecioMunicipio[] = municipiosFicha
+  .map(deFicha)
+  .filter((p): p is PrecioMunicipio => p != null);
 
 export function precioDeMunicipio(zonaId: string, nombre: string): PrecioMunicipio | undefined {
   return precioMunicipios.find((p) => p.zonaId === zonaId && p.nombre === nombre);

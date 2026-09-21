@@ -29,11 +29,12 @@ export default function TablaPrecios({ filas }: { filas: FichaMunicipio[] }) {
         </tbody>
       </table>
       <p className="px-3 py-2 text-xs leading-relaxed text-[var(--tinta-suave)]">
-        El €/m² es el valor de referencia de la ficha (Idealista/Data u otra fuente fechada cuando
-        consta). A y B no son precios de anuncios reales: son estimaciones derivadas de ese €/m²
-        (A ≈ orilla a ≤5 min; B ≈ 5–30 min). 2 hab ≈ 65 m²; 3 hab ≈ 90 m², tipología reciente con
-        exterior. Guión: el núcleo no está en esa franja teórica. Conviene contrastar con la oferta
-        del mes.
+        El €/m² es una referencia municipal o de submercado (fuente fechada cuando consta); una
+        vivienda concreta puede separarse de la media. A y B son estimaciones comparativas, no
+        anuncios reales ni grados de calidad: franja A ≈ ≤5 min de la costa (factor orientativo
+        1,30 para tipología mejor situada/reciente/exterior); franja B ≈ 5–30 min (factor 1,05).
+        2 dormitorios ≈ 65 m²; 3 dormitorios ≈ 90 m². Guión: sin referencia homogénea o fuera de
+        esa franja teórica. Conviene contrastar con la oferta del mes.
       </p>
     </div>
   );

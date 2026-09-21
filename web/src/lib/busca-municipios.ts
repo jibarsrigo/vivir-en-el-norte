@@ -19,7 +19,7 @@ export type HitBuscaMunicipio = {
   escala: string;
   href: string;
   hospitalMin: number;
-  precioM2: number;
+  precioM2: number | null;
   servicios: number;
 };
 

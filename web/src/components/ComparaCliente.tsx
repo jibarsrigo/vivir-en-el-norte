@@ -47,10 +47,11 @@ function escribirLocal(slugs: string[]) {
 }
 
 function CifrasHit({ hit }: { hit: HitBuscaMunicipio }) {
+  const precio =
+    hit.precioM2 == null ? "—" : `${hit.precioM2.toLocaleString("es-ES")} €/m²`;
   return (
     <span className="text-[13px] text-[var(--tinta-suave)]">
-      Hospital {hit.hospitalMin} min · {hit.precioM2.toLocaleString("es-ES")} €/m² · S
-      {hit.servicios}
+      Hospital {hit.hospitalMin} min · {precio} · S{hit.servicios}
     </span>
   );
 }

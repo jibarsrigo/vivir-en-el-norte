@@ -72,49 +72,42 @@ export const RELATOS_A_MARINA: Record<string, RelatoMun> = {
   viveiro: {
     escala: "Villa de ría con casco",
     abrir: [
-      "Viveiro se siente villa de verdad. Unos quince mil habitantes en la Mariña occidental: casco amurallado con la Porta de Carlos V —arco renacentista de entrada—, calles de piedra, el puerto de Celeiro —referencia de merluza del pincho—, ría abrigada y Covas, la playa larga y urbana a pocos minutos. Es la villa con más vida propia todo el año en este tramo oeste de la comarca: mesas abiertas en enero, lonja, comercio y un ritmo que no depende solo del veraneo.",
-      "Un martes de noviembre se compra, se va al centro de salud y se camina el casco sin depender de Burela para lo diario. Quien vive aquí es gente local, de pesca y de villa, y veraneantes que vuelven a Covas. Los servicios alcanzan 6/10 en nuestra escala y hay fibra. El Hospital da Mariña queda a unos veinticinco minutos desde el casco. El aeropuerto anda alrededor de los cien minutos según ruta —Santiago-Lavacolla o Asturias, según vuelo—; los enlaces con Palma cambian de temporada, así que conviene comprobar la programación vigente. Para lo diario no hace falta coche; para el hospital y el avión, sí.",
-      "El tráfico es de villa casi todo el año. En julio y agosto Covas y el paseo se llenan: más toallas, más coches, más terrazas. El volumen sube, pero no apaga la villa de trabajo: Celeiro sigue siendo puerto de oficio. Quien busque silencio absoluto de invierno lo encontrará hacia las afueras; quien busque café de enero en el casco, también.",
-      "La Semana Santa, declarada de interés turístico internacional, corta calles, concentra procesiones, ruido y mucha gente durante varios días: quien viva en el casco debe contarlas como parte del calendario, no como excepción. El resto del año el tren de Renfe Ancho Métrico —la antigua FEVE, vía estrecha hacia Ferrol y Oviedo— y la lonja marcan otro ritmo, más quieto y más local.",
-      "Primavera y otoño son buenas épocas para conocerlo: niebla que entra por la ría, eucaliptos del Souto da Retorta, mirador de San Roque. Si solo conoces un sábado soleado, te llevas la imagen de folleto del casco. Si has visto procesiones y un noviembre, ya puedes decidir si de verdad quieres vivir aquí.",
+      "Viveiro se entiende mejor como tres piezas que conviven: el casco amurallado, el puerto de Celeiro y Covas al otro lado de la ría. La Porta de Carlos V da entrada a una villa histórica que sigue teniendo comercio y vida propia; Celeiro recuerda que aquí el mar es también trabajo; Covas añade una playa larga y un paseo que en verano adquieren mucho más protagonismo.",
+      "Esa combinación evita que el municipio dependa de una sola temporada. Un martes de enero el casco sigue funcionando como villa, mientras julio y agosto cargan más actividad sobre Covas. La diferencia importante no es elegir entre pueblo turístico o pueblo de trabajo, sino decidir en cuál de esas microzonas encaja mejor la rutina diaria."
     ],
     tiempo: [
-      "Si vienes de Baleares, el cielo pide ojos abiertos. Viveiro suma unas 1.850 horas de sol y unos 40 días despejados frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.150 milímetros en unos 150 días; la llovizna también aparece en verano. Niebla alta; viento medio. Son cifras orientativas de comarca, no la serie de una estación local: la ría suele amansar el viento respecto a la costa abierta de Xove. De octubre a marzo el gris pesa; de junio a septiembre la terraza se usa, aunque no con el cielo de la isla.",
-      "El verano ronda 18,5 °C, con máximas cerca de 22 °C y casi ningún día sobre 30 °C: se gana frescura frente al Mediterráneo. Covas tiene agua de ría más usable que el Cantábrico abierto —en verano, en un rango orientativo de verano hacia 17–19 °C como rango orientativo—: baño corto calmado cuando el mar abierto no invita. Conviene probar un frente de niebla y un día de Semana Santa, no solo un sábado de sol en Covas.",
+      "Frente a Mallorca, Viveiro cambia la manera de usar la calle y la vivienda: más humedad y niebla, verano fresco y muchos más días en los que una terraza deja de ser el centro de la casa. Conviene ver un piso con tiempo gris y comprobar luz, ventilación y aislamiento, especialmente en edificios de piedra o cerca de la ría.",
+      "El agua también se vive de otra manera. Covas ofrece la orilla más cotidiana y abrigada; Area y Sacido permiten cambiar de playa, mientras la costa exterior abre otro registro. Aquí el mar puede formar parte de una tarde normal sin que todos los días sean días de baño."
     ],
     vivir: [
-      "El invierno en Viveiro se nota en el piso de piedra del casco o junto a Covas: humedad de ría, niebla alta y un cielo de unas 1.850 horas de sol frente a Mallorca. Conviene mirar aislamiento y rastros de moho un frente de niebla de noviembre, no solo un sábado de sol en Covas. La terraza que en agosto parece el centro de la vida se usa menos entre noviembre y febrero; junto a Covas hay que contar con salitre suave de ría y ocupación de agosto.",
-      "El día a día sin coche es viable en el casco: un martes de noviembre se compra, se va al centro de salud y se camina sin depender de Burela para lo diario. Los servicios alcanzan 6/10 en nuestra escala y hay fibra. En enero hay mesas abiertas, lonja y comercio —la villa con más vida propia todo el año en este tramo oeste—. Quien busque silencio absoluto lo encontrará hacia las afueras; quien viva en el casco debe contar la Semana Santa —interés turístico internacional— como parte del calendario: procesiones, ruido y aparcamiento difícil varios días.",
-      "Llegar de fuera es habitual: gente local, de pesca y de villa, y veraneantes que vuelven a Covas. Se oye gallego en el casco, en Celeiro y en el ayuntamiento; el castellano basta para lo cotidiano. Entre semana manda la villa de trabajo; en julio y agosto sube el volumen en Covas y el paseo. El tren de Renfe Ancho Métrico —la antigua FEVE, vía estrecha hacia Ferrol y Oviedo— marca otro ritmo. Si solo buscas el sábado soleado, te llevas la imagen de folleto del casco. Si buscas vecinos todo el año, también —en escala de villa amurallada, no de capital.",
-      "La sanidad de urgencia y especialidades no está a pie: el Hospital da Mariña queda a unos veinticinco minutos desde el casco. En Viveiro hay centro de salud para lo diario. Empadronarse aquí abre el médico de cabecera local; para hospital se conduce a Burela, y conviene comprobar el hospital de referencia que asigna el Sergas según el empadronamiento. No es aislamiento del extremo oeste, pero sí asumir que la sanidad comarcal no está en la misma calle que la Porta de Carlos V.",
-      "Mantener el vínculo con Mallorca pasa por un aeropuerto alrededor de los cien minutos según ruta —Santiago-Lavacolla o Asturias, según vuelo—. En invierno el trayecto a menudo implica más logística. Los enlaces con Palma cambian de temporada en temporada: conviene comprobar la programación vigente del año en que se decida, no solo la de agosto en Covas. Para el avión el coche sigue siendo necesario.",
-      "El casco ofrece pisos y viviendas de piedra; hacia Covas y las afueras, tipologías más abiertas. Hay poca obra nueva y fibra. En el casco hay que contar con Semana Santa, humedad y aparcamiento; junto a Covas, ocupación de agosto. En un piso con escaleras o sin ascensor hay que imaginar la rutina dentro de diez años; el estado de la reforma importa más que el metro solo. La terraza útil es la que recibe sol de invierno, no solo la que mira la ría en foto.",
+      "En el casco se puede resolver buena parte de la semana andando: compra, atención primaria, comercio y paseo caben en una escala de villa. Covas combina esa vida próxima con playa y paseo; Celeiro organiza otra rutina alrededor del puerto. Para el hospital y para ampliar la costa hace falta salir de ese radio cotidiano.",
+      "La Semana Santa cambia de verdad el funcionamiento del casco durante varios días. Las procesiones, la afluencia y las dificultades de aparcamiento no son una anécdota para quien viva allí, sino una parte concreta del calendario. En verano el cambio se desplaza sobre todo hacia Covas, con más ocupación, coches y terrazas.",
+      "El tren de ancho métrico forma parte de las comunicaciones del municipio, aunque su existencia no debe confundirse con resolver por sí solo los desplazamientos cotidianos. Para vuelos y atención hospitalaria la logística sigue dependiendo en buena medida del coche y de salir de Viveiro.",
+      "Una mañana libre no exige convertir el día en excursión. Se puede recorrer el casco, cruzar hacia la ría y Covas o cambiar el paseo por el Souto da Retorta y el Monte San Roque, donde el municipio pasa de piedra y puerto a monte cercano. Esa variedad es una de las formas más claras de entender su escala."
     ],
     historia: [
-      "La Porta de Carlos V y el recinto amurallado explican Viveiro como villa histórica, no solo como puerto: piedra, arco y calles que concentran el casco. Celeiro sostiene la ficha marinero con la merluza del pincho y la lonja —trabajo que sigue, no un pueblo vacío de foto—.",
-      "El Souto da Retorta —eucaliptos gigantes— y el Monte San Roque —mirador— añaden capa de monte cercano: la tarde que no es solo ría. La Semana Santa de interés turístico internacional es el hilo cultural que más impacta al vivir: procesiones, ciudad ocupada y aparcamiento difícil en fechas concretas.",
+      "La Porta de Carlos V y el recinto amurallado explican la condición de villa histórica. No son solo un fondo monumental: concentran calles y vida urbana en una parte del municipio muy distinta de la fachada residencial de Covas.",
+      "Celeiro aporta la otra historia visible, la del puerto y la lonja, con la merluza del pincho ligada a un oficio que continúa. La Semana Santa añade una capa cultural que, a diferencia de un monumento, altera durante unos días el uso normal de calles y aparcamiento."
     ],
     fuera: [
-      "Si solo hay tiempo para un baño cerca, ese baño es Covas: arena larga en ría abrigada, a minutos del casco. Un martes de junio puedes tender la toalla con calma; un domingo de agosto el paseo se llena. Area y Sacido completan orillas cuando apetece cambiar de registro.",
-      "Celeiro permite una tarde de puerto de trabajo: cajas, olor a mar y el ritmo de quien no cierra la temporada. No es boulevard de veraneo; es lonja.",
-      "El Souto da Retorta y San Roque dan paseo y vistas cuando la ría no invita. Burela cubre hospital; As Catedrais y Ribadeo quedan hacia el este en un trayecto más largo. Aquí la orilla de diario es Covas; la ciudad grande, no.",
+      "Covas es la playa que mejor se integra en la vida ordinaria si se reside en esa parte del municipio: arena, paseo y ría quedan unidos. Area y Sacido amplían las opciones cuando apetece otra orilla, pero no conviene trasladar esa facilidad automáticamente a cualquier vivienda del casco o de Celeiro.",
+      "El Souto da Retorta, conocido por sus grandes eucaliptos, y el Monte San Roque, como mirador, ofrecen salidas cercanas cuando el plan no es playa. Hacia el este, el resto de A Mariña amplía costa y servicios; para atención hospitalaria, Burela forma parte de ese mapa práctico."
     ],
     casa: [
-      "El casco ofrece pisos y viviendas de piedra; hacia Covas y las afueras, tipologías más abiertas. Hay poca obra nueva y fibra. En el casco hay que contar con Semana Santa, humedad y aparcamiento; junto a Covas, ocupación de agosto y salitre suave de ría.",
-      "El precio medio ronda 1.302 €/m² según Idealista (datos de agosto de 2026). Tres habitaciones en la franja asequible salen alrededor de 152.000 euros: es una estimación calculada a partir del €/m², no un anuncio real. La franja media puede ser piso reformado en casco o vivienda con más espacio hacia la orilla: el estado importa más que el metro solo.",
-      "Los servicios son 6/10 en nuestra escala. El Hospital da Mariña queda a unos veinticinco minutos desde el casco. Santiago-Lavacolla anda alrededor de los cien minutos según ruta. Quien quiera casco caminable y Covas cerca lo encuentra; quien necesite el hospital en el propio municipio, mira Burela.",
+      "En el casco pesan el estado de la reforma, la humedad, las escaleras o el ascensor y cómo afectan la Semana Santa y el aparcamiento a la calle concreta. En Covas cambian las preguntas: ocupación de verano, salitre, orientación y distancia real a los servicios que se usarán durante el invierno.",
+      "Casco, Covas y Celeiro no son versiones intercambiables de Viveiro. Una vivienda puede ganar playa y paseo o ganar proximidad al centro y al comercio; por eso la microzona importa más que una impresión general del municipio. Los precios y estimaciones quedan en la capa factual y en la tabla."
     ],
     encaja: {
       si: [
-        "Encaja para quien quiera la villa con más vida propia todo el año en la Mariña occidental: casco amurallado con la Porta de Carlos V —arco renacentista de entrada—, el puerto de Celeiro —referencia de merluza del pincho—, ría abrigada y Covas, la playa larga y urbana a pocos minutos. Un martes de noviembre se compra, se va al centro de salud y se camina el casco sin depender de Burela para lo diario; los servicios alcanzan 6/10 en nuestra escala y hay fibra. Quien priorice mesas abiertas en enero, lonja y un paseo de ría frente a aislamiento extremo (O Vicedo) o industria (Xove/Cervo) encontrará aquí el equilibrio oeste de la comarca. Area y Sacido completan orillas; el Souto da Retorta —eucaliptos gigantes— y el Monte San Roque —mirador— dan tarde de monte cercano.",
-        "El clima sigue siendo el de A Mariña, no el de Mallorca: unas mil ochocientas cincuenta horas de sol y unos cuarenta días despejados frente a las dos mil ochocientas horas y ciento veinte jornadas claras de la isla; llovizna también en verano, niebla alta. Son cifras orientativas de comarca, no de una estación local. El verano ronda dieciocho grados y medio, con máximas cerca de veintidós: se gana frescura frente al Mediterráneo y se acepta cielo cubierto frecuente. Covas tiene agua de ría más usable que el Cantábrico abierto —en verano, hacia diecisiete a diecinueve grados—: baño corto calmado cuando el mar abierto no invita. En agosto el paseo y Covas reciben veraneo; el volumen sube, pero no apaga la villa de trabajo. Encaja quien acepte Semana Santa intensa en el casco —interés turístico internacional, procesiones, ruido y aparcamiento difícil varios días— a cambio de esa vida local.",
+        "Encaja si se busca una villa con vida anual y varios registros a poca distancia: casco histórico para la rutina urbana, Celeiro como puerto de trabajo y Covas para incorporar ría, playa y paseo al día a día. La autonomía cotidiana es fuerte sin necesitar que Viveiro funcione como una ciudad grande.",
+        "También encaja si se acepta que verano y Semana Santa cambien temporalmente algunas calles sin vaciar el resto del año. El atractivo está precisamente en combinar actividad local, mar y patrimonio sin que todo dependa del veraneo."
       ],
       no: [
-        "No encaja si el hospital debe quedar a pie o el aeropuerto a una hora. El Hospital da Mariña, en Burela, está a unos veinticinco minutos; el aeropuerto anda alrededor de los cien minutos según ruta —Santiago-Lavacolla o Asturias, según vuelo, con programación de Palma que cambia cada temporada—. Burela tiene el hospital comarcal en el propio municipio, a unos cinco minutos; desde Ribadeo, el aeropuerto de Asturias queda en unos sesenta minutos según ruta. Quien mire Viveiro solo por el casco debe sumar esos trayectos con los ojos abiertos.",
-        "Tampoco si se necesita el cielo de Baleares, una ciudad a menos de una hora —Lugo queda a más de una hora— o un agosto silencioso junto a Covas. Aquí mandan niebla, cubierto y verano fresco; la Semana Santa corta calles y concentra mucha gente. Quien se decida solo tras un sábado soleado sin probar noviembre ni las procesiones se llevará una villa distinta de la foto turística.",
+        "Encaja peor si se necesita hospital en el propio municipio, aeropuerto próximo o una vivienda que funcione igual en agosto que en noviembre. Esos desplazamientos y la diferencia estacional forman parte de la vida real, aunque el núcleo resuelva bien muchas necesidades ordinarias.",
+        "Tampoco si la humedad, la niebla o varios días de calles muy ocupadas durante la Semana Santa pesan más que la posibilidad de vivir en un casco histórico con ría y playa cercanas."
       ],
       veredicto:
-        "Veredicto: Viveiro es la apuesta villa-casco del oeste de A Mariña. Buscaría tres habitaciones caminables a comercio y a Covas —franja asequible estimada en torno a ciento cincuenta y dos mil euros a partir de los 1.302 €/m² de Idealista en agosto de 2026—, fuera del tramo más ruidoso de Semana Santa, tras probar un noviembre de niebla y un día de afluencia en el casco. Se ganan vida local, ría abrigada y Celeiro; se aceptan hospital a veinticinco minutos, aeropuerto a unos cien según ruta y el cielo gris lucense.",
+        "Viveiro combina una villa histórica que funciona todo el año con puerto de oficio y una Covas más marítima y estacional. Su equilibrio depende mucho de escoger bien entre casco, Celeiro y Covas: se gana autonomía cotidiana y variedad de paseos, mientras hospital, aeropuerto y algunas salidas quedan fuera del radio inmediato."
     },
     fotosAbrir: [
       { src: "/fotos/a-marina/viveiro-casco.jpg", pie: "Casco de Viveiro hacia la ría" },
@@ -257,66 +250,59 @@ export const RELATOS_A_MARINA: Record<string, RelatoMun> = {
   },
 
   burela: {
- escala: "Villa portuaria pesquera",
- abrir: [
- "Burela no presume de piedra antigua: presume de oficio. Unos nueve mil habitantes en una villa de servicios sin casco histórico monumental —puerto del bonito del norte, lonja, hospital comarcal a pie y playas A Marosa y Ril—. Es la sede del hospital comarcal de A Mariña y una de las villas con vida de trabajo todo el año: cajas, grúas, olor a pescado, el ritmo de quien no cierra la temporada.",
- "Un martes de noviembre se resuelve comercio, centro de salud y recados básicos en el municipio. Quien vive aquí es gente de puerto y de villa funcional; hay una comunidad caboverdiana histórica ligada a la pesca. Los servicios alcanzan 6/10 y hay fibra. El Hospital da Mariña queda a unos cinco minutos —dato que no se replica en ningún otro municipio de la comarca—. El aeropuerto de Asturias anda alrededor de los ochenta y cinco minutos; Santiago, hacia los ciento diez.",
- "En verano A Marosa y Ril reciben toallas y tráfico hacia la orilla. El calendario de villa portuaria y el veraneo animan el paseo; no hay una Semana Santa de impacto internacional como en Viveiro. Vivir junto a la playa o al puerto significa contar con más volumen en agosto; tierra adentro, el ritmo pesquero sigue.",
- "Fuera de agosto Burela es villa de trabajo: mesas, lonja y hospital delante. Primavera y otoño dejan la orilla más quieta. Si solo conoces un sábado de sol, te llevas la imagen de folleto de la playa. Si has visto un día de lonja en marcha, ya puedes decidir si quieres la villa tal cual es.",
- "Encaja para quien priorice hospital a pie y puerto real, no As Catedrais a cinco minutos ni casco indiano.",
- ],
- tiempo: [
- "Burela suma unas 1.900 horas de sol y unos 40 días despejados frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.000 milímetros en unos 145 días. Niebla alta; viento medio. El gris de invierno pesa; también en verano llueve con frecuencia.",
- "El verano ronda 18,5 °C, fresco frente a Baleares. A Marosa y Ril tienen agua entre 17 y 19 °C; el Cantábrico pide días buenos para baño. Foz, a un trayecto corto, ofrece ría más abrigada cuando apetece otra orilla. Conviene probar niebla y un día de puerto activo, no solo el sol de A Marosa.",
- ],
- vivir: [
- "El invierno en Burela se nota en el piso de villa funcional: humedad, niebla alta y un cielo de unas 1.900 horas de sol frente a Mallorca. Conviene mirar aislamiento y rastros de moho un noviembre húmedo, no solo el sol de A Marosa. Junto a la orilla hay que contar con salitre y agosto; cerca del puerto, el ruido de actividad pesquera también en invierno —la lonja no cierra la temporada—.",
- "El día a día sin coche es viable: un martes de noviembre se resuelve comercio, centro de salud y recados básicos en el municipio. Los servicios alcanzan 6/10 y hay fibra. En enero Burela es villa de trabajo —mesas, lonja y hospital delante—, no un bloque vacío de veraneo. Quien viva junto a A Marosa, Ril o al puerto notará más volumen en agosto; tierra adentro, el ritmo pesquero sigue.",
- "Llegar de fuera es habitual: gente de puerto y de villa funcional, con una comunidad caboverdiana histórica ligada a la pesca. Se oye gallego en la lonja y en el ayuntamiento; el castellano basta para lo cotidiano. Entre semana manda el oficio del mar; en verano A Marosa y Ril reciben toallas y tráfico. Quien busque solo piedra antigua mirará otra villa; quien busque vecinos de trabajo todo el año, los encontrará aquí —en escala de villa portuaria, no de casco indiano.",
- "La sanidad de urgencia y especialidades está a pie: el Hospital da Mariña queda a unos cinco minutos —dato que no se replica en ningún otro municipio de la comarca—. Empadronarse aquí abre médico de cabecera y hospital comarcal en el mismo municipio. Es el dato que convierte Burela en sede del hospital comarcal de A Mariña.",
- "Mantener el vínculo con Mallorca pasa por el aeropuerto de Asturias, alrededor de los ochenta y cinco minutos, o Santiago hacia los ciento diez. En invierno el trayecto a menudo implica más logística. Conviene mirar el calendario real de vuelos del año, no solo el sol de A Marosa: el aeropuerto no está a una hora exacta como en Ribadeo.",
- "Predominan pisos y viviendas de villa funcional; hay poca obra nueva y fibra. Junto a la orilla hay que contar con salitre y agosto; cerca del puerto, ruido de actividad pesquera. Conviene escuchar un día de lonja antes de comprar la primera línea. En un piso con escaleras o sin ascensor hay que imaginar la rutina dentro de diez años; el estado de la reforma pesa. La terraza útil es la que recibe sol de invierno, no solo la que mira el Cantábrico en foto.",
- ],
- historia: [
- "El puerto y el bonito del norte explican Burela: villa crecida con la pesca, no con un recinto amurallado. La lonja y la flota son el dato útil; la comunidad caboverdiana histórica liga oficio del mar y demografía contemporánea.",
- "El Hospital da Mariña convierte el municipio en referencia comarcal: sanidad que organiza la costa lucense. Cabo Burela añade horizonte costero. La historia contemporánea es de trabajo marítimo y servicios, no de indianos ni de arcos de Semana Santa.",
- ],
- fuera: [
- "A Marosa y Ril son las playas de diario: arena urbana, Cantábrico y agua fresca. Un martes de junio la toalla cabe; un domingo de agosto, cuesta aparcar.",
- "El paseo y el puerto permiten una tarde de villa pesquera sin coche: lonja, dársena y el mar como oficio. No es una imagen de folleto de muralla; es trabajo a la vista.",
- "Foz amplía ría y A Rapadoira; Cervo, Sargadelos y San Cibrao; Viveiro, casco y Covas. As Catedrais quedan hacia Barreiros y Ribadeo. Aquí la orilla de diario es A Marosa; el hospital, a cinco minutos.",
- ],
- casa: [
- "Predominan pisos y viviendas de villa funcional; hay poca obra nueva y fibra. Junto a la orilla hay que contar con salitre y agosto; cerca del puerto, ruido de actividad pesquera. Conviene escuchar un día de lonja antes de comprar la primera línea.",
- "La referencia de precio actual está en la capa factual y en Idealista del mes; aquí no se fija una media municipal en prosa. 000 euros. La franja media es piso ampliado o vivienda con mejor orientación; el estado pesa.",
- "Los servicios son 6/10. El hospital queda a unos cinco minutos. Asturias está a unos ochenta y cinco; Santiago-Lavacolla, hacia los ciento diez. Quien acepte villa sin encanto monumental gana sanidad a pie; quien busque piedra antigua, mira Viveiro o Ribadeo.",
- ],
- encaja: {
- si: [
- "Encaja para quien priorice el hospital a pie en A Mariña: el Hospital da Mariña queda a unos cinco minutos, y eso no se replica en ningún otro municipio de la comarca. Burela es villa portuaria pesquera —unos nueve mil habitantes—, lonja, bonito del norte, playas A Marosa y Ril a pocos minutos, sin casco histórico monumental. Un martes de noviembre se resuelve comercio, centro de salud y recados básicos en el municipio; los servicios alcanzan 6/10 y hay fibra. Quien quiera vida de trabajo todo el año, puerto real y sanidad comarcal delante —no piedra antigua ni As Catedrais a cinco minutos— encontrará aquí la villa con el hospital comarcal de la costa lucense. Foz, a un trayecto corto, amplía ría y A Rapadoira cuando apetezca orilla más abrigada.",
- "El clima sigue siendo cantábrico: unas mil novecientas horas de sol y unos cuarenta días despejados frente a las dos mil ochocientas horas y ciento veinte jornadas claras de Mallorca; niebla alta, verano fresco cerca de dieciocho grados y medio. A Marosa y Ril tienen agua entre diecisiete y diecinueve grados; el Cantábrico pide días buenos para baño. En verano las playas reciben toallas y tráfico; el calendario de villa portuaria anima el paseo sin alcanzar el impacto de la Semana Santa de Viveiro. Encaja quien acepte una villa funcional —la ficha misma admite que falta encanto urbano— a cambio de hospital a cinco minutos y precio asequible (; tres habitaciones en franja asequible cerca de ciento cuarenta mil).",
- ],
- no: [
- "No encaja si se busca piedra amurallada, frontera indiana o As Catedrais a cinco minutos. Viveiro cubre casco y Covas; Ribadeo, indianos, ría del Eo y los arcos; Barreiros, playas largas junto a As Catedrais. Burela es oficio y servicios, no foto típica de villa señorial. Tampoco si el ruido de actividad pesquera junto al puerto molesta como vecino cotidiano.",
- "Tampoco si el cielo de Baleares o el aeropuerto a una hora son imprescindibles: el verano es fresco y Asturias queda a unos ochenta y cinco minutos; Santiago-Lavacolla, hacia los ciento diez. Quien se decida solo por el hospital sin probar un noviembre húmedo ni un agosto en A Marosa se llevará la sanidad, pero también el gris y la villa portuaria tal cual es.",
- ],
- veredicto:
- "Veredicto: Burela es la apuesta hospital y puerto de A Mariña. Buscaría tres habitaciones caminables a servicios, fuera del tramo más expuesto al ruido del puerto si molesta, tras probar un noviembre húmedo y un día de lonja en marcha. Se ganan sanidad a cinco minutos, A Marosa, Ril y vida pesquera todo el año; se aceptan casco poco monumental, aeropuerto lejos y el cielo gris de la Mariña.",
- },
- fotosAbrir: [
- { src: "/fotos/a-marina/burela-puerto.jpg", pie: "Puerto de Burela, bonito del norte" },
- { src: "/fotos/a-marina/burela-villa.jpg", pie: "Burela: villa de servicios y pesca" },
- ],
- fotosHistoria: [
- { src: "/fotos/a-marina/burela-lonja.jpg", pie: "Lonja y ambiente portuario de Burela" },
- { src: "/fotos/a-marina/burela-paseo.jpg", pie: "Paseo marítimo de Burela" },
- ],
- fotosFuera: [
- { src: "/fotos/a-marina/burela-playa.jpg", pie: "A Marosa o Ril, playas de Burela" },
- { src: "/fotos/a-marina/burela-costa.jpg", pie: "Orilla urbana de Burela hacia el Cantábrico" },
- ],
- creditoFotos: credito,
- },
+    escala: "Villa portuaria pesquera",
+    abrir: [
+      "Burela se explica mejor por lo que hace que por lo que enseña. El puerto y la lonja sitúan el trabajo del mar en primer plano, mientras el Hospital da Mariña y una red de comercio, mercado, biblioteca, auditorio, deporte y transporte dan al núcleo una funcionalidad poco habitual para su tamaño. No necesita un casco monumental para tener vida propia.",
+      "Un martes de noviembre esa diferencia se nota más que en agosto: hay recados, servicios, actividad sanitaria y puerto sin esperar a la temporada de playa. A Marosa y Ril añaden mar a esa rutina, pero la fortaleza de Burela no es funcionar como un destino de playa, sino permitir que gran parte del día cotidiano ocurra dentro de la propia villa."
+    ],
+    tiempo: [
+      "Frente a Mallorca, la casa y la calle se usan con otro ritmo: verano fresco, humedad, niebla y más jornadas grises. Cerca del mar conviene mirar orientación, aislamiento, ventilación y salitre; cerca del puerto, además, hay que entender que la actividad no desaparece cuando termina agosto.",
+      "A Marosa y Ril permiten incorporar el Cantábrico a un paseo normal, aunque el baño depende más del día y del estado del mar que en una costa mediterránea. El frente marítimo sirve tanto para caminar como para recordar que aquí la orilla es también un lugar de trabajo."
+    ],
+    vivir: [
+      "La vida diaria puede concentrarse mucho en el núcleo. Centro de salud, hospital, comercio, mercado, biblioteca, auditorio, estación y deporte forman un radio de servicios que reduce la necesidad de coger el coche para cada recado. Esa autonomía es uno de los rasgos más claros de Burela.",
+      "El hospital cambia especialmente la geografía cotidiana: la atención hospitalaria está en el propio municipio, en vez de convertirse de entrada en un desplazamiento a otra villa. No hace falta repetir sus minutos en cada apartado para entender la consecuencia práctica: sanidad y vida urbana comparten el mismo mapa.",
+      "El puerto introduce el peaje contrario. La lonja y la actividad pesquera son parte estructural de Burela, no decoración marítima; una vivienda próxima debe valorarse también un día de trabajo, con su movimiento y su ruido. La presencia histórica de una comunidad caboverdiana ligada a la pesca forma parte de esa historia contemporánea, sin necesidad de convertirla en una etiqueta sobre toda la villa.",
+      "En verano A Marosa y Ril reciben más gente y la orilla gana actividad, pero Burela no se apaga al terminar la temporada. La cultura, el deporte, los servicios y el trabajo mantienen una base anual fuerte. Para el aeropuerto y para ampliar las salidas por A Mariña sí hace falta asumir desplazamientos fuera del núcleo."
+    ],
+    historia: [
+      "El puerto, la lonja y el bonito del norte explican mejor Burela que una secuencia de monumentos. La villa ha construido buena parte de su identidad alrededor del oficio pesquero, y ese trabajo continúa visible en el presente.",
+      "El Hospital da Mariña añade otra función comarcal muy concreta: Burela no solo recibe a quien viene por el puerto o por sus servicios, sino también por la sanidad. Cabo Burela completa el mapa costero, mientras la historia local reciente queda ligada sobre todo al mar, al trabajo y a los servicios."
+    ],
+    fuera: [
+      "A Marosa y Ril son las referencias de playa, pero el paseo cotidiano puede seguir también el puerto y el frente marítimo. La experiencia cambia según el tramo: arena y baño en unos momentos, dársena y actividad pesquera en otros.",
+      "Para variar de paisaje, Foz amplía ría y paseo; Cervo y San Cibrao cambian la relación entre industria, patrimonio y costa; Viveiro aporta casco histórico y Covas. Son salidas próximas dentro de A Mariña, mientras Burela conserva como ventaja propia poder volver a una villa muy funcional."
+    ],
+    casa: [
+      "En Burela la vivienda debe leerse con el mapa de actividad delante. Cerca del puerto conviene escuchar una jornada de lonja antes de comprar; junto a la orilla pesan salitre y movimiento de verano. En otras calles, la ventaja puede ser llegar andando a una parte muy amplia de los servicios.",
+      "En pisos y viviendas de una villa funcional importan accesibilidad, ascensor o escaleras, orientación, aislamiento y estado de la reforma. La capa factual y la tabla concentran precios y estimaciones; el relato útil es comprobar qué se gana en autonomía y qué ruido o exposición acepta la microzona concreta."
+    ],
+    encaja: {
+      si: [
+        "Encaja si se valora poder resolver mucha vida ordinaria dentro de una villa pequeña: sanidad, comercio, mercado, biblioteca, auditorio, deporte y transporte se suman a un puerto que mantiene actividad durante todo el año. A Marosa y Ril permiten además que el mar no quede reservado para una excursión.",
+        "También encaja si se prefiere funcionalidad a imagen monumental. Burela no necesita parecer Viveiro o Ribadeo para tener identidad: su carácter está en el puerto de trabajo, la lonja y una escala urbana con servicios comarcales."
+      ],
+      no: [
+        "Encaja peor si se busca ante todo un casco histórico de piedra, una fachada urbana especialmente monumental o una costa concebida como paisaje turístico. El puerto de trabajo y una imagen más funcional forman parte del lugar, no son algo que desaparezca al elegir otra calle.",
+        "Tampoco si molesta la actividad pesquera cerca de casa o si el aeropuerto debe quedar muy próximo. La gran autonomía cotidiana reduce muchos desplazamientos, pero no elimina los viajes para volar ni convierte toda la costa en una playa-resort."
+      ],
+      veredicto:
+        "Burela concentra mucha vida práctica en poca escala: hospital, servicios, puerto y frente marítimo funcionan durante todo el año. A cambio ofrece menos imagen monumental y exige escoger vivienda entendiendo el ruido del puerto, el salitre y la calle concreta. Su diferencia está en la funcionalidad cotidiana, no en competir con las postales históricas de otras villas."
+    },
+    fotosAbrir: [
+      { src: "/fotos/a-marina/burela-puerto.jpg", pie: "Puerto de Burela, bonito del norte" },
+      { src: "/fotos/a-marina/burela-villa.jpg", pie: "Burela: villa de servicios y pesca" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/a-marina/burela-lonja.jpg", pie: "Lonja y ambiente portuario de Burela" },
+      { src: "/fotos/a-marina/burela-paseo.jpg", pie: "Paseo marítimo de Burela" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/a-marina/burela-playa.jpg", pie: "A Marosa o Ril, playas de Burela" },
+      { src: "/fotos/a-marina/burela-costa.jpg", pie: "Orilla urbana de Burela hacia el Cantábrico" },
+    ],
+    creditoFotos: credito,
+  },
 
   foz: {
     escala: "Villa de ría y playa",

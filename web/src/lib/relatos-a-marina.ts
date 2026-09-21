@@ -4,70 +4,63 @@ const credito = "Fotos: Wikimedia Commons (licencias indicadas en los archivos d
 
 export const RELATOS_A_MARINA: Record<string, RelatoMun> = {
   "o-vicedo": {
- escala: "Villa marinera cantábrica",
- abrir: [
- "O Vicedo se siente en la punta del mapa. Unos mil setecientos habitantes en el extremo oeste de A Mariña, junto a la ría do Barqueiro —la lámina de agua que aquí separa Lugo de A Coruña—. El casco es pequeño; la mirada, enorme: Xilloi, Arealonga y Vidreiro abren arena al Cantábrico; Fuciño do Porco —pasarelas de madera sobre el acantilado— convierte el precipicio en paseo; a unos veinte o treinta minutos según ruta, Estaca de Bares —uno de los extremos septentrionales de la península Ibérica y la divisoria clásica entre Cantábrico y Atlántico— cierra el horizonte con faro, viento y migración de aves. No es villa de plaza densa: es costa cantábrica extrema con nombre de pueblo.",
- "Un martes de noviembre la vida es mínima. Quien vive aquí busca silencio y mar delante, no comercio a la vuelta de la esquina. Los servicios son 2/10 en nuestra escala —la nota más baja de la comarca; es metodología propia de esta web, no un indicador oficial— y la dependencia del coche ronda 9/10: el súper completo, muchas mesas y los recados serios organizan Viveiro o Burela. El Hospital da Mariña, en Burela, queda a unos treinta y cinco minutos desde el núcleo de O Vicedo. El aeropuerto usable anda alrededor de los cien minutos según ruta —Santiago, A Coruña o Asturias—. Eso no se arregla eligiendo otra calle junto a Xilloi.",
- "El tráfico es de aldea casi todo el año. En los días claros de verano las playas y Fuciño do Porco reciben visitantes, coches en calles estrechas y aparcamiento justo. No hay una fiesta mayor de interés turístico que corte el casco como la Semana Santa de Viveiro: el volumen viene del veraneo y de quien busca costa abierta. Quien viva junto a la orilla notará agosto; hacia el interior, el silencio vuelve antes.",
- "Fuera de temporada O Vicedo es retiro aislado: pocas mesas, poco comercio y mucho Cantábrico. Primavera y otoño son buenas épocas para conocerlo —verde intenso, niebla que entra de golpe—. Si solo conoces un sábado de sol, te llevas la imagen de folleto del horizonte. Si has visto un noviembre húmedo, ya puedes decidir si quieres el aislamiento.",
- "El resto del año la villa no es completa. Encaja solo para quien priorice precio y paisaje frente a servicios y aeropuerto, y acepte que la semana cabe en el volante.",
- ],
- tiempo: [
- "Si vienes de Baleares, notarás el cielo más gris y con menos sol que en Mallorca. O Vicedo suma unas 1.850 horas de sol y unos 40 días despejados frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.150 milímetros en unos 150 días: la lluvia de octubre a marzo es seria, y también en verano caen 7–10 días al mes. La niebla es alta —esta costa lucense es de las más brumosas de Galicia—; el viento, medio. Son cifras orientativas del conjunto de A Mariña, no la serie de una estación local: en el extremo oeste, tan expuesto, la niebla y el viento suelen pesar algo más que en el tramo de Ribadeo.",
- "El verano ronda 18 °C, de los más frescos de la zona, con máximas habituales cerca de 22 °C y casi ningún día sobre 30 °C: se gana frescura frente al Mediterráneo y se acepta un cielo que también llovizna en julio. En verano el agua suele moverse entre 17 y 19 °C, como rango orientativo; el mar abierto es bravo. Las playas invitan más al paseo que al baño largo cuando sopla el Cantábrico. Conviene venir un día de niebla y un noviembre, no solo un sábado de sol de agosto.",
- ],
- vivir: [
- "El invierno en O Vicedo se nota en la casa: humedad, niebla alta —esta costa lucense es de las más brumosas de Galicia—, viento medio y un cielo de unas 1.850 horas de sol frente a Mallorca. Conviene preguntar por aislamiento, orientación y rastros de moho un noviembre húmedo, no solo un sábado de sol en Xilloi. El jardín o la terraza que en agosto parecen el centro de la vida se usan la mitad o menos entre noviembre y febrero; el anuncio enseña horizonte, noviembre enseña aislamiento.",
- "El día a día sin coche casi no existe: los servicios son 2/10 en nuestra escala —la nota más baja de la comarca— y la dependencia del coche ronda 9/10. Un martes de noviembre la vida es mínima; el súper completo, muchas mesas y los recados serios organizan Viveiro o Burela. En enero O Vicedo es retiro aislado: pocas mesas, poco comercio y mucho Cantábrico. Quien viva junto a la orilla notará agosto en las playas y en Fuciño do Porco; hacia el interior, el silencio vuelve antes.",
- "Llegar de fuera busca silencio y mar delante, no comercio a la vuelta de la esquina. Se oye gallego en la villa pequeña; el castellano basta para lo cotidiano, pero la vida social pasa por escala de aldea y ritmos de costa extrema, no por una plaza densa. Entre semana manda el volante; en verano las playas y Fuciño do Porco reciben visitantes y aparcamiento justo. Si solo buscas el horizonte de un sábado de sol, te llevas la imagen de folleto de la costa. Si buscas vecinos densos en enero, mira Viveiro.",
- "La sanidad de urgencia y especialidades no está en el municipio: el Hospital da Mariña, en Burela, queda a unos treinta y cinco minutos desde el núcleo de O Vicedo, y algo más desde las parroquias del interior. Empadronarse aquí abre el médico de cabecera local; para hospital se conduce, y conviene comprobar el hospital de referencia que asigna el Sergas según el empadronamiento. Eso no se arregla eligiendo otra calle junto a Xilloi: es asumir que la sanidad comarcal está lejos del extremo oeste.",
- "Mantener el vínculo con Mallorca pasa por un aeropuerto usable alrededor de los cien minutos según ruta —Santiago, A Coruña o Asturias—. En invierno el trayecto a menudo implica más logística y escalas. Los enlaces con Palma cambian de temporada en temporada, así que conviene comprobar la programación vigente del año en que se decida, no solo la de agosto en la orilla: el coste no es solo el billete, sino el volante hasta la terminal.",
- "Predominan viviendas modestas y casas hacia las parroquias; hay poca o ninguna obra nueva y fibra parcial que debe comprobarse dirección a dirección. Hay que contar con humedad, viento, acceso en invierno y la distancia real a un súper. En una casa con escaleras o acceso difícil en invierno hay que imaginar la rutina dentro de diez años; conviene presupuestar humedad, ventanas y calefacción, no solo las vistas al Cantábrico.",
- ],
- historia: [
- "La ría do Barqueiro y el oficio del mar explican O Vicedo mejor que un casco monumental: villa marinera pequeña en el extremo lucense, con la mirada puesta en acantilados y arenales. Fuciño do Porco es la capa contemporánea —pasarelas que permiten caminar el precipicio sin perder el horizonte— y cuenta el sitio como paisaje vivo, no como museo.",
- "Estaca de Bares, a unos veinte o treinta minutos según ruta, añade una capa geográfica que pocos municipios pueden igualar: faro, cabo, viento y aves migratorias en uno de los extremos septentrionales de la península, donde suele situarse la divisoria entre Cantábrico y Atlántico. Lo que conviene saber aquí es de costa extrema y ría de frontera provincial, no de villa amurallada ni de casas de indianos.",
- ],
- fuera: [
- "Si solo hay tiempo para una orilla cerca, Xilloi, Arealonga o Vidreiro son el baño —y el paseo— de diario: arena, oleaje y agua fresca a pocos minutos. Un martes de junio puedes tener casi toda la playa; un domingo de agosto el aparcamiento se queda corto. Es costa de vecinos y de toalla de siempre cuando sopla menos, no de resort.",
- "Fuciño do Porco convierte el acantilado en tarde: pasarelas, precipicio y Cantábrico delante. No es un paseo de boulevard; es horizonte con barandilla. Cuando el océano no invita al baño, este tramo sigue siendo salida.",
- "Estaca de Bares amplía la jornada hacia el cabo. Viveiro, a un trayecto corto hacia el este, cubre casco, comercio y Covas —ría abrigada— cuando el Cantábrico abierto no deja meterse. Aquí el mar está en la puerta; la villa completa, no.",
- ],
- casa: [
- "El modelo no es urbanización. Predominan viviendas modestas y casas hacia las parroquias; hay poca o ninguna obra nueva y fibra parcial que debe comprobarse dirección a dirección. Hay que contar con humedad, viento, acceso en invierno y la distancia real a un súper.",
- ", de los más bajos de la zona, pero es una cifra orientativa: en un municipio de mil setecientos habitantes la muestra de anuncios publicados puede ser escasa y moverse mucho de un mes a otro, así que conviene mirar Idealista del mes en que se busque. Tres habitaciones en la franja asequible salen alrededor de 105.000 euros; es una estimación calculada a partir del €/m², no un anuncio real. El estado de la reforma y las vistas al mar mueven el precio final más que una media única: el anuncio enseña horizonte; noviembre enseña aislamiento.",
- "Los servicios son 2/10 en nuestra escala. El Hospital da Mariña queda a unos treinta y cinco minutos desde el núcleo. Asturias, A Coruña o Santiago andan alrededor de los cien minutos según ruta. Quien acepte coche casi cada día gana costa cantábrica y uno de los metros más asequibles de A Mariña; quien necesite mesas en enero a pie, no.",
- ],
- encaja: {
- si: [
- "Encaja para quien quiera el Cantábrico delante casi a pie —Xilloi, Arealonga y Vidreiro a pocos minutos; Fuciño do Porco, las pasarelas sobre el acantilado, como paseo de tarde— y acepte que la vida diaria no cabe en la villa. Un martes de noviembre aquí es retiro mínimo: el súper completo, el comercio y muchas mesas viven en Viveiro o Burela; el coche organiza la semana (dependencia alta, cerca de nueve sobre diez). Quien priorice precio —de los más bajos de A Mariña, como cifra orientativa— y costa cantábrica extrema frente a villa caminable encontrará el sitio: Estaca de Bares, uno de los extremos septentrionales de la península, a unos veinte o treinta minutos según ruta, cierra el horizonte con faro, viento y migración de aves. El mar es bravo; las playas invitan más al paseo que al baño largo cuando sopla el Cantábrico.",
- "El clima pide ojos abiertos si se viene de Mallorca: unas mil ochocientas cincuenta horas de sol y unos cuarenta días despejados frente a las dos mil ochocientas horas y ciento veinte jornadas claras de la isla; caen alrededor de mil ciento cincuenta milímetros en unos ciento cincuenta días, con niebla alta. Son cifras orientativas de comarca, no de una estación local. El verano ronda dieciocho grados —de los más frescos de la zona—, con máximas habituales cerca de veintidós y casi ningún día sobre treinta: se gana frescura frente al calor mediterráneo y se acepta un cielo gris que también llovizna en julio. En agosto las playas y Fuciño do Porco reciben visitantes y aparcamiento justo; hacia el interior el silencio vuelve antes. Encaja si has probado un noviembre húmedo y sigues queriendo esa orilla.",
- ],
- no: [
- "No encaja si la semana debe resolverse andando o si el hospital y el aeropuerto pesan como prioridad. Los servicios son 2/10 en nuestra escala —la nota más baja de la comarca—; el Hospital da Mariña, en Burela, queda a unos treinta y cinco minutos desde el núcleo; el aeropuerto usable anda alrededor de los cien minutos según ruta (Santiago, A Coruña o Asturias). Eso no se arregla eligiendo otra calle junto a Xilloi. Viveiro cubre casco y comercio; Burela tiene el hospital comarcal en el propio municipio; Ribadeo es la villa con más servicios de la comarca y la mejor conectada con el aeropuerto de Asturias.",
- "Tampoco si se necesita el cielo estable de Baleares o una villa con mesas y mercado en enero sin coche. Aquí mandan niebla, cubierto y verano fresco extremo; fuera de temporada hay pocas mesas y poco comercio. Quien se decida solo tras un sábado de sol de agosto, sin probar el aislamiento de noviembre ni el atasco de las playas en temporada, se llevará una sorpresa.",
- ],
- veredicto:
- "Veredicto: O Vicedo es el extremo aislado de A Mariña —precio y Cantábrico a cambio de servicios mínimos—. Buscaría vivienda con fibra comprobada (es parcial), acceso claro en invierno y orientación que aguante viento y humedad, lejos del atasco de agosto en Xilloi o Fuciño do Porco. Se ganan costa cantábrica y uno de los metros más asequibles de la zona; se aceptan coche casi cada día, hospital a treinta y cinco minutos, aeropuerto a unos cien según ruta y un cielo que no es el de Mallorca.",
- },
- fotoIdentidad: {
- src: "/fotos/a-marina/o-vicedo-identidad.jpg",
- pie: "O Vicedo: casas junto a la ría, con el monte detrás",
- },
- fotosAbrir: [
- { src: "/fotos/a-marina/vicedo-villa.jpg", pie: "O Vicedo: villa marinera en el extremo occidental" },
- { src: "/fotos/a-marina/vicedo-puerto.jpg", pie: "Puerto y orilla de trabajo en O Vicedo" },
- ],
- fotosHistoria: [
- { src: "/fotos/a-marina/vicedo-faro.jpg", pie: "Faro y horizonte hacia Estaca de Bares" },
- { src: "/fotos/a-marina/vicedo-ria.jpg", pie: "Ría do Barqueiro junto a O Vicedo" },
- ],
- fotosFuera: [
- { src: "/fotos/a-marina/vicedo-playa.jpg", pie: "Playa atlántica en O Vicedo" },
- { src: "/fotos/a-marina/vicedo-costa.jpg", pie: "Costa y acantilados de O Vicedo" },
- ],
- creditoFotos: credito,
- },
+    escala: "Villa marinera cantábrica",
+    abrir: [
+      "O Vicedo se entiende desde el borde: la ría do Barqueiro marca la frontera con A Coruña y, al salir del núcleo, Xilloi, Arealonga y Vidreiro abren el municipio al Cantábrico. No hay una villa densa que concentre toda la semana. Hay un núcleo pequeño, costa muy próxima y una vida cotidiana que depende bastante de lo que se resuelva fuera.",
+      "Ese aislamiento cambia mucho con la estación. En verano las playas y Fuciño do Porco reciben visitantes y coches; en noviembre el municipio vuelve a una escala mínima. La imagen del horizonte es real, pero también lo es que compras amplias, hospital y muchas gestiones obliguen a organizar la semana con coche."
+    ],
+    tiempo: [
+      "Frente a Mallorca, aquí la diferencia se nota en la humedad, la niebla, el viento y un verano mucho más fresco. Una vivienda que funciona bien en agosto puede sentirse muy distinta durante varios días grises seguidos; orientación, aislamiento, ventilación y acceso pesan tanto como las vistas.",
+      "El Cantábrico abierto tampoco garantiza baño diario. Arealonga y otras playas pueden quedar muy cerca según la vivienda, pero oleaje y tiempo mandan. El mar sigue estando presente cuando no apetece bañarse: como paseo, horizonte y salida corta."
+    ],
+    vivir: [
+      "La autonomía cotidiana es baja. El núcleo cubre lo básico, pero para una compra amplia, atención hospitalaria y muchas gestiones hay que salir hacia otras villas de A Mariña. El tren de ancho métrico tiene apeadero, aunque su mera existencia no sustituye esa dependencia práctica del coche.",
+      "Una mañana libre puede empezar sin convertirse en excursión: el primer tramo del PR-G156 sale del puerto y permite caminar por la costa; completar la ruta hacia Vidreiro, Castro, Caolín, Xilloi y Area Grande ya es otro tipo de plan. Fuciño do Porco, con sus pasarelas sobre el acantilado, pertenece más a esa geografía de salida que a un paseo urbano de todos los días.",
+      "Agosto y enero cuentan historias distintas. Junto a las playas se nota más el movimiento estacional; fuera de temporada vuelven el silencio y la escasez de actividad. Antes de valorar una casa aquí conviene comprobar qué queda realmente a mano cuando desaparece el tráfico de verano.",
+      "La atención hospitalaria está fuera del municipio y los aeropuertos útiles también exigen un desplazamiento largo. No hace falta convertir esos tiempos en el centro del relato: la consecuencia es sencilla, vivir en el extremo occidental de A Mariña obliga a planificar más los desplazamientos importantes."
+    ],
+    historia: [
+      "La ría do Barqueiro explica la posición de O Vicedo mejor que un casco monumental: agua, costa y frontera provincial organizan el paisaje. Fuciño do Porco añade una forma muy reconocible de recorrer el acantilado mediante pasarelas.",
+      "Estaca de Bares amplía ese mapa hacia uno de los extremos septentrionales de la península, con faro, viento y paso de aves. Es una salida que refuerza la sensación de vivir en una costa extrema, no un servicio cotidiano del municipio."
+    ],
+    fuera: [
+      "Xilloi, Arealonga y Vidreiro son las referencias de playa. Según la dirección concreta, alguna puede formar parte de una tarde normal; no por eso los servicios quedan igualmente cerca. Esa separación entre mar próximo y vida práctica es una de las claves de O Vicedo.",
+      "Para ampliar el día aparecen Fuciño do Porco, Estaca de Bares y, hacia el este, Viveiro. El mapa cotidiano y el mapa de paisaje no coinciden: el primero exige coche con frecuencia; el segundo ofrece mucha costa en muy poca distancia."
+    ],
+    casa: [
+      "Aquí una vivienda debe probarse en noviembre además de en agosto. Humedad, viento, orientación, acceso y fibra —que no es uniforme— importan especialmente en casas dispersas o próximas a la costa. También conviene medir la distancia real a la compra y no confundir vistas al mar con autonomía.",
+      "En un mercado pequeño, la casa concreta pesa más que una imagen general del municipio. Accesibilidad, estado de reforma y funcionamiento durante el invierno son preguntas más útiles que repetir precios y estimaciones que ya aparecen en la capa factual y en la tabla."
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca una relación muy directa con la costa y se acepta que el municipio no resuelva por sí solo una semana completa. Playas, ría y senderos están muy presentes; la contrapartida es organizar compras, hospital y bastantes gestiones con coche.",
+        "También encaja si el silencio de fuera de temporada se vive como parte del lugar y no como una carencia inesperada. O Vicedo cambia mucho entre un día fuerte de agosto y un martes húmedo de noviembre."
+      ],
+      no: [
+        "Encaja peor si se quiere salir de casa y resolver casi todo andando, si el hospital debe quedar próximo o si una agenda cotidiana depende de mucha oferta comercial y cultural en el propio núcleo.",
+        "Tampoco si la vivienda solo convence con sol y actividad de verano. El aislamiento, la humedad, el viento y la menor ocupación de invierno son parte estructural de la experiencia."
+      ],
+      veredicto:
+        "O Vicedo ofrece una costa muy presente a cambio de poca autonomía cotidiana. La decisión depende menos de la postal que de aceptar coche, servicios limitados y un invierno muy tranquilo, y de encontrar una vivienda cuyo acceso, orientación, humedad y conectividad funcionen también fuera de temporada."
+    },
+    fotoIdentidad: {
+      src: "/fotos/a-marina/o-vicedo-identidad.jpg",
+      pie: "O Vicedo: casas junto a la ría, con el monte detrás",
+    },
+    fotosAbrir: [
+      { src: "/fotos/a-marina/vicedo-villa.jpg", pie: "O Vicedo: villa marinera en el extremo occidental" },
+      { src: "/fotos/a-marina/vicedo-puerto.jpg", pie: "Puerto y orilla de trabajo en O Vicedo" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/a-marina/vicedo-faro.jpg", pie: "Faro y horizonte hacia Estaca de Bares" },
+      { src: "/fotos/a-marina/vicedo-ria.jpg", pie: "Ría do Barqueiro junto a O Vicedo" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/a-marina/vicedo-playa.jpg", pie: "Playa atlántica en O Vicedo" },
+      { src: "/fotos/a-marina/vicedo-costa.jpg", pie: "Costa y acantilados de O Vicedo" },
+    ],
+    creditoFotos: credito,
+  },
 
   viveiro: {
     escala: "Villa de ría con casco",
@@ -124,112 +117,98 @@ export const RELATOS_A_MARINA: Record<string, RelatoMun> = {
   },
 
   xove: {
- escala: "Costa y parroquias",
- abrir: [
- "Xove no es una villa completa. Unos tres mil trescientos habitantes repartidos entre costa y parroquias en A Mariña: Esteiro —playa de arcos de roca y surf— y Portocelo marcan la orilla; tierra adentro el hábitat se dispersa entre casas y núcleos pequeños. En el término pesa el complejo industrial de San Ciprián —refinería de alúmina y fábrica de aluminio—, que se reparte entre Xove y el vecino Cervo: en 2026 Alcoa asumió la propiedad íntegra del conjunto y reactivó la planta de aluminio en abril, mientras sigue apuntando dudas de viabilidad en la refinería de alúmina por el coste de la energía. No es un detalle lejano: es paisaje y empleo.",
- "Un martes de noviembre los servicios son 3/10 en nuestra escala: el coche organiza compra, salud y ocio hacia Burela o Viveiro. Quien vive aquí busca orilla abierta y precio contenido, no mercado a pie. El Hospital da Mariña queda a unos veinte minutos desde el núcleo de Xove, más desde las parroquias del interior. El aeropuerto anda entre noventa y cinco y ciento cinco minutos según destino y ruta. La fibra es parcial: hay que comprobarla casa por casa.",
- "En verano Esteiro y Portocelo reciben surfistas, toallas y tráfico hacia la costa. No hay una fiesta de interés turístico internacional que corte un casco denso: el volumen es de playa y temporada. Quien viva junto a la orilla notará agosto; hacia las parroquias, el silencio vuelve antes —y en invierno, de verdad.",
- "Fuera de temporada Xove se queda en lo suyo: costa cantábrica, parroquias quietas y dependencia del volante. Si solo conoces un sábado de sol en Esteiro, te llevas la imagen de folleto de los arcos. Si has visto un noviembre vacío, ya puedes decidir si quieres vivir a esa escala.",
- "Encaja poco para quien busque vida diaria densa; encaja mejor para quien tenga Burela o Viveiro como apoyo semanal y priorice oleaje y precio.",
- ],
- tiempo: [
- "Xove registra unas 1.850 horas de sol y unos 40 días despejados frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.100 milímetros en unos 148 días. Niebla alta; viento medio. Son cifras orientativas de comarca, no la serie de una estación local: en costa abierta como esta el viento se nota más que en las rías. El gris de invierno pesa; la llovizna también aparece en julio.",
- "El verano ronda 18,5 °C, fresco frente a Baleares: máximas típicas cerca de 22 °C, casi sin días sobre 30 °C. En verano el agua de Esteiro suele moverse entre 17 y 19 °C, como rango orientativo, con más oleaje que Covas: playa de arcos y surf más que de baño calmado de ría. Conviene probar nortada y niebla, no solo un día de mar llana.",
- ],
- vivir: [
- "El invierno en Xove se nota en las parroquias y cerca de la costa: humedad, niebla alta, viento medio y un noviembre vacío fuera de la orilla. En Mallorca muchas viviendas casi no piensan en moho; aquí conviene mirar aislamiento y rastros de humedad un día de nortada, no solo un sábado de sol en Esteiro. El anuncio habla de vistas; el invierno habla de vacío fuera de la playa.",
- "El día a día sin coche casi no existe: los servicios son 3/10 en nuestra escala y la fibra es parcial. El coche organiza compra, salud y ocio hacia Burela o Viveiro. En enero Xove se queda en lo suyo —costa cantábrica y parroquias quietas—; no hay mercado denso a pie. Quien viva junto a Esteiro o Portocelo notará agosto con surfistas, toallas y tráfico; hacia las parroquias, el silencio vuelve antes —y en invierno, de verdad.",
- "Llegar de fuera busca orilla abierta y precio contenido, no villa completa. Se oye gallego en los núcleos; el castellano basta para lo cotidiano, pero la vida social pasa por escala dispersa y por Burela o Viveiro como apoyo. Entre semana manda el volante; en verano Esteiro y Portocelo reciben temporada de playa. Quien mire Xove solo por los arcos debe sumar el complejo de San Ciprián —repartido entre Xove y Cervo, en manos de Alcoa desde 2026, con la fábrica de aluminio reactivada en abril de ese año y la refinería de alúmina bajo dudas de viabilidad por el coste energético— con los ojos abiertos: industria y costa en el mismo término.",
- "La sanidad de urgencia y especialidades no está en el municipio: el Hospital da Mariña queda a unos veinte minutos desde el núcleo de Xove, más desde las parroquias. Empadronarse aquí abre el médico de cabecera local; para hospital se conduce a Burela, y conviene comprobar el hospital de referencia que asigna el Sergas según el empadronamiento. Veinte minutos es un trayecto más corto que desde O Vicedo, pero no es sanidad a la vuelta de la esquina.",
- "Mantener el vínculo con Mallorca pasa por un aeropuerto a entre noventa y cinco y ciento cinco minutos según destino y ruta —Asturias o Santiago—. En invierno el trayecto a menudo implica más logística. Los enlaces con Palma cambian de temporada: conviene comprobar la programación vigente del año en que se decida, no solo el día de mar llana en Esteiro.",
- "Predominan viviendas en parroquias y cerca de la costa; hay poca obra nueva y fibra parcial. Hay que contar con humedad, viento, acceso y distancia real a un súper. Conviene comprobar la línea casa por casa. En una casa con escaleras o acceso difícil en invierno hay que imaginar la rutina dentro de diez años; el estado de la reforma importa más que una media única.",
- ],
- historia: [
- "Esteiro —con sus arcos de roca— es la ficha visual del municipio: costa trabajada por el mar, no un casco monumental. Portocelo completa la orilla de oficio y veraneo ligero. Lo que conviene saber se lee en la piedra y el oleaje, no en murallas.",
- "El complejo de San Ciprián —refinería de alúmina y fábrica de aluminio, repartido entre Xove y Cervo— explica empleo, población y la tensión económica de los últimos años. En 2026 Alcoa pasó a ser propietaria única del conjunto y volvió a poner en marcha la planta de aluminio en abril, aunque la propia compañía sigue señalando que la refinería de alúmina tiene un problema de viabilidad mientras la energía cueste lo que cuesta. Quien mire Xove solo por los arcos debe sumar esa capa laboral con los ojos abiertos: industria y costa en el mismo término.",
- ],
- fuera: [
- "Esteiro es la playa de carácter: arcos, surf y Cantábrico abierto. Un martes de junio puedes estar casi solo ante las olas; un domingo de agosto hay más coches y más tablas. Nadar aquí es para quien busca brusquedad; Covas, en Viveiro, ofrece otra lógica de ría.",
- "Portocelo ofrece otra orilla a pocos minutos: más de oficio y de temporada ligera que una foto interminable de turismo. El faro de Punta Roncadoira marca horizonte cuando se camina la costa.",
- "Burela cubre hospital y lonja; Viveiro, casco y Covas; Cervo, Sargadelos y San Cibrao. As Catedrais quedan más al este. Aquí el día a día pide coche; el mar, no.",
- ],
- casa: [
- "Predominan viviendas en parroquias y cerca de la costa; hay poca obra nueva y fibra parcial. Hay que contar con humedad, viento, acceso y distancia real a un súper. El anuncio habla de vistas; el invierno habla de vacío fuera de la orilla.",
- "No hay una media municipal homogénea actual en la que anclarse: en un municipio disperso de tres mil habitantes la muestra de anuncios suele ser escasa y moverse de un mes a otro, así que conviene mirar Idealista del mes en que se busque. El estado de la reforma importa más que cualquier media única.",
- "Los servicios son 3/10 en nuestra escala. El Hospital da Mariña queda a unos veinte minutos desde el núcleo. Asturias anda alrededor de los noventa y cinco minutos; Santiago, hacia los ciento cinco, según ruta. Quien acepte esa lógica gana arcos y precio; quien necesite villa caminable, mira Viveiro.",
- ],
- encaja: {
- si: [
- "Encaja para quien quiera costa cantábrica de carácter —Esteiro, playa de arcos de roca y surf; Portocelo a pocos minutos— a presupuesto contenido frente a villas de casco y acepte que el municipio no es villa completa. Un martes de noviembre los servicios son 3/10 en nuestra escala: el coche organiza compra, salud y ocio hacia Burela o Viveiro. Quien tenga una de esas villas como apoyo semanal y priorice orilla abierta, oleaje y parroquias quietas frente a casco amurallado encontrará aquí una escala dispersa entre costa y tierra adentro. El Hospital da Mariña queda a unos veinte minutos desde el núcleo —un trayecto más corto que desde O Vicedo—; el aeropuerto, entre noventa y cinco y ciento cinco minutos según destino y ruta.",
- "El clima es el de A Mariña: unas mil ochocientas cincuenta horas de sol y unos cuarenta días despejados frente a las dos mil ochocientas horas y ciento veinte jornadas claras de Mallorca; niebla alta, lluvia frecuente, verano fresco alrededor de dieciocho grados y medio. Son cifras orientativas de comarca, no de una estación local. En verano el agua de Esteiro suele moverse entre diecisiete y diecinueve grados, con más oleaje que Covas: playa de arcos y surf más que de baño calmado de ría. En verano Esteiro y Portocelo reciben surfistas, toallas y tráfico hacia la costa; hacia las parroquias el silencio vuelve antes. Encaja si has visto un invierno vacío fuera de la orilla y sigues queriendo esos arcos delante.",
- ],
- no: [
- "No encaja si se busca villa caminable con mercado, mesas en enero y vida densa todo el año. Xove no lo es: falta comercio grande y la semana pide coche. Viveiro y Ribadeo cubren ese perfil; Burela, el hospital comarcal en el propio municipio y la lonja. Tampoco si el hospital debe quedar a quince minutos o menos: veinte minutos a Burela es razonable para la comarca, pero no es sanidad a la vuelta de la esquina.",
- "Tampoco si la industria cercana pesa en la decisión de vivir. El complejo de San Ciprián se reparte entre Xove y Cervo y forma parte del municipio, no es un detalle lejano: desde 2026 es íntegramente de Alcoa, la fábrica de aluminio volvió a producir en abril de ese año y la refinería de alúmina sigue en cuestión por el coste de la energía, así que conviene seguir la actualidad del complejo antes de comprar. Y si se necesita el cielo de Baleares o un agosto silencioso junto a Esteiro, mejor mirar otra orilla: aquí el gris de invierno y la temporada de surf definen el año.",
- ],
- veredicto:
- "Veredicto: Xove es costa y parroquias, no villa completa. Buscaría vivienda con acceso claro y fibra comprobada (es parcial), lejos del tramo más ocupado de Esteiro en agosto, tras probar un martes de noviembre vacío y aceptar que Burela o Viveiro cubren muchos recados. Se ganan precio, arcos y Cantábrico; se aceptan coche, servicios 3/10, cielo gris y un complejo industrial en el término cuyo futuro conviene seguir de cerca.",
- },
- fotosAbrir: [
- { src: "/fotos/a-marina/xove-villa.jpg", pie: "Xove: núcleos entre costa y parroquias" },
- { src: "/fotos/a-marina/xove-playa.jpg", pie: "Esteiro, playa de arcos y surf" },
- ],
- fotosHistoria: [
- { src: "/fotos/a-marina/xove-portocelo.jpg", pie: "Portocelo, orilla de Xove" },
- { src: "/fotos/a-marina/xove-parroquia.jpg", pie: "Parroquia y escala dispersa en Xove" },
- ],
- fotosFuera: [
- { src: "/fotos/a-marina/xove-faro.jpg", pie: "Faro de Punta Roncadoira en la costa de Xove" },
- ],
- creditoFotos: credito,
- },
+    escala: "Costa y parroquias",
+    abrir: [
+      "Xove obliga a separar dos mapas. San Bartolomé concentra administración y varios servicios cotidianos, mientras la costa de Esteiro, Portocelo y Roncadoira queda en otro eje. Vivir en el núcleo no significa salir andando a la playa; vivir cerca de la orilla tampoco significa tener juntos todos los recados.",
+      "A esa dispersión se suma el complejo industrial de San Ciprián, repartido entre Xove y Cervo. En 2026 Alcoa asumió la propiedad íntegra del conjunto y reactivó la planta de aluminio; la situación de la refinería de alúmina seguía condicionada por el coste de la energía. Industria, parroquias y costa forman parte del mismo municipio."
+    ],
+    tiempo: [
+      "Frente a Mallorca, Xove cambia el uso de la casa: verano fresco, humedad, niebla y viento hacen más importantes el aislamiento, la ventilación y la orientación. Cerca de la costa conviene añadir exposición y salitre; en una parroquia interior, comprobar acceso y cuánto coche exige la rutina.",
+      "Esteiro muestra el Cantábrico más abierto, con arcos de roca y surf; Portocelo ofrece otra escala de orilla. Pero desde el núcleo principal el mar requiere desplazamiento: la costa es muy accesible en coche, no una playa urbana pegada a San Bartolomé."
+    ],
+    vivir: [
+      "San Bartolomé cambia bastante la imagen de un municipio supuestamente vacío de servicios. Allí se concentran administración, biblioteca y Centro Cívico, además de piscina y gimnasio. Eso permite construir parte de una mañana normal dentro del municipio, aunque para comercio más amplio y otras necesidades sigan pesando Viveiro y Burela.",
+      "La separación entre servicios y costa explica la dependencia del coche. Se puede tener una rutina local en el núcleo y, en otro momento, conducir hacia Esteiro o Portocelo. La Senda Costeira amplía ese mapa como salida deliberada; no debe confundirse con un paseo que empiece a pie desde cualquier vivienda.",
+      "El tren de ancho métrico forma parte de las comunicaciones, pero no conviene atribuirle una utilidad cotidiana que las fuentes no demuestran. Para hospital y aeropuerto también hay que salir del municipio. La autonomía es, por tanto, intermedia-baja: hay equipamientos propios, pero están insertos en una geografía dispersa.",
+      "El contexto industrial no desaparece fuera del horario de trabajo. Morás y Lago forman parte de esa realidad territorial y el complejo de San Ciprián es una presencia estructural. El relato no necesita atribuirle efectos que no están documentados: basta entender que costa e industria conviven aquí."
+    ],
+    historia: [
+      "Esteiro, con sus arcos de roca, y Punta Roncadoira dan a Xove su imagen de costa abierta. Portocelo añade una orilla más pequeña y abrigada. Son referencias de un municipio cuyo paisaje marítimo está repartido, no concentrado alrededor de una villa costera.",
+      "El complejo de San Ciprián aporta la otra capa contemporánea. Su peso industrial forma parte de la economía y del paisaje municipal; los hechos de 2026 explican su actualidad sin necesidad de convertir el relato en una previsión sobre su futuro."
+    ],
+    fuera: [
+      "Esteiro y Portocelo son salidas naturales cuando apetece mar. Desde San Bartolomé se llega en coche, y esa distancia práctica importa: Xove permite combinar equipamientos de núcleo y costa, pero no tenerlos todos a la puerta de casa.",
+      "Roncadoira y la Senda Costeira amplían la jornada cuando se quiere caminar más. Burela y Viveiro completan comercio, hospital y vida urbana; son apoyos próximos dentro de una rutina que ya parte de un municipio bastante disperso."
+    ],
+    casa: [
+      "En Xove la primera pregunta es dónde está exactamente la vivienda respecto a San Bartolomé, la costa y los accesos. Fibra, humedad, viento, orientación y facilidad para entrar y salir en invierno pueden importar más que una etiqueta genérica de 'casa cerca del mar'.",
+      "La capa 2026 no fija un precio municipal actual fiable, por lo que no conviene reconstruir una media a partir de referencias antiguas. La vivienda debe compararse por estado, accesibilidad, microzona y funcionamiento real de la rutina; el precio queda como n.d. allí donde la fuente no permite más."
+    ],
+    encaja: {
+      si: [
+        "Encaja si se acepta una vida repartida entre un núcleo de servicios y una costa a la que normalmente se llega en coche. San Bartolomé aporta equipamientos cotidianos; Esteiro, Portocelo y Roncadoira aportan un Cantábrico de carácter.",
+        "También encaja si la presencia industrial se entiende como parte del territorio y no se busca una villa histórica compacta. Xove combina vida local anual, parroquias, costa e industria de una forma difícil de reducir a una sola postal."
+      ],
+      no: [
+        "Encaja peor si se quiere tener playa, comercio amplio y todos los servicios dentro del mismo radio peatonal. La separación espacial es precisamente uno de los peajes del municipio.",
+        "Tampoco si la cercanía del complejo industrial resulta incompatible con la vivienda buscada o si se necesita una referencia de precio municipal robusta antes de explorar casas concretas: la capa actual mantiene ese dato como no disponible."
+      ],
+      veredicto:
+        "Xove es un municipio disperso donde San Bartolomé concentra una parte de la vida cotidiana y la costa exige cambiar de escenario. Ofrece equipamientos propios y un litoral potente, a cambio de bastante coche, fibra que debe comprobarse y la convivencia territorial con el complejo industrial de San Ciprián."
+    },
+    fotosAbrir: [
+      { src: "/fotos/a-marina/xove-villa.jpg", pie: "Xove: núcleos entre costa y parroquias" },
+      { src: "/fotos/a-marina/xove-playa.jpg", pie: "Esteiro, playa de arcos y surf" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/a-marina/xove-portocelo.jpg", pie: "Portocelo, orilla de Xove" },
+      { src: "/fotos/a-marina/xove-parroquia.jpg", pie: "Parroquia y escala dispersa en Xove" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/a-marina/xove-faro.jpg", pie: "Faro de Punta Roncadoira en la costa de Xove" },
+    ],
+    creditoFotos: credito,
+  },
 
   cervo: {
     escala: "Costa y cerámica",
     abrir: [
-      "Cervo vive en dos tiempos a la vez. Unos cuatro mil habitantes entre San Cibrao —península con puerto, Museo Provincial do Mar, playas de Cubelas y O Torno— y Sargadelos, la referencia de cerámica gallega junto a la ruta del río Xunco. Es costa e industria: el complejo de San Ciprián —el nombre con que se conoce la refinería de alúmina y la fábrica de aluminio de San Cibrao, repartidas entre Cervo y Xove— está aquí mismo, con el hospital cerca y un casco menos denso que Viveiro o Ribadeo. Quien busca aquí no busca muralla: busca península, oficio y la Real Fábrica como marca del municipio.",
-      "Un martes de noviembre los servicios son 4/10 en nuestra escala: lo básico en el municipio; Burela, a unos diez minutos, completa comercio y hospital. Quien vive en San Cibrao siente puerto y Cantábrico; quien mira hacia Sargadelos, piedra, cerámica y paseo. El Hospital da Mariña queda a unos diez minutos desde San Cibrao —de los trayectos más cortos de la comarca—. El aeropuerto anda entre noventa y ciento cinco minutos según destino y ruta. Fibra parcial: comprobar dirección.",
-      "En verano San Cibrao y las playas reciben veraneo con tráfico hacia Cubelas y O Torno. El calendario local anima la costa; no rivaliza con la Semana Santa de Viveiro en impacto sobre un casco histórico. Quien viva en la península notará agosto; hacia Sargadelos y el interior, el volumen baja antes.",
-      "Fuera de temporada Cervo recupera ritmo de costa trabajada e industria cercana. Primavera y otoño dejan el Paseo dos Namorados y la ruta del Xunco más quietos. Si solo conoces un sábado de sol en Cubelas, te llevas la imagen de folleto de la península. Si has visto niebla y lonja, ya puedes decidir si quieres ese conjunto.",
-      "Encaja sobre todo por San Cibrao y la cercanía al hospital, no por villa completa ni aeropuerto cercano.",
+      "Cervo se entiende mejor como un municipio de dos centros de gravedad. San Cibrao es la península marítima, con puerto, Museo Provincial do Mar y las playas de O Torno y Cubelas; Sargadelos lleva hacia la cerámica, la antigua fábrica y el río Xunco. Entre ambos aparece además la presencia industrial del complejo de San Ciprián.",
+      "Esa división importa para vivir. La experiencia de mar cotidiano corresponde sobre todo a San Cibrao, no a cualquier dirección de Cervo. Allí se puede combinar núcleo, puerto, paseo y playa; desde otras zonas aumenta la necesidad de coche y cambia por completo la relación con la costa."
     ],
     tiempo: [
-      "Cervo suma unas 1.880 horas de sol y unos 40 días despejados frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.050 milímetros en unos 146 días. Niebla alta; viento medio. El invierno es húmedo y gris; el verano también llovizna con frecuencia.",
-      "El verano ronda 18,5 °C, fresco frente a Baleares. Cubelas y O Torno tienen agua entre 17 y 19 °C; el Cantábrico abierto pide días de mar llana para un baño cómodo. Se gana frescura; se acepta cielo de Mariña. Conviene probar un frente de niebla, no solo un agosto claro en la península.",
+      "Frente a Mallorca, el cambio se nota en un verano fresco, más humedad, niebla y más días grises. En San Cibrao el salitre y el viento se suman a la revisión de orientación, aislamiento y ventilación; hacia el interior pesan más el acceso y cómo funciona la vivienda durante el invierno.",
+      "O Torno y Cubelas ofrecen una relación bastante directa con el Cantábrico desde San Cibrao. No todos los días invitan al mismo baño, pero playa, paseo y frente marítimo pueden formar parte de una tarde ordinaria sin convertirla en excursión."
     ],
     vivir: [
-      "El invierno en Cervo se nota en San Cibrao y hacia Sargadelos: humedad, niebla alta, viento medio y un cielo de unas 1.880 horas de sol frente a Mallorca. Conviene mirar aislamiento, salitre en la península y rastros de moho un día de niebla, no solo un agosto claro en Cubelas. La terraza o el balcón de verano se usan menos entre noviembre y febrero.",
-      "El día a día sin coche es incompleto: los servicios son 4/10 —lo básico en el municipio—; Burela, a unos diez minutos, completa comercio y hospital. Quien vive en San Cibrao siente puerto y Cantábrico; quien mira hacia Sargadelos, piedra, cerámica y paseo. En enero Cervo recupera ritmo de costa trabajada e industria cercana; no es villa amurallada densa. Quien viva en la península notará agosto en Cubelas y O Torno; hacia Sargadelos y el interior, el volumen baja antes.",
-      "Llegar de fuera busca península, oficio y la Real Fábrica, no muralla. Se oye gallego en San Cibrao y en Sargadelos; el castellano basta para lo cotidiano. Entre semana manda el coche hacia Burela para muchos recados; en verano la costa recibe veraneo. Quien mire Cervo solo por las playas debe sumar el complejo de San Ciprián —repartido entre Cervo y Xove—: en 2026 Alcoa asumió la propiedad íntegra, reinició el aluminio en abril y sigue señalando dudas de viabilidad en la refinería de alúmina por el coste energético.",
-      "La sanidad de urgencia y especialidades está cerca: el Hospital da Mariña queda a unos diez minutos —de los mejores tiempos de la zona—. Empadronarse aquí abre el médico de cabecera local; para el comarcal se conduce un trayecto corto a Burela. No es hospital a pie como en Burela, pero sí asumir una sanidad comarcal mucho más cercana que en O Vicedo o Ribadeo.",
-      "Mantener el vínculo con Mallorca pasa por un aeropuerto alrededor de los noventa o ciento cinco minutos —Asturias o Santiago—. En invierno el trayecto a menudo implica más logística. Conviene mirar el calendario real de vuelos del año, no solo el sol de la península en agosto.",
-      "Hay viviendas en San Cibrao, en el entorno de Sargadelos y en parroquias; poca obra nueva y fibra parcial. En la península hay que contar con salitre y ocupación de verano; hacia el interior, acceso y humedad. Conviene ver un día de viento y un noviembre, no solo el sol de la foto típica. En una casa con escaleras o parcela en desnivel hay que imaginar la rutina dentro de diez años; reforma y vistas al mar mueven el precio.",
+      "San Cibrao permite una rutina más autónoma que la imagen de un municipio disperso: pequeño núcleo marítimo, servicios, puerto y playas quedan próximos. Fuera de esa microzona la vida cambia y el coche gana peso, especialmente para comercio amplio y para conectar con Burela.",
+      "Una mañana libre puede seguir O Torno hacia A Atalaia y el faro, pasar por el puerto o entrar en el Museo Provincial do Mar. Otro día, Sargadelos y el paseo junto al Xunco cambian completamente de escenario. Son dos formas distintas de usar el mismo municipio.",
+      "El Hospital da Mariña queda fuera, en Burela, pero suficientemente próximo como para que la sanidad comarcal forme parte del mapa práctico de Cervo sin dominar cada apartado del relato. El tren de ancho métrico pasa por San Cibrao; su existencia no garantiza por sí sola que resuelva la rutina.",
+      "La industria es el peaje estructural que acompaña a esa costa. El complejo de San Ciprián, compartido con Xove y bajo propiedad íntegra de Alcoa desde 2026, forma parte del paisaje y de la actividad local. No hace falta atribuirle consecuencias no documentadas para entender que debe mirarse antes de escoger vivienda."
     ],
     historia: [
-      "Sargadelos es el hilo cultural del municipio: la Real Fábrica y la cerámica gallega de diseño reconocible, con la ruta del río Xunco y el Paseo dos Namorados. No es un adorno: es la marca que saca a Cervo del mapa solo industrial y explica visitas que no son solo de playa.",
-      "San Cibrao aporta puerto, Museo Provincial do Mar y la península habitada frente al Cantábrico: la ficha marinera y la de la costa vivida. El complejo de San Ciprián —refinería de alúmina y planta de aluminio, entre Cervo y Xove— explica empleo y tensión económica: Alcoa es propietaria íntegra desde 2026, el aluminio volvió en abril y la refinería sigue bajo dudas de viabilidad por la energía.",
+      "Sargadelos da a Cervo una identidad que no depende del mar: la Real Fábrica y la tradición cerámica se relacionan con el río Xunco y el Paseo dos Namorados. Es patrimonio industrial y cultural, además de una salida cercana.",
+      "San Cibrao aporta la otra historia visible, ligada al puerto y al Museo Provincial do Mar. La península habitada, las playas y la industria próxima hacen que oficio, costa y vida residencial aparezcan juntos."
     ],
     fuera: [
-      "Cubelas y O Torno son las playas de la península: arena, Cantábrico y aparcamiento justo en los días buenos de agosto. Un martes de junio la orilla se respira; un domingo de temporada, no.",
-      "El museo y el puerto de San Cibrao permiten una tarde sin salir lejos: oficio, dársena y el mar como trabajo. No hace falta convertir cada salida en excursión.",
-      "Sargadelos y la ruta del Xunco dan paseo y visita de cerámica. Burela cubre hospital a diez minutos; Viveiro, casco y Covas; Esteiro, en Xove, arcos y surf. Aquí la orilla de diario es la península; la villa densa, Burela o Viveiro.",
+      "En San Cibrao, O Torno y Cubelas son playas realmente integradas en la vida del núcleo. El paseo hacia A Atalaia y el faro permite seguir la costa sin necesitar el coche para empezar, algo que no debe extrapolarse al resto del municipio.",
+      "Sargadelos y el Xunco ofrecen una salida distinta; Burela completa comercio amplio y hospital; Xove y Viveiro amplían costa y villa. Cervo funciona mejor cuando se entiende esa red próxima que cuando se intenta imaginar como una única villa compacta."
     ],
     casa: [
-      "Hay viviendas en San Cibrao, en el entorno de Sargadelos y en parroquias; poca obra nueva y fibra parcial. En la península hay que contar con salitre y ocupación de verano; hacia el interior, acceso y humedad. Conviene ver un día de viento y un noviembre, no solo el sol de la foto típica.",
-      "Según Idealista (agosto de 2026), el precio medio ronda 1.210 €/m². Tres habitaciones en tipologías modestas quedan en franja asequible —alrededor de 142.000 euros, estimación a partir del €/m²—; reforma y vistas al mar mueven el precio.",
-      "Los servicios son 4/10. El Hospital da Mariña queda a unos diez minutos. Asturias anda alrededor de los noventa; Santiago, hacia los ciento cinco. Quien priorice sanidad cerca y Costa de San Cibrao lo entiende; quien busque casco amurallado, mira Viveiro.",
+      "En San Cibrao conviene valorar salitre, viento, ocupación de verano, accesibilidad y distancia real al paseo y a los servicios. En Sargadelos o en otras parroquias cambian las prioridades: acceso, humedad y cuánto coche exige cada recado.",
+      "La microzona importa especialmente porque 'vivir en Cervo' puede significar experiencias muy diferentes. Los precios y estimaciones quedan en la capa factual; el relato debe ayudar a distinguir península, interior y proximidad a la actividad industrial."
     ],
     encaja: {
       si: [
-        "Encaja para quien mande San Cibrao —la península con puerto, Museo Provincial do Mar y las playas de Cubelas y O Torno— y la cercanía al Hospital da Mariña a unos diez minutos, de los mejores tiempos de la zona. Un martes de noviembre los servicios son 4/10: lo básico en el municipio; Burela, a unos diez minutos, completa comercio y sanidad. Quien valore también Sargadelos —la Real Fábrica y la cerámica gallega de diseño reconocible, con la ruta del río Xunco y el Paseo dos Namorados— encontrará un municipio de costa e industria con precio contenido frente a Ribadeo o Viveiro, no un casco amurallado ni una frontera indiana. El aeropuerto anda alrededor de los noventa a ciento cinco minutos.",
-        "El clima sigue lejos de Mallorca: unas mil ochocientas ochenta horas de sol y unos cuarenta días despejados frente a las dos mil ochocientas horas y ciento veinte jornadas claras de la isla; niebla alta, verano fresco cerca de dieciocho grados y medio. Cubelas y O Torno tienen agua entre diecisiete y diecinueve grados; el Cantábrico abierto pide días de mar llana para un baño cómodo. En verano la península recibe veraneo con tráfico hacia las playas; hacia Sargadelos y el interior el volumen baja. Encaja quien acepte coche para muchos recados a cambio de no vivir tan lejos del comarcal como en O Vicedo o Ribadeo.",
+        "Encaja si atrae una vida marítima de pequeña escala en San Cibrao, con playa y paseo integrados, y se valora tener Burela y el hospital comarcal próximos. Sargadelos añade una dimensión cultural y de paseo que no depende de la temporada de playa.",
+        "También encaja si se acepta que Cervo no es una sola villa: costa, cerámica e industria ocupan lugares distintos y obligan a escoger la vivienda pensando en qué rutina se quiere tener."
       ],
       no: [
-        "No encaja si se busca casco amurallado, Semana Santa de interés internacional o villa de frontera completa. Viveiro y Ribadeo cubren ese carácter; Cervo ofrece península, cerámica e industria. Tampoco si el aeropuerto debe quedar a una hora: Asturias anda alrededor de los noventa minutos; Santiago, hacia los ciento cinco. Los servicios 4/10 no sustituyen un súper y un mercado densos a pie todos los días.",
-        "Tampoco si el complejo industrial de San Ciprián —propiedad íntegra de Alcoa desde 2026, aluminio reactivado en abril y refinería de alúmina aún en cuestión por el coste energético— molesta como vecina visual y económica. Aquí la industria forma parte del municipio, junto al Museo do Mar y las playas. Y si se necesita el cielo estable de Baleares o un agosto silencioso en Cubelas, mejor probar otro tramo: niebla, cubierto y temporada de costa definen el año.",
+        "Encaja peor si se busca un casco urbano grande con comercio amplio a pie desde cualquier microzona, o si se pretende que toda vivienda del municipio tenga la misma relación cotidiana con el mar que San Cibrao.",
+        "Tampoco si la presencia del complejo industrial cercano pesa demasiado en la elección. Forma parte del territorio junto a las playas y Sargadelos, y conviene verla como una realidad estructural, no como una nota al margen."
       ],
       veredicto:
-        "Veredicto: Cervo es costa, cerámica y hospital cerca. Buscaría vivienda en San Cibrao o cerca de Sargadelos, con fibra comprobada (es parcial), tras probar un agosto en la península y un día de niebla. Se ganan Cubelas, O Torno, Sargadelos y Burela a unos diez minutos; se aceptan servicios limitados, coche para el comercio grande, cielo de Mariña y el complejo de San Ciprián —Cervo/Xove, Alcoa 2026— en el horizonte.",
+        "Cervo combina dos experiencias claras: San Cibrao, donde puerto, paseo y playa pueden entrar en la rutina, y Sargadelos, ligado a la cerámica y al Xunco. La cercanía de Burela facilita servicios y hospital, mientras la dispersión y la presencia industrial hacen especialmente importante escoger bien la microzona."
     },
     fotoIdentidad: {
       src: "/fotos/a-marina/cervo-identidad.jpg",
@@ -420,49 +399,43 @@ export const RELATOS_A_MARINA: Record<string, RelatoMun> = {
   ribadeo: {
     escala: "Villa de frontera y As Catedrais",
     abrir: [
-      "Ribadeo se siente una de las villas más completas de A Mariña. Unos diez mil habitantes: casco indiano con la Torre dos Moreno, puerto, Illa Pancha —faro en un islote—, ría del Eo frente a Castropol —Asturias— y As Catedrais a unos diez minutos. La A-8 pasa cerca. Es una de las opciones de la comarca con mejor acceso al aeropuerto de Asturias —unos sesenta minutos según ruta— y villa caminable densa: mercado, comercio y mesas que no se apagan en enero.",
-      "Un martes de noviembre se resuelve comercio, mercado y centro de salud a pie. Quien vive aquí es gente de frontera —Galicia y Asturias a la vista— y de villa señorial costera. Los servicios alcanzan 7/10 y hay fibra. El Hospital da Mariña queda a unos treinta y cinco minutos; Jarrio, en Asturias, a unos treinta —conviene comprobar en el Sergas el hospital de referencia según empadronamiento—. El aeropuerto de Asturias está a unos sesenta minutos.",
-      "En verano As Catedrais, el paseo y la ría reciben afluencia, tráfico y aparcamiento justo. El veraneo anima el casco; no hay una Semana Santa de impacto internacional como en Viveiro, pero la temporada turística se nota en la orilla y en los accesos a los arcos. Vivir junto al recorrido hacia As Catedrais significa contar con semanas de volumen alto.",
-      "Fuera de agosto Ribadeo es villa de frontera con mesas abiertas, puerto y Castropol enfrente. Primavera y otoño dejan la ría más quieta y el casco indiano más fácil de disfrutar. Si solo conoces los arcos un sábado de sol, te llevas la imagen de folleto. Si has visto niebla y un día de afluencia, ya puedes decidir si aceptas la logística real.",
-      "Encaja para quien quiera la mejor logística de A Mariña sin salir del cielo gris lucense.",
+      "Ribadeo funciona primero como villa y después como destino. El casco indiano, el puerto y la ría del Eo forman el escenario cotidiano; al otro lado está Castropol y, cruzando el puente dos Santos, Asturias deja de ser una excursión para convertirse en parte del mapa mental. As Catedrais pertenecen a otro radio: son una salida, no la playa que aparece al bajar andando desde el centro.",
+      "Un martes de noviembre se puede resolver mucha vida dentro de la villa. Comercio, atención primaria, farmacias, biblioteca, piscina y gimnasio sostienen actividad durante todo el año. En verano aumenta la presión turística, sobre todo en los accesos a As Catedrais, pero Ribadeo no depende de esa temporada para funcionar."
     ],
     tiempo: [
-      "Ribadeo suma unas 1.950 horas de sol y unos 40 días despejados —el extremo algo menos duro de la zona— frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.000 milímetros en unos 140 días. La niebla es media aquí; el viento, medio. Mejora un poco el gris de O Vicedo, pero sigue lejos de Baleares.",
-      "El verano ronda 18,5 °C, fresco frente a Baleares. As Catedrais y Os Bloques tienen agua entre 17 y 19 °C; la ría del Eo ofrece orilla más recogida. Sigue lejos del Mediterráneo, pero el paseo compensa muchos días de baño corto. Conviene probar marea en los arcos y un noviembre, no solo el sol de agosto.",
+      "Frente a Mallorca, Ribadeo sigue siendo cantábrico: verano fresco, humedad y muchos más días grises, aunque la niebla pesa algo menos que en el extremo occidental de A Mariña. En una vivienda del casco o próxima a la ría conviene comprobar luz, ventilación y aislamiento durante tiempo húmedo, no solo en agosto.",
+      "La ría es el agua cotidiana de la villa. Puerto, miradores y paseo permiten vivirla sin coger el coche; para las playas atlánticas, incluida As Catedrais, hay que salir. Esa diferencia evita confundir tener mucha costa alrededor con tener una playa marítima urbana a la puerta."
     ],
     vivir: [
-      "El invierno en Ribadeo se nota en el piso del casco indiano o hacia la ría: humedad, niebla media —algo menos dura que en O Vicedo— y un cielo que sigue lejos de Mallorca. Conviene mirar aislamiento y rastros de moho un noviembre, no solo el sol de As Catedrais en agosto. La terraza que en verano parece el centro de la vida se usa menos entre noviembre y febrero; en el centro hay que contar con turismo de verano y humedad.",
-      "El día a día sin coche es de los más fáciles de A Mariña: un martes de noviembre se resuelve comercio, mercado y centro de salud a pie. Los servicios alcanzan 7/10 y hay fibra. En enero Ribadeo es villa de frontera con mesas abiertas, puerto y Castropol enfrente —no se apaga—. Quien viva junto al recorrido hacia As Catedrais debe contar con semanas de afluencia, tráfico y aparcamiento justo en verano.",
-      "Llegar de fuera es habitual: gente de frontera —Galicia y Asturias a la vista— y de villa señorial costera. Se oye gallego en el casco y en el mercado; el castellano basta para lo cotidiano. Entre semana manda la villa caminable; en verano As Catedrais, el paseo y la ría reciben temporada turística. Si solo buscas los arcos de un sábado de sol, te llevas la imagen de folleto. Si buscas vecinos todo el año, también —en escala de villa completa, no de bloque vacío de veraneo.",
-      "La sanidad de urgencia y especialidades no está a quince minutos: Jarrio, en Asturias, queda a unos treinta; el Hospital da Mariña, en Burela, a unos treinta y cinco —conviene comprobar en el Sergas el hospital de referencia según empadronamiento—. En Ribadeo hay centro de salud para lo diario. Empadronarse aquí abre el médico de cabecera local; para hospital comarcal gallego se conduce a Burela. No hay privado cerca (Lugo u Oviedo a más de una hora y cuarto). Quien mire Ribadeo solo por As Catedrais debe sumar ese trayecto sanitario con los ojos abiertos.",
-      "Mantener el vínculo con Mallorca pasa por el aeropuerto de Asturias, a unos sesenta minutos, —conviene comprobar la programación de vuelos a Palma—; Santiago-Lavacolla anda hacia los ciento veinte. Es una de las opciones con mejor acceso al aeropuerto de Asturias —unos sesenta minutos según ruta—. En invierno el trayecto a menudo implica más logística o ir a Santiago. Conviene mirar el calendario real de vuelos del año, no solo el de agosto en los arcos.",
-      "El casco ofrece pisos y viviendas indianas o reformadas; las afueras, más espacio. Hay poca obra nueva y fibra. En el centro hay que contar con turismo de verano y humedad; hacia As Catedrais, acceso y ocupación de temporada. Conviene probar un día de afluencia hacia los arcos antes de comprar esa calle. En un piso con escaleras o sin ascensor hay que imaginar la rutina dentro de diez años; la terraza útil es la que recibe sol de invierno, no solo la que mira la ría del Eo en foto.",
+      "La autonomía cotidiana es fuerte. El centro concentra comercio y servicios suficientes para que el coche no organice cada recado, y una mañana libre puede alternar calles del casco, biblioteca o deporte con el paseo hacia la ría y el puerto. Esa vida anual es una diferencia importante frente a municipios más dispersos de A Mariña.",
+      "La frontera se usa, no solo se contempla. La ría del Eo y el puente dos Santos conectan visual y prácticamente Galicia con Asturias; la A-8 refuerza esa posición. El tren de ancho métrico existe, aunque su utilidad concreta debe valorarse sin asumir que sustituye al coche para todos los desplazamientos.",
+      "La sanidad hospitalaria obliga a salir de la villa. La capa práctica sitúa el Hospital da Mariña en Burela y conserva Jarrio como referencia histórica próxima, por lo que no conviene simplificar la asignación sanitaria por la mera cercanía asturiana. La consecuencia para la vida diaria es que la atención primaria está en Ribadeo y el hospital requiere desplazamiento.",
+      "El aeropuerto de Asturias queda claramente mejor situado aquí que desde el oeste de A Mariña, aunque los vuelos directos a Palma son estacionales y la programación debe comprobarse. Es una ventaja logística real sin necesidad de repetir kilómetros y minutos en cada sección.",
+      "As Catedrais cambian el verano. Los arcos y la marea atraen mucha más afluencia que un día ordinario en la ría; vivir en un acceso afectado por ese movimiento exige haber probado la zona durante temporada alta, no solo haber visitado la playa una vez."
     ],
     historia: [
-      "El casco indiano —casas de quien volvió de América con fortuna— y la Torre dos Moreno explican Ribadeo como villa de prestigio costero, no solo como puerto. Illa Pancha añade faro y foto típica sobre el Cantábrico: piedra, islote y océano en la misma imagen.",
-      "La ría del Eo frente a Castropol y la Reserva de la Biosfera del Eo marcan la frontera Galicia-Asturias vivida, no decorada. As Catedrais son el gran magnetismo natural a diez minutos. Lo que conviene saber junta indianos, ría y acantilado.",
+      "El casco indiano explica una parte importante de la personalidad urbana. La Torre dos Moreno y las casas vinculadas a quienes regresaron de América hablan de una villa con historia comercial y de prestigio, no únicamente de un punto de paso hacia una playa famosa.",
+      "Illa Pancha, el puerto y la ría del Eo completan esa identidad de frontera marítima. La Reserva de la Biosfera del Eo da contexto al paisaje compartido con Asturias; As Catedrais añaden el gran imán natural, pero no sustituyen la vida de la villa."
     ],
     fuera: [
-      "As Catedrais son el paseo imprescindible: arcos, marea y costa abierta. Un martes de junio con marea buena se entiende el sitio; un domingo de agosto el aparcamiento y las sendas se llenan. Vivir cerca significa contar ese volumen.",
-      "Illa Pancha y el puerto completan la tarde sin alejarse: faro, dársena y casco a minutos. Os Bloques amplían orilla cuando apetece otra arena.",
-      "Castropol, enfrente, ofrece la orilla asturiana. Foz y Barreiros amplían playas; Burela cubre el hospital comarcal gallego. Aquí la orilla de diario puede ser ría o arcos; la sanidad a pie, no.",
+      "Para el día a día, el paseo villa–ría–puerto y los miradores permiten salir de casa y caminar junto al agua. Illa Pancha amplía esa relación costera. Os Bloques añade otra referencia de orilla, mientras las playas atlánticas quedan fuera del radio peatonal normal del centro.",
+      "As Catedrais son una salida deliberada: marea, arcos y mucha más presión de visitantes en fechas fuertes. Castropol ofrece al otro lado de la ría otra escala de villa; hacia el oeste, Barreiros y Foz amplían playas y paseo."
     ],
     casa: [
-      "El casco ofrece pisos y viviendas indianas o reformadas; las afueras, más espacio. Hay poca obra nueva y fibra. En el centro hay que contar con turismo de verano y humedad; hacia As Catedrais, acceso y ocupación de temporada. Conviene probar un día de afluencia hacia los arcos antes de comprar esa calle.",
-      "Según Idealista (agosto de 2026), el precio medio ronda 1.845 €/m², de los más altos de A Mariña. Tres habitaciones en franja asequible se estiman alrededor de 166.000 euros a partir de ese €/m² —estimación, no anuncio real—.",
-      "Los servicios son 7/10. Jarrio queda a unos treinta minutos; Burela, a unos treinta y cinco. El aeropuerto de Asturias está a unos sesenta, —conviene comprobar la programación de vuelos a Palma—; Santiago-Lavacolla, hacia los ciento veinte. Quien priorice villa completa y vuelo a una hora lo entiende; quien necesite hospital a quince minutos, mira Burela o Cervo.",
+      "En el casco pesan accesibilidad, ascensor o escaleras, estado de la reforma, humedad y luz. Cerca de la ría cambian vistas y exposición; en las salidas hacia la costa atlántica conviene comprobar cuánto tráfico estacional afecta realmente a la calle.",
+      "La vivienda debe elegirse pensando en la ventaja principal de Ribadeo —una villa bastante autónoma— sin pagar con una microzona que obligue a usar el coche para lo que se quería hacer andando. Precio y estimaciones quedan en la capa factual y en la tabla."
     ],
     encaja: {
       si: [
-        "Encaja para quien quiera una villa densa y caminable en A Mariña: casco indiano con la Torre dos Moreno, puerto, Illa Pancha —faro en un islote—, ría del Eo frente a Castropol —Asturias—, As Catedrais a unos diez minutos y la A-8 cerca. Un martes de noviembre se resuelve comercio, mercado y centro de salud a pie; los servicios alcanzan 7/10 y hay fibra. Es una de las opciones con mejor acceso al aeropuerto de Asturias —unos sesenta minutos según ruta; conviene comprobar la programación de vuelos a Palma— y villa caminable densa. Quien priorice logística, frontera y arcos de piedra frente a hospital a cinco minutos encontrará aquí uno de los accesos más cortos al aeropuerto de Asturias en la costa lucense sin salir del cielo de Mariña. Os Bloques completan orilla; la Reserva de la Biosfera del Eo marca el paisaje de frontera.",
-        "El clima mejora un poco el extremo oeste —unas mil novecientas cincuenta horas de sol, niebla media aquí frente a alta en O Vicedo— pero sigue lejos de Mallorca: unos cuarenta días despejados frente a ciento veinte; alrededor de mil milímetros en unos ciento cuarenta días. El verano ronda dieciocho grados y medio: se gana frescura frente al Mediterráneo y se acepta cielo cantábrico. As Catedrais y Os Bloques tienen agua entre diecisiete y diecinueve grados; la ría del Eo ofrece orilla más recogida. En verano arcos, paseo y ría reciben afluencia y aparcamiento justo; fuera de agosto Ribadeo es villa de frontera con mesas abiertas y Castropol enfrente. Encaja quien acepte ese gris a cambio de casco, ría y el mejor vuelo de la comarca.",
+        "Encaja si se valora una villa con actividad anual, bastante autonomía a pie y una relación cotidiana con la ría, además de una conexión sencilla con Asturias. Casco, comercio, servicios y paseo pueden formar parte de la misma rutina.",
+        "También encaja si As Catedrais se entienden como una salida extraordinaria y no como la definición completa del municipio. Ribadeo conserva vida propia cuando desaparece la afluencia de los arcos."
       ],
       no: [
-        "No encaja si el hospital gallego debe quedar a quince minutos o si se necesita privado en la comarca. Jarrio, en Asturias, queda a unos treinta minutos; el Hospital da Mariña, en Burela, a unos treinta y cinco —conviene comprobar en el Sergas el hospital de referencia según empadronamiento—. No hay privado cerca (Lugo u Oviedo a más de una hora y cuarto). Burela cubre sanidad a pie; Cervo, a unos diez minutos del comarcal. Quien mire Ribadeo solo por As Catedrais debe sumar ese trayecto sanitario con los ojos abiertos.",
-        "Tampoco si se busca el sol de Baleares: Ribadeo suaviza un poco el gris de O Vicedo, pero sigue lejos de Mallorca en despejados y calor de verano. Y si agosto hacia As Catedrais debe ser silencioso, mejor otra calle: la temporada turística se nota en la orilla y en los accesos a los arcos. El precio es el más alto de A Mariña —la referencia actual está en la capa factual y en Idealista del mes— y aún asequible frente a otras costas, pero no el metro de O Vicedo.",
+        "Encaja peor si el hospital debe estar en el propio municipio o si se quiere una playa atlántica de baño integrada a pie en la villa. La ría es cotidiana; el hospital y las playas abiertas están fuera de ese radio.",
+        "Tampoco si la presión turística de verano en los accesos a As Catedrais resulta incompatible con la vivienda elegida. La calle concreta importa mucho más que la fama general de la villa."
       ],
       veredicto:
-        "Veredicto: Ribadeo es la elección si A Mariña se mira en serio. Buscaría tres habitaciones en casco o cerca del paseo —franja asequible alrededor de ciento sesenta y cuatro mil euros—, fuera del atasco de coches hacia As Catedrais en agosto, tras probar niebla y un día de afluencia en los arcos. Se ganan villa completa, Illa Pancha, ría del Eo y Asturias a una hora; se aceptan hospital a media hora larga, clima cantábrico y el metro más alto de la zona.",
+        "Ribadeo combina una autonomía cotidiana fuerte con casco indiano, puerto y ría del Eo, y suma una conexión especialmente práctica con Asturias. Su peaje está en salir para hospital y playas atlánticas y en gestionar la presión estacional de As Catedrais; por eso conviene distinguir siempre la villa cotidiana del gran destino turístico cercano."
     },
     fotosAbrir: [
       { src: "/fotos/a-marina/ribadeo-catedrais.jpg", pie: "As Catedrais, a unos diez minutos de Ribadeo" },

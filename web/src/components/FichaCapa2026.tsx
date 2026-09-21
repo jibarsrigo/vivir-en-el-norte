@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import TablaPrecios from "@/components/TablaPrecios";
 import type { FichaMunicipio } from "@/lib/municipios";
 
 /** Texto útil: string no vacío tras trim; null/undefined/"" → ausente. */
@@ -75,15 +76,14 @@ function SeccionDetalles({
           </span>
         </span>
       </summary>
-      <div className="border-t border-[var(--linea)] px-4 pb-1 pt-0">{children}</div>
+      <div className="border-t border-[var(--linea)] px-4 pb-3 pt-0">{children}</div>
     </details>
   );
 }
 
 /**
- * Capa factual 2026 (CURSOR_13A): datos estructurados v15 entre mapa y relato.
- * No usa hospitalMin/comunicaciones/minCosta como equivalentes.
- * No muestra CASA/reventa ni mueve TablaPrecios.
+ * Capa factual 2026 (CURSOR_13A/13B): datos estructurados v15 entre mapa y relato.
+ * Incluye CASA + TablaPrecios. No usa históricos como equivalentes de la capa 2026.
  */
 export default function FichaCapa2026({ ficha }: { ficha: FichaMunicipio }) {
   const precio =
@@ -112,6 +112,11 @@ export default function FichaCapa2026({ ficha }: { ficha: FichaMunicipio }) {
   const aeropuerto = texto(ficha.aeropuertoPractico2026);
   const palma = texto(ficha.palmaDirecta2026);
 
+  const microzona = texto(ficha.microzonaPrecio);
+  const advertenciaMicro = texto(ficha.advertenciaMicrozona);
+  const casaQueBuscar = texto(ficha.casaQueBuscar);
+  const mercadoReventa = texto(ficha.mercadoReventa);
+
   const hayDiaADia = Boolean(
     radioCotidiano ||
       radioSalida ||
@@ -127,7 +132,7 @@ export default function FichaCapa2026({ ficha }: { ficha: FichaMunicipio }) {
 
   return (
     <section
-      className="mt-8 max-w-3xl"
+      className="mt-8 max-w-4xl"
       aria-labelledby="ficha-capa-2026-titulo"
     >
       <h2
@@ -211,6 +216,34 @@ export default function FichaCapa2026({ ficha }: { ficha: FichaMunicipio }) {
             {palma ? <Fila etiqueta="Enlace con Palma" cuerpo={palma} /> : null}
           </SeccionDetalles>
         ) : null}
+
+        <SeccionDetalles titulo="Casa">
+          <div className="pt-1">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.06em] text-[var(--tinta-suave)]">
+              Precio y bandas
+            </p>
+            <p className="mt-1 text-[13px] leading-snug text-[var(--tinta-suave)]">
+              Referencia municipal o de submercado; una vivienda concreta puede separarse de la
+              media.
+            </p>
+            <TablaPrecios filas={[ficha]} />
+          </div>
+          {microzona ? (
+            <Fila etiqueta="Microzona de precio" cuerpo={microzona} />
+          ) : null}
+          {advertenciaMicro ? (
+            <Fila etiqueta="Advertencia de microzona" cuerpo={advertenciaMicro} />
+          ) : null}
+          {casaQueBuscar ? (
+            <Fila
+              etiqueta="Qué conviene revisar en una vivienda"
+              cuerpo={casaQueBuscar}
+            />
+          ) : null}
+          {mercadoReventa ? (
+            <Fila etiqueta="Mercado y reventa" cuerpo={mercadoReventa} />
+          ) : null}
+        </SeccionDetalles>
       </div>
     </section>
   );

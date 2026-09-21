@@ -39,9 +39,7 @@ export default async function PaginaMunicipio({
       <h1 className="mt-2 font-[family-name:var(--font-serif)] text-4xl text-[var(--acento)]">
         {ficha.municipio}
       </h1>
-      <p className="mt-2 text-[var(--tinta-suave)]">
-        {ficha.provincia} · {ficha.minCosta} min al mar
-      </p>
+      <p className="mt-2 text-[var(--tinta-suave)]">{ficha.provincia}</p>
       <p className="mt-3">
         <Link
           href={`/compara/?con=${ficha.slug}`}

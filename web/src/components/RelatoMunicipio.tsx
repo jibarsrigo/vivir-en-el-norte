@@ -2,7 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 import Encaja from "@/components/Encaja";
 import Foto from "@/components/Foto";
-import TablaPrecios from "@/components/TablaPrecios";
 import TablaComparativaZona from "@/components/TablaComparativaZona";
 import EnlaceIdealista from "@/components/EnlaceIdealista";
 import { municipiosDeZonaFicha, type FichaMunicipio } from "@/lib/municipios";
@@ -500,7 +499,6 @@ export default function RelatoMunicipio({
 
       <h2 className="mt-10 font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">Casa</h2>
       <Parrafos textos={r.casa} />
-      <TablaPrecios filas={[ficha]} />
       <EnlaceIdealista ambito="municipio" slug={ficha.slug} nombre={ficha.municipio} />
 
       <Encaja si={r.encaja.si} no={r.encaja.no} veredicto={r.encaja.veredicto} />

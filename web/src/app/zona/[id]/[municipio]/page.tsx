@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import BloqueZonaFicha from "@/components/BloqueZonaFicha";
+import FichaCapa2026 from "@/components/FichaCapa2026";
 import MapaMunicipioFicha from "@/components/MapaMunicipioFicha";
 import RelatoMunicipio from "@/components/RelatoMunicipio";
 import { municipiosFicha, municipioPorSlug, zonaIdDeFicha } from "@/lib/municipios";
@@ -54,6 +55,8 @@ export default async function PaginaMunicipio({
 
       {/* Mapa arriba + pastilla de capas (= portada con todas las capas de mapa). */}
       <MapaMunicipioFicha ficha={ficha} capasPortada={Boolean(ficha.mapa)} />
+
+      <FichaCapa2026 ficha={ficha} />
 
       <RelatoMunicipio ficha={ficha} zonaId={z.id} />
     </main>

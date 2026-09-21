@@ -62,7 +62,9 @@
         "paseoCotidiano": "Playa/dunas/pinar Somo–Loredo; recorridos largos y llanos sobre arena/paseo según tramo.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "Somo/Loredo concentran la experiencia de playa; Galizano y otras localidades ofrecen otra vida.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Accesibilidad, exterior/terraza y distancia realmente caminable a núcleo y pa...",
+        "mercadoReventa": "Mercado intermedio con componente turístico/segunda residencia. La liquidez d..."
     },
     {
         "n": 69,
@@ -127,7 +129,9 @@
         "paseoCotidiano": "Ris/Trengandín y recorridos hacia marismas; terreno generalmente amable en el núcleo.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Accesibilidad, exterior/terraza y distancia realmente caminable a núcleo y pa...",
+        "mercadoReventa": "Mercado intermedio con componente turístico/segunda residencia. La liquidez d..."
     },
     {
         "n": 70,
@@ -192,7 +196,9 @@
         "paseoCotidiano": "Frente de bahía/puerto; Buciero es una salida con desnivel, no paseo llano diario.",
         "paseoPendienteTopografia": "Monte Buciero implica rutas con desnivel; separarlo del paseo urbano.",
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 71,
@@ -257,7 +263,9 @@
         "paseoCotidiano": "Paseo de La Salvé y frente marítimo, largo y prácticamente llano.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado relativamente amplio por demanda residencial permanente y servicios. ..."
     },
     {
         "n": 72,
@@ -322,6 +330,8 @@
         "paseoCotidiano": "Puerto, casco, Brazomar y frente marítimo.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado relativamente amplio por demanda residencial permanente y servicios. ..."
     }
 ]

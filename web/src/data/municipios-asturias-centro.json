@@ -62,7 +62,9 @@
         "paseoCotidiano": "Puerto y miradores, con escaleras y desnivel.",
         "paseoPendienteTopografia": "Muy alta relevancia de cuestas/escaleras.",
         "advertenciaMicrozona": "El anfiteatro portuario es muy pendiente; una vivienda 'cerca' en mapa puede exigir muchas escaleras.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Acceso con pocas escaleras, luz, aislamiento y conexión cómoda con servicios....",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 52,
@@ -127,7 +129,9 @@
         "paseoCotidiano": "San Esteban ofrece paseo portuario e industrial; los miradores y rutas costeras añaden desnivel.",
         "paseoPendienteTopografia": "Las rutas panorámicas no son equivalentes a paseo llano cotidiano.",
         "advertenciaMicrozona": "Muros y San Esteban de Pravia deben distinguirse.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado estrecho o de muestra limitada: la salida depende mucho del producto...."
     },
     {
         "n": 53,
@@ -192,7 +196,9 @@
         "paseoCotidiano": "Puerto y ribera en San Juan.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "Soto del Barco y San Juan de la Arena tienen funciones distintas.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 54,
@@ -257,7 +263,9 @@
         "paseoCotidiano": "Paseo de Salinas y sistema dunar de El Espartal.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "Salinas y Piedras Blancas no son intercambiables: playa/paseo frente a mayor concentración de servicios.",
-        "microzonaPrecio": "Salinas tiene prima residencial notable frente al conjunto de Castrillón/Piedras Blancas."
+        "microzonaPrecio": "Salinas tiene prima residencial notable frente al conjunto de Castrillón/Piedras Blancas.",
+        "casaQueBuscar": "Ascensor/sin barreras, exterior y acceso realmente caminable a playa/paseo y ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 55,
@@ -322,7 +330,9 @@
         "paseoCotidiano": "Puerto, playa y frente marítimo.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 56,
@@ -387,7 +397,9 @@
         "paseoCotidiano": "Puerto/frente marítimo y centro.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 57,
@@ -452,6 +464,8 @@
         "paseoCotidiano": "Muro de San Lorenzo–Cimavilla–Piles, ampliable por costa.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": "Centro, La Arena/San Lorenzo y otros barrios cambian precio, playa y aparcamiento."
+        "microzonaPrecio": "Centro, La Arena/San Lorenzo y otros barrios cambian precio, playa y aparcamiento.",
+        "casaQueBuscar": "Ascensor o acceso sin barreras, exterior, 2–3 dormitorios y servicios andando...",
+        "mercadoReventa": "Mercado relativamente amplio por demanda residencial permanente y servicios. ..."
     }
 ]

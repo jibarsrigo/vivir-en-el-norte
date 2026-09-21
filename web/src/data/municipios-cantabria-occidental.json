@@ -62,7 +62,9 @@
         "paseoCotidiano": "Ría, puentes y frente de la villa; playas como extensión más larga.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 64,
@@ -127,7 +129,9 @@
         "paseoCotidiano": "Centro histórico, parque y frente de playa/puerto; algunas calles tienen pendiente.",
         "paseoPendienteTopografia": "Pendientes moderadas entre partes del casco y costa; comprobar ubicación de vivienda.",
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Accesibilidad, exterior/terraza y distancia realmente caminable a núcleo y pa...",
+        "mercadoReventa": "Mercado intermedio con componente turístico/segunda residencia. La liquidez d..."
     },
     {
         "n": 65,
@@ -192,7 +196,9 @@
         "paseoCotidiano": "La Ribera–La Concha–zona del faro/Los Locos.",
         "paseoPendienteTopografia": "Desnivel estructural entre costa y núcleo alto.",
         "advertenciaMicrozona": "Pueblo alto y zona de La Ribera/La Concha no ofrecen la misma pendiente, playa ni vida andando.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Accesibilidad, exterior/terraza y distancia realmente caminable a núcleo y pa...",
+        "mercadoReventa": "Mercado intermedio con componente turístico/segunda residencia. La liquidez d..."
     },
     {
         "n": 66,
@@ -257,7 +263,9 @@
         "paseoCotidiano": "Paseos locales; Costa Quebrada/dunas son salida de naturaleza más que paseo urbano continuo.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "Liencres es una localidad dentro de Piélagos; los datos municipales no describen automáticamente su experiencia concreta.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "No comprar solo por vistas o €/m²: comprobar farmacia, compra, acceso, pendie...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 67,
@@ -322,6 +330,8 @@
         "paseoCotidiano": "Bahía/Puerto Chico–Magdalena–Sardinero según vivienda.",
         "paseoPendienteTopografia": "Ciudad con cuestas: la microzona condiciona mucho la comodidad peatonal.",
         "advertenciaMicrozona": null,
-        "microzonaPrecio": "Centro, Sardinero y barrios periféricos cambian precio, playa, pendiente y necesidad de coche."
+        "microzonaPrecio": "Centro, Sardinero y barrios periféricos cambian precio, playa, pendiente y necesidad de coche.",
+        "casaQueBuscar": "Ascensor o acceso sin barreras, exterior, 2–3 dormitorios y servicios andando...",
+        "mercadoReventa": "Mercado relativamente amplio por demanda residencial permanente y servicios. ..."
     }
 ]

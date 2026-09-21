@@ -62,7 +62,9 @@
         "paseoCotidiano": "Primer tramo del PR-G156 desde el puerto puede funcionar como paseo diario; ruta completa es salida.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado estrecho o de muestra limitada: la salida depende mucho del producto...."
     },
     {
         "n": 40,
@@ -127,7 +129,9 @@
         "paseoCotidiano": "Ría/casco o paseo de Covas según microzona.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "Casco/servicios, Covas y Celeiro son experiencias distintas.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 41,
@@ -192,7 +196,9 @@
         "paseoCotidiano": "Paseos locales; Senda Costeira es salida deliberada.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado estrecho o de muestra limitada: la salida depende mucho del producto...."
     },
     {
         "n": 42,
@@ -257,7 +263,9 @@
         "paseoCotidiano": "O Torno–A Atalaia/faro y frente de San Cibrao.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "La experiencia costera descrita corresponde sobre todo a San Cibrao, no al conjunto de Cervo.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 43,
@@ -322,7 +330,9 @@
         "paseoCotidiano": "Puerto y frente marítimo urbano.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado relativamente amplio por demanda residencial permanente y servicios. ..."
     },
     {
         "n": 44,
@@ -387,7 +397,9 @@
         "paseoCotidiano": "Rapadoira–Llas y frente marítimo.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 45,
@@ -452,7 +464,9 @@
         "paseoCotidiano": "Arealonga y tramos costeros si se reside cerca; de lo contrario requieren coche.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "Municipio disperso: comprobar núcleo y distancia real a compra/salud; no trasladar la costa a toda vivienda.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Distancia real a farmacia, compra y servicios; acceso fácil, aislamiento y ma...",
+        "mercadoReventa": "Mercado estrecho o de muestra limitada: la salida depende mucho del producto...."
     },
     {
         "n": 46,
@@ -517,6 +531,8 @@
         "paseoCotidiano": "Villa–ría–puerto y miradores.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado relativamente amplio por demanda residencial permanente y servicios. ..."
     }
 ]

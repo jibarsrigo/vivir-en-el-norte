@@ -62,7 +62,9 @@
         "paseoCotidiano": "Villa y entorno de ría; playa mediante desplazamiento.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "La villa interior y Rodiles/costa son experiencias distintas.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 59,
@@ -127,7 +129,9 @@
         "paseoCotidiano": "Villa o puerto de Lastres; costa/MUJA como salida.",
         "paseoPendienteTopografia": "Lastres tiene pendientes fuertes.",
         "advertenciaMicrozona": "Colunga villa y Lastres son dos experiencias distintas: servicios/interior frente a puerto, pendiente y turismo.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 60,
@@ -192,7 +196,9 @@
         "paseoCotidiano": "Ría, puente y paseo de Santa Marina.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Accesibilidad, exterior, servicios andando y relación real con ría/playa; com...",
+        "mercadoReventa": "Mercado intermedio con componente turístico/segunda residencia. La liquidez d..."
     },
     {
         "n": 61,
@@ -257,7 +263,9 @@
         "paseoCotidiano": "Paseo de San Pedro y ruta urbana/costera; itinerario oficial fácil ~7,6 km.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "Llanes villa, Celorio/Poo/Parres, Posada/Barro y Pría tienen precios, servicios y coche muy distintos.",
-        "microzonaPrecio": "Villa ~3239 €/m²; Celorio-Poo-Parres ~2294; Posada-Barro ~2247; Pría ~2100, referencias orientativas de auditoría."
+        "microzonaPrecio": "Villa ~3239 €/m²; Celorio-Poo-Parres ~2294; Posada-Barro ~2247; Pría ~2100, referencias orientativas de auditoría.",
+        "casaQueBuscar": "Ascensor o acceso cómodo, servicios y paseo realmente a pie, exterior y aparc...",
+        "mercadoReventa": "Mercado intermedio con componente turístico/segunda residencia. La liquidez d..."
     },
     {
         "n": 62,
@@ -322,6 +330,8 @@
         "paseoCotidiano": "Colombres y entorno indiano; costa mediante desplazamiento.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "Colombres concentra servicios/cultura; La Franca y costa son salida o microzona residencial distinta.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "No comprar solo por vistas o €/m²: comprobar farmacia, compra, acceso, pendie...",
+        "mercadoReventa": "Mercado estrecho o de muestra limitada: la salida depende mucho del producto...."
     }
 ]

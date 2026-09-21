@@ -62,7 +62,9 @@
         "paseoCotidiano": "Marginal del Cávado y recorridos del litoral/parque natural.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "Esposende ciudad, Ofir/Fão y Apúlia ofrecen relaciones distintas entre servicios, playa y estuario.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Accesibilidad, exterior/terraza y distancia realmente caminable a núcleo y pa...",
+        "mercadoReventa": "Mercado intermedio con componente turístico/segunda residencia. La liquidez d..."
     },
     {
         "n": 82,
@@ -127,7 +129,9 @@
         "paseoCotidiano": "Marginal marítima de varios kilómetros, llana y muy utilizable a diario.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Ascensor o acceso sin barreras, exterior, 2–3 dormitorios y servicios andando...",
+        "mercadoReventa": "Mercado relativamente amplio por demanda residencial permanente y servicios. ..."
     },
     {
         "n": 83,
@@ -192,6 +196,8 @@
         "paseoCotidiano": "Marginal llana, desembocadura y frente de playa; recorridos largos sin gran desnivel.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": "Núcleo urbano puede superar el promedio municipal; costa y parroquias interiores no son equivalentes."
+        "microzonaPrecio": "Núcleo urbano puede superar el promedio municipal; costa y parroquias interiores no son equivalentes.",
+        "casaQueBuscar": "Ascensor o acceso sin barreras, exterior, 2–3 dormitorios y servicios andando...",
+        "mercadoReventa": "Mercado relativamente amplio por demanda residencial permanente y servicios. ..."
     }
 ]

@@ -62,7 +62,9 @@
         "paseoCotidiano": "Monte Boi: circuito de unos 2 km alrededor de la península-fortaleza, con vistas a la ría y Cíes.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": "Centro/A Ribeira-Monterreal y zonas de playa tienen experiencia y precio distintos del conjunto municipal."
+        "microzonaPrecio": "Centro/A Ribeira-Monterreal y zonas de playa tienen experiencia y precio distintos del conjunto municipal.",
+        "casaQueBuscar": "Accesibilidad, exterior/terraza y distancia realmente caminable a núcleo y pa...",
+        "mercadoReventa": "Mercado intermedio con componente turístico/segunda residencia. La liquidez d..."
     },
     {
         "n": 7,
@@ -127,7 +129,9 @@
         "paseoCotidiano": "Paseo de Playa América/Panxón; Senda Azul como extensión larga.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "No trasladar la caminabilidad de Ramallosa o Panxón a todo Nigrán.",
-        "microzonaPrecio": "Panxón/Playa América, A Ramallosa y otras parroquias no son equivalentes."
+        "microzonaPrecio": "Panxón/Playa América, A Ramallosa y otras parroquias no son equivalentes.",
+        "casaQueBuscar": "Accesibilidad, exterior/terraza y distancia realmente caminable a núcleo y pa...",
+        "mercadoReventa": "Mercado intermedio con componente turístico/segunda residencia. La liquidez d..."
     },
     {
         "n": 8,
@@ -192,6 +196,8 @@
         "paseoCotidiano": "Paseos urbanos/ribera local; no vender como paseo marítimo.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     }
 ]

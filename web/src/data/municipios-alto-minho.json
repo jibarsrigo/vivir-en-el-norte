@@ -62,7 +62,9 @@
         "paseoCotidiano": "Fortaleza y ribera/ecopista del Miño; terreno relativamente amable en el núcleo.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 74,
@@ -127,7 +129,9 @@
         "paseoCotidiano": "Ecopista do Rio Minho: recorrido llano junto al río, adecuado para paseo cotidiano y bicicleta.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 75,
@@ -192,7 +196,9 @@
         "paseoCotidiano": "Frente del estuario, casco y ribera.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "Caminha villa, Moledo y Vila Praia de Âncora son experiencias distintas aunque compartan concelho.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Accesibilidad, exterior/terraza y distancia realmente caminable a núcleo y pa...",
+        "mercadoReventa": "Mercado intermedio con componente turístico/segunda residencia. La liquidez d..."
     },
     {
         "n": 76,
@@ -257,7 +263,9 @@
         "paseoCotidiano": "Frente de playa y costa; exposición a viento/oleaje forma parte de la experiencia.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "Moledo es una microzona costera de Caminha: no trasladar a ella automáticamente servicios/precio de todo el concelho.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Acceso cómodo, aislamiento frente a exposición atlántica y distancia real a c...",
+        "mercadoReventa": "Mercado estrecho o de muestra limitada: la salida depende mucho del producto...."
     },
     {
         "n": 77,
@@ -322,7 +330,9 @@
         "paseoCotidiano": "Marginal, puerto y playa; recorrido llano en la franja litoral.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Accesibilidad, exterior/terraza y distancia realmente caminable a núcleo y pa...",
+        "mercadoReventa": "Mercado intermedio con componente turístico/segunda residencia. La liquidez d..."
     },
     {
         "n": 78,
@@ -387,7 +397,9 @@
         "paseoCotidiano": "Caminos y costa según ubicación; no asumir una marginal urbana continua.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "Afife y Carreço son parroquias costeras dispersas; no son un único núcleo urbano ni equivalen a Viana ciudad.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "No comprar solo por vistas o €/m²: comprobar farmacia, compra, acceso, pendie...",
+        "mercadoReventa": "Mercado estrecho o de muestra limitada: la salida depende mucho del producto...."
     },
     {
         "n": 79,
@@ -452,7 +464,9 @@
         "paseoCotidiano": "Marginal del Lima, centro y ecovia; Cabedelo como extensión según vivienda/modo.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": "Centro histórico, Cabedelo y parroquias costeras no comparten la misma relación con playa, servicios ni precio."
+        "microzonaPrecio": "Centro histórico, Cabedelo y parroquias costeras no comparten la misma relación con playa, servicios ni precio.",
+        "casaQueBuscar": "Ascensor o acceso sin barreras, exterior, 2–3 dormitorios y servicios andando...",
+        "mercadoReventa": "Mercado relativamente amplio por demanda residencial permanente y servicios. ..."
     },
     {
         "n": 80,
@@ -517,6 +531,8 @@
         "paseoCotidiano": "Ecovia/ribera del Lima y puente histórico; paseo llano y extensible.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": "Centro de la villa puede cotizar por encima del promedio municipal; no mezclar sin explicación."
+        "microzonaPrecio": "Centro de la villa puede cotizar por encima del promedio municipal; no mezclar sin explicación.",
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     }
 ]

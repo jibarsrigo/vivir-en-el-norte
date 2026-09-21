@@ -62,7 +62,9 @@
         "paseoCotidiano": "Rutas rurales y del río da Chanca; no paseo marítimo urbano.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "Dena concentra más vida diaria que áreas de viñedo/aldea.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "No comprar solo por vistas o €/m²: comprobar farmacia, compra, acceso, pendie...",
+        "mercadoReventa": "Mercado estrecho o de muestra limitada: la salida depende mucho del producto...."
     },
     {
         "n": 22,
@@ -127,7 +129,9 @@
         "paseoCotidiano": "Fefiñáns–centro–frente marítimo; A Pastora añade subida y vistas.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 23,
@@ -192,7 +196,9 @@
         "paseoCotidiano": "O Xufre y paseo; O Bao hacia Carreirón por senda/carril bici.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 24,
@@ -257,7 +263,9 @@
         "paseoCotidiano": "Frente marítimo y pasarela hacia Ariño.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 25,
@@ -322,6 +330,8 @@
         "paseoCotidiano": "Frente marítimo hacia Carril, con paisaje de marisqueo y Cortegada.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado relativamente amplio por demanda residencial permanente y servicios. ..."
     }
 ]

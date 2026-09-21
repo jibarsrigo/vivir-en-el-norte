@@ -62,7 +62,9 @@
         "paseoCotidiano": "Puerto y frente de ría desde la villa.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "Villa de Cangas ≠ O Hío/Aldán/Costa da Vela.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado relativamente amplio por demanda residencial permanente y servicios. ..."
     },
     {
         "n": 14,
@@ -127,7 +129,9 @@
         "paseoCotidiano": "Paseo lineal junto a la ría.",
         "paseoPendienteTopografia": "El municipio gana pendiente al alejarse de la costa.",
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 15,
@@ -192,7 +196,9 @@
         "paseoCotidiano": "Puerto y frente marítimo del núcleo.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 16,
@@ -257,6 +263,8 @@
         "paseoCotidiano": "Frente portuario/urbano; playas como extensión mediante desplazamiento.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado relativamente amplio por demanda residencial permanente y servicios. ..."
     }
 ]

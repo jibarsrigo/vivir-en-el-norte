@@ -6,14 +6,16 @@ Oleadas:
   servicios   — servicios + autonomía cotidiana (CURSOR_06)
   logistica   — sanidad / aeropuerto-Palma / transporte 2026 (CURSOR_07)
   mar_paseos  — playa cotidiana / paseos / microzona (CURSOR_08)
+  casa_reventa — casaQueBuscar / mercadoReventa (CURSOR_09)
 
 Uso:
-  python scripts/sync_master_v15_to_web.py --wave precios|servicios|logistica|mar_paseos
+  python scripts/sync_master_v15_to_web.py --wave precios|servicios|logistica|mar_paseos|casa_reventa
   python scripts/sync_master_v15_to_web.py --check
 
 No escribe el XLSX. No toca CSV, relatos, zonas ni capas.
 No inventa minutos ni reduce textos 2026 a campos históricos.
 No rellena campos selectivos vacíos en v15.
+No deriva scores/predicciones de CASA/reventa.
 """
 
 from __future__ import annotations
@@ -116,10 +118,19 @@ MAR_PASEOS_SELECTIVE = (
 )
 MAR_PASEOS_JSON_KEYS = tuple(MAR_PASEOS_MAP.values())
 
+CASA_REVENTA_MAP = {
+    "casa_que_buscar": "casaQueBuscar",
+    "mercado_reventa": "mercadoReventa",
+}
+CASA_REVENTA_JSON_KEYS = tuple(CASA_REVENTA_MAP.values())
+
 # Regresión por oleada (no incluir las claves que la propia oleada escribe)
 REGRESSION_BEFORE_SERVICIOS = PRICE_KEYS
 REGRESSION_BEFORE_LOGISTICA = PRICE_KEYS + SERVICIOS_JSON_KEYS
 REGRESSION_BEFORE_MAR_PASEOS = PRICE_KEYS + SERVICIOS_JSON_KEYS + LOGISTICA_JSON_KEYS
+REGRESSION_BEFORE_CASA_REVENTA = (
+    PRICE_KEYS + SERVICIOS_JSON_KEYS + LOGISTICA_JSON_KEYS + MAR_PASEOS_JSON_KEYS
+)
 
 
 def _norm(s: object) -> str:
@@ -201,6 +212,7 @@ def load_master() -> list[dict]:
         *SERVICIOS_MAP.keys(),
         *LOGISTICA_MAP.keys(),
         *MAR_PASEOS_MAP.keys(),
+        *CASA_REVENTA_MAP.keys(),
     )
     for need in needed:
         if need not in col:
@@ -256,6 +268,11 @@ def load_master() -> list[dict]:
             if dst in MAR_PASEOS_UNIVERSAL and not text:
                 raise SystemExit(f"ABORT: n={n} {nombre}: {src} vacío en v15")
             row[dst] = text if text else None
+        for src, dst in CASA_REVENTA_MAP.items():
+            text = _norm(r[col[src]])
+            if not text:
+                raise SystemExit(f"ABORT: n={n} {nombre}: {src} vacío en v15")
+            row[dst] = text
         out.append(row)
 
     if len(out) != 83:
@@ -548,6 +565,37 @@ def verify_mar_paseos(master: list[dict], by_n: dict[int, dict]) -> None:
             raise SystemExit(f"ABORT QA: {k} no coincide fila a fila 83/83")
 
 
+def apply_casa_reventa(master: list[dict], files: dict[str, list[dict]]) -> dict:
+    by_master = {m["n"]: m for m in master}
+    touched: list[str] = []
+    examples: list[str] = []
+
+    for fname, rows in files.items():
+        file_changed = False
+        for row in rows:
+            m = by_master[int(row["n"])]
+            for key in CASA_REVENTA_JSON_KEYS:
+                if row.get(key) != m[key]:
+                    file_changed = True
+                    if len(examples) < 4 and key == "casaQueBuscar":
+                        examples.append(f"{m['municipio']}: casaQueBuscar (nuevo/actualizado)")
+                row[key] = m[key]
+        if file_changed:
+            touched.append(fname)
+
+    write_files(files)
+    return {"touched_files": touched, "examples": examples}
+
+
+def verify_casa_reventa(master: list[dict], by_n: dict[int, dict]) -> None:
+    print("--- CASA / REVENTA ---")
+    for k in CASA_REVENTA_JSON_KEYS:
+        ok = sum(1 for m in master if _norm(by_n[m["n"]].get(k)) == _norm(m[k]))
+        print(f"{k}: {ok}/83")
+        if ok != 83:
+            raise SystemExit(f"ABORT QA: {k} no coincide 83/83")
+
+
 def assert_no_regression(
     before_snapshot: dict[int, dict], by_n: dict[int, dict], keys: tuple[str, ...]
 ) -> None:
@@ -597,7 +645,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--wave",
-        choices=("precios", "servicios", "logistica", "mar_paseos"),
+        choices=("precios", "servicios", "logistica", "mar_paseos", "casa_reventa"),
         help="Oleada a aplicar (obligatoria si no es --check)",
     )
     parser.add_argument("--check", action="store_true", help="Solo verificar, no escribir")
@@ -605,7 +653,7 @@ def main() -> int:
 
     if not args.check and not args.wave:
         raise SystemExit(
-            "ABORT: indica --wave precios|servicios|logistica|mar_paseos o --check"
+            "ABORT: indica --wave precios|servicios|logistica|mar_paseos|casa_reventa o --check"
         )
 
     master = load_master()
@@ -653,6 +701,19 @@ def main() -> int:
             )
         else:
             verify_mar_paseos(master, by_n)
+
+        present_casa = sum(
+            1 for p in by_n.values() if all(k in p for k in CASA_REVENTA_JSON_KEYS)
+        )
+        if present_casa == 0:
+            print("--- CASA / REVENTA ---")
+            print("capa CASA/reventa aún no sincronizada (0/83)")
+        elif present_casa != 83:
+            raise SystemExit(
+                f"ABORT QA: cobertura parcial CASA/reventa ({present_casa}/83)"
+            )
+        else:
+            verify_casa_reventa(master, by_n)
 
         print("RESULTADO SYNC QA: OK")
         return 0
@@ -722,48 +783,77 @@ def main() -> int:
             print(f"  {src} → {dst}")
         return 0
 
-    # wave mar_paseos
+    if args.wave == "mar_paseos":
+        prev_snap = {
+            int(r["n"]): {k: r.get(k) for k in REGRESSION_BEFORE_MAR_PASEOS}
+            for rows in before.values()
+            for r in rows
+        }
+        stats = apply_mar_paseos(master, files)
+        by_n2, files2 = load_product()
+        assert_no_regression(prev_snap, by_n2, REGRESSION_BEFORE_MAR_PASEOS)
+        assert_authorized_only(
+            before,
+            files2,
+            allowed=set(MAR_PASEOS_JSON_KEYS),
+            allow_new=set(MAR_PASEOS_JSON_KEYS),
+        )
+
+        verify_precios(master, by_n2)
+        verify_servicios(master, by_n2)
+        verify_logistica(master, by_n2)
+        verify_mar_paseos(master, by_n2)
+        for rows in before.values():
+            for r in rows:
+                n = int(r["n"])
+                cur = by_n2[n]
+                for hk in ("minCosta", "minBano", "playaBano", "franja"):
+                    if cur.get(hk) != r.get(hk):
+                        raise SystemExit(
+                            f"ABORT: se alteró campo histórico mar {hk} en n={n}"
+                        )
+        print("RESULTADO SYNC QA: OK")
+        print("---")
+        print(f"JSON tocados: {len(stats['touched_files'])}")
+        for src, dst in MAR_PASEOS_MAP.items():
+            print(f"  {src} → {dst}")
+        print("cobertura (no-null en producto):")
+        for k, nfilled in stats["coverage"].items():
+            print(f"  {k}: {nfilled}/83")
+        print("mar-municipios.json: no modificado.")
+        return 0
+
+    # wave casa_reventa
     prev_snap = {
-        int(r["n"]): {k: r.get(k) for k in REGRESSION_BEFORE_MAR_PASEOS}
+        int(r["n"]): {k: r.get(k) for k in REGRESSION_BEFORE_CASA_REVENTA}
         for rows in before.values()
         for r in rows
     }
-    stats = apply_mar_paseos(master, files)
+    stats = apply_casa_reventa(master, files)
     by_n2, files2 = load_product()
-    assert_no_regression(prev_snap, by_n2, REGRESSION_BEFORE_MAR_PASEOS)
+    assert_no_regression(prev_snap, by_n2, REGRESSION_BEFORE_CASA_REVENTA)
     assert_authorized_only(
         before,
         files2,
-        allowed=set(MAR_PASEOS_JSON_KEYS),
-        allow_new=set(MAR_PASEOS_JSON_KEYS),
+        allowed=set(CASA_REVENTA_JSON_KEYS),
+        allow_new=set(CASA_REVENTA_JSON_KEYS),
     )
-
     verify_precios(master, by_n2)
     verify_servicios(master, by_n2)
     verify_logistica(master, by_n2)
     verify_mar_paseos(master, by_n2)
-    # históricos mar de ficha intactos (snapshot before)
-    for rows in before.values():
-        for r in rows:
-            n = int(r["n"])
-            cur = by_n2[n]
-            for hk in ("minCosta", "minBano", "playaBano", "franja"):
-                if cur.get(hk) != r.get(hk):
-                    raise SystemExit(f"ABORT: se alteró campo histórico mar {hk} en n={n}")
+    verify_casa_reventa(master, by_n2)
     print("RESULTADO SYNC QA: OK")
     print("---")
     print(f"JSON tocados: {len(stats['touched_files'])}")
-    print("mapeo v15 → JSON:")
-    for src, dst in MAR_PASEOS_MAP.items():
+    for src, dst in CASA_REVENTA_MAP.items():
         print(f"  {src} → {dst}")
-    print("cobertura (no-null en producto):")
-    for k, nfilled in stats["coverage"].items():
-        print(f"  {k}: {nfilled}/83")
+    for line in stats["examples"]:
+        print(f"  - {line}")
     print(
-        "UI: minCosta/minBano/playaBano históricos intactos; "
-        "capa 2026 solo estructurada (sin inventar equivalencias costa↔playa)."
+        "Semántica: textos literales v15; sin scores/rankings/predicciones; "
+        "sin inserción en relatos; UI de ficha pendiente."
     )
-    print("mar-municipios.json: no modificado.")
     return 0
 
 

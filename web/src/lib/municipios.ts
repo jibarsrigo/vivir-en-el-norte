@@ -65,6 +65,9 @@ export type FichaMunicipio = {
   paseoPendienteTopografia?: string | null;
   advertenciaMicrozona?: string | null;
   microzonaPrecio?: string | null;
+  /** Capa CASA/reventa 2026 (textos cualitativos literales; no scores). */
+  casaQueBuscar?: string;
+  mercadoReventa?: string;
   fibra: string;
   comunicaciones: string;
   comunicacionesNota10: number;

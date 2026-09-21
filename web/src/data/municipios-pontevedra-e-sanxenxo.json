@@ -62,7 +62,9 @@
         "paseoCotidiano": "Lérez, Illa do Covo y A Xunqueira enlazan paseos verdes con el centro.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Ascensor o acceso sin barreras, exterior, 2–3 dormitorios y servicios andando...",
+        "mercadoReventa": "Mercado relativamente amplio por demanda residencial permanente y servicios. ..."
     },
     {
         "n": 18,
@@ -127,7 +129,9 @@
         "paseoCotidiano": "Combarro: casco de piedra, soportales y hórreos junto a la ría; presión turística y acceso/parking condicionan el uso diario.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "San Salvador, Combarro, Campelo, Raxó y áreas dispersas ofrecen vidas distintas.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 19,
@@ -192,7 +196,9 @@
         "paseoCotidiano": "Ruta litoral Sanxenxo–Portonovo ~8–8,6 km: Panadeira, Silgar, Punta Vicaño, Baltar, Portonovo y Caneliñas.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": "Núcleo ~3846 €/m²; Adina-Portonovo ~2900 €/m²; municipal ~3351 €/m²."
+        "microzonaPrecio": "Núcleo ~3846 €/m²; Adina-Portonovo ~2900 €/m²; municipal ~3351 €/m².",
+        "casaQueBuscar": "Accesibilidad, terraza/aparcamiento y servicios utilizables todo el año. Comp...",
+        "mercadoReventa": "Mercado intermedio con componente turístico/segunda residencia. La liquidez d..."
     },
     {
         "n": 20,
@@ -257,6 +263,8 @@
         "paseoCotidiano": "Puerto/ría en villa; pasarela costera de Pedras Negras como salida o cotidiano si se reside allí.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "Villa de O Grove ≠ San Vicente/Pedras Negras.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Accesibilidad, exterior/terraza y distancia realmente caminable a núcleo y pa...",
+        "mercadoReventa": "Mercado intermedio con componente turístico/segunda residencia. La liquidez d..."
     }
 ]

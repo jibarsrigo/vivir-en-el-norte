@@ -62,7 +62,9 @@
         "paseoCotidiano": "Paseo da Ribeira hacia Praia da Torre; la circular oficial ~12 km es una salida más larga.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 27,
@@ -127,7 +129,9 @@
         "paseoCotidiano": "Paseo de Barraña con carril y equipamientos.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 28,
@@ -192,7 +196,9 @@
         "paseoCotidiano": "Frente marítimo y puerto desde el centro.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 29,
@@ -257,7 +263,9 @@
         "paseoCotidiano": "Senda litoral Malecón/lonja/puerto deportivo–Coroso–As Saíñas–Río Azor, ~3,7 km completa.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado relativamente amplio por demanda residencial permanente y servicios. ..."
     },
     {
         "n": 30,
@@ -322,7 +330,9 @@
         "paseoCotidiano": "Puerto/frente litoral en los núcleos; costa exterior como extensión.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "Porto do Son y Portosín tienen vida propia; viviendas aisladas junto a playas pueden cambiar totalmente la dependencia del coche.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 31,
@@ -387,6 +397,8 @@
         "paseoCotidiano": "Casco y frente de ría.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     }
 ]

@@ -62,7 +62,9 @@
         "paseoCotidiano": "Paseo marítimo de más de 13 km: Riazor/Orzán, Torre y costa norte.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": "Riazor, Monte Alto y Ciudad Vieja cambian playa, pendiente, servicios y precio; explicar por qué, no solo nombrarlas."
+        "microzonaPrecio": "Riazor, Monte Alto y Ciudad Vieja cambian playa, pendiente, servicios y precio; explicar por qué, no solo nombrarlas.",
+        "casaQueBuscar": "Ascensor o acceso sin barreras, exterior y servicios andando. Un piso barato ...",
+        "mercadoReventa": "Mercado relativamente amplio por demanda residencial permanente y servicios. ..."
     },
     {
         "n": 33,
@@ -127,7 +129,9 @@
         "paseoCotidiano": "Santa Cruz y su bahía; Bastiagueiro o Mera según vivienda.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "Santa Cruz, Bastiagueiro, Mera y Perillo no deben mezclarse.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 34,
@@ -192,7 +196,9 @@
         "paseoCotidiano": "Puerto y paseo marítimo.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 35,
@@ -257,7 +263,9 @@
         "paseoCotidiano": "Rutas locales según parroquia.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "Comprobar parroquia exacta y ruta real a compra, farmacia y salud.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "No comprar solo por vistas o €/m²: comprobar farmacia, compra, acceso, pendie...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 36,
@@ -322,7 +330,9 @@
         "paseoCotidiano": "Praia Grande y frente costero.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 37,
@@ -387,7 +397,9 @@
         "paseoCotidiano": "Frente marítimo y puerto desde el centro.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "La caminabilidad descrita corresponde a la villa, no a todo el municipio ni a viviendas exteriores.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 38,
@@ -452,6 +464,8 @@
         "paseoCotidiano": "Paseos urbanos/ría; Doniños añade ruta de laguna como salida.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Ascensor o acceso sin barreras, exterior, 2–3 dormitorios y servicios andando...",
+        "mercadoReventa": "Mercado relativamente amplio por demanda residencial permanente y servicios. ..."
     }
 ]

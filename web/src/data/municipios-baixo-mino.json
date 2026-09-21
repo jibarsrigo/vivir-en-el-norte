@@ -62,7 +62,9 @@
         "paseoCotidiano": "Puerto y frente litoral desde el núcleo.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 2,
@@ -127,7 +129,9 @@
         "paseoCotidiano": "Paseos costeros según parroquia; no asumir continuidad urbana.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "La experiencia cambia mucho por parroquia y distancia real a servicios.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "No comprar solo por vistas o €/m²: comprobar farmacia, compra, acceso, pendie...",
+        "mercadoReventa": "Mercado estrecho o de muestra limitada: la salida depende mucho del producto...."
     },
     {
         "n": 3,
@@ -192,7 +196,9 @@
         "paseoCotidiano": "Paseos rurales/fluviales; Folón-Picón es salida más que paseo llano diario.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 4,
@@ -257,7 +263,9 @@
         "paseoCotidiano": "Ribera del Miño en Goián y recorridos locales.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "No tratar Tomiño núcleo, Goián y parroquias como una única experiencia.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 5,
@@ -322,6 +330,8 @@
         "paseoCotidiano": "Casco histórico y Miño; considerar pendientes del casco.",
         "paseoPendienteTopografia": "Casco histórico con cuestas; radio peatonal depende de cota de vivienda.",
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado relativamente amplio por demanda residencial permanente y servicios. ..."
     }
 ]

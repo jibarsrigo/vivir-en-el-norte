@@ -62,7 +62,9 @@
         "paseoCotidiano": "Frente portuario/centro o paseo de Samil según vivienda.",
         "paseoPendienteTopografia": "Pendientes fuertes: distancia horizontal no equivale a caminabilidad.",
         "advertenciaMicrozona": null,
-        "microzonaPrecio": "Centro, Samil/Alcabre y laderas residenciales tienen precios y vida cotidiana muy distintos."
+        "microzonaPrecio": "Centro, Samil/Alcabre y laderas residenciales tienen precios y vida cotidiana muy distintos.",
+        "casaQueBuscar": "Ascensor o acceso sin barreras, exterior, 2–3 dormitorios y servicios andando...",
+        "mercadoReventa": "Mercado relativamente amplio por demanda residencial permanente y servicios. ..."
     },
     {
         "n": 10,
@@ -127,7 +129,9 @@
         "paseoCotidiano": "Villa/ría según microzona.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "Distinguir Redondela villa, Chapela y Cesantes.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 11,
@@ -192,7 +196,9 @@
         "paseoCotidiano": "Frente de ría/Arcade y recorridos locales.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "Arcade concentra mucha más vida cotidiana que áreas interiores.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 12,
@@ -257,6 +263,8 @@
         "paseoCotidiano": "Rutas locales según parroquia.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "No comprar solo por vistas o €/m²: comprobar farmacia, compra, acceso, pendie...",
+        "mercadoReventa": "Mercado estrecho o de muestra limitada: la salida depende mucho del producto...."
     }
 ]

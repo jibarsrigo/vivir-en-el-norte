@@ -62,7 +62,9 @@
         "paseoCotidiano": "Frente de la ría y puerto según núcleo.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": "Castropol villa y Figueras ofrecen experiencias distintas; no trasladar la vida de una a todo el concejo.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 48,
@@ -127,7 +129,9 @@
         "paseoCotidiano": "Puerto, faro, piscina de agua de mar y costa hacia Anguileiro.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Accesibilidad, exterior/terraza y distancia realmente caminable a núcleo y pa...",
+        "mercadoReventa": "Mercado intermedio con componente turístico/segunda residencia. La liquidez d..."
     },
     {
         "n": 49,
@@ -192,7 +196,9 @@
         "paseoCotidiano": "Ría y frente urbano.",
         "paseoPendienteTopografia": null,
         "advertenciaMicrozona": null,
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     },
     {
         "n": 50,
@@ -257,6 +263,8 @@
         "paseoCotidiano": "Puerto y zona baja; Atalaya/cementerio como extensión con subida.",
         "paseoPendienteTopografia": "Pendientes importantes: no equiparar distancia corta con paseo fácil.",
         "advertenciaMicrozona": "La topografía es estructural: puerto y zona baja, barrios altos y viviendas exteriores no tienen la misma caminabilidad.",
-        "microzonaPrecio": null
+        "microzonaPrecio": null,
+        "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+        "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
     }
 ]

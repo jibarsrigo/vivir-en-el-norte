@@ -52,20 +52,24 @@ export default function TablaComparativaZona({
         <thead className="border-b border-[var(--linea)] bg-[var(--papel)] text-[var(--tinta-suave)]">
           <tr>
             <th className="px-3 py-2 font-medium">Municipio</th>
-            <th className="px-3 py-2 font-medium tabular-nums" title="Minutos a la costa">
+            <th className="px-3 py-2 font-medium tabular-nums" title="Puntuación 1–10 de cercanía a la costa">
               Mar
             </th>
-            <th className="px-3 py-2 font-medium tabular-nums" title="Minutos a playa de baño">
+            <th className="px-3 py-2 font-medium tabular-nums" title="Puntuación 1–10 de cercanía a playa de baño">
               Baño
             </th>
-            <th className="px-3 py-2 font-medium tabular-nums">Servicios</th>
-            <th className="px-3 py-2 font-medium tabular-nums" title="Cercanía al hospital">
+            <th className="px-3 py-2 font-medium tabular-nums" title="Puntuación propia 1–10 de vida diaria">
+              Servicios
+            </th>
+            <th className="px-3 py-2 font-medium tabular-nums" title="Puntuación 1–10 de cercanía al hospital">
               Hospital
             </th>
-            <th className="px-3 py-2 font-medium tabular-nums" title="Precio del metro: más alto = más asequible">
+            <th className="px-3 py-2 font-medium tabular-nums" title="Puntuación relativa: más alto = €/m² más bajo en la zona">
               Precio
             </th>
-            <th className="px-3 py-2 font-medium tabular-nums">Conexiones</th>
+            <th className="px-3 py-2 font-medium tabular-nums" title="Puntuación propia 1–10 de carreteras, bus y tren">
+              Conexiones
+            </th>
           </tr>
         </thead>
         <tbody className="divide-y divide-[var(--linea)]">
@@ -112,29 +116,32 @@ export default function TablaComparativaZona({
       </table>
       <ul className="space-y-0.5 px-3 py-2 text-[0.7rem] leading-snug text-[var(--tinta-suave)]">
         <li>
-          <span className="font-medium text-[var(--tinta)]">Mar</span> = minutos en coche hasta
-          ver el mar (costa o estuario).
+          <span className="font-medium text-[var(--tinta)]">Mar</span> = puntuación 1–10 de
+          cercanía a ver el mar (costa o estuario): 10 ≈ a pie o a minutos; 1 ≈ media hora o más
+          en coche. No son minutos literales.
         </li>
         <li>
-          <span className="font-medium text-[var(--tinta)]">Baño</span> = minutos hasta una playa
-          donde se pueda nadar con comodidad, no solo mirar.
+          <span className="font-medium text-[var(--tinta)]">Baño</span> = puntuación 1–10 de
+          cercanía a una playa donde se pueda nadar con comodidad (misma escala que Mar).
         </li>
         <li>
-          <span className="font-medium text-[var(--tinta)]">Servicios</span> = tiendas, farmacia,
-          centro de salud, supermercado, colegio o instituto y demás vida diaria en el propio
-          municipio (sin contar el hospital).
+          <span className="font-medium text-[var(--tinta)]">Servicios</span> = puntuación propia
+          1–10 de vida diaria en el municipio (tiendas, farmacia, centro de salud, súper, colegio…),
+          sin contar el hospital. No es un índice oficial.
         </li>
         <li>
-          <span className="font-medium text-[var(--tinta)]">Hospital</span> = minutos al hospital
-          público más cercano.
+          <span className="font-medium text-[var(--tinta)]">Hospital</span> = puntuación 1–10 de
+          cercanía al hospital público de referencia (10 ≈ ≤20 min; 1 ≈ ≥50 min desde el núcleo
+          de referencia). Orientativa: depende del punto de salida y del tráfico.
         </li>
         <li>
-          <span className="font-medium text-[var(--tinta)]">Precio</span> = metro cuadrado más
-          asequible respecto a los pueblos de esta zona.
+          <span className="font-medium text-[var(--tinta)]">Precio</span> = puntuación relativa
+          1–10 dentro de esta zona (10 = €/m² más bajo de la tabla; 1 = más alto). No es el
+          precio en euros.
         </li>
         <li>
-          <span className="font-medium text-[var(--tinta)]">Conexiones</span> = carreteras, bus y
-          tren (si hay).
+          <span className="font-medium text-[var(--tinta)]">Conexiones</span> = puntuación propia
+          1–10 de carreteras, bus y tren (si hay).
         </li>
       </ul>
     </div>

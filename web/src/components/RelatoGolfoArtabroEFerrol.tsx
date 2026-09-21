@@ -37,18 +37,22 @@ export default function RelatoGolfoArtabroEFerrol({ zona }: { zona: Zona }) {
           Ferrol y en las playas urbanas de Riazor y Orzán.
         </P>
         <P>
-          A Coruña concentra unos doscientos cincuenta mil habitantes en una península compacta,
-          con la Torre de Hércules —faro romano declarado patrimonio de la humanidad— y un paseo
-          marítimo de unos trece kilómetros. Oleiros reparte urbanizaciones y playas a diez minutos
-          del centro; Sada aporta villa y puerto deportivo; Bergondo y Miño bajan la densidad hacia
-          parroquias y arenales de ría; Ares guarda Redes, aldea marinera de casas de colores;
-          Ferrol es ciudad naval de unos sesenta y cuatro mil habitantes.
+          A Coruña concentra alrededor de doscientos cincuenta mil habitantes en una península
+          compacta, con la Torre de Hércules —faro romano declarado patrimonio de la humanidad— y un
+          paseo marítimo de unos trece kilómetros. Oleiros reparte urbanizaciones y playas a diez
+          minutos del centro; Sada aporta villa y puerto deportivo; Bergondo y Miño bajan la densidad
+          hacia parroquias y arenales de ría; Ares guarda Redes, aldea marinera de casas de colores;
+          Ferrol es ciudad naval de alrededor de sesenta y cinco mil habitantes. Las dos cifras son
+          órdenes de magnitud recientes: conviene contrastarlas en el INE o el IGE antes de darlas
+          por buenas.
         </P>
         <P>
-          No hay una sierra que cierre el horizonte: el relieve es suave, de doscientos a cuatrocientos
-          metros. La referencia diaria es A Coruña para casi todo el arco este; Ferrol cubre Ares y
-          el norte. Santiago queda a unos cuarenta y cinco o setenta y cinco minutos según el pueblo.
-          Es la zona de urbanismo y logística más fuerte de las rías gallegas, con el cielo más gris.
+          El relieve es de altitud baja y media junto a la orilla —lomas y montes de unos cientos de
+          metros— y gana altura hacia el interior; no es igual en todo el arco. La referencia diaria
+          es A Coruña para casi todo el tramo este; Ferrol cubre Ares y el norte. Santiago queda a
+          unos cuarenta y cinco o setenta y cinco minutos según el pueblo y el tráfico. Es de las
+          zonas con más peso urbano y logístico de las rías gallegas, y también de las de cielo más
+          cubierto según los datos de la tabla.
         </P>
         <Foto
           src="/fotos/golfo-artabro-e-ferrol/zona-hercules.jpg"
@@ -60,7 +64,12 @@ export default function RelatoGolfoArtabroEFerrol({ zona }: { zona: Zona }) {
         <H2>El tiempo comparado con Baleares</H2>
         <P>
           Golfo Ártabro e Ferrol suma unas {zona.solHoras.toLocaleString("es-ES")} horas de sol y{" "}
-          {zona.despejados} días despejados al año. Mallorca ronda{" "}
+          {zona.despejados} días despejados al año, según las normales climáticas 1981-2010 de AEMET
+          en A Coruña: las horas de sol y los días despejados salen del observatorio del aeropuerto
+          de Alvedro, y la lluvia, del observatorio de la ciudad —son dos estaciones distintas—.
+          Sirven de referencia orientativa para todo el arco, no de medición de cada municipio: entre
+          la orilla abierta de Ferrol y el fondo de la ría de Betanzos hay variación local. Mallorca
+          ronda{" "}
           {mallorca.solHoras.toLocaleString("es-ES")} horas y {mallorca.despejados} jornadas
           claras. La diferencia se concentra en el cielo cubierto y la llovizna: de octubre a marzo
           llueve {zona.lluvia.oct_mar} días al mes y {zona.lluvia.peor} puede alcanzar{" "}
@@ -80,10 +89,12 @@ export default function RelatoGolfoArtabroEFerrol({ zona }: { zona: Zona }) {
           niebla, media en A Coruña, Bergondo, Ares y Ferrol.
         </P>
         <P>
-          En la ría de Betanzos —Gandarío, Sada, Pedrido— el agua llega aproximadamente a 18-20 °C
-          en verano, de las franjas más templadas de la tabla. En Riazor, Orzán, Doniños o San Xurxo
-          el Atlántico anda entre 16 y 18 °C, con más oleaje. Sigue lejos del Mediterráneo, pero la
-          ría permite baños cortos más cómodos que la costa abierta.
+          En la ría de Betanzos —Gandarío, Sada, Pedrido— el agua suele moverse en verano en un
+          rango orientativo de 18-20 °C; en Riazor, Orzán, Doniños o San Xurxo el Atlántico abierto
+          se queda habitualmente en torno a 16-18 °C, con más oleaje. Son franjas de temporada, no
+          rasgos fijos de cada playa: cambian con el año, la marea y el viento. Sigue lejos del
+          Mediterráneo, y en los días buenos la ría permite baños cortos más cómodos que la costa
+          abierta.
         </P>
         <p className="mt-4 max-w-2xl font-semibold text-[var(--calor)]">
           Verano suave: máximas habituales alrededor de 23 °C y muy pocas jornadas por encima de
@@ -126,7 +137,8 @@ export default function RelatoGolfoArtabroEFerrol({ zona }: { zona: Zona }) {
         <P>
           En Oleiros el baño de diario es de ría y costa suave: Santa Cristina con paseo, Mera y
           Espiñeiro junto al faro, Bastiagueiro con oleaje ligero. Sada ofrece playa urbana y Cirro;
-          Bergondo, Gandarío —arenal largo de ría con agua hacia 18-20 °C— y Pedrido. Miño aporta
+          Bergondo, Gandarío —arenal largo de ría, con agua que en verano suele moverse hacia
+          18-20 °C— y Pedrido. Miño aporta
           Praia Grande, de más de un kilómetro con dunas, y Perbes.
         </P>
         <P>
@@ -144,8 +156,9 @@ export default function RelatoGolfoArtabroEFerrol({ zona }: { zona: Zona }) {
           Oleiros, el Monumento Natural de Dexo-Serantes ofrece acantilados y una senda costera de
           unos diez kilómetros. Desde Miño, las Fragas do Eume —bosque atlántico y parque natural
           hacia Pontedeume— quedan a unos quince minutos. Bergondo aporta el pazo de Mariñán y el
-          monasterio; Ferrol, el castillo de San Felipe y Cabo Prior. No hay montaña de verdad: el
-          paisaje es de ría, paseo y costa.
+          monasterio; Ferrol, el castillo de San Felipe y Cabo Prior. La montaña queda tierra
+          adentro: junto a la orilla el paisaje es de ría, paseo y costa, con relieve de poca
+          altitud.
         </P>
         <Foto
           src="/fotos/golfo-artabro-e-ferrol/zona-gandario.jpg"
@@ -184,12 +197,16 @@ export default function RelatoGolfoArtabroEFerrol({ zona }: { zona: Zona }) {
       <section>
         <H2>Qué cuesta una casa</H2>
         <P>
-          A Coruña ronda 2.600 €/m² y Oleiros, 2.500: la franja cara de la zona. Sada baja a unos
-          2.100; Bergondo, a 1.700; Miño, a 1.600; Ares, a 1.500; Ferrol, a 1.200, el metro más
-          asequible del arco. En la franja asequible, dos habitaciones se sitúan aproximadamente en
-          211.000-220.000 euros en Oleiros y A Coruña, y unos 177.000 en Sada; tres habitaciones
-          rondan 246.000 en Sada, 199.000 en Bergondo, 187.000 en Miño, 176.000 en Ares y 140.000
-          en Ferrol.
+          Según el precio por metro cuadrado de Idealista de agosto de 2026, A Coruña ronda
+          3.239 €/m² y Oleiros, 2.605: la franja cara de la zona. Después vienen Ares con 1.841,
+          Miño con 1.775 y Sada con 1.714; Ferrol baja a 1.490 y Bergondo, a 1.484, los metros más
+          asequibles del arco. A partir de ese dato se pueden estimar precios de vivienda, no leerlos
+          de anuncios reales: en la franja asequible, dos habitaciones salen alrededor de 274.000
+          euros en A Coruña y 220.000 en Oleiros, y bajan hacia 156.000 en Ares, 150.000 en Miño,
+          145.000 en Sada y unos 126.000 en Ferrol y Bergondo. Con el mismo cálculo, tres
+          habitaciones van de unos 379.000 en A Coruña y 305.000 en Oleiros a unos 174.000 en Ferrol
+          y Bergondo. Son estimaciones derivadas del €/m², útiles para comparar municipios; el
+          anuncio concreto manda.
         </P>
         <P>
           La franja media cambia de forma: piso en ensanche o casco de A Coruña, chalé en urbanización
@@ -200,9 +217,10 @@ export default function RelatoGolfoArtabroEFerrol({ zona }: { zona: Zona }) {
         </P>
         <P>
           Hay obra nueva en A Coruña, Oleiros y Sada; poca en el resto. La fibra llega bien en las
-          ciudades y en Oleiros y Sada; es parcial en Bergondo, Miño y Ares. En costa abierta se
-          revisan salitre y viento; en ría, humedad y ocupación de agosto; en Ferrol, revalorización
-          y calle concreta.
+          ciudades y en Oleiros y Sada; en Bergondo, Miño y Ares la cobertura es parcial y conviene
+          comprobarla en la dirección concreta antes de comprar. En costa abierta se revisan salitre
+          y viento; en ría, humedad y ocupación de agosto; en Ferrol, la calle y el entorno comercial
+          concretos.
         </P>
         <TablaPrecios filas={municipiosGolfoArtabroEFerrol} />
         <EnlaceIdealista ambito="zona" zonaId={zona.id} nombre={zona.zona} />
@@ -211,25 +229,32 @@ export default function RelatoGolfoArtabroEFerrol({ zona }: { zona: Zona }) {
       <section>
         <H2>Servicios, hospital, aeropuerto</H2>
         <P>
-          A Coruña alcanza 10/10 en servicios: comercio, cultura, universidad y vida diaria completa.
-          Ferrol llega a 9/10 sobre el papel, con comercio en retroceso. Oleiros y Sada, a 7/10;
-          Bergondo, Miño y Ares, a 4/10 o 5/10 —lo básico; Betanzos y Pontedeume completan a cinco o
-          diez minutos—. Servicios significa vida diaria dentro del municipio, no la distancia al
-          hospital.
+          Las notas de servicios son criterio propio de esta web —una escala de 1 a 10, no un
+          indicador oficial— y miden vida diaria dentro del municipio, no la distancia al hospital.
+          Con ese criterio, A Coruña alcanza 10/10: comercio, cultura, universidad y vida diaria
+          completa. Ferrol llega a 9/10 sobre el papel, con comercio en retroceso. Oleiros y Sada, a
+          7/10; Bergondo, Miño y Ares, a 4/10 —lo básico; Betanzos y Pontedeume completan a cinco o
+          diez minutos—.
         </P>
         <P>
-          El CHUAC —Complejo Hospitalario Universitario de A Coruña, referencia del norte de Galicia—
-          queda a unos cinco minutos desde la ciudad, diez desde Oleiros, quince desde Sada y veinte
-          desde Bergondo y Miño. Los privados HM Modelo, Quirónsalud y San Rafael cubren 5-25
-          minutos. Ferrol y Ares dependen del Arquitecto Marcide (público) y del Juan Cardona
-          (privado), a 5-25. Es, junto a Vigo, de las mejores sanidades de la tabla.
+          El CHUAC —Complejo Hospitalario Universitario de A Coruña, hospital público de referencia
+          del norte de Galicia— queda a unos cinco minutos en coche desde el centro de la ciudad,
+          diez desde Oleiros, quince desde Sada y veinte desde Bergondo y Miño: son tiempos
+          aproximados desde el núcleo de referencia de cada municipio y cambian según el punto
+          exacto y el tráfico, así que no valen igual para todas las parroquias. Los privados HM
+          Modelo, Quirónsalud y San Rafael se mueven en una horquilla de 5 a 25 minutos. En Ferrol y
+          Ares la referencia es el Arquitecto Marcide (público) y el Juan Cardona (privado), también
+          en 5-25. Es de las zonas de la tabla con hospital público y privado más cerca.
         </P>
         <P>
           Alvedro —aeropuerto de A Coruña— queda a unos diez minutos desde la ciudad y Oleiros,
           quince desde Sada y Bergondo, treinta desde Miño y treinta y cinco o cuarenta y cinco desde
-          Ferrol y Ares: vuelo a Palma en verano. Santiago-Lavacolla ofrece enlace a Palma casi todo
-          el año y queda a unos cuarenta y cinco o setenta y cinco minutos según el municipio. La
-          ciudad de referencia para compras grandes es A Coruña; Ferrol cubre el norte.
+          Ferrol y Ares: tiempos aproximados desde el núcleo de referencia y según la ruta.
+          Santiago-Lavacolla, con más destinos, queda a unos cuarenta y cinco o setenta y cinco
+          minutos según el municipio. La conexión con Palma cambia por temporada y por compañía:
+          antes de contar con ella conviene comprobar la programación vigente en Aena o en las
+          aerolíneas. La ciudad de referencia para compras grandes es A Coruña; Ferrol cubre el
+          norte.
         </P>
         <Foto
           src="/fotos/golfo-artabro-e-ferrol/zona-doninos.jpg"
@@ -239,14 +264,14 @@ export default function RelatoGolfoArtabroEFerrol({ zona }: { zona: Zona }) {
 
       <Encaja
         si={[
-          "Se quiere urbanización ordenada con playa y A Coruña a diez o quince minutos —Oleiros o Sada—, o Praia Grande y golf en Costa Miño a precio más razonable. El verano es mucho más suave que en Mallorca y la sanidad del CHUAC o de Ferrol está cerca.",
-          "Se valora Alvedro para Palma en verano y Santiago-Lavacolla para el resto del año, con hospital de referencia a menos de media hora en casi todo el arco este. A Coruña da ciudad completa junto al mar; Ferrol, precio bajo y sanidad a pie.",
+          "Se quiere urbanización ordenada con playa y A Coruña a diez o quince minutos —Oleiros o Sada—, o Praia Grande y golf en Costa Miño a precio más razonable. El verano es mucho más suave que en Mallorca y el hospital público de referencia —CHUAC o Arquitecto Marcide— queda cerca.",
+          "Se valora tener Alvedro al lado y Santiago-Lavacolla, con más destinos, a menos de hora y cuarto, con hospital de referencia a menos de media hora en casi todo el arco este —comprobando cada temporada la programación real de vuelos a Palma—. A Coruña da ciudad completa junto al mar; Ferrol, precio bajo y hospital a pocos minutos.",
         ]}
         no={[
           `Se necesita el cielo de Baleares: Golfo Ártabro e Ferrol tiene ${zona.lluviaDias} días de lluvia y ${zona.despejados} despejados, frente a ${mallorca.lluviaDias} y ${mallorca.despejados} en Mallorca. El verano sigue trayendo llovizna algunos días; el invierno pide convivir con cielo gris y humedad.`,
-          "Se busca montaña detrás, mar templado en costa abierta y tres habitaciones en primera línea de Oleiros o A Coruña a precio medio. El relieve es suave; Riazor y Doniños están fríos; la tipología cara de la orilla urbana queda fuera de la franja habitual.",
+          "Se busca montaña detrás, mar templado en costa abierta y tres habitaciones en primera línea de Oleiros o A Coruña a precio medio. El relieve junto a la orilla se queda en altitudes bajas; el agua de Riazor y Doniños es fresca incluso en verano; la tipología cara de la orilla urbana queda fuera de la franja habitual.",
         ]}
-        veredicto="Veredicto de zona: Oleiros (Mera, Santa Cruz) es la elección si mandan urbanización limpia, playa y A Coruña a diez minutos; Sada equilibra villa, puerto y metro algo más amable; Costa Miño gana si pesan Praia Grande, golf y precio; Bergondo, jardín y calma a quince o veinte minutos; Ares, aldea de ría y Redes a cambio de coche; A Coruña, ciudad completa; Ferrol, solo si mandan precio y hospital a pie. Antes de elegir, probaría un noviembre de llovizna y la fiesta mayor de la calle concreta."
+        veredicto="Veredicto de zona: Oleiros (Mera, Santa Cruz) es la elección si mandan urbanización limpia, playa y A Coruña a diez minutos; Sada equilibra villa, puerto y metro algo más amable; Costa Miño gana si pesan Praia Grande, golf y precio; Bergondo, jardín y calma a quince o veinte minutos; Ares, aldea de ría y Redes a cambio de coche; A Coruña, ciudad completa; Ferrol, solo si mandan precio y hospital a pocos minutos. Antes de elegir, probaría un noviembre de llovizna y la fiesta mayor de la calle concreta."
       />
 
       <MunicipiosZonaFin

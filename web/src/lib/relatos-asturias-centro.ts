@@ -4,53 +4,45 @@ const credito = "Fotos: Wikimedia Commons (licencias indicadas en los archivos d
 
 export const RELATOS_ASTURIAS_CENTRO: Record<string, RelatoMun> = {
   cudillero: {
- escala: "Pueblo colgado sobre el puerto",
- abrir: [
-      "Cudillero reúne unos cinco mil habitantes en el concejo, en la costa occidental del área metropolitana asturiana. El pueblo que sale en las fotos típicas es un anfiteatro de casas colgadas sobre el puerto: calles en cuesta, tejados a distintas alturas y el Cantábrico abajo, siempre a la vista. Quien llega de día encuentra el casco lleno de visitantes; quien se queda a vivir descubre que esas mismas cuestas hay que contar con en la compra, en la vuelta con bolsas y en cualquier tarde de lluvia. Arriba, El Pito —llano, hacia Muros de Nalón— cambia la ecuación: el horizonte sigue cerca, pero la calle deja de ser un anfiteatro.",
- "Un martes de noviembre el puerto respira otra escala. Quedan el comercio turístico, lo básico del concejo y un ritmo que no es el de villa completa con súper y mesas a pie. Los servicios son 4/10: se compra lo imprescindible aquí y se organiza el resto hacia Avilés. El hospital público San Agustín, en Avilés, queda a unos veinticinco minutos; el aeropuerto de Asturias, en Santiago del Monte, anda alrededor de los quince, con vuelo a Palma en verano. El coche no es un lujo: es la forma de coser la semana entre el casco colgado, El Pito y la ciudad.",
- "En verano el pueblo colgado recibe afluencia de día, tráfico estrecho y aparcamiento justo. El impacto al vivir no viene de un calendario de fiestas aisladas tanto como de esa ocupación diaria del anfiteatro: conversaciones en la calle, coches buscando hueco y un sábado de agosto que no se parece a un martes gris. Quien compre en el casco debe probar un día de temporada alta; quien mire hacia El Pito debe bajar al puerto ese mismo día y decidir si quiere el paisaje cerca o la calle sin cuestas.",
- "Aguilar y Concha de Artedo —las playas de baño del concejo— quedan a unos cinco minutos; la playa del Silencio, en Castañeras, a unos quince, ya en acantilado más abierto. El Cabo Vidio cierra faro y senda hacia el oeste. La población mezcla vecinos del concejo, gente que trabaja hacia Avilés u Oviedo y quienes eligieron la costa por el horizonte. Cudillero encanta para visitar; para vivir encaja sobre todo arriba, con coche, usando el anfiteatro como paisaje cercano y no como calle diaria sin cuestas.",
- "Las estaciones marcan el sonido más que el mapa. En invierno la niebla media y la lluvia dejan el puerto casi vacío; en primavera vuelven los paseos hacia Vidio; en agosto el casco se llena de día y se vacía de otra manera al atardecer. Quien quiera esta costa debe conocerla en noviembre y en agosto antes de comprar.",
- ],
- tiempo: [
- "Frente a Baleares —y a Mallorca en particular—, Cudillero no compite por cielo despejado. Aquí hay unas 1.800 horas de sol y 42 días despejados al año, frente a las 2.800 horas y 120 jornadas claras de la isla. Caen alrededor de 1.150 milímetros en unos 148 días; la niebla es media y el viento, medio. También en verano llueve con frecuencia: el trato no es frío extremo, sino un cielo que se cierra más veces de las que un visitante de Baleares espera.",
- "El verano ronda 19 °C de media, con máximas habituales alrededor de 23 °C y apenas uno a tres días sobre 30 °C. Se gana frescura frente al calor mediterráneo y se acepta un julio que todavía moja. El agua anda entre 19 y 21 °C; Aguilar, Artedo y El Silencio piden días de mar más llana para un baño cómodo, pero el Cantábrico como vecino no espera al calendario de vacaciones.",
- ],
- vivir: [
- "El invierno en casa se nota en las cuestas y en la humedad del anfiteatro: niebla media, lluvia y un puerto que se queda casi vacío. En el casco colgado las bolsas, la vuelta a casa y cualquier tarde mojada pesan; en El Pito —llano, arriba— la ecuación cambia. Conviene preguntar por aislamiento y orientación, y visitar un noviembre húmedo, no solo un sábado de sol sobre el puerto.",
- "Sin coche la semana no se sostiene. Los servicios son 4/10: comercio turístico y lo básico; el súper y muchos gestos se organizan hacia Avilés. En enero el pueblo colgado respira otra escala —no es villa completa con mesas a pie—. Quien viva arriba, en El Pito, dependerá del vehículo para coser casco, playa y ciudad; quien compre abajo debe aceptar las cuestas como parte del día.",
- "Conviven vecinos del concejo, gente que trabaja hacia Avilés u Oviedo y quienes eligieron la costa por el horizonte. Se oye asturiano en el puerto y en el café; el castellano basta para lo cotidiano, pero la vida social cambia según la hora y la temporada: de día llegan visitantes; entre semana manda otra densidad. Quien busque solo veraneo encontrará ruido de agosto; quien busque vecinos todo el año, también —en otra escala que Mallorca—.",
- "La sanidad no está en el anfiteatro: el hospital público San Agustín, en Avilés, queda a unos veinticinco minutos; el privado Centro Médico de Asturias, en Oviedo, hacia los cuarenta y cinco. En el concejo hay lo básico; para urgencias y especialidades se baja a Avilés. Es costa con hospital cercano, no sanidad a la vuelta de la cuesta.",
- "Mantener el vínculo con Mallorca es el punto fuerte logístico: el aeropuerto de Asturias, en Santiago del Monte, anda alrededor de los quince minutos, con vuelo a Palma en verano. En invierno el trayecto sigue siendo corto, pero conviene mirar el calendario real de vuelos, no solo el de temporada alta.",
- "La vivienda en el pueblo colgado es tipología de encanto y cuesta —muchas pensadas más para el visitante que para una semana sin esfuerzo—, sin obra nueva y con fibra. En El Pito hay más llano y coche en la puerta. Hay que contar con humedad, ocupación de temporada y si se puede aparcar sin pelear el verano.",
- ],
- historia: [
- "El anfiteatro de casas sobre el puerto explica Cudillero mejor que cualquier leyenda: pueblo marinero de foto turística, nacido de la relación con el mar y de una orografía que obliga a subir y bajar. La belleza es el carácter —y también la razón del visitante de día—. No hay un casco residencial llano que absorba la vida cotidiana; hay cuestas, miradas al agua y un puerto que concentra el relato.",
- "Hacia el oeste, el Cabo Vidio —faro y senda sobre el Cantábrico abierto— sitúa el concejo en una costa de acantilado, no de bahía abrigada. Hacia arriba, la Quinta de Selgas, en El Pito —hacia Muros—, añade capa de patrimonio indiano a un paso del núcleo colgado: jardines, memoria de indianos y un paisaje llano que contrasta con el anfiteatro. Faro, quinta y puerto cuentan una lo que conviene saber de horizonte y oficio, no de ciudad.",
- "Lo que queda para quien llega a vivir es esa tensión: el pueblo fotografiado abajo y la vida más practicable arriba. Cudillero no inventa un centro comercial continuo; ofrece puerto, costa abierta y un vecindario que cambia según la hora y la temporada.",
- ],
- fuera: [
- "Aguilar y Concha de Artedo cubren la playa a unos cinco minutos del núcleo: orillas de uso diario cuando el mar lo permite, con agua entre 19 y 21 °C. No son calas de foto turística vacía en agosto; son la costa cercana del concejo, la que se usa entre semana cuando el casco colgado está más calmado.",
- "La playa del Silencio, en Castañeras, queda a unos quince minutos y es la orilla de acantilado más buscada de la zona: arena bajo pared de piedra, luz distinta y más afluencia los días claros. El Cabo Vidio ofrece faro, senda y tarde de costa abierta sin necesidad de llegar a Peñas.",
- "Hacia el este, Avilés y Salinas resuelven comercio, paseo residencial y hospital cuando el concejo no basta. Hacia el estuario, Muros de Nalón aporta los miradores sobre el Nalón. El tiempo libre aquí se reparte entre playa cercana, acantilado y ciudad a un trayecto corto —siempre con coche—.",
- ],
- casa: [
- "En el pueblo colgado predominan viviendas en cuesta, muchas pensadas más para el encanto que para una semana sin esfuerzo: turismo de día, acceso estrecho y sin obra nueva. La fibra llega. En El Pito hay más llano, más coche en la puerta y una lógica distinta de vivienda. Hay que contar con humedad, orientación, ocupación de temporada y si se puede aparcar sin pelear el verano.",
- "La referencia de precio actual está en la capa factual y en Idealista del mes; aquí no se fija una media municipal en prosa. 000 euros. Vistas al puerto o una reforma completa mueven la franja media; la compra real suele ser encanto y acceso, no calma residencial de villa-paseo.",
- "Los servicios son 4/10: comercio turístico y lo básico, sin la vida de una villa completa. San Agustín queda a unos veinticinco minutos; el privado Centro Médico de Asturias, en Oviedo, hacia los cuarenta y cinco. El aeropuerto de Asturias está a unos quince minutos, con Palma en verano. Quien se quede a vivir aquí asume horizonte y logística de costa, no autosuficiencia a pie.",
- ],
- encaja: {
- si: [
- "Encaja para quien quiera el Cantábrico delante casi todo el año —Aguilar y Concha de Artedo a unos cinco minutos; la playa del Silencio, en Castañeras, a unos quince; el Cabo Vidio con faro y senda como tarde de costa abierta— y acepte que el pueblo colgado es foto típica de día más que calle llana de diario. Un martes de noviembre los servicios son 4/10: comercio turístico y lo básico, sin la vida de una villa completa; el coche organiza la semana hacia El Pito —llano, arriba— o hacia Avilés. Quien priorice horizonte de puerto, casas en anfiteatro y aeropuerto a unos quince minutos (Asturias, con Palma en verano) frente a paseo residencial encontrará aquí la costa más fotografiada de Asturias Centro. El agua anda entre 19 y 21 °C; el baño pide días de mar más llana, pero el mar como vecino no pide calendario.",
- "El clima pide ojos abiertos si se viene de Mallorca: unas 1.800 horas de sol y 42 días despejados frente a las 2.800 horas y 120 jornadas claras de la isla; caen alrededor de 1.150 milímetros en unos 148 días, con niebla media y viento medio. El verano ronda 19 °C, con máximas habituales cerca de 23 °C y apenas uno a tres días sobre 30 °C: se gana frescura frente al calor mediterráneo y se acepta un cielo que también llueve en julio. En verano el casco recibe afluencia de día, tráfico estrecho y aparcamiento justo; arriba, en El Pito, la ecuación se vuelve más habitable. Encaja si has bajado al puerto un martes de noviembre y un sábado de agosto y siga queriendo esa costa —viviendo arriba, con coche, y usando el anfiteatro como paisaje cercano, no como calle sin cuestas—.",
- ],
- no: [
- "No encaja si se busca villa caminable y calmada todo el año, con súper, farmacia y mesas a pie sin pelear cuestas ni turistas de día. Cudillero es mejor visitarlo que tomarlo como marco diario en el casco colgado: las cuestas pesan, el visitante marca el verano y los servicios 4/10 no sustituyen Salinas ni Gijón. El hospital público San Agustín, en Avilés, queda a unos veinticinco minutos; el privado Centro Médico de Asturias, en Oviedo, hacia los cuarenta y cinco. Eso no se arregla eligiendo otra calle junto al puerto.",
- "Tampoco si el hospital debe quedar a diez minutos o si se necesita el cielo de Baleares. Aquí mandan cubierto (unos 165 días), niebla media y verano fresco; y pero la compra real es encanto y acceso, no calma residencial. Quien se decida solo tras un sábado de sol en el anfiteatro, sin probar un día de temporada alta ni un noviembre húmedo en El Pito, se llevará una sorpresa.",
- ],
- veredicto:
- "Veredicto: Cudillero es la foto típica de Asturias Centro, no la opción práctica. Buscaría vivienda en El Pito —llano, con coche— si el encanto de puerto, Aguilar y Vidio mandan, tras probar un agosto en el casco y un martes de noviembre arriba; si mandan servicios y calma, miraría Salinas o el estuario. Se ganan costa abierta y aeropuerto a quince minutos; se aceptan cuestas, turismo de día, servicios 4/10 y San Agustín a veinticinco.",
- },
+    escala: "Puerto en anfiteatro y concejo disperso",
+    abrir: [
+      "Cudillero tiene dos experiencias que conviene no mezclar. Abajo, el puerto y el anfiteatro de casas forman el núcleo más reconocible, pero también concentran cuestas, escaleras y movimiento turístico. Arriba, El Pito ofrece una relación más llana con la vivienda y cambia bastante la rutina.",
+      "La autonomía cotidiana es media-baja. El pequeño núcleo cubre lo básico, mientras una compra amplia y buena parte de los servicios empujan hacia Avilés. El coche cose puerto, vivienda, playas y ciudad de apoyo; vivir ‘cerca’ en el mapa no significa necesariamente moverse con facilidad a pie.",
+    ],
+    tiempo: [
+      "Frente a Mallorca, el cambio importante no es un frío extremo sino un clima mucho más húmedo, gris y fresco. En una casa del anfiteatro importan luz, ventilación y aislamiento; en noviembre las escaleras mojadas y la orientación pesan bastante más que en una visita de verano.",
+      "El Cantábrico está siempre próximo, pero las playas de baño no son una extensión peatonal generalizable del núcleo. Aguilar y Concha de Artedo son salidas cortas; la playa del Silencio y Cabo Vidio pertenecen ya a una tarde de costa.",
+    ],
+    vivir: [
+      "Una mañana normal puede empezar en el puerto y continuar por los miradores, sabiendo que aquí pasear implica desnivel. La compra básica se resuelve a pequeña escala; para ampliar recados y servicios aparece Avilés. El tren de ancho métrico y la carretera forman parte de las comunicaciones, sin convertir el concejo en una vida sin coche.",
+      "La diferencia entre agosto y noviembre es visible. El turismo ocupa mucho más el anfiteatro en temporada y fuera de ella baja la actividad. Antes de elegir una vivienda conviene probar tanto el acceso cotidiano con lluvia como el aparcamiento y el movimiento de un día fuerte de verano.",
+      "El hospital práctico está fuera, en San Agustín de Avilés, y el aeropuerto de Asturias queda relativamente próximo. La conexión aérea con Palma depende de programación y temporada; la ventaja estable es tener el aeropuerto cerca, no disponer de un vuelo concreto todo el año.",
+      "El Pito merece mirarse como microzona propia: permite evitar parte de la pendiente del puerto, aunque aumenta la lógica de desplazarse en coche. Esa elección entre anfiteatro y cota más cómoda cambia más la experiencia diaria que una descripción genérica de ‘vivir en Cudillero’.",
+    ],
+    historia: [
+      "El anfiteatro portuario resume la identidad de Cudillero: casas adaptadas a una ladera muy marcada y una relación histórica con el puerto. La misma topografía que produce su imagen más conocida es una condición física de la vida cotidiana.",
+      "El Pito añade otra capa, más llana y vinculada al patrimonio indiano, mientras Cabo Vidio abre el concejo hacia una costa de acantilado y faro. Son escenarios distintos dentro de un municipio que no funciona como una única villa compacta.",
+    ],
+    fuera: [
+      "Aguilar y Concha de Artedo son las referencias de baño, pero requieren salir del núcleo según la vivienda. La playa del Silencio y Cabo Vidio amplían el mapa cuando apetece una salida de costa abierta.",
+      "Avilés cumple la función práctica que Cudillero no intenta asumir: comercio amplio, hospital y mayor oferta urbana. Esa proximidad ayuda, pero no elimina la dependencia del coche ni las escaleras del núcleo portuario.",
+    ],
+    casa: [
+      "En el anfiteatro hay que mirar acceso real, número de escaleras, luz, aislamiento, humedad y posibilidad de aparcar. Una distancia corta sobre el plano puede ser incómoda a pie. En El Pito cambian la pendiente y el acceso, pero también la relación inmediata con el puerto.",
+      "La vivienda debe probarse en invierno y en temporada alta. Precio y estimaciones quedan en la capa factual; en el relato importa distinguir una casa atractiva para visitar de otra que funcione bien cada día.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si el puerto y la costa pesan mucho y se acepta que la vida práctica combine un núcleo pequeño con coche y apoyo de Avilés. La recompensa es una relación muy directa con un paisaje portuario singular.",
+        "También si se está dispuesto a elegir microzona por accesibilidad y no solo por vistas: El Pito y el anfiteatro pueden producir rutinas completamente distintas.",
+      ],
+      no: [
+        "Encaja peor si se necesita una semana muy autónoma a pie, una topografía sencilla o playa de baño integrada en cualquier vivienda del núcleo.",
+        "Tampoco si el movimiento turístico del verano o una casa con muchas escaleras se convierten en un problema cotidiano.",
+      ],
+      veredicto:
+        "Cudillero ofrece un puerto extraordinariamente reconocible a cambio de una topografía exigente y autonomía limitada. La decisión se juega en la microzona: anfiteatro si se aceptan cuestas y actividad turística; cotas más cómodas como El Pito si se prioriza acceso, siempre con Avilés y el coche formando parte de la semana."
+    },
  fotoIdentidad: {
  src: "/fotos/asturias-centro/cudillero-identidad.jpg",
  pie: "Cudillero: casas de colores subiendo la ladera desde la lonja — pueblo colgado sobre el puerto",
@@ -68,56 +60,48 @@ export const RELATOS_ASTURIAS_CENTRO: Record<string, RelatoMun> = {
  { src: "/fotos/asturias-centro/cudillero-cuesta.jpg", pie: "Calles en cuesta de Cudillero" },
  ],
  creditoFotos: credito,
- },
+  },
 
   "muros-de-nalon": {
- escala: "Estuario y miradores",
- abrir: [
- "Muros de Nalón reúne unos mil ochocientos habitantes en la orilla oeste de la desembocadura del Nalón, el gran río que llega al Cantábrico entre este concejo y Soto del Barco. No es villa de paseo comercial denso ni pueblo colgado de foto turística: es estuario, horizonte y la Ruta de los Miradores —siete miradores sobre la desembocadura— como paseo de diario. La playa de Aguilar queda a unos cinco minutos; el precio es de los más bajos de Asturias Centro. Quien busca ruido de terrazas encontrará poco; quien busca silencio sobre el agua encontrará el tono del lugar.",
- "Un martes de noviembre los servicios son 3/10: lo básico en el municipio; Avilés o Pravia cubren el comercio grande. San Agustín, el hospital público de Avilés, queda a unos veinte minutos. El aeropuerto de Asturias está a unos diez —de los mejores tiempos de la zona—, con Palma en verano. La dependencia del coche es alta: el estuario se camina en tramos, pero la semana completa se cose con el vehículo.",
- "En verano Aguilar y los miradores reciben paseo y algo de afluencia; el ritmo sigue siendo de estuario, no de Cudillero lleno de día. Las patronales locales animan el pueblo unos días —ruido, coches, mesas ocupadas— y después vuelve la calma de ría. Fuera de esos picos, Muros se siente como retiro de orilla: niebla media sobre el Nalón, humedad de desembocadura y vecinos que conocen el silencio de noviembre.",
- "La población es pequeña y el día a día no pretende autosuficiencia. Hay quien trabaja hacia Avilés, quien eligió el precio y el aeropuerto cercano, y quien prioriza mirar el estuario antes que resolver la compra a pie. La Quinta de Selgas, en El Pito —hacia Cudillero—, queda a un paso y añade una tarde de patrimonio indiano sin abandonar la lógica de concejo tranquilo.",
- "Muros encaja para quien quiera silencio sobre el Nalón, aeropuerto a diez minutos y poco dinero, aceptando servicios 3/10, fibra parcial y la dependencia del coche como parte del trato —no como detalle menor—.",
- ],
- tiempo: [
- "Muros comparte el cielo cantábrico central, lejos del de Mallorca: unas 1.800 horas de sol y 42 días despejados frente a las 2.800 horas y 120 jornadas claras de la isla. Caen alrededor de 1.100 milímetros en unos 148 días. La niebla es media; el viento, medio. El invierno no congela la calle, pero sí multiplica las mañanas grises sobre el estuario.",
- "El verano ronda 19 °C, fresco frente a Baleares: se gana frescura y se acepta cielo cubierto frecuente. Aguilar tiene agua entre 19 y 21 °C; el estuario ofrece orilla más calmada que el Cantábrico abierto hacia Cudillero, aunque el baño siga pidiendo días de mar más llana.",
- ],
- vivir: [
- "El invierno en casa se nota por la humedad de desembocadura y la niebla media sobre el Nalón: paredes, armarios y orientación hacia el estuario importan más que la foto típica de los miradores. Una terraza de agosto no garantiza uso de noviembre. Visitar un martes vacío enseña el precio real del silencio.",
- "Sin coche apenas se resuelve la semana. Los servicios son 3/10: lo básico en el municipio; Avilés o Pravia cubren el comercio grande. En enero Muros es retiro de orilla, no villa con mesas. Los miradores se caminan sin volante; el resto —compra, hospital, gestos— pide vehículo casi cada día.",
- "La población es pequeña: hay quien trabaja hacia Avilés, quien eligió el precio y el aeropuerto cercano, y quien prioriza mirar el estuario. Se oye asturiano y castellano; el castellano basta para lo cotidiano, pero la vida social es de concejo tranquilo, no de plaza donde todo el mundo se ve. Entre semana manda el silencio; en verano Aguilar y los miradores reciben paseo y algo de afluencia.",
- "La sanidad pide trayecto: San Agustín, el hospital público de Avilés, queda a unos veinte minutos; el privado Centro Médico de Asturias, en Oviedo, hacia los cuarenta. Empadronarse aquí abre lo básico; para especialidades se baja a Avilés. No es hospital a la puerta del mirador.",
- "Ir y volver a Mallorca es de los trayectos más cortos de la zona: el aeropuerto de Asturias está a unos diez minutos, con Palma en verano. En invierno el aeropuerto sigue cerca, pero conviene mirar el calendario real de vuelos a Palma, no solo el de agosto.",
- "La vivienda típica es casa o piso de concejo pequeño hacia el estuario y las parroquias, sin obra nueva. La fibra es parcial —conviene comprobar casa por casa—. Se compra silencio y cercanía al aeropuerto; hay que contar con humedad de ría, acceso y la distancia real a un súper completo.",
- ],
- historia: [
- "La desembocadura del Nalón y la Ruta de los Miradores explican Muros: concejo de estuario y horizonte, no de casco monumental. Los siete miradores no son adorno turístico aislado; son el dato útil del día a día —paseo, luz sobre el río, frontera visual con Soto al otro lado—.",
- "La Quinta de Selgas, en El Pito, añade patrimonio indiano a un paso: memoria de indianos y jardines cerca de la desembocadura. La historia aquí es de río, mirador y orilla compartida, no de ciudad ni de anfiteatro de puerto.",
- "Vivir en Muros es aceptar esa escala: poca densidad, mucha humedad de ría y un paisaje que se entiende mejor caminando los miradores un martes vacío que leyendo una guía de un sábado soleado.",
- ],
- fuera: [
- "Los miradores sobre el Nalón son el paseo de diario: siete puntos de vista sobre la desembocadura, con el estuario cambiando de color según la marea y la niebla. Es el tiempo libre que no pide coche ni calendario.",
- "Aguilar cubre playa a unos cinco minutos —agua entre 19 y 21 °C—, la misma orilla que usa también quien mira hacia Cudillero, pero aquí llega desde un concejo más silencioso. El estuario ofrece orilla calmada frente al Cantábrico bravo de Peñas.",
- "Al otro lado del Nalón, Soto del Barco aporta San Juan de la Arena y Los Quebrantos. Avilés, a unos quince minutos, resuelve comercio, cultura y hospital cuando el municipio no basta. El mapa de ocio es estuario, playa cercana y ciudad corta —no villa-paseo residencial—.",
- ],
- casa: [
- "Predominan viviendas hacia el estuario y las parroquias: casas y pisos de concejo pequeño, sin obra nueva. La fibra es parcial —conviene comprobar casa por casa—. Hay que contar con humedad de ría, acceso, orientación hacia el Nalón y la distancia real a un súper completo.",
- "No hay una media municipal homogénea actual en la que anclarse: conviene mirar Idealista del mes y la vivienda concreta. Se compra silencio y cercanía al aeropuerto; no se compra autosuficiencia de villa.",
- "Los servicios son 3/10. San Agustín queda a unos veinte minutos; el privado Centro Médico de Asturias, en Oviedo, hacia los cuarenta. El aeropuerto de Asturias está a unos diez minutos, con Palma en verano. Avilés o Pravia cubren lo que el concejo no da.",
- ],
- encaja: {
- si: [
- "Encaja para quien quiera vivir el estuario del Nalón todo el año —Ruta de los Miradores con siete miradores sobre la desembocadura; playa de Aguilar a unos cinco minutos— y priorice silencio de orilla frente a villa completa. Un martes de noviembre los servicios son 3/10: lo básico en el municipio; Avilés o Pravia cubren el comercio grande y el coche organiza la semana. Quien busque retiro asequible de estuario en Asturias Centro y aeropuerto a unos diez minutos (Asturias, con Palma en verano) encontrará aquí orilla de ría, no foto típica de Cudillero ni paseo de Salinas. El agua en Aguilar anda entre 19 y 21 °C; el estuario ofrece orilla más calmada que el Cantábrico abierto hacia el oeste.",
- "El clima es el del Cantábrico central, no el de Mallorca: unas 1.800 horas de sol y 42 días despejados frente a las 2.800 horas y 120 jornadas claras de la isla; caen alrededor de 1.100 milímetros en unos 148 días, con niebla media y viento medio. El verano ronda 19 °C: se gana frescura frente al Mediterráneo y se acepta cielo cubierto frecuente. En verano Aguilar y los miradores reciben paseo y algo de afluencia; el ritmo sigue siendo de estuario, no de pueblo colgado lleno. Encaja si has visto un noviembre de niebla sobre el Nalón y siga queriendo esa calma —con fibra parcial comprobada casa por casa— a cambio de no resolver la semana andando.",
- ],
- no: [
- "No encaja si la semana debe resolverse a pie en el propio municipio o si se busca villa-playa con paseo, casas bajas y mesas de enero como Salinas. Muros no lo es: faltan el comercio grande y la densidad de servicios; Avilés, a unos quince minutos, cubre lo que el concejo no da. El hospital público San Agustín queda a unos veinte minutos; el privado Centro Médico de Asturias, en Oviedo, hacia los cuarenta. Eso no se negocia eligiendo otra parroquia junto al estuario.",
- "Tampoco si se necesita el cielo de Baleares o la vida urbana de Gijón sin trayecto. Aquí mandan cubierto (unos 165 días), niebla media y verano fresco; la dependencia del coche es alta. Quien se decida solo tras un sábado claro en los miradores, sin probar un martes vacío ni la humedad de ría, descubrirá en invierno el precio real del silencio.",
- ],
- veredicto:
- "Veredicto: Muros es la apuesta barata y tranquila del estuario. Buscaría vivienda con vistas claras al Nalón y fibra comprobada —es parcial—, apoyándome en Avilés para el día a día, tras probar un noviembre de niebla y un agosto suave en Aguilar. Se ganan miradores, precio bajo y aeropuerto a diez minutos; se aceptan servicios 3/10, coche casi cada día y San Agustín a veinte.",
- },
+    escala: "Estuario, miradores y San Esteban",
+    abrir: [
+      "Muros de Nalón vive alrededor de la desembocadura del Nalón, pero no toda la experiencia está en el mismo punto. El núcleo de Muros, la Ruta de los Miradores y San Esteban de Pravia forman piezas distintas de una vida pequeña, ligada al estuario y con bastante dependencia del coche.",
+      "La autonomía cotidiana es media-baja. Hay básicos locales, pero para una compra amplia y más servicios pesan Avilés y Pravia. La playa de Aguilar es una salida, no una playa urbana integrada en el núcleo, y el precio municipal actual se mantiene como no disponible en la capa 2026.",
+    ],
+    tiempo: [
+      "Frente a Mallorca, aquí pesan más la humedad, los días grises y la niebla del entorno de la desembocadura. Orientación, ventilación y aislamiento merecen comprobarse durante una semana húmeda, especialmente en viviendas próximas al estuario.",
+      "El agua cotidiana es sobre todo el Nalón y su paisaje. Para bañarse hay que cambiar de escenario y salir hacia la costa; tener el estuario delante no equivale a tener una playa de baño a pie.",
+    ],
+    vivir: [
+      "Una mañana puede dedicarse a caminar por el entorno del Nalón o enlazar parte de los miradores, teniendo presente que el recorrido no es un paseo completamente llano. San Esteban ofrece otra relación con el río, más portuaria, y merece tratarse como microzona propia.",
+      "La compra grande y muchos recados requieren coche. Esa dependencia es parte estructural del municipio, no una incidencia de temporada. A cambio, el aeropuerto de Asturias queda muy accesible y Avilés está suficientemente cerca para ampliar servicios.",
+      "El hospital práctico está fuera, en San Agustín de Avilés. Para Palma, la programación desde Asturias es variable; lo estable es la buena accesibilidad al aeropuerto, no una conexión aérea permanente.",
+      "El verano aporta más movimiento hacia costa y miradores, pero Muros conserva una escala pequeña. San Esteban, el núcleo y las viviendas más dispersas no deben juzgarse como si ofrecieran exactamente la misma rutina.",
+    ],
+    historia: [
+      "La desembocadura del Nalón organiza el paisaje y explica la relación entre Muros y San Esteban. Los miradores permiten leer el estuario desde arriba; el antiguo frente portuario de San Esteban lo hace desde la orilla.",
+      "La cercanía de El Pito y la Quinta de Selgas añade patrimonio indiano al mapa comarcal, pero la identidad cotidiana de Muros sigue siendo la de un municipio pequeño alrededor del Nalón.",
+    ],
+    fuera: [
+      "Aguilar es la referencia de playa, pero pertenece al mapa de salida. Los miradores ofrecen otra forma de acercarse al mar y al estuario, con desnivel y sin necesidad de convertir cada paseo en una excursión larga.",
+      "Avilés y Pravia completan comercio y servicios. Esa red próxima hace viable la escala pequeña de Muros, aunque obliga a asumir el coche para una parte relevante de la semana.",
+    ],
+    casa: [
+      "Conviene distinguir Muros de San Esteban y comprobar acceso, humedad, orientación, fibra y facilidad para resolver recados. La proximidad visual al estuario no garantiza una rutina peatonal completa.",
+      "La capa 2026 no ofrece un precio municipal actual fiable. No debe reconstruirse con cifras antiguas ni describirse el municipio como ‘barato’ a partir de ellas; la comparación debe hacerse casa por casa y por microzona.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca una escala pequeña junto al Nalón y se acepta apoyarse en coche, Avilés y Pravia para completar la semana.",
+        "También si se valora más el estuario, San Esteban y los miradores que tener una playa de baño urbana junto a casa.",
+      ],
+      no: [
+        "Encaja peor si se quiere comercio amplio a pie, una playa cotidiana integrada en el núcleo o un paseo siempre llano.",
+        "Tampoco si se necesita una referencia municipal de precio robusta antes de explorar viviendas concretas: el dato actual se mantiene como n.d.",
+      ],
+      veredicto:
+        "Muros de Nalón ofrece estuario y escala pequeña con una logística sorprendentemente cómoda hacia aeropuerto y Avilés. El peaje es una autonomía limitada, bastante coche y una geografía donde miradores, San Esteban y playa son experiencias distintas; además, el precio municipal actual debe tratarse como no disponible."
+    },
  fotoIdentidad: {
  src: "/fotos/asturias-centro/muros-de-nalon-identidad.jpg",
  pie: "San Esteban (Muros de Nalón): casas del puerto frente al estuario, con el monte detrás",
@@ -135,55 +119,47 @@ export const RELATOS_ASTURIAS_CENTRO: Record<string, RelatoMun> = {
  { src: "/fotos/asturias-centro/muros-nalon.jpg", pie: "Estuario del Nalón" },
  ],
  creditoFotos: credito,
- },
+  },
 
   "soto-del-barco": {
-    escala: "Estuario del Nalón",
+    escala: "Nalón, núcleo y San Juan de la Arena",
     abrir: [
-      "Soto del Barco reúne unos cuatro mil habitantes en el estuario del Nalón, frente a Muros: San Juan de la Arena —pueblo marinero de desembocadura, tradición de angulas—, la playa larga de Los Quebrantos y el castillo de San Martín sobre la orilla. No es ciudad ni villa-paseo residencial tipo Salinas; es orilla de ría con playa usable, Avilés a unos quince minutos y un ritmo que baja cuando acaba agosto.",
-      "Un martes de noviembre los servicios son 4/10: lo básico en el municipio; Avilés cubre el resto. San Agustín queda a unos veinte minutos. El aeropuerto de Asturias está a unos diez —junto a Muros y Salinas, de los mejores tiempos de la zona—, con Palma en verano. El coche organiza la semana: estuario para vivir, ciudad para muchos recados.",
-      "En verano Los Quebrantos y San Juan de la Arena reciben toallas, tráfico hacia la playa y algo de ruido de temporada. Las patronales locales animan el casco unos días. Fuera de agosto el estuario recupera calma: niebla media, humedad de ría y un silencio que no es el de una urbanización vacía, sino el de una desembocadura que vuelve a su escala.",
-      "La población mezcla vecinos del concejo, gente que trabaja hacia Avilés y quienes eligieron playa larga y aeropuerto cercano sin pagar el metro de Gijón. Quien viva solo del municipio notará lo que falta; quien acepte Avilés a quince minutos encontrará una orilla más usable que el Cantábrico bravo de Peñas.",
-      "Soto encaja para quien quiera estuario tranquilo, playa larga y aeropuerto a diez minutos, con precio todavía asequible —y con fibra parcial comprobada antes de comprar—.",
+      "Soto del Barco cambia mucho según se viva en el núcleo o en San Juan de la Arena. El primero organiza servicios y conexiones; el segundo se acerca a la desembocadura, al puerto y a Los Quebrantos. Hablar del concejo como una sola experiencia borra precisamente su diferencia más útil.",
+      "La autonomía es media: hay básicos, pero Avilés amplía comercio y servicios. El coche sigue siendo importante, aunque el aeropuerto de Asturias queda muy próximo y la posición junto al Nalón facilita moverse por el centro-occidente asturiano.",
     ],
     tiempo: [
-      "Soto registra unas 1.780 horas de sol y 42 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.050 milímetros en unos 150 días. La niebla es media; el viento, bajo. El cielo sigue siendo cantábrico: se pierden casi mil horas de sol respecto a Baleares, concentradas en los meses grises.",
-      "El verano ronda 19 °C, fresco frente a Baleares. Los Quebrantos tienen agua entre 19 y 21 °C; el estuario ofrece baño más usable que el Cantábrico abierto hacia el Cabo Peñas, aunque muchos días el paseo pese más que el chapuzón largo.",
+      "Frente a Mallorca, la humedad y el cielo cantábrico cambian la forma de usar la vivienda. Cerca del estuario conviene revisar ventilación, aislamiento y orientación; en invierno el río y la costa se sienten de otra manera que durante una visita de verano.",
+      "Los Quebrantos aporta playa cotidiana de forma parcial, sobre todo para quien vive en San Juan de la Arena. Desde Soto núcleo la relación con el mar exige desplazarse: la microzona determina si la playa forma parte de una tarde normal o de una salida.",
     ],
     vivir: [
-      "El invierno en casa se nota por la humedad de ría y la niebla media sobre el estuario: junto a Los Quebrantos o San Juan de la Arena hay que contar con salitre y humedad; hacia el interior, acceso y orientación. Conviene tocar paredes un día húmedo y no firmar solo con sol de folleto en la playa larga.",
-      "Sin coche la semana se queda corta. Los servicios son 4/10: lo básico en el municipio; Avilés, a unos quince minutos, cubre el resto. En enero el estuario recupera calma —no es urbanización vacía, sino desembocadura a su escala—. Quien acepte Avilés para muchos recados encontrará orilla usable; quien quiera todo a pie, no.",
-      "Conviven vecinos del concejo, gente que trabaja hacia Avilés y quienes eligieron playa larga y aeropuerto cercano. Se oye asturiano en el pueblo marinero y castellano en la compra; el castellano basta para lo cotidiano. La vida social pasa por San Juan de la Arena y el ritmo de estuario más que por una villa-paseo densa. En verano sube el volumen en Quebrantos; fuera de agosto vuelve el silencio de ría.",
-      "La sanidad comarcal pide trayecto: San Agustín queda a unos veinte minutos; el privado Centro Médico de Asturias, en Oviedo, hacia los treinta y cinco. En el municipio hay lo básico; para urgencias y especialidades se baja a Avilés. Es estuario con hospital usable, no sanidad a la puerta de la playa.",
-      "Mantener el vínculo con Mallorca es cómodo en trayecto: el aeropuerto de Asturias está a unos diez minutos —junto a Muros y Salinas, de los mejores tiempos—, con Palma en verano. En invierno conviene mirar el calendario real de vuelos, no solo el de agosto en Quebrantos.",
-      "La vivienda típica es piso o casa de concejo hacia San Juan de la Arena y el estuario, sin obra nueva. La fibra es parcial —hay que comprobarla—. Junto a la playa hay que contar con ocupación de verano, salitre y humedad; se compra orilla usable y logística de aeropuerto, no la densidad de servicios de Salinas.",
+      "En San Juan una mañana puede seguir la ribera y el puerto y acercarse a Los Quebrantos. En Soto la rutina se organiza de otro modo, alrededor del núcleo y de los desplazamientos. Esa separación debe comprobarse antes de elegir vivienda.",
+      "Para una compra amplia y una oferta mayor aparece Avilés. El hospital práctico también está fuera, en San Agustín, mientras el aeropuerto queda especialmente cerca. Palma depende de la programación estacional.",
+      "El verano activa más la zona de playa, pero el municipio mantiene vida anual. No hace falta convertir esa estacionalidad en un problema absoluto: importa sobre todo si la casa está en San Juan, en Soto o en una zona dispersa.",
+      "La desembocadura del Nalón ofrece un paisaje cotidiano distinto de una villa de playa compacta. Aquí la vida funciona por piezas y el coche sirve para conectarlas.",
     ],
     historia: [
-      "San Juan de la Arena y el oficio marinero del estuario explican Soto: pueblo de desembocadura, angulas y playa larga, no de casco indiano denso ni de pueblo de foto turística. La relación con el Nalón —río, marea, oficio— es el hilo útil del lugar.",
-      "El castillo de San Martín añade capa de frontera fluvial sobre la desembocadura: piedra y horizonte de estuario, recuerdo de control del paso del río. La historia aquí es de orilla y oficio, no de ciudad.",
-      "Lo que queda para quien llega a vivir es esa escala de ría: pueblo marinero, playa larga y Avilés cerca, sin pretender ser la villa residencial de Castrillón ni la urbe de Gijón.",
+      "San Juan de la Arena conserva una identidad marinera ligada a la desembocadura y a las angulas, mientras el castillo de San Martín recuerda el control histórico de este paso del Nalón.",
+      "El estuario es el hilo común entre las distintas microzonas. No convierte Soto y San Juan en el mismo lugar, pero explica por qué puerto, río y costa aparecen juntos en el mapa municipal.",
     ],
     fuera: [
-      "Los Quebrantos y San Juan de la Arena son la orilla de diario: playa larga a unos cinco minutos, agua entre 19 y 21 °C, toallas en agosto y espacio más usable fuera de temporada. El estuario permite paseo sin alejarse —marea, luz sobre el Nalón, ritmo de desembocadura—.",
-      "Muros aporta la Ruta de los Miradores al otro lado del río: siete miradores sobre la misma boca fluvial, una tarde distinta sin salir del estuario. Salinas y Avilés quedan a un trayecto corto si se buscan paseo residencial, comercio o cultura.",
-      "Cuando hay más tiempo, el mapa se abre hacia Cudillero y el Cabo Vidio al oeste, o hacia la costa de Peñas al este. El tiempo libre de Soto es playa de estuario primero; ciudad y costa abierta, después.",
+      "Los Quebrantos es la salida natural hacia el Cantábrico y puede ser realmente cotidiana desde San Juan. Desde otras partes del concejo exige desplazamiento.",
+      "Avilés amplía comercio, hospital y vida urbana. Muros y San Esteban, al otro lado del sistema del Nalón, completan un mapa de estuario que se entiende mejor recorriéndolo que mirando solo distancias.",
     ],
     casa: [
-      "El entorno de San Juan de la Arena y el estuario ofrecen viviendas de villa y parroquia: pisos y casas de concejo, sin obra nueva. La fibra es parcial. Junto a la playa hay que contar con ocupación de verano, salitre y humedad; hacia el interior del estuario, acceso y distancia real a Avilés.",
-      "El precio medio ronda 1.200 €/m². Tres habitaciones en la franja asequible se sitúan alrededor de 140.000 euros. Se compra orilla usable y logística de aeropuerto; no se compra la densidad de servicios de Salinas.",
-      "Los servicios son 4/10. San Agustín queda a unos veinte minutos; el privado Centro Médico de Asturias, en Oviedo, hacia los treinta y cinco. El aeropuerto de Asturias está a unos diez minutos, con Palma en verano. Avilés, a unos quince, resuelve muchos recados de la semana.",
+      "La primera pregunta es si la vivienda está en Soto, San Juan o una zona intermedia. Acceso, fibra, humedad y cuánto coche exige cada recado cambian con esa elección.",
+      "Los precios y estimaciones quedan en la capa factual. El relato debe ayudar a distinguir microzonas y funcionamiento cotidiano, no repetir medias o totales de vivienda.",
     ],
     encaja: {
       si: [
-        "Encaja para quien quiera vivir el estuario del Nalón con playa larga todo el año —San Juan de la Arena, pueblo marinero de angulas; Los Quebrantos a unos cinco minutos; el castillo de San Martín sobre la desembocadura— y acepte que no es ciudad ni villa-paseo residencial. Un martes de noviembre los servicios son 4/10: lo básico en el municipio; Avilés, a unos quince minutos, cubre el resto. Quien priorice orilla de ría usable, aeropuerto a unos diez minutos (Asturias, con Palma en verano) y precio todavía asequible —alrededor de 1.200 €/m²; tres habitaciones cerca de 140.000 euros— encontrará aquí calma de estuario frente al anfiteatro de Cudillero o la densidad de Gijón. El agua en Los Quebrantos anda entre 19 y 21 °C; el baño es más usable que en el Cantábrico bravo de Peñas.",
-        "El clima sigue siendo cantábrico, no balear: unas 1.780 horas de sol y 42 días despejados frente a las 2.800 horas y 120 jornadas claras de Mallorca; caen alrededor de 1.050 milímetros en unos 150 días, con niebla media y viento bajo. El verano ronda 19 °C: se gana frescura y se acepta cielo gris frecuente. En verano Los Quebrantos y San Juan de la Arena reciben toallas, tráfico hacia la playa y algo de ruido de temporada; fuera de agosto el estuario recupera silencio. Encaja si has visto un martes de noviembre vacío y un sábado de agosto en Quebrantos y siga queriendo esa orilla —con fibra parcial comprobada— a cambio de no tener Salinas a la puerta.",
+        "Encaja si se acepta una vida repartida y se valora tener estuario, playa y aeropuerto muy accesibles sin necesitar una gran villa turística.",
+        "San Juan encaja especialmente con quien quiere puerto y Los Quebrantos dentro de una rutina más marítima; Soto ofrece otra relación, más de núcleo y conexiones.",
       ],
       no: [
-        "No encaja si se busca villa-playa residencial con paseo de casas bajas como Salinas o ciudad completa como Gijón. Soto ofrece estuario y playa larga, no comercio denso ni hospital a la vuelta de la esquina: San Agustín queda a unos veinte minutos; el privado Centro Médico de Asturias, en Oviedo, hacia los treinta y cinco. Los servicios 4/10 y la fibra parcial no se arreglan eligiendo otra calle junto a San Juan de la Arena.",
-        "Tampoco si el cielo de Baleares es imprescindible o si se necesita vida diaria sin coche. Aquí mandan cubierto (unos 165 días), niebla media y verano fresco; Avilés resuelve muchos recados. Quien se decida solo tras un día soleado en Los Quebrantos, sin probar ocupación de temporada ni un noviembre de ría, se llevará una sorpresa.",
+        "Encaja peor si se espera tener playa, comercio amplio y servicios superiores todos en el mismo radio peatonal.",
+        "Tampoco si se compra pensando en ‘Soto del Barco’ sin comprobar la microzona: Soto y San Juan producen semanas distintas.",
       ],
       veredicto:
-        "Veredicto: Soto es la apuesta de estuario y playa larga. Buscaría tres habitaciones hacia San Juan de la Arena o el estuario, con fibra comprobada —es parcial—, tras probar un agosto en Quebrantos y un martes de noviembre. Se ganan aeropuerto a diez minutos, Avilés a quince y precio asequible; se aceptan servicios 4/10, cielo cantábrico y San Agustín a veinte.",
+        "Soto del Barco combina una posición logística cómoda con dos experiencias claras: núcleo y conexiones en Soto, estuario y playa en San Juan de la Arena. La autonomía es intermedia y el coche sigue contando; la elección de microzona determina cuánto mar entra realmente en la vida diaria."
     },
     fotosAbrir: [
       { src: "/fotos/asturias-centro/soto-arena.jpg", pie: "San Juan de la Arena, Soto del Barco" },
@@ -201,53 +177,45 @@ export const RELATOS_ASTURIAS_CENTRO: Record<string, RelatoMun> = {
   },
 
   "salinas-castrillon": {
- escala: "Villa-playa residencial",
- abrir: [
- "Salinas reúne unos cinco mil habitantes en la villa —unos veintitrés mil en el concejo de Castrillón—: playa de tres kilómetros con El Espartal y dunas, paseo caminable, Museo de Anclas en la Peñona, casas bajas y chalés de los años sesenta a dos mil. Es villa-playa residencial, no pueblo marinero de puerto cerrado ni ciudad. Avilés queda a diez minutos —casco histórico, Centro Niemeyer, comercio—; Piedras Blancas, la capital del concejo, a cinco.",
- "Un martes de noviembre se compra, se camina el paseo y se resuelve el día a día. Los servicios alcanzan 7/10: hay fibra, comercio útil y vida de villa que no se apaga fuera de agosto. San Agustín queda a unos diez minutos; el Hospital de Jove, en Gijón, a unos treinta. El aeropuerto de Asturias está a unos diez —el mejor tiempo junto a Muros y Soto—, con Palma en verano.",
- "En verano la playa y el paseo reciben veraneo: toallas, tráfico y aparcamiento justo en los días claros. El resto del año Salinas es villa residencial de clase media avilesina y ovetense: vecinos que trabajan en Avilés, Oviedo o el aeropuerto, familias y quienes eligieron casas bajas junto al mar sin mudarse a Gijón. La siderurgia de Avilés, a unos tres kilómetros, es un tema real a favor del viento del sur: conviene probar un día con ese aire antes de comprar.",
- "Bahínas, Arnao y Santa María del Mar amplían el mapa de Castrillón; la villa de Salinas concentra el carácter de urbanización junto al Cantábrico. Fuera de agosto sigue siendo villa completa y útil. Encaja como la opción práctica de Asturias Centro si se acepta el matiz industrial según el viento.",
- "Las estaciones cambian la densidad más que el funcionamiento. En invierno el paseo sigue abierto; en primavera vuelven las caminatas por El Espartal; en agosto la orilla se llena y el aparcamiento se pelea. Quien quiera esta villa debe conocerla un martes gris y un sábado de sol en la playa.",
- ],
- tiempo: [
- "Salinas suma unas 1.800 horas de sol y 42 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.050 milímetros en unos 148 días. La niebla es baja; el viento, medio. Se pierden casi mil horas de sol respecto a Baleares: el trato no es frío extremo, sino cielo cubierto frecuente —unos 165 días—.",
- "El verano ronda 19 °C, fresco frente a Baleares: máximas habituales cerca de 23 °C y apenas uno a tres días sobre 30 °C. Salinas, El Espartal y Bahínas tienen agua entre 19 y 21 °C; la playa larga invita al paseo aunque el baño sea corto muchos días. El verano gana frescura frente al Mediterráneo y pide aceptar un julio que todavía puede mojar.",
- ],
- vivir: [
- "El invierno en casa se nota menos que en el estuario: niebla baja, paseo abierto y casas bajas que piden aislamiento frente a salitre y cielo cubierto frecuente. Conviene mirar orientación, calefacción y si la terraza sigue siendo usable entre noviembre y febrero. Visitar un martes gris y un día con viento del sur —la siderurgia de Avilés queda a unos tres kilómetros— enseña más que un sábado soleado en El Espartal.",
- "Sin coche se sostiene mucho: se compra, se camina el paseo y se resuelve el día a día; los servicios alcanzan 7/10 y hay fibra. En enero Salinas es villa residencial viva, no decorado de agosto. Piedras Blancas a cinco minutos y Avilés a diez cubren lo que la villa no resuelve sola; el coche ayuda, pero no es la única forma de vivir la semana.",
- "Conviven vecinos que trabajan en Avilés, Oviedo o el aeropuerto, familias y quienes eligieron casas bajas junto al mar. Se oye asturiano y castellano en el paseo y en el comercio; el castellano basta para lo cotidiano. La vida social pasa por la villa-playa y el ritmo de clase media avilesina y ovetense. Entre semana manda el ir y venir; en agosto la orilla se llena y el aparcamiento se pelea.",
- "La sanidad es de las mejores de la zona: San Agustín queda a unos diez minutos; el Hospital de Jove, en Gijón, a unos treinta. Empadronarse aquí abre centro de salud y farmacia en villa; para especialidades se baja a Avilés. Es hospital cercano de verdad, no trayecto de media hora forzado.",
- "Ir y volver a Mallorca es corto: el aeropuerto de Asturias está a unos diez minutos —el mejor tiempo junto a Muros y Soto—, con Palma en verano. En invierno el aeropuerto sigue a un salto, pero conviene mirar el calendario real de vuelos a Palma, no solo el de temporada alta.",
- "La vivienda típica es casa baja o chalé de los años sesenta a dos mil, con poca obra nueva y fibra. Junto al paseo hay que contar con ocupación de verano, salitre y aparcamiento; hacia el interior de la villa, orientación y distancia real a la playa. Hay que imaginar la manzana caminable en enero, no solo la foto de agosto.",
- ],
- historia: [
- "El paseo, las dunas de El Espartal y el Museo de Anclas en la Peñona explican Salinas como villa-playa de veraneo y residencia, no como pueblo marinero de puerto cerrado. Las casas bajas y chalés de los años sesenta a dos mil marcan el carácter de urbanización junto al mar: orilla usable, trama residencial y logística cercana.",
- "Avilés cercano —casco histórico y Centro Niemeyer— añade capa de ciudad a diez minutos: comercio, cultura contemporánea y hospital. Lo que conviene saber de Salinas es de orilla residencial y área metropolitana, no de fortaleza ni de pueblo de foto turística.",
- "Lo que queda para quien llega a vivir es esa ecuación: playa de tres kilómetros, villa caminable y Avilés al lado, con la industria como matiz real del aire según el viento del sur.",
- ],
- fuera: [
- "El paseo, la playa de Salinas–El Espartal y el Museo de Anclas son la tarde de diario: tres kilómetros de arena y dunas, agua entre 19 y 21 °C, y una Peñona que concentra memoria marinera sin exigir coche. Es el tiempo libre que justifica la villa.",
- "Bahínas, Arnao y Santa María del Mar amplían Castrillón cuando se quiere otra orilla o otro ritmo dentro del concejo. El Espartal invita a caminar las dunas aunque el baño sea corto: el paseo pesa tanto como el chapuzón.",
- "Avilés cubre comercio y cultura a diez minutos. Soto y Muros aportan estuario del Nalón; Luanco, villa marinera hacia el Cabo Peñas. El mapa de ocio es playa residencial primero; ciudad y costa abierta, a un trayecto corto.",
- ],
- casa: [
- "Predominan casas bajas y chalés; hay poca obra nueva y fibra. Junto al paseo hay que contar con ocupación de verano, salitre y aparcamiento; hacia el interior de la villa, orientación, distancia real a la playa y si la manzana sigue siendo caminable en enero.",
- "La referencia de precio actual está en la capa factual y en Idealista del mes; aquí no se fija una media municipal en prosa. 000 euros. La franja media puede ser chalé reformado o vivienda más cerca del paseo. La facilidad de venta es alta en el área; el precio compra villa-playa y logística, no silencio garantizado en agosto.",
- "Los servicios son 7/10. San Agustín queda a unos diez minutos; Jove, en Gijón, a unos treinta. El aeropuerto de Asturias está a unos diez minutos, con Palma en verano. Piedras Blancas y Avilés completan lo que la villa no resuelve sola.",
- ],
- encaja: {
- si: [
- "Encaja para quien quiera vivir el mar todo el año en villa-playa residencial —playa de tres kilómetros con El Espartal y dunas; paseo caminable; Museo de Anclas en la Peñona; casas bajas y chalés— y priorice logística frente a foto típica. Un martes de noviembre se compra, se camina el paseo y se resuelve el día a día: los servicios alcanzan 7/10, hay fibra, Avilés queda a unos diez minutos (casco histórico, Centro Niemeyer, comercio) y Piedras Blancas a cinco. Quien busque hospital y aeropuerto a unos diez minutos —San Agustín en Avilés; Asturias con Palma en verano— encontrará aquí la ecuación más completa de Asturias Centro. Salinas, El Espartal y Bahínas tienen agua entre 19 y 21 °C; la playa larga invita al paseo aunque el baño sea corto muchos días.",
- "El clima sigue lejos de Mallorca: unas 1.800 horas de sol y 42 días despejados frente a las 2.800 horas y 120 jornadas claras de la isla; caen alrededor de 1.050 milímetros en unos 148 días, con niebla baja y viento medio. El verano ronda 19 °C: se gana frescura frente al calor mediterráneo y se acepta cielo cubierto frecuente. En verano la playa y el paseo reciben veraneo —toallas, tráfico, aparcamiento justo en los días claros—; el resto del año Salinas es villa residencial de clase media avilesina y ovetense. Encaja quien acepte la siderurgia de Avilés a unos tres kilómetros según el viento del sur a cambio de esa orilla usable y esa logística: ",
- ],
- no: [
- "No encaja si el aire limpio junto a Avilés debe estar garantizado todos los días. La siderurgia a unos tres kilómetros es un tema real a favor del viento del sur; eso no se arregla eligiendo otra manzana del paseo. Tampoco si se busca el pueblo colgado de foto turística como Cudillero o el silencio extremo del estuario de Muros: Salinas es villa útil, no anfiteatro ni retiro mínimo.",
- "Tampoco si se necesita el sol de Baleares. Aquí hay unas 1.800 horas de sol y unos 165 cubiertos frente a Mallorca; el verano es fresco y el baño, a menudo corto. Quien se decida solo tras un sábado soleado en El Espartal, sin probar un día con viento del sur ni un noviembre de paseo gris, descubrirá el trato completo demasiado tarde. El hospital privado Jove, en Gijón, queda a unos treinta minutos si San Agustín no basta.",
- ],
- veredicto:
- "Veredicto: Salinas es la elección práctica de Asturias Centro. Buscaría casa baja o chalé caminable al paseo —franja asequible alrededor de 199.000 euros—, tras probar un día con viento del sur y un agosto en la playa. Se ganan aeropuerto y San Agustín a diez minutos, villa residencial y Avilés cerca; se aceptan cielo cantábrico y la industria cercana como parte del trato.",
- },
+    escala: "Villa-playa y concejo de servicios repartidos",
+    abrir: [
+      "Salinas es una de las experiencias más claramente marítimas de Asturias Centro: paseo, playa y El Espartal forman parte de la vida de la villa. Pero Castrillón no se reduce a Salinas. Piedras Blancas concentra otra parte de los servicios y maneja una lógica residencial y de precios distinta.",
+      "La autonomía cotidiana es media-fuerte según microzona. En Salinas se puede hacer mucha vida a pie junto al mar; para ciertos servicios aparece Piedras Blancas y, muy cerca, Avilés. Esa red funciona bien, pero obliga a distinguir playa, capital municipal y ciudad de apoyo.",
+    ],
+    tiempo: [
+      "Frente a Mallorca, el verano es mucho más fresco y el año más húmedo y gris. Junto a la playa importan viento, salitre, aislamiento y orientación; una vivienda luminosa y protegida puede cambiar mucho la experiencia del invierno.",
+      "El Espartal no es una playa de excursión: desde Salinas forma parte de la rutina, junto al paseo y las dunas. Esa ventaja no debe trasladarse automáticamente a cualquier vivienda de Castrillón.",
+    ],
+    vivir: [
+      "Una mañana en Salinas puede resolverse caminando por el paseo, la playa y el entorno dunar. La Peñona y el Museo de Anclas forman parte de ese frente cotidiano. Para gestiones y oferta adicional, Piedras Blancas y Avilés amplían el radio sin exigir grandes desplazamientos.",
+      "Hospital y aeropuerto están especialmente próximos. Esa logística es una fortaleza estructural de la zona, aunque los vuelos concretos a Palma sigan dependiendo de temporada y programación.",
+      "El verano aumenta ocupación, tráfico y presión de aparcamiento junto a la playa. Fuera de temporada queda una base residencial real; no es un núcleo que desaparezca en invierno.",
+      "La proximidad de la actividad industrial de Avilés también forma parte del territorio. No hace falta atribuir efectos no documentados: basta saber que industria, viento y microzona deben mirarse junto con playa y paseo.",
+    ],
+    historia: [
+      "Salinas creció como frente residencial ligado a la playa, mientras El Espartal conserva un sistema dunar que da continuidad al litoral. La Peñona y el Museo de Anclas añaden una referencia reconocible al paseo.",
+      "Piedras Blancas recuerda que el municipio funciona con más de un centro. La vida de playa de Salinas y la vida administrativa y de servicios del concejo se complementan, pero no son intercambiables.",
+    ],
+    fuera: [
+      "El Espartal y el paseo son cotidianos desde Salinas. Bahínas y otras playas del concejo amplían el mapa, mientras Avilés ofrece casco, comercio y servicios urbanos muy cerca.",
+      "La ventaja de Castrillón está en esa combinación: mar a pie en Salinas y una red de servicios próxima. El precio de esa posición es que la microzona importa mucho y la franja de Salinas soporta una prima clara.",
+    ],
+    casa: [
+      "En Salinas conviene buscar accesibilidad, ascensor o ausencia de barreras, buena orientación, exterior y aparcamiento cuando sea necesario. Salitre, viento y ocupación de verano también deben comprobarse.",
+      "El mercado de Salinas no debe confundirse con Piedras Blancas ni con el conjunto de Castrillón. Precio y estimaciones se muestran en la capa factual; la casa concreta debe juzgarse por microzona y funcionamiento anual.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere que playa y paseo formen parte real de la semana y se valora tener hospital, aeropuerto, Avilés y servicios del concejo muy próximos.",
+        "También si se acepta que Salinas paga esa combinación con un mercado más exigente y con más movimiento en verano.",
+      ],
+      no: [
+        "Encaja peor si se busca el mismo nivel de precio y tranquilidad en primera línea que en las zonas interiores del concejo.",
+        "Tampoco si la proximidad del entorno industrial de Avilés pesa demasiado en la elección o si se pretende que toda vivienda de Castrillón tenga la vida peatonal de Salinas.",
+      ],
+      veredicto:
+        "Salinas combina playa y paseo realmente cotidianos con una logística muy fuerte hacia hospital, aeropuerto y Avilés. Su peaje está en el precio, la presión estival y una microzona que no debe confundirse con Piedras Blancas ni con el resto de Castrillón."
+    },
  fotoIdentidad: {
  src: "/fotos/asturias-centro/salinas-castrillon-identidad.jpg",
  pie: "Salinas: casas y chalés frente al Cantábrico, con el cabo detrás",
@@ -265,56 +233,48 @@ export const RELATOS_ASTURIAS_CENTRO: Record<string, RelatoMun> = {
  { src: "/fotos/asturias-centro/salinas-aviles.jpg", pie: "Avilés, a minutos de Salinas" },
  ],
  creditoFotos: credito,
- },
+  },
 
   "luanco-gozon": {
- escala: "Villa marinera del cabo Peñas",
- abrir: [
- "Luanco reúne unos cinco mil habitantes en la villa marinera de Gozón, entre Avilés y Gijón: casco de piedra, Museo Marítimo, playas urbanas —La Ribera, Aramar— y Xagó —dunas y surf— a unos diez minutos. El Cabo Peñas —faro, acantilados y senda— queda a unos diez. Es villa de oficio del mar con veraneo ovetense, no paseo residencial de casas bajas tipo Salinas ni ciudad completa.",
- "Un martes de noviembre se camina el casco y se resuelve lo básico. Los servicios alcanzan 5/10: hay fibra y vida de villa cuidada, sin sustituir el comercio denso de Avilés o Gijón. El Hospital de Jove, en Gijón, queda a unos quince minutos; San Agustín, en Avilés, a unos veinte. El aeropuerto de Asturias anda alrededor de los veinte minutos, con Palma en verano.",
- "En verano La Ribera, Aramar y Xagó reciben toallas, tráfico y afluencia de villa marinera. Las patronales y el veraneo marcan ruido y aparcamiento justo unos días. Fuera de temporada Luanco vuelve a ser una villa cuidada: piedra, puerto y vecinos que conocen el viento medio de la costa de Peñas.",
- "La población mezcla familias locales, veraneantes que acabaron quedándose y quienes eligieron casco marinero entre las dos ciudades. Quien priorice hospital a diez minutos y paseo de chalés mirará Salinas; quien quiera oficio de mar y cabo abierto encontrará aquí el carácter que distingue Gozón.",
- "Luanco encaja para quien quiera villa marinera entre Avilés y Gijón, con el Cabo Peñas al lado, aceptando servicios 5/10 y un cielo algo más soleado que el del estuario, pero lejos aún de Mallorca.",
- ],
- tiempo: [
- "Luanco suma unas 1.850 horas de sol y 42 días despejados —el extremo algo más soleado de la zona—, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.000 milímetros en unos 145 días. La niebla es baja; el viento, medio en la costa de Peñas. Se gana algo de claridad respecto a Cudillero o Muros, pero el trato sigue siendo cantábrico: unos 165 cubiertos y un invierno de mañanas grises.",
- "El verano ronda 19 °C, fresco frente a Baleares. La Ribera, Aramar y Xagó tienen agua entre 19 y 21 °C; el cabo pide días de mar más llana para pasear el acantilado con calma. El viento medio no es detalle menor: Peñas no es bahía abrigada.",
- ],
- vivir: [
- "El invierno en casa se nota por el viento medio de la costa de Peñas y el salitre del casco: niebla baja, pero mañanas grises y terraza que se usa a medias entre noviembre y febrero. Conviene mirar orientación hacia La Ribera o calles más interiores, no solo la foto típica de piedra. Visitar un día de viento en el cabo enseña el trato real.",
- "Sin coche se resuelve lo básico en villa: se camina el casco, hay fibra y ritmo cuidado; los servicios alcanzan 5/10. En enero Luanco recupera escala de vecinos —no se apaga—. Avilés y Gijón cubren comercio denso a un trayecto corto; Xagó y el Cabo Peñas piden coche cuando se quiere dunas o faro.",
- "Conviven familias locales, veraneantes que acabaron quedándose y quienes eligieron casco marinero entre las dos ciudades. Se oye asturiano en el puerto y en el Museo Marítimo; el castellano basta para lo cotidiano. La vida social pasa por oficio de mar y veraneo ovetense más que por un paseo de chalés. Entre semana manda la villa cuidada; en verano La Ribera, Aramar y Xagó suben el volumen.",
- "La sanidad se reparte entre las dos ciudades: el Hospital de Jove, en Gijón, queda a unos quince minutos; San Agustín, en Avilés, a unos veinte. En Luanco hay lo básico del día a día; para especialidades se elige una u otra ciudad. No es hospital a diez minutos como en Salinas.",
- "Ir y volver a Mallorca pide unos veinte minutos al aeropuerto de Asturias, con Palma en verano. Es peor trayecto que Salinas o Muros a diez minutos, pero sigue usable. En invierno conviene mirar el calendario real de vuelos, no solo el de agosto en La Ribera.",
- "La vivienda típica es piso o casa de villa marinera en el casco, con poca obra nueva y fibra. Junto a la orilla hay que contar con salitre, viento de cabo y ocupación de verano; hacia calles más interiores, acceso y distancia real a La Ribera. Se compra carácter marinero, no la logística completa de Salinas.",
- ],
- historia: [
- "El casco de piedra y el Museo Marítimo explican Luanco como villa de oficio del mar y de costa cuidada del Cabo Peñas. No es adorno: es el carácter que la distingue de Salinas —villa-paseo residencial— o de Gijón —ciudad—. Puerto, piedra y museo cuentan continuidad marinera.",
- "El faro y los acantilados de Peñas sitúan Gozón en la costa más abierta del área metropolitana: senda, horizonte y oleaje. Lo que conviene saber es marinera y de cabo, no de industria urbana ni de estuario fluvial.",
- "Vivir aquí es habitar esa doble escala: villa caminable en el casco y costa abierta a diez minutos, con Avilés y Gijón siempre a un trayecto corto.",
- ],
- fuera: [
- "La Ribera y Aramar son las orillas de diario: playas urbanas a pie, agua entre 19 y 21 °C, terrazas y vida de villa cuando el verano no las satura. El Museo Marítimo y el casco permiten una tarde sin coche —piedra, puerto, memoria del oficio—.",
- "Xagó cubre dunas y surf a unos diez minutos: otra costa, más abierta, con afluencia propia los días de ola. El Cabo Peñas cierra faro, acantilados y senda; es la tarde de horizonte que justifica Gozón.",
- "Candás y Gijón quedan hacia el este; Avilés, hacia el oeste. El tiempo libre se reparte entre orilla urbana, dunas y cabo —y ciudad cuando hace falta cine, hospital o compra grande—.",
- ],
- casa: [
- "El casco ofrece pisos y viviendas de villa marinera; hay poca obra nueva y fibra. Junto a la orilla hay que contar con salitre, viento de cabo y ocupación de verano; hacia calles más interiores, acceso y distancia real a La Ribera.",
- "La referencia de precio actual está en la capa factual y en Idealista del mes; aquí no se fija una media municipal en prosa. 000 euros. La franja media puede ser piso reformado en casco o vivienda con mejores vistas. Se compra carácter marinero; no se compra la logística completa de Salinas.",
- "Los servicios son 5/10. Jove queda a unos quince minutos; San Agustín, a unos veinte. El aeropuerto de Asturias está a unos veinte minutos, con Palma en verano. Gijón y Avilés cubren lo que la villa no resuelve sola.",
- ],
- encaja: {
- si: [
- "Encaja para quien quiera villa marinera del Cabo Peñas todo el año —casco de piedra, Museo Marítimo, playas urbanas La Ribera y Aramar a pie; Xagó, dunas y surf, a unos diez minutos; el faro y los acantilados de Peñas a otros diez— y acepte servicios de villa, no de ciudad. Un martes de noviembre se camina el casco y se resuelve lo básico: los servicios alcanzan 5/10 y hay fibra; Gijón y Avilés quedan a un trayecto corto. Quien priorice oficio de mar, orilla urbana y cabo abierto frente al paseo residencial de Salinas encontrará aquí el carácter marinero entre las dos ciudades. La Ribera, Aramar y Xagó tienen agua entre 19 y 21 °C; el cabo pide días de mar más llana para pasear el acantilado con calma.",
- "El clima es el extremo algo más soleado de la zona —unas 1.850 horas de sol y 42 días despejados—, pero sigue lejos de Mallorca (2.800 horas y 120 jornadas claras): caen alrededor de 1.000 milímetros en unos 145 días, con niebla baja y viento medio en la costa de Peñas. El verano ronda 19 °C: se gana frescura y se acepta cielo cubierto frecuente. En verano La Ribera, Aramar y Xagó reciben toallas, tráfico y afluencia de villa marinera con veraneo ovetense; fuera de temporada Luanco vuelve a ser una villa cuidada. Encaja si has probado un día de viento en Peñas y un agosto en La Ribera y siga queriendo ese casco — con aeropuerto a unos veinte minutos.",
- ],
- no: [
- "No encaja si mandan hospital a diez minutos y paseo residencial de casas bajas: Salinas cubre esa prioridad con San Agustín y aeropuerto a diez. Aquí el Hospital de Jove, en Gijón, queda a unos quince minutos; San Agustín, en Avilés, a unos veinte. Los servicios 5/10 resuelven lo básico, no sustituyen ciudad ni la logística completa de Castrillón.",
- "Tampoco si se necesita el sol de Baleares o evitar el viento medio de la costa de Peñas. Aquí mandan cubierto (unos 165 días) y verano fresco; el cabo no es bahía abrigada. Quien se decida solo tras un sábado soleado en el casco de piedra, sin probar oleaje y viento en Peñas ni ocupación de agosto en La Ribera, se llevará una villa distinta de la foto turística.",
- ],
- veredicto:
- "Veredicto: Luanco es la apuesta marinera del cabo. Buscaría tres habitaciones en casco o cerca de La Ribera —alrededor de 211.000 euros en franja asequible—, fuera del tramo más ocupado en agosto, tras probar un día de viento en Peñas. Se ganan villa de piedra, Xagó y cabo; se aceptan servicios 5/10, Jove a quince minutos y Asturias a veinte.",
- },
+    escala: "Villa marinera y costa de Peñas",
+    abrir: [
+      "Luanco concentra la parte más autónoma de Gozón: puerto, casco, servicios y playas urbanas forman una villa marítima que funciona todo el año. Fuera de ella, el concejo se abre hacia Xagó, Cabo Peñas y núcleos más dispersos, donde el coche gana importancia.",
+      "La diferencia importa al buscar vivienda. En Luanco se puede hacer bastante vida andando; vivir en Gozón no significa necesariamente tener la misma autonomía ni las playas urbanas a la puerta.",
+    ],
+    tiempo: [
+      "Frente a Mallorca, el clima es más húmedo, gris y fresco, con viento y salitre relevantes cerca del frente marítimo. Orientación, aislamiento y ventilación merecen tanta atención como las vistas.",
+      "La Ribera y Aramar permiten que el mar entre de verdad en la rutina de Luanco. Xagó y Cabo Peñas son otra cosa: costa abierta y salidas que amplían el día, normalmente con desplazamiento.",
+    ],
+    vivir: [
+      "Una mañana en la villa puede enlazar puerto, frente marítimo, playa y equipamientos locales como el Museo Marítimo. Esa proximidad sostiene una autonomía fuerte dentro de Luanco, aunque la oferta mayor siga estando en Avilés y Gijón.",
+      "El hospital está fuera de la villa. Las fuentes internas manejan referencias próximas hacia Avilés y Gijón sin una única cifra completamente uniforme, así que la conclusión útil es no prometer un minuto exacto: la atención hospitalaria exige desplazamiento, pero queda dentro del área central.",
+      "El aeropuerto de Asturias también queda a una distancia práctica; los vuelos a Palma dependen de programación. Para la costa exterior, el coche sigue siendo la herramienta normal.",
+      "El verano aumenta la ocupación vacacional, pero Luanco conserva vida anual. Cabo Peñas, Xagó y el resto de Gozón pertenecen al mapa de salida, no a la misma experiencia peatonal del casco.",
+    ],
+    historia: [
+      "El puerto y el casco de piedra explican la identidad marinera de Luanco. El Museo Marítimo refuerza esa relación con los oficios y la navegación sin convertir la villa en un decorado turístico.",
+      "Cabo Peñas lleva el municipio a otra escala: faro, acantilados y costa abierta. Es una referencia territorial de Gozón y una salida natural desde Luanco.",
+    ],
+    fuera: [
+      "La Ribera y Aramar son playas de villa; Xagó ofrece dunas y una costa más abierta. Cabo Peñas completa el mapa cuando se quiere caminar o mirar el Cantábrico fuera del núcleo.",
+      "Avilés y Gijón amplían comercio, sanidad y cultura. La posición entre ambas ciudades ayuda a que Luanco pueda conservar escala pequeña sin quedar aislada.",
+    ],
+    casa: [
+      "En la villa conviene medir distancia real a servicios y paseo, accesibilidad, aparcamiento, orientación y exposición al salitre. Fuera de Luanco aumenta la importancia del acceso y del coche.",
+      "Precio y estimaciones quedan en la capa factual. La distinción clave para vivienda es Luanco frente al resto de Gozón, no una media que trate todo el concejo como una única microzona.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca una villa marinera donde puerto, paseo y playa puedan formar parte de una mañana normal, con ciudades mayores relativamente próximas.",
+        "También si Cabo Peñas y la costa exterior se valoran como salidas cercanas y se acepta usar coche para ellas.",
+      ],
+      no: [
+        "Encaja peor si se quiere hospital dentro del municipio o si se pretende vivir en cualquier punto de Gozón con la autonomía peatonal de Luanco.",
+        "Tampoco si la mayor ocupación del verano resulta incompatible con la vivienda elegida junto al frente marítimo.",
+      ],
+      veredicto:
+        "Luanco ofrece una autonomía fuerte de villa, con puerto, playas y paseo integrados, mientras Gozón añade la costa abierta de Xagó y Cabo Peñas. La contrapartida es salir para hospital y oferta urbana mayor y distinguir cuidadosamente la villa de las zonas más dispersas del concejo."
+    },
  fotosAbrir: [
  { src: "/fotos/asturias-centro/luanco-casco.jpg", pie: "Casco de piedra de Luanco" },
  { src: "/fotos/asturias-centro/luanco-puerto.jpg", pie: "Puerto de Luanco" },
@@ -327,56 +287,48 @@ export const RELATOS_ASTURIAS_CENTRO: Record<string, RelatoMun> = {
  { src: "/fotos/asturias-centro/luanco-playa.jpg", pie: "Playa de La Ribera, Luanco" },
  ],
  creditoFotos: credito,
- },
+  },
 
   "candas-carreno": {
- escala: "Villa marinera junto a Gijón",
- abrir: [
- "Candás reúne unos siete mil habitantes en la villa marinera de Carreño, pegada al oeste de Gijón: puerto, faro, playas —Palmera, Carranques—, cercanías en tren hacia la ciudad y Museo Antón. Xivares queda hacia el oeste. Es villa con escala propia y acceso metropolitano; el contra serio es Aboño —central térmica y cementera— al lado, un matiz de aire que conviene probar según el viento antes de comprar.",
- "Un martes de noviembre se resuelve lo básico en villa. Los servicios alcanzan 5/10: hay fibra, tren FEVE hacia Gijón —unos quince minutos— y comercio de villa, sin sustituir la ciudad. El Hospital de Jove queda a unos diez minutos; Cabueñes, el público de Gijón, alrededor de veinte. El aeropuerto de Asturias anda alrededor de los veinticinco minutos, con Palma en verano.",
- "En verano Palmera y Carranques reciben veraneo de villa junto a Gijón: toallas, tráfico y terrazas. Las patronales animan el casco unos días —ruido, aparcamiento justo, mesas llenas—. Fuera de temporada el ritmo vuelve a puerto y tren: vecinos que trabajan en Gijón, familias locales y quienes eligieron orilla marinera sin mudarse al ensanche urbano.",
- "Quien mire casa hacia el oeste debe probar un día con el viento que trae el aire de Aboño; quien mire hacia el puerto y Palmera debe conocer también un martes vacío. Candás no es el silencio del estuario ni el paseo de chalés de Salinas: es villa marinera metropolitana, con industria vecina en el trato.",
- "Encaja para quien quiera Gijón a unos quince minutos en tren desde una villa marinera, aceptando la central y la cementera como vecinos reales —no como detalle del mapa—.",
- ],
- tiempo: [
- "Candás suma unas 1.850 horas de sol y 42 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.000 milímetros en unos 145 días. La niebla es baja; el viento, bajo en la ficha climática, aunque el aire de Aboño depende de la dirección más que del número. El cielo sigue lejos de Baleares: unos 165 cubiertos y un invierno de mañanas grises.",
- "El verano ronda 19 °C, fresco frente a Baleares. Palmera, Carranques y Xivares tienen agua entre 19 y 21 °C; el baño corto es usable muchos días de agosto. Se gana frescura frente al Mediterráneo y se acepta un Cantábrico que no promete cielo de isla.",
- ],
- vivir: [
- "El invierno en casa se nota por el salitre del puerto y, hacia el oeste, por el aire de Aboño según el viento: niebla baja, mañanas grises y una terraza que en agosto parece el centro de la vida y en noviembre se usa a medias. Conviene probar un día con el viento que trae la central térmica y la cementera, no solo un sábado soleado en Palmera.",
- "Sin coche se sostiene lo básico en villa y el tren FEVE hacia Gijón —unos quince minutos— organiza muchos días mejor que el volante solo. Los servicios alcanzan 5/10 y hay fibra. En enero el ritmo vuelve a puerto y cercanías: vecinos, comercio de villa, no silencio de estuario. Xivares o la ciudad completa piden trayecto cuando hace falta.",
- "Conviven familias locales, gente que trabaja en Gijón y quienes eligieron orilla marinera sin mudarse al ensanche. Se oye asturiano en el puerto y castellano en el tren; el castellano basta para lo cotidiano. La vida social pasa por villa metropolitana —faro, playa, cercanías— más que por una plaza aislada. Entre semana manda el ir y venir; en verano Palmera y Carranques suben el volumen.",
- "La sanidad es cercana: el Hospital de Jove queda a unos diez minutos; Cabueñes, el público de Gijón, alrededor de veinte. Empadronarse aquí abre lo básico en villa; para especialidades se baja a Gijón en poco tiempo. Es sanidad metropolitana usable, no hospital en la misma calle que el faro.",
- "Ir y volver a Mallorca pide el aeropuerto de Asturias alrededor de los veinticinco minutos, con Palma en verano —peor que Salinas a diez, mejor que Gijón a treinta—. En invierno conviene mirar el calendario real de vuelos, no solo el de agosto en la orilla.",
- "La vivienda típica es piso o casa de villa junto al casco o al puerto, con poca obra nueva y fibra. Junto a la orilla hay que contar con salitre y ocupación de verano; hacia Aboño, el aire según el viento y la distancia real a la industria. Hay que imaginar la rutina con ese vecino industrial, no solo con el faro.",
- ],
- historia: [
- "El puerto, el faro y el Museo Antón explican Candás como villa marinera con capa de cultura local, pegada a Gijón. El oficio del mar y la cercanía a la ciudad marcan el carácter: no es una foto bonita aislada ni barrio dormitorio sin orilla.",
- "Aboño —central térmica y cementera— forma parte de la ficha honesta de vivir aquí: no es una foto bonita, es el vecino industrial del oeste de Carreño y del borde de Gijón. Lo que conviene saber combina puerto, tren y área metropolitana con industria pesada a la vista.",
- "Lo que queda para quien llega es esa tensión: faro y playa de diario, Gijón a quince minutos en cercanías, y un aire que cambia según el viento hacia la central.",
- ],
- fuera: [
- "Palmera y Carranques son las orillas de diario: playas de villa a pocos minutos, agua entre 19 y 21 °C, veraneo en agosto y ritmo más calmado el resto del año. El puerto y el faro permiten una tarde sin alejarse —piedra, barcos, horizonte cercano—.",
- "Xivares amplía playa hacia el oeste, ya en la lógica de costa abierta junto a la industria. Gijón cubre San Lorenzo, cultura y hospitales a un trayecto corto; Luanco aporta el Cabo Peñas hacia el noroeste.",
- "Cuando hay más tiempo, la ciudad de mar completa —Cimadevilla, el Muro, Poniente— queda a unos quince minutos en tren. El tiempo libre de Candás es orilla de villa primero; urbe y cabo, después.",
- ],
- casa: [
- "El casco y el entorno del puerto ofrecen pisos y viviendas de villa; hay poca obra nueva y fibra. Junto a la orilla hay que contar con salitre y ocupación de verano; hacia Aboño, el aire según el viento y la distancia real a la central.",
- "La referencia de precio actual está en la capa factual y en Idealista del mes; aquí no se fija una media municipal en prosa. 000 euros. Se compra villa marinera junto a Gijón; no se compra aire limpio garantizado todos los días hacia el oeste.",
- "Los servicios son 5/10. Jove queda a unos diez minutos; Cabueñes, alrededor de veinte. El aeropuerto de Asturias está a unos veinticinco minutos, con Palma en verano. El tren hacia Gijón organiza muchos días mejor que el coche solo.",
- ],
- encaja: {
- si: [
- "Encaja para quien quiera villa marinera junto a Gijón todo el año —puerto, faro, playas Palmera y Carranques a pocos minutos; Xivares hacia el oeste; Museo Antón— y priorice tren FEVE hacia la ciudad de mar frente al silencio del estuario. Un martes de noviembre se resuelve lo básico en villa: los servicios alcanzan 5/10 y hay fibra; Gijón queda a unos quince minutos en cercanías. Quien busque hospital cerca —Jove a unos diez minutos; Cabueñes, el público, alrededor de veinte— y orilla usable (agua entre 19 y 21 °C) encontrará aquí escala marinera metropolitana, no foto típica de Cudillero ni villa-paseo de Salinas. ",
- "El clima es cantábrico suave en la costa de Peñas: unas 1.850 horas de sol y 42 días despejados frente a las 2.800 horas y 120 jornadas claras de Mallorca; caen alrededor de 1.000 milímetros en unos 145 días, con niebla baja y viento bajo. El verano ronda 19 °C: se gana frescura frente a Baleares y se acepta cielo cubierto frecuente. En verano Palmera y Carranques reciben veraneo de villa junto a Gijón —toallas, tráfico, terrazas—; el resto del año el ritmo es de puerto y tren. Encaja quien acepte Aboño —central térmica y cementera al lado— como vecino industrial según el viento a cambio de esa cercanía a la ciudad y al mar de diario.",
- ],
- no: [
- "No encaja si el aire limpio junto a Aboño debe estar garantizado todos los días. La industria vecina es un tema real en Carreño y el oeste de Gijón; eso no se arregla eligiendo otra calle hacia Palmera. Tampoco si se busca villa-playa residencial lejos de la industria, como Salinas hacia Avilés, o el silencio barato de Muros: Candás es villa marinera metropolitana, con precio y carácter distintos.",
- "Tampoco si se necesita el cielo de Baleares o el aeropuerto a diez minutos. Aquí mandan cubierto (unos 165 días) y verano fresco; Asturias queda a unos veinticinco minutos, con Palma en verano. Quien se decida solo tras un sábado soleado en el puerto, sin probar un día con el viento de Aboño ni un martes de noviembre en villa, descubrirá el trato completo demasiado tarde.",
- ],
- veredicto:
- "Veredicto: Candás es villa marinera junto a Gijón, con Aboño en el trato. Buscaría tres habitaciones hacia el puerto o Palmera —alrededor de 193.000 euros en franja asequible—, tras probar un día con el viento de la industria y un agosto en la orilla. Se ganan Jove a diez minutos, tren a Gijón y playa de diario; se aceptan cielo cantábrico, servicios 5/10, aeropuerto a veinticinco y la central vecina.",
- },
+    escala: "Villa marinera conectada con Gijón",
+    abrir: [
+      "Candás funciona como una villa marinera con vida propia y una conexión estrecha con Gijón. Puerto, centro y playa quedan próximos, mientras el tren de ancho métrico añade una alternativa al coche para moverse por el eje costero.",
+      "La autonomía cotidiana es fuerte para su tamaño. Comercio y equipamientos locales permiten resolver bastante semana dentro de la villa; Gijón amplía oferta sin convertir Candás en un simple dormitorio.",
+    ],
+    tiempo: [
+      "Frente a Mallorca, aquí el año es más húmedo y fresco y el verano menos caluroso. Cerca del puerto y las playas conviene mirar salitre, viento, orientación y ventilación antes que quedarse solo con la cercanía al agua.",
+      "Palmera y Carranques permiten una relación cotidiana o parcial con el baño según la vivienda; Xivares amplía la costa hacia el oeste. El mar forma parte de la villa, no únicamente de una excursión.",
+    ],
+    vivir: [
+      "Una mañana puede transcurrir entre el puerto, el frente marítimo y el centro. La biblioteca y el Teatro Prendes amplían la vida local más allá del paseo, y el tren permite pensar algunos desplazamientos hacia Gijón sin depender siempre del coche.",
+      "La capa 2026 sitúa la capacidad de servicios por encima de la que reflejaba el relato antiguo. No hace falta convertirlo en una nota numérica: la consecuencia es que Candás mantiene una rutina anual bastante completa para una villa de esta escala.",
+      "La sanidad hospitalaria está fuera. Las fuentes internas conservan una discrepancia entre un tiempo histórico corto y la referencia práctica hacia Cabueñes; por eso el relato no fija un minuto único. Para hospital hay que salir, con Gijón como parte natural del mapa.",
+      "Aboño es el peaje territorial que no debe ocultarse. La actividad industrial al oeste forma parte del entorno y puede importar al elegir microzona; no es necesario atribuirle efectos concretos que las fuentes no documenten.",
+    ],
+    historia: [
+      "Puerto y faro mantienen la identidad marinera de Candás, mientras equipamientos culturales como el Museo Antón forman parte de una villa que conserva actividad más allá del verano.",
+      "La cercanía de Aboño introduce la otra cara del litoral de Carreño: costa habitada, comunicaciones e industria conviven en pocos kilómetros.",
+    ],
+    fuera: [
+      "Palmera y Carranques son las referencias inmediatas de playa; Xivares amplía el mapa costero. Gijón queda suficientemente conectado para convertirse en salida habitual de comercio, cultura y sanidad.",
+      "El tren es útil como conexión existente, pero no conviene prometer frecuencias o tiempos que la capa no documenta. La ventaja es disponer de otra opción además de la carretera.",
+    ],
+    casa: [
+      "En Candás conviene comprobar accesibilidad, distancia real al centro y al mar, aparcamiento, salitre y orientación. Hacia el oeste debe mirarse también la relación concreta de la vivienda con el entorno industrial.",
+      "Precio y estimaciones quedan en la capa factual. La vivienda se entiende mejor por calle y microzona que mediante antiguas medias narrativas.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca una villa pequeña con puerto, playa, servicios propios y conexión práctica con Gijón, sin necesitar vivir dentro de una gran ciudad.",
+        "También si se valora poder alternar coche y tren para parte de los desplazamientos y mantener una rutina anual local.",
+      ],
+      no: [
+        "Encaja peor si la cercanía de Aboño resulta incompatible con la vivienda buscada o si el hospital debe estar dentro de la propia villa.",
+        "Tampoco si se espera que toda la costa de Carreño tenga la misma autonomía peatonal que el centro de Candás.",
+      ],
+      veredicto:
+        "Candás combina una autonomía local fuerte con puerto, playa y conexión ferroviaria hacia Gijón. Su principal contrapartida es la convivencia territorial con Aboño y la necesidad de salir para hospital y oferta de gran ciudad; por eso la microzona concreta importa."
+    },
  fotosAbrir: [
  { src: "/fotos/asturias-centro/candas-puerto.jpg", pie: "Puerto de Candás" },
  { src: "/fotos/asturias-centro/candas-villa.jpg", pie: "Candás: villa marinera de Carreño" },
@@ -390,56 +342,48 @@ export const RELATOS_ASTURIAS_CENTRO: Record<string, RelatoMun> = {
  { src: "/fotos/asturias-centro/candas-palmera.jpg", pie: "Costa de Candás hacia el Pedrero" },
  ],
  creditoFotos: credito,
- },
+  },
 
   gijon: {
- escala: "Ciudad de mar",
- abrir: [
- "Gijón reúne unos doscientos setenta mil habitantes: San Lorenzo con el paseo del Muro, Cimadevilla —el barrio antiguo sobre el cerro—, Poniente, parques, universidad, cultura y comercio. Es la ciudad de mar completa y abierta de Asturias —no una villa—. El Cantábrico no queda al final de una excursión: acompaña el paseo urbano, la compra y la tarde de cualquier martes.",
- "Un martes de noviembre se resuelve todo en el municipio. Los servicios alcanzan 10/10: hospitales, súper, cultura, tren y calle viva sin depender del veraneo. Cabueñes y el Hospital de Jove quedan a unos cinco minutos. El aeropuerto de Asturias anda alrededor de los treinta minutos —el peor tiempo de la zona—, con Palma en verano.",
- "En verano San Lorenzo y Poniente reciben afluencia urbana: toallas, paseo lleno y tráfico. El resto del año Gijón mantiene ritmo de ciudad: familias, gente que trabaja aquí, estudiantes y quienes eligieron urbe junto al mar frente a villa pequeña. En el oeste, hacia Xivares y Aboño, el aire de industria es un matiz real según el viento.",
- "Para escala de casas bajas cerca de la playa, Somió —chalés a unos cinco minutos de la orilla— es la versión urbanización dentro del municipio, a precio alto. Quien quiera ciudad completa encontrará aquí la orilla más densa de Asturias Centro; quien busque silencio de estuario o foto típica de Cudillero mirará otro mapa.",
- "Las estaciones cambian la densidad de la playa más que el funcionamiento urbano. En invierno el Muro sigue abierto; en agosto San Lorenzo se llena; en cualquier mes hay calle, hospital y comercio. Gijón encaja para quien quiera ciudad; el aeropuerto a treinta minutos es el peaje logístico.",
- ],
- tiempo: [
- "Gijón registra unas 1.850 horas de sol y 45 días despejados —el extremo más claro de la zona—, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.000 milímetros en unos 145 días. La niebla es baja; el viento, bajo. Se gana algo de claridad respecto al estuario, pero siguen faltando casi mil horas de sol frente a Baleares —unos 162 cubiertos—.",
- "El verano ronda 19,5 °C, fresco frente a Baleares: se gana frescura y se acepta cielo cubierto frecuente. San Lorenzo y Poniente tienen agua entre 19 y 21 °C; el paseo urbano compensa muchos días de baño corto. El clima justifica la ciudad de mar, no la promesa de isla mediterránea.",
- ],
- vivir: [
- "El invierno en casa se nota por el salitre urbano y el cielo cubierto frecuente, no por un silencio de pueblo: el Muro sigue abierto, pero la terraza de San Lorenzo se usa a medias entre noviembre y febrero. Conviene preguntar por aislamiento, orientación y humedad en pisos junto a la orilla. Visitar un martes de noviembre urbano enseña más que un agosto soleado en el paseo.",
- "Sin coche la semana se resuelve: servicios 10/10, hospitales, súper, cultura, bus y tren. En enero Gijón mantiene ritmo de ciudad —calle viva, no dependencia del veraneo—. Somió —chalés a unos cinco minutos de la orilla— vuelve a pedir más vehículo; en el ensanche y Cimadevilla se puede vivir a pie.",
- "Conviven familias, gente que trabaja aquí, estudiantes y quienes eligieron urbe junto al mar. Se oye asturiano en el mercado y en Cimadevilla; el castellano basta para lo cotidiano, y la vida social es de ciudad —barrios, asociaciones, calle—, no de una sola plaza. Entre semana manda la densidad urbana; en verano San Lorenzo y Poniente se llenan; hacia Xivares y Aboño el aire de industria es un matiz según el viento.",
- "La sanidad es la más cercana de la zona: Cabueñes y el Hospital de Jove quedan a unos cinco minutos. Empadronarse aquí abre médico de cabecera y especialidades en el propio municipio. No es «lejos de Palma» en sentido de aislamiento sanitario: es ciudad de mar con hospital a la vuelta de la esquina.",
- "Mantener el vínculo con Mallorca es el peaje logístico: el aeropuerto de Asturias anda alrededor de los treinta minutos —el peor tiempo de Asturias Centro—, con Palma en verano. En invierno el trayecto sigue siendo ese; conviene mirar el calendario real de vuelos, no solo el de agosto en el Muro.",
- "La vivienda típica es piso de ciudad —hay obra nueva y fibra—; en Somió, chalé o casa baja a precio alto. Junto a San Lorenzo hay que contar con afluencia y salitre; tres habitaciones en primera línea urbana suelen quedar fuera de la franja asequible y entran a cinco o diez minutos de la playa. Hay que imaginar escaleras, ascensor y terraza de invierno, no solo metros de orilla.",
- ],
- historia: [
- "Cimadevilla —el barrio antiguo sobre el cerro—, San Lorenzo y el carácter de ciudad portuaria explican Gijón: urbe de mar con capas de industria, cultura y paseo. No es villa marinera pequeña ni estuario silencioso; es la escala completa del Cantábrico occidental en esta zona.",
- "La Senda del Cervigón, el Cerro de Santa Catalina, el Jardín Botánico Atlántico y el Parque de Isabel la Católica completan la ficha de ciudad caminable junto al Cantábrico: acantilado urbano, mirador y verde sin salir del municipio.",
- "Lo que queda para quien llega a vivir es esa densidad: playa urbana, barrio antiguo, ensanche y, en Somió, casas bajas a precio alto. Lo que conviene saber es de ciudad de mar, no de concejo pequeño.",
- ],
- fuera: [
- "San Lorenzo, el paseo del Muro y Cimadevilla son la tarde de diario: playa urbana de unos kilómetro y medio, cerro antiguo y calle que no se apaga en noviembre. Poniente amplía orilla hacia el oeste, con otro ritmo de paseo y baño.",
- "La Senda del Cervigón cierra acantilado urbano: caminata sobre el Cantábrico sin abandonar Gijón. El Cerro de Santa Catalina y los parques —Isabel la Católica, Jardín Botánico Atlántico— permiten tarde de verde y mirador dentro de la ciudad.",
- "Candás y Luanco aportan villa marinera a veinte o veinticinco minutos; Somió, casas bajas cerca de la playa dentro del municipio. El tiempo libre aquí puede ser baño urbano, senda de acantilado o tren hacia otra escala de costa —sin renunciar a la urbe—.",
- ],
- casa: [
- "Hay pisos de ciudad, obra nueva y fibra. Junto a San Lorenzo hay que contar con precio, afluencia y salitre; en Somió, chalés y casas bajas a precio alto. Tres habitaciones en primera línea urbana suelen quedar fuera de la franja asequible; entran a cinco o diez minutos de la playa.",
- "La referencia de precio actual está en la capa factual y en Idealista del mes; aquí no se fija una media municipal en prosa. 000 euros; tres habitaciones, alrededor de 269.000. La compra realista cerca del mar suele ser piso a unos minutos de la orilla, no primera línea barata.",
- "Los servicios son 10/10. Cabueñes y Jove quedan a unos cinco minutos. El aeropuerto de Asturias está a unos treinta minutos, con Palma en verano. La dependencia del coche es baja: la ciudad resuelve la semana a pie, en bus o en tren.",
- ],
- encaja: {
- si: [
- "Encaja para quien quiera ciudad de mar completa todo el año —San Lorenzo con el paseo del Muro, Cimadevilla, Poniente, parques, universidad, cultura y comercio— y priorice servicios 10/10 frente a villa pequeña. Un martes de noviembre se resuelve todo en el municipio: Cabueñes y Jove quedan a unos cinco minutos; la dependencia del coche es baja. Quien busque playa urbana usable (agua entre 19 y 21 °C), vida cultural y hospital a la vuelta de la esquina encontrará aquí la urbe abierta de Asturias, no un estuario silencioso ni un pueblo de foto turística. El precio es el más alto de la zona: suelen entrar a cinco o diez minutos de la playa, no en primera línea.",
- "El clima es el extremo más claro de Asturias Centro —unas 1.850 horas de sol y 45 días despejados—, pero sigue lejos de Mallorca (2.800 horas y 120 jornadas claras): caen alrededor de 1.000 milímetros en unos 145 días, con niebla baja y viento bajo. El verano ronda 19,5 °C: se gana frescura frente a Baleares y se acepta cielo cubierto frecuente; el paseo urbano compensa muchos días de baño corto. En verano San Lorenzo y Poniente reciben afluencia urbana; el resto del año Gijón mantiene ritmo de ciudad. Encaja también en Somió —chalés y casas bajas a unos cinco minutos de la orilla— quien busque escala de urbanización dentro del municipio, a cambio de metro caro y obra nueva disponible.",
- ],
- no: [
- "No encaja si se busca villa pequeña, estuario silencioso o el precio más bajo de estuario (Muros, Soto). Tampoco si tres habitaciones en primera línea de San Lorenzo deben entrar en franja asequible: esa tipología suele quedar fuera; la compra real asequible pide alejarse unos minutos de la orilla. El aeropuerto de Asturias queda a unos treinta minutos —peor tiempo de la zona—; Palma en verano, no todo el año.",
- "Tampoco si se necesita el sol de Baleares o aire limpio garantizado hacia el oeste. Gijón gana por ciudad, no por despejados (unos 162 cubiertos); hacia Xivares y Aboño el aire de industria es un matiz real según el viento. Quien se decida solo tras un agosto soleado en el Muro, sin probar un martes de noviembre urbano ni un día hacia el oeste con viento de Aboño, se llevará una ciudad distinta de la foto turística de playa.",
- ],
- veredicto:
- "Veredicto: Gijón es la ciudad de mar de Asturias Centro. Buscaría piso a cinco o diez minutos de San Lorenzo —o Somió si mandan casas bajas—, tras probar un agosto en el Muro y un día hacia el oeste con viento de Aboño. Se ganan servicios 10/10, hospital a cinco minutos y vida urbana junto al Cantábrico; se aceptan precio alto, cielo cantábrico y Asturias a treinta minutos.",
- },
+    escala: "Ciudad cantábrica frente al mar",
+    abrir: [
+      "Gijón no funciona como una villa costera ampliada, sino como una ciudad completa con el mar integrado en su estructura. San Lorenzo y el Muro, Cimavilla y Poniente forman parte de la vida urbana junto a barrios, comercio, cultura, sanidad y transporte.",
+      "La autonomía cotidiana es muy alta. En los barrios centrales se puede resolver gran parte de la semana sin coche; en zonas residenciales como Somió cambian distancias y dependencia. La microzona importa por precio, acceso y relación con la playa, pero no altera el carácter urbano de Gijón.",
+    ],
+    tiempo: [
+      "Frente a Mallorca, Gijón ofrece veranos mucho más frescos y un año más húmedo y gris. En primera línea pesan salitre, viento y exposición; en cualquier barrio, luz, aislamiento y ventilación siguen siendo cuestiones prácticas durante los meses húmedos.",
+      "San Lorenzo y Poniente son playas urbanas reales. El baño depende del Cantábrico y de la marea, pero el paseo marítimo y la relación con el agua permanecen incluso cuando no apetece entrar al mar.",
+    ],
+    vivir: [
+      "Una mañana normal puede unir recados, comercio y servicios con un tramo del Muro, Cimavilla o el paseo hacia el Piles. No hace falta convertir esa rutina en turismo: la costa está insertada en una ciudad que funciona durante todo el año.",
+      "La sanidad hospitalaria está dentro del propio sistema urbano, con Cabueñes y Jove como referencias. El aeropuerto de Asturias exige desplazamiento fuera de la ciudad; los vuelos a Palma dependen de la programación.",
+      "Ferrocarril y autobús amplían las conexiones, pero el relato no necesita prometer frecuencias concretas. Dentro de Gijón, la diferencia principal está entre barrios caminables y zonas residenciales donde el coche gana peso.",
+      "El verano llena más San Lorenzo y el centro, pero no redefine la ciudad. Gijón mantiene comercio, cultura, universidad y servicios durante todo el año. El peaje de esa funcionalidad es aceptar tráfico, densidad y un mercado de vivienda muy desigual por barrios.",
+    ],
+    historia: [
+      "Cimavilla y el cerro de Santa Catalina recuerdan el origen marítimo de la ciudad, mientras el crecimiento urbano ha extendido esa relación con el mar a un frente mucho mayor.",
+      "San Lorenzo y el Muro son infraestructura cotidiana además de imagen urbana. Poniente añade otra playa y otro paseo, y los parques completan una ciudad donde costa y espacio público están conectados.",
+    ],
+    fuera: [
+      "El propio frente urbano ofrece kilómetros de paseo sin necesidad de salir de Gijón. Cuando se quiere cambiar de escala aparecen la costa oriental y occidental, pero no son necesarias para tener mar en la semana.",
+      "Somió ofrece una experiencia residencial distinta, con casas y más dependencia del coche. Es una microzona a valorar por sí misma, no una representación de cómo se vive en los barrios centrales.",
+    ],
+    casa: [
+      "En el centro y barrios consolidados pesan ascensor, accesibilidad, luz, ruido, aislamiento y distancia real a servicios. Cerca del mar se añaden salitre y exposición; en Somió, acceso y coche.",
+      "Precio y estimaciones quedan en la capa factual. Gijón exige comparar barrios y calles, no aplicar una media de ciudad a viviendas con rutinas completamente diferentes.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere combinar ciudad completa con playa y paseo marítimo cotidianos, manteniendo sanidad, comercio y cultura dentro del mismo sistema urbano.",
+        "También si se prefiere poder elegir entre una rutina muy peatonal en barrios centrales y otra más residencial en microzonas exteriores.",
+      ],
+      no: [
+        "Encaja peor si se busca la escala y el silencio de una villa pequeña o si tráfico y densidad urbana pesan más que la autonomía que ofrecen.",
+        "Tampoco si se pretende encontrar una única experiencia de vivienda: Gijón cambia mucho entre primera línea, barrios interiores y Somió.",
+      ],
+      veredicto:
+        "Gijón es una ciudad completa con el Cantábrico incorporado a la vida diaria. Ofrece la mayor autonomía urbana de este bloque y playa a pie en buena parte del centro; a cambio, exige elegir bien barrio y vivienda para gestionar precio, tráfico, densidad y exposición marítima."
+    },
  fotosAbrir: [
  { src: "/fotos/asturias-centro/gijon-san-lorenzo.jpg", pie: "Playa de San Lorenzo, Gijón" },
  { src: "/fotos/asturias-centro/gijon-cimavilla.jpg", pie: "Cimadevilla, Gijón" },
@@ -453,5 +397,5 @@ export const RELATOS_ASTURIAS_CENTRO: Record<string, RelatoMun> = {
  { src: "/fotos/asturias-centro/gijon-somio.jpg", pie: "Somió, Gijón" },
  ],
  creditoFotos: credito,
- },
+  },
 };

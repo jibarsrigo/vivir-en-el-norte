@@ -159,7 +159,7 @@ export const RELATOS_ASTURIAS_OCCIDENTE: Record<string, RelatoMun> = {
       { src: "/fotos/asturias-occidente/navia-villa.jpg", pie: "Navia: villa de servicios junto a la ría" },
     ],
     fotosHistoria: [
-      { src: "/fotos/asturias-occidente/navia-puerto-vega.jpg", pie: "Puerto de Vega, núcleo marinero del concejo" },
+      { src: "/fotos/asturias-occidente/navia-vega.jpg", pie: "Puerto de Vega, núcleo marinero del concejo" },
     ],
     fotosFuera: [
       { src: "/fotos/asturias-occidente/navia-playa.jpg", pie: "Costa y playa en el entorno de Navia" },

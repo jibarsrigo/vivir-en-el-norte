@@ -2,71 +2,71 @@ import type { RelatoMun } from "@/components/RelatoMunicipio";
 
 export const RELATOS_O_MORRAZO: Record<string, RelatoMun> = {
   cangas: {
-    escala: "Villa marinera y parroquias de costa",
-    abrir: [
-      "Cangas se siente como dos mares en un solo municipio. Unos veintiséis mil habitantes: la villa marinera mira al interior de la ría de Vigo —la entrada de mar protegida por las Illas Cíes—; Aldán ocupa una ensenada propia de agua quieta al norte; O Hío —parroquia cuyo nombre oficial es Santo André do Hío— se extiende hacia la Costa da Vela, la punta atlántica de la península. Darbo cose el casco con las laderas. No se vive igual junto al mercado que en una casa baja de Aldán, aunque el puerto, las playas y el monte queden siempre cerca.",
-      "Quien vive aquí es gente local, vecinos de parroquia y veraneantes de Vigo y de fuera que vuelven cada agosto. Un martes de noviembre la plaza de abastos abre, el pequeño comercio sostiene el centro y el barco cruza a Vigo en unos veinte minutos: se compra, se va al centro de salud, se toma café junto a la dársena sin sacar el coche. En Aldán u O Hío la semana es más doméstica —casa, parroquia, trayectos cortos hasta la villa—; allí el coche resuelve la compra grande. La villa no cierra al terminar el verano.",
-      "El calendario entra de lleno en las calles. Durante la Semana Santa, declarada de interés turístico gallego, nueve procesiones atraviesan el casco; el Santo Encuentro del Viernes Santo y la procesión del Silencio a medianoche reúnen público y cortan el tráfico. El 16 de agosto la Danza de San Roque se baila ante la iglesia y el célebre cruceiro de O Hío; el último domingo de agosto, las fiestas del Cristo del Consuelo llenan Cangas. Vivir cerca del recorrido significa campanas, música, calles ocupadas y aparcamiento difícil, no solo una estampa folclórica.",
-      "Agosto amplifica todo: terrazas llenas, coches hacia Nerga y Barra, colas en la salida del corredor. La recompensa es una costa excepcional al final de cualquier tarde. En otoño regresan el paso tranquilo y los senderos vacíos; en invierno llueve con frecuencia, pero la villa mantiene lonja, mercado y barco. Si solo conoces un sábado de sol en Cabo Home, te llevas la imagen de folleto. Si has visto un noviembre y una noche de fiesta, ya puedes decidir si de verdad quieres vivir aquí.",
-      "Cangas permite elegir entre vida a pie en la villa y casa de parroquia sin perder el barco a Vigo. No resuelve, en cambio, su distancia al hospital: Montecelo, en Pontevedra, queda a unos treinta y cinco minutos. Ese dato no se arregla eligiendo otra calle.",
-    ],
-    tiempo: [
-      "Si vienes de Baleares, notará el cielo más gris y con menos sol que en Mallorca, no tanto el frío. Cangas suma unas 2.300 horas de sol y 72 días despejados al año; Mallorca ronda 2.800 horas y 120 días despejados. El invierno no es mucho más frío —la media se acerca a 10 °C—, pero sí bastante más gris: unos 1.500 milímetros de lluvia en 125 días, con trece a dieciséis jornadas húmedas al mes entre octubre y marzo. El mar suaviza las mínimas y la niebla suele ser baja.",
-      "El verano cambia el trato. La media ronda los 20 °C, las máximas habituales se quedan cerca de 25 °C y solo entre tres y seis días al año pasan de 30 °C: un julio mucho más fresco que el de Baleares. El agua oscila entre 17 y 20 °C: la ría de Aldán resulta más templada y quieta que Melide o Barra, playas abiertas hacia el Atlántico. Conviene venir un día de lluvia seria y un domingo de salida hacia las playas, no solo un sábado de sol en Cabo Home.",
-    ],
-    vivir: [
-      "El invierno en Cangas no se nota tanto en el termómetro como en la casa frente a la ría. En Mallorca muchas viviendas casi no piensan en calefacción ni en humedad; aquí caen unos 1.500 milímetros en 125 días y el salitre entra por la dársena. Conviene preguntar por aislamiento, orientación y moho. Una terraza que en agosto parece el centro de la vida, entre noviembre y febrero se usa la mitad o menos. Visitar el piso un día de lluvia seria y otro soleado enseña más que Cabo Home en foto típica.",
-      "El día a día sin coche funciona en la villa: mercado, centro de salud, comercio y barco a Vigo en unos veinte minutos. En Aldán u O Hío el coche resuelve la compra grande. En enero hay lonja, plaza de abastos y café junto a la dársena. La villa no cierra al terminar el verano; las parroquias son más domésticas.",
-      "Llegar de fuera es habitual: gente local, vecinos de parroquia y veraneantes de Vigo. Se oye gallego en el mercado; el castellano basta para lo cotidiano. Entre semana manda la vida cotidiana de villa marinera; en agosto terrazas y coches hacia Nerga y Barra. Quien busque solo veraneo encontrará ruido; quien busque vecinos todo el año, también —con otra escala que Mallorca.",
-      "La sanidad de urgencia y especialidades no está en el municipio: Montecelo, en Pontevedra, queda a unos treinta y cinco minutos. En Cangas hay centro de salud con urgencias y farmacias. Empadronarse abre el médico de cabecera local; para hospital se conduce. Ese dato no se arregla eligiendo otra calle ni el barco a Vigo: el ferry no resuelve una urgencia en coche.",
-      "Mantener el vínculo con Mallorca pasa por el avión. Vigo-Peinador está a unos cuarenta minutos; Santiago, con enlace a Palma durante casi todo el año, a unos setenta. En invierno conviene mirar el calendario real de vuelos. El barco a Vigo facilita ciudad, no el aeropuerto por sí solo.",
-      "En la villa predominan pisos útiles para mercado y barco a pie; en Aldán y O Hío, casas bajas con jardín y más coche. Hay fibra y algo de obra nueva en Cangas. Conviene revisar reforma, acceso, saneamiento y humedad en las parroquias, e imaginar escaleras y desniveles dentro de diez años.",
-    ],
-    historia: [
-      "Cangas creció de cara a la pesca y a la ría. Su excolegiata de Santiago, levantada entre los siglos XV y XVI, conserva la imagen barroca del Cristo del Consuelo de 1796; alrededor se formó un casco de calles estrechas, soportales y casas marineras. En 1617 un ataque de piratas berberiscos arrasó buena parte del núcleo: episodio que todavía asoma en la memoria local y explica por qué la villa mira al agua con oficio, no solo con foto típica.",
-      "O Hío guarda uno de los cruceiros barrocos más conocidos de Galicia. Ignacio Cerviño lo talló en 1872 como una narración en piedra de la historia cristiana. A sus pies se mantiene la Danza de San Roque o de los Peregrinos, interpretada cada 16 de agosto por veinte bailarines: no es un decorado recuperado para visitantes, sino una tradición transmitida entre generaciones.",
-      "Más al oeste, el Monte Facho de Donón conserva un castro y un santuario galaico-romano dedicado al dios Berobreo. Facho significa señal de fuego o atalaya: desde esta altura se dominaban la Costa da Vela, las Cíes y el océano. La pesca, el culto y la vigilancia explican la península mucho antes de que la carretera uniera sus playas.",
-    ],
-    fuera: [
-      "Si solo hay tiempo para un baño cerca, ese baño es Rodeira: arena protegida y paseo a un minuto de la villa. Areamilla queda al otro lado del casco. Para un baño aún más quieto van Menduíña y Areacova en Aldán, la pequeña ría del norte; para sentir el océano se sigue hacia Nerga, Viñó y Barra, arenales entre dunas. Barra tiene tradición naturista. Melide aparece junto a Cabo Home, ya expuesta a la boca de la ría. El agua en agosto anda entre diecisiete y veinte grados: fresca frente al Mediterráneo.",
-      "La gran caminata es la Costa da Vela, la costa occidental que termina en Cabo Home. Desde Donón se baja entre brezo hacia tres faros, con las Cíes a apenas tres kilómetros de mar. El Monte Facho añade castro, santuario y una vista completa de las dos orillas. Son senderos de viento y horizonte; en verano conviene llegar temprano porque los accesos y aparcamientos se llenan.",
-      "Aldán ofrece otro ritmo: molinos, bosques junto al arroyo y pequeñas playas de agua calma. El paseo marítimo de Cangas sirve para la vuelta diaria y el barco a Vigo convierte el mar en transporte público. El tiempo libre puede ir de un café en la villa a una tarde de baño o a una caminata atlántica sin salir del municipio.",
-    ],
-    casa: [
-      "En la villa predominan pisos en edificios bajos o medianos, útiles para tener mercado, barco y paseo a pie. Darbo mezcla viviendas recientes y casas en ladera. Aldán y O Hío ofrecen casas bajas, piedra, jardín y vistas, pero también carreteras estrechas y más dependencia del coche. Hay fibra y Cangas concentra la poca obra nueva de la comarca.",
-      "El precio medio ronda los 1.750 €/m². La franja asequible real para un piso de tres habitaciones se sitúa alrededor de 205.000 euros. En Aldán u O Hío, una casa con vistas puede empezar cerca de 180.000 y subir claramente según estado, terreno y cercanía al agua: esa es la franja media que exige revisar reforma, acceso, saneamiento y humedad, no una promesa de primera línea barata.",
-      "Los servicios alcanzan un 7/10: centro de salud con urgencias, mercado, supermercados, farmacias, colegios, institutos, pequeño cine y restauración. La debilidad es sanitaria: Montecelo queda a unos treinta y cinco minutos. Vigo-Peinador está a unos cuarenta; Santiago, con enlace a Palma durante casi todo el año, a unos setenta.",
-    ],
-    encaja: {
-      si: [
-        "Encaja si el mar y los senderos costeros deben organizar la semana. Desde la villa se baja andando a Rodeira; en Aldán —ría pequeña de agua quieta— se nada en calma; hacia O Hío y la Costa da Vela se recorren Cabo Home, Barra y el Monte Facho de Donón con las Cíes a tres kilómetros de mar. El barco pone Vigo a unos veinte minutos sin el puente de Rande: villa reconocible con ciudad grande al otro lado del agua. Un martes de noviembre hay mercado, café junto a la dársena y comercio abierto; el verano ronda máximas cerca de 25 °C con solo tres a seis días sobre 30 °C —mucho más fresco que Mallorca—, a cambio de unos 1.500 milímetros y 125 días de lluvia.",
-        "También encaja para quien quiera elegir escala dentro del mismo municipio: piso de tres habitaciones cerca del mercado y del barco (~205.000 euros en franja asequible a ~1.750 €/m²); casa baja y calas en Aldán; paisaje atlántico en O Hío. Servicios 7/10 —urgencias de centro de salud, mercado, colegios, restauración— y obra nueva relativa en la villa. Quien priorice el mejor litoral y el mejor senderismo costero de O Morrazo, aceptando hospital lejos, encontrará aquí la opción de mar de la península.",
-      ],
-      no: [
-        "No encaja si el hospital público debe quedar cerca. Montecelo está a unos treinta y cinco minutos; el puente de Rande puede añadir incertidumbre hacia Vigo. Marín reduce esa distancia a diez o quince minutos sin renunciar a playas de ría. Tampoco si se necesita ciudad a cinco minutos a pie: Pontevedra queda a 25–35 según tráfico.",
-        "Tampoco si el silencio de agosto es obligatorio. Veraneantes, coches hacia Nerga y Barra, Semana Santa con procesiones que cortan el casco y las fiestas del Cristo del Consuelo llenan calles y aparcamientos. Quien se decida solo tras un día de sol en Cabo Home, sin dormir una noche de fiesta ni un domingo de salida hacia las playas, se llevará una sorpresa. Bueu ofrece más calma; Moaña, más cara a Vigo con menos Costa da Vela.",
-      ],
-      veredicto:
-        "Veredicto: Cangas encaja como opción de mar y sendero de O Morrazo —piso caminable a mercado y barco en franja asequible, o casa en Aldán u O Hío solo tras comprobar acceso, humedad y tráfico de agosto—. Sobre todo si Rodeira, Aldán y Costa da Vela importan más que Montecelo a treinta y cinco. Probar agosto y un noviembre antes de comprar. Se ganan Vigo por mar, verano fresco frente a Mallorca y servicios 7/10; se aceptan 125 días de lluvia y sanidad lejos. Si mandan hospital y Pontevedra a diez, Marín; si calma y Ons, Bueu; si barco y paseo frente a Vigo, Moaña.",
-    },
-    fotoIdentidad: {
-      src: "/fotos/o-morrazo/cangas-identidad.jpg",
-      pie: "Cangas: casas del casco junto a la ría de Vigo, con el monte del Morrazo detrás",
-    },
-    fotosAbrir: [
-      { src: "/fotos/o-morrazo/cangas-villa.jpg", pie: "Cangas: villa, puerto y ría de Vigo" },
-      { src: "/fotos/o-morrazo/cangas-rodeira.jpg", pie: "Rodeira, la playa urbana junto al paseo" },
-    ],
-    fotosHistoria: [
-      { src: "/fotos/o-morrazo/cangas-hio-cruceiro.jpg", pie: "Cruceiro de O Hío, relato barroco tallado en piedra" },
-      { src: "/fotos/o-morrazo/cangas-facho.jpg", pie: "Monte Facho de Donón: castro, santuario y horizonte atlántico" },
-    ],
-    fotosFuera: [
-      { src: "/fotos/o-morrazo/cangas-cabo-home.jpg", pie: "Cabo Home y la Costa da Vela frente a las Cíes" },
-      { src: "/fotos/o-morrazo/cangas-aldan.jpg", pie: "Aldán: una ría pequeña de playas tranquilas" },
-    ],
-    creditoFotos: "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen).",
-  },
+ escala: "Villa marinera y parroquias de costa",
+ abrir: [
+ "Cangas se siente como dos mares en un solo municipio. Unos veintiséis mil habitantes: la villa marinera mira al interior de la ría de Vigo —la entrada de mar protegida por las Illas Cíes—; Aldán ocupa una ensenada propia de agua quieta al norte; O Hío —parroquia cuyo nombre oficial es Santo André do Hío— se extiende hacia la Costa da Vela, la punta atlántica de la península. Darbo cose el casco con las laderas. No se vive igual junto al mercado que en una casa baja de Aldán, aunque el puerto, las playas y el monte queden siempre cerca.",
+ "Quien vive aquí es gente local, vecinos de parroquia y veraneantes de Vigo y de fuera que vuelven cada agosto. Un martes de noviembre la plaza de abastos abre, el pequeño comercio sostiene el centro y el barco cruza a Vigo en unos veinte minutos: se compra, se va al centro de salud, se toma café junto a la dársena sin sacar el coche. En Aldán u O Hío la semana es más doméstica —casa, parroquia, trayectos cortos hasta la villa—; allí el coche resuelve la compra grande. La villa no cierra al terminar el verano.",
+ "El calendario entra de lleno en las calles. Durante la Semana Santa, declarada de interés turístico gallego, nueve procesiones atraviesan el casco; el Santo Encuentro del Viernes Santo y la procesión del Silencio a medianoche reúnen público y cortan el tráfico. El 16 de agosto la Danza de San Roque se baila ante la iglesia y el célebre cruceiro de O Hío; el último domingo de agosto, las fiestas del Cristo del Consuelo llenan Cangas. Vivir cerca del recorrido significa campanas, música, calles ocupadas y aparcamiento difícil, no solo una estampa folclórica.",
+ "Agosto amplifica todo: terrazas llenas, coches hacia Nerga y Barra, colas en la salida del corredor. La recompensa es una costa excepcional al final de cualquier tarde. En otoño regresan el paso tranquilo y los senderos vacíos; en invierno llueve con frecuencia, pero la villa mantiene lonja, mercado y barco. Si solo conoces un sábado de sol en Cabo Home, te llevas la imagen de folleto. Si has visto un noviembre y una noche de fiesta, ya puedes decidir si de verdad quieres vivir aquí.",
+ "Cangas permite elegir entre vida a pie en la villa y casa de parroquia sin perder el barco a Vigo. No resuelve, en cambio, su distancia al hospital: Montecelo, en Pontevedra, queda a unos treinta y cinco minutos. Ese dato no se arregla eligiendo otra calle.",
+ ],
+ tiempo: [
+ "Si vienes de Baleares, notará el cielo más gris y con menos sol que en Mallorca, no tanto el frío. Cangas suma unas 2.300 horas de sol y 72 días despejados al año; Mallorca ronda 2.800 horas y 120 días despejados. El invierno no es mucho más frío —la media se acerca a 10 °C—, pero sí bastante más gris: unos 1.500 milímetros de lluvia en 125 días, con trece a dieciséis jornadas húmedas al mes entre octubre y marzo. El mar suaviza las mínimas y la niebla suele ser baja.",
+ "El verano cambia el trato. La media ronda los 20 °C, las máximas habituales se quedan cerca de 25 °C y solo entre tres y seis días al año pasan de 30 °C: un julio mucho más fresco que el de Baleares. El agua oscila entre 17 y 20 °C: la ría de Aldán resulta más templada y quieta que Melide o Barra, playas abiertas hacia el Atlántico. Conviene venir un día de lluvia seria y un domingo de salida hacia las playas, no solo un sábado de sol en Cabo Home.",
+ ],
+ vivir: [
+ "El invierno en Cangas no se nota tanto en el termómetro como en la casa frente a la ría. En Mallorca muchas viviendas casi no piensan en calefacción ni en humedad; aquí caen unos 1.500 milímetros en 125 días y el salitre entra por la dársena. Conviene preguntar por aislamiento, orientación y moho. Una terraza que en agosto parece el centro de la vida, entre noviembre y febrero se usa la mitad o menos. Visitar el piso un día de lluvia seria y otro soleado enseña más que Cabo Home en foto típica.",
+ "El día a día sin coche funciona en la villa: mercado, centro de salud, comercio y barco a Vigo en unos veinte minutos. En Aldán u O Hío el coche resuelve la compra grande. En enero hay lonja, plaza de abastos y café junto a la dársena. La villa no cierra al terminar el verano; las parroquias son más domésticas.",
+ "Llegar de fuera es habitual: gente local, vecinos de parroquia y veraneantes de Vigo. Se oye gallego en el mercado; el castellano basta para lo cotidiano. Entre semana manda la vida cotidiana de villa marinera; en agosto terrazas y coches hacia Nerga y Barra. Quien busque solo veraneo encontrará ruido; quien busque vecinos todo el año, también —con otra escala que Mallorca.",
+ "La sanidad de urgencia y especialidades no está en el municipio: Montecelo, en Pontevedra, queda a unos treinta y cinco minutos. En Cangas hay centro de salud con urgencias y farmacias. Empadronarse abre el médico de cabecera local; para hospital se conduce. Ese dato no se arregla eligiendo otra calle ni el barco a Vigo: el ferry no resuelve una urgencia en coche.",
+ "Mantener el vínculo con Mallorca pasa por el avión. Vigo-Peinador está a unos cuarenta minutos; Santiago, con enlace a Palma durante casi todo el año, a unos setenta. En invierno conviene mirar el calendario real de vuelos. El barco a Vigo facilita ciudad, no el aeropuerto por sí solo.",
+ "En la villa predominan pisos útiles para mercado y barco a pie; en Aldán y O Hío, casas bajas con jardín y más coche. Hay fibra y algo de obra nueva en Cangas. Conviene revisar reforma, acceso, saneamiento y humedad en las parroquias, e imaginar escaleras y desniveles dentro de diez años.",
+ ],
+ historia: [
+ "Cangas creció de cara a la pesca y a la ría. Su excolegiata de Santiago, levantada entre los siglos XV y XVI, conserva la imagen barroca del Cristo del Consuelo de 1796; alrededor se formó un casco de calles estrechas, soportales y casas marineras. En 1617 un ataque de piratas berberiscos arrasó buena parte del núcleo: episodio que todavía asoma en la memoria local y explica por qué la villa mira al agua con oficio, no solo con foto típica.",
+ "O Hío guarda uno de los cruceiros barrocos más conocidos de Galicia. Ignacio Cerviño lo talló en 1872 como una narración en piedra de la historia cristiana. A sus pies se mantiene la Danza de San Roque o de los Peregrinos, interpretada cada 16 de agosto por veinte bailarines: no es un decorado recuperado para visitantes, sino una tradición transmitida entre generaciones.",
+ "Más al oeste, el Monte Facho de Donón conserva un castro y un santuario galaico-romano dedicado al dios Berobreo. Facho significa señal de fuego o atalaya: desde esta altura se dominaban la Costa da Vela, las Cíes y el océano. La pesca, el culto y la vigilancia explican la península mucho antes de que la carretera uniera sus playas.",
+ ],
+ fuera: [
+ "Si solo hay tiempo para un baño cerca, ese baño es Rodeira: arena protegida y paseo a un minuto de la villa. Areamilla queda al otro lado del casco. Para un baño aún más quieto van Menduíña y Areacova en Aldán, la pequeña ría del norte; para sentir el océano se sigue hacia Nerga, Viñó y Barra, arenales entre dunas. Barra tiene tradición naturista. Melide aparece junto a Cabo Home, ya expuesta a la boca de la ría. El agua en agosto anda entre diecisiete y veinte grados: fresca frente al Mediterráneo.",
+ "La gran caminata es la Costa da Vela, la costa occidental que termina en Cabo Home. Desde Donón se baja entre brezo hacia tres faros, con las Cíes a apenas tres kilómetros de mar. El Monte Facho añade castro, santuario y una vista completa de las dos orillas. Son senderos de viento y horizonte; en verano conviene llegar temprano porque los accesos y aparcamientos se llenan.",
+ "Aldán ofrece otro ritmo: molinos, bosques junto al arroyo y pequeñas playas de agua calma. El paseo marítimo de Cangas sirve para la vuelta diaria y el barco a Vigo convierte el mar en transporte público. El tiempo libre puede ir de un café en la villa a una tarde de baño o a una caminata atlántica sin salir del municipio.",
+ ],
+ casa: [
+ "En la villa predominan pisos en edificios bajos o medianos, útiles para tener mercado, barco y paseo a pie. Darbo mezcla viviendas recientes y casas en ladera. Aldán y O Hío ofrecen casas bajas, piedra, jardín y vistas, pero también carreteras estrechas y más dependencia del coche. Hay fibra y Cangas concentra la poca obra nueva de la comarca.",
+      "La referencia de precio actual está en la capa factual y en Idealista del mes; aquí no se fija una media municipal en prosa. En Aldán u O Hío, una casa con vistas cambia mucho según estado, terreno y cercanía al agua: esa franja media exige revisar reforma, acceso, saneamiento y humedad, no una promesa de primera línea barata.",
+ "Los servicios alcanzan un 7/10: centro de salud con urgencias, mercado, supermercados, farmacias, colegios, institutos, pequeño cine y restauración. La debilidad es sanitaria: Montecelo queda a unos treinta y cinco minutos. Vigo-Peinador está a unos cuarenta; Santiago, con enlace a Palma durante casi todo el año, a unos setenta.",
+ ],
+ encaja: {
+ si: [
+ "Encaja si el mar y los senderos costeros deben organizar la semana. Desde la villa se baja andando a Rodeira; en Aldán —ría pequeña de agua quieta— se nada en calma; hacia O Hío y la Costa da Vela se recorren Cabo Home, Barra y el Monte Facho de Donón con las Cíes a tres kilómetros de mar. El barco pone Vigo a unos veinte minutos sin el puente de Rande: villa reconocible con ciudad grande al otro lado del agua. Un martes de noviembre hay mercado, café junto a la dársena y comercio abierto; el verano ronda máximas cerca de 25 °C con solo tres a seis días sobre 30 °C —mucho más fresco que Mallorca—, a cambio de unos 1.500 milímetros y 125 días de lluvia.",
+ "También encaja para quien quiera elegir escala dentro del mismo municipio: piso de tres habitaciones cerca del mercado y del barco (~205.000 euros en franja asequible a ); casa baja y calas en Aldán; paisaje atlántico en O Hío. Servicios 7/10 —urgencias de centro de salud, mercado, colegios, restauración— y obra nueva relativa en la villa. Quien priorice el mejor litoral y el mejor senderismo costero de O Morrazo, aceptando hospital lejos, encontrará aquí la opción de mar de la península.",
+ ],
+ no: [
+ "No encaja si el hospital público debe quedar cerca. Montecelo está a unos treinta y cinco minutos; el puente de Rande puede añadir incertidumbre hacia Vigo. Marín reduce esa distancia a diez o quince minutos sin renunciar a playas de ría. Tampoco si se necesita ciudad a cinco minutos a pie: Pontevedra queda a 25–35 según tráfico.",
+ "Tampoco si el silencio de agosto es obligatorio. Veraneantes, coches hacia Nerga y Barra, Semana Santa con procesiones que cortan el casco y las fiestas del Cristo del Consuelo llenan calles y aparcamientos. Quien se decida solo tras un día de sol en Cabo Home, sin dormir una noche de fiesta ni un domingo de salida hacia las playas, se llevará una sorpresa. Bueu ofrece más calma; Moaña, más cara a Vigo con menos Costa da Vela.",
+ ],
+ veredicto:
+ "Veredicto: Cangas encaja como opción de mar y sendero de O Morrazo —piso caminable a mercado y barco en franja asequible, o casa en Aldán u O Hío solo tras comprobar acceso, humedad y tráfico de agosto—. Sobre todo si Rodeira, Aldán y Costa da Vela importan más que Montecelo a treinta y cinco. Probar agosto y un noviembre antes de comprar. Se ganan Vigo por mar, verano fresco frente a Mallorca y servicios 7/10; se aceptan 125 días de lluvia y sanidad lejos. Si mandan hospital y Pontevedra a diez, Marín; si calma y Ons, Bueu; si barco y paseo frente a Vigo, Moaña.",
+ },
+ fotoIdentidad: {
+ src: "/fotos/o-morrazo/cangas-identidad.jpg",
+ pie: "Cangas: casas del casco junto a la ría de Vigo, con el monte del Morrazo detrás",
+ },
+ fotosAbrir: [
+ { src: "/fotos/o-morrazo/cangas-villa.jpg", pie: "Cangas: villa, puerto y ría de Vigo" },
+ { src: "/fotos/o-morrazo/cangas-rodeira.jpg", pie: "Rodeira, la playa urbana junto al paseo" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/o-morrazo/cangas-hio-cruceiro.jpg", pie: "Cruceiro de O Hío, relato barroco tallado en piedra" },
+ { src: "/fotos/o-morrazo/cangas-facho.jpg", pie: "Monte Facho de Donón: castro, santuario y horizonte atlántico" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/o-morrazo/cangas-cabo-home.jpg", pie: "Cabo Home y la Costa da Vela frente a las Cíes" },
+ { src: "/fotos/o-morrazo/cangas-aldan.jpg", pie: "Aldán: una ría pequeña de playas tranquilas" },
+ ],
+ creditoFotos: "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen).",
+ },
 
   moana: {
     escala: "Villa lineal y parroquias",
@@ -136,67 +136,67 @@ export const RELATOS_O_MORRAZO: Record<string, RelatoMun> = {
   },
 
   bueu: {
-    escala: "Villa marinera tranquila",
-    abrir: [
-      "Bueu es la villa más pequeña y tranquila de O Morrazo, y se siente así desde el primer paseo junto al puerto. Unas doce mil personas alrededor de una dársena en la ría de Pontevedra, con la isla de Ons enfrente. Beluso prolonga la vida marinera hacia el oeste; Cela y Ermelo suben por las laderas; San Martiño ocupa el interior inmediato. El nombre de Bueu se pronuncia en una sola sílaba y designa tanto la villa como el municipio.",
-      "Quien vive aquí es gente local, gente de lonja y de conserva, y veraneantes que buscan una escala más contenida que Cangas. Un martes de noviembre hay mercado, centro de salud, supermercados, colegios y barcos trabajando. El Museo Massó abre una puerta a la salazón, a la caza de ballenas y a la navegación; el paseo permite hacer la tarde junto al puerto. Hay menos comercio que en Cangas o Marín, pero la villa no desaparece al terminar agosto.",
-      "El Corpus Christi, en fecha móvil entre mayo y junio, transforma las calles con alfombras de flores sobre las que pasa la procesión. La tradición está documentada desde el siglo XVII, fue revitalizada desde 2015 y obtuvo la declaración de Interés Turístico de Galicia en 2017. El 16 de julio llega la fiesta del Carmen, con misa y procesión vinculadas a la gente del mar. En ambos casos el centro corta tráfico, madruga para preparar la calle y recibe visitantes; una vivienda sobre el recorrido participa del ruido y de la belleza.",
-      "El verano añade el ferry a Ons, playas llenas y más mesas alrededor del puerto, pero Bueu conserva una escala contenida. En invierno vuelve el sonido de trabajo de la lonja y en otoño Cabo Udra queda casi vacío. Quien busque una costa de ría con vida propia, sin la intensidad de Cangas, entiende pronto el lugar.",
-      "Para compras mayores y hospital se sale hacia Pontevedra: Quirónsalud a unos veinticinco minutos, Montecelo a unos treinta. No hay barco diario a Vigo ni tren; el transporte depende de carretera. Quien se decida solo tras un día gris junto a la lonja, sin probar Corpus ni un domingo de Ons en temporada, puede equivocar la escala.",
-    ],
-    tiempo: [
-      "Bueu suma unas 2.300 horas de sol y 72 días despejados, unas quinientas horas y cuarenta y ocho jornadas claras menos que Mallorca. La media invernal ronda 10 °C; caen unos 1.500 milímetros repartidos en 125 días, con el tramo más húmedo entre octubre y marzo. El viento es bajo en la villa y sube al salir hacia Cabo Udra. Respecto a Baleares se pierde sol sobre todo en invierno; de junio a septiembre la terraza se usa.",
-      "De junio a septiembre la media ronda 20 °C, las máximas habituales se quedan cerca de 25 °C y solo tres o seis días al año superan los 30 °C. El verano es más corto y el agua, entre 17 y 20 °C, mucho más fresca que en Baleares. Las playas interiores de la ría suelen ser calmadas; las puntas reciben más brisa. Conviene venir un noviembre y un domingo de Ons en temporada, no solo un martes soleado junto al puerto.",
-    ],
-    vivir: [
-      "El invierno en Bueu se siente en la humedad del puerto y en el sonido de la lonja. En Mallorca muchas casas casi no piensan en calefacción ni en moho; aquí caen unos 1.500 milímetros en 125 días. Conviene revisar aislamiento, cubierta y ventilación en pisos antiguos. Visitar un noviembre junto al puerto enseña más que un día de sol mirando Ons.",
-      "El día a día sin coche funciona en la villa: mercado, centro de salud, supermercados y colegios. En Beluso, Cela o San Martiño el coche pesa más. En enero hay mercado, barcos trabajando y Museo Massó. Hay menos comercio que en Cangas o Marín, pero la villa no desaparece al terminar agosto.",
-      "Llegar de fuera suele buscar una escala más contenida que Cangas: gente local de lonja y conserva, y veraneantes contenidos. Se oye gallego en el puerto; el castellano basta para lo cotidiano. Entre semana manda el oficio; en Corpus las alfombras de flores cortan el centro. Quien busque solo silencio absoluto debe medir esas fechas.",
-      "La sanidad de urgencia y especialidades no está en el municipio: Quirónsalud Pontevedra queda a unos veinticinco minutos; Montecelo, a unos treinta. En Bueu hay centro de salud y farmacias. Empadronarse abre lo local; para hospital se sale por carretera —no hay barco diario a Vigo ni tren—.",
-      "Mantener el vínculo con Mallorca pasa por el avión. Vigo-Peinador está a unos cuarenta y cinco minutos; Santiago, con mejor continuidad hacia Palma, a unos sesenta y cinco. En invierno conviene mirar el calendario real de vuelos. La logística depende de carretera.",
-      "La villa ofrece pisos cerca del mercado y del puerto; Beluso, casas en ladera; Cela y San Martiño, más terreno a cambio de coche. Poca obra nueva: hay que mirar ascensor, aislamiento y cubierta. Conviene confirmar fibra en dirección apartada y presupuestar humedad además de la vista a la ría.",
-    ],
-    historia: [
-      "La historia de Bueu cabe en una ánfora. En el municipio se fabricaron recipientes durante época romana para transportar productos, entre ellos salazones; piezas de tipos propios de San Martiño de Bueu aparecieron en yacimientos del noroeste peninsular. La relación entre costa, pescado y comercio viene de mucho antes de la fábrica moderna.",
-      "La familia Massó abrió en el siglo XIX una industria de salazón y conserva que terminó marcando la villa. Parte de aquel universo se conserva en el Museo Massó: embarcaciones, instrumentos de navegación, libros, maquinaria y memoria de la pesca ballenera. El puerto actual y las antiguas naves permiten leer Bueu como lugar de trabajo, no solo como acceso a una playa.",
-      "La isla de Ons, hoy dentro del Parque Nacional das Illas Atlánticas, pertenece administrativamente a Bueu. Ons conserva faro, aldea y caminos sobre acantilados; su nombre identifica una isla habitada frente a la boca de la ría. La conexión estacional desde el puerto vuelve esa geografía parte del calendario local.",
-    ],
-    fuera: [
-      "Beluso es puerto y playa a unos cinco minutos de la villa. Area de Bon y Portomaior ofrecen arenales de ría entre roca y vegetación; Lapamán se comparte visualmente con la costa de Marín. Son playas de agua habitualmente tranquila, entre 17 y 20 °C. En agosto el aparcamiento se llena antes que la arena parezca llena desde lejos.",
-      "Cabo Udra —cabo es la punta de tierra y Udra su topónimo— protege una senda circular sobre el mar, entre granito, brezo y calas. Desde sus alturas se mira hacia Ons y la ría de Pontevedra. Es una caminata más corta y doméstica que la Costa da Vela, adecuada para una tarde sin abandonar el municipio.",
-      "El barco de verano lleva a Ons. Allí se camina hasta el faro, se bordea el acantilado del Buraco do Inferno —una profunda abertura marina cuyo nombre significa agujero del infierno— y se vuelve al puerto. Fuera de temporada, el paseo de Bueu y la senda de Udra sostienen la relación diaria con el agua.",
-    ],
-    casa: [
-      "La villa ofrece pisos cerca del mercado y del puerto; Beluso, casas en ladera y viviendas marineras; Cela y San Martiño, más terreno a cambio de coche. La poca obra nueva obliga a mirar bien ascensor, aislamiento y estado de cubierta. La fibra está disponible, pero en una casa apartada conviene confirmar la dirección.",
-      "El precio medio ronda los 1.500 €/m². Un piso de tres habitaciones en la franja asequible se sitúa alrededor de 176.000 euros. La franja media aparece en pisos reformados con vista a la ría o casas hacia Beluso y Cela; el terreno, la reforma y el acceso hay que contar con más que el promedio.",
-      "Los servicios alcanzan 5/10: centro de salud, farmacias, supermercados, mercado, colegios, instituto, biblioteca, restauración y puerto. Quirónsalud Pontevedra queda a unos veinticinco minutos y Montecelo a unos treinta. Vigo-Peinador está a unos cuarenta y cinco minutos; Santiago, con mejor continuidad hacia Palma, a unos sesenta y cinco.",
-    ],
-    encaja: {
-      si: [
-        "Encaja si se busca la costa más tranquila de O Morrazo: villa pequeña alrededor del puerto, Beluso a cinco minutos, Cabo Udra —senda circular sobre granito y brezo— y la isla de Ons enfrente como horizonte. Un martes de noviembre hay mercado, lonja, Museo Massó y paseo sin la intensidad de Cangas. El ferry estival a Ons convierte el parque nacional en tarde posible; fuera de temporada, Udra y el puerto sostienen la relación diaria con el agua. El verano ronda máximas cerca de 25 °C con solo tres a seis días sobre 30 °C —mucho más fresco que Mallorca—, a cambio de unos 1.500 milímetros y 125 días de lluvia.",
-        "También encaja si basta una escala de servicios básica (5/10) y Pontevedra puede quedar a unos veinticinco minutos. Tres habitaciones en franja asequible rondan 176.000 euros a ~1.500 €/m² —más amable que Cangas—. Quirónsalud a unos veinticinco; Montecelo a unos treinta. Quien priorice calma marinera, Ons y playas de ría (Lapamán, Area de Bon, Beluso) frente a barco a Vigo o Costa da Vela completa encontrará aquí la opción quieta de la península.",
-      ],
-      no: [
-        "No encaja si se necesita hospital claramente por debajo de media hora o una ciudad al lado. No hay barco diario a Vigo ni tren; el transporte depende de carretera. Tampoco si se quiere mucha obra nueva, cultura amplia o compras grandes: Bueu resuelve la semana básica y gana por silencio, no por amplitud.",
-        "Tampoco si el calendario festivo debe pasar desapercibido del todo. El Corpus Christi —alfombras de flores, Interés Turístico de Galicia— y el Carmen cortan el centro y reciben visitantes. Agosto añade ferry, playas llenas y más mesas; sigue siendo más contenido que Cangas, pero no es noviembre. Quien se decida solo tras un día gris junto a la lonja, sin probar Corpus ni un domingo de Ons en temporada, puede equivocar la escala. Moaña ofrece Vigo por mar; Marín, sanidad a diez.",
-      ],
-      veredicto:
-        "Veredicto: Bueu encaja como calma, mar y Ons —piso de tres habitaciones caminable a mercado y puerto en franja asequible, o casa hacia Beluso tras comprobar acceso y reforma—. Sobre todo si silencio fuera del calendario festivo importa más que Costa da Vela o hospital a diez. Probar agosto y un noviembre antes de comprar. Se ganan ~1.500 €/m², Udra y ferry estival; se aceptan servicios 5/10, hospital a 25–30 y lluvia honesta. Si mandan mar y senderos atlánticos, Cangas; si Vigo por barco, Moaña; si Montecelo y ciudad, Marín.",
-    },
-    fotosAbrir: [
-      { src: "/fotos/o-morrazo/bueu-villa.jpg", pie: "Biblioteca municipal de Bueu, uno de los servicios del centro" },
-      { src: "/fotos/o-morrazo/bueu-puerto.jpg", pie: "El puerto, centro de trabajo y paseo" },
-    ],
-    fotosHistoria: [
-      { src: "/fotos/o-morrazo/bueu-masso.jpg", pie: "Museo Massó: conserva, navegación y memoria industrial" },
-      { src: "/fotos/o-morrazo/bueu-ons.jpg", pie: "La isla de Ons, territorio insular del municipio" },
-    ],
-    fotosFuera: [
-      { src: "/fotos/o-morrazo/bueu-cabo-udra.jpg", pie: "Antigua batería costera de Cabo Udra sobre la ría" },
-      { src: "/fotos/o-morrazo/bueu-beluso.jpg", pie: "Beluso, puerto y playa al oeste de la villa" },
-    ],
-    creditoFotos: "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen).",
-  },
+ escala: "Villa marinera tranquila",
+ abrir: [
+ "Bueu es la villa más pequeña y tranquila de O Morrazo, y se siente así desde el primer paseo junto al puerto. Unas doce mil personas alrededor de una dársena en la ría de Pontevedra, con la isla de Ons enfrente. Beluso prolonga la vida marinera hacia el oeste; Cela y Ermelo suben por las laderas; San Martiño ocupa el interior inmediato. El nombre de Bueu se pronuncia en una sola sílaba y designa tanto la villa como el municipio.",
+ "Quien vive aquí es gente local, gente de lonja y de conserva, y veraneantes que buscan una escala más contenida que Cangas. Un martes de noviembre hay mercado, centro de salud, supermercados, colegios y barcos trabajando. El Museo Massó abre una puerta a la salazón, a la caza de ballenas y a la navegación; el paseo permite hacer la tarde junto al puerto. Hay menos comercio que en Cangas o Marín, pero la villa no desaparece al terminar agosto.",
+ "El Corpus Christi, en fecha móvil entre mayo y junio, transforma las calles con alfombras de flores sobre las que pasa la procesión. La tradición está documentada desde el siglo XVII, fue revitalizada desde 2015 y obtuvo la declaración de Interés Turístico de Galicia en 2017. El 16 de julio llega la fiesta del Carmen, con misa y procesión vinculadas a la gente del mar. En ambos casos el centro corta tráfico, madruga para preparar la calle y recibe visitantes; una vivienda sobre el recorrido participa del ruido y de la belleza.",
+ "El verano añade el ferry a Ons, playas llenas y más mesas alrededor del puerto, pero Bueu conserva una escala contenida. En invierno vuelve el sonido de trabajo de la lonja y en otoño Cabo Udra queda casi vacío. Quien busque una costa de ría con vida propia, sin la intensidad de Cangas, entiende pronto el lugar.",
+ "Para compras mayores y hospital se sale hacia Pontevedra: Quirónsalud a unos veinticinco minutos, Montecelo a unos treinta. No hay barco diario a Vigo ni tren; el transporte depende de carretera. Quien se decida solo tras un día gris junto a la lonja, sin probar Corpus ni un domingo de Ons en temporada, puede equivocar la escala.",
+ ],
+ tiempo: [
+ "Bueu suma unas 2.300 horas de sol y 72 días despejados, unas quinientas horas y cuarenta y ocho jornadas claras menos que Mallorca. La media invernal ronda 10 °C; caen unos 1.500 milímetros repartidos en 125 días, con el tramo más húmedo entre octubre y marzo. El viento es bajo en la villa y sube al salir hacia Cabo Udra. Respecto a Baleares se pierde sol sobre todo en invierno; de junio a septiembre la terraza se usa.",
+ "De junio a septiembre la media ronda 20 °C, las máximas habituales se quedan cerca de 25 °C y solo tres o seis días al año superan los 30 °C. El verano es más corto y el agua, entre 17 y 20 °C, mucho más fresca que en Baleares. Las playas interiores de la ría suelen ser calmadas; las puntas reciben más brisa. Conviene venir un noviembre y un domingo de Ons en temporada, no solo un martes soleado junto al puerto.",
+ ],
+ vivir: [
+ "El invierno en Bueu se siente en la humedad del puerto y en el sonido de la lonja. En Mallorca muchas casas casi no piensan en calefacción ni en moho; aquí caen unos 1.500 milímetros en 125 días. Conviene revisar aislamiento, cubierta y ventilación en pisos antiguos. Visitar un noviembre junto al puerto enseña más que un día de sol mirando Ons.",
+ "El día a día sin coche funciona en la villa: mercado, centro de salud, supermercados y colegios. En Beluso, Cela o San Martiño el coche pesa más. En enero hay mercado, barcos trabajando y Museo Massó. Hay menos comercio que en Cangas o Marín, pero la villa no desaparece al terminar agosto.",
+ "Llegar de fuera suele buscar una escala más contenida que Cangas: gente local de lonja y conserva, y veraneantes contenidos. Se oye gallego en el puerto; el castellano basta para lo cotidiano. Entre semana manda el oficio; en Corpus las alfombras de flores cortan el centro. Quien busque solo silencio absoluto debe medir esas fechas.",
+ "La sanidad de urgencia y especialidades no está en el municipio: Quirónsalud Pontevedra queda a unos veinticinco minutos; Montecelo, a unos treinta. En Bueu hay centro de salud y farmacias. Empadronarse abre lo local; para hospital se sale por carretera —no hay barco diario a Vigo ni tren—.",
+ "Mantener el vínculo con Mallorca pasa por el avión. Vigo-Peinador está a unos cuarenta y cinco minutos; Santiago, con mejor continuidad hacia Palma, a unos sesenta y cinco. En invierno conviene mirar el calendario real de vuelos. La logística depende de carretera.",
+ "La villa ofrece pisos cerca del mercado y del puerto; Beluso, casas en ladera; Cela y San Martiño, más terreno a cambio de coche. Poca obra nueva: hay que mirar ascensor, aislamiento y cubierta. Conviene confirmar fibra en dirección apartada y presupuestar humedad además de la vista a la ría.",
+ ],
+ historia: [
+ "La historia de Bueu cabe en una ánfora. En el municipio se fabricaron recipientes durante época romana para transportar productos, entre ellos salazones; piezas de tipos propios de San Martiño de Bueu aparecieron en yacimientos del noroeste peninsular. La relación entre costa, pescado y comercio viene de mucho antes de la fábrica moderna.",
+ "La familia Massó abrió en el siglo XIX una industria de salazón y conserva que terminó marcando la villa. Parte de aquel universo se conserva en el Museo Massó: embarcaciones, instrumentos de navegación, libros, maquinaria y memoria de la pesca ballenera. El puerto actual y las antiguas naves permiten leer Bueu como lugar de trabajo, no solo como acceso a una playa.",
+ "La isla de Ons, hoy dentro del Parque Nacional das Illas Atlánticas, pertenece administrativamente a Bueu. Ons conserva faro, aldea y caminos sobre acantilados; su nombre identifica una isla habitada frente a la boca de la ría. La conexión estacional desde el puerto vuelve esa geografía parte del calendario local.",
+ ],
+ fuera: [
+ "Beluso es puerto y playa a unos cinco minutos de la villa. Area de Bon y Portomaior ofrecen arenales de ría entre roca y vegetación; Lapamán se comparte visualmente con la costa de Marín. Son playas de agua habitualmente tranquila, entre 17 y 20 °C. En agosto el aparcamiento se llena antes que la arena parezca llena desde lejos.",
+ "Cabo Udra —cabo es la punta de tierra y Udra su topónimo— protege una senda circular sobre el mar, entre granito, brezo y calas. Desde sus alturas se mira hacia Ons y la ría de Pontevedra. Es una caminata más corta y doméstica que la Costa da Vela, adecuada para una tarde sin abandonar el municipio.",
+ "El barco de verano lleva a Ons. Allí se camina hasta el faro, se bordea el acantilado del Buraco do Inferno —una profunda abertura marina cuyo nombre significa agujero del infierno— y se vuelve al puerto. Fuera de temporada, el paseo de Bueu y la senda de Udra sostienen la relación diaria con el agua.",
+ ],
+ casa: [
+ "La villa ofrece pisos cerca del mercado y del puerto; Beluso, casas en ladera y viviendas marineras; Cela y San Martiño, más terreno a cambio de coche. La poca obra nueva obliga a mirar bien ascensor, aislamiento y estado de cubierta. La fibra está disponible, pero en una casa apartada conviene confirmar la dirección.",
+      "La referencia de precio actual está en la capa factual y en Idealista del mes; aquí no se fija una media municipal en prosa. La franja media aparece en pisos reformados con vista a la ría o casas hacia Beluso y Cela; el terreno, la reforma y el acceso hay que contar con más que el promedio.",
+ "Los servicios alcanzan 5/10: centro de salud, farmacias, supermercados, mercado, colegios, instituto, biblioteca, restauración y puerto. Quirónsalud Pontevedra queda a unos veinticinco minutos y Montecelo a unos treinta. Vigo-Peinador está a unos cuarenta y cinco minutos; Santiago, con mejor continuidad hacia Palma, a unos sesenta y cinco.",
+ ],
+ encaja: {
+ si: [
+ "Encaja si se busca la costa más tranquila de O Morrazo: villa pequeña alrededor del puerto, Beluso a cinco minutos, Cabo Udra —senda circular sobre granito y brezo— y la isla de Ons enfrente como horizonte. Un martes de noviembre hay mercado, lonja, Museo Massó y paseo sin la intensidad de Cangas. El ferry estival a Ons convierte el parque nacional en tarde posible; fuera de temporada, Udra y el puerto sostienen la relación diaria con el agua. El verano ronda máximas cerca de 25 °C con solo tres a seis días sobre 30 °C —mucho más fresco que Mallorca—, a cambio de unos 1.500 milímetros y 125 días de lluvia.",
+ "También encaja si basta una escala de servicios básica (5/10) y Pontevedra puede quedar a unos veinticinco minutos. Tres habitaciones en franja asequible rondan 176.000 euros a —más amable que Cangas—. Quirónsalud a unos veinticinco; Montecelo a unos treinta. Quien priorice calma marinera, Ons y playas de ría (Lapamán, Area de Bon, Beluso) frente a barco a Vigo o Costa da Vela completa encontrará aquí la opción quieta de la península.",
+ ],
+ no: [
+ "No encaja si se necesita hospital claramente por debajo de media hora o una ciudad al lado. No hay barco diario a Vigo ni tren; el transporte depende de carretera. Tampoco si se quiere mucha obra nueva, cultura amplia o compras grandes: Bueu resuelve la semana básica y gana por silencio, no por amplitud.",
+ "Tampoco si el calendario festivo debe pasar desapercibido del todo. El Corpus Christi —alfombras de flores, Interés Turístico de Galicia— y el Carmen cortan el centro y reciben visitantes. Agosto añade ferry, playas llenas y más mesas; sigue siendo más contenido que Cangas, pero no es noviembre. Quien se decida solo tras un día gris junto a la lonja, sin probar Corpus ni un domingo de Ons en temporada, puede equivocar la escala. Moaña ofrece Vigo por mar; Marín, sanidad a diez.",
+ ],
+ veredicto:
+ "Veredicto: Bueu encaja como calma, mar y Ons —piso de tres habitaciones caminable a mercado y puerto en franja asequible, o casa hacia Beluso tras comprobar acceso y reforma—. Sobre todo si silencio fuera del calendario festivo importa más que Costa da Vela o hospital a diez. Probar agosto y un noviembre antes de comprar. Se ganan, Udra y ferry estival; se aceptan servicios 5/10, hospital a 25–30 y lluvia honesta. Si mandan mar y senderos atlánticos, Cangas; si Vigo por barco, Moaña; si Montecelo y ciudad, Marín.",
+ },
+ fotosAbrir: [
+ { src: "/fotos/o-morrazo/bueu-villa.jpg", pie: "Biblioteca municipal de Bueu, uno de los servicios del centro" },
+ { src: "/fotos/o-morrazo/bueu-puerto.jpg", pie: "El puerto, centro de trabajo y paseo" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/o-morrazo/bueu-masso.jpg", pie: "Museo Massó: conserva, navegación y memoria industrial" },
+ { src: "/fotos/o-morrazo/bueu-ons.jpg", pie: "La isla de Ons, territorio insular del municipio" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/o-morrazo/bueu-cabo-udra.jpg", pie: "Antigua batería costera de Cabo Udra sobre la ría" },
+ { src: "/fotos/o-morrazo/bueu-beluso.jpg", pie: "Beluso, puerto y playa al oeste de la villa" },
+ ],
+ creditoFotos: "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen).",
+ },
 
   marin: {
     escala: "Villa portuaria y costa residencial",

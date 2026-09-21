@@ -1,41 +1,25 @@
 # Tabla maestra 2026 — referencia de QA
 
-Este directorio guarda la **tabla maestra estructurada** usada para auditoría y contraste con la web. No es un origen que Cursor deba volcar solo a CSV, JSON o relatos.
+## Referencia activa: v15 candidata final corregida
 
-## Referencia activa: v2 COMPLETA
+**Archivo activo:** `TABLA_MAESTRA_VIVIR_EN_EL_NORTE_2026_v15_CANDIDATA_FINAL_CORREGIDA.xlsx`
 
-**Archivo activo:** `TABLA_MAESTRA_VIVIR_EN_EL_NORTE_2026_v2_COMPLETA.xlsx`
+- 83 lugares / 16 zonas; 54 columnas históricas + 34 nuevas = 88.
+- Fuente maestra de referencia **auditada** para los siguientes bloques.
+- **No** significa que la web esté ya sincronizada con v15.
+- Vacío / `PENDIENTE` / `n.d.` no se inventa. Cursor no modifica el XLSX por iniciativa propia.
+- Cualquier corrección de contenido se hace **primero** en la tabla maestra y después se propaga con un bloque separado y revisado.
 
-- Es la referencia de estructura y trazabilidad.
-- Conserva **todas las columnas históricas** disponibles (54) y añade la **capa 2026** (34 columnas nuevas; 88 en total).
-- Las columnas históricas sirven para **trazabilidad y contraste**, no como precedencia automática sobre la web ni sobre el MASTER de investigación.
-- Un valor vacío, `PENDIENTE`, `n.d.` o equivalente **no se inventa** ni se rellena por inferencia.
-- Cursor **no modifica** datos maestros por iniciativa propia.
-- **Ninguna propagación a la web** está autorizada solo por existir este archivo: los cambios de producto se harán con instrucciones específicas por bloques.
+## Histórico (trazabilidad)
 
-## Histórico: v1 (superseded)
+| Archivo | Rol |
+|---|---|
+| `..._v15_CANDIDATA_FINAL_CORREGIDA.xlsx` | Referencia activa / candidata final auditada |
+| `..._v2_COMPLETA.xlsx` | Histórica / provisional anterior |
+| `..._v1.xlsx` | Prototipo / histórico de la primera estructuración |
 
-**Archivo histórico:** `TABLA_MAESTRA_VIVIR_EN_EL_NORTE_2026_v1.xlsx`
+No usar v1 ni v2 para sincronizar la web. Las versiones intermedias (v3–v14) no se incorporan al repo.
 
-- Queda **únicamente** como registro de la primera estructuración (v1 simplificada).
-- **No debe usarse** para sincronizar la web ni como fuente de verdad frente a v2.
+## Límites
 
-## Campos legacy / históricos
-
-Proceden de la tabla / CSV histórico. Son trazabilidad, no dato final automático. No deben propagarse como verdad sin instrucción explícita de validación.
-
-## Quién edita el XLSX
-
-Cursor **no debe editar** estos ficheros por iniciativa propia. Los cambios de contenido se hacen fuera (o con instrucciones concretas) y se sustituye el archivo de forma deliberada.
-
-## Contradicciones
-
-Si el QA o un contraste con fichas/JSON/relatos encuentra discrepancias, **se reportan** antes de propagar nada a la web.
-
-## Límites de esta hoja
-
-El MASTER íntegro de investigación y los textos definitivos de zona/municipio tienen contexto (prosa, matices, fuentes) que esta hoja **no pretende sustituir**.
-
-## Cómo se actualiza el producto
-
-Los cambios de datos en JSON, CSV, componentes o relatos se harán **más adelante**, mediante instrucciones específicas por bloques — no desde esta v2 de forma masiva.
+El MASTER íntegro de investigación y los textos de zona/municipio tienen contexto que esta hoja no sustituye. La propagación a JSON/CSV/relatos/web **no** está autorizada solo por existir v15.

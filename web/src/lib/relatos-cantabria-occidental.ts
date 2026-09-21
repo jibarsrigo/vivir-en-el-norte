@@ -4,53 +4,44 @@ const credito = "Fotos: Wikimedia Commons (licencias indicadas en los archivos d
 
 export const RELATOS_CANTABRIA_OCCIDENTAL: Record<string, RelatoMun> = {
   "san-vicente-de-la-barquera": {
- escala: "Villa marinera y ría",
- abrir: [
- "San Vicente de la Barquera se siente como la imagen que Cantabria enseña al visitante: unos cuatro mil habitantes, villa marinera con castillo sobre la peña, iglesia gótica de Santa María de los Ángeles, el puente de la Maza —el viaducto largo sobre la ría— y, al fondo, los Picos de Europa cuando el cielo abre. La ría no es adorno: es el paisaje de cada tarde. Merón —playa de unos cuatro kilómetros de arena abierta— queda a un paso; Oyambre —parque natural de dunas, prados y orilla batida— completa el arco hacia Comillas. Es orilla de villa y ría, no de ciudad.",
- "Quien vive aquí es gente de la villa, de la lonja y del turismo, y veraneantes que vuelven cada agosto. Un martes de noviembre el casco no se apaga del todo: hay mesas, farmacia, lo básico a pie. Los servicios son 5/10 —villa turística de tamaño pequeño; falta comercio grande y hospital cerca—. Sierrallana, el hospital público de Torrelavega, queda a unos cuarenta minutos; Santa Clotilde, en Santander, hacia los cincuenta y cinco. El aeropuerto de Santander–Seve Ballesteros anda alrededor de los cuarenta y cinco minutos, con Palma casi todo el año. Ese trayecto no se acorta eligiendo otra calle junto a la Maza.",
- "El tráfico es de pueblo casi todo el año. En julio y agosto lo cambia todo: toallas hacia Merón y Oyambre, coches buscando hueco, ruido de temporada y el casco lleno. De octubre a junio San Vicente recupera calma de villa marinera; conviene probar ambas estaciones antes de comprar. Primavera y otoño son buenas épocas para conocerlo: la ría con los Picos al fondo no es solo foto de agosto.",
- "El calendario tiene fechas fijas. La Folía —segunda domingo después de Pascua— saca a la Virgen de la Barquera en procesión marítima entre barcos engalanados: es la fiesta grande de la villa, con música, gente y el puerto como escenario. En septiembre las fiestas de la Virgen de la Barquera vuelven a animar el casco unos días. Quien viva junto al puerto o a la ría debe contarlas como parte del año, no como excepción imprevista.",
- "San Vicente encaja para quien quiera esa vista de ría y Picos todos los días y acepte hospital y aeropuerto a cuarenta o cuarenta y cinco minutos. Si solo conoces un sábado de sol, te llevas la imagen de folleto. Si has visto un noviembre gris, ya puedes decidir si de verdad quieres vivir aquí.",
- ],
- tiempo: [
- "Si vienes de Baleares, notará el cielo más gris y con menos sol que en Mallorca, no tanto el frío del mar. San Vicente suma unas 1.680 a 1.700 horas de sol y unos 38 a 40 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.150 a 1.200 milímetros en unos 148 a 152 días —unos nueve a once al mes también en verano—. El viento es medio; la niebla, baja. La diferencia se nota casi toda entre noviembre y febrero: mañanas grises, terraza que se usa la mitad o menos.",
- "El verano ronda 20 °C de media, con máximas habituales alrededor de 24 °C y apenas dos a seis días sobre 30 °C —el ábrego, viento sur, puede dejar puntas cortas de calor de uno o dos días—. Merón y Oyambre tienen agua entre 19 y 21 °C: fresca, a veces con un golpe de frío, nunca tibia como Mallorca a veinticinco. La ría ofrece orilla más abrigada que el Cantábrico abierto. Conviene venir un día de cielo cubierto y un noviembre, no solo un sábado de sol de agosto.",
- ],
- vivir: [
- "El invierno aquí se nota en la casa tanto como en el cielo. Entre noviembre y febrero las mañanas grises pesan, la terraza se usa la mitad o menos y la ría aporta humedad y salitre: conviene preguntar por aislamiento, calefacción y rastros de moho, no solo por la vista de los Picos. Visitar un día de viento y un martes de noviembre enseña más que la foto de agosto junto a la Maza.",
- "El día a día sin coche es posible en el casco: hay mesas, farmacia y lo básico a pie. No hay comercio grande; el resto pide vehículo. Un martes de noviembre la villa no se apaga del todo, pero la densidad es de pueblo marinero, no de ciudad. Quien viva hacia Merón u Oyambre ganará orilla a cambio de depender más del coche para la compra.",
- "Llegar de fuera es habitual: conviven gente de la villa, de la lonja y del turismo, y veraneantes que vuelven cada agosto. Entre semana manda el ritmo de puerto y ría; en julio y agosto lo cambia todo: toallas, tráfico y aparcamiento justo hacia Merón y Oyambre. La Folía y las fiestas de septiembre animan el casco unos días: quien viva junto al puerto debe contarlas. El castellano basta para lo cotidiano; la vida social pasa por vecinos y temporada más que por una plaza de capital.",
- "La sanidad de urgencia y especialidades no está en el municipio. Sierrallana, el hospital público de Torrelavega, queda a unos cuarenta minutos; Santa Clotilde, en Santander, hacia los cincuenta y cinco. En la villa se resuelve lo básico; para pruebas y hospital hay que asumir el trayecto. No es aislamiento extremo: es aceptar que la gran sanidad está en Torrelavega o Santander, no junto a la Maza.",
- "Mantener el vínculo con Mallorca pasa por el avión. Santander–Seve Ballesteros anda alrededor de los cuarenta y cinco minutos, con Palma casi todo el año. Ese trayecto no se acorta eligiendo otra calle de la villa: el coste incluye la logística de ida y vuelta cuando el cielo cantábrico aprieta. Conviene mirar el calendario real de vuelos, no solo el de agosto.",
- "La vivienda típica es piso o casa de villa en el casco, o vivienda hacia Merón u Oyambre con la ría o la playa cerca. Hay poca obra nueva: lo que se compra ya existe y tiene historia de uso; hay fibra. Junto a la orilla hay que contar con ocupación de verano, salitre y humedad de ría. Reforma frente a llave en mano: presupuestar humedad y calefacción, no solo metros y Picos al fondo.",
- ],
- historia: [
- "Antes que la foto de veraneo existió la villa fortificada. El castillo del Rey y la iglesia gótica de Santa María de los Ángeles explican San Vicente: peña sobre la ría, puerto y control del paso. El puente de la Maza —el viaducto sobre el estuario— no es solo foto: une la villa con la orilla de Merón y convierte la desembocadura en paisaje cotidiano. La villa vivió de la pesca, del comercio marítimo y, más tarde, del veraneo que descubrió la ría con los Picos al fondo.",
- "Oyambre —declarado parque natural— añade la capa de duna, prado y costa abierta entre San Vicente y Comillas. El nombre de Barquera habla de barca y oficio; el de Merón, de la playa larga que la gente de la villa usa cuando el Cantábrico lo permite. Lo que conviene saber es de villa, puente y ría, no de ciudad.",
- "Hoy el casco sigue siendo reconocible: calles hacia el puerto, peña del castillo, la Maza como gesto diario. Quien camina la villa un martes de noviembre entiende mejor el sitio que quien solo la conoce desde el mirador de agosto.",
- ],
- fuera: [
- "Si solo hay tiempo para un baño cerca, ese baño es Merón: playa de unos cuatro kilómetros de arena abierta, a un paso de la villa. No es cala abrigada de foto mediterránea de folleto. Es orilla cantábrica con oleaje, viento medio y agua entre 19 y 21 °C. Un martes de junio puedes tener espacio; un domingo de agosto el aparcamiento se queda corto y la gente busca sitio con paciencia. Es playa de temporada y de vecinos, no de resort.",
- "Oyambre —parque natural— amplia el registro: dunas, prados, orilla batida y el horizonte hacia Comillas. La ría, el puente de la Maza y el casco son la tarde de diario cuando el mar abierto no invita: paseo llano, aves, la peña del castillo al fondo. El Rosal, más pequeña, completa la franja de baño cerca de la villa.",
- "Los caminos son la otra mitad del agua. Comillas y Santillana del Mar quedan hacia el este a trayecto corto; los Picos —Potes, Fuente Dé— a unos sesenta minutos cuando el cielo abre. Golf en Santa Marina, junto a San Vicente. Quien priorice ría y Picos cada tarde encontrará aquí el gesto; quien priorice Valdecilla a quince minutos tendrá que mirar Liencres o Santander.",
- ],
- casa: [
- "El modelo de casa aquí no es la urbanización cerrada de Liencres. Es piso o vivienda de villa en el casco, o casa hacia Merón u Oyambre con la ría o la playa cerca. Hay fibra. Hay poca obra nueva: lo que se compra, en general, ya existe y tiene historia de uso. Junto a la orilla hay que contar con ocupación de verano, salitre y humedad de ría.",
- "La referencia de precio actual está en la capa factual y en Idealista del mes; aquí no se fija una media municipal en prosa. 000 euros; dos habitaciones, cerca de 177.000. La franja media puede ser piso en casco o vivienda algo retirada de la primera línea de Merón. Conviene venir un día de viento y un sábado de agosto en el aparcamiento de la playa, no solo un sábado de sol.",
- "Los servicios son 5/10. Sierrallana queda a unos cuarenta minutos; el privado de referencia, más lejos hacia Santander. Santander–Seve Ballesteros está a unos cuarenta y cinco, con Palma casi todo el año. Eso es San Vicente: mucha foto típica de ría y Picos, y la ciudad grande siempre a un trayecto.",
- ],
- encaja: {
- si: [
- "La foto típica de ría y Picos importa más que tener el hospital a la vuelta de la esquina. San Vicente de la Barquera es villa marinera de unos cuatro mil habitantes: castillo, iglesia gótica, puente de la Maza sobre la ría, Merón —playa de unos cuatro kilómetros— y Oyambre —parque natural—. Quien quiera salir al casco un martes de noviembre, mirar los Picos al fondo y bajar a Merón o a Oyambre cuando el Cantábrico lo permita encontrará aquí orilla de villa y ría, no de ciudad. En julio y agosto la villa se llena de veraneantes: toallas, tráfico, ruido y aparcamiento justo hacia Merón y Oyambre; de octubre a junio recupera calma marinera. Unas 1.700 horas de sol y unos 38 días despejados —frente a las 2.800 horas y 120 jornadas claras de Mallorca— marcan el trato: lluvia frecuente también en verano (unos 9 a 11 días al mes), verano suave alrededor de 20 °C y niebla baja. El agua anda entre 19 y 21 °C; las playas son abiertas, con oleaje. Quien no conozca Cantabria debe probar ese cielo antes de comprar.",
- "Funciona si se aceptan servicios 5/10 —villa turística con lo básico; falta comercio grande y hospital cerca—, Sierrallana en Torrelavega a unos cuarenta minutos y el aeropuerto de Santander alrededor de los cuarenta y cinco, con Palma casi todo el año. Hay fibra; A cambio se gana la vista más citada de Cantabria todos los días. Quien priorice ría, Picos y paseo frente a logística corta, y pruebe un noviembre gris y un agosto lleno, entenderá San Vicente sin inventarse otra villa.",
- ],
- no: [
- "Sierrallana a cuarenta minutos y Seve Ballesteros a cuarenta y cinco no se acortan eligiendo otra calle junto a la Maza. Si la prioridad absoluta es hospital a quince o veinte minutos, Suances o Liencres lo cubren; Santander deja Valdecilla a cinco. San Vicente no compite en esa logística: compite en la foto típica de ría. Tampoco encaja quien necesite servicios 7/10 a pie o comercio denso en enero: aquí lo básico se resuelve en el casco y el coche cubre el resto.",
- "Tampoco si se necesita calma en julio y agosto en primera línea de Merón, o el cielo estable de Baleares. Quien se decida solo tras un sábado de sol de verano, sin probar el aparcamiento de temporada ni un martes de noviembre vacío, se llevará una sorpresa. Si lo que se busca es urbanización de casas bajas junto a dunas con Valdecilla cerca, Liencres; si se busca villa-playa con vida todo el año y hospital a quince, Suances. San Vicente pide aceptar el sol más bajo de la tabla y la distancia sanitaria a cambio de esa orilla.",
- ],
- veredicto:
- "Veredicto: San Vicente encaja como villa marinera y ría —piso o vivienda en casco o hacia Merón, fuera del tramo más ocupado en agosto— sobre todo si la foto de Picos importa más que el hospital cerca. Probar un martes de noviembre y un agosto de temporada antes de comprar. Se ganan Maza, Merón, Oyambre y fibra; se aceptan servicios 5/10, Sierrallana a cuarenta minutos, aeropuerto a cuarenta y cinco y unas 1.700 horas de sol. Quien priorice Valdecilla y vuelo corto, Liencres o Santander; quien priorice villa viva todo el año con playa, Suances.",
- },
+    escala: "Villa marinera de ría",
+    abrir: [
+      "San Vicente de la Barquera se organiza alrededor de la ría: el puente de la Maza, el castillo y Santa María de los Ángeles forman el frente reconocible de la villa, con los Picos como fondo cuando el cielo lo permite. No es una ciudad costera ni una urbanización de playa; es una villa pequeña donde puerto, casco y estuario siguen dando la escala del día.",
+      "La autonomía cotidiana es media-fuerte dentro de la villa: comercio, hostelería y servicios básicos permiten resolver bastante a pie. El coche gana peso para compra de mayor escala, hospital y buena parte de la costa. El hospital práctico está en Sierrallana, fuera del municipio, de modo que la belleza de la ría convive con una logística sanitaria menos inmediata.",
+      "Merón y otros arenales están muy próximos, pero no deben describirse como playa urbana pegada a cualquier vivienda. Según la microzona, llegar al baño exige cruce, salida o un desplazamiento corto. La ría, los puentes y el frente de la villa sí forman parte del paseo ordinario con mucha más claridad.",
+    ],
+    tiempo: [
+      "El clima cantábrico se nota sobre todo en la frecuencia de cielos grises, humedad y lluvia repartida durante el año. Frente a Mallorca hay menos continuidad de sol y el verano es más suave; la diferencia útil para elegir vivienda está en cómo responde la casa a humedad, ventilación y calefacción, no en repetir cifras climáticas que ya viven en la capa factual.",
+    ],
+    vivir: [
+      "Un día normal puede transcurrir entre el casco, la compra básica y el paseo de ría sin necesidad de convertir la mañana en una excursión. Para hospital, comercio de mayor escala o explorar la costa el coche vuelve a ser parte de la rutina.",
+      "La vida local continúa todo el año, pero el verano cambia la presión sobre Merón, Oyambre, accesos y aparcamiento. La Folía y las celebraciones de la villa añaden momentos de intensidad al calendario. Conviene distinguir esa temporada del funcionamiento mucho más pequeño del resto del año.",
+      "El aeropuerto práctico es Santander y la conexión con Palma depende de la programación de temporada. Es una logística posible, no una extensión cotidiana de la villa.",
+    ],
+    historia: [
+      "El castillo del Rey, Santa María de los Ángeles y el puente de la Maza explican una villa asentada sobre el paso de la ría y vinculada al mar. El patrimonio no queda aislado en un recinto monumental: aparece en el recorrido cotidiano entre casco, puerto y estuario.",
+      "Oyambre amplía el paisaje hacia dunas, prados y costa abierta. La combinación de ría, Merón y Picos es la imagen más inmediata del lugar, pero vivir aquí significa también aceptar la escala pequeña y la distancia a servicios superiores.",
+    ],
+    fuera: [
+      "El paseo más fácil de repetir es el de la ría, los puentes y el frente de la villa. Merón puede incorporarse con frecuencia si la vivienda está bien situada; Oyambre funciona mejor como ampliación de la costa que como playa diaria garantizada para todo el municipio.",
+      "Hacia el este aparecen Comillas y otros destinos patrimoniales; hacia el interior, los Picos amplían mucho el radio de salida. Son posibilidades de fin de semana o de día libre, no sustitutos de la vida ordinaria del casco.",
+    ],
+    casa: [
+      "La elección debe empezar por decidir entre casco y una vivienda más orientada a la costa. En el casco se gana rutina a pie; hacia Merón u otras zonas exteriores se puede ganar proximidad al mar a cambio de más coche.",
+      "En cualquier caso conviene revisar humedad, ventilación, aislamiento, calefacción, salitre, accesibilidad y aparcamiento, además de cómo cambia la zona en verano. Los precios y estimaciones quedan en la capa factual y en la tabla.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se valora una villa pequeña con ría y paseo integrados en el día, servicios básicos suficientes y costa muy próxima, aceptando que hospital y parte de las compras requieren desplazamiento.",
+        "También si la playa puede ser cotidiana según microzona sin exigir que esté literalmente a la puerta de cualquier vivienda.",
+      ],
+      no: [
+        "Encaja peor si se necesita hospital cercano, comercio urbano amplio o una playa plenamente integrada en todas las zonas residenciales.",
+        "También si la presión estival en los accesos costeros pesa más que el atractivo de vivir junto a la ría.",
+      ],
+      veredicto:
+        "San Vicente ofrece una vida de villa marinera muy ligada a la ría y al paisaje, con autonomía razonable en el casco y una costa cercana pero no uniformemente caminable. Su peaje estructural es claro: hospital fuera, más coche al salir de la villa y una diferencia notable entre el verano y el resto del año."
+    },
  fotoIdentidad: {
  src: "/fotos/cantabria-occidental/san-vicente-identidad.jpg",
  pie: "San Vicente de la Barquera: casas junto al castillo y la ría — villa entre monte y marea",
@@ -68,56 +59,47 @@ export const RELATOS_CANTABRIA_OCCIDENTAL: Record<string, RelatoMun> = {
  { src: "/fotos/cantabria-occidental/san-vicente-oyambre.jpg", pie: "Oyambre, parque natural" },
  ],
  creditoFotos: credito,
- },
+  },
 
   comillas: {
- escala: "Villa modernista",
- abrir: [
- "Comillas se siente como un museo al aire libre plantado sobre la costa: unos dos mil doscientos habitantes, El Capricho de Gaudí —la villa de cerámica y girasoles—, el palacio de Sobrellano, la Universidad Pontificia en lo alto, plaza de piedra y playa a dos minutos a pie del casco. Oyambre —parque natural— queda cerca; Santillana del Mar y Altamira, a unos quince minutos. Es villa-museo cuidada, no capital de servicios.",
- "Quien vive aquí es gente de la villa, del turismo cultural y veraneantes que vuelven cada verano. Un martes de noviembre el casco puede parecer casi vacío: los servicios son 4/10 —comercio pequeño y muy estacional; falta comercio grande—. Sierrallana, en Torrelavega, queda a unos treinta minutos. El aeropuerto de Santander anda alrededor de los cuarenta minutos, con Palma casi todo el año. Lo diario mínimo se resuelve; el resto pide coche o temporada alta.",
- "Julio y agosto llenan Comillas: casco ocupado, ruido, tráfico y aparcamiento justo hacia la playa y los monumentos. En invierno la villa queda muy tranquila —casi vacía fuera del núcleo—. Quien se decida a vivir aquí debe probar el lleno de temporada y el silencio de un martes de noviembre. Primavera y otoño muestran la piedra sin la multitud.",
- "El calendario tiene fechas fijas. A mediados de julio, las fiestas del Cristo concentran procesión, música y gente en la plaza y el casco: unos días en que la villa-museo deja de ser solo visita y se convierte en fiesta local. El resto del verano el ritmo lo marca el veraneo; el resto del año, el vacío relativo de las calles. Quien viva en el casco debe contar agosto y el Cristo como parte del año.",
- "Comillas encaja para quien quiera vivir en una villa-museo cara y muy cuidada, aceptando comercio estacional y verano lleno. Si solo conoces un sábado soleado, te llevas la imagen de folleto del Capricho. Si has visto un noviembre quieto, ya puedes decidir si de verdad quieres vivir aquí.",
- ],
- tiempo: [
- "Si vienes de Baleares, el contraste es de cielo, no solo de temperatura. Comillas suma unas 1.680 a 1.700 horas de sol y unos 38 a 40 días despejados, lejos de las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.150 a 1.200 milímetros en unos 148 a 152 días. El viento es medio; la niebla, baja. De noviembre a febrero las mañanas grises pesan; de junio a septiembre la terraza se usa cuando el cielo abre.",
- "El verano ronda 20 °C, fresco frente a Baleares. La playa de Comillas y Oyambre tienen agua entre 19 y 21 °C; la orilla es abierta y con oleaje. Un día de lluvia seria no se queda uno mirando el cristal: se espera a que afloje para caminar el casco, o se baja a Torrelavega. Conviene venir un noviembre y un sábado de agosto, no solo el día soleado de la foto turística modernista.",
- ],
- vivir: [
- "El invierno en Comillas se nota sobre todo en el silencio y en la casa. De noviembre a febrero las mañanas grises pesan; la villa queda muy tranquila —casi vacía fuera del núcleo— y la terraza se usa cuando el cielo abre. Humedad de costa y salitre piden aislamiento y calefacción serios: conviene visitar un martes de noviembre, no solo el día soleado de la foto turística modernista.",
- "Sin coche, lo diario mínimo se resuelve en el casco; el resto pide vehículo o temporada alta. Los servicios son 4/10: comercio pequeño y muy estacional; falta comercio grande. Un martes de noviembre el casco puede parecer casi vacío: mesas y tiendas no son las de agosto. La playa queda a dos minutos a pie, pero el súper denso no.",
- "Conviven gente de la villa, turismo cultural y veraneantes que vuelven cada verano. Julio y agosto llenan Comillas: casco ocupado, ruido, tráfico y aparcamiento justo; las fiestas del Cristo a mediados de julio concentran procesión y gente. Entre semana en invierno manda el vacío relativo; en temporada, la cola del Capricho. Quien busque solo museo encontrará visitas; quien busque vecinos todo el año, también —en otra escala que Mallorca—.",
- "No hay hospital en el municipio. Sierrallana, en Torrelavega, queda a unos treinta minutos. Lo diario de farmacia y lo básico se resuelve en villa; para urgencias y especialidades se baja a Torrelavega. Es asumir que la sanidad grande no está en la plaza de piedra.",
- "El aeropuerto de Santander anda alrededor de los cuarenta minutos, con Palma casi todo el año. Ir y volver a Mallorca es viable casi todo el año, pero el peaje es el trayecto cantábrico y el cielo cubierto de invierno: conviene mirar horarios reales, no solo el vuelo de agosto.",
- "El modelo es piso o vivienda de villa en el casco, a menudo con historia de uso; hay poca obra nueva y fibra. En primera línea y en calles de temporada hay que contar con ocupación de agosto y precio alto. Tres habitaciones suelen quedar caras; dos en franja asequible son la orilla más realista. Imaginar la rutina en invierno vacío y en agosto lleno antes de comprar.",
- ],
- historia: [
- "El Capricho de Gaudí, el palacio de Sobrellano y la Universidad Pontificia explican Comillas: villa de mecenazgo del marqués de Comillas en el XIX, convertida en museo al aire libre. No es adorno de brochure: es el carácter del casco —cerámica, piedra, jardines, la Pontificia dominante en la ladera—. El modernismo y el veraneo elegante se mezclaron aquí antes de que el turismo de masas llenara agosto.",
- "La plaza de piedra y las calles hacia la playa completan la ficha de villa cuidada. Santillana del Mar —casco medieval— y la cueva de Altamira quedan a unos quince minutos: capa de patrimonio a un paso, no dentro del municipio. Lo que conviene saber es de arquitectura, mecenazgo y orilla, no de industria.",
- "Hoy Comillas sigue viviendo de esa imagen: visitas al Capricho y a Sobrellano, playa a dos minutos, invierno casi vacío. Quien camina la plaza un martes de noviembre entiende el precio del museo al aire libre mejor que quien solo hace cola en julio.",
- ],
- fuera: [
- "El baño de diario es la playa de Comillas: a dos minutos a pie del casco, arena y Cantábrico abierto, agua entre 19 y 21 °C. Un martes de junio puedes tener espacio; un domingo de agosto el casco y el arenal se llenan juntos. No es bahía tibia: es orilla de oleaje y viento medio.",
- "Oyambre —parque natural hacia San Vicente— amplía dunas, prados y costa batida. El Capricho, Sobrellano y la plaza son el paseo de diario cuando no apetece mar: piedra, jardines, la Pontificia arriba. Santillana del Mar y Altamira quedan a unos quince minutos cuando se busca casco medieval o cueva.",
- "San Vicente de la Barquera —ría, Maza, Merón— queda hacia el oeste a trayecto corto. Quien priorice museo y playa delante encontrará aquí el gesto; quien priorice mesas abiertas en enero y hospital a quince tendrá que mirar Suances.",
- ],
- casa: [
- "El modelo es piso o vivienda de villa en el casco, a menudo con historia de uso; hay poca obra nueva y fibra. En primera línea y en calles de temporada hay que contar con ocupación de agosto y precio. La tipología de tres habitaciones suele quedar por encima de la franja asequible habitual de la tabla; dos habitaciones en franja asequible rondan unos 203.000 euros.",
- "La referencia de precio actual está en la capa factual y en Idealista del mes; aquí no se fija una media municipal en prosa. 000 euros —fuera de la orilla asequible habitual—. La franja media puede ser piso reformado en casco o vivienda algo retirada de la playa. Conviene probar el aparcamiento de agosto y el silencio de noviembre antes de comprar.",
- "Los servicios son 4/10. Sierrallana queda a unos treinta minutos. Santander–Seve Ballesteros está a unos cuarenta, con Palma casi todo el año. Eso es Comillas: mucha arquitectura y playa delante, y el comercio de invierno siempre escaso.",
- ],
- encaja: {
- si: [
- "La villa-museo a la puerta importa más que tener el súper abierto todo el año. Comillas reúne unos dos mil doscientos habitantes: El Capricho de Gaudí, el palacio de Sobrellano, la Universidad Pontificia, plaza de piedra y playa a dos minutos a pie; Oyambre cerca y Santillana del Mar a unos quince. Quien quiera caminar el casco modernista un martes de noviembre, bajar a la playa en minutos y vivir en un marco de mecenazgo y piedra cuidada encontrará aquí orilla de museo al aire libre, no capital de servicios. En julio y agosto el casco se llena: ruido, tráfico y aparcamiento justo; en invierno queda muy tranquila —casi vacía fuera del núcleo—. Unas 1.700 horas de sol y unos 38 días despejados —frente a las 2.800 horas y 120 de Mallorca— explican el contraste: lluvia frecuente también en verano, verano suave alrededor de 20 °C, niebla baja. El agua anda entre 19 y 21 °C. Quien se decida a vivir aquí debe haber visto ambas estaciones.",
- "Funciona si se aceptan servicios 4/10 —comercio pequeño y muy estacional—, Sierrallana a unos treinta minutos y el aeropuerto de Santander alrededor de los cuarenta, con Palma casi todo el año. Hay fibra; el metro ronda 2.400 euros y es de los más altos de la zona: dos habitaciones en franja asequible andan cerca de 203.000 euros; tres suelen quedar por encima de la orilla habitual del mercado. A cambio se gana arquitectura y playa delante. Quien priorice Capricho, Sobrellano y silencio de invierno frente a villa completa todo el año, y pruebe el vacío de noviembre junto al lleno de agosto, entenderá Comillas sin pedirle lo que no es.",
- ],
- no: [
- "Los servicios 4/10 y el comercio que cierra fuera de temporada no se arreglan eligiendo otra calle junto a la plaza. Si la semana debe resolverse andando con mesas y mercado densos en enero, Suances o Santander cubren ese perfil; Comillas es villa-museo cuidada, no capital. Tampoco encaja quien necesite tres habitaciones en primera línea dentro de la franja asequible habitual del mercado: el precio de villa modernista lo deja fuera con facilidad.",
- "Tampoco si se necesita calma en julio y agosto en el casco, o el cielo de Baleares. Quien se decida solo tras un sábado soleado de verano, sin probar el aparcamiento de temporada ni un noviembre casi vacío, se llevará una villa distinta de la foto turística. Si lo que manda es hospital a quince minutos y playa con vida todo el año, Suances; si mandan casas bajas, Valdecilla y aeropuerto a quince, Liencres. Comillas pide aceptar estacionalidad, metro alto y sol bajo a cambio del modernismo.",
- ],
- veredicto:
- "Veredicto: Comillas encaja como villa modernista —dos habitaciones en casco, o tres algo retiradas de la primera línea de temporada— sobre todo si Capricho, Sobrellano y la playa a dos minutos importan más que el comercio de invierno. Probar un agosto lleno y un noviembre quieto antes de comprar. Se ganan museo al aire libre, Sierrallana a treinta y fibra; se aceptan servicios 4/10, precio alto y unas 1.700 horas de sol. Quien priorice vida diaria todo el año, Suances; quien priorice logística y dunas, Liencres.",
- },
+    escala: "Villa modernista junto al mar",
+    abrir: [
+      "Comillas reúne en muy poco espacio casco histórico, playa y un patrimonio excepcional: El Capricho, Sobrellano y la Universidad Pontificia hacen que la arquitectura forme parte del paisaje cotidiano. La playa queda pegada al núcleo, de modo que aquí sí es razonable pensar en bajar al mar como parte de un día normal.",
+      "La contrapartida es una autonomía media y muy estacional. El comercio cotidiano existe, pero la escala es pequeña y el invierno no ofrece la misma densidad de actividad que el verano. Para compras y servicios superiores, hospital incluido, el coche sigue siendo importante.",
+      "La topografía también cuenta: entre partes del casco y la costa hay pendientes moderadas. Dos viviendas aparentemente cercanas pueden ofrecer una rutina peatonal distinta.",
+    ],
+    tiempo: [
+      "El año es húmedo y de cielo cambiante, con un verano suave y una diferencia clara respecto al clima más soleado de Mallorca. Para la vivienda importa comprobar orientación, ventilación, calefacción y comportamiento de la humedad; las cifras climáticas detalladas permanecen en la capa factual.",
+    ],
+    vivir: [
+      "En el casco se puede enlazar compra básica, paseo por el centro histórico, parque y frente de playa sin coche. Esa combinación de patrimonio y mar es real también fuera de una visita turística, aunque la oferta comercial se reduce al salir de temporada.",
+      "Julio y agosto traen más gente, tráfico y presión de aparcamiento; fuera de temporada la villa pierde mucha intensidad. Esa oscilación es parte de la experiencia residencial y conviene verla tanto en verano como en un día ordinario de invierno.",
+      "Sierrallana queda fuera de la villa y el aeropuerto práctico es Santander. Palma depende de la programación concreta, por lo que no debe tratarse como una conexión permanente.",
+    ],
+    historia: [
+      "El Capricho de Gaudí, Sobrellano y la Pontificia explican por qué Comillas tiene una presencia arquitectónica desproporcionada para su tamaño. No son solo visitas aisladas: ordenan vistas, recorridos y la identidad del casco.",
+      "Oyambre y el patrimonio cercano amplían el radio de salida, pero la vida diaria sigue concentrada en una villa pequeña entre piedra, pendientes y playa.",
+    ],
+    fuera: [
+      "La playa de Comillas sí puede formar parte del paseo cotidiano. El centro histórico, el parque y el frente de playa permiten una secuencia corta y repetible, aunque algunas calles obligan a contar con la pendiente.",
+      "Oyambre y Santillana del Mar funcionan como salidas patrimoniales y de paisaje próximas; no forman parte de la ficha residencial propia de Comillas ni sustituyen sus servicios.",
+    ],
+    casa: [
+      "La ubicación debe comprobarse caminando entre vivienda, centro y playa: una distancia corta sobre el mapa puede incluir pendiente suficiente para cambiar el uso diario. Accesibilidad, aparcamiento, humedad y exposición de la vivienda son preguntas más útiles que una vista bonita en verano.",
+      "Es un mercado turístico y caro; las cifras actualizadas quedan en la tabla. En una compra conviene distinguir vivienda pensada para uso anual de producto muy orientado a temporada.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca una villa pequeña donde patrimonio y playa estén integrados en la rutina y se acepta una autonomía media.",
+        "También si el contraste entre un verano intenso y un invierno mucho más vacío resulta asumible.",
+      ],
+      no: [
+        "Encaja peor si se necesita comercio amplio, hospital próximo o una actividad urbana constante durante todo el año.",
+        "También si las pendientes entre casco y costa complican la movilidad cotidiana de la vivienda concreta.",
+      ],
+      veredicto:
+        "Comillas combina como pocos lugares patrimonio y playa a escala caminable, pero esa calidad espacial no elimina sus límites: servicios pequeños, fuerte estacionalidad, pendientes y dependencia del coche para funciones superiores."
+    },
  fotoIdentidad: {
  src: "/fotos/cantabria-occidental/comillas-identidad.jpg",
  pie: "Comillas: casas en la ladera bajo la Universidad Pontificia, con el monte detrás",
@@ -135,56 +117,46 @@ export const RELATOS_CANTABRIA_OCCIDENTAL: Record<string, RelatoMun> = {
  { src: "/fotos/cantabria-occidental/comillas-villa.jpg", pie: "Comillas: villa modernista" },
  ],
  creditoFotos: credito,
- },
+  },
 
   suances: {
- escala: "Villa-playa",
- abrir: [
- "Suances se siente como la villa que no se apaga fuera de temporada: unos nueve mil habitantes, casco alto con vistas al Cantábrico, puerto en la ría de San Martín de la Arena —la desembocadura entre Suances y Miengo—, La Concha —playa larga y familiar—, Los Locos —orilla de oleaje y surf—, paseo y Punta del Dichoso —el mirador de acantilado—. Torrelavega queda a quince minutos con todo; Santillana del Mar, a diez; Santander, a treinta. Es la villa con vida todo el año de Cantabria Occidental.",
- "Quien vive aquí es gente de la villa, de Torrelavega cercana y veraneantes que vuelven en verano. Un martes de noviembre se camina el casco, se compra en villa y se resuelve el día a día: los servicios alcanzan 6/10 —villa con lo básico; falta hospital en el municipio, pero Torrelavega lo cubre a quince—. Sierrallana y la Clínica Mompía, en Bezana, quedan a unos quince minutos. El aeropuerto de Santander anda alrededor de los veinte minutos, con Palma casi todo el año. Esa logística es de las mejores de la zona.",
- "En verano La Concha y Los Locos reciben toallas, tráfico hacia la playa y algo de ruido de temporada; hacia el casco alto el volumen baja antes. Fuera de agosto Suances sigue siendo villa con mesas y comercio abiertos. Primavera y otoño son buenas épocas para conocerlo: la ría y el paseo no son solo foto de julio.",
- "El calendario tiene fechas fijas. Las fiestas de la Virgen del Carmen —mitad de julio— animan el puerto y el casco con procesión y ambiente marinero; las patronales de San Leandro completan el verano local. Son jornadas de música, gente y aparcamiento justo; quien viva junto a La Concha o al puerto debe contarlas como parte del año. El resto de la semana, fuera de agosto, vuelve la vida de villa.",
- "Suances encaja para quien quiera villa con playa, vida todo el año y hospital y aeropuerto a quince o veinte minutos. Si solo conoces un sábado soleado en La Concha, te llevas la imagen de folleto de la playa. Si has visto un martes de noviembre, ya puedes decidir si quieres la semana resuelta.",
- ],
- tiempo: [
- "Si vienes de Baleares, el cielo es el peaje. Suances suma unas 1.680 a 1.700 horas de sol y unos 38 a 40 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.150 a 1.200 milímetros en unos 148 a 152 días; también en verano llueve varios días al mes. El viento es medio; la niebla, baja.",
- "El verano ronda 20 °C, fresco frente a Baleares. La Concha, Los Locos y La Ribera tienen agua entre 19 y 21 °C; la ría de San Martín de la Arena ofrece orilla más abrigada que el Cantábrico abierto en días de mar llana. Conviene venir un día de cielo cubierto y un noviembre, no solo el sábado de oleaje en Los Locos.",
- ],
- vivir: [
- "El invierno en Suances no apaga la villa, pero sí cambia la casa. Lluvia frecuente también en verano, mañanas grises de noviembre a febrero y humedad de ría y orilla: conviene calefacción, ventanas y orientación al sol, no solo vistas al Cantábrico. Una terraza que en julio parece el centro de la vida se usa menos cuando el cielo cubre. Probar un martes gris y un día de nortada ayuda más que mil fotos de La Concha.",
- "El día a día sin coche es más viable que en Comillas o San Vicente: se camina el casco, se compra en villa y los servicios alcanzan 6/10. Torrelavega a quince minutos cubre lo que falta. Quien elija casco alto ganará vistas y cuestas; junto a La Concha, orilla y más ocupación de verano. En enero hay mesas y comercio abiertos: vida de villa, no de museo vacío.",
- "Conviven gente de la villa, de Torrelavega cercana y veraneantes que vuelven en verano. Entre semana manda el ir y venir hacia Torrelavega y Santander; en julio y agosto La Concha y Los Locos reciben toallas, tráfico y algo de ruido —hacia el casco el volumen baja antes—. Las fiestas del Carmen y San Leandro animan puerto y casco unos días. El castellano basta; la vida social pasa por villa y temporada.",
- "No hay hospital en el municipio, pero Sierrallana y la Clínica Mompía, en Bezana, quedan a unos quince minutos: de las mejores logísticas sanitarias de Cantabria Occidental. Empadronarse aquí abre lo diario en villa; para hospital se asume el trayecto corto a Torrelavega o Bezana, no el de San Vicente a cuarenta minutos.",
- "Santander–Seve Ballesteros anda alrededor de los veinte minutos, con Palma casi todo el año: de los accesos aéreos más cómodos de la zona. Ir y volver a Mallorca es más corto que desde San Vicente o Comillas; aun así, el invierno cantábrico pide mirar horarios y logística, no solo el billete de agosto.",
- "El modelo es piso o vivienda de villa en el casco o cerca del paseo; hay poca obra nueva y fibra. No es urbanización de casas bajas como Liencres: es villa compacta con orilla. Junto a La Concha hay que contar con ocupación de verano y salitre; hacia el casco alto, cuestas y vistas. Imaginar la rutina con escaleras y el aparcamiento de temporada antes de comprar.",
- ],
- historia: [
- "El puerto en la ría y el casco alto explican Suances: villa de orilla y de veraneo con vida propia, no solo bloque de playa. La Concha y Los Locos marcan dos temperamentos de orilla —familiar y de surf— en el mismo municipio. La ría de San Martín de la Arena —nombre de la desembocadura— es el paisaje del puerto y del paseo.",
- "La Punta del Dichoso —acantilado y mirador— añade la capa de costa abierta. Santillana del Mar y Altamira quedan a unos diez o quince minutos: patrimonio a un paso. Lo que conviene saber es de villa-playa, ría y veraneo con mesas abiertas en enero, no de museo modernista ni de foto típica de Picos.",
- "Hoy Suances equilibra temporada y semana: Torrelavega cerca, playa delante, casco que no se vacía del todo. Quien camina el casco alto un martes de noviembre entiende por qué el estudio la señala como villa con vida todo el año.",
- ],
- fuera: [
- "Si solo hay tiempo para un baño cerca, ese baño es La Concha: playa larga, familiar, a pie desde el paseo, agua entre 19 y 21 °C. Un martes de junio puedes tener espacio; un domingo de agosto el aparcamiento hacia la orilla se complica. Es playa de diario de villa, no de resort infinito.",
- "Los Locos cubre el otro temperamento: orilla de oleaje y surf, más bruta, para quien busca ola y viento. La Ribera completa el arco junto a la ría. La Punta del Dichoso es el paseo de mirador cuando no apetece toalla: acantilado, horizonte, el Cantábrico abajo.",
- "Santillana del Mar queda a unos diez minutos; Torrelavega, a quince con comercio y hospital; Santander, a treinta. Quien priorice playa, mesas en noviembre y logística corta encontrará aquí el equilibrio de la zona; quien priorice dunas y casas bajas mirará Liencres; quien priorice ría y Picos, San Vicente.",
- ],
- casa: [
- "El modelo es piso o vivienda de villa en el casco o cerca del paseo; hay poca obra nueva y fibra. Junto a La Concha hay que contar con ocupación de verano y salitre; hacia el casco alto, cuestas y vistas. No es urbanización de casas bajas como Liencres: es villa compacta con orilla.",
- "La referencia de precio actual está en la capa factual y en Idealista del mes; aquí no se fija una media municipal en prosa. 000 euros; dos habitaciones, cerca de 169.000. La franja media puede ser piso en casco o vivienda cerca del paseo, fuera del tramo más ocupado de La Concha en agosto. Conviene probar un día de temporada en la playa y un martes gris.",
- "Los servicios son 6/10. Sierrallana y Mompía quedan a unos quince minutos. Santander–Seve Ballesteros está a unos veinte, con Palma casi todo el año. Eso es Suances: playa delante, semana resuelta, y el sol bajo de Cantabria como peaje.",
- ],
- encaja: {
- si: [
- "La villa con vida todo el año importa más que la foto de Picos o el museo modernista. Suances reúne unos nueve mil habitantes: casco alto con vistas, puerto en la ría de San Martín de la Arena, La Concha —larga, familiar—, Los Locos —surf—, paseo y Punta del Dichoso; Torrelavega a quince minutos con todo, Santillana del Mar a diez y Santander a treinta. Quien quiera caminar el casco un martes de noviembre, comprar en villa y bajar a La Concha o a Los Locos cuando apetezca encontrará aquí ritmo de orilla que no se apaga fuera de temporada. En verano La Concha y Los Locos reciben toallas, tráfico y algo de ruido; hacia el casco el volumen baja antes. Unas 1.680 a 1.700 horas de sol y unos 38 días despejados —frente a las 2.800 horas y 120 de Mallorca— mantienen el cielo cantábrico: lluvia también en julio, verano suave alrededor de 20 °C, agua entre 19 y 21 °C. Quien venga de Baleares debe probar ese gris antes de comprar.",
- "Funciona si se priorizan Sierrallana y la Clínica Mompía a unos quince minutos y el aeropuerto de Santander alrededor de los veinte, con Palma casi todo el año —de las mejores logísticas de la zona—. Los servicios alcanzan 6/10 —villa con lo básico; falta hospital en el municipio, pero Torrelavega lo cubre a quince—. Hay fibra; Quien quiera playa delante, mesas abiertas en noviembre y hospital cerca sin pagar el metro de Santander ni el silencio extremo de Comillas entenderá Suances como el equilibrio de Cantabria Occidental.",
- ],
- no: [
- "Si lo que se busca es urbanización de casas bajas junto a dunas y acantilados —Valdearenas, Canallave, Costa Quebrada—, Suances no lo es: aquí mandan villa, paseo y playa abierta. Liencres cubre ese perfil con Valdecilla a quince y la criminalidad más baja de la tabla. Tampoco encaja quien necesite la foto típica de ría y Picos cada tarde: eso es San Vicente, a costa de hospital a cuarenta minutos.",
- "Tampoco si se necesita calma total en agosto en primera línea de La Concha, o el cielo estable de Mallorca. Quien se decida solo tras un sábado soleado sin probar el aparcamiento de temporada ni un noviembre de cielo cubierto se equivoca de opción. Si la prioridad absoluta es ciudad completa a pie —Valdecilla a cinco, aeropuerto a diez—, Santander; si mandan Capricho y museo, Comillas. Suances pide aceptar cubiertos, lluvia de verano y algo de afluencia en la orilla a cambio de la semana resuelta junto al mar.",
- ],
- veredicto:
- "Veredicto: Suances encaja como villa-playa equilibrada —tres habitaciones en casco o cerca del paseo, fuera del tramo más ocupado de La Concha en agosto— sobre todo si hospital a quince, aeropuerto a veinte y vida de villa en noviembre importan más que la foto típica del oeste. Probar un martes gris y un día de temporada en la playa antes de comprar. Se ganan Concha, Locos, Torrelavega a quince y Seve Ballesteros a veinte; se aceptan, servicios 6/10 y el sol bajo de Cantabria. Quien priorice dunas y seguridad máxima, Liencres; quien priorice ría y Picos, San Vicente.",
- },
+    escala: "Villa costera en dos cotas",
+    abrir: [
+      "Suances no se entiende como una única superficie llana. El pueblo alto y la zona de La Ribera, La Concha y Los Locos ofrecen experiencias distintas: arriba se concentra parte de la vida de villa; abajo el mar entra mucho más directamente en la rutina.",
+      "La autonomía cotidiana es media-fuerte, con servicios básicos y Torrelavega muy próxima para ampliar compras y sanidad. Esa base anual diferencia Suances de enclaves más dependientes de la temporada, aunque el verano aumenta claramente la presión sobre las playas.",
+      "La gran pregunta residencial es la microzona. Vivir cerca de La Concha permite integrar playa y paseo; hacerlo en el núcleo alto introduce un desnivel estructural que cambia la caminabilidad.",
+    ],
+    tiempo: [
+      "El clima es húmedo y atlántico, con verano suave y menos continuidad de sol que Mallorca. En vivienda conviene priorizar orientación, ventilación y protección frente a humedad y viento; las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "La Ribera, La Concha, la zona del faro y Los Locos forman un eje costero muy utilizable si se vive abajo. Desde el pueblo alto el mismo recorrido implica pendiente y puede hacer que el coche aparezca más de lo esperado.",
+      "La villa mantiene vida fuera del verano y Torrelavega amplía el radio cotidiano sin convertir cada necesidad en un viaje largo. El hospital práctico también está allí, fuera del municipio pero relativamente próximo.",
+      "En verano La Concha y Los Locos reciben mucha más afluencia. La vivienda concreta debe probarse pensando en aparcamiento, ruido y recorrido real entre cota alta y baja.",
+    ],
+    historia: [
+      "La ría de San Martín, el puerto y el crecimiento hacia las playas explican una villa que mira al agua desde alturas distintas. Punta del Dichoso y Los Locos añaden el frente más abierto y expuesto del paisaje costero.",
+    ],
+    fuera: [
+      "En zona baja, playa y paseo pueden ser realmente cotidianos: La Concha, La Ribera y el recorrido hacia el faro se enlazan con facilidad. Los Locos añade un carácter más abierto y surfero.",
+      "Santillana del Mar y otros destinos próximos amplían las salidas, mientras Torrelavega cumple una función mucho más práctica de servicios y hospital.",
+    ],
+    casa: [
+      "Antes de valorar una vivienda hay que recorrer a pie la distancia entre ella y la costa. Pueblo alto y Ribera no son equivalentes: cambian pendiente, acceso a playa y dependencia del coche.",
+      "Revisar accesibilidad, aparcamiento, humedad, orientación y exposición estival. Los precios y totales quedan en la capa factual y la tabla.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca una villa con vida anual y playa muy integrada, especialmente escogiendo bien la zona baja.",
+        "También si se valora tener Torrelavega y el hospital a un desplazamiento corto sin renunciar al frente costero.",
+      ],
+      no: [
+        "Encaja peor si se exige una caminabilidad uniforme entre pueblo alto y playa.",
+        "También si se quiere evitar la presión estival de las zonas de La Concha y Los Locos.",
+      ],
+      veredicto:
+        "Suances combina vida anual y costa mejor que muchos enclaves puramente vacacionales, pero la microzona manda: vivir arriba o abajo cambia de forma real la playa cotidiana, la pendiente y el uso del coche."
+    },
  fotoIdentidad: {
  src: "/fotos/cantabria-occidental/suances-identidad.jpg",
  pie: "Suances: casas sobre la bahía y la ría — vivir entre playa y puerto",
@@ -201,56 +173,46 @@ export const RELATOS_CANTABRIA_OCCIDENTAL: Record<string, RelatoMun> = {
  { src: "/fotos/cantabria-occidental/suances-locos.jpg", pie: "Playa de Los Locos, Suances" },
  ],
  creditoFotos: credito,
- },
+  },
 
   "liencres-pielagos": {
- escala: "Urbanización junto a dunas",
- abrir: [
- "Liencres no se siente como villa de casco histórico: se siente como la costa residencial de Santander. Liencres —unos dos mil quinientos habitantes— y Mortera, Boo y Mogro forman la orilla de Piélagos —unos veintisiete mil en el municipio—: urbanizaciones de casas bajas y adosados, Parque Natural de las Dunas de Liencres, playas de Valdearenas y Canallave, acantilados de la Costa Quebrada —geoparque, Los Urros—, golf en Abra del Pas —Mogro— y cercanías desde Boo y Mogro a Santander en unos veinte minutos. Es el municipio residencial de la capital.",
- "Quien vive aquí es familia santanderina, gente que trabaja en la bahía y quien buscó casa baja junto al mar sin pagar el metro del Sardinero. Un martes de noviembre se compra en Liencres o Mortera y se resuelve el día a día con coche corto: los servicios alcanzan 7/10 —centro de salud, supermercados, farmacias; Renedo, la capital municipal, y Bezana a unos diez; Santander a unos quince—. Valdecilla queda a unos quince minutos; la Clínica Mompía, a unos diez. El aeropuerto anda alrededor de los quince minutos, con Palma casi todo el año.",
- "En verano Valdearenas y Canallave reciben toallas y tráfico hacia las dunas; el ritmo residencial de Liencres y Mortera se mantiene más estable que el de Comillas o San Vicente. Piélagos registra la tasa de criminalidad más baja de la tabla —31 por mil—: el dato de seguridad más sólido del estudio. Primavera y otoño en la Costa Quebrada son buenas épocas para conocerlo: el acantilado no es solo foto de agosto.",
- "El calendario es más de temporada de playa que de fiesta de casco: el lleno llega con las toallas en Valdearenas y Canallave; el resto del año manda el ritmo de urbanización y cercanías. Quien se decida a vivir aquí debe probar un agosto en las dunas y un martes de noviembre con cielo cubierto. La semana se organiza en coche corto, no a pie de plaza medieval.",
- "Liencres encaja para quien priorice seguridad, hospital y vuelo a Palma con urbanización de casas bajas junto al mar, a cambio del sol de Cantabria. Si solo conoces un sábado soleado en Canallave, te llevas la imagen de folleto de la duna. Si has visto el gris de noviembre, ya puedes decidir si aceptas el precio del cielo gris.",
- ],
- tiempo: [
- "Si vienes de Baleares, el sol es la renuncia explícita. Liencres suma unas 1.680 a 1.700 horas de sol y unos 38 a 40 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.150 a 1.200 milímetros en unos 148 a 152 días. El viento es medio en la costa abierta; la niebla, baja. De noviembre a febrero las mañanas grises pesan; de junio a septiembre la terraza se usa cuando abre el cielo.",
- "El verano ronda 20 °C, fresco frente a Baleares. Valdearenas, Canallave, Portío y Somocuevas tienen agua entre 19 y 21 °C; las dunas y la Costa Quebrada invitan al paseo aunque el baño pida días de mar más llana. Conviene venir un día de nortada y un noviembre, no solo el sábado de sol sobre la duna.",
- ],
- vivir: [
- "El invierno en Liencres se nota en el cielo y en la parcela. De noviembre a febrero las mañanas grises pesan; viento medio en costa abierta, salitre y humedad piden aislamiento y calefacción en casas bajas y adosados. La terraza se usa cuando abre el cielo, no como en Mallorca. Visitar un día de nortada y un noviembre cubierto evita firmar solo por la duna de agosto.",
- "El día a día sin coche es limitado: la semana se organiza en coche corto. Se compra en Liencres o Mortera; Renedo y Bezana quedan a unos diez minutos; Santander a unos quince. Los servicios alcanzan 7/10 —centro de salud, súper, farmacia—, pero no es villa compacta a pie de plaza. Cercanías desde Boo y Mogro a Santander en unos veinte minutos ayudan; en enero el ritmo es de urbanización residencial, no de casco lleno de terrazas.",
- "Quien vive aquí es familia santanderina, gente que trabaja en la bahía y quien buscó casa baja junto al mar sin pagar el metro del Sardinero. Entre semana manda el ir y venir hacia Santander; en verano Valdearenas y Canallave reciben toallas y tráfico, pero el ritmo residencial se mantiene más estable que el de Comillas o San Vicente. La vida social pasa por vecinos de urbanización y cercanía a la capital más que por una plaza única.",
- "Valdecilla queda a unos quince minutos; la Clínica Mompía, a unos diez: logística sanitaria de las mejores de la zona. Empadronarse aquí abre cabecera local; para especialidades y hospital se baja a Santander o Bezana en trayecto corto. No es «lejos de todo»: es asumir coche corto hacia la capital sanitaria.",
- "El aeropuerto de Santander anda alrededor de los quince minutos, con Palma casi todo el año: el mejor acceso aéreo junto a la capital misma. Mantener el vínculo con Mallorca es más sencillo que desde San Vicente; aun así, el precio de tener poco sol bajo de Cantabria sigue ahí. Conviene mirar el calendario anual de vuelos.",
- "Predominan casas bajas, adosados y urbanizaciones en Liencres y Mortera; hay obra nueva y fibra. No es piso de casco marinero: es parcela y chalé o adosado. Junto a las dunas hay que contar con viento, salitre y ocupación de playa en verano. Imaginar la rutina dentro de diez años con jardín, coche en la puerta y acceso a Valdearenas un domingo de agosto.",
- ],
- historia: [
- "Las dunas de Liencres y la Costa Quebrada —Los Urros, geoparque— explican el municipio: orilla de parque natural y acantilado, no de casco medieval. El Parque Natural de las Dunas protege el arenal y el pinar entre el Pas y el mar; la senda de la Costa Quebrada enseña la geología rota del Cantábrico. Boo y Mogro añaden la capa de cercanías hacia Santander.",
- "Mortera y las urbanizaciones de casas bajas sitúan Piélagos como extensión residencial de la capital: clase media santanderina, familias, crecimiento con obra nueva. Abra del Pas —campo de golf en Mogro— completa el mapa de ocio. Lo que conviene saber es de dunas, geoparque y municipio dormitorio de bahía, no de villa turística de peña y castillo.",
- "Hoy Liencres y Mortera viven de esa lógica: casa baja, coche corto a Valdecilla y al aeropuerto, playa de parque natural. Quien camina Valdearenas un martes de octubre entiende el sitio mejor que quien solo lo conoce en un domingo de agosto saturado.",
- ],
- fuera: [
- "Si solo hay tiempo para un baño cerca, ese baño es Valdearenas o Canallave: playas del Parque Natural de las Dunas, arena y Cantábrico abierto, agua entre 19 y 21 °C. Un martes de junio puedes tener duna y espacio; un domingo de agosto el acceso se complica. Son playas de parque y de temporada, no de paseo urbano denso.",
- "La Costa Quebrada —senda de acantilado, Los Urros— es el paseo propio cuando no apetece toalla: geología, horizonte, viento. Portío y Somocuevas completan calas y orillas menores. Abra del Pas aporta golf en Mogro para quien lo busque.",
- "Santander queda a unos quince minutos; Cabárceno —parque de la naturaleza—, a trayecto corto desde la capital. Quien priorice casas bajas, seguridad máxima y logística encontrará aquí la apuesta fuerte de la zona; quien priorice villa-playa con casco, Suances; quien priorice ciudad a pie, Santander.",
- ],
- casa: [
- "Predominan casas bajas, adosados y urbanizaciones en Liencres y Mortera; hay obra nueva y fibra. Junto a las dunas hay que contar con viento, salitre y ocupación de playa en verano; la facilidad de venta es alta en el contexto de la zona. No es piso de casco marinero: es parcela y chalé o adosado.",
- "La referencia de precio actual está en la capa factual y en Idealista del mes; aquí no se fija una media municipal en prosa. 000 euros; dos habitaciones, cerca de 169.000. La franja media puede ser adosado en urbanización o vivienda más cerca de Valdearenas. Conviene comprobar orientación al viento y el acceso a la playa un domingo de agosto.",
- "Los servicios son 7/10. Valdecilla queda a unos quince minutos; Mompía, a unos diez. Santander–Seve Ballesteros está a unos quince, con Palma casi todo el año. Eso es Liencres: la mejor combinación de seguridad, hospital y vuelo de la tabla, a cambio del sol más bajo.",
- ],
- encaja: {
- si: [
- "La mejor combinación de seguridad, hospital y vuelo de la tabla importa más que el sol. Liencres —unos dos mil quinientos habitantes— y Mortera, Boo y Mogro forman la costa de Piélagos —unos veintisiete mil en el municipio—: urbanizaciones de casas bajas y adosados, Parque Natural de las Dunas, Valdearenas y Canallave, acantilados de la Costa Quebrada, golf en Abra del Pas y cercanías desde Boo y Mogro a Santander en unos veinte minutos. Quien quiera casa baja junto al mar, comprar en Liencres o Mortera un martes de noviembre y tener Santander a unos quince encontrará aquí el municipio residencial de la capital, no villa marinera de casco histórico. En verano las dunas reciben toallas y tráfico; el ritmo residencial se mantiene más estable que el de Comillas o San Vicente. Unas 1.700 horas de sol y unos 38 días despejados —frente a las 2.800 horas y 120 de Mallorca— son el peaje: lluvia frecuente también en verano, verano suave alrededor de 20 °C, agua entre 19 y 21 °C, niebla baja. Piélagos registra la tasa de criminalidad más baja de la tabla —31 por mil—.",
- "Funciona si se priorizan Valdecilla a unos quince minutos, la Clínica Mompía a unos diez y el aeropuerto de Santander alrededor de los quince, con Palma casi todo el año. Los servicios alcanzan 7/10 —centro de salud, súper y farmacia en Liencres y Mortera; Renedo y Bezana a unos diez—. Hay fibra y obra nueva; Quien quiera urbanización junto a dunas y acantilados, seguridad máxima y vuelo corto sin pagar el metro de Santander entenderá por qué el estudio apunta aquí si Cantabria Occidental se mira en serio.",
- ],
- no: [
- "Si lo que se busca es villa marinera con castillo y ría —San Vicente— o museo modernista —Comillas—, Liencres no lo es: aquí mandan casas bajas, parque natural y cercanía a la capital. Tampoco encaja quien necesite montaña detrás de casa: la costa es llana; los Picos quedan a unos sesenta minutos. El cielo de Baleares no está aquí: unas 1.700 horas y unos 38 despejados no se negocian eligiendo otra parcela en Mortera.",
- "Tampoco si se necesita calma total en agosto junto a Valdearenas o Canallave: las dunas reciben temporada. Quien se decida solo tras un sábado soleado sin probar un noviembre cubierto ni el tráfico hacia la playa se llevará una sorpresa. Si la prioridad absoluta es caminar ciudad completa —servicios 10/10, Valdecilla a cinco—, Santander; si se busca villa-playa con casco alto y vida propia, Suances. Liencres pide aceptar el sol más bajo de la tabla a cambio de la logística más sólida.",
- ],
- veredicto:
- "Veredicto: Liencres (Piélagos) encaja como la apuesta fuerte de Cantabria Occidental —casa baja o adosado en Liencres o Mortera, con fibra comprobada y acceso claro a Valdearenas o Canallave— sobre todo si seguridad, Valdecilla y Palma a quince minutos importan más que el cielo. Probar un martes de noviembre y un agosto en las dunas antes de comprar. Se ganan criminalidad mínima de la tabla, obra nueva, Mompía a diez y Seve Ballesteros a quince; se aceptan y unas 1.700 horas de sol. Quien priorice ciudad a pie, Santander; quien priorice villa-playa, Suances.",
- },
+    escala: "Costa residencial dispersa",
+    abrir: [
+      "Liencres es una localidad dentro de Piélagos, no un resumen de todo el municipio. Su identidad residencial mezcla casas y urbanizaciones con la proximidad de las dunas, Valdearenas, Canallave y la Costa Quebrada, mientras otras localidades del municipio ofrecen una relación distinta con servicios, tren y costa.",
+      "La autonomía cotidiana es media-baja: hay servicios básicos en el entorno, pero vivienda, costa y equipamientos no siempre coinciden a pie. El coche tiene un papel mayor que en una villa compacta.",
+      "La gran ventaja logística es la proximidad a Santander, Valdecilla y el aeropuerto. La contrapartida es que vivir cerca geográficamente de las playas no significa necesariamente poder bajar andando de forma urbana y cómoda.",
+    ],
+    tiempo: [
+      "El clima es atlántico, húmedo y cambiante. La vivienda debe valorarse por orientación, ventilación y exposición al viento y la humedad; el contraste con Mallorca es de menor continuidad de sol, sin necesidad de repetir aquí las cifras de la capa factual.",
+    ],
+    vivir: [
+      "La rutina puede resolverse con servicios básicos próximos, pero la dispersión hace que el coche aparezca para compras, costa o equipamientos según la vivienda concreta.",
+      "Las dunas y la Costa Quebrada son extraordinarias para caminar, pero funcionan más como salida de naturaleza que como paseo urbano continuo. La experiencia residencial depende mucho de la calle y de la localidad elegida dentro de Piélagos.",
+      "Santander amplía de manera muy fuerte el radio cotidiano: hospital, ciudad y aeropuerto quedan próximos. Esa ventaja logística no convierte Liencres en un barrio urbano de Santander.",
+    ],
+    historia: [
+      "El paisaje de dunas y acantilados define la costa de Liencres más que un casco monumental. Valdearenas, Canallave y Costa Quebrada explican una identidad de borde natural junto a una franja residencial vinculada a la bahía de Santander.",
+    ],
+    fuera: [
+      "Las playas pueden ser frecuentes si la vivienda está bien situada, pero la etiqueta correcta es depende de vivienda: muchas casas requieren coche o una caminata no urbana.",
+      "Dunas y Costa Quebrada permiten salidas repetibles de naturaleza; Santander, en cambio, cumple la función de ciudad cercana para servicios, cultura y sanidad.",
+    ],
+    casa: [
+      "No usar la media municipal de Piélagos como si describiera automáticamente una vivienda junto a las dunas de Liencres. Hay que comprobar localidad, acceso real a playa, servicios próximos y necesidad de coche.",
+      "En casas y adosados revisar humedad, aislamiento, orientación, aparcamiento y recorrido cotidiano. Los precios quedan en la capa factual y la tabla.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca un entorno residencial de casas bajas con naturaleza costera próxima y una conexión muy fuerte con Santander.",
+        "También si se acepta usar coche para parte de la rutina a cambio de tener hospital y aeropuerto relativamente cerca.",
+      ],
+      no: [
+        "Encaja peor si se busca una villa compacta donde playa, comercio y servicios coincidan siempre a pie.",
+        "Tampoco si se pretende que cualquier dato de Piélagos describa exactamente la experiencia de Liencres.",
+      ],
+      veredicto:
+        "Liencres/Piélagos ofrece costa natural y una logística metropolitana muy favorable, pero es un territorio disperso: la calidad cotidiana depende más de la vivienda concreta y de sus recorridos que de la distancia lineal al mar."
+    },
  fotoIdentidad: {
  src: "/fotos/cantabria-occidental/liencres-pielagos-identidad.jpg",
  pie: "Liencres–Mortera: casas bajas con el monte detrás",
@@ -268,56 +230,47 @@ export const RELATOS_CANTABRIA_OCCIDENTAL: Record<string, RelatoMun> = {
  { src: "/fotos/cantabria-occidental/liencres-canallave.jpg", pie: "Playa de Canallave, Liencres" },
  ],
  creditoFotos: credito,
- },
+  },
 
   santander: {
- escala: "Ciudad de bahía",
- abrir: [
- "Santander se siente como capital cantábrica de bahía: unos ciento setenta y tres mil habitantes, El Sardinero —playas urbanas—, la península de la Magdalena —parque, palacio, costa abrigada—, Cabo Mayor —faro y acantilado—, el Centro Botín —cultura contemporánea sobre el agua—, el paseo de Pereda y la bahía abierta hacia Pedreña. Ciudad elegante, limpia y ordenada, con ferry a Inglaterra e Irlanda. Es la capital de referencia de Liencres y de toda Cantabria Occidental.",
- "Quien vive aquí resuelve casi todo a pie. Un martes de noviembre los servicios alcanzan 10/10: no falta lo esencial de ciudad. Valdecilla —hospital público de referencia nacional— queda a unos cinco minutos; Santa Clotilde, a unos cinco. El aeropuerto anda alrededor de los diez minutos, con Palma casi todo el año —el mejor acceso de la zona—. La dependencia del coche es baja —2/10—. La seguridad ronda 51 por mil, cifra de ciudad.",
- "En verano el Sardinero y la Magdalena reciben veraneantes y algo más de ruido y tráfico; el centro mantiene ritmo de capital todo el año. Primavera y otoño en la bahía son buenas épocas para conocerlo: el paseo de Pereda no es solo foto de agosto. Quien mire Liencres usa Santander como ciudad de hospital, cultura y vuelo a quince minutos.",
- "El calendario de capital tiene citas de verano en el Sardinero y la Magdalena, y ritmo de ciudad el resto del año: comercios, cultura, el Botín, la bahía. Las fiestas de Santiago y el veraneo histórico de la corte dejaron huella de ciudad burguesa; hoy el lleno de playa en agosto convive con el ensanche que no se vacía en enero. Quien se decida a vivir junto al Sardinero debe contar la temporada como parte del año.",
- "Santander encaja para quien prefiera ciudad completa; para quien mire Liencres, es la ciudad de referencia a quince minutos. Si solo conoces un sábado soleado en el Sardinero, te llevas la imagen de folleto de la playa. Si has visto un invierno de cielo cubierto, ya puedes decidir si quieres la capital.",
- ],
- tiempo: [
- "Si vienes de Baleares, ganas logística y pierdes despejados. Santander suma unas 1.680 a 1.700 horas de sol y unos 38 a 40 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.150 a 1.200 milímetros en unos 148 a 152 días. El viento es medio; la niebla, baja.",
- "El verano ronda 20 °C, fresco frente a Baleares. El Sardinero, la Magdalena y Mataleñas tienen agua entre 19 y 21 °C; la bahía ofrece orilla más calmada que el Cantábrico abierto en días de mar llana. Conviene venir un noviembre y un día de cubierto, no solo el sábado de sol sobre la Magdalena.",
- ],
- vivir: [
- "El invierno en Santander es de capital cantábrica: cielo cubierto frecuente, lluvia y humedad de bahía. En Mallorca muchas viviendas casi no piensan en calefacción; aquí conviene aislamiento, orientación y moho en armarios. Una terraza al Sardinero que en agosto parece el centro de la vida se usa menos entre noviembre y febrero. Probar un invierno de cielo cubierto evita firmar solo por la Magdalena en sol.",
- "El día a día sin coche es el fuerte de la ciudad: servicios 10/10, dependencia del coche 2/10. Un martes de noviembre se resuelve casi todo a pie —comercio, cultura, el Botín, el paseo de Pereda—. Quien elija primera línea del Sardinero ganará playa y más ocupación de verano; en el ensanche, ritmo de capital que no se vacía en enero.",
- "Conviven residentes de capital, veraneantes en el Sardinero y la Magdalena, y quien usa Santander como ciudad de referencia desde Liencres. Entre semana manda la ciudad; en verano el frente de playa recibe más ruido y tráfico. Las fiestas de Santiago y el veraneo histórico dejaron huella de ciudad burguesa. El castellano basta; la vida social pasa por barrio, cultura y bahía más que por una única plaza de pueblo.",
- "Valdecilla —hospital público de referencia nacional— y Santa Clotilde quedan a unos cinco minutos: la logística sanitaria más completa de Cantabria Occidental. Empadronarse aquí abre cabecera y especialidades en la misma ciudad. No es «hospital lejos»: es ciudad con sanidad a la puerta.",
- "El aeropuerto anda alrededor de los diez minutos, con Palma casi todo el año —el mejor acceso de la zona—. Ir y volver a Mallorca es el trayecto más corto de Cantabria Occidental; el peaje sigue siendo el sol bajo, no la distancia al avión. Conviene mirar horarios del año entero.",
- "El ensanche, el Sardinero y barrios residenciales ofrecen pisos; hay obra nueva y fibra. En primera línea del Sardinero hay que contar con precio y ocupación de verano. Tres habitaciones suelen quedar caras; dos en franja asequible son la orilla más realista. Imaginar ascensor, terraza de invierno y el ritmo de ciudad antes de comprar solo por la playa.",
- ],
- historia: [
- "El paseo de Pereda, la Magdalena y el Sardinero explican Santander: capital burguesa de bahía y de veraneo elegante, reconstruida tras el incendio de 1941 en el centro histórico. El palacio de la Magdalena y el veraneo regio marcaron la imagen de ciudad limpia y de servicios. La capa contemporánea llega con el Centro Botín, sobre la bahía.",
- "Cabo Mayor y Mataleñas cierran el arco de acantilado urbano: faro, senda, orilla abierta. El puerto y el ferry a Inglaterra e Irlanda mantienen la vocación atlántica. Lo que conviene saber es de capital cantábrica, hospital de referencia y bahía caminable, no de villa pequeña.",
- "Hoy Santander es ciudad completa: Valdecilla, aeropuerto a diez minutos, ensanche, Sardinero. Quien camina Pereda un martes de noviembre entiende por qué Liencres la usa como referencia y por qué el metro es el más alto de la zona.",
- ],
- fuera: [
- "Si solo hay tiempo para un baño cerca, ese baño es el Sardinero o la Magdalena: playas urbanas, agua entre 19 y 21 °C, la bahía más calmada en días de mar llana. Un martes de junio puedes tener espacio; un domingo de agosto el frente se llena. Mataleñas añade orilla de acantilado hacia Cabo Mayor.",
- "El paseo de Pereda y la península de la Magdalena son la tarde de diario: bahía, jardines, el Botín como gesto cultural. Cabo Mayor cubre faro y senda cuando se busca horizonte sin toalla.",
- "Liencres y las dunas quedan a unos quince minutos; Cabárceno, a unos veinte. Quien priorice caminar casi toda la semana encontrará aquí la logística más completa; quien priorice casas bajas y seguridad máxima mirará Liencres; quien priorice villa-playa, Suances.",
- ],
- casa: [
- "El ensanche, el Sardinero y barrios residenciales ofrecen pisos; hay obra nueva y fibra. En primera línea del Sardinero hay que contar con precio y ocupación de verano. La tipología de tres habitaciones suele quedar por encima de la franja asequible habitual; dos habitaciones rondan unos 220.000 euros.",
- "La referencia de precio actual está en la capa factual y en Idealista del mes; aquí no se fija una media municipal en prosa. 000 euros —fuera de la orilla asequible habitual—. La franja media puede ser piso de dos habitaciones en ensanche o cerca del Sardinero. Conviene probar un invierno de cielo cubierto y un agosto en la playa antes de comprar.",
- "Los servicios son 10/10. Valdecilla queda a unos cinco minutos. Santander–Seve Ballesteros está a unos diez, con Palma casi todo el año. Eso es Santander: bahía completa a cambio del metro de capital y del sol bajo de Cantabria.",
- ],
- encaja: {
- si: [
- "La ciudad de bahía completa importa más que la casa baja junto a las dunas. Santander reúne unos ciento setenta y tres mil habitantes: Sardinero, península de la Magdalena, Cabo Mayor, Centro Botín, paseo de Pereda y bahía; capital elegante, limpia y ordenada, con ferry a Inglaterra e Irlanda. Quien quiera resolver casi todo a pie un martes de noviembre —servicios 10/10, dependencia del coche 2/10—, bajar al Sardinero o a la Magdalena y tener Valdecilla a unos cinco minutos encontrará aquí la logística más completa de la zona. En verano el Sardinero y la Magdalena reciben veraneantes y algo más de tráfico; el centro mantiene ritmo de capital todo el año. Unas 1.680 a 1.700 horas de sol y unos 40 días despejados —frente a las 2.800 horas y 120 de Mallorca— siguen siendo el peaje cantábrico: lluvia frecuente, verano suave alrededor de 20 °C, agua entre 19 y 21 °C, niebla baja. La seguridad ronda 51 por mil, cifra de ciudad.",
- "Funciona si se priorizan Valdecilla y Santa Clotilde a unos cinco minutos y el aeropuerto alrededor de los diez, con Palma casi todo el año —el mejor acceso aéreo de Cantabria Occidental—. Hay obra nueva y fibra; el metro ronda 2.600 euros, el más alto de la zona: dos habitaciones en franja asequible andan cerca de 220.000 euros; tres suelen quedar por encima de la orilla habitual. Quien viva en Liencres usa Santander como ciudad de referencia a quince minutos para hospital, cultura y vuelo. Quien prefiera capital caminable frente a urbanización o villa entenderá Santander sin pedirle el precio de Suances.",
- ],
- no: [
- "Si lo que se buscan son casas bajas junto a dunas y acantilados con la criminalidad más baja de la tabla, Santander no lo es: eso es Liencres (Piélagos). Tampoco encaja quien necesite tres habitaciones en primera línea dentro de la franja asequible habitual del mercado: aquí el metro de capital lo deja fuera con facilidad. El cielo de Baleares no está en la bahía: se gana logística, no despejados.",
- "Tampoco si se busca villa marinera pequeña o silencio de noviembre como en Comillas fuera de temporada. Quien se decida solo por el Sardinero en un sábado de sol, sin probar un invierno de cielo cubierto ni el ritmo de ciudad, puede descubrir que la capital no era lo que pedía el día a día. Si mandan playa de villa con hospital a quince y metro más amable, Suances; si mandan dunas y seguridad máxima, Liencres. Santander pide aceptar precio de capital y sol bajo a cambio de caminar casi toda la semana.",
- ],
- veredicto:
- "Veredicto: Santander encaja como ciudad de bahía —dos habitaciones en ensanche o cerca del Sardinero, o como capital de apoyo desde Liencres— sobre todo si Valdecilla a cinco, aeropuerto a diez y servicios 10/10 importan más que el metro bajo. Probar un martes de noviembre y un agosto en la playa antes de comprar. Se ganan bahía, Magdalena, Botín y Palma casi todo el año a diez minutos; se aceptan y unas 1.700 horas de sol. Quien priorice casas bajas y seguridad, Liencres; quien priorice villa-playa, Suances.",
- },
+    escala: "Ciudad atlántica junto a la bahía",
+    abrir: [
+      "Santander es una ciudad completa, no una villa con playa. La bahía, Puerto Chico, la Magdalena y el Sardinero permiten vivir el mar dentro de la ciudad, mientras el centro concentra comercio, cultura, sanidad y servicios de una escala que ningún otro lugar cántabro del estudio reproduce.",
+      "La autonomía cotidiana es muy alta y puede ser baja la dependencia del coche en barrios centrales bien elegidos. Pero la ciudad tiene cuestas y microzonas muy distintas: centro, Sardinero y periferia cambian playa, pendiente, precio y forma de moverse.",
+      "La playa es realmente cotidiana en zonas costeras, no desde cualquier barrio. Elegir vivienda exige decidir si pesa más tener el Sardinero cerca, la vida del centro o una ubicación más periférica.",
+    ],
+    tiempo: [
+      "El clima marítimo trae humedad, lluvia repartida y veranos suaves. Frente a Mallorca hay menos continuidad de sol; en una ciudad con cuestas y fachadas expuestas importa especialmente orientación, aislamiento y recorrido peatonal en días de lluvia. Las cifras permanecen en la capa factual.",
+    ],
+    vivir: [
+      "Aquí una mañana libre no depende del coche: compra, sanidad, cultura, paseo y transporte forman parte de una ciudad activa todo el año. Según barrio, la bahía o el Sardinero pueden incorporarse al recorrido ordinario.",
+      "El hospital de Valdecilla y el aeropuerto están integrados en una logística urbana muy favorable. Palma depende de la programación publicada y no debe presentarse como garantía permanente.",
+      "El verano aumenta la afluencia en Sardinero y frentes turísticos, pero no sustituye la base anual de la ciudad. El peaje no es falta de servicios sino tráfico, precio y elegir bien entre playa, centro y pendiente.",
+    ],
+    historia: [
+      "La bahía ha organizado la ciudad tanto como sus barrios. Paseo de Pereda, Puerto Chico, Magdalena y Sardinero muestran distintas etapas de una capital marítima que creció entre puerto, veraneo y servicios.",
+      "Cabo Mayor amplía el frente costero hacia un paisaje más abierto, mientras el centro mantiene la dimensión administrativa y comercial.",
+    ],
+    fuera: [
+      "El paseo cotidiano puede ir por la bahía y Puerto Chico hacia la Magdalena, o concentrarse en Sardinero según la vivienda. No existe un único paseo residencial válido para toda Santander.",
+      "Cabo Mayor y Mataleñas amplían la costa sin salir de la lógica urbana; otras playas y la bahía oriental permiten salidas cercanas sin que la ciudad dependa de ellas para tener vida propia.",
+    ],
+    casa: [
+      "La microzona es decisiva. Centro, Sardinero y barrios periféricos cambian precio, pendiente, playa y necesidad de coche. Una vivienda aparentemente céntrica puede exigir cuestas que alteren la comodidad diaria.",
+      "Priorizar ascensor y ausencia de barreras cuando corresponda, orientación, aislamiento, aparcamiento si se necesita coche y recorrido real a servicios. Los precios quedan en la tabla factual.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca máxima autonomía cotidiana, sanidad y cultura sin renunciar a una relación urbana real con el mar.",
+        "También si se acepta escoger barrio con cuidado para equilibrar playa, centro, cuestas y movilidad.",
+      ],
+      no: [
+        "Encaja peor si se busca escala de pueblo, poco tráfico o una vivienda costera económica.",
+        "También si se presupone que toda la ciudad permite bajar andando al Sardinero con la misma facilidad.",
+      ],
+      veredicto:
+        "Santander ofrece la autonomía de una capital con una relación excepcionalmente directa con bahía y playas. Su decisión residencial no es ciudad sí o no, sino qué barrio: esa elección determina mar cotidiano, cuestas, precio y dependencia del coche."
+    },
  fotoIdentidad: {
  src: "/fotos/cantabria-occidental/santander-identidad.jpg",
  pie: "Santander: casas de la ciudad frente a la bahía, con los montes detrás",
@@ -335,5 +288,5 @@ export const RELATOS_CANTABRIA_OCCIDENTAL: Record<string, RelatoMun> = {
  { src: "/fotos/cantabria-occidental/santander-cabo-mayor.jpg", pie: "Cabo Mayor, Santander" },
  ],
  creditoFotos: credito,
- },
+  },
 };

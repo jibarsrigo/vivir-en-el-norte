@@ -7,15 +7,19 @@ Oleadas:
   logistica   — sanidad / aeropuerto-Palma / transporte 2026 (CURSOR_07)
   mar_paseos  — playa cotidiana / paseos / microzona (CURSOR_08)
   casa_reventa — casaQueBuscar / mercadoReventa (CURSOR_09)
+  clima_basico — sol/lluvia/temps/humedad/viento/niebla/clase/tempAgua (CURSOR_11)
+                 NO escribe despejados/cubiertos/sol_dias_equiv
+                 NO toca clima-municipios.json ni zonas.json
 
 Uso:
-  python scripts/sync_master_v15_to_web.py --wave precios|servicios|logistica|mar_paseos|casa_reventa
+  python scripts/sync_master_v15_to_web.py --wave precios|servicios|logistica|mar_paseos|casa_reventa|clima_basico
   python scripts/sync_master_v15_to_web.py --check
 
 No escribe el XLSX. No toca CSV, relatos, zonas ni capas.
 No inventa minutos ni reduce textos 2026 a campos históricos.
 No rellena campos selectivos vacíos en v15.
 No deriva scores/predicciones de CASA/reventa.
+No propaga dias_despejados / dias_cubiertos / sol_dias_equiv.
 """
 
 from __future__ import annotations
@@ -124,12 +128,46 @@ CASA_REVENTA_MAP = {
 }
 CASA_REVENTA_JSON_KEYS = tuple(CASA_REVENTA_MAP.values())
 
+# CURSOR_11: campos climáticos comparables. Excluye despejados/cubiertos/sol_dias_equiv.
+CLIMA_BASICO_MAP = {
+    "sol_horas_anio": "solHoras",
+    "lluvia_dias_anio": "lluviaDias",
+    "lluvia_mm_anio": "lluviaMm",
+    "temp_verano_c": "tempVerano",
+    "temp_invierno_c": "tempInvierno",
+    "humedad_pct": "humedad",
+    "viento": "viento",
+    "niebla": "niebla",
+    "clase_clima": "clase",
+    "temp_agua_verano": "tempAgua",
+}
+CLIMA_BASICO_JSON_KEYS = tuple(CLIMA_BASICO_MAP.values())
+CLIMA_BASICO_NUM_KEYS = (
+    "solHoras",
+    "lluviaDias",
+    "lluviaMm",
+    "tempVerano",
+    "tempInvierno",
+    "humedad",
+)
+CLIMA_EXCLUIDOS_JSON = ("despejados", "cubiertos")  # no escribir; proteger en regresión
+CLIMA_MUNICIPIOS_PATH = DATA_DIR / "clima-municipios.json"
+ZONAS_JSON_PATH = DATA_DIR / "zonas.json"
+
 # Regresión por oleada (no incluir las claves que la propia oleada escribe)
 REGRESSION_BEFORE_SERVICIOS = PRICE_KEYS
 REGRESSION_BEFORE_LOGISTICA = PRICE_KEYS + SERVICIOS_JSON_KEYS
 REGRESSION_BEFORE_MAR_PASEOS = PRICE_KEYS + SERVICIOS_JSON_KEYS + LOGISTICA_JSON_KEYS
 REGRESSION_BEFORE_CASA_REVENTA = (
     PRICE_KEYS + SERVICIOS_JSON_KEYS + LOGISTICA_JSON_KEYS + MAR_PASEOS_JSON_KEYS
+)
+REGRESSION_BEFORE_CLIMA_BASICO = (
+    PRICE_KEYS
+    + SERVICIOS_JSON_KEYS
+    + LOGISTICA_JSON_KEYS
+    + MAR_PASEOS_JSON_KEYS
+    + CASA_REVENTA_JSON_KEYS
+    + CLIMA_EXCLUIDOS_JSON
 )
 
 
@@ -183,6 +221,18 @@ def _to_json_servicios(val: object) -> int | float:
     return float(num)
 
 
+def _to_json_clima_num(dst: str, val: object) -> int | float:
+    """Climate numbers: whole → int; half-degrees stay float."""
+    num = _as_number(val)
+    if num is None:
+        raise SystemExit(f"ABORT: clima {dst} no numérico: {val!r}")
+    if dst in ("tempVerano", "tempInvierno"):
+        if abs(num - round(num)) < 1e-9:
+            return float(int(round(num)))
+        return float(num)
+    return int(round(num))
+
+
 def _same_num(a: object, b: object) -> bool:
     """Compare JSON number vs master number allowing int/float equivalence."""
     if a is None and b is None:
@@ -213,6 +263,7 @@ def load_master() -> list[dict]:
         *LOGISTICA_MAP.keys(),
         *MAR_PASEOS_MAP.keys(),
         *CASA_REVENTA_MAP.keys(),
+        *CLIMA_BASICO_MAP.keys(),
     )
     for need in needed:
         if need not in col:
@@ -273,6 +324,15 @@ def load_master() -> list[dict]:
             if not text:
                 raise SystemExit(f"ABORT: n={n} {nombre}: {src} vacío en v15")
             row[dst] = text
+        for src, dst in CLIMA_BASICO_MAP.items():
+            raw = r[col[src]]
+            if dst in CLIMA_BASICO_NUM_KEYS:
+                row[dst] = _to_json_clima_num(dst, raw)
+            else:
+                text = _norm(raw)
+                if not text:
+                    raise SystemExit(f"ABORT: n={n} {nombre}: {src} vacío en v15")
+                row[dst] = text
         out.append(row)
 
     if len(out) != 83:
@@ -596,6 +656,62 @@ def verify_casa_reventa(master: list[dict], by_n: dict[int, dict]) -> None:
             raise SystemExit(f"ABORT QA: {k} no coincide 83/83")
 
 
+def apply_clima_basico(master: list[dict], files: dict[str, list[dict]]) -> dict:
+    by_master = {m["n"]: m for m in master}
+    touched: list[str] = []
+    changed_by_key = {k: 0 for k in CLIMA_BASICO_JSON_KEYS}
+    examples: list[str] = []
+
+    for fname, rows in files.items():
+        file_changed = False
+        for row in rows:
+            m = by_master[int(row["n"])]
+            for key in CLIMA_BASICO_JSON_KEYS:
+                before = row.get(key)
+                after = m[key]
+                same = (
+                    _same_num(before, after)
+                    if key in CLIMA_BASICO_NUM_KEYS
+                    else _norm(before) == _norm(after)
+                )
+                if not same:
+                    file_changed = True
+                    changed_by_key[key] += 1
+                    if len(examples) < 12:
+                        examples.append(
+                            f"{m['municipio']}: {key} {before!r} → {after!r}"
+                        )
+                    row[key] = after
+            # Garantía: no tocar despejados/cubiertos (ni siquiera reasignar)
+        if file_changed:
+            touched.append(fname)
+
+    # Solo reescribe JSON con cambios reales (evita churn de tipos 20→20.0).
+    write_files({f: files[f] for f in touched})
+    return {
+        "touched_files": touched,
+        "changed_by_key": changed_by_key,
+        "examples": examples,
+    }
+
+
+def verify_clima_basico(master: list[dict], by_n: dict[int, dict]) -> None:
+    print("--- CLIMA BÁSICO (autorizados CURSOR_11) ---")
+    for k in CLIMA_BASICO_JSON_KEYS:
+        if k in CLIMA_BASICO_NUM_KEYS:
+            ok = sum(1 for m in master if _same_num(by_n[m["n"]].get(k), m[k]))
+        else:
+            ok = sum(
+                1 for m in master if _norm(by_n[m["n"]].get(k)) == _norm(m[k])
+            )
+        print(f"{k}: {ok}/83")
+        if ok != 83:
+            raise SystemExit(f"ABORT QA: {k} no coincide 83/83")
+    print(
+        "excluidos (no auto): despejados/cubiertos/sol_dias_equiv — no verificados vs v15"
+    )
+
+
 def assert_no_regression(
     before_snapshot: dict[int, dict], by_n: dict[int, dict], keys: tuple[str, ...]
 ) -> None:
@@ -645,7 +761,14 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--wave",
-        choices=("precios", "servicios", "logistica", "mar_paseos", "casa_reventa"),
+        choices=(
+            "precios",
+            "servicios",
+            "logistica",
+            "mar_paseos",
+            "casa_reventa",
+            "clima_basico",
+        ),
         help="Oleada a aplicar (obligatoria si no es --check)",
     )
     parser.add_argument("--check", action="store_true", help="Solo verificar, no escribir")
@@ -653,7 +776,8 @@ def main() -> int:
 
     if not args.check and not args.wave:
         raise SystemExit(
-            "ABORT: indica --wave precios|servicios|logistica|mar_paseos|casa_reventa o --check"
+            "ABORT: indica --wave precios|servicios|logistica|mar_paseos|"
+            "casa_reventa|clima_basico o --check"
         )
 
     master = load_master()
@@ -714,6 +838,9 @@ def main() -> int:
             )
         else:
             verify_casa_reventa(master, by_n)
+
+        # clima_basico: campos ya existen; tras CURSOR_11 deben = v15 83/83
+        verify_clima_basico(master, by_n)
 
         print("RESULTADO SYNC QA: OK")
         return 0
@@ -823,37 +950,94 @@ def main() -> int:
         print("mar-municipios.json: no modificado.")
         return 0
 
-    # wave casa_reventa
+    if args.wave == "casa_reventa":
+        prev_snap = {
+            int(r["n"]): {k: r.get(k) for k in REGRESSION_BEFORE_CASA_REVENTA}
+            for rows in before.values()
+            for r in rows
+        }
+        stats = apply_casa_reventa(master, files)
+        by_n2, files2 = load_product()
+        assert_no_regression(prev_snap, by_n2, REGRESSION_BEFORE_CASA_REVENTA)
+        assert_authorized_only(
+            before,
+            files2,
+            allowed=set(CASA_REVENTA_JSON_KEYS),
+            allow_new=set(CASA_REVENTA_JSON_KEYS),
+        )
+        verify_precios(master, by_n2)
+        verify_servicios(master, by_n2)
+        verify_logistica(master, by_n2)
+        verify_mar_paseos(master, by_n2)
+        verify_casa_reventa(master, by_n2)
+        print("RESULTADO SYNC QA: OK")
+        print("---")
+        print(f"JSON tocados: {len(stats['touched_files'])}")
+        for src, dst in CASA_REVENTA_MAP.items():
+            print(f"  {src} → {dst}")
+        for line in stats["examples"]:
+            print(f"  - {line}")
+        print(
+            "Semántica: textos literales v15; sin scores/rankings/predicciones; "
+            "sin inserción en relatos; UI de ficha pendiente."
+        )
+        return 0
+
+    # wave clima_basico
+    if not CLIMA_MUNICIPIOS_PATH.is_file():
+        raise SystemExit(f"ABORT: falta {CLIMA_MUNICIPIOS_PATH}")
+    if not ZONAS_JSON_PATH.is_file():
+        raise SystemExit(f"ABORT: falta {ZONAS_JSON_PATH}")
+    clima_before = CLIMA_MUNICIPIOS_PATH.read_bytes()
+    zonas_before = ZONAS_JSON_PATH.read_bytes()
+
     prev_snap = {
-        int(r["n"]): {k: r.get(k) for k in REGRESSION_BEFORE_CASA_REVENTA}
+        int(r["n"]): {k: r.get(k) for k in REGRESSION_BEFORE_CLIMA_BASICO}
         for rows in before.values()
         for r in rows
     }
-    stats = apply_casa_reventa(master, files)
+    stats = apply_clima_basico(master, files)
     by_n2, files2 = load_product()
-    assert_no_regression(prev_snap, by_n2, REGRESSION_BEFORE_CASA_REVENTA)
+    assert_no_regression(prev_snap, by_n2, REGRESSION_BEFORE_CLIMA_BASICO)
     assert_authorized_only(
         before,
         files2,
-        allowed=set(CASA_REVENTA_JSON_KEYS),
-        allow_new=set(CASA_REVENTA_JSON_KEYS),
+        allowed=set(CLIMA_BASICO_JSON_KEYS),
+        allow_new=set(),
     )
+    if CLIMA_MUNICIPIOS_PATH.read_bytes() != clima_before:
+        raise SystemExit("ABORT: clima-municipios.json fue modificado (prohibido)")
+    if ZONAS_JSON_PATH.read_bytes() != zonas_before:
+        raise SystemExit("ABORT: zonas.json fue modificado (prohibido)")
+
     verify_precios(master, by_n2)
     verify_servicios(master, by_n2)
     verify_logistica(master, by_n2)
     verify_mar_paseos(master, by_n2)
     verify_casa_reventa(master, by_n2)
+    verify_clima_basico(master, by_n2)
+
+    ac_before = next(
+        r for rows in before.values() for r in rows if int(r["n"]) == 32
+    )
+    ac_after = by_n2[32]
+    if ac_before.get("despejados") != ac_after.get("despejados") or ac_before.get(
+        "cubiertos"
+    ) != ac_after.get("cubiertos"):
+        raise SystemExit("ABORT: A Coruña despejados/cubiertos alterados")
+
     print("RESULTADO SYNC QA: OK")
     print("---")
     print(f"JSON tocados: {len(stats['touched_files'])}")
-    for src, dst in CASA_REVENTA_MAP.items():
-        print(f"  {src} → {dst}")
+    for src, dst in CLIMA_BASICO_MAP.items():
+        print(f"  {src} → {dst} (cambios: {stats['changed_by_key'][dst]})")
     for line in stats["examples"]:
         print(f"  - {line}")
     print(
-        "Semántica: textos literales v15; sin scores/rankings/predicciones; "
-        "sin inserción en relatos; UI de ficha pendiente."
+        "A Coruña: sol/lluvia alineados a v15; despejados/cubiertos intactos; "
+        "relato AEMET/1939 y zonas.json Golfo sin tocar (deuda editorial)."
     )
+    print("clima-municipios.json: no modificado. zonas.json: no modificado.")
     return 0
 
 

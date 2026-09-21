@@ -42,7 +42,14 @@
         "B_2hab": 88384,
         "B_3hab": 122378,
         "obraNueva": "No",
-        "mapa": "47_castropol.png"
+        "mapa": "47_castropol.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Castropol villa: servicios básicos y ría; Figueras: pequeño núcleo marinero con vida propia al otro lado de la ensenada.",
+        "radioSalida": "Costa occidental y Ribadeo; hospital en Jarrio.",
+        "dependenciaCocheTexto": "Media-alta fuera de los núcleos.",
+        "autonomiaCotidiana": "MEDIA-BAJA",
+        "estacionalidad2026": "Vida local anual con escala pequeña.",
+        "peajeRealidad": "Ría y paisaje muy próximos, pero servicios superiores y hospital requieren desplazamiento."
     },
     {
         "n": 48,
@@ -69,7 +76,7 @@
         "minBano": 2,
         "tempAgua": "18-20",
         "franja": "A",
-        "servicios": 4,
+        "servicios": 6,
         "serviciosNota": "Tiene: villa marinera con paseo. Falta: instituto de FP",
         "fibra": "Sí",
         "comunicaciones": "A-8 / N-634; bus",
@@ -87,7 +94,14 @@
         "B_2hab": 150150,
         "B_3hab": 207900,
         "obraNueva": "Poca",
-        "mapa": "48_tapia_de_casariego.png"
+        "mapa": "48_tapia_de_casariego.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Villa compacta con puerto, comercio, servicios y costa enlazables a pie.",
+        "radioSalida": "Playas y costa occidental; Jarrio para hospital.",
+        "dependenciaCocheTexto": "Baja-media en villa; coche para hospital y salidas.",
+        "autonomiaCotidiana": "MEDIA-FUERTE",
+        "estacionalidad2026": "Vida anual, con presión vacacional notable en verano.",
+        "peajeRealidad": "Mar y paseo excelentes para su tamaño; menor profundidad de servicios y verano más intenso."
     },
     {
         "n": 49,
@@ -114,7 +128,7 @@
         "minBano": 5,
         "tempAgua": "18-20",
         "franja": "A",
-        "servicios": 5,
+        "servicios": 6,
         "serviciosNota": "Tiene: hospital a 10 min, villa completa. Falta: atractivo turístico",
         "fibra": "Sí",
         "comunicaciones": "A-8 / N-634; tren FEVE",
@@ -132,7 +146,14 @@
         "B_2hab": 94458,
         "B_3hab": 130788,
         "obraNueva": "Poca",
-        "mapa": "49_navia.png"
+        "mapa": "49_navia.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Villa comarcal con comercio, salud, servicios y vida propia junto a la ría.",
+        "radioSalida": "Costa occidental y playas; hospital en Jarrio a corta salida.",
+        "dependenciaCocheTexto": "Baja para rutina de villa; coche para playa/hospital.",
+        "autonomiaCotidiana": "FUERTE",
+        "estacionalidad2026": "Villa comarcal anual.",
+        "peajeRealidad": "Muy funcional en el occidente, aunque la experiencia de playa no está tan integrada como en Tapia."
     },
     {
         "n": 50,
@@ -177,6 +198,13 @@
         "B_2hab": 85722,
         "B_3hab": 118692,
         "obraNueva": "Poca",
-        "mapa": "50_luarca.png"
+        "mapa": "50_luarca.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Zona baja concentra puerto, comercio y servicios; muchas viviendas implican desnivel.",
+        "radioSalida": "Costa de Valdés y hospital de Jarrio.",
+        "dependenciaCocheTexto": "Media: baja en zona baja bien situada, mayor en cotas altas/exteriores.",
+        "autonomiaCotidiana": "FUERTE EN ZONA BAJA",
+        "estacionalidad2026": "Villa comarcal anual con capa turística.",
+        "peajeRealidad": "Puerto y paisaje memorables a cambio de una topografía que condiciona la vida diaria."
     }
 ]

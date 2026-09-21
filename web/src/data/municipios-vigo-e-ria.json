@@ -42,7 +42,14 @@
         "B_2hab": 176836,
         "B_3hab": 244850,
         "obraNueva": "Sí",
-        "mapa": "09_vigo.png"
+        "mapa": "09_vigo.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "En centro: comercio, cultura, sanidad, restauración y puerto; en Samil/Alcabre: costa con menor densidad de servicios.",
+        "radioSalida": "Playas atlánticas, montes y Cíes; según microzona parte de la costa puede ser cotidiana.",
+        "dependenciaCocheTexto": "Baja en zonas centrales bien elegidas; mayor en laderas y periferia.",
+        "autonomiaCotidiana": "MUY ALTA",
+        "estacionalidad2026": "Ciudad plenamente anual.",
+        "peajeRealidad": "Gran autonomía a cambio de pendientes, tráfico y fuerte diferencia entre microzonas."
     },
     {
         "n": 10,
@@ -69,7 +76,7 @@
         "minBano": 6,
         "tempAgua": "18-20",
         "franja": "B",
-        "servicios": 7,
+        "servicios": 8,
         "serviciosNota": "Centro de salud, farmacias, mercado, supermercados, comercio, colegios, institutos, deporte y estación de tren. Falta: hospital y gran oferta cultural, disponibles en Vigo o Pontevedra.",
         "fibra": "Sí",
         "comunicaciones": "AP-9 y N-550; tren a Vigo y Pontevedra; bus interurbano",
@@ -87,7 +94,14 @@
         "B_2hab": 102307,
         "B_3hab": 141656,
         "obraNueva": "Poca",
-        "mapa": "10_redondela.png"
+        "mapa": "10_redondela.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Redondela villa: comercio, tren, biblioteca y servicios; Chapela se integra más en el corredor de Vigo.",
+        "radioSalida": "Cesantes y ensenada de San Simón para mar/paisaje.",
+        "dependenciaCocheTexto": "Baja-media en villa; variable en parroquias.",
+        "autonomiaCotidiana": "FUERTE EN VILLA",
+        "estacionalidad2026": "Vida anual.",
+        "peajeRealidad": "Buena conexión y servicios, pero experiencia muy desigual por parroquia."
     },
     {
         "n": 11,
@@ -114,7 +128,7 @@
         "minBano": 10,
         "tempAgua": "18-20",
         "franja": "B",
-        "servicios": 4,
+        "servicios": 6,
         "serviciosNota": "Centro de salud, farmacias, alimentación, colegios, restauración y comercio básico concentrado en Arcade. Falta: hospital, instituto con oferta amplia, cine y grandes superficies.",
         "fibra": "Parcial",
         "comunicaciones": "N-550 y AP-9 cercana; estación de Arcade; bus a Pontevedra y Vigo",
@@ -132,7 +146,14 @@
         "B_2hab": 144076,
         "B_3hab": 199490,
         "obraNueva": "Poca",
-        "mapa": "11_soutomaior.png"
+        "mapa": "11_soutomaior.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Arcade: comercio, centro de salud, biblioteca Luís Seoane, pabellón y Multiúsos.",
+        "radioSalida": "Castillo, viñedo e interior; ría y rutas desde Arcade.",
+        "dependenciaCocheTexto": "Baja-media en Arcade; mayor en interior.",
+        "autonomiaCotidiana": "MEDIA-FUERTE EN ARCADE",
+        "estacionalidad2026": "Programación cultural y servicios durante el año.",
+        "peajeRealidad": "Arcade funciona bien; fuera del núcleo aumenta rápidamente el coche."
     },
     {
         "n": 12,
@@ -159,7 +180,7 @@
         "minBano": 10,
         "tempAgua": "18-20",
         "franja": "A",
-        "servicios": 3,
+        "servicios": 4,
         "serviciosNota": "Consultorio, farmacia, tiendas y bares repartidos entre parroquias. Para mercado, instituto, hospital, gran compra y cultura se depende de Pontevedra, Arcade o Redondela.",
         "fibra": "Parcial",
         "comunicaciones": "N-550, N-554 y AP-9 cercana; bus interurbano; sin estación propia útil",
@@ -177,6 +198,13 @@
         "B_2hab": null,
         "B_3hab": null,
         "obraNueva": "No",
-        "mapa": "12_vilaboa.png"
+        "mapa": "12_vilaboa.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Servicios repartidos por parroquias; no existe una pequeña ciudad compacta equivalente.",
+        "radioSalida": "Ría, costa y proximidad a Pontevedra/Vigo como principales ventajas.",
+        "dependenciaCocheTexto": "Alta en buena parte del municipio.",
+        "autonomiaCotidiana": "BAJA-MEDIA",
+        "estacionalidad2026": "Vida residencial anual, con servicios dispersos.",
+        "peajeRealidad": "Paisaje y posición entre ciudades a cambio de coche."
     }
 ]

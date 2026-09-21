@@ -42,7 +42,14 @@
         "B_2hab": 111657,
         "B_3hab": 154602,
         "obraNueva": "No",
-        "mapa": "51_cudillero.png"
+        "mapa": "51_cudillero.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Puerto y pequeño núcleo turístico con servicios básicos; para rutina amplia se depende de otras áreas.",
+        "radioSalida": "Playas y costa del concejo; Avilés/área central para servicios superiores.",
+        "dependenciaCocheTexto": "Media-alta, además de la dificultad peatonal por pendiente.",
+        "autonomiaCotidiana": "MEDIA-BAJA",
+        "estacionalidad2026": "Turismo muy visible; actividad menor fuera de temporada.",
+        "peajeRealidad": "Imagen portuaria excepcional, pero topografía y escala de servicios penalizan la rutina."
     },
     {
         "n": 52,
@@ -87,7 +94,14 @@
         "B_2hab": null,
         "B_3hab": null,
         "obraNueva": "No",
-        "mapa": "52_muros_de_nalon.png"
+        "mapa": "52_muros_de_nalon.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Servicios básicos de concejo; San Esteban aporta puerto y patrimonio industrial.",
+        "radioSalida": "Costa, playas y miradores; Avilés para mayor escala.",
+        "dependenciaCocheTexto": "Media-alta.",
+        "autonomiaCotidiana": "MEDIA-BAJA",
+        "estacionalidad2026": "Vida local anual, pequeña escala.",
+        "peajeRealidad": "Interés paisajístico/industrial a cambio de servicios limitados y coche."
     },
     {
         "n": 53,
@@ -132,7 +146,14 @@
         "B_2hab": 80876,
         "B_3hab": 111983,
         "obraNueva": "No",
-        "mapa": "53_soto_del_barco.png"
+        "mapa": "53_soto_del_barco.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Ambos núcleos tienen básicos; San Juan añade puerto y relación directa con el Nalón.",
+        "radioSalida": "Playas/costa y Avilés; servicios superiores fuera.",
+        "dependenciaCocheTexto": "Media; menor dentro del núcleo para básicos.",
+        "autonomiaCotidiana": "MEDIA",
+        "estacionalidad2026": "Vida local anual con verano más activo.",
+        "peajeRealidad": "Buena escala pequeña, pero la oferta superior y parte de la costa exigen coche."
     },
     {
         "n": 54,
@@ -177,7 +198,14 @@
         "B_2hab": 220175,
         "B_3hab": 304857,
         "obraNueva": "Poca",
-        "mapa": "54_salinas.png"
+        "mapa": "54_salinas.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Salinas prioriza playa y paseo; Piedras Blancas concentra más comercio y servicios.",
+        "radioSalida": "Avilés y servicios mayores; costa de Castrillón.",
+        "dependenciaCocheTexto": "Media: menor para playa en Salinas, pero servicios se reparten con Piedras Blancas.",
+        "autonomiaCotidiana": "MEDIA-FUERTE SEGÚN MICROZONA",
+        "estacionalidad2026": "Residencial anual con fuerte uso estival de playa.",
+        "peajeRealidad": "Playa extraordinariamente cotidiana, pero servicios repartidos y transición industrial/portuaria próxima."
     },
     {
         "n": 55,
@@ -222,7 +250,14 @@
         "B_2hab": 162367,
         "B_3hab": 224816,
         "obraNueva": "Poca",
-        "mapa": "55_luanco.png"
+        "mapa": "55_luanco.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Villa con centro de salud/PAC, farmacias, biblioteca, comercio y Museo Marítimo.",
+        "radioSalida": "Cabo Peñas y costa de Gozón; Avilés/Gijón para escala mayor.",
+        "dependenciaCocheTexto": "Baja-media en villa; coche para costa exterior y servicios mayores.",
+        "autonomiaCotidiana": "FUERTE",
+        "estacionalidad2026": "Vida anual con aumento vacacional en verano.",
+        "peajeRealidad": "Mar y servicios bien combinados para su tamaño; hospital y gran oferta fuera."
     },
     {
         "n": 56,
@@ -249,7 +284,7 @@
         "minBano": 2,
         "tempAgua": "19-21",
         "franja": "A",
-        "servicios": 5,
+        "servicios": 6,
         "serviciosNota": "Tiene: tren a Gijón. Falta: instituto de FP",
         "fibra": "Sí",
         "comunicaciones": "AS-110 / A-8; tren FEVE Gijón–Cudillero",
@@ -267,7 +302,14 @@
         "B_2hab": 125580,
         "B_3hab": 173880,
         "obraNueva": "Poca",
-        "mapa": "56_candas.png"
+        "mapa": "56_candas.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Villa compacta con salud, comercio, biblioteca y Teatro Prendes alrededor de La Palmera/centro.",
+        "radioSalida": "Costa de Carreño, Avilés y Gijón.",
+        "dependenciaCocheTexto": "Baja-media en villa; coche para servicios de mayor escala.",
+        "autonomiaCotidiana": "FUERTE",
+        "estacionalidad2026": "Vida anual con programación cultural propia.",
+        "peajeRealidad": "Muy manejable a pie, pero con escala de servicios menor que Gijón/Avilés."
     },
     {
         "n": 57,
@@ -312,6 +354,13 @@
         "B_2hab": 184002,
         "B_3hab": 254772,
         "obraNueva": "Sí",
-        "mapa": "57_gijon.png"
+        "mapa": "57_gijon.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Ciudad completa: mercados, cultura, deporte, sanidad, comercio y restauración; amplias zonas permiten vida sin coche.",
+        "radioSalida": "Costa oriental/occidental asturiana y entorno rural; no necesaria para resolver la rutina.",
+        "dependenciaCocheTexto": "Baja en barrios centrales bien elegidos.",
+        "autonomiaCotidiana": "MUY ALTA",
+        "estacionalidad2026": "Ciudad plenamente anual.",
+        "peajeRealidad": "Mar y autonomía urbana juntos, a cambio de precio creciente, tráfico y diferencias de barrio."
     }
 ]

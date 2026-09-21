@@ -42,7 +42,14 @@
         "B_2hab": 127218,
         "B_3hab": 176148,
         "obraNueva": "No",
-        "mapa": "58_villaviciosa.png"
+        "mapa": "58_villaviciosa.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Villa con comercio, salud y servicios comarcales suficientes para una rutina autónoma.",
+        "radioSalida": "Ría y Rodiles para playa; Gijón/Oviedo para escala mayor.",
+        "dependenciaCocheTexto": "Baja-media en villa; coche para costa.",
+        "autonomiaCotidiana": "FUERTE",
+        "estacionalidad2026": "Villa anual; costa más estacional.",
+        "peajeRealidad": "Muy buena vida de villa, pero hay que elegir entre servicios a pie y playa a la puerta."
     },
     {
         "n": 59,
@@ -87,7 +94,14 @@
         "B_2hab": 121076,
         "B_3hab": 167643,
         "obraNueva": "No",
-        "mapa": "59_colunga.png"
+        "mapa": "59_colunga.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Colunga concentra básicos; Lastres aporta pequeño núcleo marinero con topografía fuerte.",
+        "radioSalida": "La Griega y MUJA; costa oriental.",
+        "dependenciaCocheTexto": "Media-alta, especialmente para combinar servicios y costa.",
+        "autonomiaCotidiana": "MEDIA",
+        "estacionalidad2026": "Vida anual pequeña; Lastres y costa reciben mayor presión turística.",
+        "peajeRealidad": "Paisaje y costa atractivos, pero servicios, playa y vivienda no se concentran en un único núcleo."
     },
     {
         "n": 60,
@@ -132,7 +146,14 @@
         "B_2hab": 179634,
         "B_3hab": 248724,
         "obraNueva": "Poca",
-        "mapa": "60_ribadesella.png"
+        "mapa": "60_ribadesella.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Villa con comercio, salud y servicios a ambos lados de la ría.",
+        "radioSalida": "Cuevas, costa oriental y Arriondas para hospital.",
+        "dependenciaCocheTexto": "Baja-media en villa; coche para hospital/salidas.",
+        "autonomiaCotidiana": "FUERTE",
+        "estacionalidad2026": "Vida anual con presión turística fuerte en verano.",
+        "peajeRealidad": "Villa y playa encajan muy bien, pero verano, precio y hospital fuera son el coste."
     },
     {
         "n": 61,
@@ -177,7 +198,14 @@
         "B_2hab": 163186,
         "B_3hab": 225950,
         "obraNueva": "Poca",
-        "mapa": "61_llanes.png"
+        "mapa": "61_llanes.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Villa: comercio, salud, cultura, puerto y servicios suficientes para vivir andando.",
+        "radioSalida": "Decenas de playas y pueblos costeros del concejo; muchas requieren coche aunque estén en el mismo municipio.",
+        "dependenciaCocheTexto": "Baja en villa; alta o media en muchos pueblos/playas.",
+        "autonomiaCotidiana": "FUERTE EN VILLA",
+        "estacionalidad2026": "Muy turística en verano, con vida anual real en la villa.",
+        "peajeRealidad": "Costa excepcional y villa funcional, pero precio, turismo y dispersión municipal obligan a elegir microzona con cuidado."
     },
     {
         "n": 62,
@@ -222,6 +250,13 @@
         "B_2hab": 116025,
         "B_3hab": 160650,
         "obraNueva": "No",
-        "mapa": "62_ribadedeva.png"
+        "mapa": "62_ribadedeva.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Colombres: básicos y Archivo de Indianos/Museo de la Emigración como foco cultural.",
+        "radioSalida": "La Franca y costa oriental; Llanes/Unquera para servicios mayores.",
+        "dependenciaCocheTexto": "Alta para combinar núcleo, playa y servicios superiores.",
+        "autonomiaCotidiana": "BAJA-MEDIA",
+        "estacionalidad2026": "Vida local anual pequeña; costa más estacional.",
+        "peajeRealidad": "Patrimonio y costa próximos, pero no concentrados; coche estructural."
     }
 ]

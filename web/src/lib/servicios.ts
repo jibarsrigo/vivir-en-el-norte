@@ -81,14 +81,15 @@ const COLOR_TRAMO: Record<TramoServicios, string> = {
  * `nota` puede ser la real del pueblo o un ejemplo de leyenda.
  */
 export function htmlIconoServicios(nota: number, tamano: "zona" | "pueblo" = "pueblo"): string {
-  const n = Math.max(1, Math.min(10, Math.round(nota)));
+  const n = Math.max(1, Math.min(10, nota));
   const tramo = tramoServicios(n);
   const color = COLOR_TRAMO[tramo];
+  const etiqueta = Number.isInteger(n) ? String(n) : String(n);
   const clase =
     tamano === "zona"
       ? `atlas-servicios-ico atlas-servicios-zona atlas-servicios-${tramo}`
       : `atlas-servicios-ico atlas-servicios-pueblo atlas-servicios-${tramo}`;
-  return `<div class="${clase}" style="background:${color}" title="Servicios ${n}/10"><span class="atlas-servicios-s">S</span><span class="atlas-servicios-n">${n}</span></div>`;
+  return `<div class="${clase}" style="background:${color}" title="Servicios ${etiqueta}/10"><span class="atlas-servicios-s">S</span><span class="atlas-servicios-n">${etiqueta}</span></div>`;
 }
 
 export function cuerpoServicios(s: ServiciosMunicipio): string {

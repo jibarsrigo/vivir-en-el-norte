@@ -42,7 +42,14 @@
         "B_2hab": 219629,
         "B_3hab": 304101,
         "obraNueva": "Poca",
-        "mapa": "63_san_vicente_de_la_barquera.png"
+        "mapa": "63_san_vicente_de_la_barquera.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Villa pequeña con comercio, hostelería y servicios básicos alrededor de la ría y el casco.",
+        "radioSalida": "Oyambre, Gerra y costa occidental; Torrelavega/Sierrallana para hospital y servicios de mayor escala.",
+        "dependenciaCocheTexto": "Baja-media para rutina de villa; coche para hospital y buena parte de la costa.",
+        "autonomiaCotidiana": "MEDIA-FUERTE",
+        "estacionalidad2026": "Vida local anual con fuerte aumento turístico en verano.",
+        "peajeRealidad": "Ría, costa y paisaje muy presentes, a cambio de presión estival y hospital fuera."
     },
     {
         "n": 64,
@@ -87,7 +94,14 @@
         "B_2hab": 254027,
         "B_3hab": 351729,
         "obraNueva": "Poca",
-        "mapa": "64_comillas.png"
+        "mapa": "64_comillas.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Villa compacta con comercio y servicios básicos; patrimonio y universidad aportan actividad más allá de la playa.",
+        "radioSalida": "Oyambre, costa occidental y Torrelavega para servicios/hospital.",
+        "dependenciaCocheTexto": "Baja-media en villa; coche para hospital y compras/servicios superiores.",
+        "autonomiaCotidiana": "MEDIA",
+        "estacionalidad2026": "Estacionalidad turística marcada, aunque conserva vida y patrimonio todo el año.",
+        "peajeRealidad": "Playa y casco muy integrados, pero precio alto, turismo y menor profundidad de servicios."
     },
     {
         "n": 65,
@@ -132,7 +146,14 @@
         "B_2hab": 204750,
         "B_3hab": 283500,
         "obraNueva": "Poca",
-        "mapa": "65_suances.png"
+        "mapa": "65_suances.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Comercio y servicios repartidos entre el núcleo alto y la zona marítima.",
+        "radioSalida": "Tagle/Ubiarco y Torrelavega para hospital/servicios mayores.",
+        "dependenciaCocheTexto": "Media y muy dependiente de microzona/topografía.",
+        "autonomiaCotidiana": "MEDIA-FUERTE SEGÚN MICROZONA",
+        "estacionalidad2026": "Presión turística fuerte en verano; actividad más reducida en invierno.",
+        "peajeRealidad": "Playas excelentes a cambio de pendientes, tráfico estival y una vida cotidiana partida entre cotas."
     },
     {
         "n": 66,
@@ -177,7 +198,14 @@
         "B_2hab": 151993,
         "B_3hab": 210452,
         "obraNueva": "Sí",
-        "mapa": "66_liencres.png"
+        "mapa": "66_liencres.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Servicios básicos locales; para una rutina más completa se depende de otros núcleos de Piélagos/Santander.",
+        "radioSalida": "Costa Quebrada, dunas y playas de Valdearenas/Canallave; Santander para servicios superiores.",
+        "dependenciaCocheTexto": "Media-alta: costa, servicios y vivienda no siempre coinciden.",
+        "autonomiaCotidiana": "MEDIA-BAJA",
+        "estacionalidad2026": "Residencial anual con fuerte uso estival de costa.",
+        "peajeRealidad": "Costa espectacular y proximidad a Santander, pero coche frecuente y menor autonomía local."
     },
     {
         "n": 67,
@@ -222,6 +250,13 @@
         "B_2hab": 226795,
         "B_3hab": 314024,
         "obraNueva": "Sí",
-        "mapa": "67_santander.png"
+        "mapa": "67_santander.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Ciudad completa con mercados, comercio, cultura, deporte, sanidad y transporte; barrios centrales permiten resolver casi toda la semana andando.",
+        "radioSalida": "Costa cántabra y entorno metropolitano; no necesaria para necesidades ordinarias.",
+        "dependenciaCocheTexto": "Baja en barrios centrales bien elegidos; mayor en periferia.",
+        "autonomiaCotidiana": "MUY ALTA",
+        "estacionalidad2026": "Ciudad plenamente anual.",
+        "peajeRealidad": "Máxima autonomía regional y mar urbano a cambio de precio, tráfico, cuestas y diferencias fuertes entre barrios."
     }
 ]

@@ -42,7 +42,14 @@
         "B_2hab": 168032,
         "B_3hab": 232659,
         "obraNueva": "Sí",
-        "mapa": "81_esposende.png"
+        "mapa": "81_esposende.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Ciudad pequeña con comercio, servicios y frente del Cávado; suficiente autonomía básica.",
+        "radioSalida": "Ofir/Apúlia y parque litoral; Braga/Barcelos/Viana para mayor escala.",
+        "dependenciaCocheTexto": "Media; núcleo resoluble, coche para parte de playas y servicios superiores.",
+        "autonomiaCotidiana": "MEDIA-FUERTE",
+        "estacionalidad2026": "Vida anual con presión costera fuerte en verano.",
+        "peajeRealidad": "Costa y estuario con buena escala urbana, pero servicios hospitalarios de mayor nivel fuera y microzonas muy distintas."
     },
     {
         "n": 82,
@@ -87,7 +94,14 @@
         "B_2hab": 186323,
         "B_3hab": 257985,
         "obraNueva": "Sí",
-        "mapa": "82_povoa_de_varzim.png"
+        "mapa": "82_povoa_de_varzim.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Ciudad costera completa: mercado, comercio, salud, cultura, restauración y servicios permiten vivir gran parte de la semana andando.",
+        "radioSalida": "Porto y área metropolitana; costa norte como extensión.",
+        "dependenciaCocheTexto": "Baja en zona urbana bien situada.",
+        "autonomiaCotidiana": "MUY ALTA",
+        "estacionalidad2026": "Ciudad plenamente anual, aunque el frente de playa gana intensidad en verano.",
+        "peajeRealidad": "Playa, paseo y autonomía urbana juntos; mayor densidad, precio y ambiente metropolitano que Alto Minho."
     },
     {
         "n": 83,
@@ -132,6 +146,13 @@
         "B_2hab": 196219,
         "B_3hab": 271688,
         "obraNueva": "Sí",
-        "mapa": "83_vila_do_conde.png"
+        "mapa": "83_vila_do_conde.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Ciudad costera con comercio, salud, cultura y servicios suficientes para una rutina muy autónoma.",
+        "radioSalida": "Porto y Póvoa; otras playas y parroquias del concelho.",
+        "dependenciaCocheTexto": "Baja en núcleo bien situado.",
+        "autonomiaCotidiana": "MUY ALTA",
+        "estacionalidad2026": "Ciudad anual; verano intensifica playa sin definir toda la actividad.",
+        "peajeRealidad": "Buen equilibrio entre playa, paseo y servicios, a cambio de precio elevado y mayor integración metropolitana."
     }
 ]

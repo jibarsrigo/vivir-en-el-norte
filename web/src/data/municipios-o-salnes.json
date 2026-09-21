@@ -24,7 +24,7 @@
         "minBano": 10,
         "tempAgua": "17-20",
         "franja": "A",
-        "servicios": 3,
+        "servicios": 4,
         "serviciosNota": "Dena reúne centro de salud, farmacia, supermercado, colegio, pequeño comercio y bares; las parroquias dependen del coche y de Sanxenxo, Cambados o Vilagarcía.",
         "fibra": "Parcial",
         "comunicaciones": "AG-41 hacia Pontevedra y Sanxenxo; carreteras locales a Cambados y Vilagarcía; autobús limitado; sin tren",
@@ -42,7 +42,14 @@
         "B_2hab": 69137,
         "B_3hab": 95729,
         "obraNueva": "No",
-        "mapa": "21_meano.png"
+        "mapa": "21_meano.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Servicios básicos; Dena ofrece la mayor concentración cotidiana.",
+        "radioSalida": "Río da Chanca/molinos, Cambados y A Lanzada; costa municipal muy corta.",
+        "dependenciaCocheTexto": "Alta fuera de Dena; coche habitual para playa y servicios mayores.",
+        "autonomiaCotidiana": "MEDIA-BAJA",
+        "estacionalidad2026": "Vida rural/residencial anual.",
+        "peajeRealidad": "Acceso rápido a Salnés costero con menor precio, pero sin experiencia de mar a pie."
     },
     {
         "n": 22,
@@ -69,7 +76,7 @@
         "minBano": 3,
         "tempAgua": "18-20",
         "franja": "B",
-        "servicios": 6,
+        "servicios": 7,
         "serviciosNota": "Centro de salud, farmacias, supermercados, mercado, colegios, instituto, comercio, bodegas y restauración; Vilagarcía completa hospital y compras grandes.",
         "fibra": "Sí",
         "comunicaciones": "VG-4.3 y carreteras hacia Vilagarcía, Sanxenxo y Pontevedra; autobús interurbano; sin tren",
@@ -87,7 +94,14 @@
         "B_2hab": 97734,
         "B_3hab": 135324,
         "obraNueva": "Poca",
-        "mapa": "22_cambados.png"
+        "mapa": "22_cambados.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Centro con mercado, salud, biblioteca, deporte y comercio; Fefiñáns y frente marítimo forman parte de la vida diaria.",
+        "radioSalida": "A Pastora/Santa Mariña do Dozo y costa del Umia; playas de baño mejores requieren desplazamiento.",
+        "dependenciaCocheTexto": "Baja-media en núcleo; coche para playa y salidas.",
+        "autonomiaCotidiana": "FUERTE",
+        "estacionalidad2026": "Vida anual con turismo y vino como capa adicional.",
+        "peajeRealidad": "Mucho carácter urbano/marítimo, pero el baño de playa no es la experiencia central."
     },
     {
         "n": 23,
@@ -114,7 +128,7 @@
         "minBano": 4,
         "tempAgua": "18-20",
         "franja": "A",
-        "servicios": 4,
+        "servicios": 6,
         "serviciosNota": "Centro de salud, farmacias, supermercados pequeños, colegio, puerto, comercio básico y restauración; Vilanova y Vilagarcía completan la oferta.",
         "fibra": "Sí",
         "comunicaciones": "Puente de A Illa y PO-307 hacia Vilanova; autobús interurbano; puertos pesqueros; sin tren",
@@ -132,7 +146,14 @@
         "B_2hab": 205569,
         "B_3hab": 284634,
         "obraNueva": "Poca",
-        "mapa": "23_a_illa_de_arousa.png"
+        "mapa": "23_a_illa_de_arousa.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "O Xufre, salud, farmacias, biblioteca, Casa do Mar, auditorio y deporte dentro de una isla pequeña.",
+        "radioSalida": "Carreirón al sur y Punta Cabalo al norte; cruzar el puente para servicios de mayor escala.",
+        "dependenciaCocheTexto": "Baja-media dentro de la isla; coche para necesidades externas.",
+        "autonomiaCotidiana": "MEDIA-FUERTE",
+        "estacionalidad2026": "Vida propia anual con aumento fuerte en verano.",
+        "peajeRealidad": "Mar muy presente a cambio de dependencia del puente para necesidades superiores."
     },
     {
         "n": 24,
@@ -159,7 +180,7 @@
         "minBano": 3,
         "tempAgua": "18-20",
         "franja": "A",
-        "servicios": 5,
+        "servicios": 6,
         "serviciosNota": "Centro de salud, farmacias, supermercados, mercado, colegios, pequeño comercio, puerto y restauración; Vilagarcía completa hospital, tren y compras.",
         "fibra": "Sí",
         "comunicaciones": "VG-4.3 y PO-549 hacia Vilagarcía y Cambados; acceso al puente de A Illa; autobús interurbano; sin tren",
@@ -177,7 +198,14 @@
         "B_2hab": 134384,
         "B_3hab": 186071,
         "obraNueva": "Poca",
-        "mapa": "24_vilanova_de_arousa.png"
+        "mapa": "24_vilanova_de_arousa.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Núcleo con servicios, cafés y frente marítimo; Casa do Cuadrante añade actividad cultural.",
+        "radioSalida": "Ariño y otros tramos costeros; Cambados/Vilagarcía para escala mayor.",
+        "dependenciaCocheTexto": "Baja-media en núcleo; mayor en parroquias exteriores.",
+        "autonomiaCotidiana": "MEDIA-FUERTE",
+        "estacionalidad2026": "Vida anual con verano más activo.",
+        "peajeRealidad": "Escala cómoda y mar cercano, pero menor oferta que Vilagarcía."
     },
     {
         "n": 25,
@@ -204,7 +232,7 @@
         "minBano": 5,
         "tempAgua": "18-20",
         "franja": "A",
-        "servicios": 8,
+        "servicios": 9,
         "serviciosNota": "Hospital comarcal, centros de salud, farmacias, supermercados, mercado, colegios, institutos, comercio, restauración, puerto y estación de tren.",
         "fibra": "Sí",
         "comunicaciones": "AP-9, N-640 y VG-4.3; tren a Santiago, Vigo y Madrid; estación de autobuses y puerto comercial",
@@ -222,6 +250,13 @@
         "B_2hab": 121417,
         "B_3hab": 168116,
         "obraNueva": "Sí",
-        "mapa": "25_vilagarcia_de_arousa.png"
+        "mapa": "25_vilagarcia_de_arousa.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Pequeña ciudad con comercio, mercado, biblioteca, deporte, estación y servicios completos.",
+        "radioSalida": "Carril/Cortegada y playas/rutas del Salnés.",
+        "dependenciaCocheTexto": "Baja en zona urbana; coche para salidas.",
+        "autonomiaCotidiana": "MUY ALTA",
+        "estacionalidad2026": "Ciudad anual; biblioteca y deporte mantienen uso estable fuera del verano.",
+        "peajeRealidad": "Menos imagen de resort, a cambio de mucha más autonomía cotidiana."
     }
 ]

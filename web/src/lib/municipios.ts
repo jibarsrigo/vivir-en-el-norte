@@ -42,6 +42,14 @@ export type FichaMunicipio = {
   franja: "A" | "B";
   servicios: number;
   serviciosNota: string;
+  /** Estado/explicación de servicios 2026 (v15); no sustituye serviciosNota histórico. */
+  serviciosEstado?: string;
+  radioCotidiano?: string;
+  radioSalida?: string;
+  dependenciaCocheTexto?: string;
+  autonomiaCotidiana?: string;
+  estacionalidad2026?: string;
+  peajeRealidad?: string;
   fibra: string;
   comunicaciones: string;
   comunicacionesNota10: number;

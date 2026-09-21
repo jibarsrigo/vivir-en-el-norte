@@ -42,7 +42,14 @@
         "B_2hab": 221062,
         "B_3hab": 306086,
         "obraNueva": "Sí",
-        "mapa": "32_a_coruna.png"
+        "mapa": "32_a_coruna.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Ciudad completa: mercados, bibliotecas, centros cívicos, comercio, cultura y sanidad; varias microzonas permiten vida diaria casi enteramente a pie.",
+        "radioSalida": "Costa exterior y área metropolitana; muchas necesidades no requieren salida.",
+        "dependenciaCocheTexto": "Baja en barrios centrales bien elegidos.",
+        "autonomiaCotidiana": "MUY ALTA",
+        "estacionalidad2026": "Ciudad plenamente anual.",
+        "peajeRealidad": "Autonomía urbana y mar a pie a cambio de precio, tráfico y diferencias fuertes entre barrios."
     },
     {
         "n": 33,
@@ -69,7 +76,7 @@
         "minBano": 5,
         "tempAgua": "17-19",
         "franja": "A",
-        "servicios": 7,
+        "servicios": 8,
         "serviciosNota": "Tiene: municipio residencial mejor dotado de Galicia; A Coruña a 15 min",
         "fibra": "Sí",
         "comunicaciones": "AC-12 / AP-9 / N-VI; bus frecuente",
@@ -87,7 +94,14 @@
         "B_2hab": 177791,
         "B_3hab": 246173,
         "obraNueva": "Sí",
-        "mapa": "33_oleiros.png"
+        "mapa": "33_oleiros.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Perillo ofrece continuidad urbana y biblioteca central; Santa Cruz combina pequeño núcleo y bahía; Mera tiene escala marítima menor.",
+        "radioSalida": "Bastiagueiro para playa/deporte; otros tramos de costa según microzona.",
+        "dependenciaCocheTexto": "Media y muy dependiente de microzona.",
+        "autonomiaCotidiana": "FUERTE EN ALGUNAS MICROZONAS",
+        "estacionalidad2026": "Residencial anual; playas ganan uso en verano.",
+        "peajeRealidad": "Calidad residencial alta, pero no existe una única vida 'Oleiros' y el coche puede reaparecer."
     },
     {
         "n": 34,
@@ -132,7 +146,14 @@
         "B_2hab": 116981,
         "B_3hab": 161973,
         "obraNueva": "Sí",
-        "mapa": "34_sada.png"
+        "mapa": "34_sada.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Villa compacta con comercio, biblioteca junto al puerto, paseo y servicios cotidianos.",
+        "radioSalida": "Costa de Bergondo/Oleiros y A Coruña para mayor escala.",
+        "dependenciaCocheTexto": "Baja-media en villa; coche para hospital y salidas.",
+        "autonomiaCotidiana": "FUERTE",
+        "estacionalidad2026": "Villa residencial anual con mayor actividad estival.",
+        "peajeRealidad": "Buena escala diaria y mar, pero hospital y oferta urbana mayor fuera."
     },
     {
         "n": 35,
@@ -177,7 +198,14 @@
         "B_2hab": 101283,
         "B_3hab": 140238,
         "obraNueva": "Poca",
-        "mapa": "35_bergondo.png"
+        "mapa": "35_bergondo.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Servicios repartidos: biblioteca A Senra, salud en Guísamo y equipamientos no forman un único núcleo peatonal.",
+        "radioSalida": "Gandarío/O Regueiro y costa; A Coruña para servicios superiores.",
+        "dependenciaCocheTexto": "Alta: equipamientos y vivienda suelen estar dispersos.",
+        "autonomiaCotidiana": "BAJA-MEDIA",
+        "estacionalidad2026": "Actividad municipal anual, pero distribuida.",
+        "peajeRealidad": "Tranquilidad y proximidad metropolitana a cambio de coche."
     },
     {
         "n": 36,
@@ -204,7 +232,7 @@
         "minBano": 2,
         "tempAgua": "18-20",
         "franja": "A",
-        "servicios": 4,
+        "servicios": 5,
         "serviciosNota": "Tiene: tren de cercanías. Falta: instituto, comercio grande",
         "fibra": "Parcial",
         "comunicaciones": "N-651 / AP-9; tren Ferrol–A Coruña",
@@ -222,7 +250,14 @@
         "B_2hab": 121144,
         "B_3hab": 167738,
         "obraNueva": "Poca",
-        "mapa": "36_mino.png"
+        "mapa": "36_mino.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Núcleo pequeño con servicios básicos; una vivienda bien situada puede combinar compras y playa.",
+        "radioSalida": "Otros tramos del Golfo Ártabro y ciudades próximas.",
+        "dependenciaCocheTexto": "Media; baja para rutina si se elige bien el núcleo, mayor para servicios superiores.",
+        "autonomiaCotidiana": "MEDIA",
+        "estacionalidad2026": "Mayor presión estival; ORA de verano evidencia demanda de playa.",
+        "peajeRealidad": "Playa muy utilizable a cambio de menor profundidad de servicios y verano más intenso."
     },
     {
         "n": 37,
@@ -249,7 +284,7 @@
         "minBano": 2,
         "tempAgua": "17-19",
         "franja": "A",
-        "servicios": 4,
+        "servicios": 5,
         "serviciosNota": "Falta: instituto de FP, comercio grande (Ferrol / Pontedeume)",
         "fibra": "Parcial",
         "comunicaciones": "AC-133 / AP-9; bus",
@@ -267,7 +302,14 @@
         "B_2hab": 125648,
         "B_3hab": 173975,
         "obraNueva": "Poca",
-        "mapa": "37_ares.png"
+        "mapa": "37_ares.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Villa compacta con playa/paseo, centro de salud, farmacias, biblioteca, mercado y deporte.",
+        "radioSalida": "Ferrol para hospital/especialistas y mayor oferta comercial/cultural; costa exterior como excursión.",
+        "dependenciaCocheTexto": "Baja para la rutina en la villa; coche para hospital y servicios de escala mayor.",
+        "autonomiaCotidiana": "MEDIA-FUERTE",
+        "estacionalidad2026": "Vida municipal anual, con actividades 2026–27 y programas >60; verano más activo.",
+        "peajeRealidad": "Villa muy cómoda y mar diario, pero sanidad especializada y oferta amplia están en Ferrol."
     },
     {
         "n": 38,
@@ -312,6 +354,13 @@
         "B_2hab": 101693,
         "B_3hab": 140805,
         "obraNueva": "Poca",
-        "mapa": "38_ferrol.png"
+        "mapa": "38_ferrol.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Ciudad con comercio, salud, cultura y servicios urbanos completos; Centro Cultural Carvalho Calero mantiene actividad fuera de verano.",
+        "radioSalida": "Doniños y San Xurxo: playas atlánticas abiertas, oleaje, dunas/laguna y deportes de mar.",
+        "dependenciaCocheTexto": "Baja para vida urbana; coche para playas.",
+        "autonomiaCotidiana": "MUY ALTA",
+        "estacionalidad2026": "Ciudad anual.",
+        "peajeRealidad": "Servicios y vivienda relativamente accesible, pero la experiencia de playa atlántica no está a pie desde el centro."
     }
 ]

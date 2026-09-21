@@ -24,7 +24,7 @@
         "minBano": 5,
         "tempAgua": "17-19",
         "franja": "A",
-        "servicios": 6,
+        "servicios": 7,
         "serviciosNota": "Tiene: puerto pesquero, ferry a Caminha. Falta: hospital lejos",
         "fibra": "Sí",
         "comunicaciones": "PO-552; bus a Vigo; sin tren; ferry a Caminha",
@@ -42,7 +42,14 @@
         "B_2hab": 76235,
         "B_3hab": 105557,
         "obraNueva": "Poca",
-        "mapa": "01_a_guarda.png"
+        "mapa": "01_a_guarda.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Mercado/Plaza de Abastos, cafés, farmacia, biblioteca/Centro Cultural y puerto en un núcleo utilizable a pie.",
+        "radioSalida": "Monte Santa Trega y costa exterior; salidas deliberadas según vivienda.",
+        "dependenciaCocheTexto": "Baja-media en el núcleo; coche para salidas costeras y hospital especializado.",
+        "autonomiaCotidiana": "FUERTE",
+        "estacionalidad2026": "Vida propia todo el año; verano añade visitantes sin definir toda la economía.",
+        "peajeRealidad": "Escala pequeña y hospital especializado fuera."
     },
     {
         "n": 2,
@@ -69,7 +76,7 @@
         "minBano": 15,
         "tempAgua": "16-18",
         "franja": "A",
-        "servicios": 3,
+        "servicios": 2,
         "serviciosNota": "Falta: supermercado grande e instituto (en Baiona / A Guarda)",
         "fibra": "Parcial",
         "comunicaciones": "PO-552; bus; sin tren",
@@ -87,7 +94,14 @@
         "B_2hab": 93503,
         "B_3hab": 129465,
         "obraNueva": "No",
-        "mapa": "02_oia.png"
+        "mapa": "02_oia.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Servicios básicos muy dependientes de la parroquia; centro de salud, farmacia y aula/servicios municipales.",
+        "radioSalida": "Costa, monasterio y tramos de paisaje atlántico; desplazamientos frecuentes entre parroquias.",
+        "dependenciaCocheTexto": "Alta: dispersión residencial y servicios repartidos.",
+        "autonomiaCotidiana": "BAJA-MEDIA",
+        "estacionalidad2026": "Pequeña escala anual; oferta limitada fuera de temporada.",
+        "peajeRealidad": "Paisaje atlántico a cambio de dispersión y coche."
     },
     {
         "n": 3,
@@ -132,7 +146,14 @@
         "B_2hab": 81218,
         "B_3hab": 112455,
         "obraNueva": "Poca",
-        "mapa": "03_o_rosal.png"
+        "mapa": "03_o_rosal.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Núcleo con servicios básicos; menor concentración peatonal que A Guarda/Tui.",
+        "radioSalida": "Muíños do Folón e Picón: conjunto de 67 molinos en ladera, ruta con desnivel; Senda dos Pescadores junto al Miño.",
+        "dependenciaCocheTexto": "Media-alta fuera del núcleo.",
+        "autonomiaCotidiana": "MEDIA-BAJA",
+        "estacionalidad2026": "Vida local anual, con escala de servicios limitada.",
+        "peajeRealidad": "Buenas rutas y paisaje, pero menos vida resoluble andando."
     },
     {
         "n": 4,
@@ -177,7 +198,14 @@
         "B_2hab": 102239,
         "B_3hab": 141561,
         "obraNueva": "Poca",
-        "mapa": "04_tomino.png"
+        "mapa": "04_tomino.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Servicios básicos concentrados en núcleos; Goián ofrece vida propia junto al Miño.",
+        "radioSalida": "Espazo Fortaleza/Goián: entorno de la fortaleza de San Lourenzo, playa fluvial, parque y actividades de río.",
+        "dependenciaCocheTexto": "Media-alta: municipio disperso; distinguir Tomiño núcleo de Goián.",
+        "autonomiaCotidiana": "MEDIA",
+        "estacionalidad2026": "Vida local anual.",
+        "peajeRealidad": "Espacio y río a cambio de dispersión."
     },
     {
         "n": 5,
@@ -204,7 +232,7 @@
         "minBano": 25,
         "tempAgua": "17-20",
         "franja": "B",
-        "servicios": 7,
+        "servicios": 8,
         "serviciosNota": "Tiene: tren a Vigo y Porto, casco histórico. No falta nada",
         "fibra": "Sí",
         "comunicaciones": "A-55 / AP-9; tren Vigo–Porto (Linha do Minho)",
@@ -222,6 +250,13 @@
         "B_2hab": 105173,
         "B_3hab": 145625,
         "obraNueva": "Sí",
-        "mapa": "05_tui.png"
+        "mapa": "05_tui.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Mercado de San Antonio, comercio, farmacia, biblioteca, teatro, conservatorio y piscina dentro de una ciudad pequeña.",
+        "radioSalida": "Ribera del Miño, rutas y escapadas transfronterizas; Vigo para escala metropolitana.",
+        "dependenciaCocheTexto": "Baja-media en núcleo bien situado; coche para costa/hospital de alta complejidad.",
+        "autonomiaCotidiana": "FUERTE",
+        "estacionalidad2026": "Actividad cultural y servicios todo el año.",
+        "peajeRealidad": "Sin playa inmediata; algunas pendientes en el casco."
     }
 ]

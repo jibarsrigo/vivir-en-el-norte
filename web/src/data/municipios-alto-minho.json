@@ -42,7 +42,14 @@
         "B_2hab": 86678,
         "B_3hab": 120015,
         "obraNueva": "Sí",
-        "mapa": "73_valenca.png"
+        "mapa": "73_valenca.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Pequeña ciudad fronteriza con comercio y servicios básicos; la fortaleza y el núcleo permiten bastante rutina a pie si se vive céntrico.",
+        "radioSalida": "Tui al otro lado del Miño y Viana/Braga/Porto para mayor escala; costa requiere desplazamiento.",
+        "dependenciaCocheTexto": "Baja-media en núcleo; coche/tren para costa, hospital y servicios superiores.",
+        "autonomiaCotidiana": "MEDIA-FUERTE",
+        "estacionalidad2026": "Ciudad fronteriza con vida anual.",
+        "peajeRealidad": "Muy práctica para relación transfronteriza, pero sin mar y con hospital de mayor capacidad en Viana."
     },
     {
         "n": 74,
@@ -87,7 +94,14 @@
         "B_2hab": 91387,
         "B_3hab": 126536,
         "obraNueva": "Poca",
-        "mapa": "74_vila_nova_de_cerveira.png"
+        "mapa": "74_vila_nova_de_cerveira.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Villa pequeña con comercio, equipamientos culturales y servicios básicos junto al Miño.",
+        "radioSalida": "Valença/Tui y Viana; costa atlántica requiere desplazamiento.",
+        "dependenciaCocheTexto": "Media; rutina básica local, coche/tren para servicios mayores y costa.",
+        "autonomiaCotidiana": "MEDIA",
+        "estacionalidad2026": "Vida local anual con turismo cultural/fluvial moderado.",
+        "peajeRealidad": "Miño y paseo excelente a cambio de escala pequeña y ausencia de playa marina cotidiana."
     },
     {
         "n": 75,
@@ -132,7 +146,14 @@
         "B_2hab": 142097,
         "B_3hab": 196749,
         "obraNueva": "Poca",
-        "mapa": "75_caminha.png"
+        "mapa": "75_caminha.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Villa de Caminha con mercado/comercio y servicios básicos en la desembocadura del Minho.",
+        "radioSalida": "Moledo y Âncora para playa; Viana para hospital y servicios superiores.",
+        "dependenciaCocheTexto": "Baja-media en villa; coche/tren para playa y hospital.",
+        "autonomiaCotidiana": "MEDIA-FUERTE",
+        "estacionalidad2026": "Vida anual con aumento turístico fuerte en verano.",
+        "peajeRealidad": "Villa histórica y estuario muy agradables; playa oceánica y hospital no están en el mismo radio cotidiano."
     },
     {
         "n": 76,
@@ -177,7 +198,14 @@
         "B_2hab": 130289,
         "B_3hab": 180401,
         "obraNueva": "No",
-        "mapa": "76_moledo.png"
+        "mapa": "76_moledo.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Pequeña localidad residencial/turística; básicos limitados comparados con Caminha.",
+        "radioSalida": "Caminha para más servicios, Viana para hospital; costa y monte próximos.",
+        "dependenciaCocheTexto": "Media-alta fuera de la rutina mínima; tren ayuda pero no sustituye todos los desplazamientos.",
+        "autonomiaCotidiana": "BAJA-MEDIA",
+        "estacionalidad2026": "Marcadamente residencial/turística, con mayor reducción de actividad fuera de verano.",
+        "peajeRealidad": "Playa atlántica a la puerta a cambio de menor autonomía, exposición oceánica y estacionalidad."
     },
     {
         "n": 77,
@@ -222,7 +250,14 @@
         "B_2hab": 183729,
         "B_3hab": 254394,
         "obraNueva": "Poca",
-        "mapa": "77_vila_praia_de_ancora.png"
+        "mapa": "77_vila_praia_de_ancora.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Núcleo costero con comercio básico, restauración, puerto y servicios suficientes para una rutina más autónoma que Moledo.",
+        "radioSalida": "Caminha y Viana para servicios superiores; costa norte/sur.",
+        "dependenciaCocheTexto": "Media; tren ayuda para Caminha/Viana, coche para necesidades dispersas.",
+        "autonomiaCotidiana": "MEDIA-FUERTE",
+        "estacionalidad2026": "Vida local anual con fuerte capa estival.",
+        "peajeRealidad": "Buen equilibrio entre playa y núcleo, pero mercado pequeño/estacional y hospital en Viana."
     },
     {
         "n": 78,
@@ -267,7 +302,14 @@
         "B_2hab": null,
         "B_3hab": null,
         "obraNueva": "Poca",
-        "mapa": "78_afife_carreco.png"
+        "mapa": "78_afife_carreco.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Básicos locales y vivienda dispersa; para compras/servicios amplios se depende de Viana.",
+        "radioSalida": "Playas atlánticas, Viana y Serra d'Arga/entorno rural.",
+        "dependenciaCocheTexto": "Alta para vida cotidiana completa.",
+        "autonomiaCotidiana": "BAJA-MEDIA",
+        "estacionalidad2026": "Residencial anual con fuerte componente vacacional costero.",
+        "peajeRealidad": "Atlántico y espacio a cambio de dispersión y coche."
     },
     {
         "n": 79,
@@ -312,7 +354,14 @@
         "B_2hab": 159500,
         "B_3hab": 220847,
         "obraNueva": "Sí",
-        "mapa": "79_viana_do_castelo.png"
+        "mapa": "79_viana_do_castelo.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Ciudad regional con mercado, comercio, cultura, sanidad, deporte y restauración suficientes para una vida muy autónoma.",
+        "radioSalida": "Cabedelo/costa, Ponte de Lima y resto del Alto Minho; muchas necesidades no requieren salida.",
+        "dependenciaCocheTexto": "Baja en centro bien situado; mayor para playas/parroquias exteriores.",
+        "autonomiaCotidiana": "MUY ALTA",
+        "estacionalidad2026": "Ciudad plenamente anual.",
+        "peajeRealidad": "Autonomía, hospital y cultura propios; la playa atlántica cotidiana depende de microzona."
     },
     {
         "n": 80,
@@ -357,6 +406,13 @@
         "B_2hab": 110975,
         "B_3hab": 153657,
         "obraNueva": "Poca",
-        "mapa": "80_ponte_de_lima.png"
+        "mapa": "80_ponte_de_lima.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Villa muy completa para su escala: comercio, mercado, cultura, servicios y paseo fluvial.",
+        "radioSalida": "Viana para hospital de mayor capacidad y costa; Braga/Porto para mayor escala.",
+        "dependenciaCocheTexto": "Baja-media en centro; coche para costa y servicios superiores.",
+        "autonomiaCotidiana": "FUERTE",
+        "estacionalidad2026": "Villa anual con turismo cultural, ferias y romerías como capa adicional.",
+        "peajeRealidad": "Paseo fluvial y vida de villa excelentes, pero sin mar y con hospital de alta complejidad en Viana."
     }
 ]

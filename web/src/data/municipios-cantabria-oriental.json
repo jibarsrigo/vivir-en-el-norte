@@ -42,7 +42,14 @@
         "B_2hab": 241264,
         "B_3hab": 334058,
         "obraNueva": "Poca",
-        "mapa": "68_ribamontan_al_mar.png"
+        "mapa": "68_ribamontan_al_mar.png",
+        "serviciosEstado": "VALIDADO — valor exacto recuperado de fuente maestra histórica",
+        "radioCotidiano": "Somo tiene básicos y hostelería; la capacidad cotidiana municipal sigue siendo menor que Santander.",
+        "radioSalida": "Santander mediante barco desde Somo y por carretera; Langre/Galizano para costa más abierta.",
+        "dependenciaCocheTexto": "Media; menor en Somo para rutina básica, mayor para sanidad/compra amplia y otras localidades.",
+        "autonomiaCotidiana": "MEDIA",
+        "estacionalidad2026": "Muy marcada por turismo y surf en verano, con base residencial anual.",
+        "peajeRealidad": "Playa excepcional y acceso marítimo a Santander, pero menor profundidad de servicios y fuerte temporada."
     },
     {
         "n": 69,
@@ -69,7 +76,7 @@
         "minBano": 5,
         "tempAgua": "19-21",
         "franja": "B",
-        "servicios": 4,
+        "servicios": 4.5,
         "serviciosNota": "Tiene: dimensionada para el verano. Falta: comercio de invierno (cierra medio)",
         "fibra": "Sí",
         "comunicaciones": "A-8 / CA-141",
@@ -87,7 +94,14 @@
         "B_2hab": 224952,
         "B_3hab": 311472,
         "obraNueva": "Poca",
-        "mapa": "69_noja.png"
+        "mapa": "69_noja.png",
+        "serviciosEstado": "VALIDADO — valor exacto recuperado de fuente maestra histórica",
+        "radioCotidiano": "Núcleo con comercio, salud y servicios suficientes para básicos; mucha infraestructura orientada también al visitante.",
+        "radioSalida": "Marismas de Victoria/Joyel, Santoña y servicios hospitalarios en Laredo/Santander según necesidad.",
+        "dependenciaCocheTexto": "Baja-media en temporada/núcleo para básicos; coche para hospital y servicios superiores.",
+        "autonomiaCotidiana": "MEDIA",
+        "estacionalidad2026": "Estacionalidad turística fuerte; diferencia verano-invierno relevante.",
+        "peajeRealidad": "Dos playas muy cotidianas a cambio de presión estival y reducción notable de actividad fuera de temporada."
     },
     {
         "n": 70,
@@ -132,7 +146,14 @@
         "B_2hab": 144690,
         "B_3hab": 200340,
         "obraNueva": "Poca",
-        "mapa": "70_santona.png"
+        "mapa": "70_santona.png",
+        "serviciosEstado": "VALIDADO — valor exacto recuperado de fuente maestra histórica",
+        "radioCotidiano": "Villa compacta con comercio, mercado, salud y servicios propios; actividad pesquera/conservera sostiene vida anual.",
+        "radioSalida": "Monte Buciero, Berria y marismas; Laredo/Santander para determinados servicios hospitalarios.",
+        "dependenciaCocheTexto": "Baja para vida de villa; coche para Berria, hospital y salidas.",
+        "autonomiaCotidiana": "FUERTE",
+        "estacionalidad2026": "Vida anual sólida por pesca/conserva, con turismo añadido en verano.",
+        "peajeRealidad": "Más funcional todo el año que un resort puro; gran playa y hospital no están dentro del radio peatonal central."
     },
     {
         "n": 71,
@@ -177,7 +198,14 @@
         "B_2hab": 201406,
         "B_3hab": 278870,
         "obraNueva": "Poca",
-        "mapa": "71_laredo.png"
+        "mapa": "71_laredo.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Villa con comercio, salud y servicios comarcales; el hospital refuerza autonomía sanitaria.",
+        "radioSalida": "Santoña, costa oriental y Santander/Bilbao para escala mayor.",
+        "dependenciaCocheTexto": "Baja para gran parte de la rutina si se vive bien situado.",
+        "autonomiaCotidiana": "MUY ALTA",
+        "estacionalidad2026": "Vida anual con presión turística/residencial fuerte en verano.",
+        "peajeRealidad": "Playa, hospital y servicios se combinan muy bien; verano y tejido residencial vacacional cambian mucho el ambiente."
     },
     {
         "n": 72,
@@ -222,6 +250,13 @@
         "B_2hab": 195263,
         "B_3hab": 270365,
         "obraNueva": "Sí",
-        "mapa": "72_castro_urdiales.png"
+        "mapa": "72_castro_urdiales.png",
+        "serviciosEstado": "VALIDADO CONTRA FUENTE MAESTRA HISTÓRICA; reinterpretado como capacidad cotidiana local",
+        "radioCotidiano": "Ciudad pequeña con comercio, salud, cultura y servicios suficientes para una rutina muy autónoma.",
+        "radioSalida": "Bilbao y costa oriental; conexiones metropolitanas por carretera/bus.",
+        "dependenciaCocheTexto": "Baja-media en núcleo; coche/bus para hospital y metrópoli.",
+        "autonomiaCotidiana": "FUERTE",
+        "estacionalidad2026": "Ciudad residencial anual con aumento estival.",
+        "peajeRealidad": "Mucha vida propia y costa, pero precio alto y dependencia de carretera para conexiones mayores."
     }
 ]

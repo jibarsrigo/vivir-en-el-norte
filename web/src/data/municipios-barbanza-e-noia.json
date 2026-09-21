@@ -24,7 +24,7 @@
         "minBano": 3,
         "tempAgua": "18-20",
         "franja": "A",
-        "servicios": 5,
+        "servicios": 6,
         "serviciosNota": "Tiene: Santiago a 30 min. Falta: instituto de FP",
         "fibra": "Sí",
         "comunicaciones": "AG-11 / AP-9; bus",
@@ -42,7 +42,14 @@
         "B_2hab": 65452,
         "B_3hab": 90626,
         "obraNueva": "Poca",
-        "mapa": "26_rianxo.png"
+        "mapa": "26_rianxo.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Núcleo con comercio básico, biblioteca y Centro Sociocultural-Auditorio.",
+        "radioSalida": "Extensión litoral y resto de Barbanza.",
+        "dependenciaCocheTexto": "Baja-media en núcleo; coche para hospital y salidas.",
+        "autonomiaCotidiana": "MEDIA-FUERTE",
+        "estacionalidad2026": "Vida anual con escala pequeña.",
+        "peajeRealidad": "Ría agradable y cultura local, pero menor profundidad de servicios."
     },
     {
         "n": 27,
@@ -69,7 +76,7 @@
         "minBano": 3,
         "tempAgua": "18-20",
         "franja": "A",
-        "servicios": 6,
+        "servicios": 7,
         "serviciosNota": "Tiene: villa completa, hospital comarcal a 15 min. Falta: tren",
         "fibra": "Sí",
         "comunicaciones": "AG-11; bus a Santiago",
@@ -87,7 +94,14 @@
         "B_2hab": 89135,
         "B_3hab": 123417,
         "obraNueva": "Poca",
-        "mapa": "27_boiro.png"
+        "mapa": "27_boiro.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Mercado, comercio, biblioteca/Casa da Cultura, Centro Social y complejo deportivo A Cachada.",
+        "radioSalida": "Resto de Arousa/Barbanza y costa exterior.",
+        "dependenciaCocheTexto": "Baja-media en núcleo; coche para hospital/salidas.",
+        "autonomiaCotidiana": "FUERTE",
+        "estacionalidad2026": "Vida anual; verano añade playa sin vaciar el resto del año.",
+        "peajeRealidad": "Buena vida cotidiana y playa, con escala comercial menor que una ciudad."
     },
     {
         "n": 28,
@@ -114,7 +128,7 @@
         "minBano": 3,
         "tempAgua": "18-20",
         "franja": "A",
-        "servicios": 5,
+        "servicios": 7,
         "serviciosNota": "Tiene: casco histórico, Curota. Falta: comercio grande (Ribeira)",
         "fibra": "Sí",
         "comunicaciones": "AG-11 / AC-305; bus",
@@ -132,7 +146,14 @@
         "B_2hab": 103467,
         "B_3hab": 143262,
         "obraNueva": "Poca",
-        "mapa": "28_a_pobra_do_caraminal.png"
+        "mapa": "28_a_pobra_do_caraminal.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Mercado junto a Os Areos, biblioteca, Museo Valle-Inclán, Cine-Teatro Elma, salud y piscina.",
+        "radioSalida": "A Curota y costa de Barbanza; requieren salida deliberada.",
+        "dependenciaCocheTexto": "Baja-media en núcleo.",
+        "autonomiaCotidiana": "FUERTE",
+        "estacionalidad2026": "Vida anual con verano más activo.",
+        "peajeRealidad": "Escala agradable y mar próximo; hospital de mayor capacidad fuera del núcleo."
     },
     {
         "n": 29,
@@ -159,7 +180,7 @@
         "minBano": 3,
         "tempAgua": "17-20",
         "franja": "A",
-        "servicios": 7,
+        "servicios": 9,
         "serviciosNota": "Tiene: hospital comarcal propio, puerto grande, Corrubedo. Falta: tren",
         "fibra": "Sí",
         "comunicaciones": "AG-11 / AC-305; bus a Santiago",
@@ -177,7 +198,14 @@
         "B_2hab": 107153,
         "B_3hab": 148365,
         "obraNueva": "Poca",
-        "mapa": "29_ribeira.png"
+        "mapa": "29_ribeira.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Ciudad comarcal con comercio, hospital, salud, biblioteca, piscina, auditorio y conservatorio.",
+        "radioSalida": "Corrubedo: parque ~1.000 ha, gran duna móvil, >3 km de playas atlánticas, lagunas Carregal y Vixán, observación de aves y rutas.",
+        "dependenciaCocheTexto": "Baja en núcleo; coche para Corrubedo y costa exterior.",
+        "autonomiaCotidiana": "MUY ALTA",
+        "estacionalidad2026": "Centro comarcal anual.",
+        "peajeRealidad": "Mucha autonomía y playa diaria; paisaje atlántico más espectacular requiere desplazamiento."
     },
     {
         "n": 30,
@@ -204,7 +232,7 @@
         "minBano": 3,
         "tempAgua": "17-19",
         "franja": "A",
-        "servicios": 4,
+        "servicios": 5,
         "serviciosNota": "Falta: instituto de FP, comercio grande (Noia / Ribeira)",
         "fibra": "Parcial",
         "comunicaciones": "AC-550; bus",
@@ -222,7 +250,14 @@
         "B_2hab": 104081,
         "B_3hab": 144113,
         "obraNueva": "No",
-        "mapa": "30_porto_do_son.png"
+        "mapa": "30_porto_do_son.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Núcleo con mercado, biblioteca y actividad cultural; Portosín tiene centro de salud, biblioteca/Casa da Cultura y puerto.",
+        "radioSalida": "Largo litoral atlántico municipal, con numerosas playas y costa abierta.",
+        "dependenciaCocheTexto": "Media; puede ser baja en núcleo y alta en vivienda costera aislada.",
+        "autonomiaCotidiana": "MEDIA",
+        "estacionalidad2026": "Servicios y cultura todo el año; costa gana presión en verano.",
+        "peajeRealidad": "Atlántico muy presente, pero la casa exacta decide si la vida diaria exige coche."
     },
     {
         "n": 31,
@@ -249,7 +284,7 @@
         "minBano": 8,
         "tempAgua": "18-20",
         "franja": "B",
-        "servicios": 6,
+        "servicios": 8,
         "serviciosNota": "Tiene: villa histórica completa, Santiago a 30 min. Falta: hospital (40 min)",
         "fibra": "Sí",
         "comunicaciones": "AG-56 / AC-550; bus a Santiago",
@@ -267,6 +302,13 @@
         "B_2hab": 83333,
         "B_3hab": 115385,
         "obraNueva": "Poca",
-        "mapa": "31_noia.png"
+        "mapa": "31_noia.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Villa comarcal con comercio, servicios y vida urbana propia.",
+        "radioSalida": "Portosín/Porto do Son y playas atlánticas; bus comarcal permite parte de esos desplazamientos.",
+        "dependenciaCocheTexto": "Baja para vida de villa; coche/bus para playa y hospital.",
+        "autonomiaCotidiana": "FUERTE",
+        "estacionalidad2026": "Villa comarcal anual.",
+        "peajeRealidad": "Buena autonomía y casco, pero la playa no está integrada en la rutina a pie."
     }
 ]

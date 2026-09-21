@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
-"""Sincroniza SOLO precio_m2_2026 y A/B 2026 desde v15 hacia los 16 JSON de ficha.
+"""Sincroniza oleadas controladas desde v15 hacia los 16 JSON de ficha.
+
+Oleadas:
+  precios     — precioM2 + A/B (CURSOR_05)
+  servicios   — servicios + autonomía cotidiana (CURSOR_06)
 
 Uso:
-  python scripts/sync_master_v15_to_web.py          # aplica
-  python scripts/sync_master_v15_to_web.py --check  # solo verifica v15 ↔ JSON
+  python scripts/sync_master_v15_to_web.py --wave precios
+  python scripts/sync_master_v15_to_web.py --wave servicios
+  python scripts/sync_master_v15_to_web.py --check
 
 No escribe el XLSX. No toca CSV, relatos, zonas ni capas.
 """
@@ -61,6 +66,20 @@ FACTORS = {
     "B3_2026": 94.5,
 }
 
+# v15 field → JSON key (servicios_2026 actualiza el indicador visible `servicios`)
+SERVICIOS_MAP = {
+    "servicios_2026": "servicios",
+    "servicios_estado": "serviciosEstado",
+    "radio_cotidiano": "radioCotidiano",
+    "radio_salida": "radioSalida",
+    "dependencia_coche_texto": "dependenciaCocheTexto",
+    "autonomia_cotidiana": "autonomiaCotidiana",
+    "estacionalidad_2026": "estacionalidad2026",
+    "peaje_realidad": "peajeRealidad",
+}
+SERVICIOS_JSON_KEYS = tuple(SERVICIOS_MAP.values())
+SERVICIOS_NEW_KEYS = tuple(k for k in SERVICIOS_JSON_KEYS if k != "servicios")
+
 
 def _norm(s: object) -> str:
     if s is None:
@@ -96,10 +115,32 @@ def _excel_round0(x: float) -> int:
     return int(math.ceil(x - 0.5))
 
 
-def _to_json_number(val: float | None) -> int | None:
+def _to_json_int(val: float | None) -> int | None:
     if val is None:
         return None
     return int(round(val))
+
+
+def _to_json_servicios(val: object) -> int | float:
+    """Preserve exact v15 number; keep ints as int, decimals as float (e.g. 4.5)."""
+    num = _as_number(val)
+    if num is None:
+        raise SystemExit(f"ABORT: servicios_2026 no numérico: {val!r}")
+    if abs(num - round(num)) < 1e-9:
+        return int(round(num))
+    return float(num)
+
+
+def _same_num(a: object, b: object) -> bool:
+    """Compare JSON number vs master number allowing int/float equivalence."""
+    if a is None and b is None:
+        return True
+    if a is None or b is None:
+        return False
+    try:
+        return abs(float(a) - float(b)) < 1e-9
+    except (TypeError, ValueError):
+        return a == b
 
 
 def load_master() -> list[dict]:
@@ -111,7 +152,14 @@ def load_master() -> list[dict]:
     rows = list(wb["MAESTRA_83"].iter_rows(values_only=True))
     headers = [_norm(h) for h in rows[0]]
     col = {name: i for i, name in enumerate(headers)}
-    for need in ("n", "municipio", "precio_m2_2026", *FACTORS):
+    needed = (
+        "n",
+        "municipio",
+        "precio_m2_2026",
+        *FACTORS,
+        *SERVICIOS_MAP.keys(),
+    )
+    for need in needed:
         if need not in col:
             raise SystemExit(f"ABORT: columna maestra ausente: {need}")
 
@@ -136,17 +184,25 @@ def load_master() -> list[dict]:
                     raise SystemExit(
                         f"ABORT: n={n} {nombre}: {k}={got} incoherente (esperado ~{exp})"
                     )
-        out.append(
-            {
-                "n": n,
-                "municipio": nombre,
-                "precioM2": _to_json_number(precio),
-                "A_2hab": _to_json_number(abs_["A2_2026"]),
-                "A_3hab": _to_json_number(abs_["A3_2026"]),
-                "B_2hab": _to_json_number(abs_["B2_2026"]),
-                "B_3hab": _to_json_number(abs_["B3_2026"]),
-            }
-        )
+
+        row: dict = {
+            "n": n,
+            "municipio": nombre,
+            "precioM2": _to_json_int(precio),
+            "A_2hab": _to_json_int(abs_["A2_2026"]),
+            "A_3hab": _to_json_int(abs_["A3_2026"]),
+            "B_2hab": _to_json_int(abs_["B2_2026"]),
+            "B_3hab": _to_json_int(abs_["B3_2026"]),
+            "servicios": _to_json_servicios(r[col["servicios_2026"]]),
+        }
+        for src, dst in SERVICIOS_MAP.items():
+            if dst == "servicios":
+                continue
+            text = _norm(r[col[src]])
+            if not text:
+                raise SystemExit(f"ABORT: n={n} {nombre}: {src} vacío en v15")
+            row[dst] = text
+        out.append(row)
 
     if len(out) != 83:
         raise SystemExit(f"ABORT: master tiene {len(out)} filas, se esperaban 83")
@@ -181,7 +237,6 @@ def load_product() -> tuple[dict[int, dict], dict[str, list[dict]]]:
 
 
 def map_master_to_product(master: list[dict], by_n: dict[int, dict]) -> None:
-    """Valida mapeo inequívoco por n y coherencia de nombre."""
     for m in master:
         p = by_n.get(m["n"])
         if p is None:
@@ -193,19 +248,26 @@ def map_master_to_product(master: list[dict], by_n: dict[int, dict]) -> None:
             )
 
 
-def apply_sync(master: list[dict], files: dict[str, list[dict]]) -> dict:
+def write_files(files: dict[str, list[dict]]) -> None:
+    for fname, rows in files.items():
+        path = DATA_DIR / fname
+        path.write_text(
+            json.dumps(rows, ensure_ascii=False, indent=4) + "\n",
+            encoding="utf-8",
+        )
+
+
+def apply_precios(master: list[dict], files: dict[str, list[dict]]) -> dict:
     by_master = {m["n"]: m for m in master}
-    changed_precio = 0
-    changed_ab = 0
+    changed_precio = changed_ab = 0
     examples: list[str] = []
     nd_retired: list[str] = []
-    touched_files: list[str] = []
+    touched: list[str] = []
 
     for fname, rows in files.items():
         file_changed = False
         for row in rows:
-            n = int(row["n"])
-            m = by_master[n]
+            m = by_master[int(row["n"])]
             before = {k: row.get(k) for k in PRICE_KEYS}
             after = {k: m[k] for k in PRICE_KEYS}
             if before != after:
@@ -218,63 +280,82 @@ def apply_sync(master: list[dict], files: dict[str, list[dict]]) -> dict:
                         )
                     elif len(examples) < 8:
                         examples.append(
-                            f"{m['municipio']}: precio {before['precioM2']} → {after['precioM2']}; "
-                            f"A2 {before['A_2hab']} → {after['A_2hab']}"
+                            f"{m['municipio']}: precio {before['precioM2']} → {after['precioM2']}"
                         )
-                if any(before[k] != after[k] for k in ("A_2hab", "A_3hab", "B_2hab", "B_3hab")):
+                if any(before[k] != after[k] for k in PRICE_KEYS if k != "precioM2"):
                     changed_ab += 1
                 for k in PRICE_KEYS:
                     row[k] = after[k]
         if file_changed:
-            touched_files.append(fname)
+            touched.append(fname)
 
-    for fname, rows in files.items():
-        path = DATA_DIR / fname
-        path.write_text(
-            json.dumps(rows, ensure_ascii=False, indent=4) + "\n",
-            encoding="utf-8",
-        )
-
+    write_files(files)
     return {
+        "touched_files": touched,
         "changed_precio": changed_precio,
         "changed_ab": changed_ab,
         "examples": examples,
         "nd_retired": nd_retired,
-        "touched_files": touched_files,
     }
 
 
-def verify(master: list[dict], by_n: dict[int, dict]) -> None:
-    ok_precio = ok_a2 = ok_a3 = ok_b2 = ok_b3 = 0
+def apply_servicios(master: list[dict], files: dict[str, list[dict]]) -> dict:
+    by_master = {m["n"]: m for m in master}
+    changed_serv = 0
+    examples: list[str] = []
+    touched: list[str] = []
+    decimals: list[str] = []
+
+    for fname, rows in files.items():
+        file_changed = False
+        for row in rows:
+            m = by_master[int(row["n"])]
+            before_serv = row.get("servicios")
+            after_serv = m["servicios"]
+            if not _same_num(before_serv, after_serv):
+                changed_serv += 1
+                file_changed = True
+                if len(examples) < 8:
+                    examples.append(
+                        f"{m['municipio']}: servicios {before_serv} → {after_serv}"
+                    )
+            row["servicios"] = after_serv
+            if isinstance(after_serv, float):
+                decimals.append(f"{m['municipio']}={after_serv}")
+
+            for key in SERVICIOS_NEW_KEYS:
+                if row.get(key) != m[key]:
+                    file_changed = True
+                row[key] = m[key]
+        if file_changed:
+            touched.append(fname)
+
+    write_files(files)
+    return {
+        "touched_files": touched,
+        "changed_servicios": changed_serv,
+        "examples": examples,
+        "decimals": decimals,
+    }
+
+
+def verify_precios(master: list[dict], by_n: dict[int, dict]) -> None:
+    ok = {k: 0 for k in PRICE_KEYS}
     for m in master:
         p = by_n[m["n"]]
-        # only price keys may differ from pre-sync; here we assert equality to master
-        if p.get("precioM2") == m["precioM2"]:
-            ok_precio += 1
-        if p.get("A_2hab") == m["A_2hab"]:
-            ok_a2 += 1
-        if p.get("A_3hab") == m["A_3hab"]:
-            ok_a3 += 1
-        if p.get("B_2hab") == m["B_2hab"]:
-            ok_b2 += 1
-        if p.get("B_3hab") == m["B_3hab"]:
-            ok_b3 += 1
-        else:
-            pass
+        for k in PRICE_KEYS:
+            if p.get(k) == m[k]:
+                ok[k] += 1
     nd = {p["municipio"] for p in by_n.values() if p.get("precioM2") is None}
-    print("=== SYNC QA v15 ↔ JSON ===")
-    print(f"mapeados: {len(master)}/83")
-    print(f"precios iguales: {ok_precio}/83")
-    print(f"A2 iguales: {ok_a2}/83")
-    print(f"A3 iguales: {ok_a3}/83")
-    print(f"B2 iguales: {ok_b2}/83")
-    print(f"B3 iguales: {ok_b3}/83")
+    print("--- PRECIOS/A-B ---")
+    print(f"precios iguales: {ok['precioM2']}/83")
+    for k in ("A_2hab", "A_3hab", "B_2hab", "B_3hab"):
+        print(f"{k} iguales: {ok[k]}/83")
     print(f"n.d. en JSON: {sorted(nd)}")
     if nd != EXPECTED_ND:
         raise SystemExit(f"ABORT QA: n.d. incorrectos {sorted(nd)}")
-    if min(ok_precio, ok_a2, ok_a3, ok_b2, ok_b3) != 83:
-        raise SystemExit("ABORT QA: algún campo precio/A-B no coincide 83/83")
-    # ensure AB null iff precio null
+    if min(ok.values()) != 83:
+        raise SystemExit("ABORT QA: regresión precio/A-B")
     for p in by_n.values():
         is_nd = p.get("precioM2") is None
         abs_null = all(p.get(k) is None for k in ("A_2hab", "A_3hab", "B_2hab", "B_3hab"))
@@ -283,11 +364,33 @@ def verify(master: list[dict], by_n: dict[int, dict]) -> None:
             raise SystemExit(f"ABORT QA: {p['municipio']} n.d. con A/B")
         if not is_nd and not abs_full:
             raise SystemExit(f"ABORT QA: {p['municipio']} con precio pero A/B incompleto")
-    print("RESULTADO SYNC QA: OK")
 
 
-def assert_only_price_fields_changed(
-    before_files: dict[str, list[dict]], after_files: dict[str, list[dict]]
+def verify_servicios(master: list[dict], by_n: dict[int, dict]) -> None:
+    print("--- SERVICIOS/AUTONOMÍA ---")
+    counts = {k: 0 for k in SERVICIOS_JSON_KEYS}
+    for m in master:
+        p = by_n[m["n"]]
+        for k in SERVICIOS_JSON_KEYS:
+            if k == "servicios":
+                if _same_num(p.get(k), m[k]):
+                    counts[k] += 1
+            else:
+                if _norm(p.get(k)) == _norm(m[k]):
+                    counts[k] += 1
+                elif k not in p:
+                    pass
+    for k in SERVICIOS_JSON_KEYS:
+        print(f"{k}: {counts[k]}/83")
+        if counts[k] != 83:
+            raise SystemExit(f"ABORT QA: {k} no coincide 83/83")
+
+
+def assert_authorized_only(
+    before_files: dict[str, list[dict]],
+    after_files: dict[str, list[dict]],
+    allowed: set[str],
+    allow_new: set[str],
 ) -> None:
     for fname in JSON_FILES:
         b_rows = {int(r["n"]): r for r in before_files[fname]}
@@ -296,11 +399,17 @@ def assert_only_price_fields_changed(
             raise SystemExit(f"ABORT: {fname} cambió el conjunto de IDs")
         for n, br in b_rows.items():
             ar = a_rows[n]
-            if set(br.keys()) != set(ar.keys()):
-                raise SystemExit(f"ABORT: {fname} n={n} cambió claves JSON")
+            new_keys = set(ar.keys()) - set(br.keys())
+            removed = set(br.keys()) - set(ar.keys())
+            if removed:
+                raise SystemExit(f"ABORT: {fname} n={n} perdió claves {sorted(removed)}")
+            if new_keys - allow_new:
+                raise SystemExit(
+                    f"ABORT: {fname} n={n} claves nuevas no autorizadas: {sorted(new_keys - allow_new)}"
+                )
             for k, bv in br.items():
                 av = ar[k]
-                if k in PRICE_KEYS:
+                if k in allowed:
                     continue
                 if bv != av:
                     raise SystemExit(
@@ -311,31 +420,87 @@ def assert_only_price_fields_changed(
 
 def main() -> int:
     parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--wave",
+        choices=("precios", "servicios"),
+        help="Oleada a aplicar (obligatoria si no es --check)",
+    )
     parser.add_argument("--check", action="store_true", help="Solo verificar, no escribir")
     args = parser.parse_args()
+
+    if not args.check and not args.wave:
+        raise SystemExit("ABORT: indica --wave precios|servicios o --check")
 
     master = load_master()
     by_n, files = load_product()
     map_master_to_product(master, by_n)
 
+    print("=== SYNC QA v15 ↔ JSON ===")
+    print(f"mapeados: {len(master)}/83")
+
     if args.check:
-        verify(master, by_n)
+        verify_precios(master, by_n)
+        # servicios: report coverage; fail only if partially present
+        present = sum(
+            1
+            for p in by_n.values()
+            if all(k in p for k in SERVICIOS_NEW_KEYS)
+        )
+        if present == 0:
+            print("--- SERVICIOS/AUTONOMÍA ---")
+            print("capa servicios aún no sincronizada (0/83 con claves nuevas)")
+            print("RESULTADO SYNC QA: OK (precios; servicios pendiente)")
+            return 0
+        if present != 83:
+            raise SystemExit(
+                f"ABORT QA: cobertura parcial de claves servicios ({present}/83)"
+            )
+        verify_servicios(master, by_n)
+        print("RESULTADO SYNC QA: OK")
         return 0
 
     before = {fname: json.loads(json.dumps(rows)) for fname, rows in files.items()}
-    stats = apply_sync(master, files)
-    # reload and verify
-    by_n2, files2 = load_product()
-    assert_only_price_fields_changed(before, files2)
-    verify(master, by_n2)
 
+    if args.wave == "precios":
+        stats = apply_precios(master, files)
+        by_n2, files2 = load_product()
+        assert_authorized_only(before, files2, set(PRICE_KEYS), set())
+        verify_precios(master, by_n2)
+        print("RESULTADO SYNC QA: OK")
+        print("---")
+        print(f"JSON tocados: {len(stats['touched_files'])}")
+        print(f"precios cambiados: {stats['changed_precio']}")
+        print(f"A/B cambiados: {stats['changed_ab']}")
+        return 0
+
+    # wave servicios
+    # Snapshot precios before write to detect regression inside apply
+    price_before = {
+        int(r["n"]): {k: r.get(k) for k in PRICE_KEYS}
+        for rows in before.values()
+        for r in rows
+    }
+    stats = apply_servicios(master, files)
+    by_n2, files2 = load_product()
+
+    for n, pb in price_before.items():
+        pa = {k: by_n2[n].get(k) for k in PRICE_KEYS}
+        if pb != pa:
+            raise SystemExit(f"ABORT: oleada servicios alteró precio/A-B en n={n}")
+
+    assert_authorized_only(
+        before,
+        files2,
+        allowed={"servicios", *SERVICIOS_NEW_KEYS},
+        allow_new=set(SERVICIOS_NEW_KEYS),
+    )
+    verify_precios(master, by_n2)
+    verify_servicios(master, by_n2)
+    print("RESULTADO SYNC QA: OK")
     print("---")
     print(f"JSON tocados: {len(stats['touched_files'])}")
-    print(f"precios cambiados: {stats['changed_precio']}")
-    print(f"A/B cambiados: {stats['changed_ab']}")
-    print("n.d. retirados:")
-    for line in stats["nd_retired"]:
-        print(f"  - {line}")
+    print(f"servicios cambiados: {stats['changed_servicios']}")
+    print(f"decimales preservados: {stats['decimals'] or 'ninguno'}")
     print("ejemplos:")
     for line in stats["examples"]:
         print(f"  - {line}")

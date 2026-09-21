@@ -42,7 +42,14 @@
         "B_2hab": 177177,
         "B_3hab": 245322,
         "obraNueva": "Sí",
-        "mapa": "17_pontevedra.png"
+        "mapa": "17_pontevedra.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Mercado de Abastos, comercio, farmacia, cultura y servicios dentro de un centro muy caminable.",
+        "radioSalida": "Playas de ría/costa y municipios próximos; no están a la puerta del centro.",
+        "dependenciaCocheTexto": "Baja en centro; coche para playas y algunas salidas.",
+        "autonomiaCotidiana": "MUY ALTA",
+        "estacionalidad2026": "Ciudad plenamente anual.",
+        "peajeRealidad": "Excelente vida peatonal, pero sin playa marina cotidiana."
     },
     {
         "n": 18,
@@ -87,7 +94,14 @@
         "B_2hab": 128788,
         "B_3hab": 178322,
         "obraNueva": "Sí",
-        "mapa": "18_poio.png"
+        "mapa": "18_poio.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "San Salvador se apoya en Pontevedra; Campelo es residencial; Combarro combina servicios con fuerte uso turístico.",
+        "radioSalida": "Raxó/playas, costa y resto de la ría según microzona.",
+        "dependenciaCocheTexto": "Muy variable: baja junto a Pontevedra, mayor en áreas dispersas.",
+        "autonomiaCotidiana": "MEDIA-FUERTE SEGÚN MICROZONA",
+        "estacionalidad2026": "Vida anual con fuerte estacionalidad en Combarro/Raxó.",
+        "peajeRealidad": "Gran variedad interna: elegir mal la microzona cambia por completo coche, turismo y servicios."
     },
     {
         "n": 19,
@@ -114,7 +128,7 @@
         "minBano": 6,
         "tempAgua": "17-20",
         "franja": "B",
-        "servicios": 6,
+        "servicios": 8,
         "serviciosNota": "Centro de salud, farmacias, supermercados, colegios, puerto, comercio y restauración todo el año; la oferta se multiplica en verano.",
         "fibra": "Sí",
         "comunicaciones": "AG-41 hacia Pontevedra y PO-308 por la costa; autobús interurbano; puerto deportivo; sin tren",
@@ -132,7 +146,14 @@
         "B_2hab": 228706,
         "B_3hab": 316670,
         "obraNueva": "Sí",
-        "mapa": "19_sanxenxo.png"
+        "mapa": "19_sanxenxo.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Núcleo y Portonovo permiten encadenar comercio, hostelería, puerto y playa a pie.",
+        "radioSalida": "Montalvo y A Lanzada; esta última suma playa atlántica larga, arqueología y paseo.",
+        "dependenciaCocheTexto": "Baja en núcleo para diario; coche para playas exteriores y hospital de mayor complejidad.",
+        "autonomiaCotidiana": "FUERTE",
+        "estacionalidad2026": "Muy marcada presión estival; base de servicios permanece.",
+        "peajeRealidad": "Playa cotidiana y paseo excelentes a cambio de precio alto y verano intenso."
     },
     {
         "n": 20,
@@ -159,7 +180,7 @@
         "minBano": 5,
         "tempAgua": "17-20",
         "franja": "A",
-        "servicios": 6,
+        "servicios": 7,
         "serviciosNota": "Centro de salud, farmacias, supermercados, mercado, colegios, comercio, puerto y restauración todo el año; Vilagarcía completa especialistas y compras grandes.",
         "fibra": "Sí",
         "comunicaciones": "PO-316 y istmo de A Lanzada hacia AG-41; autobús interurbano; barcos turísticos; sin tren",
@@ -177,6 +198,13 @@
         "B_2hab": 170625,
         "B_3hab": 236250,
         "obraNueva": "Poca",
-        "mapa": "20_o_grove.png"
+        "mapa": "20_o_grove.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Villa: puerto, lonja, comercio, biblioteca y Casa da Cultura; vida diaria resoluble sin depender de la costa exterior.",
+        "radioSalida": "A Toxa; San Vicente/Pedras Negras; A Lanzada fuera de la península.",
+        "dependenciaCocheTexto": "Baja-media en villa; mayor en San Vicente y costa.",
+        "autonomiaCotidiana": "FUERTE EN VILLA",
+        "estacionalidad2026": "Turística, pero con equipamientos y vida anual.",
+        "peajeRealidad": "La mejor costa y la mejor autonomía no siempre están en la misma microzona."
     }
 ]

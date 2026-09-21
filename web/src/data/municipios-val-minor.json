@@ -24,7 +24,7 @@
         "minBano": 1,
         "tempAgua": "17-19",
         "franja": "A",
-        "servicios": 6,
+        "servicios": 8,
         "serviciosNota": "Centro de salud, farmacias, supermercados, mercado de Sabarís, colegios, instituto, biblioteca, piscina, puerto deportivo. Falta: hospital, cine, gran superficie (Vigo).",
         "fibra": "Sí",
         "comunicaciones": "PO-552 costa; AG-57; bus a Vigo; sin tren",
@@ -42,7 +42,14 @@
         "B_2hab": 172536,
         "B_3hab": 238896,
         "obraNueva": "Sí",
-        "mapa": "06_baiona.png"
+        "mapa": "06_baiona.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Centro, comercio, cafés, puerto y A Ribeira pueden encadenarse a pie desde una vivienda céntrica.",
+        "radioSalida": "Ladeira y Val Miñor; otras playas y monte requieren más desplazamiento.",
+        "dependenciaCocheTexto": "Baja en centro para vida diaria; coche para hospital y salidas.",
+        "autonomiaCotidiana": "FUERTE",
+        "estacionalidad2026": "Vida anual real, con presión turística fuerte en verano.",
+        "peajeRealidad": "Mar y paseo muy integrados a cambio de precio y presión estival."
     },
     {
         "n": 7,
@@ -69,7 +76,7 @@
         "minBano": 4,
         "tempAgua": "17-19",
         "franja": "A",
-        "servicios": 7,
+        "servicios": 8,
         "serviciosNota": "Centro de salud, supermercados grandes, farmacias en parroquias, colegios, institutos, polideportivos, puerto en Panxón. Falta: casco comercial continuo, hospital, cine.",
         "fibra": "Sí",
         "comunicaciones": "PO-552; acceso rápido a Vigo y hospital; sin tren",
@@ -87,7 +94,14 @@
         "B_2hab": 198539,
         "B_3hab": 274901,
         "obraNueva": "Sí",
-        "mapa": "07_nigran.png"
+        "mapa": "07_nigran.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "A Ramallosa concentra comercio y servicios; Panxón/Playa América priorizan mar y paseo.",
+        "radioSalida": "Senda Azul A Ramallosa–Monteferro (~10 km) y Patos, más abierta y orientada al surf.",
+        "dependenciaCocheTexto": "Media: muy dependiente de microzona.",
+        "autonomiaCotidiana": "FUERTE EN RAMALLOSA / MEDIA EN OTRAS",
+        "estacionalidad2026": "Actividad anual con aumento turístico notable en verano.",
+        "peajeRealidad": "Buena costa pero microzonas dispersas y precios altos."
     },
     {
         "n": 8,
@@ -132,6 +146,13 @@
         "B_2hab": 87770,
         "B_3hab": 121527,
         "obraNueva": "Sí",
-        "mapa": "08_gondomar.png"
+        "mapa": "08_gondomar.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Núcleo con comercio básico, farmacia y biblioteca con actividad regular.",
+        "radioSalida": "Val Miñor y playas de Nigrán/Baiona requieren desplazamiento.",
+        "dependenciaCocheTexto": "Media: núcleo resoluble, costa y servicios mayores fuera.",
+        "autonomiaCotidiana": "MEDIA",
+        "estacionalidad2026": "Vida local anual.",
+        "peajeRealidad": "Más tranquilo y económico que primera línea, pero sin mar a pie."
     }
 ]

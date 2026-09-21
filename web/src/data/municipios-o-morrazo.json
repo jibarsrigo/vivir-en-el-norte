@@ -24,7 +24,7 @@
         "minBano": 1,
         "tempAgua": "17-20",
         "franja": "A",
-        "servicios": 7,
+        "servicios": 8,
         "serviciosNota": "Centro de salud con urgencias, farmacias, supermercados, mercado, colegios, institutos, pequeño cine, comercio, restauración y puerto. Falta: hospital y gran superficie.",
         "fibra": "Sí",
         "comunicaciones": "Barco a Vigo en 20 min; PO-551 y corredor do Morrazo hacia Rande; bus interurbano; sin tren",
@@ -42,7 +42,14 @@
         "B_2hab": 147215,
         "B_3hab": 203837,
         "obraNueva": "Sí",
-        "mapa": "13_cangas.png"
+        "mapa": "13_cangas.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Villa: comercio, servicios, biblioteca, puerto y ferry a Vigo dentro de un radio peatonal razonable.",
+        "radioSalida": "O Hío, Aldán y Costa da Vela para playas y costa más natural.",
+        "dependenciaCocheTexto": "Baja-media en villa; alta en zonas costeras dispersas.",
+        "autonomiaCotidiana": "FUERTE EN VILLA",
+        "estacionalidad2026": "Vida anual sólida; verano aumenta presión en playas.",
+        "peajeRealidad": "Villa muy funcional; costa más espectacular suele exigir coche y mayor estacionalidad."
     },
     {
         "n": 14,
@@ -69,7 +76,7 @@
         "minBano": 2,
         "tempAgua": "18-20",
         "franja": "A",
-        "servicios": 6,
+        "servicios": 7,
         "serviciosNota": "Centro de salud, farmacias, supermercados, mercado, colegios, institutos, deporte, comercio básico, restauración y puerto. Falta: hospital, cine y gran superficie.",
         "fibra": "Sí",
         "comunicaciones": "Barco a Vigo en 20 min; corredor do Morrazo y puente de Rande; bus interurbano; sin tren",
@@ -87,7 +94,14 @@
         "B_2hab": 109746,
         "B_3hab": 151956,
         "obraNueva": "Poca",
-        "mapa": "14_moana.png"
+        "mapa": "14_moana.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Franja lineal con servicios, puerto, paseo y pequeñas playas; ferry a Vigo.",
+        "radioSalida": "Playas y zonas altas del municipio; otras áreas de Morrazo.",
+        "dependenciaCocheTexto": "Media; menor en primera franja costera bien situada.",
+        "autonomiaCotidiana": "FUERTE EN FRANJA CENTRAL",
+        "estacionalidad2026": "Vida anual.",
+        "peajeRealidad": "Buena ría diaria; ladera y dispersión aumentan dependencia del coche."
     },
     {
         "n": 15,
@@ -114,7 +128,7 @@
         "minBano": 5,
         "tempAgua": "17-20",
         "franja": "A",
-        "servicios": 5,
+        "servicios": 7,
         "serviciosNota": "Centro de salud, farmacias, supermercados, mercado, colegios, instituto, biblioteca, comercio básico, restauración y puerto. Falta: hospital, cine y gran superficie.",
         "fibra": "Sí",
         "comunicaciones": "PO-551 hacia Cangas y Marín; bus interurbano; ferry estacional a Ons; sin tren",
@@ -132,7 +146,14 @@
         "B_2hab": 130221,
         "B_3hab": 180306,
         "obraNueva": "Poca",
-        "mapa": "15_bueu.png"
+        "mapa": "15_bueu.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Centro/puerto con comercio, servicios y equipamientos culturales como Museo Massó y Centro Social do Mar.",
+        "radioSalida": "Beluso y Cabo Udra para costa más natural.",
+        "dependenciaCocheTexto": "Baja-media en núcleo; coche para costa exterior.",
+        "autonomiaCotidiana": "FUERTE",
+        "estacionalidad2026": "Vida anual con cultura propia; verano añade visitantes.",
+        "peajeRealidad": "Escala cómoda, pero servicios de alta complejidad fuera."
     },
     {
         "n": 16,
@@ -159,7 +180,7 @@
         "minBano": 5,
         "tempAgua": "18-20",
         "franja": "A",
-        "servicios": 7,
+        "servicios": 8,
         "serviciosNota": "Centro de salud con urgencias, farmacias, supermercados, mercado, colegios, institutos, biblioteca, deporte, comercio y restauración. Falta: hospital y gran oferta cultural, disponibles en Pontevedra.",
         "fibra": "Sí",
         "comunicaciones": "PO-11 y PO-546 a Pontevedra; PO-551 hacia Bueu; bus frecuente; sin tren de viajeros",
@@ -177,6 +198,13 @@
         "B_2hab": 105037,
         "B_3hab": 145436,
         "obraNueva": "Poca",
-        "mapa": "16_marin.png"
+        "mapa": "16_marin.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Ciudad compacta y funcional, con comercio y servicios propios ligados también al puerto.",
+        "radioSalida": "Portocelo, Mogor y Aguete; en Mogor, petroglifos como Pedra do Labirinto.",
+        "dependenciaCocheTexto": "Baja para vida urbana; coche/bus para playas.",
+        "autonomiaCotidiana": "FUERTE",
+        "estacionalidad2026": "Ciudad anual.",
+        "peajeRealidad": "Muy funcional, pero el centro no entrega la experiencia de playa inmediata."
     }
 ]

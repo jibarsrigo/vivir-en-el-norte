@@ -42,7 +42,14 @@
         "B_2hab": 74597,
         "B_3hab": 103289,
         "obraNueva": "No",
-        "mapa": "39_o_vicedo.png"
+        "mapa": "39_o_vicedo.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Núcleo muy pequeño con servicios básicos; capacidad cotidiana limitada.",
+        "radioSalida": "Arealonga y PR-G156 hacia Vidreiro, Castro, Caolín, Xilloi y Area Grande.",
+        "dependenciaCocheTexto": "Alta para compras amplias, hospital y muchas gestiones.",
+        "autonomiaCotidiana": "BAJA",
+        "estacionalidad2026": "Escala pequeña y mayor dependencia externa fuera de verano.",
+        "peajeRealidad": "Costa muy próxima a cambio de servicios mínimos y coche."
     },
     {
         "n": 40,
@@ -69,7 +76,7 @@
         "minBano": 5,
         "tempAgua": "17-19",
         "franja": "A",
-        "servicios": 6,
+        "servicios": 7,
         "serviciosNota": "Tiene: villa histórica completa. Falta: aeropuerto (105 min)",
         "fibra": "Sí",
         "comunicaciones": "A-8 (enlace Cabreiros) / LU-862; tren Renfe Ancho Métrico (antigua FEVE)",
@@ -87,7 +94,14 @@
         "B_2hab": 88862,
         "B_3hab": 123039,
         "obraNueva": "Poca",
-        "mapa": "40_viveiro.png"
+        "mapa": "40_viveiro.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Villa con comercio y servicios comarcales; Covas suma playa/paseo; Celeiro mantiene puerto pesquero activo.",
+        "radioSalida": "Costa exterior y rutas de A Mariña.",
+        "dependenciaCocheTexto": "Baja-media en núcleo/Covas; coche para hospital y costa exterior.",
+        "autonomiaCotidiana": "FUERTE",
+        "estacionalidad2026": "Villa comarcal anual con capa turística estival.",
+        "peajeRealidad": "Buena vida propia; hospital de referencia fuera y microzona determina si se prioriza casco o playa."
     },
     {
         "n": 41,
@@ -132,7 +146,14 @@
         "B_2hab": null,
         "B_3hab": null,
         "obraNueva": "No",
-        "mapa": "41_xove.png"
+        "mapa": "41_xove.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "San Bartolomé concentra administración y servicios; biblioteca/Centro Cívico y piscina/gimnasio.",
+        "radioSalida": "Costa: Morás, Portocelo, Roncadoira y Senda Costeira >18 km; Portocelo es pequeña playa abrigada.",
+        "dependenciaCocheTexto": "Alta para vivir simultáneamente servicios y costa.",
+        "autonomiaCotidiana": "BAJA-MEDIA",
+        "estacionalidad2026": "Vida local/industrial anual.",
+        "peajeRealidad": "Costa potente y equipamientos básicos, pero separados espacialmente; contexto industrial de Morás/Lago."
     },
     {
         "n": 42,
@@ -159,7 +180,7 @@
         "minBano": 5,
         "tempAgua": "17-19",
         "franja": "A",
-        "servicios": 4,
+        "servicios": 5,
         "serviciosNota": "Tiene: San Cibrao con playas. Falta: comercio grande (Burela a 10 min)",
         "fibra": "Parcial",
         "comunicaciones": "A-8 / N-642; tren Renfe Ancho Métrico (antigua FEVE) (San Cibrao)",
@@ -177,7 +198,14 @@
         "B_2hab": 82583,
         "B_3hab": 114345,
         "obraNueva": "No",
-        "mapa": "42_cervo.png"
+        "mapa": "42_cervo.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "San Cibrao reúne pequeño núcleo marítimo, servicios y puerto; otras áreas municipales son distintas.",
+        "radioSalida": "Otros tramos de A Mariña y servicios/hospital en Burela.",
+        "dependenciaCocheTexto": "Media; baja en San Cibrao para rutina, mayor fuera.",
+        "autonomiaCotidiana": "MEDIA",
+        "estacionalidad2026": "Vida anual con actividad industrial próxima.",
+        "peajeRealidad": "Mar cotidiano en San Cibrao, con escala de servicios pequeña y presencia industrial de Alcoa."
     },
     {
         "n": 43,
@@ -204,7 +232,7 @@
         "minBano": 3,
         "tempAgua": "17-19",
         "franja": "A",
-        "servicios": 6,
+        "servicios": 8,
         "serviciosNota": "Tiene: hospital comarcal propio, puerto pesquero. Falta: encanto urbano",
         "fibra": "Sí",
         "comunicaciones": "A-8 / N-642; tren Renfe Ancho Métrico (antigua FEVE); puerto pesquero",
@@ -222,7 +250,14 @@
         "B_2hab": 74802,
         "B_3hab": 103572,
         "obraNueva": "Poca",
-        "mapa": "43_burela.png"
+        "mapa": "43_burela.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Hospital, centro de salud, comercio, biblioteca, auditorio, estación, deporte y mercado permiten mucha vida sin salir del núcleo.",
+        "radioSalida": "Playas/rutas de A Mariña y otros núcleos costeros.",
+        "dependenciaCocheTexto": "Baja para la mayoría de necesidades diarias.",
+        "autonomiaCotidiana": "MUY ALTA",
+        "estacionalidad2026": "Vida anual fuerte; actividad cultural/deportiva también fuera del verano.",
+        "peajeRealidad": "Funcionalidad excepcional para su tamaño, con paisaje de puerto de trabajo y menor imagen turística."
     },
     {
         "n": 44,
@@ -249,7 +284,7 @@
         "minBano": 3,
         "tempAgua": "17-19",
         "franja": "A",
-        "servicios": 5,
+        "servicios": 7,
         "serviciosNota": "Tiene: playas urbanas, paseo. Falta: instituto de FP",
         "fibra": "Sí",
         "comunicaciones": "A-8 / N-642; tren Renfe Ancho Métrico (antigua FEVE)",
@@ -267,7 +302,14 @@
         "B_2hab": 122168,
         "B_3hab": 169155,
         "obraNueva": "Poca",
-        "mapa": "44_foz.png"
+        "mapa": "44_foz.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Núcleo con comercio, salud, biblioteca y servicios; playa integrada en la villa.",
+        "radioSalida": "Llas y Peizás permiten pasar de costa urbana a tramos más abiertos/naturales.",
+        "dependenciaCocheTexto": "Baja-media en núcleo; coche para hospital y costa más lejana.",
+        "autonomiaCotidiana": "FUERTE",
+        "estacionalidad2026": "Más vacacional que Burela, pero con servicios y biblioteca activos fuera de verano.",
+        "peajeRealidad": "Playa muy cotidiana a cambio de mayor presión vacacional y menor autonomía sanitaria que Burela."
     },
     {
         "n": 45,
@@ -312,7 +354,14 @@
         "B_2hab": 118209,
         "B_3hab": 163674,
         "obraNueva": "Poca",
-        "mapa": "45_barreiros.png"
+        "mapa": "45_barreiros.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Servicios básicos dispersos; la rutina depende mucho de la casa concreta.",
+        "radioSalida": "Arealonga (~1,3 km), Lóngara (~800 m), As Pasadas y As Catedrais.",
+        "dependenciaCocheTexto": "Alta en buena parte del municipio.",
+        "autonomiaCotidiana": "BAJA-MEDIA",
+        "estacionalidad2026": "Más residencial/vacacional y disperso; invierno reduce actividad.",
+        "peajeRealidad": "Mucha costa y vivienda posible, pero coche y dispersión son el coste real."
     },
     {
         "n": 46,
@@ -339,7 +388,7 @@
         "minBano": 5,
         "tempAgua": "17-19",
         "franja": "A",
-        "servicios": 7,
+        "servicios": 8,
         "serviciosNota": "Tiene: villa señorial completa, puerto. Falta: hospital (30-35 min)",
         "fibra": "Sí",
         "comunicaciones": "A-8 / N-634 / N-640; tren Renfe Ancho Métrico (antigua FEVE); puente dos Santos",
@@ -357,6 +406,13 @@
         "B_2hab": 125921,
         "B_3hab": 174353,
         "obraNueva": "Poca",
-        "mapa": "46_ribadeo.png"
+        "mapa": "46_ribadeo.png",
+        "serviciosEstado": "VALIDADO — Galicia",
+        "radioCotidiano": "Villa con comercio, salud/PAC, farmacias, biblioteca, piscina/gimnasio y servicios comarcales.",
+        "radioSalida": "As Catedrais y playas atlánticas; la villa cotidiana mira a la ría del Eo.",
+        "dependenciaCocheTexto": "Baja para vida de villa; coche para hospital y playas atlánticas.",
+        "autonomiaCotidiana": "FUERTE",
+        "estacionalidad2026": "Villa comarcal anual; As Catedrais añade turismo estacional.",
+        "peajeRealidad": "Mucha autonomía y ría diaria, pero hospital y playa atlántica están fuera."
     }
 ]

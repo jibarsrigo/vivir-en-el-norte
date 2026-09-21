@@ -56,7 +56,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 3 km · 5 min · CHUAC (A Coruña); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "A Coruña",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 50 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "Bus urbano, ferrocarril y aeropuerto próximo."
+        "transporteRelevante2026": "Bus urbano, ferrocarril y aeropuerto próximo.",
+        "playaCotidiana": "SÍ",
+        "playaCotidianaModo": "Riazor/Orzán están integradas en la ciudad y el paseo marítimo.",
+        "paseoCotidiano": "Paseo marítimo de más de 13 km: Riazor/Orzán, Torre y costa norte.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": "Riazor, Monte Alto y Ciudad Vieja cambian playa, pendiente, servicios y precio; explicar por qué, no solo nombrarlas."
     },
     {
         "n": 33,
@@ -115,7 +121,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 8 km · 10 min · CHUAC (A Coruña); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "A Coruña 7 km · 10 min (Palma: verano); Santiago 60 km · 45 min (Palma: casi todo el año) Tiempo histórico orientativo: ~10 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 45 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "AC-12 / AP-9 / N-VI; bus frecuente Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "AC-12 / AP-9 / N-VI; bus frecuente Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "DEPENDE MICROZONA",
+        "playaCotidianaModo": "Santa Cruz tiene pequeña bahía y castillo insular; Bastiagueiro es playa mayor y más abierta; Mera combina núcleo y costa.",
+        "paseoCotidiano": "Santa Cruz y su bahía; Bastiagueiro o Mera según vivienda.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "Santa Cruz, Bastiagueiro, Mera y Perillo no deben mezclarse.",
+        "microzonaPrecio": null
     },
     {
         "n": 34,
@@ -174,7 +186,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 14 km · 15 min · CHUAC (A Coruña); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "A Coruña 14 km · 15 min (Palma: verano); Santiago 65 km · 50 min (Palma: casi todo el año) Tiempo histórico orientativo: ~15 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 50 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "AC-163 / AP-9; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "AC-163 / AP-9; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ/PARCIAL",
+        "playaCotidianaModo": "Frente marítimo y playa forman parte de la villa.",
+        "paseoCotidiano": "Puerto y paseo marítimo.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 35,
@@ -233,7 +251,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 17 km · 20 min · CHUAC (A Coruña); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "A Coruña 14 km · 15 min (Palma: verano); Santiago 60 km · 45 min (Palma: casi todo el año) Tiempo histórico orientativo: ~15 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 45 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "N-VI / AP-9; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "N-VI / AP-9; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "NO GENERALIZABLE",
+        "playaCotidianaModo": "Playas en puntos concretos; no asumir playa andando desde una vivienda municipal cualquiera.",
+        "paseoCotidiano": "Rutas locales según parroquia.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "Comprobar parroquia exacta y ruta real a compra, farmacia y salud.",
+        "microzonaPrecio": null
     },
     {
         "n": 36,
@@ -292,7 +316,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 19 km · 20 min · CHUAC (A Coruña); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "A Coruña 35 km · 30 min (Palma: verano); Santiago 65 km · 50 min (Palma: casi todo el año) Tiempo histórico orientativo: ~30 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 50 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "N-651 / AP-9; tren Ferrol–A Coruña Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "N-651 / AP-9; tren Ferrol–A Coruña Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ EN MICROZONA",
+        "playaCotidianaModo": "Praia Grande es urbana/accesible en su extremo sur y más natural hacia el norte.",
+        "paseoCotidiano": "Praia Grande y frente costero.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 37,
@@ -351,7 +381,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 25 km · 25 min · Arquitecto Marcide (Ferrol); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "A Coruña 57 km · 45 min (Palma: verano); Santiago 99 km · 75 min (Palma: casi todo el año) Tiempo histórico orientativo: ~45 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 75 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "AC-133 / AP-9; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "AC-133 / AP-9; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ",
+        "playaCotidianaModo": "Playa protegida de ría integrada en la villa y el paseo.",
+        "paseoCotidiano": "Frente marítimo y puerto desde el centro.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "La caminabilidad descrita corresponde a la villa, no a todo el municipio ni a viviendas exteriores.",
+        "microzonaPrecio": null
     },
     {
         "n": 38,
@@ -410,6 +446,12 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 1 km · 5 min · Arquitecto Marcide (Ferrol); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "A Coruña 42 km · 35 min (Palma: verano); Santiago 82 km · 65 min (Palma: casi todo el año) Tiempo histórico orientativo: ~35 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 65 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "Ferrocarril y bus interurbano."
+        "transporteRelevante2026": "Ferrocarril y bus interurbano.",
+        "playaCotidiana": "NO DESDE CENTRO",
+        "playaCotidianaModo": "La ciudad vive el puerto/ría; las grandes playas atlánticas requieren desplazamiento.",
+        "paseoCotidiano": "Paseos urbanos/ría; Doniños añade ruta de laguna como salida.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     }
 ]

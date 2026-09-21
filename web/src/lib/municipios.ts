@@ -58,6 +58,13 @@ export type FichaMunicipio = {
   aeropuertoPractico2026?: string;
   palmaDirecta2026?: string;
   transporteRelevante2026?: string;
+  /** Capa mar/paseos/microzona 2026 (selectivos pueden ser null si v15 está vacío). */
+  playaCotidiana?: string | null;
+  playaCotidianaModo?: string | null;
+  paseoCotidiano?: string | null;
+  paseoPendienteTopografia?: string | null;
+  advertenciaMicrozona?: string | null;
+  microzonaPrecio?: string | null;
   fibra: string;
   comunicaciones: string;
   comunicacionesNota10: number;

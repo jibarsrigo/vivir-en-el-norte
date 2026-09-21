@@ -56,7 +56,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 25 km · 25 min · San Agustín (Avilés); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Asturias 11 km · 15 min (Palma: verano) Tiempo histórico orientativo: ~15 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
-        "transporteRelevante2026": "A-8 / N-632; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "A-8 / N-632; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "NO GENERALIZABLE",
+        "playaCotidianaModo": "Puerto cotidiano; playas de baño requieren salida.",
+        "paseoCotidiano": "Puerto y miradores, con escaleras y desnivel.",
+        "paseoPendienteTopografia": "Muy alta relevancia de cuestas/escaleras.",
+        "advertenciaMicrozona": "El anfiteatro portuario es muy pendiente; una vivienda 'cerca' en mapa puede exigir muchas escaleras.",
+        "microzonaPrecio": null
     },
     {
         "n": 52,
@@ -115,7 +121,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 19 km · 20 min · San Agustín (Avilés); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Asturias 7 km · 10 min (Palma: verano) Tiempo histórico orientativo: ~10 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
-        "transporteRelevante2026": "A-8 / N-632; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "A-8 / N-632; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "NO",
+        "playaCotidianaModo": "Puerto/estuario en San Esteban; las playas requieren salida.",
+        "paseoCotidiano": "San Esteban ofrece paseo portuario e industrial; los miradores y rutas costeras añaden desnivel.",
+        "paseoPendienteTopografia": "Las rutas panorámicas no son equivalentes a paseo llano cotidiano.",
+        "advertenciaMicrozona": "Muros y San Esteban de Pravia deben distinguirse.",
+        "microzonaPrecio": null
     },
     {
         "n": 53,
@@ -174,7 +186,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 16 km · 20 min · San Agustín (Avilés); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Asturias 6 km · 10 min (Palma: verano) Tiempo histórico orientativo: ~10 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
-        "transporteRelevante2026": "A-8 / N-632; tren FEVE; junto al aeropuerto Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "A-8 / N-632; tren FEVE; junto al aeropuerto Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "PARCIAL",
+        "playaCotidianaModo": "San Juan vive puerto/estuario; el baño de playa depende de salida/microzona.",
+        "paseoCotidiano": "Puerto y ribera en San Juan.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "Soto del Barco y San Juan de la Arena tienen funciones distintas.",
+        "microzonaPrecio": null
     },
     {
         "n": 54,
@@ -233,7 +251,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 5 km · 10 min · San Agustín (Avilés); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Asturias 8 km · 10 min (Palma: verano) Tiempo histórico orientativo: ~10 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
-        "transporteRelevante2026": "A-8 / AS-19; bus frecuente a Avilés Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "A-8 / AS-19; bus frecuente a Avilés Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ",
+        "playaCotidianaModo": "Salinas y El Espartal forman una gran playa/duna directamente integrada en la vida local.",
+        "paseoCotidiano": "Paseo de Salinas y sistema dunar de El Espartal.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "Salinas y Piedras Blancas no son intercambiables: playa/paseo frente a mayor concentración de servicios.",
+        "microzonaPrecio": "Salinas tiene prima residencial notable frente al conjunto de Castrillón/Piedras Blancas."
     },
     {
         "n": 55,
@@ -292,7 +316,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 17 km · 20 min · San Agustín (Avilés); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Asturias 25 km · 20 min (Palma: verano) Tiempo histórico orientativo: ~20 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
-        "transporteRelevante2026": "AS-238 / A-8 (Avilés); bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "AS-238 / A-8 (Avilés); bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ",
+        "playaCotidianaModo": "Playa de Luanco y puerto se integran directamente en la villa.",
+        "paseoCotidiano": "Puerto, playa y frente marítimo.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 56,
@@ -351,7 +381,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 17 km · 20 min · Cabueñes (Gijón); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Asturias 27 km · 25 min (Palma: verano) Tiempo histórico orientativo: ~25 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
-        "transporteRelevante2026": "AS-110 / A-8; tren FEVE Gijón–Cudillero Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "AS-110 / A-8; tren FEVE Gijón–Cudillero Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ/PARCIAL",
+        "playaCotidianaModo": "Puerto y playa quedan integrados en la pequeña villa.",
+        "paseoCotidiano": "Puerto/frente marítimo y centro.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 57,
@@ -410,6 +446,12 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 4 km · 5 min · Cabueñes (Gijón); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Asturias 37 km · 30 min (Palma: verano) Tiempo histórico orientativo: ~30 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
-        "transporteRelevante2026": "Ferrocarril y bus urbano/interurbano."
+        "transporteRelevante2026": "Ferrocarril y bus urbano/interurbano.",
+        "playaCotidiana": "SÍ",
+        "playaCotidianaModo": "San Lorenzo está integrada en el tejido urbano y el paseo del Muro.",
+        "paseoCotidiano": "Muro de San Lorenzo–Cimavilla–Piles, ampliable por costa.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": "Centro, La Arena/San Lorenzo y otros barrios cambian precio, playa y aparcamiento."
     }
 ]

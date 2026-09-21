@@ -56,7 +56,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 35 km · 35 min · Hospital da Mariña (Burela); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "A Coruña 135 km · 100 min (Palma: verano); Santiago 135 km · 100 min (Palma: casi todo el año); Asturias 156 km · 115 min (Palma: verano) Tiempo histórico orientativo: ~100 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 100 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "LU-862; tren FEVE (apeadero) Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "LU-862; tren FEVE (apeadero) Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ/PARCIAL",
+        "playaCotidianaModo": "Arealonga y pequeñas playas pueden ser cercanas según vivienda; servicios siguen siendo escasos.",
+        "paseoCotidiano": "Primer tramo del PR-G156 desde el puerto puede funcionar como paseo diario; ruta completa es salida.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 40,
@@ -115,7 +121,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 23 km · 25 min · Hospital da Mariña (Burela); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Santiago 132 km · 100 min (Palma: casi todo el año); Asturias 142 km · 105 min (Palma: verano); A Coruña 142 km · 105 min (Palma: verano) Tiempo histórico orientativo: ~100 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Casi todo el año / Santiago (casi todo el año) · 100 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "A-8 (enlace Cabreiros) / LU-862; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "A-8 (enlace Cabreiros) / LU-862; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ EN COVAS",
+        "playaCotidianaModo": "Covas integra playa y paseo; el casco histórico prioriza servicios y ría.",
+        "paseoCotidiano": "Ría/casco o paseo de Covas según microzona.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "Casco/servicios, Covas y Celeiro son experiencias distintas.",
+        "microzonaPrecio": null
     },
     {
         "n": 41,
@@ -174,7 +186,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 15 km · 20 min · Hospital da Mariña (Burela); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Asturias 128 km · 95 min (Palma: verano); Santiago 139 km · 105 min (Palma: casi todo el año); A Coruña 149 km · 110 min (Palma: verano) Tiempo histórico orientativo: ~95 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 105 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "A-8 / N-642; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "A-8 / N-642; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "NO DESDE NÚCLEO",
+        "playaCotidianaModo": "El núcleo principal es interior; el mar exige desplazamiento.",
+        "paseoCotidiano": "Paseos locales; Senda Costeira es salida deliberada.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 42,
@@ -233,7 +251,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 5 km · 10 min · Hospital da Mariña (Burela); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Asturias 120 km · 90 min (Palma: verano); Santiago 144 km · 105 min (Palma: casi todo el año); A Coruña 156 km · 115 min (Palma: verano) Tiempo histórico orientativo: ~90 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 105 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "A-8 / N-642; tren FEVE (San Cibrao) Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "A-8 / N-642; tren FEVE (San Cibrao) Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ EN SAN CIBRAO",
+        "playaCotidianaModo": "O Torno (~578 m) y Cubelas (~240 m) son playas protegidas con paseo.",
+        "paseoCotidiano": "O Torno–A Atalaia/faro y frente de San Cibrao.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "La experiencia costera descrita corresponde sobre todo a San Cibrao, no al conjunto de Cervo.",
+        "microzonaPrecio": null
     },
     {
         "n": 43,
@@ -292,7 +316,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 2 km · 5 min · Hospital da Mariña (Burela); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Asturias 113 km · 85 min (Palma: verano); A Coruña 111 km · 85 min (Palma: verano); Santiago 147 km · 110 min (Palma: casi todo el año) Tiempo histórico orientativo: ~85 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 110 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "Ferrocarril Renfe de vía estrecha y bus."
+        "transporteRelevante2026": "Ferrocarril Renfe de vía estrecha y bus.",
+        "playaCotidiana": "SÍ/PARCIAL",
+        "playaCotidianaModo": "Mar y puerto pesquero son cotidianos; la fortaleza principal es la autonomía urbana más que una gran playa-resort.",
+        "paseoCotidiano": "Puerto y frente marítimo urbano.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 44,
@@ -351,7 +381,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 17 km · 20 min · Hospital da Mariña (Burela); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Asturias 106 km · 80 min (Palma: verano); A Coruña 116 km · 85 min (Palma: verano); Santiago 146 km · 110 min (Palma: casi todo el año) Tiempo histórico orientativo: ~80 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 110 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "A-8 / N-642; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "A-8 / N-642; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ",
+        "playaCotidianaModo": "A Rapadoira (~340 m) es urbana, protegida y conectada al paseo; Llas (~760 m) amplía la caminata.",
+        "paseoCotidiano": "Rapadoira–Llas y frente marítimo.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 45,
@@ -410,7 +446,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 23 km · 25 min · Hospital da Mariña (Burela); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Asturias 92 km · 70 min (Palma: verano); A Coruña 117 km · 90 min (Palma: verano); Santiago 145 km · 110 min (Palma: casi todo el año) Tiempo histórico orientativo: ~70 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 110 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "A-8 / N-634; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "A-8 / N-634; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "DEPENDE VIVIENDA",
+        "playaCotidianaModo": "Costa extensa, pero una casa cerca de playa puede quedar lejos de servicios.",
+        "paseoCotidiano": "Arealonga y tramos costeros si se reside cerca; de lo contrario requieren coche.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "Municipio disperso: comprobar núcleo y distancia real a compra/salud; no trasladar la costa a toda vivienda.",
+        "microzonaPrecio": null
     },
     {
         "n": 46,
@@ -469,6 +511,12 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 30 km · 30 min · Jarrio (Coaña); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Asturias 78 km · 60 min (Palma: verano); A Coruña 135 km · 100 min (Palma: verano); Santiago 161 km · 120 min (Palma: casi todo el año) Tiempo histórico orientativo: ~60 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 120 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "A-8 / N-634 / N-640; tren FEVE; puente dos Santos Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "A-8 / N-634 / N-640; tren FEVE; puente dos Santos Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "NO MARÍTIMA DESDE VILLA",
+        "playaCotidianaModo": "Ría/puerto sí son cotidianos; las playas atlánticas requieren salida.",
+        "paseoCotidiano": "Villa–ría–puerto y miradores.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     }
 ]

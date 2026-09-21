@@ -5,15 +5,15 @@ Oleadas:
   precios     — precioM2 + A/B (CURSOR_05)
   servicios   — servicios + autonomía cotidiana (CURSOR_06)
   logistica   — sanidad / aeropuerto-Palma / transporte 2026 (CURSOR_07)
+  mar_paseos  — playa cotidiana / paseos / microzona (CURSOR_08)
 
 Uso:
-  python scripts/sync_master_v15_to_web.py --wave precios
-  python scripts/sync_master_v15_to_web.py --wave servicios
-  python scripts/sync_master_v15_to_web.py --wave logistica
+  python scripts/sync_master_v15_to_web.py --wave precios|servicios|logistica|mar_paseos
   python scripts/sync_master_v15_to_web.py --check
 
 No escribe el XLSX. No toca CSV, relatos, zonas ni capas.
 No inventa minutos ni reduce textos 2026 a campos históricos.
+No rellena campos selectivos vacíos en v15.
 """
 
 from __future__ import annotations
@@ -95,8 +95,31 @@ LOGISTICA_MAP = {
 }
 LOGISTICA_JSON_KEYS = tuple(LOGISTICA_MAP.values())
 
-# Claves ya sincronizadas que no deben regresar en oleadas posteriores
-PREVIOUS_SYNC_KEYS = PRICE_KEYS + SERVICIOS_JSON_KEYS
+# v15 → JSON (mar/paseos/microzona). Universales vs selectivos (no rellenar vacíos).
+MAR_PASEOS_MAP = {
+    "playa_cotidiana": "playaCotidiana",
+    "playa_cotidiana_modo": "playaCotidianaModo",
+    "paseo_cotidiano": "paseoCotidiano",
+    "paseo_pendiente_topografia": "paseoPendienteTopografia",
+    "advertencia_microzona": "advertenciaMicrozona",
+    "microzona_precio": "microzonaPrecio",
+}
+MAR_PASEOS_UNIVERSAL = (
+    "playaCotidiana",
+    "playaCotidianaModo",
+    "paseoCotidiano",
+)
+MAR_PASEOS_SELECTIVE = (
+    "paseoPendienteTopografia",
+    "advertenciaMicrozona",
+    "microzonaPrecio",
+)
+MAR_PASEOS_JSON_KEYS = tuple(MAR_PASEOS_MAP.values())
+
+# Regresión por oleada (no incluir las claves que la propia oleada escribe)
+REGRESSION_BEFORE_SERVICIOS = PRICE_KEYS
+REGRESSION_BEFORE_LOGISTICA = PRICE_KEYS + SERVICIOS_JSON_KEYS
+REGRESSION_BEFORE_MAR_PASEOS = PRICE_KEYS + SERVICIOS_JSON_KEYS + LOGISTICA_JSON_KEYS
 
 
 def _norm(s: object) -> str:
@@ -177,6 +200,7 @@ def load_master() -> list[dict]:
         *FACTORS,
         *SERVICIOS_MAP.keys(),
         *LOGISTICA_MAP.keys(),
+        *MAR_PASEOS_MAP.keys(),
     )
     for need in needed:
         if need not in col:
@@ -226,6 +250,12 @@ def load_master() -> list[dict]:
             if not text:
                 raise SystemExit(f"ABORT: n={n} {nombre}: {src} vacío en v15")
             row[dst] = text
+        for src, dst in MAR_PASEOS_MAP.items():
+            text = _norm(r[col[src]])
+            # Selectivos: vacío en v15 → null (no inventar). Universales: obligatorios.
+            if dst in MAR_PASEOS_UNIVERSAL and not text:
+                raise SystemExit(f"ABORT: n={n} {nombre}: {src} vacío en v15")
+            row[dst] = text if text else None
         out.append(row)
 
     if len(out) != 83:
@@ -450,6 +480,74 @@ def verify_logistica(master: list[dict], by_n: dict[int, dict]) -> None:
             raise SystemExit(f"ABORT QA: {k} no coincide 83/83")
 
 
+def _empty_or_null(val: object) -> bool:
+    return val is None or _norm(val) == ""
+
+
+def apply_mar_paseos(master: list[dict], files: dict[str, list[dict]]) -> dict:
+    by_master = {m["n"]: m for m in master}
+    touched: list[str] = []
+    coverage = {k: 0 for k in MAR_PASEOS_JSON_KEYS}
+
+    for fname, rows in files.items():
+        file_changed = False
+        for row in rows:
+            m = by_master[int(row["n"])]
+            for key in MAR_PASEOS_JSON_KEYS:
+                target = m[key]  # str or None
+                if row.get(key) != target:
+                    file_changed = True
+                row[key] = target
+                if target is not None:
+                    coverage[key] += 1
+        if file_changed:
+            touched.append(fname)
+
+    write_files(files)
+    return {"touched_files": touched, "coverage": coverage}
+
+
+def verify_mar_paseos(master: list[dict], by_n: dict[int, dict]) -> None:
+    print("--- MAR / PASEOS / MICROZONA ---")
+    for k in MAR_PASEOS_UNIVERSAL:
+        ok = sum(
+            1
+            for m in master
+            if _norm(by_n[m["n"]].get(k)) == _norm(m[k]) and not _empty_or_null(m[k])
+        )
+        print(f"{k}: {ok}/83")
+        if ok != 83:
+            raise SystemExit(f"ABORT QA: {k} no coincide 83/83")
+
+    for k in MAR_PASEOS_SELECTIVE:
+        master_filled = {m["municipio"] for m in master if not _empty_or_null(m[k])}
+        prod_filled = {
+            p["municipio"]
+            for p in by_n.values()
+            if not _empty_or_null(p.get(k))
+        }
+        equal_text = 0
+        for m in master:
+            p = by_n[m["n"]]
+            mv, pv = m[k], p.get(k)
+            if _empty_or_null(mv) and _empty_or_null(pv):
+                equal_text += 1
+            elif _norm(mv) == _norm(pv):
+                equal_text += 1
+        print(
+            f"{k}: cobertura v15={len(master_filled)} producto={len(prod_filled)} "
+            f"filas_iguales={equal_text}/83"
+        )
+        if master_filled != prod_filled:
+            raise SystemExit(
+                f"ABORT QA: {k} cobertura distinta "
+                f"solo_v15={sorted(master_filled - prod_filled)[:5]} "
+                f"solo_prod={sorted(prod_filled - master_filled)[:5]}"
+            )
+        if equal_text != 83:
+            raise SystemExit(f"ABORT QA: {k} no coincide fila a fila 83/83")
+
+
 def assert_no_regression(
     before_snapshot: dict[int, dict], by_n: dict[int, dict], keys: tuple[str, ...]
 ) -> None:
@@ -499,14 +597,16 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--wave",
-        choices=("precios", "servicios", "logistica"),
+        choices=("precios", "servicios", "logistica", "mar_paseos"),
         help="Oleada a aplicar (obligatoria si no es --check)",
     )
     parser.add_argument("--check", action="store_true", help="Solo verificar, no escribir")
     args = parser.parse_args()
 
     if not args.check and not args.wave:
-        raise SystemExit("ABORT: indica --wave precios|servicios|logistica o --check")
+        raise SystemExit(
+            "ABORT: indica --wave precios|servicios|logistica|mar_paseos o --check"
+        )
 
     master = load_master()
     by_n, files = load_product()
@@ -543,6 +643,17 @@ def main() -> int:
         else:
             verify_logistica(master, by_n)
 
+        present_mar = sum(1 for p in by_n.values() if "playaCotidiana" in p)
+        if present_mar == 0:
+            print("--- MAR / PASEOS / MICROZONA ---")
+            print("capa mar/paseos aún no sincronizada (0/83)")
+        elif present_mar != 83:
+            raise SystemExit(
+                f"ABORT QA: cobertura parcial mar/paseos ({present_mar}/83)"
+            )
+        else:
+            verify_mar_paseos(master, by_n)
+
         print("RESULTADO SYNC QA: OK")
         return 0
 
@@ -562,13 +673,13 @@ def main() -> int:
 
     if args.wave == "servicios":
         price_before = {
-            int(r["n"]): {k: r.get(k) for k in PRICE_KEYS}
+            int(r["n"]): {k: r.get(k) for k in REGRESSION_BEFORE_SERVICIOS}
             for rows in before.values()
             for r in rows
         }
         stats = apply_servicios(master, files)
         by_n2, files2 = load_product()
-        assert_no_regression(price_before, by_n2, PRICE_KEYS)
+        assert_no_regression(price_before, by_n2, REGRESSION_BEFORE_SERVICIOS)
         assert_authorized_only(
             before,
             files2,
@@ -586,37 +697,73 @@ def main() -> int:
             print(f"  - {line}")
         return 0
 
-    # wave logistica
+    if args.wave == "logistica":
+        prev_snap = {
+            int(r["n"]): {k: r.get(k) for k in REGRESSION_BEFORE_LOGISTICA}
+            for rows in before.values()
+            for r in rows
+        }
+        stats = apply_logistica(master, files)
+        by_n2, files2 = load_product()
+        assert_no_regression(prev_snap, by_n2, REGRESSION_BEFORE_LOGISTICA)
+        assert_authorized_only(
+            before,
+            files2,
+            allowed=set(LOGISTICA_JSON_KEYS),
+            allow_new=set(LOGISTICA_JSON_KEYS),
+        )
+        verify_precios(master, by_n2)
+        verify_servicios(master, by_n2)
+        verify_logistica(master, by_n2)
+        print("RESULTADO SYNC QA: OK")
+        print("---")
+        print(f"JSON tocados: {len(stats['touched_files'])}")
+        for src, dst in LOGISTICA_MAP.items():
+            print(f"  {src} → {dst}")
+        return 0
+
+    # wave mar_paseos
     prev_snap = {
-        int(r["n"]): {k: r.get(k) for k in PREVIOUS_SYNC_KEYS}
+        int(r["n"]): {k: r.get(k) for k in REGRESSION_BEFORE_MAR_PASEOS}
         for rows in before.values()
         for r in rows
     }
-    stats = apply_logistica(master, files)
+    stats = apply_mar_paseos(master, files)
     by_n2, files2 = load_product()
-    assert_no_regression(prev_snap, by_n2, PREVIOUS_SYNC_KEYS)
+    assert_no_regression(prev_snap, by_n2, REGRESSION_BEFORE_MAR_PASEOS)
     assert_authorized_only(
         before,
         files2,
-        allowed=set(LOGISTICA_JSON_KEYS),
-        allow_new=set(LOGISTICA_JSON_KEYS),
+        allowed=set(MAR_PASEOS_JSON_KEYS),
+        allow_new=set(MAR_PASEOS_JSON_KEYS),
     )
+
     verify_precios(master, by_n2)
     verify_servicios(master, by_n2)
     verify_logistica(master, by_n2)
+    verify_mar_paseos(master, by_n2)
+    # históricos mar de ficha intactos (snapshot before)
+    for rows in before.values():
+        for r in rows:
+            n = int(r["n"])
+            cur = by_n2[n]
+            for hk in ("minCosta", "minBano", "playaBano", "franja"):
+                if cur.get(hk) != r.get(hk):
+                    raise SystemExit(f"ABORT: se alteró campo histórico mar {hk} en n={n}")
     print("RESULTADO SYNC QA: OK")
     print("---")
     print(f"JSON tocados: {len(stats['touched_files'])}")
     print("mapeo v15 → JSON:")
-    for src, dst in LOGISTICA_MAP.items():
+    for src, dst in MAR_PASEOS_MAP.items():
         print(f"  {src} → {dst}")
-    print("ejemplos:")
-    for line in stats["examples"]:
-        print(f"  - {line}")
+    print("cobertura (no-null en producto):")
+    for k, nfilled in stats["coverage"].items():
+        print(f"  {k}: {nfilled}/83")
     print(
-        "UI: hospitalMin/aeropuertoMin/comunicaciones históricos NO se sobrescriben "
-        "(no se inventan minutos desde textos 2026)."
+        "UI: minCosta/minBano/playaBano históricos intactos; "
+        "capa 2026 solo estructurada (sin inventar equivalencias costa↔playa)."
     )
+    print("mar-municipios.json: no modificado.")
     return 0
 
 

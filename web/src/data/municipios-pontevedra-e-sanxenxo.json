@@ -56,7 +56,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 3 km · 5 min · Montecelo (Pontevedra); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo 27 km · 25 min (Palma: verano); Santiago 67 km · 50 min (Palma: casi todo el año); Porto 161 km · 120 min (Palma: verano) Tiempo histórico orientativo: ~25 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 50 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "Ferrocarril y bus interurbano."
+        "transporteRelevante2026": "Ferrocarril y bus interurbano.",
+        "playaCotidiana": "NO",
+        "playaCotidianaModo": "Ciudad de ría/río; el baño marítimo requiere desplazamiento.",
+        "paseoCotidiano": "Lérez, Illa do Covo y A Xunqueira enlazan paseos verdes con el centro.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 18,
@@ -115,7 +121,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 8 km · 10 min · Montecelo (Pontevedra); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo 30 km · 25 min (Palma: verano); Santiago 67 km · 50 min (Palma: casi todo el año); Porto 162 km · 120 min (Palma: verano) Tiempo histórico orientativo: ~25 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 50 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "PO-308 / AP-9; bus a Pontevedra Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "PO-308 / AP-9; bus a Pontevedra Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "DEPENDE MICROZONA",
+        "playaCotidianaModo": "Raxó y algunos puntos costeros pueden dar baño cercano; no generalizar al municipio.",
+        "paseoCotidiano": "Combarro: casco de piedra, soportales y hórreos junto a la ría; presión turística y acceso/parking condicionan el uso diario.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "San Salvador, Combarro, Campelo, Raxó y áreas dispersas ofrecen vidas distintas.",
+        "microzonaPrecio": null
     },
     {
         "n": 19,
@@ -174,7 +186,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 20 km · 25 min · Montecelo (Pontevedra); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo 64 km · 50 min (Palma: verano); Santiago 71 km · 55 min (Palma: casi todo el año); Porto 157 km · 115 min (Palma: verano) Tiempo histórico orientativo: ~50 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 55 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "PO-308 / VG-4.1; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "PO-308 / VG-4.1; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ",
+        "playaCotidianaModo": "Silgar/Baltar/Caneliñas son parte directa de la vida peatonal según núcleo.",
+        "paseoCotidiano": "Ruta litoral Sanxenxo–Portonovo ~8–8,6 km: Panadeira, Silgar, Punta Vicaño, Baltar, Portonovo y Caneliñas.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": "Núcleo ~3846 €/m²; Adina-Portonovo ~2900 €/m²; municipal ~3351 €/m²."
     },
     {
         "n": 20,
@@ -233,6 +251,12 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 30 km · 30 min · Hospital do Salnés (Vilagarcía); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo 78 km · 60 min (Palma: verano); Santiago 78 km · 60 min (Palma: casi todo el año) Tiempo histórico orientativo: ~60 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 60 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "PO-316 / VG-4.1; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "PO-316 / VG-4.1; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "DEPENDE MICROZONA",
+        "playaCotidianaModo": "Villa vive la ría/puerto; San Vicente prioriza costa y paseo pero aumenta coche.",
+        "paseoCotidiano": "Puerto/ría en villa; pasarela costera de Pedras Negras como salida o cotidiano si se reside allí.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "Villa de O Grove ≠ San Vicente/Pedras Negras.",
+        "microzonaPrecio": null
     }
 ]

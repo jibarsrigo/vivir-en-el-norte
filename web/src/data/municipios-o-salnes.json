@@ -56,7 +56,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 18 km · 20 min · Hospital do Salnés (Vilagarcía); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo 33 km · 30 min (Palma: verano); Santiago 71 km · 55 min (Palma: casi todo el año); Porto 163 km · 120 min (Palma: verano) Tiempo histórico orientativo: ~30 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 55 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "PO-550 / PO-308; bus escaso Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "PO-550 / PO-308; bus escaso Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "NO",
+        "playaCotidianaModo": "A Lanzada queda aproximadamente a 10–12 min en coche desde Dena; es salida frecuente, no paseo desde casa.",
+        "paseoCotidiano": "Rutas rurales y del río da Chanca; no paseo marítimo urbano.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "Dena concentra más vida diaria que áreas de viñedo/aldea.",
+        "microzonaPrecio": null
     },
     {
         "n": 22,
@@ -115,7 +121,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 11 km · 15 min · Hospital do Salnés (Vilagarcía); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo 42 km · 35 min (Palma: verano); Santiago 66 km · 50 min (Palma: casi todo el año) Tiempo histórico orientativo: ~35 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 50 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "VG-4.1 / PO-550; bus; sin tren Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "VG-4.1 / PO-550; bus; sin tren Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "NO CLÁSICA",
+        "playaCotidianaModo": "Relación marítima de ría, marisqueo e intermareal; no es destino de gran playa urbana.",
+        "paseoCotidiano": "Fefiñáns–centro–frente marítimo; A Pastora añade subida y vistas.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 23,
@@ -174,7 +186,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 20 km · 20 min · Hospital do Salnés (Vilagarcía); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo 50 km · 40 min (Palma: verano); Santiago 65 km · 50 min (Palma: casi todo el año) Tiempo histórico orientativo: ~40 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 50 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "PO-307 (puente); bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "PO-307 (puente); bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ",
+        "playaCotidianaModo": "Pequeñas playas, O Bao y costa accesibles como parte de la vida diaria según vivienda.",
+        "paseoCotidiano": "O Xufre y paseo; O Bao hacia Carreirón por senda/carril bici.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 24,
@@ -233,7 +251,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 15 km · 15 min · Hospital do Salnés (Vilagarcía); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo 50 km · 40 min (Palma: verano); Santiago 61 km · 50 min (Palma: casi todo el año) Tiempo histórico orientativo: ~40 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 50 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "VG-4.1 / PO-549; bus; sin tren Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "VG-4.1 / PO-549; bus; sin tren Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ/PARCIAL",
+        "playaCotidianaModo": "Ariño es pequeña playa protegida conectada por paseo desde el entorno urbano.",
+        "paseoCotidiano": "Frente marítimo y pasarela hacia Ariño.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 25,
@@ -292,6 +316,12 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 4 km · 5 min · Hospital do Salnés (Vilagarcía); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo 51 km · 40 min (Palma: verano); Santiago 54 km · 45 min (Palma: casi todo el año) Tiempo histórico orientativo: ~40 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 45 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "Ferrocarril interurbano."
+        "transporteRelevante2026": "Ferrocarril interurbano.",
+        "playaCotidiana": "SÍ/PARCIAL",
+        "playaCotidianaModo": "Playa de Compostela y frente de Carril pueden integrarse en la rutina urbana.",
+        "paseoCotidiano": "Frente marítimo hacia Carril, con paisaje de marisqueo y Cortegada.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     }
 ]

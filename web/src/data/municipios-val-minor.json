@@ -56,7 +56,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 18 km · 20 min · Álvaro Cunqueiro (Vigo); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo 27 km · 25 min (Palma: verano); Santiago 114 km · 85 min (Palma: casi todo el año); Porto 113 km · 85 min (Palma: verano) Tiempo histórico orientativo: ~25 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 85 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "PO-552 / AG-57; bus interurbano Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "PO-552 / AG-57; bus interurbano Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ EN MICROZONA",
+        "playaCotidianaModo": "A Ribeira es pequeña playa urbana junto a Monterreal; Ladeira es más larga hacia el estuario.",
+        "paseoCotidiano": "Monte Boi: circuito de unos 2 km alrededor de la península-fortaleza, con vistas a la ría y Cíes.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": "Centro/A Ribeira-Monterreal y zonas de playa tienen experiencia y precio distintos del conjunto municipal."
     },
     {
         "n": 7,
@@ -115,7 +121,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 12 km · 15 min · Álvaro Cunqueiro (Vigo); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo 22 km · 20 min (Palma: verano); Santiago 110 km · 80 min (Palma: casi todo el año); Porto 106 km · 80 min (Palma: verano) Tiempo histórico orientativo: ~20 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 80 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "PO-552 / AG-57; bus; Vigo a 20 min Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "PO-552 / AG-57; bus; Vigo a 20 min Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ EN FRANJA COSTERA",
+        "playaCotidianaModo": "Playa América/Panxón forman una gran bahía utilizable a diario si se vive en esa franja.",
+        "paseoCotidiano": "Paseo de Playa América/Panxón; Senda Azul como extensión larga.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "No trasladar la caminabilidad de Ramallosa o Panxón a todo Nigrán.",
+        "microzonaPrecio": "Panxón/Playa América, A Ramallosa y otras parroquias no son equivalentes."
     },
     {
         "n": 8,
@@ -174,6 +186,12 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 14 km · 15 min · Álvaro Cunqueiro (Vigo); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo 21 km · 20 min (Palma: verano); Porto 106 km · 80 min (Palma: verano); Santiago 112 km · 85 min (Palma: casi todo el año) Tiempo histórico orientativo: ~20 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 85 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "AG-57 / PO-340; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "AG-57 / PO-340; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "NO",
+        "playaCotidianaModo": "Interior del Val Miñor; playa mediante salida.",
+        "paseoCotidiano": "Paseos urbanos/ribera local; no vender como paseo marítimo.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     }
 ]

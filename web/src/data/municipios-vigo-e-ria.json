@@ -56,7 +56,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 5 km · 10 min · Álvaro Cunqueiro (Vigo); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo",
         "palmaDirecta2026": "Limitada/estacional en 2026; no presentar como conexión anual garantizada.",
-        "transporteRelevante2026": "Bus urbano, ferrocarril y conexiones marítimas metropolitanas."
+        "transporteRelevante2026": "Bus urbano, ferrocarril y conexiones marítimas metropolitanas.",
+        "playaCotidiana": "DEPENDE MICROZONA",
+        "playaCotidianaModo": "Samil/Alcabre pueden dar playa diaria; el centro urbano no tiene una gran playa a la puerta.",
+        "paseoCotidiano": "Frente portuario/centro o paseo de Samil según vivienda.",
+        "paseoPendienteTopografia": "Pendientes fuertes: distancia horizontal no equivale a caminabilidad.",
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": "Centro, Samil/Alcabre y laderas residenciales tienen precios y vida cotidiana muy distintos."
     },
     {
         "n": 10,
@@ -115,7 +121,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 18 km · 20 min · Álvaro Cunqueiro (Vigo); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo 7 km · 10 min (Palma: verano); Santiago 85 km · 65 min (Palma: casi todo el año); Porto 141 km · 105 min (Palma: verano) Tiempo histórico orientativo: ~10 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 65 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "Ferrocarril y corredor metropolitano."
+        "transporteRelevante2026": "Ferrocarril y corredor metropolitano.",
+        "playaCotidiana": "DEPENDE MICROZONA",
+        "playaCotidianaModo": "Cesantes ofrece playa somera de ría; no es la experiencia cotidiana de toda Redondela.",
+        "paseoCotidiano": "Villa/ría según microzona.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "Distinguir Redondela villa, Chapela y Cesantes.",
+        "microzonaPrecio": null
     },
     {
         "n": 11,
@@ -174,7 +186,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 14 km · 15 min · Montecelo (Pontevedra); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo 15 km · 15 min (Palma: verano); Santiago 78 km · 60 min (Palma: casi todo el año); Porto 147 km · 110 min (Palma: verano) Tiempo histórico orientativo: ~15 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 60 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "N-550 / AP-9; tren en Arcade Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "N-550 / AP-9; tren en Arcade Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "PARCIAL",
+        "playaCotidianaModo": "Relación de ría en Arcade; no asumir gran playa urbana.",
+        "paseoCotidiano": "Frente de ría/Arcade y recorridos locales.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "Arcade concentra mucha más vida cotidiana que áreas interiores.",
+        "microzonaPrecio": null
     },
     {
         "n": 12,
@@ -233,6 +251,12 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 10 km · 15 min · Montecelo (Pontevedra); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo 16 km · 15 min (Palma: verano); Santiago 77 km · 60 min (Palma: casi todo el año); Porto 150 km · 110 min (Palma: verano) Tiempo histórico orientativo: ~15 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 60 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "N-550 / AP-9; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "N-550 / AP-9; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "NO GENERALIZABLE",
+        "playaCotidianaModo": "Depende de parroquia; costa no significa baño cotidiano desde casa.",
+        "paseoCotidiano": "Rutas locales según parroquia.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     }
 ]

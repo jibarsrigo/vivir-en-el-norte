@@ -56,7 +56,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 22 km · 25 min · Póvoa de Varzim / Vila do Conde; verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Porto",
         "palmaDirecta2026": "Porto: Palma observada en la operativa de 2026; rutas y frecuencias cambian por temporada, comprobar antes de viajar.",
-        "transporteRelevante2026": "A-28 / N-13; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "A-28 / N-13; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ/PARCIAL SEGÚN MICROZONA",
+        "playaCotidianaModo": "Costa atlántica muy próxima; desde el centro la relación inmediata es también estuario/río y las playas dependen de tramo.",
+        "paseoCotidiano": "Marginal del Cávado y recorridos del litoral/parque natural.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "Esposende ciudad, Ofir/Fão y Apúlia ofrecen relaciones distintas entre servicios, playa y estuario.",
+        "microzonaPrecio": null
     },
     {
         "n": 82,
@@ -115,7 +121,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 1 km · 5 min · Póvoa de Varzim / Vila do Conde; verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Porto",
         "palmaDirecta2026": "Porto: Palma observada en la operativa de 2026; rutas y frecuencias cambian por temporada, comprobar antes de viajar.",
-        "transporteRelevante2026": "Metro do Porto: conexión estructural con área metropolitana y aeropuerto mediante transbordo/red."
+        "transporteRelevante2026": "Metro do Porto: conexión estructural con área metropolitana y aeropuerto mediante transbordo/red.",
+        "playaCotidiana": "SÍ",
+        "playaCotidianaModo": "Largo frente de playas urbanas directamente integrado en la ciudad.",
+        "paseoCotidiano": "Marginal marítima de varios kilómetros, llana y muy utilizable a diario.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 83,
@@ -174,6 +186,12 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 5 km · 10 min · Póvoa de Varzim / Vila do Conde; verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Porto",
         "palmaDirecta2026": "Porto: Palma observada en la operativa de 2026; rutas y frecuencias cambian por temporada, comprobar antes de viajar.",
-        "transporteRelevante2026": "Metro do Porto conecta con el área metropolitana."
+        "transporteRelevante2026": "Metro do Porto conecta con el área metropolitana.",
+        "playaCotidiana": "SÍ",
+        "playaCotidianaModo": "Playas y desembocadura del Ave quedan integradas en el tejido urbano costero.",
+        "paseoCotidiano": "Marginal llana, desembocadura y frente de playa; recorridos largos sin gran desnivel.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": "Núcleo urbano puede superar el promedio municipal; costa y parroquias interiores no son equivalentes."
     }
 ]

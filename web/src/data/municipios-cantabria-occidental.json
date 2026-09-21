@@ -56,7 +56,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 36 km · 40 min · Sierrallana (Torrelavega); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Santander 57 km · 45 min (Palma: casi todo el año); Bilbao 147 km · 110 min (Palma: todo el año); Asturias 163 km · 120 min (Palma: verano) Tiempo histórico orientativo: ~45 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Santander: Palma figura entre destinos publicados en 2026; programación concreta puede variar por temporada.",
-        "transporteRelevante2026": "A-8 / N-634; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "A-8 / N-634; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ/PARCIAL",
+        "playaCotidianaModo": "El Merón y otros arenales están muy próximos, pero el acceso cotidiano depende de la microzona y del cruce/salida desde la villa.",
+        "paseoCotidiano": "Ría, puentes y frente de la villa; playas como extensión más larga.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 64,
@@ -115,7 +121,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 25 km · 30 min · Sierrallana (Torrelavega); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Santander 47 km · 40 min (Palma: casi todo el año); Bilbao 137 km · 100 min (Palma: todo el año) Tiempo histórico orientativo: ~40 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Santander: Palma figura entre destinos publicados en 2026; programación concreta puede variar por temporada.",
-        "transporteRelevante2026": "CA-131; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "CA-131; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ",
+        "playaCotidianaModo": "Playa de Comillas queda pegada al núcleo y puede formar parte del paseo diario.",
+        "paseoCotidiano": "Centro histórico, parque y frente de playa/puerto; algunas calles tienen pendiente.",
+        "paseoPendienteTopografia": "Pendientes moderadas entre partes del casco y costa; comprobar ubicación de vivienda.",
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 65,
@@ -174,7 +186,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 11 km · 15 min · Sierrallana (Torrelavega); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Santander 22 km · 20 min (Palma: casi todo el año); Bilbao 113 km · 85 min (Palma: todo el año) Tiempo histórico orientativo: ~20 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Santander: Palma figura entre destinos publicados en 2026; programación concreta puede variar por temporada.",
-        "transporteRelevante2026": "CA-132 / A-67; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "CA-132 / A-67; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ EN ZONA BAJA",
+        "playaCotidianaModo": "La Concha y Los Locos forman parte directa de la vida costera si se reside cerca; desde el pueblo alto interviene el desnivel.",
+        "paseoCotidiano": "La Ribera–La Concha–zona del faro/Los Locos.",
+        "paseoPendienteTopografia": "Desnivel estructural entre costa y núcleo alto.",
+        "advertenciaMicrozona": "Pueblo alto y zona de La Ribera/La Concha no ofrecen la misma pendiente, playa ni vida andando.",
+        "microzonaPrecio": null
     },
     {
         "n": 66,
@@ -233,7 +251,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 14 km · 15 min · Valdecilla (Santander); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Santander 14 km · 15 min (Palma: casi todo el año); Bilbao 105 km · 80 min (Palma: todo el año) Tiempo histórico orientativo: ~15 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Santander: Palma figura entre destinos publicados en 2026; programación concreta puede variar por temporada.",
-        "transporteRelevante2026": "CA-231 / A-67; bus a Santander Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "CA-231 / A-67; bus a Santander Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "DEPENDE VIVIENDA",
+        "playaCotidianaModo": "Las playas y el parque dunar son muy próximos geográficamente, pero muchas viviendas requieren coche o una caminata no urbana.",
+        "paseoCotidiano": "Paseos locales; Costa Quebrada/dunas son salida de naturaleza más que paseo urbano continuo.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "Liencres es una localidad dentro de Piélagos; los datos municipales no describen automáticamente su experiencia concreta.",
+        "microzonaPrecio": null
     },
     {
         "n": 67,
@@ -292,6 +316,12 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 2 km · 5 min · Valdecilla (Santander); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Santander",
         "palmaDirecta2026": "Santander: Palma figura entre destinos publicados en 2026; programación concreta puede variar por temporada.",
-        "transporteRelevante2026": "Bus urbano, ferrocarril y aeropuerto próximo."
+        "transporteRelevante2026": "Bus urbano, ferrocarril y aeropuerto próximo.",
+        "playaCotidiana": "SÍ EN MICROZONAS COSTERAS",
+        "playaCotidianaModo": "El Sardinero y otras playas urbanas están integradas en la ciudad; desde el centro comercial la relación con playa depende de barrio.",
+        "paseoCotidiano": "Bahía/Puerto Chico–Magdalena–Sardinero según vivienda.",
+        "paseoPendienteTopografia": "Ciudad con cuestas: la microzona condiciona mucho la comodidad peatonal.",
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": "Centro, Sardinero y barrios periféricos cambian precio, playa, pendiente y necesidad de coche."
     }
 ]

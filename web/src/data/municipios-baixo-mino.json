@@ -56,7 +56,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 45 km · 45 min · Álvaro Cunqueiro (Vigo); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo 64 km · 50 min (Palma: verano); Porto 99 km · 75 min (Palma: verano); Santiago 142 km · 105 min (Palma: casi todo el año) Tiempo histórico orientativo: ~50 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 105 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "PO-552; bus a Vigo; sin tren; ferry a Caminha Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "PO-552; bus a Vigo; sin tren; ferry a Caminha Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "PARCIAL",
+        "playaCotidianaModo": "Mar y puerto cotidianos; el baño depende de la microzona y no debe resumirse como gran playa urbana.",
+        "paseoCotidiano": "Puerto y frente litoral desde el núcleo.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 2,
@@ -115,7 +121,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 40 km · 40 min · Álvaro Cunqueiro (Vigo); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo 57 km · 45 min (Palma: verano); Porto 113 km · 85 min (Palma: verano); Santiago 129 km · 95 min (Palma: casi todo el año) Tiempo histórico orientativo: ~45 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 95 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "PO-552; bus; sin tren Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "PO-552; bus; sin tren Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "NO GENERALIZABLE",
+        "playaCotidianaModo": "Tener costa no equivale a playa cotidiana desde cualquier vivienda.",
+        "paseoCotidiano": "Paseos costeros según parroquia; no asumir continuidad urbana.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "La experiencia cambia mucho por parroquia y distancia real a servicios.",
+        "microzonaPrecio": null
     },
     {
         "n": 3,
@@ -174,7 +186,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 40 km · 40 min · Álvaro Cunqueiro (Vigo); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo 57 km · 45 min (Palma: verano); Porto 92 km · 70 min (Palma: verano); Santiago 137 km · 100 min (Palma: casi todo el año) Tiempo histórico orientativo: ~45 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 100 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "PO-552 / PO-353; bus; sin tren Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "PO-552 / PO-353; bus; sin tren Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "NO",
+        "playaCotidianaModo": "Paisaje fluvial y rural; la costa/baño requiere desplazamiento.",
+        "paseoCotidiano": "Paseos rurales/fluviales; Folón-Picón es salida más que paseo llano diario.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 4,
@@ -233,7 +251,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 30 km · 35 min · Álvaro Cunqueiro (Vigo); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo 34 km · 30 min (Palma: verano); Porto 85 km · 65 min (Palma: verano); Santiago 127 km · 95 min (Palma: casi todo el año) Tiempo histórico orientativo: ~30 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 95 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "PO-552 / A-55 (Tui); bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "PO-552 / A-55 (Tui); bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "NO MARÍTIMA",
+        "playaCotidianaModo": "Relación cotidiana con el Miño; no es localidad de playa marina.",
+        "paseoCotidiano": "Ribera del Miño en Goián y recorridos locales.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "No tratar Tomiño núcleo, Goián y parroquias como una única experiencia.",
+        "microzonaPrecio": null
     },
     {
         "n": 5,
@@ -292,6 +316,12 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 25 km · 30 min · Álvaro Cunqueiro (Vigo); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo 25 km · 25 min (Palma: verano); Porto 78 km · 60 min (Palma: verano); Santiago 117 km · 90 min (Palma: casi todo el año) Tiempo histórico orientativo: ~25 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 90 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "A-55 / AP-9; tren Vigo–Porto (Linha do Minho) Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "A-55 / AP-9; tren Vigo–Porto (Linha do Minho) Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "NO",
+        "playaCotidianaModo": "Ciudad fluvial, no costera.",
+        "paseoCotidiano": "Casco histórico y Miño; considerar pendientes del casco.",
+        "paseoPendienteTopografia": "Casco histórico con cuestas; radio peatonal depende de cota de vivienda.",
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     }
 ]

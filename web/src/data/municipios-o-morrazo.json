@@ -56,7 +56,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 35 km · 35 min · Montecelo (Pontevedra); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo 50 km · 40 min (Palma: verano); Santiago 93 km · 70 min (Palma: casi todo el año); Porto 138 km · 105 min (Palma: verano) Tiempo histórico orientativo: ~40 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 70 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "Ferry Cangas–Vigo: reduce dependencia del coche para acceder a la ciudad."
+        "transporteRelevante2026": "Ferry Cangas–Vigo: reduce dependencia del coche para acceder a la ciudad.",
+        "playaCotidiana": "SÍ/PARCIAL EN VILLA",
+        "playaCotidianaModo": "Pequeñas playas y ría próximas; grandes playas dependen de microzona/salida.",
+        "paseoCotidiano": "Puerto y frente de ría desde la villa.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "Villa de Cangas ≠ O Hío/Aldán/Costa da Vela.",
+        "microzonaPrecio": null
     },
     {
         "n": 14,
@@ -115,7 +121,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 30 km · 30 min · Montecelo (Pontevedra); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo 42 km · 35 min (Palma: verano); Santiago 89 km · 70 min (Palma: casi todo el año); Porto 140 km · 105 min (Palma: verano) Tiempo histórico orientativo: ~35 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 70 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "Ferry a Vigo."
+        "transporteRelevante2026": "Ferry a Vigo.",
+        "playaCotidiana": "SÍ EN FRANJA COSTERA",
+        "playaCotidianaModo": "Pequeñas playas de ría pueden formar parte del paseo diario.",
+        "paseoCotidiano": "Paseo lineal junto a la ría.",
+        "paseoPendienteTopografia": "El municipio gana pendiente al alejarse de la costa.",
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 15,
@@ -174,7 +186,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 30 km · 30 min · Montecelo (Pontevedra); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo 57 km · 45 min (Palma: verano); Santiago 86 km · 65 min (Palma: casi todo el año); Porto 146 km · 110 min (Palma: verano) Tiempo histórico orientativo: ~45 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 65 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "PO-551 / PO-320; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "PO-551 / PO-320; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ/PARCIAL",
+        "playaCotidianaModo": "Banda do Río y frente portuario integran mar en la vida del núcleo; otras playas son salida.",
+        "paseoCotidiano": "Puerto y frente marítimo del núcleo.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 16,
@@ -233,6 +251,12 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 10 km · 15 min · Montecelo (Pontevedra); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Vigo 50 km · 40 min (Palma: verano); Santiago 74 km · 55 min (Palma: casi todo el año); Porto 155 km · 115 min (Palma: verano) Tiempo histórico orientativo: ~40 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 55 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "PO-551 / VG-4.4; bus frecuente a Pontevedra Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "PO-551 / VG-4.4; bus frecuente a Pontevedra Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "NO DESDE TODO EL CENTRO",
+        "playaCotidianaModo": "Las mejores playas están fuera del centro urbano; son salida corta más que playa a la puerta.",
+        "paseoCotidiano": "Frente portuario/urbano; playas como extensión mediante desplazamiento.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     }
 ]

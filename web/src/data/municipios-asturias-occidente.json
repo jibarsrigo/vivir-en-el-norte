@@ -56,7 +56,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 25 km · 30 min · Jarrio (Coaña); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Asturias 98 km · 75 min (Palma: verano); A Coruña 136 km · 100 min (Palma: verano); Santiago 161 km · 120 min (Palma: casi todo el año) Tiempo histórico orientativo: ~75 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
-        "transporteRelevante2026": "A-8 / N-640; tren FEVE (Vegadeo) Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "A-8 / N-640; tren FEVE (Vegadeo) Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "DEPENDE MICROZONA",
+        "playaCotidianaModo": "Ría cotidiana; el baño de playa depende de microzona/salida, no de una gran playa urbana común.",
+        "paseoCotidiano": "Frente de la ría y puerto según núcleo.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "Castropol villa y Figueras ofrecen experiencias distintas; no trasladar la vida de una a todo el concejo.",
+        "microzonaPrecio": null
     },
     {
         "n": 48,
@@ -115,7 +121,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 16 km · 20 min · Jarrio (Coaña); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Asturias 89 km · 70 min (Palma: verano); A Coruña 146 km · 110 min (Palma: verano) Tiempo histórico orientativo: ~70 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
-        "transporteRelevante2026": "A-8 / N-634; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "A-8 / N-634; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ",
+        "playaCotidianaModo": "Anguileiro y pequeñas calas/playas del entorno se integran bien en la vida de la villa.",
+        "paseoCotidiano": "Puerto, faro, piscina de agua de mar y costa hacia Anguileiro.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 49,
@@ -174,7 +186,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 8 km · 10 min · Jarrio (Coaña); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Asturias 68 km · 55 min (Palma: verano); A Coruña 166 km · 120 min (Palma: verano) Tiempo histórico orientativo: ~55 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
-        "transporteRelevante2026": "A-8 / N-634; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "A-8 / N-634; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "PARCIAL",
+        "playaCotidianaModo": "Ría cotidiana; playa y costa requieren un pequeño desplazamiento según vivienda.",
+        "paseoCotidiano": "Ría y frente urbano.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 50,
@@ -233,6 +251,12 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 20 km · 20 min · Jarrio (Coaña); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Asturias 49 km · 40 min (Palma: verano) Tiempo histórico orientativo: ~40 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
-        "transporteRelevante2026": "A-8 / N-634; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "A-8 / N-634; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ/PARCIAL",
+        "playaCotidianaModo": "Playas junto a la villa, pero el acceso cotidiano depende mucho de la cota de la vivienda.",
+        "paseoCotidiano": "Puerto y zona baja; Atalaya/cementerio como extensión con subida.",
+        "paseoPendienteTopografia": "Pendientes importantes: no equiparar distancia corta con paseo fácil.",
+        "advertenciaMicrozona": "La topografía es estructural: puerto y zona baja, barrios altos y viviendas exteriores no tienen la misma caminabilidad.",
+        "microzonaPrecio": null
     }
 ]

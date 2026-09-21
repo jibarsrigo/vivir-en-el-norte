@@ -56,7 +56,13 @@
         "hospitalReferencia2026": "ULSAM / Hospital de Santa Luzia (Viana do Castelo)",
         "aeropuertoPractico2026": "Porto",
         "palmaDirecta2026": "Porto: Palma observada en la operativa de 2026; rutas y frecuencias cambian por temporada, comprobar antes de viajar.",
-        "transporteRelevante2026": "Linha do Minho; durante obras ADIF 2026–27 puede haber sustituciones/alteraciones en servicios internacionales. Tui/Vigo no equivalen a cobertura sanitaria portuguesa."
+        "transporteRelevante2026": "Linha do Minho; durante obras ADIF 2026–27 puede haber sustituciones/alteraciones en servicios internacionales. Tui/Vigo no equivalen a cobertura sanitaria portuguesa.",
+        "playaCotidiana": "NO",
+        "playaCotidianaModo": "Relación cotidiana con el Miño, no con playa marina.",
+        "paseoCotidiano": "Fortaleza y ribera/ecopista del Miño; terreno relativamente amable en el núcleo.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 74,
@@ -115,7 +121,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 30 km · 35 min · Conde de Bertiandos (Ponte de Lima); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Porto",
         "palmaDirecta2026": "Porto: Palma observada en la operativa de 2026; rutas y frecuencias cambian por temporada, comprobar antes de viajar.",
-        "transporteRelevante2026": "Linha do Minho y ecopista fluvial."
+        "transporteRelevante2026": "Linha do Minho y ecopista fluvial.",
+        "playaCotidiana": "NO MARÍTIMA",
+        "playaCotidianaModo": "Vida fluvial; el Atlántico no está integrado en el núcleo.",
+        "paseoCotidiano": "Ecopista do Rio Minho: recorrido llano junto al río, adecuado para paseo cotidiano y bicicleta.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 75,
@@ -174,7 +186,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 25 km · 30 min · Santa Luzia (Viana do Castelo); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Porto",
         "palmaDirecta2026": "Porto: Palma observada en la operativa de 2026; rutas y frecuencias cambian por temporada, comprobar antes de viajar.",
-        "transporteRelevante2026": "Linha do Minho."
+        "transporteRelevante2026": "Linha do Minho.",
+        "playaCotidiana": "PARCIAL",
+        "playaCotidianaModo": "La villa vive estuario/río; la gran experiencia de playa está en Moledo/Âncora y suele implicar salida.",
+        "paseoCotidiano": "Frente del estuario, casco y ribera.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "Caminha villa, Moledo y Vila Praia de Âncora son experiencias distintas aunque compartan concelho.",
+        "microzonaPrecio": null
     },
     {
         "n": 76,
@@ -233,7 +251,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 20 km · 25 min · Santa Luzia (Viana do Castelo); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Porto",
         "palmaDirecta2026": "Porto: Palma observada en la operativa de 2026; rutas y frecuencias cambian por temporada, comprobar antes de viajar.",
-        "transporteRelevante2026": "Estación de la Linha do Minho."
+        "transporteRelevante2026": "Estación de la Linha do Minho.",
+        "playaCotidiana": "SÍ",
+        "playaCotidianaModo": "Playa atlántica larga y expuesta directamente ligada a la localidad.",
+        "paseoCotidiano": "Frente de playa y costa; exposición a viento/oleaje forma parte de la experiencia.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "Moledo es una microzona costera de Caminha: no trasladar a ella automáticamente servicios/precio de todo el concelho.",
+        "microzonaPrecio": null
     },
     {
         "n": 77,
@@ -292,7 +316,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 16 km · 20 min · Santa Luzia (Viana do Castelo); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Porto",
         "palmaDirecta2026": "Porto: Palma observada en la operativa de 2026; rutas y frecuencias cambian por temporada, comprobar antes de viajar.",
-        "transporteRelevante2026": "Estación de la Linha do Minho."
+        "transporteRelevante2026": "Estación de la Linha do Minho.",
+        "playaCotidiana": "SÍ",
+        "playaCotidianaModo": "Gran playa atlántica y frente marítimo integrados en el núcleo.",
+        "paseoCotidiano": "Marginal, puerto y playa; recorrido llano en la franja litoral.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 78,
@@ -351,7 +381,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 11 km · 15 min · Santa Luzia (Viana do Castelo); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Porto",
         "palmaDirecta2026": "Porto: Palma observada en la operativa de 2026; rutas y frecuencias cambian por temporada, comprobar antes de viajar.",
-        "transporteRelevante2026": "Linha do Minho con apeaderos/estaciones locales según parroquia."
+        "transporteRelevante2026": "Linha do Minho con apeaderos/estaciones locales según parroquia.",
+        "playaCotidiana": "DEPENDE VIVIENDA",
+        "playaCotidianaModo": "Costa y playas muy próximas en algunas viviendas, pero la dispersión puede exigir coche incluso viviendo 'junto al mar'.",
+        "paseoCotidiano": "Caminos y costa según ubicación; no asumir una marginal urbana continua.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "Afife y Carreço son parroquias costeras dispersas; no son un único núcleo urbano ni equivalen a Viana ciudad.",
+        "microzonaPrecio": null
     },
     {
         "n": 79,
@@ -410,7 +446,13 @@
         "hospitalReferencia2026": "Hospital de Santa Luzia / ULSAM",
         "aeropuertoPractico2026": "Porto",
         "palmaDirecta2026": "Porto: Palma observada en la operativa de 2026; rutas y frecuencias cambian por temporada, comprobar antes de viajar.",
-        "transporteRelevante2026": "Linha do Minho y bus urbano/interurbano."
+        "transporteRelevante2026": "Linha do Minho y bus urbano/interurbano.",
+        "playaCotidiana": "DEPENDE MICROZONA",
+        "playaCotidianaModo": "La ciudad vive río/estuario; Cabedelo aporta playa atlántica próxima pero separada del centro por el Lima.",
+        "paseoCotidiano": "Marginal del Lima, centro y ecovia; Cabedelo como extensión según vivienda/modo.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": "Centro histórico, Cabedelo y parroquias costeras no comparten la misma relación con playa, servicios ni precio."
     },
     {
         "n": 80,
@@ -469,6 +511,12 @@
         "hospitalReferencia2026": "ULSAM / Santa Luzia",
         "aeropuertoPractico2026": "Porto",
         "palmaDirecta2026": "Porto: Palma observada en la operativa de 2026; rutas y frecuencias cambian por temporada, comprobar antes de viajar.",
-        "transporteRelevante2026": "A-27 / A-3; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "A-27 / A-3; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "NO",
+        "playaCotidianaModo": "Vida fluvial en el Lima; no es localidad de playa marina.",
+        "paseoCotidiano": "Ecovia/ribera del Lima y puente histórico; paseo llano y extensible.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": "Centro de la villa puede cotizar por encima del promedio municipal; no mezclar sin explicación."
     }
 ]

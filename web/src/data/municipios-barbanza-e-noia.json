@@ -56,7 +56,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 30 km · 30 min · Hospital do Barbanza (Ribeira); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Santiago 52 km · 40 min (Palma: casi todo el año); Vigo 60 km · 50 min (Palma: verano); A Coruña 98 km · 75 min (Palma: verano) Tiempo histórico orientativo: ~40 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Casi todo el año / Santiago (casi todo el año) · 40 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "AG-11 / AP-9; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "AG-11 / AP-9; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ/PARCIAL",
+        "playaCotidianaModo": "Praia da Torre se alcanza prolongando el paseo desde A Ribeira.",
+        "paseoCotidiano": "Paseo da Ribeira hacia Praia da Torre; la circular oficial ~12 km es una salida más larga.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 27,
@@ -115,7 +121,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 15 km · 20 min · Hospital do Barbanza (Ribeira); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Santiago 58 km · 45 min (Palma: casi todo el año); Vigo 62 km · 50 min (Palma: verano); A Coruña 102 km · 75 min (Palma: verano) Tiempo histórico orientativo: ~45 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Casi todo el año / Santiago (casi todo el año) · 45 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "AG-11; bus a Santiago Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "AG-11; bus a Santiago Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ",
+        "playaCotidianaModo": "Barraña, ~2,15–2,5 km, aguas protegidas y paseo, funciona como playa y paseo urbano cotidiano.",
+        "paseoCotidiano": "Paseo de Barraña con carril y equipamientos.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 28,
@@ -174,7 +186,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 7 km · 10 min · Hospital do Barbanza (Ribeira); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Santiago 65 km · 50 min (Palma: casi todo el año); Vigo 106 km · 80 min (Palma: verano); A Coruña 110 km · 80 min (Palma: verano) Tiempo histórico orientativo: ~50 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Casi todo el año / Santiago (casi todo el año) · 50 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "AG-11 / AC-305; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "AG-11 / AC-305; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ/PARCIAL",
+        "playaCotidianaModo": "Os Areos y frente de ría quedan integrados en el núcleo.",
+        "paseoCotidiano": "Frente marítimo y puerto desde el centro.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 29,
@@ -233,7 +251,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 2 km · 5 min · Hospital do Barbanza (Ribeira); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Santiago 64 km · 50 min (Palma: casi todo el año); Vigo 113 km · 85 min (Palma: verano); A Coruña 118 km · 90 min (Palma: verano) Tiempo histórico orientativo: ~50 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Casi todo el año / Santiago (casi todo el año) · 50 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "Bus comarcal hacia Noia/Porto do Son y hospital."
+        "transporteRelevante2026": "Bus comarcal hacia Noia/Porto do Son y hospital.",
+        "playaCotidiana": "SÍ",
+        "playaCotidianaModo": "Coroso es la playa cotidiana del núcleo; Corrubedo es una salida de naturaleza, no la playa diaria de la ciudad.",
+        "paseoCotidiano": "Senda litoral Malecón/lonja/puerto deportivo–Coroso–As Saíñas–Río Azor, ~3,7 km completa.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 30,
@@ -292,7 +316,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 25 km · 25 min · Hospital do Barbanza (Ribeira); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Santiago 64 km · 50 min (Palma: casi todo el año); Vigo 77 km · 60 min (Palma: verano); A Coruña 100 km · 75 min (Palma: verano) Tiempo histórico orientativo: ~50 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Casi todo el año / Santiago (casi todo el año) · 50 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "AC-550; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "AC-550; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ SEGÚN NÚCLEO",
+        "playaCotidianaModo": "Municipio directamente atlántico; en núcleos costeros el mar es inmediato, pero no toda vivienda tiene servicios andando.",
+        "paseoCotidiano": "Puerto/frente litoral en los núcleos; costa exterior como extensión.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "Porto do Son y Portosín tienen vida propia; viviendas aisladas junto a playas pueden cambiar totalmente la dependencia del coche.",
+        "microzonaPrecio": null
     },
     {
         "n": 31,
@@ -351,6 +381,12 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 36 km · 40 min · CHUS (Santiago); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Santiago 49 km · 40 min (Palma: casi todo el año); Vigo 79 km · 60 min (Palma: verano); A Coruña 87 km · 65 min (Palma: verano) Tiempo histórico orientativo: ~40 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Casi todo el año / Santiago (casi todo el año) · 40 min La programación aérea es variable; comprobar temporada y horario vigente.",
-        "transporteRelevante2026": "Corredor de bus Noia–Portosín–Porto do Son–Hospital do Barbanza–Ribeira."
+        "transporteRelevante2026": "Corredor de bus Noia–Portosín–Porto do Son–Hospital do Barbanza–Ribeira.",
+        "playaCotidiana": "NO CLÁSICA",
+        "playaCotidianaModo": "La villa está en la ría; para playa de baño habitual se sale hacia la costa.",
+        "paseoCotidiano": "Casco y frente de ría.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     }
 ]

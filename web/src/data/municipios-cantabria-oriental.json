@@ -56,7 +56,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 14 km · 15 min · Valdecilla (Santander); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Santander 13 km · 15 min (Palma: casi todo el año); Bilbao 92 km · 70 min (Palma: todo el año) Tiempo histórico orientativo: ~15 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Santander: Palma figura entre destinos publicados en 2026; programación concreta puede variar por temporada.",
-        "transporteRelevante2026": "Barco Somo–Santander, útil para ocio y acceso urbano; no elimina todas las necesidades de coche."
+        "transporteRelevante2026": "Barco Somo–Santander, útil para ocio y acceso urbano; no elimina todas las necesidades de coche.",
+        "playaCotidiana": "SÍ EN SOMO/LOREDO",
+        "playaCotidianaModo": "Gran sistema de playa, dunas y pinar entre Somo y Loredo; Langre es una salida distinta y más abrupta.",
+        "paseoCotidiano": "Playa/dunas/pinar Somo–Loredo; recorridos largos y llanos sobre arena/paseo según tramo.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "Somo/Loredo concentran la experiencia de playa; Galizano y otras localidades ofrecen otra vida.",
+        "microzonaPrecio": null
     },
     {
         "n": 69,
@@ -115,7 +121,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 16 km · 20 min · Hospital de Laredo; verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Santander 30 km · 25 min (Palma: casi todo el año); Bilbao 78 km · 60 min (Palma: todo el año) Tiempo histórico orientativo: ~25 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Santander: Palma figura entre destinos publicados en 2026; programación concreta puede variar por temporada.",
-        "transporteRelevante2026": "CA-147 / A-8; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "CA-147 / A-8; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ",
+        "playaCotidianaModo": "Ris y Trengandín ofrecen dos grandes playas directamente vinculadas al núcleo.",
+        "paseoCotidiano": "Ris/Trengandín y recorridos hacia marismas; terreno generalmente amable en el núcleo.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 70,
@@ -174,7 +186,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 6 km · 10 min · Hospital de Laredo; verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Santander 36 km · 30 min (Palma: casi todo el año); Bilbao 78 km · 60 min (Palma: todo el año) Tiempo histórico orientativo: ~30 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Santander: Palma figura entre destinos publicados en 2026; programación concreta puede variar por temporada.",
-        "transporteRelevante2026": "CA-141 / A-8; bus; sin tren Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "CA-141 / A-8; bus; sin tren Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ/PARCIAL",
+        "playaCotidianaModo": "San Martín está integrada en la villa; Berria es la gran playa exterior y requiere salida.",
+        "paseoCotidiano": "Frente de bahía/puerto; Buciero es una salida con desnivel, no paseo llano diario.",
+        "paseoPendienteTopografia": "Monte Buciero implica rutas con desnivel; separarlo del paseo urbano.",
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 71,
@@ -233,7 +251,13 @@
         "hospitalReferencia2026": "Hospital Universitario Marqués de Valdecilla (Santander) para mayor complejidad cuando corresponda.",
         "aeropuertoPractico2026": "Santander 40 km · 35 min (Palma: casi todo el año); Bilbao 64 km · 50 min (Palma: todo el año) Tiempo histórico orientativo: ~35 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Santander: Palma figura entre destinos publicados en 2026; programación concreta puede variar por temporada.",
-        "transporteRelevante2026": "A-8 / N-634; bus ALSA Santander–Bilbao Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "A-8 / N-634; bus ALSA Santander–Bilbao Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ",
+        "playaCotidianaModo": "La Salvé es una playa urbana de varios kilómetros integrada en la vida de la villa.",
+        "paseoCotidiano": "Paseo de La Salvé y frente marítimo, largo y prácticamente llano.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 72,
@@ -292,6 +316,12 @@
         "hospitalReferencia2026": "Valdecilla (Santander) como gran referencia cántabra; Cruces/Barakaldo puede ser geográficamente próximo, pero no confundir proximidad con adscripción sanitaria.",
         "aeropuertoPractico2026": "Bilbao 42 km · 35 min (Palma: todo el año); Santander 64 km · 50 min (Palma: casi todo el año) Tiempo histórico orientativo: ~35 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Bilbao es el aeropuerto práctico principal; conexión con Palma estructuralmente más útil que Santander desde Castro. Comprobar programación vigente.",
-        "transporteRelevante2026": "Bus interurbano relevante hacia Bilbao y Cantabria; sin ferrocarril."
+        "transporteRelevante2026": "Bus interurbano relevante hacia Bilbao y Cantabria; sin ferrocarril.",
+        "playaCotidiana": "SÍ/PARCIAL",
+        "playaCotidianaModo": "Brazomar y pequeñas playas/calas se integran en el frente urbano según barrio.",
+        "paseoCotidiano": "Puerto, casco, Brazomar y frente marítimo.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     }
 ]

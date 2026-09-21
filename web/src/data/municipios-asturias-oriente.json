@@ -56,7 +56,13 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 20 km · 25 min · Cabueñes (Gijón); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Asturias 60 km · 45 min (Palma: verano); Santander 159 km · 115 min (Palma: casi todo el año) Tiempo histórico orientativo: ~45 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
-        "transporteRelevante2026": "A-8 / AS-256 / AS-113; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "A-8 / AS-256 / AS-113; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "NO DESDE VILLA",
+        "playaCotidianaModo": "Rodiles es una salida de playa, no una playa urbana de Villaviciosa.",
+        "paseoCotidiano": "Villa y entorno de ría; playa mediante desplazamiento.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "La villa interior y Rodiles/costa son experiencias distintas.",
+        "microzonaPrecio": null
     },
     {
         "n": 59,
@@ -115,7 +121,13 @@
         "hospitalReferencia2026": "Área sanitaria oriental: Cabueñes (Gijón) como referencia superior cuando corresponda; no saltar Arriondas en la explicación cotidiana.",
         "aeropuertoPractico2026": "Asturias 76 km · 60 min (Palma: verano); Santander 143 km · 105 min (Palma: casi todo el año) Tiempo histórico orientativo: ~60 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
-        "transporteRelevante2026": "A-8 / N-632; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "A-8 / N-632; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "DEPENDE MICROZONA",
+        "playaCotidianaModo": "La Griega queda próxima a Colunga/Lastres pero normalmente es salida; Lastres vive el puerto más que una playa urbana.",
+        "paseoCotidiano": "Villa o puerto de Lastres; costa/MUJA como salida.",
+        "paseoPendienteTopografia": "Lastres tiene pendientes fuertes.",
+        "advertenciaMicrozona": "Colunga villa y Lastres son dos experiencias distintas: servicios/interior frente a puerto, pendiente y turismo.",
+        "microzonaPrecio": null
     },
     {
         "n": 60,
@@ -174,7 +186,13 @@
         "hospitalReferencia2026": "Área sanitaria oriental: Cabueñes (Gijón) como referencia superior cuando corresponda; no saltar Arriondas en la explicación cotidiana.",
         "aeropuertoPractico2026": "Asturias 97 km · 75 min (Palma: verano); Santander 122 km · 90 min (Palma: casi todo el año) Tiempo histórico orientativo: ~75 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
-        "transporteRelevante2026": "A-8 / N-632; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "A-8 / N-632; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ",
+        "playaCotidianaModo": "Santa Marina forma una gran playa urbana al otro lado del puente, integrada en el paseo de la villa.",
+        "paseoCotidiano": "Ría, puente y paseo de Santa Marina.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": null,
+        "microzonaPrecio": null
     },
     {
         "n": 61,
@@ -233,7 +251,13 @@
         "hospitalReferencia2026": "Área sanitaria oriental: Cabueñes (Gijón) como referencia superior cuando corresponda; no saltar Arriondas en la explicación cotidiana.",
         "aeropuertoPractico2026": "Santander 92 km · 70 min (Palma: casi todo el año); Asturias 127 km · 95 min (Palma: verano) Tiempo histórico orientativo: ~70 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
-        "transporteRelevante2026": "A-8 / N-634; tren FEVE Santander–Oviedo Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "A-8 / N-634; tren FEVE Santander–Oviedo Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "SÍ EN VILLA/MICROZONAS",
+        "playaCotidianaModo": "El Sablón queda pegado al casco; otras microzonas pueden tener playa muy próxima pero menos servicios.",
+        "paseoCotidiano": "Paseo de San Pedro y ruta urbana/costera; itinerario oficial fácil ~7,6 km.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "Llanes villa, Celorio/Poo/Parres, Posada/Barro y Pría tienen precios, servicios y coche muy distintos.",
+        "microzonaPrecio": "Villa ~3239 €/m²; Celorio-Poo-Parres ~2294; Posada-Barro ~2247; Pría ~2100, referencias orientativas de auditoría."
     },
     {
         "n": 62,
@@ -292,6 +316,12 @@
         "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 45 km · 45 min · Sierrallana (Torrelavega); verificar circuito de derivación antes de publicar un centro terciario distinto.",
         "aeropuertoPractico2026": "Santander 70 km · 55 min (Palma: casi todo el año); Asturias 150 km · 110 min (Palma: verano); Bilbao 160 km · 120 min (Palma: todo el año) Tiempo histórico orientativo: ~55 min. Usar como orientación de acceso, no como tiempo garantizado.",
         "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
-        "transporteRelevante2026": "A-8 / N-634; tren FEVE (Colombres) Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
+        "transporteRelevante2026": "A-8 / N-634; tren FEVE (Colombres) Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+        "playaCotidiana": "NO DESDE COLOMBRES",
+        "playaCotidianaModo": "La Franca es playa de salida desde el núcleo interior.",
+        "paseoCotidiano": "Colombres y entorno indiano; costa mediante desplazamiento.",
+        "paseoPendienteTopografia": null,
+        "advertenciaMicrozona": "Colombres concentra servicios/cultura; La Franca y costa son salida o microzona residencial distinta.",
+        "microzonaPrecio": null
     }
 ]

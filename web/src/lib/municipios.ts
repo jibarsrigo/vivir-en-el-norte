@@ -50,6 +50,14 @@ export type FichaMunicipio = {
   autonomiaCotidiana?: string;
   estacionalidad2026?: string;
   peajeRealidad?: string;
+  /** Capa logística 2026 (textos v15 íntegros; no sustituyen hospitalMin/aeropuertoMin). */
+  sanidadPrimaria2026?: string;
+  urgenciasPAC2026?: string;
+  hospitalPractico2026?: string;
+  hospitalReferencia2026?: string;
+  aeropuertoPractico2026?: string;
+  palmaDirecta2026?: string;
+  transporteRelevante2026?: string;
   fibra: string;
   comunicaciones: string;
   comunicacionesNota10: number;

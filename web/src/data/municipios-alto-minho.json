@@ -49,7 +49,14 @@
         "dependenciaCocheTexto": "Baja-media en núcleo; coche/tren para costa, hospital y servicios superiores.",
         "autonomiaCotidiana": "MEDIA-FUERTE",
         "estacionalidad2026": "Ciudad fronteriza con vida anual.",
-        "peajeRealidad": "Muy práctica para relación transfronteriza, pero sin mar y con hospital de mayor capacidad en Viana."
+        "peajeRealidad": "Muy práctica para relación transfronteriza, pero sin mar y con hospital de mayor capacidad en Viana.",
+        "sanidadPrimaria2026": "Cuidados de saúde primários locales",
+        "urgenciasPAC2026": "Urgência básica en Monção como recurso regional; confirmar circuito SNS vigente",
+        "hospitalPractico2026": "Hospital de Santa Luzia, Viana do Castelo, para atención médico-quirúrgica de mayor nivel",
+        "hospitalReferencia2026": "ULSAM / Hospital de Santa Luzia (Viana do Castelo)",
+        "aeropuertoPractico2026": "Porto",
+        "palmaDirecta2026": "Porto: Palma observada en la operativa de 2026; rutas y frecuencias cambian por temporada, comprobar antes de viajar.",
+        "transporteRelevante2026": "Linha do Minho; durante obras ADIF 2026–27 puede haber sustituciones/alteraciones en servicios internacionales. Tui/Vigo no equivalen a cobertura sanitaria portuguesa."
     },
     {
         "n": 74,
@@ -101,7 +108,14 @@
         "dependenciaCocheTexto": "Media; rutina básica local, coche/tren para servicios mayores y costa.",
         "autonomiaCotidiana": "MEDIA",
         "estacionalidad2026": "Vida local anual con turismo cultural/fluvial moderado.",
-        "peajeRealidad": "Miño y paseo excelente a cambio de escala pequeña y ausencia de playa marina cotidiana."
+        "peajeRealidad": "Miño y paseo excelente a cambio de escala pequeña y ausencia de playa marina cotidiana.",
+        "sanidadPrimaria2026": "Cuidados de saúde primários locales",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital de Santa Luzia, Viana do Castelo.",
+        "hospitalPractico2026": "Hospital de Santa Luzia, Viana do Castelo",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 30 km · 35 min · Conde de Bertiandos (Ponte de Lima); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Porto",
+        "palmaDirecta2026": "Porto: Palma observada en la operativa de 2026; rutas y frecuencias cambian por temporada, comprobar antes de viajar.",
+        "transporteRelevante2026": "Linha do Minho y ecopista fluvial."
     },
     {
         "n": 75,
@@ -153,7 +167,14 @@
         "dependenciaCocheTexto": "Baja-media en villa; coche/tren para playa y hospital.",
         "autonomiaCotidiana": "MEDIA-FUERTE",
         "estacionalidad2026": "Vida anual con aumento turístico fuerte en verano.",
-        "peajeRealidad": "Villa histórica y estuario muy agradables; playa oceánica y hospital no están en el mismo radio cotidiano."
+        "peajeRealidad": "Villa histórica y estuario muy agradables; playa oceánica y hospital no están en el mismo radio cotidiano.",
+        "sanidadPrimaria2026": "Cuidados de saúde primários locales",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital de Santa Luzia, Viana do Castelo.",
+        "hospitalPractico2026": "Hospital de Santa Luzia, Viana do Castelo",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 25 km · 30 min · Santa Luzia (Viana do Castelo); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Porto",
+        "palmaDirecta2026": "Porto: Palma observada en la operativa de 2026; rutas y frecuencias cambian por temporada, comprobar antes de viajar.",
+        "transporteRelevante2026": "Linha do Minho."
     },
     {
         "n": 76,
@@ -205,7 +226,14 @@
         "dependenciaCocheTexto": "Media-alta fuera de la rutina mínima; tren ayuda pero no sustituye todos los desplazamientos.",
         "autonomiaCotidiana": "BAJA-MEDIA",
         "estacionalidad2026": "Marcadamente residencial/turística, con mayor reducción de actividad fuera de verano.",
-        "peajeRealidad": "Playa atlántica a la puerta a cambio de menor autonomía, exposición oceánica y estacionalidad."
+        "peajeRealidad": "Playa atlántica a la puerta a cambio de menor autonomía, exposición oceánica y estacionalidad.",
+        "sanidadPrimaria2026": "Atención primaria mediante red del concelho",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital de Santa Luzia, Viana do Castelo.",
+        "hospitalPractico2026": "Hospital de Santa Luzia, Viana do Castelo",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 20 km · 25 min · Santa Luzia (Viana do Castelo); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Porto",
+        "palmaDirecta2026": "Porto: Palma observada en la operativa de 2026; rutas y frecuencias cambian por temporada, comprobar antes de viajar.",
+        "transporteRelevante2026": "Estación de la Linha do Minho."
     },
     {
         "n": 77,
@@ -257,7 +285,14 @@
         "dependenciaCocheTexto": "Media; tren ayuda para Caminha/Viana, coche para necesidades dispersas.",
         "autonomiaCotidiana": "MEDIA-FUERTE",
         "estacionalidad2026": "Vida local anual con fuerte capa estival.",
-        "peajeRealidad": "Buen equilibrio entre playa y núcleo, pero mercado pequeño/estacional y hospital en Viana."
+        "peajeRealidad": "Buen equilibrio entre playa y núcleo, pero mercado pequeño/estacional y hospital en Viana.",
+        "sanidadPrimaria2026": "Atención primaria en la red local/concelhia",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital de Santa Luzia, Viana do Castelo.",
+        "hospitalPractico2026": "Hospital de Santa Luzia, Viana do Castelo",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 16 km · 20 min · Santa Luzia (Viana do Castelo); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Porto",
+        "palmaDirecta2026": "Porto: Palma observada en la operativa de 2026; rutas y frecuencias cambian por temporada, comprobar antes de viajar.",
+        "transporteRelevante2026": "Estación de la Linha do Minho."
     },
     {
         "n": 78,
@@ -309,7 +344,14 @@
         "dependenciaCocheTexto": "Alta para vida cotidiana completa.",
         "autonomiaCotidiana": "BAJA-MEDIA",
         "estacionalidad2026": "Residencial anual con fuerte componente vacacional costero.",
-        "peajeRealidad": "Atlántico y espacio a cambio de dispersión y coche."
+        "peajeRealidad": "Atlántico y espacio a cambio de dispersión y coche.",
+        "sanidadPrimaria2026": "Atención primaria mediante red de Viana/concelho",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital de Santa Luzia, Viana do Castelo.",
+        "hospitalPractico2026": "Hospital de Santa Luzia, Viana do Castelo",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 11 km · 15 min · Santa Luzia (Viana do Castelo); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Porto",
+        "palmaDirecta2026": "Porto: Palma observada en la operativa de 2026; rutas y frecuencias cambian por temporada, comprobar antes de viajar.",
+        "transporteRelevante2026": "Linha do Minho con apeaderos/estaciones locales según parroquia."
     },
     {
         "n": 79,
@@ -361,7 +403,14 @@
         "dependenciaCocheTexto": "Baja en centro bien situado; mayor para playas/parroquias exteriores.",
         "autonomiaCotidiana": "MUY ALTA",
         "estacionalidad2026": "Ciudad plenamente anual.",
-        "peajeRealidad": "Autonomía, hospital y cultura propios; la playa atlántica cotidiana depende de microzona."
+        "peajeRealidad": "Autonomía, hospital y cultura propios; la playa atlántica cotidiana depende de microzona.",
+        "sanidadPrimaria2026": "Red urbana de cuidados primários",
+        "urgenciasPAC2026": "Urgência médico-cirúrgica hospitalaria",
+        "hospitalPractico2026": "Hospital de Santa Luzia, en Viana do Castelo",
+        "hospitalReferencia2026": "Hospital de Santa Luzia / ULSAM",
+        "aeropuertoPractico2026": "Porto",
+        "palmaDirecta2026": "Porto: Palma observada en la operativa de 2026; rutas y frecuencias cambian por temporada, comprobar antes de viajar.",
+        "transporteRelevante2026": "Linha do Minho y bus urbano/interurbano."
     },
     {
         "n": 80,
@@ -413,6 +462,13 @@
         "dependenciaCocheTexto": "Baja-media en centro; coche para costa y servicios superiores.",
         "autonomiaCotidiana": "FUERTE",
         "estacionalidad2026": "Villa anual con turismo cultural, ferias y romerías como capa adicional.",
-        "peajeRealidad": "Paseo fluvial y vida de villa excelentes, pero sin mar y con hospital de alta complejidad en Viana."
+        "peajeRealidad": "Paseo fluvial y vida de villa excelentes, pero sin mar y con hospital de alta complejidad en Viana.",
+        "sanidadPrimaria2026": "Cuidados de saúde primários locales",
+        "urgenciasPAC2026": "Hospital Conde de Bertiandos dispone de urgência básica según red regional",
+        "hospitalPractico2026": "Hospital Conde de Bertiandos para atención básica; Santa Luzia (Viana) para mayor complejidad",
+        "hospitalReferencia2026": "ULSAM / Santa Luzia",
+        "aeropuertoPractico2026": "Porto",
+        "palmaDirecta2026": "Porto: Palma observada en la operativa de 2026; rutas y frecuencias cambian por temporada, comprobar antes de viajar.",
+        "transporteRelevante2026": "A-27 / A-3; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     }
 ]

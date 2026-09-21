@@ -49,7 +49,14 @@
         "dependenciaCocheTexto": "Alta fuera de Dena; coche habitual para playa y servicios mayores.",
         "autonomiaCotidiana": "MEDIA-BAJA",
         "estacionalidad2026": "Vida rural/residencial anual.",
-        "peajeRealidad": "Acceso rápido a Salnés costero con menor precio, pero sin experiencia de mar a pie."
+        "peajeRealidad": "Acceso rápido a Salnés costero con menor precio, pero sin experiencia de mar a pie.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital do Salnés.",
+        "hospitalPractico2026": "Hospital do Salnés",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 18 km · 20 min · Hospital do Salnés (Vilagarcía); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Vigo 33 km · 30 min (Palma: verano); Santiago 71 km · 55 min (Palma: casi todo el año); Porto 163 km · 120 min (Palma: verano) Tiempo histórico orientativo: ~30 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 55 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "PO-550 / PO-308; bus escaso Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 22,
@@ -101,7 +108,14 @@
         "dependenciaCocheTexto": "Baja-media en núcleo; coche para playa y salidas.",
         "autonomiaCotidiana": "FUERTE",
         "estacionalidad2026": "Vida anual con turismo y vino como capa adicional.",
-        "peajeRealidad": "Mucho carácter urbano/marítimo, pero el baño de playa no es la experiencia central."
+        "peajeRealidad": "Mucho carácter urbano/marítimo, pero el baño de playa no es la experiencia central.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital do Salnés.",
+        "hospitalPractico2026": "Hospital do Salnés",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 11 km · 15 min · Hospital do Salnés (Vilagarcía); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Vigo 42 km · 35 min (Palma: verano); Santiago 66 km · 50 min (Palma: casi todo el año) Tiempo histórico orientativo: ~35 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 50 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "VG-4.1 / PO-550; bus; sin tren Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 23,
@@ -153,7 +167,14 @@
         "dependenciaCocheTexto": "Baja-media dentro de la isla; coche para necesidades externas.",
         "autonomiaCotidiana": "MEDIA-FUERTE",
         "estacionalidad2026": "Vida propia anual con aumento fuerte en verano.",
-        "peajeRealidad": "Mar muy presente a cambio de dependencia del puente para necesidades superiores."
+        "peajeRealidad": "Mar muy presente a cambio de dependencia del puente para necesidades superiores.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital do Salnés.",
+        "hospitalPractico2026": "Hospital do Salnés",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 20 km · 20 min · Hospital do Salnés (Vilagarcía); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Vigo 50 km · 40 min (Palma: verano); Santiago 65 km · 50 min (Palma: casi todo el año) Tiempo histórico orientativo: ~40 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 50 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "PO-307 (puente); bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 24,
@@ -205,7 +226,14 @@
         "dependenciaCocheTexto": "Baja-media en núcleo; mayor en parroquias exteriores.",
         "autonomiaCotidiana": "MEDIA-FUERTE",
         "estacionalidad2026": "Vida anual con verano más activo.",
-        "peajeRealidad": "Escala cómoda y mar cercano, pero menor oferta que Vilagarcía."
+        "peajeRealidad": "Escala cómoda y mar cercano, pero menor oferta que Vilagarcía.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital do Salnés.",
+        "hospitalPractico2026": "Hospital do Salnés",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 15 km · 15 min · Hospital do Salnés (Vilagarcía); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Vigo 50 km · 40 min (Palma: verano); Santiago 61 km · 50 min (Palma: casi todo el año) Tiempo histórico orientativo: ~40 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 50 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "VG-4.1 / PO-549; bus; sin tren Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 25,
@@ -257,6 +285,13 @@
         "dependenciaCocheTexto": "Baja en zona urbana; coche para salidas.",
         "autonomiaCotidiana": "MUY ALTA",
         "estacionalidad2026": "Ciudad anual; biblioteca y deporte mantienen uso estable fuera del verano.",
-        "peajeRealidad": "Menos imagen de resort, a cambio de mucha más autonomía cotidiana."
+        "peajeRealidad": "Menos imagen de resort, a cambio de mucha más autonomía cotidiana.",
+        "sanidadPrimaria2026": "Red local completa",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital do Salnés, en el municipio.",
+        "hospitalPractico2026": "Hospital do Salnés, en el municipio",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 4 km · 5 min · Hospital do Salnés (Vilagarcía); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Vigo 51 km · 40 min (Palma: verano); Santiago 54 km · 45 min (Palma: casi todo el año) Tiempo histórico orientativo: ~40 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 45 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "Ferrocarril interurbano."
     }
 ]

@@ -49,7 +49,14 @@
         "dependenciaCocheTexto": "Baja-media para rutina de villa; coche para hospital y buena parte de la costa.",
         "autonomiaCotidiana": "MEDIA-FUERTE",
         "estacionalidad2026": "Vida local anual con fuerte aumento turístico en verano.",
-        "peajeRealidad": "Ría, costa y paisaje muy presentes, a cambio de presión estival y hospital fuera."
+        "peajeRealidad": "Ría, costa y paisaje muy presentes, a cambio de presión estival y hospital fuera.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital Sierrallana (Torrelavega) como referencia hospitalaria práctica.",
+        "hospitalPractico2026": "Hospital Sierrallana (Torrelavega) como referencia hospitalaria práctica",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 36 km · 40 min · Sierrallana (Torrelavega); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Santander 57 km · 45 min (Palma: casi todo el año); Bilbao 147 km · 110 min (Palma: todo el año); Asturias 163 km · 120 min (Palma: verano) Tiempo histórico orientativo: ~45 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Santander: Palma figura entre destinos publicados en 2026; programación concreta puede variar por temporada.",
+        "transporteRelevante2026": "A-8 / N-634; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 64,
@@ -101,7 +108,14 @@
         "dependenciaCocheTexto": "Baja-media en villa; coche para hospital y compras/servicios superiores.",
         "autonomiaCotidiana": "MEDIA",
         "estacionalidad2026": "Estacionalidad turística marcada, aunque conserva vida y patrimonio todo el año.",
-        "peajeRealidad": "Playa y casco muy integrados, pero precio alto, turismo y menor profundidad de servicios."
+        "peajeRealidad": "Playa y casco muy integrados, pero precio alto, turismo y menor profundidad de servicios.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital Sierrallana (Torrelavega).",
+        "hospitalPractico2026": "Hospital Sierrallana (Torrelavega)",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 25 km · 30 min · Sierrallana (Torrelavega); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Santander 47 km · 40 min (Palma: casi todo el año); Bilbao 137 km · 100 min (Palma: todo el año) Tiempo histórico orientativo: ~40 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Santander: Palma figura entre destinos publicados en 2026; programación concreta puede variar por temporada.",
+        "transporteRelevante2026": "CA-131; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 65,
@@ -153,7 +167,14 @@
         "dependenciaCocheTexto": "Media y muy dependiente de microzona/topografía.",
         "autonomiaCotidiana": "MEDIA-FUERTE SEGÚN MICROZONA",
         "estacionalidad2026": "Presión turística fuerte en verano; actividad más reducida en invierno.",
-        "peajeRealidad": "Playas excelentes a cambio de pendientes, tráfico estival y una vida cotidiana partida entre cotas."
+        "peajeRealidad": "Playas excelentes a cambio de pendientes, tráfico estival y una vida cotidiana partida entre cotas.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital Sierrallana (Torrelavega).",
+        "hospitalPractico2026": "Hospital Sierrallana (Torrelavega)",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 11 km · 15 min · Sierrallana (Torrelavega); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Santander 22 km · 20 min (Palma: casi todo el año); Bilbao 113 km · 85 min (Palma: todo el año) Tiempo histórico orientativo: ~20 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Santander: Palma figura entre destinos publicados en 2026; programación concreta puede variar por temporada.",
+        "transporteRelevante2026": "CA-132 / A-67; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 66,
@@ -205,7 +226,14 @@
         "dependenciaCocheTexto": "Media-alta: costa, servicios y vivienda no siempre coinciden.",
         "autonomiaCotidiana": "MEDIA-BAJA",
         "estacionalidad2026": "Residencial anual con fuerte uso estival de costa.",
-        "peajeRealidad": "Costa espectacular y proximidad a Santander, pero coche frecuente y menor autonomía local."
+        "peajeRealidad": "Costa espectacular y proximidad a Santander, pero coche frecuente y menor autonomía local.",
+        "sanidadPrimaria2026": "Atención primaria en el municipio",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital Universitario Marqués de Valdecilla (Santander).",
+        "hospitalPractico2026": "Hospital Universitario Marqués de Valdecilla (Santander)",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 14 km · 15 min · Valdecilla (Santander); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Santander 14 km · 15 min (Palma: casi todo el año); Bilbao 105 km · 80 min (Palma: todo el año) Tiempo histórico orientativo: ~15 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Santander: Palma figura entre destinos publicados en 2026; programación concreta puede variar por temporada.",
+        "transporteRelevante2026": "CA-231 / A-67; bus a Santander Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 67,
@@ -257,6 +285,13 @@
         "dependenciaCocheTexto": "Baja en barrios centrales bien elegidos; mayor en periferia.",
         "autonomiaCotidiana": "MUY ALTA",
         "estacionalidad2026": "Ciudad plenamente anual.",
-        "peajeRealidad": "Máxima autonomía regional y mar urbano a cambio de precio, tráfico, cuestas y diferencias fuertes entre barrios."
+        "peajeRealidad": "Máxima autonomía regional y mar urbano a cambio de precio, tráfico, cuestas y diferencias fuertes entre barrios.",
+        "sanidadPrimaria2026": "Red urbana completa",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital Universitario Marqués de Valdecilla.",
+        "hospitalPractico2026": "Hospital Universitario Marqués de Valdecilla",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 2 km · 5 min · Valdecilla (Santander); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Santander",
+        "palmaDirecta2026": "Santander: Palma figura entre destinos publicados en 2026; programación concreta puede variar por temporada.",
+        "transporteRelevante2026": "Bus urbano, ferrocarril y aeropuerto próximo."
     }
 ]

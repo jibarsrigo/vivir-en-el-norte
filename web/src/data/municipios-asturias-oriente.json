@@ -49,7 +49,14 @@
         "dependenciaCocheTexto": "Baja-media en villa; coche para costa.",
         "autonomiaCotidiana": "FUERTE",
         "estacionalidad2026": "Villa anual; costa más estacional.",
-        "peajeRealidad": "Muy buena vida de villa, pero hay que elegir entre servicios a pie y playa a la puerta."
+        "peajeRealidad": "Muy buena vida de villa, pero hay que elegir entre servicios a pie y playa a la puerta.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital de Cabueñes (Gijón), aprox. 25 min; referencia práctica para atención hospitalaria..",
+        "hospitalPractico2026": "Hospital de Cabueñes (Gijón), aprox. 25 min; referencia práctica para atención hospitalaria.",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 20 km · 25 min · Cabueñes (Gijón); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Asturias 60 km · 45 min (Palma: verano); Santander 159 km · 115 min (Palma: casi todo el año) Tiempo histórico orientativo: ~45 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
+        "transporteRelevante2026": "A-8 / AS-256 / AS-113; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 59,
@@ -101,7 +108,14 @@
         "dependenciaCocheTexto": "Media-alta, especialmente para combinar servicios y costa.",
         "autonomiaCotidiana": "MEDIA",
         "estacionalidad2026": "Vida anual pequeña; Lastres y costa reciben mayor presión turística.",
-        "peajeRealidad": "Paisaje y costa atractivos, pero servicios, playa y vivienda no se concentran en un único núcleo."
+        "peajeRealidad": "Paisaje y costa atractivos, pero servicios, playa y vivienda no se concentran en un único núcleo.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital del Oriente de Asturias (Arriondas), hospital público comarcal con urgencias; aprox. 20 min desde Colunga/Ribadesella y ~35 min desde Llanes..",
+        "hospitalPractico2026": "Hospital del Oriente de Asturias (Arriondas), hospital público comarcal con urgencias; aprox. 20 min desde Colunga/Ribadesella y ~35 min desde Llanes.",
+        "hospitalReferencia2026": "Área sanitaria oriental: Cabueñes (Gijón) como referencia superior cuando corresponda; no saltar Arriondas en la explicación cotidiana.",
+        "aeropuertoPractico2026": "Asturias 76 km · 60 min (Palma: verano); Santander 143 km · 105 min (Palma: casi todo el año) Tiempo histórico orientativo: ~60 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
+        "transporteRelevante2026": "A-8 / N-632; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 60,
@@ -153,7 +167,14 @@
         "dependenciaCocheTexto": "Baja-media en villa; coche para hospital/salidas.",
         "autonomiaCotidiana": "FUERTE",
         "estacionalidad2026": "Vida anual con presión turística fuerte en verano.",
-        "peajeRealidad": "Villa y playa encajan muy bien, pero verano, precio y hospital fuera son el coste."
+        "peajeRealidad": "Villa y playa encajan muy bien, pero verano, precio y hospital fuera son el coste.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital del Oriente de Asturias (Arriondas), hospital público comarcal con urgencias; aprox. 20 min desde Colunga/Ribadesella y ~35 min desde Llanes..",
+        "hospitalPractico2026": "Hospital del Oriente de Asturias (Arriondas), hospital público comarcal con urgencias; aprox. 20 min desde Colunga/Ribadesella y ~35 min desde Llanes.",
+        "hospitalReferencia2026": "Área sanitaria oriental: Cabueñes (Gijón) como referencia superior cuando corresponda; no saltar Arriondas en la explicación cotidiana.",
+        "aeropuertoPractico2026": "Asturias 97 km · 75 min (Palma: verano); Santander 122 km · 90 min (Palma: casi todo el año) Tiempo histórico orientativo: ~75 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
+        "transporteRelevante2026": "A-8 / N-632; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 61,
@@ -205,7 +226,14 @@
         "dependenciaCocheTexto": "Baja en villa; alta o media en muchos pueblos/playas.",
         "autonomiaCotidiana": "FUERTE EN VILLA",
         "estacionalidad2026": "Muy turística en verano, con vida anual real en la villa.",
-        "peajeRealidad": "Costa excepcional y villa funcional, pero precio, turismo y dispersión municipal obligan a elegir microzona con cuidado."
+        "peajeRealidad": "Costa excepcional y villa funcional, pero precio, turismo y dispersión municipal obligan a elegir microzona con cuidado.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital del Oriente de Asturias (Arriondas), hospital público comarcal con urgencias; aprox. 20 min desde Colunga/Ribadesella y ~35 min desde Llanes..",
+        "hospitalPractico2026": "Hospital del Oriente de Asturias (Arriondas), hospital público comarcal con urgencias; aprox. 20 min desde Colunga/Ribadesella y ~35 min desde Llanes.",
+        "hospitalReferencia2026": "Área sanitaria oriental: Cabueñes (Gijón) como referencia superior cuando corresponda; no saltar Arriondas en la explicación cotidiana.",
+        "aeropuertoPractico2026": "Santander 92 km · 70 min (Palma: casi todo el año); Asturias 127 km · 95 min (Palma: verano) Tiempo histórico orientativo: ~70 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
+        "transporteRelevante2026": "A-8 / N-634; tren FEVE Santander–Oviedo Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 62,
@@ -257,6 +285,13 @@
         "dependenciaCocheTexto": "Alta para combinar núcleo, playa y servicios superiores.",
         "autonomiaCotidiana": "BAJA-MEDIA",
         "estacionalidad2026": "Vida local anual pequeña; costa más estacional.",
-        "peajeRealidad": "Patrimonio y costa próximos, pero no concentrados; coche estructural."
+        "peajeRealidad": "Patrimonio y costa próximos, pero no concentrados; coche estructural.",
+        "sanidadPrimaria2026": "Atención primaria básica/local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Sierrallana (Torrelavega), aprox. 45 min según referencia histórica; revisar coordinación sanitaria territorial antes de publicar detalle fino..",
+        "hospitalPractico2026": "Sierrallana (Torrelavega), aprox. 45 min según referencia histórica; revisar coordinación sanitaria territorial antes de publicar detalle fino.",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 45 km · 45 min · Sierrallana (Torrelavega); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Santander 70 km · 55 min (Palma: casi todo el año); Asturias 150 km · 110 min (Palma: verano); Bilbao 160 km · 120 min (Palma: todo el año) Tiempo histórico orientativo: ~55 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
+        "transporteRelevante2026": "A-8 / N-634; tren FEVE (Colombres) Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     }
 ]

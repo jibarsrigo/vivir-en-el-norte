@@ -49,7 +49,14 @@
         "dependenciaCocheTexto": "Media-alta fuera de los núcleos.",
         "autonomiaCotidiana": "MEDIA-BAJA",
         "estacionalidad2026": "Vida local anual con escala pequeña.",
-        "peajeRealidad": "Ría y paisaje muy próximos, pero servicios superiores y hospital requieren desplazamiento."
+        "peajeRealidad": "Ría y paisaje muy próximos, pero servicios superiores y hospital requieren desplazamiento.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital de Jarrio.",
+        "hospitalPractico2026": "Hospital de Jarrio",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 25 km · 30 min · Jarrio (Coaña); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Asturias 98 km · 75 min (Palma: verano); A Coruña 136 km · 100 min (Palma: verano); Santiago 161 km · 120 min (Palma: casi todo el año) Tiempo histórico orientativo: ~75 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
+        "transporteRelevante2026": "A-8 / N-640; tren FEVE (Vegadeo) Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 48,
@@ -101,7 +108,14 @@
         "dependenciaCocheTexto": "Baja-media en villa; coche para hospital y salidas.",
         "autonomiaCotidiana": "MEDIA-FUERTE",
         "estacionalidad2026": "Vida anual, con presión vacacional notable en verano.",
-        "peajeRealidad": "Mar y paseo excelentes para su tamaño; menor profundidad de servicios y verano más intenso."
+        "peajeRealidad": "Mar y paseo excelentes para su tamaño; menor profundidad de servicios y verano más intenso.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital de Jarrio.",
+        "hospitalPractico2026": "Hospital de Jarrio",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 16 km · 20 min · Jarrio (Coaña); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Asturias 89 km · 70 min (Palma: verano); A Coruña 146 km · 110 min (Palma: verano) Tiempo histórico orientativo: ~70 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
+        "transporteRelevante2026": "A-8 / N-634; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 49,
@@ -153,7 +167,14 @@
         "dependenciaCocheTexto": "Baja para rutina de villa; coche para playa/hospital.",
         "autonomiaCotidiana": "FUERTE",
         "estacionalidad2026": "Villa comarcal anual.",
-        "peajeRealidad": "Muy funcional en el occidente, aunque la experiencia de playa no está tan integrada como en Tapia."
+        "peajeRealidad": "Muy funcional en el occidente, aunque la experiencia de playa no está tan integrada como en Tapia.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital de Jarrio.",
+        "hospitalPractico2026": "Hospital de Jarrio",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 8 km · 10 min · Jarrio (Coaña); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Asturias 68 km · 55 min (Palma: verano); A Coruña 166 km · 120 min (Palma: verano) Tiempo histórico orientativo: ~55 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
+        "transporteRelevante2026": "A-8 / N-634; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 50,
@@ -205,6 +226,13 @@
         "dependenciaCocheTexto": "Media: baja en zona baja bien situada, mayor en cotas altas/exteriores.",
         "autonomiaCotidiana": "FUERTE EN ZONA BAJA",
         "estacionalidad2026": "Villa comarcal anual con capa turística.",
-        "peajeRealidad": "Puerto y paisaje memorables a cambio de una topografía que condiciona la vida diaria."
+        "peajeRealidad": "Puerto y paisaje memorables a cambio de una topografía que condiciona la vida diaria.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital de Jarrio.",
+        "hospitalPractico2026": "Hospital de Jarrio",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 20 km · 20 min · Jarrio (Coaña); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Asturias 49 km · 40 min (Palma: verano) Tiempo histórico orientativo: ~40 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
+        "transporteRelevante2026": "A-8 / N-634; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     }
 ]

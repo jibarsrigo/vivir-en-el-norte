@@ -49,7 +49,14 @@
         "dependenciaCocheTexto": "Alta para compras amplias, hospital y muchas gestiones.",
         "autonomiaCotidiana": "BAJA",
         "estacionalidad2026": "Escala pequeña y mayor dependencia externa fuera de verano.",
-        "peajeRealidad": "Costa muy próxima a cambio de servicios mínimos y coche."
+        "peajeRealidad": "Costa muy próxima a cambio de servicios mínimos y coche.",
+        "sanidadPrimaria2026": "Atención primaria básica/local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital Público da Mariña, Burela.",
+        "hospitalPractico2026": "Hospital Público da Mariña, Burela",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 35 km · 35 min · Hospital da Mariña (Burela); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "A Coruña 135 km · 100 min (Palma: verano); Santiago 135 km · 100 min (Palma: casi todo el año); Asturias 156 km · 115 min (Palma: verano) Tiempo histórico orientativo: ~100 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 100 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "LU-862; tren FEVE (apeadero) Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 40,
@@ -101,7 +108,14 @@
         "dependenciaCocheTexto": "Baja-media en núcleo/Covas; coche para hospital y costa exterior.",
         "autonomiaCotidiana": "FUERTE",
         "estacionalidad2026": "Villa comarcal anual con capa turística estival.",
-        "peajeRealidad": "Buena vida propia; hospital de referencia fuera y microzona determina si se prioriza casco o playa."
+        "peajeRealidad": "Buena vida propia; hospital de referencia fuera y microzona determina si se prioriza casco o playa.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital Público da Mariña, Burela.",
+        "hospitalPractico2026": "Hospital Público da Mariña, Burela",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 23 km · 25 min · Hospital da Mariña (Burela); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Santiago 132 km · 100 min (Palma: casi todo el año); Asturias 142 km · 105 min (Palma: verano); A Coruña 142 km · 105 min (Palma: verano) Tiempo histórico orientativo: ~100 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Casi todo el año / Santiago (casi todo el año) · 100 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "A-8 (enlace Cabreiros) / LU-862; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 41,
@@ -153,7 +167,14 @@
         "dependenciaCocheTexto": "Alta para vivir simultáneamente servicios y costa.",
         "autonomiaCotidiana": "BAJA-MEDIA",
         "estacionalidad2026": "Vida local/industrial anual.",
-        "peajeRealidad": "Costa potente y equipamientos básicos, pero separados espacialmente; contexto industrial de Morás/Lago."
+        "peajeRealidad": "Costa potente y equipamientos básicos, pero separados espacialmente; contexto industrial de Morás/Lago.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital Público da Mariña, Burela.",
+        "hospitalPractico2026": "Hospital Público da Mariña, Burela",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 15 km · 20 min · Hospital da Mariña (Burela); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Asturias 128 km · 95 min (Palma: verano); Santiago 139 km · 105 min (Palma: casi todo el año); A Coruña 149 km · 110 min (Palma: verano) Tiempo histórico orientativo: ~95 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 105 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "A-8 / N-642; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 42,
@@ -205,7 +226,14 @@
         "dependenciaCocheTexto": "Media; baja en San Cibrao para rutina, mayor fuera.",
         "autonomiaCotidiana": "MEDIA",
         "estacionalidad2026": "Vida anual con actividad industrial próxima.",
-        "peajeRealidad": "Mar cotidiano en San Cibrao, con escala de servicios pequeña y presencia industrial de Alcoa."
+        "peajeRealidad": "Mar cotidiano en San Cibrao, con escala de servicios pequeña y presencia industrial de Alcoa.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital Público da Mariña, Burela.",
+        "hospitalPractico2026": "Hospital Público da Mariña, Burela",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 5 km · 10 min · Hospital da Mariña (Burela); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Asturias 120 km · 90 min (Palma: verano); Santiago 144 km · 105 min (Palma: casi todo el año); A Coruña 156 km · 115 min (Palma: verano) Tiempo histórico orientativo: ~90 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 105 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "A-8 / N-642; tren FEVE (San Cibrao) Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 43,
@@ -257,7 +285,14 @@
         "dependenciaCocheTexto": "Baja para la mayoría de necesidades diarias.",
         "autonomiaCotidiana": "MUY ALTA",
         "estacionalidad2026": "Vida anual fuerte; actividad cultural/deportiva también fuera del verano.",
-        "peajeRealidad": "Funcionalidad excepcional para su tamaño, con paisaje de puerto de trabajo y menor imagen turística."
+        "peajeRealidad": "Funcionalidad excepcional para su tamaño, con paisaje de puerto de trabajo y menor imagen turística.",
+        "sanidadPrimaria2026": "Centro de salud local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital Público da Mariña, en Burela.",
+        "hospitalPractico2026": "Hospital Público da Mariña, en Burela",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 2 km · 5 min · Hospital da Mariña (Burela); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Asturias 113 km · 85 min (Palma: verano); A Coruña 111 km · 85 min (Palma: verano); Santiago 147 km · 110 min (Palma: casi todo el año) Tiempo histórico orientativo: ~85 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 110 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "Ferrocarril Renfe de vía estrecha y bus."
     },
     {
         "n": 44,
@@ -309,7 +344,14 @@
         "dependenciaCocheTexto": "Baja-media en núcleo; coche para hospital y costa más lejana.",
         "autonomiaCotidiana": "FUERTE",
         "estacionalidad2026": "Más vacacional que Burela, pero con servicios y biblioteca activos fuera de verano.",
-        "peajeRealidad": "Playa muy cotidiana a cambio de mayor presión vacacional y menor autonomía sanitaria que Burela."
+        "peajeRealidad": "Playa muy cotidiana a cambio de mayor presión vacacional y menor autonomía sanitaria que Burela.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital Público da Mariña, Burela.",
+        "hospitalPractico2026": "Hospital Público da Mariña, Burela",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 17 km · 20 min · Hospital da Mariña (Burela); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Asturias 106 km · 80 min (Palma: verano); A Coruña 116 km · 85 min (Palma: verano); Santiago 146 km · 110 min (Palma: casi todo el año) Tiempo histórico orientativo: ~80 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 110 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "A-8 / N-642; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 45,
@@ -361,7 +403,14 @@
         "dependenciaCocheTexto": "Alta en buena parte del municipio.",
         "autonomiaCotidiana": "BAJA-MEDIA",
         "estacionalidad2026": "Más residencial/vacacional y disperso; invierno reduce actividad.",
-        "peajeRealidad": "Mucha costa y vivienda posible, pero coche y dispersión son el coste real."
+        "peajeRealidad": "Mucha costa y vivienda posible, pero coche y dispersión son el coste real.",
+        "sanidadPrimaria2026": "Atención primaria básica/local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital Público da Mariña, Burela.",
+        "hospitalPractico2026": "Hospital Público da Mariña, Burela",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 23 km · 25 min · Hospital da Mariña (Burela); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Asturias 92 km · 70 min (Palma: verano); A Coruña 117 km · 90 min (Palma: verano); Santiago 145 km · 110 min (Palma: casi todo el año) Tiempo histórico orientativo: ~70 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 110 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "A-8 / N-634; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 46,
@@ -413,6 +462,13 @@
         "dependenciaCocheTexto": "Baja para vida de villa; coche para hospital y playas atlánticas.",
         "autonomiaCotidiana": "FUERTE",
         "estacionalidad2026": "Villa comarcal anual; As Catedrais añade turismo estacional.",
-        "peajeRealidad": "Mucha autonomía y ría diaria, pero hospital y playa atlántica están fuera."
+        "peajeRealidad": "Mucha autonomía y ría diaria, pero hospital y playa atlántica están fuera.",
+        "sanidadPrimaria2026": "Centro de salud/PAC local; nuevo centro proyectado en 2026, no operativo",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital Público da Mariña, Burela.",
+        "hospitalPractico2026": "Hospital Público da Mariña, Burela",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 30 km · 30 min · Jarrio (Coaña); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Asturias 78 km · 60 min (Palma: verano); A Coruña 135 km · 100 min (Palma: verano); Santiago 161 km · 120 min (Palma: casi todo el año) Tiempo histórico orientativo: ~60 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 120 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "A-8 / N-634 / N-640; tren FEVE; puente dos Santos Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     }
 ]

@@ -4,13 +4,16 @@
 Oleadas:
   precios     — precioM2 + A/B (CURSOR_05)
   servicios   — servicios + autonomía cotidiana (CURSOR_06)
+  logistica   — sanidad / aeropuerto-Palma / transporte 2026 (CURSOR_07)
 
 Uso:
   python scripts/sync_master_v15_to_web.py --wave precios
   python scripts/sync_master_v15_to_web.py --wave servicios
+  python scripts/sync_master_v15_to_web.py --wave logistica
   python scripts/sync_master_v15_to_web.py --check
 
 No escribe el XLSX. No toca CSV, relatos, zonas ni capas.
+No inventa minutos ni reduce textos 2026 a campos históricos.
 """
 
 from __future__ import annotations
@@ -79,6 +82,21 @@ SERVICIOS_MAP = {
 }
 SERVICIOS_JSON_KEYS = tuple(SERVICIOS_MAP.values())
 SERVICIOS_NEW_KEYS = tuple(k for k in SERVICIOS_JSON_KEYS if k != "servicios")
+
+# v15 → JSON (capa logística 2026; textos íntegros, sin derivar minutos)
+LOGISTICA_MAP = {
+    "sanidad_primaria_2026": "sanidadPrimaria2026",
+    "urgencias_PAC_2026": "urgenciasPAC2026",
+    "hospital_practico_2026": "hospitalPractico2026",
+    "hospital_referencia_2026": "hospitalReferencia2026",
+    "aeropuerto_practico_2026": "aeropuertoPractico2026",
+    "palma_directa_2026": "palmaDirecta2026",
+    "transporte_relevante_2026": "transporteRelevante2026",
+}
+LOGISTICA_JSON_KEYS = tuple(LOGISTICA_MAP.values())
+
+# Claves ya sincronizadas que no deben regresar en oleadas posteriores
+PREVIOUS_SYNC_KEYS = PRICE_KEYS + SERVICIOS_JSON_KEYS
 
 
 def _norm(s: object) -> str:
@@ -158,6 +176,7 @@ def load_master() -> list[dict]:
         "precio_m2_2026",
         *FACTORS,
         *SERVICIOS_MAP.keys(),
+        *LOGISTICA_MAP.keys(),
     )
     for need in needed:
         if need not in col:
@@ -198,6 +217,11 @@ def load_master() -> list[dict]:
         for src, dst in SERVICIOS_MAP.items():
             if dst == "servicios":
                 continue
+            text = _norm(r[col[src]])
+            if not text:
+                raise SystemExit(f"ABORT: n={n} {nombre}: {src} vacío en v15")
+            row[dst] = text
+        for src, dst in LOGISTICA_MAP.items():
             text = _norm(r[col[src]])
             if not text:
                 raise SystemExit(f"ABORT: n={n} {nombre}: {src} vacío en v15")
@@ -386,6 +410,59 @@ def verify_servicios(master: list[dict], by_n: dict[int, dict]) -> None:
             raise SystemExit(f"ABORT QA: {k} no coincide 83/83")
 
 
+def apply_logistica(master: list[dict], files: dict[str, list[dict]]) -> dict:
+    by_master = {m["n"]: m for m in master}
+    touched: list[str] = []
+    examples: list[str] = []
+
+    for fname, rows in files.items():
+        file_changed = False
+        for row in rows:
+            m = by_master[int(row["n"])]
+            for key in LOGISTICA_JSON_KEYS:
+                if row.get(key) != m[key]:
+                    file_changed = True
+                    if len(examples) < 6 and key == "hospitalPractico2026":
+                        prev = row.get(key)
+                        examples.append(
+                            f"{m['municipio']}: hospitalPractico "
+                            f"{'(nuevo)' if prev is None else 'actualizado'}"
+                        )
+                row[key] = m[key]
+        if file_changed:
+            touched.append(fname)
+
+    write_files(files)
+    return {"touched_files": touched, "examples": examples}
+
+
+def verify_logistica(master: list[dict], by_n: dict[int, dict]) -> None:
+    print("--- LOGÍSTICA 2026 ---")
+    counts = {k: 0 for k in LOGISTICA_JSON_KEYS}
+    for m in master:
+        p = by_n[m["n"]]
+        for k in LOGISTICA_JSON_KEYS:
+            if _norm(p.get(k)) == _norm(m[k]):
+                counts[k] += 1
+    for k in LOGISTICA_JSON_KEYS:
+        print(f"{k}: {counts[k]}/83")
+        if counts[k] != 83:
+            raise SystemExit(f"ABORT QA: {k} no coincide 83/83")
+
+
+def assert_no_regression(
+    before_snapshot: dict[int, dict], by_n: dict[int, dict], keys: tuple[str, ...]
+) -> None:
+    for n, prev in before_snapshot.items():
+        cur = by_n[n]
+        for k in keys:
+            if k == "servicios":
+                if not _same_num(prev.get(k), cur.get(k)):
+                    raise SystemExit(f"ABORT: regresión {k} en n={n}")
+            elif prev.get(k) != cur.get(k):
+                raise SystemExit(f"ABORT: regresión {k} en n={n}: {prev.get(k)!r} → {cur.get(k)!r}")
+
+
 def assert_authorized_only(
     before_files: dict[str, list[dict]],
     after_files: dict[str, list[dict]],
@@ -422,14 +499,14 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--wave",
-        choices=("precios", "servicios"),
+        choices=("precios", "servicios", "logistica"),
         help="Oleada a aplicar (obligatoria si no es --check)",
     )
     parser.add_argument("--check", action="store_true", help="Solo verificar, no escribir")
     args = parser.parse_args()
 
     if not args.check and not args.wave:
-        raise SystemExit("ABORT: indica --wave precios|servicios o --check")
+        raise SystemExit("ABORT: indica --wave precios|servicios|logistica o --check")
 
     master = load_master()
     by_n, files = load_product()
@@ -440,22 +517,32 @@ def main() -> int:
 
     if args.check:
         verify_precios(master, by_n)
-        # servicios: report coverage; fail only if partially present
-        present = sum(
-            1
-            for p in by_n.values()
-            if all(k in p for k in SERVICIOS_NEW_KEYS)
+        present_serv = sum(
+            1 for p in by_n.values() if all(k in p for k in SERVICIOS_NEW_KEYS)
         )
-        if present == 0:
+        if present_serv == 0:
             print("--- SERVICIOS/AUTONOMÍA ---")
-            print("capa servicios aún no sincronizada (0/83 con claves nuevas)")
-            print("RESULTADO SYNC QA: OK (precios; servicios pendiente)")
-            return 0
-        if present != 83:
+            print("capa servicios aún no sincronizada")
+        elif present_serv != 83:
             raise SystemExit(
-                f"ABORT QA: cobertura parcial de claves servicios ({present}/83)"
+                f"ABORT QA: cobertura parcial de claves servicios ({present_serv}/83)"
             )
-        verify_servicios(master, by_n)
+        else:
+            verify_servicios(master, by_n)
+
+        present_log = sum(
+            1 for p in by_n.values() if all(k in p for k in LOGISTICA_JSON_KEYS)
+        )
+        if present_log == 0:
+            print("--- LOGÍSTICA 2026 ---")
+            print("capa logística aún no sincronizada (0/83)")
+        elif present_log != 83:
+            raise SystemExit(
+                f"ABORT QA: cobertura parcial de claves logística ({present_log}/83)"
+            )
+        else:
+            verify_logistica(master, by_n)
+
         print("RESULTADO SYNC QA: OK")
         return 0
 
@@ -473,37 +560,63 @@ def main() -> int:
         print(f"A/B cambiados: {stats['changed_ab']}")
         return 0
 
-    # wave servicios
-    # Snapshot precios before write to detect regression inside apply
-    price_before = {
-        int(r["n"]): {k: r.get(k) for k in PRICE_KEYS}
+    if args.wave == "servicios":
+        price_before = {
+            int(r["n"]): {k: r.get(k) for k in PRICE_KEYS}
+            for rows in before.values()
+            for r in rows
+        }
+        stats = apply_servicios(master, files)
+        by_n2, files2 = load_product()
+        assert_no_regression(price_before, by_n2, PRICE_KEYS)
+        assert_authorized_only(
+            before,
+            files2,
+            allowed={"servicios", *SERVICIOS_NEW_KEYS},
+            allow_new=set(SERVICIOS_NEW_KEYS),
+        )
+        verify_precios(master, by_n2)
+        verify_servicios(master, by_n2)
+        print("RESULTADO SYNC QA: OK")
+        print("---")
+        print(f"JSON tocados: {len(stats['touched_files'])}")
+        print(f"servicios cambiados: {stats['changed_servicios']}")
+        print(f"decimales preservados: {stats['decimals'] or 'ninguno'}")
+        for line in stats["examples"]:
+            print(f"  - {line}")
+        return 0
+
+    # wave logistica
+    prev_snap = {
+        int(r["n"]): {k: r.get(k) for k in PREVIOUS_SYNC_KEYS}
         for rows in before.values()
         for r in rows
     }
-    stats = apply_servicios(master, files)
+    stats = apply_logistica(master, files)
     by_n2, files2 = load_product()
-
-    for n, pb in price_before.items():
-        pa = {k: by_n2[n].get(k) for k in PRICE_KEYS}
-        if pb != pa:
-            raise SystemExit(f"ABORT: oleada servicios alteró precio/A-B en n={n}")
-
+    assert_no_regression(prev_snap, by_n2, PREVIOUS_SYNC_KEYS)
     assert_authorized_only(
         before,
         files2,
-        allowed={"servicios", *SERVICIOS_NEW_KEYS},
-        allow_new=set(SERVICIOS_NEW_KEYS),
+        allowed=set(LOGISTICA_JSON_KEYS),
+        allow_new=set(LOGISTICA_JSON_KEYS),
     )
     verify_precios(master, by_n2)
     verify_servicios(master, by_n2)
+    verify_logistica(master, by_n2)
     print("RESULTADO SYNC QA: OK")
     print("---")
     print(f"JSON tocados: {len(stats['touched_files'])}")
-    print(f"servicios cambiados: {stats['changed_servicios']}")
-    print(f"decimales preservados: {stats['decimals'] or 'ninguno'}")
+    print("mapeo v15 → JSON:")
+    for src, dst in LOGISTICA_MAP.items():
+        print(f"  {src} → {dst}")
     print("ejemplos:")
     for line in stats["examples"]:
         print(f"  - {line}")
+    print(
+        "UI: hospitalMin/aeropuertoMin/comunicaciones históricos NO se sobrescriben "
+        "(no se inventan minutos desde textos 2026)."
+    )
     return 0
 
 

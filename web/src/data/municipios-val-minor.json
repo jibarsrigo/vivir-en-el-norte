@@ -49,7 +49,14 @@
         "dependenciaCocheTexto": "Baja en centro para vida diaria; coche para hospital y salidas.",
         "autonomiaCotidiana": "FUERTE",
         "estacionalidad2026": "Vida anual real, con presión turística fuerte en verano.",
-        "peajeRealidad": "Mar y paseo muy integrados a cambio de precio y presión estival."
+        "peajeRealidad": "Mar y paseo muy integrados a cambio de precio y presión estival.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Área de Vigo.",
+        "hospitalPractico2026": "Área de Vigo",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 18 km · 20 min · Álvaro Cunqueiro (Vigo); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Vigo 27 km · 25 min (Palma: verano); Santiago 114 km · 85 min (Palma: casi todo el año); Porto 113 km · 85 min (Palma: verano) Tiempo histórico orientativo: ~25 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 85 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "PO-552 / AG-57; bus interurbano Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 7,
@@ -101,7 +108,14 @@
         "dependenciaCocheTexto": "Media: muy dependiente de microzona.",
         "autonomiaCotidiana": "FUERTE EN RAMALLOSA / MEDIA EN OTRAS",
         "estacionalidad2026": "Actividad anual con aumento turístico notable en verano.",
-        "peajeRealidad": "Buena costa pero microzonas dispersas y precios altos."
+        "peajeRealidad": "Buena costa pero microzonas dispersas y precios altos.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Área de Vigo.",
+        "hospitalPractico2026": "Área de Vigo",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 12 km · 15 min · Álvaro Cunqueiro (Vigo); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Vigo 22 km · 20 min (Palma: verano); Santiago 110 km · 80 min (Palma: casi todo el año); Porto 106 km · 80 min (Palma: verano) Tiempo histórico orientativo: ~20 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 80 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "PO-552 / AG-57; bus; Vigo a 20 min Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 8,
@@ -153,6 +167,13 @@
         "dependenciaCocheTexto": "Media: núcleo resoluble, costa y servicios mayores fuera.",
         "autonomiaCotidiana": "MEDIA",
         "estacionalidad2026": "Vida local anual.",
-        "peajeRealidad": "Más tranquilo y económico que primera línea, pero sin mar a pie."
+        "peajeRealidad": "Más tranquilo y económico que primera línea, pero sin mar a pie.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es 14 km · 15 min · Álvaro Cunqueiro (Vigo).",
+        "hospitalPractico2026": "14 km · 15 min · Álvaro Cunqueiro (Vigo) Tiempo histórico orientativo: ~15 min. Conservar como referencia práctica orientativa, no como garantía de adscripción.",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 14 km · 15 min · Álvaro Cunqueiro (Vigo); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Vigo 21 km · 20 min (Palma: verano); Porto 106 km · 80 min (Palma: verano); Santiago 112 km · 85 min (Palma: casi todo el año) Tiempo histórico orientativo: ~20 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 85 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "AG-57 / PO-340; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     }
 ]

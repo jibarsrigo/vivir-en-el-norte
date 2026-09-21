@@ -49,7 +49,14 @@
         "dependenciaCocheTexto": "Baja en centro; coche para playas y algunas salidas.",
         "autonomiaCotidiana": "MUY ALTA",
         "estacionalidad2026": "Ciudad plenamente anual.",
-        "peajeRealidad": "Excelente vida peatonal, pero sin playa marina cotidiana."
+        "peajeRealidad": "Excelente vida peatonal, pero sin playa marina cotidiana.",
+        "sanidadPrimaria2026": "Red urbana completa",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Complejo hospitalario de Pontevedra/Montecelo.",
+        "hospitalPractico2026": "Complejo hospitalario de Pontevedra/Montecelo",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 3 km · 5 min · Montecelo (Pontevedra); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Vigo 27 km · 25 min (Palma: verano); Santiago 67 km · 50 min (Palma: casi todo el año); Porto 161 km · 120 min (Palma: verano) Tiempo histórico orientativo: ~25 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 50 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "Ferrocarril y bus interurbano."
     },
     {
         "n": 18,
@@ -101,7 +108,14 @@
         "dependenciaCocheTexto": "Muy variable: baja junto a Pontevedra, mayor en áreas dispersas.",
         "autonomiaCotidiana": "MEDIA-FUERTE SEGÚN MICROZONA",
         "estacionalidad2026": "Vida anual con fuerte estacionalidad en Combarro/Raxó.",
-        "peajeRealidad": "Gran variedad interna: elegir mal la microzona cambia por completo coche, turismo y servicios."
+        "peajeRealidad": "Gran variedad interna: elegir mal la microzona cambia por completo coche, turismo y servicios.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Pontevedra.",
+        "hospitalPractico2026": "Pontevedra",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 8 km · 10 min · Montecelo (Pontevedra); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Vigo 30 km · 25 min (Palma: verano); Santiago 67 km · 50 min (Palma: casi todo el año); Porto 162 km · 120 min (Palma: verano) Tiempo histórico orientativo: ~25 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 50 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "PO-308 / AP-9; bus a Pontevedra Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 19,
@@ -153,7 +167,14 @@
         "dependenciaCocheTexto": "Baja en núcleo para diario; coche para playas exteriores y hospital de mayor complejidad.",
         "autonomiaCotidiana": "FUERTE",
         "estacionalidad2026": "Muy marcada presión estival; base de servicios permanece.",
-        "peajeRealidad": "Playa cotidiana y paseo excelentes a cambio de precio alto y verano intenso."
+        "peajeRealidad": "Playa cotidiana y paseo excelentes a cambio de precio alto y verano intenso.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital do Salnés/Pontevedra según necesidad.",
+        "hospitalPractico2026": "Hospital do Salnés/Pontevedra según necesidad",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 20 km · 25 min · Montecelo (Pontevedra); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Vigo 64 km · 50 min (Palma: verano); Santiago 71 km · 55 min (Palma: casi todo el año); Porto 157 km · 115 min (Palma: verano) Tiempo histórico orientativo: ~50 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 55 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "PO-308 / VG-4.1; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 20,
@@ -205,6 +226,13 @@
         "dependenciaCocheTexto": "Baja-media en villa; mayor en San Vicente y costa.",
         "autonomiaCotidiana": "FUERTE EN VILLA",
         "estacionalidad2026": "Turística, pero con equipamientos y vida anual.",
-        "peajeRealidad": "La mejor costa y la mejor autonomía no siempre están en la misma microzona."
+        "peajeRealidad": "La mejor costa y la mejor autonomía no siempre están en la misma microzona.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital do Salnés.",
+        "hospitalPractico2026": "Hospital do Salnés",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 30 km · 30 min · Hospital do Salnés (Vilagarcía); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Vigo 78 km · 60 min (Palma: verano); Santiago 78 km · 60 min (Palma: casi todo el año) Tiempo histórico orientativo: ~60 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 60 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "PO-316 / VG-4.1; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     }
 ]

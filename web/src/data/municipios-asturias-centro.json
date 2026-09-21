@@ -49,7 +49,14 @@
         "dependenciaCocheTexto": "Media-alta, además de la dificultad peatonal por pendiente.",
         "autonomiaCotidiana": "MEDIA-BAJA",
         "estacionalidad2026": "Turismo muy visible; actividad menor fuera de temporada.",
-        "peajeRealidad": "Imagen portuaria excepcional, pero topografía y escala de servicios penalizan la rutina."
+        "peajeRealidad": "Imagen portuaria excepcional, pero topografía y escala de servicios penalizan la rutina.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es 25 km · 25 min · San Agustín (Avilés).",
+        "hospitalPractico2026": "25 km · 25 min · San Agustín (Avilés) Tiempo histórico orientativo: ~25 min. Conservar como referencia práctica orientativa, no como garantía de adscripción.",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 25 km · 25 min · San Agustín (Avilés); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Asturias 11 km · 15 min (Palma: verano) Tiempo histórico orientativo: ~15 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
+        "transporteRelevante2026": "A-8 / N-632; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 52,
@@ -101,7 +108,14 @@
         "dependenciaCocheTexto": "Media-alta.",
         "autonomiaCotidiana": "MEDIA-BAJA",
         "estacionalidad2026": "Vida local anual, pequeña escala.",
-        "peajeRealidad": "Interés paisajístico/industrial a cambio de servicios limitados y coche."
+        "peajeRealidad": "Interés paisajístico/industrial a cambio de servicios limitados y coche.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es 19 km · 20 min · San Agustín (Avilés).",
+        "hospitalPractico2026": "19 km · 20 min · San Agustín (Avilés) Tiempo histórico orientativo: ~20 min. Conservar como referencia práctica orientativa, no como garantía de adscripción.",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 19 km · 20 min · San Agustín (Avilés); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Asturias 7 km · 10 min (Palma: verano) Tiempo histórico orientativo: ~10 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
+        "transporteRelevante2026": "A-8 / N-632; tren FEVE Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 53,
@@ -153,7 +167,14 @@
         "dependenciaCocheTexto": "Media; menor dentro del núcleo para básicos.",
         "autonomiaCotidiana": "MEDIA",
         "estacionalidad2026": "Vida local anual con verano más activo.",
-        "peajeRealidad": "Buena escala pequeña, pero la oferta superior y parte de la costa exigen coche."
+        "peajeRealidad": "Buena escala pequeña, pero la oferta superior y parte de la costa exigen coche.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es 16 km · 20 min · San Agustín (Avilés).",
+        "hospitalPractico2026": "16 km · 20 min · San Agustín (Avilés) Tiempo histórico orientativo: ~20 min. Conservar como referencia práctica orientativa, no como garantía de adscripción.",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 16 km · 20 min · San Agustín (Avilés); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Asturias 6 km · 10 min (Palma: verano) Tiempo histórico orientativo: ~10 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
+        "transporteRelevante2026": "A-8 / N-632; tren FEVE; junto al aeropuerto Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 54,
@@ -205,7 +226,14 @@
         "dependenciaCocheTexto": "Media: menor para playa en Salinas, pero servicios se reparten con Piedras Blancas.",
         "autonomiaCotidiana": "MEDIA-FUERTE SEGÚN MICROZONA",
         "estacionalidad2026": "Residencial anual con fuerte uso estival de playa.",
-        "peajeRealidad": "Playa extraordinariamente cotidiana, pero servicios repartidos y transición industrial/portuaria próxima."
+        "peajeRealidad": "Playa extraordinariamente cotidiana, pero servicios repartidos y transición industrial/portuaria próxima.",
+        "sanidadPrimaria2026": "Atención primaria en el concejo",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es 5 km · 10 min · San Agustín (Avilés).",
+        "hospitalPractico2026": "5 km · 10 min · San Agustín (Avilés) Tiempo histórico orientativo: ~10 min. Conservar como referencia práctica orientativa, no como garantía de adscripción.",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 5 km · 10 min · San Agustín (Avilés); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Asturias 8 km · 10 min (Palma: verano) Tiempo histórico orientativo: ~10 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
+        "transporteRelevante2026": "A-8 / AS-19; bus frecuente a Avilés Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 55,
@@ -257,7 +285,14 @@
         "dependenciaCocheTexto": "Baja-media en villa; coche para costa exterior y servicios mayores.",
         "autonomiaCotidiana": "FUERTE",
         "estacionalidad2026": "Vida anual con aumento vacacional en verano.",
-        "peajeRealidad": "Mar y servicios bien combinados para su tamaño; hospital y gran oferta fuera."
+        "peajeRealidad": "Mar y servicios bien combinados para su tamaño; hospital y gran oferta fuera.",
+        "sanidadPrimaria2026": "Centro de salud/PAC local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es 17 km · 20 min · San Agustín (Avilés).",
+        "hospitalPractico2026": "17 km · 20 min · San Agustín (Avilés) Tiempo histórico orientativo: ~15 min. Conservar como referencia práctica orientativa, no como garantía de adscripción.",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 17 km · 20 min · San Agustín (Avilés); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Asturias 25 km · 20 min (Palma: verano) Tiempo histórico orientativo: ~20 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
+        "transporteRelevante2026": "AS-238 / A-8 (Avilés); bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 56,
@@ -309,7 +344,14 @@
         "dependenciaCocheTexto": "Baja-media en villa; coche para servicios de mayor escala.",
         "autonomiaCotidiana": "FUERTE",
         "estacionalidad2026": "Vida anual con programación cultural propia.",
-        "peajeRealidad": "Muy manejable a pie, pero con escala de servicios menor que Gijón/Avilés."
+        "peajeRealidad": "Muy manejable a pie, pero con escala de servicios menor que Gijón/Avilés.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es 17 km · 20 min · Cabueñes (Gijón).",
+        "hospitalPractico2026": "17 km · 20 min · Cabueñes (Gijón) Tiempo histórico orientativo: ~10 min. Conservar como referencia práctica orientativa, no como garantía de adscripción.",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 17 km · 20 min · Cabueñes (Gijón); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Asturias 27 km · 25 min (Palma: verano) Tiempo histórico orientativo: ~25 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
+        "transporteRelevante2026": "AS-110 / A-8; tren FEVE Gijón–Cudillero Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 57,
@@ -361,6 +403,13 @@
         "dependenciaCocheTexto": "Baja en barrios centrales bien elegidos.",
         "autonomiaCotidiana": "MUY ALTA",
         "estacionalidad2026": "Ciudad plenamente anual.",
-        "peajeRealidad": "Mar y autonomía urbana juntos, a cambio de precio creciente, tráfico y diferencias de barrio."
+        "peajeRealidad": "Mar y autonomía urbana juntos, a cambio de precio creciente, tráfico y diferencias de barrio.",
+        "sanidadPrimaria2026": "Red urbana completa",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Cabueñes/Jove según servicio.",
+        "hospitalPractico2026": "Cabueñes/Jove según servicio",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 4 km · 5 min · Cabueñes (Gijón); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "Asturias 37 km · 30 min (Palma: verano) Tiempo histórico orientativo: ~30 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Asturias: Palma figura entre destinos publicados en 2026; programación/temporada variable, comprobar antes de viajar.",
+        "transporteRelevante2026": "Ferrocarril y bus urbano/interurbano."
     }
 ]

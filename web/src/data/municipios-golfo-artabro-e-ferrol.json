@@ -49,7 +49,14 @@
         "dependenciaCocheTexto": "Baja en barrios centrales bien elegidos.",
         "autonomiaCotidiana": "MUY ALTA",
         "estacionalidad2026": "Ciudad plenamente anual.",
-        "peajeRealidad": "Autonomía urbana y mar a pie a cambio de precio, tráfico y diferencias fuertes entre barrios."
+        "peajeRealidad": "Autonomía urbana y mar a pie a cambio de precio, tráfico y diferencias fuertes entre barrios.",
+        "sanidadPrimaria2026": "Red urbana completa",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es CHUAC.",
+        "hospitalPractico2026": "CHUAC",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 3 km · 5 min · CHUAC (A Coruña); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "A Coruña",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 50 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "Bus urbano, ferrocarril y aeropuerto próximo."
     },
     {
         "n": 33,
@@ -101,7 +108,14 @@
         "dependenciaCocheTexto": "Media y muy dependiente de microzona.",
         "autonomiaCotidiana": "FUERTE EN ALGUNAS MICROZONAS",
         "estacionalidad2026": "Residencial anual; playas ganan uso en verano.",
-        "peajeRealidad": "Calidad residencial alta, pero no existe una única vida 'Oleiros' y el coche puede reaparecer."
+        "peajeRealidad": "Calidad residencial alta, pero no existe una única vida 'Oleiros' y el coche puede reaparecer.",
+        "sanidadPrimaria2026": "Atención primaria distribuida",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es CHUAC/área A Coruña.",
+        "hospitalPractico2026": "CHUAC/área A Coruña",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 8 km · 10 min · CHUAC (A Coruña); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "A Coruña 7 km · 10 min (Palma: verano); Santiago 60 km · 45 min (Palma: casi todo el año) Tiempo histórico orientativo: ~10 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 45 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "AC-12 / AP-9 / N-VI; bus frecuente Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 34,
@@ -153,7 +167,14 @@
         "dependenciaCocheTexto": "Baja-media en villa; coche para hospital y salidas.",
         "autonomiaCotidiana": "FUERTE",
         "estacionalidad2026": "Villa residencial anual con mayor actividad estival.",
-        "peajeRealidad": "Buena escala diaria y mar, pero hospital y oferta urbana mayor fuera."
+        "peajeRealidad": "Buena escala diaria y mar, pero hospital y oferta urbana mayor fuera.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es CHUAC/área A Coruña.",
+        "hospitalPractico2026": "CHUAC/área A Coruña",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 14 km · 15 min · CHUAC (A Coruña); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "A Coruña 14 km · 15 min (Palma: verano); Santiago 65 km · 50 min (Palma: casi todo el año) Tiempo histórico orientativo: ~15 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 50 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "AC-163 / AP-9; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 35,
@@ -205,7 +226,14 @@
         "dependenciaCocheTexto": "Alta: equipamientos y vivienda suelen estar dispersos.",
         "autonomiaCotidiana": "BAJA-MEDIA",
         "estacionalidad2026": "Actividad municipal anual, pero distribuida.",
-        "peajeRealidad": "Tranquilidad y proximidad metropolitana a cambio de coche."
+        "peajeRealidad": "Tranquilidad y proximidad metropolitana a cambio de coche.",
+        "sanidadPrimaria2026": "Atención primaria en Guísamo",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es 17 km · 20 min · CHUAC (A Coruña).",
+        "hospitalPractico2026": "17 km · 20 min · CHUAC (A Coruña) Tiempo histórico orientativo: ~20 min. Conservar como referencia práctica orientativa, no como garantía de adscripción.",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 17 km · 20 min · CHUAC (A Coruña); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "A Coruña 14 km · 15 min (Palma: verano); Santiago 60 km · 45 min (Palma: casi todo el año) Tiempo histórico orientativo: ~15 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 45 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "N-VI / AP-9; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 36,
@@ -257,7 +285,14 @@
         "dependenciaCocheTexto": "Media; baja para rutina si se elige bien el núcleo, mayor para servicios superiores.",
         "autonomiaCotidiana": "MEDIA",
         "estacionalidad2026": "Mayor presión estival; ORA de verano evidencia demanda de playa.",
-        "peajeRealidad": "Playa muy utilizable a cambio de menor profundidad de servicios y verano más intenso."
+        "peajeRealidad": "Playa muy utilizable a cambio de menor profundidad de servicios y verano más intenso.",
+        "sanidadPrimaria2026": "Atención primaria local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Área A Coruña/Ferrol según necesidad.",
+        "hospitalPractico2026": "Área A Coruña/Ferrol según necesidad",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 19 km · 20 min · CHUAC (A Coruña); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "A Coruña 35 km · 30 min (Palma: verano); Santiago 65 km · 50 min (Palma: casi todo el año) Tiempo histórico orientativo: ~30 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 50 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "N-651 / AP-9; tren Ferrol–A Coruña Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 37,
@@ -309,7 +344,14 @@
         "dependenciaCocheTexto": "Baja para la rutina en la villa; coche para hospital y servicios de escala mayor.",
         "autonomiaCotidiana": "MEDIA-FUERTE",
         "estacionalidad2026": "Vida municipal anual, con actividades 2026–27 y programas >60; verano más activo.",
-        "peajeRealidad": "Villa muy cómoda y mar diario, pero sanidad especializada y oferta amplia están en Ferrol."
+        "peajeRealidad": "Villa muy cómoda y mar diario, pero sanidad especializada y oferta amplia están en Ferrol.",
+        "sanidadPrimaria2026": "Centro de salud local",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es CHUF/Ferrol.",
+        "hospitalPractico2026": "CHUF/Ferrol",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 25 km · 25 min · Arquitecto Marcide (Ferrol); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "A Coruña 57 km · 45 min (Palma: verano); Santiago 99 km · 75 min (Palma: casi todo el año) Tiempo histórico orientativo: ~45 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 75 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "AC-133 / AP-9; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea."
     },
     {
         "n": 38,
@@ -361,6 +403,13 @@
         "dependenciaCocheTexto": "Baja para vida urbana; coche para playas.",
         "autonomiaCotidiana": "MUY ALTA",
         "estacionalidad2026": "Ciudad anual.",
-        "peajeRealidad": "Servicios y vivienda relativamente accesible, pero la experiencia de playa atlántica no está a pie desde el centro."
+        "peajeRealidad": "Servicios y vivienda relativamente accesible, pero la experiencia de playa atlántica no está a pie desde el centro.",
+        "sanidadPrimaria2026": "Red urbana completa",
+        "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es CHUF.",
+        "hospitalPractico2026": "CHUF",
+        "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 1 km · 5 min · Arquitecto Marcide (Ferrol); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+        "aeropuertoPractico2026": "A Coruña 42 km · 35 min (Palma: verano); Santiago 82 km · 65 min (Palma: casi todo el año) Tiempo histórico orientativo: ~35 min. Usar como orientación de acceso, no como tiempo garantizado.",
+        "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 65 min La programación aérea es variable; comprobar temporada y horario vigente.",
+        "transporteRelevante2026": "Ferrocarril y bus interurbano."
     }
 ]

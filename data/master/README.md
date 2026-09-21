@@ -2,22 +2,31 @@
 
 Este directorio guarda la **tabla maestra estructurada** usada para auditoría y contraste con la web. No es un origen que Cursor deba volcar solo a CSV, JSON o relatos.
 
-## Qué es `TABLA_MAESTRA_VIVIR_EN_EL_NORTE_2026_v1.xlsx`
+## Referencia activa: v2 COMPLETA
 
-- Referencia de QA: 83 lugares y 16 zonas, con precios consolidados cuando la investigación dejó una cifra usable, fórmulas A/B acordadas y servicios de Galicia ya validados en master.
-- **No autoriza** una sincronización masiva automática con el producto.
+**Archivo activo:** `TABLA_MAESTRA_VIVIR_EN_EL_NORTE_2026_v2_COMPLETA.xlsx`
 
-## Campos `*_legacy`
+- Es la referencia de estructura y trazabilidad.
+- Conserva **todas las columnas históricas** disponibles (54) y añade la **capa 2026** (34 columnas nuevas; 88 en total).
+- Las columnas históricas sirven para **trazabilidad y contraste**, no como precedencia automática sobre la web ni sobre el MASTER de investigación.
+- Un valor vacío, `PENDIENTE`, `n.d.` o equivalente **no se inventa** ni se rellena por inferencia.
+- Cursor **no modifica** datos maestros por iniciativa propia.
+- **Ninguna propagación a la web** está autorizada solo por existir este archivo: los cambios de producto se harán con instrucciones específicas por bloques.
 
-Proceden de la tabla / CSV histórico. **No son datos finales.** Sirven para detectar contradicciones frente a lo que hay en la web o en el MASTER de investigación. No deben propagarse como verdad sin una instrucción explícita de validación.
+## Histórico: v1 (superseded)
 
-## Pendientes y no comparables
+**Archivo histórico:** `TABLA_MAESTRA_VIVIR_EN_EL_NORTE_2026_v1.xlsx`
 
-Un valor `PENDIENTE`, `n.d.` o «no comparable» **no se inventa** ni se rellena por inferencia. Se deja marcado hasta que haya fuente.
+- Queda **únicamente** como registro de la primera estructuración (v1 simplificada).
+- **No debe usarse** para sincronizar la web ni como fuente de verdad frente a v2.
+
+## Campos legacy / históricos
+
+Proceden de la tabla / CSV histórico. Son trazabilidad, no dato final automático. No deben propagarse como verdad sin instrucción explícita de validación.
 
 ## Quién edita el XLSX
 
-Cursor **no debe editar** este fichero por iniciativa propia. Los cambios de contenido se hacen fuera (o con instrucciones concretas) y se sustituye el archivo de forma deliberada.
+Cursor **no debe editar** estos ficheros por iniciativa propia. Los cambios de contenido se hacen fuera (o con instrucciones concretas) y se sustituye el archivo de forma deliberada.
 
 ## Contradicciones
 
@@ -29,4 +38,4 @@ El MASTER íntegro de investigación y los textos definitivos de zona/municipio 
 
 ## Cómo se actualiza el producto
 
-Los cambios de datos en JSON, CSV, componentes o relatos se harán **más adelante**, mediante instrucciones específicas por bloques — no desde esta v1 de forma masiva.
+Los cambios de datos en JSON, CSV, componentes o relatos se harán **más adelante**, mediante instrucciones específicas por bloques — no desde esta v2 de forma masiva.

@@ -321,49 +321,42 @@ export const RELATOS_A_MARINA: Record<string, RelatoMun> = {
   foz: {
     escala: "Villa de ría y playa",
     abrir: [
-      "Foz se siente villa de veraneo cantábrica sin alarde. Unos diez mil habitantes: paseo, ría, playas urbanas —A Rapadoira— y abiertas —Llas, Peizás—, marisma y puente sobre el agua. San Martiño de Mondoñedo, a unos cinco minutos, aporta la basílica de San Martiño —antigua sede episcopal, considerada una de las iglesias catedralicias más antiguas de España—; Mondoñedo, a unos veinte, amplía la capa histórica del interior. Es villa tranquila y asequible frente a Ribadeo o Viveiro.",
-      "Un martes de noviembre el centro de salud, el súper y el comercio cubren la semana básica. Quien vive aquí es gente local y veraneantes que vuelven al paseo. Los servicios son 5/10 y hay fibra. El Hospital da Mariña queda a unos veinte minutos. El aeropuerto de Asturias anda alrededor de los ochenta minutos; Santiago, hacia los ciento diez. Para lo diario se camina; para el hospital, se conduce.",
-      "En verano el paseo, A Rapadoira y las playas abiertas reciben veraneo gallego-castellano: tráfico, toallas y terrazas. El volumen sube sin alcanzar el atasco de As Catedrais en los peores días. Vivir junto al paseo significa contar con semanas más ruidosas; hacia la marisma o el interior, el silencio vuelve antes.",
-      "Fuera de agosto Foz vuelve a ser una villa calmada. Primavera y otoño dejan la ría más quieta y el verde intenso. Si solo conoces un sábado de sol, te llevas la imagen de folleto de A Rapadoira. Si has visto un noviembre de niebla, ya puedes decidir si aceptas el gris lucense.",
-      "Encaja para quien quiera ría y playa a precio asequible, sin necesitar el casco indiano de Ribadeo ni la Semana Santa de Viveiro.",
+      "Foz se organiza alrededor de una relación bastante cotidiana con el agua. A Rapadoira está integrada en la villa y el paseo continúa hacia una costa que se abre en Llas y Peizás; al otro lado del mapa mental aparecen la ría, la marisma y el puente. No hace falta reservar el mar para una excursión: forma parte de un paseo normal.",
+      "Fuera del verano sigue funcionando como villa. Comercio, atención primaria, biblioteca y servicios mantienen actividad durante el año, de modo que muchas rutinas básicas pueden resolverse en el núcleo sin coger el coche. Agosto añade veraneantes, terrazas y más presión junto al paseo, pero después Foz vuelve a una escala más calmada sin apagarse."
     ],
     tiempo: [
-      "Foz suma unas 1.900 horas de sol y unos 40 días despejados frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.000 milímetros en unos 145 días. Niebla alta; viento medio. De octubre a marzo el cielo pesa; de junio a septiembre la terraza se usa, aunque también llovizna.",
-      "El verano ronda 18,5 °C, fresco frente a Baleares. La ría y A Rapadoira permiten baño más usable que el Cantábrico abierto; Llas y Peizás piden días de mar más llana. El agua anda entre 17 y 19 °C. Conviene probar niebla y un día de temporada en el paseo, no solo el sol de julio.",
+      "Frente a Mallorca, la diferencia se nota en un verano más fresco y en una vivienda que debe convivir mejor con humedad, niebla y meses grises. Una terraza que parece decisiva en agosto puede usarse de otra manera en invierno; por eso orientación, aislamiento y luz merecen una visita con mal tiempo.",
+      "El mar tampoco se vive igual en toda la costa. A Rapadoira ofrece una playa urbana más protegida y unida al paseo; Llas y Peizás abren el horizonte y quedan más expuestas al Cantábrico. Esa transición permite escoger entre una orilla muy cotidiana y una salida algo más abierta sin abandonar el entorno de Foz."
     ],
     vivir: [
-      "El invierno en Foz se nota en la vivienda junto al paseo o la marisma: humedad, niebla alta y un noviembre gris lucense. En Mallorca muchas viviendas casi no piensan en moho; aquí conviene mirar aislamiento y orientación un día de niebla, no solo el sol de A Rapadoira. La terraza que en agosto parece el centro de la vida se usa menos entre noviembre y febrero.",
-      "El día a día sin coche es viable para lo básico: un martes de noviembre el centro de salud, el súper y el comercio cubren la semana; los servicios son 5/10 y hay fibra. En enero Foz vuelve a ser una villa calmada —no se apaga—, pero tampoco es la densidad de Ribadeo. Quien viva junto al paseo o a A Rapadoira notará semanas más ruidosas en verano; hacia la marisma o el interior, el silencio vuelve antes.",
-      "Llegar de fuera es habitual: gente local y veraneantes que vuelven al paseo. Se oye gallego en el comercio y en el ayuntamiento; el castellano basta para lo cotidiano. Entre semana manda la villa tranquila; en verano el paseo y las playas reciben veraneo gallego-castellano —tráfico, toallas, terrazas— sin alcanzar el atasco de As Catedrais en los peores días. Si solo buscas el sábado de sol, te llevas la imagen de folleto de A Rapadoira. Si buscas casco indiano o Semana Santa, mira Ribadeo o Viveiro.",
-      "La sanidad de urgencia y especialidades no está a pie: el Hospital da Mariña queda a unos veinte minutos. En Foz hay centro de salud para lo diario. Empadronarse aquí abre el médico de cabecera local; para hospital se conduce a Burela. No es el extremo de O Vicedo, pero sí asumir que la sanidad comarcal no está a cinco minutos.",
-      "Mantener el vínculo con Mallorca pasa por el aeropuerto de Asturias, alrededor de los ochenta minutos, o Santiago hacia los ciento diez. En invierno el trayecto a menudo implica más logística. Conviene mirar el calendario real de vuelos del año: mejor que el oeste de la comarca, pero no el límite de una hora de Ribadeo.",
-      "El entorno del paseo ofrece pisos y viviendas de veraneo; las afueras, más parcela. Hay poca obra nueva y fibra. Junto a la orilla hay que contar con ocupación de agosto y humedad; hacia la marisma, acceso y orientación. Conviene ver un noviembre húmedo, no solo el sol del anuncio. En un piso o casa con escaleras hay que imaginar la rutina dentro de diez años; la terraza útil es la que recibe sol de invierno, no solo la que mira la ría en foto.",
+      "Un martes de noviembre se puede hacer bastante vida dentro de la villa: compra, centro de salud, biblioteca, comercio y paseo forman parte del radio cotidiano. El coche sigue siendo útil para el hospital y para ampliar la costa o las salidas, pero en el núcleo no organiza cada recado.",
+      "La ría ayuda a orientarse. A Rapadoira representa la parte más urbana del mar; Llas y Peizás prolongan la costa hacia espacios más abiertos; la marisma introduce una orilla distinta, más quieta. Esa variedad hace que una mañana libre pueda consistir simplemente en caminar el frente marítimo, sin convertir el día en una excursión.",
+      "En verano el paseo y A Rapadoira reciben más gente, tráfico y terrazas. La presión vacacional existe y se nota especialmente junto a la orilla, pero fuera de agosto permanece una base de servicios y vida local. Esa continuidad es una diferencia importante frente a municipios de A Mariña mucho más dependientes de la segunda residencia.",
+      "Para necesidades hospitalarias hay que desplazarse a Burela. Esa salida no impide una autonomía cotidiana fuerte dentro de Foz, pero sí marca el límite entre una villa que resuelve bien el día a día y una cabecera sanitaria."
     ],
     historia: [
-      "San Martiño de Mondoñedo —a cinco minutos— es el hilo antiguo: basílica vieja, piedra y un relato eclesiástico que precede a la villa de veraneo. Mondoñedo, a unos veinte minutos, amplía la capa histórica del interior lucense.",
-      "Foz moderna creció con paseo, ría y temporada: villa cantábrica de ocio y residencia más que de puerto industrial. La marisma y el puente sobre la ría explican el paisaje cotidiano —agua quieta, aves, el contraste con el Cantábrico abierto de Llas—.",
+      "San Martiño de Mondoñedo añade una capa histórica muy próxima: su basílica fue antigua sede episcopal y conecta Foz con una historia anterior a la villa costera moderna. Mondoñedo, algo más hacia el interior, amplía esa lectura histórica de la comarca.",
+      "La Foz cotidiana, sin embargo, se entiende mejor por el paseo, la ría y la temporada. La marisma y el puente forman parte del paisaje habitual, mientras las playas explican el crecimiento residencial y el aumento de actividad del verano."
     ],
     fuera: [
-      "A Rapadoira es la playa urbana de diario: arena, paseo y ría abrigada a minutos. Un martes de junio cabe la toalla; un domingo de agosto, cuesta aparcar.",
-      "Llas y Peizás abren arenales más expuestos: más oleaje, más Cantábrico abierto. El paseo y la ría permiten kilómetros sin coche en días buenos; la marisma añade otra escala de orilla quieta.",
-      "San Martiño de Mondoñedo cubre patrimonio cercano. Barreiros y As Catedrais quedan hacia el este; Burela, hospital y lonja hacia el oeste. Aquí la orilla de diario es A Rapadoira; la frontera indiana, Ribadeo.",
+      "A Rapadoira es la playa que mejor se integra en una rutina a pie: arena y paseo forman parte del núcleo. Hacia Llas y Peizás la costa se vuelve más abierta y el paseo permite pasar gradualmente de la fachada urbana a otro tipo de Cantábrico.",
+      "Para cambiar de registro, San Martiño de Mondoñedo aporta patrimonio cercano y el interior conduce hacia Mondoñedo. En la costa, Barreiros y As Catedrais quedan hacia el este; Burela concentra el hospital hacia el oeste; Ribadeo ofrece otra escala de casco y frontera. Son salidas que complementan Foz, no sustitutos de su vida diaria."
     ],
     casa: [
-      "El entorno del paseo ofrece pisos y viviendas de veraneo; las afueras, más parcela. Hay poca obra nueva y fibra. Junto a la orilla hay que contar con ocupación de agosto y humedad; hacia la marisma, acceso y orientación. Conviene ver un noviembre húmedo, no solo el sol del anuncio.",
-      "Según Idealista (agosto de 2026), el precio medio ronda 1.790 €/m². Tres habitaciones en franja asequible se estiman alrededor de 161.000 euros a partir de ese €/m² —estimación, no anuncio real—. La franja media puede ser piso reformado cerca del paseo o vivienda con más espacio.",
-      "Los servicios son 5/10. El Hospital da Mariña queda a unos veinte minutos. Asturias está a unos ochenta; Santiago-Lavacolla, hacia los ciento diez. Quien acepte esa distancia gana ría y precio; quien necesite hospital a pie, mira Burela.",
+      "La elección cambia según se mire el paseo, la marisma o las zonas más interiores. Cerca de A Rapadoira se gana acceso inmediato a la orilla y se acepta más movimiento en las semanas fuertes de verano; alejándose del frente marítimo cambia la relación con ruido, aparcamiento y humedad.",
+      "En pisos y casas conviene mirar accesibilidad, orientación, aislamiento y cómo se comporta la vivienda en un noviembre húmedo. La capa factual y la tabla concentran precios y estimaciones; aquí la cuestión es si la casa permite aprovechar la autonomía de la villa sin pagar con una ubicación incómoda durante el resto del año."
     ],
     encaja: {
       si: [
-        "Encaja para quien quiera villa de ría y playa tranquila en el centro-este de A Mariña: paseo, A Rapadoira —playa urbana—, Llas y Peizás —arenales más abiertos—, marisma y puente sobre la ría, con unos diez mil habitantes y precio según Idealista de agosto de 2026 alrededor de 1.790 €/m². Un martes de noviembre el centro de salud, el súper y el comercio cubren la semana básica; los servicios son 5/10 y hay fibra. San Martiño de Mondoñedo —basílica y antigua sede episcopal, considerada una de las iglesias catedralicias más antiguas de España— queda a unos cinco minutos; Mondoñedo, a unos veinte, amplía la capa histórica del interior. Quien priorice ría usable y veraneo calmado frente al casco indiano de Ribadeo o la Semana Santa de Viveiro encontrará aquí el equilibrio de villa cantábrica de ría.",
-        "El clima es el de la Mariña: unas mil novecientas horas de sol y unos cuarenta días despejados frente a las dos mil ochocientas horas y ciento veinte jornadas claras de Mallorca; niebla alta, verano fresco cerca de dieciocho grados y medio. La ría y A Rapadoira permiten baño más usable que el Cantábrico abierto; Llas y Peizás piden días de mar más llana; el agua anda entre diecisiete y diecinueve grados. En verano el paseo y las playas reciben veraneo gallego-castellano —tráfico, toallas, terrazas— sin alcanzar el atasco de As Catedrais en los peores días. Fuera de agosto Foz vuelve a ser una villa calmada. Encaja si has visto un noviembre gris y siga queriendo esa orilla de ría.",
+        "Encaja si se quiere una villa donde playa y paseo formen parte de la rutina y donde una parte importante de los recados pueda hacerse dentro del núcleo. A Rapadoira, la ría y la marisma dan una relación diaria con el agua; Llas y Peizás permiten abrir el paseo hacia una costa menos urbana.",
+        "También encaja si se acepta una temporada de verano más intensa a cambio de que la villa siga teniendo actividad fuera de ella. El equilibrio está en combinar autonomía cotidiana con una costa muy accesible, sabiendo que para hospital y algunas necesidades mayores hay que salir."
       ],
       no: [
-        "No encaja si se busca casco indiano, Semana Santa de interés internacional o hospital a pie. Ribadeo cubre frontera y As Catedrais; Viveiro, muralla y Covas; Burela, el Hospital da Mariña a cinco minutos. Aquí el comarcal queda a unos veinte minutos. Tampoco si se necesita villa de servicios 7/10: Foz resuelve lo básico, no la densidad de Ribadeo.",
-        "Tampoco si agosto junto al paseo debe ser silencioso: Foz recibe veraneo en la orilla, y quien viva frente a A Rapadoira notará semanas más ruidosas. El aeropuerto de Asturias anda alrededor de los ochenta minutos; Santiago, hacia los ciento diez —mejor que el oeste de la comarca, pero no el límite de una hora de Ribadeo—. Y si se busca el sol de Baleares, el cielo lucense no lo entrega.",
+        "Encaja peor si se necesita hospital a pie o una ciudad con una oferta mucho más amplia. Foz resuelve bien la escala cotidiana, pero no pretende sustituir las funciones comarcales de Burela ni la dimensión urbana de otros núcleos mayores.",
+        "Tampoco si se quiere silencio constante junto al paseo durante agosto o si el clima cantábrico se tolera solo en vacaciones. Para entender Foz conviene haber visto tanto A Rapadoira con actividad de verano como la ría en un día gris de noviembre."
       ],
       veredicto:
-        "Veredicto: Foz es la villa de ría y playa equilibrada del centro-este de A Mariña. Buscaría tres habitaciones caminables a paseo y comercio —franja asequible alrededor de ciento cincuenta y dos mil euros—, fuera del tramo más ocupado de A Rapadoira en agosto, tras probar niebla y un día de temporada en el paseo. Se ganan ría, playas y precio; se aceptan hospital a veinte minutos, aeropuerto a unos ochenta y el gris cantábrico.",
+        "Foz combina villa, ría y playa con una autonomía cotidiana fuerte para su escala. Su punto de equilibrio está en poder caminar buena parte del día a día y llegar al mar sin convertirlo en excursión, aceptando más presión vacacional en verano y el desplazamiento a Burela para la atención hospitalaria."
     },
     fotosAbrir: [
       { src: "/fotos/a-marina/foz-ria.jpg", pie: "Ría de Foz" },
@@ -380,70 +373,63 @@ export const RELATOS_A_MARINA: Record<string, RelatoMun> = {
   },
 
   barreiros: {
- escala: "Playas y parroquias",
- abrir: [
- "Barreiros se entiende mejor en agosto que en enero. Unos tres mil habitantes repartidos en unos ocho kilómetros de playas —Arealonga, Altar, Coto, Remior— y parroquias con muchos bloques de apartamentos de los años 2000. As Catedrais quedan a unos cinco minutos. En invierno gran parte de esos bloques se vacían: es costa de segunda residencia más que villa de trabajo densa.",
- "Un martes de noviembre los servicios son 3/10 y la fibra, parcial: el coche organiza compra y ocio hacia Foz o Ribadeo. Quien vive aquí todo el año acepta orilla delante y villa de apoyo a diez o quince minutos. El Hospital da Mariña queda a unos veinticinco minutos. El aeropuerto de Asturias anda alrededor de los setenta —de los mejores de la zona tras Ribadeo—.",
- "En verano las playas y As Catedrais concentran afluencia, tráfico y aparcamiento justo: el impacto de vivir aquí es el de temporada alta, no el de una Semana Santa urbana. Quien compre junto a la orilla debe probar agosto; tierra adentro, hacia las parroquias, el silencio vuelve antes —y en enero, de verdad.",
- "Fuera de temporada Barreiros se queda quieto: calles de bloques vacíos, viento y Cantábrico. Si solo conoces un sábado de sol en los arcos, te llevas la imagen de folleto de la costa. Si has visto un martes de noviembre vacío, ya puedes decidir si quieres vivir a esa escala.",
- "Encaja mal como vivienda de todo el año si se necesita comercio y vecinos en enero. Encaja mejor como orilla de playa con Ribadeo o Foz cerca.",
- ],
- tiempo: [
- "Barreiros registra unas 1.920 horas de sol y unos 40 días despejados frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.000 milímetros en unos 143 días. Niebla alta; viento medio. El invierno es gris y vacío en muchos bloques; el verano también llovizna.",
- "El verano ronda 18,5 °C, fresco frente a Baleares. Las playas tienen agua entre 17 y 19 °C; As Catedrais invitan más al paseo entre arcos que al baño largo cuando el Cantábrico está bravo. Conviene probar marea, niebla y un enero quieto, no solo el sol de agosto.",
- ],
- vivir: [
- "El invierno en Barreiros se nota en los bloques de apartamentos: humedad, niebla alta, viento medio y un enero que deja calles quietas y muchas luces apagadas. En Mallorca muchas segundas residencias también se vacían, pero aquí el vacío de temporada define el municipio. Conviene preguntar por la fibra —es parcial—, por cuántas luces quedan encendidas en enero y por rastros de moho, no solo el sol de As Catedrais en agosto.",
- "El día a día sin coche casi no existe: los servicios son 3/10. El coche organiza compra y ocio hacia Foz o Ribadeo, a unos diez o quince minutos. En enero Barreiros se queda quieto —costa de segunda residencia más que villa de trabajo densa—. Quien viva junto a la orilla o cerca de As Catedrais notará afluencia, tráfico y aparcamiento justo en verano; tierra adentro, hacia las parroquias, el silencio vuelve antes —y en enero, de verdad.",
- "Llegar de fuera busca kilómetros de arena y arcos, no casco denso. Se oye gallego en las parroquias; el castellano basta para lo cotidiano, pero la vida social de invierno pasa por Foz o Ribadeo como villa de apoyo, no por vecinos estables en cada portal. Entre semana fuera de temporada manda el vacío; en verano playas y As Catedrais concentran temporada alta. Quien se decida solo tras un sábado de sol sin probar un martes de noviembre vacío se encontrará con otra escala.",
- "La sanidad de urgencia y especialidades no está en el municipio: el Hospital da Mariña queda a unos veinticinco minutos. Empadronarse aquí abre el médico de cabecera local; para hospital se conduce a Burela. Es aceptable en la comarca, no sanidad a pie.",
- "Mantener el vínculo con Mallorca pasa por el aeropuerto de Asturias, alrededor de los setenta minutos —de los mejores de la zona tras Ribadeo—; Santiago-Lavacolla anda hacia los ciento diez. En invierno el trayecto a menudo implica más logística. Conviene mirar el calendario real de vuelos del año: el acceso al avión es de los más razonables de A Mariña, a cambio de aceptar servicios 3/10 en el municipio.",
- "Predominan apartamentos de veraneo y viviendas en parroquias; hay poca obra nueva y fibra parcial. Hay que contar con ocupación de agosto, vacío de invierno, humedad y comunidad de vecinos estacional. Conviene comprobar la línea y el estado de la reforma. En un apartamento con escaleras o sin ascensor hay que imaginar la rutina dentro de diez años; orientación al mar y humedad mueven el precio tanto como los metros.",
- ],
- historia: [
- "As Catedrais —aunque el acceso más famoso se asocie a Ribadeo— marcan el paisaje inmediato: arcos de piedra, marea y una de las costas más fotografiadas de Galicia. Barreiros vive a cinco minutos de ese magnetismo; la afluencia define la temporada.",
- "El urbanismo de bloques de los 2000 explica el carácter de veraneo: plazas de aparcamiento, apartamentos y un invierno que deja calles quietas. Reinante y San Miguel son nombres de orilla y parroquia más que de casco histórico denso: lo que conviene saber es geográfica y de temporada, no de villa señorial.",
- ],
- fuera: [
- "Arealonga, Altar, Coto y Remior ofrecen kilómetros de arena: playa larga de diario cuando el Cantábrico deja. Un martes de junio la toalla cabe; un domingo de agosto, el coche busca cuneta.",
- "As Catedrais, a cinco minutos, son el gran paseo de acantilado y playa: arcos, marea y la foto turística que llena aparcamientos. Vivir cerca significa contar ese volumen en temporada.",
- "Foz cubre villa de ría; Ribadeo, casco indiano y A-8; Burela, hospital. El día a día pide coche casi siempre. Aquí la orilla es el activo; el comercio denso, no.",
- ],
- casa: [
- "Predominan apartamentos de veraneo y viviendas en parroquias; hay poca obra nueva y fibra parcial. Hay que contar con ocupación de agosto, vacío de invierno, humedad y comunidad de vecinos estacional. Conviene preguntar por la línea y por cuántas luces quedan encendidas en enero.",
- "La referencia de precio actual está en la capa factual y en Idealista del mes; aquí no se fija una media municipal en prosa. 000 euros—; el estado y la orientación al mar mueven el precio.",
- "Los servicios son 3/10. El Hospital da Mariña queda a unos veinticinco minutos. Asturias está a unos setenta; Santiago-Lavacolla, hacia los ciento diez. Quien acepte Foz o Ribadeo como villa de apoyo gana arena y arcos; quien necesite vecinos en enero, mira otra opción.",
- ],
- encaja: {
- si: [
- "Encaja para quien busque kilómetros de arena —Arealonga, Altar, Coto, Remior— y As Catedrais a unos cinco minutos, con el aeropuerto de Asturias alrededor de los setenta minutos —de los mejores de la zona tras Ribadeo— y precio asequible. Un martes de noviembre los servicios son 3/10 y la fibra, parcial: el coche organiza compra y ocio hacia Foz o Ribadeo. Quien acepte esa lógica —orilla de playa con villa de apoyo semanal— y priorice Cantábrico abierto frente a casco denso encontrará aquí unos ocho kilómetros de costa y parroquias. Reinante y San Miguel son nombres de orilla más que de plaza histórica.",
- "El clima sigue lejos de Mallorca: unas mil novecientas veinte horas de sol y unos cuarenta días despejados frente a las dos mil ochocientas horas y ciento veinte jornadas claras de la isla; niebla alta, verano fresco cerca de dieciocho grados y medio. Las playas tienen agua entre diecisiete y diecinueve grados; As Catedrais invitan más al paseo entre arcos que al baño largo cuando el Cantábrico está bravo. En verano playas y arcos concentran afluencia, tráfico y aparcamiento justo. Encaja mejor como orilla de temporada o segunda residencia que como vivienda de todo el año si se necesitan vecinos estables en enero: gran parte de los bloques de apartamentos de los años 2000 bajan mucho el volumen en invierno por la segunda residencia.",
- ],
- no: [
- "No encaja como vivienda de todo el año si se necesitan comercio denso, mesas abiertas en enero y servicios 6/10. Barreiros es costa de veraneo más que villa de trabajo: falta núcleo urbano completo; Foz y Ribadeo quedan a unos diez o quince minutos para lo diario. Viveiro, Burela y Ribadeo cubren vida densa. El Hospital da Mariña está a unos veinticinco minutos —aceptable en la comarca, no a pie—.",
- "Tampoco si agosto junto a As Catedrais debe ser silencioso: la afluencia define la temporada, y quien se decida solo con un sábado de sol sin probar un martes de noviembre vacío se encontrará con calles quietas, fibra parcial y coche para casi todo. El cielo de Baleares no está aquí; el gris de invierno sí.",
- ],
- veredicto:
- "Veredicto: Barreiros es playas y veraneo, no villa completa. Buscaría vivienda con fibra comprobada y acceso claro, lejos del atasco de As Catedrais en agosto, tras probar un martes de noviembre vacío y decidir si Foz o Ribadeo pueden ser la villa de apoyo. Se ganan arena, arcos a cinco minutos y Asturias a unos setenta; se aceptan servicios 3/10, hospital a veinticinco minutos e invierno quieto.",
- },
- fotoIdentidad: {
- src: "/fotos/a-marina/barreiros-identidad.jpg",
- pie: "Barreiros: casas junto al mar, con la sierra detrás",
- },
- fotosAbrir: [
- { src: "/fotos/a-marina/barreiros-catedrais.jpg", pie: "As Catedrais a minutos de Barreiros" },
- { src: "/fotos/a-marina/barreiros-playa.jpg", pie: "Playa larga en Barreiros" },
- ],
- fotosHistoria: [
- { src: "/fotos/a-marina/barreiros-villa.jpg", pie: "Núcleo y escala de Barreiros" },
- { src: "/fotos/a-marina/barreiros-san-miguel.jpg", pie: "San Miguel y orilla en Barreiros" },
- ],
- fotosFuera: [
- { src: "/fotos/a-marina/barreiros-reinante.jpg", pie: "Reinante, playa y costa de Barreiros" },
- { src: "/fotos/a-marina/barreiros-costa.jpg", pie: "Casa de indianos en la costa de Barreiros" },
- ],
- creditoFotos: credito,
- },
+    escala: "Playas y parroquias",
+    abrir: [
+      "Barreiros se entiende mejor comparando agosto con enero. La costa se estira entre playas como Arealonga, Altar, Coto y Remior, mientras las parroquias y los bloques de apartamentos de los años 2000 reparten la vida en lugar de concentrarla en una villa. As Catedrais quedan a pocos minutos y atraen una parte importante del movimiento de verano. En invierno, muchas ventanas vuelven a quedar oscuras.",
+      "Esa diferencia de estación importa más que cualquier imagen de postal. Aquí se puede vivir muy cerca de la arena y, al mismo tiempo, depender del coche para resolver una compra o llegar a una villa con más actividad. Barreiros ofrece costa delante; Foz y Ribadeo funcionan como apoyos habituales para una parte de la rutina."
+    ],
+    tiempo: [
+      "El cambio respecto a Mallorca se nota menos en una cifra aislada que en la forma de usar la casa y la calle: verano fresco, humedad, niebla y más días en los que apetece caminar la costa con chaqueta. En invierno conviene haber visto la vivienda con tiempo gris, porque orientación, aislamiento y ventilación pesan mucho más que en una visita de agosto.",
+      "El Cantábrico también marca el ritmo. Hay días de playa y otros en los que Arealonga o los arcos próximos de As Catedrais son, sobre todo, lugares para caminar y mirar el mar. La marea y el estado del agua forman parte de la rutina costera."
+    ],
+    vivir: [
+      "Un martes de noviembre explica Barreiros mejor que un domingo de agosto. Fuera de temporada baja la actividad, algunos bloques quedan con pocas viviendas ocupadas y la dispersión se hace evidente. La vida diaria depende mucho de dónde esté exactamente la casa: estar junto a una playa no significa estar junto a farmacia, compra o servicios.",
+      "Sin coche, la autonomía es limitada en buena parte del municipio. Foz y Ribadeo sirven de apoyo para compras, gestiones y una vida urbana algo más completa; para atención hospitalaria también hay que salir del municipio. El tren de ancho métrico existe, pero su mera presencia no sustituye esa lógica cotidiana.",
+      "En verano cambia la escena. Las playas y As Catedrais concentran visitantes, tráfico y búsqueda de aparcamiento, mientras las zonas más interiores recuperan antes la calma. Antes de elegir vivienda aquí merece más la pena comparar una semana de agosto con un día corriente de enero que discutir si una parroquia parece tranquila en una visita breve.",
+      "Hay una pregunta sencilla que ayuda a leer una casa en Barreiros: cuántas luces quedan encendidas alrededor en enero. A ella se suman otras más prácticas —fibra real, acceso fácil, humedad, aislamiento y distancia efectiva a la compra— que dicen mucho sobre cómo funcionará la vivienda durante todo el año."
+    ],
+    historia: [
+      "El paisaje inmediato está marcado por As Catedrais y por una costa de playas largas, pero el municipio no se organiza alrededor de un gran casco histórico. Reinante y San Miguel ayudan a entender esa geografía de parroquias y orilla: Barreiros es una suma de núcleos y costa más que una plaza central de la que salga todo.",
+      "También pesa el crecimiento residencial de las últimas décadas. Los bloques vinculados al veraneo explican parte del contraste entre la actividad de agosto y el silencio de invierno; no es solo una cuestión de clima, sino de cómo se ocupa el territorio."
+    ],
+    fuera: [
+      "Arealonga, Altar, Coto y Remior forman la imagen de playa larga del municipio. Lóngara y As Pasadas amplían ese mapa de salidas costeras. Según dónde esté la vivienda, alguno de esos paseos puede empezar casi desde casa o exigir coger el coche: en un municipio tan extendido, la dirección concreta importa.",
+      "As Catedrais son la salida más conocida y también el mejor recordatorio de la estacionalidad: arcos, marea y mucha más afluencia en los días fuertes. Para la vida ordinaria, el mapa se completa hacia Foz y Ribadeo, que aportan la escala de villa que Barreiros no concentra en un único núcleo."
+    ],
+    casa: [
+      "Aquí importa tanto la microzona como la vivienda. Un apartamento próximo al mar puede ofrecer una relación muy directa con la playa y quedar, a la vez, lejos de servicios cotidianos; una casa en parroquia cambia esa relación por espacio y otra dependencia del coche.",
+      "En edificios de uso estacional conviene mirar comunidad, ocupación de invierno, accesibilidad y mantenimiento. En cualquier tipología pesan la humedad, la orientación, el aislamiento y la fibra disponible. La referencia de precio y las estimaciones de tamaño quedan en la capa factual y en la tabla; el relato útil es comprobar cómo funciona esa casa concreta en enero y en agosto."
+    ],
+    encaja: {
+      si: [
+        "Encaja si lo que se busca es vivir con mucha costa alrededor y se acepta una rutina repartida: playa cerca de casa en algunas microzonas, coche para buena parte de los servicios y Foz o Ribadeo como villas de apoyo. El atractivo está en disponer de arenales y paseos costeros sin necesitar que el municipio funcione como un casco urbano compacto.",
+        "También encaja si el contraste estacional no resulta un problema: más movimiento junto a las playas en verano y bastante menos vecindad visible en algunos edificios durante el invierno. Quien valore esa calma debe comprobar antes que no se convierta, para su forma de vivir, en aislamiento."
+      ],
+      no: [
+        "Encaja peor si se quiere salir de casa y resolver casi toda la semana andando, si se necesita mucha actividad alrededor durante todo el año o si el coche debe ser excepcional. La costa extensa no elimina la dispersión.",
+        "Tampoco si una vivienda de playa solo convence con el municipio lleno. Barreiros cambia mucho entre agosto y enero, y esa diferencia forma parte de la decisión tanto como la vista al mar."
+      ],
+      veredicto:
+        "Barreiros es una forma dispersa y estacional de vivir A Mariña: mucha orilla, playas y As Catedrais muy presentes, pero sin una villa densa que concentre la rutina. La vivienda adecuada depende menos de una etiqueta municipal que de comprobar acceso, servicios reales, vecinos de invierno, humedad y cuánto coche exige la microzona."
+    },
+    fotoIdentidad: {
+      src: "/fotos/a-marina/barreiros-identidad.jpg",
+      pie: "Barreiros: casas junto al mar, con la sierra detrás",
+    },
+    fotosAbrir: [
+      { src: "/fotos/a-marina/barreiros-catedrais.jpg", pie: "As Catedrais a minutos de Barreiros" },
+      { src: "/fotos/a-marina/barreiros-playa.jpg", pie: "Playa larga en Barreiros" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/a-marina/barreiros-villa.jpg", pie: "Núcleo y escala de Barreiros" },
+      { src: "/fotos/a-marina/barreiros-san-miguel.jpg", pie: "San Miguel y orilla en Barreiros" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/a-marina/barreiros-reinante.jpg", pie: "Reinante, playa y costa de Barreiros" },
+      { src: "/fotos/a-marina/barreiros-costa.jpg", pie: "Casa de indianos en la costa de Barreiros" },
+    ],
+    creditoFotos: credito,
+  },
 
   ribadeo: {
     escala: "Villa de frontera y As Catedrais",

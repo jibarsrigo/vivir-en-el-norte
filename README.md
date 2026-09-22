@@ -52,7 +52,7 @@ Columna `origen`: **MAPA 1.0** (27 municipios de la versión anterior), **MAPA 2
 
 | Ruta | Qué es |
 |---|---|
-| `data/municipios.csv` | **Tabla maestra** (fuente de verdad). 83 filas × 54 columnas, separador `;`, UTF-8. |
+| `data/municipios.csv` | Tabla histórica MAPA 2.0 (83×54). **No** es la referencia activa 2026: esa es `data/master/TABLA_MAESTRA_…_v15_…xlsx` (ver `data/master/README.md`), sincronizada a `web/src/data/municipios-*.json`. |
 | `data/diccionario_columnas.csv` | Definición, unidad, tipo de dato, rango y valores admitidos de cada columna (generado desde el esquema). |
 | `data/geo/*.geojson` | Cartografía base recortada al norte peninsular: países y provincias (Natural Earth 10 m), términos municipales de España y Portugal (GADM 4.1, para la costa detallada de los mapas de zona), ríos y carreteras (Natural Earth). |
 | `mapa2/esquema.py` | Ficha de búsqueda, columnas, zonas, hospitales (33, públicos y privados), aeropuertos (7) con su situación de vuelo a Palma, umbrales y reglas de cálculo, resumen Portugal. |
@@ -87,7 +87,7 @@ python -m mapa2.mapas_municipio "A Guarda"   # mapa detallado + ficha del munici
 python -m mapa2.estudio             # convierte docs/estudio_zonas.md (con sus mapas) en output/mapa_2_0_estudio.pdf
 ```
 
-Para cambiar un dato: edita `data/municipios.csv`, vuelve a ejecutar `validar` y, si está en verde, `render`.
+Para cambiar un dato estructurado 2026: editar primero el XLSX v15 en `data/master/`, luego propagar con `python scripts/sync_master_v15_to_web.py` y `qa_master` / `sync --check`. El CSV `data/municipios.csv` es legado MAPA 2.0.
 
 ## Columnas de la tabla
 

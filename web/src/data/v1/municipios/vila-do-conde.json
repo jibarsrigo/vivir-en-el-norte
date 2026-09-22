@@ -1,0 +1,90 @@
+{
+  "tipo": "municipio",
+  "slug": "vila-do-conde",
+  "nombre": "Vila do Conde",
+  "n": 83,
+  "zonaId": "litoral-norte",
+  "zonaNombre": "Litoral Norte (PT)",
+  "provincia": "Porto",
+  "pais": "Portugal",
+  "sourcePath": "web/src/lib/relatos-litoral-norte.ts",
+  "sourceKey": "vila-do-conde",
+  "sourceExport": "RELATOS_LITORAL_NORTE",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "2daa29ceead43986b0017891d17f4374e95efd80c0af2d59b14673f9b77a46e3",
+  "relato": {
+    "escala": "Ciudad histórica junto al aeropuerto",
+    "abrir": [
+      "Vila do Conde se siente, al cruzar el Ave o al bajar del metro, como la ciudad histórica que guarda la puerta de Porto hacia el norte. Unos ochenta mil habitantes: casco con el convento de Santa Clara, el acueducto de 999 arcos, la Alfândega y la Nau Quinhentista —réplica de nao del siglo XVI—, río Ave, playas de Vila do Conde y Azurara, Mindelo —reserva ornitológica— a unos diez minutos, metro —línea B— y A28. Los astilleros históricos marcan la memoria de una villa que construyó barcos cuando el Atlántico era oficio, no solo foto de turismo.",
+      "Quien vive aquí es gente local, quien trabaja en Porto y vuelve por la A28, y quien busca casco monumental con aeropuerto a un cuarto de hora. Un martes de noviembre se camina el casco, se compra en ciudad y se resuelve el día a día sin depender del veraneo: servicios 8/10; comunicaciones 9/10; dependencia del coche 3/10. El hospital comarcal queda a unos diez minutos; CUF Porto, a unos treinta. El aeropuerto de Porto–Sá Carneiro anda alrededor de los quince —el más rápido de toda la tabla, junto a Vigo y A Coruña: Palma en verano y más de ochenta destinos—. Para el casco y el Ave no hace falta coche; para Mindelo o la hora punta hacia Porto, sí.",
+      "El tráfico es de ciudad casi todo el año. En julio y agosto lo cambia todo: Azurara y el paseo reciben más afluencia, la A28 se congestiona hacia Porto en hora punta y la nortada de tarde marca la terraza. Hay obra nueva y fibra. Quien busque silencio absoluto de enero lo encontrará en calles laterales del casco; quien busque café junto al Ave también. El ritmo de ciudad histórica se mantiene mejor que el de un frente solo de bloques.",
+      "La semana tiene rutinas claras: Santa Clara, acueducto, mercado, metro, orilla del Ave. Primavera y otoño son buenas épocas para conocerlo: el casco sin gentío de agosto, Mindelo con aves, Azurara con menos tablas. Si solo conoces Santa Clara un día de sol, te llevas la imagen de folleto del monumento. Si has visto un agosto en Azurara y un martes gris junto al río, ya puedes decidir si de verdad quieres vivir aquí.",
+      "El verano, sin embargo, tiene días que desbordan esa calma monumental. Fiestas locales y el veraneo llenan playa y paseo unas semanas. Vivir en el frente de Azurara significa contar con ruido y viento; hacia el casco histórico, el volumen baja a cambio de calles de piedra y turismo de día. Vila do Conde no promete dunas de Ofir: promete historia, Ave y el aeropuerto a quince minutos a cambio de bloques en el frente y mar frío."
+    ],
+    "tiempo": [
+      "Si vienes de Baleares, el sol pide menos renuncia que en el norte gallego húmedo, pero el Atlántico pide más abrigo. Vila do Conde suma unas 2.550 horas de sol y unos 85 días despejados —el máximo de la tabla—, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.200 a 1.300 milímetros en unos 105 a 108 días; julio y agosto casi secos. La niebla de mar por la mañana y la nortada de tarde marcan el verano tanto como el termómetro.",
+      "El verano ronda 20 °C, con máximas alrededor de 25 °C y tres a seis días sobre 30 °C. Las playas de Vila do Conde y Azurara —surf— tienen agua entre 16 y 18 °C: mar abierto y viento de tarde. Frente a Mallorca se gana sueño fresco y se pierde agua tibia. Conviene probar nortada y un noviembre en el casco, no solo un sábado soleado junto al acueducto."
+    ],
+    "vivir": [
+      "El invierno en Vila do Conde es de ciudad histórica que mantiene ritmo: niebla de mar por la mañana, lluvia y humedad del Ave piden calefacción y aislamiento. En el frente de Azurara hay que contar con salitre y nortada; hacia el casco, calles de piedra más abrigadas. Probar un martes gris junto al río evita firmar solo por Santa Clara en sol.",
+      "Sin coche, el casco y el Ave se resuelven a pie —servicios 8/10, dependencia del coche 3/10—; metro línea B y A28 cubren Porto. Para Mindelo o la hora punta hacia Porto hace falta vehículo. En enero hay café junto al Ave; el ritmo no se apaga fuera de temporada como en un frente solo de bloques.",
+      "Conviven gente local, quien trabaja en Porto y vuelve por la A28, y turismo de día en el casco. El portugués manda; la escala es de ciudad monumental con puerta al aeropuerto. En verano Azurara se llena; entre semana manda el ir y venir metropolitano. La integración pasa por casco, Ave y metro, no por dunas de Ofir.",
+      "El hospital comarcal queda a unos diez minutos; CUF Porto, a unos treinta. Hay que contar con seguro privado portugués —público más lento, como en el Alto Minho—. No hay tarjeta española de diario. Empadronarse aquí abre ciudad; el privado de referencia está en Porto.",
+      "Porto–Sá Carneiro anda alrededor de los quince minutos —el más rápido de toda la tabla, junto a Vigo y A Coruña: Palma en verano y más de ochenta destinos—. Ir y volver a Mallorca es el acceso aéreo más cómodo del estudio. Conviene mirar temporada y conexiones del resto del año.",
+      "En el casco y el ensanche hay pisos; en el frente, bloques. Hay obra nueva y fibra. No hay casas bajas en el frente de mar. El modelo puede ser piso hacia el Ave con acceso al casco, o vivienda en Azurara con más viento y más agosto. Tres habitaciones suelen quedar caras; dos en franja asequible son la orilla más realista. Probar Azurara en temporada y un noviembre en el casco antes de comprar."
+    ],
+    "historia": [
+      "Santa Clara, el acueducto de 999 arcos, la Alfândega y la Nau Quinhentista explican Vila do Conde: ciudad histórica de río y mar, con capa conventual y de astilleros. El Ave marca la orilla urbana; los barcos que aquí se construyeron unieron la villa al Atlántico de oficio mucho antes del metro y de la A28.",
+      "Azurara añade la costa de surf; Mindelo —reserva ornitológica a unos diez minutos— la capa de naturaleza en costa llana. Lo que conviene saber no es lista seca de monumentos: es convento, acueducto, nao y astilleros en una ciudad que hoy mira a Porto por carretera y por raíl, con el aeropuerto a un cuarto de hora."
+    ],
+    "fuera": [
+      "El casco —acueducto, Santa Clara, Nau Quinhentista— y el paseo junto al Ave son la tarde de diario: piedra, río, mesas cuando el tiempo acompaña. No hace falta coche para sentir ciudad histórica; el agua dulce del Ave cambia el registro del Atlántico abierto.",
+      "Azurara cubre el baño y el surf: arena, olas, agua entre 16 y 18 °C, nortada de tarde. Un martes de junio puedes tener más calma; en agosto el frente se llena. Mindelo queda a unos diez minutos: reserva ornitológica, pasarelas, otro ritmo de costa llana sin bloques.",
+      "Póvoa anda a trayecto corto —paseo largo, casino, hospital a cinco—. Porto–Sá Carneiro, a unos quince; Porto ciudad, a media hora. Quien viva aquí acepta historia y Ave de diario, Atlántico en Azurara y la metrópoli como refuerzo, no como paisaje de la ventana."
+    ],
+    "casa": [
+      "En el casco y el ensanche hay pisos; en el frente, bloques. Hay obra nueva y fibra. El modelo puede ser piso hacia el Ave con acceso al casco, o vivienda en el frente de Azurara con más viento y más agosto. En primera línea hay que contar con ocupación estival, salitre y nortada; conviene comprobar ambos.",
+      "El precio medio ronda 2.600 €/m². Dos habitaciones en la franja asequible se sitúan alrededor de 220.000 euros. Tres habitaciones rondan 304.000 euros —fuera de la orilla asequible habitual—. Quien busque tres habitaciones dentro de esa orilla deberá aceptar distancia a la playa o mirar Esposende.",
+      "Los servicios son 8/10; comunicaciones, 9/10. El hospital queda a unos diez minutos; CUF Porto, a unos treinta. Porto–Sá Carneiro está a unos quince. Hay que contar con seguro privado portugués. Conviene probar Azurara en temporada y un noviembre en el casco antes de comprar."
+    ],
+    "encaja": {
+      "si": [
+        "El aeropuerto a un cuarto de hora importa más que la calma de dunas. Vila do Conde reúne casco histórico —convento de Santa Clara, acueducto de 999 arcos, Alfândega, Nau Quinhentista—, río Ave, playas de Vila do Conde y Azurara —surf—, Mindelo —reserva ornitológica— a unos diez minutos, metro —línea B— y A28. Los servicios alcanzan 8/10; las comunicaciones, 9/10; la dependencia del coche, 3/10. El hospital comarcal queda a unos diez minutos; Porto–Sá Carneiro, a unos quince —el acceso más rápido de toda la tabla junto a Vigo y A Coruña: Palma en verano y más de ochenta destinos—. Quien quiera ciudad monumental con Porto a media hora y el Ave como orilla urbana encontrará aquí el marco: un martes de noviembre se camina el casco; el ritmo no se apaga fuera de temporada.",
+        "También encaja para quien priorice historia y conexiones frente a Ofir y Apúlia: se aceptan bloques en el frente y mar abierto a dieciséis–dieciocho grados —frío, con nortada de tarde— a cambio de acueducto, metro y el mejor vuelo de la zona. El precio medio ronda 2.600 €/m²; dos habitaciones en franja asequible, alrededor de 220.000 euros. Obra nueva y fibra. CUF Porto anda alrededor de treinta minutos."
+      ],
+      "no": [
+        "No encaja si se buscan casas bajas en el frente de mar —igual que en Póvoa: el frente es de bloques— o tres habitaciones dentro de la orilla asequible habitual: esa tipología ronda 304.000 euros y queda fuera. Tampoco si el agua debe templarse, si la terraza de verano debe usarse sin viento o si la montaña debe quedar detrás: Gerês sigue a hora y media; aquí mandan río, playa y A28.",
+        "El hospital privado no está a la vuelta de la esquina —CUF Porto hacia los treinta— y la sanidad pública española de diario no aplica: se vive en Portugal, con comarcal a diez minutos y la recomendación del estudio de seguro privado portugués —público más lento, como en el Alto Minho—. Quien se decida solo por Santa Clara un día de sol, sin probar un agosto en Azurara ni la A28 en hora punta hacia Porto, se llevará una sorpresa. Si lo que manda es duna y pinos, Esposende; si paseo largo, casino y hospital a cinco, Póvoa."
+      ],
+      "veredicto": "Veredicto de quien mira la puerta de Porto: Vila do Conde encaja como ciudad histórica junto al aeropuerto —dos habitaciones en franja asequible o piso hacia el casco con acceso al Ave, fuera del frente más ocupado en agosto— sobre todo si Sá Carneiro a quince, metro y comunicaciones 9/10 importan más que dunas residenciales. Probar Azurara en temporada y un noviembre en el casco antes de comprar. Se ganan Santa Clara, acueducto, hospital a diez y Porto a media hora; se aceptan ~2.600 €/m², bloques en el frente, mar frío 16–18 °C, nortada y seguro privado portugués en lugar de la tarjeta española."
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/litoral-norte/vila-casco.jpg",
+        "pie": "Casco histórico de Vila do Conde"
+      },
+      {
+        "src": "/fotos/litoral-norte/vila-acueducto.jpg",
+        "pie": "Acueducto de Vila do Conde"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/litoral-norte/vila-santa-clara.jpg",
+        "pie": "Convento de Santa Clara, Vila do Conde"
+      },
+      {
+        "src": "/fotos/litoral-norte/vila-nau.jpg",
+        "pie": "Nau Quinhentista en Vila do Conde"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/litoral-norte/vila-azurara.jpg",
+        "pie": "Azurara: playa de surf junto a Vila do Conde"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

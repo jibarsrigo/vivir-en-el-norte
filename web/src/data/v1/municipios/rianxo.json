@@ -1,0 +1,93 @@
+{
+  "tipo": "municipio",
+  "slug": "rianxo",
+  "nombre": "Rianxo",
+  "n": 26,
+  "zonaId": "barbanza-e-noia",
+  "zonaNombre": "Barbanza e Noia",
+  "provincia": "A Coruña",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-barbanza-e-noia.ts",
+  "sourceKey": "rianxo",
+  "sourceExport": "RELATOS_BARBANZA_E_NOIA",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "3e7b1c7e11ef8ac99b16b81540ecc83d0805315ce34365b7176c908c52cd8c96",
+  "relato": {
+    "escala": "Villa literaria de ría",
+    "abrir": [
+      "Rianxo se siente como una villa que escribe y trabaja a la vez. Unos once mil habitantes al fondo de la ría de Arousa —la gran entrada de mar protegida que abre las Rías Baixas— y, sin embargo, hay puerto, plaza con soportales, calles cortas de piedra y, a tres minutos, Tanxil, la playa urbana de agua calma. El casco baja hacia la dársena con el ritmo de un pueblo que vive del mar: barcos, mesas, galerías. Es la villa natal de Castelao, Manuel Antonio y Rafael Dieste: tres nombres que convierten el municipio en una referencia literaria de Galicia, no en un escenario solo de turismo.",
+      "Quien vive aquí es gente local, vecinos de oficio y de lectura, y veraneantes gallegos que vuelven en agosto sin el volumen de Boiro o A Pobra. Un martes de noviembre el centro de salud, la farmacia, el súper, el colegio y el pequeño comercio cubren la semana básica a pie. El coche sirve para el Hospital do Barbanza —en Ribeira, a unos treinta minutos, el límite deseable de la comarca— y para Santiago, a unos cuarenta. Padrón queda a quince. La ría aquí es abrigada: marea visible, poca ola y un invierno que no apaga del todo el paseo.",
+      "El resto del año Rianxo vuelve a ser villa de trabajo y de piedra: mesas abiertas, marisqueo, poca presión turística. Primavera y otoño son buenas épocas para conocerlo: en mayo la orilla se pone verde y usable; en noviembre se nota la lluvia seria y la humedad de las casas de granito. Si solo conoces un sábado de sol en Tanxil, te llevas la sensación de calma. Si has visto un frente de invierno, ya puedes decidir si quieres vivir junto al puerto.",
+      "El calendario local marca el Carmen en julio, con procesión marinera, música y tráfico hacia el puerto, y actos culturales ligados a Castelao y a la memoria literaria de la villa. En agosto el veraneo anima el paseo y Tanxil: noches de orquesta, coches en las calles laterales, terrazas llenas. Vivir junto al puerto o a la plaza significa contar esas fechas como parte del año, no como una excepción imprevista. Fuera de ellas, la villa recupera el silencio de ría trabajada."
+    ],
+    "tiempo": [
+      "Si vienes de Baleares, notará el cielo más gris y con menos sol que en Mallorca, más que un cambio de temperatura del agua. Rianxo suma unas 2.225 horas de sol y 65 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.350 milímetros en unos 121 días; de octubre a marzo llueve de trece a dieciséis días al mes y diciembre o enero pueden alcanzar dieciséis o diecisiete. La Serra do Barbanza —la sierra de granito que cierra la comarca por detrás— puede recortar sol de tarde en invierno: mañanas grises, terraza que se usa la mitad o menos.",
+      "El verano ronda 19,5 °C, con máximas habituales de 24 o 25 °C y pocos días por encima de 30 °C: mucho más suave que Baleares, con noches frescas que invitan a dormir con la ventana. El agua de la ría llega aproximadamente a 18-20 °C: fresca frente al Mediterráneo, pero calmada y usable en baños cortos en Tanxil o A Torre. Conviene venir un noviembre lluvioso y un martes de junio, no solo un sábado de sol de agosto."
+    ],
+    "vivir": [
+      "El invierno en Rianxo se siente en la humedad del granito y en las mañanas grises que la Serra do Barbanza puede alargar. En Mallorca muchas casas casi no piensan en calefacción ni en moho; aquí caen alrededor de 1.350 milímetros y la piedra del casco pide ventilación. Conviene revisar cubierta y humedad en noviembre. Visitar un frente de invierno junto al puerto enseña más que un sábado de sol en Tanxil.",
+      "El día a día sin coche funciona en el casco: centro de salud, farmacia, súper, colegio y pequeño comercio. En enero hay mesas abiertas y marisqueo. El coche aparece para el Hospital do Barbanza y para Santiago. No es capital comarcal; es villa de trabajo y de piedra.",
+      "Llegar de fuera mezcla oficio, lectura y veraneo gallego contenido. Se oye gallego en la plaza; el castellano basta para lo cotidiano. Entre semana manda el ritmo de ría; en julio el Carmen anima el puerto. Quien busque solo resort no lo encontrará; quien busque vecinos de villa literaria, sí.",
+      "La sanidad de urgencia y especialidades no está en el municipio: el Hospital do Barbanza, en Ribeira, queda a unos treinta minutos; el CHUS de Santiago, a unos cuarenta y cinco. Empadronarse abre el médico de cabecera local; para hospital se conduce. Ese dato no se arregla eligiendo otra calle del casco.",
+      "Mantener el vínculo con Mallorca pasa por el avión. El aeropuerto de Santiago-Lavacolla, con enlace a Palma durante casi todo el año, está a unos cuarenta minutos. En invierno conviene mirar el calendario real de vuelos. La proximidad a Lavacolla es una ventaja clara frente a villas más remotas del Barbanza.",
+      "El modelo habitual es piso o casa de piedra en el casco, o vivienda con más parcela en parroquias. Poca obra nueva; fibra en el núcleo. Conviene revisar humedad de granito, cubierta y aparcamiento cerca del puerto en agosto. Presupuestar calefacción y ventilación, no solo metros a ~1.200 €/m²."
+    ],
+    "historia": [
+      "Alfonso Daniel Rodríguez Castelao nació en Rianxo en 1886. Dibujante, escritor y político, es una de las figuras centrales de la cultura gallega del siglo XX; la villa conserva su memoria en calles, bustos y visitas ligadas a su obra. Manuel Antonio, poeta de la generación de 1925, y Rafael Dieste, narrador y autor teatral, completan un mapa literario que aquí se siente en el casco, no solo en una placa: la plaza, los soportales y el puerto hablan el mismo idioma que los libros.",
+      "El puerto y el marisqueo sostuvieron la economía mientras la emigración y el comercio dejaban casas de piedra y galerías. La Torre de Quintáns y el entorno del paseo recuerdan una villa que miraba a la ría como medio de vida, no como foto de turismo. Hoy el dato útil no es solo el de los nombres ilustres: es el de una orilla trabajada que sigue abierta en enero, con cajas, marea y mesas que no esperan a agosto para existir."
+    ],
+    "fuera": [
+      "Si solo hay tiempo para un baño cerca, ese baño es Tanxil: arena junto al casco, agua de ría entre 18 y 20 °C, poca ola, marea visible. A Torre completa el baño urbano a pocos minutos. No son arenales atlánticos bravos; son orillas de estuario, útiles para un baño corto y un paseo sin coche. Un martes de junio puedes tener casi toda la arena; un domingo de agosto el veraneo gallego se nota en el aparcamiento y en las toallas conocidas. Es playa de diario —de vecinos—, no de resort.",
+      "Más allá del casco, la orilla sigue siendo de ría abrigada. Quien quiera un tramo más abierto puede mirar hacia Boiro —Barraña, el arenal grande— o hacia A Pobra —Cabío bajo pinar—, a un trayecto corto por la misma costa de Arousa. Vilagarcía queda al otro lado de la ría; Padrón, a quince minutos, aporta otra escala de villa interior. No hace falta inventar costa brava: aquí el registro es agua calmada y marea.",
+      "Los caminos son la otra mitad del agua. La senda del río Te sigue el curso de agua hacia el interior entre vegetación y piedra: un paseo de sombra cuando aprieta el sol en la orilla. Para monte real se sube a la Serra do Barbanza o se conduce hacia A Curota —el mirador de unos 498 metros desde el que se ven varias rías—. Santiago queda a unos cuarenta minutos y concentra compras grandes, hospital de referencia y el aeropuerto de Lavacolla."
+    ],
+    "casa": [
+      "El modelo de casa aquí no es la urbanización cerrada. Es piso o casa de piedra en el casco —plaza, soportales, calles cortas hacia el puerto— o vivienda con más parcela hacia las parroquias. Hay poca obra nueva y fibra en el núcleo. Lo que se compra, en general, ya existe y tiene historia de uso: galerías, humedad de granito, olor a ría.",
+      "Conviene revisar tres cosas que el anuncio no cuenta: humedad de la piedra en noviembre, cubierta bien resuelta y aparcamiento cerca del puerto en agosto, cuando el Carmen y el veraneo llenan las calles laterales. El precio medio ronda 1.200 €/m², el más bajo de la zona. Un piso de tres habitaciones en la franja asequible se sitúa alrededor de 140.400 euros. La franja media puede ser vivienda reformada en el casco o casa con terreno; el estado de la reforma importa más que una cifra única.",
+      "Los servicios son 5/10: cubren lo diario a pie; no pretenden ser capital comarcal. El Hospital do Barbanza queda a unos treinta minutos; el CHUS de Santiago, a unos cuarenta y cinco. El aeropuerto de Santiago-Lavacolla, con enlace a Palma durante casi todo el año, está a unos cuarenta minutos. Eso es Rianxo: mucha piedra literaria y mucha ría calmada, y el hospital siempre a un trayecto."
+    ],
+    "encaja": {
+      "si": [
+        "La ría de Arousa a tres minutos importa más que tener el Hospital do Barbanza a la vuelta de la esquina. La playa de diario es Tanxil: arena junto al casco, agua calmada entre 18 y 20 °C, poca ola; A Torre completa el baño urbano. Quien quiera bajar al puerto, cruzar la plaza de piedra con soportales, tomar café en enero y sentir que Castelao, Manuel Antonio y Dieste no son placas sino el carácter de la villa encontrará aquí una orilla que no se apaga fuera de temporada. El día a día —farmacia, súper, centro de salud, colegio— cabe a pie; Santiago queda a unos cuarenta minutos y el aeropuerto de Santiago-Lavacolla, con vuelo a Palma casi todo el año, también alrededor de cuarenta. El precio es el más amable del Barbanza: alrededor de 1.200 €/m² y tres habitaciones en franja asequible cerca de 140.400 euros.",
+        "Funciona especialmente bien para quien valore cultura y mesas abiertas más que un gran arenal atlántico. La senda del río Te, el paseo de ría y Padrón a quince minutos bastan para una semana sin forzar coche cada tarde. El verano ronda 19,5 °C —mucho más fresco que Mallorca— y el Carmen de julio anima el puerto sin el volumen de Boiro o A Pobra."
+      ],
+      "no": [
+        "El Hospital do Barbanza, en Ribeira, está a unos treinta minutos —el límite deseable de la comarca—; el privado HM Rosaleda, en Santiago, hacia los cuarenta y cinco. Eso no se arregla eligiendo otra calle del casco. Si la prioridad absoluta es sanidad a quince o veinte minutos, esta villa no encaja: hay que mirar A Pobra (unos diez) o Ribeira (unos cinco), o aceptar el trayecto con los ojos abiertos.",
+        "Tampoco encaja si se busca Atlántico abierto, dunas o la densidad comercial de una capital comarcal. Porto do Son da océano y Baroña; Ribeira, lonja, cine y hospital a pie. Rianxo gana por calma, piedra literaria y precio; no por escala de servicios (5/10) ni por costa brava. Quien se decida solo tras un sábado de sol en Tanxil, sin probar humedad de piedra en noviembre ni el ruido del Carmen junto al puerto, se llevará una sorpresa."
+      ],
+      "veredicto": "Veredicto de quien conoce la comarca: Rianxo encaja como villa literaria de ría —piso o casa de piedra en el casco, caminable a Tanxil y al puerto, lejos del tramo más ruidoso del Carmen— sobre todo si el agua calmada de Arousa, Santiago a unos cuarenta y el precio más bajo de la zona importan más que el hospital. Como casa única solo si se acepta el Hospital do Barbanza a media hora y Lavacolla a unos cuarenta. Comprobar humedad en noviembre y una noche de fiesta marinera antes de comprar."
+    },
+    "fotoIdentidad": {
+      "src": "/fotos/barbanza-e-noia/rianxo-identidad.jpg",
+      "pie": "Rianxo: casas de la villa frente a la ría de Arousa, con el monte detrás"
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/barbanza-e-noia/rianxo-villa.jpg",
+        "pie": "Rianxo: villa de piedra al fondo de la ría de Arousa"
+      },
+      {
+        "src": "/fotos/barbanza-e-noia/rianxo-tanxil.jpg",
+        "pie": "Tanxil, playa urbana de agua calma"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/barbanza-e-noia/rianxo-castelao.jpg",
+        "pie": "Memoria de Castelao en la villa natal"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/barbanza-e-noia/rianxo-puerto.jpg",
+        "pie": "Puerto de Rianxo, orilla de trabajo"
+      },
+      {
+        "src": "/fotos/barbanza-e-noia/rianxo-paseo.jpg",
+        "pie": "Paseo junto a la ría en Rianxo"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

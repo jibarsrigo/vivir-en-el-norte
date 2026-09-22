@@ -1,0 +1,91 @@
+{
+  "tipo": "municipio",
+  "slug": "castro-urdiales",
+  "nombre": "Castro-Urdiales",
+  "n": 72,
+  "zonaId": "cantabria-oriental",
+  "zonaNombre": "Cantabria Oriental",
+  "provincia": "Cantabria",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-cantabria-oriental.ts",
+  "sourceKey": "castro-urdiales",
+  "sourceExport": "RELATOS_CANTABRIA_ORIENTAL",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "13997870797c27897f7f1b874d2829213f5bb77b2c08b93dd79f413846e1d436",
+  "relato": {
+    "escala": "Ciudad hacia Bilbao",
+    "abrir": [
+      "Castro-Urdiales se siente como villa medieval convertida en ciudad dormitorio de Bilbao: unos treinta y cuatro mil habitantes, Santa María de la Asunción —iglesia gótica sobre la peña—, castillo-faro, puente medieval, paseo, playas de Brazomar y Ostende, Islares y Oriñón a unos diez minutos, y Bilbao a unos treinta y cinco. Es ciudad completa con orilla, no villa pequeña de silencio.",
+      "Quien vive aquí resuelve casi todo en ciudad. Un martes de noviembre los servicios alcanzan 8/10; las comunicaciones, 8/10. El Hospital de Laredo queda a unos veinticinco minutos; Cruces —Barakaldo—, a unos treinta y cinco. El aeropuerto de Bilbao anda alrededor de treinta y cinco o cuarenta minutos, con Palma todo el año —el acceso más rápido de la tabla a ese vuelo—. Hay obra nueva. La seguridad ronda 46 por mil.",
+      "En verano Brazomar y Ostende reciben más afluencia; el ritmo de ciudad de trabajadores de Bilbao se mantiene todo el año. Primavera y otoño en la senda costera hacia Islares son buenas épocas para conocerlo. Quien se quede a vivir aquí acepta el sol más bajo de la tabla y precios vascos crecientes.",
+      "El calendario mezcla fiestas de villa —Coso Blanco y patronales animan el casco unos días— con el ritmo diario hacia Bilbao. El lleno de playa en agosto convive con el ensanche que no se vacía en enero. Quien viva junto a Brazomar debe contar la temporada; quien viva de cara a la A-8, el tráfico de trabajadores.",
+      "Castro encaja para quien quiera ciudad completa con Bilbao al lado y vuelo a Palma todo el año a unos cuarenta minutos. Si solo conoces un sábado soleado en Brazomar, te llevas la imagen de folleto de la playa. Si has visto un noviembre cubierto, ya puedes decidir si aceptas el precio de tener poco sol."
+    ],
+    "tiempo": [
+      "Si vienes de Baleares, aquí el peaje de cielo es el más duro de toda la tabla. Castro suma unas 1.650 a 1.700 horas de sol —el mínimo— y unos 40 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.150 a 1.250 milímetros en unos 150 a 155 días. El viento es bajo; la niebla, baja.",
+      "El verano ronda 20 °C, fresco frente a Baleares. Brazomar, Ostende, Oriñón e Islares tienen agua entre 19 y 21 °C; la orilla combina bahía urbana y costa abierta a diez minutos. Conviene venir un noviembre cubierto y un día de trabajadores, no solo el sábado de sol en Ostende."
+    ],
+    "vivir": [
+      "El invierno en Castro es de ciudad que no se vacía: el ensanche mantiene ritmo; el peaje es el sol mínimo de toda la tabla —unas 1.650 horas— y mañanas cubiertas. Humedad de orilla y salitre en Brazomar u Ostende piden calefacción y aislamiento. Probar un noviembre cubierto evita firmar solo por Ostende en sol.",
+      "El día a día sin coche es viable en ciudad: servicios 8/10, comunicaciones 8/10. Un martes de noviembre se resuelve casi todo en casco y ensanche. Quien viva de cara a la A-8 notará el tráfico de trabajadores hacia Bilbao; junto a Brazomar, más afluencia de verano. En enero el ritmo es de ciudad dormitorio, no de villa vacía.",
+      "Castro es villa medieval convertida en ciudad dormitorio de Bilbao: conviven residentes locales y quienes trabajan en la capital vizcaína. Entre semana manda el ir y venir; en verano Brazomar y Ostende reciben más afluencia; Coso Blanco y patronales animan el casco unos días. El castellano basta; la integración pasa por ciudad y metro hacia Bilbao más que por silencio de noviembre como en Comillas.",
+      "El Hospital de Laredo queda a unos veinticinco minutos; Cruces —Barakaldo—, a unos treinta y cinco. No es hospital a cinco minutos como Laredo: es elegir entre comarcal cantábrico y hospital de la red vizcaína. Empadronarse aquí abre lo diario en ciudad; para especialidades se asume uno de esos trayectos.",
+      "El aeropuerto de Bilbao anda alrededor de treinta y cinco o cuarenta minutos, con Palma todo el año —el acceso más rápido de la tabla oriental a ese vuelo—. Ir y volver a Mallorca es más estable que depender solo de Santander. El peaje sigue siendo el sol mínimo, no la falta de avión.",
+      "El casco y el ensanche ofrecen pisos; hay obra nueva y fibra. En primera línea hay que contar con precio y ocupación de verano. Tres habitaciones suelen quedar caras; dos en franja asequible son la orilla más realista. Imaginar el tráfico hacia Bilbao y un agosto en Brazomar antes de comprar."
+    ],
+    "historia": [
+      "Santa María, el castillo-faro y el puente explican Castro: villa medieval de orilla —Flaviobriga en la capa romana— convertida en ciudad. El casco histórico no es adorno: es el núcleo delante del ensanche hacia Bilbao. La peña de la iglesia y el faro son el gesto que la gente fotografía; el dormitorio de trabajadores es el gesto que se vive de lunes a viernes.",
+      "Brazomar, Ostende y la senda costera de Cerdigo a Islares y Sonabia completan el arco de paseo y acantilado. Los Montes de Ordunte y Cerredo añaden monte cerca. Lo que conviene saber es de villa medieval y ciudad dormitorio.",
+      "Hoy Castro equilibra casco, ensanche, Bilbao a treinta y cinco y Palma todo el año a unos cuarenta. Quien camina el paseo un martes de noviembre entiende la ciudad; quien solo conoce Brazomar en agosto conoce solo la orilla."
+    ],
+    "fuera": [
+      "Si solo hay tiempo para un baño cerca, ese baño es Brazomar u Ostende: orilla urbana, agua entre 19 y 21 °C, paseo delante. Un martes de junio puedes tener espacio; un domingo de agosto hay más gente. Oriñón e Islares —a unos diez minutos— amplían costa abierta y acantilado.",
+      "El casco —Santa María, castillo-faro, puente— y el paseo son la tarde de diario. La senda de Cerdigo a Islares y Sonabia cubre el gesto de costa cuando no apetece toalla urbana.",
+      "Bilbao anda alrededor de treinta y cinco minutos; Cruces, también hacia media hora larga. Quien priorice ciudad, Bilbao cerca y vuelo anual estable encontrará aquí la logística oriental más potente; quien priorice chalés mirará Ribamontán; quien priorice hospital a cinco minutos, Laredo."
+    ],
+    "casa": [
+      "El casco y el ensanche ofrecen pisos; hay obra nueva y fibra. En primera línea hay que contar con precio y ocupación de verano. La tipología de tres habitaciones suele quedar por encima de la franja asequible habitual; dos habitaciones rondan unos 203.000 euros.",
+      "El precio medio ronda 2.400 €/m². Tres habitaciones se sitúan alrededor de 281.000 euros —fuera de la orilla asequible habitual—. La franja media puede ser piso de dos habitaciones o vivienda algo retirada de Brazomar. Conviene probar un noviembre cubierto y el tráfico hacia Bilbao antes de comprar.",
+      "Los servicios son 8/10. Laredo queda a unos veinticinco minutos; Cruces, a unos treinta y cinco. Bilbao–aeropuerto está a unos treinta y cinco o cuarenta, con Palma todo el año. Eso es Castro: ciudad hacia Bilbao a cambio del sol mínimo de la tabla y del metro alto."
+    ],
+    "encaja": {
+      "si": [
+        "Bilbao y el vuelo a Palma todo el año importan más que el sol. Castro-Urdiales reúne unos treinta y cuatro mil habitantes: villa medieval —Santa María, castillo-faro, puente—, paseo, Brazomar y Ostende, Islares y Oriñón a unos diez minutos, y Bilbao a unos treinta y cinco. Es ciudad completa convertida en dormitorio de trabajadores de Bilbao, no villa pequeña de silencio. Quien quiera resolver casi todo en ciudad un martes de noviembre —servicios 8/10, comunicaciones 8/10—, caminar el casco y el paseo y tener Cruces a unos treinta y cinco minutos encontrará aquí la logística oriental más potente. En verano Brazomar y Ostende reciben más afluencia; el ritmo de ciudad se mantiene todo el año. Unas 1.650 horas de sol —el mínimo de la tabla— y unos 40 días despejados —frente a las 2.800 horas y 120 de Mallorca— son el peaje más duro: lluvia frecuente (unos 155 días), verano suave alrededor de 20 °C, viento bajo, agua entre 19 y 21 °C. Hay obra nueva; la seguridad ronda 46 por mil.",
+        "Funciona si se acepta el Hospital de Laredo a unos veinticinco minutos a cambio del aeropuerto de Bilbao alrededor de los treinta y cinco o cuarenta, con Palma todo el año —el acceso más rápido de la tabla a ese vuelo—. Hay fibra; el metro ronda 2.400 euros y tira a precios vascos crecientes: dos habitaciones en franja asequible andan cerca de 203.000 euros; tres suelen quedar por encima de la orilla habitual. Quien priorice ciudad, Bilbao cerca y vuelo anual estable frente a chalés o villa de conserva entenderá Castro sin pedirle el cielo de Mallorca."
+      ],
+      "no": [
+        "Si lo que se buscan son casas bajas de Ribamontán o villa marinera de trabajo a ~1.900 €/m² como Santoña, Castro no lo es: aquí mandan ciudad dormitorio, ensanche y metro alto. Tampoco encaja quien necesite tres habitaciones en primera línea dentro de la franja asequible habitual del mercado: el precio lo deja fuera con facilidad.",
+        "Tampoco si se necesita el cielo de Baleares o villa pequeña sin ritmo de ciudad hacia Bilbao. Quien se decida solo tras un sábado soleado en Brazomar, sin probar un noviembre cubierto ni el tráfico de trabajadores, se llevará una sorpresa. Si mandan hospital a cinco minutos y Salvé, Laredo; si mandan chalés y Santander enfrente, Ribamontán. Castro pide aceptar el sol mínimo de toda la tabla y precios crecientes a cambio de Bilbao y Palma todo el año."
+      ],
+      "veredicto": "Veredicto: Castro-Urdiales encaja como ciudad hacia Bilbao —dos habitaciones en casco o ensanche, o tres algo retiradas de la primera línea— sobre todo si Bilbao a treinta y cinco y Palma todo el año a unos cuarenta importan más que el sol. Probar un martes de noviembre y un agosto en Brazomar antes de comprar. Se ganan ciudad 8/10, obra nueva, Cruces a treinta y cinco y el mejor acceso a Palma de la tabla; se aceptan ~2.400 €/m², ~1.650 horas de sol y tres habitaciones caras en orilla. Quien priorice casas bajas, Ribamontán; quien priorice hospital a pie, Laredo."
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/cantabria-oriental/castro-villa.jpg",
+        "pie": "Castro-Urdiales: villa medieval"
+      },
+      {
+        "src": "/fotos/cantabria-oriental/castro-paseo.jpg",
+        "pie": "Paseo de Castro-Urdiales"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/cantabria-oriental/castro-santa-maria.jpg",
+        "pie": "Iglesia de Santa María, Castro-Urdiales"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/cantabria-oriental/castro-brazomar.jpg",
+        "pie": "Playa de Brazomar, Castro-Urdiales"
+      },
+      {
+        "src": "/fotos/cantabria-oriental/castro-ostende.jpg",
+        "pie": "Playa de Ostende, Castro-Urdiales"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

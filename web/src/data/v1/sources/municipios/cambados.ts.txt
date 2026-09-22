@@ -1,0 +1,62 @@
+{
+    escala: "Villa histórica y parroquias vitícolas",
+    abrir: [
+      "Cambados se siente más noble de lo que sugiere el mapa a primera vista. Unos catorce mil habitantes en una villa de granito frente a la ría de Arousa: Fefiñáns es el conjunto señorial alrededor de su gran plaza; Cambados, el antiguo núcleo administrativo; Santo Tomé, el barrio marinero junto al agua. Detrás aparecen Corvillón, Vilariño y Castrelo entre bodegas y parras. Arousa es la gran ría —una entrada de mar protegida— que sostiene marisqueo, bateas y navegación. Capital del Albariño, sí; pero también mercado, mesa y piedra que no se apaga fuera de temporada.",
+      "Quien vive aquí es gente local de vino, conserva y marisqueo, y visitantes que vuelven cuando la ría se llena. Un martes de noviembre el mercado, el centro de salud, colegios, comercio y restaurantes permiten vivir a pie desde el casco. El paseo recorre una costa de bajamar extensa, más productiva que playera: olor a marea, no a resort. Desde las parroquias el coche enlaza casa y villa; para hospital se conduce unos quince minutos hasta el Hospital do Salnés, en Vilagarcía. Ese dato no se arregla eligiendo otra calle de Fefiñáns.",
+      "El tráfico es de villa casi todo el año. En julio y agosto lo cambia todo: la Festa do Albariño ocupa la primera semana de agosto y culmina el primer domingo. Casetas de vino, conciertos y decenas de miles de visitantes llenan el centro; aparcar se vuelve difícil y la música dura hasta tarde. El 10 de julio San Cristovo atraviesa la villa y, en julio, Santo Tomé celebra el Carmen ligado al mar. Una vivienda cerca de Fefiñáns o la Calzada debe probar ese calendario antes de decidirte.",
+      "Fuera de agosto, Cambados recupera escala de villa y mantiene mesa, mercado y bodegas abiertas. Hay visitantes, pero también una economía local que no cierra con el veraneo. Primavera y otoño son buenas épocas para conocerlo: en mayo las parras se ponen imposibles de verde; en noviembre la piedra conserva humedad y el paseo se camina sin empujones. Si solo conoces el Albariño, te llevas la imagen de folleto de la fiesta. Si has visto un martes vacío, ya puedes decidir si de verdad quieres vivir aquí.",
+      "Las parroquias —Corvillón, Vilariño, Castrelo— añaden casa entre viña a cambio de coche corto. El casco da la semana a pie; la ladera da silencio y emparrado. Las dos cosas conviven aquí, y eso es raro en una comarca donde tantas veces hay que elegir entre plaza y finca.",
+    ],
+    tiempo: [
+      "Si vienes de Baleares, notará el cielo más gris y con menos sol que en Mallorca. Cambados registra unas 2.350 horas de sol y 70 días despejados, unas 450 horas y 50 jornadas claras menos que Mallorca. Caen alrededor de 1.350 milímetros en 118 días. La media invernal ronda 10 °C y el abrigo de la ría mantiene viento y niebla bajos, aunque la piedra conserva humedad. La diferencia con la isla se nota sobre todo entre noviembre y febrero.",
+      "El verano ronda 19,5 °C, con máximas de 25 o 26 °C y entre tres y ocho días sobre 30 °C: mucho más suave que Baleares. El agua protegida de Arousa llega aproximadamente a 18-20 °C, fresca frente al Mediterráneo pero calmada. Conviene venir un día de Albariño y un noviembre, no solo un sábado soleado en Fefiñáns.",
+    ],
+    vivir: [
+      "El invierno en Cambados se siente en la humedad de la piedra del casco. En Mallorca muchas viviendas casi no piensan en calefacción ni en moho; aquí caen alrededor de 1.350 milímetros en 118 días y el abrigo de la ría mantiene viento bajo, aunque el granito conserva humedad. Conviene revisar cubierta y ventilación en casas históricas. Visitar un noviembre en Fefiñáns enseña más que un sábado soleado de Albariño.",
+      "El día a día sin coche funciona en el casco: mercado, centro de salud, colegios, comercio y restaurantes. Desde Corvillón, Vilariño o Castrelo el coche enlaza casa y villa. En enero hay mesa, bodega y paseo sin depender del veraneo. Capital del Albariño, sí; también villa que no se apaga.",
+      "Llegar de fuera mezcla vino, conserva y marisqueo con visitantes que vuelven. Se oye gallego en Fefiñáns y Santo Tomé; el castellano basta para lo cotidiano. Entre semana manda la vida cotidiana de villa; en la primera semana de agosto la Festa do Albariño llena el centro. Quien busque solo silencio de agosto debe medir esa semana.",
+      "La sanidad de urgencia y especialidades no está en el municipio: el Hospital do Salnés queda a unos quince minutos; Quirónsalud Pontevedra a unos veinticinco. Empadronarse abre el médico de cabecera local; para hospital se conduce a Vilagarcía. No se arregla eligiendo otra calle de Fefiñáns.",
+      "Mantener el vínculo con Mallorca pasa por el avión. Vigo-Peinador está a treinta y cinco minutos; Santiago, con conexión más estable a Palma, a cincuenta. En invierno conviene mirar el calendario real de vuelos.",
+      "El casco ofrece pisos y casas históricas; Santo Tomé, vivienda marinera; las parroquias, fincas entre viñedo. Fibra y poca obra nueva. En el centro importan aparcamiento y ruido de agosto; en una casa de piedra, humedad y saneamiento. Conviene dormir una noche de Albariño antes de comprar cerca de Fefiñáns.",
+    ],
+    historia: [
+      "La Praza de Fefiñáns reúne el pazo del mismo nombre, la iglesia de San Bieito y un arco-puente que comunicaba propiedades señoriales. El pazo comenzó a levantarse en el siglo XVI y una de sus bodegas está ligada a los orígenes comerciales del Albariño. Fefiñáns era uno de los tres antiguos núcleos que terminaron unidos como Cambados: la plaza no es decorado; es el corazón de esa unión.",
+      "Las ruinas de Santa Mariña Dozo conservan arcos góticos abiertos al cielo dentro de un cementerio. La iglesia quedó abandonada en el siglo XIX, pero su piedra cuenta la prosperidad marinera anterior. En Santo Tomé, la Torre de San Sadurniño vigilaba la ría y sufrió ataques vikingos y normandos; hoy la marea rodea sus restos como si el tiempo no hubiera cerrado del todo.",
+      "Ramón Cabanillas, poeta gallego nacido en Cambados, y la Casa Museo de Valle-Inclán en la vecina Vilanova sitúan O Salnés dentro de una geografía literaria. El Museo Etnográfico e do Viño explica aquí el otro hilo: lagares, herramientas y la denominación Rías Baixas. Quien camine Fefiñáns y Santo Tomé el mismo día entiende villa y oficio sin folleto.",
+    ],
+    fuera: [
+      "A Mouta y las pequeñas franjas de Santo Tomé permiten acercarse al agua, pero la costa inmediata tiene mareas y fondos de marisqueo: más productiva que playera. Para un baño largo funcionan As Sinas, en Vilanova, o A Lanzada, a unos veinte minutos. La ría es agua calma entre 18 y 20 °C; A Lanzada, océano y oleaje. Un martes de junio puedes tener espacio; un domingo de agosto el trayecto cambia.",
+      "El paseo marítimo une Fefiñáns, el puerto y Santo Tomé. Desde la ermita y mirador de A Pastora se contempla la villa, los viñedos y las bateas —plataformas flotantes donde se cría mejillón—. La ruta del Umia sigue el río que desemboca al sur del municipio entre juncales y campos: agua dulce después de tanta ría.",
+      "Los vecinos cierran el mapa. Vilanova ofrece As Sinas y calma a pocos minutos; Meaño, viñedo y Castrove tierra adentro; Vilagarcía, hospital y tren. El Monte Castrove se intuye hacia el sur; la ría abre el horizonte hacia A Illa. Quien viva en Cambados reparte la tarde entre paseo, Pastora y esas salidas —sin necesitar montaña real, que aquí no hay—.",
+    ],
+    casa: [
+      "El casco ofrece pisos y casas históricas; Santo Tomé, vivienda marinera; las parroquias, casas y fincas entre viñedo. Hay fibra y poca obra nueva. En el centro importan aparcamiento y ruido de agosto; en una casa de piedra, humedad, cubierta y saneamiento. Conviene dormir una noche de Albariño antes de comprar cerca de Fefiñáns.",
+      "El precio medio ronda 1.500 €/m². La franja asequible para tres habitaciones se sitúa alrededor de 176.000 euros. La franja media reúne pisos reformados cerca de Fefiñáns y casas de parroquia; vistas, finca y rehabilitación impiden dar una cifra única fiable.",
+      "Los servicios alcanzan 6/10: centro de salud, comercio, mercado, restaurantes de nivel, bodegas. El Hospital do Salnés queda a unos quince minutos y Quirónsalud Pontevedra a unos veinticinco. Vigo-Peinador está a treinta y cinco minutos; Santiago, con conexión más estable a Palma, a cincuenta. Eso es Cambados: mucha piedra y mucha ría, y el hospital siempre a un trayecto corto.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere villa de granito con vida todo el año frente a la ría de Arousa —entrada de mar protegida de bateas y marisqueo—. Desde el casco se camina a mercado, centro de salud, comercio, Fefiñáns —plaza señorial con pazo, iglesia de San Bieito y arco— y al barrio marinero de Santo Tomé. Un martes de noviembre hay mesa, bodega y paseo sin depender del veraneo; el Hospital do Salnés queda a unos quince minutos. El verano ronda 19,5 °C de media con máximas de 25–26 °C y pocos días sobre 30 °C: claramente más suave que Mallorca, con unos 1.350 milímetros y 118 días de lluvia que hay que aceptar con honestidad.",
+        "También encaja si el tiempo libre debe incluir vino, piedra e historia dentro de la semana, no como excursión. Santa Mariña Dozo —arcos góticos abiertos al cielo—, la Torre de San Sadurniño en la marea, A Pastora sobre villa y bateas, y las bodegas de Albariño están a escala cotidiana. Tres habitaciones en franja asequible rondan 176.000 euros a ~1.500 €/m². Corvillón, Vilariño o Castrelo añaden casa entre viña a cambio de coche corto. Quien priorice carácter de villa noble con ría delante encontrará aquí la elección más completa de O Salnés.",
+      ],
+      no: [
+        "No encaja si la playa de arena a pie es imprescindible. A Mouta y Santo Tomé sirven para paseo y marisqueo; el baño largo cómodo pide As Sinas en Vilanova o A Lanzada a unos veinte minutos. Tampoco si se busca el precio más bajo de la comarca: Meaño y Vilanova dan metros y terreno por menos.",
+        "Tampoco si el silencio de agosto es obligatorio. La Festa do Albariño, primera semana de agosto, llena el centro con casetas, conciertos y decenas de miles de visitantes: aparcar se vuelve difícil y la música dura hasta tarde. San Cristovo y el Carmen de Santo Tomé añaden más noches activas. Quien se decida solo tras un martes soleado en Fefiñáns, sin dormir una noche de Albariño ni comprobar humedad en una casa de piedra, se llevará una sorpresa. Vilanova ofrece más calma; Vilagarcía, más logística y menos armonía.",
+      ],
+      veredicto:
+        "Veredicto: Cambados encaja como villa de piedra, vino y ría —tres habitaciones caminables a mercado y Fefiñáns, fuera del recorrido más ruidoso del Albariño, o casa en Corvillón tras revisar humedad—. Sobre todo si carácter y vida a pie importan más que arena en la puerta. Probar agosto y un noviembre antes de comprar. Se ganan servicios 6/10, hospital a quince y verano fresco frente a Mallorca; se acepta conducir para el baño de arena y 118 días de lluvia. Si mandan calma y precio, Vilanova; si tren y hospital a cinco, Vilagarcía; si viña y silencio de parroquia, Meaño.",
+    },
+    fotosAbrir: [
+      { src: "/fotos/o-salnes/cambados-fefinans.jpg", pie: "Fefiñáns, plaza señorial y corazón de Cambados" },
+      { src: "/fotos/o-salnes/cambados-santo-tome.jpg", pie: "Santo Tomé, barrio marinero frente a Arousa" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/o-salnes/cambados-santa-marina.jpg", pie: "Santa Mariña Dozo, arcos góticos abiertos al cielo" },
+      { src: "/fotos/o-salnes/cambados-san-sadurnino.jpg", pie: "San Sadurniño, torre defensiva en la marea" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/o-salnes/cambados-pastora.jpg", pie: "A Pastora mira sobre villa, viñedos y ría" },
+      { src: "/fotos/o-salnes/cambados-pazo-interior.jpg", pie: "Pazo de Fefiñáns: granito y memoria del Albariño" },
+    ],
+    creditoFotos: credito,
+  }

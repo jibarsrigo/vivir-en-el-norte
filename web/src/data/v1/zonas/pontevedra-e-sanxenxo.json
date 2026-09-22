@@ -1,0 +1,185 @@
+{
+  "tipo": "zona",
+  "zonaId": "pontevedra-e-sanxenxo",
+  "nombre": "Pontevedra e Sanxenxo",
+  "sourcePath": "web/src/components/RelatoPontevedraESanxenxo.tsx",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "sourceFileHash": "1161f73e2eed45c802691250cc5b64718ee333f8bef39fe8ee1a5694310a530a",
+  "contentHash": "a31c3dead8195f9adf54d3741d44e21e7cbf64694fc279baca8550ebbc17a5b4",
+  "zonaBaseline": {
+    "id": "pontevedra-e-sanxenxo",
+    "zona": "Pontevedra e Sanxenxo",
+    "provincia": "Pontevedra",
+    "pais": "España",
+    "solHoras": 2350,
+    "despejados": 71,
+    "cubiertos": 120,
+    "lluviaDias": 122,
+    "lluviaMm": 1400,
+    "lluvia": {
+      "oct_mar": "13–16",
+      "peor": "diciembre",
+      "peor_n": "16",
+      "verano": "3–6"
+    },
+    "tempVerano": 19.8,
+    "calorAprieta": null
+  },
+  "mallorcaBaseline": {
+    "despejados": 120,
+    "solHoras": 2800,
+    "lluviaDias": 58,
+    "lluvia": {
+      "oct_mar": "6–8",
+      "peor": "octubre–enero",
+      "peor_n": "8",
+      "verano": "1–3"
+    },
+    "viento": "Media",
+    "niebla": "Baja"
+  },
+  "escalas": {
+    "Pontevedra": "Ciudad pequeña, compacta y peatonal",
+    "Poio": "Parroquias de ría pegadas a la ciudad",
+    "Sanxenxo": "Villa turística, puerto y parroquias de playa",
+    "O Grove": "Villa marinera y península turística"
+  },
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Dónde está"
+    },
+    {
+      "type": "p",
+      "text": "Esta zona sigue la orilla norte de la ría de Pontevedra desde la capital provincial hasta el Atlántico. Pontevedra ocupa el fondo de la ría, donde desemboca el río Lérez; Poio empieza al cruzar el puente de A Barca y reúne Combarro, Raxó, Samieira y las playas de Lourido. Sanxenxo abre la costa hacia Silgar, Portonovo y A Lanzada. O Grove es la península final, unida a tierra por el istmo arenoso de A Lanzada y asomada también a la ría de Arousa."
+    },
+    {
+      "type": "p",
+      "text": "Los nombres describen escalas distintas. Pontevedra es una ciudad peatonal de unos ochenta y cuatro mil habitantes. Poio no tiene un solo centro: San Xoán concentra servicios y Combarro conserva hórreos y casas marineras. Sanxenxo —San Ginés en gallego— es villa y municipio turístico. O Grove nombra tanto la villa portuaria como la península; A Toxa es la isla termal unida por puente."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/pontevedra-e-sanxenxo/poio-combarro.jpg",
+      "pie": "Combarro, en Poio: piedra y ría entre la ciudad y el Atlántico"
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/pontevedra-e-sanxenxo/zona-pontevedra-ferraria.jpg",
+      "pie": "Praza da Leña: piedra y casas del casco histórico de Pontevedra"
+    },
+    {
+      "type": "h2",
+      "text": "El tiempo comparado con Baleares"
+    },
+    {
+      "type": "p",
+      "text": "La zona promedia unas 2.350 horas de sol y 71 días despejados, frente a 2.800 horas y 120 jornadas claras en Mallorca. La diferencia se concentra en invierno: caen unos{\" \"} 1.400 milímetros durante 122 días, con trece o dieciséis jornadas húmedas al mes entre octubre y marzo."
+    },
+    {
+      "type": "p",
+      "text": "La costa exterior es más seca: Sanxenxo registra unos 1.300 milímetros en 118 días y O Grove 1.250 en 115; Pontevedra alcanza 1.600 en 130. El verano ronda 19,5–20,5 °C, con máximas habituales cercanas a 25–26 °C. Pontevedra ciudad puede sumar ocho o diez días por encima de 30 °C; junto al Atlántico suelen ser entre tres y ocho. Frente a Baleares se pierde agua cálida y se ganan noches frescas."
+    },
+    {
+      "type": "h2",
+      "text": "Cómo se vive"
+    },
+    {
+      "type": "p",
+      "text": "Un martes de noviembre, Pontevedra resuelve hospital, mercado, tren y cultura caminando; Poio reparte la semana entre parroquias y una ciudad que queda a cinco o diez minutos. Portonovo mantiene lonja y comercio aun cuando se vacían los apartamentos de Sanxenxo. O Grove sigue oliendo a puerto y marisqueo. Los cuatro tienen vida propia, pero solo la capital permite prescindir realmente del coche."
+    },
+    {
+      "type": "p",
+      "text": "Agosto transforma la costa. Sanxenxo pasa de unos diecisiete mil habitantes permanentes a una población estacional muy superior, y la presión llega a playas, aparcamientos y noches. Combarro recibe excursiones; A Lanzada y O Grove concentran tráfico en el istmo. Pontevedra mantiene una escala urbana más estable. Elegir municipio es escoger entre peatonalidad, parroquia de ría, temporada intensa o península marinera."
+    },
+    {
+      "type": "h2",
+      "text": "Mar, ría y camino"
+    },
+    {
+      "type": "p",
+      "text": "Poio ofrece Lourido, Cabeceira, Chancelas y Raxó, playas de ría con agua calma entre 18 y 20 °C. La senda litoral Pontevedra–Combarro recorre unos siete kilómetros junto al agua; detrás sube el Monte Castrove, la sierra baja de 613 metros que mira a las rías de Pontevedra y Arousa."
+    },
+    {
+      "type": "p",
+      "text": "Sanxenxo encadena Silgar, Areas, Canelas, Montalvo, Major y A Lanzada. Esta última es una lengua de dunas de unos 2,5 kilómetros abierta al Atlántico. O Grove permite cambiar de costa: Con Negro y Area da Cruz reciben mar abierto; Raeiros y Pipas miran al agua más tranquila de Arousa. El Monte Siradella, de 167 metros, explica la forma completa de la península."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/pontevedra-e-sanxenxo/sanxenxo-lanzada.jpg",
+      "pie": "A Lanzada, arenal e istmo entre Sanxenxo y O Grove"
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/pontevedra-e-sanxenxo/zona-lanzada-istmo.jpg",
+      "pie": "El istmo de A Lanzada une Sanxenxo con la península de O Grove"
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/pontevedra-e-sanxenxo/zona-combarro-ria.jpg",
+      "pie": "Combarro desde la ría: hórreos y casas marineras sobre el agua"
+    },
+    {
+      "type": "h2",
+      "text": "Mercados, fiestas y calendario"
+    },
+    {
+      "type": "p",
+      "text": "Pontevedra vive A Peregrina desde el segundo sábado de agosto y la Feira Franca el primer fin de semana de septiembre: conciertos, feria y calles tomadas en el centro. Poio celebra San Xoán el 24 de junio y el Carmen en sus núcleos marineros el 16 de julio. Combarro añade a esas fechas su afluencia diaria de verano."
+    },
+    {
+      "type": "p",
+      "text": "Portonovo celebra San Roque del 14 al 19 de agosto y la Festa da Raia el día 17; Sanxenxo reúne Santa Rosalía y el Carmen alrededor del 4 y 5 de septiembre. O Grove convierte el puerto en gran comedor durante la Festa do Marisco, en la primera quincena de octubre. Cerca de estos recorridos hay música, cortes y aparcamiento difícil. La mesa común es la ría: mejillón de batea, almeja, pulpo y pescado de lonja."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/pontevedra-e-sanxenxo/zona-grove-bateas.jpg",
+      "pie": "Bateas frente a O Grove: el mejillón como paisaje y trabajo"
+    },
+    {
+      "type": "h2",
+      "text": "Qué cuesta una casa"
+    },
+    {
+      "type": "p",
+      "text": "Pontevedra y Poio rondan 1.900 €/m². Tres habitaciones se sitúan alrededor de 180.000 euros en la capital y 222.000 en Poio; allí dos habitaciones rondan 161.000. Son franjas asequibles del mercado real. Una casa con vistas en Raxó o Samieira entra en una franja media aproximada de 220.000–280.000 euros, muy dependiente de terreno, acceso y reforma."
+    },
+    {
+      "type": "p",
+      "text": "Sanxenxo es la franja cara: unos 2.900 €/m², cerca de 245.000 euros para dos habitaciones y 339.000 para tres, antes de sumar primera línea. O Grove ronda 2.300 €/m²: dos habitaciones alrededor de 194.000 y tres cerca de 269.000, normalmente alejándose del frente más demandado. Hay obra nueva en Pontevedra, Poio y Sanxenxo; poca en O Grove."
+    },
+    {
+      "type": "h2",
+      "text": "Servicios, hospital, aeropuerto"
+    },
+    {
+      "type": "p",
+      "text": "Pontevedra alcanza 10/10 y concentra hospitales, universidad, tren, mercado y cultura. Poio llega a 7/10 con la capital a cinco o diez minutos. Sanxenxo y O Grove, ambos 6/10, cubren compra, salud primaria, colegio y restauración durante todo el año, aunque dependen de Pontevedra o Vilagarcía para especialidades y compras mayores."
+    },
+    {
+      "type": "p",
+      "text": "Montecelo y Quirónsalud están a unos cinco minutos desde Pontevedra y diez desde Poio. Sanxenxo tarda entre veinte y veinticinco. O Grove tiene el Hospital do Salnés a treinta y el privado de Pontevedra a cuarenta y cinco. Vigo-Peinador queda a veinticinco minutos de Pontevedra y Poio, cincuenta de Sanxenxo y sesenta de O Grove; Santiago ofrece la conexión más continua con Palma a unos cincuenta o sesenta minutos."
+    },
+    {
+      "type": "encaja",
+      "si": [
+        "Se quiere escoger entre una ciudad peatonal completa y una costa de ría cercana. Pontevedra resuelve hospital, tren y cultura; Poio añade piedra, playa y monte a cinco o diez minutos; Sanxenxo concentra el mejor abanico de arenales; O Grove aporta marisqueo, Arousa y una península para caminar.",
+        "Se busca verano más fresco que en Mallorca. El agua está entre 17 y 20 °C y las noches refrescan; Sanxenxo y O Grove son además algo más secos que el fondo de la ría."
+      ],
+      "no": [
+        "Se quieren a la vez silencio de agosto, playa a pie, tres habitaciones asequibles y hospital inmediato. Sanxenxo da playa pero recibe multitud y tiene la vivienda más cara; O Grove da mar pero queda a treinta minutos del hospital; Pontevedra resuelve sanidad sin playa urbana; Poio es el compromiso, no la suma perfecta."
+      ],
+      "veredicto": "Veredicto de zona: Poio es el mejor equilibrio si se quieren ría, casa y Pontevedra a pocos minutos; la capital va primero si mandan vida peatonal y hospital; Sanxenxo solo si playa y mercado turístico justifican precio y agosto; O Grove si se acepta la peor logística para ganar península, marisqueo y dos costas. En Poio miraría Lourido o San Xoán para lo práctico y Raxó o Samieira para paisaje, siempre después de probar tráfico y humedad."
+    },
+    {
+      "type": "credito",
+      "text": "Fotos: Wikimedia Commons. Consulta la atribución y licencia en cada imagen."
+    }
+  ],
+  "widgetsOmitidos": [
+    "TablaPrecios (widget en vivo; no congelado con datos 2026)",
+    "EnlaceIdealista (widget en vivo)",
+    "MunicipiosZonaFin (sustituido por lista V1 del manifiesto)"
+  ],
+  "serializationNote": "Prosa extraída del Relato*.tsx del baseline; interpolaciones {zona.*}/{mallorca.*} resueltas con zonas.json del mismo commit. Widgets en vivo (TablaPrecios/Idealista/MunicipiosZonaFin) omitidos a propósito."
+}

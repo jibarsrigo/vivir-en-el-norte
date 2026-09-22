@@ -1,0 +1,95 @@
+{
+  "tipo": "municipio",
+  "slug": "ribamontan-al-mar",
+  "nombre": "Ribamontán al Mar",
+  "n": 68,
+  "zonaId": "cantabria-oriental",
+  "zonaNombre": "Cantabria Oriental",
+  "provincia": "Cantabria",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-cantabria-oriental.ts",
+  "sourceKey": "ribamontan-al-mar",
+  "sourceExport": "RELATOS_CANTABRIA_ORIENTAL",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "e1d9f26fb368bba07164dd5b752838497a6d6faee8cd945e0f59fadf83c9e8b2",
+  "relato": {
+    "escala": "Casas bajas y surf",
+    "abrir": [
+      "Ribamontán al Mar no se siente como un único casco: se siente como una costa de pueblos dispersos. Unos cinco mil quinientos habitantes repartidos en Somo —surf, paseo, lancha a Santander—, Loredo, Langre —acantilados—, Galizano, Suesa y Carriazo. Casas bajas, chalés, prados y mucha urbanización de segunda residencia. Frente a la bahía, Santander se ve en días claros; la lancha desde Somo corta el agua en unos treinta minutos cuando opera. Es orilla rural-costera, no de bloques de veraneo.",
+      "Quien vive aquí es gente de los pueblos, surferos y quien buscó chalé con prado cerca del mar. Un martes de noviembre los servicios son 5/10: lo básico repartido entre parroquias; Santander completa comercio a unos veinte o veinticinco minutos. Valdecilla queda a unos quince o veinte; Santa Clotilde, a unos quince. El aeropuerto de Santander anda alrededor de los quince minutos, con Palma casi todo el año. La fibra es parcial: hay que comprobarla casa por casa.",
+      "En verano Somo y Loredo reciben toallas, surf y algo de tráfico hacia la playa; el ritmo residencial de chalés se mantiene más estable que el de Noja. De octubre a mayo la costa se queda en lo suyo: viento, prados, orilla abierta. Primavera y otoño en Langre son buenas épocas para conocerlo: el acantilado no es solo foto de agosto.",
+      "El calendario lo marca más la temporada de playa y el surf que una fiesta de plaza única: el lleno llega con Somo y Loredo en julio y agosto; el resto del año manda el silencio de urbanización y parroquia. Quien se decida a vivir aquí debe probar un agosto en la orilla y un martes de noviembre con cielo cubierto y fibra real. La semana se organiza en coche entre pueblos, no a pie de villa densa.",
+      "Ribamontán encaja para quien quiera casa baja en zona rural-costera tranquila con Santander enfrente y aeropuerto a quince minutos. Si solo conoces un sábado de sol en Somo, te llevas la imagen de folleto del surf. Si has visto el gris de noviembre, ya puedes decidir si quieres esa calma dispersa."
+    ],
+    "tiempo": [
+      "Si vienes de Baleares, el cielo es el peaje más duro de la tabla oriental. Ribamontán suma unas 1.650 a 1.700 horas de sol y unos 40 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.150 a 1.250 milímetros en unos 150 a 155 días. El viento es medio; la niebla, baja. De noviembre a febrero las mañanas grises pesan; de junio a septiembre la terraza se usa cuando abre.",
+      "El verano ronda 20 °C, con máximas habituales alrededor de 24 °C y apenas dos a seis días sobre 30 °C. Somo, Loredo, Langre y Galizano tienen agua entre 19 y 21 °C; la orilla es abierta y con oleaje —reserva de surf, no bahía tibia—. Conviene venir un día de cubierto y un noviembre, no solo el sábado de ola en Somo."
+    ],
+    "vivir": [
+      "El invierno en Ribamontán se nota en la casa dispersa y en el cielo. De noviembre a febrero las mañanas grises pesan; viento, salitre y humedad de costa abierta piden aislamiento y calefacción en chalés entre prados. La terraza se usa cuando abre; de octubre a mayo la costa se queda en lo suyo. Visitar un martes de noviembre con fibra real evita firmar solo por Somo en sol.",
+      "El día a día sin coche es difícil: la semana se organiza en coche entre Somo, Loredo, Langre, Galizano, Suesa y Carriazo. Los servicios son 5/10 —lo básico repartido entre parroquias—; Santander completa comercio a unos veinte o veinticinco minutos. En enero el ritmo es de urbanización y parroquia, no de villa densa a pie.",
+      "Conviven gente de los pueblos, surferos y quien buscó chalé con prado cerca del mar. En verano Somo y Loredo reciben toallas, surf y tráfico; el ritmo de chalés se mantiene más estable que el de Noja. La vida social pasa por parroquia y orilla más que por una plaza única. El castellano basta; la integración es de vecinos dispersos y temporada de playa.",
+      "Valdecilla queda a unos quince o veinte minutos; Santa Clotilde, a unos quince. No hay hospital en el municipio: lo diario se reparte entre parroquias y Santander completa el resto. Empadronarse aquí abre cabecera local; para especialidades se asume el trayecto corto a Santander.",
+      "Santander–Seve Ballesteros anda alrededor de los quince minutos, con Palma casi todo el año: acceso aéreo cómodo frente a Laredo o Santoña. Ir y volver a Mallorca es viable casi todo el año; el peaje sigue siendo el sol mínimo de la zona oriental, no la distancia al avión.",
+      "Predominan casas bajas, chalés y urbanizaciones de segunda residencia; hay poca obra nueva y fibra parcial —hay que comprobarla casa por casa—. No es piso de torre: es parcela y chalé entre prados. En primera línea hay que contar con ocupación de verano, salitre y precio. Tres habitaciones en orilla suelen quedar caras; conviene orientación al viento y acceso a Somo un domingo de agosto."
+    ],
+    "historia": [
+      "Somo, Loredo y Langre explican Ribamontán: parroquias de costa abierta y surf, no un casco medieval único. La lancha a Santander en unos treinta minutos marca la relación con la capital: la bahía como vecina, no como ciudad vivida a pie. El Real Golf de Pedreña queda junto al municipio —capa de ocio de bahía—.",
+      "Galizano, Suesa y Carriazo completan la ficha de pueblos dispersos y chalés entre prados. Langre añade acantilado y orilla más bruta —también tramo naturista—. Lo que conviene saber es de orilla residencial y reserva de surf, no de villa industrial ni de bloques de agosto.",
+      "Hoy Ribamontán vive de esa lógica: casa baja, coche entre parroquias, playa larga y Santander enfrente. Quien camina el paseo de Somo un martes de octubre entiende el sitio mejor que quien solo lo conoce un domingo de agosto saturado."
+    ],
+    "fuera": [
+      "Si solo hay tiempo para un baño cerca, ese baño es Somo o Loredo: playa larga, oleaje, agua entre 19 y 21 °C, el paseo de Somo como gesto diario. Un martes de junio puedes tener espacio; un domingo de agosto el acceso se complica. Es orilla de surf y de temporada, no de resort de bloques.",
+      "Langre cubre acantilado y horizonte más bruto; Galizano amplía orilla hacia el este. El paseo y la lancha a Santander —cuando opera— son la otra mitad del agua: cruzar la bahía en media hora cambia el registro de costa a capital.",
+      "El Real Golf de Pedreña queda junto al municipio; Santander, a unos veinte o veinticinco minutos por carretera. Quien priorice chalés, surf y calma frente a Ris o La Salvé en bloques encontrará aquí el perfil; quien priorice hospital a cinco minutos mirará Laredo; quien priorice Bilbao y Palma todo el año, Castro."
+    ],
+    "casa": [
+      "Predominan casas bajas, chalés y urbanizaciones de segunda residencia; hay poca obra nueva y fibra parcial. Junto a la primera línea hay que contar con ocupación de verano, salitre y precio. No es piso de torre: es parcela y chalé entre prados.",
+      "El precio medio ronda 2.300 €/m². Tres habitaciones en primera línea se sitúan alrededor de 269.000 euros —fuera de la orilla asequible habitual—. Dos habitaciones en la franja asequible rondan unos 194.000 euros. Conviene comprobar fibra en esa casa concreta y el acceso a Somo un domingo de agosto.",
+      "Los servicios son 5/10. Valdecilla queda a unos quince o veinte minutos. Santander–Seve Ballesteros está a unos quince, con Palma casi todo el año. Eso es Ribamontán: casas bajas y surf a cambio de villa incompleta y sol mínimo."
+    ],
+    "encaja": {
+      "si": [
+        "Las casas bajas frente a Santander importan más que la villa de bloques. Ribamontán al Mar reúne unos cinco mil quinientos habitantes en pueblos dispersos: Somo —surf, paseo, lancha a Santander—, Loredo, Langre —acantilados—, Galizano, Suesa y Carriazo. Chalés, prados y mucha urbanización de segunda residencia: orilla rural-costera, no de torres de veraneo. Quien quiera casa baja con Somo o Loredo cerca, Santander enfrente a unos veinte o veinticinco minutos y aeropuerto a unos quince encontrará aquí calma residencial y surf, no pueblo de agosto masivo. En verano Somo y Loredo reciben toallas y tráfico hacia la playa; el ritmo de chalés se mantiene más estable que el de Noja. Unas 1.650 a 1.700 horas de sol y unos 40 días despejados —frente a las 2.800 horas y 120 de Mallorca— son el peaje: lluvia frecuente también en verano, verano suave alrededor de 20 °C, agua entre 19 y 21 °C, niebla baja. Quien venga de Baleares debe probar ese cielo cubierto antes de comprar.",
+        "Funciona si se aceptan servicios 5/10 —lo básico repartido entre parroquias; Santander completa comercio—, Valdecilla a unos quince o veinte minutos, Santa Clotilde a unos quince y Seve Ballesteros alrededor de los quince, con Palma casi todo el año. La fibra es parcial: hay que comprobarla casa por casa. El precio ronda 2.300 €/m²; dos habitaciones en franja asequible andan cerca de 194.000 euros; tres en primera línea suelen quedar caras. Quien priorice chalés, surf y calma frente a Ris o La Salvé en bloques, y pruebe un noviembre gris con fibra real, entenderá Ribamontán sin pedirle villa completa."
+      ],
+      "no": [
+        "Si la semana debe resolverse andando con servicios 7/10 a pie, Ribamontán no encaja: el coche organiza compra y muchos gestos; Laredo o Castro cubren villa o ciudad más densa. Tampoco si se necesita fibra garantizada en toda la parcela: aquí es parcial. Tres habitaciones en primera línea dentro de la orilla asequible habitual del mercado suelen quedar fuera.",
+        "Tampoco si se busca el veraneo masivo de bloques —Noja— o la villa de trabajo con monte —Santoña—: aquí mandan casas bajas y surf. El cielo de Baleares no está en Somo: se gana orilla residencial, no despejados. Quien se decida solo tras un sábado de sol de agosto, sin probar el aislamiento de noviembre ni la cobertura de fibra, se llevará una sorpresa. Si lo que manda es hospital a cinco minutos y playa enorme, Laredo; si manda Palma todo el año vía Bilbao, Castro."
+      ],
+      "veredicto": "Veredicto: Ribamontán al Mar encaja como casas bajas y surf —chalé o casa en Loredo o Langre, con fibra comprobada y acceso claro a Somo— sobre todo si calma residencial y aeropuerto a quince importan más que la villa densa. Probar un martes de noviembre y un agosto en la playa antes de comprar. Se ganan orilla frente a Santander y Seve Ballesteros a quince; se aceptan servicios 5/10, fibra parcial, tres habitaciones caras en primera línea y el sol mínimo de la zona. Quien priorice hospital a pie, Laredo; quien priorice Bilbao y Palma todo el año, Castro."
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/cantabria-oriental/ribamontan-somo.jpg",
+        "pie": "Somo: playa y surf en Ribamontán al Mar"
+      },
+      {
+        "src": "/fotos/cantabria-oriental/ribamontan-casas.jpg",
+        "pie": "Casas bajas y prados en Ribamontán al Mar"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/cantabria-oriental/ribamontan-loredo.jpg",
+        "pie": "Loredo, en Ribamontán al Mar"
+      },
+      {
+        "src": "/fotos/cantabria-oriental/ribamontan-langre.jpg",
+        "pie": "Acantilados de Langre"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/cantabria-oriental/ribamontan-galizano.jpg",
+        "pie": "Playa de Galizano"
+      },
+      {
+        "src": "/fotos/cantabria-oriental/ribamontan-playa.jpg",
+        "pie": "Costa abierta de Ribamontán al Mar"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

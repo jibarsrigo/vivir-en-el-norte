@@ -1,0 +1,233 @@
+{
+  "tipo": "zona",
+  "zonaId": "vigo-e-ria",
+  "nombre": "Vigo e ría",
+  "sourcePath": "web/src/components/RelatoVigoERia.tsx",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "sourceFileHash": "01a0d01fbcf932d7cdf2a2bd1292c745e90ac27bddcedfb3b2fc6b125c16ee85",
+  "contentHash": "5469547aa9df03eb372cc3fca5565de3899dd5ffb37563bb1ac6518bf6f28e78",
+  "zonaBaseline": {
+    "id": "vigo-e-ria",
+    "zona": "Vigo e ría",
+    "provincia": "Pontevedra",
+    "pais": "España",
+    "solHoras": 2250,
+    "despejados": 72,
+    "cubiertos": 118,
+    "lluviaDias": 129,
+    "lluviaMm": 1700,
+    "lluvia": {
+      "oct_mar": "13–16",
+      "peor": "diciembre–enero",
+      "peor_n": "16–17",
+      "verano": "4–7"
+    },
+    "tempVerano": 20.5,
+    "calorAprieta": null
+  },
+  "mallorcaBaseline": {
+    "despejados": 120,
+    "solHoras": 2800,
+    "lluviaDias": 58,
+    "lluvia": {
+      "oct_mar": "6–8",
+      "peor": "octubre–enero",
+      "peor_n": "8",
+      "verano": "1–3"
+    },
+    "viento": "Media",
+    "niebla": "Baja"
+  },
+  "escalas": {
+    "Vigo": "Ciudad",
+    "Redondela": "Villa",
+    "Soutomaior": "Pueblo y parroquias",
+    "Vilaboa": "Casas dispersas / parroquias"
+  },
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Dónde está"
+    },
+    {
+      "type": "p",
+      "text": "Vigo e ría ocupa la gran entrada de mar del sur de Galicia y su fondo más protegido. Vigo, la mayor ciudad gallega, sube en anfiteatro desde el puerto y mira hacia las Illas Cíes, el archipiélago que cierra la ría por el oeste. Al nordeste, el agua pasa bajo el puente de Rande y se abre de nuevo en la ensenada de San Simón, una cubeta tranquila de mareas, bancos de arena y marisma. Allí se suceden Redondela, Soutomaior y Vilaboa."
+    },
+    {
+      "type": "p",
+      "text": "Cuatro ayuntamientos contienen cuatro escalas. Vigo es ciudad: hospitales, universidad, puerto, cultura, tráfico y barrios muy distintos. Redondela es villa: mercado, estación, casco y playa cercana. Soutomaior se reparte entre Arcade —la pequeña villa junto a la ría—, el núcleo del castillo y parroquias rurales. Vilaboa no tiene un centro único: son casas y aldeas sobre San Simón, con Pontevedra a un cuarto de hora."
+    },
+    {
+      "type": "p",
+      "text": "Los nombres ayudan a no perderse. Ría no significa río, sino un valle costero ocupado por el mar. San Simón es tanto la ensenada interior como la isla situada frente a Cesantes. Arcade pertenece al municipio de Soutomaior; Cesantes, al de Redondela. Oia puede ser el municipio de la costa atlántica o, aquí, una parroquia del suroeste de Vigo. Cobres nombra dos parroquias de Vilaboa que miran al agua desde la ladera."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/vigo-e-ria/vigo-ria.jpg",
+      "pie": "La ría desde Vigo: ciudad y puerto antes de que el agua alcance San Simón"
+    },
+    {
+      "type": "h2",
+      "text": "El tiempo comparado con Baleares"
+    },
+    {
+      "type": "p",
+      "text": "Frente a Baleares, la ruptura no es un invierno helado, sino un invierno mojado. La zona suma unos 72 días despejados y{\" \"} 2.250 horas de sol al año; Mallorca ronda{\" \"} 120 jornadas despejadas y{\" \"} 2.800 horas. Vigo, más abierto a la ría, alcanza unas 2.350 horas; Redondela, Soutomaior y Vilaboa se quedan alrededor de 2.250."
+    },
+    {
+      "type": "p",
+      "text": "La lluvia ronda 129 días y 1.700 milímetros al año. Entre octubre y marzo aparecen unos 13–16 días húmedos cada mes;{\" \"} diciembre–enero suele ser el tramo peor, con 16–17. No siempre llueve desde la mañana hasta la noche, pero los frentes se suceden y dejan jardín, muros y cubiertas mojados durante semanas. Una casa debe visitarse con agua, no solo con luz de septiembre."
+    },
+    {
+      "type": "p",
+      "text": "El verano cambia el balance. La media ronda los 20,5 °C, las máximas habituales se quedan en 25–26 °C y las noches bajan hacia 15 °C. Solo unos tres a ocho días al año superan los 30 °C. En Mallorca, el calor se instala durante semanas; aquí una tarde cálida suele terminar con ventana abierta y chaqueta ligera junto a la ría. La contrapartida es que incluso julio puede traer un frente y romper dos días de playa."
+    },
+    {
+      "type": "p",
+      "text": "El fondo de San Simón está más resguardado que Samil y O Vao. Tiene poco viento, agua algo más templada y niebla generalmente baja, aunque las nubes pueden apoyarse en las laderas. Dentro de Vigo, una vivienda alta recibe más aire que una calle encerrada; en Soutomaior, el valle del Verdugo conserva algo más de calor y humedad. La orientación concreta pesa tanto como la cifra municipal."
+    },
+    {
+      "type": "h2",
+      "text": "Cómo se vive"
+    },
+    {
+      "type": "p",
+      "text": "Un martes de noviembre empieza de cuatro maneras. Vigo abre mercados, hospitales, facultades, astilleros y oficinas; el tráfico baja hacia el puerto y vuelve a subir por las cuestas. Redondela recibe trenes bajo sus dos viaductos y concentra compra, colegio y café en una villa reconocible. Arcade mantiene tiendas y restaurantes cerca de la estación, mientras las parroquias de Soutomaior despiertan entre bosque y fincas. En Vilaboa, la misma mañana exige coche para enlazar casa, consultorio y compra."
+    },
+    {
+      "type": "p",
+      "text": "La ciudad y las parroquias no son dos versiones del mismo retiro. En el centro de Vigo se puede vivir sin coche y tener cultura, especialistas y comercio a pie, pero se aceptan densidad y pendiente. En Coruxo, Oia o Saiáns —parroquias costeras del suroeste— aparecen casas, huertas y vistas a las Cíes, pero la semana depende más del vehículo. Redondela ofrece el punto intermedio: villa con tren y parroquias a pocos minutos."
+    },
+    {
+      "type": "p",
+      "text": "Agosto llena Samil, O Vao y Cesantes, y aumenta el tráfico de acceso a las playas. Vigo no se vuelve ciudad turística: puerto, industria y hospitales continúan. Redondela conserva su vida de villa aunque Cesantes reciba bañistas. Soutomaior concentra su fiesta más singular en abril, cuando Arcade celebra la ostra. Vilaboa cambia poco; su litoral de marisma y playas pequeñas no convoca una multitud comparable."
+    },
+    {
+      "type": "p",
+      "text": "La mejor logística de la selección atraviesa todo el año. La AP-9 une Vigo y Pontevedra; los trenes paran en Vigo, Redondela y Arcade; Peinador queda entre diez y quince minutos desde los cuatro centros tomados como referencia. Esa red ahorra trayectos largos, pero también produce ruido: vía, autopista, puente de Rande y carreteras nacionales deben escucharse desde cada vivienda."
+    },
+    {
+      "type": "p",
+      "text": "Primavera y otoño equilibran la vida exterior. En marzo florecen las camelias del castillo de Soutomaior; en mayo se alargan los paseos por Ulló y Cesantes; en octubre vuelve el verde intenso y se comprueba si la casa ventila. Un martes mojado de noviembre y un domingo soleado de agosto revelan más que una semana de visitas inmobiliarias."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/vigo-e-ria/redondela-villa.jpg",
+      "pie": "Redondela: una villa ferroviaria con vida durante todo el año"
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/vigo-e-ria/zona-rande.jpg",
+      "pie": "El puente de Rande: la AP-9 cruza la ría y une Vigo con O Morrazo"
+    },
+    {
+      "type": "h2",
+      "text": "Fiestas, mercados y cultura"
+    },
+    {
+      "type": "p",
+      "text": "La primavera abre el calendario en dos orillas. En Vigo, la Reconquista ocupa el Casco Vello alrededor del 28 de marzo —a menudo el último fin de semana de marzo o el primero de abril— y recuerda la expulsión de las tropas francesas en 1809. En Arcade, la Festa da Ostra llega a comienzos de primavera, habitualmente el primer fin de semana de abril, aunque conviene consultar la fecha de cada edición. Ambas llenan calles y restaurantes: quien viva en sus recorridos encontrará cortes, visitantes y ruido, no una celebración confinada en un recinto."
+    },
+    {
+      "type": "p",
+      "text": "Redondela encadena la Festa do Choco el segundo domingo de mayo y la Festa da Coca en Corpus. El choco —la sepia de la ensenada— reúne mesas y puestos; la Coca es el dragón legendario que sale con la Danza das Espadas y las Penlas. En Vilaboa, el Entroido de Cobres lleva desde el siglo XVIII a madamas y galáns por las dos parroquias de Cobres: aquí la cultura no se concentra en un casco, sino que recorre caminos y pequeños lugares."
+    },
+    {
+      "type": "p",
+      "text": "El verano vuelve a Vigo más intenso. La Semana Grande ocupa la primera semana de agosto y O Marisquiño añade deporte urbano, música y público junto al litoral; en Redondela, el Entroido de Verán cierra el penúltimo fin de semana del mes. Mercados urbanos como los de Vigo y Redondela sostienen, en cambio, la vida ordinaria durante todo el año. En la mesa, la ría se lee con claridad: el choco de Redondela, las ostras de Arcade, el pescado de lonja en Vigo y el pulpo que aparece en fiestas y romerías. Conviene visitar la calle elegida en un día de mercado y en su fiesta mayor: el mismo portal puede tener dos ritmos opuestos."
+    },
+    {
+      "type": "h2",
+      "text": "Mar, ría y camino"
+    },
+    {
+      "type": "p",
+      "text": "Samil es el gran arenal urbano de Vigo: 1,7 kilómetros de arena, paseo, jardines y piscinas. O Vao, más al suroeste, conserva dunas y mira al islote de Toralla; Canido es el pequeño núcleo marinero contiguo. El agua suele estar entre 17 y 19 °C en agosto, lejos de los 25 °C del Mediterráneo mallorquín. Desde el puerto salen barcos hacia las Cíes entre primavera y comienzos de otoño, con autorización en fechas de alta demanda."
+    },
+    {
+      "type": "p",
+      "text": "Cesantes pertenece a Redondela y cambia por completo el agua: arena larga, casi sin olas y la isla de San Simón enfrente. La ensenada puede alcanzar 18–20 °C en verano. La marea se retira mucho y deja bancos visibles; el baño necesita mirar la hora, no solo el cielo. La isla fue monasterio, lazareto y prisión, y hoy se visita en rutas y actividades autorizadas."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/vigo-e-ria/redondela-cesantes.jpg",
+      "pie": "Cesantes: arena y agua calma frente a la isla de San Simón"
+    },
+    {
+      "type": "p",
+      "text": "Arcade, en Soutomaior, vive donde el río Verdugo alcanza la ría. Su orilla es pequeña y está ligada al marisqueo y a las ostras; para un gran baño se va a Cesantes. El río añade senda y el puente histórico de Pontesampaio, paso del Camino Portugués. Sobre el valle, el castillo de Soutomaior reúne murallas, bosque y uno de los jardines de camelias más conocidos de Galicia."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/vigo-e-ria/soutomaior-castelo.jpg",
+      "pie": "El castillo de Soutomaior: fortaleza, bosque y camelias sobre el valle"
+    },
+    {
+      "type": "p",
+      "text": "Vilaboa ofrece la ría como humedal. Las Salinas de Ulló son antiguos estanques salineros convertidos en marisma, recorridos por una senda llana entre aves y diques. Deilán y Paredes son playas pequeñas, dependientes de la marea. En la parte alta, Lago Castiñeiras abre caminos de bosque y Cotorredondo mira a la vez hacia las rías de Vigo y Pontevedra. Aquí el agua se contempla y se camina tanto como se nada."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/vigo-e-ria/vilaboa-ullo.jpg",
+      "pie": "Las Salinas de Ulló, donde la antigua industria de sal volvió a ser marisma"
+    },
+    {
+      "type": "h2",
+      "text": "Qué cuesta una casa"
+    },
+    {
+      "type": "p",
+      "text": "Vigo abre una distancia clara: alrededor de 2.700 €/m², frente a 1.450 en Redondela y 1.300 en Soutomaior y Vilaboa. En la costa suroeste viguesa se pagan las Cíes, la playa y el hospital cerca. Un piso de dos habitaciones recientes cerca del mar ronda 220.000–230.000 euros —la franja asequible de esa orilla—; tres habitaciones o una casa con jardín en Coruxo, Oia o Saiáns se van hacia los 300.000 o más."
+    },
+    {
+      "type": "p",
+      "text": "Redondela ofrece más metros por menos: tres habitaciones cerca de Cesantes pueden rondar 170.000 euros, aunque el ruido cambia mucho según vía y carretera. Soutomaior ofrece casas de piedra con terreno aproximadamente entre 120.000 y 200.000. Vilaboa se mueve en un intervalo parecido, a menudo entre 130.000 y 200.000 para casa con finca y, en algunos puntos, vista a la ensenada."
+    },
+    {
+      "type": "p",
+      "text": "Fuera de Vigo hay poca o ninguna obra nueva. El ahorro debe reservar margen para cubierta, drenaje, aislamiento y ventilación. En una parroquia se comprueban además saneamiento, acceso y fibra por dirección: «hay fibra en el municipio» no garantiza que llegue a una casa al final de un camino. En Redondela y Arcade se añade aislamiento acústico; en Vilaboa, horas de sol invernal."
+    },
+    {
+      "type": "h2",
+      "text": "Servicios, hospital, aeropuerto"
+    },
+    {
+      "type": "p",
+      "text": "Vigo obtiene 10/10 porque no necesita ciudad de referencia: hospitales, universidad, mercados, gran comercio, cultura, deporte, tren de alta velocidad y aeropuerto están dentro del municipio. Redondela alcanza 7/10: mercado, comercio, centros educativos, centro de salud y estación resuelven la semana; Vigo y Pontevedra completan lo que falta. Soutomaior baja a 4/10 y concentra lo básico en Arcade. Vilaboa, con 3/10, vive repartida y depende del coche."
+    },
+    {
+      "type": "p",
+      "text": "Vigo usa el Álvaro Cunqueiro como hospital público y Povisa como gran centro privado-concertado, ambos a unos diez minutos desde muchas zonas de referencia. Desde Redondela quedan aproximadamente a veinte. Soutomaior y Vilaboa miran a Montecelo, el hospital público de Pontevedra, a unos quince minutos; Quirónsalud Pontevedra cubre la alternativa privada en un tiempo parecido."
+    },
+    {
+      "type": "p",
+      "text": "Peinador, el aeropuerto de Vigo, queda a unos diez minutos de Vigo y Redondela y a quince de Soutomaior y Vilaboa, según tráfico y parroquia. Su vuelo directo a Palma es principalmente estacional. Santiago, a unos sesenta o setenta minutos, mantiene una conexión con Palma durante casi todo el año. Porto amplía destinos, pero queda entre hora y cuarenta y hora y cincuenta desde el fondo de la ría."
+    },
+    {
+      "type": "p",
+      "text": "La proximidad numérica no elimina las diferencias. Una casa de Vilaboa puede estar a quince minutos del hospital y exigir coche para comprar pan; un piso de Vigo puede tener especialistas a mano y tardar veinte minutos en cruzar la ciudad en hora punta. La logística de esta zona es excelente, pero siempre debe medirse desde el portal concreto."
+    },
+    {
+      "type": "encaja",
+      "si": [
+        "Se quiere la mejor combinación de hospital, aeropuerto, tren y mar. Vigo resuelve la vida urbana completa y permite buscar costa residencial en Alcabre, Coruxo, Oia o Saiáns; Redondela ofrece villa, estación y Cesantes —la playa tranquila frente a San Simón— por mucho menos dinero.",
+        "Se busca casa y calma sin aislarse. Soutomaior permite vivir entre el castillo, el río Verdugo y Arcade con Pontevedra a unos quince minutos. Vilaboa ofrece finca, marisma y vistas sobre la ensenada, también cerca del hospital, si se acepta que parroquia significa coche y servicios dispersos."
+      ],
+      "no": [
+        "Se imagina que toda la zona permite una vida de pueblo a pie. Solo Redondela funciona claramente como villa compacta; Arcade cubre una escala menor. Vigo es ciudad y las parroquias de Vilaboa o Soutomaior dependen del coche. El ruido de trenes, AP-9 y carreteras también debe comprobarse casa por casa."
+      ],
+      "veredicto": "Veredicto de zona: Redondela es la recomendación más equilibrada para vivienda amplia, tren, mercado, hospital a unos veinte minutos y baño tranquilo en Cesantes —tres habitaciones cerca de la playa rondan 170.000 euros—. Vigo va primero cuando hospitales, cultura y ciudad completa son irrenunciables; en su costa suroeste lo habitual es un piso de dos habitaciones cerca del mar, no tres ni casa con jardín y vistas a las Cíes. Soutomaior encaja para casa con terreno y un pequeño apoyo urbano en Arcade. Vilaboa ofrece el mayor silencio y paisaje de ensenada, pagando con coche y servicios escasos. Frente a Mallorca, toda la zona cambia sol invernal por lluvia, pero entrega veranos de 25–26 °C: para práctica y villa, Redondela; para ciudad, Vigo; para casa conectada, Soutomaior; para parroquia y finca, Vilaboa."
+    },
+    {
+      "type": "credito",
+      "text": "Fotos: Wikimedia Commons. Consulta la atribución y licencia en cada imagen."
+    }
+  ],
+  "widgetsOmitidos": [
+    "TablaPrecios (widget en vivo; no congelado con datos 2026)",
+    "EnlaceIdealista (widget en vivo)",
+    "MunicipiosZonaFin (sustituido por lista V1 del manifiesto)"
+  ],
+  "serializationNote": "Prosa extraída del Relato*.tsx del baseline; interpolaciones {zona.*}/{mallorca.*} resueltas con zonas.json del mismo commit. Widgets en vivo (TablaPrecios/Idealista/MunicipiosZonaFin) omitidos a propósito."
+}

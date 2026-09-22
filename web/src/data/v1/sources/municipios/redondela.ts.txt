@@ -1,0 +1,61 @@
+{
+    escala: "Villa de ría y viaductos",
+    abrir: [
+      "Redondela es una villa de unos veintinueve mil habitantes situada donde la ría de Vigo se estrecha y los valles de los ríos Alvedosa y Maceiras llegan al mar. Dos viaductos ferroviarios del siglo XIX cruzan el casco a gran altura y le dan una silueta imposible de confundir. Debajo hay mercado, comercio, cafeterías y calles que siguen vivas en enero. Cesantes, la parroquia costera situada al oeste de la villa, abre una playa larga frente a la isla de San Simón.",
+      "Un martes laborable la estación recibe trenes hacia Vigo y Pontevedra, el mercado abre y los colegios llenan las aceras. La villa tiene una identidad obrera y ferroviaria, menos pulida para la foto típica que Baiona y más útil para el año entero. Chapela, la parroquia pegada a Vigo bajo el puente de Rande, funciona casi como un barrio de la ciudad; Cesantes y Reboreda mezclan casas, huertas y vistas; el casco permite resolver a pie la compra y el café.",
+      "La logística explica buena parte de su atractivo. Vigo queda a unos diez minutos en tren y Pontevedra a unos quince; el aeropuerto de Peinador está a diez minutos en coche y la AP-9 cruza el municipio. Esa facilidad tiene un reverso audible: vías, autopista y accesos al puente de Rande. En una calle se oyen campanas y mercado; en otra, trenes de mercancías. La visita debe hacerse con las ventanas abiertas y a distintas horas.",
+      "Las grandes fechas sí alteran por unos días esa rutina. El segundo domingo de mayo, la Festa do Choco —el choco es la sepia propia de la ensenada— puede reunir a unas treinta mil personas alrededor de las mesas y puestos. En Corpus, la Festa da Coca, de Interés Turístico de Galicia desde 2011, saca al dragón legendario junto a la Danza das Espadas y las Penlas, niñas elevadas sobre mujeres danzantes. Santiago llena el 25 de julio y el Entroido de Verán devuelve disfraces y música el penúltimo fin de semana de agosto. En el casco hay cortes, megafonía y noches concurridas; en Cesantes pesa más el tráfico de playa.",
+    ],
+    tiempo: [
+      "Redondela recibe unas 2.250 horas de sol y 72 días despejados al año, frente a unas 2.800 horas y 120 días despejados en Mallorca. La media invernal ronda los 9,5 °C: el frío no es extremo, pero el agua sí cambia la vida cotidiana. Caen unos 1.700 milímetros en 128 días, con largas secuencias húmedas entre octubre y marzo. Los viaductos, la piedra y las laderas permanecen verdes porque el invierno los moja de verdad.",
+      "La media de verano ronda los 20,5 °C, con máximas habituales de 25–26 °C y noches cercanas a 15 °C. Solo entre tres y ocho días al año suelen cruzar los 30 °C. Cesantes, dentro de la ensenada, tiene menos oleaje y agua algo más templada que las playas abiertas: suele rondar 18–20 °C en agosto. Frente a Mallorca se pierde fiabilidad de sol, pero también desaparece el calor sostenido de julio.",
+    ],
+    vivir: [
+      "El invierno en Redondela se siente en la humedad de la piedra y en el agua que moja viaductos y laderas. En Mallorca muchas casas casi no piensan en calefacción ni en moho; aquí caen unos 1.700 milímetros en 128 días. Conviene revisar drenaje, aislamiento y humedad en casas antiguas. Visitar el piso con las ventanas abiertas un día gris y otro de sol enseña más que la silueta de los viaductos en foto.",
+      "El día a día sin coche funciona en el casco: mercado, comercio, cafeterías y estación. En Cesantes, Reboreda o Chapela el coche o el trayecto corto hay que contar con más. En enero la villa sigue viva —tren, colegios, Camino—. No es una foto de turismo estacional: es villa obrera y ferroviaria útil para el año entero.",
+      "Llegar de fuera es habitual por la logística: Vigo a diez minutos en tren, Pontevedra a quince. Se oye gallego en el mercado; el castellano basta para lo cotidiano. Entre semana manda el ritmo de estación y AP-9; en mayo la Festa do Choco y en Corpus la Coca llenan el casco. Quien busque solo silencio absoluto se equivocará de calle; quien busque vecinos todo el año, los encontrará.",
+      "La sanidad de urgencia y especialidades está en Vigo: Álvaro Cunqueiro y Povisa quedan aproximadamente a veinte minutos. En Redondela hay centro de salud y farmacias. Empadronarse abre el médico de cabecera local; para hospital se baja a la ciudad. No es aislamiento: es villa apoyada en dos ciudades cercanas.",
+      "Mantener el vínculo con Mallorca pasa por el avión. Peinador está a diez minutos; Santiago, con vuelo a Palma durante casi todo el año, a unos sesenta y cinco. En invierno conviene mirar el calendario real de vuelos. La facilidad del aeropuerto es una de las ventajas claras frente a villas más remotas.",
+      "En el casco hay pisos a pie de mercado y estación; en Cesantes y Reboreda, casas y pequeños bloques entre fincas. Fibra extendida y poca obra nueva. Junto a las infraestructuras, el aislamiento acústico importa tanto como la orientación: hay que escuchar tren y autopista. Conviene presupuestar humedad y reforma, no solo metros cerca de Cesantes.",
+    ],
+    historia: [
+      "Los viaductos resumen el nacimiento de la Redondela moderna. El de Madrid, inaugurado en 1876 y hoy sin tráfico ferroviario, y el de Pontevedra, abierto en 1884 y todavía en uso, salvaron el valle para conectar Galicia por tren. Sus pilares atraviesan la villa como una arquitectura industrial monumental. La estación sigue haciendo práctico aquel legado: Vigo y Pontevedra forman parte de la semana sin obligar siempre a coger el coche.",
+      "En la ensenada, la isla de San Simón guarda una historia más oscura. Fue monasterio y lazareto, y entre 1936 y 1943 funcionó como prisión durante la Guerra Civil y la posguerra. Hoy es un conjunto cultural visitable en actividades y rutas autorizadas. El Camino Portugués atraviesa mientras tanto la villa: peregrinos, vecinos y fiestas ocupan unas mismas calles que nunca han dejado de ser lugar de paso.",
+      "Bajo el puente de Rande ocurrió el 23 de octubre de 1702 la batalla naval que enfrentó a la flota anglo-neerlandesa con los navíos hispano-franceses. El centro de interpretación de Meirande, instalado junto al estrecho, explica aquel combate y el patrimonio de la ría. Desde Cesantes, el episodio histórico deja de ser una fecha abstracta: San Simón y Rande forman el horizonte diario.",
+    ],
+    fuera: [
+      "Cesantes es la playa de Redondela: arena larga, marea muy visible y agua tranquila frente a San Simón. Desde el casco se llega en unos seis minutos en coche; desde las casas de la parroquia, a pie según la dirección. El agua estival ronda 18–20 °C, algo más amable que Samil u O Vao. Con bajamar la ensenada enseña bancos de arena y marisma; no parece océano abierto, sino una gran lámina de agua protegida.",
+      "La senda del río Alvedosa acompaña al curso que atraviesa la villa y permite caminar sin salir del valle. En Cesantes, el paseo costero mira hacia la isla y el estrecho de Rande. Monte Penide, la altura situada entre Redondela y Vigo, conserva mámoas —túmulos funerarios prehistóricos— y petroglifos grabados en la roca, además de vistas sobre las cubiertas de la ría.",
+      "Para una salida más larga, el barco a San Simón funciona en fechas y programas concretos, no como transporte diario. El estrecho de Rande, bajo el gran puente de la AP-9, recuerda la batalla naval de 1702. Hacia el norte, Arcade y el río Verdugo quedan a quince minutos; hacia el sur, Vigo ofrece Samil, museos y barcos a las Cíes sin necesidad de cambiar de comarca.",
+    ],
+    casa: [
+      "En el casco hay pisos en edificios de distintas décadas, muchos a pie de mercado y estación. En Cesantes, Reboreda y Ventosela predominan casas y pequeños bloques entre fincas; Chapela ofrece proximidad máxima a Vigo, pero también más densidad y tráfico. La fibra está extendida y existe poca obra nueva. En una casa antigua conviene revisar drenaje y humedad; junto a las infraestructuras, el aislamiento acústico importa tanto como la orientación.",
+      "El precio medio ronda los 1.450 €/m². Un piso de tres habitaciones cerca de Cesantes se mueve alrededor de 170.000 euros —la franja asequible frente a Vigo—; por unos 220.000–240.000 se puede mirar algo más amplio o más actualizado, o una casa con margen para reforma. La contrapartida no aparece en la superficie útil: puede ser la vía férrea, la AP-9, una carretera estrecha o la necesidad de coche desde una parroquia.",
+      "Los servicios alcanzan un 7/10: centro de salud, farmacias, mercado, supermercados, colegios, institutos, comercio y tren. El Álvaro Cunqueiro y Povisa, hospitales de Vigo, quedan aproximadamente a veinte minutos; Peinador, a diez. Santiago, con vuelo a Palma durante casi todo el año, está a unos sesenta y cinco minutos. Redondela no pretende duplicar la ciudad: se apoya en dos ciudades cercanas y conserva vida propia.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si la prioridad es una vida práctica: villa con mercado y estación, Vigo a diez minutos en tren, Pontevedra a quince, aeropuerto a diez y playa tranquila cerca. Cesantes permite bañarse frente a San Simón; el casco permite hacer recados a pie; las parroquias permiten buscar casa y terreno sin pagar los precios de la costa viguesa.",
+        "También encaja para quien prefiere una población activa todo el año a una foto de turismo estacional. Hay colegio, comercio, tren y Camino de Santiago en noviembre, no solo terrazas en agosto. Con unos 170.000 euros como referencia para tres habitaciones, el presupuesto conserva margen para reforma y aislamiento.",
+      ],
+      no: [
+        "No encaja si el silencio absoluto es una condición. AP-9, vías ferroviarias, N-550 y puente de Rande se reparten por el municipio. El ruido cambia de una calle a la siguiente y no puede deducirse del nombre de la parroquia: hay que escuchar la vivienda en hora punta y cuando pase un tren.",
+        "Tampoco encaja si se quiere una playa mediterránea a pie del casco. Cesantes queda a unos seis minutos en coche, su marea retira mucho el agua y el invierno trae 128 días de lluvia. Vigo ofrece ciudad y playas urbanas; Soutomaior o Vilaboa ofrecen más silencio rural, aunque con menos servicios a pie.",
+      ],
+      veredicto:
+        "Veredicto: Redondela es la compra más práctica de Vigo e ría. Buscaría tres habitaciones en el casco si mandan estación, mercado y vida a pie, o una casa en Cesantes o Reboreda si hay que contar con el agua y el terreno. Antes de firmar escucharía tren y autopista una mañana laborable y mediría el trayecto real a la playa. Se obtiene hospital a unos veinte minutos, aeropuerto a diez y dos ciudades por tren por un precio muy inferior al de Vigo. Frente a Mallorca se aceptan 1.700 milímetros de lluvia y menos cielo despejado; a cambio, julio rara vez rebasa 25–26 °C de forma sostenida. No es la opción más silenciosa ni la más escénica: es la que mejor convierte presupuesto y logística en vida cotidiana.",
+    },
+    fotosAbrir: [
+      { src: "/fotos/vigo-e-ria/redondela-villa.jpg", pie: "Redondela: el viaducto de hierro atraviesa el casco" },
+      { src: "/fotos/vigo-e-ria/redondela-cesantes.jpg", pie: "Cesantes: playa de la ensenada, agua calmada" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/vigo-e-ria/redondela-viaduto.jpg", pie: "Viaducto de Madrid: la vía elevada que define el perfil de Redondela" },
+      { src: "/fotos/vigo-e-ria/redondela-san-simon.jpg", pie: "La isla de San Simón, antiguo monasterio, lazareto y prisión" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/vigo-e-ria/redondela-paseo.jpg", pie: "Paseo y arena de Cesantes con la marea de la ensenada" },
+      { src: "/fotos/vigo-e-ria/redondela-penide.jpg", pie: "San Simón desde la orilla: el horizonte cercano de la ría" },
+    ],
+    creditoFotos: "Fotos: Wikimedia Commons (CC BY-SA).",
+  }

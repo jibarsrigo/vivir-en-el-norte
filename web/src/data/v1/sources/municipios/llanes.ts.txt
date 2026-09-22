@@ -1,0 +1,66 @@
+{
+    escala: "Villa amurallada y playas",
+    abrir: [
+      "Llanes se siente villa estrella del oriente desde el primer tramo de muro. Unos trece mil habitantes, casco amurallado con puerto, Cubos de la Memoria —esculturas de hormigón coloreado en el espigón—, Paseo de San Pedro —pradera sobre el acantilado—, casco histórico y más de treinta playas en el concejo; la Sierra del Cuera encima a unos 1.300 m y los Picos a unos cuarenta minutos. Pueblos con playa —Barro, Niembro, Celorio, Poo, Andrín— son muy queridos por el veraneo madrileño. No es un solo casco: es un municipio de orillas.",
+      "Quien vive aquí es gente local, vecinos de toda la vida, y veraneantes que vuelven cada julio y agosto. Un martes de noviembre se camina el casco amurallado y se resuelve el día a día: comercio, mercado, mesas, fibra. Los servicios alcanzan 7/10. El Hospital del Oriente, en Arriondas, queda a unos treinta y cinco minutos —peor que Colunga o Ribadesella a veinte—. Santander anda alrededor de los setenta minutos —puerta a Palma casi todo el año—; Asturias, alrededor de los ochenta y cinco. Ese mapa sanitario no se acorta eligiendo otra calle del muro.",
+      "En julio y agosto Llanes multiplica por cinco u ocho su población: toallas, tráfico, ruido y aparcamiento justo en villa y pueblos con playa. Las patronales y el veraneo marcan semanas enteras. De octubre a junio recupera calma de villa cuidada: muro, puerto, paseo sin la presión de temporada. Quien busque silencio absoluto en agosto no lo encontrará en la orilla ni en muchos pueblos con playa; quien busque café y recados en enero, sí.",
+      "La semana tiene rutinas claras: casco amurallado, puerto, Paseo de San Pedro y, cuando apetece, Toró, Sablón, Barro o Gulpiyuri. Primavera y otoño son buenas épocas para conocerlo: el Cuera cambia de color y la villa se ve como es de verdad, sin multiplicar población. Si solo conoces Gulpiyuri un día de sol, te llevas la imagen de folleto. Si has visto un agosto saturado y un noviembre vacío, ya puedes decidir si de verdad quieres vivir aquí.",
+      "El calendario local no es decoración. El veraneo madrileño y las fiestas de villa y pueblos llenan semanas de música, mesas y coches buscando hueco. Quien viva junto al muro, en el puerto o en Barro, Niembro o Celorio debe contarlas como parte del año, no como excepción imprevista.",
+    ],
+    tiempo: [
+      "Si vienes de Baleares, el cielo de Llanes pide aceptar el sol mínimo de la tabla. Suma unas 1.700 a 1.750 horas de sol y unos cuarenta días despejados, frente a las 2.800 horas y ciento veinte jornadas claras de Mallorca. Caen alrededor de 1.200 a 1.300 milímetros en unos 153 a 155 días. El viento es bajo —el Cuera protege—; también en verano llueve varios días al mes. Se gana frescura y variedad de orilla; se aceptan 168 cubiertos.",
+      "El verano ronda 19,5 °C, fresco frente a Baleares. Toró, Sablón, Barro, Torimbia o Gulpiyuri tienen agua entre 19 y 21 °C; muchas playas son pequeñas y abrigadas entre acantilados —baño con calma en Toró, Sablón, Poo o Barro cuando el mar esté llano—. Conviene venir un agosto saturado y un martes de noviembre, no solo un sábado de sol en el Paseo de San Pedro.",
+    ],
+    vivir: [
+      "El invierno en casa se nota por el salitre del muro y un cielo que se cierra con frecuencia: entre noviembre y febrero la terraza del casco amurallado se usa a medias. Conviene probar un martes vacío y el aislamiento frente a humedad, no solo firmar con sol en el Paseo de San Pedro. El Cuera protege del viento; no protege de los cubiertos.",
+      "Sin coche se sostiene la villa: comercio, mercado, mesas y fibra un martes de noviembre; servicios 7/10. En enero Llanes recupera calma de villa cuidada —café y recados en el casco—. Barro, Niembro, Celorio, Gulpiyuri o el Cuera piden coche; el día a día del muro se camina. Quien viva en pueblo con playa dependerá más del volante.",
+      "Conviven gente local, vecinos de toda la vida y veraneantes que vuelven cada julio y agosto. Se oye asturiano en el mercado y en el puerto; el castellano basta para lo cotidiano. La vida social pasa por el casco amurallado y, en temporada, por el veraneo madrileño que multiplica la población. Entre semana de invierno manda la villa; en agosto el ruido y el aparcamiento son parte del trato.",
+      "La sanidad comarcal queda más lejos que en Ribadesella: el Hospital del Oriente, en Arriondas, anda alrededor de los treinta y cinco minutos. Empadronarse aquí abre servicios de villa; para especialidades se baja a Arriondas. Eso no se acorta eligiendo otra calle del muro.",
+      "Ir y volver a Mallorca mira a Santander alrededor de los setenta minutos —puerta a Palma casi todo el año—; Asturias, alrededor de los ochenta y cinco. En verano cabe también Asturias; en invierno Santander suele ser la referencia. Conviene mirar el calendario real de vuelos, no solo el de agosto en Toró.",
+      "La vivienda típica es piso o casa de villa en el casco amurallado: poca obra nueva, fibra, facilidad de venta alta. En pueblos con playa —Barro, Niembro, Celorio— el metro sube y tres habitaciones suelen quedar fuera de la franja asequible de la villa. Hay que probar un agosto en la orilla y un noviembre en el muro.",
+    ],
+    historia: [
+      "La villa amurallada, el puerto y el casco histórico explican Llanes: plaza fuerte marinera convertida en capital del veraneo oriental. El muro no es decorado: es la forma en que la villa se defendió y se reconoció. Los Cubos de la Memoria y el Paseo de San Pedro añaden capa contemporánea y de acantilado: hormigón coloreado en el espigón, pradera sobre el Cantábrico.",
+      "Los pueblos con playa del concejo —Barro, Niembro, Celorio, Poo, Andrín— y la Sierra del Cuera completan el relato: no es solo un casco, es un municipio de orillas con sierra encima y Picos a unos cuarenta minutos. Bufones de Pría y Arenillas, Torimbia, Gulpiyuri y Ballota amplían el mapa de costa. Lo que conviene saber es de muro, playa y sierra, no de una sola calle.",
+      "El veraneo madrileño del siglo XX consolidó lo que el muro y el puerto ya eran: villa de destino. Facilidad de venta y revalorización altas en el contexto de la zona hablan de esa demanda sostenida; el precio del metro —alrededor de 2.100 €/m²— también.",
+    ],
+    fuera: [
+      "Si solo hay tiempo para una tarde de diario, esa tarde es el casco amurallado, el puerto y el Paseo de San Pedro: pradera sobre el acantilado, mar abajo, villa detrás. Toró y Sablón cubren orilla urbana a un paso. Un martes de noviembre puedes caminar sin prisa; un sábado de agosto el muro y el puerto piden paciencia con gente y coches.",
+      "Gulpiyuri —playa interior unida al mar por un túnel natural—, Barro, Torimbia y los Bufones de Pría amplían el concejo: orillas distintas, acantilados, agua entre 19 y 21 °C. En temporada alta hay que contar aparcamiento y afluencia; fuera de agosto, muchas calas vuelven a escala de vecinos. Ballota, Andrín, Niembro, Celorio y Poo cierran un mapa de más de treinta playas.",
+      "El Cuera ofrece rutas con la villa abajo; los Picos quedan a unos cuarenta minutos. Aquí el paisaje diario es muro, puerto y elección de orilla; la montaña es salida cuando se quiere horizonte de piedra. Quien priorice hospital a veinte mirará Ribadesella; quien priorice esta costa sin número, Llanes.",
+    ],
+    casa: [
+      "El casco ofrece pisos y viviendas de villa: poca obra nueva, fibra, facilidad de venta y revalorización altas en el contexto de la zona. En los pueblos con playa —Barro, Niembro, Celorio— el metro sube y tres habitaciones suelen quedar fuera de la franja asequible de la villa. Conviene probar un agosto en la orilla y un noviembre en el muro, no solo firmar con sol de folleto.",
+      "El precio medio ronda 2.100 €/m². Tres habitaciones en la villa se sitúan alrededor de 246.000 euros en franja asequible; en pueblos con playa, más. La franja media puede ser piso en casco o vivienda interior del concejo. Primera línea de Barro o Celorio en temporada no es el trato de esa cifra de villa.",
+      "Los servicios son 7/10: villa amurallada completa. Arriondas queda a unos treinta y cinco minutos. Santander está a unos setenta; Asturias, a unos ochenta y cinco. Eso es Llanes: muro, más de treinta playas y Cuera a cambio de agosto multiplicado, hospital más lejos y sol mínimo de tabla.",
+    ],
+    encaja: {
+      si: [
+        "El muro, el puerto y más de treinta playas importan más que el hospital a veinte minutos. Llanes es la villa estrella del oriente: casco amurallado, Cubos de la Memoria, Paseo de San Pedro —pradera sobre el acantilado—, Toró y Sablón a un paso, y un concejo de orillas —Barro, Niembro, Celorio, Poo, Andrín, Torimbia, Gulpiyuri, Ballota— con la Sierra del Cuera encima y los Picos alrededor de los cuarenta minutos. Quien quiera caminar la villa un martes de noviembre —servicios 7/10, fibra, comercio y mercado— y elegir baño o paseo entre acantilados cuando el mar esté llano encontrará la costa más completa de la zona. El verano ronda 19,5 °C, agua entre 19 y 21 °C; unas 1.700 a 1.750 horas de sol y unos cuarenta despejados frente a Mallorca: se gana frescura y variedad de orilla; se acepta el sol mínimo de la tabla. En julio y agosto la población se multiplica por cinco u ocho —veraneo madrileño intenso—: toallas, tráfico, ruido y aparcamiento justo en villa y pueblos con playa. De octubre a junio recupera calma de villa cuidada.",
+        "Funciona si se acepta el Hospital del Oriente, en Arriondas, a unos treinta y cinco minutos —peor que Colunga o Ribadesella a veinte— y se mira Santander a unos setenta minutos como puerta a Palma casi todo el año, frente a Asturias alrededor de ochenta y cinco. El metro ronda 2.100 €/m²: tres habitaciones en la villa pueden entrar en franja usable; en Barro, Niembro o Celorio el precio de orilla suele saltar de franja. Quien priorice muro, Cuera, bufones y playas sin número, y pruebe un agosto saturado y un noviembre vacío antes de comprar, entenderá Llanes: gana por villa y orillas, no por despejados ni por sanidad cercana.",
+      ],
+      no: [
+        "La calma en julio y agosto no existe en la orilla ni en muchos pueblos con playa. Si eso es innegociable, mirar Villaviciosa o Ribadedeva —menos golpe de veraneo— o un pueblo interior del propio concejo, lejos de Barro y Celorio. El hospital a treinta y cinco minutos no se acorta eligiendo otra calle del muro: quien necesite Arriondas a veinte, Ribadesella o Colunga lo cubren. Tres habitaciones en primera línea de pueblo con playa en franja asequible de villa suelen quedar fuera; hay que mirar casco o interior.",
+        "Tampoco encaja quien busque el cielo de Baleares o Cabueñes a veinticinco minutos: aquí mandan cubiertos, lluvia también en verano y Gijón lejos. Quien se decida solo por Gulpiyuri o el Paseo de San Pedro un día de sol, sin probar el atasco de agosto ni el turismo hacia Picos y playas, se llevará una sorpresa. Si lo que manda es Sella e Indianos con hospital a veinte, Ribadesella; si sidra, ría y logística hacia Asturias, Villaviciosa; si frontera y Santander a cincuenta y cinco, Ribadedeva.",
+      ],
+      veredicto:
+        "Veredicto: Llanes encaja como villa amurallada de playas y Cuera —piso o vivienda en casco o pueblo interior, no en primera línea de Barro o Celorio en temporada— sobre todo si la costa más completa del oriente importa más que Arriondas a treinta y cinco. Probar un agosto lleno y un martes de noviembre antes de comprar. Se ganan muro, más de treinta playas, servicios 7/10 y Santander a unos setenta hacia Palma; se aceptan agosto multiplicado, ~2.100 €/m² y el sol mínimo de la tabla. Quien priorice hospital a veinte, Ribadesella; quien priorice metro y Cabueñes, Villaviciosa; quien priorice vuelo corto y calma de frontera, Ribadedeva.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/asturias-oriente/llanes-identidad.jpg",
+      pie: "Llanes: casas con galerías sobre el puerto — vivir pegado al Cantábrico",
+    },
+    fotosAbrir: [
+      { src: "/fotos/asturias-oriente/llanes-casco.jpg", pie: "Casco amurallado de Llanes" },
+      { src: "/fotos/asturias-oriente/llanes-puerto.jpg", pie: "Puerto de Llanes" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/asturias-oriente/llanes-san-pedro.jpg", pie: "Paseo de San Pedro, Llanes" },
+      { src: "/fotos/asturias-oriente/llanes-cuera.jpg", pie: "Sierra del Cuera sobre Llanes" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/asturias-oriente/llanes-gulpiyuri.jpg", pie: "Playa de Gulpiyuri" },
+      { src: "/fotos/asturias-oriente/llanes-barro.jpg", pie: "Playa de Torimbia, Llanes" },
+    ],
+    creditoFotos: credito,
+  }

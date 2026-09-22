@@ -1,0 +1,98 @@
+{
+  "tipo": "municipio",
+  "slug": "oleiros",
+  "nombre": "Oleiros",
+  "n": 33,
+  "zonaId": "golfo-artabro-e-ferrol",
+  "zonaNombre": "Golfo Ártabro e Ferrol",
+  "provincia": "A Coruña",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-golfo-artabro-e-ferrol.ts",
+  "sourceKey": "oleiros",
+  "sourceExport": "RELATOS_GOLFO_ARTABRO_E_FERROL",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "c549a525b29022773a5850fe50334af1488dc8d8d0d7d075b87876451d5eb162",
+  "relato": {
+    "escala": "Urbanizaciones y playas de ría",
+    "abrir": [
+      "Oleiros es el modelo residencial del golfo. Alrededor de treinta y ocho mil habitantes —orden de magnitud reciente, a contrastar en el INE o el IGE— repartidos en núcleos junto al mar: Santa Cruz —castillo en un islote, paseo y puerto—, Mera —faro, playas y pueblo bajo—, Perillo y Santa Cristina —paseo de la ría—, Bastiagueiro y el Monumento Natural de Dexo-Serantes, con acantilados y senda costera. Es un municipio muy dotado de parques y equipamientos para su tamaño: casas bajas, calles limpias, chalés. No es villa marinera densa; es corona residencial de A Coruña.",
+      "Un martes de noviembre el centro de salud, el súper, el colegio y el comercio cubren la semana básica sin entrar cada día en A Coruña. Quien vive aquí busca orden, playa a minutos y capital a unos diez. Los servicios alcanzan 7/10 en nuestra escala propia. El CHUAC, público, queda a unos diez minutos en coche; el privado HM Modelo, a unos quince. Alvedro está a unos diez. A Coruña, la ciudad de referencia, a unos diez minutos del centro: todos son tiempos aproximados y cambian bastante según el núcleo del municipio.",
+      "En verano las verbenas y el veraneo llenan Santa Cristina, Mera y Bastiagueiro con toallas, tráfico y aparcamiento escaso en la orilla. San Juan anima la costa; las noches de julio y agosto suben el volumen junto al paseo. Vivir en primera línea de playa significa contar con semanas ruidosas; tierra adentro, hacia las urbanizaciones, el silencio vuelve antes.",
+      "Fuera de agosto Oleiros recupera ritmo residencial ordenado, de clase media-alta coruñesa, con vida local y ciudad cerca. Primavera y otoño dejan Santa Cruz y Dexo más fáciles de disfrutar. Si solo conoces un sábado de sol en Santa Cristina, te llevas la imagen de folleto de la urbanización. Si has visto un noviembre cubierto, ya puedes decidir si aceptas el cielo más gris de las rías.",
+      "Encaja para quien quiera exactamente urbanización con playa a diez minutos de una capital, y acepte ese cielo."
+    ],
+    "tiempo": [
+      "Oleiros no tiene observatorio propio: la referencia de la zona son las normales 1981-2010 de AEMET en A Coruña, a unos diez minutos —unas 1.939 horas de sol y unos 49 días despejados en el aeropuerto de Alvedro, y unos 1.014 milímetros en unos 130 días de lluvia en el observatorio de la ciudad, dos estaciones distintas—, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Es de los cielos más cubiertos de las rías gallegas según los datos de la tabla. El viento es medio; la niebla, baja. La llovizna también aparece en verano —cinco a ocho días al mes en julio y agosto—.",
+      "El verano ronda 19 °C, con máximas alrededor de 23 °C y muy pocos días sobre 30 °C. Santa Cristina, Mera y Bastiagueiro tienen agua de ría o costa suave, en general más usable que Riazor; sigue siendo fresca frente a Baleares, pero suele quedar calmada para baños cortos y paseos largos. Conviene probar un noviembre cubierto, no solo el sol de agosto en la orilla."
+    ],
+    "vivir": [
+      "El invierno en Oleiros se nota en la casa baja: humedad de ría, llovizna que también aparece en julio y agosto, y un cielo de unas 1.939 horas de sol según las normales de AEMET en A Coruña —de los más cubiertos de las rías gallegas— frente a Mallorca. Conviene preguntar por aislamiento, orientación al sol y rastros de moho; visitar un noviembre cubierto enseña más que mil fotos de Santa Cristina en agosto. La terraza o el jardín que en verano parecen el centro de la vida se usan la mitad o menos entre noviembre y febrero.",
+      "El día a día sin coche es incompleto: un martes de noviembre el centro de salud, el súper, el colegio y el comercio cubren la semana básica sin entrar cada día en A Coruña, pero los núcleos —Santa Cruz, Mera, Perillo, Santa Cristina, Bastiagueiro— están repartidos. Quien elija orilla ganará playa a minutos a cambio de aparcamiento justo en agosto; tierra adentro, hacia las urbanizaciones, el silencio vuelve antes y el coche organiza más trayectos. En enero Oleiros no se apaga del todo —hay vida local—, pero la densidad es residencial, no de casco lleno de terrazas.",
+      "Llegar de fuera es habitual: corona residencial de clase media-alta coruñesa, no villa marinera densa de lonja. Se oye gallego en el ayuntamiento y en el comercio; el castellano basta para lo cotidiano. Entre semana manda el ir y venir hacia A Coruña —a unos diez minutos—; en julio y agosto sube el volumen en Santa Cristina, Mera y Bastiagueiro, y San Juan anima la costa. Quien busque solo veraneo encontrará ruido en primera línea; quien busque vecinos todo el año, también —en escala de urbanización ordenada, no de capital.",
+      "La sanidad de urgencia y especialidades no está en el municipio: el CHUAC, público, queda a unos diez minutos en coche desde Perillo o Santa Cristina, y el privado HM Modelo, a unos quince; desde Mera o Dexo el trayecto es más largo, y el tráfico de la ría de O Burgo pesa a ciertas horas. En Oleiros hay centro de salud y lo básico para lo diario. Empadronarse aquí asigna médico de cabecera en el municipio; para pruebas y hospital se baja a A Coruña. No es aislamiento: es asumir que la gran sanidad está en la capital cercana, al mismo trayecto corto que el aeropuerto.",
+      "Mantener el vínculo con Mallorca pasa por Alvedro, a unos diez minutos; Santiago-Lavacolla, con más destinos, queda a unos cuarenta y cinco o cincuenta. Los vuelos a Palma cambian por temporada y por compañía, así que conviene comprobar la programación vigente en Aena o en las aerolíneas. En invierno el trayecto a menudo implica más escalas o ir a Santiago.",
+      "Predominan chalés y casas bajas en urbanización; también pisos en algunos núcleos. Hay obra nueva y fibra. En la orilla hay que contar con salitre, ocupación de agosto y precio; tierra adentro, orientación y parcela. Una casa con escaleras internas o desniveles de parcela pide imaginar la rutina dentro de diez años. Reforma frente a llave en mano: conviene presupuestar humedad, ventanas y calefacción, no solo metros y vistas a la ría."
+    ],
+    "historia": [
+      "Santa Cruz concentra la ficha señorial y defensivo: el castillo sobre un islote, el paseo y el puerto deportivo convierten el núcleo en una foto de turismo vivida, no en un decorado. Oleiros creció como corona residencial de A Coruña, no como villa marinera densa de lonja.",
+      "Dexo-Serantes protege acantilados y una senda de unos diez kilómetros: el otro carácter del municipio, más bravo que la ría de Santa Cristina. El urbanismo moderno —parques, equipamientos, casas bajas— es la capa que explica por qué aquí se siente «urbanización con playa» más que pueblo antiguo."
+    ],
+    "fuera": [
+      "Santa Cristina ofrece paseo y baño de ría; Mera y Espiñeiro, arena y faro; Bastiagueiro, oleaje suave. Son playas de diario a minutos de casa en muchos núcleos. Un martes de junio la toalla cabe; un domingo de agosto, el aparcamiento no.",
+      "La senda de Dexo-Serantes permite caminar acantilado y costa abierta: otra escala, más brava, cuando la ría se queda corta. Cualquier tramo de unos kilómetros es una tarde.",
+      "A Coruña queda a diez minutos para compras grandes, cultura y hospital; Gandarío, en Bergondo, amplía el arenal de ría templada. Aquí la orilla de diario es Santa Cristina o Mera; la capital, al mismo trayecto corto que el aeropuerto."
+    ],
+    "casa": [
+      "Predominan chalés y casas bajas en urbanización; también pisos en algunos núcleos. Hay obra nueva y fibra. En la orilla hay que contar con salitre, ocupación de agosto y precio; tierra adentro, orientación y parcela. Conviene ver un día de veraneo en la orilla y un noviembre gris.",
+      "Según el €/m² de Idealista de agosto de 2026, el precio medio ronda 2.605 €/m². Con ese metro, una vivienda de dos habitaciones en la franja asequible se estima alrededor de 220.000 euros y una de tres, alrededor de 305.000, ya en franja cara: son estimaciones derivadas del precio por metro, no anuncios reales. Una casa en urbanización parte a menudo de cifras más altas.",
+      "Los servicios son 7/10 en nuestra escala propia. El CHUAC, público, queda a unos diez minutos en coche. Alvedro está a unos diez y Santiago-Lavacolla, a unos cuarenta y cinco o cincuenta; los enlaces con Palma cambian por temporada y conviene comprobar la programación vigente. Quien priorice orden y playa lo entiende; quien busque metro bajo, mira Ferrol, Bergondo o Sada."
+    ],
+    "encaja": {
+      "si": [
+        "Encaja si se busca exactamente urbanización ordenada con playa a minutos de casa y A Coruña a unos diez minutos como ciudad de referencia. Santa Cristina ofrece paseo y baño de ría; Mera y Espiñeiro, arena y faro; Bastiagueiro, oleaje suave; Dexo-Serantes, acantilados y senda. El CHUAC, público, queda a unos diez minutos en coche; el privado HM Modelo, a unos quince. Alvedro está a unos diez y Santiago-Lavacolla, a unos cuarenta y cinco; los vuelos a Palma cambian por temporada y conviene comprobar la programación vigente. Quien quiera calles limpias, casas bajas y equipamientos sin vivir en densidad de capital encontrará aquí uno de los modelos residenciales más claros del golfo.",
+        "También encaja para quien acepte usar la ciudad para compras grandes y cultura, y la ría o la costa suave para el baño de diario, sin renunciar a un súper y un centro de salud en el municipio. Oleiros no obliga a elegir entre chalé y hospital cercano: la capital y el CHUAC quedan al mismo trayecto corto que el aeropuerto."
+      ],
+      "no": [
+        "No encaja si tres habitaciones en tipologías habituales o una casa en urbanización deben quedar en franja media: el metro ronda 2.605 €/m² según Idealista en agosto de 2026 y esas tipologías entran en franja cara. Ferrol, Bergondo o Sada bajan el precio; Sada, además, ofrece villa con puerto. Tampoco si se busca casco gótico, aldea marinera como Redes o ciudad naval: aquí mandan el chalé y el paseo, no el puerto pesquero denso.",
+        "Tampoco encaja si el cielo debe parecerse al de Mallorca. La referencia más cercana, las normales 1981-2010 de AEMET en A Coruña, da unas 1.939 horas de sol y unos 49 días despejados frente a 2.800 horas y 120 jornadas claras: de los cielos más cubiertos de las rías gallegas, con llovizna también en julio y agosto. Quien se decida solo tras un sábado de sol en Santa Cristina, sin probar un noviembre cubierto ni el aparcamiento de agosto en la orilla, se llevará una sorpresa."
+      ],
+      "veredicto": "Veredicto: Oleiros es la apuesta urbanización-playa del golfo —vivienda en Mera o Santa Cruz, fuera del tramo más ocupado de agosto—. Encaja si orden, playa y A Coruña a diez minutos importan más que el metro bajo o el casco antiguo. Como casa única, tras comprobar sol real en noviembre y una tarde de veraneo en la orilla; si mandan precio o villa con puerto, Sada o Costa Miño. Se ganan CHUAC a diez minutos y Alvedro a diez; se aceptan precio alto y cielo gris frente a Mallorca."
+    },
+    "fotoIdentidad": {
+      "src": "/fotos/golfo-artabro-e-ferrol/oleiros-identidad.jpg",
+      "pie": "Oleiros–Santa Cristina: casas frente a la ría, con el monte detrás"
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/golfo-artabro-e-ferrol/oleiros-santa-cruz.jpg",
+        "pie": "Santa Cruz: castillo en islote y paseo"
+      },
+      {
+        "src": "/fotos/golfo-artabro-e-ferrol/oleiros-mera.jpg",
+        "pie": "Mera, faro y playa en Oleiros"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/golfo-artabro-e-ferrol/oleiros-santa-cristina.jpg",
+        "pie": "Santa Cristina, paseo de ría"
+      },
+      {
+        "src": "/fotos/golfo-artabro-e-ferrol/oleiros-perillo.jpg",
+        "pie": "Perillo, núcleo residencial junto a la ría"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/golfo-artabro-e-ferrol/oleiros-dexo.jpg",
+        "pie": "Dexo-Serantes: acantilados y senda costera"
+      },
+      {
+        "src": "/fotos/golfo-artabro-e-ferrol/oleiros-bastiagueiro.jpg",
+        "pie": "Bastiagueiro, playa de oleaje suave"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

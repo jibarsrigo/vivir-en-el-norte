@@ -1,0 +1,98 @@
+{
+  "tipo": "municipio",
+  "slug": "bergondo",
+  "nombre": "Bergondo",
+  "n": 35,
+  "zonaId": "golfo-artabro-e-ferrol",
+  "zonaNombre": "Golfo Ártabro e Ferrol",
+  "provincia": "A Coruña",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-golfo-artabro-e-ferrol.ts",
+  "sourceKey": "bergondo",
+  "sourceExport": "RELATOS_GOLFO_ARTABRO_E_FERROL",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "82bc1bc6476c06943fb0c5288f1a3f6e8071cb01319a1c381b0a3b30354eba2a",
+  "relato": {
+    "escala": "Parroquias residenciales de ría",
+    "abrir": [
+      "Bergondo no es una villa completa: pretende jardín y ría. Alrededor de siete mil habitantes —orden de magnitud reciente, a contrastar en el INE o el IGE— en parroquias residenciales y rurales junto a la ría de Betanzos. Gandarío —playa larga de ría, con agua que en verano suele moverse hacia 18–20 °C— y Pedrido quedan a unos cinco minutos; el pazo de Mariñán y el monasterio de San Salvador marcan el patrimonio; Betanzos, con casco histórico, está a unos diez minutos.",
+      "Un martes de noviembre la vida es local y dispersa. En nuestra escala propia los servicios son 4/10 y la dependencia del coche, alta —alrededor de 8/10—: el súper completo, Betanzos o A Coruña organizan muchos recados. Quien vive aquí busca parcela y calma, no mercado a pie. El CHUAC, público, queda a unos veinte minutos en coche; Alvedro, a unos quince. La cobertura de fibra es parcial: conviene comprobarla en la dirección concreta.",
+      "En verano Gandarío y Pedrido reciben veraneo con tráfico y aparcamiento justo. Cerca, Betanzos celebra Os Caneiros —fiesta fluvial en el río Mandeo— con afluencia, música y cortes en fechas concretas. Quien viva hacia la orilla notará el volumen de agosto; hacia las parroquias interiores, el silencio vuelve antes.",
+      "Fuera de temporada Bergondo recupera ritmo de parroquia: verde, humedad y coche para casi todo. Primavera y otoño dejan Mariñán más quieto. Si solo conoces un sábado de sol en Gandarío, te llevas la imagen de folleto de la ría. Si has visto un noviembre húmedo, ya puedes decidir si quieres vivir a esa escala.",
+      "Encaja para quien acepte coche casi cada día a cambio de jardín, ría templada y calma a quince o veinte minutos de A Coruña."
+    ],
+    "tiempo": [
+      "Bergondo no tiene observatorio propio: la referencia de la zona son las normales 1981-2010 de AEMET en A Coruña —unas 1.939 horas de sol y unos 49 días despejados en el aeropuerto de Alvedro, y unos 1.014 milímetros en unos 130 días de lluvia en el observatorio de la ciudad, dos estaciones distintas—, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Son cifras orientativas para todo el arco, y aquí, al fondo de la ría, la niebla pesa más que en la orilla abierta. El viento es bajo. La llovizna también aparece en verano.",
+      "El verano ronda 19 °C, fresco frente a Baleares. En Gandarío y Pedrido el agua de ría suele moverse en verano hacia 18–20 °C, de los rangos más templados de la tabla: baño corto usable muchos días en que el Atlántico de Ferrol o Riazor no invita. Conviene probar niebla y un agosto en la orilla, no solo el sol del pazo."
+    ],
+    "vivir": [
+      "El invierno en Bergondo se nota en la casa con jardín: humedad de ría, niebla media y un noviembre que enseña coche y moho mejor que el anuncio. En Mallorca muchas viviendas casi no piensan en calefacción; aquí conviene preguntar por aislamiento, orientación y rastros de humedad en armarios. El jardín que en agosto parece el centro de la vida, entre noviembre y febrero se usa la mitad o menos.",
+      "El día a día sin coche casi no existe: en nuestra escala propia la dependencia ronda 8/10 y los servicios, 4/10. Un martes de noviembre la vida es local y dispersa; el súper completo, Betanzos o A Coruña organizan muchos recados. Gandarío y Pedrido quedan a unos cinco minutos; Betanzos, con casco histórico, a unos diez. En enero Bergondo es parroquia —verde, humedad y volante—, no villa con mesas a pie. Quien viva hacia la orilla notará el volumen de agosto; hacia las parroquias interiores, el silencio vuelve antes.",
+      "Llegar de fuera busca parcela y calma, no mercado a pie. Se oye gallego en los núcleos y en Betanzos cercano; el castellano basta para lo cotidiano, pero la vida social pasa por vecinos de parroquia y ritmos de ría, no por una plaza única. Entre semana manda el coche hacia Sada, Betanzos o A Coruña; en verano Gandarío y Pedrido reciben veraneo, y cerca Betanzos celebra Os Caneiros con afluencia y cortes en fechas concretas. Si solo buscas el sábado de sol en Gandarío, te llevas la imagen de folleto de la ría. Si buscas vecinos densos en enero, no.",
+      "La sanidad de urgencia y especialidades no está en el municipio: el CHUAC, público, queda a unos veinte minutos en coche desde las parroquias centrales, y el privado HM Modelo, en un rango parecido; desde una parroquia apartada el trayecto se alarga. Empadronarse aquí asigna médico de cabecera en el municipio; para hospital se conduce. No es aislamiento extremo del golfo, pero sí asumir que la gran sanidad está en A Coruña, no en la misma calle que el pazo de Mariñán.",
+      "Mantener el vínculo con Mallorca pasa por Alvedro, a unos quince minutos; Santiago-Lavacolla, con más destinos, queda a unos cuarenta y cinco o cincuenta. Los vuelos a Palma cambian por temporada y por compañía, así que conviene comprobar la programación vigente en Aena o en las aerolíneas. En invierno el trayecto a menudo implica más escalas o ir a Santiago.",
+      "Predominan casas con jardín y terreno en parroquias; hay poca obra nueva y fibra parcial que debe comprobarse en la dirección. Hay que contar con humedad, acceso y distancia real a un súper. El anuncio enseña parcela; noviembre enseña coche. En una casa con escaleras o desniveles de parcela hay que imaginar la rutina dentro de diez años; conviene presupuestar humedad, ventanas y calefacción, no solo metros y vistas a la ría."
+    ],
+    "historia": [
+      "El pazo de Mariñán —casa solariega gallega de piedra con finca y jardines hacia la ría— es el emblema señorial de Bergondo. Se visita y se entiende como paisaje cuidado, no solo como monumento cerrado: la tarde que explica el municipio.",
+      "El monasterio de San Salvador añade capa religiosa y de piedra. Betanzos, a diez minutos, aporta el casco histórico comarcal y Os Caneiros. Lo que conviene saber aquí es de ría residencial: pazo, monasterio y orilla, sin densidad urbana."
+    ],
+    "fuera": [
+      "Gandarío es el arenal grande de diario: espacio, agua de ría y poca ola frente al océano abierto. Un martes de junio la toalla cabe; un domingo de agosto, la cuneta se llena.",
+      "Pedrido completa el baño a pocos minutos: otra orilla de ría cuando Gandarío se satura. Mariñán y el monasterio sirven para una tarde de patrimonio sin salir lejos.",
+      "Betanzos cubre casco y mesas; A Coruña, compras y hospital; las Fragas do Eume quedan hacia Pontedeume y Miño. Aquí la orilla de diario es Gandarío; la villa caminable, no."
+    ],
+    "casa": [
+      "Predominan casas con jardín y terreno en parroquias; hay poca obra nueva y fibra parcial que debe comprobarse en la dirección. Hay que contar con humedad, acceso y distancia real a un súper. El anuncio enseña parcela; noviembre enseña coche.",
+      "Según el €/m² de Idealista de agosto de 2026, el precio medio ronda 1.484 €/m², el más bajo del arco junto al de Ferrol. Con ese metro, una vivienda de dos habitaciones en la franja asequible se estima alrededor de 125.000 euros y una de tres, alrededor de 174.000: son estimaciones derivadas del precio por metro, no anuncios reales. Una casa con terreno se mueve por encima de esas cifras según reforma y parcela.",
+      "Los servicios son 4/10 en nuestra escala propia. El CHUAC, público, queda a unos veinte minutos en coche. Alvedro está a unos quince; Santiago-Lavacolla, a unos cuarenta y cinco o cincuenta, con más destinos; los enlaces con Palma cambian por temporada y conviene comprobar la programación vigente. Quien acepte esa lógica gana jardín y ría; quien necesite villa con puerto, mira Sada."
+    ],
+    "encaja": {
+      "si": [
+        "Encaja si se quiere casa con jardín en parroquias residenciales junto a la ría de Betanzos, con Gandarío y Pedrido a unos cinco minutos —agua que en verano suele moverse hacia 18-20 °C, de los rangos más templados de la tabla— y sin pagar el metro de Oleiros o Sada. El pazo de Mariñán y el monasterio de San Salvador llenan una tarde de patrimonio; Betanzos, con casco histórico, queda a unos diez minutos. El CHUAC, público, está a unos veinte minutos en coche; el privado HM Modelo, en un rango parecido. Alvedro, a unos quince, y Santiago-Lavacolla, a unos cuarenta y cinco; los vuelos a Palma cambian por temporada y conviene comprobar la programación vigente. Quien acepte coche casi cada día a cambio de calma, parcela y orilla abrigada encontrará aquí la apuesta jardín-ría del arco.",
+        "También encaja como complemento de ciudad: A Coruña a quince o veinte minutos para compras y cultura; Sada, a un trayecto corto, si hace falta villa con puerto. Bergondo no pretende resolver la semana andando: ofrece paisaje y el precio más amable de la zona —alrededor de 1.484 €/m² según Idealista en agosto de 2026, con lo que tres habitaciones en franja asequible se estiman hacia 174.000 euros— a cambio de servicios 4/10 en nuestra escala."
+      ],
+      "no": [
+        "No encaja si la semana debe hacerse a pie o si la fibra estable es imprescindible: aquí la cobertura es parcial y conviene comprobarla en la dirección concreta, y el súper completo pide coche hacia Sada, Betanzos o A Coruña. Tampoco si se busca villa con puerto denso, urbanización tipo Mera o ciudad naval: Bergondo es parroquia y ría, no capital.",
+        "Tampoco encaja si el cielo debe parecerse al de Mallorca. La referencia más cercana, las normales 1981-2010 de AEMET en A Coruña, da unas 1.939 horas de sol y unos 49 días despejados frente a 2.800 horas y 120 jornadas claras; la niebla es media. Quien se decida solo tras un sábado de sol en Gandarío, sin probar un noviembre húmedo ni el aparcamiento de agosto en la orilla, se llevará una sorpresa."
+      ],
+      "veredicto": "Veredicto: Bergondo es la apuesta jardín-ría del arco —casa con terreno lejos del tramo más ocupado de Gandarío en agosto, con fibra y acceso comprobados—. Encaja si calma, agua templada y precio más bajo que Oleiros importan más que villa caminable. Como casa única solo si se acepta coche y hospital a unos veinte minutos; si mandan puerto y comercio, Sada; si mandan chalé ordenado junto a la ciudad, Oleiros. Se ganan ría y parcela; se aceptan servicios 4/10 en nuestra escala y cielo gris frente a Mallorca."
+    },
+    "fotoIdentidad": {
+      "src": "/fotos/golfo-artabro-e-ferrol/bergondo-identidad.jpg",
+      "pie": "Bergondo: casas junto a la ría de Betanzos y el puente do Pedrido"
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/golfo-artabro-e-ferrol/bergondo-marinan.jpg",
+        "pie": "Pazo de Mariñán hacia la ría"
+      },
+      {
+        "src": "/fotos/golfo-artabro-e-ferrol/bergondo-gandario.jpg",
+        "pie": "Gandarío, playa larga de ría en Bergondo"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/golfo-artabro-e-ferrol/bergondo-pazo.jpg",
+        "pie": "Jardines y piedra del pazo de Mariñán"
+      },
+      {
+        "src": "/fotos/golfo-artabro-e-ferrol/bergondo-monasterio.jpg",
+        "pie": "Monasterio de San Salvador de Bergondo"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/golfo-artabro-e-ferrol/bergondo-pedrido.jpg",
+        "pie": "Pedrido, orilla de ría"
+      },
+      {
+        "src": "/fotos/golfo-artabro-e-ferrol/bergondo-ria.jpg",
+        "pie": "Ría de Betanzos desde Bergondo"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

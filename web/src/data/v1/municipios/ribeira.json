@@ -1,0 +1,93 @@
+{
+  "tipo": "municipio",
+  "slug": "ribeira",
+  "nombre": "Ribeira",
+  "n": 29,
+  "zonaId": "barbanza-e-noia",
+  "zonaNombre": "Barbanza e Noia",
+  "provincia": "A Coruña",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-barbanza-e-noia.ts",
+  "sourceKey": "ribeira",
+  "sourceExport": "RELATOS_BARBANZA_E_NOIA",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "8366635c4b2abebd75bd82c507a35912caf62ba6af805b2fb81fe5e68394f463",
+  "relato": {
+    "escala": "Villa portuaria y capital comarcal",
+    "abrir": [
+      "Ribeira se siente como la capital práctica del Barbanza, no como una villa de foto turística. Unos veintisiete mil habitantes, uno de los mayores puertos pesqueros de bajura de Europa, lonja, astilleros y el Hospital do Barbanza dentro del municipio. El casco es denso y activo; a quince minutos quedan el Parque Natural de Corrubedo —dunas, lagunas y pasarelas— y el dolmen de Axeitos. Coroso es la playa urbana; Aguiño, Castiñeiras y Río Azor amplían la costa. Aquí el oficio del mar organiza el paisaje urbano.",
+      "Quien vive aquí es gente de puerto, de lonja y de servicios, y veraneantes que animan Coroso en agosto sin vaciar el invierno. Un martes de noviembre se puede ir andando a mercado, centro de salud, comercio, cine y restauración. El hospital queda a unos cinco minutos. Es la menor dependencia del coche de la zona —alrededor de 4/10— y la nota de servicios más alta: 7/10. Santiago sigue a unos cincuenta minutos; la vida diaria, sin embargo, cabe aquí.",
+      "Ribeira no es una villa silenciosa: es ciudad portuaria de trabajo, con más incidencia registrada que las villas vecinas. Primavera y otoño son buenas épocas para conocerlo: en mayo Coroso se usa casi en calma; en noviembre se nota el viento medio y el ritmo de la lonja sin turistas. Si solo conoces un martes laborable, pensarás que el pueblo es solo logística. Si has visto el Carmen junto al puerto, ya puedes decidir si quieres esa calle concreta.",
+      "La Virxe do Carme, alrededor del 16 de julio, llena el puerto con procesión marinera, música y mucha gente: cortes, ruido y aparcamiento difícil junto a la lonja. En verano el veraneo y las fiestas locales animan Coroso y el centro hasta tarde. Una vivienda cerca del puerto o del recorrido festivo debe probar ese calendario antes de decidirte: no es una excepción imprevista, es parte del año."
+    ],
+    "tiempo": [
+      "Si vienes de Baleares, notará el cielo más gris y con menos sol que en Mallorca, más que el viento de la punta. Ribeira es de las franjas más secas de la zona: alrededor de 1.250 milímetros, dentro de un clima comarcal de unas 2.225 horas de sol y 65 días despejados frente a las 2.800 horas y 120 jornadas claras de Mallorca. El viento es medio; la piedra y las cubiertas deben revisarse igual tras un frente. Frente a Baleares se gana sueño fresco y se pierde cielo estable de invierno.",
+      "El verano ronda 19,5 °C, con máximas de 24 o 25 °C y pocos días sobre 30 °C. Coroso tiene agua de ría calmada, usable en baños cortos; Corrubedo ya mira al Atlántico, con oleaje y agua más fresca, hacia 17-19 °C —otro ambiente en el mismo municipio—. Conviene venir un día de viento en Corrubedo y un noviembre en el casco, no solo un sábado de sol en Coroso."
+    ],
+    "vivir": [
+      "El invierno en Ribeira se siente en el viento medio de la punta y en la humedad de un casco denso, aunque sea de las franjas más secas de la zona (~1.250 mm). En Mallorca muchas casas casi no piensan en calefacción ni en moho; aquí conviene revisar piedra, cubiertas y salitre cerca del puerto. Visitar un noviembre en el casco y un día de viento en Corrubedo enseña más que un sábado de sol en Coroso.",
+      "El día a día sin coche es el punto fuerte: mercado, centro de salud, comercio, cine y restauración caben andando. En enero la lonja no cierra la temporada. Es la menor dependencia del coche de la zona y la nota de servicios más alta del Barbanza.",
+      "Llegar de fuera es la norma de una capital portuaria: gente de lonja, astilleros y servicios. Se oye gallego en el puerto; el castellano basta para lo cotidiano. Entre semana manda el oficio; alrededor del 16 de julio el Carmen llena la lonja. Quien busque solo villa silenciosa preferirá Rianxo; quien busque integración urbana de trabajo, Ribeira.",
+      "La sanidad es la más inmediata del Barbanza: el Hospital do Barbanza queda a unos cinco minutos. No hay privado en la comarca —HM Rosaleda o La Esperanza están en Santiago—. Empadronarse aquí abre cabecera y hospital comarcal a pie de ciudad. Esa es la gran diferencia frente a Rianxo o Porto do Son.",
+      "Mantener el vínculo con Mallorca pasa por el avión. El aeropuerto de Santiago está a unos cincuenta minutos, con enlace a Palma casi todo el año. En invierno conviene mirar el calendario real de vuelos.",
+      "El modelo es piso en casco denso o casa y chalé hacia Coroso, Aguiño o Castiñeiras. Poca obra nueva; fibra. Cerca del puerto importan ruido, tráfico y salitre; hacia Coroso, ocupación de verano. Conviene elegir calle respecto al Carmen y presupuestar aislamiento además de metros."
+    ],
+    "historia": [
+      "El puerto explica Ribeira mejor que cualquier monumento: bajura, lonja y astilleros han organizado el empleo y el paisaje urbano. La villa creció como capital pesquera del Barbanza, no como centro monumental al estilo de Noia. Cajas, grúas, olor a pescado fresco: el ritmo de quien no cierra la temporada.",
+      "A pocos minutos, el dolmen de Axeitos —sepulcro megalítico de corredor— y el Parque de San Roque añaden una capa antigua y de paseo. Corrubedo protege un sistema dunar y lagunas que cambian el ambiente: de puerto denso a naturaleza atlántica en un cuarto de hora. En verano, el ferry hacia la isla de Sálvora, en el Parque Nacional das Illas Atlánticas, abre otra salida cuando apetece horizonte sin lonja."
+    ],
+    "fuera": [
+      "Si solo hay tiempo para un baño cerca, ese baño es Coroso: la playa urbana de diario, agua de ría calmada, toalla de siempre, poco trayecto. Un martes de junio la arena cabe casi sola; un domingo de agosto el veraneo se nota en el paseo y en el aparcamiento. Se entra al agua fresca —hacia el registro de 18-20 °C de Arousa—, se nada un rato, se vuelve andando al casco.",
+      "Más allá de Coroso, Río Azor, Aguiño y Castiñeiras amplían opciones de arena y costa hacia el Atlántico. Corrubedo ofrece dunas, pasarelas y océano abierto: otro carácter, más viento, más ola y agua hacia 17-19 °C. Quien quiera ría más calmada puede bajar hacia A Pobra o Boiro; quien quiera soledad atlántica, hacia Porto do Son. En verano, el ferry a Sálvora añade horizonte de islas.",
+      "Los caminos son la otra mitad del agua. El paseo marítimo une el tejido portuario con la orilla usable. Axeitos y San Roque sirven para una tarde sin coche largo. La Serra do Barbanza y A Curota quedan hacia A Pobra, a un trayecto corto cuando se quiere monte. Santiago concentra compras grandes y aeropuerto a unos cincuenta minutos."
+    ],
+    "casa": [
+      "El modelo de casa aquí es piso de distintas décadas en el casco denso, o casa y chalé en las parroquias costeras hacia Coroso, Aguiño o Castiñeiras. Hay poca obra nueva y fibra. Cerca del puerto importan ruido, tráfico y salitre; hacia Coroso, la ocupación de verano y el aparcamiento cuando la villa se llena.",
+      "Conviene elegir calle con cuidado: no es lo mismo el recorrido del Carmen junto a la lonja que una vivienda hacia la playa urbana. El precio medio ronda 1.500 €/m². Tres habitaciones en la franja asequible se sitúan alrededor de 175.500 euros. La franja media corresponde a piso reformado cerca de servicios o vivienda hacia la costa; primera línea y vistas suben rápido.",
+      "Los servicios son 7/10: la logística más completa del Barbanza. El Hospital do Barbanza queda a unos cinco minutos; no hay privado en la comarca —HM Rosaleda o La Esperanza están en Santiago, a unos cuarenta y cinco o sesenta—. El aeropuerto de Santiago está a unos cincuenta minutos. Eso es Ribeira: mucho puerto y mucha vida diaria a pie, y la ciudad grande siempre a un trayecto."
+    ],
+    "encaja": {
+      "si": [
+        "Hospital, mercado y vida diaria sin coche importan más que el encanto de una villa pequeña. El Hospital do Barbanza queda a unos cinco minutos —el mejor tiempo de la comarca—; los servicios alcanzan 7/10: comercio, cine, restauración, lonja y uno de los mayores puertos pesqueros de bajura de Europa. La playa urbana de diario es Coroso; a unos quince minutos, el Parque Natural de Corrubedo —dunas, lagunas y pasarelas hacia el Atlántico— y el dolmen de Axeitos abren otra escala. Quien quiera resolver la semana andando, bajar a Aguiño, Castiñeiras o Río Azor cuando apetezca costa, y tener en verano el ferry a la isla de Sálvora encontrará aquí la logística más completa del Barbanza. El aeropuerto de Santiago-Lavacolla, con Palma casi todo el año, está a unos cincuenta minutos. Tres habitaciones en franja asequible rondan 175.500 euros.",
+        "Funciona especialmente bien para quien acepte una ciudad portuaria de trabajo —ruido de lonja, tráfico, incidencia más alta que las villas vecinas— a cambio de no depender del coche (alrededor de 4/10) y de tener ría calmada en Coroso y Atlántico en Corrubedo en el mismo municipio. El verano ronda 19,5 °C; Ribeira es además de las franjas más secas de la zona (~1.250 mm)."
+      ],
+      "no": [
+        "Si se busca silencio de villa literaria, casco gótico o sierra-ría sin densidad portuaria, Ribeira no es esa opción: Rianxo da piedra y Castelao; Noia, San Martiño y lápidas gremiales; A Pobra, A Curota y menos puerto. Aquí el oficio del mar organiza el paisaje urbano.",
+        "Tampoco encaja si la Virxe do Carme —alrededor del 16 de julio— y el verano deben ser tranquilos junto a la lonja o al recorrido festivo: procesión marinera, música, cortes y aparcamiento difícil. No hay hospital privado en la comarca; HM Rosaleda o La Esperanza quedan en Santiago, a unos cuarenta y cinco o sesenta minutos. Quien se decida solo tras un martes laborable, sin probar el Carmen ni una noche cerca del puerto, descubrirá otra Ribeira."
+      ],
+      "veredicto": "Veredicto de quien conoce la comarca: Ribeira encaja como la elección logística del Barbanza —tres habitaciones caminables a mercado y al Hospital do Barbanza, fuera del recorrido más ruidoso del Carmen y del puerto, o hacia Coroso si pesa el baño urbano— sobre todo si sanidad a cinco minutos, servicios 7/10 y Corrubedo a un cuarto de hora importan más que la calma de una villa pequeña. Se ganan costa atlántica y Lavacolla a unos cincuenta; se acepta una villa portuaria densa y trabajadora. Escoger calle con cuidado y comprobar agosto antes de comprar."
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/barbanza-e-noia/ribeira-puerto.jpg",
+        "pie": "Puerto pesquero de Ribeira"
+      },
+      {
+        "src": "/fotos/barbanza-e-noia/ribeira-coroso.jpg",
+        "pie": "Coroso, playa urbana de Ribeira"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/barbanza-e-noia/ribeira-axeitos.jpg",
+        "pie": "Dolmen de Axeitos, sepulcro megalítico"
+      },
+      {
+        "src": "/fotos/barbanza-e-noia/ribeira-san-roque.jpg",
+        "pie": "Embarcaciones en el puerto de Ribeira"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/barbanza-e-noia/ribeira-corrubedo.jpg",
+        "pie": "Dunas de Corrubedo, parque natural atlántico"
+      },
+      {
+        "src": "/fotos/barbanza-e-noia/ribeira-aguiño.jpg",
+        "pie": "Aguiño, costa hacia el Atlántico"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

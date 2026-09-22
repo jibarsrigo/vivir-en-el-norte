@@ -1,0 +1,60 @@
+{
+    escala: "Villa de ría y playa",
+    abrir: [
+      "Foz se siente villa de veraneo cantábrica sin alarde. Unos diez mil habitantes: paseo, ría, playas urbanas —A Rapadoira— y abiertas —Llas, Peizás—, marisma y puente sobre el agua. San Martiño de Mondoñedo, a unos cinco minutos, aporta la basílica de San Martiño —antigua sede episcopal, considerada una de las iglesias catedralicias más antiguas de España—; Mondoñedo, a unos veinte, amplía la capa histórica del interior. Es villa tranquila y asequible frente a Ribadeo o Viveiro.",
+      "Un martes de noviembre el centro de salud, el súper y el comercio cubren la semana básica. Quien vive aquí es gente local y veraneantes que vuelven al paseo. Los servicios son 5/10 y hay fibra. El Hospital da Mariña queda a unos veinte minutos. El aeropuerto de Asturias anda alrededor de los ochenta minutos; Santiago, hacia los ciento diez. Para lo diario se camina; para el hospital, se conduce.",
+      "En verano el paseo, A Rapadoira y las playas abiertas reciben veraneo gallego-castellano: tráfico, toallas y terrazas. El volumen sube sin alcanzar el atasco de As Catedrais en los peores días. Vivir junto al paseo significa contar con semanas más ruidosas; hacia la marisma o el interior, el silencio vuelve antes.",
+      "Fuera de agosto Foz vuelve a ser una villa calmada. Primavera y otoño dejan la ría más quieta y el verde intenso. Si solo conoces un sábado de sol, te llevas la imagen de folleto de A Rapadoira. Si has visto un noviembre de niebla, ya puedes decidir si aceptas el gris lucense.",
+      "Encaja para quien quiera ría y playa a precio asequible, sin necesitar el casco indiano de Ribadeo ni la Semana Santa de Viveiro.",
+    ],
+    tiempo: [
+      "Foz suma unas 1.900 horas de sol y unos 40 días despejados frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.000 milímetros en unos 145 días. Niebla alta; viento medio. De octubre a marzo el cielo pesa; de junio a septiembre la terraza se usa, aunque también llovizna.",
+      "El verano ronda 18,5 °C, fresco frente a Baleares. La ría y A Rapadoira permiten baño más usable que el Cantábrico abierto; Llas y Peizás piden días de mar más llana. El agua anda entre 17 y 19 °C. Conviene probar niebla y un día de temporada en el paseo, no solo el sol de julio.",
+    ],
+    vivir: [
+      "El invierno en Foz se nota en la vivienda junto al paseo o la marisma: humedad, niebla alta y un noviembre gris lucense. En Mallorca muchas viviendas casi no piensan en moho; aquí conviene mirar aislamiento y orientación un día de niebla, no solo el sol de A Rapadoira. La terraza que en agosto parece el centro de la vida se usa menos entre noviembre y febrero.",
+      "El día a día sin coche es viable para lo básico: un martes de noviembre el centro de salud, el súper y el comercio cubren la semana; los servicios son 5/10 y hay fibra. En enero Foz vuelve a ser una villa calmada —no se apaga—, pero tampoco es la densidad de Ribadeo. Quien viva junto al paseo o a A Rapadoira notará semanas más ruidosas en verano; hacia la marisma o el interior, el silencio vuelve antes.",
+      "Llegar de fuera es habitual: gente local y veraneantes que vuelven al paseo. Se oye gallego en el comercio y en el ayuntamiento; el castellano basta para lo cotidiano. Entre semana manda la villa tranquila; en verano el paseo y las playas reciben veraneo gallego-castellano —tráfico, toallas, terrazas— sin alcanzar el atasco de As Catedrais en los peores días. Si solo buscas el sábado de sol, te llevas la imagen de folleto de A Rapadoira. Si buscas casco indiano o Semana Santa, mira Ribadeo o Viveiro.",
+      "La sanidad de urgencia y especialidades no está a pie: el Hospital da Mariña queda a unos veinte minutos. En Foz hay centro de salud para lo diario. Empadronarse aquí abre el médico de cabecera local; para hospital se conduce a Burela. No es el extremo de O Vicedo, pero sí asumir que la sanidad comarcal no está a cinco minutos.",
+      "Mantener el vínculo con Mallorca pasa por el aeropuerto de Asturias, alrededor de los ochenta minutos, o Santiago hacia los ciento diez. En invierno el trayecto a menudo implica más logística. Conviene mirar el calendario real de vuelos del año: mejor que el oeste de la comarca, pero no el límite de una hora de Ribadeo.",
+      "El entorno del paseo ofrece pisos y viviendas de veraneo; las afueras, más parcela. Hay poca obra nueva y fibra. Junto a la orilla hay que contar con ocupación de agosto y humedad; hacia la marisma, acceso y orientación. Conviene ver un noviembre húmedo, no solo el sol del anuncio. En un piso o casa con escaleras hay que imaginar la rutina dentro de diez años; la terraza útil es la que recibe sol de invierno, no solo la que mira la ría en foto.",
+    ],
+    historia: [
+      "San Martiño de Mondoñedo —a cinco minutos— es el hilo antiguo: basílica vieja, piedra y un relato eclesiástico que precede a la villa de veraneo. Mondoñedo, a unos veinte minutos, amplía la capa histórica del interior lucense.",
+      "Foz moderna creció con paseo, ría y temporada: villa cantábrica de ocio y residencia más que de puerto industrial. La marisma y el puente sobre la ría explican el paisaje cotidiano —agua quieta, aves, el contraste con el Cantábrico abierto de Llas—.",
+    ],
+    fuera: [
+      "A Rapadoira es la playa urbana de diario: arena, paseo y ría abrigada a minutos. Un martes de junio cabe la toalla; un domingo de agosto, cuesta aparcar.",
+      "Llas y Peizás abren arenales más expuestos: más oleaje, más Cantábrico abierto. El paseo y la ría permiten kilómetros sin coche en días buenos; la marisma añade otra escala de orilla quieta.",
+      "San Martiño de Mondoñedo cubre patrimonio cercano. Barreiros y As Catedrais quedan hacia el este; Burela, hospital y lonja hacia el oeste. Aquí la orilla de diario es A Rapadoira; la frontera indiana, Ribadeo.",
+    ],
+    casa: [
+      "El entorno del paseo ofrece pisos y viviendas de veraneo; las afueras, más parcela. Hay poca obra nueva y fibra. Junto a la orilla hay que contar con ocupación de agosto y humedad; hacia la marisma, acceso y orientación. Conviene ver un noviembre húmedo, no solo el sol del anuncio.",
+      "Según Idealista (agosto de 2026), el precio medio ronda 1.790 €/m². Tres habitaciones en franja asequible se estiman alrededor de 161.000 euros a partir de ese €/m² —estimación, no anuncio real—. La franja media puede ser piso reformado cerca del paseo o vivienda con más espacio.",
+      "Los servicios son 5/10. El Hospital da Mariña queda a unos veinte minutos. Asturias está a unos ochenta; Santiago-Lavacolla, hacia los ciento diez. Quien acepte esa distancia gana ría y precio; quien necesite hospital a pie, mira Burela.",
+    ],
+    encaja: {
+      si: [
+        "Encaja para quien quiera villa de ría y playa tranquila en el centro-este de A Mariña: paseo, A Rapadoira —playa urbana—, Llas y Peizás —arenales más abiertos—, marisma y puente sobre la ría, con unos diez mil habitantes y precio según Idealista de agosto de 2026 alrededor de 1.790 €/m². Un martes de noviembre el centro de salud, el súper y el comercio cubren la semana básica; los servicios son 5/10 y hay fibra. San Martiño de Mondoñedo —basílica y antigua sede episcopal, considerada una de las iglesias catedralicias más antiguas de España— queda a unos cinco minutos; Mondoñedo, a unos veinte, amplía la capa histórica del interior. Quien priorice ría usable y veraneo calmado frente al casco indiano de Ribadeo o la Semana Santa de Viveiro encontrará aquí el equilibrio de villa cantábrica de ría.",
+        "El clima es el de la Mariña: unas mil novecientas horas de sol y unos cuarenta días despejados frente a las dos mil ochocientas horas y ciento veinte jornadas claras de Mallorca; niebla alta, verano fresco cerca de dieciocho grados y medio. La ría y A Rapadoira permiten baño más usable que el Cantábrico abierto; Llas y Peizás piden días de mar más llana; el agua anda entre diecisiete y diecinueve grados. En verano el paseo y las playas reciben veraneo gallego-castellano —tráfico, toallas, terrazas— sin alcanzar el atasco de As Catedrais en los peores días. Fuera de agosto Foz vuelve a ser una villa calmada. Encaja si has visto un noviembre gris y siga queriendo esa orilla de ría.",
+      ],
+      no: [
+        "No encaja si se busca casco indiano, Semana Santa de interés internacional o hospital a pie. Ribadeo cubre frontera y As Catedrais; Viveiro, muralla y Covas; Burela, el Hospital da Mariña a cinco minutos. Aquí el comarcal queda a unos veinte minutos. Tampoco si se necesita villa de servicios 7/10: Foz resuelve lo básico, no la densidad de Ribadeo.",
+        "Tampoco si agosto junto al paseo debe ser silencioso: Foz recibe veraneo en la orilla, y quien viva frente a A Rapadoira notará semanas más ruidosas. El aeropuerto de Asturias anda alrededor de los ochenta minutos; Santiago, hacia los ciento diez —mejor que el oeste de la comarca, pero no el límite de una hora de Ribadeo—. Y si se busca el sol de Baleares, el cielo lucense no lo entrega.",
+      ],
+      veredicto:
+        "Veredicto: Foz es la villa de ría y playa equilibrada del centro-este de A Mariña. Buscaría tres habitaciones caminables a paseo y comercio —franja asequible alrededor de ciento cincuenta y dos mil euros—, fuera del tramo más ocupado de A Rapadoira en agosto, tras probar niebla y un día de temporada en el paseo. Se ganan ría, playas y precio; se aceptan hospital a veinte minutos, aeropuerto a unos ochenta y el gris cantábrico.",
+    },
+    fotosAbrir: [
+      { src: "/fotos/a-marina/foz-ria.jpg", pie: "Ría de Foz" },
+      { src: "/fotos/a-marina/foz-playa.jpg", pie: "A Rapadoira u otra playa urbana de Foz" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/a-marina/foz-villa.jpg", pie: "Villa de Foz hacia el paseo" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/a-marina/foz-paseo.jpg", pie: "Paseo marítimo de Foz" },
+      { src: "/fotos/a-marina/foz-marisma.jpg", pie: "Marisma y orilla de la ría en Foz" },
+    ],
+    creditoFotos: credito,
+  }

@@ -1,0 +1,91 @@
+{
+  "tipo": "municipio",
+  "slug": "luanco-gozon",
+  "nombre": "Luanco (Gozón)",
+  "n": 55,
+  "zonaId": "asturias-centro",
+  "zonaNombre": "Asturias Centro",
+  "provincia": "Asturias",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-asturias-centro.ts",
+  "sourceKey": "luanco-gozon",
+  "sourceExport": "RELATOS_ASTURIAS_CENTRO",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "2a93c383fa473965a4aeb567e2dba50ed0ba0c5a489ba23afe2e2e8d5842937a",
+  "relato": {
+    "escala": "Villa marinera del cabo Peñas",
+    "abrir": [
+      "Luanco reúne unos cinco mil habitantes en la villa marinera de Gozón, entre Avilés y Gijón: casco de piedra, Museo Marítimo, playas urbanas —La Ribera, Aramar— y Xagó —dunas y surf— a unos diez minutos. El Cabo Peñas —faro, acantilados y senda— queda a unos diez. Es villa de oficio del mar con veraneo ovetense, no paseo residencial de casas bajas tipo Salinas ni ciudad completa.",
+      "Un martes de noviembre se camina el casco y se resuelve lo básico. Los servicios alcanzan 5/10: hay fibra y vida de villa cuidada, sin sustituir el comercio denso de Avilés o Gijón. El Hospital de Jove, en Gijón, queda a unos quince minutos; San Agustín, en Avilés, a unos veinte. El aeropuerto de Asturias anda alrededor de los veinte minutos, con Palma en verano.",
+      "En verano La Ribera, Aramar y Xagó reciben toallas, tráfico y afluencia de villa marinera. Las patronales y el veraneo marcan ruido y aparcamiento justo unos días. Fuera de temporada Luanco vuelve a ser una villa cuidada: piedra, puerto y vecinos que conocen el viento medio de la costa de Peñas.",
+      "La población mezcla familias locales, veraneantes que acabaron quedándose y quienes eligieron casco marinero entre las dos ciudades. Quien priorice hospital a diez minutos y paseo de chalés mirará Salinas; quien quiera oficio de mar y cabo abierto encontrará aquí el carácter que distingue Gozón.",
+      "Luanco encaja para quien quiera villa marinera entre Avilés y Gijón, con el Cabo Peñas al lado, aceptando servicios 5/10 y un cielo algo más soleado que el del estuario, pero lejos aún de Mallorca."
+    ],
+    "tiempo": [
+      "Luanco suma unas 1.850 horas de sol y 42 días despejados —el extremo algo más soleado de la zona—, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.000 milímetros en unos 145 días. La niebla es baja; el viento, medio en la costa de Peñas. Se gana algo de claridad respecto a Cudillero o Muros, pero el trato sigue siendo cantábrico: unos 165 cubiertos y un invierno de mañanas grises.",
+      "El verano ronda 19 °C, fresco frente a Baleares. La Ribera, Aramar y Xagó tienen agua entre 19 y 21 °C; el cabo pide días de mar más llana para pasear el acantilado con calma. El viento medio no es detalle menor: Peñas no es bahía abrigada."
+    ],
+    "vivir": [
+      "El invierno en casa se nota por el viento medio de la costa de Peñas y el salitre del casco: niebla baja, pero mañanas grises y terraza que se usa a medias entre noviembre y febrero. Conviene mirar orientación hacia La Ribera o calles más interiores, no solo la foto típica de piedra. Visitar un día de viento en el cabo enseña el trato real.",
+      "Sin coche se resuelve lo básico en villa: se camina el casco, hay fibra y ritmo cuidado; los servicios alcanzan 5/10. En enero Luanco recupera escala de vecinos —no se apaga—. Avilés y Gijón cubren comercio denso a un trayecto corto; Xagó y el Cabo Peñas piden coche cuando se quiere dunas o faro.",
+      "Conviven familias locales, veraneantes que acabaron quedándose y quienes eligieron casco marinero entre las dos ciudades. Se oye asturiano en el puerto y en el Museo Marítimo; el castellano basta para lo cotidiano. La vida social pasa por oficio de mar y veraneo ovetense más que por un paseo de chalés. Entre semana manda la villa cuidada; en verano La Ribera, Aramar y Xagó suben el volumen.",
+      "La sanidad se reparte entre las dos ciudades: el Hospital de Jove, en Gijón, queda a unos quince minutos; San Agustín, en Avilés, a unos veinte. En Luanco hay lo básico del día a día; para especialidades se elige una u otra ciudad. No es hospital a diez minutos como en Salinas.",
+      "Ir y volver a Mallorca pide unos veinte minutos al aeropuerto de Asturias, con Palma en verano. Es peor trayecto que Salinas o Muros a diez minutos, pero sigue usable. En invierno conviene mirar el calendario real de vuelos, no solo el de agosto en La Ribera.",
+      "La vivienda típica es piso o casa de villa marinera en el casco, con poca obra nueva y fibra. Junto a la orilla hay que contar con salitre, viento de cabo y ocupación de verano; hacia calles más interiores, acceso y distancia real a La Ribera. Se compra carácter marinero, no la logística completa de Salinas."
+    ],
+    "historia": [
+      "El casco de piedra y el Museo Marítimo explican Luanco como villa de oficio del mar y de costa cuidada del Cabo Peñas. No es adorno: es el carácter que la distingue de Salinas —villa-paseo residencial— o de Gijón —ciudad—. Puerto, piedra y museo cuentan continuidad marinera.",
+      "El faro y los acantilados de Peñas sitúan Gozón en la costa más abierta del área metropolitana: senda, horizonte y oleaje. Lo que conviene saber es marinera y de cabo, no de industria urbana ni de estuario fluvial.",
+      "Vivir aquí es habitar esa doble escala: villa caminable en el casco y costa abierta a diez minutos, con Avilés y Gijón siempre a un trayecto corto."
+    ],
+    "fuera": [
+      "La Ribera y Aramar son las orillas de diario: playas urbanas a pie, agua entre 19 y 21 °C, terrazas y vida de villa cuando el verano no las satura. El Museo Marítimo y el casco permiten una tarde sin coche —piedra, puerto, memoria del oficio—.",
+      "Xagó cubre dunas y surf a unos diez minutos: otra costa, más abierta, con afluencia propia los días de ola. El Cabo Peñas cierra faro, acantilados y senda; es la tarde de horizonte que justifica Gozón.",
+      "Candás y Gijón quedan hacia el este; Avilés, hacia el oeste. El tiempo libre se reparte entre orilla urbana, dunas y cabo —y ciudad cuando hace falta cine, hospital o compra grande—."
+    ],
+    "casa": [
+      "El casco ofrece pisos y viviendas de villa marinera; hay poca obra nueva y fibra. Junto a la orilla hay que contar con salitre, viento de cabo y ocupación de verano; hacia calles más interiores, acceso y distancia real a La Ribera.",
+      "El precio medio ronda 1.800 €/m². Tres habitaciones en la franja asequible se sitúan alrededor de 211.000 euros. La franja media puede ser piso reformado en casco o vivienda con mejores vistas. Se compra carácter marinero; no se compra la logística completa de Salinas.",
+      "Los servicios son 5/10. Jove queda a unos quince minutos; San Agustín, a unos veinte. El aeropuerto de Asturias está a unos veinte minutos, con Palma en verano. Gijón y Avilés cubren lo que la villa no resuelve sola."
+    ],
+    "encaja": {
+      "si": [
+        "Encaja para quien quiera villa marinera del Cabo Peñas todo el año —casco de piedra, Museo Marítimo, playas urbanas La Ribera y Aramar a pie; Xagó, dunas y surf, a unos diez minutos; el faro y los acantilados de Peñas a otros diez— y acepte servicios de villa, no de ciudad. Un martes de noviembre se camina el casco y se resuelve lo básico: los servicios alcanzan 5/10 y hay fibra; Gijón y Avilés quedan a un trayecto corto. Quien priorice oficio de mar, orilla urbana y cabo abierto frente al paseo residencial de Salinas encontrará aquí el carácter marinero entre las dos ciudades. La Ribera, Aramar y Xagó tienen agua entre 19 y 21 °C; el cabo pide días de mar más llana para pasear el acantilado con calma.",
+        "El clima es el extremo algo más soleado de la zona —unas 1.850 horas de sol y 42 días despejados—, pero sigue lejos de Mallorca (2.800 horas y 120 jornadas claras): caen alrededor de 1.000 milímetros en unos 145 días, con niebla baja y viento medio en la costa de Peñas. El verano ronda 19 °C: se gana frescura y se acepta cielo cubierto frecuente. En verano La Ribera, Aramar y Xagó reciben toallas, tráfico y afluencia de villa marinera con veraneo ovetense; fuera de temporada Luanco vuelve a ser una villa cuidada. Encaja si has probado un día de viento en Peñas y un agosto en La Ribera y siga queriendo ese casco —tres habitaciones en la franja asequible alrededor de 211.000 euros; precio medio cerca de 1.800 €/m²— con aeropuerto a unos veinte minutos."
+      ],
+      "no": [
+        "No encaja si mandan hospital a diez minutos y paseo residencial de casas bajas: Salinas cubre esa prioridad con San Agustín y aeropuerto a diez. Aquí el Hospital de Jove, en Gijón, queda a unos quince minutos; San Agustín, en Avilés, a unos veinte. Los servicios 5/10 resuelven lo básico, no sustituyen ciudad ni la logística completa de Castrillón.",
+        "Tampoco si se necesita el sol de Baleares o evitar el viento medio de la costa de Peñas. Aquí mandan cubierto (unos 165 días) y verano fresco; el cabo no es bahía abrigada. Quien se decida solo tras un sábado soleado en el casco de piedra, sin probar oleaje y viento en Peñas ni ocupación de agosto en La Ribera, se llevará una villa distinta de la foto turística."
+      ],
+      "veredicto": "Veredicto: Luanco es la apuesta marinera del cabo. Buscaría tres habitaciones en casco o cerca de La Ribera —alrededor de 211.000 euros en franja asequible—, fuera del tramo más ocupado en agosto, tras probar un día de viento en Peñas. Se ganan villa de piedra, Xagó y cabo; se aceptan servicios 5/10, Jove a quince minutos y Asturias a veinte."
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/asturias-centro/luanco-casco.jpg",
+        "pie": "Casco de piedra de Luanco"
+      },
+      {
+        "src": "/fotos/asturias-centro/luanco-puerto.jpg",
+        "pie": "Puerto de Luanco"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/asturias-centro/luanco-museo.jpg",
+        "pie": "Museo Marítimo de Luanco"
+      },
+      {
+        "src": "/fotos/asturias-centro/luanco-penas.jpg",
+        "pie": "Cabo Peñas, cerca de Luanco"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/asturias-centro/luanco-playa.jpg",
+        "pie": "Playa de La Ribera, Luanco"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

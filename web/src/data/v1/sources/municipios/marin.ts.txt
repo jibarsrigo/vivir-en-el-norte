@@ -1,0 +1,62 @@
+{
+    escala: "Villa portuaria y costa residencial",
+    abrir: [
+      "Marín es una villa portuaria de unos veinticuatro mil habitantes pegada a Pontevedra, y se siente como dos mundos a cinco minutos: el casco compacto mira a un puerto comercial y a la Escuela Naval Militar; hacia el oeste, Portocelo, Mogor, Aguete y Loira cambian contenedores por playas, pinares y urbanizaciones de chalés. Marín nombra a la villa y al municipio; Mogor y Aguete son núcleos costeros, no barrios del centro.",
+      "Quien vive aquí es gente local, personal ligado al puerto y a la Naval, y vecinos que quieren Pontevedra a diez minutos sin renunciar del todo al baño. Un martes de noviembre hay mercado, comercio, colegios, centro de salud y autobuses frecuentes hacia la capital. Se puede resolver la vida a pie en el casco, pero para bañarse se sale unos minutos hacia Portocelo o Mogor. En Aguete el ritmo es residencial y hace falta el coche para ir de casa a la compra y a la ciudad.",
+      "Las fiestas del Carmen comienzan alrededor del 16 de julio y extienden actos durante unos diez días: conciertos, procesión, tráfico y noches largas ocupan el centro. El 22 de agosto, la Festa Corsaria recuerda a Juan Gago de Mendoza y la expulsión de las tropas francesas en 1809; disfraces y representaciones llenan la villa. El 29 de septiembre, San Miguel lleva la Danza das Espadas por las calles, y el último sábado del mes el San Migheleiro reúne peñas en los bares. Una vivienda céntrica participa de varias semanas intensas, no de una sola verbena.",
+      "Agosto llena las playas y prolonga las terrazas, pero Marín no se convierte en resort: puerto, Naval y cercanía a Pontevedra mantienen una población y una economía de todo el año. En invierno se nota más el ruido industrial y menos la costa de vacaciones. Esa mezcla es su verdad: la logística más fuerte de O Morrazo y, a cinco minutos, un litoral amable.",
+      "Antes de comprar junto al centro hay que escuchar el puerto a distintas horas y medir el recorrido de camiones, no quedarse con la cercanía a Pontevedra. Montecelo está a unos diez o quince minutos y Quirónsalud a unos diez: la mejor sanidad de la zona. Quien se decida solo tras un sábado soleado en Aguete, sin oír el puerto un lunes, se llevará una sorpresa.",
+    ],
+    tiempo: [
+      "Marín cuenta con unas 2.300 horas de sol y 72 días despejados; Mallorca ronda 2.800 y 120. La media invernal se acerca a 10 °C, pero aquí caen unos 1.550 milímetros en 125 días. Entre octubre y marzo se suceden frentes y la piedra permanece húmeda; el viento suele ser bajo dentro de la ría. Respecto a Baleares se pierde sol sobre todo en invierno; de junio a septiembre la terraza se usa.",
+      "El verano ronda 20 °C de media, con máximas habituales cercanas a 25 °C y solo entre tres y seis días por encima de 30 °C. Frente a Baleares se pierden horas de cielo limpio y se gana descanso nocturno. Portocelo, Mogor y Aguete tienen agua de ría entre 18 y 20 °C, más fresca que el Mediterráneo y generalmente tranquila. Conviene oír el puerto un lunes laborable y medir el trayecto a Portocelo en agosto, no solo un martes soleado en el casco.",
+    ],
+    vivir: [
+      "El invierno en Marín se siente en la humedad de la ría y en el contraste entre puerto y costa residencial. En Mallorca muchas casas casi no piensan en calefacción ni en moho; aquí caen unos 1.550 milímetros en 125 días. Conviene revisar aislamiento y, junto al centro, también el ruido industrial. Visitar un lunes laborable cerca del puerto enseña más que un sábado soleado en Aguete.",
+      "El día a día sin coche funciona en el casco: mercado, comercio, colegios, centro de salud y autobuses a Pontevedra. Para bañarse se sale unos minutos hacia Portocelo o Mogor; en Aguete el coche une casa y compra. En enero puerto y Naval mantienen población. No es un resort que se apaga.",
+      "Llegar de fuera es habitual entre personal ligado al puerto y a la Naval, y vecinos que quieren Pontevedra cerca. Se oye gallego en el mercado; el castellano basta para lo cotidiano. Entre semana manda el ritmo portuario; en julio el Carmen ocupa el centro unos diez días. Quien busque solo villa turística silenciosa preferirá Bueu; quien busque integración urbana, Marín.",
+      "La sanidad es la mejor de O Morrazo: Montecelo a unos diez o quince minutos; Quirónsalud a unos diez. En Marín hay centro de salud con urgencias. Empadronarse abre cabecera local; el hospital de referencia queda a escala de trayecto corto. Esa es la gran diferencia frente a Cangas o Bueu.",
+      "Mantener el vínculo con Mallorca pasa por el avión. Vigo-Peinador queda a unos cuarenta minutos; Santiago, con conexión más estable a Palma, a unos cincuenta y cinco. En invierno conviene mirar el calendario real de vuelos. Pontevedra a diez minutos facilita también la logística diaria.",
+      "El casco ofrece pisos con ascensor; hacia Mogor y Aguete, urbanizaciones de chalés con jardín y más coche. Antes de comprar junto al centro hay que escuchar el puerto a distintas horas. Conviene presupuestar aislamiento acústico y humedad, no solo cercanía a Portocelo.",
+    ],
+    historia: [
+      "Marín creció entre el antiguo priorato de Oseira, la pesca y un puerto cuya escala aumentó con la industrialización. El traslado de la Escuela Naval Militar desde San Fernando en 1943 convirtió la villa en centro de formación de oficiales y dio al frente urbano ceremonias, uniformes y espacios cerrados. Puerto y Naval explican tanto su economía como el ruido y la forma del paseo.",
+      "En Mogor se conservan petroglifos de la Edad del Bronce. La Pedra do Labirinto contiene uno de los pocos laberintos grabados conocidos en Galicia: líneas concéntricas talladas hace miles de años a pocos metros de la playa. Petroglifo significa dibujo picado en la roca; aquí no está aislado en un museo, sino dentro del paisaje costero.",
+      "Juan Gago de Mendoza organizó en 1809 la resistencia local contra las tropas napoleónicas y la Festa Corsaria recuerda hoy aquel episodio. La Danza das Espadas de San Miguel conserva otra memoria: los mareantes recorren la villa unidos por piezas llamadas espadas al son de las gaitas. Guerra, oficio marinero y formación naval han dejado un calendario público muy visible.",
+    ],
+    fuera: [
+      "Portocelo es la primera playa desde la villa, a unos cinco minutos: arena protegida, pinar y servicios. Mogor añade dos arenales y el conjunto de petroglifos detrás. Aguete tiene playa, puerto deportivo y casas de costa; Loira, un arenal tranquilo hacia el límite con Bueu. El agua de la ría suele estar entre 18 y 20 °C.",
+      "La senda litoral permite encadenar tramos entre Marín y Aguete con el mar a un lado. No todo el frente urbano es paseo por el peso del puerto y la Escuela Naval, de modo que la costa de ocio comienza realmente al oeste del casco. Esa separación ayuda a elegir vivienda: centro para caminar a servicios, Mogor o Aguete para vivir junto a las playas.",
+      "Hacia el interior, el Lago de Castiñeiras es un área forestal con senderos y agua entre Marín y Vilaboa; Cotorredondo ofrece miradores sobre las rías. El río Lameira atraviesa la villa y su senda recupera una escala más pequeña lejos de las grúas. En pocos minutos se pasa de puerto comercial a pinar, petroglifo y playa.",
+    ],
+    casa: [
+      "El casco ofrece pisos con ascensor cerca de mercado, autobús y comercio. Hacia Mogor y Aguete aparecen urbanizaciones de chalés y casas con jardín; allí se gana playa y se depende más del coche. Antes de comprar junto al centro hay que escuchar el puerto a distintas horas y medir el recorrido de camiones.",
+      "El precio medio ronda los 1.500 €/m². La franja asequible para un piso de tres habitaciones está alrededor de 176.000 euros. La franja media corresponde a vivienda reformada en el casco o a opciones hacia Mogor y Aguete, donde playa, parcela y vistas cambian mucho el valor; no conviene inventar una cifra única para esos chalés.",
+      "Los servicios alcanzan 7/10: centro de salud con urgencias, mercado, supermercados, farmacias, colegios, institutos, biblioteca, deporte y comercio. Montecelo está a unos diez o quince minutos y Quirónsalud Pontevedra a unos diez: es la mejor sanidad de la zona. Vigo-Peinador queda a unos cuarenta minutos y Santiago, con conexión más estable a Palma, a unos cincuenta y cinco.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si hospital y ciudad de referencia deben estar cerca sin renunciar del todo al baño. Pontevedra queda a unos diez minutos; Montecelo, a diez o quince; Quirónsalud, a unos diez —la mejor sanidad de O Morrazo—. A la vez, Portocelo, Mogor —playa y petroglifos, entre ellos el laberinto de la Pedra do Labirinto— y Aguete permiten agua de ría a 18–20 °C a pocos minutos. Un martes de noviembre el casco resuelve mercado, comercio y autobús; el puerto y la Escuela Naval mantienen población todo el año. El verano ronda máximas cerca de 25 °C con solo tres a seis días sobre 30 °C: mucho más fresco que Mallorca, a cambio de unos 1.550 milímetros y 125 días de lluvia.",
+        "También encaja para quien quiera elegir entre piso urbano práctico (~176.000 euros en franja asequible a ~1.500 €/m²) y costa residencial en Mogor o Aguete a cambio de coche. Servicios 7/10. Quien priorice logística de primera —sanidad, Pontevedra, precio amable— y acepte que la costa de ocio empiece al oeste del casco, no en el frente de contenedores, entenderá Marín al primer trayecto a Portocelo.",
+      ],
+      no: [
+        "No encaja si se exige silencio en el centro. El puerto comercial mueve grúas, contenedores y camiones; la Escuela Naval Militar ocupa buena parte del frente. Hay que escuchar la calle concreta de mañana, noche y día laborable, no quedarse con la cercanía a Pontevedra. Carmen, Festa Corsaria y San Miguel (Danza das Espadas) añaden semanas de ruido y calles ocupadas.",
+        "Tampoco si se quiere una villa orientada por completo al paseo turístico. Cangas o Bueu ofrecen una relación más continua entre casco marinero y agua. Quien se decida solo tras un sábado soleado en Aguete, sin oír el puerto un lunes ni medir el tráfico de camiones, se llevará una sorpresa. Moaña mira a Vigo por barco; Bueu, a Ons con más calma.",
+      ],
+      veredicto:
+        "Veredicto: Marín encaja como opción logística de O Morrazo —piso de tres habitaciones en el casco si mandan hospital, compra y Pontevedra; vivienda hacia Mogor o Aguete si se acepta coche para ganar playa y calma—. Sobre todo si Montecelo a diez–quince importa más que Costa da Vela. Escuchar el puerto antes de comprar. Se ganan la mejor sanidad de la península y ~1.500 €/m²; se aceptan ruido portuario según calle y lluvia honesta. Si mandan mar y senderos, Cangas; si Vigo por barco, Moaña; si silencio y Ons, Bueu.",
+    },
+    fotosAbrir: [
+      { src: "/fotos/o-morrazo/marin-villa.jpg", pie: "Marín: villa compacta entre puerto y ría" },
+      { src: "/fotos/o-morrazo/marin-escuela-naval.jpg", pie: "Escuela Naval Militar, parte decisiva del frente urbano" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/o-morrazo/marin-mogor-laberinto.jpg", pie: "Laberinto de Mogor, petroglifo de la Edad del Bronce" },
+      { src: "/fotos/o-morrazo/marin-danza-espadas.jpg", pie: "El puerto de Marín, escenario de trabajo y de las fiestas de San Miguel" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/o-morrazo/marin-portocelo.jpg", pie: "Portocelo, primera playa al oeste del casco" },
+      { src: "/fotos/o-morrazo/marin-aguete.jpg", pie: "Aguete: playa, puerto deportivo y costa residencial" },
+    ],
+    creditoFotos: "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen).",
+  }

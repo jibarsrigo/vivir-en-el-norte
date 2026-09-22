@@ -1,0 +1,66 @@
+{
+    escala: "Villa turística, puerto y parroquias de playa",
+    abrir: [
+      "Sanxenxo se siente como dos temporadas bajo el mismo nombre. Unos diecisiete mil habitantes permanentes entre la villa de Silgar, el puerto pesquero de Portonovo y parroquias extendidas hasta A Lanzada; en agosto la población estacional supera ampliamente la capacidad de una villa pequeña. Sanxenxo es la forma gallega de San Ginés; Portonovo significa puerto nuevo y conserva una escala marinera propia.",
+      "Quien vive aquí todo el año es gente local, gente de lonja y de hostelería, y vecinos que convirtieron la costa en residencia. Un martes de noviembre, Silgar es un paseo despejado y Portonovo mantiene lonja, mercado y bares: se puede vivir a pie en cualquiera de los dos centros. En Areas, Montalvo, Noalla o Vilalonga el coche organiza la semana. Agosto cambia las distancias: seis minutos a la playa pueden convertirse en búsqueda de aparcamiento, colas y ruido nocturno.",
+      "Sanxenxo celebra Santa Rosalía y la Virxe do Carme alrededor del 4 y 5 de septiembre, con procesiones, conciertos, fuegos y calles ocupadas. Portonovo vive San Roque del 14 al 19 de agosto; el 17 se celebra la Festa da Raia, dedicada a la raya que llega a la lonja. En A Lanzada, el último fin de semana de agosto, la romería de Nosa Señora mezcla culto y antiguos ritos de fertilidad junto a la ermita. Son fechas de tráfico intenso y noches largas en una temporada ya saturada.",
+      "En invierno hay colegio, centro de salud, supermercado y barcos; el comercio se reduce, pero la villa no se apaga. En primavera vuelve el paseo; el verano pertenece a la playa y al puerto deportivo —uno de los mayores de Galicia—; en otoño vuelve a haber espacio. Si solo conoces un día de sol en Silgar en junio, te llevas la imagen de folleto. Si has dormido una noche de agosto, ya puedes decidir si de verdad quieres vivir aquí.",
+      "Montecelo queda a unos veinticinco minutos y Quirónsalud a unos veinte. Hay fibra y obra nueva. Tres habitaciones en franja asequible no caben con facilidad: el metro ronda 2.900 €/m². Quien priorice playa y acepte pagar y compartir el verano entenderá Sanxenxo; quien busque silencio de julio, no.",
+    ],
+    tiempo: [
+      "Sanxenxo alcanza unas 2.400 horas de sol, pero solo 70 días completamente despejados frente a los 120 de Mallorca. Sus 1.300 milímetros y 118 días de lluvia son cifras más secas que Pontevedra y Poio, especialmente perceptibles en primavera y verano. El invierno ronda 10 °C y la brisa atlántica mantiene viento medio en cabos y arenales. Respecto a Baleares se pierde sol sobre todo en invierno; de junio a septiembre la terraza se usa —si el tráfico lo permite.",
+      "La media veraniega es de unos 19,5 °C, con máximas habituales cercanas a 25 °C y entre tres y ocho días por encima de 30 °C. Silgar, Canelas y Areas ofrecen agua de ría relativamente calma; Montalvo, Major y A Lanzada reciben más mar atlántico. La temperatura del agua se mueve entre 17 y 20 °C, muy por debajo de Baleares. Conviene dormir aquí en agosto y medir A Lanzada en temporada, no solo un martes de noviembre en Portonovo.",
+    ],
+    vivir: [
+      "El invierno en Sanxenxo no se nota tanto en el termómetro como en el contraste con agosto. En Mallorca muchas casas casi no piensan en calefacción ni en humedad; aquí caen unos 1.300 milímetros en 118 días —más seco que Pontevedra, no mediterráneo—. Conviene preguntar por aislamiento y salitre en primera línea. Visitar un martes de noviembre en Portonovo enseña más que un día de sol en Silgar en junio.",
+      "El día a día sin coche funciona en Silgar o Portonovo: centro de salud, supermercado, lonja y bares. En Areas, Montalvo, Noalla o Vilalonga el coche organiza la semana. En enero hay colegio y barcos; el comercio se reduce, pero la villa no se apaga. Agosto cambia las distancias: aparcamiento, colas y ruido nocturno.",
+      "Llegar de fuera es la norma del veraneo: gente local de lonja y hostelería, y vecinos que convirtieron la costa en residencia. Se oye gallego en Portonovo; el castellano basta para lo cotidiano. Entre semana de invierno manda la escala permanente; de julio a septiembre la población se multiplica. Quien busque solo silencio de julio no encaja.",
+      "La sanidad de urgencia y especialidades no está en el municipio: Montecelo queda a unos veinticinco minutos; Quirónsalud, a unos veinte. En Sanxenxo hay centro de salud. Empadronarse abre lo local; para hospital se conduce. No es la logística de Pontevedra o Poio.",
+      "Mantener el vínculo con Mallorca pasa por el avión con trayecto más largo: Vigo-Peinador a cincuenta minutos; Santiago a cincuenta y cinco. En invierno conviene mirar el calendario real de vuelos a Palma. El coste incluye saturación de carretera en temporada.",
+      "Silgar concentra apartamentos y obra nueva; Portonovo mezcla vivienda permanente y segunda residencia; las parroquias, casas y urbanizaciones. Hay fibra. Una vivienda debe probarse con ruido y tráfico estivales, no solo en invierno. Tres habitaciones en franja asequible no caben con facilidad: conviene ser realista con metros y tipología.",
+    ],
+    historia: [
+      "La economía marinera de Portonovo precede al gran crecimiento turístico del siglo XX. La llegada de visitantes convirtió Silgar en paseo urbano, levantó hoteles y consolidó uno de los mayores puertos deportivos de Galicia. El contraste entre la lonja de Portonovo y los edificios de Silgar explica las dos caras del municipio: oficio y temporada en el mismo mapa.",
+      "A Lanzada conserva un castro y restos de una necrópolis junto a la ermita románica de Nosa Señora. Lanzada alude a la larga lengua de arena y al golpe del mar sobre ella. La romería mantiene el baño de las nueve olas, tradición según la cual las mujeres recibían nueve olas para favorecer la fertilidad. No es solo playa: es un paisaje ritual ocupado desde hace siglos.",
+      "Hasta los topónimos dibujan la suma: Sanxenxo nombra la villa de Silgar y el municipio; Portonovo, el puerto nuevo con vida propia; Noalla y Vilalonga, parroquias de costa e interior. Elegir Sanxenxo es elegir una de esas escalas bajo presión de agosto.",
+    ],
+    fuera: [
+      "Silgar es la playa urbana, con paseo y puerto al lado. Portonovo suma Baltar y Caneliñas; hacia el oeste aparecen Canelas, Paxariñas, Montalvo y Major. A Lanzada se extiende unos 2,5 kilómetros entre dunas y océano y se comparte geográficamente con O Grove. En agosto todas exigen madrugar o aceptar aparcamiento distante.",
+      "El paseo Silgar–Portonovo sirve para caminar sin coche entre los dos centros. Punta Faxilda es el cabo bajo desde el que se ven Ons y A Lanzada; la ruta de miradores sigue la costa de Noalla. Son salidas de brisa y horizonte, sin montaña alta: el Castrove queda tierra adentro.",
+      "El tiempo libre aquí es costa antes que monte: baño, paseo, mirador y, en temporada, saturación. Quien busque ría más calmada y hospital a diez mirará Poio; quien busque lonja y península con metro más bajo, O Grove. Sanxenxo gana por variedad de orilla y pierde por presión de julio a septiembre.",
+    ],
+    casa: [
+      "Silgar concentra apartamentos, pisos y obra nueva; Portonovo mezcla vivienda permanente y segunda residencia; las parroquias ofrecen casas y urbanizaciones de costa. Hay fibra y obra nueva, pero una vivienda debe probarse con ruido y tráfico estivales, no solo en invierno.",
+      "El precio medio ronda 2.900 €/m². La franja asequible real para dos habitaciones se acerca a 245.000 euros; tres habitaciones rondan 339.000 y entran ya en una franja cara. Primera línea, terraza y vistas elevan todavía más el precio. El anuncio enseña sol de junio; conviene oír una noche de San Roque en Portonovo.",
+      "Los servicios son 6/10 todo el año y se multiplican en verano. Montecelo queda a unos veinticinco minutos y Quirónsalud, a unos veinte; Vigo-Peinador a cincuenta y Santiago a cincuenta y cinco. Es la opción de playa de la zona —no la de calma ni la de metros baratos—.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se priorizan playa, paseo y restauración con el agua incorporada al día —no solo al fin de semana—. Silgar permite vivir junto a la arena urbana; Portonovo añade lonja, mercado y escala marinera propia; Areas, Canelas, Montalvo y A Lanzada (2,5 km de dunas y Atlántico) dan más variedad de orilla que cualquier otro municipio de la zona. Un martes de noviembre Silgar es un paseo despejado y Portonovo mantiene barcos y bares: hay vida permanente, aunque menos comercio que en verano. El aire y el agua atlánticos (17–20 °C) rebajan el calor de Mallorca: media veraniega ~19,5 °C, máximas cerca de 25 °C y entre tres y ocho días sobre 30 °C, con 1.300 milímetros y 118 días de lluvia —más seco que Pontevedra, no mediterráneo—.",
+        "También encaja si el verano fresco y la costa completa importan más que el silencio. Servicios 6/10 todo el año; Montecelo a unos veinticinco minutos; Quirónsalud a unos veinte. Hay fibra y obra nueva. Quien quiera el litoral más completo de las Rías Baixas y acepte que agosto no se parece a noviembre encontrará aquí la opción de playa de la zona —no la de calma ni la de metros baratos—.",
+      ],
+      no: [
+        "No encaja si julio y agosto deben parecerse a noviembre. La población se multiplica, el tráfico se atasca, cuesta aparcar y San Roque en Portonovo (14–19 de agosto) intensifica el ruido; Santa Rosalía y el Carmen a primeros de septiembre prolongan la temporada. Poio ofrece ría y mejor acceso a Pontevedra con menor presión.",
+        "Tampoco si se necesitan tres habitaciones en franja asequible: ~2.900 €/m² y una referencia cercana a 339.000 euros sitúan esa tipología en la franja cara. Dos habitaciones en franja asequible se acercan a 245.000. O Grove o Pontevedra dan más superficie por el mismo esfuerzo. Quien se decida solo tras un día de sol en Silgar en junio, sin dormir una noche de agosto ni medir el trayecto a A Lanzada en temporada, se llevará una sorpresa. O Grove ofrece marisco y dos costas con menos metro; Poio, hospital a diez.",
+      ],
+      veredicto:
+        "Veredicto: Sanxenxo encaja como opción de playa y temporada —dos habitaciones caminables a Silgar o Portonovo solo tras dormir allí en agosto y medir ruido; para tres habitaciones, fuera de primera línea o cambiar de municipio—. Sobre todo si variedad de orilla y verano fresco frente a Mallorca importan más que silencio y precio. Se gana el litoral más completo; se pagan saturación, ~2.900 €/m² y aeropuerto a ~50 minutos. Si mandan calma de ría y hospital a diez, Poio; si peatonalidad y sanidad a cinco, Pontevedra; si lonja y península con metro más bajo, O Grove.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/pontevedra-e-sanxenxo/sanxenxo-identidad.jpg",
+      pie: "Sanxenxo: casas frente a la ría, con el monte detrás",
+    },
+    fotosAbrir: [
+      { src: "/fotos/pontevedra-e-sanxenxo/sanxenxo-silgar.jpg", pie: "Silgar, paseo y playa urbana de Sanxenxo" },
+      { src: "/fotos/pontevedra-e-sanxenxo/sanxenxo-portonovo.jpg", pie: "Portonovo conserva puerto y vida propia todo el año" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/pontevedra-e-sanxenxo/sanxenxo-lanzada-ermida.jpg", pie: "Ermida da Lanzada, culto y costa sobre un lugar antiguo" },
+      { src: "/fotos/pontevedra-e-sanxenxo/sanxenxo-lanzada-castro.jpg", pie: "A Lanzada conserva castro y necrópolis junto al mar" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/pontevedra-e-sanxenxo/sanxenxo-lanzada.jpg", pie: "A Lanzada, 2,5 kilómetros de dunas y Atlántico" },
+      { src: "/fotos/pontevedra-e-sanxenxo/sanxenxo-canelas.jpg", pie: "Canelas, una de las playas abrigadas de Portonovo" },
+    ],
+    creditoFotos: credito,
+  }

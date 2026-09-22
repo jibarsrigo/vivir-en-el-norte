@@ -1,0 +1,99 @@
+{
+  "tipo": "municipio",
+  "slug": "cangas",
+  "nombre": "Cangas",
+  "n": 13,
+  "zonaId": "o-morrazo",
+  "zonaNombre": "O Morrazo",
+  "provincia": "Pontevedra",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-o-morrazo.ts",
+  "sourceKey": "cangas",
+  "sourceExport": "RELATOS_O_MORRAZO",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "51ae63d85f92757d0bb8fa978b282648c6eb4f323b1be23bb39169c7d4ab6232",
+  "relato": {
+    "escala": "Villa marinera y parroquias de costa",
+    "abrir": [
+      "Cangas se siente como dos mares en un solo municipio. Unos veintiséis mil habitantes: la villa marinera mira al interior de la ría de Vigo —la entrada de mar protegida por las Illas Cíes—; Aldán ocupa una ensenada propia de agua quieta al norte; O Hío —parroquia cuyo nombre oficial es Santo André do Hío— se extiende hacia la Costa da Vela, la punta atlántica de la península. Darbo cose el casco con las laderas. No se vive igual junto al mercado que en una casa baja de Aldán, aunque el puerto, las playas y el monte queden siempre cerca.",
+      "Quien vive aquí es gente local, vecinos de parroquia y veraneantes de Vigo y de fuera que vuelven cada agosto. Un martes de noviembre la plaza de abastos abre, el pequeño comercio sostiene el centro y el barco cruza a Vigo en unos veinte minutos: se compra, se va al centro de salud, se toma café junto a la dársena sin sacar el coche. En Aldán u O Hío la semana es más doméstica —casa, parroquia, trayectos cortos hasta la villa—; allí el coche resuelve la compra grande. La villa no cierra al terminar el verano.",
+      "El calendario entra de lleno en las calles. Durante la Semana Santa, declarada de interés turístico gallego, nueve procesiones atraviesan el casco; el Santo Encuentro del Viernes Santo y la procesión del Silencio a medianoche reúnen público y cortan el tráfico. El 16 de agosto la Danza de San Roque se baila ante la iglesia y el célebre cruceiro de O Hío; el último domingo de agosto, las fiestas del Cristo del Consuelo llenan Cangas. Vivir cerca del recorrido significa campanas, música, calles ocupadas y aparcamiento difícil, no solo una estampa folclórica.",
+      "Agosto amplifica todo: terrazas llenas, coches hacia Nerga y Barra, colas en la salida del corredor. La recompensa es una costa excepcional al final de cualquier tarde. En otoño regresan el paso tranquilo y los senderos vacíos; en invierno llueve con frecuencia, pero la villa mantiene lonja, mercado y barco. Si solo conoces un sábado de sol en Cabo Home, te llevas la imagen de folleto. Si has visto un noviembre y una noche de fiesta, ya puedes decidir si de verdad quieres vivir aquí.",
+      "Cangas permite elegir entre vida a pie en la villa y casa de parroquia sin perder el barco a Vigo. No resuelve, en cambio, su distancia al hospital: Montecelo, en Pontevedra, queda a unos treinta y cinco minutos. Ese dato no se arregla eligiendo otra calle."
+    ],
+    "tiempo": [
+      "Si vienes de Baleares, notará el cielo más gris y con menos sol que en Mallorca, no tanto el frío. Cangas suma unas 2.300 horas de sol y 72 días despejados al año; Mallorca ronda 2.800 horas y 120 días despejados. El invierno no es mucho más frío —la media se acerca a 10 °C—, pero sí bastante más gris: unos 1.500 milímetros de lluvia en 125 días, con trece a dieciséis jornadas húmedas al mes entre octubre y marzo. El mar suaviza las mínimas y la niebla suele ser baja.",
+      "El verano cambia el trato. La media ronda los 20 °C, las máximas habituales se quedan cerca de 25 °C y solo entre tres y seis días al año pasan de 30 °C: un julio mucho más fresco que el de Baleares. El agua oscila entre 17 y 20 °C: la ría de Aldán resulta más templada y quieta que Melide o Barra, playas abiertas hacia el Atlántico. Conviene venir un día de lluvia seria y un domingo de salida hacia las playas, no solo un sábado de sol en Cabo Home."
+    ],
+    "vivir": [
+      "El invierno en Cangas no se nota tanto en el termómetro como en la casa frente a la ría. En Mallorca muchas viviendas casi no piensan en calefacción ni en humedad; aquí caen unos 1.500 milímetros en 125 días y el salitre entra por la dársena. Conviene preguntar por aislamiento, orientación y moho. Una terraza que en agosto parece el centro de la vida, entre noviembre y febrero se usa la mitad o menos. Visitar el piso un día de lluvia seria y otro soleado enseña más que Cabo Home en foto típica.",
+      "El día a día sin coche funciona en la villa: mercado, centro de salud, comercio y barco a Vigo en unos veinte minutos. En Aldán u O Hío el coche resuelve la compra grande. En enero hay lonja, plaza de abastos y café junto a la dársena. La villa no cierra al terminar el verano; las parroquias son más domésticas.",
+      "Llegar de fuera es habitual: gente local, vecinos de parroquia y veraneantes de Vigo. Se oye gallego en el mercado; el castellano basta para lo cotidiano. Entre semana manda la vida cotidiana de villa marinera; en agosto terrazas y coches hacia Nerga y Barra. Quien busque solo veraneo encontrará ruido; quien busque vecinos todo el año, también —con otra escala que Mallorca.",
+      "La sanidad de urgencia y especialidades no está en el municipio: Montecelo, en Pontevedra, queda a unos treinta y cinco minutos. En Cangas hay centro de salud con urgencias y farmacias. Empadronarse abre el médico de cabecera local; para hospital se conduce. Ese dato no se arregla eligiendo otra calle ni el barco a Vigo: el ferry no resuelve una urgencia en coche.",
+      "Mantener el vínculo con Mallorca pasa por el avión. Vigo-Peinador está a unos cuarenta minutos; Santiago, con enlace a Palma durante casi todo el año, a unos setenta. En invierno conviene mirar el calendario real de vuelos. El barco a Vigo facilita ciudad, no el aeropuerto por sí solo.",
+      "En la villa predominan pisos útiles para mercado y barco a pie; en Aldán y O Hío, casas bajas con jardín y más coche. Hay fibra y algo de obra nueva en Cangas. Conviene revisar reforma, acceso, saneamiento y humedad en las parroquias, e imaginar escaleras y desniveles dentro de diez años."
+    ],
+    "historia": [
+      "Cangas creció de cara a la pesca y a la ría. Su excolegiata de Santiago, levantada entre los siglos XV y XVI, conserva la imagen barroca del Cristo del Consuelo de 1796; alrededor se formó un casco de calles estrechas, soportales y casas marineras. En 1617 un ataque de piratas berberiscos arrasó buena parte del núcleo: episodio que todavía asoma en la memoria local y explica por qué la villa mira al agua con oficio, no solo con foto típica.",
+      "O Hío guarda uno de los cruceiros barrocos más conocidos de Galicia. Ignacio Cerviño lo talló en 1872 como una narración en piedra de la historia cristiana. A sus pies se mantiene la Danza de San Roque o de los Peregrinos, interpretada cada 16 de agosto por veinte bailarines: no es un decorado recuperado para visitantes, sino una tradición transmitida entre generaciones.",
+      "Más al oeste, el Monte Facho de Donón conserva un castro y un santuario galaico-romano dedicado al dios Berobreo. Facho significa señal de fuego o atalaya: desde esta altura se dominaban la Costa da Vela, las Cíes y el océano. La pesca, el culto y la vigilancia explican la península mucho antes de que la carretera uniera sus playas."
+    ],
+    "fuera": [
+      "Si solo hay tiempo para un baño cerca, ese baño es Rodeira: arena protegida y paseo a un minuto de la villa. Areamilla queda al otro lado del casco. Para un baño aún más quieto van Menduíña y Areacova en Aldán, la pequeña ría del norte; para sentir el océano se sigue hacia Nerga, Viñó y Barra, arenales entre dunas. Barra tiene tradición naturista. Melide aparece junto a Cabo Home, ya expuesta a la boca de la ría. El agua en agosto anda entre diecisiete y veinte grados: fresca frente al Mediterráneo.",
+      "La gran caminata es la Costa da Vela, la costa occidental que termina en Cabo Home. Desde Donón se baja entre brezo hacia tres faros, con las Cíes a apenas tres kilómetros de mar. El Monte Facho añade castro, santuario y una vista completa de las dos orillas. Son senderos de viento y horizonte; en verano conviene llegar temprano porque los accesos y aparcamientos se llenan.",
+      "Aldán ofrece otro ritmo: molinos, bosques junto al arroyo y pequeñas playas de agua calma. El paseo marítimo de Cangas sirve para la vuelta diaria y el barco a Vigo convierte el mar en transporte público. El tiempo libre puede ir de un café en la villa a una tarde de baño o a una caminata atlántica sin salir del municipio."
+    ],
+    "casa": [
+      "En la villa predominan pisos en edificios bajos o medianos, útiles para tener mercado, barco y paseo a pie. Darbo mezcla viviendas recientes y casas en ladera. Aldán y O Hío ofrecen casas bajas, piedra, jardín y vistas, pero también carreteras estrechas y más dependencia del coche. Hay fibra y Cangas concentra la poca obra nueva de la comarca.",
+      "El precio medio ronda los 1.750 €/m². La franja asequible real para un piso de tres habitaciones se sitúa alrededor de 205.000 euros. En Aldán u O Hío, una casa con vistas puede empezar cerca de 180.000 y subir claramente según estado, terreno y cercanía al agua: esa es la franja media que exige revisar reforma, acceso, saneamiento y humedad, no una promesa de primera línea barata.",
+      "Los servicios alcanzan un 7/10: centro de salud con urgencias, mercado, supermercados, farmacias, colegios, institutos, pequeño cine y restauración. La debilidad es sanitaria: Montecelo queda a unos treinta y cinco minutos. Vigo-Peinador está a unos cuarenta; Santiago, con enlace a Palma durante casi todo el año, a unos setenta."
+    ],
+    "encaja": {
+      "si": [
+        "Encaja si el mar y los senderos costeros deben organizar la semana. Desde la villa se baja andando a Rodeira; en Aldán —ría pequeña de agua quieta— se nada en calma; hacia O Hío y la Costa da Vela se recorren Cabo Home, Barra y el Monte Facho de Donón con las Cíes a tres kilómetros de mar. El barco pone Vigo a unos veinte minutos sin el puente de Rande: villa reconocible con ciudad grande al otro lado del agua. Un martes de noviembre hay mercado, café junto a la dársena y comercio abierto; el verano ronda máximas cerca de 25 °C con solo tres a seis días sobre 30 °C —mucho más fresco que Mallorca—, a cambio de unos 1.500 milímetros y 125 días de lluvia.",
+        "También encaja para quien quiera elegir escala dentro del mismo municipio: piso de tres habitaciones cerca del mercado y del barco (~205.000 euros en franja asequible a ~1.750 €/m²); casa baja y calas en Aldán; paisaje atlántico en O Hío. Servicios 7/10 —urgencias de centro de salud, mercado, colegios, restauración— y obra nueva relativa en la villa. Quien priorice el mejor litoral y el mejor senderismo costero de O Morrazo, aceptando hospital lejos, encontrará aquí la opción de mar de la península."
+      ],
+      "no": [
+        "No encaja si el hospital público debe quedar cerca. Montecelo está a unos treinta y cinco minutos; el puente de Rande puede añadir incertidumbre hacia Vigo. Marín reduce esa distancia a diez o quince minutos sin renunciar a playas de ría. Tampoco si se necesita ciudad a cinco minutos a pie: Pontevedra queda a 25–35 según tráfico.",
+        "Tampoco si el silencio de agosto es obligatorio. Veraneantes, coches hacia Nerga y Barra, Semana Santa con procesiones que cortan el casco y las fiestas del Cristo del Consuelo llenan calles y aparcamientos. Quien se decida solo tras un día de sol en Cabo Home, sin dormir una noche de fiesta ni un domingo de salida hacia las playas, se llevará una sorpresa. Bueu ofrece más calma; Moaña, más cara a Vigo con menos Costa da Vela."
+      ],
+      "veredicto": "Veredicto: Cangas encaja como opción de mar y sendero de O Morrazo —piso caminable a mercado y barco en franja asequible, o casa en Aldán u O Hío solo tras comprobar acceso, humedad y tráfico de agosto—. Sobre todo si Rodeira, Aldán y Costa da Vela importan más que Montecelo a treinta y cinco. Probar agosto y un noviembre antes de comprar. Se ganan Vigo por mar, verano fresco frente a Mallorca y servicios 7/10; se aceptan 125 días de lluvia y sanidad lejos. Si mandan hospital y Pontevedra a diez, Marín; si calma y Ons, Bueu; si barco y paseo frente a Vigo, Moaña."
+    },
+    "fotoIdentidad": {
+      "src": "/fotos/o-morrazo/cangas-identidad.jpg",
+      "pie": "Cangas: casas del casco junto a la ría de Vigo, con el monte del Morrazo detrás"
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/o-morrazo/cangas-villa.jpg",
+        "pie": "Cangas: villa, puerto y ría de Vigo"
+      },
+      {
+        "src": "/fotos/o-morrazo/cangas-rodeira.jpg",
+        "pie": "Rodeira, la playa urbana junto al paseo"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/o-morrazo/cangas-hio-cruceiro.jpg",
+        "pie": "Cruceiro de O Hío, relato barroco tallado en piedra"
+      },
+      {
+        "src": "/fotos/o-morrazo/cangas-facho.jpg",
+        "pie": "Monte Facho de Donón: castro, santuario y horizonte atlántico"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/o-morrazo/cangas-cabo-home.jpg",
+        "pie": "Cabo Home y la Costa da Vela frente a las Cíes"
+      },
+      {
+        "src": "/fotos/o-morrazo/cangas-aldan.jpg",
+        "pie": "Aldán: una ría pequeña de playas tranquilas"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

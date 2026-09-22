@@ -1,0 +1,66 @@
+{
+    escala: "Ciudad de bahía",
+    abrir: [
+      "Santander se siente como capital cantábrica de bahía: unos ciento setenta y tres mil habitantes, El Sardinero —playas urbanas—, la península de la Magdalena —parque, palacio, costa abrigada—, Cabo Mayor —faro y acantilado—, el Centro Botín —cultura contemporánea sobre el agua—, el paseo de Pereda y la bahía abierta hacia Pedreña. Ciudad elegante, limpia y ordenada, con ferry a Inglaterra e Irlanda. Es la capital de referencia de Liencres y de toda Cantabria Occidental.",
+      "Quien vive aquí resuelve casi todo a pie. Un martes de noviembre los servicios alcanzan 10/10: no falta lo esencial de ciudad. Valdecilla —hospital público de referencia nacional— queda a unos cinco minutos; Santa Clotilde, a unos cinco. El aeropuerto anda alrededor de los diez minutos, con Palma casi todo el año —el mejor acceso de la zona—. La dependencia del coche es baja —2/10—. La seguridad ronda 51 por mil, cifra de ciudad.",
+      "En verano el Sardinero y la Magdalena reciben veraneantes y algo más de ruido y tráfico; el centro mantiene ritmo de capital todo el año. Primavera y otoño en la bahía son buenas épocas para conocerlo: el paseo de Pereda no es solo foto de agosto. Quien mire Liencres usa Santander como ciudad de hospital, cultura y vuelo a quince minutos.",
+      "El calendario de capital tiene citas de verano en el Sardinero y la Magdalena, y ritmo de ciudad el resto del año: comercios, cultura, el Botín, la bahía. Las fiestas de Santiago y el veraneo histórico de la corte dejaron huella de ciudad burguesa; hoy el lleno de playa en agosto convive con el ensanche que no se vacía en enero. Quien se decida a vivir junto al Sardinero debe contar la temporada como parte del año.",
+      "Santander encaja para quien prefiera ciudad completa; para quien mire Liencres, es la ciudad de referencia a quince minutos. Si solo conoces un sábado soleado en el Sardinero, te llevas la imagen de folleto de la playa. Si has visto un invierno de cielo cubierto, ya puedes decidir si quieres la capital.",
+    ],
+    tiempo: [
+      "Si vienes de Baleares, ganas logística y pierdes despejados. Santander suma unas 1.680 a 1.700 horas de sol y unos 38 a 40 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.150 a 1.200 milímetros en unos 148 a 152 días. El viento es medio; la niebla, baja.",
+      "El verano ronda 20 °C, fresco frente a Baleares. El Sardinero, la Magdalena y Mataleñas tienen agua entre 19 y 21 °C; la bahía ofrece orilla más calmada que el Cantábrico abierto en días de mar llana. Conviene venir un noviembre y un día de cubierto, no solo el sábado de sol sobre la Magdalena.",
+    ],
+    vivir: [
+      "El invierno en Santander es de capital cantábrica: cielo cubierto frecuente, lluvia y humedad de bahía. En Mallorca muchas viviendas casi no piensan en calefacción; aquí conviene aislamiento, orientación y moho en armarios. Una terraza al Sardinero que en agosto parece el centro de la vida se usa menos entre noviembre y febrero. Probar un invierno de cielo cubierto evita firmar solo por la Magdalena en sol.",
+      "El día a día sin coche es el fuerte de la ciudad: servicios 10/10, dependencia del coche 2/10. Un martes de noviembre se resuelve casi todo a pie —comercio, cultura, el Botín, el paseo de Pereda—. Quien elija primera línea del Sardinero ganará playa y más ocupación de verano; en el ensanche, ritmo de capital que no se vacía en enero.",
+      "Conviven residentes de capital, veraneantes en el Sardinero y la Magdalena, y quien usa Santander como ciudad de referencia desde Liencres. Entre semana manda la ciudad; en verano el frente de playa recibe más ruido y tráfico. Las fiestas de Santiago y el veraneo histórico dejaron huella de ciudad burguesa. El castellano basta; la vida social pasa por barrio, cultura y bahía más que por una única plaza de pueblo.",
+      "Valdecilla —hospital público de referencia nacional— y Santa Clotilde quedan a unos cinco minutos: la logística sanitaria más completa de Cantabria Occidental. Empadronarse aquí abre cabecera y especialidades en la misma ciudad. No es «hospital lejos»: es ciudad con sanidad a la puerta.",
+      "El aeropuerto anda alrededor de los diez minutos, con Palma casi todo el año —el mejor acceso de la zona—. Ir y volver a Mallorca es el trayecto más corto de Cantabria Occidental; el peaje sigue siendo el sol bajo, no la distancia al avión. Conviene mirar horarios del año entero.",
+      "El ensanche, el Sardinero y barrios residenciales ofrecen pisos; hay obra nueva y fibra. En primera línea del Sardinero hay que contar con precio y ocupación de verano. Tres habitaciones suelen quedar caras; dos en franja asequible son la orilla más realista. Imaginar ascensor, terraza de invierno y el ritmo de ciudad antes de comprar solo por la playa.",
+    ],
+    historia: [
+      "El paseo de Pereda, la Magdalena y el Sardinero explican Santander: capital burguesa de bahía y de veraneo elegante, reconstruida tras el incendio de 1941 en el centro histórico. El palacio de la Magdalena y el veraneo regio marcaron la imagen de ciudad limpia y de servicios. La capa contemporánea llega con el Centro Botín, sobre la bahía.",
+      "Cabo Mayor y Mataleñas cierran el arco de acantilado urbano: faro, senda, orilla abierta. El puerto y el ferry a Inglaterra e Irlanda mantienen la vocación atlántica. Lo que conviene saber es de capital cantábrica, hospital de referencia y bahía caminable, no de villa pequeña.",
+      "Hoy Santander es ciudad completa: Valdecilla, aeropuerto a diez minutos, ensanche, Sardinero. Quien camina Pereda un martes de noviembre entiende por qué Liencres la usa como referencia y por qué el metro es el más alto de la zona.",
+    ],
+    fuera: [
+      "Si solo hay tiempo para un baño cerca, ese baño es el Sardinero o la Magdalena: playas urbanas, agua entre 19 y 21 °C, la bahía más calmada en días de mar llana. Un martes de junio puedes tener espacio; un domingo de agosto el frente se llena. Mataleñas añade orilla de acantilado hacia Cabo Mayor.",
+      "El paseo de Pereda y la península de la Magdalena son la tarde de diario: bahía, jardines, el Botín como gesto cultural. Cabo Mayor cubre faro y senda cuando se busca horizonte sin toalla.",
+      "Liencres y las dunas quedan a unos quince minutos; Cabárceno, a unos veinte. Quien priorice caminar casi toda la semana encontrará aquí la logística más completa; quien priorice casas bajas y seguridad máxima mirará Liencres; quien priorice villa-playa, Suances.",
+    ],
+    casa: [
+      "El ensanche, el Sardinero y barrios residenciales ofrecen pisos; hay obra nueva y fibra. En primera línea del Sardinero hay que contar con precio y ocupación de verano. La tipología de tres habitaciones suele quedar por encima de la franja asequible habitual; dos habitaciones rondan unos 220.000 euros.",
+      "El precio medio ronda 2.600 €/m². Tres habitaciones se sitúan alrededor de 304.000 euros —fuera de la orilla asequible habitual—. La franja media puede ser piso de dos habitaciones en ensanche o cerca del Sardinero. Conviene probar un invierno de cielo cubierto y un agosto en la playa antes de comprar.",
+      "Los servicios son 10/10. Valdecilla queda a unos cinco minutos. Santander–Seve Ballesteros está a unos diez, con Palma casi todo el año. Eso es Santander: bahía completa a cambio del metro de capital y del sol bajo de Cantabria.",
+    ],
+    encaja: {
+      si: [
+        "La ciudad de bahía completa importa más que la casa baja junto a las dunas. Santander reúne unos ciento setenta y tres mil habitantes: Sardinero, península de la Magdalena, Cabo Mayor, Centro Botín, paseo de Pereda y bahía; capital elegante, limpia y ordenada, con ferry a Inglaterra e Irlanda. Quien quiera resolver casi todo a pie un martes de noviembre —servicios 10/10, dependencia del coche 2/10—, bajar al Sardinero o a la Magdalena y tener Valdecilla a unos cinco minutos encontrará aquí la logística más completa de la zona. En verano el Sardinero y la Magdalena reciben veraneantes y algo más de tráfico; el centro mantiene ritmo de capital todo el año. Unas 1.680 a 1.700 horas de sol y unos 40 días despejados —frente a las 2.800 horas y 120 de Mallorca— siguen siendo el peaje cantábrico: lluvia frecuente, verano suave alrededor de 20 °C, agua entre 19 y 21 °C, niebla baja. La seguridad ronda 51 por mil, cifra de ciudad.",
+        "Funciona si se priorizan Valdecilla y Santa Clotilde a unos cinco minutos y el aeropuerto alrededor de los diez, con Palma casi todo el año —el mejor acceso aéreo de Cantabria Occidental—. Hay obra nueva y fibra; el metro ronda 2.600 euros, el más alto de la zona: dos habitaciones en franja asequible andan cerca de 220.000 euros; tres suelen quedar por encima de la orilla habitual. Quien viva en Liencres usa Santander como ciudad de referencia a quince minutos para hospital, cultura y vuelo. Quien prefiera capital caminable frente a urbanización o villa entenderá Santander sin pedirle el precio de Suances.",
+      ],
+      no: [
+        "Si lo que se buscan son casas bajas junto a dunas y acantilados con la criminalidad más baja de la tabla, Santander no lo es: eso es Liencres (Piélagos). Tampoco encaja quien necesite tres habitaciones en primera línea dentro de la franja asequible habitual del mercado: aquí el metro de capital lo deja fuera con facilidad. El cielo de Baleares no está en la bahía: se gana logística, no despejados.",
+        "Tampoco si se busca villa marinera pequeña o silencio de noviembre como en Comillas fuera de temporada. Quien se decida solo por el Sardinero en un sábado de sol, sin probar un invierno de cielo cubierto ni el ritmo de ciudad, puede descubrir que la capital no era lo que pedía el día a día. Si mandan playa de villa con hospital a quince y metro más amable, Suances; si mandan dunas y seguridad máxima, Liencres. Santander pide aceptar precio de capital y sol bajo a cambio de caminar casi toda la semana.",
+      ],
+      veredicto:
+        "Veredicto: Santander encaja como ciudad de bahía —dos habitaciones en ensanche o cerca del Sardinero, o como capital de apoyo desde Liencres— sobre todo si Valdecilla a cinco, aeropuerto a diez y servicios 10/10 importan más que el metro bajo. Probar un martes de noviembre y un agosto en la playa antes de comprar. Se ganan bahía, Magdalena, Botín y Palma casi todo el año a diez minutos; se aceptan ~2.600 €/m² y unas 1.700 horas de sol. Quien priorice casas bajas y seguridad, Liencres; quien priorice villa-playa, Suances.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/cantabria-occidental/santander-identidad.jpg",
+      pie: "Santander: casas de la ciudad frente a la bahía, con los montes detrás",
+    },
+    fotosAbrir: [
+      { src: "/fotos/cantabria-occidental/santander-bahia.jpg", pie: "Bahía de Santander" },
+      { src: "/fotos/cantabria-occidental/santander-sardinero.jpg", pie: "El Sardinero, Santander" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/cantabria-occidental/santander-pereda.jpg", pie: "Paseo de Pereda, Santander" },
+      { src: "/fotos/cantabria-occidental/santander-botin.jpg", pie: "Centro Botín, Santander" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/cantabria-occidental/santander-magdalena.jpg", pie: "Península de la Magdalena" },
+      { src: "/fotos/cantabria-occidental/santander-cabo-mayor.jpg", pie: "Cabo Mayor, Santander" },
+    ],
+    creditoFotos: credito,
+  }

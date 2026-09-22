@@ -1,0 +1,98 @@
+{
+  "tipo": "municipio",
+  "slug": "vilanova-de-arousa",
+  "nombre": "Vilanova de Arousa",
+  "n": 24,
+  "zonaId": "o-salnes",
+  "zonaNombre": "O Salnés",
+  "provincia": "Pontevedra",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-o-salnes.ts",
+  "sourceKey": "vilanova-de-arousa",
+  "sourceExport": "RELATOS_O_SALNES",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "db2881e61ddaca2090e534f80c0f58e6461320dcee8c96ad347793c7dd020d94",
+  "relato": {
+    "escala": "Villa marinera y parroquias de viñedo",
+    "abrir": [
+      "Vilanova de Arousa se siente más equilibrio que foto típica. Una villa de unos diez mil habitantes entre Cambados y Vilagarcía, frente a la gran ría de Arousa: O Terrón es el puerto y la península junto al casco; As Sinas, la costa residencial hacia Vilagarcía; Caleiro y Baión, parroquias interiores de viñedo. Vilanova significa villa nueva y Arousa nombra la ría y la isla vecina. No es la plaza señorial de Cambados ni la ciudad de Vilagarcía: es la orilla asequible con baño cerca.",
+      "Quien vive aquí es gente local de puerto, bateas y parroquia, y veraneantes que vuelven cuando As Sinas se anima. Un martes de noviembre el centro de salud, mercado, supermercados, colegios y pequeño comercio cubren la semana básica. La villa se recorre a pie; desde Baión o Caleiro el coche une finca, servicios y hospital. Vilagarcía queda a unos diez minutos para tren, especialistas y compras mayores. El Hospital do Salnés, a unos quince. Ese dato no se arregla eligiendo otra calle del paseo.",
+      "El tráfico es de villa casi todo el año. Agosto anima As Sinas, O Terrón y las terrazas; el resto del año vuelve una villa de trabajo sin el gentío de Cambados en Albariño ni el de A Illa en temporada. Hay vida; no hay saturación permanente.",
+      "El calendario se extiende desde San Roque, el 16 de agosto, hasta A Pastoriza, el 8 de septiembre, y San Cipriano, el 16 de septiembre. Procesiones, orquestas y fuegos ocupan el centro y la plaza de O Castro en fechas repartidas durante un mes. La Festa do Mexillón e o Berberecho añade gastronomía marinera en agosto. Vivir junto al paseo significa varias noches activas, no una fiesta aislada —hay que contarlas como parte del año—.",
+      "Primavera y otoño son buenas épocas para conocerlo: en mayo la ría se pone más agradable; en noviembre el paseo se camina sin empujones y Baión huele a tierra húmeda. Si solo conoces un martes vacío junto al agua, te llevas la sensación de calma. Si has dormido una noche de San Roque o de Cipriano, ya puedes decidir si aceptas ese calendario de fiestas."
+    ],
+    "tiempo": [
+      "Si vienes de Baleares, notará el cielo más gris y con menos sol que en Mallorca. Vilanova registra unas 2.350 horas de sol y 70 días despejados, frente a 2.800 horas y 120 jornadas claras en Mallorca. Caen unos 1.350 milímetros en 118 días. El invierno ronda 10 °C y la niebla es baja; la costa expuesta recibe viento medio por la abertura a la ría.",
+      "El verano ronda 19,5 °C, con máximas habituales de 25 o 26 °C y pocos episodios sobre 30 °C: mucho más suave que Baleares. As Sinas y A Braña tienen agua de ría entre 18 y 20 °C, calma y bastante más fresca que el Mediterráneo. Conviene venir un día de viento en As Sinas y un noviembre, no solo un sábado de sol."
+    ],
+    "vivir": [
+      "El invierno en Vilanova se siente en el viento medio de As Sinas y en la humedad de las casas de parroquia. En Mallorca muchas viviendas casi no piensan en calefacción ni en moho; aquí caen unos 1.350 milímetros en 118 días. Conviene revisar salitre en As Sinas y humedad en Baión o Caleiro. Visitar un noviembre junto al paseo enseña más que un sábado de sol.",
+      "El día a día sin coche funciona en la villa: centro de salud, mercado, supermercados y colegios. Desde Baión o Caleiro el coche une finca y servicios. En enero hay vida local sin el gentío de A Illa. Vilagarcía queda a unos diez minutos para tren y compras mayores.",
+      "Llegar de fuera mezcla puerto, bateas y veraneo contenido. Se oye gallego en O Terrón; el castellano basta para lo cotidiano. Entre semana manda la vida cotidiana de villa; de agosto a mediados de septiembre San Roque, A Pastoriza y San Cipriano ocupan el centro. Quien busque solo calma absoluta debe medir ese mes.",
+      "La sanidad de urgencia y especialidades no está en el municipio: el Hospital do Salnés queda a unos quince minutos; Quirónsalud Pontevedra a unos treinta. Empadronarse abre lo local; para hospital se conduce a Vilagarcía. No se arregla eligiendo otra calle del paseo.",
+      "Mantener el vínculo con Mallorca pasa por el avión. Vigo-Peinador está a cuarenta minutos; Santiago, con mejor continuidad hacia Palma, a cincuenta. En invierno conviene mirar el calendario real de vuelos.",
+      "La villa ofrece pisos cerca del paseo; As Sinas, viviendas de costa; Baión y Caleiro, casas con finca y viñedo. Fibra y poca obra nueva. Conviene revisar tráfico de carretera en As Sinas y reforma en el interior. Imaginar escaleras y humedad dentro de diez años, no solo metros asequibles."
+    ],
+    "historia": [
+      "Ramón María del Valle-Inclán nació en Vilanova en 1866. La Casa do Cuadrante, hoy casa-museo, conserva mobiliario, primeras ediciones y objetos del autor de Luces de bohemia. Cuadrante es el nombre de la casa familiar, situada en el casco, no un barrio: la villa se explica también desde esa puerta.",
+      "La torre de Cálogo es el resto del antiguo monasterio de San Cibrán de Cálogo, destruido por incursiones normandas y rehecho varias veces. Cerca de la costa, O Terrón conserva la memoria de puerto, bateas y marisqueo. Tierra adentro, el Pazo de Baión enlaza arquitectura señorial, viñedo y una historia contemporánea marcada por el narcotráfico y su posterior destino vitivinícola: piedra que ha cambiado de oficio sin dejar de ser pazo."
+    ],
+    "fuera": [
+      "As Sinas es una sucesión de playas de ría y casas junto a la carretera hacia Vilagarcía. A Braña queda pegada al paseo urbano; O Terrón ofrece arena, puerto y vistas hacia A Illa. Son baños calmados, con marea visible y agua entre 18 y 20 °C. Un martes de junio puedes tener espacio; un domingo de agosto el tráfico de As Sinas se nota.",
+      "El paseo litoral une la villa con O Terrón y permite seguir hacia As Sinas. El Monte Lobeira, compartido visualmente con Vilagarcía, ofrece un mirador sobre Arousa; lobeira alude al lugar de lobos. Las rutas por Baión y Caleiro cambian mar por emparrados y pazos: la otra mitad del municipio.",
+      "Los vecinos cierran el mapa. Cambados queda a pocos minutos cuando apetece Fefiñáns y mesa; Vilagarcía, a unos diez para tren y hospital; A Illa, al otro lado del puente, cuando se buscan calas. El Xiabre se intuye hacia Vilagarcía; el Castrove, más lejos hacia Meaño. Quien viva aquí reparte la semana entre ría asequible y esas salidas —sin necesitar ciudad dentro del mismo casco—."
+    ],
+    "casa": [
+      "La villa ofrece pisos cerca del paseo; As Sinas, viviendas de costa; Baión y Caleiro, casas con finca y viñedo. Hay fibra y poca obra nueva. En As Sinas conviene revisar tráfico de la carretera, salitre y saneamiento; en el interior, humedad y acceso. Un noviembre cuenta más que un anuncio soleado.",
+      "El precio medio ronda 1.350 €/m². La franja asequible para tres habitaciones está alrededor de 158.000 euros, la cifra más amable junto con Meaño. La franja media puede ser piso reformado frente a la ría o casa de parroquia, con el coste final muy ligado a reforma y terreno.",
+      "Los servicios son 5/10. El Hospital do Salnés queda a unos quince minutos y Quirónsalud Pontevedra a unos treinta. Vigo-Peinador está a cuarenta minutos; Santiago, con mejor continuidad hacia Palma, a cincuenta. Eso es Vilanova: ría y precio, y Vilagarcía siempre a un trayecto corto."
+    ],
+    "encaja": {
+      "si": [
+        "Encaja si se quiere ría de Arousa —agua calma a 18–20 °C— con vivienda asequible entre Cambados y Vilagarcía. As Sinas y A Braña permiten bañarse cerca; O Terrón une puerto y arena junto al casco; la villa resuelve centro de salud, mercado, súper y colegios a pie. Un martes de noviembre hay vida local sin el gentío de A Illa ni la intensidad monumental de Cambados. El verano ronda 19,5 °C con máximas de 25–26 °C y pocos episodios sobre 30 °C: mucho más suave que Mallorca, con unos 1.350 milímetros y 118 días de lluvia que hay que asumir con los ojos abiertos.",
+        "También encaja para quien quiera combinar piso junto al paseo con casa y viñedo en Baión o Caleiro. Tres habitaciones en franja asequible rondan 158.000 euros a ~1.350 €/m² —junto con Meaño, la orilla más amable de la comarca—. Hospital do Salnés a unos quince minutos; Vilagarcía a unos diez para tren, especialistas y compras mayores. La Casa do Cuadrante —memoria de Valle-Inclán— y el Pazo de Baión dan historia sin obligar a una villa saturada. Quien priorice baño, calma y precio frente a Fefiñáns o isla entenderá Vilanova al primer paseo hacia As Sinas."
+      ],
+      "no": [
+        "No encaja si se necesita mucha vida cultural, compras grandes o tren a pie. Vilagarcía resuelve esas prioridades y conserva playa urbana, aunque cuesta más y tiene escala de ciudad portuaria. Tampoco si se busca el casco noble de Cambados: aquí se gana por equilibrio, no por plaza señorial.",
+        "Tampoco si el calendario patronal debe pasar desapercibido. San Roque (16 de agosto), A Pastoriza (8 de septiembre) y San Cipriano (16 de septiembre) ocupan el centro y la plaza de O Castro con procesiones, orquestas y fuegos durante un mes repartido; la Festa do Mexillón e o Berberecho añade agosto gastronómico. Quien se decida solo tras un martes vacío junto al paseo, sin probar una noche festiva ni el tráfico de As Sinas en temporada, se llevará una sorpresa. A Illa ofrece más mar a pie; Meaño, más terreno entre viña."
+      ],
+      "veredicto": "Veredicto: Vilanova encaja como equilibrio asequible de la ría —tres habitaciones cerca del paseo fuera del recorrido festivo, o casa en Baión tras revisar reforma y humedad—. Sobre todo si baño, calma y ~1.350 €/m² importan más que villa monumental o isla. Probar agosto–septiembre y un noviembre antes de comprar. Se ganan As Sinas, hospital a quince y Vilagarcía próxima; se aceptan servicios 5/10, oferta cultural modesta y lluvia honesta. Si mandan piedra y Albariño, Cambados; si calas a pie, A Illa; si tren y hospital a cinco, Vilagarcía."
+    },
+    "fotoIdentidad": {
+      "src": "/fotos/o-salnes/vilanova-de-arousa-identidad.jpg",
+      "pie": "Vilanova de Arousa: casas frente a la ría, con bateas y monte detrás"
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/o-salnes/vilanova-paseo.jpg",
+        "pie": "Vilanova: paseo y villa frente a la ría"
+      },
+      {
+        "src": "/fotos/o-salnes/vilanova-terron.jpg",
+        "pie": "O Terrón, puerto y playa junto al casco"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/o-salnes/vilanova-valle-inclan.jpg",
+        "pie": "Casa do Cuadrante, memoria de Valle-Inclán"
+      },
+      {
+        "src": "/fotos/o-salnes/vilanova-baion.jpg",
+        "pie": "Pazo de Baión, señorío y viñedo en la parroquia"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/o-salnes/vilanova-sinas.jpg",
+        "pie": "As Sinas, costa residencial de agua calma"
+      },
+      {
+        "src": "/fotos/o-salnes/vilanova-monte-lobeira.jpg",
+        "pie": "Monte Lobeira, mirador sobre toda Arousa"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "tipo": "municipio",
+  "slug": "povoa-de-varzim",
+  "nombre": "Póvoa de Varzim",
+  "n": 82,
+  "zonaId": "litoral-norte",
+  "zonaNombre": "Litoral Norte (PT)",
+  "provincia": "Porto",
+  "pais": "Portugal",
+  "sourcePath": "web/src/lib/relatos-litoral-norte.ts",
+  "sourceKey": "povoa-de-varzim",
+  "sourceExport": "RELATOS_LITORAL_NORTE",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "68785e90ff794c4193d760c01ee8a66f5b30297b9f7aa3155032377c4b7f23be",
+  "relato": {
+    "escala": "Ciudad-balneario",
+    "abrir": [
+      "Póvoa de Varzim se siente, al bajar del metro o de la A28, como la ciudad de playa que Porto inventó a media hora de sí misma. Unos sesenta y tres mil habitantes: casino, uno de los paseos marítimos más largos de Portugal, puerto pesquero, mercado, metro —línea B— hasta Porto y Estela Golf —links junto al mar— a unos diez minutos. El frente es de bloques en primera línea: no hay casas bajas mirando al Atlántico. Es ciudad-balneario atlántica con capa de veraneo y de trabajo de mar, viva todo el año.",
+      "Quien vive aquí es gente local, quien trabaja en Porto y vuelve por la noche, y veraneantes que llenan el paseo en agosto. Un martes de noviembre se resuelve casi todo en ciudad: mercado, centro de salud, comercio, colegio, café frente al mar. Los servicios alcanzan 8/10; la dependencia del coche, 3/10; la facilidad de venta, 9/10. El hospital comarcal queda a unos cinco minutos. El aeropuerto de Porto–Sá Carneiro anda alrededor de los veinte —Palma en verano; más de ochenta destinos directos—. Para lo diario no hace falta coche si se elige bien el piso; para Estela o una escapada a Esposende, sí.",
+      "El tráfico es de ciudad costera casi todo el año. En julio y agosto lo cambia todo: el veraneante de Porto llena el paseo con ruido, afluencia y aparcamiento difícil; la nortada de tarde —viento norte fuerte— marca terrazas y toallas. Hay obra nueva abundante y fibra. Quien busque silencio absoluto de enero lo encontrará unas calles atrás del frente; quien busque el café abierto también. Las dos cosas conviven aquí, y eso es raro en una ciudad de bloques.",
+      "La semana tiene rutinas claras: paseo, mercado, metro, puerto. Primavera y otoño son buenas épocas para conocerlo: el Atlántico sin gentío, el casino sin cola de agosto, Porto a media hora sin la A28 saturada. Si solo conoces un día de sol en Redonda, te llevas la imagen de folleto. Si has visto un agosto lleno y un martes gris de noviembre, ya puedes decidir si de verdad quieres vivir aquí.",
+      "El verano, sin embargo, tiene días que desbordan esa calma urbana. Fiestas locales y el veraneo de Porto ocupan el frente unas semanas: música, tráfico, toallas. Vivir en primera línea del paseo significa contar con ruido nocturno y viento; unas calles hacia el interior, el volumen baja. Póvoa no promete dunas residenciales: promete ciudad de playa con metro y aeropuerto a veinte minutos a cambio de urbanismo de bloques."
+    ],
+    "tiempo": [
+      "Si vienes de Baleares, el cielo pide menos paciencia que en Galicia húmeda, pero el viento pide más. Póvoa suma unas 2.550 horas de sol y unos 85 días despejados —el máximo de la tabla—, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.200 a 1.300 milímetros en unos 105 a 108 días; julio y agosto mojan poco —unos dos días—. De noviembre a abril la terraza se usa la mitad; de junio a septiembre, casi siempre, si la nortada lo permite.",
+      "El verano ronda 20 °C, con máximas alrededor de 25 °C y tres a seis días sobre 30 °C: fresco frente al julio mallorquín. Praia da Póvoa —Redonda, Salgueira, Lagoa— tiene agua entre 16 y 18 °C: mar abierto, olas y viento de tarde. No es Mallorca tibia; es Atlántico que despierta. Conviene probar una tarde de nortada y un noviembre, no solo un sábado de sol en el paseo."
+    ],
+    "vivir": [
+      "El invierno en Póvoa es de ciudad-balneario que no cierra: de noviembre a abril la terraza se usa la mitad; salitre, nortada residual y humedad de frente piden calefacción en pisos de bloque. Unas calles atrás del frente el viento baja. Probar un martes gris evita firmar solo por Redonda en sol.",
+      "Sin coche, lo diario se resuelve si se elige bien el piso —servicios 8/10, dependencia del coche 3/10—: mercado, centro de salud, comercio, café frente al mar, metro línea B hasta Porto. En enero hay ritmo de ciudad; en agosto el paseo se llena de veraneantes de Porto. Quien viva en primera línea ganará mar y más ruido; hacia el interior, más calma.",
+      "Conviven gente local, quien trabaja en Porto y vuelve por la noche, y veraneantes de agosto. El portugués manda; la escala es de ciudad atlántica metropolitana, no de aldea. La integración pasa por barrio, mercado, puerto pesquero y metro, con mucho Porto en temporada. Quien busque solo silencio de dunas deberá mirar Esposende.",
+      "El hospital comarcal queda a unos cinco minutos; CUF Porto anda hacia los treinta y cinco. Hay que contar con seguro privado portugués —como en el Alto Minho—, porque el público es más lento. No hay sanidad pública española de diario: se vive en Portugal con comarcal a pie.",
+      "Porto–Sá Carneiro anda alrededor de los veinte minutos —Palma en verano; más de ochenta destinos directos—. Ir y volver a Mallorca es de los trayectos más cortos de toda la tabla. Conviene mirar horarios de temporada y el resto del año.",
+      "En el frente predominan bloques; hay obra nueva abundante y fibra. No hay casas bajas mirando al Atlántico. El modelo es piso con terraza al mar o unas calles atrás, más abrigado del viento y del ruido de agosto. Tres habitaciones suelen quedar caras; dos en franja asequible son la orilla más realista. Probar agosto lleno y noviembre antes de comprar."
+    ],
+    "historia": [
+      "El casino, el paseo y el puerto pesquero explican Póvoa: ciudad-balneario atlántica que creció entre ocio de veraneo y oficio de mar. La lonja y los barcos no son decorado; el frente de bloques y el paseo largo son la capa que Porto puso encima cuando la costa se convirtió en extensión metropolitana.",
+      "El metro —línea B— marca la conexión: no es villa aislada, es ciudad de playa enganchada a Porto. Estela Golf —links junto al mar a unos diez minutos— completa la ficha de costa llana: ocio, viento, arena. Lo que conviene saber aquí es de balneario, pesca y ciudad viva todo el año, no de casco conventual ni de dunas protegidas."
+    ],
+    "fuera": [
+      "Si solo hay tiempo para un baño cerca, ese baño es Praia da Póvoa —Redonda, Salgueira, Lagoa—. Arena urbana, agua entre 16 y 18 °C, olas y nortada de tarde. Un martes de junio puedes caminar el paseo casi solo; un domingo de agosto el frente se llena de Porto. Es playa de ciudad, no de cala escondida.",
+      "El paseo marítimo —uno de los más largos de Portugal— es la tarde de diario: hormigón, viento, mar a un lado, bloques al otro. El puerto pesquero añade olor a lonja y ritmo de trabajo. Estela Golf queda a unos diez minutos: links junto al mar cuando apetezca otro ambiente.",
+      "Vila do Conde anda a trayecto corto por la A28 o el metro —casco histórico, Ave, Azurara—. Esposende, alrededor de veinticinco minutos hacia el norte —dunas, pinos, estuario—. Porto, unos treinta–cuarenta. Quien viva aquí acepta Atlántico urbano de diario y dunas o historia como escapada corta."
+    ],
+    "casa": [
+      "En el frente predominan bloques; hay obra nueva abundante y fibra. El modelo no es chalé entre pinos: es piso con terraza al mar o unas calles atrás, más abrigado del viento y del ruido de agosto. En primera línea hay que contar con ocupación estival, salitre y nortada; conviene comprobar una tarde de viento y un sábado lleno.",
+      "El precio medio ronda 2.600 €/m². Dos habitaciones en la franja asequible se sitúan alrededor de 220.000 euros. Tres habitaciones rondan 304.000 euros —fuera de la orilla asequible habitual—. Quien busque tres habitaciones dentro de esa orilla deberá mirar Esposende un poco retirado de la playa, no este frente.",
+      "Los servicios son 8/10: hospital a unos cinco minutos, mercado, comercio, metro. Porto–Sá Carneiro está a unos veinte. CUF Porto anda hacia los treinta y cinco. Hay que contar con seguro privado portugués. Conviene probar agosto y un noviembre antes de comprar."
+    ],
+    "encaja": {
+      "si": [
+        "La ciudad de playa completa importa más que las dunas residenciales. Póvoa reúne casino, uno de los paseos marítimos más largos de Portugal, puerto pesquero, mercado, metro —línea B— hasta Porto y Estela Golf —links junto al mar— a unos diez minutos. Los servicios alcanzan 8/10; la dependencia del coche, 3/10; la facilidad de venta, 9/10. El hospital comarcal Póvoa / Vila do Conde queda a unos cinco minutos; Porto–Sá Carneiro, a unos veinte —Palma en verano y más de ochenta destinos directos—. Quien quiera bañarse mira Praia da Póvoa —Redonda, Salgueira, Lagoa—: agua entre dieciséis y dieciocho grados, mar abierto, olas y nortada de tarde. No es Mallorca tibia; es Atlántico que despierta. A cambio, un martes de noviembre se resuelve casi todo en ciudad sin pedir Braga ni Esposende.",
+        "También encaja para quien acepte urbanismo de bloques en primera línea a cambio de metro, hospital a cinco y vida de ciudad-balneario todo el año —con mucho veraneante de Porto en agosto—. El precio medio ronda 2.600 €/m²; dos habitaciones en franja asequible, alrededor de 220.000 euros. Obra nueva abundante y fibra. Frente a Esposende se gana escala urbana; se pierde calma de pinos y dunas."
+      ],
+      "no": [
+        "No encaja si se buscan casas bajas en el frente de mar —el estudio lo lista entre lo que no tendrás en Póvoa y Vila do Conde— o tres habitaciones dentro de la orilla asequible habitual: esa tipología ronda 304.000 euros y queda fuera. Tampoco si la montaña debe quedar detrás de casa, si el agua debe templarse o si la terraza de junio a agosto debe usarse sin viento: la nortada de tarde marca el paseo y no se negocia eligiendo otra planta del bloque.",
+        "La sanidad pública española de diario no aplica: se vive en Portugal. El comarcal está a cinco minutos y CUF Porto hacia los treinta y cinco; el estudio recomienda seguro privado portugués —como en el Alto Minho—, porque el público es más lento. Quien se decida solo tras un día de sol en el paseo, sin probar un agosto lleno de Porto ni un martes de noviembre, se llevará una sorpresa. Si lo que manda es duna y pinos, Esposende; si casco histórico y aeropuerto a quince, Vila do Conde."
+      ],
+      "veredicto": "Veredicto de quien mira la costa metropolitana: Póvoa de Varzim encaja como ciudad-balneario —dos habitaciones en franja asequible o piso algo retirado del frente más ocupado en agosto, no la primera línea más ruidosa del paseo— sobre todo si metro, hospital a cinco y Sá Carneiro a veinte importan más que casas bajas y silencio de dunas. Probar un paseo lleno de verano y un noviembre antes de comprar. Se ganan servicios 8/10, venta fácil y Porto a media hora; se aceptan bloques, ~2.600 €/m², mar frío 16–18 °C, nortada y seguro privado portugués en lugar de la tarjeta española."
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/litoral-norte/zona-povoa.jpg",
+        "pie": "Póvoa de Varzim: ciudad-balneario frente al Atlántico"
+      }
+    ],
+    "fotosHistoria": [],
+    "fotosFuera": [
+      {
+        "src": "/fotos/litoral-norte/povoa-playa.jpg",
+        "pie": "Praia da Póvoa: Redonda y orilla atlántica"
+      },
+      {
+        "src": "/fotos/litoral-norte/povoa-estela.jpg",
+        "pie": "Estela Golf, links junto al mar en Póvoa"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

@@ -1,0 +1,61 @@
+{
+    escala: "Villa portuaria pesquera",
+    abrir: [
+      "Burela no presume de piedra antigua: presume de oficio. Unos nueve mil habitantes en una villa de servicios sin casco histórico monumental —puerto del bonito del norte, lonja, hospital comarcal a pie y playas A Marosa y Ril—. Es la sede del hospital comarcal de A Mariña y una de las villas con vida de trabajo todo el año: cajas, grúas, olor a pescado, el ritmo de quien no cierra la temporada.",
+      "Un martes de noviembre se resuelve comercio, centro de salud y recados básicos en el municipio. Quien vive aquí es gente de puerto y de villa funcional; hay una comunidad caboverdiana histórica ligada a la pesca. Los servicios alcanzan 6/10 y hay fibra. El Hospital da Mariña queda a unos cinco minutos —dato que no se replica en ningún otro municipio de la comarca—. El aeropuerto de Asturias anda alrededor de los ochenta y cinco minutos; Santiago, hacia los ciento diez.",
+      "En verano A Marosa y Ril reciben toallas y tráfico hacia la orilla. El calendario de villa portuaria y el veraneo animan el paseo; no hay una Semana Santa de impacto internacional como en Viveiro. Vivir junto a la playa o al puerto significa contar con más volumen en agosto; tierra adentro, el ritmo pesquero sigue.",
+      "Fuera de agosto Burela es villa de trabajo: mesas, lonja y hospital delante. Primavera y otoño dejan la orilla más quieta. Si solo conoces un sábado de sol, te llevas la imagen de folleto de la playa. Si has visto un día de lonja en marcha, ya puedes decidir si quieres la villa tal cual es.",
+      "Encaja para quien priorice hospital a pie y puerto real, no As Catedrais a cinco minutos ni casco indiano.",
+    ],
+    tiempo: [
+      "Burela suma unas 1.900 horas de sol y unos 40 días despejados frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.000 milímetros en unos 145 días. Niebla alta; viento medio. El gris de invierno pesa; también en verano llueve con frecuencia.",
+      "El verano ronda 18,5 °C, fresco frente a Baleares. A Marosa y Ril tienen agua entre 17 y 19 °C; el Cantábrico pide días buenos para baño. Foz, a un trayecto corto, ofrece ría más abrigada cuando apetece otra orilla. Conviene probar niebla y un día de puerto activo, no solo el sol de A Marosa.",
+    ],
+    vivir: [
+      "El invierno en Burela se nota en el piso de villa funcional: humedad, niebla alta y un cielo de unas 1.900 horas de sol frente a Mallorca. Conviene mirar aislamiento y rastros de moho un noviembre húmedo, no solo el sol de A Marosa. Junto a la orilla hay que contar con salitre y agosto; cerca del puerto, el ruido de actividad pesquera también en invierno —la lonja no cierra la temporada—.",
+      "El día a día sin coche es viable: un martes de noviembre se resuelve comercio, centro de salud y recados básicos en el municipio. Los servicios alcanzan 6/10 y hay fibra. En enero Burela es villa de trabajo —mesas, lonja y hospital delante—, no un bloque vacío de veraneo. Quien viva junto a A Marosa, Ril o al puerto notará más volumen en agosto; tierra adentro, el ritmo pesquero sigue.",
+      "Llegar de fuera es habitual: gente de puerto y de villa funcional, con una comunidad caboverdiana histórica ligada a la pesca. Se oye gallego en la lonja y en el ayuntamiento; el castellano basta para lo cotidiano. Entre semana manda el oficio del mar; en verano A Marosa y Ril reciben toallas y tráfico. Quien busque solo piedra antigua mirará otra villa; quien busque vecinos de trabajo todo el año, los encontrará aquí —en escala de villa portuaria, no de casco indiano.",
+      "La sanidad de urgencia y especialidades está a pie: el Hospital da Mariña queda a unos cinco minutos —dato que no se replica en ningún otro municipio de la comarca—. Empadronarse aquí abre médico de cabecera y hospital comarcal en el mismo municipio. Es el dato que convierte Burela en sede del hospital comarcal de A Mariña.",
+      "Mantener el vínculo con Mallorca pasa por el aeropuerto de Asturias, alrededor de los ochenta y cinco minutos, o Santiago hacia los ciento diez. En invierno el trayecto a menudo implica más logística. Conviene mirar el calendario real de vuelos del año, no solo el sol de A Marosa: el aeropuerto no está a una hora exacta como en Ribadeo.",
+      "Predominan pisos y viviendas de villa funcional; hay poca obra nueva y fibra. Junto a la orilla hay que contar con salitre y agosto; cerca del puerto, ruido de actividad pesquera. Conviene escuchar un día de lonja antes de comprar la primera línea. En un piso con escaleras o sin ascensor hay que imaginar la rutina dentro de diez años; el estado de la reforma pesa. La terraza útil es la que recibe sol de invierno, no solo la que mira el Cantábrico en foto.",
+    ],
+    historia: [
+      "El puerto y el bonito del norte explican Burela: villa crecida con la pesca, no con un recinto amurallado. La lonja y la flota son el dato útil; la comunidad caboverdiana histórica liga oficio del mar y demografía contemporánea.",
+      "El Hospital da Mariña convierte el municipio en referencia comarcal: sanidad que organiza la costa lucense. Cabo Burela añade horizonte costero. La historia contemporánea es de trabajo marítimo y servicios, no de indianos ni de arcos de Semana Santa.",
+    ],
+    fuera: [
+      "A Marosa y Ril son las playas de diario: arena urbana, Cantábrico y agua fresca. Un martes de junio la toalla cabe; un domingo de agosto, cuesta aparcar.",
+      "El paseo y el puerto permiten una tarde de villa pesquera sin coche: lonja, dársena y el mar como oficio. No es una imagen de folleto de muralla; es trabajo a la vista.",
+      "Foz amplía ría y A Rapadoira; Cervo, Sargadelos y San Cibrao; Viveiro, casco y Covas. As Catedrais quedan hacia Barreiros y Ribadeo. Aquí la orilla de diario es A Marosa; el hospital, a cinco minutos.",
+    ],
+    casa: [
+      "Predominan pisos y viviendas de villa funcional; hay poca obra nueva y fibra. Junto a la orilla hay que contar con salitre y agosto; cerca del puerto, ruido de actividad pesquera. Conviene escuchar un día de lonja antes de comprar la primera línea.",
+      "El precio medio ronda unos 1.200 €/m² (cifra orientativa; conviene contrastar Idealista del mes). Tres habitaciones en la franja asequible se sitúan alrededor de 140.000 euros. La franja media es piso ampliado o vivienda con mejor orientación; el estado pesa.",
+      "Los servicios son 6/10. El hospital queda a unos cinco minutos. Asturias está a unos ochenta y cinco; Santiago-Lavacolla, hacia los ciento diez. Quien acepte villa sin encanto monumental gana sanidad a pie; quien busque piedra antigua, mira Viveiro o Ribadeo.",
+    ],
+    encaja: {
+      si: [
+        "Encaja para quien priorice el hospital a pie en A Mariña: el Hospital da Mariña queda a unos cinco minutos, y eso no se replica en ningún otro municipio de la comarca. Burela es villa portuaria pesquera —unos nueve mil habitantes—, lonja, bonito del norte, playas A Marosa y Ril a pocos minutos, sin casco histórico monumental. Un martes de noviembre se resuelve comercio, centro de salud y recados básicos en el municipio; los servicios alcanzan 6/10 y hay fibra. Quien quiera vida de trabajo todo el año, puerto real y sanidad comarcal delante —no piedra antigua ni As Catedrais a cinco minutos— encontrará aquí la villa con el hospital comarcal de la costa lucense. Foz, a un trayecto corto, amplía ría y A Rapadoira cuando apetezca orilla más abrigada.",
+        "El clima sigue siendo cantábrico: unas mil novecientas horas de sol y unos cuarenta días despejados frente a las dos mil ochocientas horas y ciento veinte jornadas claras de Mallorca; niebla alta, verano fresco cerca de dieciocho grados y medio. A Marosa y Ril tienen agua entre diecisiete y diecinueve grados; el Cantábrico pide días buenos para baño. En verano las playas reciben toallas y tráfico; el calendario de villa portuaria anima el paseo sin alcanzar el impacto de la Semana Santa de Viveiro. Encaja quien acepte una villa funcional —la ficha misma admite que falta encanto urbano— a cambio de hospital a cinco minutos y precio asequible (alrededor de mil doscientos euros el metro; tres habitaciones en franja asequible cerca de ciento cuarenta mil).",
+      ],
+      no: [
+        "No encaja si se busca piedra amurallada, frontera indiana o As Catedrais a cinco minutos. Viveiro cubre casco y Covas; Ribadeo, indianos, ría del Eo y los arcos; Barreiros, playas largas junto a As Catedrais. Burela es oficio y servicios, no foto típica de villa señorial. Tampoco si el ruido de actividad pesquera junto al puerto molesta como vecino cotidiano.",
+        "Tampoco si el cielo de Baleares o el aeropuerto a una hora son imprescindibles: el verano es fresco y Asturias queda a unos ochenta y cinco minutos; Santiago-Lavacolla, hacia los ciento diez. Quien se decida solo por el hospital sin probar un noviembre húmedo ni un agosto en A Marosa se llevará la sanidad, pero también el gris y la villa portuaria tal cual es.",
+      ],
+      veredicto:
+        "Veredicto: Burela es la apuesta hospital y puerto de A Mariña. Buscaría tres habitaciones caminables a servicios, fuera del tramo más expuesto al ruido del puerto si molesta, tras probar un noviembre húmedo y un día de lonja en marcha. Se ganan sanidad a cinco minutos, A Marosa, Ril y vida pesquera todo el año; se aceptan casco poco monumental, aeropuerto lejos y el cielo gris de la Mariña.",
+    },
+    fotosAbrir: [
+      { src: "/fotos/a-marina/burela-puerto.jpg", pie: "Puerto de Burela, bonito del norte" },
+      { src: "/fotos/a-marina/burela-villa.jpg", pie: "Burela: villa de servicios y pesca" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/a-marina/burela-lonja.jpg", pie: "Lonja y ambiente portuario de Burela" },
+      { src: "/fotos/a-marina/burela-paseo.jpg", pie: "Paseo marítimo de Burela" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/a-marina/burela-playa.jpg", pie: "A Marosa o Ril, playas de Burela" },
+      { src: "/fotos/a-marina/burela-costa.jpg", pie: "Orilla urbana de Burela hacia el Cantábrico" },
+    ],
+    creditoFotos: credito,
+  }

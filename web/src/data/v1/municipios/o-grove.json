@@ -1,0 +1,95 @@
+{
+  "tipo": "municipio",
+  "slug": "o-grove",
+  "nombre": "O Grove",
+  "n": 20,
+  "zonaId": "pontevedra-e-sanxenxo",
+  "zonaNombre": "Pontevedra e Sanxenxo",
+  "provincia": "Pontevedra",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-pontevedra-e-sanxenxo.ts",
+  "sourceKey": "o-grove",
+  "sourceExport": "RELATOS_PONTEVEDRA_E_SANXENXO",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "46deaabef296a9bfd9d0a939e131496a30d088b22b5c806c875c335ea4869427",
+  "relato": {
+    "escala": "Villa marinera y península turística",
+    "abrir": [
+      "O Grove se siente como una isla que aprendió a ser península. Unida a tierra por el istmo de A Lanzada, unas diez mil personas viven alrededor de una villa marinera con puerto y lonja; al este, A Toxa es la isla del balneario, el hotel y el golf; al oeste, San Vicente do Mar reparte casas entre pinos y calas. Grove procede de un antiguo nombre de isla: hasta que los sedimentos cerraron el istmo, este territorio estuvo separado del continente.",
+      "Quien vive aquí es gente de lonja y de marisqueo, vecinos de toda la vida y veraneantes que vuelven a San Vicente o a A Toxa. Un martes de noviembre huele a lonja, las mariscadoras trabajan las playas de la ría de Arousa y el centro mantiene mercado, supermercados, colegio y bares. En San Vicente la semana es mucho más silenciosa y depende del coche. Agosto llena playas y terrazas; octubre vuelve a llenarlo todo con el marisco, pero desde una identidad productiva y no solo vacacional.",
+      "La Festa do Marisco se celebra durante la primera quincena de octubre y convierte el puerto en comedor, escenario y escaparate de mejillón, nécora y pulpo; llegan miles de personas, se corta tráfico y aparcar exige paciencia. El 16 de julio, el Carmen sale desde la villa marinera. San Martiño, el 11 de noviembre, devuelve el calendario al patrón parroquial. En A Toxa, sus jornadas termales y congresos crean otro ritmo, más hotelero que vecinal.",
+      "La villa es caminable; la península, no del todo. Desde San Vicente, Con Negro o muchas playas el coche abre la semana. El istmo de A Lanzada concentra toda salida por carretera: una tarde de agosto o de Festa do Marisco se nota en el municipio entero. Quien se decida solo tras un día soleado en A Toxa, sin probar el istmo en temporada ni humedad en San Vicente, se llevará una sorpresa.",
+      "El Hospital do Salnés queda a unos treinta minutos; Quirónsalud, a unos cuarenta y cinco; Vigo y Santiago, alrededor de una hora. Con 1.250 milímetros y 115 días de lluvia es uno de los rincones más secos de Galicia, aunque todavía lejos del cielo de Baleares. O Grove gana por oficio y dos costas; pierde por logística de península."
+    ],
+    "tiempo": [
+      "O Grove suma unas 2.400 horas de sol y 70 días despejados. Con 1.250 milímetros y 115 días de lluvia es uno de los rincones más secos de Galicia, aunque todavía queda lejos de las 2.800 horas y 120 jornadas claras de Mallorca. El invierno ronda 10 °C y el viento medio se nota en Con Negro y A Lanzada. Respecto a Baleares se pierde sol sobre todo en invierno; de junio a septiembre la terraza se usa —si el istmo lo permite.",
+      "El verano tiene una media de 19,5 °C, máximas habituales cercanas a 25 °C y pocos días por encima de 30 °C. La costa occidental recibe agua atlántica de 17 a 19 °C; Raeiros, Pipas y otras playas de la ría de Arousa pueden ser más calmas y acercarse a 20 °C. Las noches refrescan incluso en agosto. Conviene probar agosto y la Festa do Marisco, no solo un martes soleado en el puerto."
+    ],
+    "vivir": [
+      "El invierno en O Grove se siente en el viento de Con Negro y A Lanzada y en la humedad de las casas entre pinos. En Mallorca muchas viviendas casi no piensan en calefacción ni en moho; aquí, con 1.250 milímetros y 115 días de lluvia, es uno de los rincones más secos de Galicia, pero todavía lejos del cielo de Baleares. Conviene revisar humedad en San Vicente y salitre en la villa. Visitar un noviembre junto a la lonja enseña más que un día soleado en A Toxa.",
+      "El día a día sin coche funciona en la villa: mercado, supermercados, colegio y bares. Desde San Vicente do Mar el coche abre compra, salud y salida de la península. En enero huele a lonja y las mariscadoras trabajan. Agosto llena playas; octubre vuelve a llenarlo todo con la Festa do Marisco.",
+      "Llegar de fuera mezcla oficio y veraneo: gente de lonja y marisqueo, vecinos de toda la vida y veraneantes en San Vicente o A Toxa. Se oye gallego en el puerto; el castellano basta para lo cotidiano. Entre semana manda el trabajo de ría; en octubre el marisco corta tráfico. Quien busque solo resort hotelero pensará que el pueblo es solo A Toxa; quien busque vecinos de lonja, la villa.",
+      "La sanidad de urgencia y especialidades no está en el municipio: el Hospital do Salnés queda a unos treinta minutos; Quirónsalud, a unos cuarenta y cinco. En O Grove hay centro de salud y farmacias. Empadronarse abre lo local; para hospital se sale por el istmo de A Lanzada —toda salida por carretera se nota en temporada—.",
+      "Mantener el vínculo con Mallorca pasa por el avión con trayecto largo: Vigo y Santiago alrededor de una hora. En invierno conviene mirar el calendario real de vuelos a Palma. El coste logístico de península es el más claro de la zona.",
+      "La villa ofrece pisos junto a mercado y puerto; A Toxa, mercado excepcional y caro; San Vicente, chalés entre pinos. Poca obra nueva; fibra, pero coche necesario desde San Vicente. Conviene revisar humedad y medir el istmo en temporada antes de comprar la tipología de casa."
+    ],
+    "historia": [
+      "O Grove vivió de la pesca y del marisqueo mucho antes del turismo. Las bateas —plataformas flotantes donde se cría mejillón suspendido en cuerdas— dibujan la ría de Arousa y sostienen una economía visible desde el puerto. La Festa do Marisco, nacida en 1963, convirtió ese oficio en celebración gastronómica de referencia.",
+      "A Toxa, isla cuyo nombre también se escribe La Toja en castellano, cambió a finales del siglo XIX cuando sus aguas y lodos termales impulsaron balneario, fábrica de jabón y Gran Hotel. Un puente la une a la villa desde 1910. La capela de San Caralampio está cubierta de conchas de vieira y el campo de golf ocupa parte del pinar: es un paisaje termal singular dentro de un municipio de lonja.",
+      "Hasta el topónimo recuerda la geografía: Grove habla de isla; A Lanzada, del istmo de arena que la unió a tierra; Siradella, del mirador bajo desde el que se lee la península. Oficio, balneario y Atlántico explican el lugar mucho antes del veraneo moderno."
+    ],
+    "fuera": [
+      "A Lanzada forma el gran arenal del istmo. En la costa oeste, Area da Cruz, Mexilloeira, Area Grande y Con Negro alternan arena, roca y mar abierto; Con Negro significa peñasco oscuro y nombra una punta de granito expuesta. Hacia la ría de Arousa, Raeiros y Pipas ofrecen agua más tranquila. San Vicente do Mar cose pequeñas calas con pasarelas de madera.",
+      "El Monte Siradella alcanza 167 metros y permite leer la península completa, A Lanzada y la ría. Una ruta circular puede acercarse a veinte kilómetros; el paseo de A Toxa es corto y llano bajo pinos. Aquí no hay montaña alta: el tiempo libre se reparte entre playa, costa, bateas y caminos bajos.",
+      "El tiempo libre aquí es mar antes que ciudad: dos costas, lonja y península. Quien busque hospital a diez mirará Poio; quien busque playa urbana y temporada más intensa, Sanxenxo; quien busque peatonalidad total, Pontevedra. O Grove gana por Arousa, A Lanzada y el calendario del marisco."
+    ],
+    "casa": [
+      "La villa ofrece pisos junto a mercado y puerto; A Toxa tiene un mercado excepcional y caro; San Vicente do Mar, chalés y urbanizaciones entre pinos. Hay poca obra nueva y fibra, pero desde San Vicente el coche es necesario para compra, salud y salida de la península. Conviene revisar humedad en casas entre pinos.",
+      "El precio medio ronda 2.300 €/m². La franja asequible real de dos habitaciones se acerca a 194.000 euros; tres habitaciones rondan 269.000, franja media que exige alejarse de primera línea o revisar vivienda usada. El anuncio enseña A Toxa al sol; conviene medir el istmo en temporada.",
+      "Los servicios son 6/10: centro de salud, farmacias, supermercados, mercado, colegios y restauración. El Hospital do Salnés queda a unos treinta minutos; el privado de Pontevedra, a cuarenta y cinco. Vigo y Santiago están ambos alrededor de una hora. Es mar y oficio con el coste logístico más claro de la zona."
+    ],
+    "encaja": {
+      "si": [
+        "Encaja si se quiere villa marinera activa todo el año —lonja, mariscadoras, bateas en la ría de Arousa— con dos costas para elegir: Atlántico abierto al oeste (A Lanzada, Con Negro, Area da Cruz) y agua más tranquila de Arousa al este (Raeiros, Pipas). San Vicente do Mar añade casas entre pinos y calas; A Toxa, isla termal unida por puente, balneario y pinar. Un martes de noviembre huele a lonja y el centro mantiene mercado y bares. El verano ronda máximas cerca de 25 °C con pocos días sobre 30 °C —mucho más fresco que Mallorca— y, con 1.250 milímetros y 115 días de lluvia, es uno de los rincones más secos de Galicia, aunque todavía lejos del cielo de Baleares.",
+        "También encaja si el aire libre y el calendario del marisco importan más que la ciudad cercana. Siradella (167 m) permite leer la península; la senda de San Vicente y el paseo de A Toxa llenan semanas sin repetir orilla. Dos habitaciones en franja asequible se acercan a 194.000 euros a ~2.300 €/m²; tres habitaciones rondan 269.000 y suelen pedir alejarse de primera línea. Quien priorice oficio marinero, Arousa y A Lanzada —aceptando logística de península— entenderá O Grove en octubre tanto como en agosto."
+      ],
+      "no": [
+        "No encaja si hospital y aeropuerto deben quedar cerca. El Hospital do Salnés está en el límite de media hora; Quirónsalud, a unos cuarenta y cinco; Vigo y Santiago, alrededor de una hora. El istmo de A Lanzada concentra toda salida por carretera: una tarde de agosto o de Festa do Marisco (primera quincena de octubre) se nota en el municipio entero. Pontevedra o Poio resuelven mucho mejor esa logística.",
+        "Tampoco si se quiere casa de costa sin coche. La villa es caminable, pero San Vicente, Con Negro y muchas playas quedan dispersos. El Carmen y octubre del marisco llenan puerto y calles. Quien se decida solo tras un día soleado en A Toxa, sin probar el istmo en temporada ni humedad en San Vicente, se llevará una sorpresa. Sanxenxo da más variedad de playa urbana y más saturación; Poio, hospital a diez."
+      ],
+      "veredicto": "Veredicto: O Grove encaja como mar y vida marinera con el coste logístico más claro —dos habitaciones caminables a mercado y puerto en franja asequible; casa en San Vicente solo aceptando coche y revisando humedad—. Sobre todo si Arousa, A Lanzada y el calendario del marisco importan más que Montecelo a cinco. Probar agosto y la Festa do Marisco antes de comprar. Se ganan dos costas y uno de los climas más secos de Galicia; se aceptan hospital a treinta, aeropuerto a una hora y ~2.300 €/m². Si mandan playa urbana y temporada, Sanxenxo; si ría y hospital a diez, Poio; si peatonalidad total, Pontevedra."
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/pontevedra-e-sanxenxo/grove-villa.jpg",
+        "pie": "O Grove, villa marinera entre puerto y ría de Arousa"
+      },
+      {
+        "src": "/fotos/pontevedra-e-sanxenxo/grove-porto.jpg",
+        "pie": "Puerto y bateas: el mar como trabajo cotidiano"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/pontevedra-e-sanxenxo/grove-toxa.jpg",
+        "pie": "A Toxa, isla termal unida por puente a la villa"
+      },
+      {
+        "src": "/fotos/pontevedra-e-sanxenxo/grove-capela.jpg",
+        "pie": "Capela de San Caralampio, cubierta de conchas de vieira"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/pontevedra-e-sanxenxo/grove-siradella.jpg",
+        "pie": "Monte Siradella, mirador sobre la península y A Lanzada"
+      },
+      {
+        "src": "/fotos/pontevedra-e-sanxenxo/grove-con-negro.jpg",
+        "pie": "Con Negro, costa de granito abierta al Atlántico"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

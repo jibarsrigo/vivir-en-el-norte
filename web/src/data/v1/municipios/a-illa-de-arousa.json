@@ -1,0 +1,95 @@
+{
+  "tipo": "municipio",
+  "slug": "a-illa-de-arousa",
+  "nombre": "A Illa de Arousa",
+  "n": 23,
+  "zonaId": "o-salnes",
+  "zonaNombre": "O Salnés",
+  "provincia": "Pontevedra",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-o-salnes.ts",
+  "sourceKey": "a-illa-de-arousa",
+  "sourceExport": "RELATOS_O_SALNES",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "57e42ec3196d94ef90467130888ceba9cac0a0da270da3c2f9f28632dece4db7",
+  "relato": {
+    "escala": "Isla, villa marinera y costa natural",
+    "abrir": [
+      "A Illa de Arousa se siente más isla de lo que el puente promete. Siete kilómetros de tierra y unos cinco mil habitantes unidos al continente por un puente de casi dos kilómetros desde 1985: O Xufre es el principal puerto; O Campo y O Cantiño cosen la trama urbana; Carreirón protege el extremo sur entre pinares, marismas y calas. Arousa es la gran ría —entrada de mar protegida— y aquí se vive rodeado de ella. Treinta y seis kilómetros de costa no son metáfora: se caminan.",
+      "Quien vive aquí es gente local de pesca, marisqueo y conserva, y veraneantes que vuelven cuando las calas se llenan. Un martes de noviembre se compra en tiendas pequeñas, se va al centro de salud y se camina al puerto o a una playa sin coche. Para supermercado grande, instituto, especialistas o hospital se cruza el puente hacia Vilanova y Vilagarcía. El invierno es muy tranquilo y muy local; el oficio no cierra la temporada, pero la calle se vacía.",
+      "Para lo diario en la isla no hace falta coche; para el Hospital do Salnés, sí: unos veinte minutos al otro lado del puente. Ese dato no se arregla eligiendo otra cala. Una sola salida por carretera convierte cualquier incidencia —o una tarde de agosto— en asunto de todo el municipio.",
+      "Las Festas do Carme ocupan varios días alrededor del 16 de julio con Quintos, San Ramón, San Roque, verbenas y procesión marítima desde la lonja hasta O Xufre. El último fin de semana de agosto suele llegar la Festa da Ameixa Roxa. Puerto, paseo y centro reciben música, fuegos, cortes y visitantes; en una isla con un solo puente, el tráfico se nota enseguida. Son jornadas que hay que contar como calendario, no como foto de turismo.",
+      "Agosto multiplica población, coches y toallas, aunque la costa permite repartir el baño. En noviembre regresan viento, persianas cerradas y playas casi vacías. Si solo conoces un día de sol en O Bao, te llevas la imagen de folleto de la isla. Si has cruzado el puente en hora punta y dormido una noche de Carmen, ya puedes decidir si de verdad quieres vivir aquí."
+    ],
+    "tiempo": [
+      "Si vienes de Baleares, el cuerpo tarda en acostumbrarse a un cielo más gris y el viento. A Illa suma unas 2.350 horas de sol y 70 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Recibe unos 1.350 milímetros en 118 días. La media invernal ronda 10 °C y las heladas son raras, pero el viento es medio por la exposición de la isla: la ría no cierra del todo el noroeste.",
+      "El verano tiene una media de 19,5 °C y máximas habituales de 25 o 26 °C, con pocos días por encima de 30 °C. El agua protegida de la ría alcanza 18-20 °C. Sigue siendo más fresca que Baleares, aunque las calas de Carreirón y O Bao resultan calmadas y amables. Conviene venir un día de viento y un noviembre vacío, no solo un sábado de toalla."
+    ],
+    "vivir": [
+      "El invierno en A Illa se siente en el viento medio de la exposición insular y en las playas casi vacías. En Mallorca muchas casas casi no piensan en calefacción ni en humedad; aquí caen unos 1.350 milímetros en 118 días y el salitre pide ventilación. Conviene comprobar salitre, moho y exposición al viento. Visitar un noviembre vacío y un día de viento fuerte enseña más que un sábado de toalla en O Bao.",
+      "El día a día sin coche funciona en la isla: tiendas pequeñas, centro de salud, puerto y playa a pie. Para supermercado grande, instituto o hospital se cruza el puente. En enero la isla es muy local y muy quieta. El oficio no cierra, pero la calle se vacía.",
+      "Llegar de fuera mezcla pesca, marisqueo y veraneo. Se oye gallego en O Xufre; el castellano basta para lo cotidiano. Entre semana de invierno manda la calma; alrededor del 16 de julio el Carmen llena puerto y paseo, y el puente único lo nota todo el municipio. Si solo buscas la foto de cala, te quedas con la foto de agosto. Si buscas vecinos de isla, también hay que ver el invierno.",
+      "La sanidad de urgencia y especialidades no está en la isla: el Hospital do Salnés queda a unos veinte minutos al otro lado del puente; Quirónsalud Pontevedra, a unos treinta y cinco. Empadronarse abre el centro de salud local; para hospital se cruza. Ese dato no se arregla eligiendo otra cala.",
+      "Mantener el vínculo con Mallorca pasa por el avión. Vigo-Peinador está a cuarenta minutos; Santiago, con enlace más continuo a Palma, a cincuenta. En invierno conviene mirar el calendario real de vuelos. Toda salida pasa por el puente.",
+      "Predominan pisos bajos, casas marineras y chalés compactos; tierra escasa y poca obra nueva. Hay fibra. Conviene comprobar aparcamiento estival, ventilación y distancia real al puente. En una casa con terraza al viento hay que imaginar la rutina de noviembre, no solo la de julio."
+    ],
+    "historia": [
+      "Durante siglos la isla dependió administrativamente de Vilanova de Arousa. La apertura del puente en 1985 sustituyó la comunicación diaria por barco y aceleró su autonomía; A Illa se constituyó como municipio independiente en 1997. Esa historia reciente explica una identidad insular muy marcada: no es un barrio de la ría; es isla que aprendió a ser municipio.",
+      "Las fábricas de conserva y los puertos crecieron alrededor de sardina, mejillón y marisco. El Centro de Interpretación da Conserva ocupa una antigua fábrica y cuenta el trabajo, especialmente femenino, que sostuvo la industria. En el norte, el Faro de Punta Cabalo guía la navegación desde 1852; cabalo significa caballo en gallego. Hoy el puerto de O Xufre sigue siendo el corazón del oficio.",
+      "El Parque Natural de Carreirón, en la punta sur, forma parte del espacio protegido Umia-O Grove: pinar, marisma, dunas y calas que cuentan otra memoria —la de la costa que se protege, no solo la que se explota—. Quien camine Carreirón y O Xufre el mismo día entiende naturaleza y lonja sin separarlas."
+    ],
+    "fuera": [
+      "O Bao es el arenal más largo y recibe al visitante al terminar el puente. Area da Secada queda al noroeste, junto a pinar y paseo; Cabodeiro y Camaxe miran al continente. En el sur, Carreirón ofrece pequeñas calas, dunas, marisma y senderos llanos. El agua suele estar calma y entre 18 y 20 °C: baño de ría, no de océano abierto. Un martes de junio puedes tener casi toda la arena; un domingo de agosto el puente y los aparcamientos cambian el ritmo.",
+      "El Parque Natural de Carreirón ocupa la punta sur. Se camina sin desnivel entre pinos, observatorios de aves y calas. La vuelta hasta Punta Cabalo añade costa rocosa y faro; aquí el tiempo libre puede empezar a pie desde casa. Treinta y seis kilómetros de costa permiten repartir la tarde sin sacar el coche cada vez.",
+      "Al otro lado del puente, Vilanova y Vilagarcía resuelven súper grande, especialistas y hospital. Cambados queda a trayecto corto cuando apetece villa de piedra; A Lanzada, más lejos, cuando se busca Atlántico. En la isla no hay sierra detrás: el horizonte es ría, bateas y, hacia el continente, la silueta de Lobeira y Xiabre. Quien viva aquí repara en el puente cada día —y en que el monte está enfrente, no a la espalda—."
+    ],
+    "casa": [
+      "Predominan pisos bajos, casas marineras y chalés compactos; la tierra es escasa y la obra nueva, poca. Hay fibra. Conviene comprobar salitre, ventilación, aparcamiento estival y exposición al viento, además de la distancia real al puente. Quien compre debería venir un día de viento fuerte y una tarde de agosto, no solo un sábado de sol en O Bao.",
+      "El precio medio ronda 1.900 €/m², el más alto de la zona por la escasez insular. Tres habitaciones en la franja asequible se sitúan alrededor de 222.000 euros. La franja media concentra casas o pisos con terraza y vista; primera línea y parcela suben rápido y no representan el mercado cotidiano.",
+      "Los servicios son 4/10. El Hospital do Salnés queda a unos veinte minutos; Quirónsalud Pontevedra, a unos treinta y cinco. Vigo-Peinador está a cuarenta y Santiago, con enlace más continuo a Palma, a cincuenta. Eso es A Illa: mucho mar a pie, y la ciudad siempre al otro lado del puente."
+    ],
+    "encaja": {
+      "si": [
+        "Encaja si el mar debe organizarse andando: playa, puerto y sendero dentro del mismo día sin sacar el coche. O Bao —arenal largo al terminar el puente— resuelve el baño; Carreirón —parque natural de pinar, marisma y calas en la punta sur— permite una tarde de agua calma a 18–20 °C; O Xufre mantiene lonja y oficio. Un martes de noviembre la isla es muy local y muy quieta: tiendas pequeñas, centro de salud y playas casi vacías. El verano ronda máximas de 25–26 °C con pocos días sobre 30 °C —mucho más fresco que Mallorca—, a cambio de unos 1.350 milímetros y 118 días de lluvia y de un viento medio por la exposición insular.",
+        "También encaja para quien acepte una vida pequeña en invierno y valore que Vilagarcía —hospital, tren, compras mayores— quede al otro lado del puente, a unos veinte minutos. Tres habitaciones en franja asequible rondan 222.000 euros a ~1.900 €/m², el metro más alto de O Salnés por escasez de tierra. Hay fibra; conviene comprobar salitre, ventilación, aparcamiento estival y exposición al viento. Quien priorice isla, calas y agua protegida de Arousa frente a villa monumental o precio bajo entenderá A Illa al primer paseo por Carreirón."
+      ],
+      "no": [
+        "No encaja si se necesita gran oferta comercial, hospital inmediato o varias salidas por carretera. Todo pasa por un único puente: una incidencia, una tarde de agosto o el Carmen —Festas do Carme alrededor del 16 de julio— se sienten en el municipio entero. Los servicios son 4/10; el Hospital do Salnés está a unos veinte minutos, no a cinco.",
+        "Tampoco si se busca el precio bajo de la comarca o silencio estival. Vilanova ofrece costa de ría por bastante menos; Meaño, casa y terreno entre viña. Agosto multiplica coches y toallas; la Festa da Ameixa Roxa al final de mes añade otra oleada. Quien se decida solo tras un día de sol en O Bao, sin cruzar el puente en hora punta ni dormir una noche de Carmen, se llevará una sorpresa distinta de la foto de cala."
+      ],
+      "veredicto": "Veredicto: A Illa encaja como isla de mar a pie —tres habitaciones lejos del recorrido más ruidoso del Carmen, con ventilación y aparcamiento comprobados; casa solo si la exposición al viento está clara—. Sobre todo si calas y Carreirón importan más que ciudad y metro bajo. Probar agosto y un noviembre vacío antes de comprar. Se ganan 36 km de costa y agua calma; se aceptan puente único, invierno quieto, ~1.900 €/m² y lluvia honesta. Si mandan precio y calma, Vilanova; si villa de piedra, Cambados; si tren y hospital a cinco, Vilagarcía."
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/o-salnes/illa-puente.jpg",
+        "pie": "El puente convirtió la isla en municipio conectado por carretera"
+      },
+      {
+        "src": "/fotos/o-salnes/illa-porto-xufre.jpg",
+        "pie": "O Xufre, puerto de trabajo y centro marinero"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/o-salnes/illa-punta-cabalo.jpg",
+        "pie": "Punta Cabalo, faro en la costa norte"
+      },
+      {
+        "src": "/fotos/o-salnes/illa-conserva.jpg",
+        "pie": "A Illa: villa, puerto y memoria de la conserva"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/o-salnes/illa-parque-carreiron.jpg",
+        "pie": "Carreirón: pinar, marisma y calas en la punta sur"
+      },
+      {
+        "src": "/fotos/o-salnes/illa-o-bao.jpg",
+        "pie": "O Bao, el arenal largo junto al puente"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

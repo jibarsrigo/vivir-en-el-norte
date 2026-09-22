@@ -1,0 +1,65 @@
+{
+    escala: "Villa-playa",
+    abrir: [
+      "Suances se siente como la villa que no se apaga fuera de temporada: unos nueve mil habitantes, casco alto con vistas al Cantábrico, puerto en la ría de San Martín de la Arena —la desembocadura entre Suances y Miengo—, La Concha —playa larga y familiar—, Los Locos —orilla de oleaje y surf—, paseo y Punta del Dichoso —el mirador de acantilado—. Torrelavega queda a quince minutos con todo; Santillana del Mar, a diez; Santander, a treinta. Es la villa con vida todo el año de Cantabria Occidental.",
+      "Quien vive aquí es gente de la villa, de Torrelavega cercana y veraneantes que vuelven en verano. Un martes de noviembre se camina el casco, se compra en villa y se resuelve el día a día: los servicios alcanzan 6/10 —villa con lo básico; falta hospital en el municipio, pero Torrelavega lo cubre a quince—. Sierrallana y la Clínica Mompía, en Bezana, quedan a unos quince minutos. El aeropuerto de Santander anda alrededor de los veinte minutos, con Palma casi todo el año. Esa logística es de las mejores de la zona.",
+      "En verano La Concha y Los Locos reciben toallas, tráfico hacia la playa y algo de ruido de temporada; hacia el casco alto el volumen baja antes. Fuera de agosto Suances sigue siendo villa con mesas y comercio abiertos. Primavera y otoño son buenas épocas para conocerlo: la ría y el paseo no son solo foto de julio.",
+      "El calendario tiene fechas fijas. Las fiestas de la Virgen del Carmen —mitad de julio— animan el puerto y el casco con procesión y ambiente marinero; las patronales de San Leandro completan el verano local. Son jornadas de música, gente y aparcamiento justo; quien viva junto a La Concha o al puerto debe contarlas como parte del año. El resto de la semana, fuera de agosto, vuelve la vida de villa.",
+      "Suances encaja para quien quiera villa con playa, vida todo el año y hospital y aeropuerto a quince o veinte minutos. Si solo conoces un sábado soleado en La Concha, te llevas la imagen de folleto de la playa. Si has visto un martes de noviembre, ya puedes decidir si quieres la semana resuelta.",
+    ],
+    tiempo: [
+      "Si vienes de Baleares, el cielo es el peaje. Suances suma unas 1.680 a 1.700 horas de sol y unos 38 a 40 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.150 a 1.200 milímetros en unos 148 a 152 días; también en verano llueve varios días al mes. El viento es medio; la niebla, baja.",
+      "El verano ronda 20 °C, fresco frente a Baleares. La Concha, Los Locos y La Ribera tienen agua entre 19 y 21 °C; la ría de San Martín de la Arena ofrece orilla más abrigada que el Cantábrico abierto en días de mar llana. Conviene venir un día de cielo cubierto y un noviembre, no solo el sábado de oleaje en Los Locos.",
+    ],
+    vivir: [
+      "El invierno en Suances no apaga la villa, pero sí cambia la casa. Lluvia frecuente también en verano, mañanas grises de noviembre a febrero y humedad de ría y orilla: conviene calefacción, ventanas y orientación al sol, no solo vistas al Cantábrico. Una terraza que en julio parece el centro de la vida se usa menos cuando el cielo cubre. Probar un martes gris y un día de nortada ayuda más que mil fotos de La Concha.",
+      "El día a día sin coche es más viable que en Comillas o San Vicente: se camina el casco, se compra en villa y los servicios alcanzan 6/10. Torrelavega a quince minutos cubre lo que falta. Quien elija casco alto ganará vistas y cuestas; junto a La Concha, orilla y más ocupación de verano. En enero hay mesas y comercio abiertos: vida de villa, no de museo vacío.",
+      "Conviven gente de la villa, de Torrelavega cercana y veraneantes que vuelven en verano. Entre semana manda el ir y venir hacia Torrelavega y Santander; en julio y agosto La Concha y Los Locos reciben toallas, tráfico y algo de ruido —hacia el casco el volumen baja antes—. Las fiestas del Carmen y San Leandro animan puerto y casco unos días. El castellano basta; la vida social pasa por villa y temporada.",
+      "No hay hospital en el municipio, pero Sierrallana y la Clínica Mompía, en Bezana, quedan a unos quince minutos: de las mejores logísticas sanitarias de Cantabria Occidental. Empadronarse aquí abre lo diario en villa; para hospital se asume el trayecto corto a Torrelavega o Bezana, no el de San Vicente a cuarenta minutos.",
+      "Santander–Seve Ballesteros anda alrededor de los veinte minutos, con Palma casi todo el año: de los accesos aéreos más cómodos de la zona. Ir y volver a Mallorca es más corto que desde San Vicente o Comillas; aun así, el invierno cantábrico pide mirar horarios y logística, no solo el billete de agosto.",
+      "El modelo es piso o vivienda de villa en el casco o cerca del paseo; hay poca obra nueva y fibra. No es urbanización de casas bajas como Liencres: es villa compacta con orilla. Junto a La Concha hay que contar con ocupación de verano y salitre; hacia el casco alto, cuestas y vistas. Imaginar la rutina con escaleras y el aparcamiento de temporada antes de comprar.",
+    ],
+    historia: [
+      "El puerto en la ría y el casco alto explican Suances: villa de orilla y de veraneo con vida propia, no solo bloque de playa. La Concha y Los Locos marcan dos temperamentos de orilla —familiar y de surf— en el mismo municipio. La ría de San Martín de la Arena —nombre de la desembocadura— es el paisaje del puerto y del paseo.",
+      "La Punta del Dichoso —acantilado y mirador— añade la capa de costa abierta. Santillana del Mar y Altamira quedan a unos diez o quince minutos: patrimonio a un paso. Lo que conviene saber es de villa-playa, ría y veraneo con mesas abiertas en enero, no de museo modernista ni de foto típica de Picos.",
+      "Hoy Suances equilibra temporada y semana: Torrelavega cerca, playa delante, casco que no se vacía del todo. Quien camina el casco alto un martes de noviembre entiende por qué el estudio la señala como villa con vida todo el año.",
+    ],
+    fuera: [
+      "Si solo hay tiempo para un baño cerca, ese baño es La Concha: playa larga, familiar, a pie desde el paseo, agua entre 19 y 21 °C. Un martes de junio puedes tener espacio; un domingo de agosto el aparcamiento hacia la orilla se complica. Es playa de diario de villa, no de resort infinito.",
+      "Los Locos cubre el otro temperamento: orilla de oleaje y surf, más bruta, para quien busca ola y viento. La Ribera completa el arco junto a la ría. La Punta del Dichoso es el paseo de mirador cuando no apetece toalla: acantilado, horizonte, el Cantábrico abajo.",
+      "Santillana del Mar queda a unos diez minutos; Torrelavega, a quince con comercio y hospital; Santander, a treinta. Quien priorice playa, mesas en noviembre y logística corta encontrará aquí el equilibrio de la zona; quien priorice dunas y casas bajas mirará Liencres; quien priorice ría y Picos, San Vicente.",
+    ],
+    casa: [
+      "El modelo es piso o vivienda de villa en el casco o cerca del paseo; hay poca obra nueva y fibra. Junto a La Concha hay que contar con ocupación de verano y salitre; hacia el casco alto, cuestas y vistas. No es urbanización de casas bajas como Liencres: es villa compacta con orilla.",
+      "El precio medio ronda 2.000 €/m². Tres habitaciones en la franja asequible se sitúan alrededor de 234.000 euros; dos habitaciones, cerca de 169.000. La franja media puede ser piso en casco o vivienda cerca del paseo, fuera del tramo más ocupado de La Concha en agosto. Conviene probar un día de temporada en la playa y un martes gris.",
+      "Los servicios son 6/10. Sierrallana y Mompía quedan a unos quince minutos. Santander–Seve Ballesteros está a unos veinte, con Palma casi todo el año. Eso es Suances: playa delante, semana resuelta, y el sol bajo de Cantabria como peaje.",
+    ],
+    encaja: {
+      si: [
+        "La villa con vida todo el año importa más que la foto de Picos o el museo modernista. Suances reúne unos nueve mil habitantes: casco alto con vistas, puerto en la ría de San Martín de la Arena, La Concha —larga, familiar—, Los Locos —surf—, paseo y Punta del Dichoso; Torrelavega a quince minutos con todo, Santillana del Mar a diez y Santander a treinta. Quien quiera caminar el casco un martes de noviembre, comprar en villa y bajar a La Concha o a Los Locos cuando apetezca encontrará aquí ritmo de orilla que no se apaga fuera de temporada. En verano La Concha y Los Locos reciben toallas, tráfico y algo de ruido; hacia el casco el volumen baja antes. Unas 1.680 a 1.700 horas de sol y unos 38 días despejados —frente a las 2.800 horas y 120 de Mallorca— mantienen el cielo cantábrico: lluvia también en julio, verano suave alrededor de 20 °C, agua entre 19 y 21 °C. Quien venga de Baleares debe probar ese gris antes de comprar.",
+        "Funciona si se priorizan Sierrallana y la Clínica Mompía a unos quince minutos y el aeropuerto de Santander alrededor de los veinte, con Palma casi todo el año —de las mejores logísticas de la zona—. Los servicios alcanzan 6/10 —villa con lo básico; falta hospital en el municipio, pero Torrelavega lo cubre a quince—. Hay fibra; el precio ronda 2.000 €/m² y tres habitaciones en franja asequible andan cerca de 234.000 euros. Quien quiera playa delante, mesas abiertas en noviembre y hospital cerca sin pagar el metro de Santander ni el silencio extremo de Comillas entenderá Suances como el equilibrio de Cantabria Occidental.",
+      ],
+      no: [
+        "Si lo que se busca es urbanización de casas bajas junto a dunas y acantilados —Valdearenas, Canallave, Costa Quebrada—, Suances no lo es: aquí mandan villa, paseo y playa abierta. Liencres cubre ese perfil con Valdecilla a quince y la criminalidad más baja de la tabla. Tampoco encaja quien necesite la foto típica de ría y Picos cada tarde: eso es San Vicente, a costa de hospital a cuarenta minutos.",
+        "Tampoco si se necesita calma total en agosto en primera línea de La Concha, o el cielo estable de Mallorca. Quien se decida solo tras un sábado soleado sin probar el aparcamiento de temporada ni un noviembre de cielo cubierto se equivoca de opción. Si la prioridad absoluta es ciudad completa a pie —Valdecilla a cinco, aeropuerto a diez—, Santander; si mandan Capricho y museo, Comillas. Suances pide aceptar cubiertos, lluvia de verano y algo de afluencia en la orilla a cambio de la semana resuelta junto al mar.",
+      ],
+      veredicto:
+        "Veredicto: Suances encaja como villa-playa equilibrada —tres habitaciones en casco o cerca del paseo, fuera del tramo más ocupado de La Concha en agosto— sobre todo si hospital a quince, aeropuerto a veinte y vida de villa en noviembre importan más que la foto típica del oeste. Probar un martes gris y un día de temporada en la playa antes de comprar. Se ganan Concha, Locos, Torrelavega a quince y Seve Ballesteros a veinte; se aceptan ~2.000 €/m², servicios 6/10 y el sol bajo de Cantabria. Quien priorice dunas y seguridad máxima, Liencres; quien priorice ría y Picos, San Vicente.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/cantabria-occidental/suances-identidad.jpg",
+      pie: "Suances: casas sobre la bahía y la ría — vivir entre playa y puerto",
+    },
+    fotosAbrir: [
+      { src: "/fotos/cantabria-occidental/suances-villa.jpg", pie: "Suances: villa-playa" },
+      { src: "/fotos/cantabria-occidental/suances-concha.jpg", pie: "Playa de La Concha, Suances" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/cantabria-occidental/suances-puerto.jpg", pie: "Puerto de Suances en la ría" },
+      { src: "/fotos/cantabria-occidental/suances-paseo.jpg", pie: "Paseo de Suances" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/cantabria-occidental/suances-locos.jpg", pie: "Playa de Los Locos, Suances" },
+    ],
+    creditoFotos: credito,
+  }

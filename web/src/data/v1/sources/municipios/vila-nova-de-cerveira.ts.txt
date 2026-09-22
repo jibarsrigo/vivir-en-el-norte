@@ -1,0 +1,61 @@
+{
+    escala: "Villa fluvial y arte",
+    abrir: [
+      "Vila Nova de Cerveira se siente, al cruzar el puente de la Amizade desde Goián, como una villa que ha hecho del río y del arte su carácter. Unos nueve mil habitantes: casco cuidado sobre el Miño, castillo, Aquamuseu —museo del río y de la pesca fluvial—, praia fluvial, Alto do Cervo —mirador sobre la vega— y, en los veranos de los años impares, la Bienal de Arte que llena calles y salas. Frente, Galicia: Goián a dos minutos por el puente. Entre Tui y Caminha, Cerveira es franja B —Moledo a unos veinte minutos—, villa fluvial tranquila y culta, no colonia de chalés ni ciudad completa.",
+      "Quien vive aquí es gente local, artistas y quien busca orilla de río con calendario cultural. Un martes de noviembre se camina el casco, se cruza a Goián a comprar o a pasear, y el Miño sigue ancho y manso. Los servicios alcanzan 5/10: villa con carácter, sin gran comercio. El hospital Conde de Bertiandos queda a unos treinta y cinco minutos. El aeropuerto de Vigo anda alrededor de los cuarenta y cinco; Porto, alrededor de los setenta y cinco. Para lo diario el coche ayuda; para el puente a Galicia, no siempre hace falta.",
+      "En verano la praia fluvial y el puente reciben más afluencia; la vida de villa de arte se mantiene mejor que el de Moledo o Âncora en agosto. La Bienal marca el calendario: exposición, visitas, mesas llenas unas semanas. Los sábados, la feria —fruta, ropa, artesanía— atrae también a medio Baixo Miño desde el otro lado. Quien busque silencio absoluto de enero lo encontrará en las calles laterales; quien busque café y río también.",
+      "Primavera y otoño son buenas épocas para conocerlo: el Alto do Cervo con la vega verde, el paseo fluvial, Goián enfrente sin aduana. Si solo conoces un fin de semana de Bienal, te llevas la impresión de la exposición. Si has visto un martes gris de río y un sábado de feria, ya puedes decidir si de verdad quieres vivir aquí. Hay poca obra nueva; fibra sí.",
+      "Cerveira no promete Atlántico a la puerta. Promete Miño, puente, arte y calma de villa a cambio de servicios medios y mar a veinte minutos. Quien acepte ese trato entenderá el sitio al primer cruce hacia Goián.",
+    ],
+    tiempo: [
+      "Si vienes de Baleares, notará el cielo más gris y con menos sol que en Mallorca. Cerveira suma unas 2.400 a 2.450 horas de sol y unos 78 a 80 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.600 a 1.700 milímetros en unos 118 a 120 días. El viento es bajo en el río; la humedad, de vega. De noviembre a febrero la terraza se usa la mitad; de junio a septiembre, casi siempre.",
+      "El verano en el valle calienta más que en la costa abierta de Moledo o Âncora, aunque sigue lejos del julio balear sostenido. La praia fluvial ofrece baño de río; Moledo queda a unos veinte minutos con agua atlántica de 16 a 18 °C. Julio y agosto llueven poco —dos a cinco días al mes—, pero el termómetro de valle no es el de la nortada costera. Conviene probar un martes de río y un fin de semana de afluencia, no solo un día de exposición.",
+    ],
+    vivir: [
+      "El invierno en Cerveira es de vega: humedad de río, mañanas grises y terraza que se usa la mitad entre noviembre y febrero. Conviene aislamiento y calefacción en casa de villa junto al Miño. Probar un martes gris de río evita firmar solo por un fin de semana de Bienal.",
+      "Sin coche, el casco y el puente a Goián permiten paseo y parte de la compra; para lo demás el coche ayuda. Los servicios son 5/10: villa con carácter, sin gran comercio. En enero hay café y río; el silencio de calles laterales convive con la calma de villa fluvial, no con el vacío de colonia de verano.",
+      "Conviven gente local, artistas y quien busca orilla de río con calendario cultural. El portugués es la lengua de la villa; Galicia está a dos minutos por el puente de la Amizade —Goián— y los sábados la feria atrae también a medio Baixo Miño. La Bienal en veranos impares llena calles y mesas unas semanas. La integración pasa por río, arte y frontera permeable.",
+      "El hospital Conde de Bertiandos queda a unos treinta y cinco minutos. Hay que contar con seguro privado portugués —Trofa Saúde, Braga, alrededor de cincuenta y cinco minutos—. No hay sanidad pública española de uso habitual: se vive en Portugal, con público más lento y privado de referencia en Braga.",
+      "Vigo–aeropuerto anda alrededor de los cuarenta y cinco minutos; Porto, alrededor de los setenta y cinco —Palma en verano vía esos aeropuertos—. Ir y volver a Mallorca pide mirar Vigo en temporada y Porto el resto; no es acceso a quince minutos. El régimen fiscal especial para residentes extranjeros se cerró en 2024.",
+      "El casco y el entorno del río ofrecen viviendas de villa; hay poca obra nueva y fibra. El modelo es casa o piso de villa con el Miño cerca, no urbanización cerrada. Junto al río hay que contar con humedad y ocupación de fin de semana. Probar un sábado de feria y un martes vacío antes de comprar.",
+    ],
+    historia: [
+      "El castillo y la orilla explican Cerveira: villa fluvial fortificada frente a Galicia, con el puente de la Amizade como gesto cotidiano hacia Goián. La Bienal de Arte —verano de los años impares— convirtió el casco en escena: esculturas, visitas, un calendario que no depende solo del sol. El Aquamuseu cuenta el oficio del río —pesca, barcas, agua dulce— en un país donde el Miño es frontera y despensa a la vez.",
+      "El Alto do Cervo —mirador sobre la vega— y la praia fluvial completan la ficha de orilla y monte suave. Lo que conviene saber es de villa culta sobre el Miño: no lista seca de monumentos, sino castillo, arte y frontera permeable. Quien cruce el puente un sábado de feria entenderá por qué Goián y Cerveira funcionan como un solo gesto.",
+    ],
+    fuera: [
+      "El casco, el castillo y la praia fluvial —baño de río, orilla mansa, mesas en temporada— son la tarde de diario. Goián queda al otro lado del puente de la Amizade: paseo fluvial gallego, refuerzo de compra, Portugal y Galicia en el mismo aliento.",
+      "El Alto do Cervo aporta mirador sobre la vega del Miño: el sitio al que llevarías a una visita cuando el cielo limpia. Caminha y Moledo andan alrededor de veinte minutos cuando apetezca desembocadura y dunas; Valença, cerca por el río hacia el norte.",
+      "No hay playa atlántica en el municipio. Quien quiera océano acepta el trayecto corto a Moledo —arenal largo, pinar, Forte da Ínsua delante—. No es fallo de Cerveira: es la honestidad de la villa fluvial.",
+    ],
+    casa: [
+      "El casco y el entorno del río ofrecen viviendas de villa; hay poca obra nueva y fibra. El modelo es casa o piso de villa con el Miño cerca, no urbanización cerrada. Junto al río hay que contar con humedad y ocupación de fin de semana; conviene comprobar un sábado de feria y un martes vacío.",
+      "El precio medio ronda 1.500 €/m². Tres habitaciones se sitúan alrededor de 142.000 euros. Quien busque metros y calma fluvial encontrará más holgura que en Moledo o Âncora; quien busque primera línea de Atlántico, no.",
+      "Los servicios son 5/10. El hospital queda a unos treinta y cinco minutos. Vigo–aeropuerto está a unos cuarenta y cinco; Porto, a unos setenta y cinco. Hay que contar con seguro privado portugués —Trofa Saúde, Braga, alrededor de cincuenta y cinco minutos—. Conviene probar Bienal o feria y un noviembre de río antes de comprar.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere vivir el año entero junto al Miño en una villa culta, no en una colonia de verano. Vila Nova de Cerveira ofrece casco cuidado, castillo, Aquamuseu, praia fluvial y la Bienal de Arte en los veranos impares; Goián, en Galicia, queda al otro lado del puente de la Amizade. Un martes de noviembre se camina el río y se cruza a comprar o a pasear sin depender de agosto. Quien priorice orilla fluvial, arte y calma entre Tui y Caminha frente a nortada y dunas encontrará aquí una escala reconocible a unos 1.500 €/m². Los servicios alcanzan 5/10: villa con carácter, sin gran comercio.",
+        "También encaja para quien acepte el Atlántico como escapada corta —Moledo a unos veinte minutos— y valore el verano de río frente al calor sostenido de Mallorca. En la costa minhota las máximas habituales se quedan cerca de 20,5 °C; aquí el valle calienta algo más, pero sigue lejos del julio balear. Llueven alrededor de 1.600 milímetros en unos 118 días: hay que aceptar invierno húmedo. El hospital de referencia queda a unos treinta y cinco minutos; conviene seguro privado portugués.",
+      ],
+      no: [
+        "No encaja si todos los servicios deben estar a pie o si la playa atlántica ha de abrir la puerta de casa. Falta comercio grande; Moledo y Caminha cubren el baño de océano. Tampoco si el hospital debe quedar a menos de media hora: treinta y cinco minutos al público de referencia es el dato, no una excepción de una calle.",
+        "Tampoco encaja si se busca el régimen fiscal especial para residentes extranjeros —cerrado en 2024— o un privado cercano: Trofa Saúde, en Braga, anda alrededor de los cincuenta y cinco minutos. Quien se decida solo tras un fin de semana de Bienal, sin probar un martes gris de río, se llevará una villa distinta de la exposición.",
+      ],
+      veredicto:
+        "Veredicto: Vila Nova de Cerveira es villa fluvial y arte —Miño, puente a Goián y cultura a cambio de servicios medios y mar a veinte minutos—. Buscaría tres habitaciones hacia el casco o el río, tras probar un martes de noviembre y un fin de semana de exposición o de praia fluvial llena. Se ganan ~1.500 €/m², frontera cotidiana y calendario cultural; se aceptan servicios 5/10, aeropuerto a unos cuarenta y cinco minutos (Vigo) y seguro privado portugués. Si mandan playa abrigada y mercado a pie, Âncora encaja mejor; si hay que contar con río, arte y precio de interior, Cerveira es coherente.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/alto-minho/vila-nova-de-cerveira-identidad.jpg",
+      pie: "Vila Nova de Cerveira: casas junto al Miño, con el monte y el estuario",
+    },
+    fotosAbrir: [
+      { src: "/fotos/alto-minho/cerveira-villa.jpg", pie: "Vila Nova de Cerveira sobre el Miño" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/alto-minho/cerveira-arte.jpg", pie: "Arte y villa en Vila Nova de Cerveira" },
+      { src: "/fotos/alto-minho/cerveira-aquamuseu.jpg", pie: "Aquamuseu de Vila Nova de Cerveira" },
+    ],
+    fotosFuera: [],
+    creditoFotos: credito,
+  }

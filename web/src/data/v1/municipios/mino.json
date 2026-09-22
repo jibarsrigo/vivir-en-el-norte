@@ -1,0 +1,94 @@
+{
+  "tipo": "municipio",
+  "slug": "mino",
+  "nombre": "Miño",
+  "n": 36,
+  "zonaId": "golfo-artabro-e-ferrol",
+  "zonaNombre": "Golfo Ártabro e Ferrol",
+  "provincia": "A Coruña",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-golfo-artabro-e-ferrol.ts",
+  "sourceKey": "mino",
+  "sourceExport": "RELATOS_GOLFO_ARTABRO_E_FERROL",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "72c4859a22af060b35fd41765721900fe4f482ddb1ca94597d8104542e2b7b81",
+  "relato": {
+    "escala": "Praia Grande y parroquias",
+    "abrir": [
+      "Miño se entiende desde la Praia Grande. Alrededor de seis mil habitantes —orden de magnitud reciente, a contrastar en el INE o el IGE— entre más de un kilómetro de arena con dunas y paseo, Perbes y la urbanización Costa Miño: casas bajas y campo de golf construidos en los años 2000. Pontedeume, villa histórica, y las Fragas do Eume —bosque atlántico y parque natural— quedan a cinco o quince minutos. Es el modelo urbanización-playa a precio más razonable que Oleiros.",
+      "Un martes de noviembre los servicios son 4/10 en nuestra escala propia y la cobertura de fibra, parcial: el coche organiza compra, salud y ocio hacia Pontedeume o A Coruña. Quien vive aquí busca arena larga y golf, no comercio denso en el municipio. El CHUAC, público, queda a unos veinte minutos en coche; Alvedro, a unos treinta. El invierno baja el volumen en la urbanización y en la playa.",
+      "En verano Praia Grande y Costa Miño reciben veraneo, tráfico hacia el arenal y ocupación en el entorno del golf. Las fiestas locales y las noches de terraza animan el núcleo; quien viva junto a la playa grande notará aparcamiento y ruido en fechas concretas. Tierra adentro, hacia las parroquias, el silencio vuelve antes.",
+      "Fuera de agosto Miño recupera ritmo de urbanización y parroquia. El tren de cercanías enlaza con A Coruña y da una alternativa parcial al coche en algunos trayectos. Si solo conoces un sábado de sol en Praia Grande, te llevas la imagen de folleto de las dunas. Si has visto un martes de noviembre en Costa Miño, ya puedes decidir si aceptas los servicios mínimos.",
+      "Encaja para quien quiera arena larga y golf con A Coruña a unos veinticinco o treinta minutos, aceptando coche para gran parte de la semana."
+    ],
+    "tiempo": [
+      "Miño no tiene observatorio propio: la referencia de la zona son las normales 1981-2010 de AEMET en A Coruña —unas 1.939 horas de sol y unos 49 días despejados en el aeropuerto de Alvedro, y unos 1.014 milímetros en unos 130 días de lluvia en el observatorio de la ciudad, dos estaciones distintas—, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Son cifras orientativas para todo el arco; media hora al este, en el fondo de ría, la variación local existe. Viento y niebla quedan bajos frente a Ferrol. La llovizna también aparece en verano.",
+      "El verano ronda 19 °C, suave frente a Baleares. Praia Grande y Perbes permiten baño de ría-costa; el agua suele ser más usable que en Doniños, aunque sigue fresca en comparación con Baleares. Las Fragas do Eume dan sombra de bosque cuando aprieta el sol en la playa. Conviene probar un noviembre húmedo y el aparcamiento de agosto junto al arenal."
+    ],
+    "vivir": [
+      "El invierno en Miño se nota en Costa Miño y en las parroquias: humedad, llovizna también en verano y un noviembre que baja el volumen en la urbanización y en Praia Grande. En Mallorca muchas viviendas casi no piensan en moho; aquí conviene mirar aislamiento, orientación y rastros de humedad un martes gris, no solo el sol de las dunas. La terraza o el jardín de verano se usan menos entre noviembre y febrero.",
+      "El día a día sin coche es difícil: en nuestra escala propia los servicios son 4/10, y la cobertura de fibra es parcial. El coche organiza compra, salud y ocio hacia Pontedeume o A Coruña; el tren de cercanías enlaza con A Coruña y da una alternativa parcial en algunos trayectos. En enero Miño es urbanización y parroquia, no comercio denso. Quien viva junto a Praia Grande notará aparcamiento y ruido en agosto; tierra adentro, hacia las parroquias, el silencio vuelve antes.",
+      "Llegar de fuera busca arena larga y golf, no villa marinera densa. Se oye gallego en los núcleos y en Pontedeume cercano; el castellano basta para lo cotidiano. Entre semana manda el volante; en verano Praia Grande y Costa Miño reciben veraneo, tráfico hacia el arenal y ocupación en el entorno del golf. Si solo buscas el sábado de sol en las dunas, te llevas la imagen de folleto de la playa. Si buscas vecinos densos y mesas en enero, mira Pontedeume o la capital.",
+      "La sanidad de urgencia y especialidades no está en el municipio: el CHUAC, público, queda a unos veinte minutos en coche desde el núcleo, y el privado HM Modelo, a unos veinticinco; desde las parroquias altas o con tráfico el trayecto se alarga. Empadronarse aquí asigna médico de cabecera en el municipio; para hospital se conduce a A Coruña. No es aislamiento extremo, pero sí asumir que la gran sanidad no está a pie de Praia Grande.",
+      "Mantener el vínculo con Mallorca pasa por Alvedro, a unos treinta minutos —más lejos que en Oleiros—; Santiago-Lavacolla, con más destinos, queda a unos cincuenta. Los vuelos a Palma cambian por temporada y por compañía, así que conviene comprobar la programación vigente en Aena o en las aerolíneas y aceptar además ese trayecto al aeropuerto. En invierno el viaje a menudo implica más escalas o ir a Santiago.",
+      "Predominan casas en Costa Miño y viviendas en parroquias; hay poca obra nueva y fibra parcial. Hay que contar con humedad, ocupación de verano junto a la playa y distancia real a un súper. Conviene comprobar la línea en esa dirección concreta. En una casa con escaleras o parcela en desnivel hay que imaginar la rutina dentro de diez años; reforma frente a llave en mano: humedad, ventanas y calefacción hay que contar con tanto como las vistas a las dunas."
+    ],
+    "historia": [
+      "Costa Miño es la ficha reciente: urbanización de casas bajas y golf pensada para residencia y veraneo, no un casco medieval. Praia Grande organiza el tiempo libre desde que el municipio miró a la orilla como activo principal.",
+      "Pontedeume y las Fragas do Eume —a quince minutos— añaden la capa antigua y natural: villa de piedra y bosque atlántico de roble y ribera. El tren de cercanías enlaza con A Coruña y da una alternativa parcial al coche. Lo que conviene saber junta urbanización de los 2000 y bosque de ribera."
+    ],
+    "fuera": [
+      "Praia Grande es el arenal de diario: dunas, paseo y espacio —más de un kilómetro—. Un martes de junio la toalla cabe; un domingo de agosto, el acceso se satura. Perbes completa opciones más recogidas.",
+      "El campo de golf de Costa Miño marca el ocio de la urbanización: otra escala de tarde cuando no apetece solo playa.",
+      "Las Fragas do Eume ofrecen rutas de bosque a un trayecto corto. Pontedeume cubre villa y mesas; A Coruña, hospital y compras; Betanzos y Gandarío quedan hacia el oeste de la ría. Aquí la orilla de diario es Praia Grande; la villa completa, Pontedeume o la capital."
+    ],
+    "casa": [
+      "Predominan casas en Costa Miño y viviendas en parroquias; hay poca obra nueva y fibra parcial. Hay que contar con humedad, ocupación de verano junto a la playa y distancia real a un súper. Conviene comprobar la línea en esa dirección concreta.",
+      "Según el €/m² de Idealista de agosto de 2026, el precio medio ronda 1.775 €/m². Con ese metro, una vivienda de dos habitaciones en la franja asequible se estima alrededor de 150.000 euros y una de tres, alrededor de 208.000: son estimaciones derivadas del precio por metro, no anuncios reales. Una casa en Costa Miño se mueve por encima de esas cifras según reforma, parcela y vistas.",
+      "Los servicios son 4/10 en nuestra escala propia. El CHUAC, público, queda a unos veinte minutos en coche. Alvedro está a unos treinta; Santiago-Lavacolla, a unos cincuenta, con más destinos; los enlaces con Palma cambian por temporada y conviene comprobar la programación vigente. Quien acepte coche y servicios mínimos gana dunas y golf; quien necesite ciudad a diez minutos, mira Oleiros."
+    ],
+    "encaja": {
+      "si": [
+        "Encaja si se quiere urbanización con golf —Costa Miño— y Praia Grande a pie o a minutos: más de un kilómetro de arena con dunas, más espacio que las calas de Oleiros, a precio más razonable —alrededor de 1.775 €/m² según Idealista en agosto de 2026, con lo que tres habitaciones en franja asequible se estiman hacia 208.000 euros—. Perbes completa orillas recogidas; las Fragas do Eume, a unos quince minutos, añaden bosque atlántico cuando aprieta el sol en la playa. El CHUAC, público, queda a unos veinte minutos en coche; el privado HM Modelo, a unos veinticinco. Alvedro está a unos treinta y Santiago-Lavacolla, a unos cincuenta; los vuelos a Palma cambian por temporada y conviene comprobar la programación vigente. Pontedeume, villa histórica, cubre mesas y casco a un trayecto corto.",
+        "También encaja para quien acepte A Coruña a unos veinticinco o treinta minutos como ciudad de referencia, sin pagar el metro de Santa Cruz o Mera. Miño ofrece el modelo «urbanización mallorquina con playa» del estudio a cambio de servicios 4/10 en nuestra escala: el coche organiza súper, salud y muchos recados."
+      ],
+      "no": [
+        "No encaja si la vida diaria debe resolverse andando o si el invierno exige comercio denso sin salir del municipio. Oleiros y Sada cubren esa prioridad; aquí la cobertura de fibra es parcial y hay que comprobarla en la dirección concreta. Tampoco si se busca aldea de colores como Redes, ciudad naval o capital caminable: Miño es playa grande y parroquia.",
+        "Tampoco encaja si el cielo debe parecerse al de Mallorca. La referencia más cercana, las normales 1981-2010 de AEMET en A Coruña, da unas 1.939 horas de sol y unos 49 días despejados frente a 2.800 horas y 120 jornadas claras. Quien se decida solo tras un sábado de sol en Praia Grande, sin probar un martes de noviembre en Costa Miño ni el aparcamiento de agosto junto al arenal, se llevará una sorpresa. El aeropuerto tampoco es el de Oleiros: Alvedro a treinta minutos exige aceptar ese trayecto."
+      ],
+      "veredicto": "Veredicto: Miño es la apuesta Praia Grande-golf del golfo —casa en Costa Miño o cerca del arenal, con fibra comprobada—. Encaja si arena larga y precio más amable que Oleiros importan más que villa completa. Como casa única solo tras un invierno húmedo y el trayecto real al CHUAC (unos veinte minutos) y a Alvedro (unos treinta); si mandan servicios y ciudad a diez minutos, Oleiros; si mandan puerto de ría, Sada. Se ganan dunas y Fragas cerca; se aceptan coche, servicios 4/10 en nuestra escala y cielo gris frente a Mallorca."
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/golfo-artabro-e-ferrol/mino-praia-grande.jpg",
+        "pie": "Praia Grande de Miño: arena y dunas"
+      },
+      {
+        "src": "/fotos/golfo-artabro-e-ferrol/mino-villa.jpg",
+        "pie": "Castro de Loios, patrimonio junto a Miño"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/golfo-artabro-e-ferrol/mino-costa.jpg",
+        "pie": "Costa Miño: urbanización y costa"
+      },
+      {
+        "src": "/fotos/golfo-artabro-e-ferrol/mino-tren.jpg",
+        "pie": "Tren de cercanías en el entorno de Miño"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/golfo-artabro-e-ferrol/mino-perbes.jpg",
+        "pie": "Perbes, playa recogida de Miño"
+      },
+      {
+        "src": "/fotos/golfo-artabro-e-ferrol/mino-eume.jpg",
+        "pie": "Fragas do Eume, bosque atlántico cercano"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

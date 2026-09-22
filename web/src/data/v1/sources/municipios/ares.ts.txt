@@ -1,0 +1,61 @@
+{
+    escala: "Villa de ría y Redes",
+    abrir: [
+      "Ares se siente pequeña y fotogénica. Alrededor de seis mil habitantes —orden de magnitud reciente, a contrastar en el INE o el IGE— en la ría de Ares: villa con playa urbana, y Redes —aldea marinera de casas de colores, muy fotografiada—. Seselle y Chanteiro miran hacia A Coruña. Mugardos, villa vecina de la misma ría, completa el paisaje de orilla. No es capital ni urbanización completa: es encanto de ría a cambio de depender de Ferrol o A Coruña para gran parte de la semana.",
+      "Un martes de noviembre hay lo básico, pero en nuestra escala propia los servicios rondan 4/10 y la cobertura de fibra es parcial: el coche organiza muchos recados hacia Ferrol —a unos veinticinco minutos— o A Coruña —a unos treinta o cuarenta—. Quien vive aquí prioriza paisaje sobre servicios. El hospital público de referencia está en Ferrol; Alvedro, a unos cuarenta y cinco minutos, según el punto y el tráfico.",
+      "En verano Redes, la playa urbana y Chanteiro reciben visitantes, tráfico estrecho y aparcamiento justo. Las fiestas locales animan la villa; vivir en Redes o junto a la orilla significa contar con días de gente y ruido en temporada. Fuera del núcleo marinero, el volumen baja.",
+      "Fuera de agosto Ares vuelve a ser villa pequeña y aldea. Primavera y otoño dejan Redes más fácil de disfrutar. Si solo conoces un sábado de sol en las casas de colores, te llevas la imagen de folleto. Si has visto un invierno húmedo y el atasco de agosto, ya puedes decidir si aceptas esa dependencia.",
+      "Encaja para quien priorice paisaje de ría y color sobre sanidad y aeropuerto cerca.",
+    ],
+    tiempo: [
+      "Ares registra unas 1.950 horas de sol y unos 50 días despejados frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.100 milímetros en unos 132 días. Viento y niebla son medios. La llovizna también aparece en verano.",
+      "El verano ronda 19 °C, suave frente a Baleares. La playa urbana, Seselle y Chanteiro permiten baño de ría; el agua es más abrigada que Doniños, aunque sigue fresca. Los días de cielo gris piden paciencia igual que en el resto del golfo. Conviene probar un invierno húmedo, no solo el sol de Redes.",
+    ],
+    vivir: [
+      "El invierno en Ares se nota en la villa y en Redes: humedad de ría, viento y niebla medios, y un cielo de unas 1.950 horas de sol frente a Mallorca. Conviene mirar aislamiento y rastros de moho un invierno húmedo, no solo el sol de las casas de colores. La terraza o el balcón que en agosto parecen el centro de la vida se usan menos entre noviembre y febrero.",
+      "El día a día sin coche es limitado: los servicios rondan 5/10 y la fibra es parcial. Un martes de noviembre hay lo básico, pero el coche organiza muchos recados hacia Ferrol —a unos veinticinco minutos— o A Coruña —a unos treinta o cuarenta—. En enero Ares vuelve a ser villa pequeña y aldea; no se apaga del todo, pero tampoco es corona residencial con súper grande a pie. Quien viva en Redes o junto a la orilla notará visitantes, tráfico estrecho y aparcamiento justo en verano.",
+      "Llegar de fuera prioriza paisaje sobre servicios. Se oye gallego en la villa y en Redes; el castellano basta para lo cotidiano, pero la vida social pasa por escala pequeña de ría, no por densidad de capital. Entre semana manda la dependencia de Ferrol o A Coruña; en verano Redes, la playa urbana y Chanteiro reciben gente y ruido. Si solo buscas la foto típica del sábado de sol, te llevas la imagen de folleto del color. Si buscas vecinos densos y hospital cerca, mira Ferrol u Oleiros.",
+      "La sanidad de urgencia y especialidades no está en el municipio: el Arquitecto Marcide y el Juan Cardona, en Ferrol, quedan a unos veinticinco minutos. Empadronarse aquí abre el médico de cabecera local; para hospital se conduce a Ferrol. No es «lejos de Palma» en el sentido de aislamiento total, pero sí asumir que la sanidad de referencia no está a quince minutos ni a pie en Redes.",
+      "Mantener el vínculo con Mallorca pasa por Alvedro, a unos cuarenta y cinco minutos, —conviene comprobar la programación de vuelos a Palma—; Santiago-Lavacolla queda a unos sesenta y cinco o setenta y cinco. En invierno el trayecto a menudo implica más escalas o ir a Santiago. El aeropuerto no se arregla eligiendo otra calle en Redes: conviene mirar el calendario real de vuelos y aceptar ese trayecto.",
+      "Hay viviendas en la villa, en Redes y en parroquias; poca obra nueva y fibra parcial. En Redes hay que contar con humedad, acceso estrecho y ocupación de verano; en el resto, distancia real a un súper. Conviene comprobar la línea y probar agosto en la aldea antes de comprar. En una casa con escaleras o acceso difícil hay que imaginar la rutina dentro de diez años; reforma y vistas a la ría mueven el precio final más que una media única.",
+    ],
+    historia: [
+      "Redes es la ficha visual del municipio: casas de colores pegadas a la orilla, escala de aldea marinera y un paseo que se entiende sin explicación larga. Creció con el oficio del mar en la ría de Ares, no con ensanche moderno.",
+      "La villa de Ares y las playas de Seselle y Chanteiro —frente a la silueta de A Coruña— completan un mapa de ría trabajada y residencial. Lo que conviene saber es la de una orilla pequeña que conserva carácter cuando Oleiros apuesta por la urbanización.",
+    ],
+    fuera: [
+      "La playa urbana de Ares es el baño de diario: arena de ría a minutos del núcleo. Un martes de junio la toalla cabe; un domingo de agosto, el acceso estrecho se nota.",
+      "Seselle y Chanteiro amplían arena con vistas a la ciudad: otra orilla cuando apetece mirar A Coruña desde el otro lado de la ría. Redes se recorre a pie: puerto mínimo, color y orilla.",
+      "Ferrol cubre hospital, comercio denso y playas atlánticas; A Coruña, capital y CHUAC. Mugardos permite otra tarde de ría vecina. Aquí la orilla de diario es Ares o Redes; la sanidad, en Ferrol.",
+    ],
+    casa: [
+      "Hay viviendas en la villa, en Redes y en parroquias; poca obra nueva y fibra parcial. En Redes hay que contar con humedad, acceso estrecho y ocupación de verano; en el resto, distancia real a un súper. Conviene comprobar la línea y probar agosto en la aldea antes de comprar.",
+      "Según Idealista (agosto de 2026), el precio medio ronda 1.841 €/m². Tres habitaciones en franja asequible se estiman alrededor de 166.000 euros a partir de ese €/m² —estimación, no anuncio real—. El estado de la reforma y las vistas a la ría mueven el precio final.",
+      "Los servicios son 5/10. El Arquitecto Marcide y el Juan Cardona, en Ferrol, quedan a unos veinticinco minutos. Alvedro está a unos cuarenta y cinco; Santiago-Lavacolla, a unos sesenta y cinco o setenta y cinco. Quien priorice color y ría lo entiende; quien necesite hospital a quince minutos, mira Ferrol u Oleiros.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si el paisaje de ría y el encanto de Redes —aldea marinera de casas de colores, una de las más fotografiadas de Galicia— importan más que resolver la semana en el propio municipio. La playa urbana, Seselle y Chanteiro miran hacia A Coruña; Mugardos completa la orilla vecina. El precio es de los más amables del arco —alrededor de 1.841 €/m² según Idealista (agosto de 2026); tres habitaciones en franja asequible se estiman hacia 166.000 euros—. Quien quiera orilla con carácter, no urbanización de chalé, encontrará aquí la apuesta Redes-ría del golfo.",
+        "También encaja para quien acepte depender de Ferrol o de A Coruña para gran parte de la vida: el Arquitecto Marcide y el Juan Cardona quedan a unos veinticinco minutos; la capital, a unos treinta o cuarenta. Ares no es corona residencial: ofrece color y agua de ría a cambio de coche y servicios limitados.",
+      ],
+      no: [
+        "No encaja si hospital, súper grande o aeropuerto deben quedar a quince minutos. El hospital de referencia está en Ferrol a unos veinticinco; Alvedro, a unos cuarenta y cinco —vuelos a Palma según temporada; comprobar programación—; Santiago-Lavacolla, a unos setenta y cinco. Eso no se arregla eligiendo otra calle en Redes. Tampoco si se busca urbanización ordenada tipo Mera o Costa Miño, o villa con puerto deportivo denso como Sada.",
+        "Tampoco encaja si el cielo debe parecerse al de Mallorca. Ares suma unas 1.950 horas de sol y unos 50 días despejados frente a 2.800 horas y 120 jornadas claras; viento y niebla son medios. Quien se decida solo tras un sábado de sol en Redes, sin probar un invierno húmedo ni el atasco de agosto en la aldea, se llevará una sorpresa.",
+      ],
+      veredicto:
+        "Veredicto: Ares es la apuesta Redes-ría del golfo —vivienda fuera del atasco de agosto, con fibra comprobada—. Encaja si color, orilla y precio importan más que sanidad y aeropuerto cerca. Como casa única solo si se aceptan hospital en Ferrol a veinticinco minutos y Alvedro a cuarenta y cinco; si mandan urbanización y ciudad a diez minutos, Oleiros; si mandan sanidad a pie, Ferrol. Se ganan paisaje y carácter; se aceptan coche, servicios limitados y cielo gris frente a Mallorca.",
+    },
+    fotosAbrir: [
+      { src: "/fotos/golfo-artabro-e-ferrol/ares-redes.jpg", pie: "Casa modernista en Redes, aldea de Ares" },
+      { src: "/fotos/golfo-artabro-e-ferrol/ares-villa-ria.jpg", pie: "Ares frente a su ría, villa y orilla" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/golfo-artabro-e-ferrol/ares-seselle.jpg", pie: "Seselle, orilla frente a A Coruña" },
+      { src: "/fotos/golfo-artabro-e-ferrol/ares-chanteiro.jpg", pie: "Chanteiro, playa de la ría de Ares" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/golfo-artabro-e-ferrol/ares-playa.jpg", pie: "Playa urbana de Ares" },
+      { src: "/fotos/golfo-artabro-e-ferrol/ares-ria.jpg", pie: "Ría de Ares desde la orilla" },
+    ],
+    creditoFotos: credito,
+  }

@@ -1,0 +1,60 @@
+{
+    escala: "Pueblo y parroquias",
+    abrir: [
+      "Soutomaior reúne dos mundos en un municipio de unos siete mil quinientos habitantes. Arcade es la pequeña villa situada junto al fondo de la ría y la desembocadura del río Verdugo: estación, comercios, restaurantes y ostras. Soutomaior, unos kilómetros tierra adentro, es el núcleo que da nombre al ayuntamiento y al castillo medieval levantado sobre el valle. Alrededor quedan parroquias de casas, fincas y bosque. Decir solo «Soutomaior» no basta: vivir en Arcade y vivir junto al castillo son rutinas distintas.",
+      "Un martes de noviembre Arcade mantiene abiertos el centro de salud, las farmacias, las tiendas y los bares. Pasan trenes hacia Vigo y Pontevedra, y el Camino Portugués cruza el puente de Pontesampaio, ya en el límite con Pontevedra. En las parroquias el día es más silencioso y depende del coche. La población es local; no hay una urbanización turística que se vacíe al terminar agosto.",
+      "A comienzos de primavera, habitualmente el primer fin de semana de abril, la Festa da Ostra llena Arcade alrededor del producto que le ha dado fama; conviene mirar el calendario de cada edición. Las ostras se crían en las aguas calmadas de la ensenada de San Simón y suelen acompañarse con albariño, el vino blanco de la comarca. Durante la fiesta hay tráfico, calles ocupadas y restaurantes llenos; el resto del año la ría vuelve a ser paisaje de trabajo y paseo. El castillo ofrece otro calendario: camelias al final del invierno, bosque fresco en verano y hojas húmedas en otoño.",
+      "La posición es excepcionalmente cómoda para una vida pequeña. Pontevedra queda a unos quince minutos; Vigo, algo más lejos por la AP-9; el hospital Montecelo y el aeropuerto de Peinador están cerca. Esa accesibilidad no convierte Soutomaior en ciudad: fuera de Arcade faltan servicios a pie y la fibra puede cambiar de una parroquia a otra.",
+    ],
+    tiempo: [
+      "Soutomaior recibe unas 2.250 horas de sol y 72 días despejados al año; Mallorca ronda 2.800 horas y 120 días despejados. La media de invierno queda cerca de 9,5 °C, sin el frío duro de un interior continental, pero caen alrededor de 1.750 milímetros en 130 días. Es el municipio más lluvioso de los cuatro en cantidad estimada. De octubre a marzo, el jardín y los muros pasan muchas semanas mojados.",
+      "La media estival ronda los 20,5 °C y las máximas habituales se quedan en 25–26 °C, con entre tres y ocho días anuales por encima de 30 °C. El valle del Verdugo puede guardar algo más de calor que la costa abierta, pero sigue lejos del verano de Mallorca. El agua de la ensenada alcanza unos 18–20 °C en agosto y casi no recibe oleaje.",
+    ],
+    vivir: [
+      "El invierno en Soutomaior se siente en el jardín mojado y en los muros de piedra. En Mallorca muchas casas casi no piensan en calefacción ni en humedad; aquí caen alrededor de 1.750 milímetros en 130 días —el municipio más lluvioso de los cuatro de la zona—. Conviene revisar cubierta, drenaje, ventilación y moho en planta baja. Visitar la casa un día de lluvia seria enseña más que las camelias del castillo en foto de primavera.",
+      "El día a día sin coche solo cuadra bien en Arcade: centro de salud, farmacias, tiendas, bares y estación. En las parroquias el coche abre la semana. En enero Arcade mantiene abiertos servicios y el Camino Portugués cruza Pontesampaio. No hay urbanización turística que se vacíe: es pueblo y ría de trabajo.",
+      "Llegar de fuera es menos masivo que en la costa de Vigo: población local, ostras y valle. Se oye gallego en Arcade; el castellano basta para lo cotidiano. Entre semana manda el ritmo de pueblo; en abril la Festa da Ostra llena calles y restaurantes. Quien busque solo veraneo de playa grande preferirá Cesantes en Redondela; quien busque vecinos de valle, Soutomaior.",
+      "La sanidad de urgencia y especialidades no está en el municipio: Montecelo, en Pontevedra, queda a unos quince minutos; Quirónsalud, aproximadamente a veinte. En Arcade hay centro de salud y farmacias. Empadronarse abre lo local; para hospital se va a Pontevedra. Es logística sorprendentemente buena para una vida pequeña.",
+      "Mantener el vínculo con Mallorca pasa por el avión. Peinador está a quince minutos; Santiago, con conexión a Palma durante casi todo el año, a unos sesenta. En invierno conviene mirar el calendario real de vuelos. El coste incluye el trayecto desde la parroquia concreta, no solo desde Arcade.",
+      "En Arcade hay pisos sobre calles con comercio; en Soutomaior y parroquias, casas de piedra, chalés y fincas. Fibra parcial: hay que comprobarla en el portal exacto. El margen de precio sirve para rehabilitar —cubierta, drenaje, ventilación—, no solo para comprar más metros. En una casa con escaleras o accesos estrechos hay que imaginar la rutina dentro de diez años.",
+    ],
+    historia: [
+      "El castillo de Soutomaior nació como fortaleza medieval y quedó ligado a Pedro Álvarez de Sotomayor, llamado Pedro Madruga, señor gallego del siglo XV. Las revueltas irmandiñas de 1467 a 1469, levantamientos contra el poder señorial, alcanzaron también esta fortaleza antes de que fuera reconstruida. En el siglo XIX se transformó en residencia y sus jardines incorporaron magnolios, secuoyas y camelias; desde 2018, un museo recorre la historia del recinto y de sus habitantes.",
+      "Arcade creció donde el río Verdugo alcanza la ría y donde los caminos podían cruzarlo. Del 7 al 9 de junio de 1809, el puente de Pontesampaio fue escenario de la batalla en la que fuerzas populares y militares frenaron a las tropas napoleónicas. El Camino Portugués lo cruza todavía. Entre puente, estación, ostras con albariño y castillo se entiende un municipio que siempre ha vivido del paso y del agua, no solo del retiro rural.",
+    ],
+    fuera: [
+      "Arcade tiene una pequeña playa en la desembocadura, pero para un baño de arena más amplio la referencia es Cesantes, en Redondela, a unos diez minutos. Allí el agua de la ensenada está tranquila y ronda 18–20 °C en verano, con la isla de San Simón enfrente. La costa de Soutomaior es más de marea, marisqueo y paseo que de gran arenal.",
+      "La senda del río Verdugo permite caminar junto al agua dulce antes de que se mezcle con la ría. Alrededor del castillo, los jardines y el bosque forman un paseo accesible de varias horas: las camelias florecen cuando buena parte del país todavía espera la primavera. Pontesampaio añade puente de piedra, casas junto al río y el paso cotidiano de peregrinos.",
+      "En media hora se amplía mucho el mapa: Lago Castiñeiras y el mirador de Cotorredondo, entre Vilaboa y Marín, ofrecen bosque y vistas sobre las rías; Pontevedra aporta un casco peatonal para un día de lluvia; Vigo, barcos hacia las Cíes en temporada. Soutomaior funciona como base entre dos ciudades y dos aguas, la del Verdugo y la de San Simón.",
+    ],
+    casa: [
+      "En Arcade hay pisos sobre calles con comercio y estación. En Soutomaior y las parroquias predominan casas de piedra, chalés y fincas, a menudo con accesos estrechos. Una casa con terreno puede moverse entre 120.000 y 200.000 euros según estado y situación. El precio medio ronda los 1.300 €/m². Hay poca obra nueva y fibra parcial: la cobertura se comprueba en el portal exacto.",
+      "La vivienda rural exige mirar más allá de la fachada. Hay que comprobar cubierta, drenaje, saneamiento, horas de sol invernal y humedad en la planta baja. En Arcade conviene escuchar la N-550 y la vía del tren; junto al río, preguntar por zonas inundables. El precio deja margen para rehabilitar, pero una reforma atlántica seria debe presupuestar agua y ventilación.",
+      "Los servicios quedan alrededor de 4/10 y se concentran en Arcade: centro de salud, farmacias, alimentación, colegios y restauración. Para hospital público se va a Montecelo, en Pontevedra, en unos quince minutos; Quirónsalud queda aproximadamente a veinte. Peinador está a quince minutos y Santiago, con conexión a Palma durante casi todo el año, a unos sesenta.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca casa con terreno y un ritmo de pueblo sin quedar aislado. Arcade permite comprar, coger el tren y comer junto a la ría; las parroquias ofrecen bosque y silencio; Pontevedra, el hospital Montecelo y el aeropuerto quedan alrededor de quince minutos. Castillo, Verdugo y ensenada dan paseos distintos para cada estación.",
+        "También encaja si se busca casa con terreno dejando margen para rehabilitar. Una casa de piedra puede entrar entre 120.000 y 200.000 euros —franja asequible frente a la costa de Vigo—. El verano mantiene máximas habituales de 25–26 °C y el agua de San Simón es tranquila, aunque la playa grande más cómoda sea Cesantes.",
+      ],
+      no: [
+        "No encaja si todos los servicios deben estar a pie. Fuera de Arcade, el coche abre la semana; faltan hospital, gran comercio y una oferta cultural amplia. La fibra es parcial y una casa vecina no garantiza cobertura. Vilaboa es todavía más rural; Redondela ofrece más mercado y tren con una escala de villa.",
+        "Tampoco encaja si se busca un gran arenal propio o el cielo de Mallorca. La orilla de Arcade es pequeña y de estuario; Cesantes queda a unos diez minutos. Llueve alrededor de 1.750 milímetros en 130 días, una cifra que exige aceptar invierno húmedo y revisar muy bien cualquier casa de piedra.",
+      ],
+      veredicto:
+        "Veredicto: Soutomaior es una opción de casa y calma con una logística sorprendentemente buena. Buscaría en una parroquia próxima a Arcade para conservar estación, compra y acceso a Pontevedra, o en el entorno del castillo si bosque y silencio hay que contar con más. Entre 120.000 y 200.000 euros suele haber casa con terreno; conviene dejar margen aparte para cubierta, drenaje y ventilación. El hospital Montecelo y el aeropuerto quedan a unos quince minutos, pero los servicios cotidianos fuera de Arcade exigen coche. Frente a Mallorca se pierde mucho sol y se reciben 1.750 milímetros de lluvia; se gana un verano suave, río, bosque y ría sin presión turística. Si hace falta villa completa, elegiría Redondela; si se busca casa rural conectada entre Vigo y Pontevedra, Soutomaior encaja mejor.",
+    },
+    fotosAbrir: [
+      { src: "/fotos/vigo-e-ria/soutomaior-arcade.jpg", pie: "El castillo de Soutomaior domina el valle sobre Arcade" },
+      { src: "/fotos/vigo-e-ria/soutomaior-castelo.jpg", pie: "Ventanales y piedra del castillo entre el bosque" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/vigo-e-ria/soutomaior-torres.jpg", pie: "La fortaleza vinculada a Pedro Madruga, señores de la Galicia medieval" },
+      { src: "/fotos/vigo-e-ria/soutomaior-pontesampaio.jpg", pie: "Pontesampaio: orilla y puente histórico sobre el río Verdugo" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/vigo-e-ria/soutomaior-camelias.jpg", pie: "Jardines del castillo: camelias y sombra de invierno gallego" },
+      { src: "/fotos/vigo-e-ria/soutomaior-verdugo.jpg", pie: "El Verdugo cerca de Pontesampaio, antes de encontrarse con la ría" },
+    ],
+    creditoFotos: "Fotos: Wikimedia Commons (CC BY-SA).",
+  }

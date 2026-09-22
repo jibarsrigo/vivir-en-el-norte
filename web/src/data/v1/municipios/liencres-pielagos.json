@@ -1,0 +1,99 @@
+{
+  "tipo": "municipio",
+  "slug": "liencres-pielagos",
+  "nombre": "Liencres (Piélagos)",
+  "n": 66,
+  "zonaId": "cantabria-occidental",
+  "zonaNombre": "Cantabria Occidental",
+  "provincia": "Cantabria",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-cantabria-occidental.ts",
+  "sourceKey": "liencres-pielagos",
+  "sourceExport": "RELATOS_CANTABRIA_OCCIDENTAL",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "37616f6ab37285cfd4d603d56c4e334001e3711dc3ce08c491900a1d089a3067",
+  "relato": {
+    "escala": "Urbanización junto a dunas",
+    "abrir": [
+      "Liencres no se siente como villa de casco histórico: se siente como la costa residencial de Santander. Liencres —unos dos mil quinientos habitantes— y Mortera, Boo y Mogro forman la orilla de Piélagos —unos veintisiete mil en el municipio—: urbanizaciones de casas bajas y adosados, Parque Natural de las Dunas de Liencres, playas de Valdearenas y Canallave, acantilados de la Costa Quebrada —geoparque, Los Urros—, golf en Abra del Pas —Mogro— y cercanías desde Boo y Mogro a Santander en unos veinte minutos. Es el municipio residencial de la capital.",
+      "Quien vive aquí es familia santanderina, gente que trabaja en la bahía y quien buscó casa baja junto al mar sin pagar el metro del Sardinero. Un martes de noviembre se compra en Liencres o Mortera y se resuelve el día a día con coche corto: los servicios alcanzan 7/10 —centro de salud, supermercados, farmacias; Renedo, la capital municipal, y Bezana a unos diez; Santander a unos quince—. Valdecilla queda a unos quince minutos; la Clínica Mompía, a unos diez. El aeropuerto anda alrededor de los quince minutos, con Palma casi todo el año.",
+      "En verano Valdearenas y Canallave reciben toallas y tráfico hacia las dunas; el ritmo residencial de Liencres y Mortera se mantiene más estable que el de Comillas o San Vicente. Piélagos registra la tasa de criminalidad más baja de la tabla —31 por mil—: el dato de seguridad más sólido del estudio. Primavera y otoño en la Costa Quebrada son buenas épocas para conocerlo: el acantilado no es solo foto de agosto.",
+      "El calendario es más de temporada de playa que de fiesta de casco: el lleno llega con las toallas en Valdearenas y Canallave; el resto del año manda el ritmo de urbanización y cercanías. Quien se decida a vivir aquí debe probar un agosto en las dunas y un martes de noviembre con cielo cubierto. La semana se organiza en coche corto, no a pie de plaza medieval.",
+      "Liencres encaja para quien priorice seguridad, hospital y vuelo a Palma con urbanización de casas bajas junto al mar, a cambio del sol de Cantabria. Si solo conoces un sábado soleado en Canallave, te llevas la imagen de folleto de la duna. Si has visto el gris de noviembre, ya puedes decidir si aceptas el precio del cielo gris."
+    ],
+    "tiempo": [
+      "Si vienes de Baleares, el sol es la renuncia explícita. Liencres suma unas 1.680 a 1.700 horas de sol y unos 38 a 40 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.150 a 1.200 milímetros en unos 148 a 152 días. El viento es medio en la costa abierta; la niebla, baja. De noviembre a febrero las mañanas grises pesan; de junio a septiembre la terraza se usa cuando abre el cielo.",
+      "El verano ronda 20 °C, fresco frente a Baleares. Valdearenas, Canallave, Portío y Somocuevas tienen agua entre 19 y 21 °C; las dunas y la Costa Quebrada invitan al paseo aunque el baño pida días de mar más llana. Conviene venir un día de nortada y un noviembre, no solo el sábado de sol sobre la duna."
+    ],
+    "vivir": [
+      "El invierno en Liencres se nota en el cielo y en la parcela. De noviembre a febrero las mañanas grises pesan; viento medio en costa abierta, salitre y humedad piden aislamiento y calefacción en casas bajas y adosados. La terraza se usa cuando abre el cielo, no como en Mallorca. Visitar un día de nortada y un noviembre cubierto evita firmar solo por la duna de agosto.",
+      "El día a día sin coche es limitado: la semana se organiza en coche corto. Se compra en Liencres o Mortera; Renedo y Bezana quedan a unos diez minutos; Santander a unos quince. Los servicios alcanzan 7/10 —centro de salud, súper, farmacia—, pero no es villa compacta a pie de plaza. Cercanías desde Boo y Mogro a Santander en unos veinte minutos ayudan; en enero el ritmo es de urbanización residencial, no de casco lleno de terrazas.",
+      "Quien vive aquí es familia santanderina, gente que trabaja en la bahía y quien buscó casa baja junto al mar sin pagar el metro del Sardinero. Entre semana manda el ir y venir hacia Santander; en verano Valdearenas y Canallave reciben toallas y tráfico, pero el ritmo residencial se mantiene más estable que el de Comillas o San Vicente. La vida social pasa por vecinos de urbanización y cercanía a la capital más que por una plaza única.",
+      "Valdecilla queda a unos quince minutos; la Clínica Mompía, a unos diez: logística sanitaria de las mejores de la zona. Empadronarse aquí abre cabecera local; para especialidades y hospital se baja a Santander o Bezana en trayecto corto. No es «lejos de todo»: es asumir coche corto hacia la capital sanitaria.",
+      "El aeropuerto de Santander anda alrededor de los quince minutos, con Palma casi todo el año: el mejor acceso aéreo junto a la capital misma. Mantener el vínculo con Mallorca es más sencillo que desde San Vicente; aun así, el precio de tener poco sol bajo de Cantabria sigue ahí. Conviene mirar el calendario anual de vuelos.",
+      "Predominan casas bajas, adosados y urbanizaciones en Liencres y Mortera; hay obra nueva y fibra. No es piso de casco marinero: es parcela y chalé o adosado. Junto a las dunas hay que contar con viento, salitre y ocupación de playa en verano. Imaginar la rutina dentro de diez años con jardín, coche en la puerta y acceso a Valdearenas un domingo de agosto."
+    ],
+    "historia": [
+      "Las dunas de Liencres y la Costa Quebrada —Los Urros, geoparque— explican el municipio: orilla de parque natural y acantilado, no de casco medieval. El Parque Natural de las Dunas protege el arenal y el pinar entre el Pas y el mar; la senda de la Costa Quebrada enseña la geología rota del Cantábrico. Boo y Mogro añaden la capa de cercanías hacia Santander.",
+      "Mortera y las urbanizaciones de casas bajas sitúan Piélagos como extensión residencial de la capital: clase media santanderina, familias, crecimiento con obra nueva. Abra del Pas —campo de golf en Mogro— completa el mapa de ocio. Lo que conviene saber es de dunas, geoparque y municipio dormitorio de bahía, no de villa turística de peña y castillo.",
+      "Hoy Liencres y Mortera viven de esa lógica: casa baja, coche corto a Valdecilla y al aeropuerto, playa de parque natural. Quien camina Valdearenas un martes de octubre entiende el sitio mejor que quien solo lo conoce en un domingo de agosto saturado."
+    ],
+    "fuera": [
+      "Si solo hay tiempo para un baño cerca, ese baño es Valdearenas o Canallave: playas del Parque Natural de las Dunas, arena y Cantábrico abierto, agua entre 19 y 21 °C. Un martes de junio puedes tener duna y espacio; un domingo de agosto el acceso se complica. Son playas de parque y de temporada, no de paseo urbano denso.",
+      "La Costa Quebrada —senda de acantilado, Los Urros— es el paseo propio cuando no apetece toalla: geología, horizonte, viento. Portío y Somocuevas completan calas y orillas menores. Abra del Pas aporta golf en Mogro para quien lo busque.",
+      "Santander queda a unos quince minutos; Cabárceno —parque de la naturaleza—, a trayecto corto desde la capital. Quien priorice casas bajas, seguridad máxima y logística encontrará aquí la apuesta fuerte de la zona; quien priorice villa-playa con casco, Suances; quien priorice ciudad a pie, Santander."
+    ],
+    "casa": [
+      "Predominan casas bajas, adosados y urbanizaciones en Liencres y Mortera; hay obra nueva y fibra. Junto a las dunas hay que contar con viento, salitre y ocupación de playa en verano; la facilidad de venta es alta en el contexto de la zona. No es piso de casco marinero: es parcela y chalé o adosado.",
+      "El precio medio ronda 2.000 €/m². Tres habitaciones en la franja asequible se sitúan alrededor de 234.000 euros; dos habitaciones, cerca de 169.000. La franja media puede ser adosado en urbanización o vivienda más cerca de Valdearenas. Conviene comprobar orientación al viento y el acceso a la playa un domingo de agosto.",
+      "Los servicios son 7/10. Valdecilla queda a unos quince minutos; Mompía, a unos diez. Santander–Seve Ballesteros está a unos quince, con Palma casi todo el año. Eso es Liencres: la mejor combinación de seguridad, hospital y vuelo de la tabla, a cambio del sol más bajo."
+    ],
+    "encaja": {
+      "si": [
+        "La mejor combinación de seguridad, hospital y vuelo de la tabla importa más que el sol. Liencres —unos dos mil quinientos habitantes— y Mortera, Boo y Mogro forman la costa de Piélagos —unos veintisiete mil en el municipio—: urbanizaciones de casas bajas y adosados, Parque Natural de las Dunas, Valdearenas y Canallave, acantilados de la Costa Quebrada, golf en Abra del Pas y cercanías desde Boo y Mogro a Santander en unos veinte minutos. Quien quiera casa baja junto al mar, comprar en Liencres o Mortera un martes de noviembre y tener Santander a unos quince encontrará aquí el municipio residencial de la capital, no villa marinera de casco histórico. En verano las dunas reciben toallas y tráfico; el ritmo residencial se mantiene más estable que el de Comillas o San Vicente. Unas 1.700 horas de sol y unos 38 días despejados —frente a las 2.800 horas y 120 de Mallorca— son el peaje: lluvia frecuente también en verano, verano suave alrededor de 20 °C, agua entre 19 y 21 °C, niebla baja. Piélagos registra la tasa de criminalidad más baja de la tabla —31 por mil—.",
+        "Funciona si se priorizan Valdecilla a unos quince minutos, la Clínica Mompía a unos diez y el aeropuerto de Santander alrededor de los quince, con Palma casi todo el año. Los servicios alcanzan 7/10 —centro de salud, súper y farmacia en Liencres y Mortera; Renedo y Bezana a unos diez—. Hay fibra y obra nueva; el precio ronda 2.000 €/m² y tres habitaciones en franja asequible andan cerca de 234.000 euros. Quien quiera urbanización junto a dunas y acantilados, seguridad máxima y vuelo corto sin pagar el metro de Santander entenderá por qué el estudio apunta aquí si Cantabria Occidental se mira en serio."
+      ],
+      "no": [
+        "Si lo que se busca es villa marinera con castillo y ría —San Vicente— o museo modernista —Comillas—, Liencres no lo es: aquí mandan casas bajas, parque natural y cercanía a la capital. Tampoco encaja quien necesite montaña detrás de casa: la costa es llana; los Picos quedan a unos sesenta minutos. El cielo de Baleares no está aquí: unas 1.700 horas y unos 38 despejados no se negocian eligiendo otra parcela en Mortera.",
+        "Tampoco si se necesita calma total en agosto junto a Valdearenas o Canallave: las dunas reciben temporada. Quien se decida solo tras un sábado soleado sin probar un noviembre cubierto ni el tráfico hacia la playa se llevará una sorpresa. Si la prioridad absoluta es caminar ciudad completa —servicios 10/10, Valdecilla a cinco—, Santander; si se busca villa-playa con casco alto y vida propia, Suances. Liencres pide aceptar el sol más bajo de la tabla a cambio de la logística más sólida."
+      ],
+      "veredicto": "Veredicto: Liencres (Piélagos) encaja como la apuesta fuerte de Cantabria Occidental —casa baja o adosado en Liencres o Mortera, con fibra comprobada y acceso claro a Valdearenas o Canallave— sobre todo si seguridad, Valdecilla y Palma a quince minutos importan más que el cielo. Probar un martes de noviembre y un agosto en las dunas antes de comprar. Se ganan criminalidad mínima de la tabla, obra nueva, Mompía a diez y Seve Ballesteros a quince; se aceptan ~2.000 €/m² y unas 1.700 horas de sol. Quien priorice ciudad a pie, Santander; quien priorice villa-playa, Suances."
+    },
+    "fotoIdentidad": {
+      "src": "/fotos/cantabria-occidental/liencres-pielagos-identidad.jpg",
+      "pie": "Liencres–Mortera: casas bajas con el monte detrás"
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/cantabria-occidental/liencres-urbanizacion.jpg",
+        "pie": "Urbanización de casas bajas en Liencres"
+      },
+      {
+        "src": "/fotos/cantabria-occidental/liencres-dunas.jpg",
+        "pie": "Parque Natural de las Dunas de Liencres"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/cantabria-occidental/liencres-costa-quebrada.jpg",
+        "pie": "Costa Quebrada, Liencres"
+      },
+      {
+        "src": "/fotos/cantabria-occidental/liencres-mortera.jpg",
+        "pie": "Mortera, en Piélagos"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/cantabria-occidental/liencres-valdearenas.jpg",
+        "pie": "Playa de Valdearenas"
+      },
+      {
+        "src": "/fotos/cantabria-occidental/liencres-canallave.jpg",
+        "pie": "Playa de Canallave, Liencres"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

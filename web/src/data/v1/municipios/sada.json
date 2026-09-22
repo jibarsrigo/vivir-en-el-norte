@@ -1,0 +1,90 @@
+{
+  "tipo": "municipio",
+  "slug": "sada",
+  "nombre": "Sada",
+  "n": 34,
+  "zonaId": "golfo-artabro-e-ferrol",
+  "zonaNombre": "Golfo Ártabro e Ferrol",
+  "provincia": "A Coruña",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-golfo-artabro-e-ferrol.ts",
+  "sourceKey": "sada",
+  "sourceExport": "RELATOS_GOLFO_ARTABRO_E_FERROL",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "3980f3cfe7b39db49e60f286aba3fb1e08957a01bc0ace654d47e864930d1d1a",
+  "relato": {
+    "escala": "Villa con puerto de ría",
+    "abrir": [
+      "Sada se siente villa de ría, no solo urbanización. Alrededor de diecisiete mil habitantes —orden de magnitud reciente, a contrastar en el INE o el IGE— en la ría de Betanzos: puerto deportivo en Fontán, paseo, playa urbana de agua que en verano suele estar más templada que el Atlántico abierto, comercio y centro de salud. Gandarío —arenal largo de ría— queda a unos cinco minutos. Es la alternativa a Oleiros con metro bastante más amable y carácter de casco reconocible.",
+      "Un martes de noviembre se compra, se va al médico de cabecera y se camina al paseo sin depender de A Coruña para lo diario. Quien vive aquí es gente de villa y de veraneo que vuelve al puerto. Los servicios alcanzan 7/10 en nuestra escala propia y hay fibra. El CHUAC, público, queda a unos quince minutos en coche; Alvedro, a unos quince. La ciudad, a unos quince minutos: tiempos aproximados desde el casco, que cambian según la parroquia y el tráfico.",
+      "En verano el veraneo y las fiestas locales llenan el puerto, el paseo y la playa urbana con música, terrazas y tráfico. Gandarío recibe toallas y coches en las cunetas. Vivir junto a Fontán o a la orilla significa contar con semanas de ruido y aparcamiento difícil; tierra adentro el volumen baja.",
+      "Fuera de agosto Sada vuelve a ser villa de trabajo y residencia. Primavera y otoño dejan Fontán más quieto. Si solo conoces un sábado de sol en el puerto, te llevas la imagen de folleto de la ría. Si has visto un noviembre cubierto y una tarde de Gandarío llena, ya puedes decidir si quieres ese equilibrio.",
+      "Encaja para quien quiera puerto, agua de ría y A Coruña cerca, pagando menos que en Oleiros."
+    ],
+    "tiempo": [
+      "Sada no tiene observatorio propio: la referencia de la zona son las normales 1981-2010 de AEMET en A Coruña —unas 1.939 horas de sol y unos 49 días despejados en el aeropuerto de Alvedro, y unos 1.014 milímetros en unos 130 días de lluvia en el observatorio de la ciudad, dos estaciones distintas—, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Son cifras orientativas para todo el arco; al fondo de la ría de Betanzos la variación local existe. Viento y niebla quedan bajos frente a la costa abierta de Ferrol. La llovizna también aparece en verano.",
+      "El verano ronda 19 °C, con máximas alrededor de 23 °C. En la playa urbana y en Gandarío el agua de ría suele moverse en verano en un rango orientativo de 18–20 °C, de los más templados de la zona, aunque sigue lejos del Mediterráneo balear y cambia con el año, la marea y el viento. Conviene probar un frente gris y un agosto en Gandarío, no solo el sol del puerto."
+    ],
+    "vivir": [
+      "El invierno en Sada se nota en la vivienda junto a la ría: humedad, llovizna también en verano y un cielo de unas 1.939 horas de sol según las normales de AEMET en A Coruña, frente a Mallorca. Conviene mirar aislamiento y orientación un frente gris de noviembre, no solo el sol del puerto de Fontán. La terraza que en agosto parece el centro de la vida se usa menos entre noviembre y febrero; el salitre suave de ría no es el oleaje de Riazor, pero la humedad sí pesa.",
+      "El día a día sin coche es más viable que en una parroquia dispersa: un martes de noviembre se compra, se va al médico de cabecera y se camina al paseo sin depender de A Coruña para lo diario. El casco es reconocible; Gandarío queda a unos cinco minutos en coche. En enero Sada vuelve a ser villa de trabajo y residencia —no se apaga—, pero junto a Fontán o a la orilla agosto llena puerto, paseo y playa urbana con terrazas, tráfico y aparcamiento difícil.",
+      "Llegar de fuera es habitual: gente de villa y de veraneo que vuelve al puerto. Se oye gallego en el comercio y en el ayuntamiento; el castellano basta para lo cotidiano. Entre semana manda la villa; en verano el veraneo y las fiestas locales suben el volumen. Si solo buscas la foto típica del sábado de sol, te llevas la imagen de folleto de la ría. Si buscas vecinos todo el año los encontrarás —en escala de villa con puerto, no de capital ni de aldea aislada.",
+      "La sanidad de urgencia y especialidades no está en el municipio: el CHUAC, público, queda a unos quince minutos en coche desde el casco, y el privado HM Modelo, a unos veinte; desde las parroquias del interior o con tráfico de agosto el trayecto se alarga. En Sada hay centro de salud para lo diario. Empadronarse aquí asigna médico de cabecera en el municipio; para hospital se conduce a A Coruña. No es «lejos»: es villa de ría con capital a un cuarto de hora largo.",
+      "Mantener el vínculo con Mallorca pasa por Alvedro, a unos quince minutos; Santiago-Lavacolla, con más destinos, queda a unos cincuenta. Los vuelos a Palma cambian por temporada y por compañía, así que conviene comprobar la programación vigente en Aena o en las aerolíneas. En invierno el trayecto a menudo implica más escalas o ir a Santiago.",
+      "El casco y el entorno del puerto ofrecen pisos y viviendas; las afueras, más parcela. Hay obra nueva y fibra. Junto a la orilla hay que contar con ocupación de agosto y humedad; hacia el interior, acceso y orientación. Conviene probar Fontán en temporada antes de comprar la primera línea. En un piso o casa con escaleras hay que imaginar la rutina dentro de diez años; la terraza útil es la que recibe sol de invierno, no solo la que mira la ría en foto."
+    ],
+    "historia": [
+      "El puerto de Fontán y el paseo explican Sada moderna: villa que miró a la ría de Betanzos como ocio y residencia coruñesa, no solo como oficio de bajura. El tejido urbano concentra comercio y servicios en un casco reconocible —la diferencia con Oleiros se nota en la escala de villa.",
+      "Gandarío y la cercanía a Betanzos —casco histórico a un trayecto corto— añaden capa comarcal: ría templada, fiestas fluviales cercanas como Os Caneiros y una orilla más abrigada que Riazor. Lo que conviene saber aquí es geográfica y residencial."
+    ],
+    "fuera": [
+      "La playa urbana de Sada es el baño de diario; Cirro completa opciones. Un martes de junio la toalla cabe; un domingo de agosto, el paseo se llena. Los días de poco viento el agua de ría suele invitar más que la de Riazor.",
+      "Gandarío, a cinco minutos, ofrece el arenal largo de ría con espacio para tender la toalla: la salida grande cuando la playa urbana se queda corta.",
+      "El paseo y Fontán permiten una tarde sin coche. A Coruña cubre compras grandes y cultura; Betanzos, casco histórico; Oleiros, otra franja de urbanización y senda de Dexo. Aquí la orilla de diario es ría templada; la capital, a quince minutos."
+    ],
+    "casa": [
+      "El casco y el entorno del puerto ofrecen pisos y viviendas; las afueras, más parcela. Hay obra nueva y fibra. Junto a la orilla hay que contar con ocupación de agosto y humedad; hacia el interior, acceso y orientación. Conviene probar Fontán en temporada antes de comprar la primera línea.",
+      "Según el €/m² de Idealista de agosto de 2026, el precio medio ronda 1.714 €/m². Con ese metro, una vivienda de dos habitaciones en la franja asequible se estima alrededor de 145.000 euros y una de tres, alrededor de 200.000: son estimaciones derivadas del precio por metro, no anuncios reales. Queda bastante por debajo de Oleiros y A Coruña, en la mitad baja de la zona.",
+      "Los servicios son 7/10 en nuestra escala propia. El CHUAC, público, queda a unos quince minutos en coche. Alvedro está a unos quince; Santiago-Lavacolla, a unos cincuenta, con más destinos; los enlaces con Palma cambian por temporada y conviene comprobar la programación vigente. Quien priorice villa con puerto lo entiende; quien busque jardín barato, mira Bergondo."
+    ],
+    "encaja": {
+      "si": [
+        "Encaja si se quiere villa con puerto deportivo —Fontán—, paseo y playa urbana de ría, con Gandarío a unos cinco minutos para el arenal largo. En verano el agua de ría suele moverse en un rango orientativo de 18-20 °C, de los más templados del golfo, lejos del oleaje de Riazor o Doniños. El CHUAC, público, queda a unos quince minutos en coche; el privado HM Modelo, a unos veinte. Alvedro está a unos quince y Santiago-Lavacolla, a unos cincuenta; los vuelos a Palma cambian por temporada y conviene comprobar la programación vigente. A Coruña, la ciudad de referencia, a unos quince minutos. Quien quiera casco reconocible, comercio de villa y baño de diario sin densidad de capital encontrará aquí el equilibrio villa-puerto del arco este.",
+        "También encaja para quien acepte pagar bastante menos que en Oleiros o A Coruña —el metro ronda 1.714 €/m² según Idealista en agosto de 2026, con lo que tres habitaciones en franja asequible se estiman alrededor de 200.000 euros— a cambio de no vivir solo en urbanización de chalé. Sada cubre la semana sin entrar cada día en la ciudad; Oleiros ofrece más equipamientos; Bergondo, más jardín y menos villa."
+      ],
+      "no": [
+        "No encaja si agosto junto a Fontán o a la orilla debe ser silencioso: el veraneo llena puerto, paseo y Gandarío con terrazas, tráfico y aparcamiento justo. Tampoco si se busca el orden de chalé de Mera o Santa Cruz al mismo nivel, o el metro aún más bajo de Ferrol y Bergondo: Sada es villa de ría, con precio intermedio dentro de la zona.",
+        "Tampoco encaja si el cielo debe parecerse al de Mallorca. La referencia más cercana, las normales 1981-2010 de AEMET en A Coruña, da unas 1.939 horas de sol y unos 49 días despejados frente a 2.800 horas y 120 jornadas claras: llovizna y cubierto frecuentes, también en verano. Quien se decida solo tras un sábado de sol en el puerto, sin probar un martes de noviembre ni una tarde de Gandarío llena, se llevará una sorpresa."
+      ],
+      "veredicto": "Veredicto: Sada es el equilibrio villa-puerto del arco este —tres habitaciones caminables a paseo y comercio, fuera del tramo más ruidoso de Fontán en agosto—. Encaja si agua de ría, puerto y A Coruña a un cuarto de hora importan más que el silencio de parroquia o el metro de Ferrol. Como casa única, tras comprobar el trayecto real al hospital y el cielo gris de invierno; si mandan jardín barato, Bergondo; si mandan urbanización limpia, Oleiros. Se ganan agua de ría y ciudad cerca; se aceptan veraneo y cielo gris frente a Mallorca."
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/golfo-artabro-e-ferrol/sada-puerto.jpg",
+        "pie": "Puerto deportivo de Sada"
+      },
+      {
+        "src": "/fotos/golfo-artabro-e-ferrol/sada-villa.jpg",
+        "pie": "Villa de Sada junto a la ría"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/golfo-artabro-e-ferrol/sada-fontan.jpg",
+        "pie": "Restos del castillo de Fontán en Sada"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/golfo-artabro-e-ferrol/sada-playa.jpg",
+        "pie": "Playa urbana de Sada, agua de ría"
+      },
+      {
+        "src": "/fotos/golfo-artabro-e-ferrol/sada-gandario.jpg",
+        "pie": "Gandarío, arenal cercano a Sada"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

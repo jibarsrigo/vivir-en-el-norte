@@ -1,0 +1,63 @@
+{
+    escala: "Casas dispersas",
+    abrir: [
+      "Oia no es un pueblo con plaza. Son siete parroquias —unas tres mil personas— colgadas entre la Serra da Groba y el Atlántico: Oia, Mougás, Viladesuso, Pedornes, Burgueira, Loureza, Torroña. Se vive en aldea, con el océano delante y la sierra detrás. Al atardecer el sol se mete en el agua; en noviembre, el silencio pesa de verdad. Quien está aquí es gente de toda la vida, quien buscó ese silencio a propósito, y veraneantes en las casas de la costa.",
+      "En invierno las aldeas se vacían. El bar de Mougás y el de Oia son casi el único sitio donde hay gente. Un martes de noviembre puedes recorrer kilómetros sin cruzarte con nadie salvo el viento. No hay urbanización ni calle de casas bajas; el modelo es casa aislada de piedra o chalé con vistas. El coche es obligatorio para todo: supermercado, médico, instituto. La PO-552 pasa pegada a la costa; hay tramos donde el motor y el oleaje se mezclan. La fibra es parcial: hay que comprobarla casa por casa, no darla por hecha porque el vecino la tenga.",
+      "Un domingo de agosto trae más coches en la carretera y más luces en las casas de costa, pero el carácter no cambia: sigue sin haber plaza que haga de centro. Esto no se parece a un pueblo compacto mallorquín —plaza, súper, farmacia, ciudad a cinco minutos—. Aquí el paisaje es salvaje y se paga en soledad, distancia y dependencia del volante. Quien lo entienda de antemano no se llevará una sorpresa en noviembre. Quien lo descubra en agosto soleado se decidirá sin haber visto el invierno.",
+      "Hay semanas en que la sierra rompe el silencio. El lunes después de Pentecostés, la Virxe do Mar —también llamada fiesta de Delamar— reúne a las parroquias junto al océano. Entre mayo y junio, los curros de Valga, Torroña y Mougás bajan los caballos de la Serra da Groba para la gaxada, el trabajo comunal de reunirlos, cortarles las crines y marcarlos; en agosto llegan las celebraciones llamadas «moscas», también ligadas a los caballos. Carretera, polvo, voces y animales ocupan entonces un paisaje que el resto del año parece vacío.",
+    ],
+    tiempo: [
+      "El cielo de Oia es el de la costa atlántica abierta: unos setenta y cinco días despejados, dos mil cuatrocientas cincuenta horas de sol, ciento dieciocho de lluvia. Respecto a Baleares pierdes sol sobre todo en invierno; el verano, en cambio, se estrecha la diferencia. Máximas de julio alrededor de veinticinco grados, noches frescas, apenas cinco días al año por encima de treinta —el calor que se deja atrás casi desaparece aquí, no como en el fondo del Miño.",
+      "El viento y el oleaje marcan más que la cifra del termómetro. La PO-552 y el océano se oyen juntos; la niebla es baja. Un día de lluvia seria no se queda uno mirando el cristal: se baja a Baiona o a A Guarda, o se espera a que el chaparrón afloje para caminar la senda. Si solo conoces agosto, te llevas la imagen de folleto del horizonte. Si has visto un noviembre en aldea, ya puedes decidir si aceptas ese silencio.",
+    ],
+    vivir: [
+      "El invierno en Oia se siente en la soledad de la casa tanto como en el termómetro. En Mallorca muchas viviendas casi no piensan en calefacción ni en humedad; aquí el Atlántico abierto y la Serra da Groba mantienen lluvia, viento y aire húmedo. Una casa aislada de piedra o un chalé con vistas puede retener moho si la ventilación y el aislamiento fallan. Visitar un noviembre en aldea —kilómetros sin cruzarse con nadie salvo el viento— enseña más que un agosto soleado junto al monasterio.",
+      "El día a día sin coche no existe: el coche es obligatorio para supermercado, médico e instituto. En invierno los bares de Mougás y Oia son casi el único sitio con gente; no hay plaza que haga de centro. En enero las aldeas se vacían. Quien elija Oia elige paisaje salvaje a cambio de dependencia total del volante —otra escala que cualquier pueblo compacto mallorquín.",
+      "Llegar de fuera suele ser una decisión deliberada: gente de toda la vida, quien buscó silencio a propósito y veraneantes en las casas de costa. Se oye gallego en las parroquias; el castellano basta para lo básico, pero la vida social pasa por aldea y vecindario, no por una calle mayor. Entre semana el silencio pesa; en agosto hay más coches en la PO-552, pero el carácter no cambia. Quien busque integración de plaza y terrazas no la encontrará aquí.",
+      "La sanidad de urgencia y especialidades no está en el municipio: el hospital Álvaro Cunqueiro queda a unos cuarenta minutos; el súper grande y el instituto, en Baiona o A Guarda, a quince o veinte. En Oia hay consultorio, una farmacia y tiendas de pueblo. Empadronarse abre lo local; para todo lo demás se conduce. No es aislamiento total: es asumir que la gran sanidad y la compra grande están fuera de la puerta.",
+      "Mantener el vínculo con Mallorca pasa por el avión desde fuera del municipio. Vigo queda a unos cuarenta y cinco minutos; la ficha no fija un aeropuerto a cinco minutos. Conviene mirar el calendario real de vuelos desde Peinador o Santiago y contar el trayecto desde la aldea concreta. En invierno la logística importa más que en agosto.",
+      "Lo que encontrarás es casa aislada: piedra o chalé con vistas. No hay obra nueva; la fibra es parcial y debe comprobarse casa por casa. El anuncio habla de horizonte; el invierno habla de soledad y de coche para el pan. En una vivienda con escaleras o desniveles hay que imaginar la rutina dentro de diez años, y presupuestar humedad, cubierta y calefacción además del paisaje.",
+    ],
+    historia: [
+      "Todo gira alrededor del monasterio. Su comunidad está documentada desde 1137 y se incorporó al Císter en 1185; desde allí los monjes roturaron la ladera, plantaron viña y organizaron las aldeas que hoy son las parroquias. Santa María de Oia está plantada directamente frente al mar: es el único monasterio de la orden en Europa a pie de océano. Piedra y oleaje en la misma imagen. En 1624 los llamados «monjes artilleros» rechazaron a cañonazos un ataque de piratas turcos. Desamortizado en 1835 y declarado monumento histórico-artístico en 1931 —hoy Bien de Interés Cultural—, el conjunto es privado; iglesia y claustro se ven desde la senda litoral.",
+      "Cuando el monasterio se cerró, el municipio quedó más o menos como lo ves: aldeas, sierra, océano. En la Cabeciña de Mougás hay petroglifos; arriba pervive la ganadería comunal de los curros. Hasta los nombres dibujan el territorio: Oia da nombre a la parroquia costera y al municipio; Mougás, Torroña y Valga nombran aldeas y montes de la Groba, no barrios de un único casco.",
+    ],
+    fuera: [
+      "Praia de Mougás, a unos ocho minutos, no es una playa de toalla y sombrilla. Es pequeña, de arena y cantos, batida por el oleaje de verdad: el ruido del mar lo llena todo. Se va a mirar, a sentir el viento, a mojarse los pies. Nadar aquí es para quien busca esa brusquedad atlántica, no el baño largo y calmado del Mediterráneo. El acceso desde la carretera es fácil; el carácter del agua, no. Un martes de junio puedes estar casi solo ante las olas; un domingo de agosto hay más coches aparcados, pero el carácter no se vuelve de resort.",
+      "Para bañarse de verdad, mucha gente baja a Baiona: unos dieciocho minutos, arena fina, bahía abrigada —otro mundo, ya en la comarca vecina—. No es un fallo de Oia: es la honestidad del Atlántico abierto. Quien quiera baño largo y agua más amable tiene que aceptar ese trayecto, igual que quien vive en el valle de O Rosal acepta unos diez minutos hasta Area Grande, la cala de arena de A Guarda. La diferencia es que aquí el océano está en la puerta; el baño cómodo, no.",
+      "La senda litoral pasa por la puerta de las aldeas: pasarela de madera sobre las rocas, pista, el océano siempre a un lado; es el Camino Portugués de la Costa (la ruta jacobea que sigue la orilla). Cualquier tramo de cinco o seis kilómetros es una tarde. Subir al Alto da Groba —unos veinte minutos en coche por Torroña, una de las parroquias de monte— abre meseta de brezo sin árboles, caballos sueltos (garranos), el océano a un lado y el valle del Miño al otro. En mayo y junio, los curros de Mougás y Torroña bajan esos caballos a un cercado de piedra: polvo, gritos, tradición que todavía ocurre. Es el espectáculo del año, y explica mejor el municipio que cualquier anuncio.",
+    ],
+    casa: [
+      "Lo que encontrarás es casa aislada en aldea: piedra o chalé con vistas. No hay obra nueva. El precio del metro es de los más altos de la zona —alrededor de mil seiscientos euros—, porque aquí se paga el paisaje, no los servicios. Fibra parcial: hay que preguntar por la línea en esa casa concreta, no en el pueblo en abstracto. El anuncio habla de vistas; el invierno habla de soledad y de coche para el pan.",
+      "Los servicios son los de una aldea: consultorio, una farmacia, tiendas de pueblo, bares. El supermercado grande y el instituto están en Baiona o A Guarda, quince o veinte minutos. El hospital Álvaro Cunqueiro, unos cuarenta. Vigo, unos cuarenta y cinco. Aquí lo que se gana es silencio y horizonte; no la vida diaria a pie de casa. Quien lo entienda se decidirá con los ojos abiertos. Quien lo descubra en agosto soleado, no.",
+    ],
+    encaja: {
+      si: [
+        "Lo que se busca es vivir frente al océano salvaje —horizonte, oleaje, la Serra da Groba (la sierra de brezo detrás de las aldeas) a la espalda— y se tiene tiempo y ganas de asumir lo que eso cuesta: soledad de noviembre, aldeas vacías entre semana, el coche para el supermercado, el médico y casi todo lo que no sea mirar el mar. Si el silencio no pesa y el paisaje es la razón de mudarse, Oia es el tramo más bruto y más honesto de la comarca.",
+        "Quien priorice playa de baño largo y calmado ya sabe que bajará a Baiona —villa de bahía abrigada, unos dieciocho minutos al norte, ya en la comarca vecina—. Quien priorice mirar el Atlántico y caminar la senda litoral (el Camino Portugués de la Costa: pasarela de madera y pista junto al océano) o subir a la meseta de la Groba —caballos sueltos, océano a un lado y valle al otro— encontrará aquí lo que en ningún otro municipio de Baixo Miño está tan cerca de la puerta.",
+      ],
+      no: [
+        "Si se quiere pueblo —plaza, súper, farmacia a pie, gente en la calle un martes de enero—, Oia no lo es. Son siete parroquias dispersas sin un centro que una. El hospital público Álvaro Cunqueiro, en Vigo, a unos cuarenta minutos, y el súper grande a quince o veinte (Baiona o A Guarda) no se negocian eligiendo otra aldea. Tampoco encaja quien necesite vida diaria sin volante: aquí el coche abre la semana.",
+        "Quien descubra el sitio solo en agosto soleado se llevará solo la imagen de folleto del horizonte y descubrirá en noviembre el precio. Si el tiempo libre se quiere gastar en calle y café compacto, mejor A Guarda (villa de puerto) u O Rosal (valle con plaza); si se quiere mar a la puerta sin soledad, tampoco es este pueblo.",
+      ],
+      veredicto:
+        "Veredicto: Oia no es la opción de quien busca pueblo compacto ni hospital cerca. Es la de quien quiere océano y silencio y acepta pagarlos con distancia, fibra a comprobar casa por casa y un invierno que vacía las aldeas. Solo si eso es exactamente lo que se busca —y se ha visto un noviembre—; si no, mirar A Guarda (mar con villa) o el valle de O Rosal.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/baixo-mino/oia-identidad.jpg",
+      pie: "Oia: casas junto al monasterio, Atlántico delante y la sierra detrás",
+    },
+    fotosAbrir: [
+      { src: "/fotos/baixo-mino/oia-mosteiro.jpg", pie: "Mosteiro de Santa María de Oia: piedra entre sierra y océano" },
+      { src: "/fotos/baixo-mino/oia-costa.jpg", pie: "La costa atlántica hacia Oia: oleaje y aldeas" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/baixo-mino/oia-mosteiro-lado.jpg", pie: "El monasterio visto desde tierra: el corazón de las parroquias" },
+      { src: "/fotos/baixo-mino/oia-fachada.jpg", pie: "Fachada barroca del monasterio" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/baixo-mino/oia-peirao.jpg", pie: "Peirao de Oia: el Atlántico se mira más que se nada" },
+      { src: "/fotos/baixo-mino/oia-groba-cabalos.jpg", pie: "Garranos en la Serra da Groba, sobre Mougás" },
+    ],
+    creditoFotos: "Fotos: Wikimedia Commons (CC BY-SA).",
+  }

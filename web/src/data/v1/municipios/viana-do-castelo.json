@@ -1,0 +1,90 @@
+{
+  "tipo": "municipio",
+  "slug": "viana-do-castelo",
+  "nombre": "Viana do Castelo",
+  "n": 79,
+  "zonaId": "alto-minho",
+  "zonaNombre": "Alto Minho (PT)",
+  "provincia": "Viana do Castelo",
+  "pais": "Portugal",
+  "sourcePath": "web/src/lib/relatos-alto-minho.ts",
+  "sourceKey": "viana-do-castelo",
+  "sourceExport": "RELATOS_ALTO_MINHO",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "9ac4bdecb101e418c7b5e6f0b53e07f88010bf05424bb0f88b6c9b6721bb9560",
+  "relato": {
+    "escala": "Ciudad del Lima",
+    "abrir": [
+      "Viana do Castelo se siente ciudad pequeña completa junto al Lima y al Atlántico. Unos noventa mil habitantes en el concelho —unos cuarenta mil en la ciudad—: basílica de Santa Luzia sobre el monte —funicular, citania celta, una de las vistas de mar más citadas de Portugal—, Praça da República, puente Eiffel sobre el río, buque-hospital Gil Eannes amarrado como museo, paseo del Lima, Praia Norte con piscinas de marea, Cabedelo —surf, kite— al otro lado del río, mercado, tren y comercio. Es ciudad limpia, tranquila y culta: la capital del Alto Minho.",
+      "Quien vive aquí es gente local, familias, algo de comunidad brasileña y europea, y quien busca hospital cerca sin mudarse a Porto. Un martes de noviembre se resuelve casi todo en ciudad: servicios 9/10, dependencia del coche baja —3/10—. El Hospital de Santa Luzia queda a unos cinco minutos. El aeropuerto de Porto anda alrededor de los cincuenta —Palma en verano; más de ochenta destinos directos—. Para lo diario no hace falta volante en el centro; para Praia Norte o Cabedelo, a veces sí.",
+      "En verano Praia Norte y Cabedelo reciben más afluencia; el ritmo de ciudad se mantiene todo el año —no se apaga en enero—. Hay obra nueva. Facilidad de venta y revalorización altas —8/10—. Quien se decida a vivir el centro acepta bloques; en las freguesias hay casas bajas. El tráfico es de ciudad pequeña; la N-13 y el frente de playa se notan en agosto.",
+      "El calendario marca cultura, mercado y nortada costera de tarde. Primavera y otoño son buenas épocas para conocerlo: Santa Luzia sin cola, paseo del Lima, Gil Eannes. Si solo conoces la vista desde la basílica, te llevas la imagen de folleto. Si has visto un martes laborable y una tarde de nortada en Praia Norte, ya puedes decidir si de verdad quieres vivir aquí.",
+      "Viana no promete aldea de granito ni colonia entre pinos. Promete ciudad 9/10, hospital a cinco y Atlántico urbano a cambio de bloques en el casco y mar frío. Para quien mire Afife-Carreço o Âncora, es la ciudad de referencia."
+    ],
+    "tiempo": [
+      "Si vienes de Baleares, el cielo de Viana limpia con el mejor registro costero de la zona. Suma unas 2.500 horas de sol y unos 78 a 80 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.450 milímetros en unos 112 a 115 días. El viento es alto en la costa —nortada de tarde de junio a agosto—; en el casco interior se nota menos.",
+      "El verano en la costa ronda 20,5 °C, con tres a seis días sobre 30 °C: fresco frente al calor balear. Praia Norte y Cabedelo tienen agua entre 16 y 18 °C; las piscinas de marea de Praia Norte abrigan el baño urbano. Julio y agosto llueven poco; el invierno moja. Conviene probar nortada en la orilla y un noviembre de ciudad, no solo la vista desde Santa Luzia."
+    ],
+    "vivir": [
+      "El invierno en Viana es de ciudad que no se apaga: el casco mantiene ritmo; la humedad atlántica y la lluvia piden calefacción y aislamiento en pisos de bloque. En Praia Norte hay que contar con salitre y nortada residual. Probar un noviembre de ciudad evita firmar solo por la vista desde Santa Luzia.",
+      "Sin coche, el centro resuelve casi todo —servicios 9/10, dependencia del coche 3/10—. Un martes de noviembre hay mercado, comercio, café y paseo del Lima. Para Praia Norte o Cabedelo a veces hace falta vehículo. En enero el ritmo de capital del Alto Minho sigue; no es colonia que cierra.",
+      "Conviven gente local, familias, algo de comunidad brasileña y europea, y quien busca hospital cerca sin mudarse a Porto. El portugués manda; hay apertura a quien llega de fuera, con escala de ciudad pequeña culta. En verano Praia Norte y Cabedelo reciben más afluencia; entre semana manda la ciudad. La integración pasa por barrio, mercado y Santa Luzia más que por aldea de granito.",
+      "El Hospital de Santa Luzia queda a unos cinco minutos: la sanidad a pie es el argumento fuerte. Hay que contar con seguro privado portugués —Trofa Saúde, Braga, alrededor de cincuenta minutos—, porque el público portugués es más lento. No hay tarjeta española de uso habitual; sí hospital comarcal delante.",
+      "Porto–Sá Carneiro anda alrededor de los cincuenta minutos —Palma en verano; más de ochenta destinos directos—. Ir y volver a Mallorca es viable vía Porto en temporada; el resto del año pide mirar conexiones. El régimen fiscal especial para residentes extranjeros se cerró en 2024.",
+      "En el centro predominan pisos en bloques; en las freguesias, casas bajas. Hay obra nueva y fibra. El modelo urbano pide ascensor y calle; el de freguesía, más terreno y coche. En primera línea de Praia Norte hay que contar con ocupación de verano, salitre y nortada. Imaginar bloque en enero y orilla en agosto antes de comprar."
+    ],
+    "historia": [
+      "Santa Luzia explica Viana mejor que cualquier folleto: basílica de principios del XX sobre el monte, funicular, citania celta —poblado castreño excavado en la ladera— y mirador sobre el Lima abriéndose al Atlántico. Abajo, la Praça da República y el casco cuentan la ciudad mercantil y marinera; el puente Eiffel —hierro, siglo XIX— une las dos orillas del río con el mismo gesto de escuela francesa que se ve en otras bocas del norte.",
+      "El buque-hospital Gil Eannes —ahora museo flotante— añade memoria marítima: un barco que fue hospital de la flota bacaladera y hoy se visita amarrado. El paseo del Lima, Praia Norte y Cabedelo completan el arco de río y océano. Lo que conviene saber es de ciudad culta, puerto y mirador: Santa Luzia, Eiffel, Gil Eannes, no lista seca de fechas."
+    ],
+    "fuera": [
+      "Santa Luzia —basílica, funicular, citania, mirador—, la Praça da República y el paseo del Lima son la tarde de diario en ciudad. Se camina, se toma café, se mira el río sin pedir coche para cada gesto.",
+      "Praia Norte cubre baño urbano con piscinas de marea: orilla de ciudad, abrigo de piedra frente al oleaje, agua fría de Atlántico. Cabedelo queda al otro lado del río —surf, kite, arenal más abierto—. Afife-Carreço anda a unos 10–15 minutos hacia el norte cuando apetezca granito y aldea.",
+      "La Ecovia do Litoral Norte —pasarelas hacia Caminha— y el Camino de costa completan los caminos. Quien viva aquí tiene ciudad y mar en el mismo concelho; el silencio de aldea, no."
+    ],
+    "casa": [
+      "En el centro predominan pisos en bloques; en las freguesias, casas bajas. Hay obra nueva y fibra. El modelo urbano pide ascensor y calle; el de freguesía, más terreno y coche. En primera línea de Praia Norte hay que contar con ocupación de verano, salitre y nortada; conviene orientación y probar una tarde de viento.",
+      "El precio medio ronda 2.100 €/m². Tres habitaciones en la franja asequible se sitúan alrededor de 246.000 euros. Quien busque casas bajas deberá mirar freguesías o Afife-Carreço; quien busque hospital a cinco y comercio denso, el ensanche o un buen piso de ciudad.",
+      "Los servicios son 9/10. Santa Luzia queda a unos cinco minutos. Porto–Sá Carneiro está a unos cincuenta. Hay que contar con seguro privado portugués —Trofa Saúde, Braga, alrededor de cincuenta minutos—. Conviene firmar tras un martes laborable y un agosto en Praia Norte."
+    ],
+    "encaja": {
+      "si": [
+        "Encaja si se quiere ciudad pequeña completa junto al Lima y al Atlántico, con vida todo el año. Viana do Castelo resuelve casi todo a pie o en trayecto corto: servicios 9/10, mercado, tren, comercio, Santa Luzia —basílica, funicular, citania—, paseo del Lima, Praia Norte con piscinas de marea y Cabedelo al otro lado del río. El Hospital de Santa Luzia queda a unos cinco minutos; Porto–Sá Carneiro, a unos cincuenta —Palma en verano y muchos destinos directos—. Quien priorice hospital cercano, cultura y sol de costa —unas 2.500 horas— frente a aldea o colonia de chalés encontrará aquí la capital del Alto Minho a unos 2.100 €/m².",
+        "También encaja como ciudad de referencia para quien viva en Afife-Carreço o Âncora y quiera mesas, especialistas y agenda urbana sin mudarse a Porto. El verano costero ronda 20,5 °C frente al calor de Mallorca; el agua, 16–18 °C. Llueven alrededor de 1.450 milímetros en unos 115 días; el viento es alto en la orilla —nortada de tarde—. Conviene seguro privado portugués: Trofa Saúde, Braga, anda alrededor de los cincuenta minutos."
+      ],
+      "no": [
+        "No encaja si se buscan casas bajas en el casco central: ahí mandan bloques. Las freguesias ofrecen escala más baja. Tampoco si se necesita agua templada o un agosto silencioso en Praia Norte y Cabedelo: la afluencia sube en temporada.",
+        "Tampoco encaja si se busca el régimen fiscal especial para residentes extranjeros —cerrado en 2024— o hospital privado a menos de cuarenta minutos. Quien se decida solo con la vista desde Santa Luzia, sin probar un martes de noviembre ni una tarde de nortada en Praia Norte, se llevará una ciudad distinta de la foto turística."
+      ],
+      "veredicto": "Veredicto: Viana do Castelo es la ciudad del Lima —9/10, hospital a cinco y Atlántico urbano a cambio de bloques en el centro y mar frío—. Buscaría tres habitaciones en freguesía o piso en ensanche con acceso al paseo, tras probar un martes laborable y un agosto en Praia Norte. Se ganan ciudad completa, Santa Luzia y ~2.100 €/m²; se aceptan agua a 16–18 °C, nortada costera y seguro privado portugués. Si mandan granito y monte, Afife-Carreço; si villa marinera abrigada, Âncora; si la prioridad es resolver la semana sin coche y con hospital delante, Viana no tiene rival en la zona."
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/alto-minho/viana-santa-luzia.jpg",
+        "pie": "Basílica de Santa Luzia sobre Viana do Castelo"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/alto-minho/viana-eiffel.jpg",
+        "pie": "Puente Eiffel sobre el Lima, Viana"
+      },
+      {
+        "src": "/fotos/alto-minho/viana-gil-eannes.jpg",
+        "pie": "Buque-hospital Gil Eannes, Viana"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/alto-minho/viana-praia-norte.jpg",
+        "pie": "Praia Norte, Viana do Castelo"
+      },
+      {
+        "src": "/fotos/alto-minho/viana-cabedelo.jpg",
+        "pie": "Cabedelo, al otro lado del Lima"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

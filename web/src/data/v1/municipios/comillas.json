@@ -1,0 +1,99 @@
+{
+  "tipo": "municipio",
+  "slug": "comillas",
+  "nombre": "Comillas",
+  "n": 64,
+  "zonaId": "cantabria-occidental",
+  "zonaNombre": "Cantabria Occidental",
+  "provincia": "Cantabria",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-cantabria-occidental.ts",
+  "sourceKey": "comillas",
+  "sourceExport": "RELATOS_CANTABRIA_OCCIDENTAL",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "520dc358541d34eb5edf458dab96dda923012754711498e51535bbc91f195d81",
+  "relato": {
+    "escala": "Villa modernista",
+    "abrir": [
+      "Comillas se siente como un museo al aire libre plantado sobre la costa: unos dos mil doscientos habitantes, El Capricho de Gaudí —la villa de cerámica y girasoles—, el palacio de Sobrellano, la Universidad Pontificia en lo alto, plaza de piedra y playa a dos minutos a pie del casco. Oyambre —parque natural— queda cerca; Santillana del Mar y Altamira, a unos quince minutos. Es villa-museo cuidada, no capital de servicios.",
+      "Quien vive aquí es gente de la villa, del turismo cultural y veraneantes que vuelven cada verano. Un martes de noviembre el casco puede parecer casi vacío: los servicios son 4/10 —comercio pequeño y muy estacional; falta comercio grande—. Sierrallana, en Torrelavega, queda a unos treinta minutos. El aeropuerto de Santander anda alrededor de los cuarenta minutos, con Palma casi todo el año. Lo diario mínimo se resuelve; el resto pide coche o temporada alta.",
+      "Julio y agosto llenan Comillas: casco ocupado, ruido, tráfico y aparcamiento justo hacia la playa y los monumentos. En invierno la villa queda muy tranquila —casi vacía fuera del núcleo—. Quien se decida a vivir aquí debe probar el lleno de temporada y el silencio de un martes de noviembre. Primavera y otoño muestran la piedra sin la multitud.",
+      "El calendario tiene fechas fijas. A mediados de julio, las fiestas del Cristo concentran procesión, música y gente en la plaza y el casco: unos días en que la villa-museo deja de ser solo visita y se convierte en fiesta local. El resto del verano el ritmo lo marca el veraneo; el resto del año, el vacío relativo de las calles. Quien viva en el casco debe contar agosto y el Cristo como parte del año.",
+      "Comillas encaja para quien quiera vivir en una villa-museo cara y muy cuidada, aceptando comercio estacional y verano lleno. Si solo conoces un sábado soleado, te llevas la imagen de folleto del Capricho. Si has visto un noviembre quieto, ya puedes decidir si de verdad quieres vivir aquí."
+    ],
+    "tiempo": [
+      "Si vienes de Baleares, el contraste es de cielo, no solo de temperatura. Comillas suma unas 1.680 a 1.700 horas de sol y unos 38 a 40 días despejados, lejos de las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.150 a 1.200 milímetros en unos 148 a 152 días. El viento es medio; la niebla, baja. De noviembre a febrero las mañanas grises pesan; de junio a septiembre la terraza se usa cuando el cielo abre.",
+      "El verano ronda 20 °C, fresco frente a Baleares. La playa de Comillas y Oyambre tienen agua entre 19 y 21 °C; la orilla es abierta y con oleaje. Un día de lluvia seria no se queda uno mirando el cristal: se espera a que afloje para caminar el casco, o se baja a Torrelavega. Conviene venir un noviembre y un sábado de agosto, no solo el día soleado de la foto turística modernista."
+    ],
+    "vivir": [
+      "El invierno en Comillas se nota sobre todo en el silencio y en la casa. De noviembre a febrero las mañanas grises pesan; la villa queda muy tranquila —casi vacía fuera del núcleo— y la terraza se usa cuando el cielo abre. Humedad de costa y salitre piden aislamiento y calefacción serios: conviene visitar un martes de noviembre, no solo el día soleado de la foto turística modernista.",
+      "Sin coche, lo diario mínimo se resuelve en el casco; el resto pide vehículo o temporada alta. Los servicios son 4/10: comercio pequeño y muy estacional; falta comercio grande. Un martes de noviembre el casco puede parecer casi vacío: mesas y tiendas no son las de agosto. La playa queda a dos minutos a pie, pero el súper denso no.",
+      "Conviven gente de la villa, turismo cultural y veraneantes que vuelven cada verano. Julio y agosto llenan Comillas: casco ocupado, ruido, tráfico y aparcamiento justo; las fiestas del Cristo a mediados de julio concentran procesión y gente. Entre semana en invierno manda el vacío relativo; en temporada, la cola del Capricho. Quien busque solo museo encontrará visitas; quien busque vecinos todo el año, también —en otra escala que Mallorca—.",
+      "No hay hospital en el municipio. Sierrallana, en Torrelavega, queda a unos treinta minutos. Lo diario de farmacia y lo básico se resuelve en villa; para urgencias y especialidades se baja a Torrelavega. Es asumir que la sanidad grande no está en la plaza de piedra.",
+      "El aeropuerto de Santander anda alrededor de los cuarenta minutos, con Palma casi todo el año. Ir y volver a Mallorca es viable casi todo el año, pero el peaje es el trayecto cantábrico y el cielo cubierto de invierno: conviene mirar horarios reales, no solo el vuelo de agosto.",
+      "El modelo es piso o vivienda de villa en el casco, a menudo con historia de uso; hay poca obra nueva y fibra. En primera línea y en calles de temporada hay que contar con ocupación de agosto y precio alto. Tres habitaciones suelen quedar caras; dos en franja asequible son la orilla más realista. Imaginar la rutina en invierno vacío y en agosto lleno antes de comprar."
+    ],
+    "historia": [
+      "El Capricho de Gaudí, el palacio de Sobrellano y la Universidad Pontificia explican Comillas: villa de mecenazgo del marqués de Comillas en el XIX, convertida en museo al aire libre. No es adorno de brochure: es el carácter del casco —cerámica, piedra, jardines, la Pontificia dominante en la ladera—. El modernismo y el veraneo elegante se mezclaron aquí antes de que el turismo de masas llenara agosto.",
+      "La plaza de piedra y las calles hacia la playa completan la ficha de villa cuidada. Santillana del Mar —casco medieval— y la cueva de Altamira quedan a unos quince minutos: capa de patrimonio a un paso, no dentro del municipio. Lo que conviene saber es de arquitectura, mecenazgo y orilla, no de industria.",
+      "Hoy Comillas sigue viviendo de esa imagen: visitas al Capricho y a Sobrellano, playa a dos minutos, invierno casi vacío. Quien camina la plaza un martes de noviembre entiende el precio del museo al aire libre mejor que quien solo hace cola en julio."
+    ],
+    "fuera": [
+      "El baño de diario es la playa de Comillas: a dos minutos a pie del casco, arena y Cantábrico abierto, agua entre 19 y 21 °C. Un martes de junio puedes tener espacio; un domingo de agosto el casco y el arenal se llenan juntos. No es bahía tibia: es orilla de oleaje y viento medio.",
+      "Oyambre —parque natural hacia San Vicente— amplía dunas, prados y costa batida. El Capricho, Sobrellano y la plaza son el paseo de diario cuando no apetece mar: piedra, jardines, la Pontificia arriba. Santillana del Mar y Altamira quedan a unos quince minutos cuando se busca casco medieval o cueva.",
+      "San Vicente de la Barquera —ría, Maza, Merón— queda hacia el oeste a trayecto corto. Quien priorice museo y playa delante encontrará aquí el gesto; quien priorice mesas abiertas en enero y hospital a quince tendrá que mirar Suances."
+    ],
+    "casa": [
+      "El modelo es piso o vivienda de villa en el casco, a menudo con historia de uso; hay poca obra nueva y fibra. En primera línea y en calles de temporada hay que contar con ocupación de agosto y precio. La tipología de tres habitaciones suele quedar por encima de la franja asequible habitual de la tabla; dos habitaciones en franja asequible rondan unos 203.000 euros.",
+      "El precio medio ronda 2.400 €/m². Tres habitaciones se sitúan alrededor de 281.000 euros —fuera de la orilla asequible habitual—. La franja media puede ser piso reformado en casco o vivienda algo retirada de la playa. Conviene probar el aparcamiento de agosto y el silencio de noviembre antes de comprar.",
+      "Los servicios son 4/10. Sierrallana queda a unos treinta minutos. Santander–Seve Ballesteros está a unos cuarenta, con Palma casi todo el año. Eso es Comillas: mucha arquitectura y playa delante, y el comercio de invierno siempre escaso."
+    ],
+    "encaja": {
+      "si": [
+        "La villa-museo a la puerta importa más que tener el súper abierto todo el año. Comillas reúne unos dos mil doscientos habitantes: El Capricho de Gaudí, el palacio de Sobrellano, la Universidad Pontificia, plaza de piedra y playa a dos minutos a pie; Oyambre cerca y Santillana del Mar a unos quince. Quien quiera caminar el casco modernista un martes de noviembre, bajar a la playa en minutos y vivir en un marco de mecenazgo y piedra cuidada encontrará aquí orilla de museo al aire libre, no capital de servicios. En julio y agosto el casco se llena: ruido, tráfico y aparcamiento justo; en invierno queda muy tranquila —casi vacía fuera del núcleo—. Unas 1.700 horas de sol y unos 38 días despejados —frente a las 2.800 horas y 120 de Mallorca— explican el contraste: lluvia frecuente también en verano, verano suave alrededor de 20 °C, niebla baja. El agua anda entre 19 y 21 °C. Quien se decida a vivir aquí debe haber visto ambas estaciones.",
+        "Funciona si se aceptan servicios 4/10 —comercio pequeño y muy estacional—, Sierrallana a unos treinta minutos y el aeropuerto de Santander alrededor de los cuarenta, con Palma casi todo el año. Hay fibra; el metro ronda 2.400 euros y es de los más altos de la zona: dos habitaciones en franja asequible andan cerca de 203.000 euros; tres suelen quedar por encima de la orilla habitual del mercado. A cambio se gana arquitectura y playa delante. Quien priorice Capricho, Sobrellano y silencio de invierno frente a villa completa todo el año, y pruebe el vacío de noviembre junto al lleno de agosto, entenderá Comillas sin pedirle lo que no es."
+      ],
+      "no": [
+        "Los servicios 4/10 y el comercio que cierra fuera de temporada no se arreglan eligiendo otra calle junto a la plaza. Si la semana debe resolverse andando con mesas y mercado densos en enero, Suances o Santander cubren ese perfil; Comillas es villa-museo cuidada, no capital. Tampoco encaja quien necesite tres habitaciones en primera línea dentro de la franja asequible habitual del mercado: el precio de villa modernista lo deja fuera con facilidad.",
+        "Tampoco si se necesita calma en julio y agosto en el casco, o el cielo de Baleares. Quien se decida solo tras un sábado soleado de verano, sin probar el aparcamiento de temporada ni un noviembre casi vacío, se llevará una villa distinta de la foto turística. Si lo que manda es hospital a quince minutos y playa con vida todo el año, Suances; si mandan casas bajas, Valdecilla y aeropuerto a quince, Liencres. Comillas pide aceptar estacionalidad, metro alto y sol bajo a cambio del modernismo."
+      ],
+      "veredicto": "Veredicto: Comillas encaja como villa modernista —dos habitaciones en casco, o tres algo retiradas de la primera línea de temporada— sobre todo si Capricho, Sobrellano y la playa a dos minutos importan más que el comercio de invierno. Probar un agosto lleno y un noviembre quieto antes de comprar. Se ganan museo al aire libre, Sierrallana a treinta y fibra; se aceptan servicios 4/10, precio alto (~2.400 €/m²) y unas 1.700 horas de sol. Quien priorice vida diaria todo el año, Suances; quien priorice logística y dunas, Liencres."
+    },
+    "fotoIdentidad": {
+      "src": "/fotos/cantabria-occidental/comillas-identidad.jpg",
+      "pie": "Comillas: casas en la ladera bajo la Universidad Pontificia, con el monte detrás"
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/cantabria-occidental/comillas-capricho.jpg",
+        "pie": "El Capricho de Gaudí, Comillas"
+      },
+      {
+        "src": "/fotos/cantabria-occidental/comillas-sobrellano.jpg",
+        "pie": "Palacio de Sobrellano, Comillas"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/cantabria-occidental/comillas-plaza.jpg",
+        "pie": "Plaza de piedra de Comillas"
+      },
+      {
+        "src": "/fotos/cantabria-occidental/comillas-pontificia.jpg",
+        "pie": "Universidad Pontificia de Comillas"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/cantabria-occidental/comillas-playa.jpg",
+        "pie": "Playa de Comillas"
+      },
+      {
+        "src": "/fotos/cantabria-occidental/comillas-villa.jpg",
+        "pie": "Comillas: villa modernista"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

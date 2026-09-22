@@ -1,0 +1,65 @@
+{
+    escala: "Villa marinera y monte",
+    abrir: [
+      "Santoña se siente como villa de trabajo con monte detrás: unos once mil habitantes, puerto y anchoas —la conserva como oficio—, Monte Buciero —el monte que cierra la bahía—, Berria —playa larga con dunas—, fuerte de San Martín y marismas; en verano, lancha a Laredo. Es villa de conserva, pesca y ritmo propio —también con la prisión de El Dueso en el paisaje—, no solo foto de veraneo.",
+      "Quien vive aquí es gente de la lonja, de la fábrica de anchoas y de la villa. Un martes de noviembre se camina el casco y se resuelve el día a día: los servicios alcanzan 6/10 —villa de trabajo con comercio; falta hospital en el municipio—. El Hospital de Laredo queda a unos diez minutos. El aeropuerto de Santander anda alrededor de los treinta minutos, con Palma casi todo el año. Fuera de agosto Santoña mantiene mesas y oficio.",
+      "En verano Berria y el puerto reciben más afluencia; la vida cotidiana de villa marinera se mantiene mejor que en Noja. Primavera y otoño en el Buciero y las marismas son buenas épocas para conocerlo: el monte y las aves no son solo foto de julio. Conviene probar un martes de trabajo y un día de orilla llena.",
+      "El calendario tiene fechas fijas de oficio y de fiesta. La temporada de anchoa marca la lonja; las fiestas de la Virgen del Puerto animan el casco y el puerto unos días. La lancha a Laredo en verano convierte la bahía en gesto cotidiano. Quien viva junto a Berria o al puerto debe contar el lleno de temporada y las fiestas como parte del año.",
+      "Santoña encaja para quien quiera villa de trabajo con monte y marismas, más asequible que sus vecinas. Si solo conoces Berria en agosto, te llevas la imagen de folleto de la playa. Si has subido al Buciero un martes de noviembre, ya puedes decidir si quieres esa villa de oficio.",
+    ],
+    tiempo: [
+      "Si vienes de Baleares, el cielo es el mismo peaje que en el resto de la oriental. Santoña suma unas 1.650 a 1.700 horas de sol y unos 40 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.150 a 1.250 milímetros en unos 150 a 155 días. El viento es medio; la niebla, baja.",
+      "El verano ronda 20 °C, fresco frente a Baleares. Berria y San Martín tienen agua entre 19 y 21 °C; la bahía ofrece orilla más calmada que el Cantábrico abierto de Ribamontán. Conviene venir un día de cubierto y un noviembre de lonja, no solo el sábado de sol en Berria.",
+    ],
+    vivir: [
+      "El invierno en Santoña es de villa de oficio, no de bloque vacío. Humedad de bahía, salitre hacia Berria y mañanas grises piden calefacción y aislamiento; la terraza se usa menos entre noviembre y febrero. Probar un martes de lonja y un día cubierto evita firmar solo por Berria en sol.",
+      "El día a día sin coche es viable en el casco: se camina, se compra y los servicios alcanzan 6/10 —villa de trabajo con comercio—. Fuera de agosto Santoña mantiene mesas y oficio. Quien viva junto a Berria dependerá más del coche; en el casco, enero tiene vida cotidiana de villa marinera, no de Noja vacía.",
+      "Quien vive aquí es gente de la lonja, de la fábrica de anchoas y de la villa. La temporada de anchoa marca el puerto; las fiestas de la Virgen del Puerto animan casco y orilla unos días. En verano Berria recibe más afluencia, pero el ritmo de trabajo se mantiene mejor que en Noja. El Dueso forma parte del paisaje real. El castellano basta; la integración pasa por vecinos de oficio y puerto todo el año.",
+      "No hay hospital en el municipio: el Hospital de Laredo queda a unos diez minutos. Empadronarse aquí abre lo diario en villa; para hospital se asume el trayecto corto a Laredo —mejor que desde Noja o Ribamontán hacia Valdecilla más lejos—.",
+      "Santander–Seve Ballesteros anda alrededor de los treinta minutos, con Palma casi todo el año. Ir y volver a Mallorca es viable casi todo el año, pero no es el acceso más corto de la tabla oriental —Castro vía Bilbao gana en vuelo anual estable—. Conviene mirar horarios y el trayecto real.",
+      "El casco y el entorno de la bahía ofrecen pisos y viviendas de villa; hay poca obra nueva y fibra. No es bloque de Noja ni chalé de Loredo: es villa marinera. Junto a Berria hay que contar con ocupación de verano y salitre; hacia el casco, humedad de bahía. Imaginar la rutina de lonja y de agosto en la orilla antes de comprar.",
+    ],
+    historia: [
+      "Las anchoas, el puerto y el fuerte de San Martín explican Santoña: villa marinera de conserva y pesca, con capa militar en la bahía. El Monte Buciero —senda al faro del Caballo, setecientos sesenta y tres escalones— es el monte de verdad detrás del pueblo: no colina de parque, sino masa verde sobre el agua. La iglesia de Santa María del Puerto marca el centro del casco.",
+      "Las Marismas de Santoña, Victoria y Joyel —parque natural, observatorio de aves, pasarelas— completan la ficha de bahía y agua quieta. El Dueso —prisión— forma parte del paisaje real, no de la foto de turismo. Lo que conviene saber es de trabajo, monte y marisma.",
+      "Hoy Santoña sigue siendo villa de oficio: lonja, conserva, casco vivo en noviembre. Quien camina el puerto un martes de trabajo entiende por qué el precio es el más amable de la zona oriental.",
+    ],
+    fuera: [
+      "Si solo hay tiempo para un baño cerca, ese baño es Berria: playa larga con dunas, agua entre 19 y 21 °C, más abrigada que el Cantábrico abierto en muchos días. Un martes de junio puedes tener espacio; un domingo de agosto el acceso se complica. San Martín completa orilla de bahía.",
+      "El Buciero es el paseo propio: subida al faro del Caballo, escalones, horizonte sobre la bahía. Las marismas aportan pasarelas y aves cuando no apetece oleaje. El puerto y el casco son la tarde de diario de villa marinera.",
+      "Laredo queda a lancha en verano o a trayecto corto por carretera —hospital a diez minutos—. Quien priorice monte, marisma y precio ~1.900 €/m² encontrará aquí el gesto; quien priorice Bilbao y Palma todo el año mirará Castro; quien priorice Salvé y hospital a pie, Laredo.",
+    ],
+    casa: [
+      "El casco y el entorno de la bahía ofrecen pisos y viviendas de villa; hay poca obra nueva y fibra. Junto a Berria hay que contar con ocupación de verano y salitre; hacia el casco, humedad de bahía. No es bloque de Noja ni chalé de Loredo: es villa marinera.",
+      "El precio medio ronda 1.900 €/m² —el más asequible de la zona—. Tres habitaciones en la franja asequible se sitúan alrededor de 222.000 euros; dos habitaciones, cerca de 160.000. Conviene probar un martes de lonja y un agosto en Berria antes de comprar.",
+      "Los servicios son 6/10. El Hospital de Laredo queda a unos diez minutos. Santander–Seve Ballesteros está a unos treinta, con Palma casi todo el año. Eso es Santoña: villa de trabajo con monte a cambio del sol bajo y el aeropuerto a media hora.",
+    ],
+    encaja: {
+      si: [
+        "La villa de trabajo con monte importa más que el veraneo de bloques. Santoña reúne unos once mil habitantes: puerto y anchoas, Monte Buciero, Berria —larga, dunas—, fuerte de San Martín y marismas; en verano, lancha a Laredo. Es villa de conserva, pesca y ritmo propio —también con la prisión de El Dueso en el paisaje—, no solo foto de agosto. Quien quiera caminar el casco un martes de noviembre, subir al Buciero —senda al faro del Caballo— y bajar a Berria o a las marismas encontrará aquí vida marinera todo el año a precio más bajo que Noja, Laredo o Castro. En verano Berria y el puerto reciben más afluencia; el ritmo de trabajo se mantiene mejor que en Noja. Unas 1.650 a 1.700 horas de sol y unos 40 días despejados —frente a las 2.800 horas y 120 de Mallorca— marcan el trato: lluvia frecuente también en verano, verano suave alrededor de 20 °C, agua entre 19 y 21 °C, niebla baja.",
+        "Funciona si se prioriza el Hospital de Laredo a unos diez minutos y se acepta el aeropuerto de Santander alrededor de los treinta, con Palma casi todo el año. Los servicios alcanzan 6/10 —villa de trabajo con comercio; falta hospital en el municipio—. Hay fibra; el precio ronda 1.900 €/m² —el más amable de la zona oriental— y tres habitaciones en franja asequible andan cerca de 222.000 euros. Quien quiera monte, marisma y villa activa frente a bloques vacíos en invierno entenderá Santoña sin inventarse una urbanización de chalés.",
+      ],
+      no: [
+        "Si lo que se buscan son casas bajas rurales como en Loredo o Langre, Santoña no lo es: aquí mandan casco marinero, puerto y Buciero. Tampoco encaja quien necesite Palma todo el año a menos de cuarenta minutos: eso queda en Castro vía Bilbao (~35 min). Santander anda alrededor de los treinta desde aquí —casi todo el año—, no el acceso más corto de la tabla.",
+        "Tampoco si se busca calma total de segunda residencia vacía en invierno: aquí hay ritmo de trabajo, conserva y puerto todo el año. El cielo de Baleares no está en Berria. Quien se decida solo por el precio bajo, sin probar un martes de lonja ni un agosto en la orilla, puede descubrir que el carácter industrial-marinero no era lo que pedía. Si mandan hospital a cinco minutos y playa de cinco kilómetros, Laredo; si mandan chalés frente a Santander, Ribamontán.",
+      ],
+      veredicto:
+        "Veredicto: Santoña encaja como villa marinera y monte —tres habitaciones en casco o hacia Berria, fuera del tramo más ocupado en agosto— sobre todo si precio ~1.900 €/m², hospital a diez y Buciero importan más que el veraneo de bloques. Probar un martes de noviembre y una subida al faro del Caballo antes de comprar. Se ganan anchoas, marismas y Laredo a diez minutos; se aceptan el sol bajo de la zona, aeropuerto a treinta y el carácter de villa de trabajo. Quien priorice Bilbao y Palma todo el año, Castro; quien priorice Salvé y hospital a pie, Laredo.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/cantabria-oriental/santona-identidad.jpg",
+      pie: "Santoña: casas frente a la bahía, con el Monte Buciero detrás",
+    },
+    fotosAbrir: [
+      { src: "/fotos/cantabria-oriental/santona-berria.jpg", pie: "Playa de Berria, Santoña" },
+      { src: "/fotos/cantabria-oriental/santona-puerto.jpg", pie: "Iglesia de Santa María del Puerto, Santoña" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/cantabria-oriental/santona-san-martin.jpg", pie: "Fuerte de San Martín, Santoña" },
+      { src: "/fotos/cantabria-oriental/santona-buciero.jpg", pie: "Monte Buciero sobre Santoña" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/cantabria-oriental/santona-marismas.jpg", pie: "Marismas de Santoña" },
+    ],
+    creditoFotos: credito,
+  }

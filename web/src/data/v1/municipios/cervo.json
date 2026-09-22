@@ -1,0 +1,94 @@
+{
+  "tipo": "municipio",
+  "slug": "cervo",
+  "nombre": "Cervo",
+  "n": 42,
+  "zonaId": "a-marina",
+  "zonaNombre": "A Mariña",
+  "provincia": "Lugo",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-a-marina.ts",
+  "sourceKey": "cervo",
+  "sourceExport": "RELATOS_A_MARINA",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "c9ff0e6f122d1c9ec43f92e744699073bf83a40b0dc73a834647dc9c369c7453",
+  "relato": {
+    "escala": "Costa y cerámica",
+    "abrir": [
+      "Cervo vive en dos tiempos a la vez. Unos cuatro mil habitantes entre San Cibrao —península con puerto, Museo Provincial do Mar, playas de Cubelas y O Torno— y Sargadelos, la referencia de cerámica gallega junto a la ruta del río Xunco. Es costa e industria: el complejo de San Ciprián —el nombre con que se conoce la refinería de alúmina y la fábrica de aluminio de San Cibrao, repartidas entre Cervo y Xove— está aquí mismo, con el hospital cerca y un casco menos denso que Viveiro o Ribadeo. Quien busca aquí no busca muralla: busca península, oficio y la Real Fábrica como marca del municipio.",
+      "Un martes de noviembre los servicios son 4/10 en nuestra escala: lo básico en el municipio; Burela, a unos diez minutos, completa comercio y hospital. Quien vive en San Cibrao siente puerto y Cantábrico; quien mira hacia Sargadelos, piedra, cerámica y paseo. El Hospital da Mariña queda a unos diez minutos desde San Cibrao —de los trayectos más cortos de la comarca—. El aeropuerto anda entre noventa y ciento cinco minutos según destino y ruta. Fibra parcial: comprobar dirección.",
+      "En verano San Cibrao y las playas reciben veraneo con tráfico hacia Cubelas y O Torno. El calendario local anima la costa; no rivaliza con la Semana Santa de Viveiro en impacto sobre un casco histórico. Quien viva en la península notará agosto; hacia Sargadelos y el interior, el volumen baja antes.",
+      "Fuera de temporada Cervo recupera ritmo de costa trabajada e industria cercana. Primavera y otoño dejan el Paseo dos Namorados y la ruta del Xunco más quietos. Si solo conoces un sábado de sol en Cubelas, te llevas la imagen de folleto de la península. Si has visto niebla y lonja, ya puedes decidir si quieres ese conjunto.",
+      "Encaja sobre todo por San Cibrao y la cercanía al hospital, no por villa completa ni aeropuerto cercano."
+    ],
+    "tiempo": [
+      "Cervo suma unas 1.880 horas de sol y unos 40 días despejados frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.050 milímetros en unos 146 días. Niebla alta; viento medio. El invierno es húmedo y gris; el verano también llovizna con frecuencia.",
+      "El verano ronda 18,5 °C, fresco frente a Baleares. Cubelas y O Torno tienen agua entre 17 y 19 °C; el Cantábrico abierto pide días de mar llana para un baño cómodo. Se gana frescura; se acepta cielo de Mariña. Conviene probar un frente de niebla, no solo un agosto claro en la península."
+    ],
+    "vivir": [
+      "El invierno en Cervo se nota en San Cibrao y hacia Sargadelos: humedad, niebla alta, viento medio y un cielo de unas 1.880 horas de sol frente a Mallorca. Conviene mirar aislamiento, salitre en la península y rastros de moho un día de niebla, no solo un agosto claro en Cubelas. La terraza o el balcón de verano se usan menos entre noviembre y febrero.",
+      "El día a día sin coche es incompleto: los servicios son 4/10 —lo básico en el municipio—; Burela, a unos diez minutos, completa comercio y hospital. Quien vive en San Cibrao siente puerto y Cantábrico; quien mira hacia Sargadelos, piedra, cerámica y paseo. En enero Cervo recupera ritmo de costa trabajada e industria cercana; no es villa amurallada densa. Quien viva en la península notará agosto en Cubelas y O Torno; hacia Sargadelos y el interior, el volumen baja antes.",
+      "Llegar de fuera busca península, oficio y la Real Fábrica, no muralla. Se oye gallego en San Cibrao y en Sargadelos; el castellano basta para lo cotidiano. Entre semana manda el coche hacia Burela para muchos recados; en verano la costa recibe veraneo. Quien mire Cervo solo por las playas debe sumar el complejo de San Ciprián —repartido entre Cervo y Xove—: en 2026 Alcoa asumió la propiedad íntegra, reinició el aluminio en abril y sigue señalando dudas de viabilidad en la refinería de alúmina por el coste energético.",
+      "La sanidad de urgencia y especialidades está cerca: el Hospital da Mariña queda a unos diez minutos —de los mejores tiempos de la zona—. Empadronarse aquí abre el médico de cabecera local; para el comarcal se conduce un trayecto corto a Burela. No es hospital a pie como en Burela, pero sí asumir una sanidad comarcal mucho más cercana que en O Vicedo o Ribadeo.",
+      "Mantener el vínculo con Mallorca pasa por un aeropuerto alrededor de los noventa o ciento cinco minutos —Asturias o Santiago—. En invierno el trayecto a menudo implica más logística. Conviene mirar el calendario real de vuelos del año, no solo el sol de la península en agosto.",
+      "Hay viviendas en San Cibrao, en el entorno de Sargadelos y en parroquias; poca obra nueva y fibra parcial. En la península hay que contar con salitre y ocupación de verano; hacia el interior, acceso y humedad. Conviene ver un día de viento y un noviembre, no solo el sol de la foto típica. En una casa con escaleras o parcela en desnivel hay que imaginar la rutina dentro de diez años; reforma y vistas al mar mueven el precio."
+    ],
+    "historia": [
+      "Sargadelos es el hilo cultural del municipio: la Real Fábrica y la cerámica gallega de diseño reconocible, con la ruta del río Xunco y el Paseo dos Namorados. No es un adorno: es la marca que saca a Cervo del mapa solo industrial y explica visitas que no son solo de playa.",
+      "San Cibrao aporta puerto, Museo Provincial do Mar y la península habitada frente al Cantábrico: la ficha marinera y la de la costa vivida. El complejo de San Ciprián —refinería de alúmina y planta de aluminio, entre Cervo y Xove— explica empleo y tensión económica: Alcoa es propietaria íntegra desde 2026, el aluminio volvió en abril y la refinería sigue bajo dudas de viabilidad por la energía."
+    ],
+    "fuera": [
+      "Cubelas y O Torno son las playas de la península: arena, Cantábrico y aparcamiento justo en los días buenos de agosto. Un martes de junio la orilla se respira; un domingo de temporada, no.",
+      "El museo y el puerto de San Cibrao permiten una tarde sin salir lejos: oficio, dársena y el mar como trabajo. No hace falta convertir cada salida en excursión.",
+      "Sargadelos y la ruta del Xunco dan paseo y visita de cerámica. Burela cubre hospital a diez minutos; Viveiro, casco y Covas; Esteiro, en Xove, arcos y surf. Aquí la orilla de diario es la península; la villa densa, Burela o Viveiro."
+    ],
+    "casa": [
+      "Hay viviendas en San Cibrao, en el entorno de Sargadelos y en parroquias; poca obra nueva y fibra parcial. En la península hay que contar con salitre y ocupación de verano; hacia el interior, acceso y humedad. Conviene ver un día de viento y un noviembre, no solo el sol de la foto típica.",
+      "Según Idealista (agosto de 2026), el precio medio ronda 1.210 €/m². Tres habitaciones en tipologías modestas quedan en franja asequible —alrededor de 142.000 euros, estimación a partir del €/m²—; reforma y vistas al mar mueven el precio.",
+      "Los servicios son 4/10. El Hospital da Mariña queda a unos diez minutos. Asturias anda alrededor de los noventa; Santiago, hacia los ciento cinco. Quien priorice sanidad cerca y Costa de San Cibrao lo entiende; quien busque casco amurallado, mira Viveiro."
+    ],
+    "encaja": {
+      "si": [
+        "Encaja para quien mande San Cibrao —la península con puerto, Museo Provincial do Mar y las playas de Cubelas y O Torno— y la cercanía al Hospital da Mariña a unos diez minutos, de los mejores tiempos de la zona. Un martes de noviembre los servicios son 4/10: lo básico en el municipio; Burela, a unos diez minutos, completa comercio y sanidad. Quien valore también Sargadelos —la Real Fábrica y la cerámica gallega de diseño reconocible, con la ruta del río Xunco y el Paseo dos Namorados— encontrará un municipio de costa e industria con precio bajo (alrededor de mil euros el metro), no un casco amurallado como Viveiro ni una frontera indiana como Ribadeo. El aeropuerto anda alrededor de los noventa a ciento cinco minutos.",
+        "El clima sigue lejos de Mallorca: unas mil ochocientas ochenta horas de sol y unos cuarenta días despejados frente a las dos mil ochocientas horas y ciento veinte jornadas claras de la isla; niebla alta, verano fresco cerca de dieciocho grados y medio. Cubelas y O Torno tienen agua entre diecisiete y diecinueve grados; el Cantábrico abierto pide días de mar llana para un baño cómodo. En verano la península recibe veraneo con tráfico hacia las playas; hacia Sargadelos y el interior el volumen baja. Encaja quien acepte coche para muchos recados a cambio de no vivir tan lejos del comarcal como en O Vicedo o Ribadeo."
+      ],
+      "no": [
+        "No encaja si se busca casco amurallado, Semana Santa de interés internacional o villa de frontera completa. Viveiro y Ribadeo cubren ese carácter; Cervo ofrece península, cerámica e industria. Tampoco si el aeropuerto debe quedar a una hora: Asturias anda alrededor de los noventa minutos; Santiago, hacia los ciento cinco. Los servicios 4/10 no sustituyen un súper y un mercado densos a pie todos los días.",
+        "Tampoco si el complejo industrial de San Ciprián —propiedad íntegra de Alcoa desde 2026, aluminio reactivado en abril y refinería de alúmina aún en cuestión por el coste energético— molesta como vecina visual y económica. Aquí la industria forma parte del municipio, junto al Museo do Mar y las playas. Y si se necesita el cielo estable de Baleares o un agosto silencioso en Cubelas, mejor probar otro tramo: niebla, cubierto y temporada de costa definen el año."
+      ],
+      "veredicto": "Veredicto: Cervo es costa, cerámica y hospital cerca. Buscaría vivienda en San Cibrao o cerca de Sargadelos, con fibra comprobada (es parcial), tras probar un agosto en la península y un día de niebla. Se ganan Cubelas, O Torno, Sargadelos y Burela a unos diez minutos; se aceptan servicios limitados, coche para el comercio grande, cielo de Mariña y el complejo de San Ciprián —Cervo/Xove, Alcoa 2026— en el horizonte."
+    },
+    "fotoIdentidad": {
+      "src": "/fotos/a-marina/cervo-identidad.jpg",
+      "pie": "Cervo: casas del pueblo frente al mar"
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/a-marina/cervo-sargadelos.jpg",
+        "pie": "Sargadelos: cerámica y Real Fábrica en Cervo"
+      },
+      {
+        "src": "/fotos/a-marina/cervo-villa.jpg",
+        "pie": "Cervo y el entorno de San Cibrao"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/a-marina/cervo-faro.jpg",
+        "pie": "Faro y península de San Cibrao"
+      },
+      {
+        "src": "/fotos/a-marina/cervo-puerto.jpg",
+        "pie": "San Cibrao: la planta de aluminio frente al mar"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/a-marina/cervo-costa.jpg",
+        "pie": "Istmo y costa de San Cibrao en Cervo"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

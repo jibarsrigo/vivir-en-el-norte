@@ -1,0 +1,90 @@
+{
+  "tipo": "municipio",
+  "slug": "tapia-de-casariego",
+  "nombre": "Tapia de Casariego",
+  "n": 48,
+  "zonaId": "asturias-occidente",
+  "zonaNombre": "Asturias Occidente",
+  "provincia": "Asturias",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-asturias-occidente.ts",
+  "sourceKey": "tapia-de-casariego",
+  "sourceExport": "RELATOS_ASTURIAS_OCCIDENTE",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "ab31451f80ca90f110b0ead43eb7d3066abc2020e636b1dadc3c5f09ce4c1c7d",
+  "relato": {
+    "escala": "Villa marinera de surf",
+    "abrir": [
+      "Tapia de Casariego se siente cuidada antes que grande. Unos tres mil ochocientos habitantes en una villa marinera compacta: puerto, casco de piedra y color, isla del faro, playas de surf a dos minutos y paseo costero que se camina cualquier día del año. Ribadeo y Navia quedan a unos quince o veinte minutos. No es ciudad ni la villa blanca de Luarca: es orilla de ola, niebla alta y un casco que no se vacía del todo en enero.",
+      "Quien vive aquí es gente local, vecinos de oficio del mar y veraneantes que vuelven cada agosto. Un martes de noviembre se compra, se va al centro de salud y se camina el casco. Los servicios de ficha son 4/10 —villa con paseo y vida diaria básica; falta, por ejemplo, instituto de FP—; hay fibra. El Hospital de Jarrio queda a unos veinte minutos. El aeropuerto de Asturias anda alrededor de los setenta; Santiago, hacia las dos horas.",
+      "El tráfico es de villa pequeña casi todo el año. En verano Anguileiro, Represas, Serantes y Arnao reciben surfistas, toallas y coches hacia la costa: aparcamiento justo en los días claros. Las patronales y el veraneo animan el puerto unos días con ruido y afluencia. Quien viva junto a la orilla notará agosto; hacia el interior del casco, el silencio vuelve antes.",
+      "La semana tiene rutinas de puerto: lonja o pez fresco cuando toca, café junto a la dársena, paseo hacia el faro, bajar a la ola cuando el Cantábrico lo permita. La ruta costera hacia Figueras cierra el trayecto de frontera. Primavera y otoño son buenas épocas para conocerlo: el verde de la costa occidental se pone intenso; en noviembre la niebla alta enseña el trato real. Si solo conoces un sábado de sol en Anguileiro, te llevas la imagen de folleto. Si has visto un día de bruma pegada al faro, ya puedes decidir si de verdad quieres vivir aquí.",
+      "Tapia encaja para quien quiera villa marinera pequeña y muy cuidada, con surf delante y el cielo cantábrico como vecino. Oviedo y Avilés siguen hacia la hora; aquí el mapa útil es Ribadeo, Navia, Penarronda y el propio paseo."
+    ],
+    "tiempo": [
+      "Si vienes de Baleares, el cuerpo nota el gris antes que el frío. Tapia suma unas mil novecientas cincuenta horas de sol y unos cuarenta días despejados, lejos de las dos mil ochocientas horas y ciento veinte jornadas claras de Mallorca. Caen alrededor de novecientos cincuenta milímetros en unos ciento treinta y ocho días. La niebla es alta —de las más marcadas de la zona—; el viento, medio. También en verano llueve con frecuencia.",
+      "El verano ronda dieciocho grados y medio, fresco frente a Baleares. Las playas de surf tienen agua entre dieciocho y veinte grados; el Cantábrico abierto pide días de mar más llana para un baño cómodo. Penarronda, hacia Castropol, amplía dunas cuando apetece otra orilla. Conviene venir un día de niebla densa y un sábado de afluencia en Anguileiro, no solo un agosto soleado."
+    ],
+    "vivir": [
+      "El invierno en casa se nota por la niebla alta —de las más marcadas de la zona— y el salitre del puerto. En Mallorca muchas viviendas casi no piensan en humedad; aquí conviene mirar orientación menos abierta a la nortada, aislamiento y si la terraza al paseo sigue siendo usable entre noviembre y febrero. Visitar un día de bruma pegada al faro y otro de viento enseña más que un sábado de sol en Anguileiro.",
+      "Sin coche se puede resolver más que en Castropol: el casco es compacto, hay centro de salud, se camina el paseo y se compra lo básico. Los servicios son 4/10 —villa con vida diaria básica; falta, por ejemplo, instituto de FP— y hay fibra. En enero la villa no se vacía del todo: hay café junto a la dársena y vecinos en la calle. Ribadeo y Navia, a unos quince o veinte minutos, cubren lo que la villa pequeña no da.",
+      "Conviven gente local, vecinos de oficio del mar y veraneantes que vuelven cada agosto. Se oye asturiano en el puerto y en el mercado; el castellano basta para lo cotidiano, pero la vida social pasa por el casco marinero y el ritmo de lonja más que por una plaza de ciudad. Entre semana manda la escala de villa cuidada; en verano Anguileiro, Represas y Serantes suben el volumen con surfistas y toallas.",
+      "La sanidad de especialidades no está en Tapia: el Hospital de Jarrio queda a unos veinte minutos. En la villa hay centro de salud para lo diario; para urgencias y pruebas se baja a Coaña. Es asumir hospital comarcal cercano, no edificio a la vuelta del faro.",
+      "Ir y volver a Mallorca pide trayecto: el aeropuerto de Asturias anda alrededor de los setenta minutos; Santiago, hacia las dos horas. Palma en verano cabe desde Asturias; en invierno la logística suele alargarse. Conviene mirar el calendario real de vuelos, no solo el de agosto en la orilla.",
+      "La vivienda típica es piso o casa de villa marinera junto al puerto o al paseo: edificios bajos, terraza al Cantábrico, poca obra nueva y fibra. Junto a la orilla hay que contar con salitre, niebla y ocupación de verano; hacia el interior del casco, el silencio vuelve antes. Reforma y orientación importan tanto como las vistas al faro."
+    ],
+    "historia": [
+      "El puerto, el casco marinero y la isla del faro explican Tapia: villa de oficio del mar y de costa cuidada, cuidada y compacta. No es un decorado de temporada: la dársena y las calles estrechas cuentan trabajo y salitre. El surf contemporáneo —Anguileiro, Serantes, Represas— añade capa de orilla viva sin borrar el carácter de villa pequeña.",
+      "La ruta costera hacia Figueras y la cercanía a la ría del Eo sitúan Tapia en la costa occidental asturiana de frontera. Lo que conviene saber es marinera y de paseo, no de gran casco indiano como Luarca ni de villa de servicios como Navia. Aquí la ficha es faro, ola y casco que se reconoce en una sola tarde."
+    ],
+    "fuera": [
+      "Si solo hay tiempo para un baño o una sesión cerca, esa orilla es Anguileiro —con Represas y Serantes a un paso—. Quedan a unos dos minutos: playa de surf, Cantábrico abierto, agua entre dieciocho y veinte grados. Un martes de junio puedes tener espacio; un domingo de agosto el aparcamiento se queda corto y la gente busca sitio con paciencia. Arnao amplía opciones sin alejarse demasiado.",
+      "El paseo y la isla del faro permiten una tarde sin coche: mirar el mar, oír el golpe del agua, volver al casco por calles de villa. No es resort: es orilla de vecinos y de tabla. Cuando el oleaje esté bravo, se mira más de lo que se nada; cuando esté llano, el baño corto despabila la piel.",
+      "Penarronda cubre dunas hacia Castropol. Navia aporta villa de servicios y Puerto de Vega a un trayecto corto; Ribadeo, frontera gallega. La costa occidental se lee en tramos: faro, ola, ría del Eo, y otra vez pueblo blanco o villa útil según el día."
+    ],
+    "casa": [
+      "El casco y el entorno del puerto ofrecen pisos y viviendas de villa marinera: edificios bajos, terraza al paseo o al Cantábrico, poca obra nueva y fibra. Junto a la orilla hay que contar con salitre, niebla alta y ocupación de verano. Conviene la orientación menos abierta a la nortada fuerte, y venir un día de viento, no solo un sábado de sol.",
+      "El precio medio ronda mil trescientos cincuenta euros el metro, el más alto de la zona. Tres habitaciones en la franja asequible se sitúan alrededor de ciento cincuenta y ocho mil euros. La franja media puede ser vivienda reformada cerca del paseo o con mejores vistas al puerto.",
+      "Los servicios son 4/10. Jarrio queda a unos veinte minutos. Asturias está a unos setenta; Santiago-Lavacolla, hacia las dos horas. Eso es Tapia: mucho mar delante y gestos diarios de villa pequeña; el hospital y el vuelo piden trayecto."
+    ],
+    "encaja": {
+      "si": [
+        "El mar a dos minutos importa más que tener el hospital a la vuelta de la esquina. Tapia de Casariego es villa marinera pequeña y cuidada: puerto, casco, isla del faro, paseo costero y playas de surf —Anguileiro, Represas, Serantes; Arnao cerca— casi en la puerta. Quien quiera caminar el casco un martes de noviembre, tomar café junto al puerto y bajar a la orilla cuando el oleaje lo permita encontrará aquí una villa que no se apaga del todo fuera de temporada, aunque la niebla alta forme parte del trato. En agosto Anguileiro y el resto de playas reciben surfistas, toallas y tráfico; hacia el interior del casco el silencio vuelve antes. Unas 1.950 horas de sol y unos cuarenta días despejados —frente a las 2.800 horas y ciento veinte jornadas claras de Mallorca— marcan el contraste con Baleares: verano alrededor de 18,5 °C, agua entre 18 y 20 °C, y el Cantábrico abierto pidiendo días de mar más llana para un baño cómodo. Penarronda, hacia Castropol, amplía dunas cuando apetece otra orilla.",
+        "Funciona si se acepta el Hospital de Jarrio, en Coaña, a unos veinte minutos, y el aeropuerto de Asturias alrededor de los setenta. Ribadeo y Navia quedan a unos quince o veinte minutos como apoyo de comercio o villa mayor; la ruta costera hacia Figueras cierra el paseo de frontera. Los servicios de ficha son 4/10 —villa con paseo y vida diaria básica; falta, por ejemplo, instituto de FP—, con fibra sí. A cambio se gana orilla de surf delante, casco compacto y un carácter más marinero que monumental: no es la villa blanca de Luarca, es la de puerto y ola. Quien tenga tiempo libre para el faro, el paseo y las playas, y pruebe un día de niebla densa antes de comprar, entenderá Tapia sin inventarse otro clima."
+      ],
+      "no": [
+        "El hospital a veinte minutos y el aeropuerto a unos setenta no se acortan eligiendo otra calle junto al puerto. Si la prioridad absoluta es Jarrio a diez minutos, Navia lo cubre; si lo que manda es volar a Palma en verano con el trayecto más corto de la zona, Luarca deja Asturias a unos cuarenta minutos. Tapia no compite en esa logística: compite en orilla y casco marinero. Tampoco encaja quien necesite ciudad grande a media hora —Oviedo o Avilés siguen hacia la hora— ni quien quiera el metro más bajo: aquí el precio ronda 1.350 €/m², el más alto de Asturias Occidente.",
+        "La niebla alta y el verano fresco cortan el trato si se llega del Mediterráneo esperando cielo abierto y calor de terraza. Quien se decida solo tras un sábado de sol de agosto, sin probar el aparcamiento junto a Anguileiro cuando la costa se llena ni un noviembre de bruma pegada al faro, se llevará una sorpresa. Si lo que se busca es imagen típica indiana, cementerio sobre el acantilado y casco de Luarca, esta villa no lo es; si se busca solo precio mínimo, Castropol queda más bajo. Tapia pide aceptar el Cantábrico de verdad —viento medio, lluvia frecuente, baño corto muchos días— a cambio del surf y el paseo."
+      ],
+      "veredicto": "Veredicto: Tapia encaja como villa marinera de surf y casco cuidado —piso o vivienda caminable a puerto y paseo, fuera del tramo más ocupado de Anguileiro o Serantes en agosto— sobre todo si la orilla delante importa más que el aeropuerto cerca. Comprobar niebla densa y un sábado de afluencia en la playa antes de comprar. Se ganan faro, ola a dos minutos y villa viva en noviembre; se aceptan unos 1.350 €/m², Jarrio a veinte minutos y Asturias a unos setenta. Quien priorice sanidad a diez minutos, Navia; quien priorice vuelo corto y villa blanca, Luarca."
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/asturias-occidente/tapia-puerto.jpg",
+        "pie": "Puerto de Tapia de Casariego"
+      },
+      {
+        "src": "/fotos/asturias-occidente/tapia-casco.jpg",
+        "pie": "Casco marinero de Tapia"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/asturias-occidente/tapia-faro.jpg",
+        "pie": "Faro e isla frente a Tapia"
+      },
+      {
+        "src": "/fotos/asturias-occidente/tapia-paseo.jpg",
+        "pie": "Paseo costero de Tapia"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/asturias-occidente/tapia-playa.jpg",
+        "pie": "Playa de Tapia hacia el Cantábrico"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

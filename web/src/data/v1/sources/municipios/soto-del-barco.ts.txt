@@ -1,0 +1,62 @@
+{
+    escala: "Estuario del Nalón",
+    abrir: [
+      "Soto del Barco reúne unos cuatro mil habitantes en el estuario del Nalón, frente a Muros: San Juan de la Arena —pueblo marinero de desembocadura, tradición de angulas—, la playa larga de Los Quebrantos y el castillo de San Martín sobre la orilla. No es ciudad ni villa-paseo residencial tipo Salinas; es orilla de ría con playa usable, Avilés a unos quince minutos y un ritmo que baja cuando acaba agosto.",
+      "Un martes de noviembre los servicios son 4/10: lo básico en el municipio; Avilés cubre el resto. San Agustín queda a unos veinte minutos. El aeropuerto de Asturias está a unos diez —junto a Muros y Salinas, de los mejores tiempos de la zona—, con Palma en verano. El coche organiza la semana: estuario para vivir, ciudad para muchos recados.",
+      "En verano Los Quebrantos y San Juan de la Arena reciben toallas, tráfico hacia la playa y algo de ruido de temporada. Las patronales locales animan el casco unos días. Fuera de agosto el estuario recupera calma: niebla media, humedad de ría y un silencio que no es el de una urbanización vacía, sino el de una desembocadura que vuelve a su escala.",
+      "La población mezcla vecinos del concejo, gente que trabaja hacia Avilés y quienes eligieron playa larga y aeropuerto cercano sin pagar el metro de Gijón. Quien viva solo del municipio notará lo que falta; quien acepte Avilés a quince minutos encontrará una orilla más usable que el Cantábrico bravo de Peñas.",
+      "Soto encaja para quien quiera estuario tranquilo, playa larga y aeropuerto a diez minutos, con precio todavía asequible —y con fibra parcial comprobada antes de comprar—.",
+    ],
+    tiempo: [
+      "Soto registra unas 1.780 horas de sol y 42 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.050 milímetros en unos 150 días. La niebla es media; el viento, bajo. El cielo sigue siendo cantábrico: se pierden casi mil horas de sol respecto a Baleares, concentradas en los meses grises.",
+      "El verano ronda 19 °C, fresco frente a Baleares. Los Quebrantos tienen agua entre 19 y 21 °C; el estuario ofrece baño más usable que el Cantábrico abierto hacia el Cabo Peñas, aunque muchos días el paseo pese más que el chapuzón largo.",
+    ],
+    vivir: [
+      "El invierno en casa se nota por la humedad de ría y la niebla media sobre el estuario: junto a Los Quebrantos o San Juan de la Arena hay que contar con salitre y humedad; hacia el interior, acceso y orientación. Conviene tocar paredes un día húmedo y no firmar solo con sol de folleto en la playa larga.",
+      "Sin coche la semana se queda corta. Los servicios son 4/10: lo básico en el municipio; Avilés, a unos quince minutos, cubre el resto. En enero el estuario recupera calma —no es urbanización vacía, sino desembocadura a su escala—. Quien acepte Avilés para muchos recados encontrará orilla usable; quien quiera todo a pie, no.",
+      "Conviven vecinos del concejo, gente que trabaja hacia Avilés y quienes eligieron playa larga y aeropuerto cercano. Se oye asturiano en el pueblo marinero y castellano en la compra; el castellano basta para lo cotidiano. La vida social pasa por San Juan de la Arena y el ritmo de estuario más que por una villa-paseo densa. En verano sube el volumen en Quebrantos; fuera de agosto vuelve el silencio de ría.",
+      "La sanidad comarcal pide trayecto: San Agustín queda a unos veinte minutos; el privado Centro Médico de Asturias, en Oviedo, hacia los treinta y cinco. En el municipio hay lo básico; para urgencias y especialidades se baja a Avilés. Es estuario con hospital usable, no sanidad a la puerta de la playa.",
+      "Mantener el vínculo con Mallorca es cómodo en trayecto: el aeropuerto de Asturias está a unos diez minutos —junto a Muros y Salinas, de los mejores tiempos—, con Palma en verano. En invierno conviene mirar el calendario real de vuelos, no solo el de agosto en Quebrantos.",
+      "La vivienda típica es piso o casa de concejo hacia San Juan de la Arena y el estuario, sin obra nueva. La fibra es parcial —hay que comprobarla—. Junto a la playa hay que contar con ocupación de verano, salitre y humedad; se compra orilla usable y logística de aeropuerto, no la densidad de servicios de Salinas.",
+    ],
+    historia: [
+      "San Juan de la Arena y el oficio marinero del estuario explican Soto: pueblo de desembocadura, angulas y playa larga, no de casco indiano denso ni de pueblo de foto turística. La relación con el Nalón —río, marea, oficio— es el hilo útil del lugar.",
+      "El castillo de San Martín añade capa de frontera fluvial sobre la desembocadura: piedra y horizonte de estuario, recuerdo de control del paso del río. La historia aquí es de orilla y oficio, no de ciudad.",
+      "Lo que queda para quien llega a vivir es esa escala de ría: pueblo marinero, playa larga y Avilés cerca, sin pretender ser la villa residencial de Castrillón ni la urbe de Gijón.",
+    ],
+    fuera: [
+      "Los Quebrantos y San Juan de la Arena son la orilla de diario: playa larga a unos cinco minutos, agua entre 19 y 21 °C, toallas en agosto y espacio más usable fuera de temporada. El estuario permite paseo sin alejarse —marea, luz sobre el Nalón, ritmo de desembocadura—.",
+      "Muros aporta la Ruta de los Miradores al otro lado del río: siete miradores sobre la misma boca fluvial, una tarde distinta sin salir del estuario. Salinas y Avilés quedan a un trayecto corto si se buscan paseo residencial, comercio o cultura.",
+      "Cuando hay más tiempo, el mapa se abre hacia Cudillero y el Cabo Vidio al oeste, o hacia la costa de Peñas al este. El tiempo libre de Soto es playa de estuario primero; ciudad y costa abierta, después.",
+    ],
+    casa: [
+      "El entorno de San Juan de la Arena y el estuario ofrecen viviendas de villa y parroquia: pisos y casas de concejo, sin obra nueva. La fibra es parcial. Junto a la playa hay que contar con ocupación de verano, salitre y humedad; hacia el interior del estuario, acceso y distancia real a Avilés.",
+      "El precio medio ronda 1.200 €/m². Tres habitaciones en la franja asequible se sitúan alrededor de 140.000 euros. Se compra orilla usable y logística de aeropuerto; no se compra la densidad de servicios de Salinas.",
+      "Los servicios son 4/10. San Agustín queda a unos veinte minutos; el privado Centro Médico de Asturias, en Oviedo, hacia los treinta y cinco. El aeropuerto de Asturias está a unos diez minutos, con Palma en verano. Avilés, a unos quince, resuelve muchos recados de la semana.",
+    ],
+    encaja: {
+      si: [
+        "Encaja para quien quiera vivir el estuario del Nalón con playa larga todo el año —San Juan de la Arena, pueblo marinero de angulas; Los Quebrantos a unos cinco minutos; el castillo de San Martín sobre la desembocadura— y acepte que no es ciudad ni villa-paseo residencial. Un martes de noviembre los servicios son 4/10: lo básico en el municipio; Avilés, a unos quince minutos, cubre el resto. Quien priorice orilla de ría usable, aeropuerto a unos diez minutos (Asturias, con Palma en verano) y precio todavía asequible —alrededor de 1.200 €/m²; tres habitaciones cerca de 140.000 euros— encontrará aquí calma de estuario frente al anfiteatro de Cudillero o la densidad de Gijón. El agua en Los Quebrantos anda entre 19 y 21 °C; el baño es más usable que en el Cantábrico bravo de Peñas.",
+        "El clima sigue siendo cantábrico, no balear: unas 1.780 horas de sol y 42 días despejados frente a las 2.800 horas y 120 jornadas claras de Mallorca; caen alrededor de 1.050 milímetros en unos 150 días, con niebla media y viento bajo. El verano ronda 19 °C: se gana frescura y se acepta cielo gris frecuente. En verano Los Quebrantos y San Juan de la Arena reciben toallas, tráfico hacia la playa y algo de ruido de temporada; fuera de agosto el estuario recupera silencio. Encaja si has visto un martes de noviembre vacío y un sábado de agosto en Quebrantos y siga queriendo esa orilla —con fibra parcial comprobada— a cambio de no tener Salinas a la puerta.",
+      ],
+      no: [
+        "No encaja si se busca villa-playa residencial con paseo de casas bajas como Salinas o ciudad completa como Gijón. Soto ofrece estuario y playa larga, no comercio denso ni hospital a la vuelta de la esquina: San Agustín queda a unos veinte minutos; el privado Centro Médico de Asturias, en Oviedo, hacia los treinta y cinco. Los servicios 4/10 y la fibra parcial no se arreglan eligiendo otra calle junto a San Juan de la Arena.",
+        "Tampoco si el cielo de Baleares es imprescindible o si se necesita vida diaria sin coche. Aquí mandan cubierto (unos 165 días), niebla media y verano fresco; Avilés resuelve muchos recados. Quien se decida solo tras un día soleado en Los Quebrantos, sin probar ocupación de temporada ni un noviembre de ría, se llevará una sorpresa.",
+      ],
+      veredicto:
+        "Veredicto: Soto es la apuesta de estuario y playa larga. Buscaría tres habitaciones hacia San Juan de la Arena o el estuario, con fibra comprobada —es parcial—, tras probar un agosto en Quebrantos y un martes de noviembre. Se ganan aeropuerto a diez minutos, Avilés a quince y precio asequible; se aceptan servicios 4/10, cielo cantábrico y San Agustín a veinte.",
+    },
+    fotosAbrir: [
+      { src: "/fotos/asturias-centro/soto-arena.jpg", pie: "San Juan de la Arena, Soto del Barco" },
+      { src: "/fotos/asturias-centro/soto-villa.jpg", pie: "Soto del Barco hacia el estuario" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/asturias-centro/soto-castillo.jpg", pie: "Castillo de San Martín, Soto del Barco" },
+      { src: "/fotos/asturias-centro/soto-estuario.jpg", pie: "Estuario del Nalón en Soto del Barco" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/asturias-centro/soto-playa.jpg", pie: "Playa en Soto del Barco" },
+      { src: "/fotos/asturias-centro/soto-quebrantos.jpg", pie: "Los Quebrantos, San Juan de la Arena" },
+    ],
+    creditoFotos: credito,
+  }

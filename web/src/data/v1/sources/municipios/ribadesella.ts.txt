@@ -1,0 +1,66 @@
+{
+    escala: "Villa del Sella y playa",
+    abrir: [
+      "Ribadesella se siente villa equilibrada desde el primer cruce del puente. Unos cinco mil setecientos habitantes, puerto en la ría del Sella —el río que baja de los Picos y desemboca aquí—, casco con soportales, paseo de Santa Marina con casas de Indianos, playa urbana, cueva de Tito Bustillo y Vega a unos diez minutos; Cangas de Onís, Covadonga y los Picos alrededor de los treinta. No es solo la foto de verano: es villa completa con mercado, comercio y mesas un martes de noviembre, y el paisaje total —mar, río y montaña— en un solo mapa.",
+      "Quien vive aquí es gente local, vecinos de toda la vida, y veraneantes que vuelven cada julio y agosto. Un martes de noviembre se camina el casco, se compra en villa y se resuelve el día a día. Los servicios alcanzan 7/10 y hay fibra. El Hospital del Oriente, en Arriondas, queda a unos veinte minutos —sanidad comarcal usable—. El aeropuerto de Asturias anda alrededor de los setenta y cinco minutos; Santander, alrededor de los noventa. Ese trayecto a Palma no se acorta eligiendo otra calle del paseo.",
+      "En julio y agosto la villa multiplica población con veraneo madrileño: toallas en Santa Marina, tráfico, ruido y aparcamiento justo. El Descenso del Sella —primer sábado de agosto— llena la ría y el casco: miles de piraguas, música y un día que no se parece a ningún otro del año. De octubre a junio Ribadesella vuelve a ser una villa cuidada: soportales, paseo, puerto trabajando a escala local. Quien busque silencio absoluto de temporada alta no lo encontrará aquí; quien busque café y recados en enero, sí.",
+      "La semana tiene rutinas claras: casco con soportales, Santa Marina, puerto y, cuando apetece, Vega a diez minutos o los Picos a treinta. Primavera y otoño son buenas épocas para conocerlo: el Sella cambia de color y la villa se ve como es de verdad, sin la presión de agosto. Si solo conoces el Descenso, te llevas la imagen del río lleno. Si has visto un martes gris de noviembre, ya puedes decidir si de verdad quieres vivir aquí.",
+      "El calendario local no es decoración. El Descenso del Sella —primer sábado de agosto— y el veraneo madrileño marcan semanas enteras de afluencia, mesas llenas y calles lentas. Quien viva junto al paseo o en el acceso a Santa Marina debe contarlas como parte del año, no como excepción imprevista.",
+    ],
+    tiempo: [
+      "Si vienes de Baleares, el cielo de Ribadesella pide aceptar el sol mínimo de la tabla. Suma unas 1.700 a 1.750 horas de sol y unos cuarenta días despejados, frente a las 2.800 horas y ciento veinte jornadas claras de Mallorca. Caen alrededor de 1.200 a 1.300 milímetros en unos 153 a 155 días. El viento es bajo; también en verano llueve con frecuencia. La diferencia se come sobre todo en invierno: mañanas cubiertas, terraza que se usa a medias.",
+      "El verano ronda 19,5 °C, fresco frente a Baleares. Santa Marina y Vega tienen agua entre 19 y 21 °C; la ría del Sella ofrece orilla más abrigada que el Cantábrico abierto. Se gana frescura cantábrica; se aceptan 168 cubiertos y lluvia también en julio. Conviene venir un día de Descenso o de afluencia y un martes de noviembre, no solo un sábado de sol en el paseo.",
+    ],
+    vivir: [
+      "El invierno en casa se nota por el salitre del paseo de Santa Marina y las mañanas cubiertas: la terraza de Indianos se usa a medias entre noviembre y febrero. Conviene probar un día de lluvia en el paseo y el estado de galerías, no solo firmar con sol de folleto. De octubre a junio la villa recupera calma; el frío interior y la humedad siguen siendo el trato cantábrico.",
+      "Sin coche se resuelve mucho: casco con soportales, mercado, comercio y mesas un martes de noviembre; servicios 7/10 y fibra. En enero hay café y recados —villa cuidada, no decorado vacío—. Vega, Tito Bustillo o los Picos piden coche; el día a día se camina entre el puerto y Santa Marina.",
+      "Conviven gente local, vecinos de toda la vida y veraneantes que vuelven cada julio y agosto. Se oye asturiano en el mercado y en el puerto; el castellano basta para lo cotidiano. La vida social pasa por el Sella, los soportales y la vida de villa —incluido el Descenso del Sella el primer sábado de agosto—. Entre semana manda la escala local; en temporada alta la población se multiplica.",
+      "La sanidad comarcal es usable: el Hospital del Oriente, en Arriondas, queda a unos veinte minutos. Empadronarse aquí abre servicios de villa; para especialidades se baja a Arriondas. No es Cabueñes a veinticinco como en Villaviciosa: es hospital del oriente a media hora corta.",
+      "Ir y volver a Mallorca es el punto débil: el aeropuerto de Asturias anda alrededor de los setenta y cinco minutos; Santander, alrededor de los noventa. Palma en verano cabe desde Asturias; casi todo el año, a menudo vía Santander. En invierno el coste no es solo el billete: es la logística. Conviene mirar el calendario real, no solo el de agosto en Santa Marina.",
+      "La vivienda típica es piso o casa de villa en el casco o el paseo de Santa Marina: poca obra nueva, fibra, facilidad de venta alta. Junto a la playa hay que contar con ocupación de agosto, salitre y precio. Tres habitaciones pegadas a Santa Marina entran con facilidad en franja cara; en casco o hacia la ría hay más margen.",
+    ],
+    historia: [
+      "El paseo de Santa Marina y las casas de Indianos explican Ribadesella: villa de retorno de América y de veraneo, con puerto en la desembocadura del Sella. Las galerías y los colores no son adorno de folleto: son el carácter de la orilla, la ficha de quien marchó y volvió plantando casa frente al mar.",
+      "Tito Bustillo —arte paleolítico en cueva— añade una capa de miles de años bajo el mismo municipio. El Descenso del Sella, ya en el siglo XX convertido en fiesta de río, fija Ribadesella en el calendario nacional del primer sábado de agosto. Lo que conviene saber combina Indianos, ría, cueva y Picos a media hora: no hace falta inventar otra costa.",
+      "Cangas de Onís y Covadonga, a unos treinta minutos, enlazan la villa con la ficha de los Picos: excursiones, afluencia en temporada y un horizonte de montaña que desde el puerto se intuye más que se toca. Ribadesella vive de ese equilibrio villa-río-montaña, no de un solo gesto.",
+    ],
+    fuera: [
+      "Si solo hay tiempo para una tarde de diario, esa tarde es Santa Marina, el puerto y el casco con soportales: paseo de Indianos, playa urbana y mesas cuando el tiempo acompaña. La Ermita de la Guía cierra mirador sobre la ría. Un martes de noviembre puedes caminar sin prisa; un sábado de agosto en el paseo cuesta aparcar entre toallas y tráfico.",
+      "A unos diez minutos, Vega cubre playa distinta: más abierta, otra escala de orilla. El agua anda entre 19 y 21 °C; se entra, se nada, se sale con la piel que se despierta del frío. Tito Bustillo aporta la cueva cuando hay visita posible: otra tarde, otro ambiente. En temporada alta la afluencia hacia playa y Picos se nota en la carretera; fuera de agosto, la villa recupera calma.",
+      "Los Picos —Cangas de Onís, Covadonga— quedan a unos treinta minutos: montaña real como salida, no como umbral de cada casa. Aquí el paisaje diario es Sella, Indianos y playa urbana; la sierra y los lagos son trayecto corto cuando se quiere horizonte de piedra.",
+    ],
+    casa: [
+      "El casco y el paseo de Santa Marina ofrecen pisos y viviendas de villa: poca obra nueva, fibra, facilidad de venta alta en el contexto de la zona. Junto a la playa hay que contar con ocupación de agosto, salitre y precio. Conviene probar un sábado de afluencia y un día de lluvia en el paseo, no solo firmar con sol de folleto.",
+      "El precio medio ronda 2.200 €/m² —el más alto de Asturias Oriente—. Dos habitaciones en la franja asequible se sitúan alrededor de 186.000 euros; tres habitaciones, alrededor de 257.000. La franja media puede ser piso reformado en casco o vivienda hacia la ría; tres habitaciones pegadas a Santa Marina entran con facilidad en franja cara.",
+      "Los servicios son 7/10: villa completa. Arriondas queda a unos veinte minutos. Asturias está a unos setenta y cinco; Santander, a unos noventa. Eso es Ribadesella: Sella, Indianos y Picos cerca a cambio de agosto lleno, metro alto y aeropuerto lejos.",
+    ],
+    encaja: {
+      si: [
+        "El Sella, Santa Marina y los Picos a media hora importan más que el silencio de agosto. Ribadesella es la villa equilibrada del oriente: puerto en la desembocadura, casco con soportales, paseo de Indianos, playa urbana, Tito Bustillo y Vega a unos diez minutos; Cangas, Covadonga y los Picos alrededor de los treinta. Quien quiera caminar el casco un martes de noviembre —servicios 7/10, fibra, mercado y mesas— y bajar a Santa Marina o a la ría cuando el oleaje lo permita encontrará villa completa todo el año, no solo foto de verano. El verano ronda 19,5 °C, agua entre 19 y 21 °C; unas 1.700 a 1.750 horas de sol y unos cuarenta despejados frente a Mallorca marcan el contraste: se gana frescura cantábrica y se acepta el sol mínimo de la tabla. En julio y agosto el veraneo madrileño multiplica población: toallas, tráfico, ruido y aparcamiento justo; el Descenso del Sella —primer sábado de agosto— llena la ría y el casco. De octubre a junio la villa recupera ritmo cuidado.",
+        "Funciona si se acepta el Hospital del Oriente, en Arriondas, a unos veinte minutos —sanidad comarcal usable— y el aeropuerto lejos: Asturias alrededor de setenta y cinco minutos; Santander, alrededor de noventa. A cambio se gana el paisaje total de la zona —mar, río y montaña— en una sola villa, con facilidad de venta alta en el contexto oriental. El metro ronda 2.200 €/m², el más alto de Asturias Oriente: tres habitaciones en primera línea de Santa Marina entran en franja cara; en casco o hacia la ría hay más margen. Quien pruebe el Descenso o un sábado de agosto en el paseo, y un martes gris de noviembre, y siga queriendo Indianos, Sella y Picos cerca, entenderá Ribadesella sin pedirle calma de temporada alta.",
+      ],
+      no: [
+        "Julio y agosto no son noviembre: si la calma en temporada alta es innegociable, esta villa no encaja aunque el casco sea precioso. Llanes sufre el mismo golpe de veraneo; Villaviciosa y Ribadedeva lo viven con menos intensidad. Tampoco encaja quien busque tres habitaciones pegadas a Santa Marina en franja muy asequible: el metro más alto de la zona y la orilla de Indianos empujan el precio. Quien se decida solo por un día de sol en el paseo, sin probar el atasco de coches del Descenso ni un invierno de cielo cubierto, se llevará una sorpresa.",
+        "El cielo de Baleares y el vuelo corto no están aquí: 168 cubiertos, lluvia también en verano, Asturias a setenta y cinco minutos y Santander a noventa. Si la prioridad absoluta es Cabueñes a veinticinco y Asturias a cuarenta y cinco, Villaviciosa gana logística; si muro, Cuera y más de treinta playas, Llanes; si Lastres y el Fitu sin pagar villa turística, Colunga. Ribadesella pide aceptar turismo de Picos y río —excursiones, afluencia hacia Cangas y Covadonga en temporada— a cambio del equilibrio villa-hospital-paisaje.",
+      ],
+      veredicto:
+        "Veredicto: Ribadesella encaja como villa del Sella e Indianos —piso o vivienda en casco o cerca del paseo, fuera del tramo más ocupado de Santa Marina en agosto— sobre todo si Arriondas a veinte, Picos a treinta y villa 7/10 todo el año importan más que el silencio de julio. Probar el Descenso o un sábado de afluencia y un martes de noviembre antes de comprar. Se ganan puerto, Tito Bustillo, Vega y el paisaje más completo del oriente; se aceptan ~2.200 €/m², agosto lleno y aeropuerto lejos. Quien priorice sanidad hacia Gijón y metro más bajo, Villaviciosa; quien priorice treinta playas y muro, Llanes.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/asturias-oriente/ribadesella-identidad.jpg",
+      pie: "Ribadesella: casas junto a la desembocadura del Sella, con los Picos al fondo",
+    },
+    fotosAbrir: [
+      { src: "/fotos/asturias-oriente/ribadesella-puerto.jpg", pie: "Puerto de Ribadesella" },
+      { src: "/fotos/asturias-oriente/ribadesella-santa-marina.jpg", pie: "Paseo de Santa Marina" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/asturias-oriente/ribadesella-indianos.jpg", pie: "Casas de Indianos en Santa Marina" },
+      { src: "/fotos/asturias-oriente/ribadesella-tito.jpg", pie: "Entorno de Tito Bustillo, Ribadesella" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/asturias-oriente/ribadesella-sella.jpg", pie: "Ría del Sella en Ribadesella" },
+      { src: "/fotos/asturias-oriente/ribadesella-vega.jpg", pie: "Playa de Vega, cerca de Ribadesella" },
+    ],
+    creditoFotos: credito,
+  }

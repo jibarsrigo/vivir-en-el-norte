@@ -1,0 +1,65 @@
+{
+    escala: "Ciudad atlántica compacta",
+    abrir: [
+      "A Coruña se siente más grande y más compacta de lo que el mapa sugiere. Alrededor de doscientos cincuenta mil habitantes —orden de magnitud reciente, a contrastar en el INE o el IGE— en una península atlántica: Torre de Hércules —faro romano patrimonio de la humanidad—, paseo marítimo de unos trece kilómetros, casco viejo, Marina con galerías de cristal, Riazor y Orzán frente al oleaje, y el Monte de San Pedro como mirador. Es una ciudad que se camina bien: en nuestra escala propia la dependencia del coche ronda 2/10. El Atlántico no es escapada; es vecino.",
+      "Un martes de noviembre se resuelve comercio, centro de salud, farmacia, universidad, cine y restauración sin salir lejos. Quien vive aquí es gente de capital, de lonja y de costa urbana. Los servicios alcanzan 10/10 en nuestra escala propia. El CHUAC —Complejo Hospitalario Universitario de A Coruña, el hospital público de referencia— queda a unos cinco minutos en coche desde el centro; los privados HM Modelo, Quirónsalud y San Rafael, en un rango parecido. Alvedro, el aeropuerto, está a unos diez minutos, según el punto de la ciudad y el tráfico.",
+      "El tráfico es de ciudad casi todo el año. Las fiestas de María Pita, en torno a agosto, llenan el centro con actos, música y mucha gente: cortes, ruido y aparcamiento difícil en las calles del recorrido. San Juan enciende hogueras en la orilla; las noches de junio animan Riazor y el paseo. Vivir junto al tramo festivo o a la primera línea significa contar con semanas de volumen alto.",
+      "El resto del año A Coruña es capital de trabajo y de costa: lonja de ambiente, AVE a Madrid y vida que no se apaga en invierno. Primavera y otoño dejan el paseo más fácil de disfrutar. Si solo conoces un sábado de sol, te llevas la imagen de folleto de la Torre. Si has visto un frente gris de noviembre y María Pita, ya puedes decidir si quieres vivir en la ciudad.",
+      "Encaja para quien quiera ciudad completa junto al mar, no urbanización residencial a diez minutos.",
+    ],
+    tiempo: [
+      "Si vienes de Baleares, el cielo es la conversación larga. Las normales climáticas 1981-2010 de AEMET dan a A Coruña unas 1.939 horas de sol y unos 49 días despejados —observatorio del aeropuerto de Alvedro— y unos 1.014 milímetros repartidos en unos 130 días de lluvia —observatorio de la ciudad—: son dos estaciones distintas y sirven de referencia orientativa para la zona, no de medida exacta de cada barrio. Mallorca ronda las 2.800 horas y 120 jornadas claras: es de los climas gallegos más distintos al balear. De octubre a marzo llueve con frecuencia y la llovizna también aparece en verano. El viento y la niebla son medios.",
+      "El verano ronda 19 °C, con máximas habituales alrededor de 23 °C y uno o dos días por encima de 30 °C: mucho más suave que Baleares. En Riazor y Orzán el agua atlántica suele moverse en verano en un rango orientativo de 16 a 18 °C, con oleaje; Oza y As Lapas ofrecen tramos más recogidos. Conviene venir un día de nortada y un noviembre, no solo un sábado de sol en el paseo.",
+    ],
+    vivir: [
+      "El invierno en A Coruña se nota en el piso: salitre junto a Riazor u Orzán, humedad atlántica y viento que pide ventanas y calefacción en condiciones. En Mallorca muchas viviendas casi no piensan en moho; aquí conviene mirar orientación, aislamiento y rincones norte un día de frente gris, no solo un sábado de sol en el paseo. Una terraza que en agosto parece el centro de la vida, entre noviembre y febrero se usa la mitad o menos.",
+      "El día a día sin coche es de los más fáciles del golfo: en nuestra escala propia la dependencia ronda 2/10. Un martes de noviembre se resuelve comercio, centro de salud, farmacia, universidad, cine y restauración sin salir lejos; el paseo marítimo —unos trece kilómetros— permite kilómetros a pie. En enero la ciudad no se apaga: es capital de trabajo, lonja y AVE, no un complemento residencial vacío. Quien elija primera línea junto al tramo festivo de María Pita o San Juan debe contar con semanas de volumen alto; en el ensanche interior el ritmo es otro.",
+      "Llegar de fuera a una capital de alrededor de doscientos cincuenta mil habitantes es habitual. Se oye gallego en el mercado y en el ayuntamiento; el castellano basta para lo cotidiano, pero la vida social pasa por barrio, lonja y ritmos de ciudad, no por una única plaza de aldea. Entre semana manda el trabajo; en agosto María Pita llena el centro con actos, música, cortes y aparcamiento difícil. Quien busque solo veraneo encontrará ruido; quien busque vecinos todo el año, también —en escala de capital atlántica, no de urbanización.",
+      "La sanidad de urgencia y especialidades está en el municipio: el CHUAC —Complejo Hospitalario Universitario de A Coruña, público— queda a unos cinco minutos en coche desde el centro, y los privados HM Modelo, Quirónsalud y San Rafael, en un rango parecido; son tiempos aproximados que cambian según el barrio y el tráfico. Empadronarse aquí asigna médico de cabecera en el municipio y deja el CHUAC como hospital de referencia. No es «lejos de Palma» en el sentido de aislamiento sanitario: es ciudad completa con hospital en la misma península que el paseo.",
+      "Mantener el vínculo con Mallorca pasa por el avión. Alvedro está a unos diez minutos y Santiago-Lavacolla, con más destinos, a unos cincuenta: tiempos aproximados según el punto de partida. La conexión con Palma cambia por temporada y por compañía, así que conviene comprobar la programación vigente en Aena o en las aerolíneas antes de contar con ella. En invierno el trayecto a menudo implica más escalas o ir a Santiago: el coste no es solo el billete, sino la logística cuando el tiempo se pone feo.",
+      "La vivienda típica es piso en el ensanche o en el casco, de distintas décadas; hay obra nueva y fibra. Cerca de Riazor importan ruido, salitre y ocupación de verano; en el centro, aparcamiento y fiestas. El modelo no es chalé con jardín —eso mira Oleiros o Sada—. En un piso con escaleras o sin ascensor hay que imaginar la rutina dentro de diez años; la terraza útil es la que recibe sol de invierno, no solo la que mira al oleaje en foto.",
+    ],
+    historia: [
+      "La Torre de Hércules está considerada el faro romano en uso más antiguo del mundo y es el emblema de la ciudad: piedra romana, reconstrucciones posteriores y el Atlántico a los pies. El paseo que la rodea explica mejor A Coruña que cualquier folleto: ciudad y océano en el mismo trazo.",
+      "La Marina y el casco viejo hablan de comercio, pesca y galerías acristaladas que protegen del viento. María Pita —heroína de la defensa frente a la armada inglesa en 1589— da nombre a la plaza y a las fiestas mayores. Hoy el dato útil es el de una capital atlántica compacta que no se vacía en invierno.",
+    ],
+    fuera: [
+      "Riazor y Orzán son las playas urbanas de diario: arena, oleaje y agua fresca a minutos del ensanche. Un martes de junio la toalla cabe; un domingo de agosto, el paseo se llena. Oza y As Lapas completan opciones más abrigadas.",
+      "El paseo marítimo permite kilómetros a pie sin coche: unos trece kilómetros de orilla urbana continua. No hace falta convertir cada salida en excursión.",
+      "El Monte de San Pedro ofrece baterías, mirador y césped sobre la ciudad. Para ría más templada se conduce a Oleiros o Gandarío; para bosque atlántico, hacia las Fragas do Eume desde Miño o Pontedeume. Aquí el mar de diario es Atlántico abierto; el agua calmada de ría, un trayecto corto.",
+    ],
+    casa: [
+      "El ensanche y el casco ofrecen pisos de distintas décadas; hay obra nueva y fibra. Cerca de Riazor importan ruido, salitre y ocupación de verano; en el centro, aparcamiento y fiestas. Conviene probar María Pita y un frente gris antes de comprar la primera línea.",
+      "Según el €/m² de Idealista de agosto de 2026, A Coruña ronda 3.239 €/m², el más alto de la zona. Con ese metro, una vivienda de dos habitaciones en la franja asequible se estima alrededor de 274.000 euros y una de tres, alrededor de 379.000: son estimaciones derivadas del precio por metro, no anuncios reales, y la tipología de tres habitaciones queda de lleno en la franja cara. Barrio bajo con vistas a precio medio casi no existe.",
+      "Los servicios son 10/10 en nuestra escala propia. El CHUAC, público, queda a unos cinco minutos en coche desde el centro. Alvedro está a unos diez y Santiago-Lavacolla, con más destinos, a unos cincuenta; los vuelos a Palma cambian por temporada y conviene comprobar la programación vigente. Quien quiera ciudad y mar juntos lo encuentra; quien busque chalé y ría calmada, mira Oleiros o Sada.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si la ciudad completa y el mar en el mismo día importan más que una urbanización silenciosa. El paseo marítimo —unos trece kilómetros—, la Torre de Hércules, Riazor y Orzán, Oza y As Lapas, y el Monte de San Pedro llenan semanas enteras sin forzar coche: en nuestra escala propia la dependencia ronda 2/10. El CHUAC, público, queda a unos cinco minutos en coche desde el centro; HM Modelo y el resto de privados, en un rango parecido. Alvedro está a unos diez minutos y Santiago-Lavacolla, con más destinos, a unos cincuenta; los enlaces con Palma cambian por temporada y conviene comprobar la programación vigente. Quien quiera café, cine, universidad, AVE y lonja en enero sin salir de la península encontrará aquí la capital del golfo, no un complemento lejano.",
+        "También encaja para quien acepte Atlántico abierto como baño de diario —agua que en verano suele quedarse en un rango orientativo de 16 a 18 °C, con oleaje en Riazor— y reserve la orilla de ría, más abrigada, para salidas a Oleiros, Sada o Gandarío. A Coruña es la ciudad de referencia del arco; Oleiros queda a unos diez minutos si algún día se quiere chalé y orilla calmada sin renunciar a la capital como base.",
+      ],
+      no: [
+        "No encaja si se busca chalé con jardín, calles de urbanización y playa de ría como baño cotidiano. Santa Cruz, Mera y Santa Cristina en Oleiros, o Fontán y Gandarío en Sada, cubren ese perfil; aquí mandan densidad, fiestas de María Pita y San Juan, y océano abierto. Tampoco si tres habitaciones en tipologías habituales deben quedar en franja media: el metro ronda 3.239 €/m² según Idealista en agosto de 2026 —el más caro de la zona— y esa tipología sube hacia la franja cara.",
+        "Tampoco encaja si el cielo debe parecerse al de Mallorca. Las normales 1981-2010 de AEMET dan a A Coruña unas 1.939 horas de sol y unos 49 días despejados frente a las 2.800 horas y 120 jornadas claras de la isla: es de los climas gallegos más distintos al balear, con llovizna también en verano. Quien se decida solo tras un sábado de sol de agosto, sin probar un frente gris de noviembre ni el ruido de María Pita junto al tramo festivo, se llevará una sorpresa.",
+      ],
+      veredicto:
+        "Veredicto: A Coruña es la capital atlántica del golfo —piso caminable a paseo y servicios, fuera del tramo más ruidoso de María Pita y San Juan—, no la urbanización residencial. Encaja si ciudad, hospital a pocos minutos y mar juntos importan más que el silencio de chalé. Como casa única, tras comprobar un invierno húmedo y el frente de oleaje; si mandan jardín y ría calmada, Oleiros o Sada a diez o quince minutos. Se ganan servicios 10/10 en nuestra escala y Alvedro a unos diez minutos; se aceptan precio alto, agua fresca y cielo gris frente a Mallorca.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/golfo-artabro-e-ferrol/a-coruna-identidad.jpg",
+      pie: "A Coruña: galerías y casas de la marina frente al puerto",
+    },
+    fotosAbrir: [
+      { src: "/fotos/golfo-artabro-e-ferrol/coruna-hercules.jpg", pie: "Torre de Hércules sobre el Atlántico" },
+      { src: "/fotos/golfo-artabro-e-ferrol/coruna-paseo.jpg", pie: "Paseo marítimo de A Coruña" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/golfo-artabro-e-ferrol/coruna-marina.jpg", pie: "Marina de A Coruña y sus galerías" },
+      { src: "/fotos/golfo-artabro-e-ferrol/coruna-casco.jpg", pie: "Casco viejo de A Coruña" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/golfo-artabro-e-ferrol/coruna-riazor.jpg", pie: "Riazor, playa urbana atlántica" },
+      { src: "/fotos/golfo-artabro-e-ferrol/coruna-san-pedro.jpg", pie: "Monte de San Pedro, mirador sobre la ciudad" },
+    ],
+    creditoFotos: credito,
+  }

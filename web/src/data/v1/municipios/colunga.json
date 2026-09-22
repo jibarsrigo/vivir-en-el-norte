@@ -1,0 +1,99 @@
+{
+  "tipo": "municipio",
+  "slug": "colunga",
+  "nombre": "Colunga",
+  "n": 59,
+  "zonaId": "asturias-oriente",
+  "zonaNombre": "Asturias Oriente",
+  "provincia": "Asturias",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-asturias-oriente.ts",
+  "sourceKey": "colunga",
+  "sourceExport": "RELATOS_ASTURIAS_ORIENTE",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "ef8155fd617431cc6cbacf3cdab849f48556b4ddca6127bfa2aca8d519be373c",
+  "relato": {
+    "escala": "Lastres y el Sueve",
+    "abrir": [
+      "Colunga no se siente villa completa a pie: se siente costa donde la montaña cae al mar. Unos tres mil doscientos habitantes, Lastres —pueblo colgado sobre el puerto, con el mirador de San Roque—, el MUJA —Museo del Jurásico de Asturias—, playas de La Griega —huellas de dinosaurio en la arena—, La Isla y Lastres a unos cinco minutos, y detrás la Sierra del Sueve con el Mirador del Fitu a 1.160 m: una de las vistas mar-montaña más famosas de España. El casco de Colunga cubre lo básico; la foto típica vive en el pueblo colgado y en la sierra. Es concejo de coche y paisaje, no de farmacia y cine a cada esquina.",
+      "Quien vive aquí es gente local, quien eligió Lastres o el Fitu a propósito, y visitantes de día que bajan a la orilla cuando el tiempo acompaña. Un martes de noviembre los servicios son 4/10: lo básico en el municipio; el comercio grande y muchos gestos piden coche hacia Villaviciosa, Ribadesella o Arriondas. La fibra es parcial: hay que comprobarla casa por casa. El Hospital del Oriente, en Arriondas, queda a unos veinte minutos —el mismo tiempo sanitario que Ribadesella, sin pagar el metro de villa turística—. El aeropuerto de Asturias anda alrededor de los sesenta minutos.",
+      "En verano Lastres, La Griega y La Isla reciben visitantes de día, tráfico estrecho y aparcamiento justo. Las cuestas del pueblo colgado no se aplanan porque haga sol: quien se decida a vivir en Lastres debe probar un día de temporada alta y las piernas del mirador. Las patronales locales animan el casco unos días. Fuera de agosto el concejo vuelve a su escala pequeña: silencio, sierra sobre el mar, orillas entre acantilados casi vacías entre semana.",
+      "La semana tiene rutinas distintas a las de una villa: el coche abre el mapa —Lastres, La Griega, el Fitu— y Arriondas resuelve hospital y gestos comarcales. Primavera y otoño son buenas épocas para conocerlo: el Sueve cambia de color y el mirador se ve como es de verdad sin el atasco de agosto. Si solo conoces el Fitu un día despejado, te llevas la imagen de folleto. Si has visto un martes vacío y un sábado de Lastres lleno, ya puedes decidir si de verdad quieres vivir aquí.",
+      "El calendario no multiplica la población por cinco como en Llanes o Ribadesella, pero sí marca semanas de afluencia en la orilla y el pueblo colgado. Quien viva en Lastres o en el acceso a La Griega debe contar tráfico estrecho y aparcamiento justo como parte del verano, no como excepción imprevista."
+    ],
+    "tiempo": [
+      "Si vienes de Baleares, el cielo de Colunga pide bajar expectativas de sol: suma unas 1.700 a 1.750 horas de sol y unos cuarenta días despejados, lejos de las 2.800 horas y ciento veinte jornadas claras de Mallorca. Caen alrededor de 1.200 a 1.300 milímetros en unos 153 a 155 días. El viento es bajo; el Sueve marca el microclima de sierra sobre el mar: a veces el Fitu está claro cuando la orilla aún está gris, o al revés.",
+      "El verano ronda 19,5 °C, fresco frente a Baleares. La Griega, La Isla y Lastres tienen agua entre 19 y 21 °C; muchas orillas son pequeñas y abrigadas entre acantilados —baño con calma cuando el Cantábrico lo permita—. También en julio llueve varios días. Conviene venir un día de niebla o lluvia en el pueblo colgado y un noviembre vacío, no solo un sábado de sol en el Fitu."
+    ],
+    "vivir": [
+      "El invierno en casa se nota en Lastres por las cuestas, la humedad y un pueblo colgado que se queda casi vacío entre semana: niebla o lluvia en el mirador de San Roque cambian el trato. Conviene probar las piernas un día mojado y el aislamiento de la piedra, no solo firmar con sol en el Fitu. La sierra del Sueve marca microclima: a veces el mirador está claro cuando la orilla aún está gris.",
+      "Sin coche la semana no se sostiene. Los servicios son 4/10: lo básico en el municipio; el comercio grande pide Villaviciosa, Ribadesella o Arriondas. La fibra es parcial —casa por casa—. En enero el concejo vuelve a escala pequeña: silencio, sierra sobre el mar. Quien compre en Lastres debe asumir el volante como norma.",
+      "Conviven gente local, quien eligió Lastres o el Fitu a propósito, y visitantes de día. Se oye asturiano en el pueblo colgado y castellano en el MUJA; el castellano basta para lo cotidiano. La vida social es de concejo pequeño y paisaje, no de villa densa. Entre semana manda el vacío; en verano Lastres, La Griega y La Isla reciben tráfico estrecho y aparcamiento justo.",
+      "La sanidad comarcal es usable: el Hospital del Oriente, en Arriondas, queda a unos veinte minutos —el mismo tiempo que Ribadesella, sin pagar el metro de villa turística—. Empadronarse aquí abre lo básico; para especialidades se baja a Arriondas. No es Cabueñes a veinticinco como en Villaviciosa.",
+      "Ir y volver a Mallorca pide trayecto largo: el aeropuerto de Asturias anda alrededor de los sesenta minutos, con Palma en verano; Santander, hacia las dos horas. En invierno la logística suele alargarse. Conviene mirar el calendario real de vuelos, no solo el de un sábado despejado en el Fitu.",
+      "La vivienda típica es piedra o casa de uso real hacia Lastres, el casco de Colunga o las parroquias: no hay obra nueva y la fibra es parcial. En el pueblo colgado hay que contar con cuestas, humedad y ocupación de temporada. Hay que probar aparcamiento un sábado de agosto y las piernas un día de lluvia."
+    ],
+    "historia": [
+      "Lastres —pueblo colgado— y el mirador de San Roque explican Colunga: foto marinera típica de cuesta, no de casco residencial llano. Las casas bajan hacia el puerto; el mirador resume el trato: mar abajo, sierra detrás. No es adorno: es la forma en que el concejo se ha visto a sí mismo durante generaciones.",
+      "El MUJA añade la capa del Jurásico asturiano a un paso de las huellas de La Griega: museo y playa cuentan la misma costa en dos tiempos —dinosaurios en la arena, visitantes en agosto—. El Sueve y el Fitu sitúan el municipio en la costa donde la montaña cae al mar: 1.160 m de sierra sobre el Cantábrico, una de las vistas mar-montaña más citadas de España.",
+      "Lo que conviene saber es de pueblo colgado, museo y mirador, no de ciudad ni de villa amurallada. Villaviciosa cubre sidra y servicios hacia el oeste; Ribadesella, Sella e Indianos hacia el este. Colunga se queda con la imagen de costa jurásica y sierra y el coche como norma."
+    ],
+    "fuera": [
+      "Si solo hay tiempo para una tarde de foto turística, esa tarde es Lastres: el mirador de San Roque, el puerto abajo y las cuestas que marcan el cuerpo. Un martes de noviembre puedes tener el pueblo casi para ti; un domingo de agosto el tráfico estrecho y el aparcamiento justo piden paciencia. Es orilla de mirar y bajar, no de resort.",
+      "A unos cinco minutos, La Griega cubre playa con huellas de dinosaurio y La Isla otra orilla abrigada entre acantilados. El agua anda entre 19 y 21 °C; se entra con calma cuando el mar lo permite. En temporada alta hay toallas y coches; fuera de agosto, las calas vuelven a escala de concejo pequeño.",
+      "El Fitu ofrece la vista mar-montaña que muchos buscan sin saber nombrarla: sierra del Sueve sobre el Cantábrico. Ribadesella y Arriondas quedan hacia el este; Villaviciosa, hacia el oeste. Aquí el paisaje diario es Lastres y la sierra; el hospital comarcal y el comercio grande son salidas en coche, no umbral a pie."
+    ],
+    "casa": [
+      "Predominan viviendas hacia Lastres, el casco de Colunga y las parroquias: piedra o casa de uso real, no urbanización. No hay obra nueva y la fibra es parcial —hay que preguntar por la línea en esa casa concreta—. En el pueblo colgado hay que contar con cuestas, humedad y ocupación de temporada. Conviene probar las piernas un día de lluvia y el aparcamiento un sábado de agosto.",
+      "El precio medio ronda 1.700 €/m², por debajo de Llanes y Ribadesella. Tres habitaciones en la franja asequible se sitúan alrededor de 199.000 euros. La franja media puede ser vivienda con acceso claro al pueblo o hacia el Fitu, no necesariamente primera línea de mirador en temporada.",
+      "Los servicios son 4/10. Arriondas queda a unos veinte minutos. Asturias está a unos sesenta, con Palma en verano. Eso es Colunga: Lastres y el Sueve a cambio de coche diario, fibra a comprobar y una escala que no pretende villa autosuficiente."
+    ],
+    "encaja": {
+      "si": [
+        "Lastres colgado, el Sueve y el Fitu importan más que resolver la semana a pie en villa completa. Colunga es concejo de foto turística mar-montaña: mirador de San Roque sobre el puerto, MUJA —Museo del Jurásico—, La Griega con huellas de dinosaurio, La Isla y Lastres a unos cinco minutos, y detrás la sierra a 1.160 m con una de las vistas mar-montaña más famosas de España. Quien quiera bajar a orillas pequeñas entre acantilados —agua entre 19 y 21 °C, baño con calma cuando el Cantábrico lo permita— y subir al Fitu la misma tarde encontrará aquí la costa donde la montaña cae al mar, no un casco de servicios densos. El verano ronda 19,5 °C, fresco frente a Mallorca; unas 1.700 a 1.750 horas de sol y unos cuarenta despejados —frente a 2.800 y ciento veinte— explican el trato: se gana frescura y paisaje total; se acepta el sol mínimo de la tabla. En agosto Lastres, La Griega y La Isla reciben visitantes de día, tráfico estrecho y aparcamiento justo; el resto del año el concejo vuelve a su escala pequeña.",
+        "Funciona si se acepta el coche como norma y el Hospital del Oriente, en Arriondas, a unos veinte minutos —el mismo tiempo sanitario que Ribadesella, sin pagar el metro de villa turística—. Los servicios son 4/10; la fibra, parcial y a comprobar casa por casa; el aeropuerto de Asturias anda alrededor de los sesenta minutos. A cambio el precio ronda 1.700 €/m², por debajo de Llanes y Ribadesella, y la vida diaria no depende del Descenso del Sella ni de multiplicar población por cinco en agosto. Quien priorice sierra sobre el mar, playas del Jurásico y Arriondas cerca, y pruebe las cuestas de Lastres en temporada alta antes de comprar, entenderá Colunga sin pedirle lo que dan Villaviciosa o Llanes."
+      ],
+      "no": [
+        "La semana no se resuelve andando: lo básico está en el municipio, el comercio grande y muchos gestos piden coche hacia Villaviciosa, Ribadesella o Arriondas. Eso no se arregla eligiendo otra calle del pueblo colgado. Si la prioridad absoluta es villa completa a pie —farmacia, mercado, cine, mesas en noviembre—, Llanes, Ribadesella o Villaviciosa cubren esa opción; aquí los servicios 4/10 son el trato, no un fallo de calle.",
+        "Tampoco encaja quien necesite el cielo de Baleares, aeropuerto cerca de una hora justa hacia Palma en verano con trayecto corto, o calma absoluta en agosto junto al mirador. Asturias queda a unos sesenta minutos; Santander, hacia las dos horas. Quien se decida solo por la foto típica del Fitu, sin probar un martes vacío ni el atasco de Lastres en temporada, se llevará una sorpresa. Si lo que manda es Cabueñes a veinticinco y sidra de villa, Villaviciosa; si muro y treinta playas, Llanes; si Sella e Indianos con villa 7/10, Ribadesella."
+      ],
+      "veredicto": "Veredicto: Colunga encaja como Lastres y el Sueve —vivienda con acceso claro al pueblo colgado o hacia el Fitu, fibra comprobada, no como villa autosuficiente— sobre todo si paisaje Jurásico y Arriondas a veinte minutos importan más que servicios a pie. Probar un agosto en Lastres y un martes de noviembre antes de comprar. Se ganan La Griega, La Isla, el MUJA y sierra sobre el mar a ~1.700 €/m²; se aceptan servicios 4/10, coche diario y Asturias a unos sesenta. Quien priorice villa caminable, mirar Villaviciosa o Ribadesella; quien priorice muro y playas sin cuesta, Llanes."
+    },
+    "fotoIdentidad": {
+      "src": "/fotos/asturias-oriente/colunga-identidad.jpg",
+      "pie": "Lastres (Colunga): casas blancas colgadas sobre la bahía — así se vive entre cuesta y mar"
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/asturias-oriente/colunga-lastres.jpg",
+        "pie": "Lastres, pueblo colgado"
+      },
+      {
+        "src": "/fotos/asturias-oriente/colunga-mirador.jpg",
+        "pie": "Mirador de San Roque, Lastres"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/asturias-oriente/colunga-muja.jpg",
+        "pie": "MUJA, Museo del Jurásico de Asturias"
+      },
+      {
+        "src": "/fotos/asturias-oriente/colunga-sueve.jpg",
+        "pie": "Sierra del Sueve sobre Colunga"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/asturias-oriente/colunga-griega.jpg",
+        "pie": "Playa de La Griega"
+      },
+      {
+        "src": "/fotos/asturias-oriente/colunga-isla.jpg",
+        "pie": "Playa de La Isla, Colunga"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

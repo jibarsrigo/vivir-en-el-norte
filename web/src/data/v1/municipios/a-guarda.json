@@ -1,0 +1,98 @@
+{
+  "tipo": "municipio",
+  "slug": "a-guarda",
+  "nombre": "A Guarda",
+  "n": 1,
+  "zonaId": "baixo-mino",
+  "zonaNombre": "Baixo Miño",
+  "provincia": "Pontevedra",
+  "pais": "España",
+  "sourcePath": "web/src/components/RelatoMunicipio.tsx",
+  "sourceKey": "a-guarda",
+  "sourceExport": "RELATOS_BAIXO_MINO",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "3539af23b33cfa2a3e96d8534527c44da0d31ee54329151ac81e14e95e6d3c6a",
+  "relato": {
+    "escala": "Villa marinera en la boca del Miño",
+    "abrir": [
+      "A Guarda se siente más grande de lo que sugiere el mapa. Diez mil habitantes, y sin embargo hay lonja, mercado municipal, mercadillo semanal, restaurantes abiertos en enero y un paseo marítimo donde se sale a tomar café cualquier día del año. El casco baja en cuesta hasta el puerto: las casas de los marineros, de colores desgastados por la sal, dan a la dársena; detrás, siempre, el Monte Santa Trega, redondo, como si la villa hubiera crecido a su sombra y no pudiera olvidarlo —arriba hay castro, mirador y la boca del Miño abriéndose al Atlántico—. Portugal está tan cerca que, con el viento a favor, se oyen las campanas de Caminha, la villa portuguesa al otro lado de la desembocadura. No es una frase bonita: es distancia real. El Miño se estrecha, el otro país está a la vista, y el barco estacional —cuando opera— corta el estuario en minutos.",
+      "Quien vive aquí es gente local, vecinos de toda la vida, y veraneantes que vuelven cada agosto. No es una urbanización de foráneos plantada sobre el paisaje. En invierno el puerto sigue trabajando: cajas, grúas, olor a pescado fresco, el ritmo de quien no cierra la temporada. Las terrazas del paseo no se vacían del todo, aunque el noroeste se nota en la cara. La villa está en la punta, donde el río entrega el agua al Atlántico y el viento entra de golpe. Para lo diario —farmacia, súper, mercado, colegio— no hace falta coche. Para el hospital Álvaro Cunqueiro, en Vigo, sí: unos cuarenta y cinco minutos. Ese dato no se arregla eligiendo otra calle.",
+      "El tráfico es de pueblo casi todo el año. En julio y agosto lo cambia todo: la PO-552, carretera de costa de dos carriles, se atasca y avanza muy despacio entre faros y aparcamientos llenos. Quien busque silencio absoluto de invierno lo encontrará; quien busque el café de enero también. Las dos cosas conviven aquí, y eso es raro.",
+      "La semana tiene rutinas claras: lonja, mercado municipal, mercadillo, el paseo marítimo al café cualquier día del año. Portugal no es escapada excepcional —Caminha, la villa portuguesa al otro lado de la desembocadura, a la vista; el barco estacional cuando opera—. Primavera y otoño son buenas épocas para conocerlo: en mayo el Monte Santa Trega se pone de un verde intenso; en octubre empieza la lluvia de verdad. Si solo conoces agosto, te llevas la imagen de folleto de la punta. Si has visto un noviembre, ya puedes decidir si de verdad quieres vivir aquí.",
+      "El verano, sin embargo, tiene días que desbordan esa calma. El primer fin de semana de julio la Festa da Langosta lleva el emblema del puerto a las mesas; hacia el 15 y el 16, la Virxe do Carme baja en procesión hasta los barcos. En la segunda semana de agosto llega la Festa do Monte: peñas y bandas suben al Santa Trega en una celebración que se remonta a 1913. Son jornadas de música, tráfico y mucha gente; quien viva junto al puerto o en el camino del monte debe contarlas como parte del calendario, no como una excepción imprevista."
+    ],
+    "tiempo": [
+      "Si vienes de Baleares, notará el cielo más gris y con menos sol que en Mallorca, no tanto el frío. En enero las máximas y mínimas se parecen a las de la isla —el mar templa la punta—, pero aquí hay unos setenta y cinco días despejados al año frente a los ciento veinte de Mallorca, y unas dos mil cuatrocientas cincuenta horas de sol frente a las dos mil ochocientas. La diferencia se nota casi toda entre noviembre y febrero: mañanas grises, terraza que se usa la mitad o menos. De junio a septiembre, en cambio, la terraza se usa.",
+      "La lluvia es otra conversación: unos ciento dieciocho días al año; de octubre a marzo, trece a dieciséis al mes. Cuando llueve, llueve de verdad —no el chaparrón breve que pasa y deja el asfalto humeando—. El verano en esta punta es la promesa que muchos buscan: máximas alrededor de veinticinco grados, noches frescas cerca de quince, apenas unos cinco días al año por encima de treinta. El viento es medio: la nortada entra de golpe. Conviene venir un día de nortada y un noviembre, no solo un sábado de sol de agosto."
+    ],
+    "vivir": [
+      "El invierno en A Guarda no se nota tanto en el termómetro como en la casa y en el viento. En Mallorca muchas viviendas casi no piensan en calefacción ni en humedad; aquí la punta aporta salitre, nortada y lluvia seria de octubre a marzo. Conviene preguntar por aislamiento, orientación de la terraza —al Miño o al puerto, no a la esquina más abierta al Atlántico— y rastros de moho. Visitar el piso un día de viento fuerte y un noviembre enseña más que un sábado de sol en Area Grande.",
+      "El día a día sin coche funciona en el casco: farmacia, súper, mercado, colegio y paseo marítimo caben a pie. En enero hay lonja, mercadillo y terrazas que no se vacían del todo. Portugal está a la vista —Caminha al otro lado— y el barco estacional, cuando opera, corta el estuario. No es una urbanización de foráneos: es villa de oficio que no cierra la temporada, aunque el hospital sí exija coche.",
+      "Llegar de fuera es menos dominante que en otras costas: conviven vecinos de toda la vida y veraneantes que vuelven en agosto. Se oye gallego en el mercado y en la lonja; el castellano basta para lo cotidiano. Entre semana manda el ritmo de puerto; en julio y agosto la PO-552 se atasca y avanza muy despacio. Si solo buscas veraneo, te llevas la imagen de folleto de la punta. Si buscas vecinos todo el año, también los encontrarás —con otra escala que Mallorca.",
+      "La sanidad de urgencia y especialidades no está en la villa: el hospital público Álvaro Cunqueiro, en Vigo, queda a unos cuarenta y cinco minutos; el privado Povisa, hacia los cincuenta. En A Guarda hay centro de salud con urgencias, farmacias y servicios de semana. Empadronarse abre el médico de cabecera local; para especialistas se baja a Vigo. Ese dato no se arregla eligiendo otra calle del puerto.",
+      "Mantener el vínculo con Mallorca pasa por el avión. Vigo-Peinador está a unos cincuenta minutos; Porto, cerca de hora y media. Esta ficha no detalla un vuelo directo estable a Palma desde Peinador en invierno: conviene mirar el calendario real y contar también Santiago como alternativa cuando el enlace lo pida. El coste no es solo el billete, sino la logística de punta cuando el tiempo se pone feo.",
+      "El modelo habitual es piso en edificio bajo con terraza al Miño o al puerto, o chalé en las laderas hacia Camposancos. Hay fibra y poca obra nueva: lo que se compra ya tiene historia de uso. La terraza útil es la que mira al río o a la dársena, no la más expuesta a la nortada. Conviene presupuestar humedad, ventanas y calefacción, y comprobar el aparcamiento de Area Grande cuando la villa se llena."
+    ],
+    "historia": [
+      "Antes que la villa existió el castro del Santa Trega, hace más de dos mil años: un poblado fortificado de la Edad del Hierro con decenas de casas circulares de piedra, algunas reconstruidas con techo de paja, que se recorren por callejuelas entre los muros. Es el castro más visitado de Galicia. Arriba hay museo arqueológico, ermita y un mirador desde el que se ve el Miño abriéndose al océano, la costa portuguesa hasta Viana y, en días claros, las Cíes. El nombre de A Guarda habla precisamente de guardar y vigilar esta boca del río. Abajo, el Castelo de Santa Cruz recuerda otra frontera: levantado en el siglo XVII, fue tomado por Portugal en 1665.",
+      "Durante siglos se vivió de la pesca. Desde el XIX, también de la emigración a Puerto Rico: muchos guardeses volvieron y dejaron casas de indianos con palmeras y galerías que todavía se ven en la Praza do Reló y en la carretera de Camposancos —un lujo traído de lejos, plantado en la misma costa que los había empujado a marchar—. Camposancos guarda una memoria mucho más oscura: su antiguo colegio jesuita fue campo de concentración franquista entre 1937 y 1939, conocido por los presos como la «puerta del infierno». Hoy el puerto sigue siendo el corazón. El Museo do Mar, instalado en una reconstrucción de una antigua atalaya al final del paseo, cuenta ese oficio; la rosca de yema, dulce guardés de masa y huevo, cuenta la villa desde la mesa. También la explican la Torre do Reló del XVIII, la iglesia de Santa María y Camposancos, la parroquia del estuario, donde el río ya es otra cosa."
+    ],
+    "fuera": [
+      "Si solo hay tiempo para un baño cerca, ese baño es Area Grande. Queda a pie desde el casco: poco más de un kilómetro, cuatro minutos andando cuesta abajo hacia el océano. No es una playa infinita de foto mediterránea de folleto. Es una cala de arena fina, abrigada entre rocas, con paseo de madera y el Santa Trega detrás de fondo. El agua en agosto anda entre diecisiete y diecinueve grados: fresca, a veces con un golpe de frío, nunca tibia como Mallorca a veinticinco. Se entra, se nada un rato, se sale con la piel que se despierta del frío. Un martes de junio puedes tener casi toda la arena; un domingo de agosto el aparcamiento junto al paseo se queda corto y la gente busca sitio con paciencia. Es playa de diario —de vecinos, de toalla de siempre—, no de resort.",
+      "Un poco más adentro, hacia Camposancos, el paisaje cambia por completo. O Muíño —tres kilómetros, seis minutos— ya no mira al Atlántico abierto: mira el estuario. Arena, agua plana, Portugal enfrente, merendero bajo los pinos, el embarcadero del barco a Caminha. Sin olas. Más templada. Es el sitio donde se lleva a quien no quiere pelear con el océano, o donde se viene a merendar con el río ancho delante y la sensación de frontera sin aduana. Más al norte, Praia da Lamiña es pequeña, entre rocas: un sitio de mirar, de oír el golpe del agua, más que de tender la toalla y quedarse la tarde.",
+      "Los caminos son la otra mitad del agua. El paseo de todos los días va del puerto a Camposancos: cuatro kilómetros llanos, asfalto y pasarela, el mar a un lado y las casas al otro. Subir al Santa Trega —una hora a pie desde el pueblo o diez minutos en coche hasta arriba— es el sitio al que llevarías a cualquier visita: castro, museo, ermita, mirador sobre la desembocadura. La senda litoral hacia Oia es el Camino Portugués de la Costa: océano a la izquierda, Serra da Groba a la derecha, tramos de madera sobre las rocas. Cualquier tramo de cinco o seis kilómetros es una tarde. Los molinos del Folón, en O Rosal, quedan a unos diez minutos: piedra, musgo y el sonido del agua cuando llueve fino."
+    ],
+    "casa": [
+      "El modelo de casa aquí no es la urbanización cerrada. Es piso en edificio bajo —años noventa a dos mil diez— con terraza al Miño o al puerto, o un chalé en las laderas hacia Camposancos, con Portugal delante. Hay fibra. Hay poca obra nueva: lo que se compra, en general, ya existe y tiene historia de uso.",
+      "El viento marca la diferencia más que el plano del piso. La punta está expuesta al noroeste; un día de nortada se nota de verdad en la casa si la terraza mira al sitio equivocado. Conviene la terraza al río o al puerto, no la esquina más abierta al Atlántico. Quien compre debería venir un día de viento fuerte, no solo un sábado de sol de agosto, y comprobar el aparcamiento de Area Grande cuando la villa se llena.",
+      "El precio ronda mil cuatrocientos cincuenta euros el metro. Un piso reciente de tres habitaciones con vistas al Miño puede andar cerca de ciento setenta mil. El hospital público está a cuarenta y cinco minutos; el privado, hacia los cincuenta. Vigo-Peinador, unos cincuenta minutos; Porto, cerca de hora y media. Servicios de villa —supermercados, mercado, escuelas, piscina cubierta, urgencias del centro de salud— sí; hospital y gran superficie, no. Eso es A Guarda: mucho mar y mucho oficio, y la ciudad grande siempre a un trayecto."
+    ],
+    "encaja": {
+      "si": [
+        "El mar a pocos minutos importa más que tener el hospital a la vuelta de la esquina. La playa de diario es Area Grande: una cala de arena fina a pie desde el casco, cuesta abajo hacia el océano, con el monte detrás. A seis minutos en coche hacia Camposancos está O Muíño, playa del estuario —agua plana, sin olas, Portugal enfrente—. Quien quiera salir a caminar el paseo marítimo que une el puerto con Camposancos (unos cuatro kilómetros llanos, el mar a un lado), bajar a la lonja del puerto, tomar café en enero y sentir el Atlántico como vecino encontrará aquí una villa que no se apaga fuera de temporada. Si hay tiempo libre para la costa, para subir al Monte Santa Trega —el monte redondo que corona la villa, con castro de piedra y mirador sobre la desembocadura del Miño— y para mirar Portugal al otro lado del río, A Guarda lo paga con creces: el día a día cabe a pie en el casco; el paisaje no pide coche para cada gesto pequeño.",
+        "Funciona especialmente bien como complemento de una casa en el valle interior —O Rosal, a unos diez minutos tierra adentro, entre parras y monte—: la punta para el mar y el oficio del puerto; el valle para el silencio verde. Quien acepte esa lógica de dos orillas entenderá el sitio sin forzar una sola vivienda a resolverlo todo."
+      ],
+      "no": [
+        "El hospital público Álvaro Cunqueiro, en Vigo, está a unos cuarenta y cinco minutos; el privado Povisa, hacia los cincuenta. Eso no se arregla eligiendo otra calle ni un piso más cerca del puerto. Si la prioridad absoluta es sanidad a media hora o menos, esta punta no encaja: hay que mirar Tui —ciudad pequeña río arriba, con el hospital más cerca— o aceptar el trayecto con los ojos abiertos.",
+        "El viento del noroeste —la nortada— marca la punta. Quien se decida solo tras un sábado de sol de agosto, sin probar un día de viento fuerte ni el aparcamiento junto a la playa de Area Grande cuando la villa se llena, se llevará una sorpresa. Tampoco encaja si se busca casa única y se necesita ciudad grande a un cuarto de hora: Vigo sigue a unos cincuenta minutos."
+      ],
+      "veredicto": "Veredicto de quien conoce la comarca: A Guarda encaja como villa de mar y oficio —piso con terraza al río Miño o al puerto, cerca del paseo marítimo, no en la esquina más abierta al Atlántico— sobre todo si el mar cerca y el tiempo para recorrerlo importan más que el hospital. Como casa única solo si se acepta Vigo y el hospital Álvaro Cunqueiro a tres cuartos de hora. Mejor complemento de una casa en el valle (O Rosal) que única apuesta. Comprobar la nortada y un sábado de agosto en Area Grande antes de comprar."
+    },
+    "fotoIdentidad": {
+      "src": "/fotos/baixo-mino/a-guarda-identidad.jpg",
+      "pie": "A Guarda: casas del paseo, Atlántico delante y el monte detrás — así se vive en la punta"
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/baixo-mino/a-guarda-villa.jpg",
+        "pie": "La villa pegada al Atlántico, con el Monte Santa Trega detrás"
+      },
+      {
+        "src": "/fotos/baixo-mino/a-guarda-paseo.jpg",
+        "pie": "Paseo marítimo y casas de costa: el día a día frente al océano"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/baixo-mino/a-guarda-castro.jpg",
+        "pie": "Castro de Santa Trega: poblado de piedra de hace dos mil años sobre la desembocadura"
+      },
+      {
+        "src": "/fotos/baixo-mino/a-guarda-porto.jpg",
+        "pie": "Puerto de A Guarda: el mar como oficio, no como foto de turismo"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/baixo-mino/a-guarda-costa.jpg",
+        "pie": "Costa atlántica hacia Area Grande, la playa de diario"
+      },
+      {
+        "src": "/fotos/baixo-mino/a-guarda-camposancos.jpg",
+        "pie": "Camposancos, parroquia del estuario, con Caminha (Portugal) al otro lado"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (CC BY-SA)."
+  }
+}

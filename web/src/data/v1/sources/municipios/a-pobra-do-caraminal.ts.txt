@@ -1,0 +1,64 @@
+{
+    escala: "Villa marinera bajo la sierra",
+    abrir: [
+      "A Pobra do Caramiñal —a menudo solo A Pobra— se siente como la villa que mejor junta dos orillas. Unos nueve mil habitantes bajo el mirador de A Curota, en la Serra do Barbanza, y sin embargo hay casco marinero de piedra, pazos, la Torre de Bermúdez y un puerto deportivo que baja hacia la ría. A tres minutos quedan Cabío, entre pinos, A Corna y Lombiña. No es capital ni costa brava: es sierra real detrás y ría templada delante, a precio de comarca.",
+      "Quien vive aquí es gente local de oficio del mar y de monte, y veraneantes que llenan julio y agosto sin vaciar el resto del año. Un martes de noviembre el centro de salud, la farmacia, el súper y el comercio local cubren lo básico. El Hospital do Barbanza queda a unos diez minutos —el segundo mejor tiempo de la zona— y Santiago, a unos cincuenta. El coche hace falta menos que en Porto do Son, pero las parroquias altas hacia la sierra lo siguen necesitando para la compra y el baño.",
+      "El resto del año A Pobra es villa marinera y de monte: mesas abiertas, puerto y la sierra a un trayecto corto. Primavera y otoño son buenas épocas para conocerlo: en mayo Cabío se usa bajo el pinar casi en calma; en noviembre se nota el viento de la orilla y la humedad de la piedra. Si solo conoces un día claro en A Curota, pensarás que el pueblo es solo el mirador. Si has visto un frente de invierno, ya puedes decidir si quieres esa casa en ladera.",
+      "En julio y agosto las fiestas de verano y el veraneo llenan el casco, el puerto y las playas con música, tráfico y aparcamiento escaso. Cabío recibe toallas bajo el pinar; el paseo anima las terrazas hasta tarde. Vivir en el centro o junto a la orilla significa contar con semanas ruidosas; hacia Río Pedras o las laderas, el silencio vuelve antes a cambio del volante.",
+    ],
+    tiempo: [
+      "Si vienes de Baleares, notará el cielo más gris, con menos sol y más viento que en Mallorca, no tanto un cambio del termómetro en agosto. A Pobra suma unas 2.225 horas de sol y 65 días despejados, frente a 2.800 horas y 120 jornadas claras en Mallorca. Caen alrededor de 1.350 milímetros en unos 121 días. El viento es medio en la orilla; la orientación de la casa respecto a la sierra importa en invierno: mañanas grises, terraza que se usa a medias.",
+      "El verano ronda 19,5 °C, con máximas habituales de 24 o 25 °C y pocos días sobre 30 °C: mucho más fresco que Baleares. Cabío y A Corna tienen agua de ría entre 18 y 20 °C —calmada, usable en baños cortos—. Cuando el sol aprieta en la playa, subir al monte refresca: hace menos calor y el ambiente es otro. Conviene venir un día de viento en la orilla y un noviembre, no solo un sábado de sol en Cabío.",
+    ],
+    vivir: [
+      "El invierno en A Pobra se siente en el viento medio de la orilla y en la humedad de la piedra. En Mallorca muchas casas casi no piensan en calefacción ni en moho; aquí caen alrededor de 1.350 milímetros y la orientación respecto a la sierra importa. Conviene tocar paredes en noviembre y medir el viento. Visitar un frente de invierno enseña más que un día claro en A Curota.",
+      "El día a día sin coche funciona en el casco: centro de salud, farmacia, súper y comercio local. Si vives en las parroquias altas o cerca de las Pozas de Río Pedras, necesitas coche para la compra y los servicios. En enero hay mesas abiertas y puerto. El Hospital do Barbanza a unos diez minutos reduce la sensación de aislamiento frente a Rianxo o Porto do Son.",
+      "Llegar de fuera mezcla oficio del mar y del monte con veraneo de julio y agosto. Se oye gallego en el casco; el castellano basta para lo cotidiano. Entre semana manda la vida cotidiana de villa; en verano fiestas y playas llenan el paseo. Quien busque solo mirador pensará que el pueblo es solo A Curota; quien busque vecinos, el casco en noviembre.",
+      "La sanidad de urgencia y especialidades no está en el municipio, pero el Hospital do Barbanza queda a unos diez minutos —el segundo mejor tiempo de la zona—. Empadronarse abre el médico de cabecera local; para hospital se conduce un trayecto corto. El privado en Santiago ronda los sesenta minutos.",
+      "Mantener el vínculo con Mallorca pasa por el avión. El aeropuerto de Santiago está a unos cincuenta minutos, con enlace a Palma casi todo el año. En invierno conviene mirar el calendario real de vuelos.",
+      "El modelo va desde el casco de piedra —pisos y casas junto al puerto— hasta laderas con chalés y fincas. Poca obra nueva; fibra en el núcleo. La orientación al viento importa más que el plano. Conviene presupuestar humedad y calefacción, e imaginar la rutina en ladera dentro de diez años.",
+    ],
+    historia: [
+      "La Torre de Bermúdez y los pazos del casco hablan de una villa señorial y marinera a la vez. Pazo es la casa solariega gallega de piedra, normalmente con finca; aquí el granito del casco y el puerto se miran de cerca. A Pobra creció entre oficio del mar y caminos hacia la sierra: no es un pueblo inventado para el veraneo.",
+      "A Curota —unos 498 metros— es el mirador emblemático: en días claros se ven varias rías y un horizonte que explica por qué la comarca se entiende desde arriba. Las Pozas de Río Pedras, piscinas naturales y cascadas a unos diez minutos, completan un paisaje que no se agota en la orilla: agua dulce entre granito cuando se quiere sombra. El dato útil aquí es geográfico tanto como monumental.",
+    ],
+    fuera: [
+      "Si solo hay tiempo para un baño cerca, ese baño es Cabío: arena bajo pinar, agua de ría calmada entre 18 y 20 °C, marea visible. A Corna y Lombiña completan el baño a pocos minutos del casco. Son playas de diario, de toalla de siempre, no de océano abierto. Un martes de junio el pinar da sombra y calma; un domingo de agosto el aparcamiento se queda corto y el veraneo se nota en cada curva.",
+      "Más allá de Cabío, la misma ría de Arousa ofrece Barraña en Boiro o Coroso en Ribeira a un trayecto corto. Quien quiera Atlántico y dunas conduce hacia Corrubedo, ya en Ribeira: otro carácter, más viento y más ola. Quien quiera baño de río entre granito baja a las Pozas de Río Pedras —piscinas naturales y cascadas a unos diez minutos— cuando el sol aprieta en la orilla.",
+      "Los caminos son la otra mitad del agua. Subir a A Curota es el paseo de visita obligada: pista, mirador y la Serra do Barbanza abierta. Las laderas hacia Río Pedras y las parroquias altas cambian el ruido por silencio y coche. Santiago queda a unos cincuenta minutos; el Hospital do Barbanza, a unos diez —dato que importa cuando se compara con Rianxo o Porto do Son—.",
+    ],
+    casa: [
+      "El modelo de casa aquí va desde el casco de piedra —pisos y casas junto al puerto y a la Torre de Bermúdez— hasta las laderas o parroquias, con chalés y fincas con vistas a la ría o a la sierra. Hay poca obra nueva y fibra en el núcleo. Lo que se compra ya existe; la orientación al viento importa más que el plano del piso.",
+      "Conviene comprobar viento, humedad de la piedra y la distancia real al hospital y a Cabío según la calle: no es lo mismo el paseo en agosto que una ladera hacia Río Pedras. El precio medio ronda 1.300 €/m². Tres habitaciones en la franja asequible se sitúan alrededor de 152.100 euros. La franja media reúne vivienda reformada en el casco o casa con parcela hacia la sierra; vistas y rehabilitación mueven el precio final.",
+      "Los servicios son 5/10: cubren lo básico; no pretenden la densidad de Ribeira. El Hospital do Barbanza queda a unos diez minutos. El aeropuerto de Santiago está a unos cincuenta minutos, con enlace a Palma casi todo el año. Eso es A Pobra: mucha doble orilla —agua delante, granito detrás— y la ciudad grande siempre a un trayecto.",
+    ],
+    encaja: {
+      si: [
+        "La doble orilla —ría de Arousa delante, Serra do Barbanza detrás— importa más que la oferta comercial de una capital. La playa de diario es Cabío: arena bajo pinar, agua calmada entre 18 y 20 °C; A Corna y Lombiña completan el baño a tres minutos del casco. Quien quiera subir a A Curota —el mirador de unos 498 metros desde el que se ven varias rías—, bajar a las Pozas de Río Pedras —piscinas naturales y cascadas a unos diez minutos—, caminar el casco de piedra con la Torre de Bermúdez y el puerto deportivo, y tener el Hospital do Barbanza a unos diez minutos —el segundo mejor tiempo de la zona— encontrará aquí la mejor combinación sierra-ría del Barbanza. El día a día (centro de salud, farmacia, súper) cabe en la villa; el aeropuerto de Santiago-Lavacolla, con Palma casi todo el año, queda a unos cincuenta. Tres habitaciones en franja asequible rondan 152.100 euros.",
+        "Funciona especialmente bien para quien acepte servicios 5/10 a cambio de paisaje y proximidad sanitaria mejor que en Rianxo (unos treinta minutos al comarcal) o Porto do Son (unos veinticinco). El verano ronda 19,5 °C —fresco frente a Mallorca— y el viento medio pide mirar la orientación de la casa respecto a la sierra.",
+      ],
+      no: [
+        "Si se necesita la densidad de Ribeira —comercio grande, cine, lonja, servicios 7/10— o la soledad atlántica de Baroña y Area Longa, A Pobra no es esa opción: es villa marinera y de monte, no capital ni costa brava. El privado HM Rosaleda, en Santiago, ronda los sesenta minutos.",
+        "Tampoco encaja si agosto junto al paseo o a Cabío debe ser silencioso. Fiestas de verano y veraneo llenan casco, puerto y playas con música, tráfico y aparcamiento escaso. Las laderas hacia Río Pedras o la sierra bajan el volumen a cambio de coche. Quien se decida solo tras un día claro en A Curota, sin probar viento en la orilla ni un sábado de agosto, descubrirá otro municipio.",
+      ],
+      veredicto:
+        "Veredicto de quien conoce la comarca: A Pobra encaja como la apuesta sierra-ría —tres habitaciones en el casco o hacia Cabío, tras probar viento y un sábado de agosto, o casa en ladera solo si el acceso en invierno está claro— sobre todo si A Curota, las pozas y el Hospital do Barbanza a unos diez minutos importan más que la escala comercial. Se ganan granito, ría templada y Lavacolla a unos cincuenta; se acepta una villa de servicios medios y Santiago lejos para el privado. Comprobar orientación al viento y humedad de piedra antes de comprar.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/barbanza-e-noia/a-pobra-do-caraminal-identidad.jpg",
+      pie: "A Pobra do Caramiñal: casas del puerto frente a la ría, con el monte detrás",
+    },
+    fotosAbrir: [
+      { src: "/fotos/barbanza-e-noia/pobra-casco.jpg", pie: "Casco de piedra de A Pobra do Caramiñal" },
+      { src: "/fotos/barbanza-e-noia/pobra-curota.jpg", pie: "A Curota, mirador sobre las rías" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/barbanza-e-noia/pobra-torre-bermudez.jpg", pie: "Torre de Bermúdez en el casco" },
+      { src: "/fotos/barbanza-e-noia/pobra-puerto.jpg", pie: "Puerto deportivo de A Pobra" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/barbanza-e-noia/pobra-pozas.jpg", pie: "Pozas de Río Pedras, baño de río entre granito" },
+      { src: "/fotos/barbanza-e-noia/pobra-cabio.jpg", pie: "Cabío, playa de ría bajo pinar" },
+    ],
+    creditoFotos: credito,
+  }

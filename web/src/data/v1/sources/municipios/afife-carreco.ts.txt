@@ -1,0 +1,61 @@
+{
+    escala: "Aldea de granito entre monte y mar",
+    abrir: [
+      "Afife —unos mil quinientos habitantes— y Carreço —unos mil ochocientos—, con Areosa a continuación, se sienten como el pueblo donde el Alto Minho más se parece a vivir en granito con océano cerca. Son las freguesias del norte de Viana: aldeas de piedra entre la Serra d'Arga —825 m, caballos, aldeas de monte— y el mar, viñas en pérgola, huertas, molinos y faro de Montedor en Carreço, playas de Afife —surf, orilla abierta— y Paçô a unos tres minutos, apeaderos de tren hacia Viana.",
+      "Quien vive aquí es gente local, quien busca casa de piedra con terreno y quien acepta aldea sin comercio completo. Un martes de noviembre la aldea es silencio de granito: servicios 3/10, coche 7/10, fibra parcial. El Hospital de Santa Luzia —Viana— queda a unos quince minutos. El aeropuerto de Porto anda alrededor de los cincuenta y cinco —Palma en verano—. Para la playa casi no hace falta volante; para el súper, la farmacia grande y las mesas, Viana o Âncora a diez o quince minutos abren la semana.",
+      "En la playa el viento es alto —nortada de tarde—; en la aldea, bajo: la ladera protege. Hay poca obra nueva. Agosto llena más la orilla que las calles de piedra; el invierno vacía el ruido y deja humedad de monte. Quien busque bloques y café a la puerta deberá mirar Viana; quien busque granito, viña y mar a tres minutos entenderá Afife-Carreço al primer paseo entre pérgolas.",
+      "Primavera y otoño son buenas épocas para conocerlo: Arga verde, Paçô sin saturación, faro de Montedor con la costa abierta. Si solo conoces un día de sol en la playa, te llevas la imagen de folleto del océano. Si has visto nortada en la orilla y un noviembre vacío en la aldea, ya puedes decidir si de verdad quieres vivir aquí. Es la elección del estudio en Portugal para quien quiera monte detrás y mar cerca con ciudad completa a quince minutos.",
+      "No promete servicios a pie ni fibra garantizada en toda parcela. Promete aldea de granito, Arga detrás y Paçô a tres a cambio de coche y escala 3/10. Quien acepte ese trato entenderá el sitio como quien reconoce una textura dejada atrás.",
+    ],
+    tiempo: [
+      "Si vienes de Baleares, el cielo limpia y el viento enseña dos caras. Afife-Carreço suma unas 2.500 horas de sol y unos 78 a 80 días despejados —junto con el Litoral Norte, el mejor cielo de la tabla—, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.450 milímetros en unos 112 a 115 días. En la playa el viento es alto; en la aldea, bajo —protegida por la ladera—.",
+      "El verano en la costa ronda 20,5 °C, con tres a seis días sobre 30 °C: fresco frente al calor balear. Afife y Paçô tienen agua entre 16 y 18 °C; la orilla es abierta, con surf. Julio y agosto llueven poco; el invierno moja. Conviene probar nortada en la playa y un noviembre en la aldea, no solo un mediodía de sol en Paçô.",
+    ],
+    vivir: [
+      "El invierno en Afife-Carreço es humedad de monte y silencio de granito: el ruido se vacía y la casa de piedra pide calefacción, aislamiento y vigilancia de moho. En la aldea el viento es bajo —la ladera protege—; junto a la playa, nortada y salitre. Probar un noviembre vacío en la aldea evita firmar solo por Paçô en sol.",
+      "Sin coche no se resuelve la semana: servicios 3/10, coche 7/10. Para la playa casi no hace falta volante; para súper, farmacia grande y mesas, Viana o Âncora a diez o quince minutos. Hay apeaderos de tren hacia Viana. En enero la aldea es silencio de piedra, no plaza de terrazas.",
+      "Quien vive aquí es gente local y quien busca casa de piedra con terreno. El portugués manda en freguesia y ayuntamiento; la escala es de aldea agrícola entre Arga y el mar, no de ciudad. Agosto llena más la orilla que las calles de piedra. La integración pasa por vecinos de granito y viña en pérgola, no por bloques ni colonia de Porto.",
+      "El Hospital de Santa Luzia —Viana— queda a unos quince minutos: de los mejores tiempos sanitarios de la costa minhota. Hay que contar con seguro privado portugués —Trofa Saúde, Braga, alrededor de cincuenta minutos—. Empadronarse aquí abre lo diario lejos; el hospital de referencia está en Viana, no en la aldea.",
+      "Porto–Sá Carneiro anda alrededor de los cincuenta y cinco minutos —Palma en verano—. Ir y volver a Mallorca es más corto que desde Caminha o Moledo; aun así no es el cuarto de hora de Vila do Conde. El régimen fiscal especial para residentes extranjeros se cerró en 2024.",
+      "Predominan casas de granito con terreno; hay poca obra nueva y fibra parcial —hay que comprobarla parcela a parcela—. El modelo es rehabilitación de piedra o casa baja en aldea, no piso de ensanche. Imaginar escaleras de piedra, humedad de monte y acceso a Paçô un día de nortada antes de comprar.",
+    ],
+    historia: [
+      "El granito, las viñas en pérgola y las huertas explican Afife-Carreço: freguesias agrícolas entre Arga y el Atlántico, no villa de bloques ni colonia de chalés. La piedra no es decoración: es muro, casa y oficio de monte. El faro y los molinos de Montedor —Carreço— marcan la costa: luz para los barcos, memoria de viento y cereal junto al océano.",
+      "Areosa a continuación y los apeaderos de tren completan la ficha de aldea y conexión con Viana: se baja al andén y la ciudad del Lima queda a un gesto corto. Lo que conviene saber es de piedra, monte y mar a tres minutos —la escala que el estudio compara con vivir en granito con océano cerca—, no lista de monumentos urbanos.",
+    ],
+    fuera: [
+      "Afife y Paçô —playas abiertas a unos tres minutos, surf, nortada— son la tarde de mar; la aldea, la de diario entre granito y viña en pérgola. Se baja a la orilla cuando apetece y se vuelve al silencio de piedra al atardecer.",
+      "Montedor cubre faro y molinos: el paseo de costa cuando se quiere mirar el Atlántico desde la piedra, no solo desde la toalla. Viana queda a unos 10–15 minutos: mercado, hospital, comercio, Santa Luzia. Arga se sube desde Carreço; Âncora, a trayecto corto hacia el norte si se busca espigón abrigado.",
+      "No hay lonja ni plaza compacta de villa. Hay monte detrás, océano delante y coche en medio. Quien viva aquí acepta ese triángulo; quien lo descubra solo en agosto soleado, no.",
+    ],
+    casa: [
+      "Predominan casas de granito con terreno; hay poca obra nueva y fibra parcial —hay que comprobarla parcela a parcela—. El modelo es rehabilitación de piedra o casa baja en aldea, no piso de ensanche. Junto a la playa hay que contar con nortada y salitre; en la aldea, humedad de monte. Conviene orientar y probar noviembre.",
+      "El precio medio ronda 2.100 €/m². Tres habitaciones en la franja asequible se sitúan alrededor de 246.000 euros; casa de granito rehabilitada con terreno, 200.000–280.000. Quien busque metros y piedra encontrará más verdad aquí que en un bloque de Viana; quien busque precio de Valença, no.",
+      "Los servicios son 3/10. Santa Luzia —Viana— queda a unos quince minutos. Porto–Sá Carneiro está a unos cincuenta y cinco. Hay que contar con seguro privado portugués —Trofa Saúde, Braga, alrededor de cincuenta minutos—. Conviene firmar tras fibra comprobada, nortada en la orilla y un martes de noviembre en la aldea.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere aldea de granito entre la Serra d'Arga y el mar, con Viana a diez o quince minutos como ciudad completa. Afife, Carreço y Areosa ofrecen viña en pérgola, huertas, molinos, faro de Montedor y playas de Afife y Paçô a unos tres minutos —surf, orilla abierta—. Un martes de noviembre la aldea es silencio de piedra; el coche organiza la semana (servicios 3/10), pero Santa Luzia queda a unos quince minutos y hay apeaderos de tren. Quien priorice monte detrás, mar cerca y sol de costa —unas 2.500 horas— frente a bloques de veraneo encontrará aquí la escala más parecida a vivir en granito con océano a tres minutos, a unos 2.100 €/m².",
+        "También encaja para quien acepte verano fresco frente a Mallorca y mar atlántico frío. Las máximas costeras rondan 20,5 °C; el agua, 16–18 °C. En la playa el viento es alto; en la aldea, bajo —protegida por la ladera—. Llueven alrededor de 1.450 milímetros en unos 112 días. La fibra es parcial: hay que comprobarla parcela a parcela. Conviene seguro privado portugués; Trofa Saúde, en Braga, anda alrededor de los cincuenta minutos.",
+      ],
+      no: [
+        "No encaja si la semana debe resolverse andando o si se necesita fibra garantizada en toda la parcela. Falta comercio: Viana o Âncora cubren súper y mesas a diez o quince minutos. Tampoco si se busca agua templada o hospital privado a menos de cuarenta minutos.",
+        "Tampoco encaja si se busca el régimen fiscal especial para residentes extranjeros —cerrado en 2024— o tres habitaciones muy por debajo de la franja asequible —alrededor de 246.000 euros; casa de granito con terreno suele moverse entre 200.000 y 280.000—. Quien se decida solo tras un día de sol en Paçô, sin probar nortada en la playa ni un noviembre vacío en la aldea, se llevará otra vida.",
+      ],
+      veredicto:
+        "Veredicto: Afife-Carreço es aldea de granito entre monte y mar —Arga detrás, Paçô a tres y Viana a quince a cambio de coche y servicios mínimos—. Buscaría casa de granito con terreno en Afife, Carreço o Areosa, con fibra comprobada y acceso claro a la playa, tras probar un martes de noviembre y un julio con nortada en la orilla. Se ganan ~2.100 €/m² de costa, hospital a unos quince minutos y aeropuerto a unos cincuenta y cinco; se aceptan servicios 3/10, mar a 16–18 °C y seguro privado portugués. Si mandan villa con mercado y espigón, Âncora; si hay que contar con ciudad 9/10, Viana; si la prioridad es granito, monte y mar en el mismo gesto, esta es la elección del estudio en Portugal.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/alto-minho/afife-carreco-identidad.jpg",
+      pie: "Afife–Carreço: casa entre pinos con el Atlántico al fondo",
+    },
+    fotosAbrir: [
+      { src: "/fotos/alto-minho/afife-aldea.jpg", pie: "Afife: aldea de granito" },
+      { src: "/fotos/alto-minho/afife-playa.jpg", pie: "Playa de Afife" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/alto-minho/carreco-montedor.jpg", pie: "Faro de Montedor, Carreço" },
+    ],
+    fotosFuera: [],
+    creditoFotos: credito,
+  }

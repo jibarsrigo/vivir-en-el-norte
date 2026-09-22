@@ -1,0 +1,62 @@
+{
+    escala: "Ciudad pequeña, compacta y peatonal",
+    abrir: [
+      "Pontevedra se siente como una capital que cabe a pie. Unos ochenta y cuatro mil habitantes alrededor del río Lérez —el curso que desemboca al fondo de la ría de Pontevedra—. El casco histórico de granito conserva plazas porticadas —A Ferrería, A Verdura y A Leña— y enlaza con un ensanche donde están mercado, comercio, colegios y estación. Desde la peatonalización iniciada en 1999, buena parte de la vida diaria cabe andando: el coche sirve para salir a la playa o a las parroquias, no para cruzar el centro.",
+      "Quien vive aquí es funcionario, estudiante del campus, vecino de toda la vida y quien eligió una ciudad pequeña con hospital cerca. Un martes de noviembre hay gente entrando en la Diputación, compra en el mercado y terrazas bajo soportales aunque la piedra esté mojada. La ciudad no depende de una temporada. Agosto vacía algunas oficinas y llena las plazas de visitantes, pero la presión no se parece a Sanxenxo: se sigue caminando y resolviendo recados con normalidad.",
+      "La Peregrina, patrona provincial, centra las fiestas desde el segundo sábado de agosto: conciertos, feria, fuegos y calles llenas durante más de una semana. El Entroido termina con el entierro del loro Ravachol, personaje satírico ligado a una antigua botica, y la Feira Franca transforma el primer fin de semana de septiembre el casco en una ciudad medieval. Vivir junto a A Ferrería o la Alameda significa música, cortes y multitud en esas fechas; fuera de ellas, gana la calma de un centro sin tráfico.",
+      "Las estaciones se sienten sin extremos de resort. En primavera vuelven los paseos por el Lérez y las plazas a media tarde; el verano pide Lourido o Portocelo a unos veinte minutos; el otoño oscurece el granito bajo la lluvia; el invierno trae muchas jornadas húmedas, pero el mercado, el tren y los cafés mantienen la actividad. Si solo conoces un martes soleado bajo soportales, te llevas la sensación de peatonalidad. Si has visto la Peregrina y un noviembre serio, ya puedes decidir si de verdad quieres vivir aquí.",
+      "Montecelo y Quirónsalud quedan a unos cinco minutos: la sanidad más inmediata de la zona. A cambio, no hay playa de baño en el casco. Lourido, en Poio, está cerca; Areas o Portocelo requieren unos veinte o veinticinco minutos según el tráfico. Esa es la verdad de Pontevedra: todo a pie salvo el agua de toalla.",
+    ],
+    tiempo: [
+      "Si vienes de Baleares, notará el cielo más gris y con menos sol que en Mallorca, no tanto el frío. Pontevedra recibe unas 2.250 horas de sol y 72 días despejados, frente a unas 2.800 horas y 120 días claros de Mallorca. Caen alrededor de 1.600 milímetros en 130 días: entre octubre y marzo la lluvia aparece trece o dieciséis jornadas al mes. El invierno ronda 9,5 °C de media; no es extremo, pero la humedad sobre el granito y las semanas grises cambian la vida exterior.",
+      "El verano ronda 20,5 °C, con máximas habituales cercanas a 26 °C. La ciudad interior puede sumar ocho o diez días por encima de 30 °C, algo más que la costa, aunque sigue lejos del calor sostenido balear. No tiene playa de baño en el casco: Lourido, en Poio, está cerca, y Areas o Portocelo requieren unos veinte o veinticinco minutos según el tráfico. Conviene probar un noviembre húmedo y una noche de fiestas, no solo un martes soleado bajo soportales.",
+    ],
+    vivir: [
+      "El invierno en Pontevedra se siente en la humedad sobre el granito y en las semanas grises. En Mallorca muchas casas casi no piensan en calefacción ni en moho; aquí caen alrededor de 1.600 milímetros en 130 días. Conviene preguntar por aislamiento en pisos antiguos del casco. Visitar un noviembre húmedo bajo soportales enseña más que un martes soleado en A Ferrería.",
+      "El día a día sin coche es el punto fuerte: desde la peatonalización, mercado, comercio, colegios y estación caben andando. En enero hay gente en la Diputación, compra y terrazas aunque la piedra esté mojada. El coche sirve para salir a la playa o a las parroquias, no para cruzar el centro. Es ciudad pequeña abierta todo el año.",
+      "Llegar de fuera es habitual entre funcionarios, estudiantes del campus y quien eligió hospital cerca. Se oye gallego y castellano en las plazas. Entre semana manda la vida peatonal; en agosto la Peregrina llena calles. Quien busque solo silencio continuo en el casco debe medir las fiestas; quien busque vecinos todo el año, los encontrará.",
+      "La sanidad es la más inmediata de la zona: Montecelo y Quirónsalud quedan a unos cinco minutos. Hay centros de salud. Empadronarse aquí abre cabecera y hospital sin organizar una expedición: es la opción que mejor resuelve sanidad y vida sin coche.",
+      "Mantener el vínculo con Mallorca pasa por el avión. Vigo-Peinador queda a unos veinticinco minutos; Santiago, con enlace más estable a Palma, a unos cincuenta. En invierno conviene mirar el calendario real de vuelos. La logística es de capital comarcal, no de villa remota.",
+      "El centro y el ensanche ofrecen pisos, muchos con ascensor; las parroquias, casa y terreno. Hay fibra y obra nueva. Conviene medir ruido festivo cerca de A Ferrería o la Alameda. La terraza útil es la que se usa en invierno bajo soportales cercanos, no solo la del anuncio de sol.",
+    ],
+    historia: [
+      "La ciudad medieval creció como puerto al fondo de la ría. La tradición atribuye su fundación a Teucro, héroe griego representado en el centro, pero la historia documentada habla de un burgo privilegiado por Fernando II en el siglo XII. En los siglos XV y XVI fue uno de los principales puertos gallegos; de sus astilleros habría salido la nao Santa María de Colón. El retroceso de la ría desplazó luego el puerto hacia Marín.",
+      "La basílica de Santa María la Mayor conserva una fachada plateresca financiada por el gremio de mareantes. La iglesia de la Peregrina tiene planta de concha de vieira y marca el paso del Camino Portugués hacia Santiago. El Museo de Pontevedra reparte arqueología y arte gallego por varios edificios, mientras la Illa das Esculturas —una isla fluvial del Lérez convertida en parque de arte contemporáneo— explica la relación moderna entre cultura y paseo.",
+      "Hasta los nombres de las plazas cuentan el oficio: A Ferrería era el lugar de trabajo de los herreros; A Verdura acogía aquel mercado; A Leña, la venta de leña para las cocinas. Bajo los soportales se camina incluso con lluvia. La peatonalización de 1999 no inventó la ciudad: la hizo legible a pie.",
+    ],
+    fuera: [
+      "La senda del Lérez sale del centro hacia la Illa das Esculturas y continúa bajo alisos junto al río: paseo de diario llano, sin pedirle al coche cada gesto. Hacia el mar, el paseo de Os Praceres acompaña el fondo de la ría camino de Marín; Os Praceres es la parroquia industrial y portuaria del borde sur, no una playa. Para arena tranquila, Lourido y Cabeceira están en Poio; Portocelo, ya en Marín.",
+      "El casco histórico es también un paseo: plazas, soportales y granito mojado que se deja recorrer sin mapa. Cuando se quiere monte, el Castrove —la elevación de 613 metros detrás de Poio— abre vistas sobre las rías de Pontevedra y Arousa. El tiempo libre aquí puede ir de un café bajo arcos a una tarde de río o a veinte minutos de baño sin organizar una expedición.",
+      "Quien busque más orilla tiene Sanxenxo o O Grove a media hora según tráfico; quien busque más silencio de costa, Poio. Pontevedra gana por ciudad compacta y pierde por no tener toalla en la puerta: esa es la elección, no un detalle.",
+    ],
+    casa: [
+      "El centro y el ensanche ofrecen pisos, muchos con ascensor y servicios a pie; las parroquias periféricas cambian esa comodidad por casa y terreno. Hay fibra y obra nueva. Una plaza de garaje pesa menos en las calles peatonales si la semana se hace andando; conviene medir ruido festivo cerca de A Ferrería o la Alameda.",
+      "El precio medio ronda 1.900 €/m² y la franja asequible real de tres habitaciones se acerca a 180.000 euros. La franja media reúne vivienda reformada en el centro o promociones recientes; el anuncio enseña metros y luz; conviene ver también un noviembre húmedo y una noche de Peregrina.",
+      "Los servicios son 10/10: hospitales público y privado a unos cinco minutos, centros de salud, mercado, supermercados, universidad, colegios, institutos, cultura y tren. Vigo-Peinador queda a unos veinticinco minutos; Santiago, con enlace más estable a Palma, a unos cincuenta. Es la opción de la zona que mejor resuelve sanidad y vida sin coche, a cambio de no tener playa en la puerta.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere una ciudad pequeña donde mercado, hospital, tren, cultura y cafés estén a pie. El casco peatonal de granito —A Ferrería, A Verdura, A Leña— y el ensanche permiten resolver la semana sin organizar cada recado alrededor del coche; el Lérez y la Illa das Esculturas dan paseo fluvial; Lourido, en Poio, queda cerca cuando apetece arena. Un martes de noviembre hay funcionarios, estudiantes, mercado y terrazas bajo soportales aunque la piedra esté mojada: la ciudad no depende de una temporada. Montecelo y Quirónsalud están a unos cinco minutos.",
+        "También encaja si la sanidad y la vida sin coche importan más que la playa en la puerta. Tres habitaciones en franja asequible se acercan a 180.000 euros a ~1.900 €/m². Servicios 10/10. El verano ronda 20,5 °C con máximas cerca de 26 °C y ocho o diez días sobre 30 °C —algo más que la costa, pero lejos del calor sostenido de Mallorca—. A cambio hay que aceptar unos 1.600 milímetros y 130 días de lluvia, más que O Grove o Sanxenxo. Quien priorice hospital inmediato, peatonalidad y cultura dentro de una capital compacta encontrará aquí la logística más fuerte de la zona.",
+      ],
+      no: [
+        "No encaja si el baño debe empezar al salir de casa. La ría toca el municipio, pero las playas útiles están en Poio, Marín o Sanxenxo —unos veinte o veinticinco minutos según tráfico—. Tampoco es el rincón más seco: 130 días de lluvia superan claramente los 115 de O Grove.",
+        "Tampoco si el silencio continuo en el casco es innegociable. La Peregrina (desde el segundo sábado de agosto), el Entroido del loro Ravachol y la Feira Franca (primer fin de semana de septiembre) ocupan A Ferrería, la Alameda y el entorno de A Peregrina con música, cortes y multitud. Quien se decida solo tras un martes lluvioso bajo soportales, sin vivir una noche de fiestas ni medir el trayecto real a Lourido en agosto, se llevará una sorpresa. Poio añade playa y casa baja con hospital a diez; Sanxenxo, más arena y mucha más presión.",
+      ],
+      veredicto:
+        "Veredicto: Pontevedra encaja como mejor elección logística de la zona —piso de tres habitaciones en el ensanche caminable al casco, al mercado y al tren, en franja asequible, comprobando ruido festivo y ascensor—. Sobre todo si hospital a cinco y vida peatonal importan más que playa en la puerta. Probar fiestas de agosto y un noviembre húmedo antes de comprar. Se ganan servicios 10/10 y verano aún suave frente a Mallorca; se aceptan 130 días de lluvia y conducir ~20 minutos para baño cómodo. Si mandan ría y casa, Poio; si playa y temporada, Sanxenxo; si marisco y península, O Grove.",
+    },
+    fotosAbrir: [
+      { src: "/fotos/pontevedra-e-sanxenxo/pontevedra-casco.jpg", pie: "Pontevedra: granito, soportales y centro peatonal" },
+      { src: "/fotos/pontevedra-e-sanxenxo/pontevedra-peregrina.jpg", pie: "A Peregrina, puerta del casco y centro de las fiestas" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/pontevedra-e-sanxenxo/pontevedra-santa-maria.jpg", pie: "Santa María la Mayor, iglesia del antiguo gremio de mareantes" },
+      { src: "/fotos/pontevedra-e-sanxenxo/pontevedra-museo.jpg", pie: "Museo de Pontevedra, memoria arqueológica y artística de Galicia" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/pontevedra-e-sanxenxo/pontevedra-lerez.jpg", pie: "El Lérez y la Illa das Esculturas junto al centro" },
+      { src: "/fotos/pontevedra-e-sanxenxo/pontevedra-alameda.jpg", pie: "La Alameda enlaza el casco con el ensanche" },
+    ],
+    creditoFotos: credito,
+  }

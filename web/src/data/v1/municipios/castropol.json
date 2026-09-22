@@ -1,0 +1,90 @@
+{
+  "tipo": "municipio",
+  "slug": "castropol",
+  "nombre": "Castropol",
+  "n": 47,
+  "zonaId": "asturias-occidente",
+  "zonaNombre": "Asturias Occidente",
+  "provincia": "Asturias",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-asturias-occidente.ts",
+  "sourceKey": "castropol",
+  "sourceExport": "RELATOS_ASTURIAS_OCCIDENTE",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "3965f84a486c1b125074d5ceb5e0920bfcb8750b181d9f9012326ebe353c3698",
+  "relato": {
+    "escala": "Pueblo blanco sobre la ría",
+    "abrir": [
+      "Castropol se siente más pequeño de lo que el mapa del Eo promete. Unos tres mil cuatrocientos habitantes en un pueblo blanco sobre un promontorio de la ría, frente a Ribadeo —Galicia al otro lado del agua, tan cerca que el casco gallego se lee sin prismáticos—. Figueras —astilleros y el palacio de Peñalba— forma parte del concejo; Penarronda, playa de dunas entre este municipio y Tapia, queda a unos diez minutos. No es villa completa: es orilla de frontera, Reserva de la Biosfera del Eo, y una escala que pide coche para casi todo lo que no sea pasear la ría.",
+      "Quien vive aquí es gente local de toda la vida, vecinos de las parroquias y quien buscó vistas al agua a propósito. Un martes de noviembre los servicios son 3/10: el súper completo y muchos recados se resuelven en Ribadeo, a unos diez minutos. El Hospital de Jarrio, en Coaña, queda a unos treinta minutos. El aeropuerto de Asturias anda alrededor de los setenta y cinco; Santiago-Lavacolla, hacia las dos horas. La fibra es parcial: hay que comprobarla casa por casa, no darla por hecha porque el vecino la tenga.",
+      "El tráfico es de pueblo casi todo el año. En julio y agosto la ría, Figueras y Penarronda reciben visitantes, coches en calles estrechas y aparcamiento justo en los días claros. Las patronales locales animan el pueblo unos días con ruido y afluencia; el resto del año Castropol es silencio de orilla blanca. Quien viva solo del municipio notará el vacío de invierno: terrazas quietas, niebla pegada al promontorio, Galicia enfrente como única ciudad a un salto corto.",
+      "La semana tiene rutinas distintas a las de Navia o Luarca. Aquí la rutina es el paseo de ría, el mirar Ribadeo y bajar a Penarronda o a la orilla calmada del Eo cuando el Cantábrico abierto esté bravo. Primavera y otoño son buenas épocas para conocerlo: el verde de la Reserva se pone de un verde intenso; en noviembre empieza la niebla alta de verdad. Si solo conoces un sábado de sol de agosto, te llevas la imagen de folleto. Si has visto un martes vacío, ya puedes decidir si de verdad quieres vivir aquí.",
+      "Castropol no pretende competir con la villa de servicios ni con la villa blanca. Encaja para quien quiera vistas a la ría desde un pueblo blanco y acepte Ribadeo como comercio y gestos diarios. La A-8 y la N-640 pasan cerca; el tren FEVE en Vegadeo completa el mapa. El resto es agua, frontera Galicia-Asturias y un horizonte de prado y orilla."
+    ],
+    "tiempo": [
+      "Si vienes de Baleares, notará el cielo más gris y con menos sol que en Mallorca, no tanto el frío. Castropol suma unas mil novecientas cincuenta horas de sol y unos cuarenta días despejados, frente a las dos mil ochocientas horas y ciento veinte jornadas claras de Mallorca. Caen alrededor de mil milímetros en unos ciento treinta y ocho días; hay unos ciento sesenta y cinco cubiertos. La niebla es alta; el viento, medio. También en verano llueve con frecuencia: siete a diez días al mes entre julio y agosto no son excepción.",
+      "El verano ronda dieciocho grados y medio, con máximas habituales alrededor de veintidós o veintitrés y apenas uno o dos días al año por encima de treinta. El agua anda entre dieciocho y veinte grados; la ría del Eo ofrece baño más calmado que el Cantábrico abierto hacia Penarronda. Conviene venir un día de niebla densa y un noviembre, no solo un sábado de sol de agosto."
+    ],
+    "vivir": [
+      "El invierno aquí se nota en la casa más que en el termómetro. La niebla alta se pega al promontorio y la humedad de estuario entra en paredes y armarios: conviene preguntar por aislamiento, orientación hacia el Eo y rastros de moho, no solo por las vistas a Ribadeo. Una terraza que en agosto parece el centro de la vida, entre noviembre y febrero se usa la mitad o menos. Visitar un día de niebla densa enseña más que mil fotos de sol sobre la ría.",
+      "El día a día sin coche casi no existe. Los servicios son 3/10: el súper completo y muchos recados se resuelven en Ribadeo, a unos diez minutos; el tren FEVE en Vegadeo completa el mapa, pero la semana se cose con el volante. En enero el pueblo no se apaga del todo —hay vecinos y orilla—, pero la densidad es de silencio de frontera, no de villa con mesas llenas. Quien elija el promontorio o las parroquias debe asumir el coche como norma, no como excepción.",
+      "Llegar de fuera es posible, pero la escala es pequeña: conviven gente local de toda la vida, vecinos de las parroquias y quien buscó vistas al agua a propósito. Se oye asturiano y castellano en la calle; el castellano basta para lo cotidiano, y al otro lado de la ría el gallego de Ribadeo entra en el mapa semanal. La vida social pasa por el paseo de ría y el cruce a Galicia más que por una plaza donde «todo el mundo se ve». Entre semana manda la quietud; en julio y agosto Figueras y Penarronda suben el volumen.",
+      "La sanidad de urgencia y especialidades no está en el pueblo: el Hospital de Jarrio, en Coaña, queda a unos treinta minutos. Empadronarse aquí abre lo básico local; para lo demás se baja a Jarrio o se cruza a Ribadeo. No es aislamiento extremo, pero sí asumir que la gran sanidad no está a la vuelta de la esquina del promontorio.",
+      "Mantener el vínculo con Mallorca pasa por el avión y un trayecto largo. El aeropuerto de Asturias anda alrededor de los setenta y cinco minutos; Santiago-Lavacolla, hacia las dos horas. En invierno el calendario de vuelos a Palma suele pedir más logística que en agosto: conviene mirar el año real, no solo el de temporada alta.",
+      "La vivienda típica es casa o piso en el pueblo blanco, hacia Figueras o en las parroquias: piedra, vistas a la ría, poca o ninguna obra nueva. La fibra es parcial —hay que comprobarla casa por casa—. Reforma frente a llave en mano: hay que contar con humedad de estuario, niebla alta y el estado real de la casa más que el plano del anuncio."
+    ],
+    "historia": [
+      "El promontorio blanco sobre el Eo y la frontera con Ribadeo explican Castropol mejor que un casco monumental denso: pueblo de ría y de mirada al otro país, no de plaza cerrada. Figueras aporta astilleros —oficio vivo a un paso del núcleo— y el palacio de Peñalba, capa indiana plantada junto al agua. La Reserva de la Biosfera Río Eo, Oscos e Terras de Burón convierte el paseo de orilla en dato útil: agua, aves, prado y la línea Galicia-Asturias dibujada en el estuario.",
+      "La historia aquí es de frontera vivida y de pueblo blanco, no de ciudad. Se cruza a Ribadeo en minutos para el comercio; se vuelve al promontorio para el silencio. Quien busque Indianos densos y cementerio sobre el acantilado mirará Luarca; quien busque surf y faro, Tapia. Castropol guarda la imagen típica de ría y la dependencia honesta de la villa gallega enfrente."
+    ],
+    "fuera": [
+      "Si solo hay tiempo para una orilla de diario, esa orilla es el paseo de la ría del Eo frente a Ribadeo. Agua plana, horizonte de Galicia, banco y silencio un martes de noviembre. No es playa de toalla mediterránea: es estuario. Cuando el Cantábrico abierto esté bravo, aquí se puede mirar el agua sin pelear con el oleaje.",
+      "Figueras permite una tarde de puerto y palacio sin alejarse: astilleros, orilla del concejo y el Peñalba como detalle de piedra y retorno. Un poco más allá, Penarronda —dunas entre Castropol y Tapia— cubre playa abierta a unos diez minutos. Arena, viento y Cantábrico de verdad: se entra con calma, el agua entre dieciocho y veinte grados, y en agosto el aparcamiento se queda corto los días claros.",
+      "Los caminos completan el agua. La ruta costera hacia Tapia y Figueras une faro, surf y ría en trayectos cortos. Ribadeo, a diez minutos, aporta casco, comercio y As Catedrais hacia Galicia cuando apetece otra escala. La sierra de la Bobia y los Oscos quedan hacia los cuarenta y cinco minutos: verde, lluvioso, otra Asturias detrás de la costa."
+    ],
+    "casa": [
+      "El modelo de casa aquí no es la urbanización cerrada. Son viviendas en el pueblo blanco, hacia Figueras o en las parroquias: piedra, vistas a la ría, poca o ninguna obra nueva. La fibra es parcial. Hay que contar con humedad de estuario, niebla alta, acceso y la distancia real a un súper completo.",
+      "El precio medio ronda mil cincuenta euros el metro, el más bajo de Asturias Occidente. Tres habitaciones en tipologías modestas quedan en franja muy asequible; el estado de la reforma y las vistas claras al Eo mueven el precio más que el plano del anuncio. Conviene venir un día de niebla y comprobar aparcamiento en Penarronda cuando la costa se llena.",
+      "Los servicios son 3/10. Jarrio queda a unos treinta minutos. Asturias anda alrededor de los setenta y cinco; Santiago, hacia las dos horas. Eso es Castropol: mucho paisaje de frontera y poco autoservicio; la villa de gestos diarios está al otro lado de la ría."
+    ],
+    "encaja": {
+      "si": [
+        "La ría del Eo a la puerta importa más que tener el súper a la vuelta de la esquina. Castropol es pueblo blanco sobre un promontorio, frente a Ribadeo —Galicia—, con Figueras —astilleros y el palacio de Peñalba— a un paso y Penarronda —playa de dunas entre este concejo y Tapia— a unos diez minutos. Quien quiera salir al paseo de ría un martes de noviembre, mirar Galicia al otro lado del agua y bajar a Penarronda o a la orilla calmada del Eo cuando el Cantábrico abierto esté bravo encontrará aquí silencio de frontera, no villa completa. En agosto la ría, Figueras y Penarronda reciben visitantes y aparcamiento justo; el resto del año el pueblo se queda en lo suyo. Unas 1.950 horas de sol y unos cuarenta días despejados —frente a las 2.800 horas y ciento veinte jornadas claras de Mallorca— explican el trato: niebla alta, verano alrededor de 18,5 °C y lluvia frecuente también en julio. Quien no conozca el norte debe probar ese cielo antes de comprar.",
+        "Funciona si se acepta Ribadeo a unos diez minutos como villa de servicios —comercio grande, casco, recados— y el Hospital de Jarrio, en Coaña, a unos treinta minutos. El aeropuerto de Asturias anda alrededor de los setenta y cinco minutos; Santiago-Lavacolla, hacia las dos horas. A cambio se gana el precio más bajo de Asturias Occidente —alrededor de 1.050 €/m²—, vistas reales a la ría y una escala pequeña que no pretende competir con Navia ni con Luarca. Quien priorice orilla, frontera y quietud fuera de temporada, y tenga tiempo para la Reserva del Eo y para cruzar a Ribadeo cuando haga falta, entenderá Castropol sin forzar al municipio a ser lo que no es."
+      ],
+      "no": [
+        "Los servicios son 3/10: la semana no se resuelve andando en el propio pueblo. El súper completo y muchos gestos diarios piden coche hacia Ribadeo; la fibra es parcial y hay que comprobarla casa por casa. Eso no se arregla eligiendo otra calle del promontorio. Si la prioridad absoluta es vivir a pie de farmacia, mercado y comercio sin volante, Castropol no encaja: Navia o Luarca cubren villa más completa; Ribadeo, al otro lado de la ría, es la referencia de servicios, no este núcleo.",
+        "Tampoco encaja quien necesite hospital a diez o veinte minutos o aeropuerto cerca de una hora: Jarrio está a unos treinta; Asturias, a unos setenta y cinco. Quien se decida solo tras un sábado de sol de agosto, sin probar niebla densa ni un noviembre vacío, se llevará una sorpresa. Si lo que se busca es cielo de Baleares —días despejados, verano caluroso, baño largo sin pensar en el oleaje—, esta orilla no lo da: el agua anda entre 18 y 20 °C y el Cantábrico abierto pide calma. Mejor mirar Navia (Jarrio a diez minutos) o Luarca (aeropuerto a unos cuarenta) si la logística importa más que la foto de pueblo blanco."
+      ],
+      "veredicto": "Veredicto: Castropol encaja como pueblo blanco de ría y frontera —vivienda con vistas claras al Eo, hacia Figueras o el promontorio, no como villa autosuficiente— sobre todo si la orilla y el precio importan más que los servicios a pie. Apoyarse en Ribadeo para el día a día; comprobar fibra, humedad de ría y un noviembre de niebla antes de comprar. Se ganan silencio, Penarronda a diez minutos y el metro más bajo de la zona; se aceptan servicios 3/10, Jarrio a treinta minutos y Asturias a unos setenta y cinco. Quien priorice sanidad o villa completa, mirar Navia o Luarca."
+    },
+    "fotoIdentidad": {
+      "src": "/fotos/asturias-occidente/castropol-identidad.jpg",
+      "pie": "Castropol: pueblo blanco sobre la ría del Eo, con monte detrás — así se vive mirando a Figueras"
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/asturias-occidente/castropol-villa.jpg",
+        "pie": "Castropol: pueblo blanco sobre la ría"
+      },
+      {
+        "src": "/fotos/asturias-occidente/castropol-ria.jpg",
+        "pie": "Ría del Eo desde Castropol"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/asturias-occidente/castropol-figueras.jpg",
+        "pie": "Figueras: astilleros y orilla del concejo"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/asturias-occidente/castropol-penarronda.jpg",
+        "pie": "Penarronda, playa de dunas cerca de Castropol"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

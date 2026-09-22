@@ -1,0 +1,61 @@
+{
+    escala: "Ciudad naval",
+    abrir: [
+      "Ferrol se siente ciudad ilustrada de arsenal, no urbanización limpia. Unos sesenta y cuatro mil habitantes —fueron cerca de noventa mil—: el barrio de la Magdalena, el arsenal militar, Navantia, el castillo de San Felipe y, a quince minutos, las playas atlánticas de Doniños y San Xurxo. Cabo Prior cierra el horizonte bravo. Es ciudad naval en declive demográfico y comercial, con sanidad a pie.",
+      "Un martes de noviembre se puede ir andando a comercio, centro de salud y servicios urbanos. Quien vive aquí acepta tejido comercial en retroceso a cambio de precio y hospital cerca. Los servicios alcanzan 9/10 sobre el papel. El hospital público Arquitecto Marcide y el privado Juan Cardona quedan a unos cinco minutos. Alvedro está a unos treinta y cinco.",
+      "La Semana Santa, de interés turístico, corta calles y concentra procesiones, ruido y gente en fechas concretas. El calendario naval y las fiestas locales marcan el año; en verano Doniños y San Xurxo reciben toallas y tráfico hacia la costa abierta. Una vivienda en el centro o junto al recorrido procesional debe probar ese tramo.",
+      "Fuera de temporada Ferrol es ciudad de trabajo naval y de calles que se notan más quietas que en A Coruña. Primavera y otoño dejan la Magdalena más fácil de disfrutar. Si solo conoces un sábado de sol en Doniños, te llevas la imagen de folleto del Atlántico. Si has visto Semana Santa y un invierno de comercio en retroceso, ya puedes decidir si quieres la ciudad tal cual es.",
+      "Encaja solo si mandan metro asequible y hospital a pie, no el modelo residencial del arco este.",
+    ],
+    tiempo: [
+      "Ferrol suma unas 1.950 horas de sol y unos 45 días despejados —el extremo más gris de la zona— frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.100 milímetros en unos 132 días. Niebla y viento son medios. La llovizna también aparece en verano.",
+      "El verano ronda 19 °C, fresco frente a Baleares. Doniños, San Xurxo y A Frouxeira —hacia Valdoviño— tienen agua atlántica entre 16 y 18 °C, con oleaje: de las playas más frías y bravas de la tabla. Conviene probar nortada y un noviembre, no solo un día de mar llana en Doniños.",
+    ],
+    vivir: [
+      "El invierno en Ferrol se nota en el piso del ensanche o de la Magdalena: humedad atlántica, niebla y viento medios, y el extremo más gris de la zona —unas 1.950 horas de sol y unos 45 días despejados frente a Mallorca—. Conviene mirar aislamiento, orientación y estado de la vivienda un noviembre, no solo un sábado de sol en Doniños. Una terraza que en agosto parece útil se usa menos entre noviembre y febrero; hacia la costa hay que contar con viento y salitre.",
+      "El día a día sin coche es viable en el centro: un martes de noviembre se puede ir andando a comercio, centro de salud y servicios urbanos. Los servicios alcanzan 9/10 sobre el papel, aunque el tejido comercial está en retroceso. En enero Ferrol es ciudad de trabajo naval y de calles más quietas que A Coruña; no se apaga, pero tampoco es el modelo residencial limpio del arco este. Quien viva en el centro o junto al recorrido de Semana Santa debe probar ese tramo de procesiones, ruido y gente.",
+      "Llegar de fuera a una ciudad naval de unos sesenta y cuatro mil habitantes —fueron cerca de noventa mil— implica aceptar declive demográfico y comercial. Se oye gallego en el barrio y en el ayuntamiento; el castellano basta para lo cotidiano. Entre semana manda el trabajo naval y urbano; en verano Doniños y San Xurxo reciben toallas y tráfico hacia la costa abierta. Si solo buscas el Atlántico de un sábado de sol, te llevas la imagen de folleto de la playa. Si buscas urbanización ordenada tipo Mera, mira Oleiros.",
+      "La sanidad de urgencia y especialidades está a pie: el hospital público Arquitecto Marcide y el privado Juan Cardona quedan a unos cinco minutos. Empadronarse aquí abre médico de cabecera y hospital de referencia en el mismo municipio. Es el dato que distingue Ferrol en el norte del golfo: sanidad a cinco minutos, no a veinte.",
+      "Mantener el vínculo con Mallorca pasa por Alvedro, a unos treinta y cinco minutos; Santiago-Lavacolla queda a unos sesenta y cinco o setenta y cinco. En invierno el trayecto a menudo implica más escalas o ir a Santiago. El aeropuerto no es el de Oleiros a diez minutos: conviene mirar el calendario real de vuelos y aceptar ese trayecto desde la ciudad naval.",
+      "El ensanche y la Magdalena ofrecen pisos; las afueras, viviendas con más espacio. Hay fibra; la obra nueva es limitada. En el centro importan calle, revalorización (conviene mirar la calle y el historial local, no una media de zona) y comercio cercano; hacia la costa, viento y salitre. Conviene elegir calle con cuidado. En un piso con escaleras o sin ascensor hay que imaginar la rutina dentro de diez años; la facilidad de revalorización pide no firmar solo por el metro bajo.",
+    ],
+    historia: [
+      "El barrio de la Magdalena es el ensanche ilustrado: calles rectas, plazas y una ciudad pensada junto al arsenal. El arsenal y los astilleros —hoy Navantia— organizaron empleo, población y carácter durante siglos; el declive industrial explica parte del vaciado demográfico.",
+      "El castillo de San Felipe custodia la boca de la ría; Cabo Prior y Prioriño miran al Atlántico abierto. La Semana Santa ferrolana añade capa cultural de interés turístico. Lo que conviene saber es naval y urbana, no de villa marinera pequeña.",
+    ],
+    fuera: [
+      "Doniños ofrece arenal, laguna y oleaje: playa brava a unos diez o quince minutos. Un martes de junio se respira; un domingo de agosto, el acceso se llena. El agua es fría; los días de mar llana invitan al baño, los de nortada, al paseo.",
+      "San Xurxo continúa la costa brava. San Felipe y Cabo Prior son las salidas de patrimonio y horizonte cuando no apetece solo playa.",
+      "A Coruña queda a unos cuarenta minutos; Ares y Redes, a un trayecto corto hacia el sur de la ría. Aquí la orilla de diario es Atlántico abierto; el agua de ría templada, en Sada o Gandarío.",
+    ],
+    casa: [
+      "El ensanche y la Magdalena ofrecen pisos; las afueras, viviendas con más espacio. Hay fibra; la obra nueva es limitada. En el centro importan calle, revalorización y comercio cercano; hacia la costa, viento y salitre. La facilidad de revalorización es de las más bajas de la tabla: conviene elegir calle con cuidado.",
+      "Según Idealista (agosto de 2026), el precio medio ronda 1.490 €/m², de los más bajos de la zona. Tres habitaciones en franja asequible se estiman alrededor de 134.000 euros a partir de ese €/m² —estimación, no anuncio real—.",
+      "Los servicios son 9/10 sobre el papel. Hospital público y privado quedan a unos cinco minutos. Alvedro está a unos treinta y cinco; Santiago-Lavacolla, a unos sesenta y cinco o setenta y cinco. Quien priorice sanidad a pie y metro bajo lo entiende; quien busque urbanización limpia o agua de ría templada, mira Oleiros o Sada.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si precio bajo y sanidad a pie importan más que urbanización ordenada o mercado al alza. El barrio de la Magdalena, el arsenal y Navantia dan ciudad ilustrada; Doniños y San Xurxo —a unos diez o quince minutos— añaden Atlántico bravo con laguna y oleaje; San Felipe y Cabo Prior cierran el horizonte. El Arquitecto Marcide y el Juan Cardona quedan a unos cinco minutos. El metro ronda 1.490 €/m² según Idealista (agosto de 2026) —de los más bajos de la zona—; tres habitaciones en franja asequible se estiman alrededor de 134.000 euros. Quien quiera andar a comercio y hospital sin el metro de Oleiros encontrará aquí la opción de precio y sanidad del norte del golfo.",
+        "También encaja para quien acepte una ciudad en declive demográfico y comercial —fueron cerca de noventa mil habitantes; hoy unos sesenta y cuatro mil— a cambio de servicios urbanos sobre el papel (9/10) y playas abiertas cerca. Ares y Redes quedan a un trayecto corto si se quiere ría con color; A Coruña, a unos cuarenta minutos, si hace falta capital.",
+      ],
+      no: [
+        "No encaja si se busca el modelo residencial de Mera, Santa Cruz o Costa Miño, o un mercado inmobiliario al alza: la revalorización pide mirar calle e historial local, no solo el metro bajo y conviene elegir calle con cuidado. Tampoco si el baño de diario debe ser agua de ría templada hacia 18-20 °C: Gandarío y Sada son otro ambiente; aquí Doniños y San Xurxo rondan 16-18 °C con oleaje.",
+        "Tampoco encaja si el cielo debe parecerse al de Mallorca, o si el aeropuerto debe quedar a quince minutos. Ferrol suma unas 1.950 horas de sol y unos 45 días despejados —el extremo más gris de la zona— frente a 2.800 horas y 120 jornadas claras. Alvedro está a unos treinta y cinco minutos; Santiago-Lavacolla, a unos sesenta y cinco. Quien se decida solo tras un sábado de sol en Doniños, sin probar Semana Santa en el centro ni un invierno de comercio en retroceso, se llevará una sorpresa.",
+      ],
+      veredicto:
+        "Veredicto: Ferrol es la elección de precio y hospital del norte del golfo —piso en la Magdalena o ensanche, fuera del recorrido más ruidoso de Semana Santa, tras comprobar calle y entorno comercial—. Encaja si sanidad a cinco minutos y metro bajo importan más que urbanización limpia o agua de ría templada. No es la apuesta del estudio para el perfil de Oleiros o Costa Miño; sí lo es si mandan hospital a pie y Atlántico bravo. Se ganan Marcide/Cardona a cinco minutos; se aceptan playas frías, Alvedro a treinta y cinco, cielo gris frente a Mallorca y una ciudad en declive.",
+    },
+    fotosAbrir: [
+      { src: "/fotos/golfo-artabro-e-ferrol/ferrol-magdalena.jpg", pie: "Barrio de la Magdalena, ensanche ilustrado" },
+      { src: "/fotos/golfo-artabro-e-ferrol/ferrol-arsenal.jpg", pie: "Arsenal y carácter naval de Ferrol" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/golfo-artabro-e-ferrol/ferrol-san-felipe.jpg", pie: "Castillo de San Felipe en la boca de la ría" },
+      { src: "/fotos/golfo-artabro-e-ferrol/ferrol-prior.jpg", pie: "Cabo Prior, horizonte atlántico" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/golfo-artabro-e-ferrol/ferrol-doninos.jpg", pie: "Doniños: playa, laguna y oleaje" },
+      { src: "/fotos/golfo-artabro-e-ferrol/ferrol-san-xurxo.jpg", pie: "San Xurxo, arenal atlántico cerca de Ferrol" },
+    ],
+    creditoFotos: credito,
+  }

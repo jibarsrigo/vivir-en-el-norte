@@ -1,0 +1,98 @@
+{
+  "tipo": "municipio",
+  "slug": "baiona",
+  "nombre": "Baiona",
+  "n": 6,
+  "zonaId": "val-minor",
+  "zonaNombre": "Val Miñor",
+  "provincia": "Pontevedra",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-val-minor.ts",
+  "sourceKey": "baiona",
+  "sourceExport": "RELATOS_VAL_MINOR",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "186e47c61d5d8ee7d336ddab7efe3abd0d73246ab193e567385654412a8a8f6b",
+  "relato": {
+    "escala": "Villa marinera de bahía",
+    "abrir": [
+      "Baiona es una villa de unos doce mil habitantes construida alrededor de una bahía abrigada en el extremo sur de la ría de Vigo, la gran entrada de mar que termina en la ciudad de Vigo. El casco antiguo baja por calles de piedra y soportales hasta el puerto; delante quedan los veleros y, cerrando un lado de la bahía, la península de Monterreal, una lengua de tierra ocupada por una fortaleza amurallada y por el Parador. El mar no aparece al final de una excursión: acompaña el café, la compra y el paseo de cualquier tarde.",
+      "Un martes de noviembre la villa sigue abierta. Hay vecinos en las farmacias y los supermercados, barcos en el puerto deportivo, alumnos saliendo del instituto y mesas ocupadas en las calles del centro. Sabarís, el núcleo comercial situado junto a la desembocadura del río Miñor, añade mercado semanal y grandes superficies para la compra cotidiana. La población mezcla familias locales, personas mayores que han elegido la costa y vecinos de Vigo que trabajan en la ciudad, a unos veinticinco minutos, pero quieren volver cada tarde a una escala más pequeña.",
+      "El calendario tiene dos fechas que cambian el sonido de la villa. El primer fin de semana de marzo, la Arribada —declarada Fiesta de Interés Turístico Internacional en 2015— recuerda la llegada de la Pinta y puede reunir a unas treinta mil personas entre puestos y representaciones: se cortan calles, cuesta aparcar y el bullicio alcanza las viviendas del casco. El último domingo de agosto, la romería de la Virxe da Rocha lleva gente hacia la gran figura de granito sobre la costa. A eso se suma todo el verano, cuando Baiona puede pasar de unas doce mil a cuarenta mil personas y la PO-552 avanza despacio. Quien quiera vivir aquí debe conocer la villa con el paseo vacío y también cuando una conversación de terraza entra por la ventana.",
+      "Las estaciones se sienten sin extremos. En primavera vuelven las caminatas alrededor de Monterreal y las tardes largas junto al puerto; el verano pertenece a la playa y al barco que sale hacia las Illas Cíes, el archipiélago protegido que cierra la ría de Vigo por el oeste. En otoño la piedra se oscurece bajo la lluvia. El invierno trae muchos días de agua, pero no congela la calle: el centro conserva vida y el mar sigue siendo un lugar al que bajar, aunque sea con abrigo."
+    ],
+    "tiempo": [
+      "Frente a Baleares —el archipiélago mediterráneo donde está Mallorca—, Baiona no resulta mucho más fría en invierno: la media invernal ronda los 10,5 °C y enero suele moverse cerca de 14 °C de máxima y 7 °C de mínima. Lo que cambia es el cielo. Aquí hay unas 2.500 horas de sol y 78 días despejados al año, frente a unas 2.800 horas y 120 días despejados en Mallorca. La diferencia se concentra entre noviembre y febrero, cuando la terraza deja de ser una extensión segura de la casa.",
+      "La lluvia suma unos 1.400 milímetros repartidos en 115 días: entre octubre y marzo puede llover trece o quince días al mes, y diciembre alcanza quince o dieciséis. El verano compensa parte del trato. La media estival ronda los 20 °C, las máximas habituales se quedan en 25–26 °C, las noches bajan hacia 15 °C y solo unos tres a cinco días al año superan los 30 °C. La brisa de la bahía evita el calor sostenido de Mallorca; alguna mañana aparece niebla marina, pero suele levantarse antes del mediodía."
+    ],
+    "vivir": [
+      "El invierno en Baiona no se nota tanto en el termómetro como en la casa. En Mallorca muchas viviendas casi no piensan en calefacción ni en humedad; aquí la bahía aporta salitre y la lluvia de octubre a marzo mantiene el aire húmedo. Conviene preguntar por aislamiento, orientación al sol y rastros de moho en armarios o rincones norte. Una terraza que en agosto parece el centro de la vida, entre noviembre y febrero se usa la mitad o menos. Visitar el piso un día de nortada y otro gris enseña más que mil fotos de sol sobre Monterreal.",
+      "El día a día sin coche es más fácil que en Nigrán o Gondomar. El casco concentra farmacias, supermercados, colegio e instituto; Sabarís añade mercado y grandes superficies a pocos minutos. Se puede resolver la compra y el café andando, aunque las laderas de Baíña o Belesar devolverán el vehículo. En enero la villa no se apaga: hay vecinos, puerto y mesas ocupadas. No es la densidad de una ciudad, pero tampoco una urbanización que cierra la temporada.",
+      "Llegar de fuera es habitual: conviven familias locales, gente que trabaja en Vigo y quien eligió la costa para quedarse. Se oye gallego en el mercado y en el ayuntamiento; el castellano basta para lo cotidiano. Entre semana manda la vida cotidiana de villa abierta; en julio y agosto la población se multiplica y la PO-552 se atasca. Quien busque solo veraneo encontrará ruido en el casco; quien busque vecinos todo el año, también los encontrará —con otra escala que Mallorca.",
+      "La sanidad de urgencia y especialidades no está en la villa: el hospital público Álvaro Cunqueiro, en Vigo, queda a unos veinte minutos; el privado Povisa, hacia los veinticinco. En Baiona hay centro de salud, farmacias y servicios de semana. Empadronarse abre el médico de cabecera local; para pruebas y especialistas se baja a Vigo. No es aislamiento: es asumir que la gran sanidad está en la ciudad cercana, no en la misma calle que Barbeira.",
+      "Mantener el vínculo con Mallorca pasa por el avión. Vigo-Peinador está a unos veinticinco minutos y suele ofrecer vuelo directo a Palma en verano; Santiago, con conexión durante casi todo el año, queda hacia los ochenta y cinco. En invierno el trayecto a menudo implica más escalas o ir a Santiago: el coste no es solo el billete, sino la logística cuando el tiempo se pone feo. Conviene mirar el calendario real de vuelos del año, no solo el de agosto.",
+      "En el centro y junto a la bahía predominan los pisos con ascensor y terraza; en las laderas, chalés y casas bajas con más jardín y más coche. La terraza útil es la que recibe sol de invierno, no solo la que mira a Monterreal en foto. Reforma frente a llave en mano: mucha oferta ya tiene décadas; conviene presupuestar humedad, ventanas y calefacción, no solo metros y vistas al puerto."
+    ],
+    "historia": [
+      "La forma de Baiona se entiende desde Monterreal, la península fortificada que protege el puerto. Sus tres kilómetros de muralla rodean hoy el Parador, un hotel instalado dentro del recinto histórico, y permiten caminar con el océano a un lado y la villa al otro. Debajo creció el casco de piedra, estrecho y portuario, resguardado por una bahía que ofrecía un fondeadero mucho más amable que la costa atlántica abierta.",
+      "El episodio que la villa convirtió en memoria pública ocurrió el 1 de marzo de 1493: Martín Alonso Pinzón entró con la Pinta, una de las carabelas de la expedición de Colón, y trajo la primera noticia del viaje a América. La Arribada recrea cada marzo aquel desembarco. La vocación oceánica reaparece en los baioneses Diego Carmena y Vasco Gómez Gallego, supervivientes de la expedición de Magallanes, y en el hermanamiento de 1977 con Palos de la Frontera, puerto del que había partido la Pinta.",
+      "Monterreal no es solo el fondo de esa escena, sino la fortaleza que hizo del promontorio un puerto defendido durante siglos. Al otro extremo del paseo, la Virxe da Rocha —Virgen de la Roca— mide quince metros y fue construida entre 1910 y 1930; su interior conduce a un pequeño mirador sobre el mar. Muralla, carabela y estatua cuentan cómo Baiona ha ido convirtiendo navegación, defensa y devoción en paisaje cotidiano."
+    ],
+    "fuera": [
+      "El baño más inmediato es Barbeira, una pequeña playa de arena situada bajo las murallas de Monterreal, dentro de la propia villa. Desde el centro se llega andando en un minuto; el agua queda plana y protegida, aunque en agosto la cala se llena pronto. Praia Ladeira, la franja de arena de más de un kilómetro que cierra la bahía por el sur, está a unos tres minutos del centro y tiene paseo detrás, la marisma del río Miñor enfrente y la fortaleza al fondo. El agua suele estar entre 17 y 19 °C en agosto: bastante más fresca que el Mediterráneo mallorquín.",
+      "El paseo de diario empieza en el puerto, bordea Monterreal y continúa hacia la Virxe da Rocha, una estatua de granito de quince metros levantada sobre la costa al oeste de la villa. Se puede subir por su interior y mirar desde allí el océano antes de seguir por la senda litoral hacia Oia, el municipio de aldeas situado entre Baiona y A Guarda. En la dirección contraria, la Foz do Miñor —la marisma donde el río Miñor desemboca entre Baiona y Nigrán— ofrece pasarelas y caminos llanos entre aves, con el puente medieval de A Ramallosa como referencia.",
+      "Cuando hay una tarde entera, el Alto da Groba —la meseta de brezo y caballos que se levanta detrás de Baiona— queda a unos quince minutos en coche. Cuando hay un día entero, el barco de verano lleva en unos cuarenta y cinco minutos a las Illas Cíes, el parque nacional de islas situado frente a la ría, con la playa de Rodas y senderos hacia sus faros. El tiempo libre aquí puede repartirse entre baño, paseo llano, monte y navegación sin atravesar una ciudad."
+    ],
+    "casa": [
+      "En el centro y junto a la bahía predominan los pisos con ascensor y terraza, muchos en edificios levantados entre los años noventa y la primera década de este siglo. En las laderas aparecen chalés y casas bajas: Baíña, la parroquia situada sobre el interior de la villa, y Belesar, la parroquia rural al este del casco, permiten ganar jardín y vistas a cambio de usar más el coche. Hay fibra y también obra nueva, aunque la demanda costera deja poco margen para comprar grande en primera línea.",
+      "El precio medio ronda los 2.500 €/m². Un piso reciente de dos habitaciones a cinco minutos o menos del mar puede acercarse a 210.000–220.000 euros —la franja asequible de la bahía—; uno de tres habitaciones en esa misma orilla se sitúa hacia los 290.000. El modelo realista cerca del casco es un buen piso de dos habitaciones junto a la bahía, o alejarse del frente marítimo y mirar las laderas. La facilidad de venta es alta, alrededor de 8/10, pero conviene separar esa liquidez de la promesa de tranquilidad en verano.",
+      "El centro de salud, las farmacias, los supermercados, los colegios, el instituto, la biblioteca y la piscina municipal cubren la semana. Para el hospital público se va al Álvaro Cunqueiro, el gran hospital de Vigo, en unos veinte minutos; Povisa, hospital privado también situado en Vigo, queda aproximadamente a veinticinco. El aeropuerto de Vigo-Peinador está a unos veinticinco minutos y tiene vuelo directo a Palma durante el verano; Santiago, con conexión a Palma durante casi todo el año, queda a unos ochenta y cinco minutos."
+    ],
+    "encaja": {
+      "si": [
+        "Encaja si el mar debe estar incorporado al día y no reservado para el fin de semana. Barbeira permite bajar andando a una cala protegida; Ladeira añade una playa larga y llana; el perímetro de Monterreal ofrece tres kilómetros de murallas sobre el agua. El tiempo libre puede consistir en nadar, caminar hasta la Virxe da Rocha, recorrer la marisma del Miñor o tomar el barco a las Cíes sin organizar una expedición. A la vez, el hospital Álvaro Cunqueiro queda a unos veinte minutos, una distancia especialmente buena para una villa histórica de costa.",
+        "También encaja para quien quiera calle y vida durante todo el año. Baiona tiene casco, puerto, comercio, mercado cercano en Sabarís y restaurantes abiertos en invierno. No obliga a elegir entre una urbanización sin centro y una ciudad grande: se puede vivir en una villa reconocible y usar Vigo para el hospital, el cine o las compras mayores."
+      ],
+      "no": [
+        "No encaja si el silencio de julio y agosto es una condición esencial. La población se multiplica, el paseo se llena y la PO-552 se atasca. Una terraza orientada hacia una calle de hostelería puede recibir conversaciones hasta tarde; durante la Arribada de marzo y las fiestas de verano, el ruido no depende de que el piso tenga buenas ventanas. Hay que visitar la calle concreta de noche y no quedarse con la calma de una mañana laborable de invierno.",
+        "Tampoco encaja si se necesitan tres habitaciones recientes junto al mar: esa franja cara ronda los 290.000 euros. Nigrán ofrece opciones de tres habitaciones entre 240.000 y 250.000 en parroquias interiores (Priegue, Camos); Gondomar ofrece tres habitaciones por unos 160.000, pero deja el mar a doce minutos."
+      ],
+      "veredicto": "Veredicto: Baiona es la opción más completa si se quiere vivir en una villa de mar, caminar a la playa y conservar el hospital público a unos veinte minutos. Buscaría un piso de dos habitaciones con terraza en el ensanche —las calles más recientes que rodean el casco antiguo— o junto a la bahía, sin pegarlo a las terrazas más ruidosas ni a la PO-552: esa es la franja asequible de la villa. Visitaría la vivienda una noche de agosto y durante la Arribada antes de decidir. El verano costero rara vez supera los 30 °C y las máximas habituales se quedan en 25–26 °C, una ventaja clara frente al calor de Mallorca y también frente al fondo del valle de Gondomar, donde aparecen entre cinco y ocho días anuales por encima de 30 °C. Si hacen falta tres habitaciones y silencio, elegiría una parroquia alta de Nigrán o una casa de Gondomar; si hay que contar con más el paseo, el puerto y el baño a un minuto, Baiona justifica renunciar a metros."
+    },
+    "fotoIdentidad": {
+      "src": "/fotos/val-minor/baiona-identidad.jpg",
+      "pie": "Baiona de noche: casas sobre el puerto, la marina y Monterreal — vivir mirando la bahía"
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/val-minor/baiona-villa.jpg",
+        "pie": "Baiona alrededor de su bahía: casco, puerto y la península amurallada de Monterreal"
+      },
+      {
+        "src": "/fotos/val-minor/baiona-paseo.jpg",
+        "pie": "El paseo marítimo, una calle cotidiana frente a los barcos"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/val-minor/baiona-monterreal.jpg",
+        "pie": "Fortaleza de Monterreal: tres kilómetros de muralla sobre el mar"
+      },
+      {
+        "src": "/fotos/val-minor/baiona-pinta.jpg",
+        "pie": "Réplica de la carabela Pinta junto al puerto, memoria de la llegada de 1493"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/val-minor/baiona-barbeira.jpg",
+        "pie": "Barbeira, la pequeña playa protegida bajo las murallas"
+      },
+      {
+        "src": "/fotos/val-minor/baiona-ladeira.jpg",
+        "pie": "Praia Ladeira: arena larga, paseo y la marisma del Miñor"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (CC BY-SA)."
+  }
+}

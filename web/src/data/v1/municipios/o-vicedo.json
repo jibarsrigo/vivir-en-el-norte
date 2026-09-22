@@ -1,0 +1,98 @@
+{
+  "tipo": "municipio",
+  "slug": "o-vicedo",
+  "nombre": "O Vicedo",
+  "n": 39,
+  "zonaId": "a-marina",
+  "zonaNombre": "A Mariña",
+  "provincia": "Lugo",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-a-marina.ts",
+  "sourceKey": "o-vicedo",
+  "sourceExport": "RELATOS_A_MARINA",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "4a01148dade6a12a0ee38f6a227dddcef8a757b595401779011e2d7fc1047bc8",
+  "relato": {
+    "escala": "Villa marinera cantábrica",
+    "abrir": [
+      "O Vicedo se siente en la punta del mapa. Unos mil setecientos habitantes en el extremo oeste de A Mariña, junto a la ría do Barqueiro —la lámina de agua que aquí separa Lugo de A Coruña—. El casco es pequeño; la mirada, enorme: Xilloi, Arealonga y Vidreiro abren arena al Cantábrico; Fuciño do Porco —pasarelas de madera sobre el acantilado— convierte el precipicio en paseo; a unos veinte o treinta minutos según ruta, Estaca de Bares —uno de los extremos septentrionales de la península Ibérica y la divisoria clásica entre Cantábrico y Atlántico— cierra el horizonte con faro, viento y migración de aves. No es villa de plaza densa: es costa cantábrica extrema con nombre de pueblo.",
+      "Un martes de noviembre la vida es mínima. Quien vive aquí busca silencio y mar delante, no comercio a la vuelta de la esquina. Los servicios son 2/10 en nuestra escala —la nota más baja de la comarca; es metodología propia de esta web, no un indicador oficial— y la dependencia del coche ronda 9/10: el súper completo, muchas mesas y los recados serios organizan Viveiro o Burela. El Hospital da Mariña, en Burela, queda a unos treinta y cinco minutos desde el núcleo de O Vicedo. El aeropuerto usable anda alrededor de los cien minutos según ruta —Santiago, A Coruña o Asturias—. Eso no se arregla eligiendo otra calle junto a Xilloi.",
+      "El tráfico es de aldea casi todo el año. En los días claros de verano las playas y Fuciño do Porco reciben visitantes, coches en calles estrechas y aparcamiento justo. No hay una fiesta mayor de interés turístico que corte el casco como la Semana Santa de Viveiro: el volumen viene del veraneo y de quien busca costa abierta. Quien viva junto a la orilla notará agosto; hacia el interior, el silencio vuelve antes.",
+      "Fuera de temporada O Vicedo es retiro aislado: pocas mesas, poco comercio y mucho Cantábrico. Primavera y otoño son buenas épocas para conocerlo —verde intenso, niebla que entra de golpe—. Si solo conoces un sábado de sol, te llevas la imagen de folleto del horizonte. Si has visto un noviembre húmedo, ya puedes decidir si quieres el aislamiento.",
+      "El resto del año la villa no es completa. Encaja solo para quien priorice precio y paisaje frente a servicios y aeropuerto, y acepte que la semana cabe en el volante."
+    ],
+    "tiempo": [
+      "Si vienes de Baleares, notarás el cielo más gris y con menos sol que en Mallorca. O Vicedo suma unas 1.850 horas de sol y unos 40 días despejados frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.150 milímetros en unos 150 días: la lluvia de octubre a marzo es seria, y también en verano caen 7–10 días al mes. La niebla es alta —esta costa lucense es de las más brumosas de Galicia—; el viento, medio. Son cifras orientativas del conjunto de A Mariña, no la serie de una estación local: en el extremo oeste, tan expuesto, la niebla y el viento suelen pesar algo más que en el tramo de Ribadeo.",
+      "El verano ronda 18 °C, de los más frescos de la zona, con máximas habituales cerca de 22 °C y casi ningún día sobre 30 °C: se gana frescura frente al Mediterráneo y se acepta un cielo que también llovizna en julio. En verano el agua suele moverse entre 17 y 19 °C, como rango orientativo; el mar abierto es bravo. Las playas invitan más al paseo que al baño largo cuando sopla el Cantábrico. Conviene venir un día de niebla y un noviembre, no solo un sábado de sol de agosto."
+    ],
+    "vivir": [
+      "El invierno en O Vicedo se nota en la casa: humedad, niebla alta —esta costa lucense es de las más brumosas de Galicia—, viento medio y un cielo de unas 1.850 horas de sol frente a Mallorca. Conviene preguntar por aislamiento, orientación y rastros de moho un noviembre húmedo, no solo un sábado de sol en Xilloi. El jardín o la terraza que en agosto parecen el centro de la vida se usan la mitad o menos entre noviembre y febrero; el anuncio enseña horizonte, noviembre enseña aislamiento.",
+      "El día a día sin coche casi no existe: los servicios son 2/10 en nuestra escala —la nota más baja de la comarca— y la dependencia del coche ronda 9/10. Un martes de noviembre la vida es mínima; el súper completo, muchas mesas y los recados serios organizan Viveiro o Burela. En enero O Vicedo es retiro aislado: pocas mesas, poco comercio y mucho Cantábrico. Quien viva junto a la orilla notará agosto en las playas y en Fuciño do Porco; hacia el interior, el silencio vuelve antes.",
+      "Llegar de fuera busca silencio y mar delante, no comercio a la vuelta de la esquina. Se oye gallego en la villa pequeña; el castellano basta para lo cotidiano, pero la vida social pasa por escala de aldea y ritmos de costa extrema, no por una plaza densa. Entre semana manda el volante; en verano las playas y Fuciño do Porco reciben visitantes y aparcamiento justo. Si solo buscas el horizonte de un sábado de sol, te llevas la imagen de folleto de la costa. Si buscas vecinos densos en enero, mira Viveiro.",
+      "La sanidad de urgencia y especialidades no está en el municipio: el Hospital da Mariña, en Burela, queda a unos treinta y cinco minutos desde el núcleo de O Vicedo, y algo más desde las parroquias del interior. Empadronarse aquí abre el médico de cabecera local; para hospital se conduce, y conviene comprobar el hospital de referencia que asigna el Sergas según el empadronamiento. Eso no se arregla eligiendo otra calle junto a Xilloi: es asumir que la sanidad comarcal está lejos del extremo oeste.",
+      "Mantener el vínculo con Mallorca pasa por un aeropuerto usable alrededor de los cien minutos según ruta —Santiago, A Coruña o Asturias—. En invierno el trayecto a menudo implica más logística y escalas. Los enlaces con Palma cambian de temporada en temporada, así que conviene comprobar la programación vigente del año en que se decida, no solo la de agosto en la orilla: el coste no es solo el billete, sino el volante hasta la terminal.",
+      "Predominan viviendas modestas y casas hacia las parroquias; hay poca o ninguna obra nueva y fibra parcial que debe comprobarse dirección a dirección. Hay que contar con humedad, viento, acceso en invierno y la distancia real a un súper. En una casa con escaleras o acceso difícil en invierno hay que imaginar la rutina dentro de diez años; conviene presupuestar humedad, ventanas y calefacción, no solo las vistas al Cantábrico."
+    ],
+    "historia": [
+      "La ría do Barqueiro y el oficio del mar explican O Vicedo mejor que un casco monumental: villa marinera pequeña en el extremo lucense, con la mirada puesta en acantilados y arenales. Fuciño do Porco es la capa contemporánea —pasarelas que permiten caminar el precipicio sin perder el horizonte— y cuenta el sitio como paisaje vivo, no como museo.",
+      "Estaca de Bares, a unos veinte o treinta minutos según ruta, añade una capa geográfica que pocos municipios pueden igualar: faro, cabo, viento y aves migratorias en uno de los extremos septentrionales de la península, donde suele situarse la divisoria entre Cantábrico y Atlántico. Lo que conviene saber aquí es de costa extrema y ría de frontera provincial, no de villa amurallada ni de casas de indianos."
+    ],
+    "fuera": [
+      "Si solo hay tiempo para una orilla cerca, Xilloi, Arealonga o Vidreiro son el baño —y el paseo— de diario: arena, oleaje y agua fresca a pocos minutos. Un martes de junio puedes tener casi toda la playa; un domingo de agosto el aparcamiento se queda corto. Es costa de vecinos y de toalla de siempre cuando sopla menos, no de resort.",
+      "Fuciño do Porco convierte el acantilado en tarde: pasarelas, precipicio y Cantábrico delante. No es un paseo de boulevard; es horizonte con barandilla. Cuando el océano no invita al baño, este tramo sigue siendo salida.",
+      "Estaca de Bares amplía la jornada hacia el cabo. Viveiro, a un trayecto corto hacia el este, cubre casco, comercio y Covas —ría abrigada— cuando el Cantábrico abierto no deja meterse. Aquí el mar está en la puerta; la villa completa, no."
+    ],
+    "casa": [
+      "El modelo no es urbanización. Predominan viviendas modestas y casas hacia las parroquias; hay poca o ninguna obra nueva y fibra parcial que debe comprobarse dirección a dirección. Hay que contar con humedad, viento, acceso en invierno y la distancia real a un súper.",
+      "El precio medio ronda 900 €/m², de los más bajos de la zona, pero es una cifra orientativa: en un municipio de mil setecientos habitantes la muestra de anuncios publicados puede ser escasa y moverse mucho de un mes a otro, así que conviene mirar Idealista del mes en que se busque. Tres habitaciones en la franja asequible salen alrededor de 105.000 euros; es una estimación calculada a partir del €/m², no un anuncio real. El estado de la reforma y las vistas al mar mueven el precio final más que una media única: el anuncio enseña horizonte; noviembre enseña aislamiento.",
+      "Los servicios son 2/10 en nuestra escala. El Hospital da Mariña queda a unos treinta y cinco minutos desde el núcleo. Asturias, A Coruña o Santiago andan alrededor de los cien minutos según ruta. Quien acepte coche casi cada día gana costa cantábrica y uno de los metros más asequibles de A Mariña; quien necesite mesas en enero a pie, no."
+    ],
+    "encaja": {
+      "si": [
+        "Encaja para quien quiera el Cantábrico delante casi a pie —Xilloi, Arealonga y Vidreiro a pocos minutos; Fuciño do Porco, las pasarelas sobre el acantilado, como paseo de tarde— y acepte que la vida diaria no cabe en la villa. Un martes de noviembre aquí es retiro mínimo: el súper completo, el comercio y muchas mesas viven en Viveiro o Burela; el coche organiza la semana (dependencia alta, cerca de nueve sobre diez). Quien priorice precio —de los más bajos de A Mariña, alrededor de novecientos euros el metro como cifra orientativa— y costa cantábrica extrema frente a villa caminable encontrará el sitio: Estaca de Bares, uno de los extremos septentrionales de la península, a unos veinte o treinta minutos según ruta, cierra el horizonte con faro, viento y migración de aves. El mar es bravo; las playas invitan más al paseo que al baño largo cuando sopla el Cantábrico.",
+        "El clima pide ojos abiertos si se viene de Mallorca: unas mil ochocientas cincuenta horas de sol y unos cuarenta días despejados frente a las dos mil ochocientas horas y ciento veinte jornadas claras de la isla; caen alrededor de mil ciento cincuenta milímetros en unos ciento cincuenta días, con niebla alta. Son cifras orientativas de comarca, no de una estación local. El verano ronda dieciocho grados —de los más frescos de la zona—, con máximas habituales cerca de veintidós y casi ningún día sobre treinta: se gana frescura frente al calor mediterráneo y se acepta un cielo gris que también llovizna en julio. En agosto las playas y Fuciño do Porco reciben visitantes y aparcamiento justo; hacia el interior el silencio vuelve antes. Encaja si has probado un noviembre húmedo y sigues queriendo esa orilla."
+      ],
+      "no": [
+        "No encaja si la semana debe resolverse andando o si el hospital y el aeropuerto pesan como prioridad. Los servicios son 2/10 en nuestra escala —la nota más baja de la comarca—; el Hospital da Mariña, en Burela, queda a unos treinta y cinco minutos desde el núcleo; el aeropuerto usable anda alrededor de los cien minutos según ruta (Santiago, A Coruña o Asturias). Eso no se arregla eligiendo otra calle junto a Xilloi. Viveiro cubre casco y comercio; Burela tiene el hospital comarcal en el propio municipio; Ribadeo es la villa con más servicios de la comarca y la mejor conectada con el aeropuerto de Asturias.",
+        "Tampoco si se necesita el cielo estable de Baleares o una villa con mesas y mercado en enero sin coche. Aquí mandan niebla, cubierto y verano fresco extremo; fuera de temporada hay pocas mesas y poco comercio. Quien se decida solo tras un sábado de sol de agosto, sin probar el aislamiento de noviembre ni el atasco de las playas en temporada, se llevará una sorpresa."
+      ],
+      "veredicto": "Veredicto: O Vicedo es el extremo aislado de A Mariña —precio y Cantábrico a cambio de servicios mínimos—. Buscaría vivienda con fibra comprobada (es parcial), acceso claro en invierno y orientación que aguante viento y humedad, lejos del atasco de agosto en Xilloi o Fuciño do Porco. Se ganan costa cantábrica y uno de los metros más asequibles de la zona; se aceptan coche casi cada día, hospital a treinta y cinco minutos, aeropuerto a unos cien según ruta y un cielo que no es el de Mallorca."
+    },
+    "fotoIdentidad": {
+      "src": "/fotos/a-marina/o-vicedo-identidad.jpg",
+      "pie": "O Vicedo: casas junto a la ría, con el monte detrás"
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/a-marina/vicedo-villa.jpg",
+        "pie": "O Vicedo: villa marinera en el extremo occidental"
+      },
+      {
+        "src": "/fotos/a-marina/vicedo-puerto.jpg",
+        "pie": "Puerto y orilla de trabajo en O Vicedo"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/a-marina/vicedo-faro.jpg",
+        "pie": "Faro y horizonte hacia Estaca de Bares"
+      },
+      {
+        "src": "/fotos/a-marina/vicedo-ria.jpg",
+        "pie": "Ría do Barqueiro junto a O Vicedo"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/a-marina/vicedo-playa.jpg",
+        "pie": "Playa atlántica en O Vicedo"
+      },
+      {
+        "src": "/fotos/a-marina/vicedo-costa.jpg",
+        "pie": "Costa y acantilados de O Vicedo"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

@@ -1,0 +1,62 @@
+{
+    escala: "Veraneo en bloques",
+    abrir: [
+      "Noja se siente como dos pueblos según el mes: unos dos mil setecientos habitantes de octubre a mayo —y ochenta mil a cien mil en agosto— frente a Ris y Trengandín —playas largas con islotes—, las marismas de Victoria y Joyel y bloques de apartamentos. Es pueblo dimensionado para el verano, no villa con vida propia todo el año.",
+      "Quien mira vivir aquí debe honestidad de calendario. Un martes de noviembre los servicios son 4–5/10: dimensionada para el verano; cierra medio comercio. El Hospital de Laredo queda a unos veinte minutos. El aeropuerto de Santander anda alrededor de los veinticinco minutos, con Palma casi todo el año. De octubre a mayo Noja queda muy tranquila —casi vacía—; el estudio la señala como segunda residencia, no para vivir todo el año.",
+      "En julio y agosto los bloques se llenan de veraneantes de Burgos, Bilbao y Madrid: ruido, tráfico, toallas y aparcamiento justo hacia Ris y Trengandín. Primavera y otoño muestran las marismas sin la multitud; el invierno muestra el vacío. Si solo conoces un sábado soleado de agosto, te llevas la imagen de folleto de la playa. Si has visto un noviembre vacío, ya puedes decidir si quieres esa segunda residencia.",
+      "El calendario lo marca el veraneo masivo: el lleno es julio y agosto; el resto del año, el cierre. Las fiestas locales animan el casco unos días en temporada, pero el hecho útil no es la patronal: es el contraste invierno–agosto. Quien viva en bloque junto a Ris debe contar la saturación de temporada como parte del año, no como excepción.",
+      "Noja encaja para quien busque segunda residencia frente a playa larga; no para quien necesite comercio y ritmo de pueblo de octubre a mayo. Quien priorice mesas abiertas en enero mirará Santoña o Laredo.",
+    ],
+    tiempo: [
+      "Si vienes de Baleares, el cielo no compensa el vacío de invierno. Noja suma unas 1.650 a 1.700 horas de sol y unos 40 días despejados, lejos de las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.150 a 1.250 milímetros en unos 150 a 155 días. El viento es medio; la niebla, baja.",
+      "El verano ronda 20 °C, fresco frente a Baleares. Ris y Trengandín tienen agua entre 19 y 21 °C; la orilla es abierta y con oleaje. Conviene venir un agosto lleno y un martes de noviembre vacío, no solo el día soleado de la foto turística con islotes.",
+    ],
+    vivir: [
+      "El invierno en Noja es el hecho útil, no un detalle. De octubre a mayo el pueblo queda muy tranquilo —casi vacío—; cierra medio comercio y la casa de bloque enfría con humedad de orilla y salitre. Conviene calefacción y aislamiento serios, y visitar un martes de noviembre vacío, no solo el día soleado de Ris con islotes.",
+      "Sin coche, en temporada alta se llega a la playa; el resto del año lo diario se complica: servicios 4–5/10 fuera de temporada, dimensionados para el verano. Un martes de noviembre no hay vida de villa con mesas abiertas como en Santoña o Laredo. Quien mire vivir aquí debe honestidad de calendario: de octubre a mayo Noja no es pueblo completo a pie.",
+      "Conviven los pocos residentes de invierno y el veraneo masivo de Burgos, Bilbao y Madrid en julio y agosto: ruido, tráfico, toallas y aparcamiento justo hacia Ris y Trengandín. La integración de año entero es escasa frente a una villa de trabajo; la de temporada es saturación. El estudio la señala como segunda residencia, no para vivir todo el año.",
+      "El Hospital de Laredo queda a unos veinte minutos. No hay hospital en el municipio; fuera de temporada tampoco hay comercio denso. Para urgencias y especialidades se asume el trayecto a Laredo. Es logística de segunda casa costera, no de villa sanitaria a pie.",
+      "Santander–Seve Ballesteros anda alrededor de los veinticinco minutos, con Palma casi todo el año. Ir y volver a Mallorca es viable, pero el peaje real de Noja no es el avión: es el vacío de invierno frente al lleno de agosto. Conviene mirar ambos antes de comprar como si fuera villa de enero.",
+      "Predominan pisos en bloques de apartamentos; hay poca obra nueva y fibra. No es chalé de Loredo ni casco marinero de Santoña: es tipología de veraneo. En primera línea hay que contar con ocupación de agosto y precio. Imaginar la rutina en un bloque casi vacío en noviembre y saturado en agosto antes de comprar.",
+    ],
+    historia: [
+      "Ris, Trengandín y los bloques de apartamentos explican Noja: urbanismo de veraneo frente a playa larga, no casco medieval. Las marismas de Victoria y Joyel —parte del parque natural compartido con Santoña— añaden la capa natural junto al pueblo: aves, pasarelas, agua quieta detrás de los bloques.",
+      "El contraste invierno–agosto es el hecho útil: pueblo vacío fuera de temporada y saturado en verano con veraneo de Burgos, Bilbao y Madrid. La historia de vivir aquí es de calendario turístico, no de villa de trabajo ni de chalés dispersos.",
+      "Hoy Noja sigue siendo eso: arenal enorme, torres de apartamentos, silencio de noviembre. Quien camina Ris un martes de enero entiende por qué el estudio la aparta de la opción de vivir todo el año.",
+    ],
+    fuera: [
+      "Si solo hay tiempo para un baño en temporada, ese baño es Ris o Trengandín: playas largas con islotes, agua entre 19 y 21 °C, oleaje abierto. Un domingo de agosto el aparcamiento y las toallas lo llenan todo; un martes de junio puedes tener más espacio. Es orilla de veraneo masivo, no de diario de villa.",
+      "Las marismas de Victoria y Joyel cubren el paseo de aves y pasarelas cuando no apetece oleaje: otro ambiente, más quieto, detrás del pueblo. Laredo y Santoña quedan a trayecto corto para quien busque villa con mesas en noviembre.",
+      "Santander anda alrededor de los veinticinco o treinta minutos. Quien priorice segunda casa frente a arenal enorme encontrará aquí el gesto; quien priorice vida diaria todo el año mirará Santoña o Laredo; quien priorice chalés, Ribamontán.",
+    ],
+    casa: [
+      "Predominan pisos en bloques de apartamentos; hay poca obra nueva y fibra. En primera línea hay que contar con ocupación de agosto y precio. No es chalé de Loredo: es tipología de veraneo.",
+      "El precio medio ronda 2.300 €/m². Tres habitaciones en primera línea se sitúan alrededor de 269.000 euros —fuera de la orilla asequible habitual—. Conviene probar el vacío de noviembre y el aparcamiento de agosto antes de comprar como si fuera villa de invierno.",
+      "Los servicios son 4–5/10 fuera de temporada. El Hospital de Laredo queda a unos veinte minutos. Santander–Seve Ballesteros está a unos veinticinco, con Palma casi todo el año. Eso es Noja: playa larga de temporada a cambio de comercio cerrado de octubre a mayo.",
+    ],
+    encaja: {
+      si: [
+        "La playa larga de veraneo pesa solo si se acepta el vacío de invierno. Noja reúne unos dos mil setecientos habitantes de octubre a mayo —y decenas de miles en agosto—: Ris y Trengandín —largas, con islotes—, marismas de Victoria y Joyel y bloques de apartamentos. Es pueblo dimensionado para el verano, no villa con vida propia todo el año. Quien busque segunda residencia frente a arenal enorme, con Hospital de Laredo a unos veinte minutos y aeropuerto de Santander alrededor de los veinticinco, encontrará aquí orilla de bloques, no de chalés. En julio y agosto llega veraneo masivo de Burgos, Bilbao y Madrid: ruido, tráfico, toallas y aparcamiento justo; de octubre a mayo cierra medio comercio y el pueblo queda muy tranquilo —casi vacío—. Unas 1.650 a 1.700 horas de sol y unos 40 días despejados —frente a las 2.800 horas y 120 de Mallorca— mantienen el cielo más bajo de la tabla: lluvia frecuente también en verano, verano suave alrededor de 20 °C, agua entre 19 y 21 °C.",
+        "Funciona si se mira con honestidad como base de temporada o segunda casa, no como marco diario de noviembre. Los servicios son 4/10 fuera de temporada —dimensionada para el verano—. Hay fibra; el precio ronda 2.300 €/m² y tres habitaciones en primera línea suelen quedar caras. Quien haya probado un agosto lleno y un martes de noviembre vacío, y siga queriendo Ris y Trengandín delante, entenderá Noja sin pedirle mesas abiertas en enero.",
+      ],
+      no: [
+        "No encaja si se quiere vivir todo el año con comercio abierto, casas bajas o vida de villa de trabajo. Santoña cubre villa marinera activa; Ribamontán, chalés y surf; Laredo, hospital a cinco minutos y servicios 7/10. Aquí el estudio la señala como segunda residencia: el invierno no es un detalle, es la mitad del año.",
+        "Tampoco si se necesitan tres habitaciones en primera línea dentro de la orilla asequible habitual del mercado, o el cielo de Baleares. Quien se decida solo tras un sábado de sol de agosto, sin probar el cierre de comercio ni el aparcamiento de temporada, se llevará una sorpresa. Si lo que manda es Palma todo el año a menos de cuarenta minutos vía Bilbao, Castro; si mandan casas bajas frente a Santander, Ribamontán.",
+      ],
+      veredicto:
+        "Veredicto: Noja encaja solo como veraneo en bloques —segunda residencia tras probar un agosto lleno y un noviembre vacío—, no como villa para vivir de octubre a mayo. Se ganan Ris, Trengandín y Laredo a veinte minutos; se aceptan servicios 4/10 fuera de temporada, tipología de apartamentos, ~2.300 €/m² y el sol bajo de Cantabria Oriental. Quien priorice vida diaria todo el año, Santoña o Laredo; quien priorice chalés, Ribamontán.",
+    },
+    fotosAbrir: [
+      { src: "/fotos/cantabria-oriental/noja-bloques.jpg", pie: "Noja: bloques de apartamentos de veraneo" },
+      { src: "/fotos/cantabria-oriental/noja-ris.jpg", pie: "Playa de Ris, Noja" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/cantabria-oriental/noja-villa.jpg", pie: "Noja fuera de temporada" },
+      { src: "/fotos/cantabria-oriental/noja-marismas.jpg", pie: "Marismas de Victoria y Joyel, Noja" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/cantabria-oriental/noja-trengandin.jpg", pie: "Playa de Trengandín, Noja" },
+      { src: "/fotos/cantabria-oriental/noja-playa.jpg", pie: "Orilla abierta de Noja" },
+    ],
+    creditoFotos: credito,
+  }

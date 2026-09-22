@@ -1,0 +1,60 @@
+{
+    escala: "Villa blanca de la Costa Verde",
+    abrir: [
+      "Luarca se siente más villa de foto turística de lo que el mapa del occidente promete. Unos cuatro mil quinientos habitantes en el núcleo —unos doce mil en el concejo de Valdés—: puerto, siete puentes sobre el río Negro, cementerio y ermita sobre el acantilado, faro, casas de Indianos y mercado. Playas primera y segunda en la villa; Otur, Cueva y Cadavedo a diez o quince minutos. Es la villa blanca de la Costa Verde: belleza trabajada y, a la vez, la mejor logística aérea de la zona.",
+      "Quien vive aquí es gente local, vecinos de Valdés y veraneantes que vuelven cada agosto. Un martes de noviembre se compra, se va al mercado y se camina el casco. Los servicios alcanzan 6/10; hay fibra. El Hospital de Jarrio queda a unos veinte minutos. El aeropuerto de Asturias está a unos cuarenta —el mejor tiempo de Asturias Occidente—, con Palma en verano.",
+      "El tráfico es de villa casi todo el año. En verano el puerto, las playas urbanas y los miradores reciben afluencia, coches y aparcamiento justo. Luarca se conoce por su belleza; las patronales y el veraneo marcan el impacto al vivir —ruido y gente unos días—, sin apagar la villa el resto del año. Quien compre junto al puerto debe probar agosto.",
+      "La semana tiene rutinas claras: bajar al puerto, cruzar los puentes del Negro, subir al faro o al cementerio sobre el acantilado, mercado, Jardines de la Fonte Baxa cuando apetezca verde ordenado. Cabo Busto y la ruta de los miradores cierran el paseo de horizonte. Primavera y otoño son buenas épocas para conocerlo: la villa blanca se pone intensa de verde; en noviembre la niebla media enseña el trato cantábrico. Si solo conoces un sábado claro, te llevas la imagen de folleto. Si has visto el puerto lleno y un día gris, ya puedes decidir si de verdad quieres vivir aquí.",
+      "Fuera de temporada Luarca sigue siendo villa con vida. Encaja para quien quiera la más bonita y la mejor comunicada de la Asturias occidental, aceptando Jarrio a veinte minutos a cambio del vuelo más corto de la zona.",
+    ],
+    tiempo: [
+      "Si vienes de Baleares, el aeropuerto cerca no trae el cielo de la isla. Luarca registra unas mil ochocientas cincuenta horas de sol y unos cuarenta y dos días despejados —el extremo algo menos duro en despejados—, frente a las dos mil ochocientas horas y ciento veinte jornadas claras de Mallorca. Caen alrededor de mil cincuenta milímetros en unos ciento cuarenta y cinco días. La niebla es media; el viento, medio. También en verano llueve con frecuencia.",
+      "El verano ronda dieciocho grados y medio, fresco frente a Baleares. Las playas primera y segunda tienen agua entre dieciocho y veinte grados; Otur, Cueva y Cadavedo amplían opciones. Sigue lejos del Mediterráneo, pero el puerto y los miradores compensan muchos días de baño corto. Conviene probar niebla y un día de afluencia en miradores antes de decidirse solo por la foto.",
+    ],
+    vivir: [
+      "El invierno en casa se nota por la niebla media y la humedad del puerto: las casas blancas e indianas piden aislamiento, estado de galerías y orientación, no solo fachada bonita. Una terraza hacia el río Negro o el Cantábrico que en agosto parece el centro de la vida, entre noviembre y febrero se usa a medias. Visitar un día gris y otro de afluencia en miradores enseña más que firmar solo por el cementerio sobre el acantilado.",
+      "Sin coche se resuelve mucho: mercado, casco, farmacia y mesas un martes de noviembre; los servicios alcanzan 6/10 y hay fibra. En enero Luarca sigue siendo villa con vida, no decorado de temporada. Otur, Cueva, Cadavedo o Cabo Busto piden coche cuando se quiere otra orilla; el día a día se camina entre los puentes del Negro y el puerto.",
+      "Conviven gente local, vecinos de Valdés y veraneantes que vuelven cada agosto. Se oye asturiano en el mercado y en la calle; el castellano basta para lo cotidiano, pero la vida social pasa por el casco blanco y la vida cotidiana de villa marinera. Entre semana manda la escala cuidada; en verano el puerto y las playas urbanas suben el volumen con tráfico y aparcamiento justo.",
+      "La sanidad comarcal pide trayecto: el Hospital de Jarrio queda a unos veinte minutos. En la villa hay servicios de día a día; para urgencias y especialidades se baja a Coaña. No es Jarrio a diez minutos como en Navia: es aceptar hospital usable a cambio del marco de villa blanca.",
+      "Ir y volver a Mallorca es el punto fuerte del occidente: el aeropuerto de Asturias está a unos cuarenta minutos —el mejor tiempo de la zona—, con Palma en verano; Santiago-Lavacolla, hacia las dos horas. En invierno el trayecto sigue siendo el más corto del mapa occidental, pero conviene mirar el calendario real de vuelos, no solo el de agosto.",
+      "La vivienda típica es piso o casa blanca en el casco, a veces indiana rehabilitada; las afueras dan más espacio. Hay poca obra nueva y fibra. Las casas de Indianos suben de franja: hay que mirar estado, mantenimiento y humedad, no solo la galería. Junto al puerto hay que contar con salitre y afluencia de temporada.",
+    ],
+    historia: [
+      "El cementerio y la ermita sobre el acantilado, el faro y los siete puentes sobre el río Negro explican Luarca como villa de foto turística trabajada: piedra, mar y un casco que se reconoce de lejos. No es adorno: es el carácter que la distingue de Navia o Tapia. El río corta la villa; los puentes la cosen.",
+      "Las casas de Indianos —quien volvió de América con fortuna— y el mercado añaden capa de villa con prestigio costero: palacetes, galerías, un lujo traído de lejos plantado junto al Cantábrico. Cabo Busto, la ruta de los miradores y los Jardines de la Fonte Baxa completan la ficha de paseo y horizonte. Lo que conviene saber es de retorno, faro y acantilado, no de industria metropolitana.",
+    ],
+    fuera: [
+      "Si solo hay tiempo para una tarde de diario, el puerto, las playas primera y segunda y el faro cubren el gesto. Orilla urbana, agua entre dieciocho y veinte grados, horizonte de villa blanca. Un martes de junio puedes caminar con calma; en agosto el aparcamiento junto a la orilla se queda corto.",
+      "La ruta de los miradores y el cementerio sobre el acantilado cierran la foto típica de la costa sin alejarse: prado, precipicio, mar. Otur, Cueva y Cadavedo amplían playa a diez o quince minutos cuando apetece otra arena.",
+      "Cabo Busto ofrece senda circular de horizonte abierto. Navia cubre Jarrio más cerca si hace falta; Tapia, surf hacia el oeste. Luarca concentra belleza; el mapa de apoyo está a un trayecto corto.",
+    ],
+    casa: [
+      "El casco ofrece pisos y viviendas blancas o indianas; las afueras, más espacio. Hay poca obra nueva y fibra. En el centro hay que contar con turismo de verano y humedad; hacia el puerto, salitre y afluencia de temporada. Las casas de Indianos rehabilitadas suben a la franja media-alta: hay que mirar estado, mantenimiento y orientación, no solo la fachada.",
+      "El precio medio ronda mil trescientos euros el metro. Tres habitaciones en la franja asequible se sitúan alrededor de ciento cincuenta y dos mil euros. La franja media puede ser piso reformado en casco o vivienda con vistas al puerto.",
+      "Los servicios son 6/10. Jarrio queda a unos veinte minutos. El aeropuerto de Asturias está a unos cuarenta, con Palma en verano; Santiago-Lavacolla, hacia las dos horas. Eso es Luarca: mucho marco y la mejor conexión aérea del occidente; la sanidad comarcal pide trayecto.",
+    ],
+    encaja: {
+      si: [
+        "La villa blanca a la puerta importa más que tener el hospital a diez minutos. Luarca —núcleo del concejo de Valdés— concentra puerto, siete puentes sobre el río Negro, cementerio y ermita sobre el acantilado, faro, casas de Indianos y mercado: el marco que Navia o Tapia no dan cada tarde. Playas 1ª y 2ª en la villa; Otur, Cueva y Cadavedo a diez o quince minutos; Cabo Busto y la ruta de los miradores cierran el paseo. Quien quiera caminar el casco un martes de noviembre, bajar al puerto y subir al faro o al cementerio sobre el acantilado encontrará aquí villa con vida todo el año, no solo foto de agosto. En verano el puerto, las playas urbanas y los miradores reciben afluencia, tráfico y aparcamiento justo: hay que probarlo antes de comprar junto a la orilla. Unas 1.850 horas de sol y unos cuarenta y dos días despejados —frente a las 2.800 horas y ciento veinte de Mallorca— mantienen el contraste cantábrico: niebla media, verano alrededor de 18,5 °C, agua entre 18 y 20 °C. El baño sigue lejos del Mediterráneo; el horizonte del puerto compensa muchos días cortos.",
+        "Funciona si se acepta el Hospital de Jarrio, en Coaña, a unos veinte minutos a cambio de la mejor logística aérea de la zona: el aeropuerto de Asturias a unos cuarenta minutos, con Palma en verano. Los servicios son 6/10 —villa completa, fibra sí—; el precio ronda 1.300 €/m². Quien tenga tiempo libre para los Jardines de la Fonte Baxa, los miradores y las playas del concejo, y valore belleza y vuelo más corto que la sanidad a diez minutos, entenderá por qué Luarca es la elección si Asturias Occidente se mira en serio. Navia queda hacia el oeste si hace falta Jarrio más cerca; Tapia, si lo que se busca es surf delante.",
+      ],
+      no: [
+        "Jarrio a veinte minutos no es Jarrio a diez: eso es Navia. Si la prioridad absoluta es sanidad comarcal al cuarto de hora, esta villa no encaja aunque el faro esté en la puerta. Tampoco encaja quien busque solo el precio más bajo —Castropol anda alrededor de 1.050 €/m²— o quien necesite ciudad grande a media hora: Oviedo y Avilés siguen hacia la hora. Las casas de Indianos rehabilitadas suben de franja; quien compre esperando gangas de pueblo sin mirar estado y humedad se equivoca de opción.",
+        "El sol de Baleares no llega con el aeropuerto a cuarenta minutos. Unas 1.850 horas de sol, lluvia frecuente y verano fresco son el trato real; quien descubra Luarca solo en un sábado claro de agosto, sin probar niebla media ni el puerto lleno, se llevará la sorpresa del Cantábrico. Si lo que se quiere es villa práctica sin tanta afluencia de foto turística, Navia cubre hospital y precio más amable; si se quiere surf y casco marinero pequeño, Tapia. Luarca pide aceptar cielo cubierto muchos días a cambio de la villa más bonita y el vuelo más corto de la zona.",
+      ],
+      veredicto:
+        "Veredicto: Luarca encaja como villa blanca de la Costa Verde —piso o vivienda en casco o cerca del puerto, fuera del tramo más ocupado en agosto; Indianas solo si el estado y el precio cuadran— sobre todo si encanto y Asturias a cuarenta minutos importan más que Jarrio a diez. Probar niebla, un día de afluencia en miradores y playas 1ª y 2ª antes de comprar. Se ganan faro, cementerio sobre el acantilado, Otur o Cueva a un salto y la mejor conexión aérea de Asturias Occidente; se aceptan unos 1.300 €/m², hospital a veinte minutos y verano fresco frente a Mallorca. Quien priorice sanidad cercana, Navia; quien priorice precio de ría, Castropol.",
+    },
+    fotosAbrir: [
+      { src: "/fotos/asturias-occidente/luarca-puerto.jpg", pie: "Puerto de Luarca" },
+      { src: "/fotos/asturias-occidente/luarca-casco.jpg", pie: "Casco blanco de Luarca" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/asturias-occidente/luarca-cementerio.jpg", pie: "Camino y acantilado sobre Luarca" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/asturias-occidente/luarca-faro.jpg", pie: "Faro de Luarca" },
+      { src: "/fotos/asturias-occidente/luarca-playa.jpg", pie: "Playa de Luarca" },
+    ],
+    creditoFotos: credito,
+  }

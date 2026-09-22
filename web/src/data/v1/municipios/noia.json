@@ -1,0 +1,97 @@
+{
+  "tipo": "municipio",
+  "slug": "noia",
+  "nombre": "Noia",
+  "n": 31,
+  "zonaId": "barbanza-e-noia",
+  "zonaNombre": "Barbanza e Noia",
+  "provincia": "A Coruña",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-barbanza-e-noia.ts",
+  "sourceKey": "noia",
+  "sourceExport": "RELATOS_BARBANZA_E_NOIA",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "f1282f18f24486c5639dc275ae6e1b078a8217c63edfc4b4bf49d09bef68ba09",
+  "relato": {
+    "escala": "Villa histórica de ría",
+    "abrir": [
+      "Noia se siente como villa de granito gótico al fondo de otra ría. Unos catorce mil habitantes en la ría de Muros e Noia —la entrada de mar que se abre entre el Barbanza y la sierra de Outes—, con casco histórico, puerto, mercado y calles peatonales. San Martiño y Santa María a Nova con sus lápidas gremiales no son decorado: son el carácter de piedra. Testal y Boa, playas de ría a unos ocho minutos, quedan en franja B: más lejos del agua inmediata que Tanxil o Barraña, pero usables.",
+      "Quien vive aquí es gente local de villa y de marisqueo —el berberecho como emblema—, y visitantes que llenan agosto sin vaciar el invierno. Un martes de noviembre el mercado, el centro de salud, el comercio y la restauración permiten vivir a pie desde el casco. Los servicios alcanzan 6/10. El hospital de referencia es el CHUS de Santiago, a unos cuarenta minutos —fuera del deseable de media hora—; el privado HM Rosaleda, en la misma ciudad, ronda ese tiempo. Muros, villa marinera, queda a unos veinticinco.",
+      "Fuera de las fiestas Noia recupera escala de villa histórica con vida todo el año: soportales, plazas, mesas abiertas. Primavera y otoño son buenas épocas para conocerlo: en mayo el casco se camina sin prisa; en noviembre se nota la niebla media al fondo de la ría y la humedad de la piedra. Si solo conoces un día de fiesta soleada, te llevas la imagen de folleto del gótico. Si has visto un frente de niebla, ya puedes decidir si quieres esa casa en el casco.",
+      "San Martiño marca el calendario religioso de la villa; en agosto, las fiestas de San Bartolomeu y la Festa da Empanada llenan el Campo da Feira y el centro con música, degustación, verbenas y visitantes. Son días de cortes, ruido y aparcamiento difícil. Una vivienda en el casco histórico debe conocer ese tramo antes de decidirse: no es una excepción, es parte del año."
+    ],
+    "tiempo": [
+      "Si vienes de Baleares, notará el cielo más gris y la niebla de ría, más que un cambio del fresco del verano. Noia registra unas 2.225 horas de sol y 65 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.350 milímetros en unos 121 días. La niebla es media al fondo de la ría; en invierno el cielo gris se hace largo y la terraza se usa a medias.",
+      "El verano ronda 19,5 °C, mucho más suave que Baleares. Testal y Boa tienen agua de ría; en bajamar el fondo puede mostrar fango —hay que mirar la marea—. La temperatura del agua se acerca a 18-20 °C en los mejores tramos del estío: fresca, calmada, de estuario más que de océano. Conviene venir un noviembre de niebla y un martes de junio en Testal, no solo un sábado de San Bartolomeu."
+    ],
+    "vivir": [
+      "El invierno en Noia se siente en la niebla media al fondo de la ría y en la humedad del granito gótico. En Mallorca muchas casas casi no piensan en calefacción ni en moho; aquí caen alrededor de 1.350 milímetros y la piedra del casco pide ventilación. Conviene comprobar humedad en noviembre. Visitar un frente de niebla enseña más que un día de fiesta soleada en San Martiño.",
+      "El día a día sin coche funciona en el casco: mercado, centro de salud, comercio y restauración. Testal y Boa piden unos ocho minutos. En enero hay soportales, plazas y mesas abiertas. Es villa histórica con vida todo el año, no solo monumento.",
+      "Llegar de fuera mezcla marisqueo —berberecho— y visitantes de agosto. Se oye gallego en el casco; el castellano basta para lo cotidiano. Entre semana manda la vida cotidiana de villa; en agosto San Bartolomeu y la Festa da Empanada llenan el Campo da Feira. Quien busque solo silencio en el casco debe medir esas fechas.",
+      "La sanidad de urgencia y especialidades no está en el municipio: el hospital de referencia es el CHUS de Santiago, a unos cuarenta minutos —fuera del deseable de media hora al comarcal—; el privado HM Rosaleda ronda ese tiempo. Empadronarse abre el médico de cabecera local; para hospital se va a la ciudad. Eso no se arregla eligiendo otra calle del casco histórico.",
+      "Mantener el vínculo con Mallorca pasa por el avión. El aeropuerto de Santiago-Lavacolla está a unos cuarenta minutos, con enlace a Palma casi todo el año. En invierno conviene mirar el calendario real de vuelos. La proximidad a Santiago es la contrapartida de no tener el Hospital do Barbanza cerca.",
+      "El modelo es piso o casa histórica en el casco, o vivienda con más espacio en las afueras. Poca obra nueva; fibra en el núcleo. En el centro importan humedad, aparcamiento y ruido de fiestas; hacia Testal, la distancia al casco. Presupuestar reforma de piedra y calefacción, no solo el gótico del anuncio."
+    ],
+    "historia": [
+      "La iglesia de San Martiño es el emblema gótico de Noia: portada y piedra que hablan de una villa próspera en la Edad Media. Santa María a Nova conserva un cementerio de lápidas gremiales —marcas de oficios talladas en la losa— que convierte el templo en un archivo de la sociedad local. El casco se lee mejor andando: soportales, plazas y granito.",
+      "El puerto y el marisqueo, con el berberecho como emblema, sostuvieron la economía junto al comercio interior hacia Santiago. La empanada de Noia —de trigo o de millo, con su vuelta característica en el horno— es gastronomía y fiesta desde 1979, ligada a San Bartolomeu. El dato útil aquí une piedra medieval, oficio del mar y mesa: no es solo monumento, es villa viva."
+    ],
+    "fuera": [
+      "Si solo hay tiempo para un baño cerca, ese baño es Testal o Boa: playas de la ría de Muros e Noia a unos ocho minutos, arena, marea marcada y un carácter más de estuario que de océano abierto. El agua se acerca a 18-20 °C en los mejores tramos del estío; en bajamar conviene mirar el fango. Un martes de junio el arenal cabe casi solo; un domingo de agosto hay que contar el trayecto y el aparcamiento.",
+      "Más allá de Testal y Boa, para Atlántico se conduce hacia Porto do Son —Area Longa, Baroña— o hacia Corrubedo, en Ribeira: otro ambiente, más viento y más ola. Quien quiera ría de Arousa calmada mira Tanxil, Barraña o Cabío a un trayecto mayor. Muros, villa marinera a unos veinticinco minutos, aporta otra orilla de la misma ría.",
+      "Los caminos son la otra mitad del agua. El casco histórico es el paseo diario: San Martiño, Santa María a Nova, puerto y mercado a pie. Para monte se sube hacia la Serra do Barbanza. Santiago queda a unos cuarenta minutos y concentra hospital, compras grandes y el aeropuerto de Lavacolla, con enlace a Palma casi todo el año."
+    ],
+    "casa": [
+      "El modelo de casa aquí es piso o casa histórica en el casco de granito, o vivienda con más espacio en las afueras. Hay poca obra nueva y fibra en el núcleo. En el centro importan humedad de la piedra, aparcamiento y ruido de fiestas; hacia Testal, la distancia real a pie al casco y el carácter de franja B.",
+      "Conviene comprobar humedad en noviembre, aparcamiento en agosto —San Bartolomeu y la Empanada llenan el Campo da Feira— y marea en Testal antes de comprar solo el gótico. El precio medio ronda 1.300 €/m². Tres habitaciones en la franja B asequible se sitúan alrededor de 122.800 euros, la cifra más baja de la zona por tipología. La franja media puede ser vivienda reformada en el casco; el estado de la reforma manda.",
+      "Los servicios son 6/10: villa completa en lo básico. El CHUS y el privado en Santiago quedan a unos cuarenta minutos —fuera del deseable de media hora al comarcal—. El aeropuerto de Santiago-Lavacolla está a unos cuarenta minutos. Eso es Noia: mucha piedra gótica y mucha villa a pie, y la sanidad siempre en la ciudad."
+    ],
+    "encaja": {
+      "si": [
+        "La villa histórica gótica y Santiago cerca importan más que tener el Hospital do Barbanza en el mismo municipio. El casco —San Martiño, Santa María a Nova con sus lápidas gremiales, puerto y mercado— se recorre a pie; los servicios alcanzan 6/10. Testal y Boa, playas de la ría de Muros e Noia a unos ocho minutos, dan baño de estuario (agua ~18-20 °C; en bajamar conviene mirar la marea y el fango). Quien quiera piedra medieval, empanada como fiesta y gastronomía, Muros a unos veinticinco minutos y Lavacolla a unos cuarenta —con Palma casi todo el año— encontrará aquí la otra ría del Barbanza, distinta de Arousa. Tres habitaciones en franja B asequible rondan 122.800 euros, de las cifras más bajas de la zona.",
+        "Funciona especialmente bien para quien acepte que el hospital de referencia sea el CHUS de Santiago (unos cuarenta minutos) y el privado HM Rosaleda ronde ese mismo tiempo: se gana ciudad de referencia y aeropuerto cerca; se pierde el comarcal de Ribeira. El verano ronda 19,5 °C —suave frente a Mallorca—; la niebla media al fondo de la ría se hace larga en invierno."
+      ],
+      "no": [
+        "Si el hospital comarcal a menos de media hora es imprescindible, Noia no encaja: el Hospital do Barbanza está en Ribeira; desde aquí el referente es Santiago a unos cuarenta minutos, fuera del deseable de la tabla. Eso no se arregla eligiendo otra calle del casco histórico.",
+        "Tampoco encaja si se busca playa a pie o Atlántico inmediato. Testal y Boa piden un trayecto corto; Baroña, Area Longa o Corrubedo, más. Quien se decida solo tras un día de fiesta soleada —San Bartolomeu y la Festa da Empanada en agosto llenan el Campo da Feira con música, degustación y aparcamiento imposible—, sin probar humedad de piedra ni niebla de ría en noviembre, descubrirá otra Noia."
+      ],
+      "veredicto": "Veredicto de quien conoce la comarca: Noia encaja como la villa histórica de la ría de Muros e Noia —tres habitaciones en el casco, fuera del recorrido más ruidoso de San Bartolomeu y la Empanada, tras comprobar humedad y aparcamiento— sobre todo si gótico, mercado y Santiago-Lavacolla a unos cuarenta importan más que el Hospital do Barbanza. Se ganan piedra, precio amable en franja B y otra ría; se acepta sanidad en la ciudad a unos cuarenta minutos. Comprobar marea en Testal y un agosto de fiestas antes de comprar."
+    },
+    "fotoIdentidad": {
+      "src": "/fotos/barbanza-e-noia/noia-identidad.jpg",
+      "pie": "Noia: casas de la villa frente a la ría, con el monte detrás"
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/barbanza-e-noia/noia-san-martino.jpg",
+        "pie": "San Martiño, gótico de Noia"
+      },
+      {
+        "src": "/fotos/barbanza-e-noia/noia-casco.jpg",
+        "pie": "Casco histórico de Noia"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/barbanza-e-noia/noia-santa-maria.jpg",
+        "pie": "Santa María a Nova y sus lápidas gremiales"
+      },
+      {
+        "src": "/fotos/barbanza-e-noia/noia-puerto.jpg",
+        "pie": "Puerto de Noia al fondo de la ría"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/barbanza-e-noia/noia-testal.jpg",
+        "pie": "Testal, playa de ría"
+      },
+      {
+        "src": "/fotos/barbanza-e-noia/noia-boa.jpg",
+        "pie": "Boa, arenal hacia la ría de Muros e Noia"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

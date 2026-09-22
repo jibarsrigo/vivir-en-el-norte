@@ -1,0 +1,92 @@
+{
+  "tipo": "municipio",
+  "slug": "tomino",
+  "nombre": "Tomiño",
+  "n": 4,
+  "zonaId": "baixo-mino",
+  "zonaNombre": "Baixo Miño",
+  "provincia": "Pontevedra",
+  "pais": "España",
+  "sourcePath": "web/src/components/RelatoMunicipio.tsx",
+  "sourceKey": "tomino",
+  "sourceExport": "RELATOS_BAIXO_MINO",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "f99ba5b01f227f6512e7ddec70b363135a7716370de6cc84fc64a030c23a706e",
+  "relato": {
+    "escala": "Casas dispersas",
+    "abrir": [
+      "Tomiño es un municipio de unos trece mil habitantes extendido por la vega del Miño, con Goián como núcleo, frente a Vila Nova de Cerveira. El río aquí es ancho y manso; se cruza a Portugal en dos minutos por el puente de la Amizade. Quien vive aquí es gente local, trabajadores de los viveros —Tomiño es la capital gallega de la planta ornamental; se ven los invernaderos desde la carretera— y quien busca casa grande barata. Goián tiene lo básico; Cerveira, al otro lado, el mercado de los sábados y más restaurantes: los dos lados funcionan como uno.",
+      "En julio y agosto el valle aprieta: media de unos veintiún grados y quince o veinte días por encima de treinta. Es el calor que muchos dejan atrás al venir del Mediterráneo —y aquí, en la vega, vuelve. En otoño e invierno, nieblas de río que levantan a media mañana: el mundo se borra un rato y luego reaparece. El modelo es casa con finca en la vega; poco piso, ninguna urbanización. Fibra parcial. El coche hace falta para la playa —unos veinte minutos— y para Tui —unos quince—.",
+      "Un sábado cualquiera explica mejor el sitio que cualquier folleto: por la mañana cruzas a Cerveira, vuelves con fruta y pan, por la tarde el río está quieto y los invernaderos brillan al sol. No es villa de paseo compacto. Es vega, finca y frontera cotidiana. Quien busque plaza y calle junta debería mirar O Rosal o A Guarda; quien busque metros y Portugal a dos minutos entenderá Goián al primer puente.",
+      "El calendario une lo que el caserío dispersa. El último fin de semana de julio, San Campio de Figueiró atrae romeros de Galicia y Portugal con exvotos; hacia el 13 de septiembre, la Virxe do Alivio llena Tomiño. Después del Lunes de Pascua, el Lanzo da Cruz cruza el Miño entre Sobrada y la portuguesa Cristelo para bendecir las barcas; en Entroido, el Venres de Foliada pone música y disfraces en la calle, y a finales de noviembre la Festa da Rosca celebra el dulce local. Esos días traen campanas, tráfico y mesas largas a lugares que el resto del año se reparten entre fincas."
+    ],
+    "tiempo": [
+      "Tomiño es donde el clima de la comarca cambia de promesa. El cielo —unos setenta y ocho días despejados, cerca de dos mil cuatrocientas horas de sol— se parece al resto del Baixo Miño; el verano, no. En julio y agosto la vega aprieta: media alrededor de veintiún grados y quince o veinte días por encima de treinta, con puntas altas cuando la ola de calor se cuela río arriba. Es una versión suave de lo que muchos dejan atrás en Baleares —y aquí vuelve.",
+      "En otoño e invierno, nieblas de río que levantan a media mañana: el mundo se borra un rato y luego reaparece. La lluvia de octubre a marzo es seria, como en toda la zona. Quien huya del calor y elija la finca barata de la vega debería probar una semana de julio antes de comprar. El anuncio enseña metros; julio enseña el valle."
+    ],
+    "vivir": [
+      "El invierno en Tomiño se siente en la niebla de río tanto como en la humedad de la casa. En Mallorca muchas viviendas casi no piensan en calefacción ni en moho; en la vega del Miño las mañanas de otoño e invierno borran el mundo hasta media mañana y dejan el aire húmedo. Conviene preguntar por aislamiento, ventilación y rastros de moho en planta baja. Visitar la finca un día de niebla y otro de sol bajo enseña más que el anuncio de metros.",
+      "El día a día sin coche es limitado: Goián tiene lo básico —centro de salud, farmacias, supermercado, bares—, pero Cerveira, al otro lado del puente, multiplica mercado y mesa. Desde las fincas de la vega el coche abre la semana. En enero la frontera sigue siendo cotidiana: se cruza a Portugal un sábado cualquiera. No es villa de paseo compacto; es vega, invernaderos y río.",
+      "Llegar de fuera suele buscar metros y precio: conviven gente local, trabajadores de los viveros y quien buscaba casa grande. Se oye gallego en Goián y al otro lado; el castellano basta para lo cotidiano. Entre semana manda el ritmo de frontera y viveros; en julio y agosto la vega aprieta con calor. Quien busque solo calma de costa se equivocará de municipio.",
+      "La sanidad de urgencia y especialidades no está en el municipio: el hospital Álvaro Cunqueiro queda a unos treinta y cinco minutos; Vigo, a unos treinta. En Goián hay centro de salud y farmacias para lo diario. Empadronarse abre el médico de cabecera local; para especialistas se baja a Vigo. Es mejor tiempo que desde A Guarda, pero no es sanidad a la vuelta de la esquina.",
+      "Mantener el vínculo con Mallorca pasa por el avión desde fuera. La ficha sitúa Vigo a unos treinta minutos; conviene mirar Peinador y Santiago y el calendario real de vuelos a Palma. En invierno la logística pesa más: niebla, trayecto y posibles escalas.",
+      "Lo habitual es casa con finca en la vega: poco piso, ninguna urbanización. Fibra parcial, casa por casa. El anuncio habla de metros; julio habla de calor (quince o veinte días por encima de treinta); noviembre, de niebla. Conviene presupuestar humedad, calefacción y ventilación, e imaginar la rutina con escaleras o distancias de parcela dentro de diez años."
+    ],
+    "historia": [
+      "Tierra de frontera: el Forte de San Lourenzo de Goián se levantó entre 1671 y 1673, cuando Portugal se había separado de la Monarquía Hispánica y el Miño volvió a ser línea de guerra. Después llegaron siglos de agricultura en la vega. Iglesias románicas como Santa María de Tomiño y Santa María de Tebra recuerdan una historia anterior a los fuertes; el Camino de Nosa Señora do Norte enlaza hoy esas parroquias y santuarios. El nombre de Tomiño se aplica al municipio y a su parroquia central; Goián, junto al puente, es otro de sus núcleos.",
+      "Desde hace unas décadas, los viveros cambiaron el paisaje: invernaderos, trabajo y planta ornamental allí donde O Rosal muestra parras. La rosca tomiñesa —masa dulce trenzada, ligada a hornos y fiestas— pertenece a esa economía doméstica que ahora celebra su propia feria. El puente de la Amizade, abierto en 2004, terminó de unir las dos orillas. La fortaleza de San Lourenzo, el paseo del Miño y el mercado de los sábados de Cerveira explican un lugar donde la frontera no es decorado, sino costumbre semanal."
+    ],
+    "fuera": [
+      "No hay playa de mar en el municipio: Tomiño mira al río. Area Grande —cala de arena en A Guarda— queda a unos veinte minutos; Cesantes, por autopista, a media hora. Cesantes es arena larga en el fondo de la ría de Vigo, frente a la isla de San Simón, sin oleaje, agua entre dieciocho y veinte grados: la opción más cómoda desde aquí para un baño largo, sin la brusquedad del Atlántico abierto. Un domingo de agosto hay que contar el trayecto; un martes de junio, no.",
+      "El paseo fluvial de Goián es llano, junto al río, con la fortaleza de San Lourenzo a un lado y Vila Nova de Cerveira (Portugal) enfrente: se camina y se siente la frontera como algo cotidiano, no como foto de turismo. La Ecopista do Minho —antigua vía de tren portuguesa entre Valença y Monção, quince kilómetros llanos entre viña de Alvarinho— queda a unos diez minutos cruzando hacia Tui. El Monte Aloia, primer parque natural de Galicia (pinar y miradores sobre la vega), a unos veinte. Aquí el agua que se vive cada día es el río ancho; el mar es una salida, no la puerta de casa.",
+      "El sábado grande suele ser Cerveira: feria, fruta, ropa, el puente de la Amizade —el que une Goián con Portugal— como quien va al mercado del pueblo de al lado, aunque el pueblo sea otro país. Eso define Tomiño más que cualquier playa lejana. Quien busque villa de paseo compacto se aburrirá; quien busque vega, finca y Portugal a dos minutos entenderá el ritmo al primer puente."
+    ],
+    "casa": [
+      "Lo que encontrarás es casa con finca en la vega: el euro por metro más bajo de la zona, alrededor de mil cien. Eso tienta. También hay que aceptar el verano cálido de valle y las nieblas de río. Fibra parcial: otra vez, casa por casa. El anuncio habla de metros; julio habla de calor; noviembre, de niebla que borra el Miño hasta media mañana.",
+      "Goián tiene centro de salud, farmacias, supermercado, bares; Cerveira, a dos minutos, multiplica la mesa y el sábado. El hospital Álvaro Cunqueiro está a unos treinta y cinco minutos; Vigo, a unos treinta. Quien busque solo precio y metros lo encontrará. Quien huya del calor de julio debería mirar O Rosal antes: el paisaje sin ese verano de vega."
+    ],
+    "encaja": {
+      "si": [
+        "La finca grande y el precio bajo son innegociables, y se acepta probar una semana de julio en la vega antes de comprar. Quien quiera metros, Portugal a dos minutos por el puente de la Amizade (el puente que une Goián con Vila Nova de Cerveira), y tiempo para el río Miño —paseo fluvial, barcas, Cerveira los sábados con su feria al otro lado— puede entender Goián, el núcleo de Tomiño. Aquí la orilla cotidiana es el río ancho, no el Atlántico en la puerta. El hospital público Álvaro Cunqueiro, en Vigo, a unos treinta y cinco minutos, es mejor tiempo que desde A Guarda; la playa de mar (Area Grande en A Guarda, o Cesantes en la ría de Vigo) queda a unos veinte o treinta minutos.",
+        "Si el presupuesto obliga a casa con terreno y se elige Goián —no las parroquias del fondo más cerrado del valle—, con ojos abiertos al calor de julio y a las nieblas de río de otoño, Tomiño puede ser la puerta de entrada a la comarca."
+      ],
+      "no": [
+        "El calor de julio y agosto —quince o veinte días por encima de treinta grados— es justo lo que muchos dejan atrás al venir del Mediterráneo. Aquí, en la vega del Miño, vuelve. O Rosal (valle de parras, a unos minutos) da paisaje y tranquilidad sin ese verano; A Guarda, mar fresco en la punta. Si huir del calor es la razón de mudarse, Tomiño no encaja.",
+        "Tampoco si la playa de mar tiene que estar a la puerta o si la niebla de río de otoño e invierno —que borra el Miño hasta media mañana— no cabe en el día a día. La finca barata tienta; el verano y la distancia al baño real cobran después."
+      ],
+      "veredicto": "Veredicto: Tomiño no es la primera opción si el calor de valle o el mar lejos pesan. Encaja solo si la casa con finca y el precio son la prioridad, se prueba julio, y se elige Goián con Cerveira (Portugal, al otro lado del puente) como refuerzo de mercado y mesa. Quien busque valle sin ese verano, O Rosal; quien busque mar, A Guarda; quien busque hospital más cerca, Tui."
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/baixo-mino/tomino-vega2.jpg",
+        "pie": "La vega del Miño: río, pueblo y monte"
+      },
+      {
+        "src": "/fotos/baixo-mino/tomino-ponte.jpg",
+        "pie": "Ponte da Amizade: Goián y Cerveira a dos minutos"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/baixo-mino/tomino-forte.jpg",
+        "pie": "Forte de San Lourenzo: la frontera en piedra"
+      },
+      {
+        "src": "/fotos/baixo-mino/tomino-vega.jpg",
+        "pie": "El Miño al atardecer: la orilla cotidiana"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/baixo-mino/tomino-rio.jpg",
+        "pie": "Barcas en el Miño, frente a Cerveira"
+      },
+      {
+        "src": "/fotos/baixo-mino/tomino-praia-goian.jpg",
+        "pie": "Paseo fluvial: el río como vida diaria"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (CC BY-SA)."
+  }
+}

@@ -1,0 +1,62 @@
+{
+    escala: "Ciudad de mar",
+    abrir: [
+      "Gijón reúne unos doscientos setenta mil habitantes: San Lorenzo con el paseo del Muro, Cimadevilla —el barrio antiguo sobre el cerro—, Poniente, parques, universidad, cultura y comercio. Es la ciudad de mar completa y abierta de Asturias —no una villa—. El Cantábrico no queda al final de una excursión: acompaña el paseo urbano, la compra y la tarde de cualquier martes.",
+      "Un martes de noviembre se resuelve todo en el municipio. Los servicios alcanzan 10/10: hospitales, súper, cultura, tren y calle viva sin depender del veraneo. Cabueñes y el Hospital de Jove quedan a unos cinco minutos. El aeropuerto de Asturias anda alrededor de los treinta minutos —el peor tiempo de la zona—, con Palma en verano.",
+      "En verano San Lorenzo y Poniente reciben afluencia urbana: toallas, paseo lleno y tráfico. El resto del año Gijón mantiene ritmo de ciudad: familias, gente que trabaja aquí, estudiantes y quienes eligieron urbe junto al mar frente a villa pequeña. En el oeste, hacia Xivares y Aboño, el aire de industria es un matiz real según el viento.",
+      "Para escala de casas bajas cerca de la playa, Somió —chalés a unos cinco minutos de la orilla— es la versión urbanización dentro del municipio, a precio alto. Quien quiera ciudad completa encontrará aquí la orilla más densa de Asturias Centro; quien busque silencio de estuario o foto típica de Cudillero mirará otro mapa.",
+      "Las estaciones cambian la densidad de la playa más que el funcionamiento urbano. En invierno el Muro sigue abierto; en agosto San Lorenzo se llena; en cualquier mes hay calle, hospital y comercio. Gijón encaja para quien quiera ciudad; el aeropuerto a treinta minutos es el peaje logístico.",
+    ],
+    tiempo: [
+      "Gijón registra unas 1.850 horas de sol y 45 días despejados —el extremo más claro de la zona—, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.000 milímetros en unos 145 días. La niebla es baja; el viento, bajo. Se gana algo de claridad respecto al estuario, pero siguen faltando casi mil horas de sol frente a Baleares —unos 162 cubiertos—.",
+      "El verano ronda 19,5 °C, fresco frente a Baleares: se gana frescura y se acepta cielo cubierto frecuente. San Lorenzo y Poniente tienen agua entre 19 y 21 °C; el paseo urbano compensa muchos días de baño corto. El clima justifica la ciudad de mar, no la promesa de isla mediterránea.",
+    ],
+    vivir: [
+      "El invierno en casa se nota por el salitre urbano y el cielo cubierto frecuente, no por un silencio de pueblo: el Muro sigue abierto, pero la terraza de San Lorenzo se usa a medias entre noviembre y febrero. Conviene preguntar por aislamiento, orientación y humedad en pisos junto a la orilla. Visitar un martes de noviembre urbano enseña más que un agosto soleado en el paseo.",
+      "Sin coche la semana se resuelve: servicios 10/10, hospitales, súper, cultura, bus y tren. En enero Gijón mantiene ritmo de ciudad —calle viva, no dependencia del veraneo—. Somió —chalés a unos cinco minutos de la orilla— vuelve a pedir más vehículo; en el ensanche y Cimadevilla se puede vivir a pie.",
+      "Conviven familias, gente que trabaja aquí, estudiantes y quienes eligieron urbe junto al mar. Se oye asturiano en el mercado y en Cimadevilla; el castellano basta para lo cotidiano, y la vida social es de ciudad —barrios, asociaciones, calle—, no de una sola plaza. Entre semana manda la densidad urbana; en verano San Lorenzo y Poniente se llenan; hacia Xivares y Aboño el aire de industria es un matiz según el viento.",
+      "La sanidad es la más cercana de la zona: Cabueñes y el Hospital de Jove quedan a unos cinco minutos. Empadronarse aquí abre médico de cabecera y especialidades en el propio municipio. No es «lejos de Palma» en sentido de aislamiento sanitario: es ciudad de mar con hospital a la vuelta de la esquina.",
+      "Mantener el vínculo con Mallorca es el peaje logístico: el aeropuerto de Asturias anda alrededor de los treinta minutos —el peor tiempo de Asturias Centro—, con Palma en verano. En invierno el trayecto sigue siendo ese; conviene mirar el calendario real de vuelos, no solo el de agosto en el Muro.",
+      "La vivienda típica es piso de ciudad —hay obra nueva y fibra—; en Somió, chalé o casa baja a precio alto. Junto a San Lorenzo hay que contar con afluencia y salitre; tres habitaciones en primera línea urbana suelen quedar fuera de la franja asequible y entran a cinco o diez minutos de la playa. Hay que imaginar escaleras, ascensor y terraza de invierno, no solo metros de orilla.",
+    ],
+    historia: [
+      "Cimadevilla —el barrio antiguo sobre el cerro—, San Lorenzo y el carácter de ciudad portuaria explican Gijón: urbe de mar con capas de industria, cultura y paseo. No es villa marinera pequeña ni estuario silencioso; es la escala completa del Cantábrico occidental en esta zona.",
+      "La Senda del Cervigón, el Cerro de Santa Catalina, el Jardín Botánico Atlántico y el Parque de Isabel la Católica completan la ficha de ciudad caminable junto al Cantábrico: acantilado urbano, mirador y verde sin salir del municipio.",
+      "Lo que queda para quien llega a vivir es esa densidad: playa urbana, barrio antiguo, ensanche y, en Somió, casas bajas a precio alto. Lo que conviene saber es de ciudad de mar, no de concejo pequeño.",
+    ],
+    fuera: [
+      "San Lorenzo, el paseo del Muro y Cimadevilla son la tarde de diario: playa urbana de unos kilómetro y medio, cerro antiguo y calle que no se apaga en noviembre. Poniente amplía orilla hacia el oeste, con otro ritmo de paseo y baño.",
+      "La Senda del Cervigón cierra acantilado urbano: caminata sobre el Cantábrico sin abandonar Gijón. El Cerro de Santa Catalina y los parques —Isabel la Católica, Jardín Botánico Atlántico— permiten tarde de verde y mirador dentro de la ciudad.",
+      "Candás y Luanco aportan villa marinera a veinte o veinticinco minutos; Somió, casas bajas cerca de la playa dentro del municipio. El tiempo libre aquí puede ser baño urbano, senda de acantilado o tren hacia otra escala de costa —sin renunciar a la urbe—.",
+    ],
+    casa: [
+      "Hay pisos de ciudad, obra nueva y fibra. Junto a San Lorenzo hay que contar con precio, afluencia y salitre; en Somió, chalés y casas bajas a precio alto. Tres habitaciones en primera línea urbana suelen quedar fuera de la franja asequible; entran a cinco o diez minutos de la playa.",
+      "El precio medio ronda 2.300 €/m², el más alto de la zona. Dos habitaciones en la franja asequible se sitúan alrededor de 194.000 euros; tres habitaciones, alrededor de 269.000. La compra realista cerca del mar suele ser piso a unos minutos de la orilla, no primera línea barata.",
+      "Los servicios son 10/10. Cabueñes y Jove quedan a unos cinco minutos. El aeropuerto de Asturias está a unos treinta minutos, con Palma en verano. La dependencia del coche es baja: la ciudad resuelve la semana a pie, en bus o en tren.",
+    ],
+    encaja: {
+      si: [
+        "Encaja para quien quiera ciudad de mar completa todo el año —San Lorenzo con el paseo del Muro, Cimadevilla, Poniente, parques, universidad, cultura y comercio— y priorice servicios 10/10 frente a villa pequeña. Un martes de noviembre se resuelve todo en el municipio: Cabueñes y Jove quedan a unos cinco minutos; la dependencia del coche es baja. Quien busque playa urbana usable (agua entre 19 y 21 °C), vida cultural y hospital a la vuelta de la esquina encontrará aquí la urbe abierta de Asturias, no un estuario silencioso ni un pueblo de foto turística. El precio es el más alto de la zona —alrededor de 2.300 €/m²—: dos habitaciones en franja asequible cerca de 194.000 euros; tres habitaciones alrededor de 269.000, suelen entrar a cinco o diez minutos de la playa, no en primera línea.",
+        "El clima es el extremo más claro de Asturias Centro —unas 1.850 horas de sol y 45 días despejados—, pero sigue lejos de Mallorca (2.800 horas y 120 jornadas claras): caen alrededor de 1.000 milímetros en unos 145 días, con niebla baja y viento bajo. El verano ronda 19,5 °C: se gana frescura frente a Baleares y se acepta cielo cubierto frecuente; el paseo urbano compensa muchos días de baño corto. En verano San Lorenzo y Poniente reciben afluencia urbana; el resto del año Gijón mantiene ritmo de ciudad. Encaja también en Somió —chalés y casas bajas a unos cinco minutos de la orilla— quien busque escala de urbanización dentro del municipio, a cambio de metro caro y obra nueva disponible.",
+      ],
+      no: [
+        "No encaja si se busca villa pequeña, estuario silencioso o el precio de Muros (1.100 €/m²) y Soto (1.200). Tampoco si tres habitaciones en primera línea de San Lorenzo deben entrar en franja asequible: esa tipología suele quedar fuera; la compra real asequible pide alejarse unos minutos de la orilla. El aeropuerto de Asturias queda a unos treinta minutos —peor tiempo de la zona—; Palma en verano, no todo el año.",
+        "Tampoco si se necesita el sol de Baleares o aire limpio garantizado hacia el oeste. Gijón gana por ciudad, no por despejados (unos 162 cubiertos); hacia Xivares y Aboño el aire de industria es un matiz real según el viento. Quien se decida solo tras un agosto soleado en el Muro, sin probar un martes de noviembre urbano ni un día hacia el oeste con viento de Aboño, se llevará una ciudad distinta de la foto turística de playa.",
+      ],
+      veredicto:
+        "Veredicto: Gijón es la ciudad de mar de Asturias Centro. Buscaría piso a cinco o diez minutos de San Lorenzo —o Somió si mandan casas bajas—, tras probar un agosto en el Muro y un día hacia el oeste con viento de Aboño. Se ganan servicios 10/10, hospital a cinco minutos y vida urbana junto al Cantábrico; se aceptan precio alto, cielo cantábrico y Asturias a treinta minutos.",
+    },
+    fotosAbrir: [
+      { src: "/fotos/asturias-centro/gijon-san-lorenzo.jpg", pie: "Playa de San Lorenzo, Gijón" },
+      { src: "/fotos/asturias-centro/gijon-cimavilla.jpg", pie: "Cimadevilla, Gijón" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/asturias-centro/gijon-paseo.jpg", pie: "Paseo del Muro, Gijón" },
+      { src: "/fotos/asturias-centro/gijon-cervigon.jpg", pie: "Senda del Cervigón, Gijón" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/asturias-centro/gijon-poniente.jpg", pie: "Playa de Poniente, Gijón" },
+      { src: "/fotos/asturias-centro/gijon-somio.jpg", pie: "Somió, Gijón" },
+    ],
+    creditoFotos: credito,
+  }

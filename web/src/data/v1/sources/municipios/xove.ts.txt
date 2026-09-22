@@ -1,0 +1,60 @@
+{
+    escala: "Costa y parroquias",
+    abrir: [
+      "Xove no es una villa completa. Unos tres mil trescientos habitantes repartidos entre costa y parroquias en A Mariña: Esteiro —playa de arcos de roca y surf— y Portocelo marcan la orilla; tierra adentro el hábitat se dispersa entre casas y núcleos pequeños. En el término pesa el complejo industrial de San Ciprián —refinería de alúmina y fábrica de aluminio—, que se reparte entre Xove y el vecino Cervo: en 2026 Alcoa asumió la propiedad íntegra del conjunto y reactivó la planta de aluminio en abril, mientras sigue apuntando dudas de viabilidad en la refinería de alúmina por el coste de la energía. No es un detalle lejano: es paisaje y empleo.",
+      "Un martes de noviembre los servicios son 3/10 en nuestra escala: el coche organiza compra, salud y ocio hacia Burela o Viveiro. Quien vive aquí busca orilla abierta y precio contenido, no mercado a pie. El Hospital da Mariña queda a unos veinte minutos desde el núcleo de Xove, más desde las parroquias del interior. El aeropuerto anda entre noventa y cinco y ciento cinco minutos según destino y ruta. La fibra es parcial: hay que comprobarla casa por casa.",
+      "En verano Esteiro y Portocelo reciben surfistas, toallas y tráfico hacia la costa. No hay una fiesta de interés turístico internacional que corte un casco denso: el volumen es de playa y temporada. Quien viva junto a la orilla notará agosto; hacia las parroquias, el silencio vuelve antes —y en invierno, de verdad.",
+      "Fuera de temporada Xove se queda en lo suyo: costa cantábrica, parroquias quietas y dependencia del volante. Si solo conoces un sábado de sol en Esteiro, te llevas la imagen de folleto de los arcos. Si has visto un noviembre vacío, ya puedes decidir si quieres vivir a esa escala.",
+      "Encaja poco para quien busque vida diaria densa; encaja mejor para quien tenga Burela o Viveiro como apoyo semanal y priorice oleaje y precio.",
+    ],
+    tiempo: [
+      "Xove registra unas 1.850 horas de sol y unos 40 días despejados frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.100 milímetros en unos 148 días. Niebla alta; viento medio. Son cifras orientativas de comarca, no la serie de una estación local: en costa abierta como esta el viento se nota más que en las rías. El gris de invierno pesa; la llovizna también aparece en julio.",
+      "El verano ronda 18,5 °C, fresco frente a Baleares: máximas típicas cerca de 22 °C, casi sin días sobre 30 °C. En verano el agua de Esteiro suele moverse entre 17 y 19 °C, como rango orientativo, con más oleaje que Covas: playa de arcos y surf más que de baño calmado de ría. Conviene probar nortada y niebla, no solo un día de mar llana.",
+    ],
+    vivir: [
+      "El invierno en Xove se nota en las parroquias y cerca de la costa: humedad, niebla alta, viento medio y un noviembre vacío fuera de la orilla. En Mallorca muchas viviendas casi no piensan en moho; aquí conviene mirar aislamiento y rastros de humedad un día de nortada, no solo un sábado de sol en Esteiro. El anuncio habla de vistas; el invierno habla de vacío fuera de la playa.",
+      "El día a día sin coche casi no existe: los servicios son 3/10 en nuestra escala y la fibra es parcial. El coche organiza compra, salud y ocio hacia Burela o Viveiro. En enero Xove se queda en lo suyo —costa cantábrica y parroquias quietas—; no hay mercado denso a pie. Quien viva junto a Esteiro o Portocelo notará agosto con surfistas, toallas y tráfico; hacia las parroquias, el silencio vuelve antes —y en invierno, de verdad.",
+      "Llegar de fuera busca orilla abierta y precio contenido, no villa completa. Se oye gallego en los núcleos; el castellano basta para lo cotidiano, pero la vida social pasa por escala dispersa y por Burela o Viveiro como apoyo. Entre semana manda el volante; en verano Esteiro y Portocelo reciben temporada de playa. Quien mire Xove solo por los arcos debe sumar el complejo de San Ciprián —repartido entre Xove y Cervo, en manos de Alcoa desde 2026, con la fábrica de aluminio reactivada en abril de ese año y la refinería de alúmina bajo dudas de viabilidad por el coste energético— con los ojos abiertos: industria y costa en el mismo término.",
+      "La sanidad de urgencia y especialidades no está en el municipio: el Hospital da Mariña queda a unos veinte minutos desde el núcleo de Xove, más desde las parroquias. Empadronarse aquí abre el médico de cabecera local; para hospital se conduce a Burela, y conviene comprobar el hospital de referencia que asigna el Sergas según el empadronamiento. Veinte minutos es un trayecto más corto que desde O Vicedo, pero no es sanidad a la vuelta de la esquina.",
+      "Mantener el vínculo con Mallorca pasa por un aeropuerto a entre noventa y cinco y ciento cinco minutos según destino y ruta —Asturias o Santiago—. En invierno el trayecto a menudo implica más logística. Los enlaces con Palma cambian de temporada: conviene comprobar la programación vigente del año en que se decida, no solo el día de mar llana en Esteiro.",
+      "Predominan viviendas en parroquias y cerca de la costa; hay poca obra nueva y fibra parcial. Hay que contar con humedad, viento, acceso y distancia real a un súper. Conviene comprobar la línea casa por casa. En una casa con escaleras o acceso difícil en invierno hay que imaginar la rutina dentro de diez años; el estado de la reforma importa más que una media única.",
+    ],
+    historia: [
+      "Esteiro —con sus arcos de roca— es la ficha visual del municipio: costa trabajada por el mar, no un casco monumental. Portocelo completa la orilla de oficio y veraneo ligero. Lo que conviene saber se lee en la piedra y el oleaje, no en murallas.",
+      "El complejo de San Ciprián —refinería de alúmina y fábrica de aluminio, repartido entre Xove y Cervo— explica empleo, población y la tensión económica de los últimos años. En 2026 Alcoa pasó a ser propietaria única del conjunto y volvió a poner en marcha la planta de aluminio en abril, aunque la propia compañía sigue señalando que la refinería de alúmina tiene un problema de viabilidad mientras la energía cueste lo que cuesta. Quien mire Xove solo por los arcos debe sumar esa capa laboral con los ojos abiertos: industria y costa en el mismo término.",
+    ],
+    fuera: [
+      "Esteiro es la playa de carácter: arcos, surf y Cantábrico abierto. Un martes de junio puedes estar casi solo ante las olas; un domingo de agosto hay más coches y más tablas. Nadar aquí es para quien busca brusquedad; Covas, en Viveiro, ofrece otra lógica de ría.",
+      "Portocelo ofrece otra orilla a pocos minutos: más de oficio y de temporada ligera que una foto interminable de turismo. El faro de Punta Roncadoira marca horizonte cuando se camina la costa.",
+      "Burela cubre hospital y lonja; Viveiro, casco y Covas; Cervo, Sargadelos y San Cibrao. As Catedrais quedan más al este. Aquí el día a día pide coche; el mar, no.",
+    ],
+    casa: [
+      "Predominan viviendas en parroquias y cerca de la costa; hay poca obra nueva y fibra parcial. Hay que contar con humedad, viento, acceso y distancia real a un súper. El anuncio habla de vistas; el invierno habla de vacío fuera de la orilla.",
+      "El precio medio ronda 950 €/m², de los más bajos de la zona, aunque como cifra orientativa: la muestra de anuncios publicados en un municipio disperso de tres mil habitantes puede ser escasa, así que conviene mirar Idealista del mes en que se busque. Tres habitaciones en tipologías modestas quedan en franja muy asequible —alrededor de 111.000 euros, estimados a partir del €/m² y no tomados de un anuncio concreto—; el estado de la reforma importa más que una media única.",
+      "Los servicios son 3/10 en nuestra escala. El Hospital da Mariña queda a unos veinte minutos desde el núcleo. Asturias anda alrededor de los noventa y cinco minutos; Santiago, hacia los ciento cinco, según ruta. Quien acepte esa lógica gana arcos y precio; quien necesite villa caminable, mira Viveiro.",
+    ],
+    encaja: {
+      si: [
+        "Encaja para quien quiera costa cantábrica de carácter —Esteiro, playa de arcos de roca y surf; Portocelo a pocos minutos— a precio contenido (alrededor de novecientos cincuenta euros el metro, cifra orientativa) y acepte que el municipio no es villa completa. Un martes de noviembre los servicios son 3/10 en nuestra escala: el coche organiza compra, salud y ocio hacia Burela o Viveiro. Quien tenga una de esas villas como apoyo semanal y priorice orilla abierta, oleaje y parroquias quietas frente a casco amurallado encontrará aquí una escala dispersa entre costa y tierra adentro. El Hospital da Mariña queda a unos veinte minutos desde el núcleo —un trayecto más corto que desde O Vicedo—; el aeropuerto, entre noventa y cinco y ciento cinco minutos según destino y ruta.",
+        "El clima es el de A Mariña: unas mil ochocientas cincuenta horas de sol y unos cuarenta días despejados frente a las dos mil ochocientas horas y ciento veinte jornadas claras de Mallorca; niebla alta, lluvia frecuente, verano fresco alrededor de dieciocho grados y medio. Son cifras orientativas de comarca, no de una estación local. En verano el agua de Esteiro suele moverse entre diecisiete y diecinueve grados, con más oleaje que Covas: playa de arcos y surf más que de baño calmado de ría. En verano Esteiro y Portocelo reciben surfistas, toallas y tráfico hacia la costa; hacia las parroquias el silencio vuelve antes. Encaja si has visto un invierno vacío fuera de la orilla y sigues queriendo esos arcos delante.",
+      ],
+      no: [
+        "No encaja si se busca villa caminable con mercado, mesas en enero y vida densa todo el año. Xove no lo es: falta comercio grande y la semana pide coche. Viveiro y Ribadeo cubren ese perfil; Burela, el hospital comarcal en el propio municipio y la lonja. Tampoco si el hospital debe quedar a quince minutos o menos: veinte minutos a Burela es razonable para la comarca, pero no es sanidad a la vuelta de la esquina.",
+        "Tampoco si la industria cercana pesa en la decisión de vivir. El complejo de San Ciprián se reparte entre Xove y Cervo y forma parte del municipio, no es un detalle lejano: desde 2026 es íntegramente de Alcoa, la fábrica de aluminio volvió a producir en abril de ese año y la refinería de alúmina sigue en cuestión por el coste de la energía, así que conviene seguir la actualidad del complejo antes de comprar. Y si se necesita el cielo de Baleares o un agosto silencioso junto a Esteiro, mejor mirar otra orilla: aquí el gris de invierno y la temporada de surf definen el año.",
+      ],
+      veredicto:
+        "Veredicto: Xove es costa y parroquias, no villa completa. Buscaría vivienda con acceso claro y fibra comprobada (es parcial), lejos del tramo más ocupado de Esteiro en agosto, tras probar un martes de noviembre vacío y aceptar que Burela o Viveiro cubren muchos recados. Se ganan precio, arcos y Cantábrico; se aceptan coche, servicios 3/10, cielo gris y un complejo industrial en el término cuyo futuro conviene seguir de cerca.",
+    },
+    fotosAbrir: [
+      { src: "/fotos/a-marina/xove-villa.jpg", pie: "Xove: núcleos entre costa y parroquias" },
+      { src: "/fotos/a-marina/xove-playa.jpg", pie: "Esteiro, playa de arcos y surf" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/a-marina/xove-portocelo.jpg", pie: "Portocelo, orilla de Xove" },
+      { src: "/fotos/a-marina/xove-parroquia.jpg", pie: "Parroquia y escala dispersa en Xove" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/a-marina/xove-faro.jpg", pie: "Faro de Punta Roncadoira en la costa de Xove" },
+    ],
+    creditoFotos: credito,
+  }

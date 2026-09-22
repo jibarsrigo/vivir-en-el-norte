@@ -1,0 +1,66 @@
+{
+    escala: "Playa larga y hospital",
+    abrir: [
+      "Laredo se siente como villa con todo y playa enorme delante: unos once mil habitantes, La Salvé —unos cinco kilómetros de arena—, la Puebla Vieja —casco medieval con la iglesia de la Asunción—, puerto deportivo, paseo y torres de apartamentos de los sesenta y setenta en el frente. Es villa con hospital comarcal a cinco minutos, no solo arenal de agosto.",
+      "Quien vive aquí resuelve el día a día en villa. Un martes de noviembre los servicios alcanzan 7/10; la dependencia del coche es baja —4/10—. El Hospital de Laredo queda a unos cinco minutos. El aeropuerto de Santander anda alrededor de los treinta y cinco minutos; Bilbao, alrededor de los cincuenta, con Palma todo el año. De octubre a mayo recupera calma de villa; en verano La Salvé recibe veraneo masivo de Burgos, Bilbao y Madrid.",
+      "Ruido, tráfico y ocupación del frente marcan julio y agosto; el resto del año el casco y la Puebla Vieja mantienen ritmo. Primavera y otoño en la Atalaya son buenas épocas para conocerlo: el mirador no es solo foto de temporada. Conviene probar agosto y un martes gris.",
+      "El calendario tiene fiestas fuertes. La Batalla de Flores —último viernes de agosto— llena Laredo de carrozas, gente y ruido: es la fiesta grande, imposible de ignorar si se vive en el frente. El resto del verano el veraneo masivo ya satura La Salvé. Quien se decida a vivir junto a la playa debe contar agosto como parte del año, no como excepción.",
+      "Laredo encaja para quien quiera hospital a pie y playa enorme, y no le importe el urbanismo de torres en la orilla. Si solo conoces un sábado soleado en La Salvé, te llevas la imagen de folleto del arenal. Si has visto un noviembre de villa, ya puedes decidir si aceptas las torres.",
+    ],
+    tiempo: [
+      "Si vienes de Baleares, ganas playa usable y pierdes despejados. Laredo suma unas 1.650 a 1.700 horas de sol y unos 40 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.150 a 1.250 milímetros en unos 150 a 155 días. El viento es bajo; la niebla, baja —más abrigado que Ribamontán en ese dato—.",
+      "El verano ronda 20 °C, fresco frente a Baleares. La Salvé tiene agua entre 19 y 21 °C; la playa larga y la bahía invitan al baño con más calma que el Cantábrico abierto de Somo. Conviene venir un agosto lleno y un martes gris, no solo el día de sol sobre los cinco kilómetros.",
+    ],
+    vivir: [
+      "El invierno en Laredo es de villa que recupera calma: de octubre a mayo el casco y la Puebla Vieja mantienen ritmo; el frente de La Salvé enfría con salitre y humedad de orilla. Conviene calefacción y aislamiento en torres de los sesenta y setenta. Probar un martes gris y un agosto lleno evita firmar solo por los cinco kilómetros en sol.",
+      "El día a día sin coche es de los más fáciles de la oriental: servicios 7/10, dependencia del coche 4/10. Un martes de noviembre se resuelve el día a pie —comercio, Puebla Vieja, paseo—. Quien viva en primera línea de La Salvé ganará playa y más saturación de verano; hacia el casco medieval, más calma de enero.",
+      "Conviven residentes de villa y el veraneo masivo de Burgos, Bilbao y Madrid en julio y agosto: ruido, tráfico y ocupación del frente. La Batalla de Flores —último viernes de agosto— llena Laredo de carrozas y gente: imposible de ignorar si se vive en el frente. El castellano basta; la integración pasa por villa todo el año y temporada en la orilla.",
+      "El Hospital de Laredo queda a unos cinco minutos: la sanidad a pie es el argumento fuerte del municipio. Empadronarse aquí abre cabecera y hospital comarcal cerca. No es «sanidad en otra ciudad»: es villa con hospital delante.",
+      "Santander–Seve Ballesteros anda alrededor de los treinta y cinco minutos (Palma casi todo el año); Bilbao, alrededor de los cincuenta (Palma todo el año). Ir y volver a Mallorca tiene dos vías; Castro gana en tiempo a Bilbao. Conviene mirar ambos aeropuertos según la temporada.",
+      "El frente ofrece pisos en torres; la Puebla Vieja, viviendas de casco. Hay poca obra nueva y fibra. No es chalé de Langre: es tipología de villa-playa con bloques. En primera línea de La Salvé hay que contar con ocupación de agosto y salitre. Imaginar el frente saturado y el invierno de villa antes de comprar.",
+    ],
+    historia: [
+      "La Puebla Vieja y la iglesia de la Asunción explican Laredo: casco medieval detrás del frente de torres de los sesenta y setenta. El contraste entre pueblo histórico y urbanismo de playa es el carácter del municipio —no un defecto oculto: es lo que se ve al llegar—.",
+      "El Túnel de la Atalaya, el puerto deportivo y el paseo completan capas de orilla y mirador. La Batalla de Flores marca el veraneo en la memoria local. Lo que conviene saber es de villa medieval y veraneo de bloques tipo playa de los setenta.",
+      "Hoy Laredo equilibra hospital a pie, Salvé y Puebla Vieja. Quien camina el casco medieval un martes de noviembre entiende la villa; quien solo conoce el frente en agosto conoce solo la mitad.",
+    ],
+    fuera: [
+      "Si solo hay tiempo para un baño cerca, ese baño es La Salvé: unos cinco kilómetros de arena, agua entre 19 y 21 °C, paseo delante. Un martes de junio puedes tener espacio; un domingo de agosto el frente se satura. Es playa de villa y de temporada masiva a la vez.",
+      "La Puebla Vieja cubre el paseo de casco a pie: piedra, Asunción, calles que no son torre. El Túnel de la Atalaya aporta mirador sobre la bahía cuando no apetece toalla. El puerto deportivo completa la orilla urbana.",
+      "Santoña queda a trayecto corto; Bilbao, a unos cuarenta y cinco minutos. Quien priorice sanidad a cinco minutos y arenal largo encontrará aquí el gesto; quien priorice chalés mirará Ribamontán; quien priorice Bilbao y Palma todo el año a menos de cuarenta, Castro.",
+    ],
+    casa: [
+      "El frente ofrece pisos en torres; la Puebla Vieja, viviendas de casco. Hay poca obra nueva y fibra. En primera línea de La Salvé hay que contar con ocupación de agosto y salitre. No es chalé de Langre: es tipología de villa-playa con bloques.",
+      "El precio medio ronda 2.100 €/m². Tres habitaciones en la franja asequible se sitúan alrededor de 246.000 euros; dos habitaciones, cerca de 177.000. La franja media puede ser piso algo retirado del frente más ocupado. Conviene probar agosto en La Salvé y un noviembre de villa antes de comprar.",
+      "Los servicios son 7/10. El Hospital de Laredo queda a unos cinco minutos. Santander–Seve Ballesteros está a unos treinta y cinco; Bilbao, a unos cincuenta. Eso es Laredo: hospital a pie y playa enorme a cambio del urbanismo de torres y del sol bajo.",
+    ],
+    encaja: {
+      si: [
+        "La playa enorme con hospital a pie importa más que las casas bajas. Laredo reúne unos once mil habitantes: La Salvé —unos cinco kilómetros—, Puebla Vieja —casco medieval, iglesia de la Asunción—, puerto deportivo, paseo y torres de apartamentos de los sesenta y setenta en el frente. Quien quiera resolver el día a día en villa un martes de noviembre —servicios 7/10, dependencia del coche 4/10—, caminar la Puebla Vieja y tener el Hospital de Laredo a unos cinco minutos encontrará aquí orilla de villa con todo, no de chalés dispersos. En verano La Salvé recibe veraneo masivo de Burgos, Bilbao y Madrid: ruido, tráfico y ocupación del frente; de octubre a mayo recupera calma de villa. Unas 1.650 a 1.700 horas de sol y unos 40 días despejados —frente a las 2.800 horas y 120 de Mallorca— mantienen el peaje: lluvia frecuente también en verano, verano suave alrededor de 20 °C, viento bajo, agua entre 19 y 21 °C. Quien se decida a vivir junto a La Salvé debe haber visto agosto y un martes gris.",
+        "Funciona si se aceptan las torres del frente a cambio de hospital comarcal a cinco minutos y playa usable casi a la puerta. El aeropuerto de Santander anda alrededor de los treinta y cinco minutos (Palma casi todo el año); Bilbao, alrededor de los cincuenta (Palma todo el año). Hay fibra; el precio ronda 2.100 €/m² y tres habitaciones en franja asequible andan cerca de 246.000 euros. Quien priorice sanidad a pie y arenal largo frente a urbanismo de casas bajas entenderá Laredo sin pedirle el perfil de Ribamontán.",
+      ],
+      no: [
+        "Si lo que se buscan son chalés y calma rural-costera, Laredo no lo es: el frente es de torres de veraneo tipo playa de los setenta. Ribamontán cubre casas bajas; Santoña, villa marinera con monte. Tampoco encaja quien necesite calma en agosto en primera línea de La Salvé: la temporada llena el arenal.",
+        "Tampoco si se necesita Palma todo el año a menos de cuarenta minutos: desde Laredo Bilbao anda alrededor de cincuenta; Castro deja ese vuelo a unos treinta y cinco o cuarenta. El cielo de Baleares no está aquí. Quien se decida solo tras un sábado soleado sin probar el tráfico de agosto ni el invierno de villa se equivoca de opción. Si mandan precio más bajo y Buciero, Santoña; si manda ciudad hacia Bilbao, Castro.",
+      ],
+      veredicto:
+        "Veredicto: Laredo encaja como playa larga y hospital —tres habitaciones en casco o algo retiradas del frente más ocupado de La Salvé— sobre todo si sanidad a cinco minutos y servicios 7/10 importan más que el urbanismo de torres. Probar un agosto lleno y un noviembre de villa antes de comprar. Se ganan Salvé, Puebla Vieja y hospital a pie; se aceptan ~2.100 €/m², afluencia de verano y el sol bajo de Cantabria Oriental. Quien priorice chalés, Ribamontán; quien priorice Bilbao y Palma todo el año, Castro.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/cantabria-oriental/laredo-identidad.jpg",
+      pie: "Laredo: casas del pueblo junto a la playa, con el monte Buciero enfrente",
+    },
+    fotosAbrir: [
+      { src: "/fotos/cantabria-oriental/laredo-salve.jpg", pie: "Playa de La Salvé, Laredo" },
+      { src: "/fotos/cantabria-oriental/laredo-villa.jpg", pie: "Laredo: villa y frente de playa" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/cantabria-oriental/laredo-puebla.jpg", pie: "Puebla Vieja de Laredo" },
+      { src: "/fotos/cantabria-oriental/laredo-asuncion.jpg", pie: "Iglesia de la Asunción, Laredo" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/cantabria-oriental/laredo-paseo.jpg", pie: "Paseo de Laredo" },
+      { src: "/fotos/cantabria-oriental/laredo-puerto.jpg", pie: "Puerto deportivo de Laredo" },
+    ],
+    creditoFotos: credito,
+  }

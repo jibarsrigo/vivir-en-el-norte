@@ -1,0 +1,99 @@
+{
+  "tipo": "municipio",
+  "slug": "gondomar",
+  "nombre": "Gondomar",
+  "n": 8,
+  "zonaId": "val-minor",
+  "zonaNombre": "Val Miñor",
+  "provincia": "Pontevedra",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-val-minor.ts",
+  "sourceKey": "gondomar",
+  "sourceExport": "RELATOS_VAL_MINOR",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "0af7de39fb1d1814d14d308e0492314c7293f2a712d5d61c4e6f7297cdd62879",
+  "relato": {
+    "escala": "Pueblo de valle y casas dispersas",
+    "abrir": [
+      "Gondomar ocupa el interior del Val Miñor, el valle que acompaña al río Miñor antes de que este alcance la bahía de Baiona. La pequeña villa de Gondomar reúne plaza, mercado, comercios, bares y edificios recientes; alrededor, unas quince mil personas viven repartidas entre parroquias de casas de piedra, chalés y caminos de ladera. El mar no se ve desde todas las ventanas, pero Praia América —la gran playa protegida de Nigrán— queda a unos doce minutos.",
+      "Un martes de noviembre el centro tiene una vida sencilla y reconocible: compra en el supermercado, café en la plaza, mercado semanal, alumnos del instituto y vecinos que resuelven los recados sin ir a Vigo. Al salir de la villa, la calle se deshace pronto en casas separadas por fincas. Vincios, la parroquia situada al pie de la Serra do Galiñeiro, vive mirando al monte; Donas y Chaín ocupan laderas próximas al centro; Morgadáns, Couso, Peitieiros y Vilaza extienden el municipio hacia pequeños valles y alturas.",
+      "Aquí vive sobre todo gente local, familias que trabajan en Gondomar o Vigo y personas que buscaban una casa con terreno sin alejarse del hospital. Agosto apenas transforma el municipio: mientras Baiona y Praia América se llenan, la plaza mantiene una escala parecida y las parroquias siguen en silencio. El verano se nota más en el aire que en la multitud. El valle retiene algo de calor y suma entre cinco y ocho días al año por encima de 30 °C, todavía muy lejos de un verano mallorquín.",
+      "Las fiestas, sin embargo, dibujan un calendario parroquial muy preciso. San Blas abre el 3 de febrero en Mañufe; el primer domingo de julio llega la Festa da Rosquilla y, del 10 al 12, las patronales reúnen a San Cristóbal, San Benito y San Antonio en la villa. El 16 de agosto San Roque se celebra en Morgadáns y ese mismo mes Chaín dedica una fiesta al jurel, el pescado azul que aquí da nombre a una jornada vecinal. Cerca de cada verbena hay música, tráfico y regreso tardío; lejos de ella, Gondomar conserva su silencio habitual.",
+      "Cada estación abre una vida distinta. En primavera las pistas hacia el Galiñeiro se vuelven verdes y el río llena la senda fluvial; en verano se baja a la playa después de comer y se vuelve al valle cuando refresca. El otoño trae olor a tierra húmeda y el invierno obliga a mirar la orientación de la casa: algunas laderas hacia la sierra pierden el sol pronto. Gondomar no ofrece el mar en el umbral; ofrece monte detrás, ciudad grande cerca y una costa a la que se llega antes de que termine una canción larga."
+    ],
+    "tiempo": [
+      "Gondomar conserva buena parte del sol del litoral: unas 2.450 horas anuales y 78 días despejados, frente a las 2.800 horas y 120 jornadas despejadas de Mallorca, la mayor isla de Baleares. La media de invierno ronda los 10 °C y las heladas son poco habituales. Lo que separa ambos climas es la frecuencia del agua: unos 1.500 milímetros y 118 días de lluvia, con trece o quince días húmedos al mes entre octubre y marzo.",
+      "En verano la media sube a unos 20,5 °C. Las máximas habituales se mantienen cerca de 25–26 °C y las noches refrescan, pero el fondo del valle acumula algo más de calor que Baiona o Nigrán: entre cinco y ocho días anuales superan los 30 °C. Mallorca ronda varias decenas. El viento y la niebla son bajos; el matiz importante no está en un temporal de frío, sino en la orientación de cada parroquia y en cuántas horas de sol invernal recibe la finca."
+    ],
+    "vivir": [
+      "El invierno en Gondomar se siente en la orientación de la finca más que en el termómetro. En Mallorca muchas casas casi no piensan en calefacción ni en humedad; en el valle del Miñor la lluvia y el monte mantienen el aire húmedo, y una ladera hacia el Galiñeiro puede quedarse en sombra antes de lo que la terraza promete en mayo. Conviene tocar paredes en noviembre, preguntar por aislamiento y mirar si hay rastros de moho. Visitar la casa un día gris y otro de sol bajo enseña más que el anuncio de abril.",
+      "El día a día sin coche solo funciona bien en la villa: plaza, supermercado, farmacia, centro de salud e instituto caben a pie. En Vincios, Donas, Chaín o Morgadáns el coche abre la semana —compra, playa, café—. En enero el centro mantiene una vida sencilla y reconocible; las parroquias siguen en silencio. No es un casco lleno de terrazas como Baiona: es valle, mercado y vecinos que resuelven los recados sin ir a Vigo cada día.",
+      "Llegar de fuera es menos espectacular que en la costa: conviven gente local, familias que trabajan en Gondomar o Vigo y quien buscaba terreno sin alejarse del hospital. Se oye gallego en el mercado semanal; el castellano basta para lo cotidiano. Entre semana manda el ir y venir hacia Vigo por la AG-57; en agosto las parroquias no se saturan como Praia América. Quien busque solo veraneo de costa se aburrirá; quien busque vecinos de valle todo el año, los encontrará.",
+      "La sanidad de urgencia y especialidades no está en el municipio: el hospital público Álvaro Cunqueiro queda a unos quince minutos por la AG-57; Povisa, hacia los veinte. En Gondomar hay centro de salud y farmacias para lo diario. Empadronarse abre el médico de cabecera local; para especialistas se baja a Vigo. Es una combinación poco habitual para una vida de parroquia: monte detrás y gran hospital cerca.",
+      "Mantener el vínculo con Mallorca pasa por el avión. Vigo-Peinador está a unos veinte minutos y vuela directamente a Palma en verano; Santiago, con enlace durante casi todo el año, queda hacia los ochenta y cinco. En invierno el trayecto a menudo implica más escalas o ir a Santiago. Conviene mirar el calendario real de vuelos, no solo el de agosto, y contar el trayecto desde la parroquia concreta, no solo desde la villa.",
+      "La vivienda típica es casa de piedra rehabilitada con finca o chalé de alrededor del año 2000 en ladera; también hay pisos nuevos en la villa. En una casa con escaleras internas o desniveles de parcela hay que imaginar la rutina dentro de diez años. La terraza útil es la orientada al sur, no solo la que mira al monte en foto. En las parroquias altas la fibra es parcial: hay que comprobarla en la dirección concreta, y presupuestar humedad y calefacción además de metros."
+    ],
+    "historia": [
+      "Gondomar nació como territorio de valle antes que como núcleo compacto. El río Miñor ordenó las tierras bajas y las parroquias ocuparon las laderas, donde la piedra, las fincas y los caminos todavía explican mejor el municipio que cualquier avenida. La villa creció como lugar de mercado y servicios para esa constelación rural. Por eso hoy conviven una plaza pequeña, pisos recientes y casas antiguas a pocos minutos, sin que el conjunto llegue a convertirse en ciudad.",
+      "La ocupación del valle se remonta mucho más atrás: Chan do Cereixo conserva testimonios del Paleolítico, y junto a los senderos del Galiñeiro aparecen petroglifos —grabados hechos en la roca hace aproximadamente cuatro mil años—. El río Miñor y los molinos completan esa historia escrita en agua, piedra y trabajo rural antes de que existieran las parroquias actuales.",
+      "El nombre de Gondomar quedó unido a Diego Sarmiento de Acuña, diplomático al que Felipe III concedió en 1617 el título de conde de Gondomar. Los pazos —casas señoriales gallegas— recuerdan todavía aquel mundo de linajes y propiedades; uno de ellos sirvió como escenario para la adaptación televisiva de «Los pazos de Ulloa», la novela de Emilia Pardo Bazán. Entre esas residencias y la fiesta de cada parroquia, la memoria local no se concentra en un solo monumento."
+    ],
+    "fuera": [
+      "Gondomar no tiene costa propia. El baño más cercano es Praia América, la playa larga y tranquila de Nigrán, a unos doce minutos. Patos, la playa de surf abierta al oeste en el mismo municipio, queda a unos catorce; Samil, la gran playa urbana de Vigo con paseo, jardines y piscinas, a unos veinte. Esa distancia permite bajar al mar cualquier tarde, pero obliga a coger el coche. En agosto conviene contar también el tiempo de aparcamiento.",
+      "El paseo cotidiano pertenece al río. La senda fluvial del Miñor sale desde la villa y avanza bajo alisos junto al cauce, casi llana, sin necesidad de organizar una excursión. Para ganar altura está la Serra do Galiñeiro: desde Vincios se llega al inicio de las rutas en unos ocho minutos y la subida a la cima ocupa alrededor de hora y media. Desde arriba se ven la ría de Vigo, las Illas Cíes —el archipiélago protegido que cierra la ría— y, hacia el sur, el río Miño y Portugal.",
+      "En un día de lluvia suave, los molinos de Zamáns y la ribera tienen musgo y agua suficiente para explicar el paisaje. Si la lluvia se cierra, el Balneario de Mondariz —un complejo histórico de aguas termales situado en el interior de Pontevedra— queda a unos treinta y cinco minutos. Para golf, Peinador, el campo del Aeroclub de Vigo junto al aeropuerto, está aproximadamente a veinte minutos. El tiempo libre de Gondomar combina monte inmediato, playa cercana y servicios urbanos sin vivir dentro de ninguno de los tres."
+    ],
+    "casa": [
+      "La vivienda que define Gondomar es una casa de piedra rehabilitada con finca o un chalé levantado alrededor del año 2000 en una parroquia de ladera. También hay pisos nuevos en la villa, útiles para quien quiera mercado, bares y centro de salud a pie. Vincios, Donas, Chaín y Morgadáns ofrecen el paisaje más buscado: casas bajas, monte detrás y, desde algunos puntos altos, vistas hacia el mar o las Cíes.",
+      "El precio medio ronda los 1.700 €/m². Un piso de tres habitaciones en la villa puede situarse cerca de 160.000 euros —la franja asequible—; una casa de piedra con terreno, entre 200.000 y 250.000. Es la diferencia económica más clara respecto a Baiona y Nigrán. Hay obra nueva, pero en las parroquias altas la fibra es parcial y debe comprobarse en la dirección concreta. También hay que visitar la casa al final de una tarde de invierno: una ladera orientada hacia el Galiñeiro puede quedarse en sombra antes de lo que su terraza promete en mayo.",
+      "Los servicios obtienen un 6/10: centro de salud, farmacias, supermercados, comercio local, bares, instituto, piscina y mercado semanal. Para una gran superficie o un cine se va a Vigo, la ciudad situada a unos veinte minutos. El hospital público Álvaro Cunqueiro queda a quince minutos por la AG-57, la autovía que conecta el valle con Vigo; Povisa, el hospital privado de la ciudad, a unos veinte. El aeropuerto de Vigo-Peinador está a veinte minutos y vuela directamente a Palma en verano; Santiago, con enlace durante casi todo el año, queda a unos ochenta y cinco."
+    ],
+    "encaja": {
+      "si": [
+        "Encaja si la casa, el monte y la tranquilidad diaria importan más que bajar andando al mar. Por entre 200.000 y 250.000 euros se puede buscar una casa de piedra rehabilitada o un chalé con terreno en Vincios, Donas, Chaín o Morgadáns. Desde allí, el Galiñeiro forma parte de la semana y Praia América queda a unos doce minutos. El hospital público está a quince y el aeropuerto a veinte: una combinación poco habitual para una vida de parroquia.",
+        "También encaja para quien quiera emplear el tiempo libre en varias direcciones. Se puede caminar junto al río sin salir de la villa, subir a las cumbres graníticas del Galiñeiro, bajar a bañarse a Nigrán o entrar en Vigo para cine, compras y restauración. Agosto no invade las parroquias como invade Baiona; se visita la costa y se regresa al silencio."
+      ],
+      "no": [
+        "No encaja si el mar debe estar en la puerta o si cada recado tiene que resolverse andando. Desde las parroquias el coche abre la semana: playa, supermercado, instituto y plaza pueden quedar en direcciones distintas. La dependencia del vehículo ronda 7/10. La fibra tampoco debe darse por hecha en una casa alta solo porque exista en la villa.",
+        "Tampoco es la opción más fresca de la comarca. El valle suma entre cinco y ocho días al año por encima de 30 °C, frente a unos tres o cinco en Baiona y Nigrán. Sigue siendo mucho más suave que Mallorca, pero quien quiera eliminar al máximo el calor debe mirar la costa. En invierno, una mala orientación puede quitar horas de sol y acentuar la humedad."
+      ],
+      "veredicto": "Veredicto: Gondomar ofrece la mejor relación entre espacio, silencio, hospital y precio. Buscaría casa de piedra o chalé en Vincios, Donas, Chaín o Morgadáns, con terraza orientada al sur y una comprobación real de fibra, humedad y horas de sombra en invierno. El hospital Álvaro Cunqueiro está a unos quince minutos, el aeropuerto a veinte y Praia América a doce: el mar no se vive a pie, pero cabe en cualquier tarde. Tres habitaciones en la villa rondan 160.000 euros; una casa con terreno, 200.000–250.000. En la primera línea de Baiona o Nigrán tres habitaciones se acercan a 290.000–300.000. Frente a la costa se gana calma y espacio; se aceptan coche y entre cinco y ocho días anuales sobre 30 °C, todavía muy por debajo del calor de Mallorca. Si caminar a la playa es irrenunciable, elegiría Baiona o Nigrán; si la prioridad es volver del mar a una casa silenciosa con monte detrás, Gondomar es la primera recomendación."
+    },
+    "fotoIdentidad": {
+      "src": "/fotos/val-minor/gondomar-identidad.jpg",
+      "pie": "Gondomar: casas de Mañufe en la ladera, con el monte del valle detrás"
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/val-minor/gondomar-valle.jpg",
+        "pie": "Gondomar en el valle del Miñor: villa pequeña, parroquias y monte"
+      },
+      {
+        "src": "/fotos/val-minor/gondomar-villa.jpg",
+        "pie": "La villa de Gondomar, centro de mercado y servicios para las parroquias"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/val-minor/gondomar-galineiro.jpg",
+        "pie": "Serra do Galiñeiro: granito y cumbres sobre la parroquia de Vincios"
+      },
+      {
+        "src": "/fotos/val-minor/gondomar-vincios.jpg",
+        "pie": "Vincios, al pie del Galiñeiro: por estos caminos se llega a petroglifos de hace unos cuatro mil años"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/val-minor/gondomar-rio-minor.jpg",
+        "pie": "El Miñor hacia la desembocadura: el río que da nombre al valle"
+      },
+      {
+        "src": "/fotos/val-minor/gondomar-morgadans.jpg",
+        "pie": "Morgadáns y las parroquias altas: casas, fincas y monte lejos del ruido de la costa"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (CC BY-SA)."
+  }
+}

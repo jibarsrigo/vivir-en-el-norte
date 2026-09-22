@@ -1,0 +1,58 @@
+{
+    escala: "Villa romana sobre el Lima",
+    abrir: [
+      "Ponte de Lima se siente, al cruzar el puente de piedra, como la villa que el interior del Minho enseña cuando quiere ser hermosa. Unos cuarenta y cuatro mil habitantes en el concelho —unos tres mil en la villa—: puente romano-medieval sobre el Lima, plaza de la feria, Feiras Novas en septiembre —feria grande: ruido, afluencia, aparcamiento justo—, Festival de Jardines, Ecovia do Lima, Lagoas de Bertiandos —humedales protegidos—, viñedo de Loureiro y golf. Es interior de franja B: Cabedelo, la playa de surf de Viana, anda alrededor de los veinticinco minutos.",
+      "Quien vive aquí es gente local, familias del valle y quien busca villa de piedra con hospital cerca. Un martes de noviembre se camina el puente y la plaza: servicios 6/10. El Hospital Conde de Bertiandos —comarcal— queda a unos cinco minutos. El aeropuerto de Porto anda alrededor de los cincuenta y cinco —Palma en verano—. Para la villa compacta no hace falta coche; para el mar y Braga, sí.",
+      "En verano el valle calienta: media alrededor de 21,5 °C y unos 20 a 25 días por encima de 30 °C —el calor que en Caminha o Âncora casi no aparece—. En invierno, niebla alta de valle que levanta tarde. Las Feiras Novas de septiembre llenan la villa como pocas fiestas del norte: hay que contarlas como parte del calendario, no como excepción. Quien busque verano suave de costa deberá mirar el Atlántico; quien busque piedra, río y feria entenderá Ponte de Lima.",
+      "En primavera merece la pena el Festival de Jardines; otoño, la Ecovia y las Lagoas sin calor. Si solo conoces un día de puente en sol, te llevas la imagen de folleto. Si has visto julio de valle y un martes de niebla, ya puedes decidir si de verdad quieres vivir aquí. Fibra sí; poca obra nueva en el casco.",
+      "Ponte de Lima no promete orilla atlántica a la puerta. Promete la villa más antigua de Portugal —fuero del XII—, puente, feria y hospital a cinco a cambio de calor estival, niebla y mar a veinticinco minutos. Quien acepte ese trato entenderá el sitio al primer cruce de piedra sobre el Lima.",
+    ],
+    tiempo: [
+      "Si vienes de Baleares, el valle pide otra paciencia. Ponte de Lima suma unas 2.400 a 2.450 horas de sol y unos 78 a 80 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.600 a 1.700 milímetros en unos 118 a 120 días. El viento es bajo; la niebla, alta de valle en invierno —mañanas blancas que tardan en abrirse—.",
+      "El verano ronda 21,5 °C, con unos 20 a 25 días sobre 30 °C: el termómetro aprieta en julio y agosto, lejos del fresco costero de 20,5 °C. La praia fluvial ofrece baño de río; Cabedelo queda a unos veinticinco minutos con agua atlántica de 16 a 18 °C. Julio y agosto llueven poco, pero el calor de valle no es el de Mallorca en el mismo sentido: aquí vuelve el verano que muchos querían dejar. Conviene probar julio caluroso y un diciembre de niebla.",
+    ],
+    vivir: [
+      "El invierno en Ponte de Lima es niebla alta de valle que levanta tarde: mañanas blancas, humedad de río y terraza que se usa poco. Conviene calefacción, aislamiento y orientación al sol en casa de villa o quinta. Probar un martes de niebla y un julio caluroso evita firmar solo por el puente en sol de primavera.",
+      "Sin coche, la villa compacta se resuelve a pie —servicios 6/10—; para el mar y Braga hace falta vehículo. Un martes de noviembre se camina el puente y la plaza. Las Feiras Novas de septiembre llenan la villa: ruido, afluencia, aparcamiento justo. En enero hay vida de villa de piedra, no de costa vacía.",
+      "Quien vive aquí es gente local y familias del valle. El portugués manda; la escala es de villa interior minhota —feria, jardines, Loureiro—, no de frontera con gallego a la puerta como Valença. La integración pasa por plaza, Ecovia y calendario de feria. Si solo conoces el Festival de Jardines, te llevas la imagen de folleto. Si has visto julio de valle, ya puedes decidir si de verdad quieres vivir aquí.",
+      "El Hospital Conde de Bertiandos —comarcal— queda a unos cinco minutos: dato raro y valioso en la zona. Hay que contar con seguro privado portugués —Trofa Saúde, Braga, a unos cuarenta minutos, de los mejores tiempos privados del Alto Minho—. Sanidad comarcal delante; privado de referencia en Braga. No hay tarjeta española de diario.",
+      "Porto–Sá Carneiro anda alrededor de los cincuenta y cinco minutos —Palma en verano—. Ir y volver a Mallorca pasa por Porto; Cabedelo a veinticinco minutos cubre el mar, no el avión. El régimen fiscal especial para residentes extranjeros se cerró en 2024.",
+      "El casco y el entorno del río ofrecen viviendas de villa; hay fibra. El modelo es piso o casa de villa, y quintas con viñedo de Loureiro cuando el terreno pesa. En el valle hay que contar con calor de julio–agosto, niebla de invierno y humedad. Imaginar ambas estaciones y las Feiras Novas antes de comprar.",
+    ],
+    historia: [
+      "El puente romano-medieval y la plaza de la feria explican Ponte de Lima: la villa más antigua de Portugal —fuero en el siglo XII—, capa romana sobre el Lima y feria viva. La leyenda del río del olvido —soldados que no querían cruzar— sigue en la ficha local; la piedra del puente sigue en el gesto diario. Las Feiras Novas de septiembre y el Festival de Jardines marcan el calendario con afluencia real: no son notas al margen.",
+      "La Ecovia do Lima, las Lagoas de Bertiandos —paisaje protegido de humedal— y el viñedo de Loureiro completan la ficha de río y verde. Axis Golfe queda en el concelho; el Gerês, a hora y cuarto. Lo que conviene saber es de villa romana, feria y valle del Lima: puente, plaza y agua, no lista seca de fechas.",
+    ],
+    fuera: [
+      "El puente, la plaza y la Ecovia do Lima —paseo llano junto al río— son la tarde de diario. Se cruza la piedra, se mira el agua, se vuelve al café de villa sin pedir océano para cada gesto.",
+      "Las Lagoas de Bertiandos cubren paseo de naturaleza: humedales, aves, sombra cuando el valle aprieta. Cabedelo y Viana andan alrededor de veinticinco o treinta minutos cuando apetezca Atlántico —surf, ciudad, Praia Norte—. Axis Golfe Ponte de Lima queda en el concelho; el Parque Nacional da Peneda-Gerês, a unos 1 h 15.",
+      "No hay playa de mar en el municipio. Quien quiera océano acepta el trayecto; quien quiera río y jardín, no. Esa es la honestidad del interior minhoto.",
+    ],
+    casa: [
+      "El casco y el entorno del río ofrecen viviendas de villa; hay fibra. El modelo es piso o casa de villa, y quintas con viñedo de Loureiro cuando el terreno pesa: desde unos 200.000–300.000 euros. En el valle hay que contar con calor de julio–agosto, niebla de invierno y humedad; conviene orientación y probar ambas estaciones.",
+      "El precio medio ronda 1.500 €/m². Tres habitaciones se sitúan alrededor de 142.000 euros. Quien busque precio de interior y piedra encontrará holgura frente a Moledo o Âncora; quien busque primera línea de Atlántico, no.",
+      "Los servicios son 6/10. El hospital comarcal queda a unos cinco minutos —dato raro y valioso en la zona—. Porto–Sá Carneiro está a unos cincuenta y cinco. Hay que contar con seguro privado portugués —Trofa Saúde, Braga, a unos cuarenta minutos, de los mejores tiempos privados del Alto Minho—. Conviene firmar tras un julio de valle y un martes de niebla.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere la villa más antigua de Portugal sobre el Lima —puente romano-medieval, plaza de la feria, Festival de Jardines, Ecovia y Lagoas de Bertiandos— con vida de villa todo el año y hospital comarcal a unos cinco minutos. Un martes de noviembre se camina el puente y la plaza; los servicios alcanzan 6/10. Quien priorice río, piedra y precio de interior —alrededor de 1.500 €/m²— frente a nortada atlántica encontrará aquí escala reconocible; las quintas con viñedo de Loureiro añaden terreno cuando el presupuesto lo permite. Cabedelo queda a unos veinticinco minutos cuando apetezca mar.",
+        "También encaja para quien acepte el año entero junto al río y reserve el océano para la tarde. Porto–Sá Carneiro anda alrededor de los cincuenta y cinco minutos. Llueven alrededor de 1.700 milímetros en unos 120 días; la niebla de valle es alta en invierno. Conviene seguro privado portugués: Trofa Saúde, Braga, queda a unos cuarenta minutos —de los mejores tiempos privados de la zona—.",
+      ],
+      no: [
+        "No encaja si se busca el verano suave de la costa minhota. Aquí el valle calienta: media alrededor de 21,5 °C y unos veinte a veinticinco días al año por encima de 30 °C —el calor que en Caminha o Âncora casi no aparece—. Tampoco si la playa debe quedar a pie: no hay orilla atlántica en el municipio. Las Feiras Novas de septiembre llenan la villa: ruido, afluencia y aparcamiento justo.",
+        "Tampoco encaja si se busca el régimen fiscal especial para residentes extranjeros —cerrado en 2024— o un diciembre sin niebla de valle. Quien se decida solo tras un día de jardines en primavera, sin probar julio caluroso ni un martes de niebla, se llevará una villa distinta de la foto turística del puente.",
+      ],
+      veredicto:
+        "Veredicto: Ponte de Lima es villa romana de interior —puente, feria y hospital a cinco a cambio de calor de valle, niebla y mar a veinticinco minutos—. Buscaría tres habitaciones en villa o quinta con acceso al puente, tras probar un julio de valle y un diciembre de niebla. Se ganan ~1.500 €/m², Ecovia, Loureiro y el comarcal delante; se aceptan 20–25 días de calor fuerte, aeropuerto a unos cincuenta y cinco minutos y seguro privado portugués. Si mandan verano fresco y Atlántico a pie, Âncora o Afife-Carreço; si hay que contar con piedra, río y precio de interior con sanidad cerca, Ponte de Lima es la apuesta del valle del Lima.",
+    },
+    fotosAbrir: [
+      { src: "/fotos/alto-minho/ponte-villa.jpg", pie: "Ponte de Lima: villa sobre el Lima" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/alto-minho/ponte-jardines.jpg", pie: "Jardines y orilla del Lima en Ponte de Lima" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/alto-minho/ponte-bertiandos.jpg", pie: "Lagoas de Bertiandos, Ponte de Lima" },
+    ],
+    creditoFotos: credito,
+  }

@@ -1,0 +1,97 @@
+{
+  "tipo": "municipio",
+  "slug": "porto-do-son",
+  "nombre": "Porto do Son",
+  "n": 30,
+  "zonaId": "barbanza-e-noia",
+  "zonaNombre": "Barbanza e Noia",
+  "provincia": "A Coruña",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-barbanza-e-noia.ts",
+  "sourceKey": "porto-do-son",
+  "sourceExport": "RELATOS_BARBANZA_E_NOIA",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "85f80e9e9da4232913bb88610ca820e3ebc25f51319c7ea609ec332c7f2da256",
+  "relato": {
+    "escala": "Costa atlántica y parroquias",
+    "abrir": [
+      "Porto do Son se siente como océano de verdad, no como ría abrigada. Unos nueve mil habitantes en la costa atlántica abierta, entre la ría de Muros e Noia y el mar sin protección. El municipio se reparte entre parroquias, el núcleo de Porto do Son, Portosín —puerto deportivo— y arenales largos como Area Longa, As Furnas o Aguieira. El castro de Baroña, poblado de la Edad del Hierro sobre un tómbolo batido por el mar, es la imagen que resume el lugar: piedra, istmo y Atlántico a ambos lados.",
+      "Quien vive aquí es gente local de costa y de parroquia, y veraneantes que llenan Portosín y las playas en agosto sin convertir el invierno en temporada. Un martes de noviembre la vida es local y dispersa. Hay lo básico, pero los servicios son 4/10 y la fibra, parcial: el coche organiza compra, salud y ocio —dependencia alrededor de 7/10—. El Hospital do Barbanza queda a unos veinticinco minutos; Noia y Ribeira, a quince o veinticinco. El invierno trae viento, niebla media y playas casi vacías.",
+      "Porto do Son no es una villa completa: ofrece Atlántico, soledad y paisaje a cambio de depender del volante y aceptar un invierno serio. Primavera y otoño son buenas épocas para conocerlo: en mayo Area Longa se camina casi sola; en noviembre se nota la nortada y la niebla. Si solo conoces un día de mar llana, te llevas la imagen de folleto del horizonte. Si has visto un frente de invierno, ya puedes decidir si quieres esa casa abrigada del viento.",
+      "En verano Portosín y las playas reciben veraneo, regatas y fiestas locales con música y tráfico hacia la costa. El Carmen y las verbenas parroquiales animan los núcleos; quien viva junto al puerto deportivo o a Area Longa notará aparcamiento y ruido en fechas concretas. Tierra adentro, hacia Monte da Enxa, el volumen baja a cambio de más coche para todo."
+    ],
+    "tiempo": [
+      "Si vienes de Baleares, notará más viento y un cielo más gris que en Mallorca, no tanto un cambio del fresco del verano. Porto do Son comparte el clima comarcal de unas 2.225 horas de sol y 65 días despejados, lejos de las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.350 milímetros en unos 121 días. Viento y niebla son medios: la casa debe orientarse y ventilarse con ese dato en mente. De noviembre a febrero la terraza se usa a medias; de junio a septiembre, sí.",
+      "El verano ronda 19,5 °C, fresco frente a Baleares. El agua atlántica anda entre 17 y 19 °C, con oleaje frecuente en Area Longa o As Furnas: se entra con mordisco, se nada un rato, se sale despabilado. No es el baño calmado de Barraña o Tanxil; es océano, más bravo y más frío. Conviene venir un frente de invierno y un día de nortada, no solo un sábado de mar llana."
+    ],
+    "vivir": [
+      "El invierno en Porto do Son se siente en el viento, la niebla media y las playas casi vacías. En Mallorca muchas casas casi no piensan en calefacción ni en humedad; aquí el Atlántico abierto exige orientación, ventilación y cubiertas bien resueltas. Conviene una casa abrigada del viento y probar un frente de nortada. Visitar noviembre enseña más que un día de mar llana en Area Longa.",
+      "El día a día sin coche casi no existe: servicios 4/10, fibra parcial y dependencia del coche alrededor de 7/10. En enero la vida es local y dispersa. El coche organiza compra, salud y ocio. No pretender villa completa: aquí se compra océano y soledad.",
+      "Llegar de fuera suele buscar costa y poco ruido de ciudad: gente local de parroquia y veraneantes de Portosín. Se oye gallego en los núcleos; el castellano basta para lo básico. Entre semana de invierno el silencio pesa; en verano Portosín y las playas se animan. Quien busque integración de plaza compacta no la encontrará.",
+      "La sanidad de urgencia y especialidades no está en el municipio: el Hospital do Barbanza queda a unos veinticinco minutos; Noia y Ribeira, a quince o veinticinco para lo demás. Empadronarse abre lo básico local; para hospital se conduce. El privado en Santiago ronda los cincuenta y cinco minutos.",
+      "Mantener el vínculo con Mallorca pasa por el avión. El aeropuerto de Santiago está a unos cincuenta minutos, con enlace a Palma casi todo el año. En invierno conviene mirar el calendario real de vuelos y contar el trayecto desde la parroquia concreta.",
+      "El modelo son casas y chalés en parroquias, con alguna vivienda en Porto do Son y Portosín. No hay obra nueva apreciable; fibra parcial por dirección. Hay que contar con viento, humedad, acceso y distancia a un súper. Presupuestar reforma atlántica seria, no solo vistas al océano."
+    ],
+    "historia": [
+      "El castro de Baroña es uno de los más espectaculares de Galicia: casas circulares de piedra sobre una península unida por un istmo que el mar golpea. Se recorre con el Atlántico a ambos lados; la visita explica por qué este tramo se habitó mirando al océano, no a una ría cerrada. No es un adorno: es el hilo antiguo del municipio.",
+      "Portosín creció como puerto y, más tarde, como marina. Monte da Enxa, hacia los 500 metros, mira la ría de Muros e Noia y completa el relato: costa brava abajo, altura y vistas arriba. Lo que conviene saber aquí es geográfica más que monumental: tómbolo, dunas, viento y la frontera entre dos rías y el Atlántico abierto."
+    ],
+    "fuera": [
+      "Si solo hay tiempo para un baño cerca, ese baño es Area Longa —o As Furnas, Aguieira, Coira, según la parroquia—: arena larga, oleaje frecuente, agua entre 17 y 19 °C. Los días de mar llana invitan al baño; los de nortada, al paseo y a mirar. Un martes de junio puedes tener el arenal casi para ti; un domingo de agosto el aparcamiento hacia la costa se queda corto. Es playa de océano, no de ría abrigada.",
+      "Más allá de Area Longa, Baroña combina patrimonio y costa en la misma visita: castro y Atlántico sin cambiar de sitio. Quien quiera dunas y parque natural conduce hacia Corrubedo, en Ribeira. Quien quiera agua calmada de Arousa mira Tanxil, Barraña o Cabío: otro ambiente, a un trayecto. Aquí manda el océano; la ría templada está en otro pueblo.",
+      "Los caminos son la otra mitad del agua. Monte da Enxa ofrece pistas y vistas a la ría de Muros. Portosín permite un paseo de puerto deportivo cuando no apetece pelear con la ola. Para villa histórica se conduce a Noia; para hospital y comercio denso, a Ribeira. La Serra do Barbanza y A Curota quedan hacia el interior cuando se quiere granito y mirador."
+    ],
+    "casa": [
+      "El modelo de casa aquí son casas y chalés en parroquias, con alguna vivienda en los núcleos de Porto do Son y Portosín. No hay obra nueva apreciable; la fibra es parcial y debe comprobarse en la dirección concreta. Hay que contar con viento, humedad, acceso y distancia real a un súper: el anuncio no cuenta el frente de noviembre.",
+      "Conviene una casa abrigada del viento, lejos del tramo más ocupado de Portosín en agosto, y probar el trayecto a Area Longa un domingo de verano. El precio medio ronda 1.350 €/m². Tres habitaciones en la franja asequible se sitúan alrededor de 158.000 euros. La franja media suele ser casa con parcela; vistas al Atlántico y estado de reforma mueven el precio.",
+      "Los servicios son 4/10: lo básico local; el resto pide coche. El Hospital do Barbanza queda a unos veinticinco minutos. El aeropuerto de Santiago está a unos cincuenta, con enlace a Palma casi todo el año. Eso es Porto do Son: mucho océano y mucha soledad, y la villa completa siempre a un trayecto."
+    ],
+    "encaja": {
+      "si": [
+        "El Atlántico abierto importa más que resolver la semana andando. Las playas de diario son Area Longa, As Furnas, Aguieira o Coira: arena larga, oleaje frecuente, agua entre 17 y 19 °C —más brava y más fría que Tanxil, Barraña o Cabío—. Quien quiera recorrer el castro de Baroña —poblado de la Edad del Hierro sobre un tómbolo batido por el mar—, subir al Monte da Enxa (~500 m, vistas a la ría de Muros e Noia), pasear Portosín y sentir soledad de costa en noviembre encontrará aquí el océano de verdad, no la ría abrigada. El Hospital do Barbanza queda a unos veinticinco minutos; Noia y Ribeira, a quince o veinticinco para lo que el municipio no resuelve. El aeropuerto de Santiago-Lavacolla, con Palma casi todo el año, a unos cincuenta. Tres habitaciones en franja asequible rondan 158.000 euros.",
+        "Funciona especialmente bien para quien acepte servicios 4/10, fibra parcial y dependencia del coche alrededor de 7/10 a cambio de paisaje y poca densidad. El verano ronda 19,5 °C —fresco frente a Mallorca—; viento y niebla medios marcan la casa todo el año."
+      ],
+      "no": [
+        "Si la semana debe hacerse a pie, o si fibra estable y comercio completo son imprescindibles, Porto do Son no encaja: Boiro (servicios 6/10) y Ribeira (7/10, hospital a cinco minutos) cubren esa prioridad. Aquí el coche abre compra, salud y ocio.",
+        "Tampoco encaja si se busca agua calmada de ría como baño de diario. La ría de Arousa —Tanxil, Barraña, Cabío— es otro ambiente; aquí manda el océano. Quien se decida solo tras un día de mar llana en Area Longa, sin probar un frente de invierno ni comprobar fibra en la dirección concreta, se llevará una sorpresa. El privado HM Rosaleda, en Santiago, ronda los cincuenta y cinco minutos."
+      ],
+      "veredicto": "Veredicto de quien conoce la comarca: Porto do Son encaja como la apuesta atlántica del Barbanza —casa abrigada del viento, con fibra comprobada, lejos del tramo más ocupado de Portosín en agosto— sobre todo si Baroña, playas largas y soledad importan más que la villa completa. Se ganan océano y Enxa; se aceptan coche, servicios escasos, Hospital do Barbanza a unos veinticinco y Lavacolla a unos cincuenta. Probar un frente de invierno y un sábado de verano en la costa antes de comprar."
+    },
+    "fotoIdentidad": {
+      "src": "/fotos/barbanza-e-noia/porto-do-son-identidad.jpg",
+      "pie": "Porto do Son: casas junto al mar, con la iglesia y el monte detrás"
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/barbanza-e-noia/son-baroña.jpg",
+        "pie": "Castro de Baroña sobre el Atlántico"
+      },
+      {
+        "src": "/fotos/barbanza-e-noia/son-area-longa.jpg",
+        "pie": "Area Longa, arenal atlántico"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/barbanza-e-noia/son-portosin.jpg",
+        "pie": "Portosín, puerto deportivo"
+      },
+      {
+        "src": "/fotos/barbanza-e-noia/son-villa.jpg",
+        "pie": "Núcleo de Porto do Son"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/barbanza-e-noia/son-furnas.jpg",
+        "pie": "As Furnas, playa atlántica"
+      },
+      {
+        "src": "/fotos/barbanza-e-noia/son-enxa.jpg",
+        "pie": "Monte da Enxa, vistas a la ría de Muros"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

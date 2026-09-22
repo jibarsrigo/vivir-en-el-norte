@@ -1,0 +1,63 @@
+{
+    escala: "Pueblo compacto y casas dispersas",
+    abrir: [
+      "O Rosal es un valle interior de unos seis mil habitantes, a diez minutos de A Guarda. Se vive entre parras altas —se pasa andando por debajo—, casas de piedra y el monte detrás: la Serra da Groba (meseta de brezo y caballos) a un lado, el Monte Santa Trega (el monte redondo sobre A Guarda y la desembocadura) al otro. En O Calvario, el núcleo del municipio, hay plaza, bares e iglesia; alrededor, las parroquias de Tabagón, San Miguel, Eiras, As Eiras: casas con huerto y viña. Es el municipio de la comarca que más se parece a un pueblo de interior mediterráneo en ritmo: gente local, pocos foráneos, poco tráfico, agosto sin llenarse.",
+      "No hay urbanización. El modelo es casa de piedra rehabilitada o chalé de los dos mil en ladera, con vistas al valle o al Miño. En invierno el valle se queda en lo suyo: húmedo, verde, parras desnudas, olor a tierra mojada. Lo diario —farmacia, súper pequeño, centro de salud— está en el pueblo; el resto, en A Guarda a diez minutos. La fibra es parcial: en las parroquias altas hay que comprobarla casa por casa.",
+      "Aquí el paisaje importa más que la logística. Quien venga buscando eso —valle, parra, plaza donde se conocen, mar a un cuarto de hora— entenderá el sitio en la primera tarde. Quien venga buscando ciudad a cinco minutos, no.",
+      "A mediados de julio, la Feira do Viño do Rosal concentra en la Praza do Calvario bodegas, copas y visitantes; desde 2016 es Fiesta de Interés Turístico de Galicia. Las Festas do Pilar devuelven después la celebración al calendario parroquial. O Calvario —«el Calvario» en gallego y núcleo principal del municipio— deja entonces de ser solo el lugar de los recados: hay música, coches buscando hueco y mesas llenas, mientras las casas dispersas recuperan pronto su silencio.",
+    ],
+    tiempo: [
+      "O Rosal comparte el cielo de la comarca —unos setenta y cinco días despejados, dos mil cuatrocientas cincuenta horas de sol— pero el valle lo siente distinto a la punta. Respecto a Baleares pierdes sol sobre todo en invierno; de junio a septiembre la terraza se usa. La lluvia, de octubre a marzo, es seria: trece a dieciséis días al mes, y cuando cae empapa el circuito de molinos del Folón —piedra y regueros en la ladera— y deja el valle en musgo.",
+      "El verano aquí es más suave que en Tui o Tomiño: no es el fondo del Miño que devuelve el calor. Las noches refrescan; el calor extremo casi no llega. La niebla es baja. Lo que sí hay es humedad de noviembre en las paredes: conviene tocarla con la mano al visitar una casa, no solo mirar el plano un sábado de sol.",
+    ],
+    vivir: [
+      "El invierno en O Rosal se siente en las paredes más que en el termómetro. En Mallorca muchas casas casi no piensan en calefacción ni en humedad; en este valle interior la lluvia empapa el Folón, deja musgo y mantiene el aire húmedo entre parras desnudas. Conviene tocar las paredes en noviembre, preguntar por aislamiento y mirar rastros de moho. Visitar la casa un día de lluvia seria enseña más que el sol de abril del anuncio.",
+      "El día a día sin coche funciona en O Calvario: plaza, farmacia, súper pequeño y centro de salud. En las parroquias de Tabagón, San Miguel o Eiras el coche une huerto, viña y pueblo. En enero el valle se queda en lo suyo —húmedo, verde, olor a tierra mojada— y O Calvario mantiene bares e iglesia. El resto —supermercado grande, lonja— está en A Guarda a diez minutos.",
+      "Llegar de fuera es menos frecuente que en la punta: hay gente local, pocos foráneos, poco tráfico. Se oye gallego en la plaza y en las bodegas; el castellano basta para lo cotidiano. Entre semana manda el ritmo de pueblo; en julio la Feira do Viño do Rosal llena O Calvario, pero agosto no satura como la costa. Quien busque solo veraneo de playa se aburrirá; quien busque vecinos de valle, los encontrará.",
+      "La sanidad de urgencia y especialidades no está en el municipio: el hospital Álvaro Cunqueiro queda a unos cuarenta minutos; Vigo, alrededor de cuarenta. En O Rosal hay centro de salud y farmacia para lo diario; A Guarda cubre más. Empadronarse abre el médico de cabecera local; para especialistas se conduce. Es valle con mar a diez minutos, no ciudad sanitaria.",
+      "Mantener el vínculo con Mallorca pasa por el avión desde fuera. La ficha sitúa Vigo alrededor de cuarenta minutos; conviene mirar vuelos desde Peinador o Santiago y el calendario real hacia Palma, no solo el de agosto. El coste incluye el trayecto desde el valle cuando el tiempo se pone feo.",
+      "Lo habitual es casa de piedra con parra y huerto, o chalé de los dos mil en ladera orientada al sur. Poca obra nueva; fibra parcial en las parroquias altas. La terraza útil es la que recibe sol de invierno; conviene presupuestar humedad, ventanas y calefacción, y comprobar la fibra en esa dirección concreta —no en el pueblo en abstracto—.",
+    ],
+    historia: [
+      "Valle agrícola desde siempre: viña, maíz, huerta, y molinos comunales donde cada casa tenía sus horas de molienda. De ahí los cerca de sesenta molinos del Folón y del Picón, levantados sobre todo en el siglo XVIII y escalonados en dos regueros que bajan por la ladera, declarados Bien de Interés Cultural. Se recorren en un circuito de cuatro o cinco kilómetros entre pequeñas cascadas y viñedo, con el valle abajo. El nombre de O Rosal —el rosal— acabó nombrando tanto este valle como el municipio constituido en 1847.",
+      "Tierra de emigración a América, de contrabando con Portugal en la posguerra y de cabaqueiros: tejeros que marchaban por temporadas y crearon un habla gremial propia, el latín dos cabaqueiros, para entenderse sin ser entendidos. Desde los años ochenta el vino cambió el paisaje. O Rosal es subzona de la D.O. Rías Baixas y sus blancos deben reunir al menos un setenta por ciento de Albariño y Loureira; la parra no es una foto bonita, sino economía viva. Lugares que explican el valle: los molinos, la plaza de O Calvario y los miradores hacia el Miño.",
+    ],
+    fuera: [
+      "En el municipio no hay playa de mar: O Rosal es valle interior. Eso no significa vivir lejos del agua. Area Grande —la cala de arena fina de A Guarda, playa de diario— queda a unos diez minutos; O Muíño, la playa del estuario en Camposancos (agua plana, Portugal enfrente), a unos doce. Se baja a la costa cuando apetece y se vuelve al valle al atardecer, con las parras y el monte detrás —un ritmo que muchos buscan sin saber nombrarlo. Un martes de junio puedes tener la cala casi para ti; un domingo de agosto hay que contar el aparcamiento, y luego el regreso al valle sabe a alivio.",
+      "El paseo propio —el que no se encuentra igual en otra parte— es el circuito de los Muíños do Folón e do Picón: sesenta y siete molinos de agua en dos regueros que bajan la ladera. Con lluvia fina el sitio se vuelve casi de cuento: musgo, cascadas, el sonido del agua entre la piedra. Con chaparrón cerrado, mejor otro plan: un café en la plaza de O Calvario, o bajar a A Guarda. El Monte Santa Trega —castro y mirador sobre la desembocadura— está a unos doce minutos. También se camina entre las parras del propio valle, por pistas de tierra, cuando el sol de tarde entra entre las hojas.",
+      "Portugal está cerca: Caminha (villa portuguesa en la desembocadura) y Vila Nova de Cerveira (frente a Goián) a un cuarto de hora o poco más, según el puente. No hace falta convertirlo en excursión: un sábado cualquiera se cruza, se vuelve con pan o con fruta, y el valle sigue siendo el centro. Aquí el mar es salida; la vida diaria es plaza, parra y monte detrás.",
+    ],
+    casa: [
+      "Lo que encontrarás es casa de piedra con parra y huerto, o chalé de los dos mil en ladera orientada al sur, en Tabagón, San Miguel o Eiras, con vistas al valle o al Miño. Poca obra nueva. El metro ronda mil trescientos cincuenta euros; una casa rehabilitada con terreno puede entrar entre ciento treinta y ciento ochenta mil —margen de verdad respecto a la costa. El anuncio enseña el sol de abril; conviene ver también un noviembre húmedo.",
+      "Conviene comprobar tres cosas que el anuncio no cuenta: la fibra en esa casa concreta, la humedad de las paredes en noviembre —el valle es húmedo—, y cuánto tarda el coche a Area Grande un domingo de agosto. El hospital Álvaro Cunqueiro está a unos cuarenta minutos; Vigo, también alrededor de cuarenta. Los servicios del pueblo cubren lo básico; A Guarda cubre el resto. Quien acepte esa distancia gana el valle.",
+    ],
+    encaja: {
+      si: [
+        "Se busca valle —parras altas, casas de piedra, monte detrás, plaza donde se conocen— y el mar a unos diez minutos basta: no hace falta tenerlo en la puerta. Quien tenga tiempo para el circuito de los Muíños do Folón e do Picón (sesenta y siete molinos de agua en cascada por la ladera, a unos siete minutos del pueblo), para las pistas entre viña, para bajar a Area Grande —la cala de arena de A Guarda, playa de diario— cuando apetece y volver al atardecer al silencio del valle encontrará aquí el ritmo que muchos de la comarca buscan sin saber nombrarlo. Agosto no satura; el invierno es húmedo pero vivo en O Calvario, el núcleo con plaza, bares e iglesia.",
+        "Se acepta el hospital público Álvaro Cunqueiro, en Vigo, a unos cuarenta minutos, y A Guarda a diez para supermercado grande y lonja. A cambio se gana paisaje, precio más amable que la costa y una escala —pueblo compacto en O Calvario más casas en las parroquias (Tabagón, San Miguel, Eiras)— que se parece a lo que muchos dejaron atrás en textura de piedra y monte, no en clima de verano extremo.",
+      ],
+      no: [
+        "Si hace falta hospital a media hora o ciudad a un cuarto de hora, O Rosal no lo da: eso es Tui (ciudad pequeña río arriba), o aceptar el trayecto a Vigo. Tampoco encaja quien necesite playa a la puerta todos los días sin coche: el mar está a unos diez minutos (Area Grande u O Muíño, la playa del estuario en Camposancos), pero es salida, no umbral.",
+        "La humedad de noviembre y la fibra parcial en las parroquias altas no son detalles del anuncio. Quien se decida solo con con sol de abril, sin tocar paredes ni preguntar por la línea en esa casa, se lleva una sorpresa. Si el calor de valle es lo que se huye, aquí casi no vuelve; el problema sería otro —humedad y distancia al hospital de Vigo—.",
+      ],
+      veredicto:
+        "Veredicto: O Rosal es la opción de valle de Baixo Miño. Encaja si el paisaje y el ritmo de pueblo importan más que hospital y ciudad cerca, y si diez minutos al mar bastan. Casa de piedra o chalé orientado al sur en las parroquias de Tabagón, San Miguel o Eiras; comprobar fibra, humedad de noviembre y el trayecto a la playa de Area Grande un domingo de agosto. Quien priorice sanidad a treinta minutos, mirar Tui; quien priorice mar a la puerta, A Guarda.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/baixo-mino/o-rosal-identidad.jpg",
+      pie: "O Rosal: casas de San Miguel de Tabagón junto al puente del Tamuxe, con el valle detrás",
+    },
+    fotosAbrir: [
+      { src: "/fotos/baixo-mino/rosal-concello.jpg", pie: "Casa do concello: el núcleo de O Calvario" },
+      { src: "/fotos/baixo-mino/rosal-tamuxe.jpg", pie: "San Miguel de Tabagón: calle de pueblo y puente sobre el Tamuxe" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/baixo-mino/rosal-tabagon.jpg", pie: "Igrexa de San Xoán de Tabagón: piedra de parroquia" },
+      { src: "/fotos/baixo-mino/rosal-folon-vista.jpg", pie: "Muíños do Folón e do Picón: sesenta y siete molinos en cascada" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/baixo-mino/rosal-alameda.jpg", pie: "Alameda de San Miguel: paseo entre parra y pueblo" },
+      { src: "/fotos/baixo-mino/rosal-calvario-cruz.jpg", pie: "Cruceiro en O Calvario: el detalle que marca plaza" },
+    ],
+    creditoFotos: "Fotos: Wikimedia Commons (CC BY-SA).",
+  }

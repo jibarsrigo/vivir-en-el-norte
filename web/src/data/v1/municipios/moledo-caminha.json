@@ -1,0 +1,81 @@
+{
+  "tipo": "municipio",
+  "slug": "moledo-caminha",
+  "nombre": "Moledo (Caminha)",
+  "n": 76,
+  "zonaId": "alto-minho",
+  "zonaNombre": "Alto Minho (PT)",
+  "provincia": "Viana do Castelo",
+  "pais": "Portugal",
+  "sourcePath": "web/src/lib/relatos-alto-minho.ts",
+  "sourceKey": "moledo-caminha",
+  "sourceExport": "RELATOS_ALTO_MINHO",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "cb7ff66b8848b5280e44d2a79eb25dc0e9f2e6c086719881552d08b6f391513a",
+  "relato": {
+    "escala": "Pinar y playa elegante",
+    "abrir": [
+      "Moledo se siente, entre pinos y dunas, como el veraneo que Porto inventó para sí mismo. Unos mil quinientos habitantes: chalés entre pinos, playa larga con dunas y viento —kite, surf—, Forte da Ínsua delante y Monte Santa Trega —el monte redondo de A Guarda— al otro lado del Miño. Es freguesia de Caminha, no villa con comercio completo. La orilla abre el día; el súper, no.",
+      "Quien vive aquí es veraneo tradicional, vecinos de temporada larga y quien busca Atlántico a dos minutos con ambiente cuidado. Un martes de noviembre la calma entre chalés es real: servicios 3/10, coche 7/10. El Hospital de Santa Luzia —Viana— queda a unos veinticinco minutos. El aeropuerto de Porto anda alrededor de los sesenta —Palma en verano—. Para la playa no hace falta volante; para casi todo lo demás, sí. Caminha o Âncora cubren la compra diaria.",
+      "En verano la nortada de tarde —junio a agosto— marca las terrazas: viento norte fuerte que apaga la conversación al aire libre y llena la orilla de velas y tablas. Kite y surf no son foto típica; son oficio de la tarde. Sin obra nueva; fibra sí. El tráfico de acceso se nota en agosto; el resto del año es colonia entre pinos. Quien busque silencio de enero lo encontrará; quien busque terraza sin viento en julio, no.",
+      "Primavera y otoño son buenas épocas para conocerlo: dunas sin saturación, pinar, Ínsua enfrente. Si solo conoces un sábado de sol entre pinos, te llevas la imagen de folleto. Si has visto un julio con nortada y un martes vacío de noviembre, ya puedes decidir si de verdad quieres vivir aquí. Moledo es la orilla más escénica de la zona y también la más cara.",
+      "No promete mercado a pie ni tres habitaciones baratas junto al mar. Promete pinar, dunas e Ínsua a cambio de viento, precio alto y servicios mínimos. Quien acepte ese trato entenderá el sitio a la primera tarde de nortada."
+    ],
+    "tiempo": [
+      "Si vienes de Baleares, el cielo limpia y el viento corrige. Moledo suma unas 2.500 horas de sol y unos 78 a 80 días despejados —junto con el Litoral Norte, el mejor cielo de la tabla—, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.450 milímetros en unos 112 a 115 días. El viento es alto: la nortada de tarde de junio a agosto no es detalle fino; es el clima de la terraza.",
+      "El verano en la costa ronda 20,5 °C, con tres a seis días sobre 30 °C: fresco frente al calor balear. El agua anda entre 16 y 18 °C en agosto —la más fría de la tabla—. La orilla es abierta, con dunas y oleaje. Julio y agosto llueven poco; el invierno moja. Conviene venir un día de nortada y un noviembre entre pinos, no solo un sábado de sol."
+    ],
+    "vivir": [
+      "El invierno en Moledo es silencio entre pinos y humedad de duna: la terraza se usa menos; salitre y nortada residual piden calefacción y ventanas serias. Un martes vacío de noviembre entre chalés enseña más que un sábado de sol. La colonia elegante enfría por dentro si la casa no está preparada.",
+      "Sin coche, solo la playa está a dos minutos; para casi todo lo demás el vehículo es obligatorio —servicios 3/10, coche 7/10—. Caminha o Âncora cubren la compra diaria. En enero la calma entre chalés es real; no hay mercado a pie ni lonja de diario. Quien se quede a vivir aquí acepta la orilla como centro y el coche como llave del resto.",
+      "Quien vive aquí es veraneo tradicional de Porto, vecinos de temporada larga y quien busca Atlántico cuidado. El portugués manda; Galicia —Santa Trega— se ve al otro lado del Miño. En verano kite, surf y nortada de tarde marcan la orilla; la integración de año entero es más de colonia residencial que de villa con plaza. Quien busque solo agosto encontrará viento; quien busque vecinos en enero, también —en otra escala—.",
+      "El Hospital de Santa Luzia —Viana— queda a unos veinticinco minutos. Hay que contar con seguro privado portugués —Trofa Saúde, Braga, alrededor de sesenta minutos—. No hay sanidad a pie ni pública española de diario: se asume Portugal y el trayecto a Viana o Braga.",
+      "Porto–Sá Carneiro anda alrededor de los sesenta minutos —Palma en verano—. Ir y volver a Mallorca depende del verano vía Porto y de la logística de colonia sin comercio. El régimen fiscal especial para residentes extranjeros se cerró en 2024.",
+      "Predominan chalés entre pinos; no hay obra nueva y hay fibra. El modelo es casa de colonia, no piso de villa compacta. En primera línea hay que contar con nortada, salitre y precio —el más caro de la zona—. Tres habitaciones suelen quedar fuera de la orilla asequible; conviene retirarse del frente más ventoso y probar una tarde de julio con viento."
+    ],
+    "historia": [
+      "Los chalés entre pinos y el veraneo de Porto explican Moledo: colonia elegante de costa, no casco medieval. Aquí lo que conviene saber es de ocio burgués plantado sobre dunas, de casas que miran el Atlántico y de un oficio de playa —kite, surf— que llegó después y se quedó. El Forte da Ínsua —isla fortificada en la desembocadura— y Santa Trega enfrente marcan la foto típica de boca del Miño: Portugal y Galicia en el mismo horizonte.",
+      "No hay torre de villa ni lonja de diario. Hay pinar, dunas y una orilla que Porto eligió cuando buscaba verano con estilo. Quien camine la playa un martes de enero entenderá el silencio; quien la vea en agosto con nortada entenderá el precio del paisaje."
+    ],
+    "fuera": [
+      "La playa de Moledo —arenal largo, dunas, oleaje, nortada de tarde en verano— es la tarde de diario, a dos minutos. El pinar abriga los chalés; las dunas abrigan la mirada. El Forte da Ínsua queda enfrente, en la boca del río: fuerte del siglo XVII sobre islote, foto típica de desembocadura.",
+      "Caminha anda a pocos minutos: plaza, torre, refuerzo de villa. Âncora y Viana, a trayecto corto hacia el sur. Santa Trega —castro y mirador de A Guarda— se ve al otro lado del Miño cuando el cielo limpia.",
+      "No hay mercado a pie ni paseo de ciudad. Hay océano abierto y, si se quiere baño más abrigado, el espigón de Âncora a un trayecto corto. Quien viva aquí acepta la orilla como centro y el coche como llave del resto."
+    ],
+    "casa": [
+      "Predominan chalés entre pinos; no hay obra nueva y hay fibra. El modelo es casa de colonia, no piso de villa compacta. En primera línea hay que contar con nortada, salitre y precio —el más caro de la zona—. Conviene retirarse del frente más ventoso y probar una tarde de julio con viento.",
+      "El precio medio ronda 2.300 €/m². Tres habitaciones se sitúan alrededor de 269.000 euros —fuera de la orilla asequible habitual de la zona—. Dos habitaciones en la franja asequible rondan unos 194.000 euros. Quien necesite tres habitaciones baratas junto al mar deberá mirar otra opción.",
+      "Los servicios son 3/10. Santa Luzia —Viana— queda a unos veinticinco minutos. Porto–Sá Carneiro está a unos sesenta. Hay que contar con seguro privado portugués. Conviene comprobar Caminha o Âncora para la compra diaria y firmar solo tras nortada y noviembre."
+    ],
+    "encaja": {
+      "si": [
+        "Encaja si pinar, dunas y playa larga deben abrir el día, no reservarse al fin de semana. Moledo es el veraneo elegante de Porto entre pinos: orilla abierta, Forte da Ínsua delante, Santa Trega al otro lado del Miño. Un martes de noviembre la calma entre chalés es real; en verano kite y surf llenan la arena. Quien priorice Atlántico a dos minutos, ambiente cuidado y sol de costa —unas 2.500 horas— frente a villa con comercio completo encontrará aquí la foto típica más cara de la zona —alrededor de 2.300 €/m²—. El verano costero ronda 20,5 °C frente al calor sostenido de Mallorca; el agua, entre 16 y 18 °C, es la más fría de la tabla.",
+        "También encaja para quien acepte coche para casi todo y valore hospital a unos veinticinco minutos (Santa Luzia, Viana). Los servicios son 3/10: Caminha o Âncora cubren la compra diaria. Llueven alrededor de 1.450 milímetros en unos 112 días; el viento es alto —nortada de tarde de junio a agosto—. Hay que contar con seguro privado portugués: el privado de referencia en Braga anda alrededor de los sesenta minutos."
+      ],
+      "no": [
+        "No encaja si se necesitan tres habitaciones en la franja asequible habitual junto a la orilla: esa tipología se sitúa hacia los 269.000 euros y queda fuera de la orilla asequible de la zona. Dos habitaciones en franja asequible rondan unos 194.000. Tampoco si la tarde de terraza sin viento es condición de junio a agosto: la nortada marca Moledo.",
+        "Tampoco encaja si se buscan servicios a pie, obra nueva o el régimen fiscal especial para residentes extranjeros —cerrado en 2024—. Quien se decida solo tras un sábado de sol entre pinos, sin probar un julio con nortada ni un martes vacío de noviembre, se llevará una colonia distinta de la foto turística."
+      ],
+      "veredicto": "Veredicto: Moledo es pinar y playa elegante —dunas e Ínsua a cambio de viento, precio alto y servicios mínimos—. Buscaría dos habitaciones o chalé retirado de la primera línea más ventosa, tras probar nortada de tarde y un noviembre entre pinos. Se ganan Atlántico a dos minutos y el cielo más limpio de la zona; se aceptan ~2.300 €/m², servicios 3/10, mar a 16–18 °C, aeropuerto a unos sesenta minutos y seguro privado portugués. Si mandan villa con mercado y espigón abrigado, Âncora; si hay que contar con granito, monte y Viana a quince, Afife-Carreço; si la prioridad es la orilla más escénica y se acepta el viento, Moledo."
+    },
+    "fotoIdentidad": {
+      "src": "/fotos/alto-minho/moledo-identidad.jpg",
+      "pie": "Moledo: casas junto al paseo y la playa, con el monte detrás"
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/alto-minho/moledo-playa.jpg",
+        "pie": "Playa de Moledo: dunas y Atlántico"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/alto-minho/moledo-insua.jpg",
+        "pie": "Forte da Ínsua frente a Moledo"
+      }
+    ],
+    "fotosFuera": [],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

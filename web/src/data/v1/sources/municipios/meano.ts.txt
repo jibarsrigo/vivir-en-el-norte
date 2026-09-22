@@ -1,0 +1,65 @@
+{
+    escala: "Parroquias de viñedo con Dena como núcleo",
+    abrir: [
+      "Meaño se siente más valle que villa. Unas cinco mil personas repartidas entre Dena, Meaño, Xil, Padrenda, Simes, Cobas y otras parroquias: no hay un casco que lo concentre todo. Dena, junto a la carretera hacia Sanxenxo, reúne centro de salud, farmacia, supermercado y bares; las casas de piedra y los viñedos en emparrado —parras altas sostenidas por pilares— suben hacia el Monte Castrove, la sierra baja que separa las rías de Pontevedra y Arousa. El nombre O Salnés identifica el valle del río Salnés y la comarca vitícola que lo rodea: Albariño, pazos y humedad de invierno.",
+      "Quien vive aquí es gente local de finca y bodega, no una urbanización de foráneos plantada sobre el paisaje. Un martes de noviembre se vive entre poda, trayectos cortos y piedra húmeda. Desde Dena se resuelve lo básico a pie de carretera; desde una casa en Xil, Simes o Padrenda el coche abre la semana —compra, colegio, Cambados o Sanxenxo a unos diez minutos—. No hay paseo urbano que concentre la tarde, pero sí caminos bajo parras y el olor a tierra mojada. A Lanzada, el gran arenal atlántico, queda a unos diez minutos cuando apetece océano.",
+      "Para lo diario en Dena no hace falta gran trayecto; para el hospital, sí. El Hospital do Salnés y Quirónsalud Pontevedra quedan ambos a unos veinte minutos. Ese dato no se arregla eligiendo otra parroquia. La dependencia del coche es la más alta de la comarca: servicios 3/10, y fuera de Dena la plaza compacta no existe.",
+      "Julio altera el centro. San Cristovo de Dena se celebra alrededor del 10 de julio con procesión, música y verbenas; a mediados de mes, la Festa do Viño ocupa la Praza do Concello durante un fin de semana con bodegas y conciertos. En agosto las fiestas parroquiales de Simes y Cobas llevan orquestas hasta los atrios. Vivir junto a esos recintos significa tráfico local, música nocturna y coches en las cunetas durante unas fechas concretas —hay que contarlas como calendario, no como excepción imprevista—.",
+      "Agosto llena las carreteras hacia Sanxenxo y A Lanzada, aunque el interior conserva más calma que la costa. En invierno queda una comunidad agrícola dispersa y muy poco turismo: persianas, parras desnudas, el Castrove con niebla baja. Si solo conoces un sábado soleado entre viñas, te llevas la imagen de folleto del paisaje. Si has visto un noviembre con acceso estrecho y humedad en las paredes, ya puedes decidir si de verdad quieres vivir aquí.",
+    ],
+    tiempo: [
+      "Si vienes de Baleares, notará el cielo más gris y con menos sol que en Mallorca. Meaño suma unas 2.350 horas de sol y 70 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Recibe unos 1.400 milímetros en 118 días; entre octubre y marzo llueve de trece a quince días al mes. La media invernal ronda 10 °C, aunque el interior del valle puede registrar alguna helada que la costa evita. La diferencia con la isla se nota casi toda entre noviembre y febrero.",
+      "El verano ronda 19,5 °C, con máximas habituales de 25 o 26 °C y solo entre tres y ocho días por encima de 30 °C: mucho más fresco que Baleares. El viento suele ser bajo entre viñedos; la orientación de la casa y la sombra del Castrove importan más que unos pocos kilómetros de distancia. Conviene venir un noviembre húmedo, no solo un sábado de sol de agosto.",
+    ],
+    vivir: [
+      "El invierno en Meaño se siente en la piedra húmeda y en las parras desnudas. En Mallorca muchas casas casi no piensan en calefacción ni en moho; aquí caen unos 1.400 milímetros en 118 días y el interior del valle puede registrar alguna helada que la costa evita. Conviene revisar cubierta, saneamiento, humedad y horas reales de sol —el Castrove puede dar sombra—. Visitar un noviembre con acceso estrecho enseña más que un sábado soleado entre viñas.",
+      "El día a día sin coche solo cuadra en Dena: centro de salud, farmacia, supermercado y bares. Desde Xil, Simes o Padrenda el coche abre la semana. En enero queda una comunidad agrícola dispersa, persianas y poco turismo. No hay paseo urbano que concentre la tarde.",
+      "Llegar de fuera es menos masivo: gente local de finca y bodega. Se oye gallego en las parroquias; el castellano basta para lo cotidiano. Entre semana manda la poda y los trayectos; en julio la Festa do Viño llena la Praza do Concello. Quien busque integración de villa caminable preferirá Cambados.",
+      "La sanidad de urgencia y especialidades no está en el municipio: Hospital do Salnés y Quirónsalud Pontevedra quedan ambos a unos veinte minutos. Empadronarse abre lo local vía Dena; para hospital se conduce. Ese dato no se arregla eligiendo otra parroquia.",
+      "Mantener el vínculo con Mallorca pasa por el avión. Vigo-Peinador está a unos treinta minutos; Santiago, con enlace a Palma durante casi todo el año, a unos cincuenta y cinco. En invierno conviene mirar el calendario real de vuelos.",
+      "Dena ofrece pisos junto a servicios; las parroquias, casas de piedra, chalés y fincas entre viñedo. No hay obra nueva apreciable; fibra parcial por dirección. La franja media debe reservar margen para rehabilitación —humedad, calefacción, acceso—, no solo para la compra.",
+    ],
+    historia: [
+      "La historia visible de Meaño está escrita en parroquias, pazos y vino. Los templos románicos de San Xoán de Meaño y Santa Eulalia de Xil recuerdan una ocupación medieval dispersa, mientras pazos como Lis y Zárate hablan de casas señoriales ligadas a la tierra. Pazo es la casa solariega gallega, normalmente de piedra y rodeada de finca: no es museo decorativo, es memoria de quien trabajó el valle.",
+      "El Albariño transformó esa agricultura en una economía especializada. Las cepas crecen en emparrado para separarlas de la humedad del suelo. Meaño forma parte de la subzona Val do Salnés de la denominación Rías Baixas; las bodegas familiares y la Festa do Viño permiten leer el paisaje como trabajo actual, no como foto de turismo. Quien camine entre Xil y Padrenda entiende antes el oficio que cualquier folleto.",
+    ],
+    fuera: [
+      "Meaño toca la ensenada de Dena, pero para un baño de arena se sale del municipio. A Lanzada queda a unos diez minutos: 2,5 kilómetros de dunas y Atlántico, agua entre 17 y 20 °C y oleaje frecuente —océano de verdad, no ría calmada—. Areas, ya hacia Sanxenxo, ofrece una playa de ría más abrigada. Un martes de junio puedes tener espacio; un domingo de agosto el aparcamiento y la carretera cambian el ritmo.",
+      "Los caminos propios recorren viñedos y laderas hacia el Monte Castrove. Desde los altos se abren las rías de Pontevedra y Arousa; abajo, la Ruta da Pedra e da Auga sigue molinos junto al río Armenteira a poca distancia. La ruta del Umia —senda fluvial hacia Cambados— añade agua dulce y juncales. Es territorio de paseo rural, no de gran montaña ni de paseo marítimo.",
+      "Los vecinos marcan el mapa. Cambados, capital del Albariño y villa de piedra, queda a unos diez minutos cuando apetece mercado y mesa; Sanxenxo, a trayecto corto hacia la costa de veraneo. El Castrove cierra el horizonte por detrás: sierra baja, no cordillera, pero suficiente para orientar la casa y el sol de invierno. Quien viva aquí reparte la semana entre finca, Dena y esas salidas —no entre plaza y lonja del mismo pueblo—.",
+    ],
+    casa: [
+      "Dena ofrece pisos y viviendas junto a servicios; las parroquias, casas de piedra, chalés y fincas entre viñedo. No hay obra nueva apreciable. La fibra es parcial y debe comprobarse en la dirección concreta. En una casa antigua hay que contar con cubierta, saneamiento, acceso por camino estrecho, humedad y horas reales de sol en invierno —el anuncio no cuenta eso; un noviembre sí—.",
+      "El precio medio ronda 1.350 €/m². Un piso de tres habitaciones en la franja asequible se sitúa alrededor de 158.000 euros; una casa de piedra con viñedo puede moverse aproximadamente entre 150.000 y 230.000 según reforma, finca y acceso. La franja media debe reservar margen para rehabilitación, no solo para la compra.",
+      "Los servicios son 3/10: Dena cubre lo básico y el resto depende del coche. El Hospital do Salnés y Quirónsalud Pontevedra quedan ambos a unos veinte minutos. Vigo-Peinador está a unos treinta; Santiago, con enlace a Palma durante casi todo el año, a unos cincuenta y cinco. Eso es Meaño: mucho viñedo y mucha piedra, y la semana abierta por la carretera.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si la casa de piedra, el viñedo y el silencio de parroquia importan más que bajar andando a una plaza compacta. Xil, Simes, Padrenda o Cobas permiten vivir entre emparrados de Albariño —parras altas sobre pilares— con el Monte Castrove detrás y A Lanzada, el gran arenal atlántico, a unos diez minutos. Un martes de noviembre se resuelve lo básico en Dena —farmacia, súper, centro de salud— y el resto del tiempo libre se reparte entre bodegas, caminos bajo parras, la Ruta da Pedra e da Auga junto al río Armenteira y un baño de ría o de océano sin organizar una expedición. El verano ronda máximas de 25–26 °C y solo suma entre tres y ocho días por encima de 30 °C: mucho más fresco que Mallorca, con lluvia honesta de unos 1.400 milímetros en 118 días.",
+        "También encaja para quien acepte coche casi cada día a cambio de terreno y precio amable. Tres habitaciones en franja asequible rondan 158.000 euros; una casa de piedra con viñedo puede moverse entre 150.000 y 230.000 según reforma y finca. Hospital do Salnés y Quirónsalud Pontevedra quedan ambos a unos veinte minutos; Vigo-Peinador, a unos treinta; Santiago, con enlace a Palma casi todo el año, a unos cincuenta y cinco. Cambados y Sanxenxo están a unos diez minutos cuando apetece villa, mesa o más servicios. Quien busque ritmo de valle vitícola con costa cerca —no villa caminable ni playa en la puerta— entenderá Meaño al primer noviembre húmedo.",
+      ],
+      no: [
+        "No encaja si la semana debe hacerse andando. Fuera de Dena no hay un centro que reúna mercado, mesas y paseo: los servicios son 3/10 y la dependencia del coche es la más alta de la comarca. La fibra es parcial y debe comprobarse dirección por dirección; una casa en ladera mal orientada pierde sol pronto y retiene humedad. Cambados ofrece villa caminable de piedra; Vilanova, ría y precio parecido con baño más cerca.",
+        "Tampoco si la playa debe empezar al salir de casa o si se necesita ciudad inmediata. Meaño toca la ensenada de Dena, pero el baño de arena útil está fuera —A Lanzada u Areas—. Pontevedra o Vilagarcía exigen desplazamiento. Julio y agosto llenan las carreteras hacia Sanxenxo; San Cristovo de Dena y la Festa do Viño llevan música y coches a las cunetas. Quien se decida solo tras un sábado soleado entre viñas, sin probar acceso estrecho, humedad de noviembre ni un día de tráfico hacia la costa, se llevará una sorpresa.",
+      ],
+      veredicto:
+        "Veredicto: Meaño es la opción rural de O Salnés —casa orientada al sur en Xil, Simes o Padrenda tras comprobar fibra, humedad y acceso en noviembre; Dena si los recados hay que contar con más—. Encaja si viñedo, piedra y A Lanzada a diez minutos importan más que villa a pie. Se ganan ~1.350 €/m², verano fresco frente a Mallorca y hospital a veinte; se aceptan coche diario, servicios 3/10 y 118 días de lluvia. Si mandan mercado y Fefiñáns caminables, Cambados; si ría asequible con baño cerca, Vilanova; si isla y calas a pie, A Illa.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/o-salnes/meano-identidad.jpg",
+      pie: "Meaño: casas de parroquia y monte Castrove detrás",
+    },
+    fotosAbrir: [
+      { src: "/fotos/o-salnes/meano-emparrado.jpg", pie: "Meaño: viñedos en emparrado entre parroquias" },
+      { src: "/fotos/o-salnes/meano-dena.jpg", pie: "Dena, el núcleo práctico del municipio" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/o-salnes/meano-iglesia-san-xoan.jpg", pie: "San Xoán de Meaño, piedra medieval en el valle" },
+      { src: "/fotos/o-salnes/meano-parroquia.jpg", pie: "Santa Eulalia de Xil, parroquia entre viñas" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/o-salnes/meano-castrove.jpg", pie: "El Monte Castrove detrás de los viñedos" },
+      { src: "/fotos/o-salnes/meano-pazo.jpg", pie: "Pazo do Monte en Padrenda, piedra señorial entre parcelas" },
+    ],
+    creditoFotos: credito,
+  }

@@ -1,0 +1,60 @@
+{
+    escala: "Villa completa de ría",
+    abrir: [
+      "Boiro se siente como la villa pequeña que resuelve la semana sin renunciar al paisaje. Unos diecinueve mil habitantes en la orilla norte de la ría de Arousa, con la Serra do Barbanza —la sierra de granito de la comarca— levantada a la espalda. El casco concentra comercio, mercado, centro de salud y paseo; a tres minutos quedan Barraña —la playa mayor—, Carragueiros y Mañóns. No es capital portuaria ni soledad atlántica: es el equilibrio del Barbanza, con agua calmada delante y monte a un trayecto corto.",
+      "Quien vive aquí es gente local de pesca, conserva y servicios, y veraneantes de Santiago y Ourense que llenan agosto sin convertir la villa en ciudad turística. Un martes de noviembre se compra, se va al médico de cabecera y se camina al paseo sin depender de Ribeira para lo diario. El coche aparece para el Hospital do Barbanza, a unos veinte minutos, y para Santiago, a unos cuarenta y cinco. Abanqueiro, Cespón y otras parroquias cambian la escala: más finca, más trayecto, misma ría cerca.",
+      "Fuera de agosto Boiro vuelve a ser villa de trabajo: mesas abiertas, mercado, comercio que no cierra la temporada. Primavera y otoño son buenas épocas para conocerlo: en mayo Barraña se usa casi en soledad; en noviembre se nota de verdad la lluvia y la humedad de la piedra. Si solo conoces un sábado de sol en la playa grande, te llevas la sensación de equilibrio. Si has visto un frente de invierno, ya puedes decidir si quieres esa casa hacia la sierra.",
+      "En verano las fiestas patronales y las verbenas de julio y agosto llenan el centro y el entorno de Barraña con música, puestos y tráfico hacia las playas. El aparcamiento se queda corto; las cunetas se llenan de coches; las terrazas no callan hasta tarde. Vivir junto al paseo o a la playa grande significa contar con semanas de ruido nocturno; tierra adentro, hacia la sierra, el volumen baja a cambio del volante para la compra y el baño.",
+    ],
+    tiempo: [
+      "Si vienes de Baleares, notará el cielo más gris y con menos sol que en Mallorca, no tanto un cambio de temperatura en verano. Boiro registra unas 2.225 horas de sol y 65 días despejados —unas 575 horas y 55 jornadas claras menos que Mallorca—. Recibe alrededor de 1.350 milímetros en unos 121 días. De octubre a marzo llueve de trece a dieciséis días al mes; el invierno pide cubierta bien resuelta y piedra ventilada. La sierra detrás puede dar sombra de tarde y un aire más fresco que la orilla.",
+      "El verano ronda 19,5 °C, con máximas de 24 o 25 °C y pocos episodios sobre 30 °C: fresco frente a Mallorca, con noches que permiten dormir. Barraña y Carragueiros tienen agua de ría entre 18 y 20 °C, calmada y más fresca que Baleares —se entra, se nada un rato, se sale despabilado—. Conviene probar un noviembre lluvioso y un martes de junio en Barraña, no solo un sábado de agosto con la cuneta llena.",
+    ],
+    vivir: [
+      "El invierno en Boiro se siente en la piedra ventilada y en la lluvia de octubre a marzo. En Mallorca muchas casas casi no piensan en calefacción ni en moho; aquí caen alrededor de 1.350 milímetros y la sierra detrás puede dar sombra de tarde. Conviene revisar cubierta y orientación respecto a la Serra do Barbanza. Visitar un frente de invierno enseña más que un sábado de sol en Barraña.",
+      "El día a día sin coche funciona en el casco: comercio, mercado, centro de salud y paseo. En Abanqueiro o Cespón el coche une finca y villa. En enero hay mesas abiertas y mercado. Es la villa pequeña más completa del Barbanza en lo básico, sin pretender capital portuaria.",
+      "Llegar de fuera mezcla pesca, conserva y veraneo de Santiago y Ourense. Se oye gallego en el mercado; el castellano basta para lo cotidiano. Entre semana manda la vida cotidiana de villa; en julio y agosto las verbenas llenan el entorno de Barraña. Quien busque solo silencio junto a la playa grande debe medir esas semanas.",
+      "La sanidad de urgencia y especialidades no está en el municipio: el Hospital do Barbanza queda a unos veinte minutos. Empadronarse abre el médico de cabecera local; para hospital se conduce a Ribeira. No es sanidad a cinco minutos, pero está dentro de un trayecto razonable.",
+      "Mantener el vínculo con Mallorca pasa por el avión. El aeropuerto de Santiago está a unos cuarenta y cinco minutos, con la conexión más estable a Palma de las Rías Baixas junto al Salnés de enfrente. En invierno conviene mirar el calendario real de vuelos.",
+      "En el casco: pisos cerca de mercado y paseo; en Abanqueiro y Cespón: casas con terreno. Fibra y poca obra nueva. Conviene mirar salitre en la costa, humedad en la parroquia y ruido de verbenas en agosto. Imaginar escaleras y distancias de finca dentro de diez años.",
+    ],
+    historia: [
+      "Los castros de Neixón —poblados fortificados de la Edad del Hierro sobre la península que mira a la ría— son el hilo antiguo de Boiro. El centro arqueológico explica casas circulares, defensa y vida frente al agua mucho antes de la villa moderna. Neixón no es un adorno de folleto: es la prueba de que esta orilla se habitó por el mar, no por la urbanización.",
+      "La villa creció con pesca, marisqueo y, más tarde, conserva y comercio local. El paseo y el tejido urbano actual hablan de un municipio que no se vacía en invierno: hay mercado, mesas y gente en la calle un martes de febrero. La sierra aporta el otro relato: pistas, mámoas —túmulos funerarios prehistóricos— y el camino hacia A Curota, el mirador comarcal desde el que se entienden varias rías a la vez.",
+    ],
+    fuera: [
+      "Si solo hay tiempo para un baño cerca, ese baño es Barraña: el arenal grande de ría, espacio para tender la toalla, agua entre 18 y 20 °C y poca ola. Carragueiros y Mañóns ofrecen tramos más recogidos a pocos minutos. Son playas de diario, no de océano abierto. Un martes de junio la arena cabe casi sola; un domingo de agosto el veraneo de Santiago y Ourense se nota en el aparcamiento y en las toallas. Se entra al agua fresca, se nada, se sale con la piel despierta.",
+      "Más allá de Barraña, la misma orilla de Arousa ofrece variantes sin cambiar de registro. Quien quiera dunas y Atlántico conduce hacia Corrubedo, en Ribeira, a un trayecto corto: otro carácter, más viento y más ola. Quien quiera pinar y ría templada puede mirar Cabío, en A Pobra. La costa de Boiro sigue siendo de marea calmada; el océano bravo queda al otro lado de la península.",
+      "Los caminos son la otra mitad del agua. Neixón combina visita arqueológica y paseo con vistas a la ría. Hacia arriba, las pistas de la Serra do Barbanza llevan a A Curota en un trayecto corto: monte real a diez minutos de casa. Quien quiera ciudad conduce a Santiago, a unos cuarenta y cinco minutos; quien quiera hospital y cine, a Ribeira, a unos veinte.",
+    ],
+    casa: [
+      "El modelo de casa aquí cubre dos escalas. En el casco: pisos y viviendas cerca de mercado, paseo y servicios. En Abanqueiro y Cespón: casas con terreno y vistas a la ría, más silencio y más coche. Hay fibra y poca obra nueva. Lo que se compra ya existe; conviene mirar orientación respecto a la sierra y salitre en la costa.",
+      "En la orilla se revisan ocupación de agosto y ruido de verbenas; en la parroquia, acceso, humedad y distancia real a Barraña un domingo de verano. El precio medio ronda 1.350 €/m². Tres habitaciones en la franja asequible se sitúan alrededor de 158.000 euros. Una casa con terreno en Abanqueiro o Cespón puede moverse aproximadamente entre 150.000 y 220.000 según reforma, parcela y vistas.",
+      "Los servicios alcanzan 6/10: la villa pequeña más completa de la comarca en lo básico. El Hospital do Barbanza queda a unos veinte minutos. El aeropuerto de Santiago está a unos cuarenta y cinco, con la conexión más estable a Palma de las Rías Baixas junto al Salnés de enfrente. Eso es Boiro: ría templada, monte cerca y la ciudad grande siempre a un trayecto.",
+    ],
+    encaja: {
+      si: [
+        "El equilibrio del Barbanza —ría de Arousa delante, Serra do Barbanza detrás, villa completa en el medio— importa más que tener el hospital a cinco minutos. La playa de diario es Barraña: el arenal grande de agua calmada entre 18 y 20 °C; Carragueiros y Mañóns ofrecen tramos más recogidos a pocos minutos. Quien quiera mercado, centro de salud, paseo y mesas abiertas un martes de noviembre, bajar a la orilla sin expedición y subir a Neixón —los castros de la Edad del Hierro sobre la península— o hacia A Curota por las pistas de la sierra encontrará aquí la villa pequeña más completa de la comarca. Los servicios llegan a 6/10; el Hospital do Barbanza, en Ribeira, a unos veinte minutos; el aeropuerto de Santiago-Lavacolla, con Palma casi todo el año, a unos cuarenta y cinco. Tres habitaciones en franja asequible rondan 158.000 euros.",
+        "Funciona especialmente bien para quien quiera casa con terreno hacia Abanqueiro o Cespón sin renunciar al casco: se gana finca y silencio, se acepta el coche para la compra y el baño. El verano ronda 19,5 °C —fresco frente a Mallorca— y el veraneo de Santiago y Ourense anima Barraña sin convertir Boiro en ciudad turística.",
+      ],
+      no: [
+        "El Hospital do Barbanza está a unos veinte minutos; el privado HM Rosaleda, en Santiago, hacia los cincuenta y cinco. Si se necesita hospital a pie o la densidad de cine, lonja y comercio de Ribeira (servicios 7/10), esta villa no lo resuelve: cubre lo básico; la capital comarcal sigue siendo Ribeira a un trayecto corto.",
+        "Tampoco encaja si agosto debe ser silencioso junto a la playa grande o al paseo. Las fiestas patronales y las verbenas llenan el centro y el entorno de Barraña con música, puestos y coches en las cunetas. Las parroquias altas hacia la sierra bajan el volumen a cambio de depender del volante. Quien se decida solo tras un martes de febrero, sin probar un sábado de agosto en Barraña, descubrirá otra escala.",
+      ],
+      veredicto:
+        "Veredicto de quien conoce la comarca: Boiro encaja como la opción equilibrada del Barbanza —tres habitaciones caminables a mercado y paseo, fuera del tramo más ruidoso de las verbenas, o casa en Abanqueiro o Cespón tras revisar acceso, humedad y distancia real a Barraña— sobre todo si ría templada, monte a diez minutos y hospital a unos veinte importan más que la capital portuaria. Se ganan Neixón, sierra y Lavacolla a unos cuarenta y cinco; se acepta conducir al comarcal y a Santiago. Comprobar agosto en la orilla y un frente de noviembre antes de comprar.",
+    },
+    fotosAbrir: [
+      { src: "/fotos/barbanza-e-noia/boiro-villa.jpg", pie: "Boiro: villa completa frente a la ría" },
+      { src: "/fotos/barbanza-e-noia/boiro-barraña.jpg", pie: "Barraña, el arenal grande de Boiro" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/barbanza-e-noia/boiro-neixon.jpg", pie: "Castros de Neixón sobre la península" },
+      { src: "/fotos/barbanza-e-noia/boiro-paseo.jpg", pie: "Paseo marítimo de Boiro" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/barbanza-e-noia/boiro-carragueiros.jpg", pie: "Carragueiros, playa recogida de ría" },
+      { src: "/fotos/barbanza-e-noia/boiro-sierra.jpg", pie: "La Serra do Barbanza detrás de Boiro" },
+    ],
+    creditoFotos: credito,
+  }

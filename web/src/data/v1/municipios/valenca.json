@@ -1,0 +1,86 @@
+{
+  "tipo": "municipio",
+  "slug": "valenca",
+  "nombre": "Valença",
+  "n": 73,
+  "zonaId": "alto-minho",
+  "zonaNombre": "Alto Minho (PT)",
+  "provincia": "Viana do Castelo",
+  "pais": "Portugal",
+  "sourcePath": "web/src/lib/relatos-alto-minho.ts",
+  "sourceKey": "valenca",
+  "sourceExport": "RELATOS_ALTO_MINHO",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "d7e59e1cd4bdafb0fbe2e4f4e83fe173d921224ac999a3726e3b25d918772cd8",
+  "relato": {
+    "escala": "Fortaleza frente a Tui",
+    "abrir": [
+      "Valença se siente, al cruzar el puente desde Tui, como una villa que ha aprendido a vivir en dos países a la vez. Unos catorce mil habitantes: fortaleza abaluartada del siglo XVII con dos recintos, fosos y puertas, y dentro un pueblo entero de comercio —textil, manteles, restaurantes, cafés— al que los gallegos llegan los fines de semana como quien va al mercado. Tui queda a cinco minutos; el tren Celta une Vigo y Porto; la Ecopista do Minho —antigua vía de tren hacia Monção, quince kilómetros llanos entre viñedo de Alvarinho y el río— sale casi desde la orilla. No es orilla atlántica: es interior de franja B. Moledo, la playa larga de dunas y pinar, anda alrededor de los veinticinco minutos.",
+      "Quien vive aquí es gente local, comerciantes de la fortaleza, vecinos que cruzan a Galicia por pan o por papeleo, y quien busca precio de valle con un pie en cada país. No es colonia de veraneo plantada sobre el paisaje. Un martes de noviembre se camina por los baluartes, se compra dentro de los muros y se resuelve el día a día en escala de villa: servicios 6/10, comunicaciones 8/10. Para lo diario —farmacia, súper, café— no hace falta coche si se elige bien el piso. Para el hospital Conde de Bertiandos, en Ponte de Lima, sí: unos cuarenta minutos. Álvaro Cunqueiro, en Vigo, queda a unos treinta y cinco, pero como no residente en España solo sirve para urgencias con la tarjeta europea o pagando.",
+      "El verano del valle cambia el ritmo. Media alrededor de 21 °C y unos veinte días por encima de 30 °C: el calor que en Caminha o Âncora casi no aparece. En invierno, niebla media de río que levanta a media mañana. Hay poca obra nueva; fibra sí. El tráfico es de villa casi todo el año; los fines de semana fronterizos llenan el aparcamiento de la fortaleza y las mesas. Quien busque silencio absoluto de enero lo encontrará en las calles laterales; quien busque el café abierto también. Las dos cosas conviven aquí.",
+      "El calendario marca agosto con fiestas locales —ruido, afluencia, mesas ocupadas dentro de los muros— y la llegada constante de quien cruza desde Tui. Primavera y otoño son buenas épocas para conocerlo: la Ecopista entre viña, el Miño ancho, Galicia enfrente sin aduana. Si solo conoces un sábado de sol en la fortaleza, te llevas la imagen de folleto. Si has visto un julio de valle y un martes gris de noviembre, ya puedes decidir si de verdad quieres vivir aquí.",
+      "Valença no promete playa a la puerta. Promete frontera vivida, tren, muro y precio bajo a cambio de calor estival y Atlántico a veinticinco minutos. Quien acepte ese trato entenderá el sitio al primer puente."
+    ],
+    "tiempo": [
+      "Si vienes de Baleares, notará el cielo más gris y con menos sol que en Mallorca, más que un cambio de frío. Valença suma unas 2.400 a 2.450 horas de sol y unos 78 a 80 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. La diferencia se nota casi toda entre noviembre y febrero: mañanas de valle, terraza que se usa la mitad. Caen alrededor de 1.600 a 1.700 milímetros en unos 118 a 120 días. Cuando llueve, llueve de verdad. El viento es bajo junto al río; la niebla, media.",
+      "El verano ronda 21 °C de media, con unos veinte días sobre 30 °C —calor de valle, no de costa minhota—. Julio y agosto mojan poco: dos o tres días de lluvia al mes, casi tan secos como en Mallorca, pero el termómetro aprieta de otro modo. La playa atlántica queda a unos veinticinco minutos (Moledo); el agua allí anda entre 16 y 18 °C en agosto. Conviene venir un julio caluroso y un noviembre de niebla, no solo un sábado soleado dentro de los muros."
+    ],
+    "vivir": [
+      "El invierno en Valença se nota en la niebla media de río que levanta a media mañana y en la humedad de valle. De noviembre a febrero la terraza se usa la mitad; conviene aislamiento, calefacción y orientación al sol, no solo el piso dentro de los muros. Visitar un martes gris de noviembre y un julio de valle evita firmar solo por la foto de fortaleza.",
+      "Sin coche, lo diario —farmacia, súper, café— se resuelve si se elige bien el piso: servicios 6/10, comunicaciones 8/10. Tui queda a cinco minutos por el puente. Para el hospital y la gran superficie hace falta vehículo. En enero la villa sigue abierta —comercio intramuros, café—; los fines de semana fronterizos llenan aparcamiento y mesas.",
+      "Se vive en dos países a la vez: gente local, comerciantes de la fortaleza, vecinos que cruzan a Galicia por pan o papeleo. El portugués manda en ayuntamiento y comercio; el castellano y el gallego se oyen a menudo —los gallegos llegan los fines de semana como quien va al mercado—. Entre semana manda la villa; en agosto, fiestas y afluencia dentro de los muros. La integración pasa por frontera permeable y ritmo de eurociudad, no por colonia de veraneo.",
+      "La sanidad pide matiz portugués. El hospital Conde de Bertiandos, en Ponte de Lima, queda a unos cuarenta minutos; Álvaro Cunqueiro, en Vigo, a unos treinta y cinco, pero como no residente en España solo sirve para urgencias con la tarjeta europea o pagando. Hay que contar con seguro privado portugués —Trofa Saúde, en Braga, alrededor de cincuenta minutos—. La sanidad pública portuguesa es más lenta: no es la tarjeta española de diario.",
+      "El aeropuerto de Vigo está a unos treinta y cinco minutos —Palma en verano—; el tren Celta une Vigo y Porto. Ir y volver a Mallorca suele depender más del verano vía Vigo; el resto del año pide mirar conexiones y Porto. El régimen fiscal especial para residentes extranjeros se cerró en 2024: no hay que contar con él.",
+      "Dentro de la fortaleza y en el ensanche hay pisos y viviendas de villa; hay poca obra nueva y fibra. El modelo no es urbanización cerrada: es piso con acceso al puente o casa de villa con el muro cerca. En verano hay que contar con calor de valle y ocupación de fin de semana fronterizo. Comprobar aparcamiento un sábado dentro de los muros antes de comprar."
+    ],
+    "historia": [
+      "La fortaleza explica Valença mejor que cualquier folleto. Plaza fuerte abaluartada de los siglos XVII y XVIII —dos recintos, adarves, fosos— levantada frente a Tui cuando el Miño era línea de guerra. Hoy se recorre por lo alto de las murallas con Galicia debajo y el comercio intramuros como oficio vivo: toallas, sábanas, manteles, mesas. El puente internacional de hierro de 1886 —escuela de Eiffel, el mismo gesto que une Tui y Valença— convirtió la frontera en eurociudad cotidiana: se cruza a pie, en bici o en coche sin sentir aduana.",
+      "El tren Celta a Vigo y Porto y la Ecopista do Minho hacia Monção completan la ficha fluvial: antigua vía convertida en camino llano entre Alvarinho y río. Lo que conviene saber no es lista de fechas; es fortaleza, comercio y frontera permeable. Quien camine los baluartes un martes de enero entenderá por qué los gallegos siguen viniendo: no es museo, es villa dentro del muro."
+    ],
+    "fuera": [
+      "Los baluartes y el comercio intramuros son la tarde de diario: se sube al adarve, se mira Tui —la ciudad episcopal gallega al otro lado del Miño—, se baja a un café dentro de las puertas. Tui queda a cinco minutos por el puente; el paseo fluvial gallego y la catedral quedan al otro lado como refuerzo de calle y mesa.",
+      "La Ecopista do Minho —quince kilómetros llanos Valença–Monção, antigua vía de tren entre viñedo y río— es el paseo propio cuando no se quiere coche. Al final, en Monção, hay termas municipales a unos veinticinco minutos. Moledo y Caminha andan alrededor de veinte o veinticinco minutos cuando apetezca Atlántico: dunas, pinar, desembocadura.",
+      "Vigo queda a unos treinta y cinco minutos: ciudad grande, aeropuerto, lo que la villa no resuelve. Quien viva aquí acepta el río como paisaje de diario y el mar como escapada corta. No es fallo de Valença: es la honestidad del interior minhoto."
+    ],
+    "casa": [
+      "Dentro de la fortaleza y en el ensanche hay pisos y viviendas de villa; hay poca obra nueva y fibra. El modelo no es urbanización cerrada: es piso con acceso claro al puente o casa de villa con el muro cerca. En verano hay que contar con calor de valle y ocupación de fin de semana fronterizo; conviene comprobar aparcamiento un sábado dentro de los muros.",
+      "El precio medio ronda 1.300 €/m² —el más asequible de la zona—. Tres habitaciones se sitúan alrededor de 123.000 euros. Quien mire obra reciente encontrará algo; quien mire solo primera línea de río deberá aceptar humedad y niebla de mañana.",
+      "Los servicios son 6/10: comercio de fortaleza y Tui a cinco cubren mucho; hospital y gran superficie, no. Ponte de Lima queda a unos cuarenta minutos; Vigo —solo urgencias si no se reside en España—, a unos treinta y cinco. El aeropuerto de Vigo está a unos treinta y cinco —Palma en verano—. Hay que contar con seguro privado portugués. Conviene probar un julio de valle y un martes de noviembre antes de comprar."
+    ],
+    "encaja": {
+      "si": [
+        "Encaja si la frontera vivida importa más que la orilla atlántica a la puerta. Valença es fortaleza abaluartada frente a Tui: se camina por los baluartes, se compra dentro de los muros y se cruza el puente en unos cinco minutos hacia la catedral gallega. Un martes de noviembre la villa sigue abierta —comercio, café, Ecopista do Minho hacia Monção—, y el tren Celta une Vigo y Porto sin convertir el día en expedición. Quien quiera un pie en cada país, río Miño como paisaje de diario y precio de interior —alrededor de 1.300 €/m², el más asequible de la zona— encontrará aquí una escala de villa, no de aldea aislada. Los servicios alcanzan 6/10; las comunicaciones, 8/10.",
+        "También encaja para quien acepte vivir el año entero junto al río y reservar el mar para la tarde: Moledo queda a unos veinticinco minutos. Frente a Mallorca se pierden cielo limpio —unas 2.400 horas de sol frente a 2.800— y se reciben alrededor de 1.600 milímetros en unos 120 días; a cambio, el invierno es templado por el valle y la vida no depende de agosto. Hay que contar con seguro privado portugués: la sanidad pública portuguesa es más lenta, y el hospital de referencia queda a unos treinta y cinco minutos."
+      ],
+      "no": [
+        "No encaja si se busca el verano suave de la costa minhota. En el valle las máximas estivales aprietan: media alrededor de 21 °C y unos veinte días al año por encima de 30 °C —el calor que en A Guarda o Caminha casi no aparece—. Tampoco si la playa debe quedar a pie: aquí no hay orilla atlántica en el municipio. Quien se decida solo tras un fin de semana soleado sin probar un julio de valle se llevará una sorpresa distinta de la foto de fortaleza.",
+        "Tampoco encaja si se necesita hospital español de uso habitual. Álvaro Cunqueiro, en Vigo, queda a unos treinta y cinco minutos, pero como no residente en España solo sirve para urgencias con la tarjeta europea o pagando. El privado de referencia —Trofa Saúde, en Braga— anda alrededor de los cincuenta minutos. El régimen fiscal especial para residentes extranjeros se cerró en 2024: no hay que contar con él."
+      ],
+      "veredicto": "Veredicto: Valença es la apuesta frontera-río del Alto Minho —fortaleza, Tui a cinco y precio bajo a cambio de calor de valle y mar a veinticinco minutos—. Buscaría tres habitaciones en villa o ensanche con acceso claro al puente, tras probar un julio caluroso y un martes de noviembre dentro de los muros. Se ganan ~1.300 €/m², tren Celta, Ecopista y Galicia enfrente; se aceptan unos veinte días de calor fuerte, playa fuera del municipio, hospital a unos treinta y cinco minutos y seguro privado portugués. Si mandan baño atlántico y verano fresco, miraría Caminha o Âncora; si hay que contar con dos países y presupuesto de interior, Valença justifica el trayecto al mar."
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/alto-minho/valenca-fortaleza.jpg",
+        "pie": "Fortaleza de Valença frente a Tui"
+      },
+      {
+        "src": "/fotos/alto-minho/valenca-comercio.jpg",
+        "pie": "Comercio dentro de la fortaleza de Valença"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/alto-minho/valenca-puente.jpg",
+        "pie": "Puente entre Valença y Tui"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/alto-minho/valenca-rio.jpg",
+        "pie": "Miño a la altura de Valença"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

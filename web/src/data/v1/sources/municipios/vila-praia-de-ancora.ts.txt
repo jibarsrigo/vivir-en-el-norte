@@ -1,0 +1,56 @@
+{
+    escala: "Villa marinera abrigada",
+    abrir: [
+      "Vila Praia de Âncora se siente más villa de verdad que foto de verano. Unos cinco mil habitantes: puerto pesquero, fortaleza de Lagarteira —baluarte del siglo XVII junto a la orilla—, playa con tramo abrigado por el espigón —la mejor para bañarse con calma de la zona—, Gelfa —pinar y dunas hacia el sur—, mercado, tren —Viana en unos veinte minutos, Porto en hora y media— y Serra d'Arga por el valle del Âncora. Aquí el mar no es solo horizonte: es lonja, paseo y baño usable.",
+      "Quien vive aquí es gente local, familias y veraneantes de Porto y Braga que vuelven en agosto. Un martes de noviembre se resuelve el día a día en villa: servicios 6/10, fibra, mesas y mercado sin depender de la temporada. El Hospital de Santa Luzia —Viana— queda a unos veinte minutos. El aeropuerto de Porto anda alrededor de los sesenta —Palma en verano—. Para farmacia, súper y café no hace falta coche si se elige el casco; para el hospital, sí.",
+      "En verano Porto y Braga llenan la orilla: ruido, tráfico, afluencia unas semanas. El viento es medio —menos duro que en Moledo—. Hay poca obra nueva; fibra sí. El vida de villa se mantiene todo el año; agosto lo desborda, no lo inventa. Quien busque silencio absoluto de agosto junto al espigón se llevará una sorpresa; quien busque café de enero, no.",
+      "El calendario marca el veraneo de interior portugués y el Camino de costa. Primavera y otoño son buenas épocas para conocerlo: Gelfa sin saturación, Arga por el valle, tren a Viana. Si solo conoces un día de espigón en calma, te llevas la imagen de folleto de la playa. Si has visto agosto y un martes gris, ya puedes decidir si de verdad quieres vivir aquí.",
+      "Âncora no promete ciudad 9/10 ni aldea de silencio total. Promete villa marinera con playa abrigada, mercado y tren a cambio de afluencia de agosto y mar frío. Quien acepte ese trato entenderá el sitio al primer paseo de puerto.",
+    ],
+    tiempo: [
+      "Si vienes de Baleares, el cielo de Âncora limpia casi como el mejor de la tabla. Suma unas 2.500 horas de sol y unos 78 a 80 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.450 milímetros en unos 112 a 115 días. El viento es medio: la nortada se nota, sin el golpe de Moledo o Afife en primera línea.",
+      "El verano en la costa ronda 20,5 °C, con tres a seis días sobre 30 °C: fresco frente al calor balear. El agua anda entre 16 y 18 °C; el espigón abriga el tramo mejor para bañarse con calma de la zona —oleaje menor, orilla usable—. Julio y agosto llueven poco; el invierno moja. Conviene probar agosto lleno y un martes gris, no solo un mediodía de espigón en calma.",
+    ],
+    vivir: [
+      "El invierno en Âncora moja, pero la villa no se apaga: humedad de orilla, salitre y terraza que se usa menos de noviembre a febrero. Conviene calefacción y aislamiento en piso o casa de villa. Probar un martes gris evita firmar solo por un mediodía de espigón en calma.",
+      "Sin coche, farmacia, súper y café se resuelven en el casco —servicios 6/10, fibra—; para el hospital hace falta vehículo. En enero hay mesas y mercado sin depender de la temporada. Quien viva junto al espigón notará más agosto; hacia el casco, vida cotidiana de villa marinera todo el año. El tren a Viana en unos veinte minutos ayuda.",
+      "Conviven gente local, familias y veraneantes de Porto y Braga que vuelven en agosto. El portugués manda; el Camino de costa trae un flujo constante de peregrinos. En verano Porto y Braga llenan la orilla: ruido, tráfico, afluencia unas semanas. La integración pasa por lonja, mercado y villa abierta en enero, no por colonia de pinos.",
+      "El Hospital de Santa Luzia —Viana— queda a unos veinte minutos. Hay que contar con seguro privado portugués —Trofa Saúde, Braga, alrededor de cincuenta y cinco minutos—. Sanidad diaria en villa; hospital y privado de referencia fuera. No hay tarjeta española de uso habitual.",
+      "Porto–Sá Carneiro anda alrededor de los sesenta minutos —Palma en verano—. Ir y volver a Mallorca suele pasar por Porto en temporada; el tren facilita Viana y la capital del norte. El régimen fiscal especial para residentes extranjeros se cerró en 2024.",
+      "El casco y el entorno del puerto ofrecen viviendas de villa; hay poca obra nueva y fibra. El modelo es piso o casa de villa, no chalé de colonia abierta. En primera línea hay que contar con ocupación de agosto y salitre. Imaginar agosto lleno y enero de mercado antes de comprar.",
+    ],
+    historia: [
+      "El puerto, la fortaleza de Lagarteira y el mercado explican Âncora: villa marinera con vida propia, no solo colonia de toalla. Lagarteira —fuerte costero del XVII— recuerda que esta orilla también se vigilaba; hoy el puerto sigue siendo oficio y paseo. El tren a Viana y Porto marca la conexión: se baja a la estación y la ciudad o la capital del norte quedan a un trayecto sin convertir el día en expedición.",
+      "Gelfa —pinar y dunas al sur— y el valle del Âncora hacia la Serra d'Arga completan la ficha de orilla y monte. El Camino Portugués de la Costa pasa cerca. Lo que conviene saber es de villa abrigada: puerto, fuerte, mercado y espigón, no lista seca de monumentos.",
+    ],
+    fuera: [
+      "El puerto, la playa del espigón —tramo abrigado, el baño más calmado del Alto Minho costero— y el paseo son la tarde de diario. Se entra al agua sin pelear tanto con el Atlántico abierto; el frío, eso sí, permanece: 16 a 18 °C en agosto.",
+      "Gelfa cubre pinar y dunas: paseo de arena y sombra cuando el frente del espigón se llena. Arga se sube por el valle del Âncora —aldeas de piedra, rutas, caballos— cuando apetezca monte detrás del mar. Viana queda a unos veinte minutos en tren o coche: hospital, comercio, cultura.",
+      "Moledo anda cerca hacia el norte si se quiere orilla más abierta y ventosa. Quien viva aquí tiene baño usable a dos minutos y ciudad completa a veinte; el silencio de agosto, no.",
+    ],
+    casa: [
+      "El casco y el entorno del puerto ofrecen viviendas de villa; hay poca obra nueva y fibra. El modelo es piso o casa de villa, no chalé de colonia abierta. En primera línea hay que contar con ocupación de agosto y salitre; conviene algo retirado del frente más lleno y probar un día de afluencia.",
+      "El precio medio ronda 2.000 €/m². Tres habitaciones en la franja asequible se sitúan alrededor de 234.000 euros. Quien busque equilibrio de costa —servicios y playa— encontrará aquí más coherencia que en Moledo; quien busque precio de interior, no.",
+      "Los servicios son 6/10. Santa Luzia —Viana— queda a unos veinte minutos. Porto–Sá Carneiro está a unos sesenta. Hay que contar con seguro privado portugués —Trofa Saúde, Braga, alrededor de cincuenta y cinco minutos—. Conviene firmar tras un martes de noviembre y un agosto en la orilla.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere villa marinera con vida todo el año —puerto, mercado, tren— y la mejor playa abrigada de la zona a dos minutos. Vila Praia de Âncora resuelve el martes de noviembre a pie: servicios 6/10, fibra, mesas y lonja sin depender de agosto. El espigón abriga el tramo de baño más calmado del Alto Minho costero; Gelfa añade pinar y dunas; la Serra d'Arga se sube por el valle del Âncora. Viana queda a unos veinte minutos en tren o coche. Quien priorice orilla usable, escala de villa y sol de costa —unas 2.500 horas— frente a aldea 3/10 encontrará aquí el equilibrio más completo de la costa minhota a unos 2.000 €/m².",
+        "También encaja para quien acepte mar frío y verano fresco frente a Mallorca. Las máximas costeras rondan 20,5 °C, con pocos días sobre 30 °C; el agua anda entre 16 y 18 °C aunque el espigón quite oleaje. Llueven alrededor de 1.450 milímetros en unos 112 días. Santa Luzia queda a unos veinte minutos; conviene seguro privado portugués —Trofa Saúde, Braga, alrededor de cincuenta y cinco minutos—.",
+      ],
+      no: [
+        "No encaja si el silencio de agosto es condición esencial. Porto y Braga llenan la orilla: ruido, tráfico y afluencia unas semanas. Tampoco si se necesita agua templada o tres habitaciones muy por debajo de la franja asequible de orilla —alrededor de 234.000 euros—.",
+        "Tampoco encaja si se busca el régimen fiscal especial para residentes extranjeros —cerrado en 2024— o aeropuerto a menos de una hora: Porto queda a unos sesenta minutos. Quien se decida solo tras un día de espigón en calma, sin probar agosto ni un martes gris, se llevará una villa distinta.",
+      ],
+      veredicto:
+        "Veredicto: Vila Praia de Âncora es la villa marinera abrigada del Alto Minho —puerto, mercado y espigón a cambio de veraneo de agosto y mar frío—. Buscaría tres habitaciones hacia el casco o algo retiradas del frente más ocupado, tras probar un martes de noviembre y un día de afluencia en la orilla. Se ganan playa abrigada, servicios 6/10, tren y hospital a unos veinte minutos; se aceptan ~2.000 €/m², agua a 16–18 °C y seguro privado portugués. Si mandan granito, monte y silencio de aldea, Afife-Carreço; si hay que contar con ciudad completa, Viana; si la prioridad es vivir junto al mar con recados a pie, Âncora es la opción más coherente de la costa.",
+    },
+    fotosAbrir: [
+      { src: "/fotos/alto-minho/ancora-playa.jpg", pie: "Playa abrigada de Vila Praia de Âncora" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/alto-minho/ancora-lagarteira.jpg", pie: "Fortaleza de Lagarteira, Âncora" },
+    ],
+    fotosFuera: [],
+    creditoFotos: credito,
+  }

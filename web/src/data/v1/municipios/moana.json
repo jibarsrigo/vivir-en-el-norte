@@ -1,0 +1,99 @@
+{
+  "tipo": "municipio",
+  "slug": "moana",
+  "nombre": "Moaña",
+  "n": 14,
+  "zonaId": "o-morrazo",
+  "zonaNombre": "O Morrazo",
+  "provincia": "Pontevedra",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-o-morrazo.ts",
+  "sourceKey": "moana",
+  "sourceExport": "RELATOS_O_MORRAZO",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "7839822b865c1a148a4a85f80bd7cd8ae2cb17895c98248ee138bbcfafd204e3",
+  "relato": {
+    "escala": "Villa lineal y parroquias",
+    "abrir": [
+      "Moaña vive frente a Vigo, al otro lado de la ría, y se siente como una villa que mira a la ciudad sin tener que vivir dentro. Sus unos diecinueve mil habitantes se reparten entre una franja lineal pegada al paseo y las parroquias de Tirán, Meira, San Martiño y Domaio. A Xunqueira —xunqueira significa junquera, terreno húmedo donde crecen juncos— y O Con cosen playa y casco; Domaio ocupa el extremo oriental, junto al puente de Rande y bajo el monte más alto de la península.",
+      "Quien vive aquí es gente local, gente del remo y de la conserva, y vecinos que trabajan en Vigo pero vuelven cada tarde a una escala más pequeña. Un martes de noviembre se sale a comprar, al centro de salud o al mercado sin abandonar la franja urbana. El barco llega a Vigo en unos veinte minutos y evita conducir alrededor de la ría. Quien vive en Tirán puede caminar al paseo; desde Meira alta o Domaio hace falta el coche casi cada día.",
+      "El 16 de julio la Virxe do Carme, patrona de la gente del mar, sale en procesión y algunas ediciones continúan sobre el agua: puerto y centro se llenan, hay música, cortes y aparcamiento difícil. El 11 de noviembre, San Martiño recuerda el núcleo parroquial alrededor del cual nació Moaña; al día siguiente continúa allí la celebración del Carmen. En Tirán, San Xoán ocupa el 24 de junio. Las fiestas muestran que el municipio no tiene un solo centro y que una casa junto a cada atrio vive un calendario distinto.",
+      "Agosto trae bañistas, terrazas y más coches, aunque la playa se reparte a lo largo de la costa y la saturación resulta menos teatral que en Cangas. En invierno el barco, el mercado y los colegios mantienen la actividad. Moaña no es un dormitorio de Vigo: tiene pesca, remo, parroquias e identidad propia; su ventaja consiste en mirar a la ciudad y alcanzarla por mar sin tener que vivir en ella.",
+      "La villa tiene servicios básicos completos, pero no la densidad comercial de Cangas ni la cercanía hospitalaria de Marín. Montecelo queda a unos treinta minutos; el barco no resuelve una urgencia en coche. Quien se decida solo tras un sábado de sol en A Xunqueira, sin medir sol de invierno en una casa alta ni el tráfico de Rande un lunes, se llevará una sorpresa."
+    ],
+    "tiempo": [
+      "Moaña registra unas 2.250 horas de sol y 72 días despejados, frente a unas 2.800 horas y 120 días despejados de Mallorca. Caen alrededor de 1.550 milímetros en 128 días; entre octubre y marzo la lluvia aparece trece o dieciséis días al mes. La media invernal ronda 10 °C y el abrigo de la ría mantiene el viento bajo. Respecto a Baleares se pierde sol sobre todo en invierno; de junio a septiembre la terraza se usa.",
+      "El verano tiene una media cercana a 20 °C, máximas habituales alrededor de 25 °C y apenas tres a seis días por encima de 30 °C. Es más fresco y nublado que Baleares, pero también evita sus noches cálidas sostenidas. A Xunqueira y O Con suelen ofrecer agua de ría entre 18 y 20 °C, calma y sin el oleaje del Atlántico abierto. Conviene probar un noviembre húmedo y una hora punta hacia Rande, no solo un martes soleado en el paseo."
+    ],
+    "vivir": [
+      "El invierno en Moaña se siente en la humedad de la ría y en las casas altas con menos sol. En Mallorca muchas viviendas casi no piensan en calefacción ni en moho; aquí caen alrededor de 1.550 milímetros en 128 días. Conviene medir orientación: una vista abierta a Vigo trae luz; una finca detrás del monte puede perder sol temprano. Visitar en noviembre húmedo enseña más que un martes soleado en el paseo.",
+      "El día a día sin coche funciona en la franja urbana: compra, centro de salud, mercado y barco a Vigo en unos veinte minutos. Si vives en Meira alta o Domaio, necesitas el coche. En enero el ferry, el mercado y los colegios mantienen la actividad. No es un dormitorio vacío: tiene pesca, remo e identidad propia.",
+      "Llegar de fuera es habitual entre quien trabaja en Vigo y vuelve cada tarde. Se oye gallego en Tirán y Meira; el castellano basta para lo cotidiano. Entre semana manda el ir y venir hacia la ciudad; en julio el Carmen llena puerto y centro. Quien busque solo calma de agosto se equivocará de fechas; quien busque vecinos todo el año, los encontrará.",
+      "La sanidad de urgencia y especialidades no está en el municipio: Montecelo queda a unos treinta minutos; Vigo ofrece hospitales al otro lado de la ría, aunque el barco no resuelve una urgencia en coche. En Moaña hay centro de salud y farmacias. Empadronarse abre lo local; para hospital se conduce.",
+      "Mantener el vínculo con Mallorca pasa por el avión. Vigo-Peinador está a unos treinta y cinco minutos; Santiago, a unos setenta. En invierno conviene mirar el calendario real de vuelos a Palma. El puente de Rande puede atascarse en hora punta: hay que contar tiempo real, no solo el del mapa.",
+      "En el frente urbano hay pisos con balcón; en Tirán y Meira, casas en red densa de caminos; en Domaio, chalés en ladera. Fibra y poca obra nueva. Conviene presupuestar humedad, ventilación y sol de invierno, e imaginar la rutina con cuestas dentro de diez años."
+    ],
+    "historia": [
+      "Hasta el siglo XIX, Meira, Moaña y Domaio dependieron de Cangas. La reorganización municipal creó en 1836 el ayuntamiento de Meira; en 1874 adoptó el nombre de Moaña y trasladó la capitalidad a San Martiño. El crecimiento del núcleo costero fue tan fuerte que en 1955 nació la nueva parroquia de Virxe do Carme, separada de la antigua San Martiño: la villa lineal que hoy se ve nació de esa suma de parroquias.",
+      "La iglesia románica de San Martiño y la de San Xoán de Tirán recuerdan aquella red anterior a la villa continua. Tirán —la pequeña parroquia costera entre Moaña y Cangas— guarda además cuevas marinas bajo el acantilado de la iglesia. En la costa, el monumento al Fisgón representa al pescador que capturaba con tridente y luz, un oficio ligado a las noches de la ría.",
+      "Meira conserva una historia industrial y marinera: las mujeres trabajaron el mar y la conserva, y las embarcaciones de remo siguen convirtiendo la ría en campo deportivo. El puente de Rande, abierto en 1981, cambió después la relación terrestre con Vigo; el barco de pasajeros conserva la ruta más directa y visible."
+    ],
+    "fuera": [
+      "A Xunqueira es la playa urbana de arena larga y agua tranquila; O Con queda junto a Tirán y permite bañarse con Vigo enfrente. El paseo marítimo enlaza ambas con el puerto y funciona todo el año. La ría suele estar entre 18 y 20 °C en verano: fresca frente al Mediterráneo, pero más templada que las playas abiertas de Cabo Home. Un martes de junio puedes tener casi toda la orilla; un domingo de agosto hay más toallas, pero el carácter no se vuelve de resort.",
+      "Domaio ofrece la subida al Monte Faro, techo de O Morrazo con 624 metros. Desde arriba se ven la ría de Vigo, el estrecho de Rande y la ría de Pontevedra al otro lado. Faro no alude aquí a una torre marítima, sino a una altura visible usada como referencia. En la ladera está el campo Ría de Vigo Golf.",
+      "Meira conserva costa, puerto y caminos hacia el interior; Tirán permite caminar junto a pequeñas calas y a su iglesia románica sobre el agua. La vida al aire libre es menos salvaje que en Cangas, pero más inmediata: paseo, baño y barco comienzan dentro del tejido urbano."
+    ],
+    "casa": [
+      "En el frente urbano hay pisos con balcón y edificios de distintas décadas; en Tirán y Meira aparecen casas pegadas a una red densa de caminos; Domaio ofrece chalés en ladera y vistas hacia Rande. La orientación importa: una vista abierta a Vigo trae luz, mientras una finca encajada detrás del monte puede perder sol temprano. Hay fibra y poca obra nueva.",
+      "El precio medio ronda los 1.600 €/m². La franja asequible de tres habitaciones se sitúa alrededor de 187.000 euros. La franja media corresponde a pisos mejor orientados frente a la ría o a casas de parroquia con terreno y vistas; conviene compararla por estado real y no convertir una media municipal en precio de una casa concreta.",
+      "Los servicios alcanzan 6/10: centro de salud, farmacias, supermercados, mercado, colegios, institutos, deporte y restauración. Montecelo queda a unos treinta minutos y Vigo ofrece también hospitales al otro lado de la ría, aunque el barco no resuelve una urgencia en coche. Vigo-Peinador está a unos treinta y cinco minutos; Santiago, a unos setenta."
+    ],
+    "encaja": {
+      "si": [
+        "Encaja si Vigo forma parte de la semana pero no se quiere vivir dentro de la ciudad. El barco tarda unos veinte minutos; A Xunqueira y O Con —playas urbanas de ría a 18–20 °C— empiezan en la puerta; el paseo y el puerto siguen abiertos en noviembre. Un martes laborable se compra, se va al centro de salud y se toma el ferry sin organizar una expedición. El verano ronda máximas cerca de 25 °C con solo tres a seis días sobre 30 °C: mucho más suave que Mallorca, a cambio de unos 1.550 milímetros y 128 días de lluvia bajo el abrigo de la ría.",
+        "También encaja para quien prefiera costa cotidiana a villa turística intensa. Tres habitaciones en franja asequible rondan 187.000 euros a ~1.600 €/m². Tirán añade casas y calas entre Moaña y Cangas; Domaio, monte Faro (624 m), golf y vistas al estrecho de Rande; Meira, trama densa de caminos. Servicios 6/10 —lo básico completo— sin la densidad comercial de Cangas. Quien quiera mirar a Vigo cada tarde y cruzar por mar cuando haga falta, sin pagar el ruido ni el precio de la ciudad grande, entenderá Moaña al primer embarque."
+      ],
+      "no": [
+        "No encaja si toda la vida debe resolverse a pie desde una parroquia alta. Los servicios se concentran en la franja costera; el coche cose Meira, Domaio y el centro. Tampoco hay tren ni gran oferta cultural propia: Vigo o Pontevedra cubren lo que la villa lineal no da.",
+        "El puente de Rande puede atascarse en hora punta y el hospital público queda cerca del límite deseable, a unos treinta minutos —el barco no resuelve una urgencia en coche—. Marín funciona mejor si sanidad y Pontevedra importan más que Vigo. Quien se decida solo tras un sábado de sol en A Xunqueira, sin medir sol de invierno en una casa alta ni el tráfico de Rande un lunes, se llevará una sorpresa. Cangas ofrece más Costa da Vela; Bueu, más calma hacia Ons."
+      ],
+      "veredicto": "Veredicto: Moaña encaja como base de cara a Vigo sin vivir en Vigo —piso de tres habitaciones cerca del paseo y del embarcadero en franja asequible, o casa alta solo tras medir acceso y sol de invierno—. Sobre todo si barco, baño urbano y verano fresco importan más que hospital a diez minutos. Probar hora punta hacia Rande y un noviembre antes de comprar. Se ganan ría cotidiana y ~1.600 €/m²; se aceptan villa lineal, servicios 6/10 y 128 días de lluvia. Si mandan Costa da Vela, Cangas; si Montecelo a diez, Marín; si silencio y Ons, Bueu."
+    },
+    "fotoIdentidad": {
+      "src": "/fotos/o-morrazo/moana-identidad.jpg",
+      "pie": "Moaña: casas sobre la ría de Vigo, con el monte del Morrazo detrás"
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/o-morrazo/moana-villa.jpg",
+        "pie": "Casa consistorial de Moaña y un hórreo de piedra"
+      },
+      {
+        "src": "/fotos/o-morrazo/moana-xunqueira.jpg",
+        "pie": "A Borna y la orilla urbana de Moaña frente a la ría"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/o-morrazo/moana-san-martino.jpg",
+        "pie": "San Martiño, la parroquia histórica que dio centro al municipio"
+      },
+      {
+        "src": "/fotos/o-morrazo/moana-fisgon.jpg",
+        "pie": "El Fisgón recuerda una forma nocturna de pescar en la ría"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/o-morrazo/moana-domaio.jpg",
+        "pie": "Domaio bajo el monte, junto al estrecho de Rande"
+      },
+      {
+        "src": "/fotos/o-morrazo/moana-tiran.jpg",
+        "pie": "Tirán: iglesia románica y costa frente a Vigo"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

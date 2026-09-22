@@ -1,0 +1,66 @@
+{
+    escala: "Pueblo colgado sobre el puerto",
+    abrir: [
+      "Cudillero reúne unos cinco mil habitantes en el concejo, en la costa occidental del área metropolitana asturiana. El pueblo que sale en las foto típicaes es un anfiteatro de casas colgadas sobre el puerto: calles en cuesta, tejados a distintas alturas y el Cantábrico abajo, siempre a la vista. Quien llega de día encuentra el casco lleno de visitantes; quien se queda a vivir descubre que esas mismas cuestas hay que contar con en la compra, en la vuelta con bolsas y en cualquier tarde de lluvia. Arriba, El Pito —llano, hacia Muros de Nalón— cambia la ecuación: el horizonte sigue cerca, pero la calle deja de ser un anfiteatro.",
+      "Un martes de noviembre el puerto respira otra escala. Quedan el comercio turístico, lo básico del concejo y un ritmo que no es el de villa completa con súper y mesas a pie. Los servicios son 4/10: se compra lo imprescindible aquí y se organiza el resto hacia Avilés. El hospital público San Agustín, en Avilés, queda a unos veinticinco minutos; el aeropuerto de Asturias, en Santiago del Monte, anda alrededor de los quince, con vuelo a Palma en verano. El coche no es un lujo: es la forma de coser la semana entre el casco colgado, El Pito y la ciudad.",
+      "En verano el pueblo colgado recibe afluencia de día, tráfico estrecho y aparcamiento justo. El impacto al vivir no viene de un calendario de fiestas aisladas tanto como de esa ocupación diaria del anfiteatro: conversaciones en la calle, coches buscando hueco y un sábado de agosto que no se parece a un martes gris. Quien compre en el casco debe probar un día de temporada alta; quien mire hacia El Pito debe bajar al puerto ese mismo día y decidir si quiere el paisaje cerca o la calle sin cuestas.",
+      "Aguilar y Concha de Artedo —las playas de baño del concejo— quedan a unos cinco minutos; la playa del Silencio, en Castañeras, a unos quince, ya en acantilado más abierto. El Cabo Vidio cierra faro y senda hacia el oeste. La población mezcla vecinos del concejo, gente que trabaja hacia Avilés u Oviedo y quienes eligieron la costa por el horizonte. Cudillero encanta para visitar; para vivir encaja sobre todo arriba, con coche, usando el anfiteatro como paisaje cercano y no como calle diaria sin cuestas.",
+      "Las estaciones marcan el sonido más que el mapa. En invierno la niebla media y la lluvia dejan el puerto casi vacío; en primavera vuelven los paseos hacia Vidio; en agosto el casco se llena de día y se vacía de otra manera al atardecer. Quien quiera esta costa debe conocerla en noviembre y en agosto antes de comprar.",
+    ],
+    tiempo: [
+      "Frente a Baleares —y a Mallorca en particular—, Cudillero no compite por cielo despejado. Aquí hay unas 1.800 horas de sol y 42 días despejados al año, frente a las 2.800 horas y 120 jornadas claras de la isla. Caen alrededor de 1.150 milímetros en unos 148 días; la niebla es media y el viento, medio. También en verano llueve con frecuencia: el trato no es frío extremo, sino un cielo que se cierra más veces de las que un visitante de Baleares espera.",
+      "El verano ronda 19 °C de media, con máximas habituales alrededor de 23 °C y apenas uno a tres días sobre 30 °C. Se gana frescura frente al calor mediterráneo y se acepta un julio que todavía moja. El agua anda entre 19 y 21 °C; Aguilar, Artedo y El Silencio piden días de mar más llana para un baño cómodo, pero el Cantábrico como vecino no espera al calendario de vacaciones.",
+    ],
+    vivir: [
+      "El invierno en casa se nota en las cuestas y en la humedad del anfiteatro: niebla media, lluvia y un puerto que se queda casi vacío. En el casco colgado las bolsas, la vuelta a casa y cualquier tarde mojada pesan; en El Pito —llano, arriba— la ecuación cambia. Conviene preguntar por aislamiento y orientación, y visitar un noviembre húmedo, no solo un sábado de sol sobre el puerto.",
+      "Sin coche la semana no se sostiene. Los servicios son 4/10: comercio turístico y lo básico; el súper y muchos gestos se organizan hacia Avilés. En enero el pueblo colgado respira otra escala —no es villa completa con mesas a pie—. Quien viva arriba, en El Pito, dependerá del vehículo para coser casco, playa y ciudad; quien compre abajo debe aceptar las cuestas como parte del día.",
+      "Conviven vecinos del concejo, gente que trabaja hacia Avilés u Oviedo y quienes eligieron la costa por el horizonte. Se oye asturiano en el puerto y en el café; el castellano basta para lo cotidiano, pero la vida social cambia según la hora y la temporada: de día llegan visitantes; entre semana manda otra densidad. Quien busque solo veraneo encontrará ruido de agosto; quien busque vecinos todo el año, también —en otra escala que Mallorca—.",
+      "La sanidad no está en el anfiteatro: el hospital público San Agustín, en Avilés, queda a unos veinticinco minutos; el privado Centro Médico de Asturias, en Oviedo, hacia los cuarenta y cinco. En el concejo hay lo básico; para urgencias y especialidades se baja a Avilés. Es costa con hospital cercano, no sanidad a la vuelta de la cuesta.",
+      "Mantener el vínculo con Mallorca es el punto fuerte logístico: el aeropuerto de Asturias, en Santiago del Monte, anda alrededor de los quince minutos, con vuelo a Palma en verano. En invierno el trayecto sigue siendo corto, pero conviene mirar el calendario real de vuelos, no solo el de temporada alta.",
+      "La vivienda en el pueblo colgado es tipología de encanto y cuesta —muchas pensadas más para el visitante que para una semana sin esfuerzo—, sin obra nueva y con fibra. En El Pito hay más llano y coche en la puerta. Hay que contar con humedad, ocupación de temporada y si se puede aparcar sin pelear el verano.",
+    ],
+    historia: [
+      "El anfiteatro de casas sobre el puerto explica Cudillero mejor que cualquier leyenda: pueblo marinero de foto turística, nacido de la relación con el mar y de una orografía que obliga a subir y bajar. La belleza es el carácter —y también la razón del visitante de día—. No hay un casco residencial llano que absorba la vida cotidiana; hay cuestas, miradas al agua y un puerto que concentra el relato.",
+      "Hacia el oeste, el Cabo Vidio —faro y senda sobre el Cantábrico abierto— sitúa el concejo en una costa de acantilado, no de bahía abrigada. Hacia arriba, la Quinta de Selgas, en El Pito —hacia Muros—, añade capa de patrimonio indiano a un paso del núcleo colgado: jardines, memoria de indianos y un paisaje llano que contrasta con el anfiteatro. Faro, quinta y puerto cuentan una lo que conviene saber de horizonte y oficio, no de ciudad.",
+      "Lo que queda para quien llega a vivir es esa tensión: el pueblo fotografiado abajo y la vida más practicable arriba. Cudillero no inventa un centro comercial continuo; ofrece puerto, costa abierta y un vecindario que cambia según la hora y la temporada.",
+    ],
+    fuera: [
+      "Aguilar y Concha de Artedo cubren la playa a unos cinco minutos del núcleo: orillas de uso diario cuando el mar lo permite, con agua entre 19 y 21 °C. No son calas de foto turística vacía en agosto; son la costa cercana del concejo, la que se usa entre semana cuando el casco colgado está más calmado.",
+      "La playa del Silencio, en Castañeras, queda a unos quince minutos y es la orilla de acantilado más buscada de la zona: arena bajo pared de piedra, luz distinta y más afluencia los días claros. El Cabo Vidio ofrece faro, senda y tarde de costa abierta sin necesidad de llegar a Peñas.",
+      "Hacia el este, Avilés y Salinas resuelven comercio, paseo residencial y hospital cuando el concejo no basta. Hacia el estuario, Muros de Nalón aporta los miradores sobre el Nalón. El tiempo libre aquí se reparte entre playa cercana, acantilado y ciudad a un trayecto corto —siempre con coche—.",
+    ],
+    casa: [
+      "En el pueblo colgado predominan viviendas en cuesta, muchas pensadas más para el encanto que para una semana sin esfuerzo: turismo de día, acceso estrecho y sin obra nueva. La fibra llega. En El Pito hay más llano, más coche en la puerta y una lógica distinta de vivienda. Hay que contar con humedad, orientación, ocupación de temporada y si se puede aparcar sin pelear el verano.",
+      "El precio medio ronda 1.400 €/m². Tres habitaciones en la franja asequible se sitúan alrededor de 164.000 euros. Vistas al puerto o una reforma completa mueven la franja media; la compra real suele ser encanto y acceso, no calma residencial de villa-paseo.",
+      "Los servicios son 4/10: comercio turístico y lo básico, sin la vida de una villa completa. San Agustín queda a unos veinticinco minutos; el privado Centro Médico de Asturias, en Oviedo, hacia los cuarenta y cinco. El aeropuerto de Asturias está a unos quince minutos, con Palma en verano. Quien se quede a vivir aquí asume horizonte y logística de costa, no autosuficiencia a pie.",
+    ],
+    encaja: {
+      si: [
+        "Encaja para quien quiera el Cantábrico delante casi todo el año —Aguilar y Concha de Artedo a unos cinco minutos; la playa del Silencio, en Castañeras, a unos quince; el Cabo Vidio con faro y senda como tarde de costa abierta— y acepte que el pueblo colgado es foto típica de día más que calle llana de diario. Un martes de noviembre los servicios son 4/10: comercio turístico y lo básico, sin la vida de una villa completa; el coche organiza la semana hacia El Pito —llano, arriba— o hacia Avilés. Quien priorice horizonte de puerto, casas en anfiteatro y aeropuerto a unos quince minutos (Asturias, con Palma en verano) frente a paseo residencial encontrará aquí la costa más fotografiada de Asturias Centro. El agua anda entre 19 y 21 °C; el baño pide días de mar más llana, pero el mar como vecino no pide calendario.",
+        "El clima pide ojos abiertos si se viene de Mallorca: unas 1.800 horas de sol y 42 días despejados frente a las 2.800 horas y 120 jornadas claras de la isla; caen alrededor de 1.150 milímetros en unos 148 días, con niebla media y viento medio. El verano ronda 19 °C, con máximas habituales cerca de 23 °C y apenas uno a tres días sobre 30 °C: se gana frescura frente al calor mediterráneo y se acepta un cielo que también llueve en julio. En verano el casco recibe afluencia de día, tráfico estrecho y aparcamiento justo; arriba, en El Pito, la ecuación se vuelve más habitable. Encaja si has bajado al puerto un martes de noviembre y un sábado de agosto y siga queriendo esa costa —viviendo arriba, con coche, y usando el anfiteatro como paisaje cercano, no como calle sin cuestas—.",
+      ],
+      no: [
+        "No encaja si se busca villa caminable y calmada todo el año, con súper, farmacia y mesas a pie sin pelear cuestas ni turistas de día. Cudillero es mejor visitarlo que tomarlo como marco diario en el casco colgado: las cuestas pesan, el visitante marca el verano y los servicios 4/10 no sustituyen Salinas ni Gijón. El hospital público San Agustín, en Avilés, queda a unos veinticinco minutos; el privado Centro Médico de Asturias, en Oviedo, hacia los cuarenta y cinco. Eso no se arregla eligiendo otra calle junto al puerto.",
+        "Tampoco si el hospital debe quedar a diez minutos o si se necesita el cielo de Baleares. Aquí mandan cubierto (unos 165 días), niebla media y verano fresco; el precio medio ronda 1.400 €/m² y tres habitaciones en la franja asequible andan alrededor de 164.000 euros, pero la compra real es encanto y acceso, no calma residencial. Quien se decida solo tras un sábado de sol en el anfiteatro, sin probar un día de temporada alta ni un noviembre húmedo en El Pito, se llevará una sorpresa.",
+      ],
+      veredicto:
+        "Veredicto: Cudillero es la foto típica de Asturias Centro, no la opción práctica. Buscaría vivienda en El Pito —llano, con coche— si el encanto de puerto, Aguilar y Vidio mandan, tras probar un agosto en el casco y un martes de noviembre arriba; si mandan servicios y calma, miraría Salinas o el estuario. Se ganan costa abierta y aeropuerto a quince minutos; se aceptan cuestas, turismo de día, servicios 4/10 y San Agustín a veinticinco.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/asturias-centro/cudillero-identidad.jpg",
+      pie: "Cudillero: casas de colores subiendo la ladera desde la lonja — pueblo colgado sobre el puerto",
+    },
+    fotosAbrir: [
+      { src: "/fotos/asturias-centro/cudillero-puerto.jpg", pie: "Puerto de Cudillero" },
+      { src: "/fotos/asturias-centro/cudillero-pueblo.jpg", pie: "Pueblo colgado de Cudillero" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/asturias-centro/cudillero-vidio.jpg", pie: "Cabo Vidio, cerca de Cudillero" },
+      { src: "/fotos/asturias-centro/cudillero-pito.jpg", pie: "El Pito, arriba de Cudillero" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/asturias-centro/cudillero-playa.jpg", pie: "Playa cerca de Cudillero" },
+      { src: "/fotos/asturias-centro/cudillero-cuesta.jpg", pie: "Calles en cuesta de Cudillero" },
+    ],
+    creditoFotos: credito,
+  }

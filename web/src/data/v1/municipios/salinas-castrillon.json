@@ -1,0 +1,99 @@
+{
+  "tipo": "municipio",
+  "slug": "salinas-castrillon",
+  "nombre": "Salinas (Castrillón)",
+  "n": 54,
+  "zonaId": "asturias-centro",
+  "zonaNombre": "Asturias Centro",
+  "provincia": "Asturias",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-asturias-centro.ts",
+  "sourceKey": "salinas-castrillon",
+  "sourceExport": "RELATOS_ASTURIAS_CENTRO",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "143ee8485012ce1cd5c536c6bac48ef7fd7a196494b92e7a10e149b304763d20",
+  "relato": {
+    "escala": "Villa-playa residencial",
+    "abrir": [
+      "Salinas reúne unos cinco mil habitantes en la villa —unos veintitrés mil en el concejo de Castrillón—: playa de tres kilómetros con El Espartal y dunas, paseo caminable, Museo de Anclas en la Peñona, casas bajas y chalés de los años sesenta a dos mil. Es villa-playa residencial, no pueblo marinero de puerto cerrado ni ciudad. Avilés queda a diez minutos —casco histórico, Centro Niemeyer, comercio—; Piedras Blancas, la capital del concejo, a cinco.",
+      "Un martes de noviembre se compra, se camina el paseo y se resuelve el día a día. Los servicios alcanzan 7/10: hay fibra, comercio útil y vida de villa que no se apaga fuera de agosto. San Agustín queda a unos diez minutos; el Hospital de Jove, en Gijón, a unos treinta. El aeropuerto de Asturias está a unos diez —el mejor tiempo junto a Muros y Soto—, con Palma en verano.",
+      "En verano la playa y el paseo reciben veraneo: toallas, tráfico y aparcamiento justo en los días claros. El resto del año Salinas es villa residencial de clase media avilesina y ovetense: vecinos que trabajan en Avilés, Oviedo o el aeropuerto, familias y quienes eligieron casas bajas junto al mar sin mudarse a Gijón. La siderurgia de Avilés, a unos tres kilómetros, es un tema real a favor del viento del sur: conviene probar un día con ese aire antes de comprar.",
+      "Bahínas, Arnao y Santa María del Mar amplían el mapa de Castrillón; la villa de Salinas concentra el carácter de urbanización junto al Cantábrico. Fuera de agosto sigue siendo villa completa y útil. Encaja como la opción práctica de Asturias Centro si se acepta el matiz industrial según el viento.",
+      "Las estaciones cambian la densidad más que el funcionamiento. En invierno el paseo sigue abierto; en primavera vuelven las caminatas por El Espartal; en agosto la orilla se llena y el aparcamiento se pelea. Quien quiera esta villa debe conocerla un martes gris y un sábado de sol en la playa."
+    ],
+    "tiempo": [
+      "Salinas suma unas 1.800 horas de sol y 42 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.050 milímetros en unos 148 días. La niebla es baja; el viento, medio. Se pierden casi mil horas de sol respecto a Baleares: el trato no es frío extremo, sino cielo cubierto frecuente —unos 165 días—.",
+      "El verano ronda 19 °C, fresco frente a Baleares: máximas habituales cerca de 23 °C y apenas uno a tres días sobre 30 °C. Salinas, El Espartal y Bahínas tienen agua entre 19 y 21 °C; la playa larga invita al paseo aunque el baño sea corto muchos días. El verano gana frescura frente al Mediterráneo y pide aceptar un julio que todavía puede mojar."
+    ],
+    "vivir": [
+      "El invierno en casa se nota menos que en el estuario: niebla baja, paseo abierto y casas bajas que piden aislamiento frente a salitre y cielo cubierto frecuente. Conviene mirar orientación, calefacción y si la terraza sigue siendo usable entre noviembre y febrero. Visitar un martes gris y un día con viento del sur —la siderurgia de Avilés queda a unos tres kilómetros— enseña más que un sábado soleado en El Espartal.",
+      "Sin coche se sostiene mucho: se compra, se camina el paseo y se resuelve el día a día; los servicios alcanzan 7/10 y hay fibra. En enero Salinas es villa residencial viva, no decorado de agosto. Piedras Blancas a cinco minutos y Avilés a diez cubren lo que la villa no resuelve sola; el coche ayuda, pero no es la única forma de vivir la semana.",
+      "Conviven vecinos que trabajan en Avilés, Oviedo o el aeropuerto, familias y quienes eligieron casas bajas junto al mar. Se oye asturiano y castellano en el paseo y en el comercio; el castellano basta para lo cotidiano. La vida social pasa por la villa-playa y el ritmo de clase media avilesina y ovetense. Entre semana manda el ir y venir; en agosto la orilla se llena y el aparcamiento se pelea.",
+      "La sanidad es de las mejores de la zona: San Agustín queda a unos diez minutos; el Hospital de Jove, en Gijón, a unos treinta. Empadronarse aquí abre centro de salud y farmacia en villa; para especialidades se baja a Avilés. Es hospital cercano de verdad, no trayecto de media hora forzado.",
+      "Ir y volver a Mallorca es corto: el aeropuerto de Asturias está a unos diez minutos —el mejor tiempo junto a Muros y Soto—, con Palma en verano. En invierno el aeropuerto sigue a un salto, pero conviene mirar el calendario real de vuelos a Palma, no solo el de temporada alta.",
+      "La vivienda típica es casa baja o chalé de los años sesenta a dos mil, con poca obra nueva y fibra. Junto al paseo hay que contar con ocupación de verano, salitre y aparcamiento; hacia el interior de la villa, orientación y distancia real a la playa. Hay que imaginar la manzana caminable en enero, no solo la foto de agosto."
+    ],
+    "historia": [
+      "El paseo, las dunas de El Espartal y el Museo de Anclas en la Peñona explican Salinas como villa-playa de veraneo y residencia, no como pueblo marinero de puerto cerrado. Las casas bajas y chalés de los años sesenta a dos mil marcan el carácter de urbanización junto al mar: orilla usable, trama residencial y logística cercana.",
+      "Avilés cercano —casco histórico y Centro Niemeyer— añade capa de ciudad a diez minutos: comercio, cultura contemporánea y hospital. Lo que conviene saber de Salinas es de orilla residencial y área metropolitana, no de fortaleza ni de pueblo de foto turística.",
+      "Lo que queda para quien llega a vivir es esa ecuación: playa de tres kilómetros, villa caminable y Avilés al lado, con la industria como matiz real del aire según el viento del sur."
+    ],
+    "fuera": [
+      "El paseo, la playa de Salinas–El Espartal y el Museo de Anclas son la tarde de diario: tres kilómetros de arena y dunas, agua entre 19 y 21 °C, y una Peñona que concentra memoria marinera sin exigir coche. Es el tiempo libre que justifica la villa.",
+      "Bahínas, Arnao y Santa María del Mar amplían Castrillón cuando se quiere otra orilla o otro ritmo dentro del concejo. El Espartal invita a caminar las dunas aunque el baño sea corto: el paseo pesa tanto como el chapuzón.",
+      "Avilés cubre comercio y cultura a diez minutos. Soto y Muros aportan estuario del Nalón; Luanco, villa marinera hacia el Cabo Peñas. El mapa de ocio es playa residencial primero; ciudad y costa abierta, a un trayecto corto."
+    ],
+    "casa": [
+      "Predominan casas bajas y chalés; hay poca obra nueva y fibra. Junto al paseo hay que contar con ocupación de verano, salitre y aparcamiento; hacia el interior de la villa, orientación, distancia real a la playa y si la manzana sigue siendo caminable en enero.",
+      "El precio medio ronda 1.700 €/m². Tres habitaciones en la franja asequible se sitúan alrededor de 199.000 euros. La franja media puede ser chalé reformado o vivienda más cerca del paseo. La facilidad de venta es alta en el área; el precio compra villa-playa y logística, no silencio garantizado en agosto.",
+      "Los servicios son 7/10. San Agustín queda a unos diez minutos; Jove, en Gijón, a unos treinta. El aeropuerto de Asturias está a unos diez minutos, con Palma en verano. Piedras Blancas y Avilés completan lo que la villa no resuelve sola."
+    ],
+    "encaja": {
+      "si": [
+        "Encaja para quien quiera vivir el mar todo el año en villa-playa residencial —playa de tres kilómetros con El Espartal y dunas; paseo caminable; Museo de Anclas en la Peñona; casas bajas y chalés— y priorice logística frente a foto típica. Un martes de noviembre se compra, se camina el paseo y se resuelve el día a día: los servicios alcanzan 7/10, hay fibra, Avilés queda a unos diez minutos (casco histórico, Centro Niemeyer, comercio) y Piedras Blancas a cinco. Quien busque hospital y aeropuerto a unos diez minutos —San Agustín en Avilés; Asturias con Palma en verano— encontrará aquí la ecuación más completa de Asturias Centro. Salinas, El Espartal y Bahínas tienen agua entre 19 y 21 °C; la playa larga invita al paseo aunque el baño sea corto muchos días.",
+        "El clima sigue lejos de Mallorca: unas 1.800 horas de sol y 42 días despejados frente a las 2.800 horas y 120 jornadas claras de la isla; caen alrededor de 1.050 milímetros en unos 148 días, con niebla baja y viento medio. El verano ronda 19 °C: se gana frescura frente al calor mediterráneo y se acepta cielo cubierto frecuente. En verano la playa y el paseo reciben veraneo —toallas, tráfico, aparcamiento justo en los días claros—; el resto del año Salinas es villa residencial de clase media avilesina y ovetense. Encaja quien acepte la siderurgia de Avilés a unos tres kilómetros según el viento del sur a cambio de esa orilla usable y esa logística: tres habitaciones en la franja asequible andan alrededor de 199.000 euros (precio medio cerca de 1.700 €/m²)."
+      ],
+      "no": [
+        "No encaja si el aire limpio junto a Avilés debe estar garantizado todos los días. La siderurgia a unos tres kilómetros es un tema real a favor del viento del sur; eso no se arregla eligiendo otra manzana del paseo. Tampoco si se busca el pueblo colgado de foto turística como Cudillero o el silencio extremo del estuario de Muros: Salinas es villa útil, no anfiteatro ni retiro mínimo.",
+        "Tampoco si se necesita el sol de Baleares. Aquí hay unas 1.800 horas de sol y unos 165 cubiertos frente a Mallorca; el verano es fresco y el baño, a menudo corto. Quien se decida solo tras un sábado soleado en El Espartal, sin probar un día con viento del sur ni un noviembre de paseo gris, descubrirá el trato completo demasiado tarde. El hospital privado Jove, en Gijón, queda a unos treinta minutos si San Agustín no basta."
+      ],
+      "veredicto": "Veredicto: Salinas es la elección práctica de Asturias Centro. Buscaría casa baja o chalé caminable al paseo —franja asequible alrededor de 199.000 euros—, tras probar un día con viento del sur y un agosto en la playa. Se ganan aeropuerto y San Agustín a diez minutos, villa residencial y Avilés cerca; se aceptan cielo cantábrico y la industria cercana como parte del trato."
+    },
+    "fotoIdentidad": {
+      "src": "/fotos/asturias-centro/salinas-castrillon-identidad.jpg",
+      "pie": "Salinas: casas y chalés frente al Cantábrico, con el cabo detrás"
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/asturias-centro/salinas-playa.jpg",
+        "pie": "Playa de Salinas"
+      },
+      {
+        "src": "/fotos/asturias-centro/salinas-paseo.jpg",
+        "pie": "Paseo de Salinas"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/asturias-centro/salinas-anclas.jpg",
+        "pie": "Museo de Anclas, Peñona de Salinas"
+      },
+      {
+        "src": "/fotos/asturias-centro/salinas-chalets.jpg",
+        "pie": "Casas bajas y chalés en Salinas"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/asturias-centro/salinas-dunas.jpg",
+        "pie": "El Espartal desde el paseo, Salinas"
+      },
+      {
+        "src": "/fotos/asturias-centro/salinas-aviles.jpg",
+        "pie": "Avilés, a minutos de Salinas"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

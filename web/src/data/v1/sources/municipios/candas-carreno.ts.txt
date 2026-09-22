@@ -1,0 +1,62 @@
+{
+    escala: "Villa marinera junto a Gijón",
+    abrir: [
+      "Candás reúne unos siete mil habitantes en la villa marinera de Carreño, pegada al oeste de Gijón: puerto, faro, playas —Palmera, Carranques—, cercanías en tren hacia la ciudad y Museo Antón. Xivares queda hacia el oeste. Es villa con escala propia y acceso metropolitano; el contra serio es Aboño —central térmica y cementera— al lado, un matiz de aire que conviene probar según el viento antes de comprar.",
+      "Un martes de noviembre se resuelve lo básico en villa. Los servicios alcanzan 5/10: hay fibra, tren FEVE hacia Gijón —unos quince minutos— y comercio de villa, sin sustituir la ciudad. El Hospital de Jove queda a unos diez minutos; Cabueñes, el público de Gijón, alrededor de veinte. El aeropuerto de Asturias anda alrededor de los veinticinco minutos, con Palma en verano.",
+      "En verano Palmera y Carranques reciben veraneo de villa junto a Gijón: toallas, tráfico y terrazas. Las patronales animan el casco unos días —ruido, aparcamiento justo, mesas llenas—. Fuera de temporada el ritmo vuelve a puerto y tren: vecinos que trabajan en Gijón, familias locales y quienes eligieron orilla marinera sin mudarse al ensanche urbano.",
+      "Quien mire casa hacia el oeste debe probar un día con el viento que trae el aire de Aboño; quien mire hacia el puerto y Palmera debe conocer también un martes vacío. Candás no es el silencio del estuario ni el paseo de chalés de Salinas: es villa marinera metropolitana, con industria vecina en el trato.",
+      "Encaja para quien quiera Gijón a unos quince minutos en tren desde una villa marinera, aceptando la central y la cementera como vecinos reales —no como detalle del mapa—.",
+    ],
+    tiempo: [
+      "Candás suma unas 1.850 horas de sol y 42 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.000 milímetros en unos 145 días. La niebla es baja; el viento, bajo en la ficha climática, aunque el aire de Aboño depende de la dirección más que del número. El cielo sigue lejos de Baleares: unos 165 cubiertos y un invierno de mañanas grises.",
+      "El verano ronda 19 °C, fresco frente a Baleares. Palmera, Carranques y Xivares tienen agua entre 19 y 21 °C; el baño corto es usable muchos días de agosto. Se gana frescura frente al Mediterráneo y se acepta un Cantábrico que no promete cielo de isla.",
+    ],
+    vivir: [
+      "El invierno en casa se nota por el salitre del puerto y, hacia el oeste, por el aire de Aboño según el viento: niebla baja, mañanas grises y una terraza que en agosto parece el centro de la vida y en noviembre se usa a medias. Conviene probar un día con el viento que trae la central térmica y la cementera, no solo un sábado soleado en Palmera.",
+      "Sin coche se sostiene lo básico en villa y el tren FEVE hacia Gijón —unos quince minutos— organiza muchos días mejor que el volante solo. Los servicios alcanzan 5/10 y hay fibra. En enero el ritmo vuelve a puerto y cercanías: vecinos, comercio de villa, no silencio de estuario. Xivares o la ciudad completa piden trayecto cuando hace falta.",
+      "Conviven familias locales, gente que trabaja en Gijón y quienes eligieron orilla marinera sin mudarse al ensanche. Se oye asturiano en el puerto y castellano en el tren; el castellano basta para lo cotidiano. La vida social pasa por villa metropolitana —faro, playa, cercanías— más que por una plaza aislada. Entre semana manda el ir y venir; en verano Palmera y Carranques suben el volumen.",
+      "La sanidad es cercana: el Hospital de Jove queda a unos diez minutos; Cabueñes, el público de Gijón, alrededor de veinte. Empadronarse aquí abre lo básico en villa; para especialidades se baja a Gijón en poco tiempo. Es sanidad metropolitana usable, no hospital en la misma calle que el faro.",
+      "Ir y volver a Mallorca pide el aeropuerto de Asturias alrededor de los veinticinco minutos, con Palma en verano —peor que Salinas a diez, mejor que Gijón a treinta—. En invierno conviene mirar el calendario real de vuelos, no solo el de agosto en la orilla.",
+      "La vivienda típica es piso o casa de villa junto al casco o al puerto, con poca obra nueva y fibra. Junto a la orilla hay que contar con salitre y ocupación de verano; hacia Aboño, el aire según el viento y la distancia real a la industria. Hay que imaginar la rutina con ese vecino industrial, no solo con el faro.",
+    ],
+    historia: [
+      "El puerto, el faro y el Museo Antón explican Candás como villa marinera con capa de cultura local, pegada a Gijón. El oficio del mar y la cercanía a la ciudad marcan el carácter: no es una foto bonita aislada ni barrio dormitorio sin orilla.",
+      "Aboño —central térmica y cementera— forma parte de la ficha honesta de vivir aquí: no es una foto bonita, es el vecino industrial del oeste de Carreño y del borde de Gijón. Lo que conviene saber combina puerto, tren y área metropolitana con industria pesada a la vista.",
+      "Lo que queda para quien llega es esa tensión: faro y playa de diario, Gijón a quince minutos en cercanías, y un aire que cambia según el viento hacia la central.",
+    ],
+    fuera: [
+      "Palmera y Carranques son las orillas de diario: playas de villa a pocos minutos, agua entre 19 y 21 °C, veraneo en agosto y ritmo más calmado el resto del año. El puerto y el faro permiten una tarde sin alejarse —piedra, barcos, horizonte cercano—.",
+      "Xivares amplía playa hacia el oeste, ya en la lógica de costa abierta junto a la industria. Gijón cubre San Lorenzo, cultura y hospitales a un trayecto corto; Luanco aporta el Cabo Peñas hacia el noroeste.",
+      "Cuando hay más tiempo, la ciudad de mar completa —Cimadevilla, el Muro, Poniente— queda a unos quince minutos en tren. El tiempo libre de Candás es orilla de villa primero; urbe y cabo, después.",
+    ],
+    casa: [
+      "El casco y el entorno del puerto ofrecen pisos y viviendas de villa; hay poca obra nueva y fibra. Junto a la orilla hay que contar con salitre y ocupación de verano; hacia Aboño, el aire según el viento y la distancia real a la central.",
+      "El precio medio ronda 1.650 €/m². Tres habitaciones en la franja asequible se sitúan alrededor de 193.000 euros. Se compra villa marinera junto a Gijón; no se compra aire limpio garantizado todos los días hacia el oeste.",
+      "Los servicios son 5/10. Jove queda a unos diez minutos; Cabueñes, alrededor de veinte. El aeropuerto de Asturias está a unos veinticinco minutos, con Palma en verano. El tren hacia Gijón organiza muchos días mejor que el coche solo.",
+    ],
+    encaja: {
+      si: [
+        "Encaja para quien quiera villa marinera junto a Gijón todo el año —puerto, faro, playas Palmera y Carranques a pocos minutos; Xivares hacia el oeste; Museo Antón— y priorice tren FEVE hacia la ciudad de mar frente al silencio del estuario. Un martes de noviembre se resuelve lo básico en villa: los servicios alcanzan 5/10 y hay fibra; Gijón queda a unos quince minutos en cercanías. Quien busque hospital cerca —Jove a unos diez minutos; Cabueñes, el público, alrededor de veinte— y orilla usable (agua entre 19 y 21 °C) encontrará aquí escala marinera metropolitana, no foto típica de Cudillero ni villa-paseo de Salinas. El precio medio ronda 1.650 €/m²; tres habitaciones en la franja asequible andan alrededor de 193.000 euros.",
+        "El clima es cantábrico suave en la costa de Peñas: unas 1.850 horas de sol y 42 días despejados frente a las 2.800 horas y 120 jornadas claras de Mallorca; caen alrededor de 1.000 milímetros en unos 145 días, con niebla baja y viento bajo. El verano ronda 19 °C: se gana frescura frente a Baleares y se acepta cielo cubierto frecuente. En verano Palmera y Carranques reciben veraneo de villa junto a Gijón —toallas, tráfico, terrazas—; el resto del año el ritmo es de puerto y tren. Encaja quien acepte Aboño —central térmica y cementera al lado— como vecino industrial según el viento a cambio de esa cercanía a la ciudad y al mar de diario.",
+      ],
+      no: [
+        "No encaja si el aire limpio junto a Aboño debe estar garantizado todos los días. La industria vecina es un tema real en Carreño y el oeste de Gijón; eso no se arregla eligiendo otra calle hacia Palmera. Tampoco si se busca villa-playa residencial lejos de la industria, como Salinas hacia Avilés, o el silencio barato de Muros: Candás es villa marinera metropolitana, con precio y carácter distintos.",
+        "Tampoco si se necesita el cielo de Baleares o el aeropuerto a diez minutos. Aquí mandan cubierto (unos 165 días) y verano fresco; Asturias queda a unos veinticinco minutos, con Palma en verano. Quien se decida solo tras un sábado soleado en el puerto, sin probar un día con el viento de Aboño ni un martes de noviembre en villa, descubrirá el trato completo demasiado tarde.",
+      ],
+      veredicto:
+        "Veredicto: Candás es villa marinera junto a Gijón, con Aboño en el trato. Buscaría tres habitaciones hacia el puerto o Palmera —alrededor de 193.000 euros en franja asequible—, tras probar un día con el viento de la industria y un agosto en la orilla. Se ganan Jove a diez minutos, tren a Gijón y playa de diario; se aceptan cielo cantábrico, servicios 5/10, aeropuerto a veinticinco y la central vecina.",
+    },
+    fotosAbrir: [
+      { src: "/fotos/asturias-centro/candas-puerto.jpg", pie: "Puerto de Candás" },
+      { src: "/fotos/asturias-centro/candas-villa.jpg", pie: "Candás: villa marinera de Carreño" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/asturias-centro/candas-faro.jpg", pie: "Faro de Candás" },
+      { src: "/fotos/asturias-centro/candas-paseo.jpg", pie: "Paseo en Candás" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/asturias-centro/candas-playa.jpg", pie: "Playa en Candás" },
+      { src: "/fotos/asturias-centro/candas-palmera.jpg", pie: "Costa de Candás hacia el Pedrero" },
+    ],
+    creditoFotos: credito,
+  }

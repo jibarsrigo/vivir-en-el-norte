@@ -1,0 +1,66 @@
+{
+    escala: "Estuario y miradores",
+    abrir: [
+      "Muros de Nalón reúne unos mil ochocientos habitantes en la orilla oeste de la desembocadura del Nalón, el gran río que llega al Cantábrico entre este concejo y Soto del Barco. No es villa de paseo comercial denso ni pueblo colgado de foto turística: es estuario, horizonte y la Ruta de los Miradores —siete miradores sobre la desembocadura— como paseo de diario. La playa de Aguilar queda a unos cinco minutos; el precio es de los más bajos de Asturias Centro. Quien busca ruido de terrazas encontrará poco; quien busca silencio sobre el agua encontrará el tono del lugar.",
+      "Un martes de noviembre los servicios son 3/10: lo básico en el municipio; Avilés o Pravia cubren el comercio grande. San Agustín, el hospital público de Avilés, queda a unos veinte minutos. El aeropuerto de Asturias está a unos diez —de los mejores tiempos de la zona—, con Palma en verano. La dependencia del coche es alta: el estuario se camina en tramos, pero la semana completa se cose con el vehículo.",
+      "En verano Aguilar y los miradores reciben paseo y algo de afluencia; el ritmo sigue siendo de estuario, no de Cudillero lleno de día. Las patronales locales animan el pueblo unos días —ruido, coches, mesas ocupadas— y después vuelve la calma de ría. Fuera de esos picos, Muros se siente como retiro de orilla: niebla media sobre el Nalón, humedad de desembocadura y vecinos que conocen el silencio de noviembre.",
+      "La población es pequeña y el día a día no pretende autosuficiencia. Hay quien trabaja hacia Avilés, quien eligió el precio y el aeropuerto cercano, y quien prioriza mirar el estuario antes que resolver la compra a pie. La Quinta de Selgas, en El Pito —hacia Cudillero—, queda a un paso y añade una tarde de patrimonio indiano sin abandonar la lógica de concejo tranquilo.",
+      "Muros encaja para quien quiera silencio sobre el Nalón, aeropuerto a diez minutos y poco dinero, aceptando servicios 3/10, fibra parcial y la dependencia del coche como parte del trato —no como detalle menor—.",
+    ],
+    tiempo: [
+      "Muros comparte el cielo cantábrico central, lejos del de Mallorca: unas 1.800 horas de sol y 42 días despejados frente a las 2.800 horas y 120 jornadas claras de la isla. Caen alrededor de 1.100 milímetros en unos 148 días. La niebla es media; el viento, medio. El invierno no congela la calle, pero sí multiplica las mañanas grises sobre el estuario.",
+      "El verano ronda 19 °C, fresco frente a Baleares: se gana frescura y se acepta cielo cubierto frecuente. Aguilar tiene agua entre 19 y 21 °C; el estuario ofrece orilla más calmada que el Cantábrico abierto hacia Cudillero, aunque el baño siga pidiendo días de mar más llana.",
+    ],
+    vivir: [
+      "El invierno en casa se nota por la humedad de desembocadura y la niebla media sobre el Nalón: paredes, armarios y orientación hacia el estuario importan más que la foto típica de los miradores. Una terraza de agosto no garantiza uso de noviembre. Visitar un martes vacío enseña el precio real del silencio.",
+      "Sin coche apenas se resuelve la semana. Los servicios son 3/10: lo básico en el municipio; Avilés o Pravia cubren el comercio grande. En enero Muros es retiro de orilla, no villa con mesas. Los miradores se caminan sin volante; el resto —compra, hospital, gestos— pide vehículo casi cada día.",
+      "La población es pequeña: hay quien trabaja hacia Avilés, quien eligió el precio y el aeropuerto cercano, y quien prioriza mirar el estuario. Se oye asturiano y castellano; el castellano basta para lo cotidiano, pero la vida social es de concejo tranquilo, no de plaza donde todo el mundo se ve. Entre semana manda el silencio; en verano Aguilar y los miradores reciben paseo y algo de afluencia.",
+      "La sanidad pide trayecto: San Agustín, el hospital público de Avilés, queda a unos veinte minutos; el privado Centro Médico de Asturias, en Oviedo, hacia los cuarenta. Empadronarse aquí abre lo básico; para especialidades se baja a Avilés. No es hospital a la puerta del mirador.",
+      "Ir y volver a Mallorca es de los trayectos más cortos de la zona: el aeropuerto de Asturias está a unos diez minutos, con Palma en verano. En invierno el aeropuerto sigue cerca, pero conviene mirar el calendario real de vuelos a Palma, no solo el de agosto.",
+      "La vivienda típica es casa o piso de concejo pequeño hacia el estuario y las parroquias, sin obra nueva. La fibra es parcial —conviene comprobar casa por casa—. Se compra silencio y cercanía al aeropuerto; hay que contar con humedad de ría, acceso y la distancia real a un súper completo.",
+    ],
+    historia: [
+      "La desembocadura del Nalón y la Ruta de los Miradores explican Muros: concejo de estuario y horizonte, no de casco monumental. Los siete miradores no son adorno turístico aislado; son el dato útil del día a día —paseo, luz sobre el río, frontera visual con Soto al otro lado—.",
+      "La Quinta de Selgas, en El Pito, añade patrimonio indiano a un paso: memoria de indianos y jardines cerca de la desembocadura. La historia aquí es de río, mirador y orilla compartida, no de ciudad ni de anfiteatro de puerto.",
+      "Vivir en Muros es aceptar esa escala: poca densidad, mucha humedad de ría y un paisaje que se entiende mejor caminando los miradores un martes vacío que leyendo una guía de un sábado soleado.",
+    ],
+    fuera: [
+      "Los miradores sobre el Nalón son el paseo de diario: siete puntos de vista sobre la desembocadura, con el estuario cambiando de color según la marea y la niebla. Es el tiempo libre que no pide coche ni calendario.",
+      "Aguilar cubre playa a unos cinco minutos —agua entre 19 y 21 °C—, la misma orilla que usa también quien mira hacia Cudillero, pero aquí llega desde un concejo más silencioso. El estuario ofrece orilla calmada frente al Cantábrico bravo de Peñas.",
+      "Al otro lado del Nalón, Soto del Barco aporta San Juan de la Arena y Los Quebrantos. Avilés, a unos quince minutos, resuelve comercio, cultura y hospital cuando el municipio no basta. El mapa de ocio es estuario, playa cercana y ciudad corta —no villa-paseo residencial—.",
+    ],
+    casa: [
+      "Predominan viviendas hacia el estuario y las parroquias: casas y pisos de concejo pequeño, sin obra nueva. La fibra es parcial —conviene comprobar casa por casa—. Hay que contar con humedad de ría, acceso, orientación hacia el Nalón y la distancia real a un súper completo.",
+      "El precio medio ronda 1.100 €/m², el más bajo de la zona. Tres habitaciones en tipologías modestas quedan alrededor de 129.000 euros. Se compra silencio y cercanía al aeropuerto; no se compra autosuficiencia de villa.",
+      "Los servicios son 3/10. San Agustín queda a unos veinte minutos; el privado Centro Médico de Asturias, en Oviedo, hacia los cuarenta. El aeropuerto de Asturias está a unos diez minutos, con Palma en verano. Avilés o Pravia cubren lo que el concejo no da.",
+    ],
+    encaja: {
+      si: [
+        "Encaja para quien quiera vivir el estuario del Nalón todo el año —Ruta de los Miradores con siete miradores sobre la desembocadura; playa de Aguilar a unos cinco minutos— y priorice silencio de orilla frente a villa completa. Un martes de noviembre los servicios son 3/10: lo básico en el municipio; Avilés o Pravia cubren el comercio grande y el coche organiza la semana. Quien busque el precio más asequible de Asturias Centro —alrededor de 1.100 €/m²; tres habitaciones modestas cerca de 129.000 euros— y aeropuerto a unos diez minutos (Asturias, con Palma en verano) encontrará aquí retiro de ría, no foto típica de Cudillero ni paseo de Salinas. El agua en Aguilar anda entre 19 y 21 °C; el estuario ofrece orilla más calmada que el Cantábrico abierto hacia el oeste.",
+        "El clima es el del Cantábrico central, no el de Mallorca: unas 1.800 horas de sol y 42 días despejados frente a las 2.800 horas y 120 jornadas claras de la isla; caen alrededor de 1.100 milímetros en unos 148 días, con niebla media y viento medio. El verano ronda 19 °C: se gana frescura frente al Mediterráneo y se acepta cielo cubierto frecuente. En verano Aguilar y los miradores reciben paseo y algo de afluencia; el ritmo sigue siendo de estuario, no de pueblo colgado lleno. Encaja si has visto un noviembre de niebla sobre el Nalón y siga queriendo esa calma —con fibra parcial comprobada casa por casa— a cambio de no resolver la semana andando.",
+      ],
+      no: [
+        "No encaja si la semana debe resolverse a pie en el propio municipio o si se busca villa-playa con paseo, casas bajas y mesas de enero como Salinas. Muros no lo es: faltan el comercio grande y la densidad de servicios; Avilés, a unos quince minutos, cubre lo que el concejo no da. El hospital público San Agustín queda a unos veinte minutos; el privado Centro Médico de Asturias, en Oviedo, hacia los cuarenta. Eso no se negocia eligiendo otra parroquia junto al estuario.",
+        "Tampoco si se necesita el cielo de Baleares o la vida urbana de Gijón sin trayecto. Aquí mandan cubierto (unos 165 días), niebla media y verano fresco; la dependencia del coche es alta. Quien se decida solo tras un sábado claro en los miradores, sin probar un martes vacío ni la humedad de ría, descubrirá en invierno el precio real del silencio.",
+      ],
+      veredicto:
+        "Veredicto: Muros es la apuesta barata y tranquila del estuario. Buscaría vivienda con vistas claras al Nalón y fibra comprobada —es parcial—, apoyándome en Avilés para el día a día, tras probar un noviembre de niebla y un agosto suave en Aguilar. Se ganan miradores, precio bajo y aeropuerto a diez minutos; se aceptan servicios 3/10, coche casi cada día y San Agustín a veinte.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/asturias-centro/muros-de-nalon-identidad.jpg",
+      pie: "San Esteban (Muros de Nalón): casas del puerto frente al estuario, con el monte detrás",
+    },
+    fotosAbrir: [
+      { src: "/fotos/asturias-centro/muros-miradores.jpg", pie: "Miradores de Muros de Nalón" },
+      { src: "/fotos/asturias-centro/muros-ria.jpg", pie: "Desembocadura del Nalón desde Muros" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/asturias-centro/muros-villa.jpg", pie: "Muros de Nalón: villa sobre el estuario" },
+      { src: "/fotos/asturias-centro/muros-selgas.jpg", pie: "Quinta de Selgas, en El Pito" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/asturias-centro/muros-paseo.jpg", pie: "Paseo en Muros de Nalón" },
+      { src: "/fotos/asturias-centro/muros-nalon.jpg", pie: "Estuario del Nalón" },
+    ],
+    creditoFotos: credito,
+  }

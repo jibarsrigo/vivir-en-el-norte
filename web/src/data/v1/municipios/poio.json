@@ -1,0 +1,95 @@
+{
+  "tipo": "municipio",
+  "slug": "poio",
+  "nombre": "Poio",
+  "n": 18,
+  "zonaId": "pontevedra-e-sanxenxo",
+  "zonaNombre": "Pontevedra e Sanxenxo",
+  "provincia": "Pontevedra",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-pontevedra-e-sanxenxo.ts",
+  "sourceKey": "poio",
+  "sourceExport": "RELATOS_PONTEVEDRA_E_SANXENXO",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "ebf6aa21a20aee65c1b0baa168c53b93964a106389615a82aa4e1b0559e9632b",
+  "relato": {
+    "escala": "Parroquias de ría pegadas a la ciudad",
+    "abrir": [
+      "Poio no tiene un único pueblo, y se siente como varias vidas bajo el mismo ayuntamiento. San Xoán de Poio concentra ayuntamiento, monasterio y servicios; Combarro es la villa histórica de hórreos junto al agua; Lourido y Cabeceira son costa residencial pegada a Pontevedra; Raxó y Samieira se escalonan en ladera hacia Sanxenxo. El municipio reúne unos diecisiete mil habitantes entre la ría delante y el Monte Castrove detrás. Combarro significa probablemente recinto o valle cercado; Raxó y Samieira son parroquias marineras, no barrios de una misma villa.",
+      "Quien vive aquí es gente local, pontevedreses que buscaron agua delante sin alejarse de la capital, y veraneantes que vuelven a las parroquias de costa. Un martes de noviembre, San Xoán resuelve centro de salud, colegio y compra, mientras Combarro conserva tabernas y vecinos tras las fachadas turísticas. En Lourido se cruza a Pontevedra en minutos. Desde Raxó o Samieira el coche cose casa, supermercado y ciudad, aunque la playa quede abajo.",
+      "El 24 de junio, San Xoán celebra hogueras y fiesta patronal alrededor del monasterio. El 16 de julio, Raxó y otros núcleos marineros viven el Carmen con procesión vinculada al mar. El 24 de septiembre, A Mercé reúne actos en Poio. Combarro suma festivales y gran afluencia durante el verano: las calles estrechas, el aparcamiento y la PO-308 se saturan. Quien compre en el casco histórico debe conocer un sábado de agosto además de un martes lluvioso.",
+      "No se vive igual en un piso junto al puente de A Barca que en una casa alta con vista a la ría. Lourido funciona casi como borde residencial de Pontevedra con playa; Combarro aporta piedra y marea a cambio de popularidad; Raxó y Samieira escalonan casa y vistas hacia Sanxenxo. Elegir Poio es elegir una de esas escalas, no simplemente un código postal.",
+      "Montecelo y Quirónsalud quedan a unos diez minutos: ventaja que Sanxenxo y O Grove no igualan. Hay fibra y obra nueva. Quien se decida solo tras un martes soleado entre hórreos, sin un sábado de agosto en Combarro ni medir acceso y humedad en una casa de ladera, se llevará una sorpresa."
+    ],
+    "tiempo": [
+      "Poio registra unas 2.300 horas de sol y 72 días despejados, unas quinientas horas y cuarenta y ocho jornadas claras menos que Mallorca. Recibe unos 1.500 milímetros en 125 días. El invierno ronda 10 °C y el abrigo de la ría mantiene bajo el viento, pero una casa en ladera mal orientada puede perder sol pronto y retener humedad. Respecto a Baleares se pierde sol sobre todo en invierno; de junio a septiembre la terraza se usa.",
+      "El verano tiene una media próxima a 20 °C y máximas habituales alrededor de 26 °C, con pocos episodios por encima de 30 °C. Lourido, Cabeceira, Chancelas y Raxó ofrecen agua calma entre 18 y 20 °C: bastante más fresca que el Mediterráneo, pero permite un baño cotidiano sin la exposición atlántica de A Lanzada. Conviene probar un noviembre húmedo en ladera y un sábado de agosto en Combarro, no solo un martes soleado junto a los hórreos."
+    ],
+    "vivir": [
+      "El invierno en Poio se siente en la humedad de las casas de ladera y en el abrigo de la ría. En Mallorca muchas viviendas casi no piensan en calefacción ni en moho; aquí caen unos 1.500 milímetros en 125 días. Una casa mal orientada puede perder sol pronto y retener humedad. Visitar un noviembre en Raxó o Samieira enseña más que un martes soleado entre hórreos de Combarro.",
+      "El día a día sin coche funciona mejor en San Xoán o Lourido: centro de salud, colegio, compra y minutos a Pontevedra. Desde Raxó o Samieira el coche cose casa, supermercado y ciudad. En enero Combarro conserva tabernas y vecinos tras las fachadas turísticas. No se vive igual en cada parroquia.",
+      "Llegar de fuera es habitual entre pontevedreses que buscaron agua delante. Se oye gallego en las parroquias; el castellano basta para lo cotidiano. Entre semana manda el ritmo residencial; en agosto Combarro y la PO-308 se saturan. Si solo buscas foto de hórreos, te quedas con la foto de agosto. Si buscas vecinos todo el año, también los encontrarás en San Xoán.",
+      "La sanidad de urgencia y especialidades está en Pontevedra: Montecelo y Quirónsalud quedan a unos diez minutos. En Poio hay servicios locales; la capital completa hospital. Empadronarse abre lo local; el hospital queda a escala de trayecto corto —ventaja que Sanxenxo y O Grove no igualan—.",
+      "Mantener el vínculo con Mallorca pasa por el avión. Vigo-Peinador está a veinticinco minutos. Conviene mirar el calendario real de vuelos a Palma y contar también Santiago cuando el enlace lo pida. La proximidad a Pontevedra facilita la logística diaria.",
+      "Lourido y A Caeira ofrecen pisos y chalés; Combarro, casas históricas y ladera; Raxó y Samieira, costa y vistas. Hay fibra y obra nueva. En una casa alta hay que comprobar acceso, saneamiento, orientación y humedad; en Combarro, ruido y aparcamiento de verano."
+    ],
+    "historia": [
+      "El Mosteiro de San Xoán de Poio tiene origen medieval y fue casa benedictina antes de pasar a los mercedarios. Su gran hórreo de piedra y madera recuerda la economía agrícola de las parroquias. Hórreo es el granero elevado que ventila maíz y lo protege de la humedad; en Combarro, una treintena se alinea casi tocando la marea.",
+      "Combarro conserva casas marineras, cruceiros y calles de granito declaradas conjunto histórico. Los cruceiros son cruces de piedra situadas en caminos y plazas; aquí dialogan con los hórreos y el puerto. En A Caeira, la ladera frente a Pontevedra, petroglifos de la Edad del Bronce muestran ciervos y círculos grabados mucho antes de la villa actual.",
+      "El municipio se entiende mejor como suma de parroquias que como una villa que hubiera crecido desde una única plaza. San Xoán concentra poder administrativo y memoria monástica; Combarro, la foto marinera típica; Raxó y Samieira, la ladera hacia el Atlántico. Esa suma explica por qué no se vive igual en cada orilla."
+    ],
+    "fuera": [
+      "Lourido y Cabeceira son las playas más cercanas a Pontevedra; Chancelas y Raxó abren pequeñas franjas de arena bajo la carretera de costa. La senda litoral entre Pontevedra y Combarro recorre unos siete kilómetros llanos junto a la ría, aunque algunos tramos urbanos interrumpen la continuidad. El agua suele estar tranquila y entre 18 y 20 °C.",
+      "El Monte Castrove se eleva hasta 613 metros entre las rías de Pontevedra y Arousa. Castrove es el nombre propio de esta sierra baja, cubierta de bosque y pistas; desde sus miradores se entienden Poio, Sanxenxo y O Salnés. Abajo, Combarro permite una vuelta corta entre puerto, hórreos y callejas, mejor temprano o fuera de agosto.",
+      "El tiempo libre aquí puede ir de un baño de ría a media mañana a una tarde de monte o a minutos de ciudad completa. Quien busque más variedad de orilla atlántica mirará Sanxenxo; quien busque peatonalidad total, Pontevedra. Poio gana por equilibrio: agua delante, monte detrás, capital a pocos minutos."
+    ],
+    "casa": [
+      "Lourido y A Caeira ofrecen pisos y chalés ligados a Pontevedra; Combarro mezcla casas históricas y vivienda en ladera; Raxó y Samieira, pisos de costa y casas con vistas. Hay fibra y obra nueva. En una casa alta hay que comprobar acceso, saneamiento, orientación y humedad; en Combarro, ruido y aparcamiento de verano.",
+      "El precio medio ronda 1.900 €/m². La franja asequible se sitúa alrededor de 161.000 euros para dos habitaciones y 222.000 para tres; la franja media de casa con vistas en Raxó o Samieira se mueve aproximadamente entre 220.000 y 280.000 según terreno y estado. El anuncio enseña vistas; conviene ver también un noviembre húmedo y un sábado de agosto en la PO-308.",
+      "Los servicios alcanzan 7/10 y Pontevedra completa hospital, cultura y compras a cinco o diez minutos. Montecelo y Quirónsalud quedan a unos diez; Vigo-Peinador a veinticinco. Es la opción más versátil de la zona: pueblo de ría con ciudad completa al lado."
+    ],
+    "encaja": {
+      "si": [
+        "Encaja si se busca agua delante, monte detrás y una ciudad completa a pocos minutos. Lourido funciona casi como borde residencial de Pontevedra con playa de ría; Combarro aporta casas marineras y hórreos —graneros elevados— junto a la marea; Raxó y Samieira escalonan casa y vistas hacia Sanxenxo; San Xoán concentra monasterio, ayuntamiento y servicios. El Monte Castrove (613 m) cierra el horizonte. Un martes de noviembre se cruza a Pontevedra en minutos desde Lourido; desde las parroquias altas el coche cose compra y ciudad. El verano ronda máximas cerca de 26 °C con pocos días sobre 30 °C —mucho más fresco que Mallorca—, a cambio de unos 1.500 milímetros y 125 días de lluvia.",
+        "También encaja si se acepta coche desde Raxó o Samieira a cambio de casa baja y baño cotidiano a 18–20 °C. Hospital público y privado quedan a unos diez minutos —ventaja que Sanxenxo y O Grove no igualan—. Dos habitaciones en franja asequible rondan 161.000 euros; tres, unos 222.000 a ~1.900 €/m²; casa con vistas en Raxó o Samieira, aproximadamente 220.000–280.000 según terreno y estado. Quien priorice equilibrio entre pueblo de ría y capital próxima encontrará aquí la opción más versátil de la zona."
+      ],
+      "no": [
+        "No encaja si una calle turística llena en agosto arruina la experiencia. Combarro recibe excursiones; la PO-308 se carga; aparcar cuesta. San Xoán es más práctico y menos pintoresco: hay que decidir qué escala importa. San Xoán (24 de junio), el Carmen en núcleos marineros y A Mercé añaden noches activas.",
+        "Tampoco si se pretende hacer toda la semana andando desde Raxó o Samieira. La costa es lineal y en ladera; el coche enlaza playa, compra y Pontevedra. Para peatonalidad real, la capital funciona mejor. Quien se decida solo tras un martes soleado entre hórreos, sin un sábado de agosto en Combarro ni medir acceso y humedad en una casa de ladera, se llevará una sorpresa. Sanxenxo da más variedad de playas y mucha más saturación; Pontevedra, más vida a pie sin baño en la puerta."
+      ],
+      "veredicto": "Veredicto: Poio encaja como equilibrio entre pueblo de ría y ciudad próxima —tres habitaciones en Lourido o San Xoán si mandan hospital y compra; casa en Raxó o Samieira si hay que contar con vistas y baño, siempre probando acceso y tráfico de agosto; Combarro solo tras medir el coste cotidiano de su popularidad—. Sobre todo si agua, Castrove y Montecelo a diez importan más que silencio de noviembre en Silgar. Se ganan servicios 7/10 y verano fresco frente a Mallorca; se aceptan 125 días de lluvia y coche desde las parroquias altas. Si mandan peatonalidad total, Pontevedra; si playa y temporada, Sanxenxo; si marisco y península, O Grove."
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/pontevedra-e-sanxenxo/poio-combarro.jpg",
+        "pie": "Combarro: casas marineras y hórreos al borde de la ría"
+      },
+      {
+        "src": "/fotos/pontevedra-e-sanxenxo/poio-raxo.jpg",
+        "pie": "Raxó, parroquia marinera escalonada sobre el agua"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/pontevedra-e-sanxenxo/poio-mosteiro.jpg",
+        "pie": "Mosteiro de San Xoán de Poio, centro histórico del municipio"
+      },
+      {
+        "src": "/fotos/pontevedra-e-sanxenxo/poio-horreos.jpg",
+        "pie": "Los hórreos de Combarro, graneros elevados frente a la marea"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/pontevedra-e-sanxenxo/poio-lourido.jpg",
+        "pie": "Lourido, playa de ría a las puertas de Pontevedra"
+      },
+      {
+        "src": "/fotos/pontevedra-e-sanxenxo/poio-castrove.jpg",
+        "pie": "El Castrove, monte y mirador detrás de las parroquias"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

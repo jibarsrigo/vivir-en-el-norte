@@ -1,0 +1,57 @@
+{
+    escala: "Villa en la boca del Miño",
+    abrir: [
+      "Caminha se siente más frontera que mapa. Unos dieciséis mil habitantes en el concelho: plaza histórica con la Torre do Relógio —resto de la muralla medieval— y la iglesia matriz, desembocadura del Miño con el pinar hacia el Forte da Ínsua —fuerte del siglo XVII sobre un islote en la boca del río—, ferry estacional a A Guarda y Serra d'Arga —825 m de granito y aldeas de piedra— detrás. Playas de Foz do Minho —estuario, agua más templada— y Moledo a unos cinco minutos. Galicia está enfrente: no es metáfora; se ve.",
+      "Quien vive aquí es gente local, peregrinos del Camino Portugués de la Costa que cruzan la villa todo el año, y veraneantes que vuelven cuando el estuario se llena. Un martes de noviembre se camina la plaza, se mira A Guarda al otro lado y se resuelve parte del día a día en escala de villa: servicios 5/10. El Hospital de Santa Luzia —Viana— queda a unos treinta minutos. El aeropuerto de Porto anda alrededor de los sesenta —Palma en verano—. Para la plaza y el café no hace falta coche; para el hospital y el súper grande, sí.",
+      "En verano Foz do Minho, el pinar y el ferry reciben más afluencia: ruido, aparcamiento justo, mesas ocupadas. El viento es medio. Hay poca obra nueva; fibra sí. El tráfico de la N-13 se nota en temporada; el resto del año es villa de desembocadura. Quien busque silencio de enero lo encontrará; quien busque terraza abierta también, con el río abriéndose al Atlántico delante.",
+      "El Camino Portugués de la Costa pasa por la villa: mochilas, sellos, un flujo de gente que no para en noviembre. Primavera y otoño son buenas épocas para conocerlo: Arga verde, estuario sin saturación, ferry cuando opera. Si solo conoces un sábado soleado en la Torre do Relógio, te llevas la imagen de folleto. Si has visto viento medio y un día de desembocadura llena, ya puedes decidir si de verdad quieres vivir aquí.",
+      "Caminha no promete ciudad completa ni hospital a cinco minutos. Promete boca del Miño, Galicia enfrente y playa a cinco a cambio de servicios medios y mar frío. Quien acepte ese trato entenderá el sitio al primer paseo hacia el pinar de la Ínsua.",
+    ],
+    tiempo: [
+      "Si vienes de Baleares, el cielo de Caminha es de los más limpios de la tabla. Suma unas 2.500 horas de sol y unos 78 a 80 días despejados —junto con el Litoral Norte, el mejor registro del estudio—, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.450 milímetros en unos 112 a 115 días. El viento es medio: la nortada se nota, sin el golpe de Moledo. De noviembre a febrero la terraza se usa menos; de junio a septiembre, casi siempre.",
+      "El verano en la costa ronda 20,5 °C, con tres a seis días sobre 30 °C: fresco frente al calor sostenido de Mallorca. Foz do Minho —estuario, más templado— y Moledo tienen agua entre 16 y 18 °C en agosto. Julio y agosto llueven poco —dos a cinco días—, pero el invierno moja de verdad. Conviene venir un día de viento y un noviembre, no solo un sábado de sol en la plaza.",
+    ],
+    vivir: [
+      "El invierno en Caminha moja de verdad: alrededor de 1.450 milímetros y terraza que se usa menos de noviembre a febrero. Humedad de desembocadura, salitre hacia Foz do Minho y viento medio piden aislamiento y calefacción. Probar un día de viento y un noviembre evita firmar solo por la Torre do Relógio en sol.",
+      "Sin coche, la plaza y el café se resuelven a pie; para el hospital y el súper grande hace falta vehículo. Los servicios son 5/10. En enero la villa de desembocadura sigue abierta; el Camino Portugués de la Costa aporta mochilas todo el año. Quien viva junto a Foz do Minho notará más afluencia de verano; en el casco, ritmo de plaza histórica.",
+      "Conviven gente local, peregrinos del Camino y veraneantes que vuelven cuando el estuario se llena. El portugués manda; Galicia está enfrente —se ve— y el ferry estacional a A Guarda convierte el otro país en gesto cotidiano. La integración pasa por frontera vivida, plaza y Camino, no por colonia cerrada entre pinos.",
+      "El Hospital de Santa Luzia —Viana— queda a unos treinta minutos. Hay que contar con seguro privado portugués —Trofa Saúde, Braga, alrededor de sesenta minutos—. No hay hospital en el municipio ni sanidad pública española de diario: se asume Portugal, público más lento y privado de referencia lejos.",
+      "Porto–Sá Carneiro anda alrededor de los sesenta minutos —Palma en verano—. Ir y volver a Mallorca suele concentrarse en temporada vía Porto; el trayecto no es el de Vila do Conde a quince minutos. Conviene mirar el calendario real. El régimen fiscal especial para residentes extranjeros se cerró en 2024.",
+      "El casco y el entorno de la desembocadura ofrecen viviendas de villa; hay poca obra nueva y fibra. El modelo es piso o casa de villa, no urbanización cerrada. Junto a Foz do Minho hay que contar con salitre, viento y ocupación de verano. Orientación y un día de afluencia en la boca del río antes de comprar.",
+    ],
+    historia: [
+      "La Torre do Relógio, la iglesia matriz y la plaza explican Caminha: villa histórica en la boca del Miño, puerta de entrada y de vigilancia cuando el río era frontera de guerra. El Forte da Ínsua —isla fortificada del siglo XVII frente a la desembocadura— marca ese oficio de guardar la boca; hoy es paseo y foto turística por el pinar cuando la marea y el acceso lo permiten. El ferry a A Guarda convierte Galicia en gesto cotidiano: se mira el otro país y, cuando opera el barco, se corta el estuario en minutos.",
+      "La Serra d'Arga detrás completa la ficha de río, mar y monte: aldeas de piedra, caballos, rutas desde el concelho. El Camino Portugués de la Costa añade mochilas todo el año. Lo que conviene saber es de villa de desembocadura: torre, fuerte, plaza y frontera permeable, no lista seca de fechas.",
+    ],
+    fuera: [
+      "La plaza, Foz do Minho —playa de estuario a unos minutos del casco, agua más mansa que el Atlántico abierto— y el pinar hacia el Forte da Ínsua son la tarde de diario. El ferry a A Guarda corta el estuario cuando opera: Portugal y Galicia en el mismo aliento.",
+      "Moledo queda a unos cinco minutos: arenal largo, dunas, nortada, kite y surf. Arga se sube desde el concelho —Santo João d'Arga, aldeas de granito— cuando apetezca monte detrás del mar. Viana anda alrededor de treinta minutos: ciudad, hospital, comercio.",
+      "La Ecovia do Litoral Norte —pasarelas de madera hacia el sur— y el Camino de costa completan los caminos. Quien viva aquí tiene desembocadura a la puerta y océano a cinco minutos; el baño cómodo de ría gallega queda más lejos, hacia Cesantes, si algún día se busca agua más templada.",
+    ],
+    casa: [
+      "El casco y el entorno de la desembocadura ofrecen viviendas de villa; hay poca obra nueva y fibra. El modelo es piso o casa de villa, no urbanización cerrada. Junto a Foz do Minho hay que contar con salitre, viento y ocupación de verano; conviene la orientación y probar un día de afluencia en la boca del río.",
+      "El precio medio ronda 1.900 €/m². Tres habitaciones en la franja asequible se sitúan alrededor de 222.000 euros. Quien busque primera línea de estuario pagará el paisaje; quien se retire unas calles ganará calma de noviembre.",
+      "Los servicios son 5/10. Santa Luzia —Viana— queda a unos treinta minutos. Porto–Sá Carneiro está a unos sesenta. Hay que contar con seguro privado portugués —Trofa Saúde, Braga, alrededor de sesenta minutos—. Conviene probar un martes de plaza y un día de desembocadura llena antes de comprar.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere villa histórica en la boca del Miño con Galicia enfrente todo el año, no solo en agosto. La plaza —Torre do Relógio, iglesia matriz—, el pinar hacia el Forte da Ínsua y el ferry estacional a A Guarda convierten la frontera en gesto cotidiano: se mira el otro país y, cuando opera el barco, se corta el estuario en minutos. Foz do Minho y Moledo quedan a unos cinco minutos; la Serra d'Arga cierra el horizonte por detrás. Un martes de noviembre se camina la plaza sin depender del veraneo. Quien priorice desembocadura, Camino Portugués de la Costa y sol de costa —unas 2.500 horas, de las mejores de la tabla— frente a ciudad completa encontrará aquí una villa reconocible a unos 1.900 €/m².",
+        "También encaja para quien acepte el Atlántico frío y un verano fresco frente a Mallorca. Las máximas costeras rondan 20,5 °C, con pocos días sobre 30 °C; el agua anda entre 16 y 18 °C en agosto —Foz do Minho, de estuario, algo más templada—. Llueven alrededor de 1.450 milímetros en unos 112 días: el invierno moja de verdad. Los servicios son 5/10; Santa Luzia, en Viana, queda a unos treinta minutos. Hay que contar con seguro privado portugués.",
+      ],
+      no: [
+        "No encaja si se necesitan servicios densos a pie, agua de mar templada o hospital a menos de media hora. Falta hospital en el municipio; el privado de referencia —Trofa Saúde, Braga— anda alrededor de los sesenta minutos. Tampoco si el silencio de agosto junto a Foz do Minho es condición: desembocadura y ferry reciben afluencia en temporada.",
+        "Tampoco encaja si se busca el régimen fiscal especial para residentes extranjeros —cerrado en 2024— o un aeropuerto a menos de una hora: Porto queda a unos sesenta minutos. Quien se decida solo tras un sábado soleado en la plaza, sin probar viento medio ni un día de desembocadura llena, se llevará una villa distinta.",
+      ],
+      veredicto:
+        "Veredicto: Caminha es villa de desembocadura —plaza histórica, Ínsua y ferry a A Guarda a cambio de servicios medios y mar frío—. Buscaría tres habitaciones hacia el casco o Foz do Minho, fuera del tramo más ocupado en agosto, tras probar un martes de noviembre y un día de afluencia en la boca del río. Se ganan Galicia enfrente, playas a cinco minutos y ~1.900 €/m²; se aceptan servicios 5/10, agua a 16–18 °C, hospital a unos treinta minutos y seguro privado portugués. Si mandan playa abrigada y mercado a pie, Âncora; si hay que contar con aldea de granito y Viana a quince, Afife-Carreço; si la foto típica es río y torre frente a Portugal, Caminha justifica la escala.",
+    },
+    fotosAbrir: [
+      { src: "/fotos/alto-minho/caminha-plaza.jpg", pie: "Plaza histórica de Caminha" },
+      { src: "/fotos/alto-minho/caminha-torre.jpg", pie: "Torre do Relógio, Caminha" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/alto-minho/caminha-iglesia.jpg", pie: "Iglesia matriz de Caminha" },
+    ],
+    fotosFuera: [],
+    creditoFotos: credito,
+  }

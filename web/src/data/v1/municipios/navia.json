@@ -1,0 +1,94 @@
+{
+  "tipo": "municipio",
+  "slug": "navia",
+  "nombre": "Navia",
+  "n": 49,
+  "zonaId": "asturias-occidente",
+  "zonaNombre": "Asturias Occidente",
+  "provincia": "Asturias",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-asturias-occidente.ts",
+  "sourceKey": "navia",
+  "sourceExport": "RELATOS_ASTURIAS_OCCIDENTE",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "e21f358bd370a35170b3bc8bf65cbf241b249f7b87eb8a361cacab488e44b35a",
+  "relato": {
+    "escala": "Villa de servicios en su ría",
+    "abrir": [
+      "Navia se siente útil antes que de foto turística. Unos ocho mil quinientos habitantes en la villa de servicios de la Asturias occidental: ría, paseo, playa a cinco minutos, Puerto de Vega —uno de los pueblos marineros más bonitos de la costa— a cinco, castro de Coaña cerca y la A-8 a mano. Es la opción práctica: hospital, autovía y comercio, con menos marco de villa blanca que Luarca y menos ola en la puerta que Tapia.",
+      "Quien vive aquí es gente local, trabajadores de la comarca y quien priorizó Jarrio y gestos diarios. Un martes de noviembre se resuelve centro de salud, mercado, comercio y hasta cine en el municipio. Los servicios de ficha son 5/10 —villa completa para el día a día; el atractivo turístico no es el foco—; hay fibra. El Hospital de Jarrio queda a unos diez minutos —el mejor tiempo de la zona—. El aeropuerto de Asturias anda alrededor de los cincuenta y cinco minutos, con Palma en verano.",
+      "El tráfico es de villa casi todo el año. En verano la playa, Frexulfe —monumento natural—, Barayo —reserva hacia Valdés— y Puerto de Vega reciben veraneo: toallas, coches y terrazas. Las patronales locales animan el casco unos días. Vivir junto al paseo o a la orilla significa contar con semanas más ruidosas; hacia el interior de la villa, el ritmo de trabajo sigue.",
+      "La semana tiene rutinas claras de villa: mercado, comercio, paseo de ría, bajar a Puerto de Vega cuando apetezca belleza concentrada, Frexulfe o Barayo cuando el día pida orilla más salvaje. Primavera y otoño son buenas épocas para conocerlo: la ría se pone verde e intensa; en noviembre la niebla media —más llevadera que en Tapia o Castropol— enseña el cielo real. Si solo conoces agosto en la playa, te llevas la imagen de folleto de la orilla. Si has visto un martes de gestos resueltos, ya puedes decidir si quieres esa practicidad.",
+      "Fuera de temporada Navia es villa completa y útil. Encaja para quien priorice Jarrio a diez minutos y servicios, y acepte que la foto más bonita a menudo está a cinco minutos, no concentrada en cada esquina del casco."
+    ],
+    "tiempo": [
+      "Si vienes de Baleares, el contraste es de cielo gris frecuente, no de invierno glacial. Navia suma unas mil novecientas horas de sol y unos cuarenta días despejados, frente a las dos mil ochocientas horas y ciento veinte jornadas claras de Mallorca. Caen alrededor de mil milímetros en unos ciento cuarenta días. La niebla es media; el viento, medio. También en verano llueve varios días al mes.",
+      "El verano ronda dieciocho grados y medio, fresco frente a Baleares. La ría permite baño más usable que el Cantábrico abierto; Frexulfe y Barayo piden días de mar más llana. El agua anda entre dieciocho y veinte grados. Conviene probar un martes de noviembre y un agosto en la orilla antes de comprar solo por el hospital cercano."
+    ],
+    "vivir": [
+      "El invierno en casa se nota por la humedad de ría y un cielo que se cierra con frecuencia, aunque la niebla sea media —más llevadera que en Tapia o Castropol—. Conviene preguntar por calefacción, aislamiento y orientación hacia el paseo: una terraza de agosto no garantiza uso de noviembre. Visitar un martes gris enseña más que firmar solo por el hospital cercano.",
+      "Sin coche la semana se resuelve mejor que en el resto del occidente: centro de salud, mercado, comercio y hasta cine en el municipio; los servicios son 5/10 y hay fibra. En enero Navia es villa completa y útil, no pueblo vacío. Puerto de Vega, Frexulfe o Barayo piden coche o trayecto corto cuando se quiere belleza concentrada; el día a día se resuelve en la villa.",
+      "Conviven gente local, trabajadores de la comarca y quien priorizó Jarrio y gestos diarios. Se oye asturiano en el mercado y en el ayuntamiento; el castellano basta para lo cotidiano. La vida social pasa por comercio, paseo de ría y ritmos de villa más que por una sola foto típica. Entre semana manda el trabajo; en verano la playa, Frexulfe y Puerto de Vega suben el volumen.",
+      "La sanidad es el punto fuerte de la zona: el Hospital de Jarrio queda a unos diez minutos —el mejor tiempo de Asturias Occidente—. Empadronarse aquí abre médico de cabecera y centro de salud en la villa; para especialidades se baja a Jarrio sin el trayecto largo de Castropol. Es sanidad comarcal usable, no hospital en la misma calle que el paseo.",
+      "Mantener el vínculo con Mallorca pasa por Asturias a unos cincuenta y cinco minutos, con Palma en verano; Santiago-Lavacolla sigue hacia las dos horas si hace falta casi todo el año. En invierno el coste no es solo el billete: es la logística de ida y vuelta cuando el cielo cantábrico aprieta. Conviene mirar el calendario real, no solo el de agosto.",
+      "La vivienda típica es piso o casa de villa práctica junto al paseo o el casco: edificios de uso cotidiano, poca obra nueva y fibra. No es el modelo de Indianos densos de Luarca; es vivienda de semana resuelta. Junto a la ría hay que contar con humedad y ocupación de verano; hacia las afueras, acceso y orientación."
+    ],
+    "historia": [
+      "La ría de Navia y el oficio de villa de servicios explican el municipio mejor que un solo monumento: paseo, comercio, A-8 y una escala que resuelve la semana. Puerto de Vega —pueblo marinero de mirador a cinco minutos— aporta la capa de belleza que el casco no concentra toda en una sola foto.",
+      "El castro de Coaña, a unos cinco minutos, añade historia antigua de la comarca: poblado fortificado que se visita en una mañana. Jarrio, en Coaña, convierte la cercanía sanitaria en parte del dato útil de vivir aquí. La historia es de ría, oficio y logística, no de cementerio sobre el acantilado."
+    ],
+    "fuera": [
+      "Si solo hay tiempo para una orilla de diario, el paseo de la ría y la playa a cinco minutos cubren el gesto. Agua más calmada que el Cantábrico abierto, banco, horizonte de estuario. Un martes de junio puedes tener espacio; en agosto hay más toallas y coches hacia la costa.",
+      "Puerto de Vega ofrece mirador y casco marinero sin alejarse: la tarde de foto bonita cuando Navia pide belleza concentrada. Frexulfe —monumento natural— y Barayo —reserva hacia Valdés— amplían el paseo con orillas más abiertas y paisaje protegido.",
+      "El castro de Coaña cubre una mañana de patrimonio. Luarca queda hacia el este si se busca villa blanca; Tapia, hacia el oeste si lo que apetece es surf. La A-8 convierte la villa en base útil más que en isla."
+    ],
+    "casa": [
+      "El entorno del paseo y el casco ofrecen pisos y viviendas de villa: edificios de uso cotidiano, poca obra nueva y fibra. Junto a la ría hay que contar con humedad y ocupación de verano; hacia las afueras, acceso y orientación. No es el modelo de Indianos densos de Luarca; es vivienda de villa práctica.",
+      "El precio medio ronda mil cien euros el metro. Tres habitaciones en la franja asequible se sitúan alrededor de ciento veintinueve mil euros —de las más asequibles de la zona—. La franja media puede ser piso reformado o vivienda con más espacio.",
+      "Los servicios son 5/10. Jarrio queda a unos diez minutos. Asturias está a unos cincuenta y cinco, con Palma en verano; Santiago, hacia las dos horas. Eso es Navia: semana resuelta y orilla cerca; el marco bonito se visita a cinco minutos."
+    ],
+    "encaja": {
+      "si": [
+        "La logística de la zona importa más que la foto del cementerio sobre el acantilado. Navia es villa de servicios en su ría: paseo, comercio, mercado, centro de salud y hasta cine; playa a unos cinco minutos; Puerto de Vega —pueblo marinero de mirador— a cinco; Frexulfe —monumento natural— y Barayo —reserva hacia Valdés— a un trayecto corto; castro de Coaña cerca. Quien quiera resolver un martes de noviembre sin salir del municipio, bajar a la ría o a la playa cuando apetezca y tener el Hospital de Jarrio, en Coaña, a unos diez minutos —el mejor tiempo de Asturias Occidente— encontrará aquí la opción práctica. En verano la orilla, Frexulfe, Barayo y Puerto de Vega reciben veraneo, tráfico y terrazas; hacia el interior de la villa el ritmo de trabajo sigue. Unas 1.900 horas de sol y unos cuarenta días despejados —frente a las 2.800 horas y ciento veinte de Mallorca— mantienen el cielo cantábrico: niebla media (más llevadera que en Tapia o Castropol), verano alrededor de 18,5 °C y agua entre 18 y 20 °C. La ría permite baño más usable que el Cantábrico abierto.",
+        "Funciona si se acepta menos encanto de marco diario que Luarca a cambio de A-8 a mano, precio alrededor de 1.100 €/m² y aeropuerto de Asturias a unos cincuenta y cinco minutos. Los servicios de ficha son 5/10 —villa completa para el día a día; el atractivo turístico no es el foco—. Quien tenga tiempo libre para Puerto de Vega, el paseo de ría y Frexulfe, y use Navia como base útil más que como foto turística, entenderá el sitio: la belleza se visita a cinco minutos; la semana se vive en la villa. Palma en verano cabe desde Asturias; Santiago-Lavacolla sigue hacia las dos horas si hace falta casi todo el año."
+      ],
+      "no": [
+        "Si lo que se busca es la villa blanca de la Costa Verde —puerto, siete puentes sobre el río Negro, cementerio y ermita sobre el acantilado, faro e Indianos como marco de cada tarde—, Navia no lo es. Luarca cubre ese carácter; aquí la foto más bonita está en Puerto de Vega o en Frexulfe, no concentrada en el casco. Tampoco encaja quien necesite el aeropuerto a cuarenta minutos: Asturias anda alrededor de los cincuenta y cinco; Luarca gana ese trayecto. Quien se decida solo por el hospital cerca, sin probar un agosto en la orilla ni un invierno de cielo cubierto, puede descubrir que la practicidad no compensa si el paisaje diario pedía otra cosa.",
+        "El cielo de Baleares no está aquí: llueve con frecuencia, el verano es fresco y Oviedo o Avilés quedan hacia la hora, no a un cuarto de hora. Si la ciudad grande a media hora o el sol mediterráneo son innegociables, esta villa no encaja aunque Jarrio esté a diez minutos. Quien busque solo precio mínimo puede mirar Castropol —alrededor de 1.050 €/m²—, a costa de servicios 3/10 y más distancia a hospital y aeropuerto. Navia pide aceptar menos foto típica a cambio de la semana resuelta."
+      ],
+      "veredicto": "Veredicto: Navia encaja como apuesta práctica de Asturias Occidente —piso o vivienda caminable a paseo y comercio, con Puerto de Vega cerca para el ocio— sobre todo si Jarrio a diez minutos, A-8 y precio alrededor de 1.100 €/m² importan más que el marco de villa blanca. Probar un martes de noviembre y un agosto en la orilla antes de comprar. Se ganan hospital cercano, villa útil y Frexulfe o Barayo a un salto; se aceptan menos encanto que Luarca, cielo cantábrico y Asturias a unos cincuenta y cinco minutos. Quien priorice la foto típica y el vuelo corto, Luarca; quien priorice orilla de surf cuidada, Tapia."
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/asturias-occidente/navia-villa.jpg",
+        "pie": "Navia: villa de servicios en su ría"
+      },
+      {
+        "src": "/fotos/asturias-occidente/navia-ria.jpg",
+        "pie": "Ría de Navia"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/asturias-occidente/navia-coana.jpg",
+        "pie": "Castro de Coaña, cerca de Navia"
+      },
+      {
+        "src": "/fotos/asturias-occidente/navia-paseo.jpg",
+        "pie": "Paseo junto a la ría en Navia"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/asturias-occidente/navia-vega.jpg",
+        "pie": "Puerto de Vega, a minutos de Navia"
+      },
+      {
+        "src": "/fotos/asturias-occidente/navia-playa.jpg",
+        "pie": "Playa cerca de Navia"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

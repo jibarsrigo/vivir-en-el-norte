@@ -1,0 +1,98 @@
+{
+  "tipo": "municipio",
+  "slug": "barreiros",
+  "nombre": "Barreiros",
+  "n": 45,
+  "zonaId": "a-marina",
+  "zonaNombre": "A Mariña",
+  "provincia": "Lugo",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-a-marina.ts",
+  "sourceKey": "barreiros",
+  "sourceExport": "RELATOS_A_MARINA",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "006cbfbb3acb869f4e1be908ba9b8da9f31d33a3e2f3586ac5f4047213777431",
+  "relato": {
+    "escala": "Playas y parroquias",
+    "abrir": [
+      "Barreiros se entiende mejor en agosto que en enero. Unos tres mil habitantes repartidos en unos ocho kilómetros de playas —Arealonga, Altar, Coto, Remior— y parroquias con muchos bloques de apartamentos de los años 2000. As Catedrais quedan a unos cinco minutos. En invierno gran parte de esos bloques se vacían: es costa de segunda residencia más que villa de trabajo densa.",
+      "Un martes de noviembre los servicios son 3/10 y la fibra, parcial: el coche organiza compra y ocio hacia Foz o Ribadeo. Quien vive aquí todo el año acepta orilla delante y villa de apoyo a diez o quince minutos. El Hospital da Mariña queda a unos veinticinco minutos. El aeropuerto de Asturias anda alrededor de los setenta —de los mejores de la zona tras Ribadeo—.",
+      "En verano las playas y As Catedrais concentran afluencia, tráfico y aparcamiento justo: el impacto de vivir aquí es el de temporada alta, no el de una Semana Santa urbana. Quien compre junto a la orilla debe probar agosto; tierra adentro, hacia las parroquias, el silencio vuelve antes —y en enero, de verdad.",
+      "Fuera de temporada Barreiros se queda quieto: calles de bloques vacíos, viento y Cantábrico. Si solo conoces un sábado de sol en los arcos, te llevas la imagen de folleto de la costa. Si has visto un martes de noviembre vacío, ya puedes decidir si quieres vivir a esa escala.",
+      "Encaja mal como vivienda de todo el año si se necesita comercio y vecinos en enero. Encaja mejor como orilla de playa con Ribadeo o Foz cerca."
+    ],
+    "tiempo": [
+      "Barreiros registra unas 1.920 horas de sol y unos 40 días despejados frente a las 2.800 horas y 120 jornadas claras de Mallorca. Caen alrededor de 1.000 milímetros en unos 143 días. Niebla alta; viento medio. El invierno es gris y vacío en muchos bloques; el verano también llovizna.",
+      "El verano ronda 18,5 °C, fresco frente a Baleares. Las playas tienen agua entre 17 y 19 °C; As Catedrais invitan más al paseo entre arcos que al baño largo cuando el Cantábrico está bravo. Conviene probar marea, niebla y un enero quieto, no solo el sol de agosto."
+    ],
+    "vivir": [
+      "El invierno en Barreiros se nota en los bloques de apartamentos: humedad, niebla alta, viento medio y un enero que deja calles quietas y muchas luces apagadas. En Mallorca muchas segundas residencias también se vacían, pero aquí el vacío de temporada define el municipio. Conviene preguntar por la fibra —es parcial—, por cuántas luces quedan encendidas en enero y por rastros de moho, no solo el sol de As Catedrais en agosto.",
+      "El día a día sin coche casi no existe: los servicios son 3/10. El coche organiza compra y ocio hacia Foz o Ribadeo, a unos diez o quince minutos. En enero Barreiros se queda quieto —costa de segunda residencia más que villa de trabajo densa—. Quien viva junto a la orilla o cerca de As Catedrais notará afluencia, tráfico y aparcamiento justo en verano; tierra adentro, hacia las parroquias, el silencio vuelve antes —y en enero, de verdad.",
+      "Llegar de fuera busca kilómetros de arena y arcos, no casco denso. Se oye gallego en las parroquias; el castellano basta para lo cotidiano, pero la vida social de invierno pasa por Foz o Ribadeo como villa de apoyo, no por vecinos estables en cada portal. Entre semana fuera de temporada manda el vacío; en verano playas y As Catedrais concentran temporada alta. Quien se decida solo tras un sábado de sol sin probar un martes de noviembre vacío se encontrará con otra escala.",
+      "La sanidad de urgencia y especialidades no está en el municipio: el Hospital da Mariña queda a unos veinticinco minutos. Empadronarse aquí abre el médico de cabecera local; para hospital se conduce a Burela. Es aceptable en la comarca, no sanidad a pie.",
+      "Mantener el vínculo con Mallorca pasa por el aeropuerto de Asturias, alrededor de los setenta minutos —de los mejores de la zona tras Ribadeo—; Santiago-Lavacolla anda hacia los ciento diez. En invierno el trayecto a menudo implica más logística. Conviene mirar el calendario real de vuelos del año: el acceso al avión es de los más razonables de A Mariña, a cambio de aceptar servicios 3/10 en el municipio.",
+      "Predominan apartamentos de veraneo y viviendas en parroquias; hay poca obra nueva y fibra parcial. Hay que contar con ocupación de agosto, vacío de invierno, humedad y comunidad de vecinos estacional. Conviene comprobar la línea y el estado de la reforma. En un apartamento con escaleras o sin ascensor hay que imaginar la rutina dentro de diez años; orientación al mar y humedad mueven el precio tanto como los metros."
+    ],
+    "historia": [
+      "As Catedrais —aunque el acceso más famoso se asocie a Ribadeo— marcan el paisaje inmediato: arcos de piedra, marea y una de las costas más fotografiadas de Galicia. Barreiros vive a cinco minutos de ese magnetismo; la afluencia define la temporada.",
+      "El urbanismo de bloques de los 2000 explica el carácter de veraneo: plazas de aparcamiento, apartamentos y un invierno que deja calles quietas. Reinante y San Miguel son nombres de orilla y parroquia más que de casco histórico denso: lo que conviene saber es geográfica y de temporada, no de villa señorial."
+    ],
+    "fuera": [
+      "Arealonga, Altar, Coto y Remior ofrecen kilómetros de arena: playa larga de diario cuando el Cantábrico deja. Un martes de junio la toalla cabe; un domingo de agosto, el coche busca cuneta.",
+      "As Catedrais, a cinco minutos, son el gran paseo de acantilado y playa: arcos, marea y la foto turística que llena aparcamientos. Vivir cerca significa contar ese volumen en temporada.",
+      "Foz cubre villa de ría; Ribadeo, casco indiano y A-8; Burela, hospital. El día a día pide coche casi siempre. Aquí la orilla es el activo; el comercio denso, no."
+    ],
+    "casa": [
+      "Predominan apartamentos de veraneo y viviendas en parroquias; hay poca obra nueva y fibra parcial. Hay que contar con ocupación de agosto, vacío de invierno, humedad y comunidad de vecinos estacional. Conviene preguntar por la línea y por cuántas luces quedan encendidas en enero.",
+      "El precio medio ronda unos 1.150 €/m² (cifra orientativa; la muestra puede ser escasa — contrastar Idealista del mes). Tres habitaciones en tipologías de apartamento o vivienda modesta quedan en franja asequible —alrededor de 135.000 euros—; el estado y la orientación al mar mueven el precio.",
+      "Los servicios son 3/10. El Hospital da Mariña queda a unos veinticinco minutos. Asturias está a unos setenta; Santiago-Lavacolla, hacia los ciento diez. Quien acepte Foz o Ribadeo como villa de apoyo gana arena y arcos; quien necesite vecinos en enero, mira otra opción."
+    ],
+    "encaja": {
+      "si": [
+        "Encaja para quien busque kilómetros de arena —Arealonga, Altar, Coto, Remior— y As Catedrais a unos cinco minutos, con el aeropuerto de Asturias alrededor de los setenta minutos —de los mejores de la zona tras Ribadeo— y precio asequible (alrededor de mil ciento cincuenta euros el metro). Un martes de noviembre los servicios son 3/10 y la fibra, parcial: el coche organiza compra y ocio hacia Foz o Ribadeo. Quien acepte esa lógica —orilla de playa con villa de apoyo semanal— y priorice Cantábrico abierto frente a casco denso encontrará aquí unos ocho kilómetros de costa y parroquias. Reinante y San Miguel son nombres de orilla más que de plaza histórica.",
+        "El clima sigue lejos de Mallorca: unas mil novecientas veinte horas de sol y unos cuarenta días despejados frente a las dos mil ochocientas horas y ciento veinte jornadas claras de la isla; niebla alta, verano fresco cerca de dieciocho grados y medio. Las playas tienen agua entre diecisiete y diecinueve grados; As Catedrais invitan más al paseo entre arcos que al baño largo cuando el Cantábrico está bravo. En verano playas y arcos concentran afluencia, tráfico y aparcamiento justo. Encaja mejor como orilla de temporada o segunda residencia que como vivienda de todo el año si se necesitan vecinos estables en enero: gran parte de los bloques de apartamentos de los años 2000 bajan mucho el volumen en invierno por la segunda residencia."
+      ],
+      "no": [
+        "No encaja como vivienda de todo el año si se necesitan comercio denso, mesas abiertas en enero y servicios 6/10. Barreiros es costa de veraneo más que villa de trabajo: falta núcleo urbano completo; Foz y Ribadeo quedan a unos diez o quince minutos para lo diario. Viveiro, Burela y Ribadeo cubren vida densa. El Hospital da Mariña está a unos veinticinco minutos —aceptable en la comarca, no a pie—.",
+        "Tampoco si agosto junto a As Catedrais debe ser silencioso: la afluencia define la temporada, y quien se decida solo con un sábado de sol sin probar un martes de noviembre vacío se encontrará con calles quietas, fibra parcial y coche para casi todo. El cielo de Baleares no está aquí; el gris de invierno sí."
+      ],
+      "veredicto": "Veredicto: Barreiros es playas y veraneo, no villa completa. Buscaría vivienda con fibra comprobada y acceso claro, lejos del atasco de As Catedrais en agosto, tras probar un martes de noviembre vacío y decidir si Foz o Ribadeo pueden ser la villa de apoyo. Se ganan arena, arcos a cinco minutos y Asturias a unos setenta; se aceptan servicios 3/10, hospital a veinticinco minutos e invierno quieto."
+    },
+    "fotoIdentidad": {
+      "src": "/fotos/a-marina/barreiros-identidad.jpg",
+      "pie": "Barreiros: casas junto al mar, con la sierra detrás"
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/a-marina/barreiros-catedrais.jpg",
+        "pie": "As Catedrais a minutos de Barreiros"
+      },
+      {
+        "src": "/fotos/a-marina/barreiros-playa.jpg",
+        "pie": "Playa larga en Barreiros"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/a-marina/barreiros-villa.jpg",
+        "pie": "Núcleo y escala de Barreiros"
+      },
+      {
+        "src": "/fotos/a-marina/barreiros-san-miguel.jpg",
+        "pie": "San Miguel y orilla en Barreiros"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/a-marina/barreiros-reinante.jpg",
+        "pie": "Reinante, playa y costa de Barreiros"
+      },
+      {
+        "src": "/fotos/a-marina/barreiros-costa.jpg",
+        "pie": "Casa de indianos en la costa de Barreiros"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

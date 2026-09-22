@@ -1,0 +1,217 @@
+{
+  "tipo": "zona",
+  "zonaId": "asturias-occidente",
+  "nombre": "Asturias Occidente",
+  "sourcePath": "web/src/components/RelatoAsturiasOccidente.tsx",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "sourceFileHash": "762e6ba8d992c4f242d539c88ec64ce43ec4a19e5952a43e319b0c4f85d6ad64",
+  "contentHash": "ef5b8188387371ce4e6e97dfc8a69c5f4d92e16120a784bbff458a66970888b6",
+  "zonaBaseline": {
+    "id": "asturias-occidente",
+    "zona": "Asturias Occidente",
+    "provincia": "Asturias",
+    "pais": "España",
+    "solHoras": 1925,
+    "despejados": 40,
+    "cubiertos": 165,
+    "lluviaDias": 139,
+    "lluviaMm": 1000,
+    "lluvia": {
+      "oct_mar": "14–17",
+      "peor": "noviembre–enero",
+      "peor_n": "17–18",
+      "verano": "8–11"
+    },
+    "tempVerano": 18.5,
+    "calorAprieta": null
+  },
+  "mallorcaBaseline": {
+    "despejados": 120,
+    "solHoras": 2800,
+    "lluviaDias": 58,
+    "lluvia": {
+      "oct_mar": "6–8",
+      "peor": "octubre–enero",
+      "peor_n": "8",
+      "verano": "1–3"
+    },
+    "viento": "Media",
+    "niebla": "Baja"
+  },
+  "escalas": {
+    "Castropol": "Pueblo blanco sobre la ría",
+    "Tapia de Casariego": "Villa marinera de surf",
+    "Navia": "Villa de servicios en su ría",
+    "Luarca (Valdés)": "Villa blanca de la Costa Verde"
+  },
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Dónde está"
+    },
+    {
+      "type": "p",
+      "text": "Asturias Occidente es la franja verde y marinera del oeste asturiano, entre la ría del Eo —el estuario que marca la frontera con Galicia frente a Ribadeo— y el Cabo Busto, ya hacia Valdés. Una ría es un valle fluvial inundado por el mar: aquí el Eo y la ría de Navia abrigan orillas más calmadas que el Cantábrico abierto, bravo casi siempre."
+    },
+    {
+      "type": "p",
+      "text": "Castropol es el pueblo blanco colgado sobre el Eo, con Figueras —astilleros y el palacio de Peñalba— a un paso y Ribadeo a unos diez minutos. Tapia de Casariego es villa de puerto, casco marinero y surf. Navia concentra servicios en su ría, con Puerto de Vega —uno de los pueblos marineros más bonitos de Asturias— a cinco minutos. Luarca, en el concejo de Valdés, es la «villa blanca de la Costa Verde»: puerto, cementerio sobre el acantilado, faro y casas de Indianos."
+    },
+    {
+      "type": "p",
+      "text": "La A-8 corre paralela a la costa. No hay ciudad dentro de la zona: Oviedo y Avilés quedan a una hora; Ribadeo cubre la frontera gallega desde Castropol. Es costa auténtica, asequible y tranquila, con cielo cantábrico cubierto buena parte del año."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/asturias-occidente/zona-luarca.jpg",
+      "pie": "Luarca: villa blanca de la Costa Verde"
+    },
+    {
+      "type": "h2",
+      "text": "El tiempo comparado con Baleares"
+    },
+    {
+      "type": "p",
+      "text": "Asturias Occidente suma unas 1.925 horas de sol y{\" \"} 40 días despejados al año —en la franja de 1.850 a 1.950 horas y 40 a 42 despejados—. Mallorca ronda 2.800 horas y{\" \"} 120 jornadas claras. La diferencia se concentra en el cielo cubierto y la niebla: de octubre a marzo llueve 14–17 días al mes y{\" \"} noviembre–enero puede alcanzar 17–18."
+    },
+    {
+      "type": "p",
+      "text": "Caen unos 1.000 milímetros en 139 días — cantidad moderada, frecuencia alta—, con unos 165 cubiertos. También en verano llueve 8–11 días al mes. La niebla es alta en Tapia y Castropol; media en Navia y Luarca. El viento es medio."
+    },
+    {
+      "type": "p",
+      "text": "El verano es fresco: la media ronda 18.5 °C, las máximas habituales unos 22-23 °C y apenas uno o dos días superan los 30 °C. Frente al calor sostenido balear se duerme fresco siempre."
+    },
+    {
+      "type": "p",
+      "text": "El agua anda entre 18 y 20 °C en agosto. El mar abierto es bravo; para bañarse con más calma sirven las rías de Navia y del Eo. Penarronda, Frexulfe, Barayo o las playas de Luarca invitan al paseo y al baño corto cuando el Cantábrico lo permite."
+    },
+    {
+      "type": "h2",
+      "text": "Cómo se vive"
+    },
+    {
+      "type": "p",
+      "text": "Un martes de noviembre muestra cuatro escalas distintas. Navia, Tapia y Luarca resuelven comercio, centro de salud y recados en villas caminables —servicios 6/10—. Castropol baja a 3/10: Ribadeo, a unos diez minutos, organiza muchos recados. La dependencia del coche pesa más hacia el extremo occidental; en Luarca y Navia el día a día se resuelve mejor dentro del municipio."
+    },
+    {
+      "type": "p",
+      "text": "Quien vive aquí trabaja en pesca, servicios, veraneo asturiano-madrileño y vida de villa pequeña: ninguno supera los veinte mil habitantes. Agosto anima playas, puertos y el paseo de Luarca con toallas, tráfico y aparcamiento justo. En invierno las villas recuperan ritmo local; Castropol se nota más vacío si se depende solo del pueblo."
+    },
+    {
+      "type": "p",
+      "text": "Las fiestas patronales de cada villa —y el verano en la orilla— cortan calles, suben el ruido y llenan el casco unos días: conviene probar esas fechas, no solo un martes gris. Luarca se conoce sobre todo por su belleza y su puerto, no por un calendario que apague la villa el resto del año."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/asturias-occidente/zona-tapia.jpg",
+      "pie": "Tapia de Casariego: villa marinera de puerto y surf"
+    },
+    {
+      "type": "h2",
+      "text": "Mar, ría y camino"
+    },
+    {
+      "type": "p",
+      "text": "Entre Castropol y Tapia, Penarronda —playa de dunas— marca la orilla compartida. En Tapia el surf mira a Arnao, Anguileiro-Represas y Serantes; el paseo costero y la isla del faro cierran la foto típica de la costa. La ruta costera Tapia–Figueras y el paseo de la ría del Eo —Reserva de la Biosfera Río Eo, Oscos e Terras de Burón— enlazan frontera y acantilado."
+    },
+    {
+      "type": "p",
+      "text": "Navia aporta playa a cinco minutos, Frexulfe —monumento natural—, Barayo —reserva natural hacia Valdés— y Puerto de Vega con paseo y mirador. El castro de Coaña queda a unos cinco minutos. En Luarca las playas 1ª y 2ª están en la villa; Otur, Cueva y Cadavedo a diez o quince minutos. Cabo Busto ofrece senda circular; la ruta de los miradores, el faro y los Jardines de la Fonte Baxa completan la tarde."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/asturias-occidente/zona-navia.jpg",
+      "pie": "Navia: villa de servicios junto a su ría"
+    },
+    {
+      "type": "p",
+      "text": "Tierra adentro, la sierra de la Bobia y los Oscos quedan a unos cuarenta y cinco minutos: verde y lluvioso. El paisaje es de acantilado, ría y prado cantábrico, no de Mediterráneo ni de sierra seca."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/asturias-occidente/zona-castropol.jpg",
+      "pie": "Castropol: pueblo blanco sobre la ría del Eo"
+    },
+    {
+      "type": "h2",
+      "text": "Mercados, fiestas y calendario"
+    },
+    {
+      "type": "p",
+      "text": "Navia, Tapia y Luarca concentran mercado, comercio y mesas abiertas todo el año. Luarca mantiene mercado y vida de villa blanca; Navia añade cine y el ritmo de villa de servicios. En Castropol el comercio diario es fino: Ribadeo cubre gran parte de los recados."
+    },
+    {
+      "type": "p",
+      "text": "Las patronales locales y el verano en playa y puerto son lo que más marca al vivir: ruido, afluencia y aparcamiento justo unos días o semanas. No hay que inventar fiestas oscuras: Luarca se elige por puerto, cementerio sobre el acantilado y faro; el impacto cotidiano viene del veraneo y del calendario de villa pequeña."
+    },
+    {
+      "type": "p",
+      "text": "Pescado de lonja, marisco de ría y cocina asturiana de diario son gastronomía de las villas. Conviene probar la calle elegida en fiestas locales, en agosto junto a la orilla y en un martes de niebla —sobre todo en Tapia y Castropol—."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/asturias-occidente/zona-penarronda.jpg",
+      "pie": "Penarronda: dunas entre Castropol y Tapia"
+    },
+    {
+      "type": "h2",
+      "text": "Qué cuesta una casa"
+    },
+    {
+      "type": "p",
+      "text": "Asturias Occidente es franja asequible. Castropol ronda 1.050 €/m²; Navia, 1.100; Luarca, 1.300; Tapia, 1.350. Tres habitaciones en la franja asequible se sitúan aproximadamente entre 129.000 euros en Navia y 158.000 en Tapia; Luarca ronda 152.000."
+    },
+    {
+      "type": "p",
+      "text": "La franja media cambia de forma: piso en casco de Luarca o Tapia, vivienda hacia la ría en Navia o Castropol, o casas de Indianos rehabilitadas que suben a tramos ya altos de la media. Tipologías de primera línea con vistas al puerto o al acantilado encarecen; el estado de la reforma y la humedad cantábrica pesan más que una cifra única."
+    },
+    {
+      "type": "p",
+      "text": "Hay poca o ninguna obra nueva —casi ninguna en Castropol—. La fibra llega bien en Tapia, Navia y Luarca; es parcial en Castropol. En costa abierta se revisan salitre y viento; en ría, humedad; en Tapia y Castropol, niebla frecuente."
+    },
+    {
+      "type": "h2",
+      "text": "Servicios, hospital, aeropuerto"
+    },
+    {
+      "type": "p",
+      "text": "Navia, Tapia y Luarca alcanzan 6/10 en servicios —villas con centro de salud, comercio y vida diaria—. Castropol queda en 3/10 y se apoya en Ribadeo. Servicios significa vida diaria dentro del municipio —tiendas, farmacia, centro de salud, súper—, no la distancia al hospital. Oviedo y Avilés quedan a una hora."
+    },
+    {
+      "type": "p",
+      "text": "El Hospital de Jarrio, en Coaña —público comarcal—, queda a unos diez minutos desde Navia, veinte desde Tapia y Luarca, y treinta desde Castropol. El privado más usable — Centro Médico de Asturias, en Oviedo— anda alrededor de una hora y diez; el HUCA, en Oviedo, cubre lo que Jarrio no resuelve a unos sesenta minutos."
+    },
+    {
+      "type": "p",
+      "text": "El aeropuerto de Asturias —con Palma en verano— queda a unos cuarenta minutos desde Luarca, cincuenta y cinco desde Navia, setenta desde Tapia y setenta y cinco desde Castropol. Santiago-Lavacolla ofrece Palma casi todo el año y queda a unas dos horas. Es la mejor logística aeroportuaria de las costas occidentales publicadas hasta aquí, sobre todo desde Luarca."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/asturias-occidente/zona-vega.jpg",
+      "pie": "Puerto de Vega: pueblo marinero junto a Navia"
+    },
+    {
+      "type": "encaja",
+      "si": [
+        "Se busca costa asturiana auténtica, precio asequible y villas pequeñas con mar delante, aceptando cielo cantábrico, niebla y verano fresco. Luarca gana por encanto y aeropuerto a cuarenta minutos; Navia, por hospital a diez y servicios prácticos.",
+        "Se valora ría abrigada —Eo o Navia—, surf en Tapia, Puerto de Vega cerca y un mercado inmobiliario todavía asequible frente a otras costas del norte."
+      ],
+      "no": [
+        "Se busca ciudad a media hora, hospital privado cerca o Palma todo el año a menos de una hora de aeropuerto. Aquí Oviedo queda a una hora, el privado también, y Santiago a dos horas."
+      ],
+      "veredicto": "Veredicto de zona: Asturias Occidente gana por villa blanca, ría y precio, no por sol ni ciudad. Si la Asturias verde enamora en una visita, Luarca es la apuesta por encanto y aeropuerto a cuarenta minutos; Navia, la práctica por Jarrio a diez; Tapia, surf y casco marinero; Castropol, pueblo blanco con Ribadeo de apoyo. Antes de elegir, probaría un noviembre de niebla en Tapia o Castropol, unas patronales locales y un agosto en el puerto de Luarca."
+    },
+    {
+      "type": "credito",
+      "text": "Fotos: Wikimedia Commons. Consulta la atribución y licencia en cada imagen."
+    }
+  ],
+  "widgetsOmitidos": [
+    "TablaPrecios (widget en vivo; no congelado con datos 2026)",
+    "EnlaceIdealista (widget en vivo)",
+    "MunicipiosZonaFin (sustituido por lista V1 del manifiesto)"
+  ],
+  "serializationNote": "Prosa extraída del Relato*.tsx del baseline; interpolaciones {zona.*}/{mallorca.*} resueltas con zonas.json del mismo commit. Widgets en vivo (TablaPrecios/Idealista/MunicipiosZonaFin) omitidos a propósito."
+}

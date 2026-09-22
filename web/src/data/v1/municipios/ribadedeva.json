@@ -1,0 +1,95 @@
+{
+  "tipo": "municipio",
+  "slug": "ribadedeva",
+  "nombre": "Ribadedeva",
+  "n": 62,
+  "zonaId": "asturias-oriente",
+  "zonaNombre": "Asturias Oriente",
+  "provincia": "Asturias",
+  "pais": "España",
+  "sourcePath": "web/src/lib/relatos-asturias-oriente.ts",
+  "sourceKey": "ribadedeva",
+  "sourceExport": "RELATOS_ASTURIAS_ORIENTE",
+  "sourceCommit": "5cff55db6c4576476cf4d5ae9ec039d9865ed1aa",
+  "sourceTag": "baseline-pre-revision-2026-09-21",
+  "contentHash": "9a0ac964def1f299a219b5d6ca0158a09d8c00d254171a9b29a69df27c50f926",
+  "relato": {
+    "escala": "Frontera e Indianos",
+    "abrir": [
+      "Ribadedeva se siente frontera vivida, no villa autosuficiente. Unos mil ochocientos habitantes, Colombres —Archivo de Indianos, Quinta Guadalupe, casonas de colores—, Bustio en la ría de Tina Mayor —la desembocadura fronteriza del Deva—, La Franca —playa entre acantilados— a unos diez minutos, cueva del Pindal y Unquera a cinco. Es el último concejo asturiano hacia Cantabria: Picos a unos treinta minutos, Desfiladero de La Hermida a unos veinte, y el mejor tiempo de la zona al aeropuerto de Santander.",
+      "Quien vive aquí es gente local, quien eligió casonas e Indianos a propósito, y quien mira Santander como puerta a Palma casi todo el año. Un martes de noviembre los servicios son 3/10: lo básico en Unquera y Colombres; Llanes cubre villa completa a unos quince minutos. La fibra es parcial: hay que comprobarla casa por casa. Sierrallana, en Torrelavega, queda a unos cuarenta y cinco minutos —la sanidad más débil del oriente en tiempo—. El aeropuerto de Santander anda alrededor de los cincuenta y cinco minutos. Ese mapa no se arregla eligiendo otra casona de Colombres.",
+      "En verano La Franca y la frontera reciben algo de afluencia; el ritmo sigue siendo de concejo pequeño, no de Llanes multiplicando por cinco u ocho. Las patronales locales animan Colombres unos días. Fuera de agosto el silencio de casonas y ría pesa de verdad: un martes vacío enseña el trato mejor que cualquier sábado de sol en la Quinta Guadalupe.",
+      "La semana tiene rutinas distintas a las de una villa: el coche abre Unquera, Llanes a quince minutos, La Franca, La Hermida y los Picos. Primavera y otoño son buenas épocas para conocerlo: Tina Mayor y el desfiladero cambian de luz sin el tráfico de temporada hacia los Picos. Si solo conoces la Quinta un día despejado, te llevas la imagen de folleto de Indianos. Si has visto un noviembre vacío y la dependencia del volante, ya puedes decidir si de verdad quieres vivir aquí.",
+      "El calendario local anima Colombres unos días y la frontera recibe afluencia hacia La Franca y La Hermida en temporada. No es la presión de agosto de Llanes, pero sí hay semanas de coches y mesas. Quien viva solo del municipio notará la dependencia del coche y la fibra parcial como parte del trato, no como fallo de calle."
+    ],
+    "tiempo": [
+      "Si vienes de Baleares, el cielo de Ribadedeva pide el mismo recalibrado que el resto del oriente. Suma unas 1.700 a 1.750 horas de sol y unos cuarenta días despejados, frente a las 2.800 horas y ciento veinte jornadas claras de Mallorca. Caen alrededor de 1.200 a 1.300 milímetros en unos 153 a 155 días. El viento es bajo; el microclima de frontera combina ría y desfiladero cercano. Se gana frescura y quietud relativa; se acepta el cielo mínimo de la tabla.",
+      "El verano ronda 19,5 °C, fresco frente a Baleares. La Franca tiene agua entre 19 y 21 °C; la playa entre acantilados pide días de mar más llana para un baño cómodo. Conviene venir un martes de noviembre y un día de tráfico hacia La Hermida en temporada, no solo un sábado de sol en Colombres."
+    ],
+    "vivir": [
+      "El invierno en casa se nota en las casonas: humedad, reforma y un silencio de noviembre que pesa de verdad. Conviene tocar paredes un día húmedo en Colombres y preguntar por aislamiento y mantenimiento, no solo firmar con sol en la Quinta Guadalupe. La fibra es parcial —casa por casa—; la niebla y el microclima de frontera de Tina Mayor entran en el trato.",
+      "Sin coche la semana no existe. Los servicios son 3/10: lo básico en Unquera y Colombres; Llanes cubre villa completa a unos quince minutos. En enero el concejo es silencio de casonas y ría, no mercado denso. Quien elija Ribadedeva debe asumir el volante hacia Unquera, Llanes, La Franca o La Hermida como norma.",
+      "Conviven gente local, quien eligió Indianos a propósito y quien mira Santander como puerta a Palma. Se oye asturiano y castellano; al otro lado de la frontera, Cantabria entra en el mapa semanal. El castellano basta para lo cotidiano. La vida social es de concejo pequeño y casonas, no de plaza amurallada. Entre semana manda el vacío; en verano La Franca y la frontera suben algo el volumen, sin el golpe de Llanes.",
+      "La sanidad es la más débil del oriente en tiempo: Sierrallana, en Torrelavega, queda a unos cuarenta y cinco minutos. Empadronarse aquí abre lo básico en Unquera o Colombres; para especialidades se baja a Torrelavega o se apoya en Llanes. No es Arriondas a veinte ni Cabueñes a veinticinco.",
+      "Mantener el vínculo con Mallorca es el punto fuerte: el aeropuerto de Santander anda alrededor de los cincuenta y cinco minutos, con Palma casi todo el año —el mejor acceso del oriente—. En invierno esa ventaja importa más que en agosto. Conviene mirar el calendario real de vuelos, no solo el de un sábado en Colombres.",
+      "La vivienda típica es casona de Indianos o casa de uso real hacia Colombres, Bustio y las parroquias: no hay obra nueva y la fibra es parcial. En casonas hay que contar con reforma, humedad y mantenimiento; cerca de La Franca, ocupación de verano. El coste real incluye coche diario y estado de la casa, no solo el metro."
+    ],
+    "historia": [
+      "Colombres y el Archivo de Indianos —Quinta Guadalupe— explican Ribadedeva: concejo de retorno de América y de casonas de colores, no de villa marinera densa. Las casas de indianos no son foto típica suelta: son el carácter del núcleo, la ficha de quien marchó y volvió plantando lujo de lejos en la frontera.",
+      "Bustio y Tina Mayor añaden la capa de ría fronteriza: el Deva como línea vivida entre Asturias y Cantabria. La cueva del Pindal —arte paleolítico— y el Desfiladero de La Hermida —a unos veinte minutos— completan patrimonio de cueva y de garganta. Lo que conviene saber es de Indianos, frontera y Picos cercanos.",
+      "Unquera a cinco minutos y Llanes a unos quince cierran el mapa práctico: Ribadedeva nunca pretendió resolver la semana a pie. Creció como concejo de casonas y orilla, con Cantabria a un paso y Santander como aeropuerto de referencia. Ese sesgo frontera-versus-villa es el carácter del sitio."
+    ],
+    "fuera": [
+      "Si solo hay tiempo para un paseo de diario, ese paseo es Colombres: la Quinta Guadalupe, el Archivo de Indianos y las casonas de colores. Un martes de noviembre el silencio pesa; un día de fiesta local hay más gente y coches. Es núcleo de mirar y caminar, no de mercado denso.",
+      "Bustio cubre la ría de Tina Mayor: agua de frontera, orilla distinta a la playa abierta. A unos diez minutos, La Franca aporta playa entre acantilados —agua entre 19 y 21 °C, baño cuando el mar esté más llano—. En verano hay afluencia; fuera de temporada, la cala vuelve a escala de concejo pequeño.",
+      "El Pindal y La Hermida amplían cueva y desfiladero; los Picos quedan a unos treinta minutos. Llanes cubre villa completa a unos quince; Santander, el aeropuerto a trayecto corto. Aquí el paisaje diario es Indianos y frontera; la playa, la garganta y la montaña son salidas en coche, no umbral a pie de cada casa."
+    ],
+    "casa": [
+      "Predominan viviendas hacia Colombres, Bustio y las parroquias: casonas de Indianos, casas de uso real, no urbanización. No hay obra nueva y la fibra es parcial —hay que preguntar por la línea en esa casa concreta—. En casonas hay que contar con reforma, humedad y mantenimiento; cerca de La Franca, ocupación de verano. Conviene tocar paredes un día húmedo y probar el trayecto a Llanes o Unquera un martes cualquiera.",
+      "El precio medio ronda 1.600 €/m², por debajo de las villas turísticas. Tres habitaciones en la franja asequible se sitúan alrededor de 187.000 euros. La franja media puede ser vivienda en Colombres o hacia La Franca, con el coste real de reforma y coche diario en la cuenta.",
+      "Los servicios son 3/10. Sierrallana queda a unos cuarenta y cinco minutos. Santander está a unos cincuenta y cinco, con Palma casi todo el año. Eso es Ribadedeva: frontera e Indianos a cambio de coche, sanidad lejos y el mejor acceso a Palma del oriente."
+    ],
+    "encaja": {
+      "si": [
+        "La frontera, las casonas de Indianos y Santander a menos de una hora importan más que la villa a pie. Ribadedeva es Colombres —Archivo de Indianos, Quinta Guadalupe, casas de colores—, Bustio en la ría de Tina Mayor, La Franca —playa entre acantilados— a unos diez minutos, cueva del Pindal y Unquera a cinco; los Picos alrededor de los treinta y el Desfiladero de La Hermida a unos veinte. Quien quiera orilla y montaña sin vivir el agosto de Llanes encontrará aquí concejo pequeño: en verano La Franca y la frontera reciben afluencia, pero no se multiplica la población como en la villa amurallada. El verano ronda 19,5 °C, agua entre 19 y 21 °C; unas 1.700 horas de sol y unos cuarenta despejados frente a Mallorca: se gana frescura y quietud relativa; se acepta el cielo mínimo de la tabla. Un martes de noviembre es silencio de casonas y ría, no de mercado denso.",
+        "Funciona si se acepta el coche, los servicios 3/10 —lo básico en Unquera y Colombres; Llanes cubre villa completa a unos quince minutos— y Sierrallana, en Torrelavega, a unos cuarenta y cinco minutos como hospital de referencia. A cambio se gana el mejor aeropuerto del oriente: Santander alrededor de cincuenta y cinco minutos, con Palma casi todo el año —ventaja clara frente a Asturias a setenta y cinco o más desde Ribadesella y Llanes—. El metro ronda 1.600 €/m², por debajo de las villas turísticas. Quien priorice Indianos, Picos cerca y vuelo usable, con fibra parcial comprobada casa por casa, entenderá Ribadedeva como frontera vivida, no como villa autosuficiente."
+      ],
+      "no": [
+        "La semana no se resuelve andando en el concejo: súper completo, muchas mesas y gestos de villa piden Llanes o Unquera. Si la prioridad absoluta es farmacia, mercado y cine a pie sin volante, Llanes o Ribadesella cubren esa opción. El hospital a cuarenta y cinco minutos —Sierrallana, no Arriondas a veinte ni Cabueñes a veinticinco— no se acorta eligiendo otra casona de Colombres; es la sanidad más débil del oriente en tiempo. Quien necesite Hospital del Oriente cerca, Colunga o Ribadesella; quien necesite Gijón, Villaviciosa.",
+        "Tampoco encaja quien busque el cielo de Baleares o el golpe de villa turística con treinta playas delante: aquí se gana por frontera, Indianos y Santander, no por despejados ni por casco amurallado. Quien se decida solo por la Quinta Guadalupe un día de sol, sin probar un noviembre vacío, la dependencia del coche ni un día de tráfico hacia La Hermida y los Picos en temporada, se llevará una sorpresa. Si lo que manda es muro y playas sin número, Llanes; si Sella y villa 7/10 con Arriondas a veinte, Ribadesella."
+      ],
+      "veredicto": "Veredicto: Ribadedeva encaja como frontera e Indianos —vivienda en Colombres o hacia La Franca, con fibra comprobada y apoyo en Llanes o Unquera— sobre todo si Santander a cincuenta y cinco y Picos a treinta importan más que servicios a pie. Probar un martes de noviembre y un día hacia La Hermida en temporada antes de comprar. Se ganan casonas, Tina Mayor, La Franca y el mejor acceso a Palma del oriente a ~1.600 €/m²; se aceptan servicios 3/10, Sierrallana a cuarenta y cinco y el sol mínimo de la tabla. Quien priorice villa caminable y Arriondas a veinte, Ribadesella; quien priorice muro y treinta playas, Llanes."
+    },
+    "fotosAbrir": [
+      {
+        "src": "/fotos/asturias-oriente/ribadedeva-colombres.jpg",
+        "pie": "Colombres, capital de Ribadedeva"
+      },
+      {
+        "src": "/fotos/asturias-oriente/ribadedeva-guadalupe.jpg",
+        "pie": "Quinta Guadalupe, Archivo de Indianos"
+      }
+    ],
+    "fotosHistoria": [
+      {
+        "src": "/fotos/asturias-oriente/ribadedeva-pindal.jpg",
+        "pie": "Cueva del Pindal, Ribadedeva"
+      },
+      {
+        "src": "/fotos/asturias-oriente/ribadedeva-hermida.jpg",
+        "pie": "Desfiladero de La Hermida"
+      }
+    ],
+    "fotosFuera": [
+      {
+        "src": "/fotos/asturias-oriente/ribadedeva-franca.jpg",
+        "pie": "Playa de La Franca"
+      },
+      {
+        "src": "/fotos/asturias-oriente/ribadedeva-frontera.jpg",
+        "pie": "Frontera Asturias–Cantabria en Ribadedeva"
+      }
+    ],
+    "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."
+  }
+}

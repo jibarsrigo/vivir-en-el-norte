@@ -1,0 +1,66 @@
+{
+    escala: "Ciudad pequeña, puerto y parroquias",
+    abrir: [
+      "Vilagarcía de Arousa se siente más ciudad de lo que la comarca promete. Unos treinta y siete mil habitantes, hospital, estación de tren, puerto y comercio: el centro nació de la unión de Vilagarcía, Carril y Vilaxoán. Carril mira a la isla de Cortegada y vive del marisqueo; Vilaxoán conserva puerto pesquero; el casco central reúne estación, mercado y paseo. Arousa es la ría que los tres comparten. No es Fefiñáns; es la logística de O Salnés.",
+      "Quien vive aquí es gente local de puerto, tren y barrio, y quien busca servicios sin depender del veraneo. Un martes de noviembre se puede ir andando al mercado, centro de salud, colegio, tiendas, estación y playa de Compostela. Los trenes alcanzan Santiago en unos veinticinco minutos y conectan con Vigo y Madrid. En las parroquias y laderas hacia Xiabre hace falta el coche a ser útil, pero la ciudad ofrece la menor dependencia de toda la comarca.",
+      "Para lo diario —y para el Hospital do Salnés, a unos cinco minutos— no hace falta gran trayecto. Ese dato pesa: es el único municipio de la zona donde la sanidad comarcal queda a escala de barrio. Quirónsalud Pontevedra anda hacia los treinta minutos.",
+      "San Roque ocupa alrededor de diez días de agosto. El 16, después de llevar al santo a su capilla, la Festa da Auga moja una zona acotada del centro con cubos y mangueras y puede reunir decenas de miles de personas; el Combate Naval añade fuegos en el puerto. La Festa da Ameixa de Carril se celebra en agosto. Centro y Carril viven cortes, ruido, agua, trenes llenos y aparcamiento difícil —hay que contarlos como calendario, no como anécdota—.",
+      "El puerto comercial y la memoria del narcotráfico de los años ochenta y noventa forman parte de la ciudad, pero no resumen su vida actual. Hay barrios tranquilos, actividad durante todo el año y más incidencia registrada que en las villas vecinas. Si solo conoces un día soleado en Compostela, te llevas la imagen de folleto de la ría. Si has escuchado el puerto un día laborable y vivido una noche de Auga, ya puedes decidir si quieres esa calle concreta.",
+    ],
+    tiempo: [
+      "Si vienes de Baleares, notará el cielo más gris y con menos sol que en Mallorca. Vilagarcía registra unas 2.300 horas de sol y 70 días despejados, frente a las 2.800 horas y 120 jornadas claras de Mallorca. Recibe alrededor de 1.450 milímetros en 122 días, algo más que Cambados y A Illa. La media invernal ronda 10 °C; la ría mantiene viento y niebla bajos.",
+      "El verano ronda 19,5 °C, con máximas habituales de 25 o 26 °C y pocos días sobre 30 °C: mucho más fresco que Baleares. Compostela y A Concha tienen agua de ría entre 18 y 20 °C, muy calma. El casco puede sentirse algo más cálido que la isla, pero sin calor sostenido. Conviene venir un día de lluvia seria y un agosto de San Roque, no solo un sábado en el paseo.",
+    ],
+    vivir: [
+      "El invierno en Vilagarcía se siente en la lluvia —unos 1.450 milímetros en 122 días, algo más que Cambados— y en la humedad de bloques antiguos. En Mallorca muchas casas casi no piensan en calefacción ni en moho; aquí conviene preguntar por aislamiento y elegir calle: el puerto no suena igual en todas las plantas. Visitar un día de lluvia seria y un martes laborable enseña más que un sábado en Compostela.",
+      "El día a día sin coche es el punto fuerte de la comarca: mercado, centro de salud, comercio, estación y playa de Compostela caben a pie. En enero la ciudad sigue abierta. En las parroquias hacia Xiabre hace falta el coche, pero la dependencia es la menor de O Salnés.",
+      "Llegar de fuera es habitual en una ciudad de puerto y tren. Se oye gallego y castellano en el mismo barrio. Entre semana manda el ritmo urbano; en agosto San Roque y la Festa da Auga llenan el centro. Quien busque solo casco noble silencioso preferirá Cambados; quien busque vecinos y servicios todo el año, Vilagarcía.",
+      "La sanidad es la más inmediata de O Salnés: el Hospital do Salnés queda a unos cinco minutos; Quirónsalud Pontevedra hacia los treinta. Empadronarse aquí abre cabecera y hospital comarcal a escala de barrio. Es el único municipio de la zona donde la sanidad comarcal queda tan cerca.",
+      "Mantener el vínculo con Mallorca pasa por el avión y el tren. Vigo-Peinador está a cuarenta minutos; Santiago, con enlace casi anual a Palma, a cuarenta y cinco —y a unos veinticinco en tren—. En invierno conviene mirar el calendario real de vuelos. La logística es la más completa de la ría.",
+      "El centro reúne pisos de distintas décadas y obra nueva —rara en el resto de la comarca—; Carril y Vilaxoán mezclan vivienda marinera; las parroquias altas, terreno. Conviene escoger calle respecto al puerto y presupuestar aislamiento acústico además de terraza hacia Compostela.",
+    ],
+    historia: [
+      "La Vilagarcía actual nació de tres villas marineras y del crecimiento portuario y ferroviario. El ferrocarril Santiago-Carril, inaugurado en 1873, fue la primera línea de Galicia; terminaba junto al puerto de Carril para enlazar mercancías y viajeros con la ría. La estación actual mantiene esa ventaja territorial: Santiago a unos veinticinco minutos no es eslogan; es horario.",
+      "Carril es conocido por sus parques de cultivo de almeja y por Cortegada, isla de bosque de laurel integrada en el Parque Nacional das Illas Atlánticas. Vilaxoán conserva casas marineras y puerto. En el centro, el Pazo de Vista Alegre y el convento forman un conjunto histórico junto a una ciudad que creció con comercio y veraneo.",
+      "A Festa da Auga nació espontáneamente en 1984, cuando quienes llevaban a San Roque pidieron agua y los vecinos empezaron a lanzarla desde los balcones. La costumbre se convirtió en el acto más multitudinario del calendario local, un ejemplo de tradición reciente que ya define la ciudad: no hace falta siglo XVI para que una fiesta marque el mapa.",
+    ],
+    fuera: [
+      "Compostela es la playa urbana y se prolonga hacia Carril por un paseo llano; A Concha queda junto al centro. Son arenales de ría, con marea marcada y agua calma entre 18 y 20 °C. Carril añade puerto, bancos marisqueros y la silueta boscosa de Cortegada enfrente. Un martes de junio puedes caminar sin prisa; un domingo de agosto el paseo se llena.",
+      "Cortegada se visita con guía y barco autorizado: senderos cortos atraviesan uno de los mayores bosques de laurel de Europa. Hacia el interior, el Monte Xiabre alcanza 641 metros y abre pistas y vistas; el Monte Lobeira ofrece un mirador más accesible sobre toda la ría. No es sierra de alta montaña; es monte de 400-650 m que basta para una tarde.",
+      "El paseo entre Vilagarcía y Carril funciona como recorrido diario sin coche. Para mar abierto se conduce hacia A Lanzada, a unos treinta minutos. Cambados y Vilanova quedan a trayecto corto cuando apetece villa; A Illa, al otro lado del puente. La ciudad ofrece ría inmediata y monte cercano, no océano en la puerta —y eso hay que aceptarlo con los ojos abiertos—.",
+    ],
+    casa: [
+      "El centro reúne pisos de distintas décadas y promociones nuevas; Carril y Vilaxoán mezclan vivienda marinera, pisos y casas; las parroquias altas ofrecen terreno y vistas a cambio de coche. Hay fibra y es el único municipio de la zona con oferta apreciable de obra nueva. Conviene escoger calle: el puerto y el tráfico no suenan igual en todas las plantas del mismo bloque.",
+      "El precio medio ronda 1.700 €/m². Tres habitaciones en la franja asequible se sitúan alrededor de 199.000 euros. La franja media corresponde a obra reciente, pisos con terraza hacia Compostela o vivienda en Carril; cerca del puerto conviene comprobar ruido y tránsito antes de valorar la vista.",
+      "Los servicios son 8/10: hospital, centros de salud, farmacias, supermercados, mercado, colegios, institutos, comercio, restauración y tren. El Hospital do Salnés queda a unos cinco minutos y Quirónsalud Pontevedra a unos treinta. Vigo-Peinador está a cuarenta minutos y Santiago, con enlace casi anual a Palma, a cuarenta y cinco. Eso es Vilagarcía: la logística más completa de la ría, y la armonía de villa en otro municipio.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si hospital, tren y vida sin coche importan más que el encanto de una villa pequeña. Centro, mercado, estación y playa de Compostela caben a pie; Santiago queda a unos veinticinco minutos en tren; el Hospital do Salnés, a unos cinco. Carril añade marisqueo y la silueta de Cortegada —isla de laurel del Parque Nacional das Illas Atlánticas—; Xiabre y Lobeira dan monte y mirador. Un martes de noviembre la ciudad sigue abierta: comercio, colegios, lonja y paseo. El verano ronda 19,5 °C con máximas de 25–26 °C —mucho más fresco que Mallorca—, a cambio de unos 1.450 milímetros y 122 días de lluvia, algo más húmedo que Cambados o A Illa.",
+        "También encaja si se quiere agua calma de ría (18–20 °C) y la logística más completa de O Salnés. Tres habitaciones en franja asequible rondan 199.000 euros a ~1.700 €/m²; hay fibra y obra nueva, rara en el resto de la comarca. Servicios 8/10: especialistas, súper, institutos y restauración forman parte de la semana, no de una escapada. Quien priorice resolver sanidad, tren y compras dentro del mismo municipio —aceptando trama urbana desigual— encontrará aquí la base práctica de la ría de Arousa.",
+      ],
+      no: [
+        "No encaja si se busca un casco noble y silencioso. El puerto comercial, el tráfico y una trama desigual exigen escoger calle; Cambados ofrece más piedra y carácter con menos servicios. La incidencia registrada (48/1.000) es mayor que en las villas vecinas: no resume la ciudad actual, pero tampoco se ignora eligiendo otra planta del mismo bloque.",
+        "Tampoco si agosto debe ser tranquilo. San Roque, la Festa da Auga —agua desde balcones sobre el centro— y el Combate Naval llenan calles y puerto; la Festa da Ameixa de Carril añade otra oleada. Quien se decida solo tras un día soleado en Compostela, sin escuchar el puerto un día laborable ni vivir una noche de Auga, se llevará una sorpresa. Vilanova da más calma; Cambados, más armonía de villa.",
+      ],
+      veredicto:
+        "Veredicto: Vilagarcía encaja como elección logística de O Salnés —tres habitaciones entre estación, mercado y Compostela, fuera de la zona más húmeda de San Roque y tras escuchar el puerto; Carril si hay que contar con paseo y marisqueo—. Sobre todo si hospital a cinco, tren y servicios 8/10 importan más que Fefiñáns. Probar agosto y un noviembre antes de comprar. Se ganan Santiago a veinticinco en tren y baño urbano de ría; se acepta ciudad portuaria menos armoniosa, más lluvia que la isla y precio por encima de Vilanova. Si mandan piedra y vino, Cambados; si calma y ~1.350 €/m², Vilanova; si calas a pie, A Illa.",
+    },
+    fotoIdentidad: {
+      src: "/fotos/o-salnes/vilagarcia-de-arousa-identidad.jpg",
+      pie: "Vilagarcía–Carril: casas junto a la ría de Arousa y el monte detrás",
+    },
+    fotosAbrir: [
+      { src: "/fotos/o-salnes/vilagarcia-paseo.jpg", pie: "Vilagarcía y Carril: ciudad, puerto y ría de Arousa" },
+      { src: "/fotos/o-salnes/vilagarcia-compostela.jpg", pie: "Compostela, playa urbana unida al centro por paseo" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/o-salnes/vilagarcia-vista-alegre.jpg", pie: "Vista Alegre, pazo y convento dentro de la ciudad" },
+      { src: "/fotos/o-salnes/vilagarcia-estacion.jpg", pie: "El tren mantiene la ventaja histórica de Vilagarcía" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/o-salnes/vilagarcia-carril.jpg", pie: "Carril: puerto, marisqueo y Cortegada al fondo" },
+      { src: "/fotos/o-salnes/vilagarcia-cortegada.jpg", pie: "Cortegada, isla de laurel frente a Carril" },
+    ],
+    creditoFotos: credito,
+  }

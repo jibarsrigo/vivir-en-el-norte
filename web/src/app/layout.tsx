@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces, Source_Sans_3 } from "next/font/google";
 import Cabecera from "@/components/Cabecera";
+import PieGlobal from "@/components/PieGlobal";
 import "./globals.css";
 
 const serif = Fraunces({
@@ -27,6 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={`${serif.variable} ${sans.variable} font-sans antialiased`}>
         <Cabecera />
         {children}
+        <PieGlobal />
       </body>
     </html>
   );

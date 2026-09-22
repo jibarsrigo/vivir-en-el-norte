@@ -16,6 +16,7 @@ Uso:
   python scripts/sync_master_v15_to_web.py --check
 
 No escribe el XLSX. No toca CSV, relatos, zonas ni capas.
+No escribe bajo web/src/data/v1/ (archivo histórico congelado).
 No inventa minutos ni reduce textos 2026 a campos históricos.
 No rellena campos selectivos vacíos en v15.
 No deriva scores/predicciones de CASA/reventa.
@@ -381,7 +382,11 @@ def map_master_to_product(master: list[dict], by_n: dict[int, dict]) -> None:
 
 def write_files(files: dict[str, list[dict]]) -> None:
     for fname, rows in files.items():
+        if "v1" in Path(fname).parts or str(fname).replace("\\", "/").startswith("v1/"):
+            raise SystemExit(f"ABORT: sync no puede escribir en archivo V1 ({fname})")
         path = DATA_DIR / fname
+        if "v1" in path.parts:
+            raise SystemExit(f"ABORT: sync no puede escribir en archivo V1 ({path})")
         path.write_text(
             json.dumps(rows, ensure_ascii=False, indent=4) + "\n",
             encoding="utf-8",

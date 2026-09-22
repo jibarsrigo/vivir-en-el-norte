@@ -40,12 +40,18 @@ export default async function PaginaMunicipio({
         {ficha.municipio}
       </h1>
       <p className="mt-2 text-[var(--tinta-suave)]">{ficha.provincia}</p>
-      <p className="mt-3">
+      <p className="mt-3 flex flex-wrap gap-x-4 gap-y-1">
         <Link
           href={`/compara/?con=${ficha.slug}`}
           className="text-sm font-semibold text-[var(--acento)] underline-offset-2 hover:underline"
         >
           Comparar con…
+        </Link>
+        <Link
+          href={`/v1/zona/${z.id}/${ficha.slug}/`}
+          className="text-sm text-[var(--tinta-suave)] underline-offset-2 hover:underline"
+        >
+          V1
         </Link>
       </p>
 

@@ -85,6 +85,14 @@ export default async function PaginaZona({ params }: { params: Promise<{ id: str
         {z.provincia}
       </p>
       <h1 className="mt-2 font-[family-name:var(--font-serif)] text-4xl text-[var(--acento)]">{z.zona}</h1>
+      <p className="mt-2">
+        <Link
+          href={`/v1/zona/${z.id}/`}
+          className="text-sm text-[var(--tinta-suave)] underline-offset-2 hover:underline"
+        >
+          V1
+        </Link>
+      </p>
       {z.calorAprieta ? (
         <p className="mt-3 font-semibold text-[var(--calor)]">El calor aprieta en {z.calorAprieta}.</p>
       ) : (

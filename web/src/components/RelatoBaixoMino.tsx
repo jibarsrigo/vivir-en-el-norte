@@ -150,8 +150,8 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
           Groba entre mayo y junio, San Telmo en Tui desde Semana Santa hasta el lunes siguiente
           al Lunes de Pascua. No es una costa de urbanización cerrada ni de temporada que se apaga
           en octubre. El modelo es piso en villa o casa de piedra con terreno. Vigo —hospital,
-          gran comercio, aeropuerto— está a media hora o tres cuartos: hay que aceptarlo o no
-          firmar. No está a la vuelta del campanario.
+          gran comercio, aeropuerto— queda entre unos veinticinco y unos cincuenta minutos según
+          el pueblo: hay que aceptarlo o no firmar. No está a la vuelta del campanario.
         </P>
         <P>
           Primavera y otoño merecen su propio párrafo. En mayo el valle se pone casi imposible de
@@ -341,8 +341,9 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
           farmacia y bares; el súper grande queda a un cuarto de hora o veinte minutos.
         </P>
         <P>
-          La ciudad de referencia es Vigo: media hora o tres cuartos, según el pueblo. Allí están
-          los hospitales, el centro comercial, el aeropuerto. No es la ciudad a cinco minutos del
+          La ciudad de referencia es Vigo: desde unos veinticinco minutos en Tui hasta cerca de
+          tres cuartos de hora desde la punta atlántica, según tráfico y pueblo. Allí están los
+          hospitales, el centro comercial, el aeropuerto. No es la ciudad a cinco minutos del
           campanario; es la ciudad a un trayecto que hay que aceptar o no firmar.
         </P>
         <P>
@@ -363,17 +364,18 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
       <section>
         <H2>Qué cuesta una casa</H2>
         <P>
-          Los precios del metro dibujan un gradiente: Tomiño es el más asequible, luego Tui, O
-          Rosal, A Guarda; Oia, la más cara, porque aquí se paga el paisaje salvaje más que los
-          servicios. Hay obra nueva de verdad en Tui; poca en A Guarda y O Rosal; casi ninguna en
-          Oia. Lo habitual es vivienda terminada, reciente o de piedra rehabilitada. Sobre plano
+          El mercado no ordena los cinco pueblos en un ranking limpio de metro cuadrado: aquí se
+          paga tipología y paisaje tanto como servicios. En Oia y en la punta atlántica pesa el
+          océano y las aldeas al borde; en A Guarda, la villa de puerto; en O Rosal, el valle de
+          parras y piedra; en Tui, más obra nueva y la ciudad pequeña; en Tomiño, vegas y finca con
+          menos calle. Hay obra nueva de verdad en Tui; poca en A Guarda y O Rosal; casi ninguna
+          en Oia. Lo habitual es vivienda terminada, reciente o de piedra rehabilitada. Sobre plano
           hay poco y, en general, no hace falta: el mercado ofrece casa ya hecha.
         </P>
         <P>
-          Con un presupuesto amplio esta comarca permite pensar en dos viviendas —valle y punta—
-          o en una sola bien elegida en Tui si priorizas hospital y ciudad pequeña. Los números
-          concretos están abajo; la decisión no es solo el número, es el tipo de vida que compra
-          cada pueblo.
+          Quien busque dos ritmos —valle y punta— puede plantearlo; quien priorice hospital y
+          ciudad pequeña mirará Tui con otros ojos. Los números vivos están en la tabla; la
+          decisión no es solo el número, es el tipo de vida que compra cada pueblo.
         </P>
         <TablaPrecios filas={municipiosBaixoMino} />
         <EnlaceIdealista ambito="zona" zonaId={zona.id} nombre={zona.zona} />
@@ -388,7 +390,7 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
           "Hace falta hospital a menos de treinta minutos y ciudad a un cuarto de hora —salvo Tui, y Tui trae el calor de valle en julio—. Quien busque pueblo compacto de plaza, súper y farmacia a pie y mire Oia se equivoca de pueblo: ahí hay aldeas colgadas entre sierra y océano, no calle que una.",
           "El verano tiene que ser fresco y se elige Tui o Tomiño: en el fondo del Miño vuelven quince o veinte días por encima de treinta grados. Quien huya del calor debería mirar A Guarda u Oia (punta atlántica) u O Rosal (valle sin ese calor extremo), no la vega de Tomiño ni el ensanche de Tui.",
         ]}
-        veredicto="Veredicto de zona: O Rosal es donde el día a día se siente pueblo —valle, plaza de O Calvario, monte detrás, mar a diez minutos—. Tui, solo si el hospital a treinta minutos y la ciudad pequeña importan más que el mar y el calor. A Guarda funciona como villa de mar y complemento, no siempre como casa única. Tomiño exige aceptar calor de vega; Oia, soledad atlántica. Mejor verlo en noviembre que en agosto: el invierno es lo que se come o se acepta."
+        veredicto="Veredicto de zona: O Rosal es donde el día a día se siente pueblo —valle, plaza de O Calvario, monte detrás, mar a pocos minutos—. Tui encaja si hospital y ciudad pequeña pesan más que el mar y el calor de vega. A Guarda funciona como villa de mar y complemento, no siempre como casa única. Tomiño pide aceptar calor de valle; Oia, soledad atlántica. Conviene verlo en noviembre: el invierno es lo que se acepta o se rechaza."
       />
 
       <MunicipiosZonaFin zonaId={zona.id} municipios={municipiosBaixoMino} escalas={ESCALA} />

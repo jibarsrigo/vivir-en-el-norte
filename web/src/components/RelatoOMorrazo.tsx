@@ -196,16 +196,11 @@ export default function RelatoOMorrazo({ zona }: { zona: Zona }) {
       <section>
         <H2>Qué cuesta una casa</H2>
         <P>
-          Cangas ronda los 1.750 €/m², Moaña los 1.600 y Bueu y Marín los 1.500. En la franja
-          asequible, un piso de tres habitaciones se sitúa aproximadamente en 205.000 euros en
-          Cangas, 187.000 en Moaña y 176.000 en Bueu o Marín. Son referencias del estudio, no una
-          garantía para cada calle ni para una primera línea.
-        </P>
-        <P>
-          La franja media cambia de forma. En Cangas puede ser una casa desde unos 180.000 euros en
-          Aldán u O Hío, con el precio creciendo por vistas, estado y terreno. En Moaña significa
-          mejor orientación hacia Vigo o casa en parroquia; en Bueu, Beluso y las laderas; en Marín,
-          Mogor y Aguete. Donde el estudio no da una cifra homogénea, no conviene inventarla: se
+          El mercado de la península no es una escala única de metro cuadrado: Cangas carga más el
+          litoral y las calas; Moaña, la orientación a Vigo; Bueu y Marín, villas con tipologías
+          distintas según puerto, parroquia o playa de ría. En la franja asequible se buscan pisos
+          útiles en el centro; en la media, casa en Aldán u O Hío, parroquia de Moaña, Beluso o
+          Mogor y Aguete. Los números vivos están en la tabla; donde no hay cifra homogénea, se
           comparan reforma, acceso, saneamiento y ruido.
         </P>
         <P>
@@ -221,22 +216,22 @@ export default function RelatoOMorrazo({ zona }: { zona: Zona }) {
       <section>
         <H2>Servicios, hospital, aeropuerto</H2>
         <P>
-          Cangas y Marín alcanzan 7/10 en servicios diarios: centro de salud con urgencias,
-          supermercados, farmacias, mercado, colegios, institutos y comercio. Moaña queda en 6/10 y
-          Bueu en 5/10: cubren la semana básica, pero dependen más de Vigo o Pontevedra para cultura,
+          Cangas y Marín cubren bien la vida diaria: centro de salud con urgencias,
+          supermercados, farmacias, mercado, colegios, institutos y comercio. Moaña y Bueu
+          resuelven la semana básica, pero dependen más de Vigo o Pontevedra para cultura,
           especialistas y compras grandes.
         </P>
         <P>
-          Marín tiene la mejor sanidad: Quirónsalud Pontevedra está a unos diez minutos y Montecelo,
-          hospital público, a unos diez o quince. Bueu tarda aproximadamente veinticinco o treinta.
-          Moaña ronda treinta y Cangas treinta y cinco. La diferencia es estructural: escoger otra
-          calle en Cangas no convierte el hospital en cercano.
+          Marín tiene la sanidad más cercana: Quirónsalud Pontevedra está a unos diez minutos y
+          Montecelo, hospital público, a unos diez o quince. Bueu tarda aproximadamente veinticinco
+          o treinta. Moaña ronda treinta y Cangas treinta y cinco. La diferencia es estructural:
+          escoger otra calle en Cangas no convierte el hospital en cercano.
         </P>
         <P>
           Vigo-Peinador queda entre treinta y cinco y cuarenta y cinco minutos según el municipio,
           con conexión directa a Palma sobre todo en verano. Santiago ofrece el enlace más estable
-          durante el año y queda entre cincuenta y cinco y setenta minutos. Marín vuelve a ganar por
-          logística; Bueu queda más lejos de Vigo, aunque algo más cerca de Santiago.
+          durante el año y queda entre cincuenta y cinco y setenta minutos. Marín acorta
+          distancias de logística; Bueu queda más lejos de Vigo, aunque algo más cerca de Santiago.
         </P>
         <Foto
           src="/fotos/o-morrazo/marin-portocelo.jpg"
@@ -247,13 +242,13 @@ export default function RelatoOMorrazo({ zona }: { zona: Zona }) {
       <Encaja
         si={[
           "Se quiere un verano claramente más fresco que el de Mallorca y una relación diaria con el mar. Cangas ofrece Rodeira, Aldán y la Costa da Vela; Moaña, paseo y barco a Vigo; Bueu, calma, Cabo Udra y Ons; Marín, playas de ría con Pontevedra y el hospital al lado.",
-          "Se acepta escoger entre escalas verdaderamente distintas. Cangas pone primero el litoral y los senderos; Moaña, la conexión con Vigo; Bueu, el silencio de una villa pequeña; Marín, sanidad y servicios. La península permite ajustar la vida sin renunciar por completo a playa, mercado o ciudad.",
+          "Se acepta escoger entre escalas verdaderamente distintas. Cangas pone el acento en el litoral y los senderos; Moaña, en la conexión con Vigo; Bueu, en el silencio de una villa pequeña; Marín, en sanidad y servicios. La península permite ajustar la vida sin renunciar por completo a playa, mercado o ciudad.",
         ]}
         no={[
           `Se necesita el cielo de Baleares: O Morrazo tiene unos ${zona.lluviaDias} días de lluvia y ${zona.despejados} días despejados, frente a ${mallorca.despejados} en Mallorca. El invierno exige convivir con humedad y semanas grises, aunque el verano sea suave.`,
-          "Se quiere hospital próximo y a la vez la punta más atlántica. Cangas y sus parroquias ofrecen el mejor mar, pero Montecelo queda a unos treinta y cinco minutos. Marín resuelve sanidad y Pontevedra, aunque su centro convive con puerto comercial y no tiene la continuidad marinera de Cangas o Bueu.",
+          "Se quiere hospital próximo y a la vez la punta más atlántica. Cangas y sus parroquias ofrecen el mar más abierto, pero Montecelo queda a unos treinta y cinco minutos. Marín resuelve sanidad y Pontevedra, aunque su centro convive con puerto comercial y no tiene la continuidad marinera de Cangas o Bueu.",
         ]}
-        veredicto="Veredicto de zona: Cangas va primero si mar, calas y senderos pesan más que el hospital; Moaña si Vigo forma parte de la semana y el barco debe evitar el coche; Bueu si se busca la villa más tranquila; Marín si mandan hospital, Pontevedra y una vivienda asequible. Para paisaje elegiría Aldán u O Hío después de probar agosto; para equilibrio urbano y sanitario, Mogor o Aguete junto a Marín; para vida frente a Vigo, el entorno caminable del embarcadero de Moaña."
+        veredicto="Veredicto de zona: Cangas responde si mar, calas y senderos pesan más que el hospital; Moaña, si Vigo forma parte de la semana y el barco evita el coche; Bueu, si se busca una villa tranquila; Marín, si mandan hospital, Pontevedra y una vivienda asequible. Aldán u O Hío muestran el paisaje tras probar agosto; Mogor o Aguete, el equilibrio junto a Marín; el entorno del embarcadero de Moaña, la vida frente a Vigo."
       />
 
       <MunicipiosZonaFin zonaId={zona.id} municipios={municipiosOMorrazo} escalas={ESCALA} />

@@ -42,8 +42,9 @@ export default function RelatoAsturiasOccidente({ zona }: { zona: Zona }) {
         </P>
         <P>
           La A-8 corre paralela a la costa. No hay ciudad dentro de la zona: Oviedo y Avilés quedan
-          a una hora; Ribadeo cubre la frontera gallega desde Castropol. Es costa auténtica,
-          asequible y tranquila, con cielo cantábrico cubierto buena parte del año.
+          a una hora; Ribadeo cubre la frontera gallega desde Castropol. Es costa auténtica y
+          tranquila, con cielo cantábrico cubierto buena parte del año —y con Tapia ya más
+          demandada que el resto de villas—.
         </P>
         <Foto
           src="/fotos/asturias-occidente/zona-luarca.jpg"
@@ -55,30 +56,30 @@ export default function RelatoAsturiasOccidente({ zona }: { zona: Zona }) {
         <H2>El tiempo comparado con Baleares</H2>
         <P>
           Asturias Occidente suma unas {zona.solHoras.toLocaleString("es-ES")} horas de sol y{" "}
-          {zona.despejados} días despejados al año —en la franja de 1.850 a 1.950 horas y 40 a 42
-          despejados—. Mallorca ronda {mallorca.solHoras.toLocaleString("es-ES")} horas y{" "}
-          {mallorca.despejados} jornadas claras. La diferencia se concentra en el cielo cubierto y
-          la niebla: de octubre a marzo llueve {zona.lluvia.oct_mar} días al mes y{" "}
-          {zona.lluvia.peor} puede alcanzar {zona.lluvia.peor_n}.
+          {zona.despejados} días despejados al año. Mallorca ronda{" "}
+          {mallorca.solHoras.toLocaleString("es-ES")} horas y {mallorca.despejados} jornadas
+          claras. La diferencia se concentra en el cielo cubierto y la niebla: de octubre a marzo
+          llueve {zona.lluvia.oct_mar} días al mes y {zona.lluvia.peor} puede alcanzar{" "}
+          {zona.lluvia.peor_n}.
         </P>
         <P>
           Caen unos {zona.lluviaMm.toLocaleString("es-ES")} milímetros en {zona.lluviaDias} días —
           cantidad moderada, frecuencia alta—, con unos {zona.cubiertos} cubiertos. También en
-          verano llueve {zona.lluvia.verano} días al mes. La niebla es alta en Tapia y Castropol;
-          media en Navia y Luarca. El viento es medio.
+          verano llueve {zona.lluvia.verano} días al mes. La niebla pesa más hacia Tapia y
+          Castropol; el viento es medio.
         </P>
         <P>
-          El verano es fresco: la media ronda {zona.tempVerano} °C, las máximas habituales unos
-          22-23 °C y apenas uno o dos días superan los 30 °C. Frente al calor sostenido balear se
-          duerme fresco siempre.
+          El verano es fresco: la media ronda {zona.tempVerano} °C. Frente al calor sostenido balear
+          se duerme fresco siempre.
         </P>
         <P>
-          El agua anda entre 18 y 20 °C en agosto. El mar abierto es bravo; para bañarse con más
-          calma sirven las rías de Navia y del Eo. Penarronda, Frexulfe, Barayo o las playas de
-          Luarca invitan al paseo y al baño corto cuando el Cantábrico lo permite.
+          El mar abierto es bravo; para bañarse con más calma sirven las rías de Navia y del Eo.
+          Penarronda, Frexulfe, Barayo o las playas de Luarca invitan al paseo y al baño corto cuando
+          el Cantábrico lo permite.
         </P>
         <p className="mt-4 max-w-2xl font-semibold text-[var(--calor)]">
-          Verano fresco: media alrededor de 18,5 °C y apenas uno o dos días por encima de 30 °C.
+          Verano fresco: media alrededor de {zona.tempVerano} °C frente al calor sostenido de
+          Mallorca.
         </p>
       </section>
 
@@ -86,10 +87,10 @@ export default function RelatoAsturiasOccidente({ zona }: { zona: Zona }) {
         <H2>Cómo se vive</H2>
         <P>
           Un martes de noviembre muestra cuatro escalas distintas. Navia, Tapia y Luarca resuelven
-          comercio, centro de salud y recados en villas caminables —servicios 6/10—. Castropol baja
-          a 3/10: Ribadeo, a unos diez minutos, organiza muchos recados. La dependencia del coche
-          pesa más hacia el extremo occidental; en Luarca y Navia el día a día se resuelve mejor
-          dentro del municipio.
+          comercio, centro de salud y recados en villas caminables. Castropol baja a lo esencial:
+          Ribadeo, a unos diez minutos, organiza muchos recados. La dependencia del coche pesa más
+          hacia el extremo occidental; en Luarca y Navia el día a día se resuelve mejor dentro del
+          municipio.
         </P>
         <P>
           Quien vive aquí trabaja en pesca, servicios, veraneo asturiano-madrileño y vida de villa
@@ -167,15 +168,16 @@ export default function RelatoAsturiasOccidente({ zona }: { zona: Zona }) {
       <section>
         <H2>Qué cuesta una casa</H2>
         <P>
-          Asturias Occidente es franja asequible. Castropol ronda 1.050 €/m²; Navia, 1.100; Luarca,
-          1.300; Tapia, 1.350. Tres habitaciones en la franja asequible se sitúan aproximadamente
-          entre 129.000 euros en Navia y 158.000 en Tapia; Luarca ronda 152.000.
+          El mercado no es uniforme entre las cuatro villas. Tapia —surf y orilla demandada— se
+          lee ya más cara que el resto; Castropol, Navia y Luarca siguen en franjas más contenidas,
+          con casas de Indianos rehabilitadas que pueden subir por su cuenta. No fijamos medias de
+          zona: la tabla e Idealista del mes mandan.
         </P>
         <P>
           La franja media cambia de forma: piso en casco de Luarca o Tapia, vivienda hacia la ría
-          en Navia o Castropol, o casas de Indianos rehabilitadas que suben a tramos ya altos de
-          la media. Tipologías de primera línea con vistas al puerto o al acantilado encarecen; el
-          estado de la reforma y la humedad cantábrica pesan más que una cifra única.
+          en Navia o Castropol, o casas de Indianos rehabilitadas. Tipologías de primera línea con
+          vistas al puerto o al acantilado encarecen; el estado de la reforma y la humedad
+          cantábrica pesan más que una cifra única.
         </P>
         <P>
           Hay poca o ninguna obra nueva —casi ninguna en Castropol—. La fibra llega bien en Tapia,
@@ -189,10 +191,10 @@ export default function RelatoAsturiasOccidente({ zona }: { zona: Zona }) {
       <section>
         <H2>Servicios, hospital, aeropuerto</H2>
         <P>
-          Navia, Tapia y Luarca alcanzan 6/10 en servicios —villas con centro de salud, comercio y
-          vida diaria—. Castropol queda en 3/10 y se apoya en Ribadeo. Servicios significa vida
-          diaria dentro del municipio —tiendas, farmacia, centro de salud, súper—, no la distancia
-          al hospital. Oviedo y Avilés quedan a una hora.
+          Navia, Tapia y Luarca concentran centro de salud, comercio y vida diaria en villa.
+          Castropol se apoya en Ribadeo. Servicios significa vida diaria dentro del municipio —
+          tiendas, farmacia, centro de salud, súper—, no la distancia al hospital. Oviedo y Avilés
+          quedan a una hora.
         </P>
         <P>
           El Hospital de Jarrio, en Coaña —público comarcal—, queda a unos diez minutos desde
@@ -203,9 +205,8 @@ export default function RelatoAsturiasOccidente({ zona }: { zona: Zona }) {
         <P>
           El aeropuerto de Asturias —con Palma en verano— queda a unos cuarenta minutos desde
           Luarca, cincuenta y cinco desde Navia, setenta desde Tapia y setenta y cinco desde
-          Castropol. Santiago-Lavacolla ofrece Palma casi todo el año y queda a unas dos horas. Es
-          la mejor logística aeroportuaria de las costas occidentales publicadas hasta aquí, sobre
-          todo desde Luarca.
+          Castropol. Santiago-Lavacolla ofrece Palma casi todo el año y queda a unas dos horas. La
+          logística aérea funciona sobre todo desde Luarca hacia el aeropuerto de Asturias.
         </P>
         <Foto
           src="/fotos/asturias-occidente/zona-vega.jpg"
@@ -215,14 +216,14 @@ export default function RelatoAsturiasOccidente({ zona }: { zona: Zona }) {
 
       <Encaja
         si={[
-          "Se busca costa asturiana auténtica, precio asequible y villas pequeñas con mar delante, aceptando cielo cantábrico, niebla y verano fresco. Luarca gana por encanto y aeropuerto a cuarenta minutos; Navia, por hospital a diez y servicios prácticos.",
-          "Se valora ría abrigada —Eo o Navia—, surf en Tapia, Puerto de Vega cerca y un mercado inmobiliario todavía asequible frente a otras costas del norte.",
+          "Se busca costa asturiana auténtica y villas pequeñas con mar delante, aceptando cielo cantábrico, niebla y verano fresco. Luarca aporta villa blanca y aeropuerto a unos cuarenta minutos; Navia, Jarrio a unos diez y servicios prácticos.",
+          "Se valora ría abrigada —Eo o Navia—, surf en Tapia, Puerto de Vega cerca y un mercado todavía más contenido que otras costas del norte —con la salvedad de Tapia, ya más demandada—.",
         ]}
         no={[
           `Se necesita el cielo de Baleares: Asturias Occidente tiene ${zona.lluviaDias} días de lluvia, ${zona.despejados} despejados y ${zona.cubiertos} cubiertos, frente a ${mallorca.lluviaDias} y ${mallorca.despejados} en Mallorca. El verano sigue trayendo lluvia varios días al mes.`,
           "Se busca ciudad a media hora, hospital privado cerca o Palma todo el año a menos de una hora de aeropuerto. Aquí Oviedo queda a una hora, el privado también, y Santiago a dos horas.",
         ]}
-        veredicto="Veredicto de zona: Asturias Occidente gana por villa blanca, ría y precio, no por sol ni ciudad. Si la Asturias verde enamora en una visita, Luarca es la apuesta por encanto y aeropuerto a cuarenta minutos; Navia, la práctica por Jarrio a diez; Tapia, surf y casco marinero; Castropol, pueblo blanco con Ribadeo de apoyo. Antes de elegir, probaría un noviembre de niebla en Tapia o Castropol, unas patronales locales y un agosto en el puerto de Luarca."
+        veredicto="Veredicto de zona: Asturias Occidente ofrece villa blanca, ría y escala pequeña, no sol ni ciudad. Luarca por encanto y aeropuerto a cuarenta minutos; Navia por Jarrio a diez; Tapia, surf y casco marinero; Castropol, pueblo blanco con Ribadeo de apoyo. Antes de elegir, probaría un noviembre de niebla en Tapia o Castropol, unas patronales locales y un agosto en el puerto de Luarca."
       />
 
       <MunicipiosZonaFin

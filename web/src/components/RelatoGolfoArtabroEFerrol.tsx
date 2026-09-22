@@ -51,8 +51,8 @@ export default function RelatoGolfoArtabroEFerrol({ zona }: { zona: Zona }) {
           metros— y gana altura hacia el interior; no es igual en todo el arco. La referencia diaria
           es A Coruña para casi todo el tramo este; Ferrol cubre Ares y el norte. Santiago queda a
           unos cuarenta y cinco o setenta y cinco minutos según el pueblo y el tráfico. Es de las
-          zonas con más peso urbano y logístico de las rías gallegas, y también de las de cielo más
-          cubierto según los datos de la tabla.
+          zonas con más peso urbano y logístico de las rías gallegas, y también de las de invierno
+          más gris frente a Baleares.
         </P>
         <Foto
           src="/fotos/golfo-artabro-e-ferrol/zona-hercules.jpg"
@@ -63,24 +63,22 @@ export default function RelatoGolfoArtabroEFerrol({ zona }: { zona: Zona }) {
       <section>
         <H2>El tiempo comparado con Baleares</H2>
         <P>
-          Golfo Ártabro e Ferrol suma unas {zona.solHoras.toLocaleString("es-ES")} horas de sol y{" "}
-          {zona.despejados} días despejados al año, según las normales climáticas 1981-2010 de AEMET
-          en A Coruña: las horas de sol y los días despejados salen del observatorio del aeropuerto
-          de Alvedro, y la lluvia, del observatorio de la ciudad —son dos estaciones distintas—.
-          Sirven de referencia orientativa para todo el arco, no de medición de cada municipio: entre
-          la orilla abierta de Ferrol y el fondo de la ría de Betanzos hay variación local. Mallorca
-          ronda{" "}
-          {mallorca.solHoras.toLocaleString("es-ES")} horas y {mallorca.despejados} jornadas
-          claras. La diferencia se concentra en el cielo cubierto y la llovizna: de octubre a marzo
-          llueve {zona.lluvia.oct_mar} días al mes y {zona.lluvia.peor} puede alcanzar{" "}
-          {zona.lluvia.peor_n}.
+          El invierno aquí es de cielo gris y llovizna frecuente: menos sol estable que en Mallorca
+          ({mallorca.solHoras.toLocaleString("es-ES")} horas y {mallorca.despejados} jornadas
+          claras) y más jornadas húmedas de octubre a marzo ({zona.lluvia.oct_mar} días al mes;
+          {zona.lluvia.peor} puede alcanzar {zona.lluvia.peor_n}). Las cifras de sol y despejados
+          de la tabla de zona salen del observatorio de Alvedro (aeropuerto de A Coruña), no de una
+          media homogénea de los siete municipios: entre la orilla abierta de Ferrol y el fondo de
+          la ría de Betanzos hay variación local. Sirven de referencia de estación, no de verdad
+          única para todo el arco.
         </P>
         <P>
-          Caen unos {zona.lluviaMm.toLocaleString("es-ES")} milímetros en {zona.lluviaDias} días:
-          menos agua acumulada que en las Rías Baixas, pero repartida en muchas jornadas grises,
-          también en verano ({zona.lluvia.verano} días al mes en julio y agosto). Es de los climas
-          gallegos más distintos al de Baleares: se gana invierno suave —mínimas alrededor de 8 °C—
-          y se pierde sol estable.
+          Caen unos {zona.lluviaMm.toLocaleString("es-ES")} milímetros en {zona.lluviaDias} días
+          (lluvia de observatorio de ciudad, distinta de Alvedro): menos agua acumulada que en las
+          Rías Baixas, pero repartida en muchas jornadas grises, también en verano (
+          {zona.lluvia.verano} días al mes en julio y agosto). Es de los climas gallegos más
+          distintos al de Baleares: se gana invierno suave —mínimas alrededor de 8 °C— y se pierde
+          sol estable.
         </P>
         <P>
           El verano compensa en temperatura: la media ronda {zona.tempVerano} °C, las máximas
@@ -197,23 +195,14 @@ export default function RelatoGolfoArtabroEFerrol({ zona }: { zona: Zona }) {
       <section>
         <H2>Qué cuesta una casa</H2>
         <P>
-          Según el precio por metro cuadrado de Idealista de agosto de 2026, A Coruña ronda
-          3.239 €/m² y Oleiros, 2.605: la franja cara de la zona. Después vienen Ares con 1.841,
-          Miño con 1.775 y Sada con 1.714; Ferrol baja a 1.490 y Bergondo, a 1.484, los metros más
-          asequibles del arco. A partir de ese dato se pueden estimar precios de vivienda, no leerlos
-          de anuncios reales: en la franja asequible, dos habitaciones salen alrededor de 274.000
-          euros en A Coruña y 220.000 en Oleiros, y bajan hacia 156.000 en Ares, 150.000 en Miño,
-          145.000 en Sada y unos 126.000 en Ferrol y Bergondo. Con el mismo cálculo, tres
-          habitaciones van de unos 379.000 en A Coruña y 305.000 en Oleiros a unos 174.000 en Ferrol
-          y Bergondo. Son estimaciones derivadas del €/m², útiles para comparar municipios; el
-          anuncio concreto manda.
-        </P>
-        <P>
-          La franja media cambia de forma: piso en ensanche o casco de A Coruña, chalé en urbanización
-          de Oleiros o Costa Miño, vivienda con jardín en Bergondo, o piso en el barrio de la
-          Magdalena en Ferrol. Tres habitaciones en primera línea de Oleiros o A Coruña suben a
-          tipologías que quedan fuera de la orilla habitual del mercado medio. Pesan demasiado estado,
-          orientación y parcela para convertir una media en promesa.
+          El mercado dibuja dos polos: A Coruña y Oleiros concentran la franja cara del arco; Ferrol
+          y Bergondo abren la orilla más asequible; Sada, Miño y Ares se mueven en tramos
+          intermedios. La tipología cambia de forma: piso en ensanche o casco de A Coruña, chalé en
+          urbanización de Oleiros —Santa Cruz, Mera, Perillo pesan distinto— o Costa Miño,
+          vivienda con jardín en Bergondo, o piso en el barrio de la Magdalena en Ferrol. Tres
+          habitaciones en primera línea de Oleiros o A Coruña suben a tipologías que quedan fuera de
+          la orilla habitual del mercado medio. La tabla y Idealista mandan; el anuncio concreto
+          manda más que cualquier orden de magnitud.
         </P>
         <P>
           Hay obra nueva en A Coruña, Oleiros y Sada; poca en el resto. La fibra llega bien en las
@@ -229,12 +218,12 @@ export default function RelatoGolfoArtabroEFerrol({ zona }: { zona: Zona }) {
       <section>
         <H2>Servicios, hospital, aeropuerto</H2>
         <P>
-          Las notas de servicios son criterio propio de esta web —una escala de 1 a 10, no un
-          indicador oficial— y miden vida diaria dentro del municipio, no la distancia al hospital.
-          Con ese criterio, A Coruña alcanza 10/10: comercio, cultura, universidad y vida diaria
-          completa. Ferrol llega a 9/10 sobre el papel, con comercio en retroceso. Oleiros y Sada, a
-          7/10; Bergondo, Miño y Ares, a 4/10 —lo básico; Betanzos y Pontedeume completan a cinco o
-          diez minutos—.
+          A Coruña concentra comercio, cultura, universidad y vida diaria completa: es la escala
+          donde se puede prescindir del coche. Ferrol mantiene servicios de ciudad, aunque el tejido
+          comercial ha retrocedido. Oleiros y Sada cubren la semana básica —centro de salud, súper,
+          colegio, comercio— sin entrar cada día en la capital. Bergondo, Miño y Ares bajan a lo
+          esencial; Betanzos y Pontedeume completan a cinco o diez minutos. Servicios significa vida
+          diaria dentro del municipio, no la distancia al hospital.
         </P>
         <P>
           El CHUAC —Complejo Hospitalario Universitario de A Coruña, hospital público de referencia
@@ -264,14 +253,14 @@ export default function RelatoGolfoArtabroEFerrol({ zona }: { zona: Zona }) {
 
       <Encaja
         si={[
-          "Se quiere urbanización ordenada con playa y A Coruña a diez o quince minutos —Oleiros o Sada—, o Praia Grande y golf en Costa Miño a precio más razonable. El verano es mucho más suave que en Mallorca y el hospital público de referencia —CHUAC o Arquitecto Marcide— queda cerca.",
-          "Se valora tener Alvedro al lado y Santiago-Lavacolla, con más destinos, a menos de hora y cuarto, con hospital de referencia a menos de media hora en casi todo el arco este —comprobando cada temporada la programación real de vuelos a Palma—. A Coruña da ciudad completa junto al mar; Ferrol, precio bajo y hospital a pocos minutos.",
+          "Se quiere urbanización ordenada con playa y A Coruña a diez o quince minutos —Oleiros (Santa Cruz, Mera, Perillo) o Sada—, o Praia Grande y golf en Costa Miño a precio más razonable. El verano es mucho más suave que en Mallorca y el hospital público de referencia —CHUAC o Arquitecto Marcide— queda cerca.",
+          "Se valora tener Alvedro al lado y Santiago-Lavacolla, con más destinos, a menos de hora y cuarto, con hospital de referencia a menos de media hora en casi todo el arco este —comprobando cada temporada la programación real de vuelos a Palma—. A Coruña da ciudad atlántica completa; Ferrol, precio más bajo y hospital a pocos minutos, con Doniños como salida de Atlántico abierto.",
         ]}
         no={[
-          `Se necesita el cielo de Baleares: Golfo Ártabro e Ferrol tiene ${zona.lluviaDias} días de lluvia y ${zona.despejados} despejados, frente a ${mallorca.lluviaDias} y ${mallorca.despejados} en Mallorca. El verano sigue trayendo llovizna algunos días; el invierno pide convivir con cielo gris y humedad.`,
+          `Se necesita el cielo de Baleares: aquí el invierno es de llovizna y cielo gris —unos ${zona.lluviaDias} días de lluvia frente a ${mallorca.lluviaDias} en Mallorca—, y el verano sigue trayendo algunas jornadas húmedas. Las cifras de sol de la tabla son referencia de Alvedro, no media de cada pueblo.`,
           "Se busca montaña detrás, mar templado en costa abierta y tres habitaciones en primera línea de Oleiros o A Coruña a precio medio. El relieve junto a la orilla se queda en altitudes bajas; el agua de Riazor y Doniños es fresca incluso en verano; la tipología cara de la orilla urbana queda fuera de la franja habitual.",
         ]}
-        veredicto="Veredicto de zona: Oleiros (Mera, Santa Cruz) es la elección si mandan urbanización limpia, playa y A Coruña a diez minutos; Sada equilibra villa, puerto y metro algo más amable; Costa Miño gana si pesan Praia Grande, golf y precio; Bergondo, jardín y calma a quince o veinte minutos; Ares, aldea de ría y Redes a cambio de coche; A Coruña, ciudad completa; Ferrol, solo si mandan precio y hospital a pocos minutos. Antes de elegir, probaría un noviembre de llovizna y la fiesta mayor de la calle concreta."
+        veredicto="Veredicto de zona: Oleiros (Mera, Santa Cruz) encaja si mandan urbanización limpia, playa y A Coruña a diez minutos; Sada, si se quiere villa, puerto y un metro más amable; Costa Miño, si pesan Praia Grande, golf y precio; Bergondo, jardín y calma a quince o veinte minutos; Ares, aldea de ría y Redes a cambio de coche; A Coruña, ciudad completa junto al mar; Ferrol, si mandan precio y hospital a pocos minutos, con Doniños como salida. Antes de elegir, conviene probar un noviembre de llovizna y la fiesta mayor de la calle concreta."
       />
 
       <MunicipiosZonaFin

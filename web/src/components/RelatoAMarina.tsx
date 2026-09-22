@@ -22,7 +22,7 @@ const ESCALA: Record<string, string> = {
   Burela: "Villa portuaria pesquera",
   Foz: "Villa de ría y playa",
   Barreiros: "Playas y parroquias",
-  Ribadeo: "Villa de frontera y As Catedrais",
+          Ribadeo: "Villa de frontera sobre el Eo",
 };
 
 export default function RelatoAMarina({ zona }: { zona: Zona }) {
@@ -49,12 +49,11 @@ export default function RelatoAMarina({ zona }: { zona: Zona }) {
         </P>
         <P>
           No hay ciudad dentro de la zona: Lugo queda entre una hora y hora y media según municipio y
-          ruta; A Coruña y Oviedo, entre hora y media y dos horas largas. Sigue siendo una de las
-          franjas más asequibles entre las zonas publicadas —sobre todo en el tramo oeste e
-          industrial—, aunque Foz y Ribadeo se han acercado a precios de costa media y ya no son la
-          orilla barata que fueron. Es también la zona más alejada de sol estable, hospital privado y
-          aeropuerto cercano. A cambio ofrece Cantábrico abierto y villas que van de menos de dos mil
-          habitantes a quince mil.
+          ruta; A Coruña y Oviedo, entre hora y media y dos horas largas. El tramo oeste e industrial
+          sigue ofreciendo orilla más contenida; Foz y Ribadeo ya se leen como costa media. Es
+          también de las zonas más alejadas de sol estable, hospital privado y aeropuerto cercano. A
+          cambio ofrece Cantábrico abierto y villas que van de menos de dos mil habitantes a quince
+          mil.
         </P>
         <Foto
           src="/fotos/a-marina/zona-catedrais.jpg"
@@ -86,20 +85,18 @@ export default function RelatoAMarina({ zona }: { zona: Zona }) {
           Baleares: se gana fresco extremo y se pierde sol estable.
         </P>
         <P>
-          El verano es de los más frescos de la tabla: la media ronda {zona.tempVerano} °C, las
-          máximas habituales unos 22 °C y casi ningún día supera los 30 °C. Frente al calor sostenido
-          balear se duerme fresco casi cada noche. El viento es medio; la niebla, alta en casi toda la
-          costa de Lugo.
+          El verano es fresco: la media ronda {zona.tempVerano} °C. Frente al calor sostenido balear
+          se duerme fresco casi cada noche. El viento es medio; la niebla, frecuente en buena parte
+          de la costa de Lugo.
         </P>
         <P>
-          En verano el agua suele moverse entre 17 y 19 °C, como rango orientativo y no como
-          temperatura fija. El mar abierto es bravo buena parte del año; para bañarse con más
-          calma sirven las rías de Viveiro —playa de Covas— y de Foz. As Catedrais, Esteiro o Xilloi
-          invitan más al paseo que al baño largo cuando sopla el Cantábrico.
+          El mar abierto es bravo buena parte del año; para bañarse con más calma sirven las rías de
+          Viveiro —playa de Covas— y de Foz. As Catedrais, Esteiro o Xilloi invitan más al paseo que
+          al baño largo cuando sopla el Cantábrico.
         </P>
         <p className="mt-4 max-w-2xl font-semibold text-[var(--calor)]">
-          Verano muy fresco: máximas habituales alrededor de 22 °C y casi ningún día por encima de
-          30 °C.
+          Verano fresco: media alrededor de {zona.tempVerano} °C frente al calor sostenido de
+          Mallorca.
         </p>
       </section>
 
@@ -153,13 +150,13 @@ export default function RelatoAMarina({ zona }: { zona: Zona }) {
           pie="Foz: villa de ría, paseo y playa cantábrica"
         />
         <P>
-          Ribadeo cierra con As Catedrais a unos diez minutos, Illa Pancha —faro en un islote—, la
-          ría del Eo frente a Castropol y la ruta costera hacia Rinlo. Tierra adentro, la basílica de
-          San Martiño de Mondoñedo —cerca de Foz, antigua sede episcopal y considerada una de las
-          iglesias catedralicias más antiguas de España— y la sierra del Xistral, a treinta o
-          cuarenta minutos según ruta, dan
-          patrimonio y monte lluvioso. El paisaje es de acantilado, ría y prado: no de sierra seca
-          ni de Mediterráneo.
+          Ribadeo vive del Eo frente a Castropol, de Illa Pancha —faro en un islote— y de la ruta
+          costera hacia Rinlo. As Catedrais —los arcos de piedra hacia Barreiros— quedan a unos diez
+          minutos: son peaje de agosto y visita, no la playa cotidiana de la villa. Tierra adentro,
+          la basílica de San Martiño de Mondoñedo —cerca de Foz, antigua sede episcopal y considerada
+          una de las iglesias catedralicias más antiguas de España— y la sierra del Xistral, a
+          treinta o cuarenta minutos según ruta, dan patrimonio y monte lluvioso. El paisaje es de
+          acantilado, ría y prado: no de sierra seca ni de Mediterráneo.
         </P>
         <Foto
           src="/fotos/a-marina/zona-ribadeo.jpg"
@@ -198,33 +195,23 @@ export default function RelatoAMarina({ zona }: { zona: Zona }) {
       <section>
         <H2>Qué cuesta una casa</H2>
         <P>
-          A Mariña sigue siendo de las franjas más asequibles entre las zonas publicadas, pero no es
-          uniforme. Con datos de Idealista de agosto de 2026, Viveiro está en 1.302 €/m²; Cervo, en
-          1.210; Foz, en 1.790, y Ribadeo, en 1.845. Para O Vicedo (~900), Xove (~950), Barreiros
-          (~1.150) y Burela (~1.200) manejamos cifras orientativas: la muestra publicada en estos
-          municipios puede ser escasa y conviene mirar Idealista del mes en que se busque antes de dar
-          un precio por bueno.
-        </P>
-        <P>
-          Leído así, el mapa de precios se ordena en dos mitades. El tramo oeste e industrial —O
-          Vicedo, Xove, y en menor medida Barreiros, Burela y Cervo— es el más barato de la comarca y
-          de los más asequibles de la costa norte. Foz y Ribadeo, en cambio, ya están en precios de
-          costa media: cerca de 1.800 €/m² no son la orilla barata que fueron hace unos años. Las
-          cifras de vivienda de tres habitaciones que damos en las fichas son estimaciones calculadas
-          a partir del €/m² por tipología, no anuncios reales: sirven para comparar municipios, no
-          para presupuestar una compra concreta.
+          A Mariña no es uniforme. El tramo oeste e industrial —O Vicedo, Xove, Cervo, Burela—
+          suele leerse más contenido; Barreiros ya no es esa orilla barata de hace unos años; Foz y
+          Ribadeo se acercan a costa media. En Xove la muestra publicada puede ser escasa: no fijamos
+          cifra aquí; la tabla e Idealista del mes mandan.
         </P>
         <P>
           La franja media cambia de forma: piso en casco de Viveiro o Ribadeo, vivienda cerca del
           puerto en Burela, piso de veraneo en Foz o Barreiros, o casa con parcela hacia las
           parroquias. Tipologías de primera línea con vistas espectaculares suben; el estado de la
-          reforma y la humedad cantábrica pesan más que una cifra única.
+          reforma y la humedad cantábrica pesan más que una media de zona.
         </P>
         <P>
           Hay poca obra nueva en Viveiro, Burela, Foz, Barreiros y Ribadeo; en el resto, casi
           ninguna. La fibra llega bien en Viveiro, Burela, Foz y Ribadeo; es parcial en O Vicedo,
           Xove, Cervo y Barreiros. En costa abierta se revisan salitre y viento; en ría, humedad; en
-          Barreiros, ocupación de agosto y una estacionalidad muy marcada el resto del año.
+          Barreiros, ocupación de agosto y una estacionalidad muy marcada el resto del año. Los
+          números concretos están en la tabla; el anuncio concreto manda.
         </P>
         <TablaPrecios filas={municipiosAMarina} />
         <EnlaceIdealista ambito="zona" zonaId={zona.id} nombre={zona.zona} />
@@ -233,11 +220,11 @@ export default function RelatoAMarina({ zona }: { zona: Zona }) {
       <section>
         <H2>Servicios, hospital, aeropuerto</H2>
         <P>
-          La nota de servicios es nuestra —metodología propia de esta web, no un indicador oficial—:
-          puntúa de 1 a 10 la vida diaria dentro del municipio —tiendas, farmacia, centro de salud,
-          súper—, no la distancia al hospital. Con ese criterio, Ribadeo alcanza 7/10, la más alta de
-          la comarca; Viveiro y Burela, 6/10; Foz, 5/10; Cervo, 4/10; Xove y Barreiros, 3/10; O
-          Vicedo, 2/10. No hay ciudad de referencia cercana: Lugo, A Coruña u Oviedo quedan, según municipio y ruta,
+          Ribadeo, Viveiro y Burela resuelven comercio, farmacia y centro de salud en villa
+          caminable. Foz cubre la semana básica; Cervo, Xove, Barreiros y O Vicedo bajan a lo
+          esencial y el coche organiza muchos recados. Servicios aquí significa vida diaria dentro
+          del municipio —tiendas, farmacia, centro de salud, súper—, no la distancia al hospital. No
+          hay ciudad de referencia cercana: Lugo, A Coruña u Oviedo quedan, según municipio y ruta,
           alrededor de una hora y cuarto o más.
         </P>
         <P>
@@ -246,10 +233,9 @@ export default function RelatoAMarina({ zona }: { zona: Zona }) {
           desde Viveiro y Barreiros, y treinta y cinco desde O Vicedo y Ribadeo. Son tiempos desde el
           núcleo de referencia de cada municipio: en términos dispersos como Xove, Cervo o Barreiros,
           desde las parroquias altas hay que sumar minutos. Desde Ribadeo, Jarrio —en Asturias— está a
-          unos treinta minutos; conviene comprobar cuál es el hospital de referencia del Sergas según
+          unos treinta minutos; conviene comprobar cuál es el hospital de referencia del asegurado según
           el empadronamiento y el convenio vigente, porque la frontera administrativa no siempre
-          coincide con el centro más próximo. No hay hospital privado en la comarca: el más cercano
-          queda en Lugo u Oviedo, a más de una hora y cuarto.
+          coincide con el centro más próximo. No hay hospital privado en la comarca.
         </P>
         <P>
           El aeropuerto de Asturias queda a unos sesenta minutos desde Ribadeo, setenta desde
@@ -257,7 +243,7 @@ export default function RelatoAMarina({ zona }: { zona: Zona }) {
           siempre según ruta. Santiago-Lavacolla queda a unos cien o ciento veinte minutos y A Coruña
           cubre otra opción a tiempos similares. Los enlaces con Palma cambian de temporada en
           temporada, así que conviene comprobar la programación vigente el año en que se decida y no
-          dar por hecho un vuelo directo. Con todo, es la logística aérea más larga de las zonas
+          dar por hecho un vuelo directo. Con todo, la logística aérea es larga frente a otras zonas
           gallegas publicadas.
         </P>
         <Foto
@@ -268,14 +254,14 @@ export default function RelatoAMarina({ zona }: { zona: Zona }) {
 
       <Encaja
         si={[
-          "Se busca precio contenido con Cantábrico delante y se acepta cielo gris, niebla y aeropuerto a una hora o más. Viveiro da villa con vida propia todo el año; Ribadeo, frontera, As Catedrais y una de las mejores conexiones con el aeropuerto de Asturias (unos sesenta minutos según ruta); Burela, hospital comarcal en el propio municipio.",
-          "Se valora ría abrigada para baño corto —Covas o Foz—, paseos de acantilado y un mercado inmobiliario aún asequible en el tramo oeste, sin necesidad de ciudad a menos de una hora y cuarto. En Foz y Ribadeo, en cambio, hay que contar ya con precios de costa media.",
+          "Se busca precio contenido con Cantábrico delante y se acepta cielo gris, niebla y aeropuerto a una hora o más. Viveiro da villa con vida propia todo el año; Ribadeo, frontera sobre el Eo y acceso a As Catedrais a unos diez minutos —visita y peaje de agosto, no playa de diario— más el aeropuerto de Asturias a unos sesenta minutos según ruta; Burela, hospital comarcal en el propio municipio.",
+          "Se valora ría abrigada para baño corto —Covas o Foz—, paseos de acantilado y un mercado aún contenido en el tramo oeste, sin necesidad de ciudad a menos de una hora y cuarto. En Foz y Ribadeo, en cambio, hay que contar ya con precios de costa media.",
         ]}
         no={[
           `Se necesita el cielo de Baleares: A Mariña tiene ${zona.lluviaDias} días de lluvia, ${zona.despejados} despejados y ${zona.cubiertos} cubiertos, frente a ${mallorca.lluviaDias} y ${mallorca.despejados} en Mallorca. El verano sigue trayendo lluvia algunos días; la niebla es frecuente.`,
           "Se busca hospital privado cerca, ciudad a media hora o vuelo directo a Palma todo el año desde un aeropuerto próximo. Aquí el comarcal está en Burela, no hay privado en la comarca, Santiago queda a cien o ciento veinte minutos y la programación de vuelos hay que comprobarla cada temporada.",
         ]}
-        veredicto="Veredicto de zona: A Mariña gana por costa cantábrica y por precio en su tramo oeste, no por sol ni por logística. Viveiro y Ribadeo son las villas con más vida propia todo el año; Burela interesa sobre todo si pesa tener hospital comarcal en el municipio; Foz, veraneo tranquilo, aunque ya con precios de costa media; O Vicedo, Xove, Cervo y Barreiros piden coche y aceptan una estacionalidad muy marcada. Antes de elegir, probaría un noviembre de niebla, la Semana Santa de Viveiro si el casco importa, y un agosto junto a As Catedrais."
+        veredicto="Veredicto de zona: A Mariña ofrece costa cantábrica y orilla más contenida en el tramo oeste, no sol ni logística corta. Viveiro y Ribadeo concentran vida propia todo el año; Burela interesa si pesa el hospital comarcal en el municipio; Foz, veraneo de ría ya con precios de costa media; O Vicedo, Xove, Cervo y Barreiros piden coche y aceptan estacionalidad marcada. Antes de elegir, probaría un noviembre de niebla, la Semana Santa de Viveiro si el casco importa, y un agosto junto a As Catedrais."
       />
 
       <MunicipiosZonaFin

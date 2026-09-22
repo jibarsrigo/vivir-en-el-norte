@@ -43,7 +43,7 @@ export default function RelatoAsturiasCentro({ zona }: { zona: Zona }) {
           Peñas. Gijón es la ciudad de mar de Asturias.
         </P>
         <P>
-          Es la zona con mejor logística del Cantábrico occidental —aeropuerto, tres ciudades,
+          Es zona de logística corta en el Cantábrico occidental —aeropuerto, tres ciudades,
           hospitales públicos en Avilés y Gijón y el HUCA en Oviedo—. Dos matices pesan: el cielo
           cantábrico y la industria pesada —siderurgia de Avilés y, hacia Candás y el oeste de
           Gijón, la central y cementera de Aboño— que se nota en el aire según el viento.
@@ -58,42 +58,39 @@ export default function RelatoAsturiasCentro({ zona }: { zona: Zona }) {
         <H2>El tiempo comparado con Baleares</H2>
         <P>
           Asturias Centro suma unas {zona.solHoras.toLocaleString("es-ES")} horas de sol y{" "}
-          {zona.despejados} días despejados al año —en la franja de 1.780 a 1.850 horas y 42 a 45
-          despejados—. Mallorca ronda {mallorca.solHoras.toLocaleString("es-ES")} horas y{" "}
-          {mallorca.despejados} jornadas claras. La diferencia se concentra en el cielo cubierto:
-          de octubre a marzo llueve {zona.lluvia.oct_mar} días al mes y {zona.lluvia.peor} puede
-          alcanzar {zona.lluvia.peor_n}.
+          {zona.despejados} días despejados al año. Mallorca ronda{" "}
+          {mallorca.solHoras.toLocaleString("es-ES")} horas y {mallorca.despejados} jornadas
+          claras. La diferencia se concentra en el cielo cubierto: de octubre a marzo llueve{" "}
+          {zona.lluvia.oct_mar} días al mes y {zona.lluvia.peor} puede alcanzar{" "}
+          {zona.lluvia.peor_n}.
         </P>
         <P>
-          Caen unos {zona.lluviaMm.toLocaleString("es-ES")} milímetros en {zona.lluviaDias} días —
-          en la franja de 1.000 a 1.150 mm y 145 a 150 días—, con unos {zona.cubiertos} cubiertos.
-          También en verano llueve {zona.lluvia.verano} días al mes. La niebla es media en
-          Cudillero, Muros y Soto; baja en Salinas, Luanco, Candás y Gijón. El viento es medio en
-          la costa de Peñas.
+          Caen unos {zona.lluviaMm.toLocaleString("es-ES")} milímetros en {zona.lluviaDias} días,
+          con unos {zona.cubiertos} cubiertos. También en verano llueve {zona.lluvia.verano} días
+          al mes. La niebla pesa más hacia Cudillero, Muros y Soto; menos hacia Salinas, Luanco,
+          Candás y Gijón. El viento es medio en la costa de Peñas.
         </P>
         <P>
-          El verano es fresco: la media ronda {zona.tempVerano} °C, las máximas habituales unos
-          23 °C y apenas uno a tres días superan los 30 °C —con viento sur pueden llegar puntas
-          de 33-35 °C un par de días al año—. Frente al calor sostenido balear se duerme fresco.
+          El verano es fresco: la media ronda {zona.tempVerano} °C. Frente al calor sostenido balear
+          se duerme fresco; el ábrego puede traer puntas cálidas unos días al año.
         </P>
         <P>
-          El agua anda entre 19 y 21 °C en agosto, de las más templadas del Cantábrico. Aguilar y
-          Concha de Artedo, El Silencio, Los Quebrantos, Salinas–El Espartal, Xagó, La Ribera,
-          Palmera o San Lorenzo invitan al paseo y al baño cuando el mar lo permite.
+          Aguilar y Concha de Artedo, El Silencio, Los Quebrantos, Salinas–El Espartal, Xagó, La
+          Ribera, Palmera o San Lorenzo invitan al paseo y al baño cuando el mar lo permite.
         </P>
         <p className="mt-4 max-w-2xl font-semibold text-[var(--calor)]">
-          Verano fresco: media alrededor de 19 °C y apenas uno a tres días por encima de 30 °C.
+          Verano fresco: media alrededor de {zona.tempVerano} °C frente al calor sostenido de
+          Mallorca.
         </p>
       </section>
 
       <section>
         <H2>Cómo se vive</H2>
         <P>
-          Un martes de noviembre muestra escalas muy distintas. Gijón resuelve todo a pie —
-          servicios 10/10—. Salinas alcanza 7/10: villa con paseo y comercio, Avilés a diez
-          minutos. Candás y Luanco cubren lo básico (6/10 y 5/10) con Gijón a veinte o
-          veinticinco minutos. Cudillero baja a 4/10 —turístico y de cuestas—; Soto a 4/10 y
-          Muros a 3/10, con Avilés a unos quince minutos.
+          Un martes de noviembre muestra escalas muy distintas. Gijón resuelve todo a pie. Salinas
+          es villa con paseo y comercio, Avilés a diez minutos. Candás y Luanco cubren lo básico
+          con Gijón a veinte o veinticinco minutos. Cudillero es turístico y de cuestas; Soto y
+          Muros se apoyan en Avilés a unos quince minutos.
         </P>
         <P>
           Quien vive aquí trabaja en la ciudad, en servicios de villa, en veraneo ovetense y
@@ -117,11 +114,12 @@ export default function RelatoAsturiasCentro({ zona }: { zona: Zona }) {
       <section>
         <H2>Mar, río y camino</H2>
         <P>
-          En Cudillero, Aguilar y Concha de Artedo quedan a cinco minutos; la playa del Silencio,
-          en Castañeras, a unos quince; el Cabo Vidio —faro y senda— cierra la costa abierta.
-          Muros aporta la Ruta de los Miradores —siete miradores sobre la desembocadura del
-          Nalón— y la Quinta de Selgas en El Pito. Soto del Barco ofrece San Juan de la Arena,
-          Los Quebrantos y el castillo de San Martín en el estuario.
+          En Cudillero el pueblo colgado mira al puerto; las playas de diario —Aguilar y Concha de
+          Artedo— quedan a unos cinco minutos en coche, y la playa del Silencio, en Castañeras, a
+          unos quince; el Cabo Vidio —faro y senda— cierra la costa abierta. Muros aporta la Ruta
+          de los Miradores —siete miradores sobre la desembocadura del Nalón— y la Quinta de Selgas
+          en El Pito. Soto del Barco ofrece San Juan de la Arena, Los Quebrantos y el castillo de
+          San Martín en el estuario.
         </P>
         <P>
           Salinas suma tres kilómetros de playa con El Espartal y dunas, paseo y el Museo de
@@ -175,11 +173,10 @@ export default function RelatoAsturiasCentro({ zona }: { zona: Zona }) {
       <section>
         <H2>Qué cuesta una casa</H2>
         <P>
-          Asturias Centro cubre franjas muy distintas. Muros ronda 1.100 €/m²; Soto, 1.200;
-          Cudillero, 1.400; Candás, 1.650; Salinas, 1.700; Luanco, 1.800; Gijón, 2.300. Tres
-          habitaciones en la franja asequible se sitúan aproximadamente entre 129.000 euros en
-          Muros y 211.000 en Luanco; en Gijón ronda 269.000 —en primera línea urbana suele
-          quedar fuera; entra a cinco o diez minutos de la playa—.
+          Asturias Centro cubre franjas muy distintas. El estuario —Muros y Soto— suele leerse más
+          contenido; Candás y Cudillero, de villa; Salinas y Luanco, ya más demandados; Gijón, de
+          ciudad de mar. En Muros la muestra publicada puede ser escasa: no fijamos cifra aquí. No
+          hay media de zona útil; la tabla e Idealista del mes mandan.
         </P>
         <P>
           La franja media cambia de forma: chalé o casa baja en Salinas, piso en casco de Luanco
@@ -200,8 +197,9 @@ export default function RelatoAsturiasCentro({ zona }: { zona: Zona }) {
       <section>
         <H2>Servicios, hospital, aeropuerto</H2>
         <P>
-          Gijón alcanza 10/10; Salinas, 7/10; Candás, 6/10; Luanco, 5/10; Cudillero y Soto, 4/10;
-          Muros, 3/10. Servicios significa vida diaria dentro del municipio —tiendas, farmacia,
+          Gijón resuelve la vida diaria completa. Salinas cubre villa con paseo; Candás y Luanco,
+          lo básico de villa marinera; Cudillero y Soto, lo esencial; Muros, aún menos y se apoya
+          en Avilés. Servicios significa vida diaria dentro del municipio —tiendas, farmacia,
           centro de salud, súper—, no la distancia al hospital. Avilés cubre desde Salinas, Soto
           y Muros; Gijón, desde Luanco y Candás; Oviedo queda a treinta o cuarenta y cinco
           minutos desde todos.
@@ -211,14 +209,13 @@ export default function RelatoAsturiasCentro({ zona }: { zona: Zona }) {
           Luanco, Muros y Soto, y veinticinco desde Cudillero. Cabueñes y el Hospital de Jove, en
           Gijón, cubren a cinco minutos desde Gijón, diez desde Candás y quince desde Luanco. El
           HUCA, en Oviedo —referencia de Asturias—, anda alrededor de los treinta a cuarenta y
-          cinco minutos. Es la mejor sanidad del Cantábrico occidental.
+          cinco minutos. La red pública de este arco es densa.
         </P>
         <P>
           El aeropuerto de Asturias —con Palma en verano— queda a unos diez minutos desde
           Salinas, Muros y Soto; quince desde Cudillero; veinte o veinticinco desde Luanco y
           Candás; treinta desde Gijón. Santander ofrece Palma casi todo el año a unas dos horas
-          y cuarto. Es la mejor logística aeroportuaria de las costas publicadas hasta aquí,
-          sobre todo desde Salinas.
+          y cuarto. La logística aérea es corta sobre todo desde Salinas.
         </P>
         <Foto
           src="/fotos/asturias-centro/zona-silencio.jpg"
@@ -228,14 +225,14 @@ export default function RelatoAsturiasCentro({ zona }: { zona: Zona }) {
 
       <Encaja
         si={[
-          "Se busca la mejor logística del Cantábrico occidental —aeropuerto a diez o treinta minutos, Avilés, Gijón, Oviedo y hospitales públicos cercanos—, aceptando cielo cantábrico y, según el punto, aire de industria. Salinas gana como villa-playa residencial práctica; Luanco y Candás, como villas marineras del Cabo Peñas.",
-          "Se valora playa usable —Salinas, San Lorenzo, Quebrantos, Ribera—, estuario del Nalón o ciudad de mar completa en Gijón, con un mercado que aún deja franjas asequibles en Muros y Soto.",
+          "Se busca logística corta del Cantábrico occidental —aeropuerto a diez o treinta minutos, Avilés, Gijón, Oviedo y hospitales públicos cercanos—, aceptando cielo cantábrico y, según el punto, aire de industria. Salinas funciona como villa-playa residencial práctica; Luanco y Candás, como villas marineras del Cabo Peñas.",
+          "Se valora playa usable —Salinas, San Lorenzo, Quebrantos, Ribera—, estuario del Nalón o ciudad de mar completa en Gijón, con orilla más contenida hacia Muros y Soto.",
         ]}
         no={[
           `Se necesita el cielo de Baleares: Asturias Centro tiene ${zona.lluviaDias} días de lluvia, ${zona.despejados} despejados y ${zona.cubiertos} cubiertos, frente a ${mallorca.lluviaDias} y ${mallorca.despejados} en Mallorca. El verano sigue trayendo lluvia varios días al mes.`,
           "Se busca aire limpio garantizado junto a la siderurgia de Avilés o a Aboño, o calma total en el pueblo colgado de Cudillero en temporada. Cudillero encanta para visitar; para vivir suele pesar más la cuesta y el visitante de día que la foto bonita.",
         ]}
-        veredicto="Veredicto de zona: Asturias Centro gana por aeropuerto, hospitales y ciudades a diez o treinta minutos, no por sol. Si la logística manda, Salinas es la apuesta práctica —villa de casas bajas junto a la playa, San Agustín y el aeropuerto a diez minutos—, aceptando la siderurgia a unos tres kilómetros según el viento. Luanco y Candás aportan villa marinera; Gijón, ciudad completa (Somió, si se busca casas bajas cerca de la playa); Muros y Soto, estuario y precio; Cudillero, pueblo de foto —mejor visitarla o vivir arriba, en El Pito—. Antes de elegir, probaría un noviembre cubierto, un día con viento del sur cerca de Avilés o Aboño y un agosto en Cudillero o San Lorenzo."
+        veredicto="Veredicto de zona: Asturias Centro ofrece aeropuerto, hospitales y ciudades a diez o treinta minutos, no sol. Si la logística manda, Salinas funciona como villa de casas bajas junto a la playa, con San Agustín y el aeropuerto a diez minutos —aceptando la siderurgia a unos tres kilómetros según el viento—. Luanco y Candás aportan villa marinera; Gijón, ciudad completa (Somió, si se buscan casas bajas cerca de la playa); Muros y Soto, estuario; Cudillero, pueblo de foto —visitarlo o vivir arriba, en El Pito—. Antes de elegir, probar un noviembre cubierto, un día con viento del sur cerca de Avilés o Aboño y un agosto en Cudillero o San Lorenzo."
       />
 
       <MunicipiosZonaFin

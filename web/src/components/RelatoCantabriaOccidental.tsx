@@ -46,10 +46,10 @@ export default function RelatoCantabriaOccidental({ zona }: { zona: Zona }) {
           aeropuerto a unos diez minutos del centro.
         </P>
         <P>
-          Es la zona que mejor cumple hospital, aeropuerto y seguridad de toda la tabla —y la de
-          sol más bajo, junto con el oriente cántabro—. Los Picos quedan a unos sesenta minutos
-          —Potes, Fuente Dé—; Santillana del Mar y Altamira, a diez o quince desde Suances y
-          Comillas.
+          Aquí pesan Valdecilla, el Seve Ballesteros y el acceso a Palma casi todo el año —y también
+          uno de los cielos más bajos de sol de la tabla, junto con el oriente cántabro—. Los Picos
+          quedan a unos sesenta minutos —Potes, Fuente Dé—; Santillana del Mar y Altamira, a diez o
+          quince desde Suances y Comillas.
         </P>
         <Foto
           src="/fotos/cantabria-occidental/zona-san-vicente.jpg"
@@ -94,26 +94,24 @@ export default function RelatoCantabriaOccidental({ zona }: { zona: Zona }) {
       <section>
         <H2>Cómo se vive</H2>
         <P>
-          Un martes de noviembre muestra escalas muy distintas. Santander resuelve todo a pie —
-          servicios 10/10—. Liencres alcanza 7/10: centro de salud, supermercados y farmacias en
-          Liencres y Mortera; Renedo —capital de Piélagos— y Bezana a unos diez minutos; Santander
-          a unos quince. Suances cubre 6/10 —villa con lo básico; Torrelavega a quince minutos con
-          todo—. San Vicente baja a 5/10; Comillas, a 4/10 —villas turísticas de tamaño pequeño,
-          comercio muy estacional—.
+          Un martes de noviembre muestra escalas muy distintas. Santander resuelve el día a pie:
+          comercio, farmacias, centro de salud y cultura sin salir de la ciudad. Liencres cubre lo
+          básico —centro de salud, supermercados y farmacias en Liencres y Mortera—; Renedo —
+          capital de Piélagos— y Bezana a unos diez minutos; Santander a unos quince. Suances es
+          villa con lo esencial; Torrelavega a quince minutos con el resto. San Vicente y Comillas
+          son villas turísticas de tamaño pequeño: el comercio se estrecha fuera de temporada.
         </P>
         <P>
           Quien vive aquí trabaja en la capital, en Torrelavega, en servicios de villa o en el
           ritmo de veraneo cántabro y madrileño. Liencres y Mortera son residenciales de clase
           media santanderina, con muchas familias y residentes de larga estancia. Suances mantiene
           vida de villa todo el año. Comillas y San Vicente se llenan en julio y agosto —ruido,
-          tráfico, afluencia— y recuperan calma de octubre a junio. Santander es ciudad burguesa,
-          limpia y cara.
+          tráfico, afluencia— y recuperan calma de octubre a junio. Santander es ciudad burguesa y
+          limpia; el metro se paga en bahía y Sardinero.
         </P>
         <P>
           Las patronales locales y el verano en la orilla cortan calles y llenan cascos unos días
-          o semanas: conviene probar esas fechas, no solo un martes gris. Piélagos registra la
-          tasa de criminalidad más baja de todos los municipios medidos en la tabla —31 por mil;
-          criminalidad convencional 16—: el dato de seguridad más sólido del estudio.
+          o semanas: conviene probar esas fechas, no solo un martes gris.
         </P>
         <Foto
           src="/fotos/cantabria-occidental/zona-comillas.jpg"
@@ -182,18 +180,19 @@ export default function RelatoCantabriaOccidental({ zona }: { zona: Zona }) {
       <section>
         <H2>Qué cuesta una casa</H2>
         <P>
-          Cantabria Occidental cubre franjas distintas. Suances y Liencres rondan 2.000 €/m²; San
-          Vicente, 2.100; Comillas, 2.400; Santander, 2.600. Tres habitaciones en la franja
-          asequible se sitúan alrededor de 234.000 euros en Suances y Liencres, y unos 246.000 en
-          San Vicente. En Comillas y Santander la tipología de tres habitaciones queda por encima
-          de la orilla habitual asequible de la tabla; en Santander, dos habitaciones ronda unos
-          220.000 euros.
+          Cantabria Occidental cubre franjas distintas. Liencres suele situarse en el tramo más
+          contenido de la zona; Suances y San Vicente, en franja media; Comillas y Santander, en
+          la orilla más alta —sobre todo modernismo, bahía o cerca del Sardinero—. Tres
+          habitaciones en primera línea de Comillas o Santander suelen quedar fuera de la franja
+          asequible habitual; en Liencres y Suances entra más tipología de casa baja o piso de
+          villa. Los números concretos están en la tabla; tipología y reforma pesan más que una
+          cifra única.
         </P>
         <P>
           La franja media cambia de forma: piso en ensanche o cerca del Sardinero en Santander,
           casa baja en urbanización de Liencres o Mortera, vivienda de villa en Suances, o piso
           en casco de San Vicente o Comillas. Tipologías modernistas o de primera línea mueven el
-          precio; el estado de la reforma y la humedad cantábrica pesan más que una cifra única.
+          precio; el estado de la reforma y la humedad cantábrica cuentan tanto como la ubicación.
         </P>
         <P>
           Hay obra nueva en Piélagos —municipio en crecimiento— y en Santander; poca en el resto.
@@ -207,27 +206,29 @@ export default function RelatoCantabriaOccidental({ zona }: { zona: Zona }) {
       <section>
         <H2>Servicios, hospital, aeropuerto</H2>
         <P>
-          Santander alcanza 10/10; Liencres, 7/10; Suances, 6/10; San Vicente, 5/10; Comillas,
-          4/10. Servicios significa vida diaria dentro del municipio —tiendas, farmacia, centro de
-          salud, súper—, no la distancia al hospital. Santander es la ciudad de referencia a unos
-          quince o veinte minutos desde Liencres, treinta desde Suances, cuarenta y cinco o
-          cincuenta y cinco desde Comillas y San Vicente; Torrelavega cubre a quince desde
-          Suances.
+          Santander cubre la vida diaria completa dentro del municipio. Liencres y Suances
+          resuelven tiendas, farmacia y centro de salud con apoyo cercano de Bezana, Torrelavega o
+          la capital. San Vicente y Comillas tienen lo básico de villa; fuera de temporada el
+          comercio se estrecha. Servicios significa vida diaria dentro del municipio —tiendas,
+          farmacia, centro de salud, súper—, no la distancia al hospital. Santander es la ciudad
+          de referencia a unos quince o veinte minutos desde Liencres, treinta desde Suances,
+          cuarenta y cinco o cincuenta y cinco desde Comillas y San Vicente; Torrelavega cubre a
+          quince desde Suances.
         </P>
         <P>
           Valdecilla —Santander, público, de referencia nacional— queda a unos cinco minutos desde
           Santander, quince desde Liencres y treinta desde Suances. Sierrallana —Torrelavega,
           público— anda alrededor de los quince desde Suances, treinta desde Comillas y cuarenta
           desde San Vicente. Privados: Clínica Mompía —Bezana— a unos diez desde Liencres y
-          quince desde Suances; Santa Clotilde —Santander— a unos cinco. Cumple el deseable de
-          treinta minutos en Santander, Liencres, Suances y Comillas; San Vicente queda en unos
-          cuarenta.
+          quince desde Suances; Santa Clotilde —Santander— a unos cinco. Santander, Liencres,
+          Suances y Comillas quedan cerca del umbral de media hora al hospital de referencia; San
+          Vicente se alarga a unos cuarenta.
         </P>
         <P>
           El aeropuerto de Santander–Seve Ballesteros —con Palma casi todo el año— queda a unos
           diez minutos desde Santander, quince desde Liencres, veinte desde Suances, cuarenta
-          desde Comillas y cuarenta y cinco desde San Vicente. Es, con Bilbao, el mejor acceso a
-          Palma de toda la tabla.
+          desde Comillas y cuarenta y cinco desde San Vicente. Junto con Bilbao, es uno de los
+          accesos más cómodos a Palma de la costa norte.
         </P>
         <Foto
           src="/fotos/cantabria-occidental/zona-oyambre.jpg"
@@ -237,14 +238,14 @@ export default function RelatoCantabriaOccidental({ zona }: { zona: Zona }) {
 
       <Encaja
         si={[
-          "Se busca la mejor combinación de hospital, aeropuerto con Palma casi todo el año y seguridad de toda la tabla —Valdecilla, Seve Ballesteros, Piélagos al mínimo de criminalidad—, aceptando el sol más bajo (~1.700 horas y unos 38 despejados). Liencres o Mortera ganan como urbanización de casas bajas junto a dunas; Suances, como villa-playa con vida todo el año.",
+          "Pesan Valdecilla, el Seve Ballesteros con Palma casi todo el año y una costa de dunas y bahía, aceptando un cielo de sol bajo (~1.700 horas y unos 38 despejados). Liencres o Mortera encajan como urbanización de casas bajas junto a las Dunas y la Costa Quebrada; Suances, como villa-playa con vida todo el año.",
           "Se valora caminar dunas, Costa Quebrada, bahía o ría con Picos al fondo, con capital completa a quince o treinta minutos desde Liencres y Suances, y fibra y obra nueva en Piélagos.",
         ]}
         no={[
-          `Se necesita el cielo de Baleares: Cantabria Occidental tiene ${zona.lluviaDias} días de lluvia, ${zona.despejados} despejados y ${zona.cubiertos} cubiertos, frente a ${mallorca.lluviaDias} y ${mallorca.despejados} en Mallorca. Es uno de los climas más opuestos a Mallorca de toda la tabla.`,
+          `Se necesita el cielo de Baleares: Cantabria Occidental tiene ${zona.lluviaDias} días de lluvia, ${zona.despejados} despejados y ${zona.cubiertos} cubiertos, frente a ${mallorca.lluviaDias} y ${mallorca.despejados} en Mallorca. El contraste con Mallorca es fuerte en cielo cubierto.`,
           "Se buscan tres habitaciones en Comillas o Santander dentro de la franja asequible habitual, calma turística en Comillas y San Vicente en verano, hospital cerca desde San Vicente (unos cuarenta minutos) o montaña detrás de casa en Liencres y Santander —los Picos quedan a una hora—.",
         ]}
-        veredicto="Veredicto de zona: Cantabria Occidental gana por logística y seguridad —Valdecilla, vuelo a Palma casi todo el año, Piélagos al mínimo de la tabla—, no por sol. Si un día hospital y aeropuerto pesan más que el cielo balear, Liencres o Mortera son la apuesta más equilibrada; Suances, villa-playa con Torrelavega a quince; San Vicente, la foto típica de ría y Picos a cambio de hospital y aeropuerto a cuarenta o cuarenta y cinco; Comillas, villa-museo cara y muy cuidada, muy tranquila en invierno; Santander, ciudad de referencia. Antes de elegir, probaría un noviembre cubierto y un agosto en Comillas, San Vicente o el Sardinero."
+        veredicto="Veredicto de zona: Cantabria Occidental encaja por logística —Valdecilla y vuelo a Palma casi todo el año—, no por sol. Si hospital y aeropuerto pesan más que el cielo balear, Liencres o Mortera equilibran dunas y capital a quince minutos; Suances, villa-playa con Torrelavega a quince; San Vicente, la foto de ría y Picos a cambio de hospital y aeropuerto a cuarenta o cuarenta y cinco; Comillas, villa modernista cuidada y tranquila en invierno; Santander, ciudad de referencia. Antes de elegir, probar un noviembre cubierto y un agosto en Comillas, San Vicente o el Sardinero."
       />
 
       <MunicipiosZonaFin

@@ -58,11 +58,12 @@ export default function RelatoPontevedraESanxenxo({ zona }: { zona: Zona }) {
           o dieciséis jornadas húmedas al mes entre octubre y marzo.
         </P>
         <P>
-          La costa exterior es más seca: Sanxenxo registra unos 1.300 milímetros en 118 días y O
-          Grove 1.250 en 115; Pontevedra alcanza 1.600 en 130. El verano ronda 19,5–20,5 °C, con
-          máximas habituales cercanas a 25–26 °C. Pontevedra ciudad puede sumar ocho o diez días por
-          encima de 30 °C; junto al Atlántico suelen ser entre tres y ocho. Frente a Baleares se
-          pierde agua cálida y se ganan noches frescas.
+          La costa exterior suele notar menos humedad acumulada que el fondo de la ría, pero la
+          diferencia no se traduce aquí en milímetros por municipio: la cifra de zona es la
+          referencia. El verano ronda {zona.tempVerano} °C, con máximas habituales cercanas a
+          25–26 °C. Pontevedra ciudad puede sumar algunos días por encima de 30 °C; junto al
+          Atlántico suelen ser menos. Frente a Baleares se pierde agua cálida y se ganan noches
+          frescas.
         </P>
       </section>
 
@@ -134,16 +135,16 @@ export default function RelatoPontevedraESanxenxo({ zona }: { zona: Zona }) {
       <section>
         <H2>Qué cuesta una casa</H2>
         <P>
-          Pontevedra y Poio rondan 1.900 €/m². Tres habitaciones se sitúan alrededor de 180.000
-          euros en la capital y 222.000 en Poio; allí dos habitaciones rondan 161.000. Son franjas
-          asequibles del mercado real. Una casa con vistas en Raxó o Samieira entra en una franja
-          media aproximada de 220.000–280.000 euros, muy dependiente de terreno, acceso y reforma.
+          El mercado dibuja un contraste claro: Pontevedra y Poio se mueven en la franja más
+          asequible de la zona; Sanxenxo concentra la demanda turística y la orilla más cara; O
+          Grove queda entre ambos, más asequible cuanto más se aleja del frente demandado. Una casa
+          con vistas en Raxó o Samieira entra en franja media, muy dependiente de terreno, acceso y
+          reforma. Los números concretos cambian con el anuncio: la tabla y Idealista mandan.
         </P>
         <P>
-          Sanxenxo es la franja cara: unos 2.900 €/m², cerca de 245.000 euros para dos habitaciones
-          y 339.000 para tres, antes de sumar primera línea. O Grove ronda 2.300 €/m²: dos
-          habitaciones alrededor de 194.000 y tres cerca de 269.000, normalmente alejándose del
-          frente más demandado. Hay obra nueva en Pontevedra, Poio y Sanxenxo; poca en O Grove.
+          Hay obra nueva en Pontevedra, Poio y Sanxenxo; poca en O Grove. En ciudad pesan piso y
+          casco; en Poio, parroquia y acceso; en Sanxenxo y O Grove, temporada, salitre y distancia
+          a la primera línea.
         </P>
         <TablaPrecios filas={municipiosPontevedraESanxenxo} />
         <EnlaceIdealista ambito="zona" zonaId={zona.id} nombre={zona.zona} />
@@ -152,10 +153,11 @@ export default function RelatoPontevedraESanxenxo({ zona }: { zona: Zona }) {
       <section>
         <H2>Servicios, hospital, aeropuerto</H2>
         <P>
-          Pontevedra alcanza 10/10 y concentra hospitales, universidad, tren, mercado y cultura.
-          Poio llega a 7/10 con la capital a cinco o diez minutos. Sanxenxo y O Grove, ambos 6/10,
-          cubren compra, salud primaria, colegio y restauración durante todo el año, aunque dependen
-          de Pontevedra o Vilagarcía para especialidades y compras mayores.
+          Pontevedra concentra hospitales, universidad, tren, mercado y cultura: es la única
+          escala de la zona donde la vida diaria cabe a pie. Poio cubre lo básico y tiene la capital
+          a cinco o diez minutos. Sanxenxo y O Grove resuelven compra, salud primaria, colegio y
+          restauración durante todo el año, aunque dependen de Pontevedra o Vilagarcía para
+          especialidades y compras mayores.
         </P>
         <P>
           Montecelo y Quirónsalud están a unos cinco minutos desde Pontevedra y diez desde Poio.
@@ -168,14 +170,14 @@ export default function RelatoPontevedraESanxenxo({ zona }: { zona: Zona }) {
 
       <Encaja
         si={[
-          "Se quiere escoger entre una ciudad peatonal completa y una costa de ría cercana. Pontevedra resuelve hospital, tren y cultura; Poio añade piedra, playa y monte a cinco o diez minutos; Sanxenxo concentra el mejor abanico de arenales; O Grove aporta marisqueo, Arousa y una península para caminar.",
-          "Se busca verano más fresco que en Mallorca. El agua está entre 17 y 20 °C y las noches refrescan; Sanxenxo y O Grove son además algo más secos que el fondo de la ría.",
+          "Se quiere escoger entre una ciudad peatonal completa y una costa de ría cercana. Pontevedra resuelve hospital, tren y cultura; Poio añade piedra, playa y monte a cinco o diez minutos; Sanxenxo concentra el abanico de arenales de Silgar a A Lanzada; O Grove aporta marisqueo, Arousa y una península para caminar.",
+          "Se busca verano más fresco que en Mallorca. El agua está entre 17 y 20 °C y las noches refrescan; la costa exterior suele sentirse menos húmeda que el fondo de la ría.",
         ]}
         no={[
           `Se necesita el cielo balear: aquí hay unos ${zona.lluviaDias} días de lluvia y ${zona.despejados} despejados frente a ${mallorca.despejados} en Mallorca. Pontevedra y Poio exigen revisar humedad y orientación, aunque el verano sea amable.`,
           "Se quieren a la vez silencio de agosto, playa a pie, tres habitaciones asequibles y hospital inmediato. Sanxenxo da playa pero recibe multitud y tiene la vivienda más cara; O Grove da mar pero queda a treinta minutos del hospital; Pontevedra resuelve sanidad sin playa urbana; Poio es el compromiso, no la suma perfecta.",
         ]}
-        veredicto="Veredicto de zona: Poio es el mejor equilibrio si se quieren ría, casa y Pontevedra a pocos minutos; la capital va primero si mandan vida peatonal y hospital; Sanxenxo solo si playa y mercado turístico justifican precio y agosto; O Grove si se acepta la peor logística para ganar península, marisqueo y dos costas. En Poio miraría Lourido o San Xoán para lo práctico y Raxó o Samieira para paisaje, siempre después de probar tráfico y humedad."
+        veredicto="Veredicto de zona: Poio encaja si se quieren ría, casa y Pontevedra a pocos minutos; la capital, si mandan vida peatonal y hospital; Sanxenxo, si playa y mercado turístico justifican precio y agosto; O Grove, si se acepta más distancia al hospital para ganar península, marisqueo y dos costas. En Poio conviene mirar Lourido o San Xoán para lo práctico y Raxó o Samieira para paisaje, siempre después de probar tráfico y humedad."
       />
 
       <MunicipiosZonaFin zonaId={zona.id} municipios={municipiosPontevedraESanxenxo} escalas={ESCALA} />

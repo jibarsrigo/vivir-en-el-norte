@@ -46,10 +46,11 @@ export default function RelatoCantabriaOriental({ zona }: { zona: Zona }) {
           treinta y cinco minutos.
         </P>
         <P>
-          Es la zona con el sol más bajo de la tabla y la mejor conectada con Bilbao —aeropuerto
-          con Palma todo el año, hospital de Cruces—. Santander queda a veinte o treinta minutos
-          desde Ribamontán, Noja y Santoña; Bilbao, a treinta y cinco o cuarenta y cinco desde
-          Castro y Laredo.
+          Es la zona con el sol más bajo de la tabla y la más conectada con Bilbao —aeropuerto con
+          Palma todo el año; hospital de Cruces cerca en distancia, aunque la adscripción sanitaria
+          ordinaria sigue siendo cantábrica—. Santander queda a veinte o treinta minutos desde
+          Ribamontán, Noja y Santoña; Bilbao, a treinta y cinco o cuarenta y cinco desde Castro y
+          Laredo.
         </P>
         <Foto
           src="/fotos/cantabria-oriental/zona-somo.jpg"
@@ -93,11 +94,11 @@ export default function RelatoCantabriaOriental({ zona }: { zona: Zona }) {
       <section>
         <H2>Cómo se vive</H2>
         <P>
-          Un martes de noviembre muestra escalas muy distintas. Castro alcanza 8/10 —ciudad
-          completa con hospital comarcal a veinticinco minutos y Bilbao a treinta y cinco—.
-          Laredo cubre 7/10 —villa con todo y hospital comarcal—. Santoña baja a 6/10.
-          Ribamontán se queda en 5/10 —lo básico repartido entre parroquias; Santander a veinte o
-          veinticinco—. Noja cae a 4–5/10: dimensionada para el verano; de octubre a mayo cierra
+          Un martes de noviembre muestra escalas muy distintas. Castro es ciudad completa: comercio,
+          farmacias, metro a Bilbao en la práctica y hospital comarcal a unos veinticinco minutos.
+          Laredo cubre villa con todo y hospital comarcal. Santoña mantiene lo básico de villa de
+          trabajo. Ribamontán reparte lo esencial entre parroquias y mira a Santander a veinte o
+          veinticinco minutos. Noja está dimensionada para el verano: de octubre a mayo cierra
           medio comercio y queda casi vacía.
         </P>
         <P>
@@ -109,9 +110,7 @@ export default function RelatoCantabriaOriental({ zona }: { zona: Zona }) {
         </P>
         <P>
           Las patronales locales y el verano en la orilla cortan calles y llenan cascos unas
-          semanas: conviene probar esas fechas, no solo un martes gris. Castro registra unos 46
-          por mil; el resto no están medidos; Cantabria ronda 43. La población extranjera anda
-          entre el 6 y el 8 %.
+          semanas: conviene probar esas fechas, no solo un martes gris.
         </P>
         <Foto
           src="/fotos/cantabria-oriental/zona-noja.jpg"
@@ -177,12 +176,11 @@ export default function RelatoCantabriaOriental({ zona }: { zona: Zona }) {
       <section>
         <H2>Qué cuesta una casa</H2>
         <P>
-          Cantabria Oriental cubre franjas distintas. Santoña ronda 1.900 €/m²; Laredo, 2.100;
-          Ribamontán y Noja, 2.300; Castro, 2.400. Tres habitaciones en la franja asequible se
-          sitúan alrededor de 222.000 euros en Santoña y unos 246.000 en Laredo. En Ribamontán y
-          Noja la tipología de tres habitaciones en primera línea queda por encima de la orilla
-          asequible habitual; en Castro, tres habitaciones también quedan fuera y dos habitaciones
-          rondan unos 203.000 euros.
+          Cantabria Oriental cubre franjas distintas. Santoña suele situarse en el tramo más
+          contenido; Laredo, en media; Ribamontán, Noja y Castro, en orillas más altas —sobre todo
+          primera línea de playa o chalés de surf—. Tres habitaciones en primera línea de Castro,
+          Noja o Ribamontán suelen quedar fuera de la franja asequible habitual. Los números
+          concretos están en la tabla; tipología y reforma pesan más que una cifra única.
         </P>
         <P>
           La franja media cambia de forma: chalé o casa baja en Ribamontán, piso en bloque de
@@ -201,27 +199,30 @@ export default function RelatoCantabriaOriental({ zona }: { zona: Zona }) {
       <section>
         <H2>Servicios, hospital, aeropuerto</H2>
         <P>
-          Castro alcanza 8/10; Laredo, 7/10; Santoña, 6/10; Ribamontán, 5/10; Noja, 4–5/10.
-          Servicios significa vida diaria dentro del municipio —tiendas, farmacia, centro de
-          salud, súper—, no la distancia al hospital. Santander es la ciudad de referencia a unos
-          veinte o treinta minutos desde Ribamontán, Noja y Santoña; Bilbao, a treinta y cinco o
-          cuarenta y cinco desde Castro y Laredo.
+          Castro y Laredo cubren la vida diaria de ciudad o villa completa. Santoña resuelve lo
+          básico de villa de trabajo. Ribamontán reparte tiendas y farmacia entre parroquias;
+          Noja, de octubre a mayo, deja medio comercio cerrado. Servicios significa vida diaria
+          dentro del municipio —tiendas, farmacia, centro de salud, súper—, no la distancia al
+          hospital. Santander es la ciudad de referencia a unos veinte o treinta minutos desde
+          Ribamontán, Noja y Santoña; Bilbao, a treinta y cinco o cuarenta y cinco desde Castro y
+          Laredo.
         </P>
         <P>
           El Hospital de Laredo —público, comarcal— queda a unos cinco minutos desde Laredo, diez
           desde Santoña, veinte desde Noja y veinticinco desde Castro. Valdecilla anda alrededor
           de quince o veinte desde Ribamontán, y cuarenta o cuarenta y cinco desde Laredo y
-          Castro. Cruces —Barakaldo— queda a unos treinta y cinco o cuarenta desde Castro.
-          Privados: Santa Clotilde —Santander— a unos quince desde Ribamontán y treinta y cinco o
-          cuarenta y cinco desde el resto; en Bilbao —Quirónsalud, IMQ— a unos cuarenta desde
-          Castro.
+          Castro. Cruces —Barakaldo— queda a unos treinta y cinco o cuarenta desde Castro: útil
+          por proximidad si se vive hacia Bizkaia, pero no es el hospital de adscripción cantábrica
+          por defecto. Privados: Santa Clotilde —Santander— a unos quince desde Ribamontán y
+          treinta y cinco o cuarenta y cinco desde el resto; en Bilbao —Quirónsalud, IMQ— a unos
+          cuarenta desde Castro.
         </P>
         <P>
           El aeropuerto de Santander —con Palma casi todo el año— queda a unos quince minutos
           desde Ribamontán, veinticinco desde Noja, treinta desde Santoña y treinta y cinco desde
           Laredo. Bilbao —con Palma todo el año— anda alrededor de treinta y cinco o cuarenta
-          desde Castro y cincuenta desde Laredo. Es la única zona de la tabla con vuelo a Palma
-          todo el año a menos de cuarenta minutos —desde Castro—.
+          desde Castro y cincuenta desde Laredo. Desde Castro, el vuelo a Palma todo el año queda
+          a menos de cuarenta minutos de coche.
         </P>
         <Foto
           src="/fotos/cantabria-oriental/zona-buciero.jpg"
@@ -231,14 +232,14 @@ export default function RelatoCantabriaOriental({ zona }: { zona: Zona }) {
 
       <Encaja
         si={[
-          "Se busca la mejor conexión con Bilbao —Palma todo el año a unos treinta y cinco o cuarenta minutos desde Castro, Cruces cerca— o casas bajas y calma en Ribamontán —Somo, Loredo, Langre—, aceptando el sol más bajo de la tabla (~1.650–1.700 horas y unos 40 despejados).",
-          "Se valora villa de trabajo con monte y marismas en Santoña —más asequible que sus vecinas—, o playa enorme con hospital a pie en Laredo, sin pedir el cielo de Baleares.",
+          "Pesan la conexión con Bilbao —Palma todo el año a unos treinta y cinco o cuarenta minutos desde Castro— o casas bajas y calma en Ribamontán —Somo, Loredo, Langre—, aceptando el sol más bajo de la tabla (~1.650–1.700 horas y unos 40 despejados).",
+          "Se valora villa de trabajo con monte y marismas en Santoña —tramo más contenido que sus vecinas—, o playa enorme con hospital a pie en Laredo, sin pedir el cielo de Baleares.",
         ]}
         no={[
-          `Se necesita el cielo de Baleares: Cantabria Oriental tiene ${zona.lluviaDias} días de lluvia, ${zona.despejados} despejados y ${zona.cubiertos} cubiertos, frente a ${mallorca.lluviaDias} y ${mallorca.despejados} en Mallorca. Es el sol mínimo de toda la tabla.`,
+          `Se necesita el cielo de Baleares: Cantabria Oriental tiene ${zona.lluviaDias} días de lluvia, ${zona.despejados} despejados y ${zona.cubiertos} cubiertos, frente a ${mallorca.lluviaDias} y ${mallorca.despejados} en Mallorca. Aquí el sol es el mínimo de la costa norte.`,
           "Se buscan tres habitaciones en primera línea de Castro, Noja o Ribamontán dentro de la franja asequible habitual, vida de pueblo en Noja de octubre a mayo, casas bajas en Laredo y Noja, o montaña cerca salvo el Buciero.",
         ]}
-        veredicto="Veredicto de zona: Cantabria Oriental gana por Bilbao y por el vuelo a Palma todo el año desde Castro, no por sol. Si el aeropuerto pasa a ser prioridad, Castro o Ribamontán —Loredo, Langre— son las apuestas; Santoña, villa de trabajo con Buciero y precio más bajo; Laredo, Salvé y hospital a cinco minutos a cambio del urbanismo de torres; Noja, segunda residencia, no para vivir todo el año. Con el sol como prioridad primera, esta zona no. Antes de elegir, probaría un noviembre cubierto y un agosto en Noja, Laredo o Somo."
+        veredicto="Veredicto de zona: Cantabria Oriental destaca por Bilbao y por el vuelo a Palma todo el año desde Castro, no por sol. Si el aeropuerto manda, Castro o Ribamontán —Loredo, Langre—; Santoña, villa de trabajo con Buciero y precio más contenido; Laredo, Salvé y hospital a cinco minutos a cambio del urbanismo de torres; Noja, segunda residencia, no para vivir todo el año. Con el sol como prioridad primera, esta zona no. Antes de elegir, probar un noviembre cubierto y un agosto en Noja, Laredo o Somo."
       />
 
       <MunicipiosZonaFin

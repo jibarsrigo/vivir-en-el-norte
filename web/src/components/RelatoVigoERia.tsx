@@ -65,10 +65,12 @@ export default function RelatoVigoERia({ zona }: { zona: Zona }) {
           {zona.solHoras.toLocaleString("es-ES")} horas de sol al año; Mallorca ronda{" "}
           {mallorca.despejados} jornadas despejadas y{" "}
           {mallorca.solHoras.toLocaleString("es-ES")} horas. Vigo, más abierto a la ría, alcanza
-          unas 2.350 horas; Redondela, Soutomaior y Vilaboa se quedan alrededor de 2.250.
+          unas dos mil trescientas cincuenta horas; Redondela, Soutomaior y Vilaboa se
+          quedan algo por debajo.
         </P>
         <P>
-          La lluvia ronda {zona.lluviaDias} días y 1.700 milímetros al año. Entre octubre y marzo
+          La lluvia ronda {zona.lluviaDias} días y{" "}
+          {zona.lluviaMm.toLocaleString("es-ES")} milímetros al año. Entre octubre y marzo
           aparecen unos {zona.lluvia.oct_mar} días húmedos cada mes;{" "}
           {zona.lluvia.peor} suele ser el tramo peor, con {zona.lluvia.peor_n}. No siempre llueve
           desde la mañana hasta la noche, pero los frentes se suceden y dejan jardín, muros y
@@ -119,7 +121,7 @@ export default function RelatoVigoERia({ zona }: { zona: Zona }) {
           marisma y playas pequeñas no convoca una multitud comparable.
         </P>
         <P>
-          La mejor logística de la selección atraviesa todo el año. La AP-9 une Vigo y Pontevedra;
+          La logística densa de esta orilla atraviesa todo el año. La AP-9 une Vigo y Pontevedra;
           los trenes paran en Vigo, Redondela y Arcade; Peinador queda entre diez y quince minutos
           desde los cuatro centros tomados como referencia. Esa red ahorra trayectos largos, pero
           también produce ruido: vía, autopista, puente de Rande y carreteras nacionales deben
@@ -218,18 +220,13 @@ export default function RelatoVigoERia({ zona }: { zona: Zona }) {
       <section>
         <H2>Qué cuesta una casa</H2>
         <P>
-          Vigo abre una distancia clara: alrededor de 2.700 €/m², frente a 1.450 en Redondela y
-          1.300 en Soutomaior y Vilaboa. En la costa suroeste viguesa se pagan las Cíes, la playa y
-          el hospital cerca. Un piso de dos habitaciones recientes cerca del mar ronda
-          220.000–230.000 euros —la franja asequible de esa orilla—; tres habitaciones o una casa
-          con jardín en Coruxo, Oia o Saiáns se van hacia los 300.000 o más.
-        </P>
-        <P>
-          Redondela ofrece más metros por menos: tres habitaciones cerca de Cesantes pueden rondar
-          170.000 euros, aunque el ruido cambia mucho según vía y carretera. Soutomaior ofrece
-          casas de piedra con terreno aproximadamente entre 120.000 y 200.000. Vilaboa se mueve en
-          un intervalo parecido, a menudo entre 130.000 y 200.000 para casa con finca y, en algunos
-          puntos, vista a la ensenada.
+          Vigo abre una distancia clara respecto a la villa y a las parroquias de la ría: en la
+          costa suroeste se pagan las Cíes, la playa y el hospital cerca; en Redondela el mercado
+          afloja hacia más metros, aunque el ruido cambia según vía y carretera; en Soutomaior
+          aparecen casas de piedra con terreno entre el castillo, el Verdugo y Arcade. Vilaboa no
+          se resume en un precio de metro: allí mandan la finca, el coche entre parroquias y la
+          marisma —y, en algunos puntos, la vista a la ensenada—. Los números de quien tiene dato
+          vivo están en la tabla; donde no hay serie fiable, no conviene inventarla.
         </P>
         <P>
           Fuera de Vigo hay poca o ninguna obra nueva. El ahorro debe reservar margen para cubierta,
@@ -245,12 +242,11 @@ export default function RelatoVigoERia({ zona }: { zona: Zona }) {
       <section>
         <H2>Servicios, hospital, aeropuerto</H2>
         <P>
-          Vigo obtiene 10/10 porque no necesita ciudad de referencia: hospitales, universidad,
-          mercados, gran comercio, cultura, deporte, tren de alta velocidad y aeropuerto están
-          dentro del municipio. Redondela alcanza 7/10: mercado, comercio, centros educativos,
-          centro de salud y estación resuelven la semana; Vigo y Pontevedra completan lo que falta.
-          Soutomaior baja a 4/10 y concentra lo básico en Arcade. Vilaboa, con 3/10, vive repartida y
-          depende del coche.
+          Vigo no necesita ciudad de referencia: hospitales, universidad, mercados, gran
+          comercio, cultura, deporte, tren de alta velocidad y aeropuerto están dentro del
+          municipio. Redondela resuelve la semana con mercado, comercio, centros educativos,
+          centro de salud y estación; Vigo y Pontevedra completan lo que falta. Soutomaior
+          concentra lo básico en Arcade. Vilaboa vive repartida y depende del coche.
         </P>
         <P>
           Vigo usa el Álvaro Cunqueiro como hospital público y Povisa como gran centro
@@ -276,14 +272,14 @@ export default function RelatoVigoERia({ zona }: { zona: Zona }) {
 
       <Encaja
         si={[
-          "Se quiere la mejor combinación de hospital, aeropuerto, tren y mar. Vigo resuelve la vida urbana completa y permite buscar costa residencial en Alcabre, Coruxo, Oia o Saiáns; Redondela ofrece villa, estación y Cesantes —la playa tranquila frente a San Simón— por mucho menos dinero.",
+          "Se quiere hospital, aeropuerto, tren y mar en la misma órbita. Vigo resuelve la vida urbana completa y permite buscar costa residencial en Alcabre, Coruxo, Oia o Saiáns; Redondela ofrece villa, estación y Cesantes —la playa tranquila frente a San Simón— con menos tensión de mercado que la orilla viguesa.",
           "Se busca casa y calma sin aislarse. Soutomaior permite vivir entre el castillo, el río Verdugo y Arcade con Pontevedra a unos quince minutos. Vilaboa ofrece finca, marisma y vistas sobre la ensenada, también cerca del hospital, si se acepta que parroquia significa coche y servicios dispersos.",
         ]}
         no={[
-          `Se necesita el cielo fiable de Baleares. Aquí hay unos ${zona.lluviaDias} días de lluvia y alrededor de 1.700 milímetros al año; el invierno es templado, pero las cubiertas, los muros y el jardín permanecen mojados durante largas secuencias.`,
+          `Se necesita el cielo fiable de Baleares. Aquí hay unos ${zona.lluviaDias} días de lluvia y alrededor de ${zona.lluviaMm.toLocaleString("es-ES")} milímetros al año; el invierno es templado, pero las cubiertas, los muros y el jardín permanecen mojados durante largas secuencias.`,
           "Se imagina que toda la zona permite una vida de pueblo a pie. Solo Redondela funciona claramente como villa compacta; Arcade cubre una escala menor. Vigo es ciudad y las parroquias de Vilaboa o Soutomaior dependen del coche. El ruido de trenes, AP-9 y carreteras también debe comprobarse casa por casa.",
         ]}
-        veredicto="Veredicto de zona: Redondela es la recomendación más equilibrada para vivienda amplia, tren, mercado, hospital a unos veinte minutos y baño tranquilo en Cesantes —tres habitaciones cerca de la playa rondan 170.000 euros—. Vigo va primero cuando hospitales, cultura y ciudad completa son irrenunciables; en su costa suroeste lo habitual es un piso de dos habitaciones cerca del mar, no tres ni casa con jardín y vistas a las Cíes. Soutomaior encaja para casa con terreno y un pequeño apoyo urbano en Arcade. Vilaboa ofrece el mayor silencio y paisaje de ensenada, pagando con coche y servicios escasos. Frente a Mallorca, toda la zona cambia sol invernal por lluvia, pero entrega veranos de 25–26 °C: para práctica y villa, Redondela; para ciudad, Vigo; para casa conectada, Soutomaior; para parroquia y finca, Vilaboa."
+        veredicto="Veredicto de zona: Redondela equilibra vivienda amplia, tren, mercado, hospital cercano y baño tranquilo en Cesantes. Vigo encaja cuando hospitales, cultura y ciudad completa son irrenunciables; en su costa suroeste lo habitual es piso cerca del mar más que casa con jardín y vistas a las Cíes. Soutomaior aporta casa con terreno y un apoyo urbano en Arcade. Vilaboa ofrece silencio y paisaje de ensenada a cambio de coche y servicios escasos, sin pretender una media de mercado homogénea. Frente a Mallorca, la zona cambia sol invernal por lluvia y entrega veranos más suaves."
       />
 
       <MunicipiosZonaFin zonaId={zona.id} municipios={municipiosVigoERia} escalas={ESCALA} />

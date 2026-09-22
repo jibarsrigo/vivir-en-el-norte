@@ -45,8 +45,9 @@ export default function RelatoOSalnes({ zona }: { zona: Zona }) {
           Pontevedra queda a unos veinticinco o treinta minutos desde el centro de la comarca;
           Santiago, a unos cuarenta y cinco o cincuenta. Vilagarcía sirve como cabecera práctica,
           pero su escala portuaria no sustituye el casco peatonal y cultural de Pontevedra. La
-          ventaja es otra: ningún municipio queda lejos del hospital comarcal y todos tienen la ría
-          o una playa a un trayecto corto.
+          ventaja es otra: ningún municipio queda lejos del hospital comarcal. La ría está cerca en
+          Cambados, Vilanova, A Illa y Vilagarcía; Meaño vive de viñedo y parroquias, con A Lanzada
+          o Sanxenxo como salida de playa, no como arenal de diario.
         </P>
         <Foto src="/fotos/o-salnes/cambados-fefinans.jpg" pie="Cambados: granito, Albariño y la ría de Arousa" />
       </section>
@@ -63,8 +64,7 @@ export default function RelatoOSalnes({ zona }: { zona: Zona }) {
         <P>
           Caen unos {zona.lluviaMm.toLocaleString("es-ES")} milímetros en {zona.lluviaDias} días.
           Es una de las franjas más secas de las Rías Baixas, aunque sigue duplicando ampliamente
-          los días de lluvia de Mallorca. Cambados, A Illa y Vilanova rondan 1.350 milímetros;
-          Meaño sube a 1.400 y Vilagarcía a 1.450. La piedra, las cubiertas y la ventilación deben
+          los días de lluvia de Mallorca. La piedra, las cubiertas y la ventilación deben
           comprobarse después de un frente, no solo con sol.
         </P>
         <P>
@@ -165,17 +165,12 @@ export default function RelatoOSalnes({ zona }: { zona: Zona }) {
       <section>
         <H2>Qué cuesta una casa</H2>
         <P>
-          Meaño y Vilanova rondan 1.350 €/m²; Cambados, 1.500; Vilagarcía, 1.700; A Illa, 1.900 por
-          la escasez de suelo. En la franja asequible, tres habitaciones se sitúan aproximadamente
-          en 158.000 euros en Meaño y Vilanova, 176.000 en Cambados, 199.000 en Vilagarcía y
-          222.000 en A Illa.
-        </P>
-        <P>
-          La franja media cambia de forma: casa de piedra con viñedo en Meaño, vivienda reformada
-          en Cambados, piso con terraza en A Illa, casa hacia Baión o Caleiro en Vilanova, u obra
-          reciente en Vilagarcía. El estudio sitúa casas de piedra con finca en Meaño alrededor de
-          150.000-230.000 euros; en los demás casos pesan demasiado estado, vistas y parcela para
-          convertir una media en promesa.
+          El mercado abre un abanico amplio: Meaño suele ser la franja más asequible del valle;
+          Cambados y Vilagarcía se mueven en tramos intermedios; A Illa concentra escasez de suelo
+          y demanda de isla, y suele ser la orilla más cara. La tipología cambia de forma: casa de
+          piedra con viñedo en Meaño, vivienda reformada en Cambados, piso con terraza en A Illa,
+          casa hacia Baión o Caleiro en Vilanova, u obra reciente en Vilagarcía. Estado, vistas y
+          parcela pesan demasiado para convertir una media en promesa: la tabla y Idealista mandan.
         </P>
         <P>
           Vilagarcía conserva obra nueva; en Cambados, A Illa y Vilanova es escasa y en Meaño casi
@@ -189,10 +184,12 @@ export default function RelatoOSalnes({ zona }: { zona: Zona }) {
       <section>
         <H2>Servicios, hospital, aeropuerto</H2>
         <P>
-          Vilagarcía alcanza 8/10 en servicios: hospital, centros de salud, estación, mercado,
-          supermercados, colegios, institutos y comercio. Cambados llega a 6/10; Vilanova, 5/10; A
-          Illa, 4/10; Meaño, 3/10. Servicios significa vida diaria dentro del municipio, no la
-          distancia al hospital.
+          Vilagarcía concentra hospital, estación, mercado, supermercados, colegios, institutos y
+          comercio de ciudad pequeña. Cambados cubre la semana básica en villa caminable. Vilanova
+          y A Illa resuelven lo esencial en el núcleo y dependen de Vilagarcía para especialistas y
+          compra grande. Meaño, fuera de Dena, reparte servicios entre parroquias y pide coche para
+          casi cada recado. Servicios significa vida diaria dentro del municipio, no la distancia al
+          hospital.
         </P>
         <P>
           El Hospital do Salnés queda a cinco minutos de Vilagarcía, quince de Cambados y Vilanova
@@ -211,14 +208,14 @@ export default function RelatoOSalnes({ zona }: { zona: Zona }) {
 
       <Encaja
         si={[
-          "Se quiere verano mucho más suave que en Mallorca, agua de ría calma y una comarca que conserva vida todo el año. Cambados aporta villa e historia; A Illa, playas a pie; Vilanova, costa asequible; Vilagarcía, hospital y tren; Meaño, piedra y viñedo.",
+          "Se quiere verano mucho más suave que en Mallorca, agua de ría calma y una comarca que conserva vida todo el año. Cambados aporta villa e historia; A Illa, playas a pie; Vilanova, orilla de ría; Vilagarcía, hospital y tren; Meaño, piedra y viñedo —con A Lanzada como salida, no como playa cotidiana—.",
           "Se valora poder escoger escala sin alejarse del hospital. Incluso desde la isla o las parroquias de Meaño, el Hospital do Salnés queda alrededor de veinte minutos; Santiago y su enlace con Palma están a menos de una hora.",
         ]}
         no={[
           `Se necesita el cielo de Baleares: O Salnés tiene ${zona.lluviaDias} días de lluvia y ${zona.despejados} despejados, frente a ${mallorca.lluviaDias} y ${mallorca.despejados} en Mallorca. El verano es luminoso, pero el invierno exige convivir con humedad y semanas grises.`,
           "Se busca a la vez océano abierto, gran ciudad y vida sin coche. La ría es protegida; A Lanzada requiere desplazamiento. Vilagarcía da servicios sin el encanto de Cambados, mientras Meaño da paisaje y casa a cambio de conducir.",
         ]}
-        veredicto="Veredicto de zona: Cambados es la elección más equilibrada por villa, mercado, historia y hospital a quince minutos. Vilanova va primero si pesan precio y baño tranquilo; A Illa si mar y senderos deben empezar a pie; Vilagarcía si mandan hospital, tren y servicios; Meaño si se quiere casa entre viñas y se acepta coche. Antes de elegir, probaría un noviembre húmedo y la semana festiva de agosto de la calle concreta."
+        veredicto="Veredicto de zona: Cambados encaja por villa, mercado, historia y hospital a quince minutos. Vilanova, si pesan orilla de ría y un metro más amable; A Illa, si mar y senderos deben empezar a pie; Vilagarcía, si mandan hospital, tren y servicios; Meaño, si se quiere casa entre viñas y se acepta coche. Antes de elegir, conviene probar un noviembre húmedo y la semana festiva de agosto de la calle concreta."
       />
 
       <MunicipiosZonaFin zonaId={zona.id} municipios={municipiosOSalnes} escalas={ESCALA} />

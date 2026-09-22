@@ -45,8 +45,8 @@ export default function RelatoBarbanzaENoia({ zona }: { zona: Zona }) {
         <P>
           Santiago queda a unos cuarenta o cincuenta minutos; Vilagarcía, al otro lado de Arousa, a
           unos veinticinco o treinta y cinco. No hay ciudad dentro de la zona: la referencia es
-          Compostela. A cambio, monte real a diez minutos de casa, ría o Atlántico delante, y el
-          precio más bajo de las Rías Baixas.
+          Compostela. A cambio, monte real a diez minutos de casa, ría o Atlántico delante, y una
+          franja relativamente asequible dentro de las Rías Baixas.
         </P>
         <Foto src="/fotos/barbanza-e-noia/zona-curota.jpg" pie="A Curota: la sierra mira las rías" />
       </section>
@@ -62,10 +62,8 @@ export default function RelatoBarbanzaENoia({ zona }: { zona: Zona }) {
         </P>
         <P>
           Caen unos {zona.lluviaMm.toLocaleString("es-ES")} milímetros en {zona.lluviaDias} días.
-          Ribeira ronda 1.250 milímetros y es de las franjas más secas; el resto de la comarca se
-          mueve alrededor de 1.350. Sigue duplicando ampliamente los días de lluvia de Mallorca. La
-          sierra puede recortar sol de tarde en invierno; la piedra y las cubiertas deben
-          comprobarse después de un frente.
+          Sigue duplicando ampliamente los días de lluvia de Mallorca. La sierra puede recortar sol
+          de tarde en invierno; la piedra y las cubiertas deben comprobarse después de un frente.
         </P>
         <P>
           El verano compensa: la media ronda {zona.tempVerano} °C, las máximas habituales 24 o
@@ -167,17 +165,13 @@ export default function RelatoBarbanzaENoia({ zona }: { zona: Zona }) {
       <section>
         <H2>Qué cuesta una casa</H2>
         <P>
-          Rianxo ronda 1.200 €/m²; A Pobra y Noia, 1.300; Boiro y Porto do Son, 1.350; Ribeira,
-          1.500. En la franja asequible, tres habitaciones se sitúan aproximadamente en 140.400
-          euros en Rianxo, 152.100 en A Pobra, 158.000 en Boiro y Porto do Son, 175.500 en Ribeira y
-          unos 122.800 en Noia en franja B.
-        </P>
-        <P>
-          La franja media cambia de forma: piso en el casco de Noia o Rianxo, casa con terreno hacia
-          Abanqueiro o Cespón en Boiro, vivienda bajo A Curota en A Pobra, o piso cerca de servicios
-          en Ribeira. El estudio sitúa casas de piedra con finca y vistas a la ría alrededor de
-          120.000-200.000 euros; pesan demasiado estado, orientación y parcela para convertir una
-          media en promesa.
+          Es una de las franjas relativamente asequibles de las Rías Baixas: Rianxo suele abrir el
+          tramo más bajo; Boiro, A Pobra, Porto do Son y Noia se mueven en orillas intermedias;
+          Ribeira, con más demanda de capital comarcal, suele subir el metro. La tipología cambia de
+          forma: piso en el casco de Noia o Rianxo, casa con terreno hacia Abanqueiro o Cespón en
+          Boiro, vivienda bajo A Curota en A Pobra, o piso cerca de servicios en Ribeira. Estado,
+          orientación y parcela pesan demasiado para convertir una media en promesa: la tabla y
+          Idealista mandan.
         </P>
         <P>
           La obra nueva es escasa o inexistente en toda la zona; conviene buscar vivienda reciente
@@ -192,9 +186,11 @@ export default function RelatoBarbanzaENoia({ zona }: { zona: Zona }) {
       <section>
         <H2>Servicios, hospital, aeropuerto</H2>
         <P>
-          Ribeira alcanza 7/10 en servicios: hospital, comercio, mercado, cine y restauración. Boiro
-          y Noia llegan a 6/10; Rianxo y A Pobra, a 5/10; Porto do Son, a 4/10. Servicios significa
-          vida diaria dentro del municipio, no la distancia al hospital.
+          Ribeira concentra hospital, comercio, mercado, cine y restauración de capital comarcal.
+          Boiro y Noia cubren la semana básica en cascos caminables. Rianxo y A Pobra bajan a lo
+          esencial con puerto y piedra. Porto do Son reparte servicios entre parroquias y costa
+          abierta. Servicios significa vida diaria dentro del municipio, no la distancia al
+          hospital.
         </P>
         <P>
           El Hospital do Barbanza queda a cinco minutos de Ribeira, diez de A Pobra, veinte de
@@ -216,14 +212,14 @@ export default function RelatoBarbanzaENoia({ zona }: { zona: Zona }) {
 
       <Encaja
         si={[
-          "Se quiere monte detrás y mar delante al precio más bajo de las Rías Baixas, con verano mucho más suave que en Mallorca. Boiro y A Pobra equilibran villa, ría y sierra; Ribeira aporta hospital y capital comarcal; Rianxo, calma literaria; Noia, casco gótico; Porto do Son, Atlántico abierto.",
+          "Se quiere monte detrás y mar delante en una franja relativamente asequible de las Rías Baixas, con verano mucho más suave que en Mallorca. Boiro y A Pobra equilibran villa, ría y sierra; Ribeira aporta hospital y capital comarcal; Rianxo, calma literaria; Noia, casco gótico; Porto do Son, Atlántico abierto.",
           "Se valora Santiago-Lavacolla a cuarenta o cincuenta minutos, con enlace a Palma casi todo el año. Incluso desde las parroquias, el Hospital do Barbanza queda alrededor de media hora salvo en Noia, donde el referente es el CHUS.",
         ]}
         no={[
           `Se necesita el cielo de Baleares: Barbanza e Noia tiene ${zona.lluviaDias} días de lluvia y ${zona.despejados} despejados, frente a ${mallorca.lluviaDias} y ${mallorca.despejados} en Mallorca. El verano es luminoso, pero el invierno exige convivir con humedad, sierra en sombra y semanas grises.`,
           "Se busca a la vez ciudad a quince minutos, hospital privado cerca y vida sin coche en toda la comarca. Santiago queda a cuarenta o cincuenta; el privado, en Compostela. Porto do Son exige coche; Ribeira da servicios a cambio de densidad portuaria.",
         ]}
-        veredicto="Veredicto de zona: Boiro o A Pobra son la elección más equilibrada por ría, sierra, precio y hospital a diez o veinte minutos. Ribeira va primero si mandan servicios y sanidad a pie; Rianxo si pesan calma, literatura y el metro más barato; Noia si el casco gótico y Santiago importan más que el hospital comarcal; Porto do Son si el Atlántico debe empezar en la puerta. Antes de elegir, probaría un noviembre húmedo y la fiesta mayor de la calle concreta."
+        veredicto="Veredicto de zona: Boiro o A Pobra encajan por ría, sierra, precio y hospital a diez o veinte minutos. Ribeira, si mandan servicios y sanidad a pie; Rianxo, si pesan calma, literatura y un metro más bajo; Noia, si el casco gótico y Santiago importan más que el hospital comarcal; Porto do Son, si el Atlántico debe empezar en la puerta. Antes de elegir, conviene probar un noviembre húmedo y la fiesta mayor de la calle concreta."
       />
 
       <MunicipiosZonaFin zonaId={zona.id} municipios={municipiosBarbanzaENoia} escalas={ESCALA} />

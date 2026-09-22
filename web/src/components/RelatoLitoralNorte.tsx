@@ -65,15 +65,15 @@ export default function RelatoLitoralNorte({ zona }: { zona: Zona }) {
           {zona.lluvia.peor_n}.
         </P>
         <P>
-          Caen unos {zona.lluviaMm.toLocaleString("es-ES")}–1.300 milímetros en {zona.lluviaDias}–
-          108 días —los menos días de lluvia de la tabla—, con julio y agosto casi secos (unos dos
-          días). El viento es alto: la nortada, viento norte fuerte por las tardes de junio a
-          agosto. La niebla es media —nieblas de mar por la mañana en verano—.
+          Caen unos {zona.lluviaMm.toLocaleString("es-ES")} milímetros en {zona.lluviaDias} días.
+          En verano llueve {zona.lluvia.verano} días al mes. El viento es alto: la nortada, viento
+          norte fuerte por las tardes de junio a agosto. La niebla es media —nieblas de mar por la
+          mañana en verano—.
         </P>
         <P>
           El verano ronda {zona.tempVerano} °C, con máximas alrededor de 25 °C y tres a seis días
-          por encima de 30 °C. Frente a Mallorca: unas 250 horas de sol menos, unos cincuenta días
-          de lluvia más de octubre a abril, y un verano igual de seco pero unos 5 °C más fresco.
+          por encima de 30 °C. Frente a Mallorca: menos horas de sol, más días de lluvia de
+          octubre a abril, y un verano seco pero unos 5 °C más fresco.
         </P>
         <P>
           El agua anda entre 16 y 18 °C en agosto: fría. Mar abierto, olas y viento de tarde. Ofir
@@ -87,16 +87,16 @@ export default function RelatoLitoralNorte({ zona }: { zona: Zona }) {
       <section>
         <H2>Cómo se vive</H2>
         <P>
-          Un martes de noviembre muestra escalas distintas. Póvoa y Vila do Conde alcanzan 8/10 —
-          ciudades completas con hospital, metro, mercado, comercio y cultura—. Esposende cubre
-          6/10: villa completa; Braga a unos treinta minutos con todo.
+          Un martes de noviembre muestra escalas distintas. Póvoa y Vila do Conde son ciudades
+          completas: hospital, metro, mercado, comercio y cultura. Esposende cubre villa completa;
+          Braga a unos treinta minutos con el resto.
         </P>
         <P>
           Quien vive aquí trabaja en Porto, en Braga, en el ritmo de ciudad-balneario o en el
           veraneo que llena la orilla en agosto. Esposende —Ofir, Apúlia, Fão, Marinhas— es la
           opción residencial y tranquila; Póvoa aporta casino, paseo largo y bloques en primera
-          línea; Vila do Conde, casco histórico y el aeropuerto a un cuarto de hora. La
-          dependencia del coche baja a 3/10 en Póvoa y Vila do Conde gracias al metro.
+          línea; Vila do Conde, casco histórico y el aeropuerto a un cuarto de hora. El metro —
+          línea B— reduce la dependencia del coche en Póvoa y Vila do Conde.
         </P>
         <P>
           Conviene probar la calle elegida en un agosto de Póvoa o Vila do Conde y en un martes de
@@ -130,9 +130,9 @@ export default function RelatoLitoralNorte({ zona }: { zona: Zona }) {
         />
         <P>
           Montaña: no. Las sierras de Rates y Franqueira son colinas de 300–400 m. Gerês queda a
-          1 h 30. Es costa llana de dunas y bloques; el parecido con Mallorca es bajo en general
-          (2/5) y sube en Ofir y Apúlia —casas bajas entre pinos y dunas, tipo Sa Ràpita o Es
-          Trenc— (3/5).
+          1 h 30. Es costa llana de dunas y bloques; el parecido con Mallorca es bajo en general, y
+          sube un poco en Ofir y Apúlia —casas bajas entre pinos y dunas, tipo Sa Ràpita o Es
+          Trenc—.
         </P>
         <Foto
           src="/fotos/litoral-norte/zona-povoa.jpg"
@@ -166,11 +166,10 @@ export default function RelatoLitoralNorte({ zona }: { zona: Zona }) {
       <section>
         <H2>Qué cuesta una casa</H2>
         <P>
-          Esposende ronda 2.300 €/m²; Póvoa de Varzim y Vila do Conde, 2.600. Dos habitaciones en
-          la franja asequible se sitúan alrededor de 194.000–220.000 euros. Tres habitaciones en
-          Esposende rondan 269.000 euros —fuera de la orilla asequible habitual; entran a unos
-          cinco–diez minutos de la playa—. En Póvoa y Vila do Conde, tres habitaciones rondan
-          304.000 euros —fuera de esa orilla habitual—.
+          Esposende suele situarse algo por debajo de Póvoa de Varzim y Vila do Conde. Dos
+          habitaciones pueden entrar en la franja asequible habitual; tres habitaciones en primera
+          línea suelen quedar fuera —sobre todo en Póvoa y Vila do Conde— y entran más a unos
+          minutos de la playa. Los números concretos están en la tabla.
         </P>
         <P>
           Hay obra nueva en los tres —mucha en Póvoa y Vila do Conde—. Fibra en los tres. En los
@@ -189,10 +188,11 @@ export default function RelatoLitoralNorte({ zona }: { zona: Zona }) {
       <section>
         <H2>Servicios, hospital, aeropuerto</H2>
         <P>
-          Póvoa y Vila do Conde alcanzan 8/10; Esposende, 6/10. Servicios significa vida diaria
-          dentro del municipio —tiendas, farmacia, centro de salud, súper—, no la distancia al
-          hospital. La ciudad de referencia es la propia en Póvoa y Vila do Conde; desde
-          Esposende, Braga a unos treinta minutos con todo, y Porto a unos treinta–cuarenta.
+          Póvoa y Vila do Conde cubren la vida diaria de ciudad; Esposende, de villa completa.
+          Servicios significa vida diaria dentro del municipio —tiendas, farmacia, centro de
+          salud, súper—, no la distancia al hospital. La ciudad de referencia es la propia en
+          Póvoa y Vila do Conde; desde Esposende, Braga a unos treinta minutos con todo, y Porto a
+          unos treinta–cuarenta.
         </P>
         <P>
           El Hospital Póvoa de Varzim / Vila do Conde —público, comarcal— queda a unos cinco
@@ -205,8 +205,8 @@ export default function RelatoLitoralNorte({ zona }: { zona: Zona }) {
         <P>
           El aeropuerto de Porto–Sá Carneiro —Palma en verano; más de ochenta destinos directos
           todo el año— queda a unos quince minutos desde Vila do Conde, veinte desde Póvoa y
-          treinta y cinco desde Esposende: el mejor aeropuerto para viajar de toda la tabla, junto
-          a Vigo y A Coruña en tiempos cortos. Santiago —Palma casi todo el año— a unas dos horas.
+          treinta y cinco desde Esposende: acceso corto a un hub grande. Santiago —Palma casi todo
+          el año— a unas dos horas.
         </P>
         <Foto
           src="/fotos/litoral-norte/zona-dunas.jpg"
@@ -216,14 +216,14 @@ export default function RelatoLitoralNorte({ zona }: { zona: Zona }) {
 
       <Encaja
         si={[
-          "Se busca el máximo sol de la tabla (~2.550 horas y unos 85 despejados) y el mejor aeropuerto para viajar —Porto–Sá Carneiro a 15–35 minutos—, aceptando costa llana sin montaña, mar frío (16–18 °C) y nortada de tarde de junio a agosto.",
+          "Pesan el máximo sol de la tabla (~2.550 horas y unos 85 despejados) y Porto–Sá Carneiro a 15–35 minutos, aceptando costa llana sin montaña, mar frío (16–18 °C) y nortada de tarde de junio a agosto —con Palma solo en verano desde Sá Carneiro—.",
           "Se valora ciudad de playa con metro a Porto (Póvoa o Vila do Conde) o la opción residencial y tranquila de Esposende —Ofir o Apúlia, dunas y pinos—, con Braga y Porto a 30–40 minutos.",
         ]}
         no={[
-          `Se necesita montaña detrás, casas bajas en el frente de mar de Póvoa o Vila do Conde, agua de mar templada o tardes de terraza sin viento en verano. Litoral Norte tiene ${zona.lluviaDias} días de lluvia y ${zona.despejados} despejados —el mejor cielo—, pero Atlántico frío y llano.`,
+          `Se necesita montaña detrás, casas bajas en el frente de mar de Póvoa o Vila do Conde, agua de mar templada o tardes de terraza sin viento en verano. Litoral Norte tiene ${zona.lluviaDias} días de lluvia y ${zona.despejados} despejados —cielo alto—, pero Atlántico frío y llano.`,
           "Se buscan tres habitaciones en primera línea dentro de la orilla asequible habitual, hospital privado a menos de 30–40 minutos, vuelo a Palma todo el año desde Sá Carneiro, o sanidad pública española.",
         ]}
-        veredicto="Veredicto de zona: Litoral Norte gana por sol —el máximo de la tabla— y aeropuerto. Esposende —Ofir o Apúlia— es la apuesta residencial y tranquila; Póvoa, quien quiera ciudad-balneario con metro; Vila do Conde, ciudad histórica con el aeropuerto a un cuarto de hora. El precio es mar frío, nortada de tarde, sin montaña y bloques en los frentes urbanos. Antes de elegir, probaría un noviembre cubierto y un agosto en Póvoa, Vila do Conde u Ofir."
+        veredicto="Veredicto de zona: Litoral Norte destaca por sol —el máximo de la tabla— y aeropuerto. Esposende —Ofir o Apúlia— encaja como opción residencial y tranquila; Póvoa, quien quiera ciudad-balneario con metro; Vila do Conde, ciudad histórica con el aeropuerto a un cuarto de hora. El peaje es mar frío, nortada de tarde, sin montaña y bloques en los frentes urbanos; Palma, solo en verano. Antes de elegir, probar un noviembre cubierto y un agosto en Póvoa, Vila do Conde u Ofir."
       />
 
       <MunicipiosZonaFin

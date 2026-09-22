@@ -215,18 +215,17 @@ export default function RelatoValMinor({ zona }: { zona: Zona }) {
       <section>
         <H2>Qué cuesta una casa</H2>
         <P>
-          El precio sigue la cercanía a la bahía. Como orden de magnitud, Nigrán ronda los 2.600
-          euros por metro cuadrado, Baiona los 2.500 y Gondomar los 1.700. Son medias orientativas:
-          una casa caminable a Praia América, Panxón o el casco de Baiona puede quedar bastante por
-          encima; una vivienda interior con reforma, acceso estrecho o humedad puede quedar por
-          debajo.
+          El precio sigue la cercanía a la bahía y la tipología, no un metro cuadrado único para
+          los tres. Una casa caminable a Praia América, Panxón o el casco de Baiona suele situarse
+          en la orilla tensa del mercado; una vivienda interior con reforma, acceso estrecho o
+          humedad puede aflojar. Los números vivos están en la tabla.
         </P>
         <P>
-          En Nigrán el presupuesto compra equilibrio entre Vigo, playa y vivienda residencial, pero
-          paga una de las ubicaciones más demandadas de la ría. En Baiona paga villa, paseo y mar,
-          con menos oferta de casa independiente cerca del casco. Gondomar estira más el dinero:
-          permite buscar finca, silencio y metros, a cambio de coche y de revisar con cuidado
-          drenaje, orientación, saneamiento, pozo y estado de la cubierta.
+          En Nigrán el presupuesto compra equilibrio entre Vigo, playa y vivienda residencial, a
+          cambio de una de las ubicaciones más demandadas de la ría. En Baiona paga villa, paseo y
+          mar, con menos oferta de casa independiente cerca del casco. Gondomar estira hacia finca,
+          silencio y metros, a cambio de coche y de revisar con cuidado drenaje, orientación,
+          saneamiento, pozo y estado de la cubierta.
         </P>
         <P>
           La fibra está bien extendida en los centros y en muchas parroquias, pero una dirección
@@ -242,12 +241,11 @@ export default function RelatoValMinor({ zona }: { zona: Zona }) {
       <section>
         <H2>Servicios, hospital, aeropuerto</H2>
         <P>
-          En una escala de diez para la vida diaria, Baiona queda alrededor de 6: centro de salud,
-          farmacias, supermercados, mercado, colegios y hostelería, con mucha oferta pero también
-          estacionalidad. Nigrán llega a 7 por su continuidad residencial, centros educativos,
-          comercio y acceso rápido a Vigo. Gondomar ronda 6: resuelve compra, farmacia, colegio,
-          deporte y gestiones en la villa, pero desde las parroquias el coche forma parte del
-          servicio.
+          Baiona cubre la vida diaria de villa —centro de salud, farmacias, supermercados,
+          mercado, colegios y hostelería—, con mucha oferta pero también estacionalidad. Nigrán
+          destaca por continuidad residencial, centros educativos, comercio y acceso rápido a
+          Vigo. Gondomar resuelve compra, farmacia, colegio, deporte y gestiones en la villa, pero
+          desde las parroquias el coche forma parte del servicio.
         </P>
         <P>
           El hospital público de referencia es el Álvaro Cunqueiro, en Vigo. Desde buena parte de
@@ -284,7 +282,7 @@ export default function RelatoValMinor({ zona }: { zona: Zona }) {
           `Se necesita sol de Baleares y una terraza utilizable casi todos los días del invierno. Aquí hay unos ${zona.lluviaDias} días de lluvia al año, niebla ocasional en el estuario y humedad que exige mirar orientación, cubierta y ventilación antes de mirar la cocina.`,
           "Se quiere pueblo compacto y vida completa a pie, pero se elige una parroquia de Nigrán o una casa dispersa de Gondomar. Baiona sí funciona como villa; Nigrán funciona como red residencial; Gondomar, fuera de su pequeño centro, como valle de fincas. La escala cambia la dependencia del coche.",
         ]}
-        veredicto="Veredicto de zona: Gondomar va primero si la prioridad es casa, terreno y silencio sin perder Vigo; hay que elegir bien la parroquia y comprobar humedad, acceso y fibra. Nigrán es la opción más equilibrada para tener playa, servicios y hospital cerca, pagando más por metro. Baiona gana si se quiere villa de verdad y bajar andando al puerto y a la playa, pero exige aceptar el precio y un agosto que multiplica la población. Para casa y calma, Gondomar; para equilibrio, Nigrán; para calle y mar a pie, Baiona."
+        veredicto="Veredicto de zona: Gondomar responde a quien prioriza casa, terreno y silencio sin perder Vigo —eligiendo bien la parroquia y comprobando humedad, acceso y fibra—. Nigrán ofrece playa, servicios y hospital cerca en una red residencial densa, con un mercado más tenso. Baiona entrega villa de verdad —puerto y playa a pie—, con el peaje del precio y un agosto que multiplica la población. Tres escalas distintas: valle de fincas, urbanización-parroquia y villa marinera; conviene probarlas en noviembre, no solo en agosto."
       />
 
       <MunicipiosZonaFin zonaId={zona.id} municipios={municipiosValMinor} escalas={ESCALA} />

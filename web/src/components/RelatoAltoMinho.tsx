@@ -66,15 +66,14 @@ export default function RelatoAltoMinho({ zona }: { zona: Zona }) {
           Alto Minho suma unas {zona.solHoras.toLocaleString("es-ES")} horas de sol y{" "}
           {zona.despejados} días despejados al año —en la franja de 2.400 a 2.500 horas y unos 78 a
           80 despejados; 2.500 en la costa (Caminha, Moledo, Âncora, Afife, Viana) y algo menos en
-          el río y el interior—. Es el mejor cielo de la tabla junto con el Litoral Norte.
+          el río y el interior—. Cielo alto de sol, junto con el Litoral Norte.
           Mallorca ronda {mallorca.solHoras.toLocaleString("es-ES")} horas y {mallorca.despejados}{" "}
           jornadas claras. De octubre a marzo llueve {zona.lluvia.oct_mar} días al mes y{" "}
           {zona.lluvia.peor} puede alcanzar {zona.lluvia.peor_n}.
         </P>
         <P>
-          Caen unos {zona.lluviaMm.toLocaleString("es-ES")} milímetros en {zona.lluviaDias} días —
-          en la costa, alrededor de 1.450 mm en 112 a 115 días; en el interior, 1.600 a 1.700 mm y
-          118 a 120 días—, con unos {zona.cubiertos} cubiertos. En verano llueve {zona.lluvia.verano}{" "}
+          Caen unos {zona.lluviaMm.toLocaleString("es-ES")} milímetros en {zona.lluviaDias} días,
+          con unos {zona.cubiertos} cubiertos. En verano llueve {zona.lluvia.verano}{" "}
           días al mes: julio y agosto casi tan secos como en Mallorca. El viento es alto en la
           costa —la nortada, viento norte fuerte por las tardes de junio a agosto, marcado en
           Moledo, Afife y Viana— y bajo en el río. La niebla es media; en Ponte de Lima, niebla
@@ -106,10 +105,10 @@ export default function RelatoAltoMinho({ zona }: { zona: Zona }) {
       <section>
         <H2>Cómo se vive</H2>
         <P>
-          Un martes de noviembre muestra escalas muy distintas. Viana alcanza 9/10 —ciudad
-          completa: comercio, hospital, tren, cultura, mercado, paseo—. Valença, Vila Praia de
-          Âncora y Ponte de Lima cubren 6/10. Cerveira y Caminha bajan a 5/10. Moledo y
-          Afife-Carreço se quedan en 3/10: aldeas; Viana o Âncora a unos 10 a 15 minutos.
+          Un martes de noviembre muestra escalas muy distintas. Viana es ciudad completa: comercio,
+          hospital, tren, cultura, mercado y paseo. Valença, Vila Praia de Âncora y Ponte de Lima
+          mantienen villa con lo esencial. Cerveira y Caminha cubren plaza y lo básico. Moledo y
+          Afife-Carreço son aldeas: Viana o Âncora a unos 10 a 15 minutos.
         </P>
         <P>
           Quien vive aquí trabaja en Viana, en Braga, en Porto, en el ritmo de villa fluvial o
@@ -194,18 +193,18 @@ export default function RelatoAltoMinho({ zona }: { zona: Zona }) {
       <section>
         <H2>Qué cuesta una casa</H2>
         <P>
-          Alto Minho cubre franjas distintas. Valença ronda 1.300 €/m² —el interior más asequible
-          de la zona—; Cerveira y Ponte de Lima, 1.500; Caminha, 1.900; Vila Praia de Âncora,
-          2.000; Afife-Carreço y Viana, 2.100; Moledo, 2.300 —el más caro—. Tres habitaciones en
-          la franja asequible se sitúan alrededor de 222.000 euros en Caminha, 234.000 en Âncora y
-          246.000 en Afife y Viana. En Moledo, tres habitaciones rondan 269.000 euros —fuera de la
-          orilla asequible habitual—; dos habitaciones, unos 194.000.
+          Alto Minho cubre franjas distintas. Valença, Cerveira y Ponte de Lima suelen situarse en
+          el tramo más contenido —río e interior sin playa marítima—. En costa, Caminha y Moledo
+          quedan en franja media; Vila Praia de Âncora y Viana, en orillas más altas. Afife-Carreço
+          no tiene precio de metro fiable en capa: el mercado es estrecho y hay que mirar anuncio a
+          anuncio, sin inventar una cifra. Los números de los municipios con dato están en la
+          tabla; tipología y reforma pesan más que cualquier media de metro.
         </P>
         <P>
-          En el interior —franja B—, tres habitaciones se mueven entre 120.000 y 140.000 euros;
-          quintas con viñedo desde unos 200.000. Casa de granito rehabilitada con terreno en
-          Afife, Carreço o Areosa: 200.000–280.000. Obra nueva hay en Viana y Valença; poca en el
-          resto; ninguna en Moledo. Fibra en todos —Afife-Carreço, parcial—.
+          En el interior aparecen quintas con viñedo y casas de granito rehabilitada con terreno
+          en Afife, Carreço o Areosa —el precio lo marca el estado de la piedra y el tamaño del
+          solar, no una media de zona—. Obra nueva hay en Viana y Valença; poca en el resto;
+          ninguna en Moledo. Fibra en todos —Afife-Carreço, parcial—.
         </P>
         <P>
           Impuestos de compra: IMT —unos 4–6 % efectivo en vivienda habitual— más Imposto do Selo
@@ -219,8 +218,9 @@ export default function RelatoAltoMinho({ zona }: { zona: Zona }) {
       <section>
         <H2>Servicios, hospital, aeropuerto</H2>
         <P>
-          Viana alcanza 9/10; Valença, Âncora y Ponte de Lima, 6/10; Cerveira y Caminha, 5/10;
-          Moledo y Afife-Carreço, 3/10. Servicios significa vida diaria dentro del municipio —
+          Viana cubre la vida diaria de ciudad. Valença, Âncora y Ponte de Lima mantienen villa con
+          lo esencial; Cerveira y Caminha, plaza y lo básico; Moledo y Afife-Carreço miran a Âncora
+          o Viana para súper y farmacia. Servicios significa vida diaria dentro del municipio —
           tiendas, farmacia, centro de salud, súper—, no la distancia al hospital. Viana es la
           ciudad de referencia a unos 10–15 minutos desde Afife-Carreço, 20 desde Âncora, 30 desde
           Caminha y Cerveira, 25–30 desde Ponte de Lima.
@@ -232,14 +232,16 @@ export default function RelatoAltoMinho({ zona }: { zona: Zona }) {
           Ponte de Lima, 35 desde Cerveira y 40 desde Valença. Privados: Trofa Saúde en Braga (40
           desde Ponte de Lima, 50 desde Viana, 60 desde Afife); CUF Porto a 1 h. Desde Valença y
           Cerveira, Álvaro Cunqueiro —Vigo— queda a 35–45 minutos, pero como no residente en
-          España solo para urgencias con la tarjeta europea o pagando. Recomendación: seguro
-          privado portugués —unos 100–150 €/mes a los 63— con red en Viana, Braga y Porto.
+          España solo para urgencias con la tarjeta europea o pagando. Conviene un seguro privado
+          portugués con red en Viana, Braga y Porto.
         </P>
         <P>
           El aeropuerto de Porto–Sá Carneiro —Palma en verano; más de 80 destinos directos— queda
           a unos 50 minutos desde Viana, 55 desde Afife y Ponte de Lima, 60 desde Caminha, Moledo
           y Âncora, 75 desde Cerveira. Vigo anda alrededor de 35 desde Valença y 45 desde Cerveira
-          —Palma en verano—. Santiago —Palma casi todo el año— a 90–115 minutos.
+          —Palma en verano—. Santiago —Palma casi todo el año— a 90–115 minutos: a menudo el
+          acceso a Palma más estable fuera de temporada, sin sustituir Porto para el resto de
+          viajes.
         </P>
         <Foto
           src="/fotos/alto-minho/zona-arga.jpg"
@@ -249,14 +251,14 @@ export default function RelatoAltoMinho({ zona }: { zona: Zona }) {
 
       <Encaja
         si={[
-          "Se busca el mejor cielo de la tabla junto con el Litoral Norte (~2.500 horas de sol y unos 80 despejados), aldea de granito con monte y mar en Afife-Carreço —Viana a 10–15 minutos— o villa marinera con playa abrigada en Vila Praia de Âncora, aceptando mar frío (16–18 °C), nortada de tarde y seguro privado portugués.",
-          "Se valora país muy seguro, coste de vida inferior al de Galicia, Porto a una hora y precio más bajo en el interior —Valença, Cerveira, Ponte de Lima—, con un pie en cada orilla del Miño si se elige la fortaleza frente a Tui.",
+          "Pesan un cielo alto de sol (~2.500 horas y unos 80 despejados), aldea de granito con monte y mar en Afife-Carreço —Viana a 10–15 minutos— o villa marinera con playa abrigada en Vila Praia de Âncora, aceptando mar frío (16–18 °C), nortada de tarde y seguro privado portugués.",
+          "Se valora país muy seguro, coste de vida inferior al de Galicia, Porto a una hora y precio más contenido en el interior —Valença, Cerveira, Ponte de Lima—, con un pie en cada orilla del Miño si se elige la fortaleza frente a Tui.",
         ]}
         no={[
-          `Se necesita agua de mar templada, tardes de terraza sin nortada de junio a agosto en la costa, o hospital privado a menos de 40–60 minutos. Alto Minho tiene ${zona.lluviaDias} días de lluvia y ${zona.despejados} despejados —mejor cielo que Galicia, pero mar atlántico frío—.`,
-          "Se buscan tres habitaciones en Moledo dentro de la franja asequible habitual, verano suave en Ponte de Lima o Valença —20–25 días > 30 °C—, casas bajas en el centro de Viana, el régimen fiscal especial para residentes extranjeros —cerrado en 2024—, o trámites y papeleo en castellano sin esfuerzo (NIF, Finanças, matriculación).",
+          `Se necesita agua de mar templada, tardes de terraza sin nortada de junio a agosto en la costa, o hospital privado a menos de 40–60 minutos. Alto Minho tiene ${zona.lluviaDias} días de lluvia y ${zona.despejados} despejados —cielo alto frente a Galicia, pero mar atlántico frío—.`,
+          "Se buscan tres habitaciones en primera línea de Moledo o Âncora dentro de la franja asequible habitual, verano suave en Ponte de Lima o Valença —20–25 días > 30 °C—, casas bajas en el centro de Viana, el régimen fiscal especial para residentes extranjeros —cerrado en 2024—, o trámites y papeleo en castellano sin esfuerzo (NIF, Finanças, matriculación).",
         ]}
-        veredicto="Veredicto de zona: Alto Minho gana por sol —junto con el Litoral Norte—, granito, monte detrás de la costa y precio. Afife, Carreço o Areosa —aldea con mar a 3 minutos y Viana a 10–15— o Vila Praia de Âncora —villa con servicios y playa abrigada— son las apuestas de costa; Valença, quien quiera un pie en cada país por poco dinero. El precio es sanidad privada, papeleo portugués y nortada de tarde a comprobar en persona en julio. Antes de elegir, probaría un noviembre cubierto y un agosto en Moledo, Âncora o Afife."
+        veredicto="Veredicto de zona: Alto Minho destaca por sol —junto con el Litoral Norte—, granito, monte detrás de la costa (Arga) y precio contenido en río e interior. Afife, Carreço o Areosa —aldea con mar a pocos minutos y Viana cerca— o Vila Praia de Âncora —villa con servicios y playa abrigada— encajan en costa; Valença, quien quiera un pie en cada país. El peaje es sanidad privada, papeleo portugués y nortada de tarde a comprobar en persona en julio. Antes de elegir, probar un noviembre cubierto y un agosto en Moledo, Âncora o Afife."
       />
 
       <MunicipiosZonaFin

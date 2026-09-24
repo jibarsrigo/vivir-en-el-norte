@@ -114,7 +114,7 @@ export default function TablaComparativaZona({
           })}
         </tbody>
       </table>
-      <ul className="space-y-0.5 px-3 py-2 text-[0.7rem] leading-snug text-[var(--tinta-suave)]">
+      <ul className="space-y-0.5 border-t border-[var(--linea)] px-3 py-2 text-[0.7rem] leading-snug text-[var(--tinta-suave)]">
         <li>
           <span className="font-medium text-[var(--tinta)]">Mar</span> = puntuación 1–10 de
           cercanía a ver el mar (costa o estuario): 10 ≈ a pie o a minutos; 1 ≈ media hora o más

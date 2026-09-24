@@ -21,10 +21,6 @@ const FOTOS_COMO_SE_VIVE_V1 = [
   { src: "/fotos/asturias-centro/cudillero-puerto.jpg", pie: "Puerto de Cudillero" },
 ] as const;
 
-/** Crédito V1 de las fotos del relato (`creditoFotos` en V1 cudillero). */
-const CREDITO_FOTOS_V1 =
-  "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen).";
-
 /** Texto introductorio de Zona — solo Nuevo2 Cudillero (no compartir vía resumenZona). */
 const RESUMEN_ZONA_NUEVO2_CUDILLERO =
   "Asturias Centro reúne formas muy distintas de vivir junto al Cantábrico: desde el puerto en ladera de Cudillero y los núcleos del estuario del Nalón hasta las villas marineras de Luanco y Candás, la playa de Salinas y la escala urbana de Gijón. Avilés y Oviedo completan un territorio en el que costa, ciudades y aeropuerto quedan relativamente próximos, aunque la vida cotidiana cambia mucho según el lugar elegido.";
@@ -58,16 +54,6 @@ const FOTO_DE_DONDE_VIENE_QUINTA = {
   src: "/fotos/asturias-centro/cudillero-quinta-selgas.jpg",
   pie: "Quinta de Selgas, en El Pito",
 } as const;
-
-/** Atribución específica (Wikimedia Commons: File:Jardines de La Quinta de Selgas.jpg). */
-const CREDITO_QUINTA_SELGAS =
-  "Quinta de Selgas: Anton Zekeriev Rodin / Wikimedia Commons (CC BY-SA 4.0).";
-
-/** Atribuciones específicas de fotos nuevas de «Mar, río y camino». */
-const CREDITO_PLAYA_SILENCIO =
-  "Playa del Silencio: C.lingg / Wikimedia Commons (CC BY-SA 3.0).";
-const CREDITO_CALLES_CUESTA =
-  "Calles en cuesta: Nicolás Pérez / Wikimedia Commons (CC BY-SA 3.0).";
 
 const DE_DONDE_VIENE_NUEVO2 = [
   "El anfiteatro de Cudillero no nació como un decorado frente al mar. La villa se asentó en el profundo barranco excavado por el río Piñera antes de desembocar en el Cantábrico, y las casas fueron ocupando las laderas alrededor del pequeño abrigo portuario, siguiendo las curvas de nivel como un graderío. Ahí está el origen de la imagen que todavía define el pueblo: puerto abajo, tejados superpuestos y calles que ascienden entre las casas. Lo que hoy parece una forma urbana excepcional fue antes una manera de acomodar una comunidad marinera a un terreno con muy poco espacio llano.",
@@ -317,8 +303,10 @@ export default function Nuevo2CudilleroPage() {
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
           Como referencia de mercado, Cudillero se sitúa alrededor de 1.636 €/m². En esa misma
           referencia, el precio anunciado había subido un 9,8 % en los doce meses hasta agosto de
-          2026. Es una media orientativa: no describe por igual una vivienda en el anfiteatro, otra
-          en El Pito o una casa en otro núcleo del concejo. En un mercado de esta escala importa especialmente el
+          2026. Esa evolución sirve para situar el momento del mercado, no para anticipar cómo
+          seguirá el precio. Es una media orientativa: no describe por igual una vivienda en el
+          anfiteatro, otra en El Pito o una casa en otro núcleo del concejo. En un mercado de esta
+          escala importa especialmente el
           inmueble concreto. El acceso, las barreras, la luz, el aislamiento, el mantenimiento y la
           relación práctica con los servicios pueden influir tanto en la comodidad durante los años
           de uso como en el número de personas a las que podría interesar la vivienda si algún día
@@ -417,12 +405,6 @@ export default function Nuevo2CudilleroPage() {
           escalas={escalas}
         />
       </section>
-
-      {/* V1: «Frente a Mallorca» no renderiza fotos; crédito al final del relato. */}
-      <p className="mt-12 max-w-2xl text-xs text-[var(--tinta-suave)]">{CREDITO_FOTOS_V1}</p>
-      <p className="mt-1 max-w-2xl text-xs text-[var(--tinta-suave)]">{CREDITO_QUINTA_SELGAS}</p>
-      <p className="mt-1 max-w-2xl text-xs text-[var(--tinta-suave)]">{CREDITO_PLAYA_SILENCIO}</p>
-      <p className="mt-1 max-w-2xl text-xs text-[var(--tinta-suave)]">{CREDITO_CALLES_CUESTA}</p>
     </main>
   );
 }

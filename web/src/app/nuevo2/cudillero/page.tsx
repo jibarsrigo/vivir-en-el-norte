@@ -1,10 +1,13 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import BloqueZonaFicha from "@/components/BloqueZonaFicha";
+import CabeceraFichaMunicipio from "@/components/CabeceraFichaMunicipio";
 import EnlaceIdealista from "@/components/EnlaceIdealista";
 import Foto from "@/components/Foto";
 import MapaMunicipioFicha from "@/components/MapaMunicipioFicha";
-import { municipioPorSlug, zonaIdDeFicha } from "@/lib/municipios";
+import { RELATO_MUNICIPIOS } from "@/components/RelatoMunicipio";
+import TablaComparativaZona from "@/components/TablaComparativaZona";
+import { municipiosDeZonaFicha, municipioPorSlug, zonaIdDeFicha } from "@/lib/municipios";
 import { zonaPorId } from "@/lib/zonas";
 import DesplegableNuevo2 from "./DesplegableNuevo2";
 
@@ -13,10 +16,9 @@ import DesplegableNuevo2 from "./DesplegableNuevo2";
  * Aislado de current y V1. No sustituye ninguna página publicada.
  */
 
-/** Fotos V1 del apartado «Cómo se vive» (`fotosAbrir` en V1RelatoMunicipio). */
+/** Fotos del apartado «Cómo se vive» (identidad = pueblo colgado, solo en cabecera). */
 const FOTOS_COMO_SE_VIVE_V1 = [
   { src: "/fotos/asturias-centro/cudillero-puerto.jpg", pie: "Puerto de Cudillero" },
-  { src: "/fotos/asturias-centro/cudillero-pueblo.jpg", pie: "Pueblo colgado de Cudillero" },
 ] as const;
 
 /** Crédito V1 de las fotos del relato (`creditoFotos` en V1 cudillero). */
@@ -128,6 +130,21 @@ const CASA_FILA_PRECIOS = {
   m2: "1.636 €/m²",
 } as const;
 
+const ENCAJA_SI_NUEVO2 = [
+  "Cudillero encaja si atrae la idea de vivir en un municipio pequeño donde el Cantábrico y el puerto forman parte constante del paisaje, con una parte de la vida diaria resolviéndose en la propia villa y Avilés como apoyo para lo que exige una escala mayor. El aeropuerto de Asturias queda también cerca, de modo que esa pequeña escala no significa quedar aislado. Frente a Mallorca, el verano es mucho más suave, pero el cambio incluye también bastante menos sol y mucha más presencia de lluvia y humedad durante el año.",
+  "También encaja si se acepta que elegir vivienda aquí significa elegir una forma concreta de vivir Cudillero. En el anfiteatro el puerto queda mucho más integrado en la escena diaria, pero pesan las pendientes, las escaleras y el movimiento de visitantes; en una zona más alta como El Pito disminuye parte de esa dificultad física y aumenta la facilidad de acceso en coche, aunque el puerto deja de estar de la misma manera a la puerta de casa. Esa diferencia de microzona permite escoger entre experiencias residenciales bastante distintas dentro del mismo municipio.",
+] as const;
+
+const NO_ENCAJA_SI_NUEVO2 = [
+  "Cudillero encaja peor si se busca una vida muy caminable, con recorridos cómodos y llanos entre casa, servicios, coche y mar. Las distancias pueden parecer pequeñas en el mapa y resultar muy distintas cuando incluyen cuestas o escaleras; además, vivir junto al Cantábrico no garantiza tener una playa cotidiana a la que bajar andando desde cualquier vivienda. Para enlazar distintas partes del concejo, llegar a determinados arenales o resolver necesidades de mayor escala, el coche adquiere bastante peso.",
+  "Tampoco encaja igual si cuesta aceptar el cambio respecto a Mallorca en luz, lluvia y humedad, o si incomoda que el ritmo del núcleo varíe tanto entre un agosto concurrido y los meses húmedos y tranquilos. Y una casa con buenas vistas puede perder atractivo residencial si para llegar a ella hay que repetir varias veces al día un acceso incómodo. Aquí la contrapartida principal no es una cifra concreta de servicios o kilómetros: es cómo la topografía y la ubicación terminan entrando en la rutina.",
+] as const;
+
+const QUE_COMPROBAR_NUEVO2 = [
+  "Antes de decidir, conviene comprobar sobre el terreno la diferencia entre visitar Cudillero y vivir en una vivienda concreta. Hay que subir realmente las pendientes y recorrer el trayecto que se repetiría entre esa casa, la compra y el coche: comprobar escaleras, acceso, dónde se aparca y cómo sería volver cargado. Bajar al puerto puede resultar sencillo; la prueba residencial está también en la vuelta.",
+  "Merece la pena hacer esa comprobación tanto en el anfiteatro como en una zona más alta como El Pito. No para decidir de antemano que una sea mejor que otra, sino para comprobar qué intercambio resulta más llevadero: tener el puerto mucho más integrado en la vida diaria a cambio de pendientes, escaleras y mayor movimiento, o facilitar parte del acceso cotidiano aceptando una relación más dependiente del coche.",
+] as const;
+
 /** Fila compacta al estilo FichaCapa2026. */
 function FilaCasaNuevo2({ etiqueta, cuerpo }: { etiqueta: string; cuerpo: string }) {
   return (
@@ -162,20 +179,17 @@ export default function Nuevo2CudilleroPage() {
   const z = zonaPorId(zonaId);
   if (!z) notFound();
 
+  const vecinos = municipiosDeZonaFicha(zonaId);
+  const escalas = Object.fromEntries(
+    vecinos.map((m) => {
+      const relato = RELATO_MUNICIPIOS[m.slug];
+      return [m.municipio, relato?.escala ?? ""] as const;
+    }),
+  );
+
   return (
     <main className="mx-auto max-w-6xl px-4 py-8">
-      <h1 className="font-[family-name:var(--font-serif)] text-4xl text-[var(--acento)]">
-        Cudillero
-      </h1>
-      <p className="mt-2 text-[var(--tinta-suave)]">Asturias</p>
-      <p className="mt-3">
-        <Link
-          href={`/compara/?con=${ficha.slug}`}
-          className="text-sm font-semibold text-[var(--acento)] underline-offset-2 hover:underline"
-        >
-          Compara con...
-        </Link>
-      </p>
+      <CabeceraFichaMunicipio ficha={ficha} zonaId={z.id} zonaNombre={z.zona} />
 
       <BloqueZonaFicha zonaId={z.id} nombreZona={z.zona} resumen={RESUMEN_ZONA_NUEVO2_CUDILLERO} />
 
@@ -197,7 +211,6 @@ export default function Nuevo2CudilleroPage() {
         <Foto src={FOTOS_COMO_SE_VIVE_V1[0].src} pie={FOTOS_COMO_SE_VIVE_V1[0].pie} />
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{COMO_SE_VIVE_NUEVO2[2]}</p>
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{COMO_SE_VIVE_NUEVO2[3]}</p>
-        <Foto src={FOTOS_COMO_SE_VIVE_V1[1].src} pie={FOTOS_COMO_SE_VIVE_V1[1].pie} />
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
           <ConNegrita
             texto={COMO_SE_VIVE_NUEVO2[4]}
@@ -302,9 +315,10 @@ export default function Nuevo2CudilleroPage() {
           lluvia— y no decidir únicamente por lo atractiva que resulte durante una visita.
         </p>
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
-          Como referencia de mercado, Cudillero se sitúa alrededor de 1.636 €/m². Es una media
-          orientativa: no describe por igual una vivienda en el anfiteatro, otra en El Pito o una
-          casa en otro núcleo del concejo. En un mercado de esta escala importa especialmente el
+          Como referencia de mercado, Cudillero se sitúa alrededor de 1.636 €/m². En esa misma
+          referencia, el precio anunciado había subido un 9,8 % en los doce meses hasta agosto de
+          2026. Es una media orientativa: no describe por igual una vivienda en el anfiteatro, otra
+          en El Pito o una casa en otro núcleo del concejo. En un mercado de esta escala importa especialmente el
           inmueble concreto. El acceso, las barreras, la luz, el aislamiento, el mantenimiento y la
           relación práctica con los servicios pueden influir tanto en la comodidad durante los años
           de uso como en el número de personas a las que podría interesar la vivienda si algún día
@@ -370,6 +384,39 @@ export default function Nuevo2CudilleroPage() {
         />
         <FilaCasaNuevo2 etiqueta="Mercado y reventa" cuerpo={CASA_MERCADO_REVENTA} />
       </DesplegableNuevo2>
+
+      <DesplegableNuevo2 titulo="¿Encaja?" varianteTarjetaV1>
+        <h3 className="mt-1 text-base font-semibold uppercase tracking-wide text-[var(--acento)]">
+          Encaja si
+        </h3>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{ENCAJA_SI_NUEVO2[0]}</p>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{ENCAJA_SI_NUEVO2[1]}</p>
+        <h3 className="mt-7 text-base font-semibold uppercase tracking-wide text-[var(--acento)]">
+          No encaja si
+        </h3>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{NO_ENCAJA_SI_NUEVO2[0]}</p>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{NO_ENCAJA_SI_NUEVO2[1]}</p>
+        <h3 className="mt-7 text-base font-semibold uppercase tracking-wide text-[var(--acento)]">
+          Qué comprobar
+        </h3>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{QUE_COMPROBAR_NUEVO2[0]}</p>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{QUE_COMPROBAR_NUEVO2[1]}</p>
+      </DesplegableNuevo2>
+
+      <section className="mt-12 max-w-3xl">
+        <h2 className="font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">
+          Más pueblos de{" "}
+          <Link href={`/zona/${zonaId}/`} className="underline-offset-2 hover:underline">
+            {ficha.zona}
+          </Link>
+        </h2>
+        <TablaComparativaZona
+          municipios={vecinos}
+          zonaId={zonaId}
+          slugActual={ficha.slug}
+          escalas={escalas}
+        />
+      </section>
 
       {/* V1: «Frente a Mallorca» no renderiza fotos; crédito al final del relato. */}
       <p className="mt-12 max-w-2xl text-xs text-[var(--tinta-suave)]">{CREDITO_FOTOS_V1}</p>

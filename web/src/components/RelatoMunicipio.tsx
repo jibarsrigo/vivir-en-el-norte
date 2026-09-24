@@ -1,11 +1,9 @@
 import Link from "next/link";
-import Image from "next/image";
 import Encaja from "@/components/Encaja";
 import Foto from "@/components/Foto";
 import TablaComparativaZona from "@/components/TablaComparativaZona";
 import EnlaceIdealista from "@/components/EnlaceIdealista";
 import { municipiosDeZonaFicha, type FichaMunicipio } from "@/lib/municipios";
-import { rutaPublica } from "@/lib/ruta-publica";
 import { RELATOS_VAL_MINOR } from "@/lib/relatos-val-minor";
 import { RELATOS_VIGO_E_RIA } from "@/lib/relatos-vigo-e-ria";
 import { RELATOS_O_MORRAZO } from "@/lib/relatos-o-morrazo";
@@ -77,23 +75,6 @@ function Fotos({ items, omitSrc }: { items: FotoRelato[]; omitSrc?: string }) {
         <Foto key={f.src} src={f.src} pie={f.pie} />
       ))}
     </>
-  );
-}
-
-/** Hero de ficha: casas + entorno (mar/ría/monte), para imaginar vivir ahí. */
-function FotoIdentidad({ foto }: { foto: FotoRelato }) {
-  return (
-    <figure className="mt-6 overflow-hidden rounded-xl border border-[var(--linea)] bg-white">
-      <Image
-        src={rutaPublica(foto.src)}
-        alt={foto.pie}
-        width={1600}
-        height={1000}
-        className="h-auto w-full"
-        priority
-      />
-      <figcaption className="px-3 py-2 text-sm text-[var(--tinta-suave)]">{foto.pie}</figcaption>
-    </figure>
   );
 }
 
@@ -433,7 +414,6 @@ export default function RelatoMunicipio({
   return (
     <article className="mt-8">
       <p className="text-sm font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">{r.escala}</p>
-      {identidad ? <FotoIdentidad foto={identidad} /> : null}
 
       <h2 className="mt-6 font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">
         Cómo se vive

@@ -13,8 +13,8 @@ import { rutaPublica } from "@/lib/ruta-publica";
 /**
  * Mapa estático del municipio. Con `capasPortada`, muestra exactamente
  * los mismos iconos que el mapa de inicio con todas las capas de mapa activas
- * (fuente: `iconosMapaPueblo`). Un clic en la pastilla abre el mismo globo
- * unificado que en la portada (todas las capas a la vez).
+ * (fuente: `iconosMapaPueblo`). Un clic en la pastilla abre el detalle
+ * unificado (todas las capas) como pie dentro del mapa.
  */
 export default function MapaMunicipioFicha({
   ficha,
@@ -64,7 +64,7 @@ function CapasSobreMapa({
 
   return (
     <div className="pointer-events-none absolute inset-0">
-      <div className="pointer-events-auto absolute left-[34%] top-[46%] -translate-x-1/2 -translate-y-full">
+      <div className="pointer-events-auto absolute right-2 top-2 z-[3]">
         <button
           type="button"
           className="mapa-muni-grupo"
@@ -79,24 +79,24 @@ function CapasSobreMapa({
             }}
           />
         </button>
-        {abierto ? (
-          <div
-            className="mapa-muni-globo globo-capas mt-1.5 max-w-[min(28rem,92vw)] rounded-lg border border-[var(--linea)] bg-white px-2.5 py-2 text-left text-xs leading-snug text-[var(--tinta)] shadow-md"
-            role="status"
-          >
-            <div className="globo-nom font-semibold text-[var(--acento)]">{nombre}</div>
-            {capas.map((c) => (
-              <div key={c.key} className="globo-capa-fila mt-1.5 flex items-start gap-1.5">
-                <span
-                  className="shrink-0"
-                  dangerouslySetInnerHTML={{ __html: c.html }}
-                />
-                <span className="globo-capa-txt min-w-0">{c.cuerpo}</span>
-              </div>
-            ))}
-          </div>
-        ) : null}
       </div>
+      {abierto ? (
+        <div
+          className="mapa-muni-globo globo-capas pointer-events-auto absolute inset-x-0 bottom-0 max-h-[55%] overflow-y-auto border-t border-[var(--linea)] bg-white/95 px-2.5 py-2 text-left text-xs leading-snug text-[var(--tinta)] shadow-[0_-4px_12px_rgba(0,0,0,0.08)] backdrop-blur-sm"
+          role="status"
+        >
+          <div className="globo-nom font-semibold text-[var(--acento)]">{nombre}</div>
+          {capas.map((c) => (
+            <div key={c.key} className="globo-capa-fila mt-1.5 flex items-start gap-1.5">
+              <span
+                className="shrink-0"
+                dangerouslySetInnerHTML={{ __html: c.html }}
+              />
+              <span className="globo-capa-txt min-w-0 flex-1">{c.cuerpo}</span>
+            </div>
+          ))}
+        </div>
+      ) : null}
     </div>
   );
 }

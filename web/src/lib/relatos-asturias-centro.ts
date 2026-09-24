@@ -43,14 +43,13 @@ export const RELATOS_ASTURIAS_CENTRO: Record<string, RelatoMun> = {
       veredicto:
         "Cudillero ofrece un puerto extraordinariamente reconocible a cambio de una topografía exigente y autonomía limitada. La decisión se juega en la microzona: anfiteatro si se aceptan cuestas y actividad turística; cotas más cómodas como El Pito si se prioriza acceso, siempre con Avilés y el coche formando parte de la semana."
     },
- fotoIdentidad: {
- src: "/fotos/asturias-centro/cudillero-identidad.jpg",
- pie: "Cudillero: casas de colores subiendo la ladera desde la lonja — pueblo colgado sobre el puerto",
- },
- fotosAbrir: [
- { src: "/fotos/asturias-centro/cudillero-puerto.jpg", pie: "Puerto de Cudillero" },
- { src: "/fotos/asturias-centro/cudillero-pueblo.jpg", pie: "Pueblo colgado de Cudillero" },
- ],
+    fotoIdentidad: {
+      src: "/fotos/asturias-centro/cudillero-pueblo.jpg",
+      pie: "Pueblo colgado de Cudillero",
+    },
+    fotosAbrir: [
+      { src: "/fotos/asturias-centro/cudillero-puerto.jpg", pie: "Puerto de Cudillero" },
+    ],
  fotosHistoria: [
  { src: "/fotos/asturias-centro/cudillero-vidio.jpg", pie: "Cabo Vidio, cerca de Cudillero" },
  { src: "/fotos/asturias-centro/cudillero-pito.jpg", pie: "El Pito, arriba de Cudillero" },

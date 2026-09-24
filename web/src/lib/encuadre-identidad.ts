@@ -18,6 +18,7 @@ export const ENCUADRE_IDENTIDAD_Y: Record<string, number> = {
   "colunga": 38,
   "comillas": 35,
   "cudillero": 35,
+  "cudillero-pueblo": 35,
   "esposende": 45,
   "gondomar": 42,
   "laredo": 45,
@@ -53,7 +54,10 @@ export const ENCUADRE_IDENTIDAD_Y: Record<string, number> = {
 /** object-position CSS para el banner polaroid a partir del src de la foto. */
 export function objectPositionIdentidad(src: string | undefined | null): string {
   if (!src) return "50% 40%";
-  const base = src.split("/").pop()?.replace(/-identidad\.(jpe?g|png|webp)$/i, "") ?? "";
+  const file = src.split("/").pop() ?? "";
+  const base =
+    file.replace(/-identidad\.(jpe?g|png|webp)$/i, "").replace(/\.(jpe?g|png|webp)$/i, "") ||
+    "";
   const y = ENCUADRE_IDENTIDAD_Y[base] ?? 40;
   return `50% ${y}%`;
 }

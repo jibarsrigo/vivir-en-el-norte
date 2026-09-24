@@ -16,10 +16,36 @@ import DesplegableNuevo2 from "./DesplegableNuevo2";
  * Aislado de current y V1. No sustituye ninguna página publicada.
  */
 
-/** Fotos del apartado «Cómo se vive» (identidad = pueblo colgado, solo en cabecera). */
+/** Fotos del apartado «Cómo se vive» (pueblo colgado = solo cabecera). */
 const FOTOS_COMO_SE_VIVE_V1 = [
   { src: "/fotos/asturias-centro/cudillero-puerto.jpg", pie: "Puerto de Cudillero" },
+  {
+    src: "/fotos/asturias-centro/cudillero-casas-escalonadas.jpg",
+    pie: "Casas escalonadas sobre la plaza del puerto",
+  },
 ] as const;
+
+/** Frente a Mallorca — tras el primer párrafo de Clima / Vivir. */
+const FOTO_CLIMA_NUEVO2 = {
+  src: "/fotos/asturias-centro/cudillero-identidad.jpg",
+  pie: "Plaza del puerto en un día húmedo",
+} as const;
+
+const FOTO_VIVIR_NUEVO2 = {
+  src: "/fotos/asturias-centro/cudillero-calle-cuesta-vivienda.jpg",
+  pie: "Calle en cuesta hacia el ayuntamiento",
+} as const;
+
+/** Casa — tipología anfiteatro vs El Pito. */
+const FOTO_CASA_ANFITEATRO = {
+  src: "/fotos/asturias-centro/cudillero-casa-cerca.jpg",
+  pie: "Casas del anfiteatro, de cerca",
+} as const;
+
+const FOTO_CASA_EL_PITO = {
+  src: "/fotos/asturias-centro/cudillero-el-pito-escuelas.jpg",
+  pie: "El Pito: terreno más abierto (Escuelas Selgas)",
+} as const;
 
 /** Texto introductorio de Zona — solo Nuevo2 Cudillero (no compartir vía resumenZona). */
 const RESUMEN_ZONA_NUEVO2_CUDILLERO =
@@ -197,6 +223,7 @@ export default function Nuevo2CudilleroPage() {
         <Foto src={FOTOS_COMO_SE_VIVE_V1[0].src} pie={FOTOS_COMO_SE_VIVE_V1[0].pie} />
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{COMO_SE_VIVE_NUEVO2[2]}</p>
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{COMO_SE_VIVE_NUEVO2[3]}</p>
+        <Foto src={FOTOS_COMO_SE_VIVE_V1[1].src} pie={FOTOS_COMO_SE_VIVE_V1[1].pie} />
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
           <ConNegrita
             texto={COMO_SE_VIVE_NUEVO2[4]}
@@ -215,6 +242,7 @@ export default function Nuevo2CudilleroPage() {
             fragmento="Hay bastante menos sol, la lluvia aparece con mucha más frecuencia y la humedad tiene mucho más peso durante el año."
           />
         </p>
+        <Foto src={FOTO_CLIMA_NUEVO2.src} pie={FOTO_CLIMA_NUEVO2.pie} />
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{CLIMA_NUEVO2[1]}</p>
         <h3 className="mt-7 text-base font-semibold uppercase tracking-wide text-[var(--acento)]">
           Vivir
@@ -225,6 +253,7 @@ export default function Nuevo2CudilleroPage() {
             fragmento="aquí unos pocos cientos de metros pueden incluir una cuesta o varias escaleras"
           />
         </p>
+        <Foto src={FOTO_VIVIR_NUEVO2.src} pie={FOTO_VIVIR_NUEVO2.pie} />
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
           <ConNegrita
             texto={VIVIR_NUEVO2[1]}
@@ -291,6 +320,7 @@ export default function Nuevo2CudilleroPage() {
           invierno como cuando aumenta la ocupación en verano. La topografía es aquí parte de la
           vivienda, no simplemente del paisaje.
         </p>
+        <Foto src={FOTO_CASA_ANFITEATRO.src} pie={FOTO_CASA_ANFITEATRO.pie} />
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
           El Pito plantea una lógica diferente. La pendiente y el acceso cambian respecto al
           anfiteatro y resulta más fácil encontrar una relación cómoda con el coche, pero se pierde
@@ -300,6 +330,7 @@ export default function Nuevo2CudilleroPage() {
           la ubicación como se haría cualquier día —desde el coche, con la compra o bajo la
           lluvia— y no decidir únicamente por lo atractiva que resulte durante una visita.
         </p>
+        <Foto src={FOTO_CASA_EL_PITO.src} pie={FOTO_CASA_EL_PITO.pie} />
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
           Como referencia de mercado, Cudillero se sitúa alrededor de 1.636 €/m². En esa misma
           referencia, el precio anunciado había subido un 9,8 % en los doce meses hasta agosto de

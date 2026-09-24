@@ -104,6 +104,41 @@ const FOTO_MAR_CABO_VIDIO = {
   pie: "Cabo Vidio, en el concejo de Cudillero",
 } as const;
 
+/** Casa — textos cerrados (CURSOR_NUEVO2_CUDILLERO_CASA_CERRADA_v2). */
+const CASA_ADVERTENCIA_MICROZONA =
+  "El anfiteatro portuario es muy pendiente: una vivienda que parece estar «cerca» en el mapa puede exigir muchas escaleras. En zonas más altas como El Pito el acceso puede resultar más sencillo, aunque el coche gana peso en la vida diaria.";
+
+const CASA_QUE_CONVIENE_REVISAR =
+  "Conviene comprobar el acceso real desde la puerta: escaleras, pendiente y recorrido hasta el coche y los servicios. También importan la luz y la orientación, además del aislamiento, la ventilación y posibles señales de humedad.";
+
+const CASA_MERCADO_REVENTA =
+  "Mercado de tamaño intermedio, con vivienda habitual y demanda exterior. Una vivienda con buen acceso, pocas barreras, luz y servicios cómodos puede resultar más fácil de encajar en una futura venta que otra más espectacular pero con muchas escaleras, mantenimiento o un acceso complicado.";
+
+const CASA_LEYENDA_COMPACTA =
+  "A: ≤5 min de la costa · B: 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m². Estimaciones comparativas; conviene contrastarlas con la oferta del momento.";
+
+/** Valores exactos de municipios-asturias-centro.json (visualización cerrada del TXT). */
+const CASA_FILA_PRECIOS = {
+  municipio: "Cudillero",
+  a2: "138.242 €",
+  a3: "191.412 €",
+  b2: "111.657 €",
+  b3: "154.602 €",
+  m2: "1.636 €/m²",
+} as const;
+
+/** Fila compacta al estilo FichaCapa2026. */
+function FilaCasaNuevo2({ etiqueta, cuerpo }: { etiqueta: string; cuerpo: string }) {
+  return (
+    <div className="border-b border-[var(--linea)] py-3 last:border-b-0">
+      <p className="text-[11px] font-semibold uppercase tracking-[0.06em] text-[var(--tinta-suave)]">
+        {etiqueta}
+      </p>
+      <p className="mt-1.5 text-[15px] leading-relaxed text-[var(--tinta)]">{cuerpo}</p>
+    </div>
+  );
+}
+
 export default function Nuevo2CudilleroPage() {
   const ficha = municipioPorSlug("cudillero");
   if (!ficha) notFound();
@@ -177,6 +212,53 @@ export default function Nuevo2CudilleroPage() {
         <Foto src={FOTO_MAR_PLAYA_SILENCIO.src} pie={FOTO_MAR_PLAYA_SILENCIO.pie} />
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{MAR_RIO_CAMINO_NUEVO2[3]}</p>
         <Foto src={FOTO_MAR_CABO_VIDIO.src} pie={FOTO_MAR_CABO_VIDIO.pie} />
+      </DesplegableNuevo2>
+
+      <DesplegableNuevo2 titulo="Casa" varianteTarjetaV1>
+        <div className="pt-1">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.06em] text-[var(--tinta-suave)]">
+            Precio y bandas
+          </p>
+          <p className="mt-1 text-[13px] leading-snug text-[var(--tinta-suave)]">
+            Referencia municipal; una vivienda concreta puede separarse de la media.
+          </p>
+          {/* Tabla local Nuevo2: misma apariencia que TablaPrecios, leyenda compacta propia. */}
+          <div className="mt-4 overflow-x-auto rounded-xl border border-[var(--linea)] bg-white">
+            <table className="min-w-[36rem] w-full text-left text-sm">
+              <thead className="border-b border-[var(--linea)] bg-[var(--papel)] text-[var(--tinta-suave)]">
+                <tr>
+                  <th className="px-3 py-2 font-medium">Municipio</th>
+                  <th className="px-3 py-2 font-medium">A · 2 hab</th>
+                  <th className="px-3 py-2 font-medium">A · 3 hab</th>
+                  <th className="px-3 py-2 font-medium">B · 2 hab</th>
+                  <th className="px-3 py-2 font-medium">B · 3 hab</th>
+                  <th className="px-3 py-2 font-medium">€/m²</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-[var(--linea)]">
+                <tr>
+                  <th className="px-3 py-2.5 font-medium text-[var(--acento)]">
+                    {CASA_FILA_PRECIOS.municipio}
+                  </th>
+                  <td className="px-3 py-2.5 tabular-nums">{CASA_FILA_PRECIOS.a2}</td>
+                  <td className="px-3 py-2.5 tabular-nums">{CASA_FILA_PRECIOS.a3}</td>
+                  <td className="px-3 py-2.5 tabular-nums">{CASA_FILA_PRECIOS.b2}</td>
+                  <td className="px-3 py-2.5 tabular-nums">{CASA_FILA_PRECIOS.b3}</td>
+                  <td className="px-3 py-2.5 tabular-nums">{CASA_FILA_PRECIOS.m2}</td>
+                </tr>
+              </tbody>
+            </table>
+            <p className="px-3 py-2 text-xs leading-relaxed text-[var(--tinta-suave)]">
+              {CASA_LEYENDA_COMPACTA}
+            </p>
+          </div>
+        </div>
+        <FilaCasaNuevo2 etiqueta="Advertencia de microzona" cuerpo={CASA_ADVERTENCIA_MICROZONA} />
+        <FilaCasaNuevo2
+          etiqueta="Qué conviene revisar en una vivienda"
+          cuerpo={CASA_QUE_CONVIENE_REVISAR}
+        />
+        <FilaCasaNuevo2 etiqueta="Mercado y reventa" cuerpo={CASA_MERCADO_REVENTA} />
       </DesplegableNuevo2>
 
       {/* V1: «Frente a Mallorca» no renderiza fotos; crédito al final del relato. */}

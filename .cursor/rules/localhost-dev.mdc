@@ -1,0 +1,14 @@
+---
+description: Arrancar localhost al retomar trabajo en la web
+alwaysApply: true
+---
+
+# Localhost al retomar
+
+Al **inicio de cada conversación** (o al retomar tras un corte) en este repo, si el trabajo implica ver o editar la web:
+
+1. Comprobar si `http://localhost:3000` responde.
+2. Si no: en `web/`, con Node en PATH (`C:\Program Files\nodejs` si hace falta), ejecutar `npm run dev` en segundo plano.
+3. Esperar a Ready y, si el usuario está revisando una ficha concreta (p. ej. Nuevo2 Cudillero), abrir esa URL; si no, basta con confirmar que el servidor está en `http://localhost:3000`.
+
+No hace falta preguntar: hacerlo de forma proactiva. No publicar ni desplegar por esto.

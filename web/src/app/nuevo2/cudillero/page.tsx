@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import BloqueZonaFicha from "@/components/BloqueZonaFicha";
+import EnlaceIdealista from "@/components/EnlaceIdealista";
 import Foto from "@/components/Foto";
 import MapaMunicipioFicha from "@/components/MapaMunicipioFicha";
 import { municipioPorSlug, zonaIdDeFicha } from "@/lib/municipios";
@@ -139,6 +140,21 @@ function FilaCasaNuevo2({ etiqueta, cuerpo }: { etiqueta: string; cuerpo: string
   );
 }
 
+/** Solo tipografía: envuelve un fragmento literal ya presente en `texto`. */
+function ConNegrita({ texto, fragmento }: { texto: string; fragmento: string }) {
+  const i = texto.indexOf(fragmento);
+  if (i === -1) {
+    throw new Error(`Negrita: fragmento no encontrado — ${fragmento.slice(0, 48)}`);
+  }
+  return (
+    <>
+      {texto.slice(0, i)}
+      <strong>{fragmento}</strong>
+      {texto.slice(i + fragmento.length)}
+    </>
+  );
+}
+
 export default function Nuevo2CudilleroPage() {
   const ficha = municipioPorSlug("cudillero");
   if (!ficha) notFound();
@@ -166,56 +182,150 @@ export default function Nuevo2CudilleroPage() {
       <MapaMunicipioFicha ficha={ficha} capasPortada={Boolean(ficha.mapa)} />
 
       <DesplegableNuevo2 titulo="Cómo se vive" varianteTarjetaV1>
-        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{COMO_SE_VIVE_NUEVO2[0]}</p>
-        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{COMO_SE_VIVE_NUEVO2[1]}</p>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+          <ConNegrita
+            texto={COMO_SE_VIVE_NUEVO2[0]}
+            fragmento="esas mismas pendientes cuentan al hacer la compra"
+          />
+        </p>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+          <ConNegrita
+            texto={COMO_SE_VIVE_NUEVO2[1]}
+            fragmento="resolver una parte de la vida diaria sin salir de Cudillero"
+          />
+        </p>
         <Foto src={FOTOS_COMO_SE_VIVE_V1[0].src} pie={FOTOS_COMO_SE_VIVE_V1[0].pie} />
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{COMO_SE_VIVE_NUEVO2[2]}</p>
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{COMO_SE_VIVE_NUEVO2[3]}</p>
         <Foto src={FOTOS_COMO_SE_VIVE_V1[1].src} pie={FOTOS_COMO_SE_VIVE_V1[1].pie} />
-        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{COMO_SE_VIVE_NUEVO2[4]}</p>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+          <ConNegrita
+            texto={COMO_SE_VIVE_NUEVO2[4]}
+            fragmento="En pocos minutos se pasa de una forma de vivir Cudillero a otra"
+          />
+        </p>
       </DesplegableNuevo2>
 
       <DesplegableNuevo2 titulo="Frente a Mallorca" varianteTarjetaV1>
         <h3 className="mt-1 text-base font-semibold uppercase tracking-wide text-[var(--acento)]">
           Clima
         </h3>
-        {CLIMA_NUEVO2.map((p) => (
-          <p key={p.slice(0, 56)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
-            {p}
-          </p>
-        ))}
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+          <ConNegrita
+            texto={CLIMA_NUEVO2[0]}
+            fragmento="Hay bastante menos sol, la lluvia aparece con mucha más frecuencia y la humedad tiene mucho más peso durante el año."
+          />
+        </p>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{CLIMA_NUEVO2[1]}</p>
         <h3 className="mt-7 text-base font-semibold uppercase tracking-wide text-[var(--acento)]">
           Vivir
         </h3>
-        {VIVIR_NUEVO2.map((p) => (
-          <p key={p.slice(0, 56)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
-            {p}
-          </p>
-        ))}
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+          <ConNegrita
+            texto={VIVIR_NUEVO2[0]}
+            fragmento="aquí unos pocos cientos de metros pueden incluir una cuesta o varias escaleras"
+          />
+        </p>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+          <ConNegrita
+            texto={VIVIR_NUEVO2[1]}
+            fragmento="vivir junto al Cantábrico no equivale a tener una playa integrada en la rutina a pie desde cualquier vivienda"
+          />
+        </p>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{VIVIR_NUEVO2[2]}</p>
       </DesplegableNuevo2>
 
       <DesplegableNuevo2 titulo="De dónde viene" varianteTarjetaV1>
-        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{DE_DONDE_VIENE_NUEVO2[0]}</p>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+          <ConNegrita
+            texto={DE_DONDE_VIENE_NUEVO2[0]}
+            fragmento="una manera de acomodar una comunidad marinera a un terreno con muy poco espacio llano"
+          />
+        </p>
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{DE_DONDE_VIENE_NUEVO2[1]}</p>
         <Foto src={FOTO_DE_DONDE_VIENE_PITO.src} pie={FOTO_DE_DONDE_VIENE_PITO.pie} />
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{DE_DONDE_VIENE_NUEVO2[2]}</p>
         <Foto src={FOTO_DE_DONDE_VIENE_QUINTA.src} pie={FOTO_DE_DONDE_VIENE_QUINTA.pie} />
-        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{DE_DONDE_VIENE_NUEVO2[3]}</p>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+          <ConNegrita
+            texto={DE_DONDE_VIENE_NUEVO2[3]}
+            fragmento="dos paisajes que explican por caminos distintos cómo se fue formando el Cudillero actual"
+          />
+        </p>
       </DesplegableNuevo2>
 
       <DesplegableNuevo2 titulo="Mar, río y camino" varianteTarjetaV1>
-        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{MAR_RIO_CAMINO_NUEVO2[0]}</p>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+          <ConNegrita
+            texto={MAR_RIO_CAMINO_NUEVO2[0]}
+            fragmento="vivir junto al puerto no significa bajar andando a una playa cotidiana"
+          />
+        </p>
         <Foto src={FOTO_MAR_PLAYA_CERCA.src} pie={FOTO_MAR_PLAYA_CERCA.pie} />
-        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{MAR_RIO_CAMINO_NUEVO2[1]}</p>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+          <ConNegrita
+            texto={MAR_RIO_CAMINO_NUEVO2[1]}
+            fragmento="no un paseo marítimo largo y llano"
+          />
+        </p>
         <Foto src={FOTO_MAR_CALLES_CUESTA.src} pie={FOTO_MAR_CALLES_CUESTA.pie} />
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{MAR_RIO_CAMINO_NUEVO2[2]}</p>
         <Foto src={FOTO_MAR_PLAYA_SILENCIO.src} pie={FOTO_MAR_PLAYA_SILENCIO.pie} />
-        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{MAR_RIO_CAMINO_NUEVO2[3]}</p>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+          <ConNegrita
+            texto={MAR_RIO_CAMINO_NUEVO2[3]}
+            fragmento="hay que convertir el mar en una salida elegida"
+          />
+        </p>
         <Foto src={FOTO_MAR_CABO_VIDIO.src} pie={FOTO_MAR_CABO_VIDIO.pie} />
       </DesplegableNuevo2>
 
       <DesplegableNuevo2 titulo="Casa" varianteTarjetaV1>
-        <div className="pt-1">
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+          En Cudillero, una casa que enamora al verla desde el puerto puede contar una historia
+          bastante distinta cuando hay que vivir en ella todos los días. En el anfiteatro, una
+          distancia corta sobre el plano puede esconder una subida fuerte, tramos de escaleras o un
+          acceso incómodo con la compra. Antes que las vistas conviene comprobar el recorrido real
+          desde la puerta hasta el coche, el puerto y los servicios cotidianos:{" "}
+          <strong>bajar es una cosa; volver a casa, otra</strong>. También importan la luz y la
+          orientación, el aislamiento y la humedad, y si aparcar resulta razonable tanto en
+          invierno como cuando aumenta la ocupación en verano. La topografía es aquí parte de la
+          vivienda, no simplemente del paisaje.
+        </p>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+          El Pito plantea una lógica diferente. La pendiente y el acceso cambian respecto al
+          anfiteatro y resulta más fácil encontrar una relación cómoda con el coche, pero se pierde
+          la inmediatez del puerto y de las calles del pueblo marinero. No son dos maneras
+          equivalentes de comprar «en Cudillero»: una vivienda puede privilegiar el escenario y la
+          proximidad al puerto y otra una vida diaria más sencilla. Por eso merece la pena recorrer
+          la ubicación como se haría cualquier día —desde el coche, con la compra o bajo la
+          lluvia— y no decidir únicamente por lo atractiva que resulte durante una visita.
+        </p>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+          Como referencia de mercado, Cudillero se sitúa alrededor de 1.636 €/m². Es una media
+          orientativa: no describe por igual una vivienda en el anfiteatro, otra en El Pito o una
+          casa en otro núcleo del concejo. En un mercado de esta escala importa especialmente el
+          inmueble concreto. El acceso, las barreras, la luz, el aislamiento, el mantenimiento y la
+          relación práctica con los servicios pueden influir tanto en la comodidad durante los años
+          de uso como en el número de personas a las que podría interesar la vivienda si algún día
+          hubiera que venderla. En Cudillero, una casa con demasiadas escaleras puede ser un buen
+          ejemplo de vivienda atractiva que conviene examinar con especial cuidado.
+        </p>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+          Aquí la compra no consiste solo en decidir cuánto pagar por metro cuadrado. Consiste en
+          comprobar si el encanto que se ve desde fuera sigue funcionando cuando se vuelve a casa
+          con bolsas, cuando llueve, cuando hay que aparcar o cuando esas escaleras se recorren
+          varias veces al día. En Cudillero,{" "}
+          <strong>
+            acceso y ubicación forman parte de la casa tanto como sus metros, sus vistas o su
+            terraza
+          </strong>
+          .
+        </p>
+
+        <EnlaceIdealista ambito="municipio" slug={ficha.slug} nombre={ficha.municipio} />
+
+        <div className="mt-6 pt-1">
           <p className="text-[11px] font-semibold uppercase tracking-[0.06em] text-[var(--tinta-suave)]">
             Precio y bandas
           </p>

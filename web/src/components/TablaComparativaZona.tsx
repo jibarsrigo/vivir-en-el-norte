@@ -49,7 +49,7 @@ export default function TablaComparativaZona({
   return (
     <div className="mt-4 overflow-x-auto rounded-xl border border-[var(--linea)] bg-white">
       <table className="min-w-[40rem] w-full text-left text-sm">
-        <thead className="border-b border-[var(--linea)] bg-[var(--papel)] text-[var(--tinta-suave)]">
+        <thead className="border-b border-[var(--linea)] bg-white text-[var(--tinta-suave)]">
           <tr>
             <th className="px-3 py-2 font-medium">Municipio</th>
             <th className="px-3 py-2 font-medium tabular-nums" title="Puntuación 1–10 de cercanía a la costa">

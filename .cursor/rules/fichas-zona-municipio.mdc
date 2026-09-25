@@ -221,3 +221,21 @@ Ideas cubiertas en Vivir (por pueblo):
 6. Tipología de casa — piso/finca, reforma, escaleras, terraza.
 
 **Aparcado:** página «si vienes de Mallorca» (descartada).
+
+## Pendiente — Fotos plantilla 13 (aparcado; retomar luego)
+
+**No colocar aún** en RelatoMunicipio. Revisar solo cuando Jose lo pida.
+
+### Hecho
+
+- Huecos vs plantilla Nuevo2 Cudillero (13: cab 1, cómo 2, clima 1, vivir 1, historia 2, mar 4, casa 2) en `lib/fotos-plantilla-municipio.ts`.
+- Candidatas Baixo Miño + Asturias Centro en `web/src/data/fotos-candidatas-*.ts` y `public/fotos/_candidatas/`.
+- Página de revisión: `/nuevo2/fotos-candidatas/` (ahora solo las sustituciones validadas).
+- Jose validó las 13/14 sustituciones (las que no encajaban con la leyenda): correctas.
+
+### Al retomar
+
+1. Seguir buscando candidatas para el resto de zonas (solo huecos reales → fotos nuevas del municipio por slot).
+2. Mostrar solo foto + leyenda para validar (sin inventario).
+3. Colocar en relatos actuales solo tras OK explícito; V1 histórico.
+4. Unicidad SHA-256; no stand-ins; cambiar nombre de archivo al sustituir.

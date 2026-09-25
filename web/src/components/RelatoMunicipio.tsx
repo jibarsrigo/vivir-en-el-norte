@@ -42,8 +42,14 @@ export type RelatoMun = {
    */
   fotoIdentidad?: FotoRelato;
   fotosAbrir: FotoRelato[];
+  /** Frente a Mallorca → Clima (opcional; plantilla 13 = 1). */
+  fotosClima?: FotoRelato[];
+  /** Frente a Mallorca → Vivir (opcional; plantilla 13 = 1). */
+  fotosVivir?: FotoRelato[];
   fotosHistoria: FotoRelato[];
   fotosFuera: FotoRelato[];
+  /** Casa (opcional; plantilla 13 = 2). */
+  fotosCasa?: FotoRelato[];
   creditoFotos: string;
 };
 
@@ -427,13 +433,17 @@ export default function RelatoMunicipio({
       <h3 className="mt-4 text-sm font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
         Clima
       </h3>
-      <Parrafos textos={r.tiempo} />
+      <Parrafos textos={r.tiempo.slice(0, 1)} />
+      <Fotos items={r.fotosClima ?? []} omitSrc={omitIdentidad} />
+      {r.tiempo.length > 1 ? <Parrafos textos={r.tiempo.slice(1)} /> : null}
       {r.vivir && r.vivir.length > 0 ? (
         <>
           <h3 className="mt-6 text-sm font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
             Vivir
           </h3>
-          <Parrafos textos={r.vivir} />
+          <Parrafos textos={r.vivir.slice(0, 1)} />
+          <Fotos items={r.fotosVivir ?? []} omitSrc={omitIdentidad} />
+          {r.vivir.length > 1 ? <Parrafos textos={r.vivir.slice(1)} /> : null}
         </>
       ) : null}
 
@@ -450,7 +460,10 @@ export default function RelatoMunicipio({
       <Fotos items={r.fotosFuera} omitSrc={omitIdentidad} />
 
       <h2 className="mt-10 font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">Casa</h2>
-      <Parrafos textos={r.casa} />
+      <Parrafos textos={r.casa.slice(0, 1)} />
+      <Fotos items={(r.fotosCasa ?? []).slice(0, 1)} omitSrc={omitIdentidad} />
+      {r.casa.length > 1 ? <Parrafos textos={r.casa.slice(1)} /> : null}
+      <Fotos items={(r.fotosCasa ?? []).slice(1)} omitSrc={omitIdentidad} />
       <EnlaceIdealista ambito="municipio" slug={ficha.slug} nombre={ficha.municipio} />
 
       <Encaja si={r.encaja.si} no={r.encaja.no} veredicto={r.encaja.veredicto} />

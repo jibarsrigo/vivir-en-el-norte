@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import BloqueZonaFicha from "@/components/BloqueZonaFicha";
 import CabeceraFichaMunicipio from "@/components/CabeceraFichaMunicipio";
 import EnlaceIdealista from "@/components/EnlaceIdealista";
+import Foto from "@/components/Foto";
 import MapaMunicipioFicha from "@/components/MapaMunicipioFicha";
 import { RELATO_MUNICIPIOS } from "@/components/RelatoMunicipio";
 import TablaComparativaZona from "@/components/TablaComparativaZona";
@@ -17,32 +18,31 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
 
 const RESUMEN_ZONA_NUEVO2 = [
   "Salinas está en la costa central de Asturias, dentro del municipio de Castrillón y muy cerca de Avilés. Para entender cómo sería vivir aquí conviene separar desde el principio tres lugares que cumplen funciones distintas.",
-  "Salinas es el núcleo costero de esta ficha: las viviendas llegan hasta una gran playa abierta al Cantábrico. Piedras Blancas, situada tierra adentro a pocos minutos, es la capital de Castrillón y concentra parte de los servicios municipales. Avilés es ya una ciudad: allí aparecen más comercio, cultura, gestiones y el hospital público de referencia cercano.",
+  "Salinas es el núcleo costero: las viviendas llegan hasta una gran playa abierta al Cantábrico. Piedras Blancas, situada tierra adentro a pocos minutos, es la capital de Castrillón y concentra parte de los servicios municipales. Avilés es ya una ciudad: allí aparecen más comercio, cultura, gestiones y el hospital público de referencia cercano.",
   "Esa disposición explica buena parte de la vida en Salinas. Se puede vivir en un núcleo pequeño y salir andando a una playa extensa, pero sin quedar aislado: cuando hace falta algo que Salinas no ofrece, se amplía la vida primero hacia Piedras Blancas y después hacia Avilés. El mar está a pie; una parte de los servicios, a pocos minutos de coche.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
-  "Una mañana normal puede empezar sin decidir adónde ir. Se sale de casa y, desde buena parte del núcleo, basta caminar hacia el frente marítimo para llegar a una playa larga y abierta. No es una playa del municipio a la que haya que conducir: para una vivienda bien situada en Salinas puede ser el lugar donde se camina antes de comer o al final de la tarde.",
-  "Eso cambia el papel del mar. No hace falta que sea verano ni que apetezca bañarse. La playa también sirve simplemente para salir de casa, andar junto al Cantábrico y regresar. Vivir cerca del paseo convierte algo que en otros lugares sería una salida en una posibilidad corriente del día.",
-  "La vida práctica no es tan autosuficiente como podría sugerir esa facilidad. Salinas permite resolver necesidades cotidianas, pero parte de los servicios de Castrillón están en Piedras Blancas, la capital municipal situada tierra adentro. Para necesidades de mayor escala aparece Avilés, una ciudad próxima donde se amplían mucho el comercio, las gestiones, la cultura y la atención sanitaria.",
-  "Las distancias hacen que esa dependencia sea relativamente llevadera. El Hospital Universitario San Agustín, el hospital público de Avilés, queda aproximadamente a 5 km y unos 10 minutos en coche. El aeropuerto de Asturias, que concentra los vuelos comerciales de la región, está a unos 8 km y también alrededor de 10 minutos. Hay además autobús frecuente hacia Avilés.",
-  "Por eso un día en Salinas puede tener dos escalas. Para caminar junto al mar no hace falta arrancar el coche. Para el hospital, determinadas compras o servicios que no están en el núcleo, sí habrá que salir, pero Avilés queda lo bastante cerca para que esos desplazamientos formen parte de una rutina normal y no de una jornada entera.",
-  "En verano cambia una pieza importante. La misma playa que el resto del año funciona como paseo cotidiano atrae más gente, aumenta el movimiento junto al mar y hace más difícil aparcar. Vivir cerca ofrece entonces una ventaja muy concreta: se puede ir andando cuando otros necesitan llegar en coche. El reverso es vivir también cerca de esa mayor actividad estival.",
+  "Desde buena parte de Salinas se puede llegar andando al frente marítimo. Para una vivienda bien situada, la playa puede formar parte de la rutina: salir a caminar antes de comer, acercarse al mar al final de la tarde o recorrer un tramo del paseo sin necesidad de coger el coche.",
+  "Esa cercanía sigue teniendo valor fuera del verano. Aunque no sea día de baño, el frente marítimo permite incorporar un paseo junto al Cantábrico a una tarde corriente. En verano se añade el baño, pero también llegan más visitantes, más tráfico y más presión de aparcamiento cerca de la playa.",
+  "Para la vida cotidiana, Salinas resuelve una parte de las necesidades sin salir del núcleo, pero no todas. Piedras Blancas, la capital de Castrillón, queda a pocos minutos y concentra parte de los servicios municipales. Avilés amplía mucho más las posibilidades de comercio, gestiones, cultura y atención sanitaria.",
+  "El Hospital Universitario San Agustín queda aproximadamente a 5 km y unos 10 minutos en coche. El aeropuerto de Asturias está a unos 8 km y también alrededor de 10 minutos. Hay además autobús frecuente hacia Avilés. Son distancias suficientemente cortas para que hospital, ciudad y aeropuerto puedan formar parte de la organización normal de la semana.",
+  "La elección de calle importa. Vivir cerca del paseo permite hacer a pie una parte de la vida que atrae de Salinas; otras direcciones pueden seguir estando cerca del mar pero depender más del coche para compra, aparcamiento o servicios.",
+  "En verano esa diferencia se hace más visible. Poder bajar andando a la playa evita buscar aparcamiento cuando aumenta la ocupación, pero vivir junto al frente marítimo significa también convivir con más movimiento durante la temporada alta.",
 ] as const;
 
 const CLIMA_NUEVO2 = [
-  "Mudarse desde Mallorca a Salinas significa cambiar claramente la manera en que el tiempo interviene en el día. El verano es bastante más fresco y la lluvia, la humedad y los cielos cubiertos tienen mucha más presencia durante el año.",
-  "Las referencias climáticas para esta parte de la costa central asturiana rondan las 1.800 horas de sol anuales, unos 148 días de lluvia y una temperatura media estival próxima a 19 °C. Son valores aproximados de esta zona de Asturias, no mediciones exclusivas del núcleo de Salinas.",
-  "La consecuencia se entiende mejor fuera de la tabla. En verano se evita buena parte del calor persistente de Mallorca, pero julio y agosto ya no garantizan una cadena de días secos y soleados. Habrá más jornadas en las que el paseo siga siendo posible pero el baño o la terraza dejen de marcar el día.",
-  "Para una vivienda junto al mar, el clima tampoco termina en la temperatura. Humedad, viento y exposición al Cantábrico hacen importantes la orientación, el aislamiento, las ventanas y el estado de las fachadas. Una casa próxima a la playa permite utilizarla mucho; esa misma proximidad obliga a mirar con atención cómo está preparado el edificio para pasar allí todo el año.",
+  "Mudarse desde Mallorca a Salinas supone un verano bastante más fresco y muchos más días húmedos, lluviosos o cubiertos a lo largo del año.",
+  "Las referencias climáticas para esta parte de la costa central asturiana rondan las 1.800 horas de sol anuales, unos 148 días de lluvia y una temperatura media estival próxima a 19 °C. Son valores aproximados del entorno, no mediciones exclusivas del núcleo de Salinas.",
+  "En julio y agosto el calor intenso y persistente pesa mucho menos que en Mallorca, pero tampoco se puede contar con una sucesión estable de días secos y soleados. Habrá jornadas buenas para caminar junto al mar en las que el baño o una tarde larga de terraza resulten menos apetecibles.",
+  "En una vivienda próxima a la playa importan también la humedad, el viento y la exposición al Cantábrico. Orientación, aislamiento, carpinterías y estado de la fachada pueden marcar una diferencia importante entre dos pisos que sobre el mapa parecen igual de bien situados.",
 ] as const;
 
 const VIVIR_NUEVO2 = [
-  "También cambia la geografía de la vida diaria.",
-  "En Salinas se puede tener una gran playa andando y, al mismo tiempo, necesitar desplazarse unos minutos para completar determinados servicios. Piedras Blancas funciona como la capital municipal cercana. Avilés aporta lo que requiere una ciudad de mayor tamaño, incluido el hospital.",
-  "No son lugares que haya que visitar para conocer la zona: forman parte de cómo funciona vivir en Salinas. Una compra o un paseo pueden quedarse en el propio núcleo; una necesidad administrativa o determinada compra puede llevar a Piedras Blancas; hospital, cultura o una oferta comercial más amplia empujan hacia Avilés.",
-  "El aeropuerto está también aproximadamente a diez minutos. Esa proximidad reduce mucho el trayecto terrestre cuando toca viajar. Para volar a Palma, sin embargo, hay que comprobar la programación de cada temporada: estar cerca del aeropuerto no significa disponer de esa conexión durante todo el año.",
-  "Frente a Mallorca, por tanto, no se cambia únicamente sol por lluvia. Se cambia también una manera de usar la costa: aquí una playa cantábrica extensa puede estar integrada en el día mientras parte de la vida práctica se reparte entre varios núcleos muy próximos.",
+  "Vivir en Salinas reparte la semana entre tres lugares próximos. El propio núcleo permite hacer parte de la compra y de los recados y, sobre todo, tener playa y paseo a pie.",
+  "Para algunos servicios municipales o compras concretas hay que desplazarse a Piedras Blancas. Avilés amplía mucho más el radio: allí están el hospital, una oferta comercial mayor y buena parte de las opciones culturales.",
+  "Eso no significa depender continuamente de Avilés. Significa que Salinas ofrece una vida costera pequeña apoyada en dos núcleos cercanos para completar lo que no tiene. La diferencia entre ellos se entiende mejor en la práctica: Salinas para una parte del día a día y el mar; Piedras Blancas para determinados servicios de Castrillón; Avilés para necesidades de ciudad.",
+  "El aeropuerto está también aproximadamente a diez minutos. Esa proximidad acorta mucho el trayecto terrestre cuando toca viajar. Para volar a Palma hay que comprobar la programación de cada temporada, porque la cercanía al aeropuerto no garantiza esa conexión durante todo el año.",
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
@@ -54,20 +54,18 @@ const DE_DONDE_VIENE_NUEVO2 = [
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
-  "La relación cotidiana con el mar empieza en la playa de Salinas, el gran arenal situado directamente frente al núcleo. Su longitud permite usarla de varias maneras: bajar para bañarse cuando las condiciones acompañan, caminar junto al agua o simplemente hacer un tramo y volver a casa.",
-  "Eso es importante porque elimina un desplazamiento. Para quien vive cerca del frente marítimo, no hay que coger el coche para «ir a la costa»: ya se está viviendo junto a ella.",
-  "Si se camina hacia el extremo próximo a Avilés, los edificios van quedando atrás y aparece El Espartal. Es un sistema de dunas protegido situado junto a la propia playa. Una pasarela permite recorrer parte de este espacio sin avanzar directamente por la arena. No es una excursión distante: prolonga el paseo que empieza en Salinas.",
-  "Seguir caminando cambia otra vez lo que se encuentra. Hacia San Juan de Nieva, la costa abierta empieza a convertirse en la entrada de la ría de Avilés. El agua ya no se contempla únicamente como Cantábrico abierto: se entra en el corredor marítimo que conduce hacia Avilés y empiezan a verse instalaciones del puerto y de la industria.",
-  "Así puede desarrollarse una sola salida: se sale entre viviendas y cafeterías, se camina junto a una playa abierta, se continúa entre las dunas protegidas de El Espartal y se termina frente a una ría donde aparecen puerto e industria.",
-  "Ese cambio de paisaje es una de las cosas que hacen reconocible a Salinas. No es una sucesión de costa cada vez más salvaje. Naturaleza, vivienda e infraestructura están muy cerca. El atractivo de poder enlazar playa y dunas andando tiene como contrapunto que, al avanzar hacia la ría, el paisaje industrial de Avilés entra también en la experiencia.",
-  "Para bañarse, la ventaja de vivir aquí es la distancia: una vivienda bien situada puede tener el arenal realmente a pie. El límite lo pone el propio Cantábrico. Estar cerca del agua todos los días no significa encontrar todos los días las mismas condiciones de baño.",
+  "La playa de Salinas está directamente frente al núcleo y es el paseo más fácil de incorporar a la vida diaria. Quien vive cerca del frente marítimo puede bajar andando, recorrer un tramo junto al agua y volver a casa sin organizar una salida ni buscar aparcamiento.",
+  "El baño depende de las condiciones del Cantábrico. Tener el arenal a pocos minutos permite aprovechar los días buenos, pero la cercanía no convierte el mar en una zona de baño previsible todos los días.",
+  "Hacia el extremo próximo a Avilés, el frente urbano va dejando paso a El Espartal, un sistema de dunas protegido. Una pasarela permite recorrer parte de este espacio y prolongar a pie el paseo que empieza en Salinas.",
+  "Si se continúa hacia San Juan de Nieva, vuelve a cambiar el paisaje. La costa abierta da paso a la entrada de la ría de Avilés y empiezan a aparecer el puerto y las instalaciones industriales.",
+  "Ese recorrido permite entender una característica muy concreta de Salinas: playa, dunas protegidas y paisaje portuario-industrial están muy cerca entre sí. El paseo cotidiano puede quedarse en el arenal o alargarse hasta encontrar esas tres caras de la costa en una misma dirección.",
 ] as const;
 
 const CASA_NUEVO2 = [
-  "En Salinas, el primer error al buscar vivienda sería escribir simplemente «Castrillón» en el presupuesto y pensar que ya se sabe cuánto cuesta vivir junto a esta playa.",
-  "Castrillón es todo el municipio. Salinas es solo uno de sus núcleos y tiene un mercado claramente más caro.",
-  "En agosto de 2026, el conjunto de Castrillón estaba en 2.241 €/m². Piedras Blancas, la capital situada tierra adentro, aparecía alrededor de 1.984 €/m². Salinas alcanzaba 3.226 €/m². Es decir, la referencia de Salinas estaba aproximadamente un 44 % por encima de la media municipal.",
-  "La diferencia tiene una consecuencia directa. Si lo que se quiere comprar es la posibilidad de salir del portal y bajar andando a la playa de Salinas, utilizar únicamente la media de Castrillón haría parecer esa vida bastante más barata de lo que indica el mercado del propio núcleo.",
+  "Buscar vivienda en Salinas exige separar el precio del núcleo costero del conjunto de Castrillón. En agosto de 2026, Castrillón estaba en 2.241 €/m² y Piedras Blancas alrededor de 1.984 €/m², mientras Salinas alcanzaba 3.226 €/m².",
+  "La diferencia es importante porque esta ficha describe precisamente la vida que ofrece Salinas: tener la playa a pie y mantener Avilés, Piedras Blancas y el aeropuerto a pocos minutos. La media municipal no representa bien el coste de comprar esa ubicación concreta.",
+  "Dentro del propio Salinas tampoco basta con medir metros hasta el mar. Conviene comprobar desde el portal el recorrido hasta la playa, la compra cotidiana y el coche. Planta, orientación y edificios situados delante cambian además la luz y las vistas incluso dentro de una misma calle.",
+  "En los edificios próximos al Cantábrico hay que revisar aislamiento, carpinterías, ventilación, humedad, salitre, fachada y reformas pendientes. Una terraza o unas vistas abiertas pueden aportar mucho, pero la exposición al mar también puede aumentar las necesidades de mantenimiento.",
 ] as const;
 
 const CASA_PRECIO_REFS = [
@@ -76,16 +74,16 @@ const CASA_PRECIO_REFS = [
 ] as const;
 
 const CASA_BANDAS_NOTA =
-  "Las estimaciones utilizan el precio de Salinas porque esta página describe precisamente la experiencia de vivir allí. Para poder comparar todos los lugares del proyecto se toma como referencia una vivienda de unos 65 m² con dos dormitorios y otra de unos 90 m² con tres. Las franjas A y B expresan cercanía a la costa; no indican calidad, vistas ni el precio exacto de un inmueble.";
+  "Las estimaciones utilizan la referencia de Salinas porque esta página describe ese núcleo. Para comparar con el resto del proyecto se toman aproximadamente 65 m² para dos dormitorios y 90 m² para tres. Las franjas A y B expresan cercanía a la costa; no indican calidad, vistas ni el precio exacto de una vivienda.";
 
 const CASA_ADVERTENCIA_MICROZONA =
-  "Incluso dentro de Salinas, decir «cerca de la playa» no basta. Hay que salir del portal y comprobar el recorrido. Una vivienda puede permitir llegar al paseo en pocos minutos por calles sencillas; otra puede estar igualmente cerca sobre el mapa pero relacionarse peor con la compra cotidiana, el coche o el acceso al frente marítimo. La altura del piso también cambia lo que se compra. Cerca de la playa hay edificios altos y la proximidad al agua no garantiza una vista abierta: orientación, planta y edificios situados delante pueden convertir dos viviendas de la misma calle en experiencias muy diferentes. Después está el edificio. Junto al Cantábrico conviene mirar especialmente aislamiento, carpinterías, ventilación, humedad, salitre y estado de la fachada. Una terraza próxima al mar tiene un valor cotidiano evidente; si la vivienda está muy expuesta o mal aislada, esa misma posición puede exigir más mantenimiento y hacer menos cómoda una parte del año.";
+  "Incluso dentro de Salinas, «cerca de la playa» puede significar cosas distintas. Hay que comprobar desde el portal el recorrido hasta el paseo, la compra cotidiana y el coche. La planta, la orientación y los edificios situados delante cambian la luz y las vistas. Junto al Cantábrico también conviene revisar aislamiento, carpinterías, ventilación, humedad, salitre y estado de la fachada.";
 
 const CASA_QUE_CONVIENE_REVISAR =
-  "Antes de entrar en la vivienda, conviene hacer la vida que tendría que soportar. Caminar hasta la playa. Ir al lugar donde se compraría lo cotidiano. Volver al portal. Comprobar dónde se deja el coche y cuánto de ese recorrido seguiría siendo cómodo dentro de unos años. Dentro importan ascensor y barreras, luz, orientación, aislamiento, humedad, ventanas, estado del edificio y reformas pendientes. Si el anuncio vende vistas al mar, hay que comprobarlas desde la estancia que realmente se utilizará cada día, no únicamente desde una esquina de la terraza o desde la fotografía más favorable. Después merece la pena volver a la misma calle en un momento de mucha ocupación estival. La playa seguirá estando igual de cerca; el tráfico, el movimiento y la facilidad para aparcar pueden ser distintos.";
+  "Antes de decidir, conviene caminar desde la vivienda hasta la playa y hasta el lugar donde se haría la compra habitual, comprobar el aparcamiento y repetir la visita en un momento de alta ocupación estival. Dentro del edificio importan ascensor y barreras, luz, orientación, aislamiento, humedad, ventanas y reformas pendientes. Si las vistas influyen en el precio, hay que comprobarlas desde las estancias que realmente se utilizarán.";
 
 const CASA_MERCADO_REVENTA =
-  "Que Salinas sea bastante más cara que Piedras Blancas y que la media de Castrillón demuestra que el mercado distingue la localización. No demuestra que una vivienda vaya a subir de precio en el futuro. Para una eventual reventa ayudan características que hacen la casa utilizable por más personas: ascensor, acceso sencillo, buen estado, luz, aislamiento, aparcamiento razonable y una relación verdaderamente cómoda con la playa y los servicios. Aquí el coste de elegir lugar se ve con especial claridad. Se puede comprar en otras partes de Castrillón por referencias sensiblemente menores. Lo que se paga de más en Salinas es, entre otras cosas, la posibilidad de que esa gran playa deje de ser un sitio cercano y pase a formar parte de la vida al salir de casa.";
+  "La diferencia de precio entre Salinas, Piedras Blancas y el conjunto de Castrillón muestra que la ubicación tiene un peso claro en el mercado, pero no permite anticipar cómo evolucionará el precio. Para una futura venta ayudan características que mantienen la vivienda cómoda para perfiles distintos: ascensor, acceso sencillo, buen estado, luz, aislamiento, aparcamiento razonable y una relación realmente práctica con la playa y los servicios.";
 
 const CASA_LEYENDA_COMPACTA =
   "A: ≤5 min de la costa · B: 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m². Estimaciones comparativas; conviene contrastarlas con la oferta del momento.";
@@ -94,31 +92,63 @@ const CASA_FILA_PRECIOS = {
   municipio: "Salinas (Castrillón)",
   a2: "272.597 €",
   a3: "377.442 €",
-  b2: "220.495 €",
-  b3: "305.360 €",
+  b2: "220.175 €",
+  b3: "304.857 €",
   m2: "3.226 €/m²",
 } as const;
 
 const ENCAJA_SI_NUEVO2 = [
-  "Puede encajar si se quiere que el mar forme parte del día sin depender del coche. En una vivienda bien situada se puede salir andando, llegar a una playa extensa y prolongar el paseo hasta las dunas de El Espartal.",
-  "También si interesa vivir a escala de núcleo costero sin alejarse demasiado de servicios de ciudad. Avilés está muy cerca; su hospital público queda aproximadamente a diez minutos en coche y el aeropuerto de Asturias, también. Salinas permite así mantener la playa delante sin convertir una visita al hospital o un viaje en avión en un desplazamiento largo.",
-  "La combinación característica es esa: playa cotidiana y escala residencial, con una ciudad, un hospital y un aeropuerto a pocos minutos.",
+  "Puede encajar si se quiere tener una playa extensa y un paseo marítimo a pie desde casa sin renunciar a la cercanía de una ciudad.",
+  "También si resulta útil vivir en un núcleo pequeño y completar determinados servicios en Piedras Blancas o Avilés. El Hospital San Agustín y el aeropuerto quedan aproximadamente a diez minutos en coche.",
+  "Salinas combina así playa cotidiana con accesos rápidos a servicios urbanos, siempre que se acepte que no toda la semana se resuelve dentro del propio núcleo.",
 ] as const;
 
 const NO_ENCAJA_SI_NUEVO2 = [
-  "Puede encajar peor si se quiere resolver prácticamente toda la vida andando dentro del mismo núcleo. Para parte de los servicios habrá que ir a Piedras Blancas o Avilés.",
-  "También si se busca una costa visualmente alejada de industria e infraestructuras. Al caminar desde Salinas hacia las dunas y continuar hasta la entrada de la ría de Avilés, empiezan a aparecer puerto e instalaciones industriales. Esa proximidad forma parte del lugar.",
-  "El verano añade más movimiento y presión de aparcamiento junto a la playa. Y la vivienda tiene otro peaje muy claro: comprar en Salinas cuesta sensiblemente más que comprar en Piedras Blancas o tomar como referencia la media de Castrillón.",
+  "Puede encajar peor si se quiere resolver prácticamente toda la vida andando dentro del mismo núcleo, porque parte de los servicios exige desplazarse a Piedras Blancas o Avilés.",
+  "También si se busca una costa alejada visualmente de puerto e industria. Hacia San Juan de Nieva, el paseo desde Salinas acaba acercándose a la entrada de la ría y al paisaje portuario-industrial de Avilés.",
+  "El verano trae más movimiento y presión de aparcamiento junto a la playa. Además, comprar en Salinas tiene una referencia sensiblemente más alta que Piedras Blancas o el conjunto de Castrillón.",
 ] as const;
 
 const QUE_COMPROBAR_NUEVO2 = [
-  "La visita debería empezar dejando el coche aparcado junto a la vivienda candidata.",
-  "Primero hay que hacer la vida pequeña: salir del portal, ir hasta donde se compraría lo cotidiano, bajar a la playa y regresar. Ese recorrido permite saber si «vivir junto al mar» funciona realmente desde esa dirección concreta.",
-  "Después conviene continuar andando por la costa. El paseo lleva desde el frente habitado de Salinas hacia las dunas protegidas de El Espartal. Si se sigue en dirección a San Juan de Nieva, el paisaje cambia de nuevo y aparecen la entrada de la ría, el puerto y la industria de Avilés. En una sola caminata se comprueban así uno de los grandes atractivos del lugar y uno de sus principales contrapuntos.",
-  "Luego toca probar lo que no se puede hacer andando: ir a Piedras Blancas para entender qué parte de la vida municipal queda allí y conducir hasta Avilés y el Hospital San Agustín para comprobar cuánto pesan realmente esos desplazamientos.",
-  "Y queda una última visita útil: la misma calle en un día de alta ocupación veraniega. Entonces se puede comprobar qué ocurre con el aparcamiento y el movimiento alrededor de la playa.",
-  "Al terminar, la pregunta ya no es simplemente «¿me gusta Salinas?». Es mucho más concreta: ¿me compensa pagar el precio propio de Salinas para tener esta playa en mi vida diaria, aceptando que algunos servicios están fuera, que el verano trae más movimiento y que hacia la ría el paisaje natural convive con puerto e industria?",
+  "Desde una vivienda candidata, hacer a pie el recorrido hasta la compra habitual y la playa. Así se comprueba si la cercanía al mar funciona de verdad en la rutina y no solo sobre el mapa.",
+  "Continuar después hacia El Espartal y, si interesa, hacia San Juan de Nieva. El recorrido permite ver dónde termina el frente residencial y cómo aparecen las dunas, la ría, el puerto y la industria.",
+  "Probar también en coche los trayectos a Piedras Blancas, Avilés y el Hospital San Agustín para saber qué parte de la semana dependerá de esos desplazamientos.",
+  "Volver a la misma calle en un momento de alta ocupación veraniega para comprobar tráfico, movimiento y aparcamiento.",
+  "En la vivienda, revisar orientación, luz, aislamiento, humedad, salitre, estado de fachada y ventanas, además de comprobar desde qué estancias existen realmente las vistas que se estén pagando.",
 ] as const;
+
+const FOTO_COMO_PLAYA = {
+  src: "/fotos/asturias-centro/salinas-playa.jpg",
+  pie: "Playa de Salinas",
+} as const;
+
+const FOTO_COMO_PASEO = {
+  src: "/fotos/asturias-centro/salinas-paseo.jpg",
+  pie: "Paseo de Salinas",
+} as const;
+
+const FOTO_HISTORIA_ANCLAS = {
+  src: "/fotos/asturias-centro/salinas-anclas.jpg",
+  pie: "Museo de Anclas, Peñona de Salinas",
+} as const;
+
+const FOTO_HISTORIA_CHALETS = {
+  src: "/fotos/asturias-centro/salinas-chalets.jpg",
+  pie: "Casas bajas y chalés en Salinas",
+} as const;
+
+const FOTO_MAR_DUNAS = {
+  src: "/fotos/asturias-centro/salinas-dunas.jpg",
+  pie: "El Espartal desde el paseo, Salinas",
+} as const;
+
+const FOTO_MAR_AVILES = {
+  src: "/fotos/asturias-centro/salinas-aviles.jpg",
+  pie: "Avilés, a minutos de Salinas",
+} as const;
+
+const CREDITO_FOTOS =
+  "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen).";
 
 function FilaCasaNuevo2({ etiqueta, cuerpo }: { etiqueta: string; cuerpo: string }) {
   return (
@@ -174,6 +204,8 @@ export default function Nuevo2SalinasCastrillonPage() {
             {p}
           </p>
         ))}
+        <Foto src={FOTO_COMO_PLAYA.src} pie={FOTO_COMO_PLAYA.pie} />
+        <Foto src={FOTO_COMO_PASEO.src} pie={FOTO_COMO_PASEO.pie} />
       </DesplegableNuevo2>
 
       <DesplegableNuevo2 titulo="Frente a Mallorca" varianteTarjetaV1>
@@ -196,7 +228,14 @@ export default function Nuevo2SalinasCastrillonPage() {
       </DesplegableNuevo2>
 
       <DesplegableNuevo2 titulo="De dónde viene" varianteTarjetaV1>
-        {DE_DONDE_VIENE_NUEVO2.map((p) => (
+        {DE_DONDE_VIENE_NUEVO2.slice(0, 2).map((p) => (
+          <p key={p.slice(0, 48)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+            {p}
+          </p>
+        ))}
+        <Foto src={FOTO_HISTORIA_CHALETS.src} pie={FOTO_HISTORIA_CHALETS.pie} />
+        <Foto src={FOTO_HISTORIA_ANCLAS.src} pie={FOTO_HISTORIA_ANCLAS.pie} />
+        {DE_DONDE_VIENE_NUEVO2.slice(2).map((p) => (
           <p key={p.slice(0, 48)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
             {p}
           </p>
@@ -204,7 +243,14 @@ export default function Nuevo2SalinasCastrillonPage() {
       </DesplegableNuevo2>
 
       <DesplegableNuevo2 titulo="Mar, río y camino" varianteTarjetaV1>
-        {MAR_RIO_CAMINO_NUEVO2.map((p) => (
+        {MAR_RIO_CAMINO_NUEVO2.slice(0, 3).map((p) => (
+          <p key={p.slice(0, 48)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+            {p}
+          </p>
+        ))}
+        <Foto src={FOTO_MAR_DUNAS.src} pie={FOTO_MAR_DUNAS.pie} />
+        <Foto src={FOTO_MAR_AVILES.src} pie={FOTO_MAR_AVILES.pie} />
+        {MAR_RIO_CAMINO_NUEVO2.slice(3).map((p) => (
           <p key={p.slice(0, 48)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
             {p}
           </p>
@@ -312,6 +358,10 @@ export default function Nuevo2SalinasCastrillonPage() {
           escalas={escalas}
         />
       </section>
+
+      <p className="mt-8 max-w-3xl text-sm text-[var(--tinta-suave)]">
+        Crédito de las fotografías: {CREDITO_FOTOS}
+      </p>
     </main>
   );
 }

@@ -312,6 +312,80 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
       "Y recorrer el corredor de Portocelo, Mogor y Aguete para comprobar si esa costa compensa realmente el coche adicional.",
     ],
   },
+  "soto-del-barco": {
+    encajaSi: [
+      "Puede encajar si se busca una escala pequeña sin quedar muy lejos de hospital y aeropuerto, y se acepta que para las necesidades de mayor entidad habrá que salir del municipio.",
+      "San Juan añade una combinación bastante particular: un pueblo pequeño donde compra básica, médico, farmacia, puerto, desembocadura y playa pueden formar parte de una misma vida diaria. No todo queda a la puerta de cada vivienda, pero tampoco es simplemente el lugar costero de un municipio cuyos servicios están en otra parte.",
+      "Soto ofrece la otra posibilidad: vivir algo más retirado de la costa abierta, junto al Nalón y en el núcleo administrativo, manteniendo servicios básicos propios.",
+    ],
+    encajaNo: [
+      "Puede encajar peor si se quiere una oferta amplia de comercio, actividades y sanidad dentro del propio pueblo o reducir mucho el uso del coche cuando la necesidad sale de lo básico.",
+      "También hay que aceptar el cambio respecto a Mallorca: menos sol, mucha más humedad y lluvia y un verano bastante más fresco. En San Juan, tener Los Quebrantos junto al pueblo tampoco convierte el Cantábrico en una playa de baño previsible.",
+      "La vivienda añade otro límite: poca obra nueva, fibra que conviene comprobar dirección por dirección y un mercado de escala pequeña en el que la vivienda concreta pesa más que una media general.",
+    ],
+    queComprobar: [
+      "Aquí una visita al «municipio» no basta. Hay que probar dos mañanas distintas.",
+      "En Soto, salir desde una vivienda posible y hacer la vida corriente: compra, farmacia, médico, paseo y coche. Ver cuánto se resuelve realmente a pie y cuánto empieza a dispersarse.",
+      "En San Juan, hacer exactamente lo mismo y después seguir andando: primero el puerto, luego la desembocadura y finalmente Los Quebrantos. No para comprobar si el paisaje gusta, sino para descubrir cuánto de él entraría de verdad en un martes cualquiera.",
+      "Después conviene hacer el trayecto al Hospital San Agustín y al aeropuerto.",
+      "Solo entonces «Soto del Barco» deja de ser un nombre administrativo y aparecen las dos vidas que contiene.",
+    ],
+  },
+  "salinas-castrillon": {
+    encajaSi: [
+      "Puede encajar si se quiere tener una playa extensa y un paseo marítimo a pie desde casa sin renunciar a la cercanía de una ciudad.",
+      "También si resulta útil vivir en un núcleo pequeño y completar determinados servicios en Piedras Blancas o Avilés. El Hospital San Agustín y el aeropuerto quedan aproximadamente a diez minutos en coche.",
+      "Salinas combina así playa cotidiana con accesos rápidos a servicios urbanos, siempre que se acepte que no toda la semana se resuelve dentro del propio núcleo.",
+    ],
+    encajaNo: [
+      "Puede encajar peor si se quiere resolver prácticamente toda la vida andando dentro del mismo núcleo, porque parte de los servicios exige desplazarse a Piedras Blancas o Avilés.",
+      "También si se busca una costa alejada visualmente de puerto e industria. Hacia San Juan de Nieva, el paseo desde Salinas acaba acercándose a la entrada de la ría y al paisaje portuario-industrial de Avilés.",
+      "El verano trae más movimiento y presión de aparcamiento junto a la playa. Además, comprar en Salinas tiene una referencia sensiblemente más alta que Piedras Blancas o el conjunto de Castrillón.",
+    ],
+    queComprobar: [
+      "Desde una vivienda candidata, hacer a pie el recorrido hasta la compra habitual y la playa. Así se comprueba si la cercanía al mar funciona de verdad en la rutina y no solo sobre el mapa.",
+      "Continuar después hacia El Espartal y, si interesa, hacia San Juan de Nieva. El recorrido permite ver dónde termina el frente residencial y cómo aparecen las dunas, la ría, el puerto y la industria.",
+      "Probar también en coche los trayectos a Piedras Blancas, Avilés y el Hospital San Agustín para saber qué parte de la semana dependerá de esos desplazamientos.",
+      "Volver a la misma calle en un momento de alta ocupación veraniega para comprobar tráfico, movimiento y aparcamiento.",
+      "En la vivienda, revisar orientación, luz, aislamiento, humedad, salitre, estado de fachada y ventanas, además de comprobar desde qué estancias existen realmente las vistas que se estén pagando.",
+    ],
+  },
+  "luanco-gozon": {
+    encajaSi: [
+      "Puede encajar si se busca una villa pequeña donde el mar y una parte importante de la vida diaria estén realmente mezclados.",
+      "En Luanco no hace falta salir del pueblo para encontrar centro de salud con atención continuada, farmacias, biblioteca o servicios sociales. Tampoco hace falta salir para llegar al puerto o a la playa urbana. Esa proximidad permite una mañana que pase de un recado al paseo marítimo y del puerto a un café sin depender continuamente del coche.",
+      "La relación con el mar tiene además más capas que el baño. Está el puerto actual, la historia pesquera, los restos de construcción naval en Aramar y un Museo Marítimo que explica pesca, navegación, carpintería de ribera y naturaleza marina. El mar aparece como paisaje, paseo, historia y actividad cultural.",
+    ],
+    encajaNo: [
+      "Puede encajar peor si se quiere disponer de hospital dentro de la propia localidad. Luanco tiene atención primaria y continuada, pero para hospital hay que conducir hacia Gijón o Avilés.",
+      "Tampoco debe confundirse la villa con todo Gozón. Las otras playas, el paisaje rural y las viviendas más dispersas del concejo pueden ampliar mucho las posibilidades de costa y naturaleza, pero ya no conservan necesariamente la facilidad de hacer a pie la vida descrita aquí.",
+      "El verano añade otro contraste: una villa costera que permite disfrutar del mar durante todo el año recibe también más visitantes en temporada. Aparcamiento y movimiento alrededor del centro y de las playas deben comprobarse en ese momento, no deducirse de una visita tranquila fuera de temporada.",
+    ],
+    queComprobar: [
+      "Desde una vivienda candidata, hacer a pie una compra cotidiana, pasar por una farmacia y el centro de salud y continuar hacia el puerto y la playa. Así se comprueba cuánto de la vida de Luanco queda realmente a pie desde esa dirección.",
+      "Recorrer después el frente marítimo hasta la iglesia de Santa María. Si interesa caminar más, subir a la senda costera y avanzar un tramo hacia Bañugues permite distinguir el paseo cotidiano de una salida más larga.",
+      "Acercarse a Aramar ayuda a entender la huella de los antiguos astilleros y la relación histórica de la villa con la construcción naval.",
+      "Probar también el trayecto en coche hacia uno de los hospitales próximos y hacia el aeropuerto.",
+      "Repetir la visita en verano si el aparcamiento o la tranquilidad de la calle son importantes, y comprobar en la vivienda orientación, viento, aislamiento, humedad, ascensor y acceso.",
+    ],
+  },
+  "muros-de-nalon": {
+    encajaSi: [
+      "Muros de Nalón puede encajar si se busca un concejo pequeño y se acepta que parte de las compras, el hospital y los servicios especializados se resolverán fuera.",
+      "También si interesa elegir entre dos relaciones distintas con el agua: en San Esteban, puerto y desembocadura pueden entrar en el paseo diario; en Muros, la vida se organiza primero alrededor del núcleo y Aguilar y San Esteban quedan como destinos próximos.",
+    ],
+    encajaNo: [
+      "Puede encajar peor si se necesita resolver una parte muy amplia de la semana sin coche o sin salir de un núcleo pequeño, o si se espera una oferta urbana de comercio y servicios inmediatamente disponible.",
+      "También puede encajar peor si vivir junto al mar significa necesariamente tener una gran playa urbana al final de la calle. San Esteban tiene el agua muy presente, pero es puerto y desembocadura; Muros está cerca de Aguilar, pero no forma una continuidad urbana con la playa.",
+    ],
+    queComprobar: [
+      "Tratar Muros y San Esteban como dos candidatos residenciales distintos.",
+      "En San Esteban, salir desde una vivienda real y recorrer a pie el consultorio, el puerto, la ría y el comienzo de las sendas. Así se comprueba cuánto del frente del Nalón entraría de verdad en una tarde normal.",
+      "En Muros, hacer el mismo ejercicio dentro del núcleo y después probar los desplazamientos hacia Aguilar y San Esteban. Estar cerca en kilómetros no significa incorporar esos lugares del mismo modo a la rutina.",
+      "Hacer también el trayecto real hacia el hospital y una compra de mayor escala, porque parte de la semana se resolverá fuera del concejo.",
+      "Visitar la vivienda con tiempo húmedo y comprobar luz, orientación, ventilación, acceso, aparcamiento y cualquier señal que aconseje revisar humedad.",
+    ],
+  },
 };
 
 export function paraDecidirteNuevo2(

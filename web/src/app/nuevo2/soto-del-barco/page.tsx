@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import BloqueZonaFicha from "@/components/BloqueZonaFicha";
 import CabeceraFichaMunicipio from "@/components/CabeceraFichaMunicipio";
 import EnlaceIdealista from "@/components/EnlaceIdealista";
+import Foto from "@/components/Foto";
 import MapaMunicipioFicha from "@/components/MapaMunicipioFicha";
 import { RELATO_MUNICIPIOS } from "@/components/RelatoMunicipio";
 import TablaComparativaZona from "@/components/TablaComparativaZona";
@@ -17,7 +18,7 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
 
 const RESUMEN_ZONA_NUEVO2 = [
   "Asturias Centro reúne maneras muy distintas de vivir junto al Cantábrico. Hay puertos encajados en la ladera, pequeñas villas marineras, núcleos volcados sobre una gran playa y, al final de la escala, una ciudad como Gijón. Soto del Barco ocupa otra posición: aquí el territorio se organiza alrededor de la desembocadura del Nalón.",
-  "Y dentro de un municipio pequeño hay dos vidas que conviene mirar por separado. Soto del Barco y San Juan de la Arena no son dos nombres para una misma experiencia. Soto queda algo más hacia el interior, ligado al río y a su papel administrativo; San Juan se acerca hasta la desembocadura, donde aparecen el puerto, las embarcaciones y, al final del pueblo, el Cantábrico.",
+  "Y dentro de un municipio pequeño hay dos vidas distintas. Soto del Barco y San Juan de la Arena no son dos nombres para una misma experiencia. Soto queda algo más hacia el interior, ligado al río y a su papel administrativo; San Juan se acerca hasta la desembocadura, donde aparecen el puerto, las embarcaciones y, al final del pueblo, el Cantábrico.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
@@ -31,10 +32,10 @@ const COMO_SE_VIVE_NUEVO2 = [
 ] as const;
 
 const CLIMA_NUEVO2 = [
-  "El primer cambio respecto a Mallorca se nota antes de mirar ninguna estadística. El verano es bastante más fresco y la lluvia, la humedad, las nubes y las brumas tienen mucha más presencia a lo largo del año.",
-  "Los datos disponibles para esta parte de Asturias sitúan el verano alrededor de los 19 °C de media y describen un territorio con muchas menos horas de sol y bastantes más días de lluvia que Mallorca. No son mediciones específicas de Soto del Barco y no tendría sentido presentarlas como tales. Sirven para entender la magnitud del cambio.",
-  "En la práctica, se cambia buena parte del calor estival mallorquín por temperaturas más suaves. El precio de ese alivio es convivir con muchos más días grises o húmedos y con una luz mucho menos constante. Las brumas marinas, además, forman parte del clima que describe el propio concejo.",
-  "No es una diferencia abstracta. Afecta a cuándo apetece sentarse fuera, cómo se seca una vivienda, cuánto se usa una terraza y cuántas veces una caminata empieza mirando el cielo.",
+  "El cambio respecto a Mallorca se nota sobre todo en verano y en la frecuencia de días húmedos o cubiertos. El verano es bastante más fresco y la lluvia, la humedad, las nubes y las brumas tienen mucha más presencia a lo largo del año.",
+  "Las referencias disponibles para esta parte de Asturias sitúan el verano alrededor de los 19 °C de media, con muchas menos horas de sol y bastantes más días de lluvia que Mallorca. Son valores del entorno, no mediciones exclusivas de Soto del Barco.",
+  "En la práctica, el calor intenso pesa mucho menos durante el verano, pero el tiempo es menos estable. Hay más días en los que una terraza se utiliza solo a ratos, una caminata depende de cómo evolucione el cielo o la ropa tarda más en secarse.",
+  "En una vivienda conviene fijarse especialmente en luz, orientación, ventilación y aislamiento. La diferencia climática no se limita a la temperatura: también cambia la manera de usar la casa y los espacios exteriores durante buena parte del año.",
 ] as const;
 
 const VIVIR_NUEVO2 = [
@@ -73,10 +74,10 @@ const CASA_NUEVO2 = [
 ] as const;
 
 const CASA_PRECIO_INTRO =
-  "La última media municipal disponible es de 1.185 €/m², correspondiente a abril de 2026. Después, la serie dejó de publicar una media para Soto del Barco, de modo que esa cifra sirve para situar el mercado en aquel momento y no debe confundirse con un precio vigente garantizado.";
+  "La referencia municipal disponible es de 1.185 €/m², correspondiente a abril de 2026. Sirve para situar el orden de magnitud del mercado en ese momento; una vivienda concreta debe contrastarse con la oferta actual.";
 
 const CASA_BANDAS_NOTA =
-  "Las bandas permiten comparar con el resto del proyecto, pero no tasar una vivienda concreta. Utilizan como referencia aproximadamente 65 m² para dos habitaciones y 90 m² para tres, con las mismas franjas A y B del resto de fichas. La falta de una media publicada después de abril obliga a contrastarlas con la oferta real que exista cuando se busque vivienda.";
+  "Las bandas permiten comparar con el resto del proyecto, pero no tasar una vivienda concreta. Utilizan aproximadamente 65 m² para dos habitaciones y 90 m² para tres, con las mismas franjas A y B del resto de fichas. Conviene contrastarlas con la oferta real del momento.";
 
 const CASA_ADVERTENCIA_MICROZONA =
   "En San Juan conviene comprobar cuánto cambia la vivienda cuando se pasa de «cerca del puerto» a poder llegar realmente andando a compra, farmacia, centro médico y playa. También importan la exposición al ambiente marítimo, la humedad, el aislamiento y el aparcamiento. En Soto pesan más el acceso desde la vivienda, la dispersión y la frecuencia con la que el coche acaba resolviendo una necesidad que sobre el mapa parecía próxima. La información disponible señala poca obra nueva y cobertura de fibra parcial. Una dirección concreta puede comportarse mejor que otra, así que la conexión debe comprobarse en la vivienda y no darse por garantizada para todo el concejo.";
@@ -85,7 +86,7 @@ const CASA_QUE_CONVIENE_REVISAR =
   "Antes de quedarse con las vistas o con el precio, merece la pena comprobar el recorrido diario desde la puerta: compra, farmacia, médico, coche y paseo. Después vienen el estado de reforma, aislamiento, humedad, orientación y luz, barreras o ascensor, aparcamiento y conexión real a internet. En San Juan se añade una pregunta sencilla: ¿la vivienda permite realmente vivir el puerto y la costa andando o solo verlos cerca en el mapa?";
 
 const CASA_MERCADO_REVENTA =
-  "En abril de 2026 la serie disponible mostraba una variación interanual del −6,5 %. Después dejó de ofrecer media municipal. Esa evolución ayuda a entender aquel momento del mercado, no a anticipar qué hará el precio en adelante. La oferta es pequeña. Eso hace especialmente importante escoger una vivienda que siga siendo cómoda fuera de las circunstancias concretas del comprador: acceso sencillo, servicios razonablemente próximos, pocas barreras, buena conexión y ausencia de una reforma pesada pueden ampliar el número de personas para las que resulte utilizable en el futuro. No permiten garantizar una venta rápida. Sí ayudan a no convertir un precio atractivo en una casa difícil de usar.";
+  "La referencia de abril de 2026 mostraba una variación interanual del −6,5 %. Ese dato describe aquel momento y no permite anticipar la evolución posterior. En un mercado pequeño importa especialmente que la vivienda siga siendo práctica para perfiles distintos: acceso sencillo, servicios razonablemente próximos, pocas barreras, buena conexión y ausencia de una reforma pesada pueden facilitar una futura venta. No garantizan ni el precio ni el plazo.";
 
 const CASA_LEYENDA_COMPACTA =
   "A: ≤5 min de la costa · B: 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m². Estimaciones comparativas; conviene contrastarlas con la oferta del momento.";
@@ -94,8 +95,8 @@ const CASA_FILA_PRECIOS = {
   municipio: "Soto del Barco",
   a2: "100.133 €",
   a3: "138.645 €",
-  b2: "80.974 €",
-  b3: "112.302 €",
+  b2: "80.876 €",
+  b3: "111.983 €",
   m2: "1.185 €/m²",
 } as const;
 
@@ -108,7 +109,7 @@ const ENCAJA_SI_NUEVO2 = [
 const NO_ENCAJA_SI_NUEVO2 = [
   "Puede encajar peor si se quiere una oferta amplia de comercio, actividades y sanidad dentro del propio pueblo o reducir mucho el uso del coche cuando la necesidad sale de lo básico.",
   "También hay que aceptar el cambio respecto a Mallorca: menos sol, mucha más humedad y lluvia y un verano bastante más fresco. En San Juan, tener Los Quebrantos junto al pueblo tampoco convierte el Cantábrico en una playa de baño previsible.",
-  "La vivienda añade otro límite: poca obra nueva, fibra que conviene comprobar dirección por dirección y un mercado tan pequeño que después de abril de 2026 dejó incluso de publicarse una media municipal.",
+  "La vivienda añade otro límite: poca obra nueva, fibra que conviene comprobar dirección por dirección y un mercado de escala pequeña en el que la vivienda concreta pesa más que una media general.",
 ] as const;
 
 const QUE_COMPROBAR_NUEVO2 = [
@@ -118,6 +119,39 @@ const QUE_COMPROBAR_NUEVO2 = [
   "Después conviene hacer el trayecto al Hospital San Agustín y al aeropuerto.",
   "Solo entonces «Soto del Barco» deja de ser un nombre administrativo y aparecen las dos vidas que contiene.",
 ] as const;
+
+const FOTO_COMO_ARENA = {
+  src: "/fotos/asturias-centro/soto-arena.jpg",
+  pie: "San Juan de la Arena, Soto del Barco",
+} as const;
+
+const FOTO_COMO_VILLA = {
+  src: "/fotos/asturias-centro/soto-villa.jpg",
+  pie: "Soto del Barco hacia el estuario",
+} as const;
+
+const FOTO_HISTORIA_CASTILLO = {
+  src: "/fotos/asturias-centro/soto-castillo.jpg",
+  pie: "Castillo de San Martín, Soto del Barco",
+} as const;
+
+const FOTO_MAR_ESTUARIO = {
+  src: "/fotos/asturias-centro/soto-estuario.jpg",
+  pie: "Estuario del Nalón en Soto del Barco",
+} as const;
+
+const FOTO_MAR_PLAYA = {
+  src: "/fotos/asturias-centro/soto-playa.jpg",
+  pie: "Playa en Soto del Barco",
+} as const;
+
+const FOTO_MAR_QUEBRANTOS = {
+  src: "/fotos/asturias-centro/soto-quebrantos.jpg",
+  pie: "Los Quebrantos, San Juan de la Arena",
+} as const;
+
+const CREDITO_FOTOS =
+  "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen).";
 
 function FilaCasaNuevo2({ etiqueta, cuerpo }: { etiqueta: string; cuerpo: string }) {
   return (
@@ -171,6 +205,8 @@ export default function Nuevo2SotoDelBarcoPage() {
             {p}
           </p>
         ))}
+        <Foto src={FOTO_COMO_ARENA.src} pie={FOTO_COMO_ARENA.pie} />
+        <Foto src={FOTO_COMO_VILLA.src} pie={FOTO_COMO_VILLA.pie} />
       </DesplegableNuevo2>
 
       <DesplegableNuevo2 titulo="Frente a Mallorca" varianteTarjetaV1>
@@ -193,7 +229,13 @@ export default function Nuevo2SotoDelBarcoPage() {
       </DesplegableNuevo2>
 
       <DesplegableNuevo2 titulo="De dónde viene" varianteTarjetaV1>
-        {DE_DONDE_VIENE_NUEVO2.map((p) => (
+        {DE_DONDE_VIENE_NUEVO2.slice(0, 4).map((p) => (
+          <p key={p.slice(0, 48)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+            {p}
+          </p>
+        ))}
+        <Foto src={FOTO_HISTORIA_CASTILLO.src} pie={FOTO_HISTORIA_CASTILLO.pie} />
+        {DE_DONDE_VIENE_NUEVO2.slice(4).map((p) => (
           <p key={p.slice(0, 48)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
             {p}
           </p>
@@ -201,7 +243,20 @@ export default function Nuevo2SotoDelBarcoPage() {
       </DesplegableNuevo2>
 
       <DesplegableNuevo2 titulo="Mar, río y camino" varianteTarjetaV1>
-        {MAR_RIO_CAMINO_NUEVO2.map((p) => (
+        {MAR_RIO_CAMINO_NUEVO2.slice(0, 2).map((p) => (
+          <p key={p.slice(0, 48)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+            {p}
+          </p>
+        ))}
+        <Foto src={FOTO_MAR_ESTUARIO.src} pie={FOTO_MAR_ESTUARIO.pie} />
+        {MAR_RIO_CAMINO_NUEVO2.slice(2, 4).map((p) => (
+          <p key={p.slice(0, 48)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+            {p}
+          </p>
+        ))}
+        <Foto src={FOTO_MAR_PLAYA.src} pie={FOTO_MAR_PLAYA.pie} />
+        <Foto src={FOTO_MAR_QUEBRANTOS.src} pie={FOTO_MAR_QUEBRANTOS.pie} />
+        {MAR_RIO_CAMINO_NUEVO2.slice(4).map((p) => (
           <p key={p.slice(0, 48)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
             {p}
           </p>
@@ -307,6 +362,10 @@ export default function Nuevo2SotoDelBarcoPage() {
           escalas={escalas}
         />
       </section>
+
+      <p className="mt-8 max-w-3xl text-sm text-[var(--tinta-suave)]">
+        Crédito de las fotografías: {CREDITO_FOTOS}
+      </p>
     </main>
   );
 }

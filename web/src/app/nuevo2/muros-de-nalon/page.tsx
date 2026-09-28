@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import BloqueZonaFicha from "@/components/BloqueZonaFicha";
 import CabeceraFichaMunicipio from "@/components/CabeceraFichaMunicipio";
 import EnlaceIdealista from "@/components/EnlaceIdealista";
+import Foto from "@/components/Foto";
 import MapaMunicipioFicha from "@/components/MapaMunicipioFicha";
 import { RELATO_MUNICIPIOS } from "@/components/RelatoMunicipio";
 import TablaComparativaZona from "@/components/TablaComparativaZona";
@@ -34,9 +35,9 @@ const CLIMA_NUEVO2 = [
 ] as const;
 
 const VIVIR_NUEVO2 = [
-  "También cambia la escala. Muros de Nalón no sustituye la oferta cotidiana de una localidad mallorquina grande: es un concejo pequeño apoyado en núcleos cercanos y en ciudades como Avilés para necesidades de mayor nivel. Vivir aquí significa aceptar que parte de la semana se resuelve fuera.",
-  "A cambio, ciertas relaciones con el paisaje pueden ser mucho más inmediatas. En San Esteban no hace falta preparar una salida para caminar junto a una desembocadura, ver el puerto o seguir el comienzo de la antigua plataforma ferroviaria. En Muros, la proximidad de Aguilar y de la costa existe, pero se vive más como destino próximo que como continuación de la calle.",
-  "La relación con la playa también cambia. Tener el Cantábrico muy cerca no significa necesariamente salir de casa y llegar andando a una playa urbana. En este concejo conviven puerto, ría, costa alta y playa, pero cada elemento ocupa un radio distinto.",
+  "Muros de Nalón es un concejo pequeño. Parte de la compra, el hospital y los servicios especializados se resuelven fuera, sobre todo en poblaciones mayores del entorno. El coche forma por ello parte normal de la semana.",
+  "En San Esteban, a cambio, el puerto y la desembocadura están al alcance de un paseo corto desde muchas viviendas del núcleo. En Muros, Aguilar y la costa quedan cerca, pero normalmente se incorporan al día mediante un desplazamiento específico.",
+  "También cambia la relación con la playa. San Esteban tiene el agua delante, pero lo que ofrece de forma inmediata es puerto y ría. Aguilar es el arenal de referencia del concejo y desde Muros se llega por carretera. Elegir entre Muros y San Esteban cambia, por tanto, qué paisaje aparece al salir de casa y para qué actividades hace falta coger el coche.",
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
@@ -73,11 +74,11 @@ const CASA_QUE_CONVIENE_REVISAR =
   "Acceso real desde la calle; recorrido hasta coche, compra y consultorio; luz y orientación; ventilación y aislamiento; estado exterior y señales que justifiquen revisar humedad; aparcamiento; y si el paseo, puerto o playa que aparecen próximos en el anuncio forman parte de una rutina sencilla desde esa puerta.";
 
 const CASA_MERCADO_REVENTA =
-  "En un mercado pequeño, la utilidad de la vivienda concreta pesa especialmente. Acceso sencillo, distribución aprovechable, buen estado, luz, aparcamiento cuando sea necesario y una ubicación que mantenga sentido residencial pueden ampliar el número de personas para las que una casa resulte práctica en el futuro. No convertir estas características en una previsión de precio ni de plazo de venta.";
+  "En un mercado pequeño, la vivienda concreta pesa mucho. Acceso sencillo, distribución aprovechable, buen estado, luz, aparcamiento cuando sea necesario y una ubicación práctica pueden hacerla útil para más perfiles en el futuro. Ninguna de esas características permite anticipar el precio ni el plazo de una futura venta.";
 
 const ENCAJA_SI_NUEVO2 = [
-  "Muros de Nalón puede encajar si se busca una escala pequeña y se acepta que una parte de las compras, el hospital y los servicios especializados se resolverán fuera del concejo. La cercanía del resto de Asturias Centro permite ampliar ese radio sin convertir Muros o San Esteban en núcleos urbanos.",
-  "También puede encajar si interesa una relación con el agua que cambie según el núcleo: puerto y desembocadura incorporados a la rutina en San Esteban; vida de núcleo y costa próxima en Muros; y Aguilar y la senda de los miradores como salidas que amplían ambas experiencias.",
+  "Muros de Nalón puede encajar si se busca un concejo pequeño y se acepta que parte de las compras, el hospital y los servicios especializados se resolverán fuera.",
+  "También si interesa elegir entre dos relaciones distintas con el agua: en San Esteban, puerto y desembocadura pueden entrar en el paseo diario; en Muros, la vida se organiza primero alrededor del núcleo y Aguilar y San Esteban quedan como destinos próximos.",
 ] as const;
 
 const NO_ENCAJA_SI_NUEVO2 = [
@@ -86,8 +87,45 @@ const NO_ENCAJA_SI_NUEVO2 = [
 ] as const;
 
 const QUE_COMPROBAR_NUEVO2 = [
-  "La prueba decisiva es tratar Muros y San Esteban como dos candidatos residenciales distintos. En San Esteban, recorrer desde una vivienda real hasta el puerto, la ría y el comienzo de las sendas. En Muros, hacer el mismo ejercicio dentro del núcleo y después comprobar los desplazamientos hacia Aguilar, San Esteban y los servicios exteriores. El nombre municipal es el mismo; la rutina que empieza en cada puerta puede no serlo.",
+  "Tratar Muros y San Esteban como dos candidatos residenciales distintos.",
+  "En San Esteban, salir desde una vivienda real y recorrer a pie el consultorio, el puerto, la ría y el comienzo de las sendas. Así se comprueba cuánto del frente del Nalón entraría de verdad en una tarde normal.",
+  "En Muros, hacer el mismo ejercicio dentro del núcleo y después probar los desplazamientos hacia Aguilar y San Esteban. Estar cerca en kilómetros no significa incorporar esos lugares del mismo modo a la rutina.",
+  "Hacer también el trayecto real hacia el hospital y una compra de mayor escala, porque parte de la semana se resolverá fuera del concejo.",
+  "Visitar la vivienda con tiempo húmedo y comprobar luz, orientación, ventilación, acceso, aparcamiento y cualquier señal que aconseje revisar humedad.",
 ] as const;
+
+const FOTO_COMO_VILLA = {
+  src: "/fotos/asturias-centro/muros-villa.jpg",
+  pie: "Muros de Nalón: villa sobre el estuario",
+} as const;
+
+const FOTO_COMO_RIA = {
+  src: "/fotos/asturias-centro/muros-ria.jpg",
+  pie: "Desembocadura del Nalón desde Muros",
+} as const;
+
+const FOTO_HISTORIA_SELGAS = {
+  src: "/fotos/asturias-centro/muros-selgas.jpg",
+  pie: "Quinta de Selgas, en El Pito",
+} as const;
+
+const FOTO_MAR_MIRADORES = {
+  src: "/fotos/asturias-centro/muros-miradores.jpg",
+  pie: "Miradores de Muros de Nalón",
+} as const;
+
+const FOTO_MAR_PASEO = {
+  src: "/fotos/asturias-centro/muros-paseo.jpg",
+  pie: "Paseo en Muros de Nalón",
+} as const;
+
+const FOTO_MAR_NALON = {
+  src: "/fotos/asturias-centro/muros-nalon.jpg",
+  pie: "Estuario del Nalón",
+} as const;
+
+const CREDITO_FOTOS =
+  "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen).";
 
 function FilaCasaNuevo2({ etiqueta, cuerpo }: { etiqueta: string; cuerpo: string }) {
   return (
@@ -129,6 +167,8 @@ export default function Nuevo2MurosDeNalonPage() {
             {p}
           </p>
         ))}
+        <Foto src={FOTO_COMO_VILLA.src} pie={FOTO_COMO_VILLA.pie} />
+        <Foto src={FOTO_COMO_RIA.src} pie={FOTO_COMO_RIA.pie} />
       </DesplegableNuevo2>
 
       <DesplegableNuevo2 titulo="Frente a Mallorca" varianteTarjetaV1>
@@ -151,7 +191,13 @@ export default function Nuevo2MurosDeNalonPage() {
       </DesplegableNuevo2>
 
       <DesplegableNuevo2 titulo="De dónde viene" varianteTarjetaV1>
-        {DE_DONDE_VIENE_NUEVO2.map((p) => (
+        {DE_DONDE_VIENE_NUEVO2.slice(0, 4).map((p) => (
+          <p key={p.slice(0, 64)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+            {p}
+          </p>
+        ))}
+        <Foto src={FOTO_HISTORIA_SELGAS.src} pie={FOTO_HISTORIA_SELGAS.pie} />
+        {DE_DONDE_VIENE_NUEVO2.slice(4).map((p) => (
           <p key={p.slice(0, 64)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
             {p}
           </p>
@@ -159,7 +205,20 @@ export default function Nuevo2MurosDeNalonPage() {
       </DesplegableNuevo2>
 
       <DesplegableNuevo2 titulo="Mar, río y camino" varianteTarjetaV1>
-        {MAR_RIO_CAMINO_NUEVO2.map((p) => (
+        {MAR_RIO_CAMINO_NUEVO2.slice(0, 1).map((p) => (
+          <p key={p.slice(0, 64)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+            {p}
+          </p>
+        ))}
+        <Foto src={FOTO_MAR_PASEO.src} pie={FOTO_MAR_PASEO.pie} />
+        <Foto src={FOTO_MAR_NALON.src} pie={FOTO_MAR_NALON.pie} />
+        {MAR_RIO_CAMINO_NUEVO2.slice(1, 3).map((p) => (
+          <p key={p.slice(0, 64)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+            {p}
+          </p>
+        ))}
+        <Foto src={FOTO_MAR_MIRADORES.src} pie={FOTO_MAR_MIRADORES.pie} />
+        {MAR_RIO_CAMINO_NUEVO2.slice(3).map((p) => (
           <p key={p.slice(0, 64)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
             {p}
           </p>
@@ -224,6 +283,10 @@ export default function Nuevo2MurosDeNalonPage() {
           escalas={escalas}
         />
       </section>
+
+      <p className="mt-8 max-w-3xl text-sm text-[var(--tinta-suave)]">
+        Crédito de las fotografías: {CREDITO_FOTOS}
+      </p>
     </main>
   );
 }

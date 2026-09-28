@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import BloqueZonaFicha from "@/components/BloqueZonaFicha";
 import CabeceraFichaMunicipio from "@/components/CabeceraFichaMunicipio";
 import EnlaceIdealista from "@/components/EnlaceIdealista";
+import Foto from "@/components/Foto";
 import MapaMunicipioFicha from "@/components/MapaMunicipioFicha";
 import { RELATO_MUNICIPIOS } from "@/components/RelatoMunicipio";
 import TablaComparativaZona from "@/components/TablaComparativaZona";
@@ -22,27 +23,25 @@ const RESUMEN_ZONA_NUEVO2 = [
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
-  "Una mañana en Luanco no tiene por qué organizarse alrededor del coche.",
-  "Dentro de la villa hay centro de salud con Punto de Atención Continuada, es decir, atención sanitaria primaria que se prolonga más allá de la consulta ordinaria; también dispone de fisioterapia y odontología. Hay varias farmacias, servicios sociales y biblioteca municipal. Para una parte importante de la vida básica no hace falta salir a otra localidad.",
-  "Eso importa porque esos servicios comparten una escala pequeña con el mar. Se puede salir a hacer un recado, pasar por una farmacia o sentarse a tomar algo y continuar hacia el puerto o la playa sin transformar el paseo en una excursión. El agua no aparece después de abandonar el pueblo: está metida en él.",
-  "La biblioteca está en Parque Zapardel, dentro de Luanco. Y hay otra posibilidad poco habitual para un núcleo de este tamaño: el Museo Marítimo de Asturias. No es simplemente un museo que casualmente está aquí. Explica la relación histórica de Luanco con el mar mediante pesca tradicional, carpintería de ribera —la construcción artesanal de embarcaciones de madera—, navegación y biología marina, además de conservar archivo y cartografía. En un día en que el tiempo no invita a estar horas fuera, permite continuar esa relación con el mar bajo techo.",
-  "Así, tener una mañana libre no significa únicamente «ir a la playa». Puede significar hacer una compra, caminar hasta el puerto, seguir junto al agua, entrar en la biblioteca o pasar un rato en el museo. Esa mezcla de vida práctica y vida marítima dentro de la misma villa es una de las características más claras de Luanco.",
-  "Hay, sin embargo, un límite importante. Luanco tiene centro de salud; no tiene hospital. Para atención hospitalaria hay que salir de la villa. El Hospital de Jove, en Gijón, aparece aproximadamente a 14 km y unos 15 minutos; el Hospital Universitario San Agustín, en Avilés, a unos 17 km y alrededor de 20 minutos.",
-  "El aeropuerto de Asturias queda aproximadamente a 25 km y unos 20 minutos en coche. Para la rutina local se puede reducir bastante el uso del coche si se vive bien situado dentro de Luanco; para hospital, aeropuerto y buena parte de lo que ofrece el resto de Gozón, vuelve a ser necesario.",
+  "Si se vive bien situado dentro de Luanco, una parte importante de la mañana puede hacerse a pie. La villa tiene centro de salud con Punto de Atención Continuada, varias farmacias, servicios sociales, biblioteca y comercio cotidiano.",
+  "El puerto y la playa están dentro de esa misma trama. Se puede hacer un recado, pasar por una farmacia, tomar algo y continuar andando hacia el frente marítimo sin volver al coche. Esa proximidad entre servicios y mar es una de las diferencias más claras entre vivir en Luanco y hacerlo en una zona más dispersa de Gozón.",
+  "La biblioteca está en Parque Zapardel y el Museo Marítimo de Asturias añade una opción cultural poco habitual para una villa de este tamaño. El museo explica pesca tradicional, navegación, biología marina y carpintería de ribera, es decir, la construcción artesanal de embarcaciones de madera.",
+  "Luanco resuelve bastante para su tamaño, pero no todo. Para atención hospitalaria hay que salir de la villa. El Hospital de Jove, en Gijón, queda aproximadamente a 14 km y unos 15 minutos; el Hospital Universitario San Agustín, en Avilés, a unos 17 km y alrededor de 20 minutos.",
+  "El aeropuerto de Asturias queda aproximadamente a 25 km y unos 20 minutos en coche. Dentro de Luanco puede reducirse bastante el uso diario del coche; hospital, aeropuerto y buena parte de las playas y núcleos del resto de Gozón vuelven a exigirlo.",
 ] as const;
 
 const CLIMA_NUEVO2 = [
-  "El traslado desde Mallorca se nota pronto en la forma de organizar el día. El verano es mucho más fresco y la lluvia, la humedad y los cielos cubiertos tienen bastante más presencia durante el año.",
-  "Las referencias climáticas utilizadas para esta parte de la costa asturiana rondan las 1.850 horas de sol anuales, unos 145 días de lluvia y una temperatura media estival próxima a 19 °C. Son valores de referencia territorial, no mediciones exclusivas del centro de Luanco.",
-  "La consecuencia es sencilla. En julio o agosto es mucho menos frecuente vivir pendiente de un calor intenso y persistente, pero tampoco se puede dar por supuesto que una semana estival será una sucesión de días secos de playa. El paseo junto al mar sigue estando ahí cuando el cielo cambia; el baño depende mucho más del día concreto.",
-  "En una vivienda próxima a la costa, además, humedad, viento, orientación y exposición al Cantábrico importan durante todo el año. Una terraza o unas vistas abiertas aportan una relación directa con el mar, pero hacen especialmente importante comprobar aislamiento, ventanas y estado exterior del edificio.",
+  "Frente a Mallorca, Luanco tiene un verano mucho más fresco y bastantes más días húmedos, lluviosos o cubiertos durante el año.",
+  "Las referencias climáticas para esta parte de la costa asturiana rondan las 1.850 horas de sol anuales, unos 145 días de lluvia y una temperatura media estival próxima a 19 °C. Son valores del entorno, no mediciones exclusivas del centro de Luanco.",
+  "En julio y agosto el calor intenso y persistente pesa mucho menos, pero tampoco se puede contar con una semana entera de tiempo seco y playa. El paseo junto al mar puede seguir formando parte del día cuando cambia el cielo; el baño depende más de las condiciones concretas.",
+  "En una vivienda próxima a la costa conviene prestar atención a orientación, viento, aislamiento, ventanas, ventilación y estado exterior. Una terraza o unas vistas abiertas acercan el mar a la casa, pero también pueden aumentar la exposición al tiempo atlántico.",
 ] as const;
 
 const VIVIR_NUEVO2 = [
-  "La diferencia con Mallorca no es solo meteorológica. En Luanco cambia también la escala a la que pueden convivir mar y vida práctica.",
-  "No hace falta elegir entre pasar la mañana junto al agua o resolver un recado sencillo. Puerto, playa, farmacia, centro de salud, biblioteca y calles comerciales pertenecen a la misma villa. Eso permite que el mar aparezca entre actividades ordinarias, no únicamente al final de un desplazamiento.",
-  "La otra cara es la escala. Luanco resuelve bastante para su tamaño, pero no ofrece las posibilidades de una ciudad. Para un hospital hay que salir. Lo mismo ocurre con determinadas compras, servicios o actividades que requieren desplazarse hacia Avilés o Gijón.",
-  "El aeropuerto está a unos veinte minutos en coche. Para viajar a Mallorca hay que comprobar la programación concreta: la cercanía al aeropuerto no equivale a disponer de una conexión permanente con Palma durante todo el año.",
+  "En Luanco, mar y vida práctica caben dentro de una villa pequeña. Puerto, playa, farmacia, centro de salud, biblioteca y calles comerciales están suficientemente próximos para enlazar varios de esos lugares andando desde una vivienda bien situada.",
+  "El límite aparece cuando se necesita una escala mayor. Para hospital, determinadas compras, servicios especializados o parte de la oferta cultural hay que desplazarse hacia Avilés o Gijón.",
+  "El resto de Gozón funciona de otra manera. Sus playas, núcleos rurales y viviendas dispersas amplían mucho las posibilidades de costa y naturaleza, pero normalmente introducen más coche que el centro de Luanco.",
+  "El aeropuerto está a unos veinte minutos en coche. Para viajar a Mallorca hay que comprobar la programación concreta, porque la cercanía al aeropuerto no equivale a disponer de conexión permanente con Palma durante todo el año.",
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
@@ -64,17 +63,18 @@ const MAR_RIO_CAMINO_NUEVO2 = [
 ] as const;
 
 const CASA_NUEVO2 = [
-  "Buscar vivienda aquí exige empezar por una distinción: el dato disponible es de Gozón, no una medición exclusiva del núcleo de Luanco.",
-  "El último precio publicado disponible para Gozón es de 2.379 €/m² en mayo de 2026. No hay dato para julio-agosto, de modo que no corresponde actualizarlo por extrapolación ni presentarlo como si describiera con precisión el mercado actual de cada calle de Luanco.",
-  "Esto importa especialmente porque Gozón contiene realidades residenciales distintas. Una vivienda dentro de Luanco puede permitir hacer andando compra, farmacia, playa, puerto, biblioteca y centro de salud. Una casa rural del mismo concejo o una vivienda próxima a otra playa puede ofrecer más espacio y naturaleza, pero perder esa concentración. Compartir municipio no significa comprar la misma vida.",
+  "La referencia disponible para Gozón es de 2.379 €/m² en mayo de 2026. Sirve para situar el mercado del concejo, pero dentro de Gozón hay ubicaciones que ofrecen vidas muy distintas.",
+  "Una vivienda en Luanco puede permitir hacer andando compra, farmacia, centro de salud, puerto y playa. Una casa rural o una vivienda próxima a otra playa del concejo puede ofrecer más espacio o naturaleza, pero depender mucho más del coche.",
+  "Por eso, dentro de Luanco conviene comprobar la dirección concreta antes que dar por buena la etiqueta del municipio. Distancia al centro, pendiente, aparcamiento, ascensor y recorrido real hasta los servicios pueden cambiar bastante la comodidad diaria.",
+  "En las viviendas próximas al mar importan además orientación, viento, aislamiento, humedad, ventanas y estado exterior. Las vistas o una terraza pueden justificar parte del atractivo, pero no compensan por sí solas un acceso incómodo o un edificio mal preparado para vivir todo el año.",
 ] as const;
 
 const CASA_PRECIO_INTRO =
-  "Referencia disponible — Gozón: 2.379 €/m² · mayo de 2026";
+  "Gozón — referencia municipal: 2.379 €/m² · mayo de 2026";
 
 const CASA_BANDAS_NOTA = [
-  "Las cifras son referencias comparativas construidas a partir del último precio municipal disponible. Utilizan aproximadamente 65 m² para dos dormitorios y 90 m² para tres. Las bandas A y B expresan relación geográfica con la costa; no garantizan que una vivienda esté en el centro de Luanco, tenga vistas, resulte cómoda andando ni se encuentre realmente a esos precios.",
-  "Aquí esa cautela es especialmente importante: 2.379 €/m² describe Gozón y no permite afirmar por sí solo cuánto cuesta una vivienda concreta que reúna centro de Luanco, playa andando, ascensor, terraza o vistas.",
+  "Las cifras permiten comparar con el resto del proyecto y utilizan aproximadamente 65 m² para dos dormitorios y 90 m² para tres. Las bandas A y B expresan cercanía a la costa; no garantizan centro de Luanco, vistas, comodidad a pie ni el precio exacto de una vivienda.",
+  "La referencia es municipal. Para valorar una vivienda concreta hay que contrastar ubicación, estado y oferta disponible en ese momento.",
 ] as const;
 
 const CASA_ADVERTENCIA_MICROZONA = [
@@ -85,16 +85,14 @@ const CASA_ADVERTENCIA_MICROZONA = [
 ] as const;
 
 const CASA_QUE_CONVIENE_REVISAR = [
-  "Antes de estudiar demasiado el interior del piso, conviene probar el exterior.",
-  "Salir andando hasta una compra cotidiana y una farmacia. Continuar hasta el puerto y la playa. Hacer el camino de vuelta. Pasar por el centro de salud. La pregunta es si esa secuencia que distingue a Luanco existe realmente desde esa vivienda o solo desde una parte de la villa.",
-  "Dentro importan ascensor y barreras, orientación, luz, aislamiento, humedad, ventanas, estado del edificio, terraza y aparcamiento. Si las vistas forman parte importante del precio, hay que comprobar desde qué habitaciones existen y qué puede interrumpirlas.",
-  "Después conviene repetir la visita en un momento de mayor ocupación estival. La posición de la casa no cambia, pero sí pueden hacerlo tráfico, aparcamiento y movimiento en las calles próximas al mar.",
+  "Desde el portal, caminar hasta una compra cotidiana, una farmacia, el centro de salud, el puerto y la playa. Ese recorrido permite comprobar si la vivienda aprovecha realmente la concentración de servicios de Luanco.",
+  "Dentro importan ascensor y barreras, orientación, luz, aislamiento, humedad, ventanas, estado del edificio, terraza y aparcamiento. Si las vistas influyen en el precio, conviene comprobar desde qué habitaciones existen y qué puede interrumpirlas.",
+  "Repetir la visita en un momento de mayor ocupación estival ayuda a comprobar cómo cambian tráfico, aparcamiento y movimiento en las calles próximas al mar.",
 ] as const;
 
 const CASA_MERCADO_REVENTA = [
-  "El último dato disponible es municipal y además corresponde a mayo, no a agosto. Por eso no permite deducir una evolución precisa del mercado de Luanco ni anticipar qué hará el precio.",
-  "En una futura venta pueden resultar especialmente útiles las características que mantienen cómoda una vivienda con el paso del tiempo: ascensor, pocas barreras, buen aislamiento, luz, acceso sencillo, aparcamiento razonable y servicios que realmente puedan alcanzarse a pie.",
-  "En Luanco hay además una diferencia que conviene proteger al comprar: una vivienda que permita unir vida cotidiana y mar andando ofrece algo distinto de una casa situada en otra parte de Gozón. Esa diferencia debe comprobarse portal por portal, no suponerse a partir del nombre del concejo.",
+  "La referencia de mayo de 2026 no permite anticipar cómo evolucionará el precio. En una futura venta pueden ayudar características que mantienen la vivienda cómoda para perfiles distintos: ascensor, pocas barreras, buen aislamiento, luz, acceso sencillo y aparcamiento razonable.",
+  "Dentro de Gozón, una vivienda que permita unir servicios cotidianos y mar andando ofrece una experiencia distinta de otra que dependa del coche. Esa diferencia debe comprobarse en la dirección concreta.",
 ] as const;
 
 const CASA_LEYENDA_COMPACTA =
@@ -122,13 +120,40 @@ const NO_ENCAJA_SI_NUEVO2 = [
 ] as const;
 
 const QUE_COMPROBAR_NUEVO2 = [
-  "La prueba más útil empieza dejando el coche junto a una vivienda candidata.",
-  "Desde allí, hacer una mañana normal: ir hasta una tienda o una farmacia, pasar por el centro de salud y continuar hacia el puerto. Después recorrer el frente marítimo hasta la playa de Luanco y la iglesia de Santa María. Así se comprueba si servicios y mar pertenecen de verdad a la misma vida desde esa dirección concreta.",
-  "Otro día puede prolongarse el paseo. Desde el extremo de la playa, subir por las escaleras que dan acceso a la senda costera y avanzar un tramo hacia Bañugues. Eso permite distinguir entre el paseo cotidiano dentro de Luanco y una caminata más larga por la costa.",
-  "También conviene acercarse a Aramar para ver los restos de los antiguos astilleros y entender que la relación de Luanco con el mar no empezó con la playa turística.",
-  "Después hay que probar lo que queda fuera: conducir hasta uno de los hospitales próximos y comprobar el trayecto hacia el aeropuerto.",
-  "Al terminar, debería quedar resuelta una pregunta concreta: si la vivienda permite realmente aprovechar lo que distingue a Luanco —hacer vida básica a pie y encontrarse con puerto, playa e historia marítima dentro de esa misma escala— o si, pese a llevar una dirección de Gozón, obliga a vivir de otra manera.",
+  "Desde una vivienda candidata, hacer a pie una compra cotidiana, pasar por una farmacia y el centro de salud y continuar hacia el puerto y la playa. Así se comprueba cuánto de la vida de Luanco queda realmente a pie desde esa dirección.",
+  "Recorrer después el frente marítimo hasta la iglesia de Santa María. Si interesa caminar más, subir a la senda costera y avanzar un tramo hacia Bañugues permite distinguir el paseo cotidiano de una salida más larga.",
+  "Acercarse a Aramar ayuda a entender la huella de los antiguos astilleros y la relación histórica de la villa con la construcción naval.",
+  "Probar también el trayecto en coche hacia uno de los hospitales próximos y hacia el aeropuerto.",
+  "Repetir la visita en verano si el aparcamiento o la tranquilidad de la calle son importantes, y comprobar en la vivienda orientación, viento, aislamiento, humedad, ascensor y acceso.",
 ] as const;
+
+const FOTO_COMO_CASCO = {
+  src: "/fotos/asturias-centro/luanco-casco.jpg",
+  pie: "Casco de piedra de Luanco",
+} as const;
+
+const FOTO_COMO_PUERTO = {
+  src: "/fotos/asturias-centro/luanco-puerto.jpg",
+  pie: "Puerto de Luanco",
+} as const;
+
+const FOTO_HISTORIA_MUSEO = {
+  src: "/fotos/asturias-centro/luanco-museo.jpg",
+  pie: "Museo Marítimo de Luanco",
+} as const;
+
+const FOTO_MAR_PENAS = {
+  src: "/fotos/asturias-centro/luanco-penas.jpg",
+  pie: "Cabo Peñas, cerca de Luanco",
+} as const;
+
+const FOTO_MAR_PLAYA = {
+  src: "/fotos/asturias-centro/luanco-playa.jpg",
+  pie: "Playa de La Ribera, Luanco",
+} as const;
+
+const CREDITO_FOTOS =
+  "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen).";
 
 function FilaCasaNuevo2({
   etiqueta,
@@ -195,6 +220,8 @@ export default function Nuevo2LuancoGozonPage() {
             {p}
           </p>
         ))}
+        <Foto src={FOTO_COMO_CASCO.src} pie={FOTO_COMO_CASCO.pie} />
+        <Foto src={FOTO_COMO_PUERTO.src} pie={FOTO_COMO_PUERTO.pie} />
       </DesplegableNuevo2>
 
       <DesplegableNuevo2 titulo="Frente a Mallorca" varianteTarjetaV1>
@@ -217,7 +244,13 @@ export default function Nuevo2LuancoGozonPage() {
       </DesplegableNuevo2>
 
       <DesplegableNuevo2 titulo="De dónde viene" varianteTarjetaV1>
-        {DE_DONDE_VIENE_NUEVO2.map((p) => (
+        {DE_DONDE_VIENE_NUEVO2.slice(0, 4).map((p) => (
+          <p key={p.slice(0, 48)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+            {p}
+          </p>
+        ))}
+        <Foto src={FOTO_HISTORIA_MUSEO.src} pie={FOTO_HISTORIA_MUSEO.pie} />
+        {DE_DONDE_VIENE_NUEVO2.slice(4).map((p) => (
           <p key={p.slice(0, 48)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
             {p}
           </p>
@@ -225,7 +258,14 @@ export default function Nuevo2LuancoGozonPage() {
       </DesplegableNuevo2>
 
       <DesplegableNuevo2 titulo="Mar, río y camino" varianteTarjetaV1>
-        {MAR_RIO_CAMINO_NUEVO2.map((p) => (
+        {MAR_RIO_CAMINO_NUEVO2.slice(0, 3).map((p) => (
+          <p key={p.slice(0, 48)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+            {p}
+          </p>
+        ))}
+        <Foto src={FOTO_MAR_PLAYA.src} pie={FOTO_MAR_PLAYA.pie} />
+        <Foto src={FOTO_MAR_PENAS.src} pie={FOTO_MAR_PENAS.pie} />
+        {MAR_RIO_CAMINO_NUEVO2.slice(3).map((p) => (
           <p key={p.slice(0, 48)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
             {p}
           </p>
@@ -330,6 +370,10 @@ export default function Nuevo2LuancoGozonPage() {
           escalas={escalas}
         />
       </section>
+
+      <p className="mt-8 max-w-3xl text-sm text-[var(--tinta-suave)]">
+        Crédito de las fotografías: {CREDITO_FOTOS}
+      </p>
     </main>
   );
 }

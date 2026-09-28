@@ -14,7 +14,7 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
 
 /**
  * NUEVO2 — Nigrán (Val Miñor).
- * Texto: Lote_Val_Minor_Cursor_NUEVO2.txt (APROBADO EDITORIALMENTE)
+ * Texto: Lote_Val_Minor_3_CERTIFICADOS_Cursor_NUEVO2.txt
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
@@ -28,7 +28,7 @@ const COMO_SE_VIVE_NUEVO2 = [
   "Nigrán tiene servicios suficientes para una vida anual sólida, pero están repartidos. Centro de salud, supermercados, farmacias, colegios y equipamientos no forman un único casco continuo.",
   "A Ramallosa es una de las zonas más prácticas para la compra y los servicios. Panxón permite combinar una pequeña vida de núcleo con puerto, paseo y playa. Praia América prioriza la relación con la costa. Patos añade un ambiente distinto, más abierto al océano y muy ligado al surf.",
   "En parroquias interiores se puede ganar casa, jardín y tranquilidad, pero aumenta el papel del coche. No conviene comprar en Priegue o Camos extrapolando la caminabilidad que se ha visto durante una tarde en Panxón.",
-  "Vigo está suficientemente cerca para entrar con facilidad en la rutina laboral, sanitaria o comercial. El Hospital Álvaro Cunqueiro queda aproximadamente a 15 minutos desde la referencia municipal y el aeropuerto de Vigo, a unos 20 minutos.",
+  "Vigo está suficientemente cerca para entrar con facilidad en la rutina laboral, sanitaria o comercial. Para atención hospitalaria de mayor complejidad, la referencia práctica está en el área de Vigo; el Hospital Álvaro Cunqueiro queda aproximadamente a 15 km y unos 15 minutos desde la referencia municipal. El aeropuerto de Vigo queda a unos 20 minutos. Son tiempos orientativos y dependen de la microzona y del tráfico.",
   "El verano aumenta claramente la ocupación de las playas y el tráfico de la PO-552. El municipio no se transforma en un único centro saturado porque la actividad está repartida, pero las calles próximas a Praia América, Panxón y Patos sí cambian de ritmo.",
   "San Xoán en Panxón y otras celebraciones estivales introducen además noches de mayor actividad. Una vivienda junto al litoral debe probarse cuando la costa está llena, no únicamente en invierno.",
 ] as const;
@@ -43,7 +43,7 @@ const CLIMA_NUEVO2 = [
 
 const VIVIR_NUEVO2 = [
   "La principal adaptación no es climática sino territorial: Nigrán obliga a saber dónde se quiere vivir antes de decidir qué vivienda se quiere comprar.",
-  "En Panxón se puede incorporar puerto, playa y restauración a pie. En Praia América la playa puede dominar la rutina. A Ramallosa favorece compra y servicios. Una parroquia interior puede ofrecer una casa mucho más tranquila sin proporcionar ninguna de esas tres semanas.",
+  "En Panxón se puede incorporar puerto, playa y restauración a pie. En Praia América la playa puede dominar la rutina. A Ramallosa favorece compra y servicios. Una parroquia interior puede ofrecer una casa mucho más tranquila, pero sin la misma vida a pie ni la misma relación inmediata con el mar.",
   "La proximidad a Vigo hace posible vivir aquí trabajando o utilizando servicios en la ciudad. Esa ventaja también genera desplazamientos diarios y convierte el acceso por carretera en parte importante de la elección.",
   "En primera línea o muy cerca de la costa, el verano añade aparcamiento, peatones y ruido. En las zonas interiores la presión puede ser mucho menor.",
   "Las casas con jardín exigen además pensar en mantenimiento húmedo: vegetación, drenaje, muros, zonas en sombra y ventilación de plantas bajas.",
@@ -64,7 +64,7 @@ const MAR_RIO_CAMINO_NUEVO2 = [
   "Praia América y Panxón forman una gran bahía de varios kilómetros, con paseo y aguas relativamente protegidas. Para quien vive en esa franja, playa y paseo pueden formar parte de la rutina diaria.",
   "Al otro lado de Monteferro, Patos cambia la exposición. El surf tiene allí mucho más peso y la relación con el océano es distinta de la bahía de Praia América.",
   "Para un paseo cotidiano no hace falta completar ninguna gran ruta. Los tramos de paseo de Praia América y Panxón permiten caminar junto al mar sobre terreno cómodo y regresar cuando convenga.",
-  "La Senda Azul es otra cosa. Su recorrido completo es lineal, ronda los 10 km, parte de A Ramallosa y continúa por Praia América, Panxón y A Madorra antes de ascender hacia Monteferro. La duración orientativa completa es de unas tres a tres horas y media y el tramo final introduce subida y terreno de sendero.",
+  "La Senda Azul es otra cosa. Su recorrido oficial es lineal, de 10 km, parte de A Ramallosa y continúa por Praia América, Panxón y A Madorra antes de ascender hacia Monteferro. La duración orientativa completa es de 3 a 3 horas y media y el tramo final introduce subida y terreno de sendero.",
   "No conviene presentar esos 10 km como si fueran el paseo llano habitual de la playa. Se puede utilizar solo una parte para una salida corta y reservar Monteferro para cuando se quiera más recorrido.",
   "A Ramallosa y la Foz do Miñor añaden marisma y estuario. Hacia el interior aparecen caminos parroquiales y monte, de modo que la variedad de recorridos es grande pero no todos parten de la misma puerta.",
 ] as const;
@@ -78,9 +78,7 @@ const CASA_NUEVO2 = [
 ] as const;
 
 const CASA_ADVERTENCIA_MICROZONA = [
-  "No trasladar la caminabilidad de Panxón, Praia América o A Ramallosa a todo Nigrán.",
-  "Panxón combina núcleo y mar. Praia América prioriza playa. A Ramallosa concentra servicios. Las parroquias interiores pueden ofrecer más vivienda y tranquilidad, pero con una semana más dependiente del coche.",
-  "Comparar dos viviendas exige comparar primero esas microzonas.",
+  "No trasladar la caminabilidad de Panxón, Praia América o A Ramallosa a todo Nigrán. Panxón combina núcleo y mar. Praia América prioriza playa. A Ramallosa concentra servicios. Las parroquias interiores pueden ofrecer más vivienda y tranquilidad, pero con una semana más dependiente del coche. Antes de comparar dos viviendas hay que comparar primero qué rutina ofrece cada microzona.",
 ] as const;
 
 const CASA_QUE_CONVIENE_REVISAR = [
@@ -101,7 +99,7 @@ const CASA_MERCADO_REVENTA = [
 ] as const;
 
 const CASA_LEYENDA_COMPACTA =
-  "A: ≤5 min de la costa · B: 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m². Estimaciones comparativas; conviene contrastarlas con la oferta del momento.";
+  "A ≈ ≤5 min de la costa · B ≈ 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m².";
 
 const CASA_FILA_PRECIOS = {
   municipio: "Nigrán",
@@ -123,7 +121,7 @@ const NO_ENCAJA_SI_NUEVO2 = [
   "Encaja peor si se busca un único casco donde comercio, plaza, playa y todos los servicios formen una sola experiencia peatonal.",
   "También si se espera poder vivir sin coche desde cualquier punto del municipio. Esa posibilidad existe en algunas microzonas, no en todo Nigrán.",
   "Puede resultar menos adecuado si el silencio de agosto es imprescindible y la vivienda elegida está junto a los principales arenales.",
-  "Y puede no compensar si el presupuesto obliga a alejarse de la costa pero la razón principal para elegir Nigrán era precisamente bajar andando a la playa.",
+  "Y encaja peor si el presupuesto obliga a alejarse de la costa cuando la razón principal para elegir Nigrán era precisamente bajar andando a la playa.",
 ] as const;
 
 const QUE_COMPROBAR_NUEVO2 = [

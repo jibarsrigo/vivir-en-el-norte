@@ -14,7 +14,7 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
 
 /**
  * NUEVO2 — Baiona (Val Miñor).
- * Texto: Lote_Val_Minor_Cursor_NUEVO2.txt (APROBADO EDITORIALMENTE)
+ * Texto: Lote_Val_Minor_3_CERTIFICADOS_Cursor_NUEVO2.txt
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
@@ -30,7 +30,7 @@ const COMO_SE_VIVE_NUEVO2 = [
   "La proximidad del mar no convierte toda Baiona en la misma microzona. Vivir junto al casco y A Ribeira es muy distinto de instalarse en una ladera de Baíña o Belesar. En estas últimas se puede ganar jardín, vistas y tranquilidad, pero aparecen pendientes y más coche.",
   "El verano cambia mucho la escala. Aumentan visitantes, ocupación de segundas viviendas, tráfico y presión sobre el aparcamiento. Una calle tranquila en febrero puede tener una experiencia completamente distinta en agosto.",
   "La Arribada produce otro pico muy visible a comienzos de marzo. El casco se transforma durante varios días y recibe actividades, mercado y una afluencia excepcional. Para una vivienda céntrica es parte del calendario residencial, no un detalle turístico.",
-  "Para hospital especializado, el área de Vigo queda aproximadamente a 20 minutos. El aeropuerto de Vigo está aproximadamente a 25 minutos. Esa cercanía permite vivir en una villa marítima sin quedar tan separado de la infraestructura metropolitana como en otros puntos de la costa.",
+  "Para atención hospitalaria de mayor complejidad, la referencia práctica está en el área de Vigo. El Hospital Álvaro Cunqueiro queda aproximadamente a 20 km y unos 20 minutos desde la referencia municipal; el aeropuerto de Vigo está aproximadamente a 25 minutos. Son tiempos orientativos y dependen del punto de salida y del tráfico.",
 ] as const;
 
 const CLIMA_NUEVO2 = [
@@ -44,8 +44,8 @@ const CLIMA_NUEVO2 = [
 const VIVIR_NUEVO2 = [
   "Baiona permite incorporar el mar a la rutina con una facilidad poco común. Desde el centro se puede caminar junto al puerto, llegar a pequeñas playas urbanas y rodear Monterreal sin organizar una salida en coche.",
   "Eso también concentra actividad. Vivir sobre una calle de hostelería o muy cerca del paseo implica aceptar más movimiento, especialmente en verano y durante acontecimientos como la Arribada.",
-  "Sabarís ofrece una alternativa más práctica para quien prioriza compra, accesos y una relación directa con A Ramallosa y el estuario. No tiene exactamente la misma experiencia urbana que el casco histórico.",
-  "En las laderas cambia otra vez el trato: más casa, parcela y vistas a cambio de coche y de una relación menos inmediata con el paseo.",
+  "Sabarís ofrece una rutina distinta, más orientada a compra, accesos y una relación directa con A Ramallosa y el estuario. No tiene exactamente la misma experiencia urbana que el casco histórico.",
+  "En las laderas cambia de nuevo la rutina: más casa, parcela y vistas a cambio de coche y de una relación menos inmediata con el paseo.",
   "La proximidad de Vigo permite utilizar la ciudad para hospital, compras mayores, trabajo o aeropuerto sin vivir dentro de ella. Para alguien que llega desde Mallorca, esa combinación puede ser tan importante como la propia playa.",
   "El mantenimiento de una vivienda marítima merece entrar desde el principio en el presupuesto. Salitre, humedad, orientación y ventilación forman parte de la vida cotidiana tanto como las vistas.",
 ] as const;
@@ -61,10 +61,10 @@ const DE_DONDE_VIENE_NUEVO2 = [
 
 const MAR_RIO_CAMINO_NUEVO2 = [
   "Baiona permite llegar andando a varias playas desde las zonas centrales.",
-  "A Ribeira está integrada en el propio frente urbano, junto al paseo y el puerto. Barbeira queda bajo Monterreal y ofrece una pequeña playa protegida. Son baños de escala urbana: útiles precisamente porque pueden entrar en una tarde normal.",
+  "A Ribeira está integrada en el propio frente urbano, junto al paseo y el puerto. Barbeira queda bajo Monterreal y ofrece una pequeña playa protegida. Son playas de escala urbana: útiles precisamente porque pueden entrar en una tarde normal.",
   "A Ladeira cambia de tamaño. Es una playa larga que se extiende hacia la desembocadura del Miñor y la zona húmeda de A Foz. Permite una relación más amplia con arena, paseo y estuario.",
   "El recorrido alrededor de Monte Boi tiene casi 2 km y bordea buena parte de la base de la fortaleza. El firme combina tierra y tramos acondicionados junto a la muralla. Es suficientemente corto para repetirse como paseo cotidiano y ofrece mar, calas y vistas hacia las Cíes.",
-  "Quien quiera alargar la caminata puede enlazar el frente urbano con el litoral hacia A Ramallosa. El sendero litoral completo de Baiona ronda los seis kilómetros entre esa zona y Monterreal.",
+  "Quien quiera alargar la caminata puede enlazar el frente urbano con el litoral hacia A Ramallosa. El Sendero Litoral de Baiona ronda los 6 km, tiene dificultad baja y discurre desde A Ramallosa hasta el entorno del Parador incorporando también el Paseo de Monte Boi.",
   "La Foz do Miñor introduce otra experiencia: marisma, desembocadura y terreno mucho más llano que las laderas que rodean la villa.",
   "Para monte, la Serra da Groba queda detrás de Baiona. Allí cambian por completo firme, desnivel y exposición; es una salida deliberada, no una continuación del paseo marítimo.",
 ] as const;
@@ -72,15 +72,13 @@ const MAR_RIO_CAMINO_NUEVO2 = [
 const CASA_NUEVO2 = [
   "Baiona combina pisos en el centro y junto a la bahía con vivienda unifamiliar en laderas y parroquias exteriores.",
   "Cerca del casco y de A Ribeira, la ventaja es poder convertir servicios, paseo y mar en recorridos peatonales. Es también donde hay que comprobar mejor ruido, aparcamiento y presión estival.",
-  "Sabarís ofrece una semana distinta: más orientada a compra cotidiana, accesos y A Ramallosa. En Baíña o Belesar aparecen más casas y terreno, pero también más pendiente y coche.",
+  "Sabarís ofrece una rutina más orientada a compra cotidiana, accesos y A Ramallosa. En Baíña o Belesar aparecen más casas y terreno, pero también más pendiente y coche.",
   "En vivienda marítima conviene revisar salitre, carpinterías, cierres de terraza, fachada, ventilación y humedad. En edificios antiguos o muy expuestos, una vista privilegiada no compensa automáticamente un comportamiento incómodo durante el invierno.",
   "Como referencia municipal, Baiona se sitúa en 2.528 €/m².",
 ] as const;
 
 const CASA_ADVERTENCIA_MICROZONA = [
-  "Centro, A Ribeira y Monterreal no representan todo Baiona.",
-  "Una vivienda céntrica puede ofrecer mar y servicios a pie, pero también más ruido y presión de verano. Sabarís cambia hacia una rutina comercial y de estuario. Las laderas pueden ganar espacio y vistas mientras pierden caminabilidad.",
-  "Antes de comparar precios conviene comparar esas semanas distintas.",
+  "Centro, A Ribeira y Monterreal no representan todo Baiona. Una vivienda céntrica puede ofrecer mar y servicios a pie, pero también más ruido y presión de verano. Sabarís cambia hacia una rutina comercial y de estuario. Las laderas pueden ganar espacio y vistas mientras pierden caminabilidad. Antes de comparar precios conviene comparar qué rutina ofrece realmente cada zona.",
 ] as const;
 
 const CASA_QUE_CONVIENE_REVISAR = [
@@ -100,7 +98,7 @@ const CASA_MERCADO_REVENTA = [
 ] as const;
 
 const CASA_LEYENDA_COMPACTA =
-  "A: ≤5 min de la costa · B: 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m². Estimaciones comparativas; conviene contrastarlas con la oferta del momento.";
+  "A ≈ ≤5 min de la costa · B ≈ 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m².";
 
 const CASA_FILA_PRECIOS = {
   municipio: "Baiona",
@@ -122,7 +120,7 @@ const NO_ENCAJA_SI_NUEVO2 = [
   "Encaja peor si el silencio de julio y agosto es una condición esencial. El centro, el paseo y las zonas de playa reciben mucha más actividad en temporada alta.",
   "También si se necesita mucha superficie residencial cerca del mar con un presupuesto contenido. La costa de Baiona es el mercado más caro de Val Miñor después de Nigrán.",
   "Puede resultar menos adecuada si humedad, salitre y mantenimiento marítimo son inconvenientes difíciles de asumir.",
-  "Y pierde parte de su sentido si se termina comprando en una ladera dependiente del coche esperando conservar exactamente la caminabilidad del centro.",
+  "Y encaja peor si se compra en una ladera dependiente del coche esperando conservar la misma caminabilidad del centro.",
 ] as const;
 
 const QUE_COMPROBAR_NUEVO2 = [

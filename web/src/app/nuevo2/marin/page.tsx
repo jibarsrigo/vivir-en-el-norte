@@ -14,7 +14,7 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
 
 /**
  * NUEVO2 — Marín (O Morrazo).
- * Texto: Lote_O_Morrazo_Cursor_NUEVO2 (1).txt (APROBADO EDITORIALMENTE)
+ * Texto: Lote_O_Morrazo_4_CERTIFICADOS_Cursor_NUEVO2.txt
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
@@ -25,14 +25,14 @@ const RESUMEN_ZONA_NUEVO2 = [
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
-  "Un martes de noviembre el centro funciona con mercado, comercio, colegios, institutos, centro de salud, deporte, biblioteca y autobuses frecuentes hacia Pontevedra.",
+  "El centro mantiene actividad durante todo el año, con mercado, comercio, colegios, institutos, centro de salud, deporte, biblioteca y autobuses frecuentes hacia Pontevedra.",
   "Desde un piso céntrico se puede resolver a pie buena parte de la semana. La relación con Pontevedra es además lo bastante próxima como para incorporarla a trabajo, sanidad, compras o cultura sin convertir cada salida en una excursión.",
-  "El puerto introduce una actividad que no desaparece en invierno. Grúas, contenedores, camiones y operaciones portuarias forman parte del paisaje funcional de determinadas calles.",
+  "El puerto introduce una actividad que no desaparece en invierno. Grúas, contenedores, camiones y operaciones portuarias forman parte del paisaje y del ruido de determinadas calles.",
   "La Escuela Naval Militar añade otra presencia estable y ocupa una porción importante del frente urbano. Marín no tiene un paseo marítimo continuo de ocio delante del casco comparable al de Moaña.",
   "Para playa se sale hacia el oeste. Portocelo es la primera referencia y Mogor queda inmediatamente después. Aguete y Loira prolongan la costa residencial.",
   "Ese desplazamiento es corto, pero cambia la lógica: vivir en el centro no significa bajar directamente a una gran playa desde cualquier portal.",
   "En Aguete o Mogor se puede ganar jardín, tranquilidad y mar, pero la compra y buena parte de los servicios vuelven a requerir coche o bus.",
-  "La sanidad es una ventaja funcional importante dentro de O Morrazo. Montecelo queda aproximadamente a 15 minutos desde la referencia municipal y la red de Pontevedra está muy próxima.",
+  "La proximidad sanitaria es una ventaja práctica dentro de O Morrazo. Pontevedra y Montecelo quedan aproximadamente a 15 minutos desde la referencia municipal, con variaciones según tráfico y punto de salida.",
   "Agosto llena las playas y alarga las terrazas, pero puerto, Naval, colegios y proximidad a Pontevedra sostienen una ciudad anual.",
   "El calendario festivo añade varias semanas de intensidad: Carmen en julio, Festa Corsaria en agosto y San Miguel/Danza das Espadas en septiembre. Una vivienda céntrica debe comprobarse también durante actividad, no solo un lunes tranquilo.",
 ] as const;
@@ -46,11 +46,11 @@ const CLIMA_NUEVO2 = [
 ] as const;
 
 const VIVIR_NUEVO2 = [
-  "Marín es la opción más urbana y logística de O Morrazo después de mirar hacia Vigo desde Cangas o Moaña.",
+  "Marín concentra una vida urbana compacta y una relación muy directa con Pontevedra, además de la actividad propia de su puerto y de la Escuela Naval.",
   "El casco permite reducir coche para la vida básica y el bus facilita la relación con Pontevedra.",
   "La playa no desaparece, pero se convierte en salida corta. Para alguien que necesita arena literalmente a la puerta, la dirección concreta importa mucho.",
   "El puerto es una ventaja económica y una posible molestia residencial. Hay que aceptar que parte del frente marítimo trabaja.",
-  "La proximidad hospitalaria cambia la tranquilidad logística respecto a Cangas o Bueu. Para quien prevé utilizar especialistas o valora mucho una respuesta sanitaria próxima, esa diferencia puede pesar más que tener el paseo marítimo delante de casa.",
+  "La proximidad hospitalaria reduce los desplazamientos respecto a otros puntos de O Morrazo. Para quien prevé utilizar especialistas o valora mucho tener atención hospitalaria cerca, esa diferencia puede pesar más que disponer de un paseo marítimo delante de casa.",
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
@@ -65,12 +65,12 @@ const DE_DONDE_VIENE_NUEVO2 = [
 
 const MAR_RIO_CAMINO_NUEVO2 = [
   "Portocelo es la primera playa importante al oeste del casco. Tiene arena protegida, pinar y servicios. Desde el centro es una salida corta, no necesariamente un paseo desde cualquier vivienda.",
-  "Mogor añade playa y patrimonio rupestre. La posibilidad de combinar baño y visita a los petroglifos hace que el paisaje residencial tenga una profundidad distinta de una simple urbanización costera.",
+  "Mogor añade playa y patrimonio rupestre. En una misma salida se puede combinar el baño con la visita a los petroglifos, situados muy cerca del arenal.",
   "Aguete incorpora playa, puerto deportivo y vivienda de costa. Loira continúa hacia el límite con Bueu con un ambiente más separado del casco.",
-  "El corredor litoral permite encadenar Portocelo, Mogor, Aguete, Loira y otros arenales. El Concello está mejorando además el itinerario peatonal y ciclista entre el entorno urbano y Mogor, reforzando esa continuidad.",
+  "La Ruta das Praias permite recorrer de forma lineal unos 8,6 km desde Portocelo hasta O Santo, pasando por Mogor, Aguete, Loira y Ribeira. La información municipal la clasifica como de dificultad moderada, con unos 228 metros de subida y alrededor de dos horas de recorrido.",
   "Para caminar con más desnivel existe el Roteiro dos Cinco Miradoiros, de alrededor de 9 km y dificultad moderada, con unos 222 metros de subida. Es una salida de varias horas, no el paseo cotidiano.",
   "Hacia el interior, Lago de Castiñeiras y Cotorredondo cambian playa por bosque y miradores. El Lameira ofrece una escala fluvial más próxima a la villa.",
-  "La separación funcional es clara: centro para servicios y frente portuario; playas occidentales para baño; monte y miradores para una salida deliberada.",
+  "El centro concentra servicios y frente portuario; las playas occidentales concentran el baño; y el monte y los miradores requieren una salida más deliberada.",
 ] as const;
 
 const CASA_NUEVO2 = [
@@ -101,7 +101,7 @@ const CASA_QUE_CONVIENE_REVISAR = [
 const CASA_MERCADO_REVENTA = [
   "Marín dispone de una base residencial permanente reforzada por puerto, Naval y proximidad a Pontevedra.",
   "En el casco ayudan a la reventa ascensor, accesibilidad, buen aislamiento y facilidad de transporte.",
-  "El ruido portuario puede reducir público incluso cuando la ubicación parece muy práctica.",
+  "El ruido portuario puede limitar el interés de compradores sensibles a esa exposición incluso cuando la ubicación resulta muy práctica.",
   "En la costa occidental, playa, parcela y vistas añaden atractivo, pero la propiedad debe conservar accesos y mantenimiento razonables.",
   "La cercanía a Pontevedra y al hospital es una ventaja fácil de explicar a futuros compradores.",
 ] as const;
@@ -117,7 +117,7 @@ const NO_ENCAJA_SI_NUEVO2 = [
   "Encaja peor si se exige silencio en el centro o una fachada urbana dedicada casi por completo al ocio marítimo.",
   "También si se quiere bajar andando a una gran playa desde cualquier vivienda céntrica.",
   "Puede resultar menos adecuado si la prioridad es una costa más natural y menos portuaria como experiencia diaria.",
-  "Y pierde parte de su sentido si se compra en Aguete esperando mantener exactamente la autonomía peatonal del casco.",
+  "Y encaja peor si se compra en Aguete pero se espera mantener la misma autonomía peatonal del casco.",
 ] as const;
 
 const QUE_COMPROBAR_NUEVO2 = [
@@ -130,7 +130,7 @@ const QUE_COMPROBAR_NUEVO2 = [
 ] as const;
 
 const CASA_LEYENDA_COMPACTA =
-  "A: ≤5 min de la costa · B: 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m². Estimaciones comparativas; conviene contrastarlas con la oferta del momento.";
+  "A ≈ ≤5 min de la costa · B ≈ 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m².";
 
 const CASA_FILA_PRECIOS = {
   municipio: "Marín",

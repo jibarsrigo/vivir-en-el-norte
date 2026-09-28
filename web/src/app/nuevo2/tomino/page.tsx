@@ -14,8 +14,7 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
 
 /**
  * NUEVO2 — Tomiño (Baixo Miño).
- * Texto: Tomino_Cursor_NUEVO2_y_auditoria_Compara (APROBADO EDITORIALMENTE)
- * Cabecera: fotosAbrir[0] = tomino-vega2.jpg (sin fotoIdentidad en RELATO).
+ * Texto: Lote_Baixo_Mino_5_CERTIFICADOS_Cursor_NUEVO2.txt
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
@@ -26,13 +25,13 @@ const RESUMEN_ZONA_NUEVO2 = [
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
-  "Tomiño es un municipio para pensar por microzonas. La vida cerca de O Seixo no es la misma que en Goián ni que en una casa rodeada de finca en una parroquia interior.",
+  "Tomiño es un municipio que hay que entender por microzonas. La vida cerca de O Seixo no es la misma que en Goián ni que en una casa rodeada de finca en una parroquia interior.",
   "En el entorno de Tomiño y O Seixo se concentran ayuntamiento, atención primaria, comercio y servicios básicos. Se puede resolver una parte de la rutina sin grandes desplazamientos si la vivienda está bien situada, aunque la escala municipal sigue siendo dispersa.",
-  "Goián funciona como un segundo núcleo y tiene una personalidad distinta. Su avenida principal, plaza, equipamientos y servicios se combinan con la proximidad inmediata del Miño. Desde allí la Ponte da Amizade cruza a Vila Nova de Cerveira, de modo que Portugal puede entrar en una semana normal para mercado, restaurantes, compras o simplemente paseo.",
+  "Goián funciona como un segundo núcleo y tiene una personalidad distinta. Su avenida principal, plaza, equipamientos y servicios se combinan con la proximidad inmediata del Miño. Desde allí la Ponte da Amizade cruza a Vila Nova de Cerveira, de modo que Portugal puede entrar en una semana normal para mercado, restaurantes, compras o paseo.",
   "Fuera de esos núcleos, el coche gana mucho peso. Las distancias no tienen por qué ser grandes, pero se acumulan: compra, colegio, actividades, farmacia o una salida hacia Tui pueden estar en direcciones distintas.",
-  "Tui funciona como apoyo próximo y como acceso a conexiones de mayor escala. Para hospital especializado, el Hospital Álvaro Cunqueiro queda aproximadamente a 30 km y 35 minutos. Vigo entra ya en la semana para necesidades que el municipio y la comarca inmediata no resuelven.",
+  "Tui funciona como apoyo próximo y como acceso a conexiones de mayor escala. Para atención hospitalaria de mayor complejidad, la referencia práctica está en el área de Vigo; el Hospital Álvaro Cunqueiro queda aproximadamente a 30 km y unos 35 minutos desde el núcleo de referencia.",
   "El transporte público existe, pero no elimina la lógica del coche en un municipio tan extendido. La utilidad concreta depende mucho de la parroquia y del recorrido habitual.",
-  "Tomiño mantiene vida propia durante todo el año. El calendario local ayuda además a reunir un territorio que físicamente está muy repartido: San Campio de Figueiró a finales de julio, la Virxe do Alivio en septiembre, el Lanzo da Cruz después de Pascua, el Entroido o la Festa da Rosca introducen días de más movimiento en lugares normalmente tranquilos.",
+  "Tomiño mantiene vida propia durante todo el año. El calendario local ayuda además a reunir un territorio que físicamente está muy repartido: San Campio de Figueiró, la Virxe do Alivio, el Lanzo da Cruz, el Entroido o la Festa da Rosca introducen días de más movimiento en lugares normalmente tranquilos.",
 ] as const;
 
 const CLIMA_NUEVO2 = [
@@ -49,7 +48,7 @@ const VIVIR_NUEVO2 = [
   "Goián introduce otra posibilidad poco habitual: tener Portugal incorporado a esa rutina. Vila Nova de Cerveira está al otro lado de la Ponte da Amizade y la relación entre ambas orillas es suficientemente directa como para que cruzar la frontera pueda parecerse más a ir al pueblo vecino que a hacer una excursión.",
   "El municipio conserva además una relación productiva visible con la tierra. Fincas, viveros e invernaderos forman parte del paisaje y recuerdan que no se trata de una zona rural convertida únicamente en residencia.",
   "El río ocupa el lugar que en otros municipios tiene el mar. Se puede caminar junto al Miño, usar la playa fluvial de Goián o pasar tiempo en Espazo Fortaleza. Para llegar a una playa marítima hay que desplazarse hacia A Guarda u otros puntos de la costa.",
-  "Quien llegue desde Mallorca buscando exclusivamente temperaturas suaves y mar delante de casa puede estar buscando otro municipio. Quien valore espacio, finca, río y una frontera que funciona como parte de la vida cotidiana puede encontrar precisamente aquí la diferencia.",
+  "Si la prioridad principal es tener un verano claramente costero y el mar a pie, Tomiño no ofrece esa experiencia. Su combinación es otra: espacio, finca, río y una frontera que puede formar parte de la vida cotidiana.",
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
@@ -65,14 +64,14 @@ const DE_DONDE_VIENE_NUEVO2 = [
 const MAR_RIO_CAMINO_NUEVO2 = [
   "Tomiño no tiene costa marítima. Su agua cotidiana es el Miño, y Goián es el lugar donde esa relación resulta más fácil de incorporar a la semana.",
   "Espazo Fortaleza reúne la fortaleza de San Lourenzo, zonas verdes, parque, embarcadero y playa fluvial junto al río. Es un lugar para ir a caminar, sentarse o pasar una tarde de verano sin salir del municipio.",
-  "Eso corrige una impresión fácil de sacar del mapa: no tener costa no significa que para cualquier baño haya que conducir hasta el Atlántico. Tomiño dispone de baño fluvial propio; lo que requiere desplazamiento es el baño de mar.",
+  "No tener costa no significa que para cualquier baño haya que conducir hasta el Atlántico. Tomiño dispone de baño fluvial propio; lo que requiere desplazamiento es el baño de mar.",
   "Desde la playa de Goián parte además la Senda do Miño, que continúa río abajo hasta Eiras, ya en O Rosal. Permite convertir la ribera en un recorrido real y no únicamente en un mirador.",
   "Para un paseo cotidiano no es necesario completar toda la senda. El entorno de Espazo Fortaleza permite caminar por terreno básicamente llano junto al Miño, acercarse a la fortificación, seguir un tramo de ribera y regresar cuando convenga. Es una salida mucho más repetible que una ruta de monte.",
-  "Tomiño ofrece también recorridos pequeños en otras partes del municipio. La ruta del río Furnia, por ejemplo, tiene alrededor de 1,6 km y una duración orientativa de una hora; discurre por un entorno de bosque de ribera y en época de lluvia requiere calzado adecuado.",
+  "Tomiño ofrece también recorridos pequeños en otras partes del municipio. La ruta del río Furnia tiene alrededor de 1,6 km y una duración orientativa de una hora; discurre por un entorno de bosque de ribera y en época de lluvia requiere calzado adecuado.",
   "Para una caminata más exigente, el municipio tiene senderos donde el terreno y la pendiente ganan protagonismo. No conviene asumir que una ruta calificada como corta o sencilla será necesariamente un paseo llano: en las zonas interiores aparecen firme irregular y desnivel.",
   "El mar funciona como salida. Area Grande y otras playas de A Guarda quedan aproximadamente a veinte minutos desde partes del municipio, según el punto de partida. Desde una parroquia interior el tiempo puede cambiar, y esa diferencia es otra razón para no tratar Tomiño como una única microzona.",
-  "La otra salida natural cruza la frontera. Cerveira está directamente enfrente de Goián y el puente permite incorporar la orilla portuguesa a paseos, comidas y actividades sin convertir cada cruce en una excursión.",
-  "Aquí la decisión no es entre «tener agua» o «no tenerla». Es entre una vida cotidiana organizada alrededor del río y una vida costera con el Atlántico en el umbral.",
+  "La otra salida cruza la frontera. Cerveira está directamente enfrente de Goián y el puente permite incorporar la orilla portuguesa a paseos, comidas y actividades sin convertir cada cruce en una excursión.",
+  "Aquí la decisión no es entre tener agua o no tenerla. Es entre una vida cotidiana organizada alrededor del río y una vida costera con el Atlántico en el umbral.",
 ] as const;
 
 const CASA_NUEVO2 = [
@@ -84,7 +83,7 @@ const CASA_NUEVO2 = [
 ] as const;
 
 const CASA_ADVERTENCIA_MICROZONA =
-  "No tratar Tomiño núcleo, Goián y las parroquias como una única experiencia. Una vivienda próxima a O Seixo puede simplificar servicios; Goián añade el río y Portugal a la rutina; una casa más apartada puede ganar terreno y privacidad a cambio de más coche. Antes de comparar dos precios hay que comparar esas tres semanas posibles.";
+  "No tratar Tomiño núcleo, Goián y las parroquias como una única experiencia. Una vivienda próxima a O Seixo puede simplificar servicios; Goián añade el río y Portugal a la rutina; una casa más apartada puede ganar terreno y privacidad a cambio de más coche. Antes de comparar dos precios hay que comparar qué rutina ofrece realmente cada ubicación.";
 
 const CASA_QUE_CONVIENE_REVISAR =
   "Hacer desde la vivienda los desplazamientos que se repetirían durante una semana: compra, farmacia, atención primaria, actividades y salida hacia Tui. En Goián conviene añadir el recorrido hasta el centro del núcleo, Espazo Fortaleza y la Ponte da Amizade. Visitar la casa con tiempo húmedo permite comprobar drenaje, paredes, ventilación y zonas de la parcela que tardan en secar. Una segunda visita en una tarde cálida ayuda a entender exposición solar y comportamiento de las habitaciones en verano. Si la propiedad tiene una finca grande, conviene recorrerla entera y no limitarse a mirar la superficie anunciada. Pendientes, cierres, vegetación, accesos y mantenimiento pueden cambiar mucho el valor práctico de esos metros. La cobertura de fibra debe verificarse en la dirección concreta. También conviene comprobar la situación urbanística de construcciones auxiliares, ampliaciones y cierres si forman parte importante de la propiedad.";
@@ -93,7 +92,7 @@ const CASA_MERCADO_REVENTA =
   "Tomiño tiene una base residencial permanente y un producto inmobiliario donde pesan especialmente casa, parcela y acceso por carretera. Para una futura reventa ayudan una ubicación fácil de explicar, buenos accesos, orientación, aparcamiento, estado de la vivienda y una distancia razonable a servicios. Goián añade como rasgos reconocibles el río y la conexión inmediata con Cerveira. Una finca muy exigente, una vivienda con problemas persistentes de humedad o una localización que obligue a largos recorridos para cada necesidad reduce el grupo de compradores potenciales. El terreno aporta valor cuando puede disfrutarse y mantenerse con facilidad; no simplemente porque haya muchos metros.";
 
 const CASA_LEYENDA_COMPACTA =
-  "A: ≤5 min de la costa · B: 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m². Estimaciones comparativas; conviene contrastarlas con la oferta del momento.";
+  "A ≈ ≤5 min de la costa · B ≈ 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m².";
 
 const CASA_FILA_PRECIOS = {
   municipio: "Tomiño",
@@ -115,7 +114,7 @@ const NO_ENCAJA_SI_NUEVO2 = [
   "Puede encajar peor si el objetivo principal de la mudanza es tener un verano claramente costero y el Atlántico a pie. Tomiño es valle y río; para playa marítima hay que conducir.",
   "También si se quiere resolver casi toda la semana andando desde un único casco compacto. Hay núcleos con servicios, pero el municipio funciona mediante varios centros y muchas viviendas dispersas.",
   "Puede resultar menos adecuado si el coche se quiere reducir al mínimo. Una casa aparentemente cercana en el mapa puede exigir varios desplazamientos diarios cuando se suman compra, actividades y servicios.",
-  "Y conviene pensarlo especialmente si el calor de valle o la humedad de una casa con finca son aspectos poco tolerables. Una visita agradable junto al río no sustituye probar cómo se vive la vivienda en una tarde cálida y después de varios días de lluvia.",
+  "Y puede encajar peor si el calor de valle o la humedad de una casa con finca son aspectos poco tolerables. Una visita agradable junto al río no sustituye probar cómo se vive la vivienda en una tarde cálida y después de varios días de lluvia.",
 ] as const;
 
 const QUE_COMPROBAR_NUEVO2 = [
@@ -216,7 +215,7 @@ export default function Nuevo2TominoPage() {
           </p>
         ))}
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
-          <ConNegritas texto={COMO_SE_VIVE_NUEVO2[4]} fragmentos={["30 km y 35 minutos"]} />
+          <ConNegritas texto={COMO_SE_VIVE_NUEVO2[4]} fragmentos={["30 km y unos 35 minutos"]} />
         </p>
         {COMO_SE_VIVE_NUEVO2.slice(5).map((p) => (
           <p key={p.slice(0, 64)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">

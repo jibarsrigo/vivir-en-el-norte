@@ -13,22 +13,21 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
 
 /**
  * NUEVO2 — Soto del Barco / San Juan de la Arena.
- * Texto: CURSOR_TRANSFERENCIA_NUEVO2_SOTO_SALINAS_LUANCO_MUROS_PENDIENTE_2026-09-25.txt
+ * Texto: Lote_Asturias_Centro_4_CERTIFICADOS_Cursor_NUEVO2.txt
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
-  "Asturias Centro reúne maneras muy distintas de vivir junto al Cantábrico. Hay puertos encajados en la ladera, pequeñas villas marineras, núcleos volcados sobre una gran playa y, al final de la escala, una ciudad como Gijón. Soto del Barco ocupa otra posición: aquí el territorio se organiza alrededor de la desembocadura del Nalón.",
-  "Y dentro de un municipio pequeño hay dos vidas distintas. Soto del Barco y San Juan de la Arena no son dos nombres para una misma experiencia. Soto queda algo más hacia el interior, ligado al río y a su papel administrativo; San Juan se acerca hasta la desembocadura, donde aparecen el puerto, las embarcaciones y, al final del pueblo, el Cantábrico.",
+  "Asturias Centro reúne maneras muy distintas de vivir junto al Cantábrico. Soto del Barco ocupa una posición propia porque aquí el territorio se organiza alrededor de la desembocadura del Nalón.",
+  "Dentro de un municipio pequeño hay dos experiencias residenciales distintas. Soto del Barco y San Juan de la Arena no son dos nombres para una misma vida. Soto queda algo más hacia el interior, ligado al río y a su papel administrativo; San Juan se acerca hasta la desembocadura, donde aparecen el puerto, las embarcaciones y, al final del pueblo, el Cantábrico.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
-  "Una mañana corriente ayuda a entender la diferencia.",
-  "En Soto se vive en la capital del concejo, en un núcleo pequeño que, al alejarse del centro, se abre pronto hacia viviendas más dispersas. Hay centro médico, farmacia, biblioteca y polideportivo, además del Ayuntamiento. Para lo básico no hace falta salir inmediatamente del municipio; para compras mayores, hospital u otros servicios, el día acaba extendiéndose hacia fuera.",
-  "San Juan de la Arena sorprende por otra razón. Sería fácil imaginarlo como el lugar al que se baja desde Soto para ver el mar, pero vivir allí no funciona así. San Juan tiene vida básica propia: centro médico, farmacia, biblioteca, polideportivo, supermercado y centro social de mayores, además de algunos servicios sociales determinados días.",
-  "Eso permite una rutina muy distinta. Se puede salir de casa, hacer una compra o resolver una necesidad básica y después acercarse al puerto sin convertir el paseo en una salida especial. El Nalón ya está ensanchándose antes de llegar al mar; barcos, puerto y desembocadura forman parte del paisaje normal del pueblo.",
-  "Soto y San Juan están cerca, pero esa cercanía no los vuelve intercambiables. En Soto, el río acompaña una vida más interior y administrativa. En San Juan, el agua acaba entrando en la rutina: primero la ría y el puerto; después, la playa y el Cantábrico.",
+  "En Soto se vive en la capital del concejo, en un núcleo pequeño que, al alejarse del centro, se abre pronto hacia viviendas más dispersas. Hay centro médico, farmacia, biblioteca y polideportivo, además del Ayuntamiento. Para lo básico no hace falta salir inmediatamente del municipio; para compras mayores, hospital u otros servicios, la semana acaba extendiéndose hacia fuera.",
+  "San Juan de la Arena tiene vida básica propia: centro médico, farmacia, biblioteca, polideportivo, supermercado y centro social de mayores, además de algunos servicios sociales determinados días. Eso permite resolver una parte apreciable de la rutina dentro del propio pueblo.",
+  "Desde muchas viviendas de San Juan se puede hacer una compra o resolver una necesidad básica y después acercarse al puerto andando. El Nalón ya está ensanchándose antes de llegar al mar; barcos, puerto y desembocadura forman parte del paisaje habitual.",
+  "Soto y San Juan están cerca, pero no son intercambiables. En Soto, el río acompaña una vida más interior y administrativa. En San Juan, la ría, el puerto y después la playa tienen mucha más presencia en los recorridos cotidianos.",
   "Cuando la necesidad supera esa escala pequeña hay que salir. El Hospital San Agustín de Avilés queda aproximadamente a 16 km y unos 20 minutos. El aeropuerto de Asturias está excepcionalmente cerca, en torno a 6 km y unos 10 minutos.",
-  "El coche, por tanto, sigue formando parte de la vida. Hace falta para el hospital, compras de mayor escala y muchas salidas. Pero eso no significa que cada mañana en San Juan empiece arrancándolo: una parte apreciable de lo básico puede resolverse en el propio pueblo.",
+  "El coche sigue formando parte de la vida para hospital, compras de mayor escala y muchas salidas. Eso no impide que en San Juan una parte de las necesidades básicas pueda resolverse sin arrancarlo.",
 ] as const;
 
 const CLIMA_NUEVO2 = [
@@ -39,51 +38,46 @@ const CLIMA_NUEVO2 = [
 ] as const;
 
 const VIVIR_NUEVO2 = [
-  "También cambia lo que significa «vivir junto al mar».",
   "En San Juan, el agua aparece primero como río ancho y puerto. Se puede caminar junto a la desembocadura, ver las embarcaciones y continuar hasta que el Nalón termina y comienza la costa abierta. Los Quebrantos añade la playa, pero no sustituye esa primera relación con el agua.",
   "La escala diaria es pequeña. No hay que salir del pueblo para cada compra o necesidad básica, aunque Pravia y Avilés amplían pronto lo que puede resolverse cerca. Para hospital, comercio de mayor entidad o determinadas gestiones, el coche vuelve a entrar en escena.",
-  "El aeropuerto queda, en cambio, sorprendentemente cerca para un lugar de este tamaño. Eso acorta mucho la parte terrestre de un viaje. La conexión con Palma no debe darse por permanente: depende de la programación de cada temporada.",
+  "El aeropuerto queda muy cerca para un lugar de este tamaño. Eso acorta mucho la parte terrestre de un viaje. La conexión con Palma no debe darse por permanente: depende de la programación de cada temporada.",
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
-  "Para entender Soto del Barco hay que mirar el Nalón no como fondo del paisaje, sino como la pieza que organizó el territorio.",
+  "Para entender Soto del Barco hay que mirar el Nalón no como fondo del paisaje, sino como una pieza que organizó el territorio.",
   "Antes de existir el puente actual, cruzar el río significaba hacerlo en barca. Esa antigua travesía quedó incluso en el nombre del concejo y en su escudo. El Camino de Santiago llegaba al embarcadero situado junto al Castillo de San Martín y continuaba por la otra orilla después de atravesar el Nalón.",
   "El castillo estaba allí por una razón. Su posición permitía controlar un punto estratégico de comunicación entre la costa y el interior. El enclave tiene antecedentes desde la Edad del Hierro y durante la Edad Media mantuvo esa función de vigilancia sobre la desembocadura. Soto permaneció ligado a Pravia hasta constituirse como ayuntamiento independiente en el siglo XIX.",
-  "Hoy el peregrino ya no puede repetir aquel cruce en barca: al llegar a ese punto tiene que volver hacia la carretera y utilizar el puente. Pero el trazado antiguo explica algo que todavía se ve con claridad sobre el mapa: el río no era una frontera decorativa, sino un paso que había que controlar y atravesar.",
-  "San Juan de la Arena cuenta la segunda parte de la historia.",
-  "Allí el Nalón deja de ser únicamente camino y se convierte también en trabajo. La pesca, la lonja, la angula y la industria conservera fueron dando forma al núcleo marítimo. El puerto que hoy acompaña un paseo normal pertenece a esa historia económica.",
-  "Por eso Soto y San Juan siguen teniendo caracteres distintos aunque compartan municipio. Uno creció alrededor de la administración y de una posición interior sobre el Nalón; el otro, allí donde el río llega al mar y vivir significaba también salir a pescar, descargar en el puerto o trabajar con lo que traía el agua.",
+  "Hoy el peregrino ya no puede repetir aquel cruce en barca: al llegar a ese punto tiene que volver hacia la carretera y utilizar el puente. El trazado antiguo permite entender hasta qué punto el río condicionaba los desplazamientos.",
+  "San Juan de la Arena cuenta la segunda parte de la historia. Allí el Nalón deja de ser únicamente paso y se convierte también en trabajo. La pesca, la lonja, la angula y la industria conservera fueron dando forma al núcleo marítimo. El puerto que hoy acompaña un paseo normal pertenece a esa historia económica.",
+  "Por eso Soto y San Juan siguen teniendo caracteres distintos aunque compartan municipio. Uno creció alrededor de la administración y de una posición interior sobre el Nalón; el otro, allí donde el río llega al mar y la actividad portuaria formó parte de la vida local.",
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
-  "En San Juan no hace falta preparar una excursión para caminar junto al agua.",
-  "El recorrido más sencillo empieza en el propio pueblo. El puerto acompaña la desembocadura y permite seguir andando mientras el Nalón se ensancha. Es una salida que puede repetirse cualquier tarde porque forma parte del núcleo, no un destino al que haya que conducir.",
-  "Si se continúa hacia la costa, el paisaje cambia. Aparece Los Quebrantos, la única playa del municipio, comunicada directamente con San Juan. Tiene unos 800 metros y continúa con el playón de Bayas hasta formar un arenal de más de tres kilómetros.",
+  "En San Juan no hace falta preparar una excursión para caminar junto al agua. El recorrido más sencillo empieza en el propio pueblo. El puerto acompaña la desembocadura y permite seguir andando mientras el Nalón se ensancha.",
+  "Si se continúa hacia la costa aparece Los Quebrantos, la única playa del municipio, comunicada directamente con San Juan. Tiene unos 800 metros y continúa con el playón de Bayas hasta formar un arenal de más de tres kilómetros.",
   "Aquí el mar ya no es la ría protegida por el puerto. Es Cantábrico abierto. La playa dispone de acceso sencillo, aparcamiento, carril bici independiente y acceso adaptado al baño, además de servicios estivales. También se utiliza para surf.",
-  "Eso permite dos salidas muy distintas desde el mismo pueblo. Una tarde puede bastar con puerto y desembocadura. Otro día se puede seguir hasta Los Quebrantos y caminar por un arenal mucho más abierto.",
-  "Tener la playa al lado no significa tener siempre un baño fácil. El estado del Cantábrico importa más que la distancia desde casa y debe comprobarse cada día.",
-  "En Soto la relación con el agua es otra. El Nalón sigue estando presente, pero puerto y playa no forman parte inmediata de la vida doméstica como pueden hacerlo en San Juan.",
-  "Hay además un camino que cuenta muy bien cuánto ha cambiado el río. El Camino de Santiago todavía conduce hacia el antiguo embarcadero del Castillo de San Martín, pero la barca que permitía continuar directamente hacia la otra orilla ya no existe. Para cruzar hoy hay que volver a la carretera y utilizar el puente.",
+  "Puerto y desembocadura pueden entrar en un paseo corto; Los Quebrantos permite alargarlo hasta una costa mucho más abierta. Tener la playa al lado no significa tener siempre un baño fácil: el estado del Cantábrico importa más que la distancia desde casa.",
+  "En Soto la relación con el agua es distinta. El Nalón sigue estando presente, pero puerto y playa no forman parte inmediata de la vida doméstica como pueden hacerlo en San Juan.",
+  "El Camino de Santiago todavía conduce hacia el antiguo embarcadero del Castillo de San Martín, pero la barca que permitía continuar directamente hacia la otra orilla ya no existe. Para cruzar hoy hay que volver a la carretera y utilizar el puente.",
 ] as const;
 
 const CASA_NUEVO2 = [
-  "En muchos municipios se puede empezar mirando el precio y después afinar la zona. Aquí conviene hacerlo al revés.",
-  "Una vivienda en Soto y otra en San Juan pueden pertenecer al mismo municipio y ofrecer vidas bastante diferentes.",
+  "En este municipio conviene elegir primero entre Soto y San Juan y después comparar viviendas. Una dirección en cada núcleo puede pertenecer al mismo concejo y ofrecer una rutina bastante distinta.",
   "En San Juan merece la pena salir de la vivienda candidata y hacer el recorrido real: compra, farmacia, centro médico, puerto y playa. Una casa bien situada puede reunir buena parte de esa secuencia sin coche.",
   "Soto ofrece otra lógica. Fuera de su pequeño centro, el tejido se vuelve más disperso y una distancia que parece corta en el anuncio puede terminar significando más desplazamientos cotidianos. Allí importa especialmente comprobar desde la puerta de casa cuánto puede hacerse andando y para qué acaba siendo necesario coger el coche.",
 ] as const;
 
 const CASA_PRECIO_INTRO =
-  "La referencia municipal disponible es de 1.185 €/m², correspondiente a abril de 2026. Sirve para situar el orden de magnitud del mercado en ese momento; una vivienda concreta debe contrastarse con la oferta actual.";
+  "Referencia municipal: 1.185 €/m² · abril de 2026.";
 
 const CASA_BANDAS_NOTA =
-  "Las bandas permiten comparar con el resto del proyecto, pero no tasar una vivienda concreta. Utilizan aproximadamente 65 m² para dos habitaciones y 90 m² para tres, con las mismas franjas A y B del resto de fichas. Conviene contrastarlas con la oferta real del momento.";
+  "Las bandas permiten comparar con el resto del proyecto, pero no tasar una vivienda concreta. Utilizan aproximadamente 65 m² para dos habitaciones y 90 m² para tres, con las mismas franjas A y B del resto de fichas.";
 
 const CASA_ADVERTENCIA_MICROZONA =
-  "En San Juan conviene comprobar cuánto cambia la vivienda cuando se pasa de «cerca del puerto» a poder llegar realmente andando a compra, farmacia, centro médico y playa. También importan la exposición al ambiente marítimo, la humedad, el aislamiento y el aparcamiento. En Soto pesan más el acceso desde la vivienda, la dispersión y la frecuencia con la que el coche acaba resolviendo una necesidad que sobre el mapa parecía próxima. La información disponible señala poca obra nueva y cobertura de fibra parcial. Una dirección concreta puede comportarse mejor que otra, así que la conexión debe comprobarse en la vivienda y no darse por garantizada para todo el concejo.";
+  "En San Juan conviene comprobar cuánto cambia la vivienda cuando se pasa de «cerca del puerto» a poder llegar realmente andando a compra, farmacia, centro médico y playa. En Soto pesan más el acceso desde la vivienda, la dispersión y la frecuencia con la que el coche acaba resolviendo una necesidad que sobre el mapa parecía próxima. La cobertura de fibra debe comprobarse en la dirección concreta.";
 
 const CASA_QUE_CONVIENE_REVISAR =
-  "Antes de quedarse con las vistas o con el precio, merece la pena comprobar el recorrido diario desde la puerta: compra, farmacia, médico, coche y paseo. Después vienen el estado de reforma, aislamiento, humedad, orientación y luz, barreras o ascensor, aparcamiento y conexión real a internet. En San Juan se añade una pregunta sencilla: ¿la vivienda permite realmente vivir el puerto y la costa andando o solo verlos cerca en el mapa?";
+  "Recorrido diario desde la puerta, estado de reforma, aislamiento, humedad, orientación y luz, barreras o ascensor, aparcamiento y conexión real a internet. En San Juan hay que comprobar además si puerto y costa forman de verdad parte de la vida a pie desde esa dirección.";
 
 const CASA_MERCADO_REVENTA =
   "La referencia de abril de 2026 mostraba una variación interanual del −6,5 %. Ese dato describe aquel momento y no permite anticipar la evolución posterior. En un mercado pequeño importa especialmente que la vivienda siga siendo práctica para perfiles distintos: acceso sencillo, servicios razonablemente próximos, pocas barreras, buena conexión y ausencia de una reforma pesada pueden facilitar una futura venta. No garantizan ni el precio ni el plazo.";
@@ -102,7 +96,7 @@ const CASA_FILA_PRECIOS = {
 
 const ENCAJA_SI_NUEVO2 = [
   "Puede encajar si se busca una escala pequeña sin quedar muy lejos de hospital y aeropuerto, y se acepta que para las necesidades de mayor entidad habrá que salir del municipio.",
-  "San Juan añade una combinación bastante particular: un pueblo pequeño donde compra básica, médico, farmacia, puerto, desembocadura y playa pueden formar parte de una misma vida diaria. No todo queda a la puerta de cada vivienda, pero tampoco es simplemente el lugar costero de un municipio cuyos servicios están en otra parte.",
+  "San Juan añade una combinación particular: un pueblo pequeño donde compra básica, médico, farmacia, puerto, desembocadura y playa pueden formar parte de una misma vida diaria.",
   "Soto ofrece la otra posibilidad: vivir algo más retirado de la costa abierta, junto al Nalón y en el núcleo administrativo, manteniendo servicios básicos propios.",
 ] as const;
 
@@ -113,11 +107,7 @@ const NO_ENCAJA_SI_NUEVO2 = [
 ] as const;
 
 const QUE_COMPROBAR_NUEVO2 = [
-  "Aquí una visita al «municipio» no basta. Hay que probar dos mañanas distintas.",
-  "En Soto, salir desde una vivienda posible y hacer la vida corriente: compra, farmacia, médico, paseo y coche. Ver cuánto se resuelve realmente a pie y cuánto empieza a dispersarse.",
-  "En San Juan, hacer exactamente lo mismo y después seguir andando: primero el puerto, luego la desembocadura y finalmente Los Quebrantos. No para comprobar si el paisaje gusta, sino para descubrir cuánto de él entraría de verdad en un martes cualquiera.",
-  "Después conviene hacer el trayecto al Hospital San Agustín y al aeropuerto.",
-  "Solo entonces «Soto del Barco» deja de ser un nombre administrativo y aparecen las dos vidas que contiene.",
+  "Probar por separado Soto y San Juan. En Soto, salir desde una vivienda posible y hacer la vida corriente: compra, farmacia, médico, paseo y coche. En San Juan, hacer lo mismo y continuar hacia el puerto, la desembocadura y Los Quebrantos. Después conviene hacer el trayecto al Hospital San Agustín y al aeropuerto.",
 ] as const;
 
 const FOTO_COMO_ARENA = {

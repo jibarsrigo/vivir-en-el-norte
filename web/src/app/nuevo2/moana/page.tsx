@@ -14,7 +14,7 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
 
 /**
  * NUEVO2 — Moaña (O Morrazo).
- * Texto: Lote_O_Morrazo_Cursor_NUEVO2 (1).txt (APROBADO EDITORIALMENTE)
+ * Texto: Lote_O_Morrazo_4_CERTIFICADOS_Cursor_NUEVO2.txt
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
@@ -25,12 +25,12 @@ const RESUMEN_ZONA_NUEVO2 = [
 
 const COMO_SE_VIVE_NUEVO2 = [
   "Moaña se entiende caminando su frente marítimo. El paseo enlaza la franja central desde Meira hacia O Con y reúne playas, mercado, puerto, zonas de estancia y el embarque hacia Vigo.",
-  "Un martes de noviembre se puede comprar, ir al centro de salud, pasar por el mercado, caminar junto a la ría y tomar el ferry sin salir de esa franja. Para una vivienda bien situada, el coche puede dejar de ser necesario para una parte importante de la semana.",
-  "El ferry es una ventaja funcional fuerte. Vigo queda al otro lado del agua y el barco evita conducir alrededor de la ría cuando el destino y los horarios encajan.",
+  "En la franja central se puede comprar, ir al centro de salud, pasar por el mercado, caminar junto a la ría y tomar el ferry sin salir de esa zona. Para una vivienda bien situada, el coche puede dejar de ser necesario para una parte importante de la semana.",
+  "El ferry es una ventaja práctica. Vigo queda al otro lado del agua y el barco evita conducir alrededor de la ría cuando el destino y los horarios encajan.",
   "No toda Moaña vive así. Al alejarse de la costa el municipio gana pendiente. Una casa con vistas en Meira alta puede necesitar coche para compra y actividades aunque visualmente parezca muy cerca del centro.",
   "Tirán combina vivienda, pequeñas calas y la playa de O Con con una escala más residencial. Domaio queda separado de la franja central y se relaciona directamente con Rande, el corredor viario y las laderas del Faro de Domaio.",
   "La vida anual es sólida. Mercado, colegios, servicios y ferry siguen funcionando en invierno. El verano añade bañistas y más movimiento en el paseo, pero no transforma el municipio en un destino puramente estacional.",
-  "Las fiestas del Carmen llenan puerto y centro en julio. San Martiño y San Xoán tienen efectos más parroquiales. Una vivienda junto a un atrio o a la franja central puede vivir varios calendarios distintos.",
+  "Las fiestas del Carmen llenan puerto y centro en julio. San Martiño y San Xoán tienen efectos más parroquiales. Una vivienda junto a un atrio o a la franja central puede notar esas celebraciones de forma muy distinta según la época del año.",
   "La referencia hospitalaria práctica está en el área de Vigo/Pontevedra, con unos 30 minutos orientativos por carretera desde la referencia municipal. El aeropuerto de Vigo queda aproximadamente a 35 minutos.",
 ] as const;
 
@@ -43,9 +43,9 @@ const CLIMA_NUEVO2 = [
 ] as const;
 
 const VIVIR_NUEVO2 = [
-  "Moaña permite mirar a Vigo y utilizarlo sin vivir dentro de la ciudad.",
+  "Desde Moaña, Vigo puede formar parte de la semana sin necesidad de vivir dentro de la ciudad.",
   "En la franja litoral se puede tener mercado, servicios, paseo, playa y ferry dentro de una rutina compacta. Esa combinación es más importante que cualquier lista de equipamientos.",
-  "Al subir, la semana cambia. La vista mejora, aparece terreno y disminuye el ruido de la franja urbana, pero coche y pendiente pasan a formar parte de la vida diaria.",
+  "En las zonas altas se puede ganar vista, terreno y menos ruido de la franja urbana, pero coche y pendiente pasan a formar parte de la vida diaria.",
   "La relación con la playa es sencilla en A Xunqueira y O Con: son arenales urbanos de ría que pueden incorporarse a una tarde normal.",
   "El invierno mantiene actividad, pero exige aceptar más lluvia y una casa que funcione bien con humedad. Para alguien procedente de Mallorca, orientación y sol invernal deben evaluarse con especial cuidado.",
 ] as const;
@@ -56,15 +56,15 @@ const DE_DONDE_VIENE_NUEVO2 = [
   "La iglesia de San Martiño conserva la memoria de aquel centro parroquial interior. San Xoán de Tirán ocupa otra posición histórica sobre la costa.",
   "La industrialización marítima y conservera desplazó parte del peso hacia la costa. Meira y Moaña quedaron ligadas a pesca, marisqueo, conserva y posteriormente a una intensa cultura del remo.",
   "El Fisgón recuerda una forma de pesca con fisga y luz y convierte un oficio de la ría en una referencia visible del paseo.",
-  "La apertura del puente de Rande transformó la conexión terrestre con Vigo. El ferry, sin embargo, conserva una relación marítima directa que todavía condiciona positivamente la vida cotidiana.",
+  "La apertura del puente de Rande transformó la conexión terrestre con Vigo. El ferry mantiene, además, una conexión marítima directa que sigue siendo útil cuando horarios y destino encajan.",
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
   "A Xunqueira es la playa urbana más evidente. Tiene unos 600 metros, arena fina, agua tranquila y acceso directo al paseo marítimo. Desde la franja central puede utilizarse para caminar o bañarse sin coger el coche.",
   "O Con queda hacia Tirán, al final de otro tramo del paseo. Es una playa urbana más pequeña, de unos 150 metros, y vuelve a permitir combinar baño y paseo.",
-  "El propio paseo marítimo es probablemente la infraestructura de ocio cotidiano más importante. Recorre el centro urbano desde Meira hacia O Con y permite ver bateas, barcos, mariscadoras, puertos y gente pescando. No es solo un recorrido turístico: forma parte de la calle diaria de Moaña.",
+  "El paseo marítimo es uno de los recorridos cotidianos más útiles de la franja central. Enlaza Meira con el entorno de O Con y acompaña bateas, barcos, zonas portuarias y actividad marisquera. Puede utilizarse para caminar a diario sin convertir la salida en una excursión.",
   "Tirán añade pequeñas calas y una costa donde vivienda e iglesia se acercan mucho al agua.",
-  "Domaio pertenece a otra escala. Desde allí se asciende hacia el Faro de Domaio, la mayor altura de la península. El recorrido introduce pendiente, monte y vistas sobre Rande y ambas rías; exige una salida deliberada y no debe confundirse con el paseo llano del frente marítimo.",
+  "Domaio pertenece a otra escala. Desde allí se asciende hacia la zona alta del Faro de Domaio. El recorrido introduce pendiente, monte y vistas sobre Rande y ambas rías; exige una salida deliberada y no debe confundirse con el paseo llano del frente marítimo.",
   "Moaña ofrece así una separación muy clara: paseo y baño de ría para repetir a diario en la franja litoral; monte y miradores cuando se quiere una actividad de varias horas.",
 ] as const;
 
@@ -95,8 +95,8 @@ const CASA_QUE_CONVIENE_REVISAR = [
 const CASA_MERCADO_REVENTA = [
   "Moaña tiene una base residencial propia y el ferry añade una ventaja comprensible para personas vinculadas a Vigo.",
   "En la franja central, ascensor, servicios a pie y proximidad al embarque ayudan a ampliar el público futuro.",
-  "Las casas en altura compiten mediante vistas, orientación, parcela y facilidad de acceso.",
-  "Una propiedad que exige mucho coche sin ofrecer a cambio espacio, tranquilidad o vistas suficientes pierde parte de su diferenciación.",
+  "En las casas en altura pesan especialmente las vistas, la orientación, la parcela y la facilidad de acceso.",
+  "Una propiedad que exige mucho coche sin ofrecer a cambio espacio, tranquilidad o buenas condiciones de vivienda puede resultar menos atractiva para una futura venta.",
 ] as const;
 
 const ENCAJA_SI_NUEVO2 = [
@@ -110,7 +110,7 @@ const NO_ENCAJA_SI_NUEVO2 = [
   "Encaja peor si toda la vida debe resolverse a pie desde una parroquia alta o desde Domaio.",
   "También si se necesita hospital muy próximo dentro del propio municipio.",
   "Puede resultar menos adecuada si se busca la costa atlántica abierta y los grandes arenales naturales como experiencia diaria.",
-  "Y pierde parte de su sentido si se compra en altura esperando conservar exactamente la caminabilidad del paseo.",
+  "Y encaja peor si se compra en altura pero se espera conservar la misma caminabilidad de la franja del paseo.",
 ] as const;
 
 const QUE_COMPROBAR_NUEVO2 = [
@@ -123,7 +123,7 @@ const QUE_COMPROBAR_NUEVO2 = [
 ] as const;
 
 const CASA_LEYENDA_COMPACTA =
-  "A: ≤5 min de la costa · B: 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m². Estimaciones comparativas; conviene contrastarlas con la oferta del momento.";
+  "A ≈ ≤5 min de la costa · B ≈ 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m².";
 
 const CASA_FILA_PRECIOS = {
   municipio: "Moaña",

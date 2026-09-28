@@ -13,62 +13,62 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
 
 /**
  * NUEVO2 — Muros de Nalón.
- * Texto: CURSOR_NUEVO2_MUROS_V2_CIERRE_EDITORIAL_Y_VERIFICACION_ASTURIAS_CENTRO_2026-09-25.txt
+ * Texto: Lote_Asturias_Centro_4_CERTIFICADOS_Cursor_NUEVO2.txt
  */
 
-const RESUMEN_ZONA_NUEVO2 =
-  "Asturias Centro reúne formas muy distintas de vivir junto al Cantábrico: desde el puerto en ladera de Cudillero y los núcleos del estuario del Nalón hasta las villas marineras de Luanco y Candás, la playa de Salinas y la escala urbana de Gijón. Avilés y Oviedo completan un territorio en el que costa, ciudades y aeropuerto quedan relativamente próximos, aunque la vida cotidiana cambia mucho según el lugar elegido.";
+const RESUMEN_ZONA_NUEVO2 = [
+  "Muros de Nalón es un concejo pequeño organizado alrededor de dos núcleos que ofrecen experiencias residenciales distintas: Muros, la capital municipal, y San Esteban de Pravia, situado junto a la desembocadura del Nalón.",
+  "Están cerca, pero no colocan el mismo paisaje ni los mismos recorridos delante de casa. Muros se relaciona primero con su propio núcleo y con desplazamientos cortos hacia otros puntos del concejo. San Esteban vive directamente junto al puerto y la ría.",
+] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
-  "Muros de Nalón se entiende mal si se imagina como un único pueblo. El concejo tiene dos núcleos que permiten vidas bastante distintas: Muros, que ejerce de capital municipal, y San Esteban de Pravia, situado junto a la desembocadura del Nalón. Están cerca, pero el paisaje que entra en la rutina cambia mucho entre uno y otro.",
-  "Muros concentra la dimensión más administrativa del concejo. Es un núcleo pequeño, separado del frente portuario, desde el que la vida cotidiana se organiza alrededor del propio pueblo y de desplazamientos cortos hacia otros puntos del municipio y del entorno. San Esteban no es simplemente el lugar al que se baja desde Muros para pasear: tiene entidad residencial propia y dispone, igual que Muros, de consultorio sanitario.",
-  "La diferencia aparece con claridad al salir de casa. En San Esteban, el Nalón ya es una gran ría a punto de encontrarse con el Cantábrico. El puerto, las embarcaciones, los antiguos cargaderos de carbón y el trazado ferroviario forman parte del escenario cotidiano. Es posible caminar junto a ese frente sin convertirlo en una excursión.",
-  "En Muros la relación con el agua funciona de otra manera. El mar está próximo, pero no ocupa el centro de la calle ni aparece una playa urbana al final del núcleo. Aguilar es la referencia de baño más clara y se alcanza por carretera. San Esteban, por su parte, tiene el puerto y la ría inmediatamente presentes, pero tampoco equivale a vivir frente a una gran playa de arena.",
-  "Eso hace que el coche pese de forma distinta según la dirección concreta. Ninguno de los dos núcleos debe describirse como aislado ni como autosuficiente. Parte de la vida básica se resuelve dentro del concejo; para hospital, compras amplias y servicios especializados la semana se extiende hacia poblaciones mayores del entorno.",
-  "En invierno la diferencia entre Muros y San Esteban sigue siendo visible. San Esteban conserva el paseo junto a la desembocadura y el puerto como una salida corta y repetible. En Muros, la rutina es más de núcleo y los recorridos hacia playa, puerto o costa son más deliberados. Antes de pensar simplemente en «vivir en Muros de Nalón», hay que saber cuál de esas dos geografías entraría realmente en un día normal.",
+  "Muros concentra la dimensión más administrativa del concejo. Es un núcleo pequeño, separado del frente portuario, desde el que la vida cotidiana se organiza alrededor del propio pueblo y de desplazamientos cortos hacia otros puntos del municipio y del entorno.",
+  "San Esteban tiene entidad residencial propia y dispone, igual que Muros, de consultorio sanitario. Al salir de casa, el Nalón ya es una gran ría a punto de encontrarse con el Cantábrico. El puerto, las embarcaciones, los antiguos cargaderos de carbón y el trazado ferroviario forman parte del paisaje cotidiano.",
+  "En Muros la relación con el agua funciona de otra manera. El mar está próximo, pero no ocupa el centro de la calle ni aparece una playa urbana al final del núcleo. Aguilar es la referencia de baño más clara y se alcanza por carretera. San Esteban tiene el puerto y la ría inmediatamente presentes, pero tampoco equivale a vivir frente a una gran playa de arena.",
+  "El coche pesa de forma distinta según la dirección concreta. Parte de la vida básica se resuelve dentro del concejo; para hospital, compras amplias y servicios especializados la semana se extiende hacia poblaciones mayores del entorno.",
+  "En invierno la diferencia entre Muros y San Esteban sigue siendo visible. San Esteban conserva el paseo junto a la desembocadura y el puerto como una salida corta y repetible. En Muros, los recorridos hacia playa, puerto o costa son más deliberados.",
 ] as const;
 
 const CLIMA_NUEVO2 = [
   "El cambio respecto a Mallorca se nota menos en una cifra aislada que en la frecuencia con la que el tiempo condiciona el día. En la costa asturiana hay más humedad, más lluvia y más cielos cubiertos, mientras los veranos son generalmente más frescos y el calor intenso tiene menos peso.",
-  "Eso cambia la forma de utilizar una vivienda y el exterior. Una terraza deja de ser únicamente un lugar que proteger del sol: importan la orientación, las horas reales de luz, el resguardo y cómo responde la casa después de varios días húmedos. Tender, ventilar o salir a caminar se organiza con una meteorología más cambiante.",
+  "Eso cambia la forma de utilizar una vivienda y el exterior. En una terraza importan la orientación, las horas reales de luz, el resguardo y cómo responde la casa después de varios días húmedos. Tender, ventilar o salir a caminar se organiza con una meteorología más cambiante.",
   "El verano permite con más frecuencia caminar o permanecer al aire libre durante las horas centrales sin el calor habitual de Mallorca, pero no garantiza una sucesión estable de días de playa. El Cantábrico introduce nubes, lluvia y cambios rápidos incluso en meses templados.",
 ] as const;
 
 const VIVIR_NUEVO2 = [
   "Muros de Nalón es un concejo pequeño. Parte de la compra, el hospital y los servicios especializados se resuelven fuera, sobre todo en poblaciones mayores del entorno. El coche forma por ello parte normal de la semana.",
-  "En San Esteban, a cambio, el puerto y la desembocadura están al alcance de un paseo corto desde muchas viviendas del núcleo. En Muros, Aguilar y la costa quedan cerca, pero normalmente se incorporan al día mediante un desplazamiento específico.",
-  "También cambia la relación con la playa. San Esteban tiene el agua delante, pero lo que ofrece de forma inmediata es puerto y ría. Aguilar es el arenal de referencia del concejo y desde Muros se llega por carretera. Elegir entre Muros y San Esteban cambia, por tanto, qué paisaje aparece al salir de casa y para qué actividades hace falta coger el coche.",
+  "En San Esteban, el puerto y la desembocadura están al alcance de un paseo corto desde muchas viviendas del núcleo. En Muros, Aguilar y la costa quedan cerca, pero normalmente se incorporan al día mediante un desplazamiento específico.",
+  "También cambia la relación con la playa. San Esteban tiene el agua delante, pero lo que ofrece de forma inmediata es puerto y ría. Aguilar es el arenal de referencia del concejo y desde Muros se llega por carretera.",
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
   "San Esteban no tiene aspecto de puerto industrial por casualidad. Su posición en la desembocadura del Nalón lo convirtió en una pieza del transporte del carbón asturiano: el ferrocarril llegaba hasta el frente portuario y el mineral se trasladaba mediante tolvas y cargaderos a los barcos.",
-  "Esa actividad dejó una forma física muy reconocible. Junto al agua permanecen estructuras industriales y trazados ligados al ferrocarril. No son elementos aislados colocados después para recordar el pasado: explican por qué esta parte del pueblo se organiza de esa manera y por qué el paseo actual tiene un carácter tan distinto al de un paseo marítimo convencional.",
-  "Cuando la función carbonera perdió protagonismo, parte de esa infraestructura dejó de servir al trabajo portuario, pero no desapareció del paisaje. El antiguo corredor ferroviario pudo incorporarse a los recorridos peatonales y las estructuras conservadas pasaron a contar físicamente lo que había ocurrido allí.",
-  "Por eso el puerto de San Esteban reúne hoy dos tiempos. Sigue siendo la desembocadura que se ve y se recorre desde el pueblo, pero al mismo tiempo permite leer la etapa en que trenes, carbón y barcos organizaban este frente del Nalón. El patrimonio industrial acompaña el paseo.",
+  "Esa actividad dejó una forma física muy reconocible. Junto al agua permanecen estructuras industriales y trazados ligados al ferrocarril. Explican por qué esta parte del pueblo se organiza de esa manera y por qué el paseo actual tiene un carácter distinto al de un paseo marítimo convencional.",
+  "Cuando la función carbonera perdió protagonismo, parte de esa infraestructura dejó de servir al trabajo portuario, pero no desapareció del paisaje. El antiguo corredor ferroviario pudo incorporarse a los recorridos peatonales y las estructuras conservadas pasaron a mostrar físicamente lo que había ocurrido allí.",
+  "El puerto de San Esteban sigue siendo la desembocadura que se ve y se recorre desde el pueblo, pero al mismo tiempo conserva la huella de la etapa en que trenes, carbón y barcos organizaban este frente del Nalón.",
   "Muros representa otra formación del concejo. Es la capital municipal y su núcleo no creció como prolongación de ese puerto. La separación entre ambos explica que hoy continúen ofreciendo experiencias residenciales distintas aunque compartan ayuntamiento y estén a poca distancia.",
-  "Esta historia importa porque sigue siendo utilizable. En San Esteban, una infraestructura construida para mover carbón ayuda hoy a entender por dónde se camina y qué se ve. El pasado sigue dibujando el recorrido cotidiano.",
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
-  "San Esteban permite empezar por la opción más sencilla: caminar junto al puerto y la desembocadura. El Nalón ocupa aquí todo el paisaje, con San Juan de la Arena al otro lado, mientras cargaderos y restos ferroviarios recuerdan la función industrial del frente portuario. Este tramo pertenece a la vida cotidiana: puede hacerse como una vuelta corta sin preparar una excursión.",
-  "Desde ese mismo entorno aparece otra posibilidad. La Senda Norte aprovecha aproximadamente un kilómetro de la antigua infraestructura ferroviaria y mantiene un recorrido prácticamente llano junto al paisaje industrial y fluvial. Que empiece cerca del puerto no debe confundirse con la ruta costera completa.",
-  "La Senda de los Miradores cambia la escala. Desde las inmediaciones de San Esteban comienza la subida hacia el Espíritu Santo mediante escaleras y después el recorrido continúa por la parte alta de la costa. Aparecen acantilados y miradores y existen desvíos hacia pequeñas playas, pero esos descensos no equivalen a tener calas cómodas para un baño cotidiano.",
-  "El destino más claro del recorrido es Aguilar. La senda completa es una actividad deliberada, no una prolongación llana del paseo del puerto. Lo residencialmente importante es el cambio de esfuerzo: puerto y primer paseo pueden entrar en cualquier tarde, mientras la costa alta exige tiempo, escaleras y desnivel.",
+  "San Esteban permite empezar por la opción más sencilla: caminar junto al puerto y la desembocadura. El Nalón ocupa aquí todo el paisaje, con San Juan de la Arena al otro lado, mientras cargaderos y restos ferroviarios recuerdan la función industrial del frente portuario. Este tramo puede hacerse como una vuelta corta sin preparar una excursión.",
+  "Desde ese mismo entorno aparece otra posibilidad. La Senda Norte aprovecha aproximadamente un kilómetro de la antigua infraestructura ferroviaria y mantiene un recorrido prácticamente llano junto al paisaje industrial y fluvial.",
+  "La Senda de los Miradores cambia claramente la escala. La travesía entre San Esteban y Aguilar ronda los 6,35 km y unas dos horas. Desde el puerto se avanza hacia la costa y la subida al entorno del Espíritu Santo obliga a afrontar un tramo importante de escaleras; después continúan los miradores y el recorrido por la parte alta.",
+  "No es una prolongación llana del paseo del puerto. Puerto y primer paseo pueden entrar en una tarde corriente; hacer la senda hasta Aguilar exige reservar tiempo y aceptar escaleras y desnivel.",
   "Aguilar ofrece la experiencia de playa más completa del concejo: un arenal de unos 640 metros, de arena fina, con acceso adaptado y aparcamiento regulado durante la temporada de baño. Desde Muros se llega por carretera; desde San Esteban puede convertirse en el final de la caminata costera.",
-  "Así aparecen tres relaciones diferentes con el agua: en San Esteban, puerto y ría pueden ser cotidianos; la costa de los miradores es una salida; Aguilar es la playa a la que se va. Vivir cerca de las tres cosas no significa utilizarlas del mismo modo.",
+  "Así aparecen tres relaciones diferentes con el agua: en San Esteban, puerto y ría pueden ser cotidianos; la costa de los miradores es una salida; Aguilar es la playa a la que se va.",
 ] as const;
 
 const CASA_NUEVO2 = [
-  "En Muros de Nalón, una vivienda no se entiende del todo hasta saber en cuál de sus dos núcleos está. Una dirección en Muros y otra en San Esteban pueden pertenecer al mismo concejo y, sin embargo, colocar la vida diaria en escenarios distintos.",
-  "En San Esteban, una vivienda bien situada puede incorporar el puerto, la desembocadura y el paseo junto al Nalón a los recorridos habituales. Eso no significa vivir en una playa urbana: Aguilar sigue siendo un destino y la senda de los miradores es una salida con desnivel. Lo que determinadas calles pueden ofrecer es otra cosa: cerrar la puerta y tener la ría y el antiguo frente portuario dentro de una vuelta cotidiana.",
-  "En Muros, la vivienda se relaciona primero con el núcleo principal. Aguilar y San Esteban están próximos, pero forman parte de desplazamientos diferentes. Una casa puede ofrecer un acceso cómodo al coche y al resto del territorio sin proporcionar la misma relación inmediata con el agua. Aquí, como en San Esteban, la distancia en kilómetros explica menos que el recorrido que realmente se repetirá durante la semana.",
-  "Por eso merece la pena probar una vivienda desde su propia puerta. Hay que recorrer el camino hasta el coche, la compra y el consultorio, y comprobar después cuánto esfuerzo exige llegar a aquello que justificaba la ubicación: puerto, paseo, playa o salida hacia otros servicios. Una casa que parece muy próxima a todo en el mapa puede funcionar de otra manera cuando esos trayectos se repiten.",
-  "También importa cómo responde el inmueble al clima atlántico. Luz y orientación, ventilación, aislamiento, estado de fachadas y cubiertas y cualquier señal que aconseje comprobar humedad forman parte de la vivienda tanto como la superficie o las vistas. No se trata de dar por hecho que existe un problema, sino de comprobarlo en la casa concreta y no deducirlo del municipio.",
-  "Muros de Nalón tiene además un mercado pequeño. Sin una referencia municipal actual suficientemente sólida, comparar viviendas exige mirar con más atención el producto concreto: ubicación dentro del concejo, acceso, estado, distribución, luz, exterior y aparcamiento cuando resulte necesario. Unos pocos anuncios no bastan para describir todo el mercado.",
+  "En Muros de Nalón, una vivienda no se entiende del todo hasta saber en cuál de sus dos núcleos está. Una dirección en Muros y otra en San Esteban pueden pertenecer al mismo concejo y colocar la vida diaria en escenarios distintos.",
+  "En San Esteban, una vivienda bien situada puede incorporar el puerto, la desembocadura y el paseo junto al Nalón a los recorridos habituales. Eso no significa vivir en una playa urbana: Aguilar sigue siendo un destino y la senda de los miradores es una salida con desnivel.",
+  "En Muros, la vivienda se relaciona primero con el núcleo principal. Aguilar y San Esteban están próximos, pero forman parte de desplazamientos diferentes. Una casa puede ofrecer un acceso cómodo al coche y al resto del territorio sin proporcionar la misma relación inmediata con el agua.",
+  "Por eso merece la pena probar una vivienda desde su propia puerta. Hay que recorrer el camino hasta el coche, la compra y el consultorio, y comprobar después cuánto esfuerzo exige llegar a aquello que justificaba la ubicación: puerto, paseo, playa o salida hacia otros servicios.",
+  "También importa cómo responde el inmueble al clima atlántico. Luz y orientación, ventilación, aislamiento, estado de fachadas y cubiertas y cualquier señal que aconseje comprobar humedad forman parte de la vivienda tanto como la superficie o las vistas.",
+  "Muros de Nalón tiene un mercado pequeño. Para comparar viviendas hay que atender especialmente al producto concreto: ubicación dentro del concejo, acceso, estado, distribución, luz, exterior y aparcamiento cuando resulte necesario.",
 ] as const;
 
 const CASA_ADVERTENCIA_MICROZONA =
-  "Muros y San Esteban no son ubicaciones intercambiables. En San Esteban conviene comprobar si la vivienda permite integrar realmente el puerto y la ría en la vida a pie; en Muros, cuánto coche introducen Aguilar, San Esteban y las necesidades exteriores. «Cerca del mar» no resuelve esa diferencia.";
+  "Muros y San Esteban no son ubicaciones intercambiables. En San Esteban conviene comprobar si la vivienda permite integrar realmente el puerto y la ría en la vida a pie; en Muros, cuánto coche introducen Aguilar, San Esteban y las necesidades exteriores.";
 
 const CASA_QUE_CONVIENE_REVISAR =
   "Acceso real desde la calle; recorrido hasta coche, compra y consultorio; luz y orientación; ventilación y aislamiento; estado exterior y señales que justifiquen revisar humedad; aparcamiento; y si el paseo, puerto o playa que aparecen próximos en el anuncio forman parte de una rutina sencilla desde esa puerta.";
@@ -87,11 +87,7 @@ const NO_ENCAJA_SI_NUEVO2 = [
 ] as const;
 
 const QUE_COMPROBAR_NUEVO2 = [
-  "Tratar Muros y San Esteban como dos candidatos residenciales distintos.",
-  "En San Esteban, salir desde una vivienda real y recorrer a pie el consultorio, el puerto, la ría y el comienzo de las sendas. Así se comprueba cuánto del frente del Nalón entraría de verdad en una tarde normal.",
-  "En Muros, hacer el mismo ejercicio dentro del núcleo y después probar los desplazamientos hacia Aguilar y San Esteban. Estar cerca en kilómetros no significa incorporar esos lugares del mismo modo a la rutina.",
-  "Hacer también el trayecto real hacia el hospital y una compra de mayor escala, porque parte de la semana se resolverá fuera del concejo.",
-  "Visitar la vivienda con tiempo húmedo y comprobar luz, orientación, ventilación, acceso, aparcamiento y cualquier señal que aconseje revisar humedad.",
+  "Tratar Muros y San Esteban como dos candidatos residenciales distintos. En San Esteban, salir desde una vivienda real y recorrer a pie el consultorio, el puerto, la ría y el comienzo de las sendas. En Muros, hacer el mismo ejercicio dentro del núcleo y después probar los desplazamientos hacia Aguilar y San Esteban. Hacer también el trayecto real hacia el hospital y una compra de mayor escala. Visitar la vivienda con tiempo húmedo y comprobar luz, orientación, ventilación, acceso, aparcamiento y cualquier señal que aconseje revisar humedad.",
 ] as const;
 
 const FOTO_COMO_VILLA = {
@@ -157,7 +153,16 @@ export default function Nuevo2MurosDeNalonPage() {
     <main className="mx-auto max-w-6xl px-4 py-8">
       <CabeceraFichaMunicipio ficha={ficha} zonaId={z.id} zonaNombre={z.zona} />
 
-      <BloqueZonaFicha zonaId={z.id} nombreZona={z.zona} resumen={RESUMEN_ZONA_NUEVO2} />
+      <BloqueZonaFicha
+        zonaId={z.id}
+        nombreZona={z.zona}
+        resumen={RESUMEN_ZONA_NUEVO2[0]}
+      />
+      {RESUMEN_ZONA_NUEVO2.slice(1).map((p) => (
+        <p key={p.slice(0, 48)} className="mt-3 max-w-2xl text-[17px] leading-relaxed text-[var(--tinta)]">
+          {p}
+        </p>
+      ))}
 
       <MapaMunicipioFicha ficha={ficha} capasPortada={Boolean(ficha.mapa)} />
 

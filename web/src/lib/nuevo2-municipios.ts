@@ -19,6 +19,14 @@ export const NUEVO2_MUNICIPIO_SLUGS = new Set([
   "moana",
   "bueu",
   "marin",
+  "pontevedra",
+  "poio",
+  "sanxenxo",
+  "o-grove",
+  "vigo",
+  "redondela",
+  "soutomaior",
+  "vilaboa",
 ]);
 
 /** Enlace a ficha: Nuevo2 si existe; si no, ruta current de zona. */

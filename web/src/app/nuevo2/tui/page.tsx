@@ -14,8 +14,7 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
 
 /**
  * NUEVO2 — Tui (Baixo Miño).
- * Texto: Lote_A_Guarda_Tui_Cursor_NUEVO2.txt (APROBADO EDITORIALMENTE)
- * Cabecera: fotosAbrir[0] = tui-catedral-casco.jpg (sin fotoIdentidad).
+ * Texto: Lote_Baixo_Mino_5_CERTIFICADOS_Cursor_NUEVO2.txt
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
@@ -32,7 +31,7 @@ const COMO_SE_VIVE_NUEVO2 = [
   "El ensanche ofrece otra semana: calles más anchas, edificios más recientes, supermercados y mejor relación con el coche. Conviene, sin embargo, comprobar el ruido de la A-55 según la calle.",
   "Valença está al otro lado del río. Cruzar a Portugal forma parte de la vida normal para compras, paseo, restauración y actividades de la Eurocidade; no necesita plantearse como una excursión ocasional.",
   "Tui dispone además de ferrocarril y conexión directa por carretera hacia Vigo y Portugal. La utilidad del transporte público depende del horario concreto, pero la combinación de tren, autovía y servicios locales la diferencia del resto de la comarca.",
-  "Para hospital especializado, el área de Vigo queda aproximadamente a 25 km y 30 minutos. El aeropuerto de Vigo está aproximadamente a 25 minutos.",
+  "Para atención hospitalaria de mayor complejidad, la referencia práctica está en el área de Vigo, aproximadamente a 25 km y unos 30 minutos. El aeropuerto de Vigo queda aproximadamente a 25 minutos.",
   "Las fiestas de San Telmo alteran durante varios días la vida del centro con actividades, música, procesiones y ocupación de calles. Vivir dentro del casco implica aceptar esa intensidad como parte del calendario local.",
 ] as const;
 
@@ -41,7 +40,7 @@ const CLIMA_NUEVO2 = [
   "En verano, la temperatura media ronda los 21 °C. Los episodios cálidos pueden sentirse más que en la punta costera, especialmente en viviendas con mucha exposición solar o poca ventilación.",
   "El invierno sigue siendo templado en temperatura, pero la humedad, la lluvia y las nieblas del río cambian la sensación de casa. Algunas mañanas el valle amanece cerrado y gana visibilidad a medida que avanza el día.",
   "En el casco antiguo la piedra añade otra variable. Una vivienda histórica puede tener mucho carácter y al mismo tiempo necesitar una revisión seria de ventilación, aislamiento, carpinterías y humedad.",
-  "En el ensanche la conversación cambia hacia orientación, exposición solar, eficiencia del edificio y posible ruido de tráfico.",
+  "En el ensanche importan más la orientación, la exposición solar, la eficiencia del edificio y el posible ruido de tráfico.",
   "Frente a Mallorca se pierde continuidad de cielo seco y terraza invernal; a cambio se gana un paisaje mucho más verde y estaciones más marcadas. En verano, sin embargo, Tui no ofrece el mismo alivio térmico que la costa atlántica.",
 ] as const;
 
@@ -64,14 +63,14 @@ const DE_DONDE_VIENE_NUEVO2 = [
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
-  "Tui no tiene costa marítima, pero eso no significa que no tenga baño propio.",
-  "El Miño ofrece varias zonas de baño dentro del municipio. Areeiros, en Guillarei, y O Penedo, en Caldelas, son playas fluviales acondicionadas en verano.",
-  "No deben confundirse con la ribera inmediatamente bajo el casco. La antigua zona de A Mariña, junto al paseo fluvial, no es una playa apta para baño. Para vivir Tui conviene separar claramente paseo urbano junto al río de zona fluvial de baño.",
+  "Tui no tiene costa marítima, pero eso no significa que no tenga baño fluvial.",
+  "Areeiros, en Guillarei, y O Penedo, en Caldelas, son las principales zonas habituales de baño fluvial del municipio y se acondicionan en temporada. Antes de bañarse conviene comprobar los avisos municipales y el estado sanitario vigente, porque pueden existir restricciones temporales.",
+  "No deben confundirse con la ribera inmediatamente bajo el casco. La información turística municipal señala que A Mariña, junto al paseo fluvial, no es apta para el baño. El paseo urbano junto al río y las playas fluviales cumplen funciones distintas.",
   "El paseo cotidiano puede empezar bajo el casco. La ribera permite caminar en terreno llano con el Miño y Portugal enfrente, mientras el recorrido por la ciudad histórica añade cuestas, piedra y escaleras según la calle elegida.",
   "El Monte Aloia cambia por completo el terreno. Es el primer parque natural declarado en Galicia y ofrece una red de senderos, bosque y miradores sobre el valle. Es una salida de monte, no una prolongación llana del paseo urbano.",
   "La costa queda aproximadamente a 25 minutos, con opciones como Cesantes o Area Grande según destino y tráfico.",
   "Valença añade otra dirección de paseo. Cruzar el puente permite pasar del casco gallego a la fortaleza portuguesa sin convertir el cambio de país en una excursión de día entero.",
-  "Tui ofrece, por tanto, río para paseo y baño fluvial, monte muy próximo y mar como salida deliberada.",
+  "Tui ofrece, por tanto, río para paseo y baño fluvial cuando las condiciones sanitarias lo permiten, monte muy próximo y mar como salida deliberada.",
 ] as const;
 
 const CASA_NUEVO2 = [
@@ -84,8 +83,7 @@ const CASA_NUEVO2 = [
 ] as const;
 
 const CASA_ADVERTENCIA_MICROZONA = [
-  "En Tui la cota y la relación con la A-55 pueden importar tanto como la distancia lineal al centro.",
-  "Casco, ensanche y parroquias no ofrecen la misma experiencia. Una vivienda histórica puede estar muy cerca de todo y exigir más esfuerzo por pendientes o accesibilidad; un piso del ensanche puede simplificar ascensor y aparcamiento; una casa exterior gana terreno a cambio de coche.",
+  "En Tui la cota y la relación con la A-55 pueden importar tanto como la distancia lineal al centro. Casco, ensanche y parroquias no ofrecen la misma experiencia. Una vivienda histórica puede estar muy cerca de todo y exigir más esfuerzo por pendientes o accesibilidad; un piso del ensanche puede simplificar ascensor y aparcamiento; una casa exterior gana terreno a cambio de coche.",
 ] as const;
 
 const CASA_QUE_CONVIENE_REVISAR = [
@@ -93,7 +91,7 @@ const CASA_QUE_CONVIENE_REVISAR = [
   "Si la vivienda está cerca de la A-55, visitarla en varias franjas horarias y escuchar terraza, dormitorios y ventanas abiertas.",
   "En vivienda histórica, revisar humedad, ventilación, aislamiento, carpinterías y accesibilidad. La piedra y el carácter arquitectónico no sustituyen una inspección del comportamiento real de la casa en invierno.",
   "En el ensanche, comprobar orientación, exposición de verano, ascensor, garaje y gastos de comunidad.",
-  "Si el río pesa en la decisión, diferenciar paseo fluvial de baño: visitar Areeiros u O Penedo y no asumir que cualquier tramo urbano del Miño es apto para bañarse.",
+  "Si el río pesa en la decisión, diferenciar paseo fluvial de baño: visitar Areeiros u O Penedo y comprobar los avisos municipales y el estado sanitario vigente antes de bañarse.",
   "Hacer también el trayecto real hacia el hospital y el aeropuerto, y comprobar qué horarios de tren serían útiles para la rutina concreta.",
 ] as const;
 
@@ -106,7 +104,7 @@ const CASA_MERCADO_REVENTA = [
 ] as const;
 
 const CASA_LEYENDA_COMPACTA =
-  "A: ≤5 min de la costa · B: 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m². Estimaciones comparativas; conviene contrastarlas con la oferta del momento.";
+  "A ≈ ≤5 min de la costa · B ≈ 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m².";
 
 const CASA_FILA_PRECIOS = {
   municipio: "Tui",
@@ -128,14 +126,14 @@ const NO_ENCAJA_SI_NUEVO2 = [
   "Encaja peor si la razón principal de la mudanza es tener un verano claramente costero y playa marítima a pie. Tui es ciudad de río y el océano requiere desplazamiento.",
   "Tampoco si se busca el silencio de una aldea. El casco tiene peregrinos, actividad, fiestas y vida urbana; el ensanche añade tráfico y la proximidad de la A-55 puede introducir ruido.",
   "Puede resultar menos adecuada si se quieren evitar por completo pendientes. El casco histórico está construido sobre una ladera y la cota de la vivienda cambia la caminabilidad.",
-  "Y conviene descartarla si el calor de valle es incompatible con lo que se busca. El verano es más cálido que en la punta atlántica de A Guarda u Oia.",
+  "Y encaja peor si el calor de valle es incompatible con lo que se busca. El verano es más cálido que en la punta atlántica de A Guarda u Oia.",
 ] as const;
 
 const QUE_COMPROBAR_NUEVO2 = [
   "Pasar una jornada normal moviéndose a pie entre la vivienda candidata, compra, centro y ribera. La autonomía de Tui es una ventaja real solo si la microzona permite aprovecharla.",
   "Recorrer las pendientes del casco desde la vivienda y repetir mentalmente el trayecto con bolsas, lluvia o movilidad reducida. Pocos metros en el mapa pueden equivaler a una diferencia importante de cota.",
   "Si se mira el ensanche, escuchar la A-55 a distintas horas. Una conexión excelente por carretera pierde parte de su valor si domina acústicamente la terraza o el dormitorio.",
-  "Visitar una playa fluvial real —Areeiros u O Penedo— y después hacer una salida a la costa. Así se comprueba si el Miño cubre la relación cotidiana con el agua o si el mar acabará siendo una necesidad frecuente.",
+  "Visitar Areeiros u O Penedo, comprobando antes los avisos municipales y el estado sanitario vigente, y después hacer una salida a la costa. Así se comprueba si el Miño cubre la relación cotidiana con el agua o si el mar acabará siendo una necesidad frecuente.",
   "Probar también Valença a pie y comprobar si esa conexión se incorporaría de verdad a la semana.",
   "Por último, hacer el trayecto al hospital y al aeropuerto y revisar horarios útiles de tren. Tui destaca precisamente por logística; conviene verificar que esas ventajas funcionan para la rutina concreta.",
 ] as const;
@@ -241,7 +239,7 @@ export default function Nuevo2TuiPage() {
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
           <ConNegritas
             texto={COMO_SE_VIVE_NUEVO2[6]}
-            fragmentos={["25 km y 30 minutos", "25 minutos"]}
+            fragmentos={["25 km y unos 30 minutos", "25 minutos"]}
           />
         </p>
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{COMO_SE_VIVE_NUEVO2[7]}</p>

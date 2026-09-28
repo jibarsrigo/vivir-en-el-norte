@@ -14,7 +14,7 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
 
 /**
  * NUEVO2 — O Rosal (Baixo Miño).
- * Texto: O_Rosal_Cursor_NUEVO2.txt (APROBADA EDITORIALMENTE)
+ * Texto: Lote_Baixo_Mino_5_CERTIFICADOS_Cursor_NUEVO2.txt
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
@@ -28,10 +28,10 @@ const COMO_SE_VIVE_NUEVO2 = [
   "O Rosal combina un pequeño núcleo donde se pueden resolver bastantes cosas a pie con un territorio residencial mucho más extendido. Esa diferencia es la primera que conviene entender.",
   "En O Calvario hay plaza, comercio básico, farmacia y atención primaria. Vivir cerca permite incorporar parte de los recados a una rutina peatonal y mantener una relación reconocible con un centro. No alcanza la autonomía urbana de Tui ni la concentración comercial de A Guarda, pero tampoco obliga a coger el coche para absolutamente todo.",
   "Fuera del núcleo cambia la escala. Las casas se reparten entre carreteras locales, viñedos y pequeños lugares. Allí el coche gana peso para compra, actividades, gestiones y desplazamientos entre distintas partes del municipio.",
-  "A Guarda funciona como apoyo cercano para ampliar comercio y servicios y queda aproximadamente a diez o quince minutos desde buena parte del valle. Vigo entra ya en otra escala: sirve para necesidades metropolitanas y hospitalarias, con el Hospital Álvaro Cunqueiro en el orden de 40 km y unos 40 minutos desde el núcleo de referencia.",
+  "A Guarda funciona como apoyo cercano para ampliar comercio y servicios y queda aproximadamente a diez o quince minutos desde buena parte del valle. Para atención hospitalaria de mayor complejidad la referencia práctica está en el área de Vigo; el Álvaro Cunqueiro queda en el orden de 40 km y unos 40 minutos desde el núcleo de referencia.",
   "El autobús permite algunos desplazamientos por la comarca y hacia otros núcleos, pero O Rosal no tiene tren y la dispersión hace que su utilidad dependa mucho de dónde esté la vivienda. Para una casa alejada de O Calvario, disponer de coche simplifica claramente la semana.",
-  "El municipio mantiene vida local durante todo el año. El verano añade movimiento, especialmente alrededor de la Feira do Viño, que en julio transforma durante unos días la Praza do Calvario en un punto de encuentro mucho más concurrido. En 2026 la feria volvió a celebrarse durante tres jornadas y registró una afluencia especialmente alta.",
-  "El resto del año devuelve el protagonismo al ritmo de pueblo, las parroquias, las bodegas, las fincas y los recorridos cotidianos. O Rosal no funciona como destino de playa que se enciende en verano y se apaga en invierno.",
+  "El municipio mantiene vida local durante todo el año. En julio, la Feira do Viño transforma durante unos días la Praza do Calvario en un punto de encuentro mucho más concurrido. El resto del año devuelve el protagonismo al ritmo de pueblo, las parroquias, las bodegas, las fincas y los recorridos cotidianos.",
+  "O Rosal no funciona como destino de playa que se enciende en verano y se apaga en invierno.",
 ] as const;
 
 const CLIMA_NUEVO2 = [
@@ -46,9 +46,9 @@ const VIVIR_NUEVO2 = [
   "Frente a Mallorca, el cambio de O Rosal no consiste únicamente en pasar de un clima mediterráneo a uno atlántico. Cambia también la relación entre pueblo, casa y territorio.",
   "Aquí es posible vivir rodeado de viñedo o con una pequeña finca sin quedar necesariamente aislado de un núcleo. O Calvario proporciona una referencia cotidiana y A Guarda amplía el radio a pocos minutos. Esa combinación distingue O Rosal tanto de la dispersión costera de Oia como de una pequeña ciudad como Tui.",
   "El coche sigue teniendo un papel importante, sobre todo fuera del núcleo. Pero no todos los desplazamientos son largos: parte de la vida consiste precisamente en unir lugares cercanos del valle, bajar hacia A Guarda o acercarse al Miño y al Tamuxe.",
-  "El agua también se vive de otra manera. El océano no está delante de casa, pero la costa de A Guarda queda a un desplazamiento corto y el propio municipio ofrece ribera y baño fluvial. Eso permite alternar tres paisajes —valle, río y costa— sin que ninguno monopolice la rutina.",
+  "El agua también se vive de otra manera. El océano no está delante de casa, pero la costa de A Guarda queda a un desplazamiento corto y el propio municipio ofrece ribera y baño fluvial. Eso permite alternar valle, río y costa sin que ninguno monopolice la rutina.",
   "La vida social tiene escala local. Plaza, bodegas, fiestas y relaciones vecinales pesan más que una gran oferta de ocio urbano. En julio, la Feira do Viño llena O Calvario de actividad; el resto del año la escala vuelve a ser mucho más pequeña.",
-  "Para quien llega desde Mallorca, la pregunta práctica es si esa vida de valle compensa disponer de menos servicios concentrados y depender más del coche. Si la respuesta es sí, O Rosal permite mantener un pequeño centro cotidiano sin renunciar a una casa con terreno, viñedo o paisaje abierto.",
+  "Frente a Mallorca, O Rosal cambia servicios concentrados y menor dependencia del coche por una vida de valle con un pequeño centro de referencia, más vivienda con terreno y acceso cercano al río y a la costa. Esa combinación funciona mejor para quien acepta desplazarse más a cambio de espacio y entorno rural.",
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
@@ -56,13 +56,13 @@ const DE_DONDE_VIENE_NUEVO2 = [
   "La expresión más espectacular de ese sistema son los Muíños do Folón e do Picón: 67 molinos hidráulicos, principalmente de los siglos XVII y XVIII, agrupados en dos laderas de la sierra de A Groba. Los canales conducían el agua de unos molinos a otros y permitían aprovechar el desnivel para moler el cereal. Hoy el conjunto está protegido como Bien de Interés Cultural y sigue mostrando físicamente cómo una infraestructura de trabajo podía modelar una montaña entera.",
   "El vino terminó convirtiéndose en otra de las grandes señas del valle. O Rosal forma parte de la Denominación de Origen Rías Baixas y el viñedo continúa siendo paisaje y actividad económica, no únicamente decoración rural. Las parras, bodegas y fincas explican buena parte de lo que se ve al recorrer el municipio.",
   "Otra memoria propia es la de los cabaqueiros, trabajadores que salían temporalmente de O Rosal para fabricar tejas y ladrillos. Su oficio llegó a generar un vocabulario gremial propio, conocido como latín dos cabaqueiros. Un monumento en la Praza do Calvario recuerda todavía esa tradición de trabajo itinerante.",
-  "El Miño y la proximidad de Portugal completan esa historia. El valle ha vivido ligado a una frontera que durante mucho tiempo separó economías y que hoy se atraviesa con normalidad. Esa relación explica que el territorio mire a la vez hacia el río, la costa y los núcleos portugueses de la otra orilla.",
+  "El Miño y la proximidad de Portugal completan esa historia. El valle ha vivido ligado a una frontera que durante mucho tiempo separó economías y que hoy se atraviesa con normalidad. Esa relación ayuda a entender por qué el territorio mira a la vez hacia el río, la costa y los núcleos portugueses de la otra orilla.",
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
   "O Rosal no tiene costa marítima, pero sería engañoso resumirlo como un municipio sin agua cotidiana. La experiencia se reparte entre el baño fluvial dentro del propio municipio, los caminos junto al Miño y el Tamuxe y la costa de A Guarda cuando se quiere Atlántico.",
-  "Para caminar con frecuencia, el recurso más fácil es el Sendeiro de Pescadores Miño–Tamuxe. Es un recorrido lineal de unos 7,5 km, aproximadamente hora y media, prácticamente sin pendiente y con zonas de sombra y descanso. Atraviesa bosque de ribera, juncales y áreas recreativas y pasa por el entorno de San Miguel y el Tamuxe.",
-  "No hace falta recorrerlo entero. Un tramo entre el Parque do Tamuxe y As Aceñas puede funcionar como paseo corto y accesible; desde As Eiras también se puede entrar en el sendero y adaptar la distancia al tiempo disponible. Es una opción mucho más repetible para el día normal que una ruta de montaña.",
+  "Para caminar con frecuencia, el recurso más fácil es el Sendeiro de Pescadores Miño–Tamuxe. Es un recorrido lineal de unos 7,5 km, aproximadamente hora y media, de dificultad baja y con zonas de sombra y descanso. Atraviesa bosque de ribera, juncales y áreas recreativas y pasa por el entorno de San Miguel y el Tamuxe.",
+  "No hace falta recorrerlo entero. Desde As Eiras, San Miguel o As Aceñas se puede entrar en el sendero y adaptar la distancia al tiempo disponible. Es una opción mucho más repetible para el día normal que una ruta de montaña.",
   "El municipio tiene además baño fluvial propio. La Praia das Eiras, junto al Miño, dispone de arenal y conecta directamente con el Sendeiro de Pescadores. En As Aceñas, junto al Tamuxe, hay otra zona habilitada para el baño, con sombra, mesas y caminos junto al río.",
   "Eso cambia bastante la comparación con una localidad puramente interior: no hace falta salir de O Rosal cada vez que se quiere estar junto al agua en verano.",
   "Para baño de mar, la lógica es distinta. Area Grande y otras playas de A Guarda quedan aproximadamente a diez o quince minutos según el punto de partida. El Atlántico es por tanto una salida próxima, no el paisaje inmediato de la vivienda.",
@@ -78,20 +78,20 @@ const CASA_NUEVO2 = [
   "Las posiciones de ladera o las casas más rurales ofrecen otra experiencia: parcela, vistas sobre el valle y contacto inmediato con viñedo y monte. Allí conviene comprobar accesos, pendiente, orientación y cuánto coche exige realmente la dirección.",
   "En una vivienda antigua, la piedra y el carácter tradicional no sustituyen una buena rehabilitación. Cubierta, carpinterías, ventilación, aislamiento y señales de humedad merecen una revisión detenida. En casas con finca también importan drenaje, muros, cierres y facilidad de mantenimiento del terreno.",
   "La orientación puede marcar una diferencia grande durante el invierno. Una terraza atractiva en verano puede recibir poco sol en los meses húmedos; una casa bien orientada puede aprovechar mucho mejor las horas de luz disponibles.",
-  "Como referencia municipal, O Rosal se sitúa en 1.190 €/m² en agosto de 2026.",
+  "Como referencia municipal, O Rosal se sitúa en 1.190 €/m².",
 ] as const;
 
 const CASA_ADVERTENCIA_MICROZONA =
   "No conviene comparar una vivienda próxima a O Calvario, una casa junto al entorno fluvial de San Miguel o As Eiras y una propiedad en una posición rural o de ladera como si ofrecieran la misma vida. Antes de comparar precios hay que comparar la rutina: posibilidad de hacer recados andando, salida hacia A Guarda, acceso al río, tiempo real de coche, orientación y mantenimiento de la parcela.";
 
 const CASA_QUE_CONVIENE_REVISAR =
-  "Desde la dirección concreta, hacer los recorridos que se repetirían durante la semana: compra básica, centro de O Calvario, incorporación a la carretera hacia A Guarda y un paseo que pueda hacerse sin coger el coche. Conviene visitar también después de varios días húmedos. Revisar orientación, entrada de luz, ventilación, cubierta, paredes, carpinterías, drenaje, parcela y zonas que permanezcan mojadas permite entender mejor la vivienda que una visita aislada con buen tiempo. La fibra debe comprobarse en la dirección concreta, especialmente en posiciones más alejadas. En casas rehabilitadas o con construcciones auxiliares también conviene revisar situación urbanística y alcance efectivo de las obras realizadas. Si el atractivo principal es el terreno, hay que imaginar su mantenimiento durante todo el año: accesos, pendientes, cierres, vegetación, agua y tiempo necesario para mantenerlo. Una finca que aporta privacidad también añade trabajo.";
+  "Desde la dirección concreta, hacer los recorridos que se repetirían durante la semana: compra básica, centro de O Calvario, incorporación a la carretera hacia A Guarda y un paseo que pueda hacerse sin coger el coche. Conviene visitar también después de varios días húmedos. Revisar orientación, entrada de luz, ventilación, cubierta, paredes, carpinterías, drenaje, parcela y zonas que permanezcan mojadas permite entender mejor la vivienda que una visita aislada con buen tiempo. La fibra debe comprobarse en la dirección concreta, especialmente en posiciones más alejadas. En casas rehabilitadas o con construcciones auxiliares también conviene revisar situación urbanística y alcance efectivo de las obras realizadas. Si el atractivo principal es el terreno, hay que imaginar su mantenimiento durante todo el año: accesos, pendientes, cierres, vegetación, agua y tiempo necesario para mantenerlo.";
 
 const CASA_MERCADO_REVENTA =
-  "O Rosal combina demanda residencial local con el atractivo de una vivienda de valle relativamente próxima a la costa. En una futura venta puede ayudar que la casa resulte utilizable para perfiles distintos: buen acceso, orientación, estado, aparcamiento y una relación sencilla con O Calvario o las carreteras principales amplían ese grupo. Una vivienda muy dependiente del coche, con humedad difícil de resolver, accesos incómodos o una parcela especialmente exigente puede limitarlo. Aquí el precio de entrada importa, pero también cuánto trabajo exige la propiedad para vivir cómodamente en ella.";
+  "O Rosal combina demanda residencial local con el atractivo de una vivienda de valle relativamente próxima a la costa. En una futura venta puede ayudar que la casa resulte utilizable para perfiles distintos: buen acceso, orientación, estado, aparcamiento y una relación sencilla con O Calvario o las carreteras principales amplían ese grupo. Una vivienda muy dependiente del coche, con humedad difícil de resolver, accesos incómodos o una parcela especialmente exigente puede limitarlo.";
 
 const CASA_LEYENDA_COMPACTA =
-  "A: ≤5 min de la costa · B: 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m². Estimaciones comparativas; conviene contrastarlas con la oferta del momento.";
+  "A ≈ ≤5 min de la costa · B ≈ 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m².";
 
 const CASA_FILA_PRECIOS = {
   municipio: "O Rosal",

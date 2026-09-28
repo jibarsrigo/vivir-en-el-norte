@@ -13,8 +13,7 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
 
 /**
  * NUEVO2 — Oia (Baixo Miño).
- * Texto: VIVIR_EN_EL_NORTE_OIA_APROBADA_EDITORIALMENTE_2026-09-26.txt
- * Instrucción: CURSOR_NUEVO2_OIA_IMPLEMENTACION_COMPLETA_2026-09-26.txt
+ * Texto: Lote_Baixo_Mino_5_CERTIFICADOS_Cursor_NUEVO2.txt
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
@@ -25,27 +24,27 @@ const RESUMEN_ZONA_NUEVO2 = [
 const COMO_SE_VIVE_NUEVO2 = [
   "Oia no ofrece una vida de centro urbano compacto. La rutina se reparte entre pequeños núcleos y la PO-552 funciona como eje práctico de buena parte del municipio. Elegir casa significa, por tanto, elegir también qué parte de esa geografía entrará en el día normal.",
   "Santa María es la opción que permite una relación más inmediata con el núcleo histórico: monasterio, O Arrabal, costa y Camino Portugués pasan por el mismo pequeño ámbito. O Arrabal conserva calles estrechas, pequeñas plazas y casas tradicionales alrededor del monasterio. Es un lugar donde se puede salir andando a mirar el mar o recorrer el barrio sin convertir cada paseo en un desplazamiento en coche.",
-  "Viladesuso y Mougás funcionan de otra manera. Son núcleos costeros más extendidos a lo largo del eje viario. Se mantiene muy cerca el Atlántico y se gana una posición cómoda para moverse hacia Baiona, pero la experiencia es menos la de «bajar al centro» que la de enlazar puntos repartidos por carretera.",
+  "Viladesuso y Mougás funcionan de otra manera. Son núcleos costeros más extendidos a lo largo del eje viario. Se mantiene muy cerca el Atlántico y se gana una posición cómoda para moverse hacia Baiona, pero la experiencia es menos la de bajar a un centro compacto que la de enlazar puntos repartidos por carretera.",
   "Burgueira y Loureza introducen otra Oia: valles interiores, monte y núcleos rurales separados del corredor litoral. Allí vivir en el mismo municipio no significa tener el mar incorporado de la misma forma a la puerta de casa.",
   "Hay servicios básicos dentro del municipio: centro de salud, farmacia, colegios, escuela infantil y servicios municipales. Eso permite resolver una parte de la rutina sin salir de Oia, pero no convierte al municipio en autosuficiente para todas las compras, gestiones o necesidades sanitarias.",
   "Para ampliar ese radio aparecen dos apoyos costeros próximos: A Guarda hacia el sur y Baiona hacia el norte. Desde Santa María de Oia ambos quedan aproximadamente en el orden de veinte minutos en coche, aunque la cifra cambia según el núcleo desde el que se salga. Para una oferta urbana mucho mayor hay que continuar hacia Vigo.",
-  "La atención primaria se resuelve en el municipio. Para atención hospitalaria, la referencia práctica es el Hospital Álvaro Cunqueiro, en Vigo, aproximadamente a 40 km y unos 40 minutos desde el núcleo de referencia. Hay autobús por el corredor costero y conexiones hacia Baiona, Nigrán y Vigo, pero en un municipio tan disperso el coche sigue teniendo un peso alto en la rutina.",
-  "Esa es probablemente la clave cotidiana de Oia: puede haber muchas cosas relativamente cerca y, al mismo tiempo, pocas concentradas en un único punto al que se llegue andando. La dirección concreta pesa mucho.",
+  "La atención primaria se resuelve en el municipio. Para atención hospitalaria de mayor complejidad la referencia práctica está en el área de Vigo; el Hospital Álvaro Cunqueiro queda aproximadamente a 40 km y unos 40 minutos desde el núcleo de referencia. Son tiempos orientativos que cambian con el punto de salida y el tráfico.",
+  "Hay autobús por el corredor costero y conexiones hacia Baiona, Nigrán y Vigo, pero en un municipio tan disperso el coche sigue teniendo un peso alto en la rutina. La dirección concreta pesa mucho: puede haber bastantes cosas a una distancia razonable y, al mismo tiempo, pocas concentradas en un único punto al que se llegue andando.",
 ] as const;
 
 const CLIMA_NUEVO2 = [
-  "Oia supone un cambio claro respecto a Mallorca. El verano es bastante más suave y la idea de calor estable durante semanas pierde protagonismo. En esta parte de la costa gallega, julio y agosto se mueven aproximadamente alrededor de los 20 °C de temperatura media, muy lejos de un verano mediterráneo dominado por el calor.",
+  "Oia supone un cambio claro respecto a Mallorca. El verano es bastante más suave y la idea de calor estable durante semanas pierde protagonismo. En esta parte de la costa gallega, julio y agosto se mueven aproximadamente alrededor de los 20 °C de temperatura media, lejos de un verano mediterráneo dominado por el calor.",
   "La segunda diferencia es la humedad. El año está mucho más marcado por la llegada de frentes atlánticos, lluvia y alternancia de jornadas húmedas y abiertas. Eso no significa vivir bajo lluvia continua: significa que terraza, paseo y vida exterior dependen más del tiempo del día y menos de una larga temporada de estabilidad casi garantizada.",
   "En Oia se añade una circunstancia local decisiva: el municipio está directamente expuesto al Atlántico y encajado contra la sierra de A Groba. En la franja litoral, viento, humedad salina y exposición de la fachada occidental pueden importar tanto como la temperatura media. Dos casas separadas por poca distancia pueden funcionar de manera distinta si una queda muy abierta al océano y otra más protegida.",
   "Eso cambia la vivienda. Una visita de verano con las ventanas abiertas dice poco sobre cómo funcionará una casa en enero. Orientación, entrada de luz, ventilación, aislamiento, cubierta, carpinterías y signos de humedad merecen atención.",
-  "También cambia la manera de planificar el exterior. El verano permite mucha vida fuera sin el calor fuerte de Mallorca, pero el año invita menos a dar por supuesto que playa, terraza o paseo funcionarán siempre con tiempo estable. En cambio, un día templado y cubierto puede seguir siendo perfectamente utilizable para caminar por la costa o el monte.",
+  "También cambia la manera de planificar el exterior. El verano permite mucha vida fuera sin el calor fuerte de Mallorca, pero el año invita menos a dar por supuesto que playa, terraza o paseo funcionarán siempre con tiempo estable. Un día templado y cubierto, sin embargo, puede seguir siendo perfectamente utilizable para caminar por la costa o el monte.",
 ] as const;
 
 const VIVIR_NUEVO2 = [
   "El cambio no termina en el clima. Oia ofrece mucha costa pero poca ciudad. La escala diaria pasa de elegir entre muchos servicios próximos a decidir qué puede resolverse en el propio núcleo y para qué conviene conducir hacia A Guarda, Baiona o Vigo.",
   "También cambia la relación con el mar. Aquí el Atlántico puede estar delante de la ventana y, sin embargo, no existir debajo de casa una gran playa de arena en la que instalar espontáneamente una tarde de baño. La costa de Oia es abierta y rocosa; sus pequeños espacios de baño, las mareas y las pozas interiores obligan a relacionarse con el agua de otra manera.",
   "El coche adquiere por eso un papel importante. No necesariamente hace falta cogerlo para salir a caminar si la vivienda está junto al Camino o en Santa María, pero aparece con facilidad para compras mayores, determinados servicios, playas más cómodas o actividades situadas en otra parroquia.",
-  "La recompensa es otra escala de vida. Mar, monte y pequeños núcleos rurales están muy juntos físicamente. Desde la costa se puede pasar en pocos kilómetros de las casas junto al Atlántico a pistas y caminos de la sierra de A Groba. Esa cercanía no elimina la dispersión; precisamente la produce.",
+  "Mar, monte y pequeños núcleos rurales están muy juntos físicamente. Desde la costa se puede pasar en pocos kilómetros de las casas junto al Atlántico a pistas y caminos de la sierra de A Groba. Esa proximidad no elimina la dispersión: forma parte de ella.",
   "El Camino Portugués de la Costa añade además un ritmo propio. Los peregrinos atraviesan unos veinte kilómetros del municipio y pasan por varios de sus núcleos. Su presencia da movimiento a determinados tramos y negocios, sobre todo en temporada, pero Oia continúa siendo un municipio pequeño cuando esa circulación baja.",
 ] as const;
 
@@ -53,29 +52,29 @@ const DE_DONDE_VIENE_NUEVO2 = [
   "La forma actual de Oia empieza mucho antes del monasterio. En sus montes aparecen petroglifos —grabados realizados sobre la roca— y asentamientos antiguos que muestran una ocupación humana muy anterior a la configuración de los núcleos actuales. En A Cabeciña, sobre Mougás, esas huellas prehistóricas forman parte todavía del paisaje.",
   "Pero el elemento que explica mejor la forma de Santa María es el monasterio. La primera referencia escrita es de 1137, cuando aparecen unidos tres pequeños monasterios de la zona; en 1185 la comunidad quedó vinculada a la orden del Císter. La iglesia medieval y las ampliaciones posteriores crearon junto al mar un gran conjunto religioso que no quedó aislado: a su alrededor creció O Arrabal, el pequeño barrio de calles, plazas y casas tradicionales que todavía acompaña al monasterio.",
   "Su posición frente al Atlántico tampoco fue solamente contemplativa. Durante la Edad Moderna el conjunto se fortificó y dispuso de artillería para defender este tramo de costa frente a incursiones marítimas. De ahí procede la historia de los llamados «monjes artilleros». Las murallas y la propia posición del monasterio frente al agua se entienden mejor sabiendo que aquel borde marítimo era también un frente que había que vigilar y defender.",
-  "La relación entre comunidad y territorio continuó tierra adentro. En la sierra de A Groba pervive la tradición de los curros y la Rapa das Bestas: caballos que viven libres en el monte son reunidos periódicamente para su manejo y cuidado. No es solo una fiesta añadida al calendario; muestra una relación ganadera con los montes que todavía forma parte de la identidad del municipio.",
-  "El Camino Portugués de la Costa superpone hoy otra línea al territorio. Recorre la franja atlántica y vuelve a conectar los pequeños núcleos entre sí a pie. Por eso en Oia conviven huellas muy distintas —prehistóricas, monásticas, rurales y jacobeas— sin que ninguna explique por sí sola todo el municipio.",
+  "La relación entre comunidad y territorio continuó tierra adentro. En la sierra de A Groba pervive la tradición de los curros y la Rapa das Bestas: caballos que viven libres en el monte son reunidos periódicamente para su manejo y cuidado. Esa práctica muestra una relación ganadera con los montes que todavía forma parte de la identidad del municipio.",
+  "El Camino Portugués de la Costa superpone hoy otra línea al territorio. Recorre la franja atlántica y vuelve a conectar los pequeños núcleos entre sí a pie. Por eso en Oia conviven huellas prehistóricas, monásticas, rurales y jacobeas sin que ninguna explique por sí sola todo el municipio.",
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
   "En Oia hay que separar tres experiencias: tener el Atlántico delante, poder caminar junto a él y disponer de un lugar cómodo para bañarse. No son equivalentes.",
-  "Para caminar con frecuencia, el recurso más sencillo en la franja litoral es aprovechar tramos del Camino Portugués de la Costa. El itinerario atraviesa unos 20 km del municipio; las etapas A Guarda–Oia y Oia–Baiona tienen aproximadamente 16,7 y 18,7 km, pero no hace falta recorrer una etapa para incorporarlo a la rutina. Desde Santa María se puede salir por el Camino, caminar media hora en una dirección y regresar por el mismo trazado.",
-  "El recorrido no es un paseo marítimo urbano continuo. Combina caminos y tramos ligados al corredor litoral y continúa hacia Mougás y Cabo Silleiro. Para una persona que camina habitualmente puede servir como paseo repetible precisamente porque permite darse la vuelta cuando convenga; lo que no ofrece es la regularidad de un paseo marítimo ancho, protegido y equipado de principio a fin. La exposición al sol, al viento y al tiempo atlántico forma parte del recorrido.",
-  "Si se quiere monte, cambia la escala. La Ruta do Mosteiro es circular, ronda los 7,7 km y requiere algo más de dos horas. La Ruta do Curro da Valga, de unos 4,7 km y alrededor de 1 h 20 min, ofrece una salida más corta por caminos y pistas. Son opciones reales para variar la rutina, pero ya se plantean como salida, no como el paseo inmediato de después de comer.",
+  "Para caminar con frecuencia, el recurso más sencillo en la franja litoral es aprovechar tramos del Camino Portugués de la Costa. El itinerario atraviesa unos 20 km del municipio; no hace falta recorrer una etapa completa para incorporarlo a la rutina. Desde Santa María se puede salir por el Camino, caminar en una dirección y regresar por el mismo trazado.",
+  "El recorrido no es un paseo marítimo urbano continuo. Combina caminos y tramos ligados al corredor litoral y continúa hacia Mougás y Cabo Silleiro. Puede servir como paseo repetible precisamente porque permite adaptar la distancia; lo que no ofrece es la regularidad de un paseo marítimo ancho, protegido y equipado de principio a fin. La exposición al sol, al viento y al tiempo atlántico forma parte del recorrido.",
+  "Si se quiere monte, cambia la escala. Las rutas de Oia incorporan pistas, caminos y desnivel por la sierra y funcionan mejor como salidas deliberadas que como el paseo inmediato de después de comer.",
   "El baño marítimo es más condicionado. La playa de Santa María está justo frente al monasterio, pero es pequeña y depende mucho de la marea. En bajamar aparecen arena, cantos y roca; cuando sube el agua, la playa queda casi completamente cubierta. Vivir al lado permite acercarse al agua andando, pero no equivale a tener una playa amplia y estable disponible a cualquier hora.",
-  "Esa diferencia con una playa mediterránea es importante: aquí hay que mirar no solo el tiempo sino también la marea y el estado del Atlántico. El propio carácter rocoso y abierto de esta costa hace que «tener playa delante» no describa suficientemente la experiencia de baño. Para un baño más convencional, la posición concreta de la vivienda y la posibilidad de desplazarse hacia otros arenales pasan a importar.",
+  "Aquí hay que mirar no solo el tiempo sino también la marea y el estado del Atlántico. El propio carácter rocoso y abierto de esta costa hace que «tener playa delante» no describa suficientemente la experiencia de baño.",
   "Oia ofrece además baño de agua dulce. En Mougás, el río Peito desciende entre roca y vegetación formando cascadas y pozas naturales. Su aspecto y caudal cambian con la lluvia; no funcionan como una piscina ni como sustituto automático de la playa, sino como un lugar natural al que se va expresamente.",
-  "La combinación final es poco urbana pero bastante rica: desde determinadas casas puede haber un paseo costero incorporable al día normal; las rutas de monte amplían las opciones cuando se quiere caminar más; la pequeña playa de Santa María depende fuertemente de la marea; y las pozas ofrecen otro tipo de baño que exige desplazamiento. En Oia, la costa es cotidiana con más facilidad que el día de playa.",
+  "La combinación final es poco urbana pero variada: desde determinadas casas puede haber un paseo costero incorporable al día normal; las rutas de monte amplían las opciones cuando se quiere caminar más; la pequeña playa de Santa María depende fuertemente de la marea; y las pozas ofrecen otro tipo de baño que exige desplazamiento. En Oia, la costa puede ser cotidiana con más facilidad que el día de playa.",
 ] as const;
 
 const CASA_NUEVO2 = [
-  "En Oia, mirar vivienda significa decidir primero qué Oia se quiere habitar.",
-  "La oferta está muy marcada por casas independientes, viviendas de piedra, chalés y propiedades con terreno. Eso permite encontrar algo difícil de reproducir en una zona urbana —espacio exterior, vistas abiertas, separación de vecinos—, pero también traslada al propietario más mantenimiento de cubierta, fachada, parcela, cierres y accesos.",
+  "En Oia, mirar vivienda significa decidir primero qué parte del municipio se quiere habitar.",
+  "La oferta está muy marcada por casas independientes, viviendas de piedra, chalés y propiedades con terreno. Eso permite encontrar espacio exterior, vistas abiertas y separación de vecinos, pero también traslada al propietario más mantenimiento de cubierta, fachada, parcela, cierres y accesos.",
   "La franja Santa María–Viladesuso–Mougás permite mantener el Atlántico muy presente y facilita el acceso a la PO-552. Dentro de ella, sin embargo, una casa en O Arrabal no funciona igual que un chalet disperso junto a la carretera. La primera puede permitir salir andando al pequeño núcleo histórico y al Camino; la segunda puede ofrecer parcela, aparcamiento y vistas más abiertas a cambio de depender más del coche para casi cualquier recado.",
   "Burgueira y Loureza cambian de nuevo el equilibrio. Allí la casa puede relacionarse más con valle y monte que con la costa inmediata. Un anuncio que solo diga «Oia» oculta por tanto una diferencia residencial importante.",
   "En primera línea o en posiciones muy expuestas al oeste conviene mirar más allá de la vista al mar. Carpinterías, cubierta, fachadas, ventilación y señales de humedad merecen inspección detenida; el ambiente marino añade además exposición salina a elementos metálicos exteriores. En una casa antigua de piedra hay que comprobar qué parte del atractivo material viene acompañada de una rehabilitación efectiva y qué parte queda todavía por resolver.",
   "También importa la carretera. Una vivienda junto a la PO-552 puede simplificar enormemente las salidas hacia A Guarda o Baiona, pero hay que comprobar ruido, seguridad de entrada y salida, posibilidad real de aparcar y cómo se camina por el entorno. Una casa algo más apartada puede ganar tranquilidad y perder facilidad para resolver la rutina.",
-  "Como referencia municipal, Oia se sitúa alrededor de 1.370 €/m². Es una referencia para situar el mercado: una vivienda concreta puede separarse mucho según estado, terreno, acceso, distancia real a la costa, vistas, exposición y facilidad de aparcamiento.",
+  "Como referencia municipal, Oia se sitúa alrededor de 1.370 €/m².",
 ] as const;
 
 const CASA_ADVERTENCIA_MICROZONA =
@@ -88,7 +87,7 @@ const CASA_MERCADO_REVENTA =
   "Oia tiene un mercado pequeño en el que el inmueble concreto pesa especialmente. Una futura venta dependerá de cuántos perfiles puedan utilizar cómodamente la vivienda: acceso sencillo, buen estado, luz, aparcamiento y una relación práctica con carretera y servicios pueden ampliar ese grupo; una propiedad muy expuesta, difícil de mantener o dependiente de una rehabilitación compleja puede reducirlo.";
 
 const CASA_LEYENDA_COMPACTA =
-  "A: ≤5 min de la costa · B: 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m². Estimaciones comparativas; conviene contrastarlas con la oferta del momento.";
+  "A ≈ ≤5 min de la costa · B ≈ 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m².";
 
 const CASA_FILA_PRECIOS = {
   municipio: "Oia",
@@ -101,7 +100,7 @@ const CASA_FILA_PRECIOS = {
 
 const ENCAJA_SI_NUEVO2 = [
   "Puede encajar si se busca vivir con el Atlántico y la montaña muy presentes sin necesitar una localidad urbana alrededor. Oia ofrece una escala pequeña, mucha naturaleza inmediata y varias formas de caminar sin que todas exijan convertir el día en una excursión.",
-  "También si una casa con terreno, una vivienda tradicional o un chalet pesan más que disponer de una gran oferta de pisos y servicios a pie. La dispersión permite elegir entre costa, pequeños núcleos e interior, pero esa libertad espacial forma parte del intercambio.",
+  "También si una casa con terreno, una vivienda tradicional o un chalet pesan más que disponer de una gran oferta de pisos y servicios a pie. La dispersión permite elegir entre costa, pequeños núcleos e interior, pero implica también menos servicios concentrados y más dependencia del coche.",
   "Y puede encajar si se acepta una relación atlántica con el mar: costa muy presente, pequeñas zonas de baño, mareas, roca y posibilidad de combinar océano con pozas de agua dulce, en lugar de esperar una gran playa urbana como centro de la vida cotidiana.",
 ] as const;
 
@@ -113,10 +112,9 @@ const NO_ENCAJA_SI_NUEVO2 = [
 
 const QUE_COMPROBAR_NUEVO2 = [
   "La primera comprobación debería empezar en la vivienda, no en el monasterio. Dejar el coche donde realmente se dejaría cada día y hacer a pie una compra sencilla, un paseo y el regreso. Después conducir hasta el lugar donde se resolverían compras mayores y comprobar cuánto pesa ese trayecto cuando deja de ser una excursión y se convierte en rutina.",
-  "Conviene repetir la prueba desde dos microzonas distintas. Una vivienda en Santa María u O Arrabal permite comprobar qué significa tener el pequeño núcleo histórico y el Camino cerca. Otra en Viladesuso o Mougás muestra una relación más directa con la carretera y con Baiona. Una tercera hacia Burgueira o Loureza cambia el mar por una posición más interior.",
+  "Conviene repetir la prueba desde microzonas distintas. Una vivienda en Santa María u O Arrabal permite comprobar qué significa tener el pequeño núcleo histórico y el Camino cerca. Otra en Viladesuso o Mougás muestra una relación más directa con la carretera y con Baiona. Hacia Burgueira o Loureza cambia el mar por una posición más interior.",
   "También merece una visita con lluvia o después de varios días húmedos. No para juzgar Oia por el peor tiempo, sino para mirar la casa en las condiciones en las que orientación, ventilación, cubierta, acceso y humedad dejan de ser conceptos abstractos.",
-  "Para comprobar el mar, hay que hacer dos pruebas distintas: caminar desde la posible vivienda hasta el tramo costero que realmente se utilizaría y visitar Santa María con la marea en dos estados diferentes. Así se ve inmediatamente por qué estar muy cerca del océano y disponer de una playa cotidiana no son la misma cosa.",
-  "Y si la casa atrae sobre todo por las vistas, conviene hacer el recorrido inverso: mirar primero acceso, aparcamiento, exposición, mantenimiento y servicios; dejar la vista para el final. En Oia, una panorámica atlántica puede ser una parte magnífica de la vivienda, pero no sustituye la comprobación de cómo funcionará esa dirección durante todo el año.",
+  "Para comprobar el mar, conviene caminar desde la posible vivienda hasta el tramo costero que realmente se utilizaría y visitar Santa María con la marea en dos estados diferentes. Así se ve inmediatamente por qué estar muy cerca del océano y disponer de una playa cotidiana no son exactamente lo mismo.",
 ] as const;
 
 const FOTO_COMO_MOSTEIRO = {

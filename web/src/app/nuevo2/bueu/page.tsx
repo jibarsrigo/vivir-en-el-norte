@@ -14,7 +14,7 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
 
 /**
  * NUEVO2 — Bueu (O Morrazo).
- * Texto: Lote_O_Morrazo_Cursor_NUEVO2 (1).txt (APROBADO EDITORIALMENTE)
+ * Texto: Lote_O_Morrazo_4_CERTIFICADOS_Cursor_NUEVO2.txt
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
@@ -24,10 +24,10 @@ const RESUMEN_ZONA_NUEVO2 = [
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
-  "Un martes de noviembre Bueu sigue siendo una villa de trabajo. Hay mercado, centro de salud, supermercados, colegios, instituto, biblioteca, puerto y restauración. La lonja y las embarcaciones recuerdan que el mar no aparece solo como paisaje.",
+  "Bueu mantiene una vida de villa durante todo el año. Hay mercado, centro de salud, supermercados, colegios, instituto, biblioteca, puerto y restauración. La lonja y las embarcaciones recuerdan que el mar no aparece solo como paisaje.",
   "Desde una vivienda céntrica se puede resolver a pie buena parte de la semana. Compra, farmacia, mercado, café y paseo quedan dentro de un radio pequeño.",
-  "La escala comercial es suficiente para la vida básica, pero no sustituye Pontevedra para hospital, gran compra o determinados servicios especializados. La referencia hospitalaria práctica queda aproximadamente a 25–30 minutos.",
-  "Beluso cambia la semana. Puerto, playa y casas en ladera introducen una vida más residencial. La distancia a Bueu es corta, pero el coche entra con más facilidad.",
+  "La escala comercial es suficiente para la vida básica, pero no sustituye Pontevedra para hospital, gran compra o determinados servicios especializados. La referencia hospitalaria práctica está en el área de Pontevedra, con Montecelo como referencia útil y unos 30 minutos orientativos por carretera desde la referencia municipal.",
+  "Beluso ofrece una rutina más residencial, con puerto, playa y casas en ladera. La distancia a la villa es corta, pero el coche entra con más facilidad.",
   "Cela y San Martiño permiten ganar terreno y tranquilidad. Allí conviene medir la frecuencia real de desplazamientos hacia la villa, no limitarse a calcular kilómetros.",
   "Banda do Río y el frente portuario integran el agua en la vida del núcleo. Las playas mayores y Cabo Udra son salidas próximas, pero no todas forman parte de una rutina a pie desde el centro.",
   "El verano añade barcos a Ons, más ocupación de playas y más mesas en el puerto. Aun así, Bueu conserva una escala más contenida que los puntos más presionados de Cangas.",
@@ -43,17 +43,17 @@ const CLIMA_NUEVO2 = [
 ] as const;
 
 const VIVIR_NUEVO2 = [
-  "Bueu permite una vida pequeña sin convertirse en una localidad estacional.",
+  "Bueu mantiene una escala de villa pequeña sin depender únicamente de la temporada de verano.",
   "En el núcleo se puede caminar para resolver compra y servicios. En enero siguen funcionando mercado, puerto, colegios y centro de salud.",
   "La relación con Pontevedra es de apoyo, no de continuidad urbana. Para hospital y servicios mayores se sale por carretera.",
-  "La cultura marítima está especialmente presente. Museo Massó, lonja, puerto y la conexión estacional con Ons hacen que la historia del mar siga formando parte de la semana contemporánea.",
+  "La cultura marítima está especialmente presente. Museo Massó, lonja, puerto y la conexión estacional con Ons hacen que la historia del mar siga siendo visible en la vida actual.",
   "Para alguien procedente de Mallorca, el principal cambio residencial será el invierno húmedo y una oferta urbana mucho menor, compensados por un verano más suave y una costa cercana de escala tranquila.",
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
-  "La relación de Bueu con pescado y comercio es muy anterior a la industria conservera moderna. En el municipio se produjeron ánforas en época romana para transportar productos, entre ellos salazones.",
+  "La relación de Bueu con la explotación de los recursos del mar es muy anterior a la industria conservera moderna. El yacimiento romano de Pescadoira conserva restos de una factoría de salazón y de un taller de ánforas.",
   "La transformación decisiva llegó con la industria de salazón y conserva. La familia Massó desarrolló desde el siglo XIX un complejo industrial que terminó marcando profundamente la villa.",
-  "El Museo Massó nació en 1932 dentro de ese universo fabril y hoy ocupa naves de la antigua conservera. Conserva embarcaciones, instrumentos de navegación, documentación, maquinaria y memoria de las actividades conservera, pesquera y ballenera.",
+  "A partir de 1928, la antigua fábrica Massó empezó a acoger la biblioteca y las colecciones sobre historia de la navegación reunidas por la familia. El museo fue creciendo dentro del propio complejo conservero y hoy ocupa edificios supervivientes de aquel conjunto industrial, con colecciones sobre navegación, salazón, conserva, pesca y actividad ballenera.",
   "La huella actual está alrededor del puerto: Bueu se entiende mejor como lugar de trabajo marítimo que como simple acceso a playas.",
   "Ons añade otra escala histórica y territorial. La isla pertenece administrativamente al municipio y conserva faro, aldea, caminos y memoria de una comunidad insular.",
   "La conexión estacional desde el puerto vuelve esa geografía visible cada verano y refuerza una identidad municipal que se extiende más allá de la península.",
@@ -63,9 +63,9 @@ const MAR_RIO_CAMINO_NUEVO2 = [
   "Banda do Río y el frente portuario son el mar cotidiano del núcleo. Permiten caminar junto al agua sin organizar una excursión.",
   "Beluso combina pequeño puerto y playa y queda suficientemente cerca para convertirse en salida habitual desde muchas zonas del municipio.",
   "Area de Bon, Portomaior y Lapamán ofrecen arenales de ría de otra escala. En verano hay que contar con más presión de aparcamiento.",
-  "Cabo Udra es la caminata que mejor representa la costa natural próxima. Granito, brezo, antiguas estructuras costeras, calas y vistas hacia Ons permiten una salida de varias horas sin abandonar el municipio.",
+  "Cabo Udra permite una caminata por una costa más natural, entre granito, brezo, antiguas estructuras costeras, calas y vistas hacia Ons. Es una salida deliberada de varias horas, no una prolongación del paseo diario de la villa.",
   "Ons pertenece a otra categoría. El barco es estacional y la visita requiere dedicar buena parte del día. Una vez allí se puede caminar hacia el faro, playas o el Buraco do Inferno.",
-  "Por tanto, la rutina se organiza en tres escalas: puerto y Banda do Río para cada día; Beluso y playas próximas para una tarde; Cabo Udra u Ons para una salida deliberada.",
+  "En la práctica, puerto y Banda do Río pueden formar parte del día normal; Beluso y las playas próximas funcionan como salidas cortas; Cabo Udra y Ons requieren reservar más tiempo.",
 ] as const;
 
 const CASA_NUEVO2 = [
@@ -111,7 +111,7 @@ const NO_ENCAJA_SI_NUEVO2 = [
   "Encaja peor si se necesita hospital muy próximo o una ciudad grande integrada en la rutina peatonal.",
   "También si se quiere conexión diaria por barco con Vigo o ferrocarril.",
   "Puede resultar menos adecuado si se busca mucha oferta de obra nueva o una gran variedad comercial dentro del municipio.",
-  "Y pierde parte de su sentido si se compra en una zona interior esperando conservar la caminabilidad de la villa.",
+  "Y encaja peor si se compra en una zona interior pero se espera conservar la misma caminabilidad de la villa.",
 ] as const;
 
 const QUE_COMPROBAR_NUEVO2 = [
@@ -124,7 +124,7 @@ const QUE_COMPROBAR_NUEVO2 = [
 ] as const;
 
 const CASA_LEYENDA_COMPACTA =
-  "A: ≤5 min de la costa · B: 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m². Estimaciones comparativas; conviene contrastarlas con la oferta del momento.";
+  "A ≈ ≤5 min de la costa · B ≈ 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m².";
 
 const CASA_FILA_PRECIOS = {
   municipio: "Bueu",
@@ -235,7 +235,7 @@ export default function Nuevo2BueuPage() {
           {COMO_SE_VIVE_NUEVO2[1]}
         </p>
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
-          <ConNegritas texto={COMO_SE_VIVE_NUEVO2[2]} fragmentos={["25–30 minutos"]} />
+          <ConNegritas texto={COMO_SE_VIVE_NUEVO2[2]} fragmentos={["30 minutos"]} />
         </p>
         <p key={COMO_SE_VIVE_NUEVO2[3].slice(0, 64)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
           {COMO_SE_VIVE_NUEVO2[3]}

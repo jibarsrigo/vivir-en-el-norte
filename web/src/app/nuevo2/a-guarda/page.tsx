@@ -14,15 +14,14 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
 
 /**
  * NUEVO2 — A Guarda (Baixo Miño).
- * Texto: Lote_A_Guarda_Tui_Cursor_NUEVO2.txt (APROBADO EDITORIALMENTE)
- * Cabecera: fotoIdentidad = a-guarda-identidad.jpg + 6 interiores.
+ * Texto: Lote_Baixo_Mino_5_CERTIFICADOS_Cursor_NUEVO2.txt
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
   "Baixo Miño cambia mucho en pocos kilómetros. Oia es costa dispersa entre mar y sierra; O Rosal es valle, viña y pequeños núcleos; Tomiño se extiende por la vega del Miño; y Tui concentra la escala urbana y fronteriza.",
   "A Guarda ocupa la punta donde el Miño llega al Atlántico. Es la localidad de la zona donde puerto, comercio, playas, paseo marítimo y servicios cotidianos quedan más concentrados alrededor de un núcleo reconocible.",
   "El Monte Santa Trega cierra el paisaje por detrás y la desembocadura abre Portugal delante. Camposancos prolonga el municipio hacia el estuario y ofrece otra relación con el agua: menos océano abierto y más Miño.",
-  "La consecuencia residencial es clara. Dentro del núcleo puede resolverse bastante vida andando; hacia Camposancos o las laderas del Santa Trega cambia la relación entre vivienda, coche, vistas y servicios.",
+  "Dentro del núcleo puede resolverse bastante vida andando. Hacia Camposancos o las laderas del Santa Trega cambia la relación entre vivienda, coche, vistas y servicios.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
@@ -30,9 +29,9 @@ const COMO_SE_VIVE_NUEVO2 = [
   "Eso la diferencia de los municipios más dispersos de Baixo Miño. Vivir cerca del centro o del puerto permite salir andando para muchas necesidades ordinarias y dejar el coche para hospital, compras de mayor escala o desplazamientos fuera del municipio.",
   "El puerto sigue dando a la villa una identidad de trabajo y no solo de ocio. La relación con el mar se ve en la dársena, la lonja, los barcos y el movimiento diario del frente portuario.",
   "En verano la escala cambia. Aumentan visitantes, tráfico y presión sobre el aparcamiento, especialmente en los accesos a playas y durante las fiestas. La PO-552 concentra buena parte de los desplazamientos de la costa y conviene conocerla también en agosto, no únicamente fuera de temporada.",
-  "Portugal está a la vista desde la desembocadura. Caminha forma parte del paisaje cotidiano, aunque cruzar el estuario depende de la operativa del ferry y no debe darse por hecho como una conexión permanente.",
-  "Para hospital especializado, el Hospital Álvaro Cunqueiro queda aproximadamente a 45 km y 45 minutos. Esa distancia es uno de los peajes claros de vivir en la punta.",
-  "El calendario local altera varios días del verano. La Festa da Langosta, la Virxe do Carme y, sobre todo, la Festa do Monte introducen más gente, música y tráfico. Para una vivienda junto al puerto o en los accesos al Santa Trega no son detalles turísticos: forman parte de la experiencia anual.",
+  "Portugal está a la vista desde la desembocadura, pero no existe actualmente un cruce directo operativo por ferry. El ferry A Guarda–Caminha está fuera de servicio desde octubre de 2021; para cruzar por carretera, la conexión práctica pasa por la Ponte da Amizade entre Goián y Vila Nova de Cerveira. Esto hace que Caminha esté visualmente muy cerca y, sin embargo, requiera un rodeo por tierra.",
+  "Para atención hospitalaria de mayor complejidad la referencia práctica está en el área de Vigo. El Hospital Álvaro Cunqueiro queda aproximadamente a 45 km y unos 45 minutos. Esa distancia es uno de los límites claros de vivir en la punta.",
+  "El calendario local altera varios días del verano. La Festa da Langosta, la Virxe do Carme y, sobre todo, la Festa do Monte introducen más gente, música y tráfico. Para una vivienda junto al puerto o en los accesos al Santa Trega forman parte de la experiencia anual.",
 ] as const;
 
 const CLIMA_NUEVO2 = [
@@ -49,7 +48,7 @@ const VIVIR_NUEVO2 = [
   "La humedad y el salitre forman parte del mantenimiento. En pisos y casas próximos al frente marítimo conviene mirar carpinterías, cierres, fachadas, ventilación y rastros de condensación, no únicamente el estado visual de una terraza.",
   "A Guarda tiene vida propia en invierno, pero sigue siendo una villa pequeña. Para hospital especializado, determinados servicios y parte de las conexiones de larga distancia hay que salir hacia Vigo y el resto de la provincia.",
   "Mantener relación frecuente con Mallorca exige asumir también esa posición periférica. Los aeropuertos quedan fuera del municipio y la programación directa a Palma cambia según temporada; la logística del trayecto forma parte del cálculo residencial.",
-  "A cambio, la escala compacta permite algo que en buena parte de la comarca cuesta más conseguir: comprar una vivienda desde la que mercado, café, puerto y paseo formen parte del recorrido a pie.",
+  "La escala compacta permite, a cambio, comprar una vivienda desde la que mercado, café, puerto y paseo formen parte del recorrido a pie.",
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
@@ -65,8 +64,8 @@ const MAR_RIO_CAMINO_NUEVO2 = [
   "Area Grande es playa marítima abierta al Atlántico. Es una opción de baño próxima a la villa, con arena y servicios estivales, pero conserva el carácter de costa oceánica: agua fresca, exposición al mar y condiciones que pueden cambiar con viento y oleaje.",
   "O Muíño, en Camposancos, ocupa la desembocadura del Miño. Allí el paisaje es de estuario: Portugal enfrente y una relación con el agua diferente de la costa abierta.",
   "Las dos son playas reales de baño y no deben confundirse entre sí. Para decidir vivienda importa saber si se busca el Atlántico inmediato o una orilla más ligada al río.",
-  "Entre ambas existe un recorrido litoral de varios kilómetros que enlaza playas y pequeñas zonas de costa. Es una caminata que permite pasar del océano abierto hacia la desembocadura y entender físicamente cómo cambia el municipio.",
-  "Para un paseo cotidiano más corto, el frente portuario y marítimo permite caminar sin convertir cada salida en una ruta. El terreno es mucho más amable junto al agua que en la subida hacia el Santa Trega.",
+  "El Sendero Azul une O Muíño y Area Grande a lo largo de casi toda la costa de A Guarda, atravesando el puerto. El recorrido oficial se presenta como una ruta lineal de unos 5,6 km y permite pasar del estuario al océano abierto sin necesidad de convertirlo en una ruta de monte.",
+  "Para un paseo cotidiano más corto, el frente portuario y marítimo permite caminar sin completar todo ese recorrido. El terreno es mucho más amable junto al agua que en la subida hacia el Santa Trega.",
   "Subir al Monte Santa Trega es otra experiencia. Desde la villa se gana desnivel; arriba esperan castro, museo, ermita y miradores. Es una salida de monte y patrimonio, no el paseo llano de todos los días.",
   "La combinación es poco habitual: puerto para la rutina, Atlántico para baño y paseo, estuario en Camposancos y monte inmediatamente detrás.",
 ] as const;
@@ -80,8 +79,7 @@ const CASA_NUEVO2 = [
 ] as const;
 
 const CASA_ADVERTENCIA_MICROZONA = [
-  "No es lo mismo comprar en el casco y bajar andando al puerto que elegir Camposancos o una vivienda elevada hacia el Santa Trega.",
-  "El casco favorece servicios y paseo cotidiano. Camposancos cambia la relación hacia el estuario y Portugal. Las zonas elevadas pueden ofrecer mejores vistas y más tranquilidad, pero conviene medir pendientes, viento y dependencia del coche.",
+  "No es lo mismo comprar en el casco y bajar andando al puerto que elegir Camposancos o una vivienda elevada hacia el Santa Trega. El casco favorece servicios y paseo cotidiano. Camposancos cambia la relación hacia el estuario y Portugal. Las zonas elevadas pueden ofrecer mejores vistas y más tranquilidad, pero conviene medir pendientes, viento y dependencia del coche.",
 ] as const;
 
 const CASA_QUE_CONVIENE_REVISAR = [
@@ -99,7 +97,7 @@ const CASA_MERCADO_REVENTA = [
 ] as const;
 
 const CASA_LEYENDA_COMPACTA =
-  "A: ≤5 min de la costa · B: 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m². Estimaciones comparativas; conviene contrastarlas con la oferta del momento.";
+  "A ≈ ≤5 min de la costa · B ≈ 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m².";
 
 const CASA_FILA_PRECIOS = {
   municipio: "A Guarda",
@@ -118,7 +116,7 @@ const ENCAJA_SI_NUEVO2 = [
 ] as const;
 
 const NO_ENCAJA_SI_NUEVO2 = [
-  "Encaja peor si el hospital especializado debe quedar muy cerca. El Álvaro Cunqueiro está aproximadamente a 45 minutos y esa distancia no cambia de manera sustancial eligiendo otra calle de A Guarda.",
+  "Encaja peor si el hospital especializado debe quedar muy cerca. El área de Vigo está aproximadamente a 45 minutos y esa distancia no cambia de manera sustancial eligiendo otra calle de A Guarda.",
   "Tampoco si el viento marítimo y el salitre se consideran inconvenientes difíciles de asumir. La exposición forma parte de vivir en la punta y puede afectar tanto al uso de una terraza como al mantenimiento de la vivienda.",
   "Puede resultar menos adecuada si se necesita una ciudad grande para la rutina diaria o conexiones metropolitanas inmediatas. A Guarda tiene autonomía de villa, no escala urbana.",
 ] as const;
@@ -127,7 +125,7 @@ const QUE_COMPROBAR_NUEVO2 = [
   "Pasar un día completo en el núcleo sin coche y comprobar cuánto de la rutina real puede resolverse andando desde la vivienda candidata.",
   "Volver con viento y observar terraza, ventanas, ruido y exposición. En una vivienda frente al mar, esa segunda visita es tan importante como la primera.",
   "Probar Area Grande y O Muíño por separado. Una mira al Atlántico abierto y la otra a la desembocadura; saber cuál se usaría realmente ayuda a elegir microzona.",
-  "Recorrer el acceso al hospital y una salida hacia Vigo en condiciones normales. La posición en la punta es parte estructural de la decisión.",
+  "Recorrer el acceso al área hospitalaria de Vigo y una salida hacia Vigo en condiciones normales. La posición en la punta es parte estructural de la decisión.",
   "Si la vivienda está en Camposancos o en una ladera, medir también el trayecto a mercado, farmacia y compra cotidiana y no extrapolar la caminabilidad del centro a todo el municipio.",
   "Finalmente, visitar en un día fuerte de verano para comprobar aparcamiento, tráfico y ruido antes de asumir que la tranquilidad del resto del año será idéntica en agosto.",
 ] as const;
@@ -236,7 +234,7 @@ export default function Nuevo2AGuardaPage() {
           </p>
         ))}
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
-          <ConNegritas texto={COMO_SE_VIVE_NUEVO2[5]} fragmentos={["45 km y 45 minutos"]} />
+          <ConNegritas texto={COMO_SE_VIVE_NUEVO2[5]} fragmentos={["45 km y unos 45 minutos"]} />
         </p>
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{COMO_SE_VIVE_NUEVO2[6]}</p>
         <Foto src={FOTO_COMO_VILLA.src} pie={FOTO_COMO_VILLA.pie} />

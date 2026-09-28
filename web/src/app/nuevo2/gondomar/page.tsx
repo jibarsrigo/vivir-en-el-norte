@@ -14,7 +14,7 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
 
 /**
  * NUEVO2 — Gondomar (Val Miñor).
- * Texto: Lote_Val_Minor_Cursor_NUEVO2.txt (APROBADO EDITORIALMENTE)
+ * Texto: Lote_Val_Minor_3_CERTIFICADOS_Cursor_NUEVO2.txt
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
@@ -28,9 +28,9 @@ const COMO_SE_VIVE_NUEVO2 = [
   "Gondomar tiene una escala de villa pequeña rodeada de parroquias.",
   "En el núcleo se pueden resolver a pie bastantes necesidades básicas: supermercado, farmacia, centro de salud, comercio y otros servicios cotidianos. No ofrece la variedad urbana de Vigo ni la relación directa con el mar de Baiona o Nigrán.",
   "Fuera de la villa cambia rápidamente la semana. Una casa en Vincios, Morgadáns, Chaín o Donas puede ganar terreno y tranquilidad, pero compra, actividades y ocio empiezan a depender más del coche.",
-  "La conexión con Vigo es una de las ventajas prácticas. El Hospital Álvaro Cunqueiro queda aproximadamente a 15 minutos y el aeropuerto de Vigo, a unos 20 minutos desde la referencia municipal.",
-  "La costa también queda suficientemente cerca para utilizarla durante una tarde. Praia América es la referencia de baño más próxima, aproximadamente a 12 minutos, aunque el tiempo real cambia según parroquia y tráfico.",
-  "Esa combinación explica buena parte del atractivo residencial: se puede vivir fuera de la primera línea y mantener hospital, ciudad y playa dentro de trayectos relativamente cortos.",
+  "La conexión con Vigo es una de las ventajas prácticas. Para atención hospitalaria de mayor complejidad, la referencia práctica está en el área de Vigo; el Hospital Álvaro Cunqueiro queda aproximadamente a 15 km y unos 15 minutos desde la referencia municipal. El aeropuerto de Vigo está a unos 20 minutos. Son tiempos orientativos y cambian según la parroquia y el tráfico.",
+  "La costa también queda suficientemente cerca para utilizarla durante una tarde. Praia América es la referencia de baño más próxima, aproximadamente a 12 minutos desde la referencia municipal, aunque el tiempo real cambia según parroquia y tráfico.",
+  "Vivir fuera de la primera línea permite mantener hospital, ciudad y playa dentro de trayectos relativamente cortos, a cambio de que el coche forme parte de la semana con mucha más frecuencia.",
   "La estacionalidad se nota menos que en la costa. Agosto no transforma Gondomar de la misma manera que Praia América o Baiona. Las fiestas parroquiales producen picos locales, pero la vida anual mantiene un ritmo más estable.",
 ] as const;
 
@@ -44,10 +44,9 @@ const CLIMA_NUEVO2 = [
 ] as const;
 
 const VIVIR_NUEVO2 = [
-  "Gondomar cambia mar por espacio.",
-  "Una casa con finca puede ofrecer jardín, silencio y una relación inmediata con monte y paisaje rural que sería mucho más cara o difícil de encontrar cerca de la primera línea.",
+  "En Gondomar es más fácil encontrar casas con parcela, silencio y una relación inmediata con monte y paisaje rural que junto a la primera línea de Baiona o Nigrán.",
   "La contrapartida es el coche. En el núcleo puede reducirse para la vida básica; en las parroquias suele intervenir para compra, actividades, playa y buena parte de la vida social.",
-  "La proximidad a Vigo evita que esa dispersión se convierta necesariamente en aislamiento. Hospital y aeropuerto están más cerca que desde muchas localidades costeras más alejadas.",
+  "La proximidad a Vigo evita que esa dispersión se convierta necesariamente en aislamiento. Hospital y aeropuerto siguen dentro de trayectos relativamente cortos desde muchas zonas del municipio.",
   "La playa funciona como salida y no como paseo espontáneo. Se puede llegar rápidamente a Praia América o continuar hacia otros arenales de Nigrán y Baiona, pero no se baja andando con una toalla desde el centro de Gondomar.",
   "Para alguien que llega desde Mallorca, el cambio más profundo puede ser ese: menos densidad, más parcela y monte, pero una semana organizada alrededor de trayectos cortos en coche.",
 ] as const;
@@ -71,7 +70,7 @@ const MAR_RIO_CAMINO_NUEVO2 = [
 ] as const;
 
 const CASA_NUEVO2 = [
-  "La vivienda que mejor representa Gondomar es la casa con parcela, aunque en la villa también existen pisos para quien prioriza servicios y menor mantenimiento.",
+  "En Gondomar es frecuente encontrar casas con parcela, aunque en la villa también existen pisos para quien prioriza servicios y menor mantenimiento.",
   "En el núcleo se puede ganar autonomía cotidiana y reducir desplazamientos. En las parroquias aparecen más terreno, privacidad y paisaje, pero aumenta el coche.",
   "Una finca debe evaluarse por algo más que su superficie. Pendiente, drenaje, orientación, cierres, vegetación y acceso determinan cuánto trabajo exige durante el año.",
   "En la casa conviene revisar cubierta, aislamiento, carpinterías, ventilación y señales de humedad. Una planta baja o una fachada con poco sol puede comportarse de forma muy distinta después de varias semanas lluviosas.",
@@ -79,9 +78,7 @@ const CASA_NUEVO2 = [
 ] as const;
 
 const CASA_ADVERTENCIA_MICROZONA = [
-  "No tratar la villa y las parroquias como una única experiencia.",
-  "El núcleo permite una semana más autónoma. Una casa en Vincios, Morgadáns, Chaín o zonas similares puede ofrecer más terreno y silencio, pero hay que medir de nuevo compra, actividades, playa y accesos.",
-  "La orientación y la topografía añaden otra diferencia incluso entre casas de la misma parroquia.",
+  "No tratar la villa y las parroquias como una única experiencia. El núcleo permite una semana más autónoma. Una casa en Vincios, Morgadáns, Chaín o zonas similares puede ofrecer más terreno y silencio, pero hay que medir de nuevo compra, actividades, playa y accesos. La orientación y la topografía añaden otra diferencia incluso entre casas de la misma parroquia.",
 ] as const;
 
 const CASA_QUE_CONVIENE_REVISAR = [
@@ -101,7 +98,7 @@ const CASA_MERCADO_REVENTA = [
 ] as const;
 
 const CASA_LEYENDA_COMPACTA =
-  "A: ≤5 min de la costa · B: 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m². Estimaciones comparativas; conviene contrastarlas con la oferta del momento.";
+  "A ≈ ≤5 min de la costa · B ≈ 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m².";
 
 const CASA_FILA_PRECIOS = {
   municipio: "Gondomar",

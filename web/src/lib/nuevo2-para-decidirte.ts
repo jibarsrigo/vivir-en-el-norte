@@ -55,10 +55,10 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
       "Antes de decidir, conviene hacer tres pruebas muy concretas: vivir un día laborable fuera del verano y resolver a pie compra, salud, tren y paseo; recorrer desde una vivienda candidata la pendiente real hasta el centro y La Palmera; y, si se estudia una dirección hacia el oeste del concejo, comprobar personalmente el contexto industrial, viario y ambiental de esa microzona.",
     ],
   },
-  oia: {
+  "oia": {
     encajaSi: [
       "Puede encajar si se busca vivir con el Atlántico y la montaña muy presentes sin necesitar una localidad urbana alrededor. Oia ofrece una escala pequeña, mucha naturaleza inmediata y varias formas de caminar sin que todas exijan convertir el día en una excursión.",
-      "También si una casa con terreno, una vivienda tradicional o un chalet pesan más que disponer de una gran oferta de pisos y servicios a pie. La dispersión permite elegir entre costa, pequeños núcleos e interior, pero esa libertad espacial forma parte del intercambio.",
+      "También si una casa con terreno, una vivienda tradicional o un chalet pesan más que disponer de una gran oferta de pisos y servicios a pie. La dispersión permite elegir entre costa, pequeños núcleos e interior, pero implica también menos servicios concentrados y más dependencia del coche.",
       "Y puede encajar si se acepta una relación atlántica con el mar: costa muy presente, pequeñas zonas de baño, mareas, roca y posibilidad de combinar océano con pozas de agua dulce, en lugar de esperar una gran playa urbana como centro de la vida cotidiana.",
     ],
     encajaNo: [
@@ -68,10 +68,9 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
     ],
     queComprobar: [
       "La primera comprobación debería empezar en la vivienda, no en el monasterio. Dejar el coche donde realmente se dejaría cada día y hacer a pie una compra sencilla, un paseo y el regreso. Después conducir hasta el lugar donde se resolverían compras mayores y comprobar cuánto pesa ese trayecto cuando deja de ser una excursión y se convierte en rutina.",
-      "Conviene repetir la prueba desde dos microzonas distintas. Una vivienda en Santa María u O Arrabal permite comprobar qué significa tener el pequeño núcleo histórico y el Camino cerca. Otra en Viladesuso o Mougás muestra una relación más directa con la carretera y con Baiona. Una tercera hacia Burgueira o Loureza cambia el mar por una posición más interior.",
+      "Conviene repetir la prueba desde microzonas distintas. Una vivienda en Santa María u O Arrabal permite comprobar qué significa tener el pequeño núcleo histórico y el Camino cerca. Otra en Viladesuso o Mougás muestra una relación más directa con la carretera y con Baiona. Hacia Burgueira o Loureza cambia el mar por una posición más interior.",
       "También merece una visita con lluvia o después de varios días húmedos. No para juzgar Oia por el peor tiempo, sino para mirar la casa en las condiciones en las que orientación, ventilación, cubierta, acceso y humedad dejan de ser conceptos abstractos.",
-      "Para comprobar el mar, hay que hacer dos pruebas distintas: caminar desde la posible vivienda hasta el tramo costero que realmente se utilizaría y visitar Santa María con la marea en dos estados diferentes. Así se ve inmediatamente por qué estar muy cerca del océano y disponer de una playa cotidiana no son la misma cosa.",
-      "Y si la casa atrae sobre todo por las vistas, conviene hacer el recorrido inverso: mirar primero acceso, aparcamiento, exposición, mantenimiento y servicios; dejar la vista para el final. En Oia, una panorámica atlántica puede ser una parte magnífica de la vivienda, pero no sustituye la comprobación de cómo funcionará esa dirección durante todo el año.",
+      "Para comprobar el mar, conviene caminar desde la posible vivienda hasta el tramo costero que realmente se utilizaría y visitar Santa María con la marea en dos estados diferentes. Así se ve inmediatamente por qué estar muy cerca del océano y disponer de una playa cotidiana no son exactamente lo mismo.",
     ],
   },
   "o-rosal": {
@@ -94,7 +93,7 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
       "Y si el atractivo principal es una casa con viña, huerto o una parcela grande, conviene calcular la rutina que acompaña al paisaje: mantenimiento, desplazamientos, aparcamiento, acceso y servicios primero; vistas y metros de terreno después.",
     ],
   },
-  tomino: {
+  "tomino": {
     encajaSi: [
       "Puede encajar si se busca una casa con finca y se acepta que la contrapartida sea una vida más dispersa y dependiente del coche.",
       "También si el río puede sustituir al mar como paisaje cotidiano. En Goián se puede caminar junto al Miño, utilizar la playa fluvial, pasar tiempo en Espazo Fortaleza y cruzar a Cerveira sin organizar una excursión.",
@@ -105,7 +104,7 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
       "Puede encajar peor si el objetivo principal de la mudanza es tener un verano claramente costero y el Atlántico a pie. Tomiño es valle y río; para playa marítima hay que conducir.",
       "También si se quiere resolver casi toda la semana andando desde un único casco compacto. Hay núcleos con servicios, pero el municipio funciona mediante varios centros y muchas viviendas dispersas.",
       "Puede resultar menos adecuado si el coche se quiere reducir al mínimo. Una casa aparentemente cercana en el mapa puede exigir varios desplazamientos diarios cuando se suman compra, actividades y servicios.",
-      "Y conviene pensarlo especialmente si el calor de valle o la humedad de una casa con finca son aspectos poco tolerables. Una visita agradable junto al río no sustituye probar cómo se vive la vivienda en una tarde cálida y después de varios días de lluvia.",
+      "Y puede encajar peor si el calor de valle o la humedad de una casa con finca son aspectos poco tolerables. Una visita agradable junto al río no sustituye probar cómo se vive la vivienda en una tarde cálida y después de varios días de lluvia.",
     ],
     queComprobar: [
       "Primero hay que decidir qué Tomiño se está buscando. Pasar una mañana en O Seixo y otra en Goián permite entender la diferencia entre un núcleo ligado a los servicios municipales y otro ligado al Miño y a Cerveira.",
@@ -124,7 +123,7 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
       "Y encaja si el Monte Santa Trega, el puerto y Portugal enfrente pesan más que tener hospital especializado o una gran ciudad a pocos minutos.",
     ],
     encajaNo: [
-      "Encaja peor si el hospital especializado debe quedar muy cerca. El Álvaro Cunqueiro está aproximadamente a 45 minutos y esa distancia no cambia de manera sustancial eligiendo otra calle de A Guarda.",
+      "Encaja peor si el hospital especializado debe quedar muy cerca. El área de Vigo está aproximadamente a 45 minutos y esa distancia no cambia de manera sustancial eligiendo otra calle de A Guarda.",
       "Tampoco si el viento marítimo y el salitre se consideran inconvenientes difíciles de asumir. La exposición forma parte de vivir en la punta y puede afectar tanto al uso de una terraza como al mantenimiento de la vivienda.",
       "Puede resultar menos adecuada si se necesita una ciudad grande para la rutina diaria o conexiones metropolitanas inmediatas. A Guarda tiene autonomía de villa, no escala urbana.",
     ],
@@ -132,12 +131,12 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
       "Pasar un día completo en el núcleo sin coche y comprobar cuánto de la rutina real puede resolverse andando desde la vivienda candidata.",
       "Volver con viento y observar terraza, ventanas, ruido y exposición. En una vivienda frente al mar, esa segunda visita es tan importante como la primera.",
       "Probar Area Grande y O Muíño por separado. Una mira al Atlántico abierto y la otra a la desembocadura; saber cuál se usaría realmente ayuda a elegir microzona.",
-      "Recorrer el acceso al hospital y una salida hacia Vigo en condiciones normales. La posición en la punta es parte estructural de la decisión.",
+      "Recorrer el acceso al área hospitalaria de Vigo y una salida hacia Vigo en condiciones normales. La posición en la punta es parte estructural de la decisión.",
       "Si la vivienda está en Camposancos o en una ladera, medir también el trayecto a mercado, farmacia y compra cotidiana y no extrapolar la caminabilidad del centro a todo el municipio.",
       "Finalmente, visitar en un día fuerte de verano para comprobar aparcamiento, tráfico y ruido antes de asumir que la tranquilidad del resto del año será idéntica en agosto.",
     ],
   },
-  tui: {
+  "tui": {
     encajaSi: [
       "Encaja si se quiere la mayor autonomía cotidiana de Baixo Miño sin pasar a una ciudad grande. Comercio, servicios, actividades y buena parte de la rutina pueden resolverse dentro de una escala pequeña.",
       "También si Portugal debe formar parte de la semana. Valença está enfrente y el puente permite incorporar compras, paseo y restauración al día a día.",
@@ -148,18 +147,18 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
       "Encaja peor si la razón principal de la mudanza es tener un verano claramente costero y playa marítima a pie. Tui es ciudad de río y el océano requiere desplazamiento.",
       "Tampoco si se busca el silencio de una aldea. El casco tiene peregrinos, actividad, fiestas y vida urbana; el ensanche añade tráfico y la proximidad de la A-55 puede introducir ruido.",
       "Puede resultar menos adecuada si se quieren evitar por completo pendientes. El casco histórico está construido sobre una ladera y la cota de la vivienda cambia la caminabilidad.",
-      "Y conviene descartarla si el calor de valle es incompatible con lo que se busca. El verano es más cálido que en la punta atlántica de A Guarda u Oia.",
+      "Y encaja peor si el calor de valle es incompatible con lo que se busca. El verano es más cálido que en la punta atlántica de A Guarda u Oia.",
     ],
     queComprobar: [
       "Pasar una jornada normal moviéndose a pie entre la vivienda candidata, compra, centro y ribera. La autonomía de Tui es una ventaja real solo si la microzona permite aprovecharla.",
       "Recorrer las pendientes del casco desde la vivienda y repetir mentalmente el trayecto con bolsas, lluvia o movilidad reducida. Pocos metros en el mapa pueden equivaler a una diferencia importante de cota.",
       "Si se mira el ensanche, escuchar la A-55 a distintas horas. Una conexión excelente por carretera pierde parte de su valor si domina acústicamente la terraza o el dormitorio.",
-      "Visitar una playa fluvial real —Areeiros u O Penedo— y después hacer una salida a la costa. Así se comprueba si el Miño cubre la relación cotidiana con el agua o si el mar acabará siendo una necesidad frecuente.",
+      "Visitar Areeiros u O Penedo, comprobando antes los avisos municipales y el estado sanitario vigente, y después hacer una salida a la costa. Así se comprueba si el Miño cubre la relación cotidiana con el agua o si el mar acabará siendo una necesidad frecuente.",
       "Probar también Valença a pie y comprobar si esa conexión se incorporaría de verdad a la semana.",
       "Por último, hacer el trayecto al hospital y al aeropuerto y revisar horarios útiles de tren. Tui destaca precisamente por logística; conviene verificar que esas ventajas funcionan para la rutina concreta.",
     ],
   },
-  baiona: {
+  "baiona": {
     encajaSi: [
       "Encaja si se quiere que el mar forme parte de una semana normal. Desde las microzonas centrales se puede caminar al puerto, al paseo y a playas urbanas sin convertir cada baño en un desplazamiento.",
       "También si se busca una villa reconocible y activa durante todo el año, manteniendo Vigo suficientemente cerca para hospital, aeropuerto y servicios de mayor escala.",
@@ -170,7 +169,7 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
       "Encaja peor si el silencio de julio y agosto es una condición esencial. El centro, el paseo y las zonas de playa reciben mucha más actividad en temporada alta.",
       "También si se necesita mucha superficie residencial cerca del mar con un presupuesto contenido. La costa de Baiona es el mercado más caro de Val Miñor después de Nigrán.",
       "Puede resultar menos adecuada si humedad, salitre y mantenimiento marítimo son inconvenientes difíciles de asumir.",
-      "Y pierde parte de su sentido si se termina comprando en una ladera dependiente del coche esperando conservar exactamente la caminabilidad del centro.",
+      "Y encaja peor si se compra en una ladera dependiente del coche esperando conservar la misma caminabilidad del centro.",
     ],
     queComprobar: [
       "Pasar una jornada sin coche desde la vivienda candidata y comprobar qué parte de la rutina queda realmente a pie.",
@@ -181,7 +180,7 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
       "Por último, hacer el trayecto hacia Vigo en una jornada normal y comprobar cómo encajan hospital, trabajo o aeropuerto en la semana real.",
     ],
   },
-  nigran: {
+  "nigran": {
     encajaSi: [
       "Encaja si se quiere una costa muy utilizable manteniendo Vigo y el hospital cerca.",
       "También si se prefiere elegir entre varias formas de vivir: Panxón como pequeño núcleo marítimo, Praia América como franja de playa, A Ramallosa por servicios o una parroquia interior por casa y jardín.",
@@ -192,7 +191,7 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
       "Encaja peor si se busca un único casco donde comercio, plaza, playa y todos los servicios formen una sola experiencia peatonal.",
       "También si se espera poder vivir sin coche desde cualquier punto del municipio. Esa posibilidad existe en algunas microzonas, no en todo Nigrán.",
       "Puede resultar menos adecuado si el silencio de agosto es imprescindible y la vivienda elegida está junto a los principales arenales.",
-      "Y puede no compensar si el presupuesto obliga a alejarse de la costa pero la razón principal para elegir Nigrán era precisamente bajar andando a la playa.",
+      "Y encaja peor si el presupuesto obliga a alejarse de la costa cuando la razón principal para elegir Nigrán era precisamente bajar andando a la playa.",
     ],
     queComprobar: [
       "Elegir primero la microzona y pasar allí una jornada completa antes de comparar viviendas de partes distintas del municipio.",
@@ -203,7 +202,7 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
       "Finalmente, recorrer un tramo cotidiano del paseo y distinguirlo de la Senda Azul completa: vivir junto a una ruta larga no significa que cada salida deba convertirse en una caminata de diez kilómetros.",
     ],
   },
-  gondomar: {
+  "gondomar": {
     encajaSi: [
       "Encaja si se busca casa, terreno y tranquilidad sin alejar hospital, aeropuerto y Vigo.",
       "También si el mar puede funcionar como salida de una tarde en lugar de estar en la puerta. Praia América y otras playas del valle siguen suficientemente cerca para utilizarlas con frecuencia en coche.",
@@ -224,7 +223,7 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
       "Y si la playa es importante, conducir hasta Praia América con el tráfico que probablemente se encontrará en verano antes de decidir que la distancia es irrelevante.",
     ],
   },
-  cangas: {
+  "cangas": {
     encajaSi: [
       "Encaja si el mar debe formar parte de una semana normal y se valora poder elegir entre playa urbana, ensenada tranquila y costa atlántica dentro del mismo municipio.",
       "También si se quiere una villa anual con mercado, comercio y ferry a Vigo, aceptando que hospital y determinados servicios de mayor escala quedan fuera.",
@@ -235,7 +234,7 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
       "Encaja peor si el hospital debe quedar a pocos minutos o si todos los servicios especializados deben estar dentro del municipio.",
       "También si el silencio de agosto es imprescindible en una vivienda situada en las rutas hacia las playas más demandadas.",
       "Puede resultar menos adecuado si se quiere una casa de costa sin aceptar mantenimiento atlántico, carreteras locales y dependencia del coche.",
-      "Y pierde parte de su sentido si se compra lejos de la villa esperando conservar exactamente la autonomía peatonal del mercado y el ferry.",
+      "Y encaja peor si se compra lejos de la villa pero se espera conservar la misma autonomía peatonal del mercado y el ferry.",
     ],
     queComprobar: [
       "Pasar una jornada sin coche desde una vivienda de la villa y comprobar qué parte de la semana queda realmente a pie.",
@@ -246,7 +245,7 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
       "Y visitar la vivienda después de lluvia para comprobar humedad, drenaje y comportamiento de los exteriores.",
     ],
   },
-  moana: {
+  "moana": {
     encajaSi: [
       "Encaja si Vigo forma parte de la semana pero se prefiere vivir en una escala menor y utilizar el ferry cuando sea práctico.",
       "También si paseo y pequeñas playas de ría deben estar integrados en la rutina, especialmente desde la franja central.",
@@ -257,7 +256,7 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
       "Encaja peor si toda la vida debe resolverse a pie desde una parroquia alta o desde Domaio.",
       "También si se necesita hospital muy próximo dentro del propio municipio.",
       "Puede resultar menos adecuada si se busca la costa atlántica abierta y los grandes arenales naturales como experiencia diaria.",
-      "Y pierde parte de su sentido si se compra en altura esperando conservar exactamente la caminabilidad del paseo.",
+      "Y encaja peor si se compra en altura pero se espera conservar la misma caminabilidad de la franja del paseo.",
     ],
     queComprobar: [
       "Pasar una jornada sin coche desde la vivienda candidata y comprobar compra, salud, paseo y ferry.",
@@ -268,7 +267,7 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
       "Y comprobar si las cuestas y accesos seguirían siendo cómodos a largo plazo.",
     ],
   },
-  bueu: {
+  "bueu": {
     encajaSi: [
       "Encaja si se busca una villa marinera contenida, con puerto, mercado y vida anual, y se prefiere esa escala a una conexión metropolitana más intensa.",
       "También si Cabo Udra, Beluso y Ons ofrecen el tipo de costa que se quiere utilizar, distinguiendo paseo diario de excursión.",
@@ -279,7 +278,7 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
       "Encaja peor si se necesita hospital muy próximo o una ciudad grande integrada en la rutina peatonal.",
       "También si se quiere conexión diaria por barco con Vigo o ferrocarril.",
       "Puede resultar menos adecuado si se busca mucha oferta de obra nueva o una gran variedad comercial dentro del municipio.",
-      "Y pierde parte de su sentido si se compra en una zona interior esperando conservar la caminabilidad de la villa.",
+      "Y encaja peor si se compra en una zona interior pero se espera conservar la misma caminabilidad de la villa.",
     ],
     queComprobar: [
       "Pasar una jornada completa en la villa y hacer a pie compra, salud, puerto y paseo.",
@@ -290,7 +289,7 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
       "Y visitar la vivienda después de lluvia para comprobar humedad y comportamiento de la parcela o del edificio.",
     ],
   },
-  marin: {
+  "marin": {
     encajaSi: [
       "Encaja si Pontevedra y hospital deben quedar cerca sin renunciar a tener buenas playas a pocos minutos.",
       "También si se valora una ciudad pequeña, anual y funcional más que una villa orientada principalmente al paseo marítimo.",
@@ -301,7 +300,7 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
       "Encaja peor si se exige silencio en el centro o una fachada urbana dedicada casi por completo al ocio marítimo.",
       "También si se quiere bajar andando a una gran playa desde cualquier vivienda céntrica.",
       "Puede resultar menos adecuado si la prioridad es una costa más natural y menos portuaria como experiencia diaria.",
-      "Y pierde parte de su sentido si se compra en Aguete esperando mantener exactamente la autonomía peatonal del casco.",
+      "Y encaja peor si se compra en Aguete pero se espera mantener la misma autonomía peatonal del casco.",
     ],
     queComprobar: [
       "Pasar un lunes laborable en la calle de la vivienda y escuchar puerto y tráfico.",
@@ -315,7 +314,7 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
   "soto-del-barco": {
     encajaSi: [
       "Puede encajar si se busca una escala pequeña sin quedar muy lejos de hospital y aeropuerto, y se acepta que para las necesidades de mayor entidad habrá que salir del municipio.",
-      "San Juan añade una combinación bastante particular: un pueblo pequeño donde compra básica, médico, farmacia, puerto, desembocadura y playa pueden formar parte de una misma vida diaria. No todo queda a la puerta de cada vivienda, pero tampoco es simplemente el lugar costero de un municipio cuyos servicios están en otra parte.",
+      "San Juan añade una combinación particular: un pueblo pequeño donde compra básica, médico, farmacia, puerto, desembocadura y playa pueden formar parte de una misma vida diaria.",
       "Soto ofrece la otra posibilidad: vivir algo más retirado de la costa abierta, junto al Nalón y en el núcleo administrativo, manteniendo servicios básicos propios.",
     ],
     encajaNo: [
@@ -324,11 +323,7 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
       "La vivienda añade otro límite: poca obra nueva, fibra que conviene comprobar dirección por dirección y un mercado de escala pequeña en el que la vivienda concreta pesa más que una media general.",
     ],
     queComprobar: [
-      "Aquí una visita al «municipio» no basta. Hay que probar dos mañanas distintas.",
-      "En Soto, salir desde una vivienda posible y hacer la vida corriente: compra, farmacia, médico, paseo y coche. Ver cuánto se resuelve realmente a pie y cuánto empieza a dispersarse.",
-      "En San Juan, hacer exactamente lo mismo y después seguir andando: primero el puerto, luego la desembocadura y finalmente Los Quebrantos. No para comprobar si el paisaje gusta, sino para descubrir cuánto de él entraría de verdad en un martes cualquiera.",
-      "Después conviene hacer el trayecto al Hospital San Agustín y al aeropuerto.",
-      "Solo entonces «Soto del Barco» deja de ser un nombre administrativo y aparecen las dos vidas que contiene.",
+      "Probar por separado Soto y San Juan. En Soto, salir desde una vivienda posible y hacer la vida corriente: compra, farmacia, médico, paseo y coche. En San Juan, hacer lo mismo y continuar hacia el puerto, la desembocadura y Los Quebrantos. Después conviene hacer el trayecto al Hospital San Agustín y al aeropuerto.",
     ],
   },
   "salinas-castrillon": {
@@ -343,30 +338,22 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
       "El verano trae más movimiento y presión de aparcamiento junto a la playa. Además, comprar en Salinas tiene una referencia sensiblemente más alta que Piedras Blancas o el conjunto de Castrillón.",
     ],
     queComprobar: [
-      "Desde una vivienda candidata, hacer a pie el recorrido hasta la compra habitual y la playa. Así se comprueba si la cercanía al mar funciona de verdad en la rutina y no solo sobre el mapa.",
-      "Continuar después hacia El Espartal y, si interesa, hacia San Juan de Nieva. El recorrido permite ver dónde termina el frente residencial y cómo aparecen las dunas, la ría, el puerto y la industria.",
-      "Probar también en coche los trayectos a Piedras Blancas, Avilés y el Hospital San Agustín para saber qué parte de la semana dependerá de esos desplazamientos.",
-      "Volver a la misma calle en un momento de alta ocupación veraniega para comprobar tráfico, movimiento y aparcamiento.",
-      "En la vivienda, revisar orientación, luz, aislamiento, humedad, salitre, estado de fachada y ventanas, además de comprobar desde qué estancias existen realmente las vistas que se estén pagando.",
+      "Desde una vivienda candidata, hacer a pie el recorrido hasta la compra habitual y la playa. Continuar después hacia El Espartal y, si interesa, hacia San Juan de Nieva. Probar también en coche los trayectos a Piedras Blancas, Avilés y el Hospital San Agustín. Volver a la misma calle en un momento de alta ocupación veraniega. En la vivienda, revisar orientación, luz, aislamiento, humedad, salitre, fachada y ventanas.",
     ],
   },
   "luanco-gozon": {
     encajaSi: [
       "Puede encajar si se busca una villa pequeña donde el mar y una parte importante de la vida diaria estén realmente mezclados.",
-      "En Luanco no hace falta salir del pueblo para encontrar centro de salud con atención continuada, farmacias, biblioteca o servicios sociales. Tampoco hace falta salir para llegar al puerto o a la playa urbana. Esa proximidad permite una mañana que pase de un recado al paseo marítimo y del puerto a un café sin depender continuamente del coche.",
-      "La relación con el mar tiene además más capas que el baño. Está el puerto actual, la historia pesquera, los restos de construcción naval en Aramar y un Museo Marítimo que explica pesca, navegación, carpintería de ribera y naturaleza marina. El mar aparece como paisaje, paseo, historia y actividad cultural.",
+      "En Luanco no hace falta salir del pueblo para encontrar centro de salud con atención continuada, farmacias, biblioteca o servicios sociales. Tampoco hace falta salir para llegar al puerto o a la playa urbana.",
+      "La relación con el mar tiene además más capas que el baño. Está el puerto actual, la historia pesquera, los restos de construcción naval en Aramar y un Museo Marítimo que explica pesca, navegación, carpintería de ribera y naturaleza marina.",
     ],
     encajaNo: [
       "Puede encajar peor si se quiere disponer de hospital dentro de la propia localidad. Luanco tiene atención primaria y continuada, pero para hospital hay que conducir hacia Gijón o Avilés.",
       "Tampoco debe confundirse la villa con todo Gozón. Las otras playas, el paisaje rural y las viviendas más dispersas del concejo pueden ampliar mucho las posibilidades de costa y naturaleza, pero ya no conservan necesariamente la facilidad de hacer a pie la vida descrita aquí.",
-      "El verano añade otro contraste: una villa costera que permite disfrutar del mar durante todo el año recibe también más visitantes en temporada. Aparcamiento y movimiento alrededor del centro y de las playas deben comprobarse en ese momento, no deducirse de una visita tranquila fuera de temporada.",
+      "El verano añade más visitantes. Aparcamiento y movimiento alrededor del centro y de las playas deben comprobarse en ese momento, no deducirse de una visita tranquila fuera de temporada.",
     ],
     queComprobar: [
-      "Desde una vivienda candidata, hacer a pie una compra cotidiana, pasar por una farmacia y el centro de salud y continuar hacia el puerto y la playa. Así se comprueba cuánto de la vida de Luanco queda realmente a pie desde esa dirección.",
-      "Recorrer después el frente marítimo hasta la iglesia de Santa María. Si interesa caminar más, subir a la senda costera y avanzar un tramo hacia Bañugues permite distinguir el paseo cotidiano de una salida más larga.",
-      "Acercarse a Aramar ayuda a entender la huella de los antiguos astilleros y la relación histórica de la villa con la construcción naval.",
-      "Probar también el trayecto en coche hacia uno de los hospitales próximos y hacia el aeropuerto.",
-      "Repetir la visita en verano si el aparcamiento o la tranquilidad de la calle son importantes, y comprobar en la vivienda orientación, viento, aislamiento, humedad, ascensor y acceso.",
+      "Desde una vivienda candidata, hacer a pie una compra cotidiana, pasar por una farmacia y el centro de salud y continuar hacia el puerto y la playa. Recorrer después el frente marítimo hasta la iglesia de Santa María. Si interesa caminar más, subir a la senda costera y avanzar un tramo hacia Bañugues. Probar también el trayecto en coche hacia uno de los hospitales próximos y hacia el aeropuerto. Repetir la visita en verano si el aparcamiento o la tranquilidad de la calle son importantes.",
     ],
   },
   "muros-de-nalon": {
@@ -379,11 +366,183 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
       "También puede encajar peor si vivir junto al mar significa necesariamente tener una gran playa urbana al final de la calle. San Esteban tiene el agua muy presente, pero es puerto y desembocadura; Muros está cerca de Aguilar, pero no forma una continuidad urbana con la playa.",
     ],
     queComprobar: [
-      "Tratar Muros y San Esteban como dos candidatos residenciales distintos.",
-      "En San Esteban, salir desde una vivienda real y recorrer a pie el consultorio, el puerto, la ría y el comienzo de las sendas. Así se comprueba cuánto del frente del Nalón entraría de verdad en una tarde normal.",
-      "En Muros, hacer el mismo ejercicio dentro del núcleo y después probar los desplazamientos hacia Aguilar y San Esteban. Estar cerca en kilómetros no significa incorporar esos lugares del mismo modo a la rutina.",
-      "Hacer también el trayecto real hacia el hospital y una compra de mayor escala, porque parte de la semana se resolverá fuera del concejo.",
-      "Visitar la vivienda con tiempo húmedo y comprobar luz, orientación, ventilación, acceso, aparcamiento y cualquier señal que aconseje revisar humedad.",
+      "Tratar Muros y San Esteban como dos candidatos residenciales distintos. En San Esteban, salir desde una vivienda real y recorrer a pie el consultorio, el puerto, la ría y el comienzo de las sendas. En Muros, hacer el mismo ejercicio dentro del núcleo y después probar los desplazamientos hacia Aguilar y San Esteban. Hacer también el trayecto real hacia el hospital y una compra de mayor escala. Visitar la vivienda con tiempo húmedo y comprobar luz, orientación, ventilación, acceso, aparcamiento y cualquier señal que aconseje revisar humedad.",
+    ],
+  },
+  "pontevedra": {
+    encajaSi: [
+      "Encaja si se quiere una ciudad pequeña donde gran parte de la semana pueda hacerse andando y donde hospital, tren, comercio y cultura formen parte de la misma escala urbana.",
+      "También si el paseo junto al río puede cubrir la necesidad cotidiana de exterior y basta con desplazarse cuando se quiere playa de mar.",
+      "Puede encajar especialmente si se valora una ciudad plenamente activa durante todo el año, sin depender del calendario turístico para que haya servicios y vida en la calle.",
+      "Y encaja si la proximidad al hospital y a las conexiones de Vigo y Santiago pesa más que vivir literalmente junto a un arenal.",
+    ],
+    encajaNo: [
+      "Encaja peor si el motivo principal de la mudanza es bajar andando a una playa marítima desde casa. El Lérez y la ría están integrados en la ciudad, pero la arena de baño queda fuera del centro.",
+      "También si se busca una vivienda amplia con terreno sin aumentar el uso del coche. Esa combinación pertenece más a las parroquias que a la ciudad compacta.",
+      "Puede resultar menos adecuada si se quiere una vida completamente silenciosa en las calles centrales durante las grandes fiestas.",
+      "Y encaja peor si la lluvia y la humedad invernal son aspectos difíciles de asumir en una vivienda urbana de piedra o con poca orientación solar.",
+    ],
+    queComprobar: [
+      "Pasar un día entero desde la vivienda sin coche: compra, farmacia, mercado, centro, estación y paseo del Lérez.",
+      "Recorrer la zona por la noche si la vivienda está cerca de hostelería o plazas.",
+      "Hacer un tramo de la senda del Lérez y comprobar si ese tipo de paseo cubriría realmente la necesidad cotidiana de naturaleza.",
+      "Conducir hasta la playa que se utilizaría habitualmente y repetir el trayecto en temporada alta.",
+      "Hacer el recorrido real al hospital y a la estación.",
+      "Y volver a la vivienda con lluvia para comprobar luz, ventilación, accesos y sensación interior.",
+    ],
+  },
+  "poio": {
+    encajaSi: [
+      "Encaja si se quiere vivir junto a la ría sin alejarse de una ciudad completa.",
+      "También si se valora poder elegir entre varias formas de residencia: proximidad a Pontevedra, puerto pequeño, casco histórico, playa o casa en ladera.",
+      "Puede encajar especialmente si una vivienda con más espacio o vistas pesa más que tener todos los servicios concentrados en una única plaza.",
+      "Y encaja si se acepta que la microzona decide el uso del coche: Poio puede ser muy práctico o bastante disperso según la dirección.",
+    ],
+    encajaNo: [
+      "Encaja peor si se quiere una experiencia municipal homogénea. Vivir en San Salvador no se parece a hacerlo en Combarro ni en Raxó.",
+      "También si la presión turística de verano resulta incompatible con la vida cotidiana y la vivienda está dentro o junto al casco más visitado.",
+      "Puede resultar menos adecuado si se quiere prescindir del coche viviendo en una zona alta o dispersa.",
+      "Y encaja peor si se compra una casa por sus vistas sin aceptar humedad, pendiente, mantenimiento de parcela y accesos.",
+    ],
+    queComprobar: [
+      "Pasar una mañana en San Salvador, otra en Combarro y otra en Raxó antes de comparar viviendas de esas zonas.",
+      "Desde cada dirección candidata, hacer una compra, ir a la farmacia y probar el acceso hacia Pontevedra.",
+      "Comprobar la playa que se utilizaría realmente y recorrer el trayecto a pie desde casa si esa cercanía justifica el precio.",
+      "Volver a Combarro en temporada alta.",
+      "Visitar una casa de ladera después de lluvia y comprobar suelo, drenaje y horas de sol.",
+      "Y hacer el trayecto al hospital y a la estación de Pontevedra para entender cuánto de la ventaja urbana funciona realmente desde esa microzona.",
+    ],
+  },
+  "sanxenxo": {
+    encajaSi: [
+      "Encaja si la playa debe formar parte de la rutina diaria y se está dispuesto a pagar más por poder llegar andando a ella.",
+      "También si interesa elegir entre una villa de paseo, un núcleo marinero como Portonovo y una costa atlántica más abierta dentro del mismo municipio.",
+      "Puede encajar especialmente si se valora un verano mucho más fresco que Mallorca y se acepta compartir la costa con una población estacional muy alta.",
+      "Y encaja si la vida anual puede organizarse alrededor de Sanxenxo o Portonovo, sin exigir hospital ni aeropuerto a pocos minutos.",
+    ],
+    encajaNo: [
+      "Encaja peor si julio y agosto deben conservar el mismo silencio, tráfico y facilidad de aparcamiento que noviembre.",
+      "También si el presupuesto obliga a vivir lejos de la costa cuando la principal razón para elegir el municipio era hacer vida de playa a pie.",
+      "Puede resultar menos adecuado si el hospital y el aeropuerto deben quedar muy cerca.",
+      "Y encaja peor si el mantenimiento ligado a salitre, humedad y primera línea se quiere reducir al mínimo.",
+    ],
+    queComprobar: [
+      "Pasar una jornada completa en Sanxenxo y otra en Portonovo fuera de temporada.",
+      "Repetir la visita en agosto y comprobar ruido, tráfico y aparcamiento.",
+      "Hacer a pie desde la vivienda candidata supermercado, centro de salud y playa.",
+      "Recorrer un tramo del Sendero Azul entre Sanxenxo y Portonovo para comprobar si realmente formaría parte de la rutina.",
+      "Visitar A Lanzada con viento y oleaje para distinguirla de las playas urbanas protegidas.",
+      "Y hacer el trayecto real hacia el hospital y el aeropuerto antes de dar por asumida la logística.",
+    ],
+  },
+  "o-grove": {
+    encajaSi: [
+      "Encaja si se busca una villa marinera con actividad anual y el mar como parte visible de la vida cotidiana.",
+      "También si se quiere elegir entre una rutina caminable en la villa y una vida mucho más costera en San Vicente o Pedras Negras.",
+      "Puede encajar especialmente si marisqueo, lonja, calas y paseos junto al Atlántico pesan más que tener hospital o aeropuerto cerca.",
+      "Y encaja si se acepta que agosto y la Festa do Marisco cambian el tráfico y la ocupación de un municipio que depende de un único istmo para salir por carretera.",
+    ],
+    encajaNo: [
+      "Encaja peor si hospital y aeropuerto deben quedar a pocos minutos.",
+      "También si se quiere vivir en la costa exterior sin utilizar el coche con frecuencia.",
+      "Puede resultar menos adecuado si la humedad y el mantenimiento de una casa entre pinos son cargas poco deseables.",
+      "Y encaja peor si se confunde la experiencia de A Toxa con la vida diaria de la villa o de San Vicente.",
+    ],
+    queComprobar: [
+      "Pasar una mañana normal en la villa haciendo compra, farmacia, mercado y puerto a pie.",
+      "Dormir una noche en San Vicente si se está considerando una vivienda allí y hacer al día siguiente los recados habituales.",
+      "Recorrer Pedras Negras y visitar A Siradella para comprobar qué parte de esa costa se utilizaría realmente.",
+      "Conducir por el istmo en verano y durante un periodo de mucha actividad.",
+      "Hacer el trayecto real al Hospital do Salnés.",
+      "Y visitar la vivienda después de lluvia para comprobar humedad, drenaje, salitre y comportamiento de los espacios exteriores.",
+    ],
+  },
+  "vigo": {
+    encajaSi: [
+      "Encaja si se quiere conservar una ciudad completa y poder decidir cuánto mar entra en la vida diaria.",
+      "También si hospital, universidad, aeropuerto, tren, cultura y comercio deben quedar dentro del mismo municipio.",
+      "Puede encajar especialmente si se acepta vivir en un barrio urbano para reducir coche y utilizar la costa como salida frecuente.",
+      "Y puede encajar si se prefiere una casa cerca de Samil, O Vao o las parroquias del suroeste y se acepta que parte de la semana vuelva a depender del vehículo.",
+    ],
+    encajaNo: [
+      "Encaja peor si se busca silencio de pueblo y una escala urbana muy pequeña.",
+      "También si las pendientes son un problema importante y la vivienda está en una ladera mal conectada.",
+      "Puede resultar menos adecuado si se quiere una casa grande con vistas y playa próxima dentro de un presupuesto contenido.",
+      "Y encaja peor si se espera que una vivienda costera mantenga la misma autonomía peatonal que el centro.",
+    ],
+    queComprobar: [
+      "Hacer una jornada completa desde la vivienda candidata sin coche si esa autonomía forma parte de la decisión.",
+      "Caminar las cuestas que se repetirían cada día.",
+      "Probar el autobús que se usaría realmente y no solo comprobar que existe una parada.",
+      "Hacer el trayecto al Álvaro Cunqueiro y al aeropuerto en horario normal.",
+      "Visitar la zona en invierno con lluvia y en verano con actividad de playa.",
+      "Y comprobar desde la vivienda cuánto tarda realmente llegar al paseo o playa que justifica elegir esa microzona.",
+    ],
+  },
+  "redondela": {
+    encajaSi: [
+      "Encaja si se quiere una villa con mercado, estación y vida anual sin pagar los precios de Vigo.",
+      "También si se valora tener Vigo y Pontevedra accesibles en tren o carretera y mantener una escala residencial más pequeña.",
+      "Puede encajar especialmente si Cesantes permite incorporar la ría y el baño a la semana desde la vivienda elegida.",
+      "Y encaja si se acepta revisar calle por calle el impacto de tren, autopista y carreteras.",
+    ],
+    encajaNo: [
+      "Encaja peor si el silencio absoluto es un requisito difícil de negociar.",
+      "También si se espera que toda Redondela tenga playa a pie: esa ventaja pertenece sobre todo a Cesantes y a direcciones concretas.",
+      "Puede resultar menos adecuada si se quiere una experiencia uniforme entre casco, Chapela y parroquias costeras.",
+      "Y encaja peor si se compra una casa sin comprobar humedad, acceso y ruido en una mañana laborable.",
+    ],
+    queComprobar: [
+      "Pasar una mañana en el casco y utilizar mercado y estación.",
+      "Visitar Cesantes con marea alta y baja para entender el tipo de playa y paisaje.",
+      "Escuchar la vivienda con ventanas abiertas cuando haya tráfico y paso de trenes.",
+      "Hacer un trayecto real en tren hacia Vigo o Pontevedra.",
+      "Conducir al hospital práctico del área de Vigo.",
+      "Y visitar la vivienda después de lluvia si se trata de una casa o bajo.",
+    ],
+  },
+  "soutomaior": {
+    encajaSi: [
+      "Encaja si se quiere una escala de pueblo con tren y servicios concentrados en Arcade.",
+      "También si una casa con terreno interesa más que poder hacer toda la semana andando y se acepta utilizar coche desde el interior.",
+      "Puede encajar especialmente si Pontevedra y Vigo deben estar cerca sin vivir dentro de ninguna de las dos ciudades.",
+      "Y encaja si la relación con ría, río, castillo y bosque es suficiente aunque no exista una gran playa urbana propia.",
+    ],
+    encajaNo: [
+      "Encaja peor si todos los servicios deben quedar a pie desde una casa de parroquia.",
+      "También si una gran playa propia forma parte central de la decisión.",
+      "Puede resultar menos adecuado si se quiere fibra garantizada sin comprobar la dirección concreta.",
+      "Y encaja peor si la vivienda rural se compra por terreno y silencio sin asumir mantenimiento, humedad y desplazamientos.",
+    ],
+    queComprobar: [
+      "Pasar una mañana normal en Arcade y hacer a pie los recados principales.",
+      "Utilizar la estación y comprobar horarios que encajen con la rutina real.",
+      "Recorrer el entorno del Verdugo y del peirao para entender qué tipo de agua entra en la vida diaria.",
+      "Visitar el castillo y comprobar si sería realmente una salida repetible desde la vivienda.",
+      "Hacer el trayecto a hospital y compras grandes.",
+      "Y visitar cualquier casa rural después de varios días de lluvia.",
+    ],
+  },
+  "vilaboa": {
+    encajaSi: [
+      "Encaja si se quiere casa con terreno y una vida tranquila sin alejarse demasiado de Pontevedra y Vigo.",
+      "También si la ensenada, las Salinas do Ulló y el monte aportan suficiente exterior aunque no exista una gran playa cotidiana.",
+      "Puede encajar especialmente si se acepta utilizar coche casi todos los días a cambio de espacio y una escala de parroquia.",
+      "Y encaja si se está dispuesto a revisar con detalle acceso, humedad, saneamiento y conectividad antes de comprar.",
+    ],
+    encajaNo: [
+      "Encaja peor si se necesita resolver la semana andando desde casa.",
+      "También si se quiere un núcleo compacto con mercado, instituto, hospital y oferta cultural concentrados.",
+      "Puede resultar menos adecuado si la playa grande a pie es una condición central.",
+      "Y encaja peor si se compra únicamente por vistas a la ensenada sin asumir coche, mantenimiento y posibles ruidos de carretera.",
+    ],
+    queComprobar: [
+      "Pasar una mañana completa haciendo los recados que se repetirían cada semana.",
+      "Conducir a Pontevedra, Arcade y al hospital para saber qué apoyo urbano sería realmente el habitual.",
+      "Recorrer las Salinas do Ulló y una de las pequeñas playas de la ensenada para entender qué tipo de relación con el agua ofrece el municipio.",
+      "Visitar Lago Castiñeiras o Cotorredondo para comprobar si el monte tendría uso real desde la vivienda.",
+      "Volver a la propiedad después de lluvia y observar parcela, muros y accesos.",
+      "Y comprobar fibra, saneamiento y abastecimiento antes de dar por buena una casa por su precio o sus vistas.",
     ],
   },
 };

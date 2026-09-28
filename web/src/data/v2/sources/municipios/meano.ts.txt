@@ -1,0 +1,58 @@
+{
+    escala: "Parroquias de viñedo con Dena como núcleo",
+    abrir: [
+      "Meaño se siente más valle que villa. Dena, Meaño, Xil, Padrenda, Simes, Cobas y otras parroquias: no hay un casco que lo concentre todo. Dena, junto a la carretera hacia Sanxenxo, reúne centro de salud, farmacia, supermercado y bares; las casas de piedra y los viñedos en emparrado —parras altas sobre pilares— suben hacia el Monte Castrove. O Salnés nombra el valle vitícola: Albariño, pazos y humedad de invierno.",
+      "Un martes de noviembre se vive entre poda, trayectos cortos y piedra húmeda. Desde Dena se resuelve lo básico; desde Xil, Simes o Padrenda el coche abre la semana. No hay playa cotidiana: A Lanzada queda a unos diez o doce minutos desde Dena como salida frecuente, no como paseo desde casa. Los paseos propios son rutas rurales y del río da Chanca, no un paseo marítimo urbano.",
+      "San Cristovo de Dena cae alrededor del 10 de julio; a mediados de mes, la Festa do Viño ocupa la Praza do Concello. En agosto, fiestas parroquiales de Simes y Cobas llevan música a los atrios. Agosto llena carreteras hacia Sanxenxo; el interior conserva más calma que la costa.",
+      "Autonomía media-baja: fuera de Dena la dependencia del coche es alta. Hospital do Salnés a unos veinte minutos; Vigo, cerca de media hora como aeropuerto práctico. Meaño promete viñedo y piedra; el mar a pie, no.",
+    ],
+    tiempo: [
+      "El valle trae más humedad y alguna helada que la costa evita. Frente a Mallorca hay menos continuidad de sol; el verano sigue fresco respecto a Baleares. Orientación de la casa y sombra del Castrove importan. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno se siente en piedra húmeda y parras desnudas. Conviene cubierta, aislamiento, humedad y horas reales de sol. Un noviembre con acceso estrecho enseña más que un sábado soleado entre viñas.",
+      "Sin coche solo cuadra bien en Dena. En enero queda comunidad agrícola dispersa y poco turismo. No hay plaza compacta que concentre la tarde.",
+      "Sanidad de mayor nivel fuera; atención primaria local vía Dena. Para Palma, Vigo en verano y Santiago con enlace casi todo el año. La integración es de finca y bodega: gallego de parroquia, no colonia de veraneo.",
+    ],
+    historia: [
+      "La historia visible está en parroquias, pazos y vino. Templos como San Xoán de Meaño y Santa Eulalia de Xil recuerdan ocupación medieval dispersa; pazos como Lis y Zárate hablan de casas señoriales ligadas a la tierra.",
+      "El Albariño transformó la agricultura en economía especializada. Las cepas crecen en emparrado para separarse de la humedad del suelo. Meaño forma parte de la subzona Val do Salnés; la Festa do Viño deja leer el paisaje como trabajo actual.",
+    ],
+    fuera: [
+      "Río da Chanca y molinos, caminos bajo parras y laderas hacia el Castrove son el tiempo libre propio. Cambados cubre villa y mesa; A Lanzada, océano cuando apetece —siempre como salida—.",
+      "La costa municipal es muy corta. Quien viva aquí reparte la semana entre finca, Dena y esas salidas: no entre plaza y lonja del mismo pueblo.",
+    ],
+    casa: [
+      "No comprar solo por vistas: comprobar farmacia, compra, acceso, pendiente, humedad y fibra en la dirección concreta. Dena concentra más vida diaria que las áreas de viñedo o aldea.",
+      "El mercado es estrecho o de muestra limitada. Los precios y totales permanecen en la capa factual. Firmar tras un noviembre y un día de tráfico hacia la costa.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si casa de piedra, viñedo y silencio de parroquia importan más que plaza caminable o mar a la puerta.",
+        "También si se acepta coche habitual a cambio de valle vitícola con A Lanzada como salida corta y Cambados cerca.",
+      ],
+      no: [
+        "Encaja peor si la semana debe hacerse andando o si la playa debe empezar al salir de casa: aquí el mar no es cotidiano.",
+        "Tampoco si se necesita ciudad inmediata o se decide solo tras un sábado soleado entre viñas, sin probar humedad y acceso.",
+      ],
+      veredicto:
+        "Meaño es valle de Albariño y Dena práctica a cambio de coche y mar como salida. Su atractivo está en la parroquia y el Castrove; su peaje, en no vender A Lanzada como paseo desde casa ni el municipio como villa costera."
+    },
+ fotoIdentidad: {
+ src: "/fotos/o-salnes/meano-identidad.jpg",
+ pie: "Meaño: casas de parroquia y monte Castrove detrás",
+ },
+ fotosAbrir: [
+ { src: "/fotos/o-salnes/meano-emparrado.jpg", pie: "Meaño: viñedos en emparrado entre parroquias" },
+ { src: "/fotos/o-salnes/meano-dena.jpg", pie: "Dena, el núcleo práctico del municipio" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/o-salnes/meano-iglesia-san-xoan.jpg", pie: "San Xoán de Meaño, piedra medieval en el valle" },
+ { src: "/fotos/o-salnes/meano-parroquia.jpg", pie: "Santa Eulalia de Xil, parroquia entre viñas" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/o-salnes/meano-castrove.jpg", pie: "El Monte Castrove detrás de los viñedos" },
+ { src: "/fotos/o-salnes/meano-pazo.jpg", pie: "Pazo do Monte en Padrenda, piedra señorial entre parcelas" },
+ ],
+ creditoFotos: credito,
+  }

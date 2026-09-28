@@ -1,0 +1,51 @@
+{
+    escala: "Fortaleza frente a Tui",
+    abrir: [
+      "Valença se entiende al cruzar el puente desde Tui, la villa episcopal gallega al otro lado del Miño: dos países a un paso y una fortaleza abaluartada de los siglos XVII y XVIII —dos recintos, fosos, puertas— con un pueblo entero de comercio intramuros. Textil, manteles, mesas y cafés viven dentro del muro; los fines de semana llegan vecinos de Galicia como quien va al mercado. No es orilla atlántica: es interior de valle fluvial. El río Miño marca el día; Moledo, la playa larga de dunas y pinar, queda como salida.",
+      "La autonomía cotidiana es media-fuerte. En el núcleo, farmacia, súper y el comercio de la fortaleza cubren mucho a pie si se elige bien el piso; Tui refuerza la compra y el paseo. Para el Hospital de Santa Luzia, en Viana do Castelo, y para la gran superficie hace falta coche o tren. Conde de Bertiandos, en Ponte de Lima, forma parte de la red comarcal, pero la referencia práctica de mayor nivel queda en Viana. Quien vive aquí es gente local, comerciantes intramuros y vecinos que cruzan a Galicia por pan o papeleo: frontera vivida, no colonia de veraneo.",
+      "Un martes de noviembre se camina por los baluartes, se compra dentro de los muros y la villa sigue abierta. En agosto hay fiestas, afluencia y mesas llenas; el calendario fronterizo marca el ritmo más que el baño. La Ecopista do Minho —antigua vía de tren hacia Monção, llana entre viñedo de Alvarinho y río— sale casi desde la orilla. El tren Celta enlaza el eje Vigo–Porto; conviene interpretarlo como conexión estructural, no como horario prometido. Valença promete muro, puente y Miño; el Atlántico, cuando apetece, es escapada.",
+    ],
+    tiempo: [
+      "El valle del Miño trae humedad, niebla media de mañana y un verano más cálido que la costa minhota. Frente a Mallorca hay menos continuidad de sol y más cielo gris entre noviembre y febrero; la terraza se usa la mitad. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno se nota en la niebla que levanta a media mañana y en la humedad de valle. Conviene aislamiento, calefacción y orientación al sol, no solo el piso fotogénico dentro de los muros. Un martes gris de noviembre y un julio de valle dicen más que un sábado soleado en los baluartes.",
+      "Sin coche, lo diario se resuelve en el núcleo bien situado; Tui queda a minutos por el puente. Hospital de mayor capacidad y costa piden desplazamiento. En enero la villa no se apaga: comercio intramuros, café abierto, Ecopista utilizable. Los fines de semana fronterizos llenan aparcamiento y mesas.",
+      "Se vive con un pie en cada país. El portugués manda en ayuntamiento y comercio; el castellano y el gallego se oyen a menudo. La integración pasa por frontera permeable y ritmo de eurociudad, no por urbanización cerrada. Para ir y volver a Mallorca el aeropuerto práctico es Porto; Vigo queda como apoyo geográfico de frontera, no como eje principal del viaje.",
+    ],
+    historia: [
+      "La fortaleza explica Valença mejor que cualquier folleto: plaza fuerte levantada frente a Tui cuando el Miño era línea de guerra. Hoy se recorre por lo alto de las murallas con Galicia debajo y el comercio intramuros como oficio vivo. El puente internacional de hierro de 1886 —gesto de escuela Eiffel— convirtió la frontera en calle cotidiana.",
+      "La Ecopista do Minho hacia Monção completa la ficha fluvial: antigua vía convertida en camino llano entre Alvarinho y río. Lo que conviene saber no es lista de fechas; es muro, puente y frontera permeable. Quien camine los baluartes un martes de enero entenderá por qué los gallegos siguen viniendo: no es museo, es villa dentro del muro.",
+    ],
+    fuera: [
+      "Los baluartes y el comercio intramuros son la tarde de diario: se sube al adarve, se mira Tui, se baja a un café dentro de las puertas. El paseo fluvial gallego y la catedral quedan al otro lado como refuerzo de calle y mesa.",
+      "La Ecopista do Minho es el paseo propio cuando no se quiere coche. Moledo y Caminha cubren el Atlántico cuando apetezca dunas y desembocadura. Quien viva aquí acepta el río como paisaje cotidiano y el mar como salida corta.",
+    ],
+    casa: [
+      "Dentro de la fortaleza y en el ensanche hay pisos y viviendas de villa; hay fibra y poca sensación de urbanización cerrada. El modelo es piso con acceso claro al puente o casa de villa con el muro cerca. En verano hay que contar con calor de valle y ocupación de fin de semana fronterizo.",
+      "Conviene comprobar aparcamiento un sábado dentro de los muros y humedad de valle en invierno. Los precios y totales permanecen en la capa factual y en Idealista del mes.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si la frontera vivida importa más que la orilla atlántica a la puerta. Valença ofrece fortaleza, Tui a minutos, Miño de diario y autonomía media-fuerte en el núcleo.",
+        "También si se acepta reservar el mar para la tarde —Moledo queda como salida— y resolver hospital de mayor nivel en Viana (Santa Luzia), con Porto como aeropuerto práctico.",
+      ],
+      no: [
+        "Encaja peor si se busca playa marina en el municipio o el verano suave de la costa minhota: aquí el valle aprieta más y el Atlántico no está a pie.",
+        "Tampoco si se interpreta Vigo como hospital o aeropuerto principal de la vida portuguesa: la referencia práctica de mayor nivel está en Santa Luzia y el vuelo cotidiano mira a Porto.",
+      ],
+      veredicto:
+        "Valença es villa frontera-río: muralla, Tui y Ecopista a cambio de calor de valle y mar fuera del municipio. Su atractivo está en la frontera vivida; su peaje, en que el Miño no es playa y el viaje aéreo y la sanidad de mayor nivel se organizan hacia Porto y Viana."
+    },
+    fotosAbrir: [
+      { src: "/fotos/alto-minho/valenca-fortaleza.jpg", pie: "Fortaleza de Valença frente a Tui" },
+      { src: "/fotos/alto-minho/valenca-comercio.jpg", pie: "Comercio dentro de la fortaleza de Valença" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/alto-minho/valenca-puente.jpg", pie: "Puente entre Valença y Tui" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/alto-minho/valenca-rio.jpg", pie: "Miño a la altura de Valença" },
+    ],
+    creditoFotos: credito,
+  }

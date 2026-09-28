@@ -1,0 +1,63 @@
+{
+    escala: "Villa marinera bajo la sierra",
+    abrir: [
+      "A Pobra do Caramiñal —a menudo solo A Pobra— junta dos orillas en el mismo gesto. Unos nueve mil habitantes bajo A Curota, en la Serra do Barbanza, con casco de piedra, pazos, la Torre de Bermúdez y un frente de ría donde Os Areos y el puerto quedan integrados en el núcleo.",
+      "Quien vive aquí es gente de mar y de monte, y veraneantes que llenan julio y agosto sin vaciar el resto del año. Un martes de noviembre el mercado junto a Os Areos, la biblioteca, el Museo Valle-Inclán, el Cine-Teatro Elma y la atención primaria cubren lo básico. El Hospital do Barbanza queda muy cerca; Santiago, a un trayecto mayor.",
+      "Cabío bajo pinar, A Corna y Lombiña amplían el baño a minutos. Las Pozas de Río Pedras —piscinas naturales entre granito— ofrecen agua dulce cuando aprieta el sol en la orilla. En verano fiestas y veraneo llenan casco, puerto y playas; hacia las laderas el silencio vuelve antes a cambio del volante.",
+      "Si solo conoces un día claro en A Curota, pensarás que el pueblo es solo el mirador. Si has visto viento en la orilla y un sábado de agosto en Cabío, ya puedes decidir si quieres esa doble orilla.",
+    ],
+    tiempo: [
+      "Frente a Mallorca el cielo se nota más gris y con más viento de orilla; la orientación de la casa respecto a la sierra importa en invierno. El verano es fresco frente a Baleares. Cabío y Os Areos tienen agua de ría usable en baños cortos. Las cifras detalladas quedan en la capa factual.",
+      "Conviene venir un día de viento en la orilla y un noviembre, no solo un sábado de sol bajo el pinar de Cabío.",
+    ],
+    vivir: [
+      "El invierno se siente en el viento medio de la orilla y en la humedad de la piedra. Conviene tocar paredes en noviembre y medir orientación. Un frente enseña más que un día claro en A Curota.",
+      "Sin coche, el casco resuelve primaria, farmacia, súper y comercio local. En parroquias altas o cerca de Río Pedras el coche une compra y baño. En enero hay mesas y puerto: vida anual con verano más activo.",
+      "Llegar de fuera mezcla oficio del mar y del monte con veraneo contenido. Se oye gallego en el casco; el castellano basta para lo cotidiano. Quien busque solo mirador se equivoca de peaje; quien busque vecinos, el casco en noviembre.",
+      "El Hospital do Barbanza queda a un trayecto muy corto —de los mejores de la comarca—. Empadronarse abre cabecera local; para hospital se conduce poco. El hospital de mayor capacidad fuera del núcleo sigue siendo la referencia comarcal, no una clínica de puerta.",
+      "Ir y volver a Mallorca pasa por Santiago-Lavacolla, con enlace a Palma durante casi todo el año —programación variable—. El trayecto es algo mayor que desde Rianxo o Noia.",
+      "El modelo va del casco de piedra junto al puerto hasta laderas con chalés y fincas. Fibra en el núcleo. La orientación al viento importa más que el plano del anuncio.",
+    ],
+    historia: [
+      "La Torre de Bermúdez y los pazos del casco hablan de villa señorial y marinera a la vez. Pazo es la casa solariega gallega de piedra, normalmente con finca; aquí granito y puerto se miran de cerca.",
+      "A Curota es el mirador emblemático: en días claros se entienden varias rías. Las Pozas de Río Pedras completan un paisaje que no se agota en la orilla. El Museo Valle-Inclán añade capa literaria a la marinera.",
+    ],
+    fuera: [
+      "Os Areos y el frente de ría son el agua cotidiana integrada en el núcleo; Cabío, A Corna y Lombiña amplían el baño bajo pinar o en tramos próximos. Un martes de junio hay sombra y calma; un domingo de agosto el aparcamiento se queda corto.",
+      "Barraña en Boiro o Coroso en Ribeira quedan a un trayecto corto. Corrubedo cambia a dunas y Atlántico. Las Pozas de Río Pedras cubren baño de río entre granito.",
+      "Subir a A Curota es la salida de visita obligada. Santiago concentra ciudad y aeropuerto; el Hospital do Barbanza queda cerca como dato que distingue A Pobra de Rianxo o Porto do Son.",
+    ],
+    casa: [
+      "Casco de piedra junto a la Torre de Bermúdez y el puerto, o ladera hacia Río Pedras con vistas a ría o sierra. Poca obra nueva; fibra en el núcleo. La orientación al viento manda.",
+      "Conviene comprobar viento, humedad y distancia real a Os Areos o Cabío según la calle. Los precios permanecen en la capa factual.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si la doble orilla —ría delante, Serra do Barbanza detrás— importa más que el comercio grande de Ribeira. A Curota, Os Areos, Cabío y el hospital comarcal cerca dan una combinación sierra-ría clara.",
+        "También si se acepta escala de villa marinera con verano activo y Lavacolla como aeropuerto práctico a un trayecto medio.",
+      ],
+      no: [
+        "Encaja peor si se necesita la densidad de Ribeira —comercio grande, lonja, cine— o la soledad atlántica de Baroña y Area Longa: A Pobra es villa marinera y de monte, no capital ni costa brava.",
+        "Tampoco si agosto junto al paseo o a Cabío debe ser silencioso. Fiestas y veraneo llenan orilla; las laderas bajan el volumen a cambio de coche.",
+      ],
+      veredicto:
+        "A Pobra ofrece sierra y ría en el mismo municipio: Curota, Os Areos y hospital comarcal cerca a cambio de no ser capital comercial. Su atractivo está en la doble orilla; su peaje, en medir viento, agosto y la escala real de servicios de villa."
+    },
+ fotoIdentidad: {
+ src: "/fotos/barbanza-e-noia/a-pobra-do-caraminal-identidad.jpg",
+ pie: "A Pobra do Caramiñal: casas del puerto frente a la ría, con el monte detrás",
+ },
+ fotosAbrir: [
+ { src: "/fotos/barbanza-e-noia/pobra-casco.jpg", pie: "Casco de piedra de A Pobra do Caramiñal" },
+ { src: "/fotos/barbanza-e-noia/pobra-curota.jpg", pie: "A Curota, mirador sobre las rías" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/barbanza-e-noia/pobra-torre-bermudez.jpg", pie: "Torre de Bermúdez en el casco" },
+ { src: "/fotos/barbanza-e-noia/pobra-puerto.jpg", pie: "Puerto deportivo de A Pobra" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/barbanza-e-noia/pobra-pozas.jpg", pie: "Pozas de Río Pedras, baño de río entre granito" },
+ { src: "/fotos/barbanza-e-noia/pobra-cabio.jpg", pie: "Cabío, playa de ría bajo pinar" },
+ ],
+ creditoFotos: credito,
+  }

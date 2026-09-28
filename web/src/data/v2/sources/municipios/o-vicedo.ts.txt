@@ -1,0 +1,58 @@
+{
+    escala: "Villa marinera cantábrica",
+    abrir: [
+      "O Vicedo se entiende desde el borde: la ría do Barqueiro marca la frontera con A Coruña y, al salir del núcleo, Xilloi, Arealonga y Vidreiro abren el municipio al Cantábrico. No hay una villa densa que concentre toda la semana. Hay un núcleo pequeño, costa muy próxima y una vida cotidiana que depende bastante de lo que se resuelva fuera.",
+      "Ese aislamiento cambia mucho con la estación. En verano las playas y Fuciño do Porco reciben visitantes y coches; en noviembre el municipio vuelve a una escala mínima. La imagen del horizonte es real, pero también lo es que compras amplias, hospital y muchas gestiones obliguen a organizar la semana con coche."
+    ],
+    tiempo: [
+      "Frente a Mallorca, aquí la diferencia se nota en la humedad, la niebla, el viento y un verano mucho más fresco. Una vivienda que funciona bien en agosto puede sentirse muy distinta durante varios días grises seguidos; orientación, aislamiento, ventilación y acceso pesan tanto como las vistas.",
+      "El Cantábrico abierto tampoco garantiza baño diario. Arealonga y otras playas pueden quedar muy cerca según la vivienda, pero oleaje y tiempo mandan. El mar sigue estando presente cuando no apetece bañarse: como paseo, horizonte y salida corta."
+    ],
+    vivir: [
+      "La autonomía cotidiana es baja. El núcleo cubre lo básico, pero para una compra amplia, atención hospitalaria y muchas gestiones hay que salir hacia otras villas de A Mariña. El tren de ancho métrico tiene apeadero, aunque su mera existencia no sustituye esa dependencia práctica del coche.",
+      "Una mañana libre puede empezar sin convertirse en excursión: el primer tramo del PR-G156 sale del puerto y permite caminar por la costa; completar la ruta hacia Vidreiro, Castro, Caolín, Xilloi y Area Grande ya es otro tipo de plan. Fuciño do Porco, con sus pasarelas sobre el acantilado, pertenece más a esa geografía de salida que a un paseo urbano de todos los días.",
+      "Agosto y enero cuentan historias distintas. Junto a las playas se nota más el movimiento estacional; fuera de temporada vuelven el silencio y la escasez de actividad. Antes de valorar una casa aquí conviene comprobar qué queda realmente a mano cuando desaparece el tráfico de verano.",
+      "La atención hospitalaria está fuera del municipio y los aeropuertos útiles también exigen un desplazamiento largo. No hace falta convertir esos tiempos en el centro del relato: la consecuencia es sencilla, vivir en el extremo occidental de A Mariña obliga a planificar más los desplazamientos importantes."
+    ],
+    historia: [
+      "La ría do Barqueiro explica la posición de O Vicedo mejor que un casco monumental: agua, costa y frontera provincial organizan el paisaje. Fuciño do Porco añade una forma muy reconocible de recorrer el acantilado mediante pasarelas.",
+      "Estaca de Bares amplía ese mapa hacia uno de los extremos septentrionales de la península, con faro, viento y paso de aves. Es una salida que refuerza la sensación de vivir en una costa extrema, no un servicio cotidiano del municipio."
+    ],
+    fuera: [
+      "Xilloi, Arealonga y Vidreiro son las referencias de playa. Según la dirección concreta, alguna puede formar parte de una tarde normal; no por eso los servicios quedan igualmente cerca. Esa separación entre mar próximo y vida práctica es una de las claves de O Vicedo.",
+      "Para ampliar el día aparecen Fuciño do Porco, Estaca de Bares y, hacia el este, Viveiro. El mapa cotidiano y el mapa de paisaje no coinciden: el primero exige coche con frecuencia; el segundo ofrece mucha costa en muy poca distancia."
+    ],
+    casa: [
+      "Aquí una vivienda debe probarse en noviembre además de en agosto. Humedad, viento, orientación, acceso y fibra —que no es uniforme— importan especialmente en casas dispersas o próximas a la costa. También conviene medir la distancia real a la compra y no confundir vistas al mar con autonomía.",
+      "En un mercado pequeño, la casa concreta pesa más que una imagen general del municipio. Accesibilidad, estado de reforma y funcionamiento durante el invierno son preguntas más útiles que repetir precios y estimaciones que ya aparecen en la capa factual y en la tabla."
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca una relación muy directa con la costa y se acepta que el municipio no resuelva por sí solo una semana completa. Playas, ría y senderos están muy presentes; la contrapartida es organizar compras, hospital y bastantes gestiones con coche.",
+        "También encaja si el silencio de fuera de temporada se vive como parte del lugar y no como una carencia inesperada. O Vicedo cambia mucho entre un día fuerte de agosto y un martes húmedo de noviembre."
+      ],
+      no: [
+        "Encaja peor si se quiere salir de casa y resolver casi todo andando, si el hospital debe quedar próximo o si una agenda cotidiana depende de mucha oferta comercial y cultural en el propio núcleo.",
+        "Tampoco si la vivienda solo convence con sol y actividad de verano. El aislamiento, la humedad, el viento y la menor ocupación de invierno son parte estructural de la experiencia."
+      ],
+      veredicto:
+        "O Vicedo ofrece una costa muy presente a cambio de poca autonomía cotidiana. La decisión depende menos de la postal que de aceptar coche, servicios limitados y un invierno muy tranquilo, y de encontrar una vivienda cuyo acceso, orientación, humedad y conectividad funcionen también fuera de temporada."
+    },
+    fotoIdentidad: {
+      src: "/fotos/a-marina/o-vicedo-identidad.jpg",
+      pie: "O Vicedo: casas junto a la ría, con el monte detrás",
+    },
+    fotosAbrir: [
+      { src: "/fotos/a-marina/vicedo-villa.jpg", pie: "O Vicedo: villa marinera en el extremo occidental" },
+      { src: "/fotos/a-marina/vicedo-puerto.jpg", pie: "Puerto y orilla de trabajo en O Vicedo" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/a-marina/vicedo-faro.jpg", pie: "Faro y horizonte hacia Estaca de Bares" },
+      { src: "/fotos/a-marina/vicedo-ria.jpg", pie: "Ría do Barqueiro junto a O Vicedo" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/a-marina/vicedo-playa.jpg", pie: "Playa atlántica en O Vicedo" },
+      { src: "/fotos/a-marina/vicedo-costa.jpg", pie: "Costa y acantilados de O Vicedo" },
+    ],
+    creditoFotos: credito,
+  }

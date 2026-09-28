@@ -1,0 +1,59 @@
+{
+    escala: "Ciudad pequeña, puerto y parroquias",
+    abrir: [
+      "Vilagarcía de Arousa se siente más ciudad de lo que la comarca promete. Nació de la unión de Vilagarcía, Carril y Vilaxoán: hospital comarcal, estación, puerto y comercio. Carril mira a la isla de Cortegada y vive del marisqueo; Vilaxoán conserva puerto pesquero; el casco reúne mercado y paseo. No es Fefiñáns: es la logística de O Salnés.",
+      "Un martes de noviembre se puede ir andando a mercado, salud, colegio, tiendas, estación y playa de Compostela. Autonomía muy alta en zona urbana; coche para salidas y parroquias hacia el Xiabre. La playa cotidiana es parcial: Compostela y el frente de Carril pueden integrarse en la rutina. Menos imagen de resort, a cambio de mucha más autonomía.",
+      "San Roque ocupa alrededor de diez días de agosto. El 16, la Festa da Auga moja una zona del centro; el Combate Naval añade fuegos en el puerto. La Festa da Ameixa de Carril suma otra oleada. Biblioteca y deporte mantienen uso estable fuera del verano: ciudad plenamente anual.",
+      "Hospital do Salnés en el municipio, a unos cinco minutos. Vigo y Santiago quedan ambos hacia tres cuartos de hora; Santiago refuerza Palma casi todo el año. Quien busque solo armonía de villa noble mirará Cambados; quien busque resolver la semana aquí, Vilagarcía.",
+    ],
+    tiempo: [
+      "La ría abriga, pero la ciudad puede sentirse algo más húmeda que la isla. Frente a Mallorca hay menos continuidad de sol; el verano sigue fresco. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno se nota en lluvia y en bloques antiguos: conviene aislamiento y elegir calle respecto al puerto. Un día laborable de lluvia enseña más que un sábado en Compostela.",
+      "Sin coche, la semana fuerte cabe en el centro. En enero la ciudad sigue abierta. En parroquias altas el coche ayuda, pero la dependencia es la menor de la comarca.",
+      "Sanidad comarcal a escala de barrio. Tren a Santiago, Vigo y más lejos. Para Palma, Vigo en verano y Santiago con enlace casi anual —y tren hacia el aeropuerto compostelano—. La integración es urbana: puerto, barrio y veraneo sin vaciar el resto del año.",
+    ],
+    historia: [
+      "El ferrocarril Santiago–Carril, inaugurado en 1873, fue la primera línea de Galicia y terminaba junto al puerto. Esa ventaja territorial sigue: Santiago a trayecto corto en tren no es eslogan.",
+      "Carril es conocido por los parques de almeja y por Cortegada, isla de laurel del Parque Nacional das Illas Atlánticas. En el centro, el Pazo de Vista Alegre y el convento forman conjunto histórico.",
+      "La Festa da Auga nació en 1984 cuando quienes llevaban a San Roque pidieron agua y los vecinos la lanzaron desde los balcones: tradición reciente que ya define el calendario.",
+    ],
+    fuera: [
+      "Frente marítimo hacia Carril: paseo con paisaje de marisqueo y Cortegada enfrente. Compostela y A Concha son arenales de ría que pueden entrar en la rutina urbana.",
+      "Cortegada se visita con barco autorizado. Xiabre y Lobeira dan monte y mirador. Para océano abierto, A Lanzada pide coche. La ciudad ofrece ría inmediata y autonomía; no resort de primera línea atlántica.",
+    ],
+    casa: [
+      "Pisos de distintas décadas y obra nueva más frecuente que en villas vecinas; Carril y Vilaxoán, vivienda marinera; parroquias altas, terreno. Conviene accesibilidad, exterior y escoger calle: el puerto no suena igual en todas las plantas.",
+      "Los precios y totales permanecen en la capa factual. Firmar tras un día laborable junto al puerto y una noche de San Roque.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si hospital, tren y vida sin coche importan más que el encanto de una villa pequeña, con Compostela o Carril en la rutina.",
+        "También si se quiere la autonomía más completa de O Salnés y se acepta trama urbana desigual a cambio de servicios estables todo el año.",
+      ],
+      no: [
+        "Encaja peor si se busca casco noble y silencioso: el puerto y agosto de Auga exigen elegir calle.",
+        "Tampoco si se quiere solo imagen de resort o silencio de julio: aquí manda ciudad portuaria anual.",
+      ],
+      veredicto:
+        "Vilagarcía compra hospital, tren y autonomía cotidiana a cambio de menos armonía de villa. Su atractivo está en resolver la semana en el mismo municipio; su peaje, en no confundir Compostela con Fefiñáns ni firmar sin oír el puerto y una noche de Auga."
+    },
+ fotoIdentidad: {
+ src: "/fotos/o-salnes/vilagarcia-de-arousa-identidad.jpg",
+ pie: "Vilagarcía–Carril: casas junto a la ría de Arousa y el monte detrás",
+ },
+ fotosAbrir: [
+ { src: "/fotos/o-salnes/vilagarcia-paseo.jpg", pie: "Vilagarcía y Carril: ciudad, puerto y ría de Arousa" },
+ { src: "/fotos/o-salnes/vilagarcia-compostela.jpg", pie: "Compostela, playa urbana unida al centro por paseo" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/o-salnes/vilagarcia-vista-alegre.jpg", pie: "Vista Alegre, pazo y convento dentro de la ciudad" },
+ { src: "/fotos/o-salnes/vilagarcia-estacion.jpg", pie: "El tren mantiene la ventaja histórica de Vilagarcía" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/o-salnes/vilagarcia-carril.jpg", pie: "Carril: puerto, marisqueo y Cortegada al fondo" },
+ { src: "/fotos/o-salnes/vilagarcia-cortegada.jpg", pie: "Cortegada, isla de laurel frente a Carril" },
+ ],
+ creditoFotos: credito,
+  }

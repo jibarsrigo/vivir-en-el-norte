@@ -1,0 +1,59 @@
+{
+    escala: "Villa turística, puerto y parroquias de playa",
+    abrir: [
+      "Sanxenxo se siente como dos temporadas bajo el mismo nombre. La villa de Silgar, el puerto pesquero de Portonovo y parroquias extendidas hasta A Lanzada: playa cotidiana sí —Silgar, Baltar, Caneliñas entran en la vida peatonal según núcleo—, a cambio de peaje estacional intenso. Sanxenxo es la forma gallega de San Ginés; Portonovo significa puerto nuevo y conserva escala marinera propia.",
+      "Un martes de noviembre, Silgar es paseo despejado y Portonovo mantiene lonja, mercado y bares: se puede vivir a pie en cualquiera de los dos centros. En Areas, Montalvo, Noalla o Vilalonga el coche organiza la semana. Agosto cambia las distancias: aparcamiento, colas y ruido nocturno. La base de servicios permanece; la presión estival es muy marcada.",
+      "Santa Rosalía y la Virxe do Carme caen alrededor del 4 y 5 de septiembre. Portonovo vive San Roque del 14 al 19 de agosto; el 17, la Festa da Raia. En A Lanzada, el último fin de semana de agosto, la romería de Nosa Señora mezcla culto y antiguos ritos junto a la ermita. Son fechas de tráfico y noches largas en una temporada ya saturada.",
+      "El Hospital do Salnés o Pontevedra cubren según necesidad, a unos veinte minutos. Vigo queda hacia cincuenta minutos como aeropuerto práctico; Santiago refuerza Palma casi todo el año. Quien priorice playa y acepte compartir el verano entenderá Sanxenxo; quien busque silencio de julio, no.",
+    ],
+    tiempo: [
+      "La costa trae brisa atlántica y un verano más fresco que Mallorca, con menos continuidad de sol sobre todo en invierno. Silgar y Portonovo abrigan más que A Lanzada abierta. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno no se nota tanto en el termómetro como en el contraste con agosto. Conviene aislamiento y salitre en primera línea; un martes de noviembre en Portonovo enseña más que un día de sol en Silgar en junio.",
+      "Sin coche, Silgar o Portonovo resuelven diario: salud, súper, lonja y bares. Fuera de esos núcleos el coche pesa. En enero hay colegio y barcos; el comercio se reduce, pero la villa no se apaga. Agosto multiplica distancias y ruido.",
+      "La sanidad de mayor complejidad pide desplazamiento. Para Mallorca, Vigo en verano y Santiago con enlace más estable el resto del año: conviene mirar el calendario real. La integración mezcla lonja permanente y veraneo masivo; hay que aceptar ambas caras.",
+    ],
+    historia: [
+      "La economía marinera de Portonovo precede al gran crecimiento turístico del siglo XX. Silgar se convirtió en paseo urbano y se consolidó uno de los mayores puertos deportivos de Galicia. Lonja y temporada conviven en el mismo mapa.",
+      "A Lanzada conserva castro y restos de necrópolis junto a la ermita románica de Nosa Señora. La romería mantiene el baño de las nueve olas, tradición ligada a la fertilidad. No es solo playa: es paisaje ritual ocupado desde hace siglos.",
+      "Hasta los topónimos dibujan la suma: Sanxenxo nombra villa y municipio; Portonovo, el puerto con vida propia; Noalla y Vilalonga, costa e interior. Elegir Sanxenxo es elegir una de esas escalas bajo presión de agosto.",
+    ],
+    fuera: [
+      "La ruta litoral Sanxenxo–Portonovo enlaza Panadeira, Silgar, Punta Vicaño, Baltar, Portonovo y Caneliñas: paseo y playa en el mismo gesto según dónde se viva. Hacia el oeste aparecen Canelas, Montalvo y Major.",
+      "A Lanzada suma playa atlántica larga, arqueología y paseo; en agosto exige madrugar o aparcamiento distante. Punta Faxilda abre vistas a Ons. Sanxenxo gana por variedad de orilla y pierde por saturación de julio a septiembre.",
+    ],
+    casa: [
+      "Silgar concentra apartamentos y obra nueva; Portonovo mezcla vivienda permanente y segunda residencia; las parroquias, casas y urbanizaciones. Conviene accesibilidad, terraza o aparcamiento y servicios utilizables todo el año —no solo en agosto—.",
+      "Probar ruido y tráfico estivales antes de firmar. El núcleo y Portonovo no pesan igual en el mercado; los precios y totales permanecen en la capa factual.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si playa y paseo deben formar parte del día —Silgar, Baltar, Caneliñas— y se acepta el peaje de un verano intenso.",
+        "También si hay vida permanente en Portonovo o Silgar en invierno y se asume hospital y aeropuerto a media distancia.",
+      ],
+      no: [
+        "Encaja peor si julio y agosto deben parecerse a noviembre: población, tráfico y fiestas saturan la costa.",
+        "Tampoco si se busca la calma de ría de Poio o la peatonalidad total de Pontevedra sin presión turística.",
+      ],
+      veredicto:
+        "Sanxenxo ofrece playa cotidiana y ruta litoral a cambio de precio alto de temporada y verano saturado. Su atractivo está en Silgar y Portonovo vividos todo el año; su peaje, en no firmar tras un junio soleado sin dormir una noche de agosto."
+    },
+ fotoIdentidad: {
+ src: "/fotos/pontevedra-e-sanxenxo/sanxenxo-identidad.jpg",
+ pie: "Sanxenxo: casas frente a la ría, con el monte detrás",
+ },
+ fotosAbrir: [
+ { src: "/fotos/pontevedra-e-sanxenxo/sanxenxo-silgar.jpg", pie: "Silgar, paseo y playa urbana de Sanxenxo" },
+ { src: "/fotos/pontevedra-e-sanxenxo/sanxenxo-portonovo.jpg", pie: "Portonovo conserva puerto y vida propia todo el año" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/pontevedra-e-sanxenxo/sanxenxo-lanzada-ermida.jpg", pie: "Ermida da Lanzada, culto y costa sobre un lugar antiguo" },
+ { src: "/fotos/pontevedra-e-sanxenxo/sanxenxo-lanzada-castro.jpg", pie: "A Lanzada conserva castro y necrópolis junto al mar" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/pontevedra-e-sanxenxo/sanxenxo-lanzada.jpg", pie: "A Lanzada, 2,5 kilómetros de dunas y Atlántico" },
+ { src: "/fotos/pontevedra-e-sanxenxo/sanxenxo-canelas.jpg", pie: "Canelas, una de las playas abrigadas de Portonovo" },
+ ],
+ creditoFotos: credito,
+  }

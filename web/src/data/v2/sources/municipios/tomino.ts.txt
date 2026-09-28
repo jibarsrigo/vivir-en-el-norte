@@ -1,0 +1,54 @@
+{
+    escala: "Vega del Miño: núcleo, Goián y parroquias",
+    abrir: [
+      "Tomiño se extiende por la vega del Miño con una advertencia clara: no tratar Tomiño núcleo, Goián y el resto de parroquias como una sola experiencia. Goián mira al río frente a Vila Nova de Cerveira; el puente de la Amizade convierte Portugal en costumbre semanal. Tierra adentro pesan fincas, invernaderos de planta ornamental y distancias que el coche cose.",
+      "La autonomía es media y la dependencia del coche, media-alta. Goián y Seixo concentran servicios propios; el municipio no es localidad de playa marina. La relación cotidiana es con el río: ribera, fortaleza de San Lourenzo, parque y actividades de agua dulce.",
+      "El calendario une lo que el caserío dispersa. San Campio de Figueiró a finales de julio atrae romeros de Galicia y Portugal; la Virxe do Alivio llena Tomiño en septiembre. El Lanzo da Cruz cruza el Miño tras la Pascua; el Entroido y la Festa da Rosca marcan otros picos de tráfico y mesas largas en lugares que el resto del año se reparten entre fincas.",
+    ],
+    tiempo: [
+      "En la vega el verano aprieta más que en la punta atlántica: vuelve una versión suave del calor que muchos dejan atrás al salir de Mallorca. Otoño e invierno traen nieblas de río que levantan a media mañana. Conviene probar julio antes de enamorarse solo de los metros de finca.",
+    ],
+    vivir: [
+      "El invierno se siente en niebla y humedad de planta baja. Conviene aislamiento, ventilación y no firmar solo con sol de anuncio. Un día de niebla y otro de calor de valle describen mejor la casa.",
+      "Goián resuelve lo básico; Cerveira multiplica feria y mesa al otro lado del puente. Desde las fincas el coche abre la semana. En enero la frontera sigue abierta; no hay paseo compacto de villa marina.",
+      "Conviven gente local, trabajo de viveros y quien busca casa con terreno. Se oye gallego a ambos lados del Miño. Hospital práctico en el Álvaro Cunqueiro: trayecto asumible frente a la punta, pero no sanidad intramuros. Para Mallorca, Vigo queda más cerca; Porto y Santiago completan según temporada. Ningún enlace debe darse por permanente.",
+      "Espacio y río a cambio de dispersión. Quien confunda todo Tomiño con Goián se llevará una sorpresa de distancias.",
+    ],
+    historia: [
+      "Tierra de frontera: el Forte de San Lourenzo de Goián se levantó en el siglo XVII cuando el Miño volvió a ser línea de guerra. Iglesias románicas como Santa María de Tomiño recuerdan una historia anterior; el puente de la Amizade terminó de coser las dos orillas en la vida diaria.",
+      "Los viveros cambiaron el paisaje reciente: invernaderos donde otros municipios muestran parras. La rosca tomiñesa y las fiestas de río cuentan una economía doméstica y fronteriza.",
+    ],
+    fuera: [
+      "El paseo cotidiano es la ribera en Goián: fortaleza, parque y Portugal enfrente. No hay playa marina en el municipio; Area Grande o la ría de Vigo quedan como salidas. La Ecopista do Minho y el Monte Aloia amplían el mapa fluvial y de monte.",
+      "El sábado de Cerveira —feria al otro lado del puente— define Tomiño tanto como cualquier arenal lejano. El agua de diario es el Miño ancho.",
+    ],
+    casa: [
+      "Lo habitual es casa con finca en la vega: poco piso compacto, poca urbanización de costa. Fibra parcial, dirección a dirección.",
+      "Elegir Goián no es lo mismo que elegir una parroquia del fondo del valle. Conviene medir calor de julio, niebla de noviembre y distancia real a servicios antes de quedarse solo con la foto del río.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si finca, río y Portugal cotidiano pesan más que el Atlántico a la puerta. Goián con Cerveira ofrece frontera vivida; el hospital queda más cerca que desde A Guarda.",
+        "También si se acepta dispersión, coche y un verano de vega más cálido, y se ha distinguido bien la microzona.",
+      ],
+      no: [
+        "Encaja peor si se huye del calor mediterráneo y se encuentra de nuevo en julio. Tampoco si la playa marina debe estar en el umbral o si la niebla de río no cabe en la rutina.",
+        "Tampoco si se espera villa de paseo compacto: aquí el mapa se reparte entre núcleos y fincas.",
+      ],
+      veredicto:
+        "Tomiño ofrece espacio, Miño y frontera con Cerveira a cambio de dispersión y verano de vega. Encaja quien elige Goián con ojos abiertos al calor y a las distancias; no quien necesita mar fresco o un casco único que lo resuelva todo andando."
+    },
+    fotosAbrir: [
+      { src: "/fotos/baixo-mino/tomino-vega2.jpg", pie: "La vega del Miño: río, pueblo y monte" },
+      { src: "/fotos/baixo-mino/tomino-ponte.jpg", pie: "Ponte da Amizade: Goián y Cerveira a dos minutos" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/baixo-mino/tomino-forte.jpg", pie: "Forte de San Lourenzo: la frontera en piedra" },
+      { src: "/fotos/baixo-mino/tomino-vega.jpg", pie: "El Miño al atardecer: la orilla cotidiana" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/baixo-mino/tomino-rio.jpg", pie: "Barcas en el Miño, frente a Cerveira" },
+      { src: "/fotos/baixo-mino/tomino-praia-goian.jpg", pie: "Paseo fluvial: el río como vida diaria" },
+    ],
+    creditoFotos: "Fotos: Wikimedia Commons (CC BY-SA).",
+  }

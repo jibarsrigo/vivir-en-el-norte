@@ -1,0 +1,56 @@
+{
+    escala: "Villa de trabajo entre bahía y monte",
+    abrir: [
+      "Santoña tiene una base anual más ligada al trabajo que al veraneo: puerto, actividad conservera, comercio y vida de villa continúan fuera del verano. La bahía y el frente portuario forman parte del recorrido diario, con Monte Buciero cerrando el paisaje.",
+      "La autonomía cotidiana es fuerte y el coche puede tener un papel bajo dentro de la villa. El hospital práctico está en Laredo, fuera del municipio pero próximo. Esa combinación la diferencia de núcleos más puramente estacionales de la costa oriental.",
+      "La relación con la playa necesita matiz: San Martín se integra en la villa; Berria es la gran playa exterior y funciona como salida. No deben tratarse como la misma experiencia residencial.",
+    ],
+    tiempo: [
+      "La humedad marítima, la lluvia frecuente y el verano suave forman parte del clima local. Frente a Mallorca hay menos continuidad de sol. En vivienda conviene revisar ventilación, orientación y exposición al ambiente marino; las cifras detalladas permanecen en la capa factual.",
+    ],
+    vivir: [
+      "Una mañana ordinaria puede resolverse entre comercio, puerto, bahía y paseo sin coche. La actividad de trabajo sostiene una vida anual que no depende únicamente del calendario turístico.",
+      "Berria requiere desplazamiento y Monte Buciero exige desnivel: ambos amplían mucho el entorno, pero no son equivalentes al paseo llano del frente de la villa.",
+      "El hospital de Laredo y el aeropuerto de Santander quedan fuera. La logística sanitaria es relativamente corta, sin necesidad de repetir cascadas de minutos en el relato.",
+    ],
+    historia: [
+      "Puerto, pesca y conserva explican buena parte de la identidad contemporánea de Santoña. El fuerte de San Martín, las marismas y Monte Buciero añaden capas militares y naturales a una villa que sigue funcionando como lugar de trabajo.",
+      "Buciero no es solo fondo escénico: marca la topografía y separa el paseo urbano de rutas más exigentes.",
+    ],
+    fuera: [
+      "El frente de bahía y puerto es el paseo más fácil de incorporar a diario. San Martín se integra en esa lógica; Berria ofrece una playa mucho mayor pero exige una salida específica.",
+      "Monte Buciero y las marismas permiten ampliar el día con naturaleza y desnivel. No deben presentarse como paseo urbano llano.",
+    ],
+    casa: [
+      "Dentro de la villa pesa la posibilidad de resolver comercio y paseo a pie. Conviene comprobar orientación, humedad, salitre, ascensor o accesibilidad y aparcamiento según edificio.",
+      "Si la prioridad es Berria, la vivienda cambia de lógica respecto al núcleo. Los precios actualizados quedan en la capa factual y la tabla.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca una villa con vida anual, puerto y servicios suficientes, donde gran parte de la rutina pueda hacerse a pie.",
+        "También si se acepta que Berria y Buciero son salidas, mientras el mar cotidiano de la villa está en la bahía y San Martín.",
+      ],
+      no: [
+        "Encaja peor si se exige una gran playa abierta literalmente integrada en el centro urbano.",
+        "También si el entorno portuario y de trabajo no encaja con la idea de una localidad exclusivamente residencial.",
+      ],
+      veredicto:
+        "Santoña combina autonomía fuerte y vida de trabajo con bahía, marismas y monte. Su lectura correcta separa el paseo urbano y San Martín de las salidas a Berria y Buciero, evitando convertir toda su costa en una única experiencia."
+    },
+ fotoIdentidad: {
+ src: "/fotos/cantabria-oriental/santona-identidad.jpg",
+ pie: "Santoña: casas frente a la bahía, con el Monte Buciero detrás",
+ },
+ fotosAbrir: [
+ { src: "/fotos/cantabria-oriental/santona-berria.jpg", pie: "Playa de Berria, Santoña" },
+ { src: "/fotos/cantabria-oriental/santona-puerto.jpg", pie: "Iglesia de Santa María del Puerto, Santoña" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/cantabria-oriental/santona-san-martin.jpg", pie: "Fuerte de San Martín, Santoña" },
+ { src: "/fotos/cantabria-oriental/santona-buciero.jpg", pie: "Monte Buciero sobre Santoña" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/cantabria-oriental/santona-marismas.jpg", pie: "Marismas de Santoña" },
+ ],
+ creditoFotos: credito,
+  }

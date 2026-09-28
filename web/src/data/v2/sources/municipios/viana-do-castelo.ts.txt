@@ -1,0 +1,51 @@
+{
+    escala: "Ciudad del Lima",
+    abrir: [
+      "Viana do Castelo es la ciudad de referencia del Alto Minho: Praça da República, puente Eiffel sobre el Lima, buque-hospital Gil Eannes, mercado, comercio y el monte de Santa Luzia —santuario y mirador— cerrando el horizonte. El río Lima organiza el centro; Cabedelo, la playa de surf al otro lado del estuario, y Praia Norte no son el mismo gesto residencial que el casco. La autonomía cotidiana es muy alta.",
+      "Un martes de noviembre la ciudad funciona del todo: sanidad, compra, cultura, deporte. El Hospital de Santa Luzia está en la propia ciudad. El aeropuerto práctico es Porto. En el centro bien situado el coche puede pesar poco; hacia playas y parroquias exteriores, más. No es villa: es ciudad regional limpia y culta.",
+      "La playa cotidiana depende de microzona. Quien viva en el centro vive río y calle; quien viva hacia Cabedelo o franjas costeras acerca el Atlántico. Confundir ambas experiencias es el error habitual del visitante de fin de semana. Viana no pide catálogo turístico: pide decidir barrio.",
+    ],
+    tiempo: [
+      "La ciudad del Lima combina humedad atlántica, viento y un verano suave de costa-estuario. Frente a Mallorca hay menos continuidad de sol; en vivienda conviene mirar orientación y humedad. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno es de ciudad abierta: comercio, paseo del Lima y ritmo anual. La humedad y el viento siguen; Santa Luzia —el monte— añade pendiente si se elige vivir o pasear hacia arriba. Un enero aquí no se parece a una aldea costera vacía.",
+      "En el centro la rutina puede resolverse a pie; Cabedelo y parroquias exteriores cambian el peaje del coche. El tren y el bus ayudan sin inventar frecuencias. Agosto llena frente y terraza; el resto del año manda la ciudad de trabajo.",
+      "Santa Luzia hospitalaria está en casa; Porto cubre el avión. La integración es urbana: portugués de ciudad, escala completa, sin necesitar inventar un relato de aldea.",
+    ],
+    historia: [
+      "El puente Eiffel, el Gil Eannes, la Praça y el santuario de Santa Luzia explican Viana: ciudad de río, mar y monte. El Lima no es decorado; es eje. Lo que conviene saber es ciudad completa con microzonas distintas, no lista de atracciones.",
+    ],
+    fuera: [
+      "Marginal del Lima, centro y ecovia son el paseo cotidiano llano. Santa Luzia —el monte— es salida de mirador y pendiente; Cabedelo, extensión atlántica según vivienda y modo.",
+      "Ponte de Lima y el resto del Alto Minho amplían valle y costa; muchas necesidades no requieren salir. La playa «de Viana» solo es cotidiana si el barrio lo permite.",
+    ],
+    casa: [
+      "Centro histórico, ensanche, Cabedelo y parroquias costeras no comparten la misma relación con playa, pendiente ni ruido. Conviene ascensor o acceso cómodo si se busca ciudad sin barreras, y comprobar humedad y viento según frente.",
+      "Los precios y totales permanecen en la capa factual. Decidir microzona antes que tipología: el mismo concelho no ofrece la misma vida.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere ciudad completa del Alto Minho, con hospital en el propio municipio y autonomía muy alta en un centro bien situado.",
+        "También si se acepta que la playa atlántica cotidiana depende del barrio —centro no es Cabedelo— y Porto cubre el aeropuerto.",
+      ],
+      no: [
+        "Encaja peor si se busca aldea o playa a la puerta desde cualquier dirección: aquí el Lima manda en el centro y el Atlántico pide microzona.",
+        "Tampoco si se espera quietud de villa pequeña o se decide solo tras un día de mirador en Santa Luzia sin probar el barrio real.",
+      ],
+      veredicto:
+        "Viana es ciudad del Lima con autonomía propia y hospital en casa; la playa es microzona, no premio universal. Su atractivo está en la escala urbana; su peaje, en elegir bien entre río, monte y Cabedelo."
+    },
+ fotosAbrir: [
+ { src: "/fotos/alto-minho/viana-santa-luzia.jpg", pie: "Basílica de Santa Luzia sobre Viana do Castelo" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/alto-minho/viana-eiffel.jpg", pie: "Puente Eiffel sobre el Lima, Viana" },
+ { src: "/fotos/alto-minho/viana-gil-eannes.jpg", pie: "Buque-hospital Gil Eannes, Viana" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/alto-minho/viana-praia-norte.jpg", pie: "Praia Norte, Viana do Castelo" },
+ { src: "/fotos/alto-minho/viana-cabedelo.jpg", pie: "Cabedelo, al otro lado del Lima" },
+ ],
+ creditoFotos: credito,
+  }

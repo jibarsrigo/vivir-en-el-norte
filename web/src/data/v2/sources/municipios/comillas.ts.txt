@@ -1,0 +1,57 @@
+{
+    escala: "Villa modernista junto al mar",
+    abrir: [
+      "Comillas reúne en muy poco espacio casco histórico, playa y un patrimonio excepcional: El Capricho, Sobrellano y la Universidad Pontificia hacen que la arquitectura forme parte del paisaje cotidiano. La playa queda pegada al núcleo, de modo que aquí sí es razonable pensar en bajar al mar como parte de un día normal.",
+      "La contrapartida es una autonomía media y muy estacional. El comercio cotidiano existe, pero la escala es pequeña y el invierno no ofrece la misma densidad de actividad que el verano. Para compras y servicios superiores, hospital incluido, el coche sigue siendo importante.",
+      "La topografía también cuenta: entre partes del casco y la costa hay pendientes moderadas. Dos viviendas aparentemente cercanas pueden ofrecer una rutina peatonal distinta.",
+    ],
+    tiempo: [
+      "El año es húmedo y de cielo cambiante, con un verano suave y una diferencia clara respecto al clima más soleado de Mallorca. Para la vivienda importa comprobar orientación, ventilación, calefacción y comportamiento de la humedad; las cifras climáticas detalladas permanecen en la capa factual.",
+    ],
+    vivir: [
+      "En el casco se puede enlazar compra básica, paseo por el centro histórico, parque y frente de playa sin coche. Esa combinación de patrimonio y mar es real también fuera de una visita turística, aunque la oferta comercial se reduce al salir de temporada.",
+      "Julio y agosto traen más gente, tráfico y presión de aparcamiento; fuera de temporada la villa pierde mucha intensidad. Esa oscilación es parte de la experiencia residencial y conviene verla tanto en verano como en un día ordinario de invierno.",
+      "Sierrallana queda fuera de la villa y el aeropuerto práctico es Santander. Palma depende de la programación concreta, por lo que no debe tratarse como una conexión permanente.",
+    ],
+    historia: [
+      "El Capricho de Gaudí, Sobrellano y la Pontificia explican por qué Comillas tiene una presencia arquitectónica desproporcionada para su tamaño. No son solo visitas aisladas: ordenan vistas, recorridos y la identidad del casco.",
+      "Oyambre y el patrimonio cercano amplían el radio de salida, pero la vida diaria sigue concentrada en una villa pequeña entre piedra, pendientes y playa.",
+    ],
+    fuera: [
+      "La playa de Comillas sí puede formar parte del paseo cotidiano. El centro histórico, el parque y el frente de playa permiten una secuencia corta y repetible, aunque algunas calles obligan a contar con la pendiente.",
+      "Oyambre y Santillana del Mar funcionan como salidas patrimoniales y de paisaje próximas; no forman parte de la ficha residencial propia de Comillas ni sustituyen sus servicios.",
+    ],
+    casa: [
+      "La ubicación debe comprobarse caminando entre vivienda, centro y playa: una distancia corta sobre el mapa puede incluir pendiente suficiente para cambiar el uso diario. Accesibilidad, aparcamiento, humedad y exposición de la vivienda son preguntas más útiles que una vista bonita en verano.",
+      "Es un mercado turístico y caro; las cifras actualizadas quedan en la tabla. En una compra conviene distinguir vivienda pensada para uso anual de producto muy orientado a temporada.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca una villa pequeña donde patrimonio y playa estén integrados en la rutina y se acepta una autonomía media.",
+        "También si el contraste entre un verano intenso y un invierno mucho más vacío resulta asumible.",
+      ],
+      no: [
+        "Encaja peor si se necesita comercio amplio, hospital próximo o una actividad urbana constante durante todo el año.",
+        "También si las pendientes entre casco y costa complican la movilidad cotidiana de la vivienda concreta.",
+      ],
+      veredicto:
+        "Comillas combina como pocos lugares patrimonio y playa a escala caminable, pero esa calidad espacial no elimina sus límites: servicios pequeños, fuerte estacionalidad, pendientes y dependencia del coche para funciones superiores."
+    },
+ fotoIdentidad: {
+ src: "/fotos/cantabria-occidental/comillas-identidad.jpg",
+ pie: "Comillas: casas en la ladera bajo la Universidad Pontificia, con el monte detrás",
+ },
+ fotosAbrir: [
+ { src: "/fotos/cantabria-occidental/comillas-capricho.jpg", pie: "El Capricho de Gaudí, Comillas" },
+ { src: "/fotos/cantabria-occidental/comillas-sobrellano.jpg", pie: "Palacio de Sobrellano, Comillas" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/cantabria-occidental/comillas-plaza.jpg", pie: "Plaza de piedra de Comillas" },
+ { src: "/fotos/cantabria-occidental/comillas-pontificia.jpg", pie: "Universidad Pontificia de Comillas" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/cantabria-occidental/comillas-playa.jpg", pie: "Playa de Comillas" },
+ { src: "/fotos/cantabria-occidental/comillas-villa.jpg", pie: "Comillas: villa modernista" },
+ ],
+ creditoFotos: credito,
+  }

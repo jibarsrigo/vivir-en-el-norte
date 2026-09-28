@@ -1,0 +1,64 @@
+{
+    escala: "Villa marinera y parroquias de costa",
+    abrir: [
+      "Cangas se siente como dos mares en un solo municipio. La villa marinera mira al interior de la ría de Vigo —protegida por las Illas Cíes—; Aldán ocupa una ensenada propia de agua quieta al norte; O Hío —parroquia cuyo nombre oficial es Santo André do Hío— se extiende hacia la Costa da Vela, la punta atlántica de la península. Darbo cose el casco con las laderas. Villa de Cangas no es O Hío, ni Aldán, ni Costa da Vela.",
+      "Un martes de noviembre la plaza de abastos abre, el pequeño comercio sostiene el centro y el ferry a Vigo reduce la dependencia del coche para la ciudad. Se compra, se va al centro de salud, se pasea junto a la dársena. En Aldán u O Hío la semana es más doméstica y el coche resuelve la compra grande. La autonomía es fuerte en la villa; en zonas costeras dispersas, alta dependencia del vehículo.",
+      "La playa es sí o parcial en la villa: pequeñas playas y ría próximas; las grandes playas dependen de microzona o salida. Agosto amplifica terrazas, coches hacia Nerga y Barra, y presión en aparcamientos. En otoño regresan senderos vacíos; en invierno la villa mantiene lonja, mercado y barco.",
+      "El calendario entra en las calles. Durante la Semana Santa —interés turístico gallego— nueve procesiones atraviesan el casco; el Santo Encuentro del Viernes Santo y la procesión del Silencio a medianoche cortan el tráfico. El 16 de agosto la Danza de San Roque se baila ante la iglesia y el cruceiro de O Hío; el último domingo de agosto, las fiestas del Cristo del Consuelo llenan Cangas. Vivir cerca del recorrido significa música, calles ocupadas y aparcamiento difícil. El hospital queda lejos: hay que contar con un trayecto de media hora larga hacia el área de Vigo o Pontevedra según necesidad.",
+    ],
+    tiempo: [
+      "Frente a Mallorca, Cangas nota más el cielo gris y la lluvia que un frío extremo. El verano es claramente más fresco que el mallorquín; la ría de Aldán resulta más quieta que Melide o Barra, abiertas al Atlántico. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno se nota en la casa frente a la ría: humedad, salitre y terraza que se usa menos. Conviene preguntar por aislamiento, orientación y moho. Visitar el piso un día de lluvia seria y otro soleado enseña más que Cabo Home en foto.",
+      "Sin coche, la villa resuelve mercado, salud, comercio y ferry a Vigo. En Aldán u O Hío el coche pesa. En enero hay lonja y plaza de abastos; la villa no cierra al terminar el verano.",
+      "Conviven gente local, vecinos de parroquia y veraneantes de Vigo y de fuera. Se oye gallego en el mercado. Entre semana manda la villa marinera; en agosto, la presión hacia las playas atlánticas.",
+      "Hay centro de salud con urgencias y farmacias. El hospital práctico queda en el área de Vigo o Pontevedra, a un trayecto claramente más largo que en Marín: el ferry no resuelve una urgencia en coche.",
+      "Ir y volver a Mallorca: Peinador a un trayecto medio con programación más estacional; Santiago con continuidad más estable. Conviene mirar el calendario vigente.",
+      "En la villa predominan pisos útiles para mercado y barco a pie; en Aldán y O Hío, casas bajas con jardín y más coche. Hay fibra y algo de obra nueva en Cangas. Conviene revisar reforma, acceso, saneamiento y humedad en las parroquias.",
+    ],
+    historia: [
+      "Cangas creció de cara a la pesca y a la ría. Su excolegiata de Santiago, entre los siglos XV y XVI, conserva la imagen barroca del Cristo del Consuelo de 1796; alrededor se formó un casco de calles estrechas, soportales y casas marineras. En 1617 un ataque de piratas berberiscos arrasó buena parte del núcleo.",
+      "O Hío guarda uno de los cruceiros barrocos más conocidos de Galicia. Ignacio Cerviño lo talló en 1872. A sus pies se mantiene la Danza de San Roque o de los Peregrinos, cada 16 de agosto: tradición transmitida entre generaciones, no decorado recuperado para visitantes.",
+      "Más al oeste, el Monte Facho de Donón conserva un castro y un santuario galaico-romano dedicado al dios Berobreo. Facho significa señal de fuego o atalaya: desde esta altura se dominaban la Costa da Vela, las Cíes y el océano.",
+    ],
+    fuera: [
+      "Cerca de la villa, Rodeira es la playa urbana protegida; Areamilla queda al otro lado del casco. Para agua más quieta van Menduíña y Areacova en Aldán; para Atlántico, Nerga, Viñó y Barra —esta última con tradición naturista—. Melide aparece junto a Cabo Home. El agua de agosto es atlántica, más fresca que el Mediterráneo.",
+      "La gran caminata es la Costa da Vela hasta Cabo Home. Desde Donón se baja entre brezo hacia faros, con las Cíes cerca. El Monte Facho añade castro, santuario y vista de las dos orillas. En verano conviene llegar temprano: accesos y aparcamientos se llenan.",
+      "Aldán ofrece molinos, bosques junto al arroyo y playas de agua calma. El paseo marítimo de Cangas sirve para la vuelta diaria; el ferry convierte el mar en transporte hacia Vigo. El tiempo libre puede ir de la villa a una tarde de baño o a una caminata atlántica sin salir del municipio.",
+    ],
+    casa: [
+      "En la villa predominan pisos en edificios bajos o medianos, útiles para mercado, ferry y paseo a pie. Darbo mezcla viviendas recientes y casas en ladera. Aldán y O Hío ofrecen casas bajas, piedra, jardín y vistas, pero también carreteras estrechas y más coche.",
+      "Los precios y totales permanecen en la capa factual y en Idealista del mes. En Aldán u O Hío una casa con vistas cambia mucho según estado, terreno y cercanía al agua: hay que revisar reforma, acceso, saneamiento y humedad.",
+      "Hay centro de salud con urgencias, mercado, supermercados, farmacias, colegios, institutos, pequeño cine y restauración. Faltan hospital y gran superficie. El peaje de la costa más espectacular es coche y mayor estacionalidad.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si el mar y los senderos costeros deben organizar la semana: Rodeira desde la villa; Aldán para calma; O Hío y Costa da Vela para Atlántico y Facho, con ferry a Vigo como refuerzo.",
+        "También si se distingue villa de parroquias atlánticas y se acepta hospital a un trayecto largo a cambio del mejor litoral de O Morrazo.",
+      ],
+      no: [
+        "Encaja peor si el hospital debe quedar cerca: Montecelo u otras referencias del área quedan a media hora larga; Marín reduce esa distancia sin renunciar del todo al baño de ría.",
+        "Tampoco si el silencio de agosto es obligatorio, o si se decide solo tras un día de sol en Cabo Home sin probar una noche de fiesta ni un domingo de salida hacia las playas.",
+      ],
+      veredicto:
+        "Cangas ofrece villa funcional, ferry a Vigo y una costa excepcional repartida en microzonas a cambio de hospital lejos y presión estival hacia Nerga y Barra. Su atractivo está en elegir escala dentro del municipio; su peaje, en confundir O Hío con el casco o esperar sanidad a la puerta."
+    },
+ fotoIdentidad: {
+ src: "/fotos/o-morrazo/cangas-identidad.jpg",
+ pie: "Cangas: casas del casco junto a la ría de Vigo, con el monte del Morrazo detrás",
+ },
+ fotosAbrir: [
+ { src: "/fotos/o-morrazo/cangas-villa.jpg", pie: "Cangas: villa, puerto y ría de Vigo" },
+ { src: "/fotos/o-morrazo/cangas-rodeira.jpg", pie: "Rodeira, la playa urbana junto al paseo" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/o-morrazo/cangas-hio-cruceiro.jpg", pie: "Cruceiro de O Hío, relato barroco tallado en piedra" },
+ { src: "/fotos/o-morrazo/cangas-facho.jpg", pie: "Monte Facho de Donón: castro, santuario y horizonte atlántico" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/o-morrazo/cangas-cabo-home.jpg", pie: "Cabo Home y la Costa da Vela frente a las Cíes" },
+ { src: "/fotos/o-morrazo/cangas-aldan.jpg", pie: "Aldán: una ría pequeña de playas tranquilas" },
+ ],
+ creditoFotos: "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen).",
+  }

@@ -1,0 +1,583 @@
+[
+  {
+    "zonaId": "baixo-mino",
+    "nombre": "A Guarda",
+    "etiqueta": "A Guarda",
+    "lat": 41.902,
+    "lon": -8.874
+  },
+  {
+    "zonaId": "baixo-mino",
+    "nombre": "Oia",
+    "etiqueta": "Oia",
+    "lat": 42.006,
+    "lon": -8.879
+  },
+  {
+    "zonaId": "baixo-mino",
+    "nombre": "O Rosal",
+    "etiqueta": "O Rosal",
+    "lat": 41.937,
+    "lon": -8.836
+  },
+  {
+    "zonaId": "baixo-mino",
+    "nombre": "Tomiño",
+    "etiqueta": "Tomiño",
+    "lat": 41.994,
+    "lon": -8.744
+  },
+  {
+    "zonaId": "baixo-mino",
+    "nombre": "Tui",
+    "etiqueta": "Tui",
+    "lat": 42.047,
+    "lon": -8.644
+  },
+  {
+    "zonaId": "val-minor",
+    "nombre": "Baiona",
+    "etiqueta": "Baiona",
+    "lat": 42.118,
+    "lon": -8.851
+  },
+  {
+    "zonaId": "val-minor",
+    "nombre": "Nigrán",
+    "etiqueta": "Nigrán",
+    "lat": 42.141,
+    "lon": -8.805
+  },
+  {
+    "zonaId": "val-minor",
+    "nombre": "Gondomar",
+    "etiqueta": "Gondomar",
+    "lat": 42.111,
+    "lon": -8.762
+  },
+  {
+    "zonaId": "vigo-e-ria",
+    "nombre": "Vigo",
+    "etiqueta": "Vigo",
+    "lat": 42.231,
+    "lon": -8.712
+  },
+  {
+    "zonaId": "vigo-e-ria",
+    "nombre": "Redondela",
+    "etiqueta": "Redondela",
+    "lat": 42.283,
+    "lon": -8.609
+  },
+  {
+    "zonaId": "vigo-e-ria",
+    "nombre": "Soutomaior",
+    "etiqueta": "Soutomaior",
+    "lat": 42.33,
+    "lon": -8.57
+  },
+  {
+    "zonaId": "vigo-e-ria",
+    "nombre": "Vilaboa",
+    "etiqueta": "Vilaboa",
+    "lat": 42.352,
+    "lon": -8.64
+  },
+  {
+    "zonaId": "o-morrazo",
+    "nombre": "Cangas",
+    "etiqueta": "Cangas",
+    "lat": 42.264,
+    "lon": -8.782
+  },
+  {
+    "zonaId": "o-morrazo",
+    "nombre": "Moaña",
+    "etiqueta": "Moaña",
+    "lat": 42.28,
+    "lon": -8.735
+  },
+  {
+    "zonaId": "o-morrazo",
+    "nombre": "Bueu",
+    "etiqueta": "Bueu",
+    "lat": 42.325,
+    "lon": -8.786
+  },
+  {
+    "zonaId": "o-morrazo",
+    "nombre": "Marín",
+    "etiqueta": "Marín",
+    "lat": 42.392,
+    "lon": -8.7
+  },
+  {
+    "zonaId": "pontevedra-e-sanxenxo",
+    "nombre": "Pontevedra",
+    "etiqueta": "Pontevedra",
+    "lat": 42.431,
+    "lon": -8.644
+  },
+  {
+    "zonaId": "pontevedra-e-sanxenxo",
+    "nombre": "Poio",
+    "etiqueta": "Poio",
+    "lat": 42.445,
+    "lon": -8.68
+  },
+  {
+    "zonaId": "pontevedra-e-sanxenxo",
+    "nombre": "Sanxenxo",
+    "etiqueta": "Sanxenxo",
+    "lat": 42.401,
+    "lon": -8.807
+  },
+  {
+    "zonaId": "pontevedra-e-sanxenxo",
+    "nombre": "O Grove",
+    "etiqueta": "O Grove",
+    "lat": 42.494,
+    "lon": -8.865
+  },
+  {
+    "zonaId": "o-salnes",
+    "nombre": "Meaño",
+    "etiqueta": "Meaño",
+    "lat": 42.446,
+    "lon": -8.78
+  },
+  {
+    "zonaId": "o-salnes",
+    "nombre": "Cambados",
+    "etiqueta": "Cambados",
+    "lat": 42.512,
+    "lon": -8.814
+  },
+  {
+    "zonaId": "o-salnes",
+    "nombre": "A Illa de Arousa",
+    "etiqueta": "A Illa de Arousa",
+    "lat": 42.556,
+    "lon": -8.868
+  },
+  {
+    "zonaId": "o-salnes",
+    "nombre": "Vilanova de Arousa",
+    "etiqueta": "Vilanova de Arousa",
+    "lat": 42.565,
+    "lon": -8.828
+  },
+  {
+    "zonaId": "o-salnes",
+    "nombre": "Vilagarcía de Arousa",
+    "etiqueta": "Vilagarcía de Arousa",
+    "lat": 42.594,
+    "lon": -8.766
+  },
+  {
+    "zonaId": "barbanza-e-noia",
+    "nombre": "Rianxo",
+    "etiqueta": "Rianxo",
+    "lat": 42.652,
+    "lon": -8.818
+  },
+  {
+    "zonaId": "barbanza-e-noia",
+    "nombre": "Boiro",
+    "etiqueta": "Boiro",
+    "lat": 42.647,
+    "lon": -8.885
+  },
+  {
+    "zonaId": "barbanza-e-noia",
+    "nombre": "A Pobra do Caramiñal",
+    "etiqueta": "A Pobra do Caramiñal",
+    "lat": 42.605,
+    "lon": -8.936
+  },
+  {
+    "zonaId": "barbanza-e-noia",
+    "nombre": "Ribeira",
+    "etiqueta": "Ribeira",
+    "lat": 42.559,
+    "lon": -8.991
+  },
+  {
+    "zonaId": "barbanza-e-noia",
+    "nombre": "Porto do Son",
+    "etiqueta": "Porto do Son",
+    "lat": 42.727,
+    "lon": -9.003
+  },
+  {
+    "zonaId": "barbanza-e-noia",
+    "nombre": "Noia",
+    "etiqueta": "Noia",
+    "lat": 42.784,
+    "lon": -8.888
+  },
+  {
+    "zonaId": "golfo-artabro-e-ferrol",
+    "nombre": "A Coruña",
+    "etiqueta": "A Coruña",
+    "lat": 43.362,
+    "lon": -8.411
+  },
+  {
+    "zonaId": "golfo-artabro-e-ferrol",
+    "nombre": "Oleiros",
+    "etiqueta": "Oleiros",
+    "lat": 43.333,
+    "lon": -8.319
+  },
+  {
+    "zonaId": "golfo-artabro-e-ferrol",
+    "nombre": "Sada",
+    "etiqueta": "Sada",
+    "lat": 43.357,
+    "lon": -8.254
+  },
+  {
+    "zonaId": "golfo-artabro-e-ferrol",
+    "nombre": "Bergondo",
+    "etiqueta": "Bergondo",
+    "lat": 43.316,
+    "lon": -8.235
+  },
+  {
+    "zonaId": "golfo-artabro-e-ferrol",
+    "nombre": "Miño",
+    "etiqueta": "Miño",
+    "lat": 43.348,
+    "lon": -8.204
+  },
+  {
+    "zonaId": "golfo-artabro-e-ferrol",
+    "nombre": "Ares",
+    "etiqueta": "Ares",
+    "lat": 43.428,
+    "lon": -8.244
+  },
+  {
+    "zonaId": "golfo-artabro-e-ferrol",
+    "nombre": "Ferrol",
+    "etiqueta": "Ferrol",
+    "lat": 43.484,
+    "lon": -8.233
+  },
+  {
+    "zonaId": "a-marina",
+    "nombre": "O Vicedo",
+    "etiqueta": "O Vicedo",
+    "lat": 43.734,
+    "lon": -7.676
+  },
+  {
+    "zonaId": "a-marina",
+    "nombre": "Viveiro",
+    "etiqueta": "Viveiro",
+    "lat": 43.662,
+    "lon": -7.594
+  },
+  {
+    "zonaId": "a-marina",
+    "nombre": "Xove",
+    "etiqueta": "Xove",
+    "lat": 43.684,
+    "lon": -7.512
+  },
+  {
+    "zonaId": "a-marina",
+    "nombre": "Cervo",
+    "etiqueta": "Cervo",
+    "lat": 43.67,
+    "lon": -7.411
+  },
+  {
+    "zonaId": "a-marina",
+    "nombre": "Burela",
+    "etiqueta": "Burela",
+    "lat": 43.657,
+    "lon": -7.357
+  },
+  {
+    "zonaId": "a-marina",
+    "nombre": "Foz",
+    "etiqueta": "Foz",
+    "lat": 43.569,
+    "lon": -7.256
+  },
+  {
+    "zonaId": "a-marina",
+    "nombre": "Barreiros",
+    "etiqueta": "Barreiros",
+    "lat": 43.529,
+    "lon": -7.228
+  },
+  {
+    "zonaId": "a-marina",
+    "nombre": "Ribadeo",
+    "etiqueta": "Ribadeo",
+    "lat": 43.537,
+    "lon": -7.041
+  },
+  {
+    "zonaId": "asturias-occidente",
+    "nombre": "Castropol",
+    "etiqueta": "Castropol",
+    "lat": 43.526,
+    "lon": -7.032
+  },
+  {
+    "zonaId": "asturias-occidente",
+    "nombre": "Tapia de Casariego",
+    "etiqueta": "Tapia de Casariego",
+    "lat": 43.57,
+    "lon": -6.943
+  },
+  {
+    "zonaId": "asturias-occidente",
+    "nombre": "Navia",
+    "etiqueta": "Navia",
+    "lat": 43.539,
+    "lon": -6.723
+  },
+  {
+    "zonaId": "asturias-occidente",
+    "nombre": "Luarca (Valdés)",
+    "etiqueta": "Luarca",
+    "lat": 43.545,
+    "lon": -6.536
+  },
+  {
+    "zonaId": "asturias-centro",
+    "nombre": "Cudillero",
+    "etiqueta": "Cudillero",
+    "lat": 43.563,
+    "lon": -6.146
+  },
+  {
+    "zonaId": "asturias-centro",
+    "nombre": "Muros de Nalón",
+    "etiqueta": "Muros de Nalón",
+    "lat": 43.548,
+    "lon": -6.101
+  },
+  {
+    "zonaId": "asturias-centro",
+    "nombre": "Soto del Barco",
+    "etiqueta": "Soto del Barco",
+    "lat": 43.527,
+    "lon": -6.076
+  },
+  {
+    "zonaId": "asturias-centro",
+    "nombre": "Salinas (Castrillón)",
+    "etiqueta": "Salinas",
+    "lat": 43.575,
+    "lon": -5.958
+  },
+  {
+    "zonaId": "asturias-centro",
+    "nombre": "Luanco (Gozón)",
+    "etiqueta": "Luanco",
+    "lat": 43.615,
+    "lon": -5.793
+  },
+  {
+    "zonaId": "asturias-centro",
+    "nombre": "Candás (Carreño)",
+    "etiqueta": "Candás",
+    "lat": 43.588,
+    "lon": -5.759
+  },
+  {
+    "zonaId": "asturias-centro",
+    "nombre": "Gijón",
+    "etiqueta": "Gijón",
+    "lat": 43.532,
+    "lon": -5.661
+  },
+  {
+    "zonaId": "asturias-oriente",
+    "nombre": "Villaviciosa",
+    "etiqueta": "Villaviciosa",
+    "lat": 43.481,
+    "lon": -5.435
+  },
+  {
+    "zonaId": "asturias-oriente",
+    "nombre": "Colunga",
+    "etiqueta": "Colunga",
+    "lat": 43.485,
+    "lon": -5.271
+  },
+  {
+    "zonaId": "asturias-oriente",
+    "nombre": "Ribadesella",
+    "etiqueta": "Ribadesella",
+    "lat": 43.462,
+    "lon": -5.059
+  },
+  {
+    "zonaId": "asturias-oriente",
+    "nombre": "Llanes",
+    "etiqueta": "Llanes",
+    "lat": 43.421,
+    "lon": -4.755
+  },
+  {
+    "zonaId": "asturias-oriente",
+    "nombre": "Ribadedeva",
+    "etiqueta": "Ribadedeva",
+    "lat": 43.385,
+    "lon": -4.529
+  },
+  {
+    "zonaId": "cantabria-occidental",
+    "nombre": "San Vicente de la Barquera",
+    "etiqueta": "San Vicente de la Barquera",
+    "lat": 43.385,
+    "lon": -4.399
+  },
+  {
+    "zonaId": "cantabria-occidental",
+    "nombre": "Comillas",
+    "etiqueta": "Comillas",
+    "lat": 43.386,
+    "lon": -4.291
+  },
+  {
+    "zonaId": "cantabria-occidental",
+    "nombre": "Suances",
+    "etiqueta": "Suances",
+    "lat": 43.433,
+    "lon": -4.045
+  },
+  {
+    "zonaId": "cantabria-occidental",
+    "nombre": "Liencres (Piélagos)",
+    "etiqueta": "Liencres",
+    "lat": 43.448,
+    "lon": -3.958
+  },
+  {
+    "zonaId": "cantabria-occidental",
+    "nombre": "Santander",
+    "etiqueta": "Santander",
+    "lat": 43.462,
+    "lon": -3.81
+  },
+  {
+    "zonaId": "cantabria-oriental",
+    "nombre": "Ribamontán al Mar",
+    "etiqueta": "Ribamontán al Mar",
+    "lat": 43.47,
+    "lon": -3.7
+  },
+  {
+    "zonaId": "cantabria-oriental",
+    "nombre": "Noja",
+    "etiqueta": "Noja",
+    "lat": 43.489,
+    "lon": -3.525
+  },
+  {
+    "zonaId": "cantabria-oriental",
+    "nombre": "Santoña",
+    "etiqueta": "Santoña",
+    "lat": 43.443,
+    "lon": -3.457
+  },
+  {
+    "zonaId": "cantabria-oriental",
+    "nombre": "Laredo",
+    "etiqueta": "Laredo",
+    "lat": 43.41,
+    "lon": -3.416
+  },
+  {
+    "zonaId": "cantabria-oriental",
+    "nombre": "Castro-Urdiales",
+    "etiqueta": "Castro-Urdiales",
+    "lat": 43.384,
+    "lon": -3.219
+  },
+  {
+    "zonaId": "alto-minho",
+    "nombre": "Valença",
+    "etiqueta": "Valença",
+    "lat": 42.03,
+    "lon": -8.645
+  },
+  {
+    "zonaId": "alto-minho",
+    "nombre": "Vila Nova de Cerveira",
+    "etiqueta": "Vila Nova de Cerveira",
+    "lat": 41.94,
+    "lon": -8.743
+  },
+  {
+    "zonaId": "alto-minho",
+    "nombre": "Caminha",
+    "etiqueta": "Caminha",
+    "lat": 41.875,
+    "lon": -8.838
+  },
+  {
+    "zonaId": "alto-minho",
+    "nombre": "Moledo (Caminha)",
+    "etiqueta": "Moledo",
+    "lat": 41.84,
+    "lon": -8.868
+  },
+  {
+    "zonaId": "alto-minho",
+    "nombre": "Vila Praia de Âncora (Caminha)",
+    "etiqueta": "Vila Praia de Âncora",
+    "lat": 41.813,
+    "lon": -8.861
+  },
+  {
+    "zonaId": "alto-minho",
+    "nombre": "Afife-Carreço (Viana)",
+    "etiqueta": "Afife-Carreço",
+    "lat": 41.775,
+    "lon": -8.86
+  },
+  {
+    "zonaId": "alto-minho",
+    "nombre": "Viana do Castelo",
+    "etiqueta": "Viana do Castelo",
+    "lat": 41.694,
+    "lon": -8.831
+  },
+  {
+    "zonaId": "alto-minho",
+    "nombre": "Ponte de Lima",
+    "etiqueta": "Ponte de Lima",
+    "lat": 41.767,
+    "lon": -8.584
+  },
+  {
+    "zonaId": "litoral-norte",
+    "nombre": "Esposende",
+    "etiqueta": "Esposende",
+    "lat": 41.532,
+    "lon": -8.783
+  },
+  {
+    "zonaId": "litoral-norte",
+    "nombre": "Póvoa de Varzim",
+    "etiqueta": "Póvoa de Varzim",
+    "lat": 41.383,
+    "lon": -8.763
+  },
+  {
+    "zonaId": "litoral-norte",
+    "nombre": "Vila do Conde",
+    "etiqueta": "Vila do Conde",
+    "lat": 41.353,
+    "lon": -8.744
+  }
+]

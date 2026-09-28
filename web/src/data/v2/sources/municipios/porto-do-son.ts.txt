@@ -1,0 +1,63 @@
+{
+    escala: "Costa atlántica y parroquias",
+    abrir: [
+      "Porto do Son se siente océano de verdad, no ría abrigada. Unos nueve mil habitantes entre la ría de Muros e Noia y el Atlántico abierto. El municipio se reparte entre el núcleo de Porto do Son, Portosín —puerto deportivo con vida propia— y arenales largos como Area Longa, As Furnas o Aguieira.",
+      "El castro de Baroña —poblado de la Edad del Hierro sobre un tómbolo batido por el mar— resume el lugar: piedra, istmo y Atlántico a ambos lados. Quien vive aquí es gente de costa y de parroquia, y veraneantes que llenan Portosín en agosto sin convertir el invierno en temporada muerta de folleto.",
+      "La autonomía es media y muy dependiente de la casa exacta: puede ser baja en núcleo y alta en vivienda costera aislada. Mercado, biblioteca y cultura hay en el núcleo; Portosín tiene centro de salud y Casa da Cultura. El coche organiza gran parte de la semana fuera de esos radios.",
+      "En verano Portosín y las playas reciben regatas, veraneo y fiestas; hacia Monte da Enxa el volumen baja a cambio de más volante. Si solo conoces un día de mar llana, te llevas horizonte de postal. Si has visto una nortada, ya puedes decidir.",
+    ],
+    tiempo: [
+      "Frente a Mallorca se nota más viento y un cielo más gris; el Atlántico abierto exige orientación de casa distinta a la de Barraña o Torre. El verano es fresco; el agua de Area Longa o As Furnas llega con oleaje frecuente, más brava y más fría que la ría de Arousa. Las cifras detalladas quedan en la capa factual.",
+      "Conviene probar un frente de invierno y un día de nortada, no solo un sábado de mar llana.",
+    ],
+    vivir: [
+      "El invierno se siente en el viento, la niebla media y las playas casi vacías. Conviene una casa abrigada y cubiertas bien resueltas. Noviembre enseña más que un día de mar llana en Area Longa.",
+      "Sin coche, la vida depende del núcleo: en Porto do Son o Portosín se resuelve lo básico; en vivienda aislada junto a playa el volante organiza compra, salud y ocio. En enero la vida es local y dispersa.",
+      "Llegar de fuera suele buscar costa y poco ruido de ciudad. Se oye gallego en los núcleos; el castellano basta para lo básico. Quien busque plaza compacta de villa histórica preferirá Noia.",
+      "El Hospital do Barbanza queda a un trayecto comarcal medio; Noia y Ribeira refuerzan lo que el municipio no resuelve. Empadronarse abre primaria local —también en Portosín—; para hospital se conduce.",
+      "Ir y volver a Mallorca pasa por Santiago-Lavacolla, con enlace a Palma durante casi todo el año —conviene comprobar temporada—. Hay que contar el trayecto desde la parroquia concreta.",
+      "El modelo son casas y chalés en parroquias, con vivienda en los núcleos. Fibra a comprobar por dirección. Hay que presupuestar reforma atlántica seria, no solo vistas al océano.",
+    ],
+    historia: [
+      "El castro de Baroña es uno de los más espectaculares de Galicia: casas circulares sobre una península unida por un istmo que el mar golpea. Se recorre con el Atlántico a ambos lados; explica por qué este tramo se habitó mirando al océano.",
+      "Portosín creció como puerto y marina. Monte da Enxa mira la ría de Muros e Noia y completa el relato: costa abierta abajo, altura arriba. Lo que conviene saber es geográfico: tómbolo, dunas, viento y frontera entre dos rías y el Atlántico.",
+    ],
+    fuera: [
+      "Area Longa, As Furnas, Aguieira o Coira —según la parroquia— son el baño de océano: arena larga, oleaje frecuente. Los días de mar llana invitan al baño; los de nortada, al paseo. Un martes de junio el arenal cabe casi solo; un domingo de agosto el acceso se satura.",
+      "Baroña combina patrimonio y costa en la misma visita. Corrubedo, en Ribeira, añade dunas de parque. Quien quiera agua calmada de Arousa mira Torre, Barraña o Cabío: otro ambiente, a un trayecto.",
+      "Monte da Enxa ofrece pistas y vistas. Portosín permite paseo de puerto cuando no apetece pelear con la ola. Para villa histórica se conduce a Noia; para hospital y comercio denso, a Ribeira.",
+    ],
+    casa: [
+      "Casas y chalés en parroquias, o vivienda en Porto do Son y Portosín. La casa exacta decide si la vida diaria exige coche. Conviene comprobar viento, acceso, fibra y distancia real a un súper.",
+      "Probar el trayecto a Area Longa un domingo de verano y un frente de noviembre antes de firmar. Los precios permanecen en la capa factual.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si el Atlántico abierto importa más que resolver la semana andando. Baroña, Area Longa y Portosín dan océano y soledad a cambio de aceptar microzona y volante.",
+        "También si se distingue núcleo de vivienda aislada y se asume el Hospital do Barbanza a un trayecto medio, con Lavacolla como aeropuerto práctico.",
+      ],
+      no: [
+        "Encaja peor si se necesita villa completa a pie o ría calmada de diario: aquí el peaje es coche y océano. Boiro, A Pobra o Noia cubren otros perfiles.",
+        "Tampoco si se compra solo por vistas sin probar nortada ni agosto en Portosín. La casa exacta puede cambiar por completo la dependencia del coche.",
+      ],
+      veredicto:
+        "Porto do Son compra océano y parroquia: Baroña y Area Longa a cambio de autonomía media y coche según la vivienda. Su atractivo está en el Atlántico abierto; su peaje, en no fingir que toda casa tiene servicios andando."
+    },
+ fotoIdentidad: {
+ src: "/fotos/barbanza-e-noia/porto-do-son-identidad.jpg",
+ pie: "Porto do Son: casas junto al mar, con la iglesia y el monte detrás",
+ },
+ fotosAbrir: [
+ { src: "/fotos/barbanza-e-noia/son-baroña.jpg", pie: "Castro de Baroña sobre el Atlántico" },
+ { src: "/fotos/barbanza-e-noia/son-area-longa.jpg", pie: "Area Longa, arenal atlántico" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/barbanza-e-noia/son-portosin.jpg", pie: "Portosín, puerto deportivo" },
+ { src: "/fotos/barbanza-e-noia/son-villa.jpg", pie: "Núcleo de Porto do Son" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/barbanza-e-noia/son-furnas.jpg", pie: "As Furnas, playa atlántica" },
+ { src: "/fotos/barbanza-e-noia/son-enxa.jpg", pie: "Monte da Enxa, vistas a la ría de Muros" },
+ ],
+ creditoFotos: credito,
+  }

@@ -1,0 +1,51 @@
+{
+    escala: "Pinar y playa elegante",
+    abrir: [
+      "Moledo es playa larga, dunas, pinar y nortada: la microzona costera del concelho de Caminha que no debe confundirse con la villa de Caminha ni con Âncora. La playa atlántica entra en el día; la Ínsua se dibuja en el horizonte de la desembocadura. Quien vive aquí busca orilla y aire, no comercio de plaza histórica.",
+      "La autonomía cotidiana es baja-media. Hay veraneo elegante y poca red de comercio diario: Caminha y Âncora cubren compra y servicios; el coche pesa fuera de la rutina mínima. El tren de la Linha do Minho ayuda, pero no sustituye todos los desplazamientos. El Hospital de Santa Luzia, en Viana, y el aeropuerto de Porto quedan fuera.",
+      "La estacionalidad es marcada: en verano crecen ocupación, viento y uso de la playa; fuera de temporada se reduce actividad. Moledo tiene ficha propia: no heredar servicios ni ritmo de la villa de Caminha. El peaje es claro —playa a la puerta a cambio de menor autonomía, salitre y dependencia del coche—.",
+    ],
+    tiempo: [
+      "La costa abierta trae humedad, nortada y un verano atlántico suave pero expuesto. Frente a Mallorca hay menos continuidad de sol; en casa conviene revisar aislamiento, viento y salitre. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno en Moledo es de pinar húmedo, viento y menos movimiento. Conviene calefacción, ventilación y mantenimiento exterior; la vivienda cerrada parte del año pide cuidado extra. Un enero aquí no se parece a un agosto de duna.",
+      "La playa y el frente costero pueden ser cotidianos; la compra fuerte, el hospital y muchos servicios dependen de Caminha, Âncora o Viana. El coche es parte del peaje. No narrar Moledo como si tuviera la autonomía de la villa.",
+      "Santa Luzia es la referencia hospitalaria; Porto, el aeropuerto. La integración es de colonia residencial-costera: vecinos de veraneo y residentes que aceptan el silencio fuera de temporada.",
+    ],
+    historia: [
+      "Moledo se entiende por la playa, el pinar y la relación visual con la desembocadura y la Ínsua más que por un casco monumental. Su identidad es atlántica y residencial; la historia útil es la del litoral abierto del Minho, no la de la plaza de Caminha.",
+    ],
+    fuera: [
+      "La playa, las dunas y el pinar forman el paseo cotidiano: exposición a viento y oleaje incluida. No es paseo de plaza; es costa larga.",
+      "Caminha cubre villa y estuario; Âncora, puerto y servicios; Viana, hospital. Moledo debe juzgarse por cómo se vive el frente de playa en enero, no solo por la foto de verano.",
+    ],
+    casa: [
+      "Casas y chalés junto al pinar o al frente costero; comprobar salitre, viento, humedad, fibra y distancia real a Caminha para la compra diaria. La microzona no traslada automáticamente el mercado ni los servicios del concelho entero.",
+      "Los precios y totales permanecen en la capa factual. Firmar tras ver la casa en día de nortada y en un martes de fuera de temporada.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere playa atlántica plenamente cotidiana y se acepta autonomía baja-media con apoyo en Caminha o Âncora.",
+        "También si el coche, la estacionalidad y Santa Luzia fuera del núcleo resultan asumibles a cambio de dunas y pinar a la puerta.",
+      ],
+      no: [
+        "Encaja peor si se necesita comercio diario a pie o se espera la vida de villa de Caminha sin desplazarse.",
+        "Tampoco si la nortada, el salitre y el invierno más vacío resultan incompatibles con la idea de casa todo el año.",
+      ],
+      veredicto:
+        "Moledo compra playa y pinar a cambio de coche, servicios delgados y estación muy marcada. Su atractivo está en la orilla abierta; su peaje, en no confundir microzona costera con villa completa."
+    },
+ fotoIdentidad: {
+ src: "/fotos/alto-minho/moledo-identidad.jpg",
+ pie: "Moledo: casas junto al paseo y la playa, con el monte detrás",
+ },
+ fotosAbrir: [
+ { src: "/fotos/alto-minho/moledo-playa.jpg", pie: "Playa de Moledo: dunas y Atlántico" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/alto-minho/moledo-insua.jpg", pie: "Forte da Ínsua frente a Moledo" },
+ ],
+ fotosFuera: [],
+ creditoFotos: credito,
+  }

@@ -1,0 +1,76 @@
+{
+    escala: "Villa de valle y parroquias del Val Miñor",
+    abrir: [
+      "Gondomar ocupa el interior del Val Miñor: villa con plaza, mercado semanal, comercio, instituto y edificios recientes; alrededor, parroquias de piedra y chalés —Vincios al pie del Galiñeiro, Donas, Chaín, Morgadáns—. El mar no está a pie; Praia América o las playas de Baiona quedan como salida en coche.",
+      "La autonomía es media: el núcleo resuelve lo básico; costa y servicios mayores quedan fuera. Un martes de noviembre la plaza tiene ritmo reconocible; agosto apenas transforma las parroquias mientras la costa se llena. El verano se nota más en el aire del valle que en la multitud.",
+      "El calendario es parroquial. San Blas en Mañufe, la Festa da Rosquilla, las patronales de julio y San Roque en Morgadáns marcan música, tráfico local y regreso tardío; lejos de cada verbena, el silencio habitual vuelve pronto.",
+    ],
+    tiempo: [
+      "Conserva buena parte del sol del litoral, con más lluvia y humedad que Mallorca en invierno. El fondo del valle acumula algo más de calor que Baiona o Nigrán en verano, todavía lejos de un agosto mediterráneo. La orientación de cada finca pesa tanto como la media comarcal.",
+    ],
+    vivir: [
+      "El invierno se siente en la orientación: una ladera hacia el Galiñeiro puede perder el sol pronto. Conviene humedad, aislamiento y fibra comprobada en la dirección concreta, no en la villa en abstracto.",
+      "En la villa se camina a supermercado, farmacia, centro de salud e instituto; en las parroquias el coche abre la semana —playa, compra ampliada, café—. En enero el centro mantiene vida sencilla; las aldeas siguen calladas.",
+      "Conviven gente local y quien busca terreno sin alejarse de Vigo. Se oye gallego en el mercado. El hospital Álvaro Cunqueiro queda especialmente cerca por la AG-57: primaria aquí, gran hospital a trayecto corto. Para Mallorca, Vigo en verano y Santiago con más continuidad; mirar temporada real.",
+      "Más tranquilo y asequible en tipología que la primera línea, pero sin mar a pie. Ese es el trato del interior del Val Miñor.",
+    ],
+    historia: [
+      "Gondomar nació como territorio de valle: el Miñor ordenó las tierras bajas y las parroquias ocuparon las laderas. La villa creció como mercado y servicios para esa constelación rural. Chan do Cereixo y los petroglifos del Galiñeiro recuerdan una ocupación mucho más antigua.",
+      "El nombre quedó unido al linaje de los condes de Gondomar; los pazos —casas señoriales— y la fiesta de cada parroquia mantienen una memoria repartida, sin un único monumento que lo diga todo.",
+    ],
+    fuera: [
+      "El paseo cotidiano pertenece al río y a la villa, no a un paseo marítimo. La senda fluvial del Miñor sale casi llana; la Serra do Galiñeiro, desde Vincios, abre cumbres y vistas a la ría, las Cíes y, hacia el sur, el Miño y Portugal.",
+      "Praia América, Patos o Baiona cubren el baño con desplazamiento. Vigo amplía cine y gran superficie. El tiempo libre combina monte inmediato, playa cercana y ciudad sin vivir dentro de ninguno de los tres.",
+    ],
+    casa: [
+      "Casa de piedra con finca o chalé de ladera define el municipio; también hay pisos en la villa para quien quiera mercado y servicios a pie. Vincios, Donas, Chaín o Morgadáns ofrecen monte detrás y, desde algunos puntos, vistas lejanas al mar.",
+      "Conviene terraza a sol de invierno, comprobar fibra en parroquias altas y no vender la vivienda como si tuviera paseo marítimo. Tipología de valle interior del Val Miñor.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si casa, monte y calma diaria pesan más que bajar andando al mar. Hospital y aeropuerto de Vigo quedan cerca; Praia América cabe en cualquier tarde con coche.",
+        "También si se quiere repartir el ocio entre río, Galiñeiro y costa sin sufrir la saturación de agosto en primera línea.",
+      ],
+      no: [
+        "Encaja peor si el mar debe estar en la puerta o cada recado tiene que resolverse andando desde una parroquia. Tampoco si se da por hecha la fibra en una casa alta solo porque exista en la villa.",
+        "Tampoco si se busca el verano más fresco posible de la comarca: el valle aprieta un poco más que la bahía.",
+      ],
+      veredicto:
+        "Gondomar ofrece valle, espacio y proximidad a Vigo a cambio de playa como salida. Encaja quien vuelve del mar a silencio con monte detrás; no quien necesita arena en el umbral o una autonomía peatonal que solo la villa cubre del todo."
+    },
+ fotoIdentidad: {
+ src: "/fotos/val-minor/gondomar-identidad.jpg",
+ pie: "Gondomar: casas de Mañufe en la ladera, con el monte del valle detrás",
+ },
+ fotosAbrir: [
+ {
+ src: "/fotos/val-minor/gondomar-valle.jpg",
+ pie: "Gondomar en el valle del Miñor: villa pequeña, parroquias y monte",
+ },
+ {
+ src: "/fotos/val-minor/gondomar-villa.jpg",
+ pie: "La villa de Gondomar, centro de mercado y servicios para las parroquias",
+ },
+ ],
+ fotosHistoria: [
+ {
+ src: "/fotos/val-minor/gondomar-galineiro.jpg",
+ pie: "Serra do Galiñeiro: granito y cumbres sobre la parroquia de Vincios",
+ },
+ {
+ src: "/fotos/val-minor/gondomar-vincios.jpg",
+ pie: "Vincios, al pie del Galiñeiro: por estos caminos se llega a petroglifos de hace unos cuatro mil años",
+ },
+ ],
+ fotosFuera: [
+ {
+ src: "/fotos/val-minor/gondomar-rio-minor.jpg",
+ pie: "El Miñor hacia la desembocadura: el río que da nombre al valle",
+ },
+ {
+ src: "/fotos/val-minor/gondomar-morgadans.jpg",
+ pie: "Morgadáns y las parroquias altas: casas, fincas y monte lejos del ruido de la costa",
+ },
+ ],
+ creditoFotos: "Fotos: Wikimedia Commons (CC BY-SA).",
+  }

@@ -1,0 +1,57 @@
+{
+    escala: "Villa completa junto a La Salvé",
+    abrir: [
+      "Laredo reúne una villa de servicios con una playa urbana de varios kilómetros. La Salvé no es una excursión: forma parte del frente residencial y permite incorporar paseo y mar a la rutina con mucha facilidad si se vive bien situado.",
+      "La autonomía cotidiana es muy alta y el hospital está en la propia villa. Comercio, sanidad y paseo pueden resolverse con poca dependencia del coche en buena parte del núcleo.",
+      "El contraste aparece en el urbanismo del frente de playa y en el verano, cuando La Salvé recibe mucha más afluencia. Puebla Vieja y la zona marítima muestran dos caras distintas de la misma localidad.",
+    ],
+    tiempo: [
+      "El clima cantábrico aporta humedad, lluvia repartida y veranos suaves. Frente a Mallorca hay menos continuidad de sol; en primera línea importan salitre, ventilación y mantenimiento de fachada o carpinterías. Las cifras permanecen en la capa factual.",
+    ],
+    vivir: [
+      "El paseo de La Salvé es largo y prácticamente llano, de modo que caminar junto al mar puede ser una actividad cotidiana y no una salida planificada. La presencia del hospital dentro de la villa reduce además una de las dependencias habituales de otros municipios costeros.",
+      "La base de servicios funciona todo el año, aunque el verano cambia tráfico, aparcamiento y densidad en la playa. Elegir una calle algo retirada del frente puede ofrecer una experiencia distinta sin perder autonomía.",
+      "El aeropuerto práctico está en Santander; la programación de Palma debe comprobarse por temporada y no darse por permanente.",
+    ],
+    historia: [
+      "Puebla Vieja conserva la escala histórica de la villa, mientras La Salvé y el crecimiento residencial del frente muestran la expansión turística y urbana posterior. El puerto y el paseo enlazan esas dos capas.",
+      "La identidad de Laredo no depende solo de su playa: también de funcionar como cabecera de servicios y sanitaria para parte de la costa oriental.",
+    ],
+    fuera: [
+      "La Salvé es el paseo y la playa cotidiana por excelencia: extensa, urbana y casi llana. Desde muchas zonas del núcleo puede integrarse sin coche.",
+      "El casco histórico y el frente marítimo permiten variar el recorrido sin convertir cada mañana en turismo. Santoña y otros puntos de la costa son salidas cercanas, no necesidades para completar la vida diaria.",
+    ],
+    casa: [
+      "La decisión residencial debe distinguir frente de playa, calles interiores y entorno de Puebla Vieja. Cambian exposición al verano, salitre, aparcamiento y tipo de edificio.",
+      "En bloques del frente revisar ascensor, accesibilidad, aislamiento, estado de fachadas y uso estacional de vecinos. Los precios y totales quedan en la tabla factual.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere una villa muy autónoma con hospital y una gran playa integrada en el día a día.",
+        "También si se valora un paseo largo y llano junto al mar y se acepta la mayor afluencia del verano.",
+      ],
+      no: [
+        "Encaja peor si se rechaza el urbanismo de bloques del frente de playa o se busca una escala de pueblo pequeño.",
+        "También si se necesita calma constante en La Salvé durante la temporada alta.",
+      ],
+      veredicto:
+        "Laredo combina una de las relaciones más directas entre vida cotidiana y gran playa con una autonomía poco habitual en una villa costera. El peaje está en el frente turístico y su verano, no en la falta de servicios o sanidad."
+    },
+ fotoIdentidad: {
+ src: "/fotos/cantabria-oriental/laredo-identidad.jpg",
+ pie: "Laredo: casas del pueblo junto a la playa, con el monte Buciero enfrente",
+ },
+ fotosAbrir: [
+ { src: "/fotos/cantabria-oriental/laredo-salve.jpg", pie: "Playa de La Salvé, Laredo" },
+ { src: "/fotos/cantabria-oriental/laredo-villa.jpg", pie: "Laredo: villa y frente de playa" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/cantabria-oriental/laredo-puebla.jpg", pie: "Puebla Vieja de Laredo" },
+ { src: "/fotos/cantabria-oriental/laredo-asuncion.jpg", pie: "Iglesia de la Asunción, Laredo" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/cantabria-oriental/laredo-paseo.jpg", pie: "Paseo de Laredo" },
+ { src: "/fotos/cantabria-oriental/laredo-puerto.jpg", pie: "Puerto deportivo de Laredo" },
+ ],
+ creditoFotos: credito,
+  }

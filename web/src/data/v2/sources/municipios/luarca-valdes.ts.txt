@@ -1,0 +1,53 @@
+{
+    escala: "Villa blanca entre puerto y laderas",
+    abrir: [
+      "Luarca concentra una imagen muy reconocible: puerto, río Negro, puentes y casas blancas encajados entre laderas. Esa belleza tiene una consecuencia práctica inmediata: la cota importa. La zona baja reúne buena parte del comercio, los servicios y el paseo; subir hacia la Atalaya, el cementerio o viviendas altas cambia la caminabilidad aunque la distancia sobre el mapa parezca corta.",
+      "Fuera del verano sigue funcionando como villa comarcal. Se puede hacer bastante vida a pie si la vivienda está bien situada en la zona baja, mientras las cotas altas y otras partes de Valdés aumentan la dependencia del coche. Hablar de Luarca no equivale a describir todo el concejo."
+    ],
+    tiempo: [
+      "El contraste con Mallorca aparece en un verano fresco, humedad y muchos más días grises. Cerca del puerto también cuentan el salitre y la exposición; en casas antiguas o indianas conviene revisar aislamiento, galerías, ventilación y mantenimiento antes de dejarse llevar por la fachada.",
+      "Las playas primera y segunda están junto a la villa, pero que sean cotidianas depende de la cota de la vivienda. El mar puede quedar muy cerca en horizontal y exigir una subida importante al volver: aquí distancia y facilidad para caminar no son lo mismo."
+    ],
+    vivir: [
+      "En la zona baja una mañana puede enlazar mercado, comercio, farmacia, puerto y los puentes del río Negro sin necesidad de coche. Esa autonomía cambia al subir de cota, por lo que dos viviendas separadas por poca distancia pueden producir rutinas muy distintas.",
+      "El paseo ordinario discurre por el puerto y la parte baja. La Atalaya, el cementerio, la ermita y el faro amplían ese recorrido con subida; son parte esencial de la imagen de Luarca, pero no deben describirse como si fueran una prolongación llana del paseo.",
+      "Para atención hospitalaria hay que desplazarse a Jarrio. El aeropuerto de Asturias queda relativamente accesible dentro de la escala occidental, aunque las conexiones con Palma dependen de la programación de temporada. El tren de ancho métrico forma parte de las comunicaciones, sin que eso convierta cualquier vivienda en bien conectada a pie con el ferrocarril.",
+      "El verano añade visitantes al puerto, las playas y los miradores, mientras la base comercial y de servicios continúa fuera de temporada. Esa vida anual permite distinguir la villa de un enclave puramente vacacional, pero una casa junto al frente más visitado vivirá agosto de manera distinta a otra en una calle menos expuesta."
+    ],
+    historia: [
+      "El río Negro atraviesa el casco y sus puentes cosen las dos orillas. Sobre la villa, la Atalaya reúne cementerio, ermita y vistas al Cantábrico; el faro completa una silueta que explica buena parte de la identidad de Luarca.",
+      "Las casas de Indianos añaden otra capa: arquitectura ligada al retorno de América, atractiva pero también exigente cuando se convierte en vivienda. En el resto de Valdés, lugares como Otur, Cueva o Cadavedo recuerdan que el concejo es bastante más amplio que la villa blanca."
+    ],
+    fuera: [
+      "El puerto y la zona baja permiten un paseo cotidiano fácil de integrar en la rutina. Las playas primera y segunda están próximas, aunque su comodidad real depende de dónde esté la casa y de la pendiente que haya que salvar.",
+      "Subir hacia la Atalaya y el cementerio cambia el esfuerzo y también la perspectiva. Para ampliar el día aparecen los Jardines de la Fonte Baxa, los miradores y Cabo Busto; Otur, Cueva y Cadavedo son salidas por la costa de Valdés, no extensiones caminables de cualquier vivienda en Luarca."
+    ],
+    casa: [
+      "La primera pregunta no es solo casco o afueras, sino a qué cota está la vivienda. En la zona baja se aprovechan mejor comercio, puerto y servicios a pie; en barrios altos o viviendas exteriores el coche y las pendientes pueden cambiar por completo la rutina.",
+      "En pisos y casas blancas conviene revisar humedad, accesibilidad y orientación. En viviendas indianas se añade el mantenimiento de una tipología más compleja. Los precios y estimaciones quedan en la capa factual y en la tabla; aquí importa comprobar acceso, escaleras, aparcamiento y recorrido real hasta los servicios."
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca una villa con vida anual donde puerto, comercio y paseo puedan formar parte de la rutina, y se elige la vivienda entendiendo bien la topografía. En la zona baja la autonomía cotidiana es fuerte y el mar está integrado en el paisaje urbano.",
+        "También encaja si las pendientes no impiden disfrutar de la Atalaya, el faro y los miradores como extensiones del paseo, y si se acepta salir en coche para explorar el resto de Valdés o llegar al hospital."
+      ],
+      no: [
+        "Encaja peor si se necesita una caminabilidad uniforme y sin cuestas. Una vivienda alta puede estar muy cerca del puerto sobre el mapa y resultar mucho menos cómoda en la práctica; esa diferencia no se corrige con una descripción genérica de Luarca.",
+        "Tampoco si se espera que todo Valdés funcione como la zona baja de la villa o que Palma sea una conexión permanente. Microzona, pendiente y logística de temporada forman parte de la decisión."
+      ],
+      veredicto:
+        "Luarca combina una villa comarcal activa con un paisaje de puerto y laderas muy reconocible. Su gran variable cotidiana es la topografía: bien situada en la zona baja permite mucha vida a pie; en cotas altas cambia el esfuerzo y la dependencia del coche. Entender esa diferencia es más útil que tratar toda Luarca o todo Valdés como una sola experiencia."
+    },
+    fotosAbrir: [
+      { src: "/fotos/asturias-occidente/luarca-puerto.jpg", pie: "Puerto de Luarca" },
+      { src: "/fotos/asturias-occidente/luarca-casco.jpg", pie: "Casco blanco de Luarca" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/asturias-occidente/luarca-cementerio.jpg", pie: "Camino y acantilado sobre Luarca" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/asturias-occidente/luarca-faro.jpg", pie: "Faro de Luarca" },
+      { src: "/fotos/asturias-occidente/luarca-playa.jpg", pie: "Playa de Luarca" },
+    ],
+    creditoFotos: credito,
+  }

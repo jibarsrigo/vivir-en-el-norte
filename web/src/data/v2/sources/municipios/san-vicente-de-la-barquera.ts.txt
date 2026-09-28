@@ -1,0 +1,57 @@
+{
+    escala: "Villa marinera de ría",
+    abrir: [
+      "San Vicente de la Barquera se organiza alrededor de la ría: el puente de la Maza, el castillo y Santa María de los Ángeles forman el frente reconocible de la villa, con los Picos como fondo cuando el cielo lo permite. No es una ciudad costera ni una urbanización de playa; es una villa pequeña donde puerto, casco y estuario siguen dando la escala del día.",
+      "La autonomía cotidiana es media-fuerte dentro de la villa: comercio, hostelería y servicios básicos permiten resolver bastante a pie. El coche gana peso para compra de mayor escala, hospital y buena parte de la costa. El hospital práctico está en Sierrallana, fuera del municipio, de modo que la belleza de la ría convive con una logística sanitaria menos inmediata.",
+      "Merón y otros arenales están muy próximos, pero no deben describirse como playa urbana pegada a cualquier vivienda. Según la microzona, llegar al baño exige cruce, salida o un desplazamiento corto. La ría, los puentes y el frente de la villa sí forman parte del paseo ordinario con mucha más claridad.",
+    ],
+    tiempo: [
+      "El clima cantábrico se nota sobre todo en la frecuencia de cielos grises, humedad y lluvia repartida durante el año. Frente a Mallorca hay menos continuidad de sol y el verano es más suave; la diferencia útil para elegir vivienda está en cómo responde la casa a humedad, ventilación y calefacción, no en repetir cifras climáticas que ya viven en la capa factual.",
+    ],
+    vivir: [
+      "Un día normal puede transcurrir entre el casco, la compra básica y el paseo de ría sin necesidad de convertir la mañana en una excursión. Para hospital, comercio de mayor escala o explorar la costa el coche vuelve a ser parte de la rutina.",
+      "La vida local continúa todo el año, pero el verano cambia la presión sobre Merón, Oyambre, accesos y aparcamiento. La Folía y las celebraciones de la villa añaden momentos de intensidad al calendario. Conviene distinguir esa temporada del funcionamiento mucho más pequeño del resto del año.",
+      "El aeropuerto práctico es Santander y la conexión con Palma depende de la programación de temporada. Es una logística posible, no una extensión cotidiana de la villa.",
+    ],
+    historia: [
+      "El castillo del Rey, Santa María de los Ángeles y el puente de la Maza explican una villa asentada sobre el paso de la ría y vinculada al mar. El patrimonio no queda aislado en un recinto monumental: aparece en el recorrido cotidiano entre casco, puerto y estuario.",
+      "Oyambre amplía el paisaje hacia dunas, prados y costa abierta. La combinación de ría, Merón y Picos es la imagen más inmediata del lugar, pero vivir aquí significa también aceptar la escala pequeña y la distancia a servicios superiores.",
+    ],
+    fuera: [
+      "El paseo más fácil de repetir es el de la ría, los puentes y el frente de la villa. Merón puede incorporarse con frecuencia si la vivienda está bien situada; Oyambre funciona mejor como ampliación de la costa que como playa diaria garantizada para todo el municipio.",
+      "Hacia el este aparecen Comillas y otros destinos patrimoniales; hacia el interior, los Picos amplían mucho el radio de salida. Son posibilidades de fin de semana o de día libre, no sustitutos de la vida ordinaria del casco.",
+    ],
+    casa: [
+      "La elección debe empezar por decidir entre casco y una vivienda más orientada a la costa. En el casco se gana rutina a pie; hacia Merón u otras zonas exteriores se puede ganar proximidad al mar a cambio de más coche.",
+      "En cualquier caso conviene revisar humedad, ventilación, aislamiento, calefacción, salitre, accesibilidad y aparcamiento, además de cómo cambia la zona en verano. Los precios y estimaciones quedan en la capa factual y en la tabla.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se valora una villa pequeña con ría y paseo integrados en el día, servicios básicos suficientes y costa muy próxima, aceptando que hospital y parte de las compras requieren desplazamiento.",
+        "También si la playa puede ser cotidiana según microzona sin exigir que esté literalmente a la puerta de cualquier vivienda.",
+      ],
+      no: [
+        "Encaja peor si se necesita hospital cercano, comercio urbano amplio o una playa plenamente integrada en todas las zonas residenciales.",
+        "También si la presión estival en los accesos costeros pesa más que el atractivo de vivir junto a la ría.",
+      ],
+      veredicto:
+        "San Vicente ofrece una vida de villa marinera muy ligada a la ría y al paisaje, con autonomía razonable en el casco y una costa cercana pero no uniformemente caminable. Su peaje estructural es claro: hospital fuera, más coche al salir de la villa y una diferencia notable entre el verano y el resto del año."
+    },
+ fotoIdentidad: {
+ src: "/fotos/cantabria-occidental/san-vicente-identidad.jpg",
+ pie: "San Vicente de la Barquera: casas junto al castillo y la ría — villa entre monte y marea",
+ },
+ fotosAbrir: [
+ { src: "/fotos/cantabria-occidental/san-vicente-villa.jpg", pie: "San Vicente de la Barquera: villa marinera" },
+ { src: "/fotos/cantabria-occidental/san-vicente-ria.jpg", pie: "Ría de San Vicente con los Picos al fondo" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/cantabria-occidental/san-vicente-castillo.jpg", pie: "Castillo de San Vicente de la Barquera" },
+ { src: "/fotos/cantabria-occidental/san-vicente-maza.jpg", pie: "Puente de la Maza sobre la ría" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/cantabria-occidental/san-vicente-meron.jpg", pie: "Playa de Merón" },
+ { src: "/fotos/cantabria-occidental/san-vicente-oyambre.jpg", pie: "Oyambre, parque natural" },
+ ],
+ creditoFotos: credito,
+  }

@@ -1,0 +1,57 @@
+{
+    escala: "Costa y cerámica",
+    abrir: [
+      "Cervo se entiende mejor como un municipio de dos centros de gravedad. San Cibrao es la península marítima, con puerto, Museo Provincial do Mar y las playas de O Torno y Cubelas; Sargadelos lleva hacia la cerámica, la antigua fábrica y el río Xunco. Entre ambos aparece además la presencia industrial del complejo de San Ciprián.",
+      "Esa división importa para vivir. La experiencia de mar cotidiano corresponde sobre todo a San Cibrao, no a cualquier dirección de Cervo. Allí se puede combinar núcleo, puerto, paseo y playa; desde otras zonas aumenta la necesidad de coche y cambia por completo la relación con la costa."
+    ],
+    tiempo: [
+      "Frente a Mallorca, el cambio se nota en un verano fresco, más humedad, niebla y más días grises. En San Cibrao el salitre y el viento se suman a la revisión de orientación, aislamiento y ventilación; hacia el interior pesan más el acceso y cómo funciona la vivienda durante el invierno.",
+      "O Torno y Cubelas ofrecen una relación bastante directa con el Cantábrico desde San Cibrao. No todos los días invitan al mismo baño, pero playa, paseo y frente marítimo pueden formar parte de una tarde ordinaria sin convertirla en excursión."
+    ],
+    vivir: [
+      "San Cibrao permite una rutina más autónoma que la imagen de un municipio disperso: pequeño núcleo marítimo, servicios, puerto y playas quedan próximos. Fuera de esa microzona la vida cambia y el coche gana peso, especialmente para comercio amplio y para conectar con Burela.",
+      "Una mañana libre puede seguir O Torno hacia A Atalaia y el faro, pasar por el puerto o entrar en el Museo Provincial do Mar. Otro día, Sargadelos y el paseo junto al Xunco cambian completamente de escenario. Son dos formas distintas de usar el mismo municipio.",
+      "El Hospital da Mariña queda fuera, en Burela, pero suficientemente próximo como para que la sanidad comarcal forme parte del mapa práctico de Cervo sin dominar cada apartado del relato. El tren de ancho métrico pasa por San Cibrao; su existencia no garantiza por sí sola que resuelva la rutina.",
+      "La industria es el peaje estructural que acompaña a esa costa. El complejo de San Ciprián, compartido con Xove y bajo propiedad íntegra de Alcoa desde 2026, forma parte del paisaje y de la actividad local. No hace falta atribuirle consecuencias no documentadas para entender que debe mirarse antes de escoger vivienda."
+    ],
+    historia: [
+      "Sargadelos da a Cervo una identidad que no depende del mar: la Real Fábrica y la tradición cerámica se relacionan con el río Xunco y el Paseo dos Namorados. Es patrimonio industrial y cultural, además de una salida cercana.",
+      "San Cibrao aporta la otra historia visible, ligada al puerto y al Museo Provincial do Mar. La península habitada, las playas y la industria próxima hacen que oficio, costa y vida residencial aparezcan juntos."
+    ],
+    fuera: [
+      "En San Cibrao, O Torno y Cubelas son playas realmente integradas en la vida del núcleo. El paseo hacia A Atalaia y el faro permite seguir la costa sin necesitar el coche para empezar, algo que no debe extrapolarse al resto del municipio.",
+      "Sargadelos y el Xunco ofrecen una salida distinta; Burela completa comercio amplio y hospital; Xove y Viveiro amplían costa y villa. Cervo funciona mejor cuando se entiende esa red próxima que cuando se intenta imaginar como una única villa compacta."
+    ],
+    casa: [
+      "En San Cibrao conviene valorar salitre, viento, ocupación de verano, accesibilidad y distancia real al paseo y a los servicios. En Sargadelos o en otras parroquias cambian las prioridades: acceso, humedad y cuánto coche exige cada recado.",
+      "La microzona importa especialmente porque 'vivir en Cervo' puede significar experiencias muy diferentes. Los precios y estimaciones quedan en la capa factual; el relato debe ayudar a distinguir península, interior y proximidad a la actividad industrial."
+    ],
+    encaja: {
+      si: [
+        "Encaja si atrae una vida marítima de pequeña escala en San Cibrao, con playa y paseo integrados, y se valora tener Burela y el hospital comarcal próximos. Sargadelos añade una dimensión cultural y de paseo que no depende de la temporada de playa.",
+        "También encaja si se acepta que Cervo no es una sola villa: costa, cerámica e industria ocupan lugares distintos y obligan a escoger la vivienda pensando en qué rutina se quiere tener."
+      ],
+      no: [
+        "Encaja peor si se busca un casco urbano grande con comercio amplio a pie desde cualquier microzona, o si se pretende que toda vivienda del municipio tenga la misma relación cotidiana con el mar que San Cibrao.",
+        "Tampoco si la presencia del complejo industrial cercano pesa demasiado en la elección. Forma parte del territorio junto a las playas y Sargadelos, y conviene verla como una realidad estructural, no como una nota al margen."
+      ],
+      veredicto:
+        "Cervo combina dos experiencias claras: San Cibrao, donde puerto, paseo y playa pueden entrar en la rutina, y Sargadelos, ligado a la cerámica y al Xunco. La cercanía de Burela facilita servicios y hospital, mientras la dispersión y la presencia industrial hacen especialmente importante escoger bien la microzona."
+    },
+    fotoIdentidad: {
+      src: "/fotos/a-marina/cervo-identidad.jpg",
+      pie: "Cervo: casas del pueblo frente al mar",
+    },
+    fotosAbrir: [
+      { src: "/fotos/a-marina/cervo-sargadelos.jpg", pie: "Sargadelos: cerámica y Real Fábrica en Cervo" },
+      { src: "/fotos/a-marina/cervo-villa.jpg", pie: "Cervo y el entorno de San Cibrao" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/a-marina/cervo-faro.jpg", pie: "Faro y península de San Cibrao" },
+      { src: "/fotos/a-marina/cervo-puerto.jpg", pie: "San Cibrao: la planta de aluminio frente al mar" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/a-marina/cervo-costa.jpg", pie: "Istmo y costa de San Cibrao en Cervo" },
+    ],
+    creditoFotos: credito,
+  }

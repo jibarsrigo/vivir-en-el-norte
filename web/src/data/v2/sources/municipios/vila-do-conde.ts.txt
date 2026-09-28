@@ -1,0 +1,51 @@
+{
+    escala: "Ciudad histórica junto al aeropuerto",
+    abrir: [
+      "Vila do Conde tiene identidad propia frente a Póvoa: casco histórico con el convento de Santa Clara, el acueducto de muchos arcos, Alfândega y memoria naval —la Nau—, el río Ave y playas urbanas de Vila do Conde y Azurara. Metro do Porto y A-28 la atan al área metropolitana. La autonomía cotidiana es muy alta; el aeropuerto de Porto queda muy cerca.",
+      "Un martes de noviembre la ciudad funciona: comercio, salud, cultura. El hospital de la red Póvoa–Vila do Conde cubre el radio práctico. Ave y mar no son el mismo paisaje: el casco vive río y piedra; Azurara y el frente acercan Atlántico. Mindelo queda en el entorno costero. No es apéndice de Póvoa.",
+      "En verano crece la intensidad del frente; el resto del año manda ciudad histórica con vida anual. El peaje incluye bloques en zonas de playa, mar frío y A-28 en hora punta. Quien quiera solo casino y paseo largo mirará Póvoa; quien quiera Ave y Santa Clara, Vila do Conde.",
+    ],
+    tiempo: [
+      "Río y costa traen humedad, viento y un verano atlántico suave. Frente a Mallorca hay menos continuidad de sol; en vivienda conviene mirar orientación según Ave o frente marítimo. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno es de ciudad abierta: casco, comercio y ritmo anual. Humedad de río y salitre de frente piden buen cierre según microzona. Un enero junto al Ave no se siente igual que un enero en primera línea.",
+      "En el núcleo bien situado la rutina puede resolverse a pie o con Metro; parroquias y periferia cambian el coche. El Metro conecta con el área metropolitana sin prometer cero vehículo en todo el mapa.",
+      "Hospital de la misma red que Póvoa; Porto aeropuerto a un trayecto muy corto. La integración es de ciudad histórica con puerto y metro: propia, no suburbio anónimo.",
+    ],
+    historia: [
+      "Santa Clara, el acueducto, la Alfândega y la memoria de la Nau explican Vila do Conde: ciudad de río Ave y mar, con oficio naval en la biografía local. Azurara completa el frente. Lo útil es identidad histórica propia, no gemelidad con Póvoa.",
+    ],
+    fuera: [
+      "Casco, orilla del Ave y playas urbanas forman paseos distintos: río no es Atlántico. Azurara y el frente marítimo entran según vivienda.",
+      "Póvoa amplía paseo largo y casino; Porto, la gran escala. Vila do Conde debe juzgarse por Santa Clara y el Ave, no como barrio de su vecina.",
+    ],
+    casa: [
+      "Casco, frente de playa, Azurara y ensanche no comparten ruido, salitre ni relación con el Metro. Comprobar humedad de río o exposición marina según dirección, y aparcamiento de verano en el frente.",
+      "Los precios y totales permanecen en la capa factual. Decidir si manda piedra histórica o playa urbana antes de firmar.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere ciudad histórica con Ave y mar, Metro, hospital de la red local y Porto aeropuerto muy cerca, sin ser Póvoa.",
+        "También si se acepta separar casco y playa —Azurara no es Santa Clara— y cierta densidad en el frente.",
+      ],
+      no: [
+        "Encaja peor si se busca solo el paseo-balneario continuo de Póvoa o quietud de aldea.",
+        "Tampoco si A-28 en hora punta y el mar frío del norte resultan incompatibles con la idea de costa fácil.",
+      ],
+      veredicto:
+        "Vila do Conde ofrece historia, Ave y Atlántico con Metro y aeropuerto muy a mano. Su atractivo está en la identidad propia junto a Porto; su peaje, en no confundirla con Póvoa ni el casco con la playa."
+    },
+ fotosAbrir: [
+ { src: "/fotos/litoral-norte/vila-casco.jpg", pie: "Casco histórico de Vila do Conde" },
+ { src: "/fotos/litoral-norte/vila-acueducto.jpg", pie: "Acueducto de Vila do Conde" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/litoral-norte/vila-santa-clara.jpg", pie: "Convento de Santa Clara, Vila do Conde" },
+ { src: "/fotos/litoral-norte/vila-nau.jpg", pie: "Nau Quinhentista en Vila do Conde" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/litoral-norte/vila-azurara.jpg", pie: "Azurara: playa de surf junto a Vila do Conde" },
+ ],
+ creditoFotos: credito,
+  }

@@ -1,0 +1,54 @@
+{
+    escala: "Colombres, frontera y costa dispersa",
+    abrir: [
+      "Ribadedeva funciona a pequeña escala y con bastante coche. Colombres concentra el núcleo cultural y parte de los servicios; Bustio mira a la ría de Tina Mayor; La Franca lleva al Cantábrico. Son piezas próximas, pero no forman una villa costera compacta.",
+      "La autonomía cotidiana es baja-media. Para ampliar servicios aparece Llanes y la posición fronteriza acerca también Cantabria, aunque esa proximidad no debe confundirse con libertad para elegir hospital o con una rutina sin desplazamientos.",
+    ],
+    tiempo: [
+      "Frente a Mallorca, el clima es mucho más húmedo, fresco y gris. En casonas y viviendas antiguas importan reforma, aislamiento, ventilación y mantenimiento; cerca de la costa se añaden salitre y exposición.",
+      "La Franca es la referencia de playa, pero no queda integrada a pie en la vida de Colombres. Bustio ofrece otra relación con el agua, ligada a la ría y la frontera, no al baño de mar abierto.",
+    ],
+    vivir: [
+      "Una mañana en Colombres puede girar alrededor del núcleo y de su patrimonio indiano. Para playa hay que desplazarse hacia La Franca; para ampliar compras y servicios, Llanes entra pronto en el mapa.",
+      "El coche es estructural. La escala pequeña y la dispersión hacen que tener costa, servicios y vivienda en el mismo radio sea poco habitual.",
+      "La capa 2026 conserva Sierrallana, en Torrelavega, como referencia hospitalaria práctica aproximada. No debe sustituirse por otro centro por intuición fronteriza. El aeropuerto de Santander queda mejor situado que Asturias y la programación a Palma debe comprobarse.",
+      "La estacionalidad se nota más en la costa que en Colombres. Esa diferencia permite una vida anual pequeña en el núcleo, pero no elimina la dependencia exterior.",
+    ],
+    historia: [
+      "Colombres tiene una identidad indiana muy visible, con casonas y la Quinta Guadalupe vinculadas a la emigración y al regreso de América. Esa arquitectura forma parte del núcleo cotidiano, no solo de una visita.",
+      "Bustio y Tina Mayor explican la frontera física con Cantabria. La Franca y la cueva del Pindal amplían el municipio hacia costa y prehistoria, ya como salidas.",
+    ],
+    fuera: [
+      "La Franca es una salida de playa, no la continuación peatonal de Colombres. Bustio permite acercarse a la ría y Llanes completa servicios y vida de villa.",
+      "La posición oriental acerca Cantabria y el aeropuerto de Santander. Esa ventaja logística convive con un hospital distante y con la necesidad de coche para casi cualquier cambio de escenario.",
+    ],
+    casa: [
+      "En Colombres y en las casonas conviene revisar reforma, mantenimiento, humedad, aislamiento y accesibilidad. En zonas costeras se añaden salitre, estacionalidad y distancia real a servicios.",
+      "El precio disponible es orientativo y de fiabilidad limitada frente a mercados más líquidos. La capa factual conserva la referencia; el relato debe evitar reconstruir antiguas medias o prometer facilidad de reventa.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca una escala pequeña con identidad indiana y se acepta usar coche para playa, servicios amplios y hospital.",
+        "También si la cercanía a Cantabria y al aeropuerto de Santander resulta útil y se entiende La Franca como salida, no como playa de Colombres.",
+      ],
+      no: [
+        "Encaja peor si se necesita mucha autonomía a pie, hospital próximo o playa integrada en el núcleo.",
+        "Tampoco si una vivienda antigua se elige por su aspecto sin revisar reforma, humedad, mantenimiento y accesibilidad.",
+      ],
+      veredicto:
+        "Ribadedeva combina Colombres y su patrimonio indiano con una posición fronteriza útil y una costa cercana pero dispersa. El precio de esa escala es una dependencia alta del coche, playa fuera del núcleo y hospital distante; la vivienda concreta y su estado pesan especialmente."
+    },
+ fotosAbrir: [
+ { src: "/fotos/asturias-oriente/ribadedeva-colombres.jpg", pie: "Colombres, capital de Ribadedeva" },
+ { src: "/fotos/asturias-oriente/ribadedeva-guadalupe.jpg", pie: "Quinta Guadalupe, Archivo de Indianos" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/asturias-oriente/ribadedeva-pindal.jpg", pie: "Cueva del Pindal, Ribadedeva" },
+ { src: "/fotos/asturias-oriente/ribadedeva-hermida.jpg", pie: "Desfiladero de La Hermida" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/asturias-oriente/ribadedeva-franca.jpg", pie: "Playa de La Franca" },
+ { src: "/fotos/asturias-oriente/ribadedeva-frontera.jpg", pie: "Frontera Asturias–Cantabria en Ribadedeva" },
+ ],
+ creditoFotos: credito,
+  }

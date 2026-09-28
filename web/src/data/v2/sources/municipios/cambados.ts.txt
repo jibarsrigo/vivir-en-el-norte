@@ -1,0 +1,54 @@
+{
+    escala: "Villa histórica y parroquias vitícolas",
+    abrir: [
+      "Cambados se siente más noble de lo que sugiere el mapa. Villa de granito frente a la ría de Arousa: Fefiñáns —conjunto señorial alrededor de su gran plaza—, el núcleo administrativo y Santo Tomé, barrio marinero junto al agua. Detrás, Corvillón, Vilariño y Castrelo entre bodegas. Capital del Albariño, sí; también mercado, mesa y piedra que no se apaga fuera de temporada.",
+      "Un martes de noviembre el mercado, la salud, la biblioteca, el deporte y el comercio permiten vivir a pie desde el casco. El paseo une Fefiñáns, centro y frente marítimo; A Pastora añade subida y vistas. La relación con el mar es de ría, marisqueo e intermareal: no es destino de gran playa urbana. El baño clásico pide desplazamiento.",
+      "La Festa do Albariño ocupa la primera semana de agosto y culmina el primer domingo: casetas, conciertos y afluencia masiva. San Cristovo y el Carmen de Santo Tomé añaden noches activas. Fuera de agosto, Cambados recupera escala de villa con turismo y vino como capa adicional, no como único motor.",
+      "Hospital do Salnés a unos quince minutos; Vigo hacia media hora larga como aeropuerto práctico; Santiago refuerza Palma casi todo el año. Mucho carácter urbano-marítimo; el baño de playa no es la experiencia central.",
+    ],
+    tiempo: [
+      "El abrigo de la ría suaviza viento, pero la piedra conserva humedad. Frente a Mallorca hay menos continuidad de sol; el verano sigue fresco respecto a Baleares. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno se siente en la humedad del granito del casco. Conviene cubierta y ventilación en casas históricas. Un noviembre en Fefiñáns enseña más que un sábado de Albariño.",
+      "Sin coche, el casco resuelve mucho; desde las parroquias el coche enlaza casa y villa. En enero hay mesa, bodega y paseo. En agosto la fiesta del vino cambia aparcamiento y ruido.",
+      "Atención primaria local; hospital en Vilagarcía a trayecto corto. Para Mallorca, Vigo en verano y Santiago con enlace más estable. La integración mezcla vino, conserva y marisqueo con visitantes que vuelven.",
+    ],
+    historia: [
+      "La Praza de Fefiñáns reúne el pazo, la iglesia de San Bieito y un arco-puente entre propiedades señoriales. El pazo data del siglo XVI y una de sus bodegas está ligada a los orígenes comerciales del Albariño. Fefiñáns era uno de los tres antiguos núcleos unidos como Cambados.",
+      "Las ruinas de Santa Mariña Dozo conservan arcos góticos abiertos al cielo. En Santo Tomé, la Torre de San Sadurniño vigilaba la ría. Ramón Cabanillas, poeta nacido aquí, y el Museo Etnográfico e do Viño completan oficio y letras.",
+    ],
+    fuera: [
+      "Fefiñáns–centro–frente marítimo es el paseo cotidiano; A Pastora mira villa, viñedos y bateas. A Mouta y Santo Tomé acercan al agua productiva más que playera.",
+      "Para baño largo, As Sinas en Vilanova o A Lanzada piden coche. La ruta del Umia añade agua dulce. Cambados reparte la tarde entre piedra, ría y vino, no entre toallas urbanas.",
+    ],
+    casa: [
+      "Vivienda cómoda y accesible, exterior, servicios cotidianos a pie en el casco; en parroquia, finca y coche corto. En el centro importan aparcamiento y ruido de agosto; en piedra, humedad y saneamiento.",
+      "Conviene dormir una noche de Albariño antes de comprar cerca de Fefiñáns. Los precios y totales permanecen en la capa factual.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere villa de granito con vida anual frente a la ría —Fefiñáns, mercado, Santo Tomé— y el vino dentro de la semana.",
+        "También si se acepta que el mar cotidiano es de ría y marisqueo, no de gran playa urbana, con hospital a quince minutos.",
+      ],
+      no: [
+        "Encaja peor si la playa de arena a pie es imprescindible, o si el silencio de la primera semana de agosto es obligatorio.",
+        "Tampoco si se busca solo precio bajo de parroquia sin carácter de villa: Meaño ofrece otra escala.",
+      ],
+      veredicto:
+        "Cambados ofrece piedra, Albariño y ría vivida a cambio de baño clásico fuera del núcleo. Su atractivo está en Fefiñáns y el paseo de diario; su peaje, en no confundir frente marítimo con playa de toalla ni firmar sin una noche de fiesta del vino."
+    },
+ fotosAbrir: [
+ { src: "/fotos/o-salnes/cambados-fefinans.jpg", pie: "Fefiñáns, plaza señorial y corazón de Cambados" },
+ { src: "/fotos/o-salnes/cambados-santo-tome.jpg", pie: "Santo Tomé, barrio marinero frente a Arousa" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/o-salnes/cambados-santa-marina.jpg", pie: "Santa Mariña Dozo, arcos góticos abiertos al cielo" },
+ { src: "/fotos/o-salnes/cambados-san-sadurnino.jpg", pie: "San Sadurniño, torre defensiva en la marea" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/o-salnes/cambados-pastora.jpg", pie: "A Pastora mira sobre villa, viñedos y ría" },
+ { src: "/fotos/o-salnes/cambados-pazo-interior.jpg", pie: "Pazo de Fefiñáns: granito y memoria del Albariño" },
+ ],
+ creditoFotos: credito,
+  }

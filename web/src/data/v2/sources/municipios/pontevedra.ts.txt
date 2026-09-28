@@ -1,0 +1,55 @@
+{
+    escala: "Ciudad pequeña, compacta y peatonal",
+    abrir: [
+      "Pontevedra se entiende a pie. Capital provincial de granito alrededor del río Lérez —el curso que desemboca al fondo de la ría de Pontevedra—, con plazas porticadas —A Ferrería, A Verdura, A Leña— y un ensanche donde caben mercado, comercio, colegios y estación. Desde la peatonalización iniciada en 1999, buena parte de la semana se resuelve andando: el coche sirve para salir a la playa o a las parroquias, no para cruzar el centro.",
+      "Quien vive aquí es funcionario, estudiante del campus, vecino de toda la vida y quien eligió una ciudad pequeña con hospital cerca. Un martes de noviembre hay gente entrando en la Diputación, compra en el Mercado de Abastos y terrazas bajo soportales aunque la piedra esté mojada. La ciudad es plenamente anual: agosto llena plazas de visitantes, pero la presión no se parece a Sanxenxo.",
+      "La Peregrina, patrona provincial, centra las fiestas desde el segundo sábado de agosto: conciertos, feria, fuegos y calles llenas más de una semana. El Entroido termina con el entierro del loro Ravachol, personaje satírico ligado a una antigua botica, y la Feira Franca transforma el primer fin de semana de septiembre el casco en ciudad medieval. Vivir junto a A Ferrería o la Alameda significa música, cortes y multitud en esas fechas; fuera de ellas, gana el centro sin tráfico.",
+      "El peaje es claro: excelente vida peatonal, pero sin playa marina cotidiana. La ría y el río tocan el municipio; el baño de toalla pide desplazamiento hacia Poio, Marín o la costa. Montecelo y Quirónsalud quedan a unos cinco minutos. Quien confunda paseo fluvial con playa de arena se equivoca de ficha.",
+    ],
+    tiempo: [
+      "Si vienes de Baleares, notarás más cielo gris y menos continuidad de sol que en Mallorca, no tanto el frío extremo. La humedad sobre el granito y las semanas grises cambian la vida exterior; el verano sigue lejos del calor sostenido balear, aunque la ciudad interior puede apretar algún día más que la costa. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno se siente en la piedra húmeda y en las jornadas grises. Conviene aislamiento y ventilación en pisos antiguos del casco; un noviembre bajo soportales enseña más que un martes soleado en A Ferrería.",
+      "Sin coche, la semana fuerte cabe en el centro y el ensanche: mercado, farmacia, comercio, colegios, cultura y tren. En enero la ciudad no se apaga. El coche sirve para playas y salidas, no para el recado diario.",
+      "Se oye gallego y castellano en las plazas. Entre semana manda la vida peatonal; en agosto la Peregrina llena calles. Montecelo y Quirónsalud están a unos cinco minutos: la sanidad más inmediata de la zona. Vigo-Peinador queda cerca para el avión práctico; Santiago, con enlace a Palma durante casi todo el año, refuerza el vínculo en invierno. Conviene mirar el calendario real de vuelos, no solo el de verano.",
+    ],
+    historia: [
+      "La ciudad medieval creció como puerto al fondo de la ría. La tradición atribuye su fundación a Teucro, pero la historia documentada habla de un burgo privilegiado por Fernando II en el siglo XII. En los siglos XV y XVI fue uno de los principales puertos gallegos; el retroceso de la ría desplazó luego el puerto hacia Marín.",
+      "La basílica de Santa María la Mayor conserva fachada plateresca del gremio de mareantes. La iglesia de la Peregrina, de planta de concha de vieira, marca el Camino Portugués. El Museo de Pontevedra reparte arqueología y arte; la Illa do Covo y la Illa das Esculturas —isla fluvial del Lérez convertida en parque de arte— explican la relación moderna entre cultura y paseo.",
+      "Hasta los nombres de las plazas cuentan oficio: A Ferrería, A Verdura, A Leña. La peatonalización de 1999 no inventó la ciudad: la hizo legible a pie.",
+    ],
+    fuera: [
+      "La senda del Lérez, la Illa do Covo y A Xunqueira enlazan paseos verdes con el centro: agua cotidiana de río y ría, no playa de baño. El paseo de Os Praceres acompaña el fondo de la ría hacia Marín; Os Praceres es borde portuario, no arenal.",
+      "Para arena, Lourido y Cabeceira están en Poio; Portocelo, en Marín. El Castrove —sierra baja detrás de Poio— abre vistas sobre las rías cuando se quiere monte. Pontevedra gana por ciudad compacta y pierde por no tener toalla en la puerta.",
+    ],
+    casa: [
+      "El centro y el ensanche ofrecen pisos, muchos con ascensor y servicios a pie; las parroquias cambian esa comodidad por casa y terreno. Conviene accesibilidad, exterior usable y medir ruido festivo cerca de A Ferrería o la Alameda.",
+      "Hay fibra y obra nueva. Los precios y totales permanecen en la capa factual y en Idealista del mes. Firmar tras un noviembre húmedo y una noche de Peregrina.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere ciudad pequeña donde mercado, hospital, tren, cultura y cafés estén a pie, con Lérez e Illa do Covo como paseo cotidiano.",
+        "También si la sanidad inmediata y la vida anual importan más que la playa marina en la puerta, aceptando desplazamiento corto para el baño.",
+      ],
+      no: [
+        "Encaja peor si el baño debe empezar al salir de casa: aquí la ría y el río no sustituyen la playa cotidiana.",
+        "Tampoco si el silencio continuo en el casco es innegociable: Peregrina, Ravachol y Feira Franca ocupan calles con música y multitud.",
+      ],
+      veredicto:
+        "Pontevedra compra peatonalidad, hospital cerca y vida anual a cambio de playa fuera del centro. Su atractivo está en la capital compacta de granito; su peaje, en no confundir Lérez con toalla ni agosto de fiestas con silencio de noviembre."
+    },
+ fotosAbrir: [
+ { src: "/fotos/pontevedra-e-sanxenxo/pontevedra-casco.jpg", pie: "Pontevedra: granito, soportales y centro peatonal" },
+ { src: "/fotos/pontevedra-e-sanxenxo/pontevedra-peregrina.jpg", pie: "A Peregrina, puerta del casco y centro de las fiestas" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/pontevedra-e-sanxenxo/pontevedra-santa-maria.jpg", pie: "Santa María la Mayor, iglesia del antiguo gremio de mareantes" },
+ { src: "/fotos/pontevedra-e-sanxenxo/pontevedra-museo.jpg", pie: "Museo de Pontevedra, memoria arqueológica y artística de Galicia" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/pontevedra-e-sanxenxo/pontevedra-lerez.jpg", pie: "El Lérez y la Illa das Esculturas junto al centro" },
+ { src: "/fotos/pontevedra-e-sanxenxo/pontevedra-alameda.jpg", pie: "La Alameda enlaza el casco con el ensanche" },
+ ],
+ creditoFotos: credito,
+  }

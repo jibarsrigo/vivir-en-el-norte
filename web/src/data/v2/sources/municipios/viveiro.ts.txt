@@ -1,0 +1,53 @@
+{
+    escala: "Villa de ría con casco",
+    abrir: [
+      "Viveiro se entiende mejor como tres piezas que conviven: el casco amurallado, el puerto de Celeiro y Covas al otro lado de la ría. La Porta de Carlos V da entrada a una villa histórica que sigue teniendo comercio y vida propia; Celeiro recuerda que aquí el mar es también trabajo; Covas añade una playa larga y un paseo que en verano adquieren mucho más protagonismo.",
+      "Esa combinación evita que el municipio dependa de una sola temporada. Un martes de enero el casco sigue funcionando como villa, mientras julio y agosto cargan más actividad sobre Covas. La diferencia importante no es elegir entre pueblo turístico o pueblo de trabajo, sino decidir en cuál de esas microzonas encaja mejor la rutina diaria."
+    ],
+    tiempo: [
+      "Frente a Mallorca, Viveiro cambia la manera de usar la calle y la vivienda: más humedad y niebla, verano fresco y muchos más días en los que una terraza deja de ser el centro de la casa. Conviene ver un piso con tiempo gris y comprobar luz, ventilación y aislamiento, especialmente en edificios de piedra o cerca de la ría.",
+      "El agua también se vive de otra manera. Covas ofrece la orilla más cotidiana y abrigada; Area y Sacido permiten cambiar de playa, mientras la costa exterior abre otro registro. Aquí el mar puede formar parte de una tarde normal sin que todos los días sean días de baño."
+    ],
+    vivir: [
+      "En el casco se puede resolver buena parte de la semana andando: compra, atención primaria, comercio y paseo caben en una escala de villa. Covas combina esa vida próxima con playa y paseo; Celeiro organiza otra rutina alrededor del puerto. Para el hospital y para ampliar la costa hace falta salir de ese radio cotidiano.",
+      "La Semana Santa cambia de verdad el funcionamiento del casco durante varios días. Las procesiones, la afluencia y las dificultades de aparcamiento no son una anécdota para quien viva allí, sino una parte concreta del calendario. En verano el cambio se desplaza sobre todo hacia Covas, con más ocupación, coches y terrazas.",
+      "El tren de ancho métrico forma parte de las comunicaciones del municipio, aunque su existencia no debe confundirse con resolver por sí solo los desplazamientos cotidianos. Para vuelos y atención hospitalaria la logística sigue dependiendo en buena medida del coche y de salir de Viveiro.",
+      "Una mañana libre no exige convertir el día en excursión. Se puede recorrer el casco, cruzar hacia la ría y Covas o cambiar el paseo por el Souto da Retorta y el Monte San Roque, donde el municipio pasa de piedra y puerto a monte cercano. Esa variedad es una de las formas más claras de entender su escala."
+    ],
+    historia: [
+      "La Porta de Carlos V y el recinto amurallado explican la condición de villa histórica. No son solo un fondo monumental: concentran calles y vida urbana en una parte del municipio muy distinta de la fachada residencial de Covas.",
+      "Celeiro aporta la otra historia visible, la del puerto y la lonja, con la merluza del pincho ligada a un oficio que continúa. La Semana Santa añade una capa cultural que, a diferencia de un monumento, altera durante unos días el uso normal de calles y aparcamiento."
+    ],
+    fuera: [
+      "Covas es la playa que mejor se integra en la vida ordinaria si se reside en esa parte del municipio: arena, paseo y ría quedan unidos. Area y Sacido amplían las opciones cuando apetece otra orilla, pero no conviene trasladar esa facilidad automáticamente a cualquier vivienda del casco o de Celeiro.",
+      "El Souto da Retorta, conocido por sus grandes eucaliptos, y el Monte San Roque, como mirador, ofrecen salidas cercanas cuando el plan no es playa. Hacia el este, el resto de A Mariña amplía costa y servicios; para atención hospitalaria, Burela forma parte de ese mapa práctico."
+    ],
+    casa: [
+      "En el casco pesan el estado de la reforma, la humedad, las escaleras o el ascensor y cómo afectan la Semana Santa y el aparcamiento a la calle concreta. En Covas cambian las preguntas: ocupación de verano, salitre, orientación y distancia real a los servicios que se usarán durante el invierno.",
+      "Casco, Covas y Celeiro no son versiones intercambiables de Viveiro. Una vivienda puede ganar playa y paseo o ganar proximidad al centro y al comercio; por eso la microzona importa más que una impresión general del municipio. Los precios y estimaciones quedan en la capa factual y en la tabla."
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca una villa con vida anual y varios registros a poca distancia: casco histórico para la rutina urbana, Celeiro como puerto de trabajo y Covas para incorporar ría, playa y paseo al día a día. La autonomía cotidiana es fuerte sin necesitar que Viveiro funcione como una ciudad grande.",
+        "También encaja si se acepta que verano y Semana Santa cambien temporalmente algunas calles sin vaciar el resto del año. El atractivo está precisamente en combinar actividad local, mar y patrimonio sin que todo dependa del veraneo."
+      ],
+      no: [
+        "Encaja peor si se necesita hospital en el propio municipio, aeropuerto próximo o una vivienda que funcione igual en agosto que en noviembre. Esos desplazamientos y la diferencia estacional forman parte de la vida real, aunque el núcleo resuelva bien muchas necesidades ordinarias.",
+        "Tampoco si la humedad, la niebla o varios días de calles muy ocupadas durante la Semana Santa pesan más que la posibilidad de vivir en un casco histórico con ría y playa cercanas."
+      ],
+      veredicto:
+        "Viveiro combina una villa histórica que funciona todo el año con puerto de oficio y una Covas más marítima y estacional. Su equilibrio depende mucho de escoger bien entre casco, Celeiro y Covas: se gana autonomía cotidiana y variedad de paseos, mientras hospital, aeropuerto y algunas salidas quedan fuera del radio inmediato."
+    },
+    fotosAbrir: [
+      { src: "/fotos/a-marina/viveiro-casco.jpg", pie: "Casco de Viveiro hacia la ría" },
+      { src: "/fotos/a-marina/viveiro-covas.jpg", pie: "Covas, playa larga en ría abrigada" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/a-marina/viveiro-porta.jpg", pie: "Porta de Carlos V, arco del casco amurallado" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/a-marina/viveiro-celeiro.jpg", pie: "Puerto de Celeiro, lonja y merluza del pincho" },
+      { src: "/fotos/a-marina/viveiro-ria.jpg", pie: "Ría de Viveiro desde Covas" },
+    ],
+    creditoFotos: credito,
+  }

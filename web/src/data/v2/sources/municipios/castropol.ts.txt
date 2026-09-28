@@ -1,0 +1,56 @@
+{
+    escala: "Pueblo de ría y frontera",
+    abrir: [
+      "Castropol se asoma a la ría del Eo desde un núcleo pequeño, con Ribadeo visible al otro lado del agua. La ría forma parte del día a día; la playa abierta, en cambio, depende de la microzona y suele implicar una salida. Figueras añade otro núcleo marinero dentro del concejo y Penarronda aporta la costa de dunas hacia Tapia.",
+      "La escala es reducida y la autonomía cotidiana también. En Castropol villa hay servicios básicos; para comercio más amplio, gestiones y una parte de la semana Ribadeo funciona como apoyo natural al otro lado de la ría. Fuera de los núcleos, el coche gana todavía más peso."
+    ],
+    tiempo: [
+      "El cambio respecto a Mallorca se nota en un clima más húmedo, con más días grises y niebla frecuente. El verano es fresco y la vivienda debe funcionar bien cuando la terraza deja de ser el centro de la casa: orientación, aislamiento, ventilación y señales de humedad merecen una visita con mal tiempo.",
+      "La ría y el Cantábrico abierto ofrecen experiencias distintas. El frente del Eo permite convivir con el agua de forma cotidiana; Penarronda y otras playas de costa abierta son salidas en las que el estado del mar importa más para el baño."
+    ],
+    vivir: [
+      "Una mañana normal puede empezar caminando el frente de la ría, hacer una compra básica en el núcleo y terminar cruzando hacia Ribadeo si hace falta más comercio. Esa dependencia no convierte Castropol en un lugar aislado, pero sí obliga a distinguir entre tener una villa enfrente y tener sus servicios dentro del propio municipio.",
+      "La sanidad primaria está disponible localmente; para atención hospitalaria la referencia práctica es Jarrio, fuera del municipio. El tren de ancho métrico en Vegadeo forma parte del mapa de comunicaciones, pero su existencia no debe confundirse con una alternativa capaz de sustituir el coche en la rutina.",
+      "El verano añade visitantes a la ría, Figueras y las playas, mientras el resto del año recupera una escala mucho más pequeña. Esa diferencia estacional importa especialmente al elegir vivienda: el promontorio de Castropol, Figueras y las parroquias no ofrecen la misma relación con servicios, aparcamiento o coche.",
+      "El aeropuerto de Asturias exige un trayecto largo y las conexiones con Palma dependen de la programación de temporada. Para una vida con viajes frecuentes conviene contar esa logística como parte de la rutina, no como una nota secundaria."
+    ],
+    historia: [
+      "La imagen más reconocible es la del núcleo blanco sobre la ría del Eo. Más que un gran casco monumental, Castropol ofrece una posición de frontera: Asturias en esta orilla, Ribadeo y Galicia enfrente, y el estuario organizando el paisaje.",
+      "Figueras aporta una identidad propia dentro del concejo, con su relación marinera, los astilleros y el palacio de Peñalba. La Reserva de la Biosfera Río Eo, Oscos e Terras de Burón amplía esa lectura hacia la ría y el interior."
+    ],
+    fuera: [
+      "El paseo cotidiano más claro es el frente de la ría y el puerto según el núcleo en el que se viva. Es una relación de estuario: agua cercana y Ribadeo como horizonte, distinta de tener una gran playa urbana al salir de casa.",
+      "Penarronda es una salida de playa abierta y dunas hacia Tapia. Figueras permite cambiar de núcleo sin salir del concejo; Ribadeo añade casco y comercio; y los Oscos y la sierra de la Bobia abren el mapa hacia el interior cuando se busca otra escala de paisaje."
+    ],
+    casa: [
+      "Aquí la dirección concreta pesa mucho. Castropol villa y Figueras no deben tratarse como la misma experiencia, y una vivienda en parroquia puede aumentar claramente la dependencia del coche. Antes de comprar conviene comprobar acceso, aparcamiento, fibra real y distancia efectiva a los servicios que se usarán cada semana.",
+      "En viviendas expuestas a la ría importan humedad, orientación, ventilación y aislamiento. La capa factual y la tabla concentran precios y estimaciones; el relato útil es comprobar si esa casa funciona en un día de niebla y durante el invierno, no solo si tiene buenas vistas en verano."
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca una escala pequeña con la ría como paisaje cotidiano y se acepta que una parte relevante de la vida práctica se apoye en Ribadeo y en el coche. El atractivo está en vivir frente al Eo, con Castropol o Figueras como núcleo y la costa abierta disponible como salida.",
+        "También encaja si la calma fuera de temporada resulta valiosa y no se necesita que comercio, hospital y aeropuerto estén integrados en la propia villa. La clave es elegir microzona sabiendo exactamente qué se puede hacer a pie y qué obliga a desplazarse."
+      ],
+      no: [
+        "Encaja peor si se quiere resolver casi toda la semana andando dentro del mismo núcleo, si el coche debe ser excepcional o si se necesita hospital cercano. Castropol tiene una autonomía menor que una villa comarcal y esa diferencia es estructural.",
+        "Tampoco si una vivienda convence solo por la vista de agosto. La humedad, la niebla, la ocupación de invierno, la fibra y la distancia real a los servicios pesan tanto como la ría en la decisión cotidiana."
+      ],
+      veredicto:
+        "Castropol es una forma pequeña y fronteriza de vivir junto al Eo: ría cotidiana, Ribadeo como apoyo y una costa que se disfruta más por tramos que desde una gran playa urbana. La elección depende mucho de la microzona y de aceptar coche y desplazamientos a cambio de esa escala de estuario."
+    },
+    fotoIdentidad: {
+      src: "/fotos/asturias-occidente/castropol-identidad.jpg",
+      pie: "Castropol: pueblo blanco sobre la ría del Eo, con monte detrás — así se vive mirando a Figueras",
+    },
+    fotosAbrir: [
+      { src: "/fotos/asturias-occidente/castropol-villa.jpg", pie: "Castropol: pueblo blanco sobre la ría" },
+      { src: "/fotos/asturias-occidente/castropol-ria.jpg", pie: "Ría del Eo desde Castropol" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/asturias-occidente/castropol-figueras.jpg", pie: "Figueras: astilleros y orilla del concejo" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/asturias-occidente/castropol-penarronda.jpg", pie: "Penarronda, playa de dunas cerca de Castropol" },
+    ],
+    creditoFotos: credito,
+  }

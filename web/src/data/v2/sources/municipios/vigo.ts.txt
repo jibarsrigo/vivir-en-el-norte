@@ -1,0 +1,60 @@
+{
+    escala: "Ciudad de ría y puerto",
+    abrir: [
+      "Vigo se entiende en anfiteatro: casi trescientos mil habitantes, el puerto en la orilla y calles que suben con una pendiente que convierte dos puntos cercanos en dos rutinas distintas. El centro reúne oficinas, mercados, comercio y bloques; al suroeste, sin salir del municipio, la ciudad se afloja en Alcabre, Coruxo, Oia —parroquia viguesa, no el municipio atlántico del mismo nombre— y Saiáns: casas bajas, huertas y orilla que mira a las Illas Cíes, el archipiélago que cierra la ría por el oeste.",
+      "Un martes de noviembre la ciudad está plenamente despierta. En O Berbés —el antiguo barrio marinero junto al puerto— se mueven cajas y mesas; la calle do Príncipe reúne gente; el mercado de O Progreso vende pescado a pocas calles. En Samil hay paseo bajo lluvia fina; desde Coruxo salen coches hacia el centro, el hospital o el colegio. No se espera al verano para vivir: es ciudad de trabajo, industria, universidad, pesca y servicios, con el tráfico y el ruido que eso implica.",
+      "La playa cotidiana depende de la microzona. Samil y Alcabre pueden dar baño y paseo de diario; el centro urbano no tiene una gran playa a la puerta —el frente portuario sustituye esa orilla—. Quien elija Coruxo, Oia o Saiáns gana jardín y horizonte hacia las Cíes, pero suele necesitar coche; quien elija centro gana autonomía a pie y autobús a cambio de cuestas y densidad. El peaje es claro: gran autonomía a cambio de pendientes, tráfico y diferencias fuertes entre barrios.",
+      "El calendario se oye. Alrededor del 28 de marzo —a menudo el último fin de semana de marzo o el primero de abril— la Reconquista llena el Casco Vello (Fiesta de Interés Turístico Nacional desde 2019). El 16 de julio las procesiones del Carmen recuerdan la ciudad marinera; hacia el tercer domingo de julio, el Cristo dos Aflixidos de Bouzas culmina con piromusical. La Semana Grande ocupa la primera semana de agosto; O Marisquiño lleva deporte y música al litoral; San Roque cae el día 16. Vivir junto a los recorridos significa cortes, conciertos y noches largas. Agosto llena Samil, O Vao y los barcos a las Cíes, pero hospitales, puerto y comercio siguen; en invierno la iluminación navideña vuelve a saturar el centro.",
+    ],
+    tiempo: [
+      "Frente a Mallorca, Vigo no sorprende tanto por un invierno extremo como por la continuidad del cielo gris y la lluvia. El mar evita grandes heladas; el verano es claramente más fresco que el mallorquín, con brisa de ría en Samil y O Vao y algo más de calor en calles interiores. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno se nota en la casa y en la lluvia más que en el termómetro. Conviene preguntar por aislamiento, orientación en ladera y rastros de moho, sobre todo en bloques antiguos. Una terraza que en agosto parece el centro de la vida, entre noviembre y febrero se usa la mitad o menos. Visitar el piso un día de lluvia seria y otro soleado enseña más que la foto de las Cíes.",
+      "Sin coche, el centro resuelve mucho: autobús, mercados, comercio y servicios. En Alcabre, Coruxo, Oia o Saiáns el coche pesa para compra y playa. En enero la ciudad no se apaga —puerto, hospital, universidad—. Es ciudad de trabajo con ruido y tráfico; no colonia de veraneo.",
+      "Conviven gente local, industria, universidad y quien eligió parroquia costera. Se oye gallego y castellano en el mismo barrio. Entre semana manda el ir y venir; en agosto se llenan Samil y O Vao, pero la red urbana sigue. Quien busque silencio de pueblo no lo encontrará aquí.",
+      "La sanidad es de las más completas de la selección: Álvaro Cunqueiro y la red hospitalaria de Vigo, con Povisa en la trama urbana y centros de salud de barrio. Empadronarse abre cabecera y especialistas sin organizar una expedición: es la gran diferencia frente a villas de costa.",
+      "Ir y volver a Mallorca pasa por Peinador, cerca, con conexión limitada o estacional en 2026 —no presentarla como vuelo anual garantizado—; Santiago mantiene una continuidad más estable durante el año. Conviene mirar el calendario vigente, no solo el de agosto.",
+      "En el centro predominan pisos; en las parroquias costeras, chalés y casas reformadas. Hay que caminar la cuesta, escuchar la VG-20 y comprobar el autobús real. En una casa con escaleras de ladera conviene imaginar la rutina dentro de diez años: humedad, ventanas y calefacción pesan tanto como el horizonte.",
+    ],
+    historia: [
+      "Vigo creció mirando al puerto. O Berbés fue el barrio de pescadores, con casas porticadas donde se salaba y vendía pescado; mucho antes, las Salinae romanas producían sal junto a la orilla y hoy pueden verse en un yacimiento musealizado. La industria conservera, los astilleros y la planta de automóviles abierta por Citroën en 1958 —hoy integrada en Stellantis— convirtieron una villa marinera en la mayor ciudad de Galicia. El Museo do Mar cuenta esa continuidad.",
+      "En 1809 los vecinos expulsaron a las tropas francesas, episodio celebrado por la Reconquista y origen del reconocimiento de Vigo como ciudad «Leal y Valerosa» en 1810. En el Monte do Castro quedan restos de un poblado castreño y de la fortaleza que defendió la ría; desde allí se ven el puerto, el estrecho de Rande y las Cíes, incorporadas en 2002 al parque nacional de las Islas Atlánticas de Galicia.",
+      "En Rande, una flota anglo-neerlandesa atacó en 1702 a navíos hispano-franceses. La batalla alimentó la leyenda de tesoros hundidos que Julio Verne llevó a «Veinte mil leguas de viaje submarino»; sus visitas a Vigo en 1878 y 1884 reforzaron una relación literaria que la ciudad todavía recuerda.",
+    ],
+    fuera: [
+      "Samil es la playa urbana larga, con paseo, jardines y servicios; O Vao, más al suroeste, conserva dunas y mira hacia Toralla, el islote unido a tierra por un puente. Canido es el núcleo marinero contiguo; Fontaíña y las calas de Coruxo permiten un baño más pequeño. El agua de agosto es atlántica, más fresca que el Mediterráneo de Mallorca.",
+      "El paseo cotidiano puede ser urbano: Monte do Castro desde el centro; Monte da Guía sobre Teis, con vistas hacia Rande; Castrelos, el gran parque con jardines históricos, un pazo —casa señorial gallega— y senderos junto al río Lagares. La senda del Lagares continúa hacia Samil.",
+      "Para un día entero están las Illas Cíes. Los barcos salen del puerto en temporada, con autorización previa en fechas de mucha demanda. Rodas une dos islas junto a una laguna y abre rutas hacia los faros. Hacia el interior, Monte Alba y Cepudo se levantan sobre Valladares: desde allí se entiende por qué Vigo vive siempre en pendiente.",
+    ],
+    casa: [
+      "En el centro predominan pisos: Ensanche de piedra, bloques de distintas décadas alrededor de Travesas y Coia, vivienda reciente en zonas de expansión. En Alcabre, Coruxo, Oia y Saiáns aparecen chalés, casas reformadas y pequeños edificios entre fincas. Centro, Samil/Alcabre y laderas residenciales no ofrecen la misma mañana ni el mismo peaje de coche y cuesta.",
+      "Los precios y totales permanecen en la capa factual y en Idealista del mes. Conviene ascensor o acceso sin barreras, exterior, dos o tres dormitorios y servicios andando cuando se elija centro; en ladera, comprobar pendiente real, VG-20 y autobús. Hay obra nueva y fibra en buena parte de la trama.",
+      "Los servicios son de ciudad completa: hospitales, centros de salud, universidad, mercados, colegios, cultura, deporte, estación de alta velocidad, puerto y aeropuerto. La oferta cambia mucho entre el centro urbano y las parroquias costeras: no confundir una foto de Samil con la autonomía del Ensanche.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere ciudad completa y decidir cuánto mar entra en la semana: centro a pie o en autobús; Alcabre y Samil si la playa diaria manda; Coruxo, Oia o Saiáns si se acepta coche a cambio de casas bajas y horizonte hacia las Cíes.",
+        "También si hospitales, especialistas, aeropuerto, tren, universidad y cultura deben formar parte del municipio, no de una escapada, y se acepta un verano más fresco que Mallorca a cambio de invierno más mojado.",
+      ],
+      no: [
+        "Encaja peor si se busca silencio de pueblo: Vigo es puerto, tráfico, cuestas y densidad; incluso las parroquias costeras sienten la VG-20 y los desplazamientos de entrada a la ciudad.",
+        "Tampoco si se espera playa a la puerta en cualquier barrio: en el centro el paseo es portuario; Samil y Alcabre no representan toda la ciudad. Ni si se interpreta el vuelo a Palma desde Peinador como conexión permanente todo el año.",
+      ],
+      veredicto:
+        "Vigo ofrece autonomía de ciudad y la posibilidad de elegir microzona —centro, Samil/Alcabre o ladera costera— a cambio de pendientes, tráfico y diferencias fuertes entre barrios. Su atractivo está en resolver casi todo dentro del municipio; su peaje, en que la misma ría no entrega la misma mañana según la calle."
+    },
+ fotosAbrir: [
+ { src: "/fotos/vigo-e-ria/vigo-ria.jpg", pie: "Vigo en anfiteatro sobre la ría, con el puerto a sus pies" },
+ { src: "/fotos/vigo-e-ria/vigo-samil.jpg", pie: "Samil: playa, paseo y jardines dentro de la ciudad" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/vigo-e-ria/vigo-berbes.jpg", pie: "O Berbés, el antiguo barrio de pescadores junto al puerto" },
+ { src: "/fotos/vigo-e-ria/vigo-castro.jpg", pie: "Parque do Castro: fortaleza y jardines sobre el centro de Vigo" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/vigo-e-ria/vigo-o-vao.jpg", pie: "O Vao y el islote de Toralla, en la costa suroeste" },
+ { src: "/fotos/vigo-e-ria/vigo-cies.jpg", pie: "Las Illas Cíes, el archipiélago que cierra la ría por el oeste" },
+ ],
+ creditoFotos: "Fotos: Wikimedia Commons (CC BY-SA).",
+  }

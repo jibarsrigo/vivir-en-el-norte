@@ -1,0 +1,58 @@
+{
+    escala: "Villa fuerte dentro de un concejo muy amplio",
+    abrir: [
+      "Llanes puede engañar por el nombre: la villa es compacta, con casco, puerto, servicios y playas próximas, pero el concejo se extiende por decenas de núcleos y playas con rutinas muy diferentes. Vivir en Llanes villa no es lo mismo que vivir en Celorio, Barro, Posada o Pría.",
+      "La autonomía es fuerte dentro de la villa y cae al salir de ella. Esa distinción afecta al coche, al precio, a la playa cotidiana y a la facilidad para resolver la semana.",
+    ],
+    tiempo: [
+      "Frente a Mallorca, el oriente asturiano ofrece un verano fresco y un año mucho más húmedo y gris. Cerca del mar pesan salitre y exposición; hacia el interior cambian viento, acceso y dependencia del coche.",
+      "En la villa, Sablón y otras orillas permiten integrar el mar en la rutina. Muchas de las playas famosas del concejo requieren desplazamiento aunque compartan municipio, así que ‘Llanes’ no equivale automáticamente a playa a pie.",
+    ],
+    vivir: [
+      "Una mañana en la villa puede unir casco, puerto, recados y el Paseo de San Pedro. La capa recoge además un itinerario fácil de unos 7,6 kilómetros que permite ampliar el paseo sin convertirlo en una jornada de montaña.",
+      "Fuera de la villa, el coche gana peso rápidamente. Celorio, Poo, Barro, Posada y Pría deben entenderse como microzonas con accesos, precios y relaciones con el mar propias.",
+      "El hospital práctico está en Arriondas. Para volar hay que elegir entre Asturias y Santander según ruta y programación; Palma no debe tratarse como una conexión fija.",
+      "El verano transforma Llanes con mucha más afluencia. La villa mantiene servicios y vida propia, pero aparcamiento, tráfico y ocupación cambian; en pueblos de playa el efecto puede ser todavía más marcado.",
+    ],
+    historia: [
+      "El casco amurallado, el puerto y los Cubos de la Memoria concentran la identidad urbana de Llanes. El Paseo de San Pedro añade una pradera elevada sobre el Cantábrico que funciona como paseo cotidiano además de mirador.",
+      "El concejo amplía esa identidad hacia playas, pueblos y la Sierra del Cuera. Gulpiyuri y los bufones de Pría son salidas singulares, no elementos de la rutina peatonal de la villa.",
+    ],
+    fuera: [
+      "Desde la villa se puede vivir el mar sin coche; para recorrer buena parte de las playas y pueblos del concejo sí hace falta. Esa diferencia debe estar clara antes de comparar viviendas.",
+      "Cuera y Picos amplían el mapa hacia la montaña. Arriondas entra por la sanidad y Santander o Asturias por el aeropuerto, recordando que el paisaje cercano no implica la misma proximidad logística.",
+    ],
+    casa: [
+      "En la villa conviene buscar acceso, servicios, paseo, exterior y aparcamiento según necesidad. En pueblos y playas, comprobar carretera, distancia real a servicios, humedad y funcionamiento fuera de temporada.",
+      "El precio cambia por microzona y la capa 2026 ya distingue varias. No deben prometerse revalorizaciones ni usar una media del concejo como si describiera por igual villa, Celorio, Posada o Pría.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se valora una villa con autonomía fuerte, casco y paseo marítimo, y se quiere además un concejo enorme de playas y montaña para ampliar el día.",
+        "También si se está dispuesto a escoger microzona con precisión y aceptar que fuera de la villa el coche forma parte estructural de la rutina.",
+      ],
+      no: [
+        "Encaja peor si se quiere que cualquier dirección del concejo permita resolver la semana andando o si la presión turística de verano resulta incompatible con la vivienda.",
+        "Tampoco si hospital y aeropuerto deben quedar muy próximos o si se compra una vivienda de playa suponiendo que tendrá la misma vida anual que la villa.",
+      ],
+      veredicto:
+        "Llanes ofrece dos escalas: una villa fuerte y caminable, con mar y paseo cotidianos, y un concejo muy disperso de pueblos, playas y montaña. Su atractivo exige precisión al elegir microzona, porque coche, precio, estacionalidad y servicios cambian mucho en pocos kilómetros."
+    },
+ fotoIdentidad: {
+ src: "/fotos/asturias-oriente/llanes-identidad.jpg",
+ pie: "Llanes: casas con galerías sobre el puerto — vivir pegado al Cantábrico",
+ },
+ fotosAbrir: [
+ { src: "/fotos/asturias-oriente/llanes-casco.jpg", pie: "Casco amurallado de Llanes" },
+ { src: "/fotos/asturias-oriente/llanes-puerto.jpg", pie: "Puerto de Llanes" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/asturias-oriente/llanes-san-pedro.jpg", pie: "Paseo de San Pedro, Llanes" },
+ { src: "/fotos/asturias-oriente/llanes-cuera.jpg", pie: "Sierra del Cuera sobre Llanes" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/asturias-oriente/llanes-gulpiyuri.jpg", pie: "Playa de Gulpiyuri" },
+ { src: "/fotos/asturias-oriente/llanes-barro.jpg", pie: "Playa de Torimbia, Llanes" },
+ ],
+ creditoFotos: credito,
+  }

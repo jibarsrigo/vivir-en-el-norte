@@ -85,12 +85,18 @@ export default async function PaginaZona({ params }: { params: Promise<{ id: str
         {z.provincia}
       </p>
       <h1 className="mt-2 font-[family-name:var(--font-serif)] text-4xl text-[var(--acento)]">{z.zona}</h1>
-      <p className="mt-2">
+      <p className="mt-2 flex flex-wrap gap-x-3 gap-y-1">
         <Link
           href={`/v1/zona/${z.id}/`}
           className="text-sm text-[var(--tinta-suave)] underline-offset-2 hover:underline"
         >
           V1
+        </Link>
+        <Link
+          href={`/v2/zona/${z.id}/`}
+          className="text-sm text-[var(--tinta-suave)] underline-offset-2 hover:underline"
+        >
+          V2
         </Link>
       </p>
       {z.calorAprieta ? (

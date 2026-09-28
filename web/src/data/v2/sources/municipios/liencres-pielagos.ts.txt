@@ -1,0 +1,56 @@
+{
+    escala: "Costa residencial dispersa",
+    abrir: [
+      "Liencres es una localidad dentro de Piélagos, no un resumen de todo el municipio. Su identidad residencial mezcla casas y urbanizaciones con la proximidad de las dunas, Valdearenas, Canallave y la Costa Quebrada, mientras otras localidades del municipio ofrecen una relación distinta con servicios, tren y costa.",
+      "La autonomía cotidiana es media-baja: hay servicios básicos en el entorno, pero vivienda, costa y equipamientos no siempre coinciden a pie. El coche tiene un papel mayor que en una villa compacta.",
+      "La gran ventaja logística es la proximidad a Santander, Valdecilla y el aeropuerto. La contrapartida es que vivir cerca geográficamente de las playas no significa necesariamente poder bajar andando de forma urbana y cómoda.",
+    ],
+    tiempo: [
+      "El clima es atlántico, húmedo y cambiante. La vivienda debe valorarse por orientación, ventilación y exposición al viento y la humedad; el contraste con Mallorca es de menor continuidad de sol, sin necesidad de repetir aquí las cifras de la capa factual.",
+    ],
+    vivir: [
+      "La rutina puede resolverse con servicios básicos próximos, pero la dispersión hace que el coche aparezca para compras, costa o equipamientos según la vivienda concreta.",
+      "Las dunas y la Costa Quebrada son extraordinarias para caminar, pero funcionan más como salida de naturaleza que como paseo urbano continuo. La experiencia residencial depende mucho de la calle y de la localidad elegida dentro de Piélagos.",
+      "Santander amplía de manera muy fuerte el radio cotidiano: hospital, ciudad y aeropuerto quedan próximos. Esa ventaja logística no convierte Liencres en un barrio urbano de Santander.",
+    ],
+    historia: [
+      "El paisaje de dunas y acantilados define la costa de Liencres más que un casco monumental. Valdearenas, Canallave y Costa Quebrada explican una identidad de borde natural junto a una franja residencial vinculada a la bahía de Santander.",
+    ],
+    fuera: [
+      "Las playas pueden ser frecuentes si la vivienda está bien situada, pero la etiqueta correcta es depende de vivienda: muchas casas requieren coche o una caminata no urbana.",
+      "Dunas y Costa Quebrada permiten salidas repetibles de naturaleza; Santander, en cambio, cumple la función de ciudad cercana para servicios, cultura y sanidad.",
+    ],
+    casa: [
+      "No usar la media municipal de Piélagos como si describiera automáticamente una vivienda junto a las dunas de Liencres. Hay que comprobar localidad, acceso real a playa, servicios próximos y necesidad de coche.",
+      "En casas y adosados revisar humedad, aislamiento, orientación, aparcamiento y recorrido cotidiano. Los precios quedan en la capa factual y la tabla.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca un entorno residencial de casas bajas con naturaleza costera próxima y una conexión muy fuerte con Santander.",
+        "También si se acepta usar coche para parte de la rutina a cambio de tener hospital y aeropuerto relativamente cerca.",
+      ],
+      no: [
+        "Encaja peor si se busca una villa compacta donde playa, comercio y servicios coincidan siempre a pie.",
+        "Tampoco si se pretende que cualquier dato de Piélagos describa exactamente la experiencia de Liencres.",
+      ],
+      veredicto:
+        "Liencres/Piélagos ofrece costa natural y una logística metropolitana muy favorable, pero es un territorio disperso: la calidad cotidiana depende más de la vivienda concreta y de sus recorridos que de la distancia lineal al mar."
+    },
+ fotoIdentidad: {
+ src: "/fotos/cantabria-occidental/liencres-pielagos-identidad.jpg",
+ pie: "Liencres–Mortera: casas bajas con el monte detrás",
+ },
+ fotosAbrir: [
+ { src: "/fotos/cantabria-occidental/liencres-urbanizacion.jpg", pie: "Urbanización de casas bajas en Liencres" },
+ { src: "/fotos/cantabria-occidental/liencres-dunas.jpg", pie: "Parque Natural de las Dunas de Liencres" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/cantabria-occidental/liencres-costa-quebrada.jpg", pie: "Costa Quebrada, Liencres" },
+ { src: "/fotos/cantabria-occidental/liencres-mortera.jpg", pie: "Mortera, en Piélagos" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/cantabria-occidental/liencres-valdearenas.jpg", pie: "Playa de Valdearenas" },
+ { src: "/fotos/cantabria-occidental/liencres-canallave.jpg", pie: "Playa de Canallave, Liencres" },
+ ],
+ creditoFotos: credito,
+  }

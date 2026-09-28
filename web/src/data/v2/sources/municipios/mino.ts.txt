@@ -1,0 +1,59 @@
+{
+    escala: "Praia Grande y parroquias",
+    abrir: [
+      "Miño se entiende desde la Praia Grande. Unos seis mil habitantes entre más de un kilómetro de arena con dunas y paseo, Perbes y la urbanización Costa Miño: casas bajas y campo de golf de los años 2000. Pontedeume, villa histórica, y las Fragas do Eume —bosque atlántico y parque natural— quedan a un trayecto corto.",
+      "La playa cotidiana existe en microzona: Praia Grande es urbana y accesible en su extremo sur y más natural hacia el norte. Quien elija bien el núcleo puede encadenar compras básicas y baño; quien viva tierra adentro recupera el coche para casi todo.",
+      "Un martes de noviembre los servicios son de escala pequeña: el coche o el tren Ferrol–A Coruña organizan mucho hacia Pontedeume o la capital. En verano la ORA y el arenal evidencian demanda de playa; el volumen sube junto a Praia Grande y Costa Miño.",
+      "Si solo conoces un sábado de sol en las dunas, te llevas postal. Si has visto un martes de noviembre en Costa Miño, ya puedes decidir si aceptas la profundidad limitada de servicios.",
+    ],
+    tiempo: [
+      "Frente a Mallorca el cielo del golfo se nota más gris. El verano es suave. Praia Grande y Perbes permiten baño de ría-costa, en general más usable que Doniños, aunque sigue fresco frente a Baleares. Las Fragas do Eume dan sombra de bosque cuando aprieta el sol en la playa. El clima se cuenta en cualitativo.",
+      "Conviene probar un noviembre húmedo y el aparcamiento de agosto junto al arenal.",
+    ],
+    vivir: [
+      "El invierno baja el volumen en la urbanización y en Praia Grande. Conviene mirar aislamiento y humedad un martes gris, no solo el sol de las dunas. Terraza y jardín se usan menos entre noviembre y febrero.",
+      "Sin coche, la rutina puede ser media-baja si se elige bien el núcleo junto a Praia Grande; sube la dependencia para servicios superiores. El tren de cercanías da alternativa parcial en algunos trayectos hacia A Coruña.",
+      "Llegar de fuera busca arena larga y golf, no villa marinera densa. Se oye gallego en los núcleos y en Pontedeume; el castellano basta para lo cotidiano. En enero Miño es urbanización y parroquia; en agosto, playa llena.",
+      "La sanidad especializada no está en el municipio: el área de A Coruña o Ferrol según necesidad queda a un trayecto medio. Empadronarse abre primaria local; para hospital se conduce.",
+      "Ir y volver a Mallorca: Alvedro a un trayecto medio (Palma sobre todo en verano); Santiago-Lavacolla aporta enlace durante casi todo el año. Conviene comprobar programación y aceptar el trayecto al aeropuerto.",
+      "Predominan casas en Costa Miño y viviendas en parroquias; fibra a comprobar. Hay que contar con ocupación de verano junto a la playa y distancia real a un súper.",
+    ],
+    historia: [
+      "Costa Miño es la ficha reciente: urbanización de casas bajas y golf pensada para residencia y veraneo, no un casco medieval. Praia Grande organiza el tiempo libre desde que el municipio miró a la orilla como activo principal.",
+      "Pontedeume y las Fragas do Eume añaden la capa antigua y natural: villa de piedra y bosque atlántico de roble y ribera. El tren de cercanías enlaza con A Coruña. Lo que conviene saber junta urbanización de los 2000 y bosque de ribera.",
+    ],
+    fuera: [
+      "Praia Grande es el arenal de diario en microzona: dunas, paseo y espacio. Un martes de junio la toalla cabe; un domingo de agosto, el acceso se satura. Perbes completa opciones más recogidas.",
+      "Las Fragas do Eume y Pontedeume cubren bosque y villa histórica a un trayecto corto. A Coruña y Ferrol amplían hospital, comercio y ciudad.",
+      "Otros tramos del Golfo Ártabro quedan como salida; aquí el argumento central es la playa larga bien elegida, no la densidad de servicios.",
+    ],
+    casa: [
+      "Casas en Costa Miño o vivienda en parroquia cercana a Praia Grande. Conviene comprobar si la microzona entrega playa y compra en el mismo radio, o solo una de las dos.",
+      "Los precios permanecen en la capa factual. Firmar tras agosto en el arenal y un noviembre en la urbanización evita comprar solo la postal de las dunas.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si Praia Grande en microzona importa más que un comercio denso: arena larga, dunas y golf a cambio de servicios de escala pequeña y coche o tren para lo mayor.",
+        "También si Pontedeume y las Fragas do Eume bastan como salidas y se asume hospital y aeropuerto a un trayecto medio.",
+      ],
+      no: [
+        "Encaja peor si se necesita autonomía de villa completa o playa generalizable en todo el municipio: aquí la playa cotidiana es de microzona.",
+        "Tampoco si agosto junto al arenal debe ser silencioso o si se espera la dotación de Oleiros o A Coruña a pie.",
+      ],
+      veredicto:
+        "Miño se juega en Praia Grande: playa usable en microzona a cambio de menor profundidad de servicios y verano intenso. Su atractivo está en el arenal; su peaje, en elegir la casa exacta y no confundir dunas con ciudad."
+    },
+    fotosAbrir: [
+      { src: "/fotos/golfo-artabro-e-ferrol/mino-praia-grande.jpg", pie: "Praia Grande de Miño: arena y dunas" },
+      { src: "/fotos/golfo-artabro-e-ferrol/mino-villa.jpg", pie: "Castro de Loios, patrimonio junto a Miño" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/golfo-artabro-e-ferrol/mino-costa.jpg", pie: "Costa Miño: urbanización y costa" },
+      { src: "/fotos/golfo-artabro-e-ferrol/mino-tren.jpg", pie: "Tren de cercanías en el entorno de Miño" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/golfo-artabro-e-ferrol/mino-perbes.jpg", pie: "Perbes, playa recogida de Miño" },
+      { src: "/fotos/golfo-artabro-e-ferrol/mino-eume.jpg", pie: "Fragas do Eume, bosque atlántico cercano" },
+    ],
+    creditoFotos: credito,
+  }

@@ -1,0 +1,52 @@
+{
+    escala: "Aldea de granito entre monte y mar",
+    abrir: [
+      "Afife y Carreço son parroquias costeras dispersas del concelho de Viana do Castelo: granito, viñas en pérgola, Serra d'Arga detrás y Atlántico delante. Paçô y el faro de Montedor marcan tramos del litoral; Areosa queda en el entorno. No son un único núcleo urbano ni equivalen a Viana ciudad. La playa cotidiana depende de la vivienda: en algunas casas el mar está cerca; en otras la dispersión exige coche incluso viviendo «junto al mar».",
+      "La autonomía cotidiana es baja-media. El coche pesa para una vida completa; Viana o Âncora cubren comercio y servicios. El Hospital de Santa Luzia queda relativamente cerca —referencia local de mayor nivel—; el aeropuerto práctico es Porto. Hay apeaderos de la Linha do Minho según parroquia, sin inventar frecuencias.",
+      "La fibra puede ser parcial: conviene comprobarla en la dirección concreta. Residencial anual con fuerte componente vacacional costero: agosto no es enero. Quien busque aldea de granito con monte y mar acepta peaje de dispersión; quien busque ciudad a pie, no.",
+    ],
+    tiempo: [
+      "Monte y mar juntos traen humedad, viento y un verano atlántico suave. Frente a Mallorca hay menos continuidad de sol y más cielo gris; en casas de granito conviene revisar humedad y orientación. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno es de aldea: menos movimiento, más coche, más humedad en piedra. Conviene calefacción y ventilación; no asumir marginal urbana continua. Un martes de enero aquí no se parece a un paseo de Viana.",
+      "La rutina completa depende de dónde esté la casa respecto a playa, tienda y apeadero. Viana sostiene compra, cultura y hospital; Âncora puede cubrir parte del litoral. No trasladar a Afife-Carreço la autonomía de la ciudad.",
+      "Santa Luzia es la referencia hospitalaria próxima; Porto, el aeropuerto. La integración es de parroquia: vecinos locales y veraneo costero, portugués de aldea, no de puerto urbano.",
+    ],
+    historia: [
+      "Granito, Arga, Montedor y las viñas en pérgola explican el sitio: costa minhota de aldeas, no de ensanche. Paçô y Afife no son el mismo gesto residencial; la identidad está en la dispersión monte-mar, no en un casco único.",
+    ],
+    fuera: [
+      "Caminos, costa y playas según ubicación: a veces cotidianos, a veces salida corta en coche. No asumir un paseo urbano continuo.",
+      "Viana amplía casi todo; Âncora y Caminha cubren tramos del litoral. Afife-Carreço debe juzgarse por la vivienda concreta, no por el mapa del concelho entero.",
+    ],
+    casa: [
+      "Casas de granito, fincas y viviendas dispersas: comprobar distancia real a playa, tienda, apeadero, fibra en la dirección y necesidad de coche. La playa «a la puerta» no es universal.",
+      "No hay narrativa de precio municipal fiable en prosa: la capa puede no fijar media. Firmar tras ver la casa en invierno y en día de viento.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca aldea de granito entre Arga y Atlántico, se acepta coche alto y se elige vivienda con la playa que realmente se usa.",
+        "También si Viana como apoyo y Santa Luzia como hospital próximo resultan suficientes y la fibra se comprueba en la parcela.",
+      ],
+      no: [
+        "Encaja peor si se necesita autonomía urbana a pie o se espera que Afife y Carreço funcionen como un solo pueblo compacto.",
+        "Tampoco si se decide por una foto de costa sin probar la dispersión real entre casa, tienda y orilla.",
+      ],
+      veredicto:
+        "Afife-Carreço ofrece monte y mar a cambio de coche y dispersión. Su atractivo está en el granito y el Atlántico; su peaje, en que la vivienda concreta decide playa, fibra y autonomía, no el nombre del concelho."
+    },
+ fotoIdentidad: {
+ src: "/fotos/alto-minho/afife-carreco-identidad.jpg",
+ pie: "Afife–Carreço: casa entre pinos con el Atlántico al fondo",
+ },
+ fotosAbrir: [
+ { src: "/fotos/alto-minho/afife-aldea.jpg", pie: "Afife: aldea de granito" },
+ { src: "/fotos/alto-minho/afife-playa.jpg", pie: "Playa de Afife" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/alto-minho/carreco-montedor.jpg", pie: "Faro de Montedor, Carreço" },
+ ],
+ fotosFuera: [],
+ creditoFotos: credito,
+  }

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { FichaMunicipio } from "@/lib/municipios";
+import { hrefFichaMunicipio } from "@/lib/nuevo2-municipios";
 
 /** Convierte minutos en nota 1–10 (menos minutos = mejor). */
 function notaCercania(min: number, ideal: number, peor: number): number {
@@ -91,7 +92,7 @@ export default function TablaComparativaZona({
                     </span>
                   ) : (
                     <Link
-                      href={`/zona/${zonaId}/${m.slug}/`}
+                      href={hrefFichaMunicipio(zonaId, m.slug)}
                       className="underline-offset-2 hover:underline"
                     >
                       {m.municipio}

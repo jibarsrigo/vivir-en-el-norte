@@ -1,0 +1,60 @@
+{
+    escala: "Villa de ría y viaductos",
+    abrir: [
+      "Los viaductos ferroviarios del siglo XIX cruzan el casco a gran altura y dan a Redondela una silueta imposible de confundir. Debajo hay mercado, comercio, biblioteca y calles que siguen vivas en enero. Cesantes —la parroquia costera al oeste de la villa— abre una playa larga frente a la isla de San Simón; Chapela, bajo el puente de Rande, se integra más en el corredor de Vigo. Decir solo «Redondela» no basta: villa, Chapela y Cesantes no son la misma semana.",
+      "Un martes laborable la estación recibe trenes hacia Vigo y Pontevedra, el mercado abre y los colegios llenan las aceras. La autonomía es fuerte en la villa; en parroquias el coche o el trayecto corto pesan más. La identidad es obrera y ferroviaria, útil para el año entero: menos pulida para la foto típica que Baiona, más práctica para vivir.",
+      "La playa cotidiana depende de la microzona. Cesantes ofrece playa somera de ría; no es la experiencia diaria de toda Redondela. El peaje es buena conexión y servicios a cambio de una experiencia muy desigual por parroquia: vías, AP-9 y accesos a Rande se oyen en unas calles y no en otras.",
+      "Las grandes fechas alteran la rutina. El segundo domingo de mayo, la Festa do Choco —el choco es la sepia propia de la ensenada— llena mesas y puestos. En Corpus, la Festa da Coca (Interés Turístico de Galicia desde 2011) saca al dragón legendario junto a la Danza das Espadas y las Penlas. Santiago cae el 25 de julio; el Entroido de Verán, el penúltimo fin de semana de agosto. En el casco hay cortes y noches concurridas; en Cesantes pesa más el tráfico de playa.",
+    ],
+    tiempo: [
+      "Frente a Mallorca, Redondela pierde continuidad de sol y gana un invierno más mojado: los viaductos y las laderas permanecen verdes porque la lluvia es real. El verano es más fresco que el mallorquín; en Cesantes, dentro de la ensenada, el agua suele sentirse algo más templada y quieta que en playas abiertas. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno se siente en la humedad de la piedra y en el agua que moja viaductos y laderas. Conviene revisar drenaje, aislamiento y humedad en casas antiguas. Visitar el piso con las ventanas abiertas un día gris y otro de sol enseña más que la silueta de los viaductos en foto.",
+      "Sin coche, el casco resuelve mercado, comercio y estación. En Cesantes, Reboreda o Chapela hay que contar con más desplazamiento. En enero la villa sigue viva —tren, colegios, Camino Portugués—. No es foto de turismo estacional.",
+      "Se oye gallego en el mercado; el castellano basta para lo cotidiano. Entre semana manda el ritmo de estación y corredor metropolitano; en mayo el Choco y en Corpus la Coca llenan el casco. Quien busque solo silencio absoluto se equivocará de calle.",
+      "La atención primaria es local; el hospital práctico queda en el área de Vigo. Empadronarse abre cabecera en la villa; para especialidades y urgencia hospitalaria se baja a la ciudad. No es aislamiento: es villa apoyada en dos ciudades cercanas.",
+      "Ir y volver a Mallorca: Peinador queda cerca con programación más estacional; Santiago ofrece continuidad más estable durante el año. Conviene comprobar temporada y horario vigente.",
+      "En el casco hay pisos a pie de mercado y estación; en Cesantes y Reboreda, casas y pequeños bloques entre fincas; Chapela acerca Vigo a cambio de más densidad. Junto a las infraestructuras, el aislamiento acústico importa tanto como la orientación.",
+    ],
+    historia: [
+      "Los viaductos resumen el nacimiento de la Redondela moderna. El de Madrid, inaugurado en 1876 y hoy sin tráfico ferroviario, y el de Pontevedra, abierto en 1884 y todavía en uso, salvaron el valle para conectar Galicia por tren. La estación sigue haciendo práctico aquel legado.",
+      "En la ensenada, la isla de San Simón guarda una historia más oscura: fue monasterio y lazareto, y entre 1936 y 1943 funcionó como prisión. Hoy es conjunto cultural visitable en actividades autorizadas. El Camino Portugués atraviesa la villa: peregrinos, vecinos y fiestas ocupan unas mismas calles de paso.",
+      "Bajo el puente de Rande ocurrió el 23 de octubre de 1702 la batalla naval entre la flota anglo-neerlandesa y los navíos hispano-franceses. El centro de interpretación de Meirande, junto al estrecho, explica aquel combate. Desde Cesantes, San Simón y Rande forman el horizonte diario.",
+    ],
+    fuera: [
+      "Cesantes es la playa de Redondela: arena larga, marea muy visible y agua tranquila frente a San Simón. Con bajamar la ensenada enseña bancos de arena y marisma; no parece océano abierto, sino una lámina protegida.",
+      "La senda del río Alvedosa acompaña al curso que atraviesa la villa. En Cesantes, el paseo costero mira hacia la isla y el estrecho de Rande. Monte Penide, entre Redondela y Vigo, conserva mámoas —túmulos funerarios prehistóricos— y petroglifos, además de vistas sobre la ría.",
+      "El barco a San Simón funciona en fechas y programas concretos, no como transporte diario. Hacia el norte, Arcade y el Verdugo quedan cerca; hacia el sur, Vigo ofrece Samil, museos y barcos a las Cíes sin cambiar de comarca.",
+    ],
+    casa: [
+      "En el casco hay pisos de distintas décadas cerca de mercado y estación. En Cesantes, Reboreda y Ventosela predominan casas y pequeños bloques entre fincas; Chapela ofrece proximidad a Vigo con más densidad y tráfico. La fibra está extendida; hay poca obra nueva.",
+      "Los precios y totales permanecen en la capa factual y en Idealista del mes. Conviene vivienda cómoda y accesible, exterior, y servicios cotidianos cerca cuando se elija villa; en parroquia, escuchar tren y autopista una mañana laborable antes de firmar.",
+      "Hay centro de salud, farmacias, mercado, supermercados, comercio, colegios, institutos, deporte y estación. Hospital y gran oferta cultural quedan en Vigo o Pontevedra: Redondela no pretende duplicar la ciudad.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si la prioridad es villa con mercado y estación, tren hacia Vigo y Pontevedra, y la opción de Cesantes para baño de ensenada —aceptando que esa playa no define toda Redondela—.",
+        "También si se prefiere población activa todo el año a una foto de turismo estacional, y se distingue villa, Chapela y Cesantes antes de comprar.",
+      ],
+      no: [
+        "Encaja peor si el silencio absoluto es condición: AP-9, vías, N-550 y Rande se reparten por el municipio y el ruido cambia de una calle a la siguiente.",
+        "Tampoco si se quiere playa mediterránea a pie del casco o se confunde Chapela con la villa de los viaductos.",
+      ],
+      veredicto:
+        "Redondela ofrece villa práctica, tren y microzonas muy distintas —casco, Chapela, Cesantes— a cambio de infraestructuras audibles y una playa que solo es cotidiana en una parte del municipio. Su atractivo está en la logística vivida; su peaje, en elegir mal la parroquia."
+    },
+    fotosAbrir: [
+      { src: "/fotos/vigo-e-ria/redondela-villa.jpg", pie: "Redondela: el viaducto de hierro atraviesa el casco" },
+      { src: "/fotos/vigo-e-ria/redondela-cesantes.jpg", pie: "Cesantes: playa de la ensenada, agua calmada" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/vigo-e-ria/redondela-viaduto.jpg", pie: "Viaducto de Madrid: la vía elevada que define el perfil de Redondela" },
+      { src: "/fotos/vigo-e-ria/redondela-san-simon.jpg", pie: "La isla de San Simón, antiguo monasterio, lazareto y prisión" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/vigo-e-ria/redondela-paseo.jpg", pie: "Paseo y arena de Cesantes con la marea de la ensenada" },
+      { src: "/fotos/vigo-e-ria/redondela-penide.jpg", pie: "San Simón desde la orilla: el horizonte cercano de la ría" },
+    ],
+    creditoFotos: "Fotos: Wikimedia Commons (CC BY-SA).",
+  }

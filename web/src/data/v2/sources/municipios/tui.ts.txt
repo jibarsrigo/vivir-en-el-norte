@@ -1,0 +1,54 @@
+{
+    escala: "Ciudad pequeña frente a Valença",
+    abrir: [
+      "Tui se entiende desde el Miño: casco empedrado con catedral arriba, soportales y judería; ensanche con comercio, instituto y pisos más recientes; Valença —villa amurallada portuguesa— al otro lado del puente. El Camino Portugués trae peregrinos todo el año y mantiene mesas abiertas en enero. No es ciudad costera: es ciudad fluvial de frontera.",
+      "La autonomía cotidiana es fuerte. Mercado de San Antonio, farmacia, biblioteca, teatro, conservatorio y piscina caben en una ciudad pequeña; el tren Vigo–Porto y la A-55 añaden opciones. El coche sigue útil para costa y hospital de alta complejidad. En el casco, las cuestas importan: la cota de la vivienda cambia la caminabilidad.",
+      "La semana mayor culmina con San Telmo tras la Pascua: procesiones, feria, música y el meixón en las mesas. El Entroido cierra con el Enterro do Bacallau; las romerías del Aloia llevan la vida urbana al monte. Vivir en el casco esas fechas significa calle ocupada y ruido hasta tarde.",
+    ],
+    tiempo: [
+      "El invierno trae niebla de río y humedad de granito; el verano de valle calienta más que la punta atlántica. Frente a Mallorca se pierde cielo limpio en invierno y se recupera algo del calor que muchos querían dejar atrás. Quien priorice verano fresco debería mirar la costa.",
+    ],
+    vivir: [
+      "En vivienda antigua conviene aislamiento y ventilación; en el ensanche, medir ruido de la A-55 según la calle. Una mañana de niebla y una tarde de julio describen dos Tui distintas.",
+      "Sin coche se resuelve más que en el resto de Baixo Miño: casco, ensanche y Valença a pie. El tren y el bus existen; su utilidad real depende del trayecto, no del nombre de la línea. En enero hay peregrinos y comercio; en agosto, calor de valle y escape hacia playas de salida.",
+      "Conviven vecinos de año entero y quien trabaja con la frontera. Se oyen gallego, castellano y portugués en la misma semana. Hospitales del área de Vigo: primaria en Tui, especialidades y urgencias mayores fuera. Para Mallorca, Vigo queda cerca en verano; Santiago aporta más continuidad. Comprobar temporada, no asumir vuelo fijo.",
+      "Sin playa inmediata y con pendientes en el casco: ese es el peaje. A cambio, la logística más completa de la comarca.",
+    ],
+    historia: [
+      "Tude fue ciudad romana, sede episcopal y una de las capitales históricas de Galicia. La catedral de Santa María —románico y gótico hechos también fortaleza— domina el casco con almenas y el claustro medieval completo. Desde la muralla se ve el Miño y Valença.",
+      "El Camino Portugués entra en Galicia por aquí. El puente internacional de 1886 y la Eurocidade con Valença convierten la frontera en calle. Conventos, judería y los peixiños de améndoa de las Clarisas cuentan una ciudad de río, clausura y paso.",
+    ],
+    fuera: [
+      "El paseo cotidiano sube al casco y al adarve, o baja llano por la ribera hasta el puente de hierro. No hay playa marina en el municipio; Cesantes o Area Grande quedan como salidas. El Monte Aloia —primer parque natural de Galicia— es el domingo de pinar y mirador sobre la vega.",
+      "Valença no es excursión: es la otra mitad de la semana. La Ecopista Valença–Monção amplía el río hacia viña de Alvarinho cuando se quiere camino largo y llano.",
+    ],
+    casa: [
+      "Hay obra nueva en el ensanche: piso con ascensor cerca del casco, no necesariamente pegado a la piedra medieval. También casas en parroquias de la ladera del Aloia: más verde, más coche.",
+      "La precisión importa: cerca del casco sin el zumbido de la A-55 en la terraza. Fibra sí. Tipología de ciudad pequeña fluvial, no de primera línea.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si ciudad pequeña, Valença a pie, tren y acceso a Vigo pesan más que el mar en la puerta. Primaria local y hospitales del área de Vigo a trayecto corto hacen de Tui la base logística de Baixo Miño.",
+        "También si se acepta calor de valle en julio, pendientes del casco según cota, y playa como salida de media hora.",
+      ],
+      no: [
+        "Encaja peor si el verano fresco de costa es la razón de mudarse, o si el océano debe estar a un paseo. Tampoco si se firma junto a la autovía sin haber oído el tráfico a distintas horas.",
+        "Tampoco si se busca silencio de aldea sin vida urbana: O Rosal está más cerca en espíritu.",
+      ],
+      veredicto:
+        "Tui ofrece casco, Valença y conexiones a cambio de río en lugar de playa y un verano de valle más cálido. Encaja quien prioriza autonomía de ciudad pequeña y frontera vivida; no quien necesita Atlántico en el umbral o silencio de parroquia."
+    },
+    fotosAbrir: [
+      { src: "/fotos/baixo-mino/tui-catedral-casco.jpg", pie: "Tui sobre el Miño: casco y catedral desde el puente" },
+      { src: "/fotos/baixo-mino/tui-alameda.jpg", pie: "La alameda: el paseo urbano de la villa" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/baixo-mino/catedral-tui.jpg", pie: "Catedral de Santa María: fortaleza arriba del casco" },
+      { src: "/fotos/baixo-mino/tui-ponte.jpg", pie: "Puente internacional: hierro sobre el Miño hacia Valença" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/baixo-mino/tui-valenca.jpg", pie: "Valença vista desde Tui: la otra orilla a pie" },
+      { src: "/fotos/baixo-mino/tui-aloia.jpg", pie: "Desde el Monte Aloia: la vega, el río y los pueblos" },
+    ],
+    creditoFotos: "Fotos: Wikimedia Commons (CC BY-SA).",
+  }

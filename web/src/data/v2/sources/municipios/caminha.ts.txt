@@ -1,0 +1,48 @@
+{
+    escala: "Villa en la boca del Miño",
+    abrir: [
+      "Caminha es la villa de la desembocadura: plaza histórica, Torre do Relógio, iglesia matriz y el estuario donde el Miño se abre al Atlántico. Frente, la Ínsua —isla fortificada en la boca del río—; detrás, la Serra d'Arga. El ferry hacia A Guarda, cuando opera, recuerda que Galicia sigue a un cruce de agua. No es Moledo ni Vila Praia de Âncora: es villa de estuario, con casco y ribera propios.",
+      "La autonomía cotidiana es media-fuerte. Un martes de noviembre se camina el casco y el frente del estuario; hay vida de villa todo el año, con aumento turístico fuerte en verano. El Hospital de Santa Luzia, en Viana do Castelo, queda fuera; el aeropuerto práctico es Porto. El tren de la Linha do Minho ayuda, sin convertir Caminha en suburbio con horario inventado.",
+      "La playa cotidiana es parcial: la villa vive río y estuario; la gran experiencia oceánica está en Moledo o Âncora y suele implicar salida. Quien mezcle las tres localidades en una sola ficha se equivoca de peaje. Caminha promete desembocadura, piedra y plaza; el baño atlántico largo, a menudo, pide desplazarse.",
+    ],
+    tiempo: [
+      "El estuario trae humedad, viento y un verano atlántico más suave que el valle interior. Frente a Mallorca hay menos continuidad de sol y más cielo gris; las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "En invierno la villa sigue abierta, aunque el estuario se sienta más frío y húmedo. Conviene vivienda con buen aislamiento y orientación; el salitre llega menos que en Moledo, pero la humedad de río está.",
+      "Sin coche, el casco resuelve mucho; playa oceánica, hospital y servicios superiores piden desplazamiento. En agosto crecen afluencia y mesas; en enero manda el ritmo de villa minhota. El ferry a A Guarda, cuando opera, es refuerzo fronterizo, no promesa diaria de horario.",
+      "Santa Luzia es la referencia hospitalaria práctica; Porto, el aeropuerto. La integración pasa por plaza, mercado y portugués de villa: Caminha no es colonia de chalés ni apéndice de Moledo.",
+    ],
+    historia: [
+      "La Torre do Relógio, la iglesia matriz y la Ínsua explican Caminha: villa de desembocadura que miró al río y a la defensa de la boca. Galicia enfrente —A Guarda— forma parte del horizonte histórico y del cruce ocasional. Lo que conviene saber es estuario y villa, no lista de playas ajenas.",
+    ],
+    fuera: [
+      "El frente del estuario, el casco y la ribera son el paseo cotidiano. La Ínsua se mira desde la orilla; cruzarla o no depende de época y operación, no de un horario inventado.",
+      "Moledo y Âncora amplían playa atlántica; Viana, hospital y ciudad. Caminha debe valorarse por su plaza y su desembocadura, no por prestarles la ficha a las playas vecinas.",
+    ],
+    casa: [
+      "En el casco y el ensanche hay pisos y casas de villa; la microzona importa: vivir junto al estuario no es lo mismo que vivir de cara a Moledo. Conviene comprobar humedad, aparcamiento de verano y distancia real a la playa que se desea.",
+      "Los precios y totales permanecen en la capa factual. No trasladar automáticamente el mercado de Moledo o Âncora a la villa de Caminha.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere villa histórica en la boca del Miño, con autonomía media-fuerte y vida anual, aceptando que la gran playa oceánica suele quedar como salida.",
+        "También si se distingue Caminha de Moledo y Âncora y se asume Santa Luzia y Porto como referencias prácticas.",
+      ],
+      no: [
+        "Encaja peor si se busca playa atlántica a la puerta en el mismo radio que la plaza: aquí la playa cotidiana es parcial, de estuario.",
+        "Tampoco si se espera la autonomía de una ciudad o se confunde el ferry ocasional con transporte urbano continuo.",
+      ],
+      veredicto:
+        "Caminha es desembocadura y plaza, no pinar de Moledo ni espigón de Âncora. Su atractivo está en el estuario vivido; su peaje, en que el océano pleno y el hospital quedan fuera del gesto diario del casco."
+    },
+ fotosAbrir: [
+ { src: "/fotos/alto-minho/caminha-plaza.jpg", pie: "Plaza histórica de Caminha" },
+ { src: "/fotos/alto-minho/caminha-torre.jpg", pie: "Torre do Relógio, Caminha" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/alto-minho/caminha-iglesia.jpg", pie: "Iglesia matriz de Caminha" },
+ ],
+ fotosFuera: [],
+ creditoFotos: credito,
+  }

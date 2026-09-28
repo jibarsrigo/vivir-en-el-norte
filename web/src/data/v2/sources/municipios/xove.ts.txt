@@ -1,0 +1,53 @@
+{
+    escala: "Costa y parroquias",
+    abrir: [
+      "Xove obliga a separar dos mapas. San Bartolomé concentra administración y varios servicios cotidianos, mientras la costa de Esteiro, Portocelo y Roncadoira queda en otro eje. Vivir en el núcleo no significa salir andando a la playa; vivir cerca de la orilla tampoco significa tener juntos todos los recados.",
+      "A esa dispersión se suma el complejo industrial de San Ciprián, repartido entre Xove y Cervo. En 2026 Alcoa asumió la propiedad íntegra del conjunto y reactivó la planta de aluminio; la situación de la refinería de alúmina seguía condicionada por el coste de la energía. Industria, parroquias y costa forman parte del mismo municipio."
+    ],
+    tiempo: [
+      "Frente a Mallorca, Xove cambia el uso de la casa: verano fresco, humedad, niebla y viento hacen más importantes el aislamiento, la ventilación y la orientación. Cerca de la costa conviene añadir exposición y salitre; en una parroquia interior, comprobar acceso y cuánto coche exige la rutina.",
+      "Esteiro muestra el Cantábrico más abierto, con arcos de roca y surf; Portocelo ofrece otra escala de orilla. Pero desde el núcleo principal el mar requiere desplazamiento: la costa es muy accesible en coche, no una playa urbana pegada a San Bartolomé."
+    ],
+    vivir: [
+      "San Bartolomé cambia bastante la imagen de un municipio supuestamente vacío de servicios. Allí se concentran administración, biblioteca y Centro Cívico, además de piscina y gimnasio. Eso permite construir parte de una mañana normal dentro del municipio, aunque para comercio más amplio y otras necesidades sigan pesando Viveiro y Burela.",
+      "La separación entre servicios y costa explica la dependencia del coche. Se puede tener una rutina local en el núcleo y, en otro momento, conducir hacia Esteiro o Portocelo. La Senda Costeira amplía ese mapa como salida deliberada; no debe confundirse con un paseo que empiece a pie desde cualquier vivienda.",
+      "El tren de ancho métrico forma parte de las comunicaciones, pero no conviene atribuirle una utilidad cotidiana que las fuentes no demuestran. Para hospital y aeropuerto también hay que salir del municipio. La autonomía es, por tanto, intermedia-baja: hay equipamientos propios, pero están insertos en una geografía dispersa.",
+      "El contexto industrial no desaparece fuera del horario de trabajo. Morás y Lago forman parte de esa realidad territorial y el complejo de San Ciprián es una presencia estructural. El relato no necesita atribuirle efectos que no están documentados: basta entender que costa e industria conviven aquí."
+    ],
+    historia: [
+      "Esteiro, con sus arcos de roca, y Punta Roncadoira dan a Xove su imagen de costa abierta. Portocelo añade una orilla más pequeña y abrigada. Son referencias de un municipio cuyo paisaje marítimo está repartido, no concentrado alrededor de una villa costera.",
+      "El complejo de San Ciprián aporta la otra capa contemporánea. Su peso industrial forma parte de la economía y del paisaje municipal; los hechos de 2026 explican su actualidad sin necesidad de convertir el relato en una previsión sobre su futuro."
+    ],
+    fuera: [
+      "Esteiro y Portocelo son salidas naturales cuando apetece mar. Desde San Bartolomé se llega en coche, y esa distancia práctica importa: Xove permite combinar equipamientos de núcleo y costa, pero no tenerlos todos a la puerta de casa.",
+      "Roncadoira y la Senda Costeira amplían la jornada cuando se quiere caminar más. Burela y Viveiro completan comercio, hospital y vida urbana; son apoyos próximos dentro de una rutina que ya parte de un municipio bastante disperso."
+    ],
+    casa: [
+      "En Xove la primera pregunta es dónde está exactamente la vivienda respecto a San Bartolomé, la costa y los accesos. Fibra, humedad, viento, orientación y facilidad para entrar y salir en invierno pueden importar más que una etiqueta genérica de 'casa cerca del mar'.",
+      "La capa 2026 no fija un precio municipal actual fiable, por lo que no conviene reconstruir una media a partir de referencias antiguas. La vivienda debe compararse por estado, accesibilidad, microzona y funcionamiento real de la rutina; el precio queda como n.d. allí donde la fuente no permite más."
+    ],
+    encaja: {
+      si: [
+        "Encaja si se acepta una vida repartida entre un núcleo de servicios y una costa a la que normalmente se llega en coche. San Bartolomé aporta equipamientos cotidianos; Esteiro, Portocelo y Roncadoira aportan un Cantábrico de carácter.",
+        "También encaja si la presencia industrial se entiende como parte del territorio y no se busca una villa histórica compacta. Xove combina vida local anual, parroquias, costa e industria de una forma difícil de reducir a una sola postal."
+      ],
+      no: [
+        "Encaja peor si se quiere tener playa, comercio amplio y todos los servicios dentro del mismo radio peatonal. La separación espacial es precisamente uno de los peajes del municipio.",
+        "Tampoco si la cercanía del complejo industrial resulta incompatible con la vivienda buscada o si se necesita una referencia de precio municipal robusta antes de explorar casas concretas: la capa actual mantiene ese dato como no disponible."
+      ],
+      veredicto:
+        "Xove es un municipio disperso donde San Bartolomé concentra una parte de la vida cotidiana y la costa exige cambiar de escenario. Ofrece equipamientos propios y un litoral potente, a cambio de bastante coche, fibra que debe comprobarse y la convivencia territorial con el complejo industrial de San Ciprián."
+    },
+    fotosAbrir: [
+      { src: "/fotos/a-marina/xove-villa.jpg", pie: "Xove: núcleos entre costa y parroquias" },
+      { src: "/fotos/a-marina/xove-playa.jpg", pie: "Esteiro, playa de arcos y surf" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/a-marina/xove-portocelo.jpg", pie: "Portocelo, orilla de Xove" },
+      { src: "/fotos/a-marina/xove-parroquia.jpg", pie: "Parroquia y escala dispersa en Xove" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/a-marina/xove-faro.jpg", pie: "Faro de Punta Roncadoira en la costa de Xove" },
+    ],
+    creditoFotos: credito,
+  }

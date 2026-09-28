@@ -1,0 +1,59 @@
+{
+    escala: "Ciudad naval",
+    abrir: [
+      "Ferrol se siente ciudad ilustrada de arsenal, no urbanización limpia de ría. Unos sesenta y cuatro mil habitantes —fueron cerca de noventa mil—: el barrio de la Magdalena, el arsenal militar, Navantia, el castillo de San Felipe y, como salidas, las playas atlánticas de Doniños y San Xurxo. Cabo Prior cierra el horizonte bravo.",
+      "La ciudad vive el puerto y la ría; las grandes playas atlánticas no están a pie desde el centro. Un martes de noviembre se puede ir andando a comercio, salud y servicios urbanos. Quien vive aquí acepta tejido comercial en retroceso a cambio de sanidad cercana y vivienda más asequible que en la corona este del golfo.",
+      "La Semana Santa, de interés turístico, corta calles y concentra procesiones. En verano Doniños y San Xurxo reciben toallas y tráfico hacia la costa abierta; eso es salida, no playa cotidiana del ensanche. Fuera de temporada las calles se notan más quietas que en A Coruña.",
+      "Si solo conoces un sábado de sol en Doniños, te llevas Atlántico de folleto. Si has visto Semana Santa y un invierno de comercio en retroceso, ya puedes decidir si quieres la ciudad tal cual es —y no un Oleiros con otro nombre—.",
+    ],
+    tiempo: [
+      "Frente a Mallorca el cielo ferrolano se nota de los más grises del arco; la llovizna también aparece en verano. El verano es fresco. Doniños y San Xurxo traen agua atlántica con oleaje: baño bravo de salida, no de puerta del centro. El clima se cuenta en cualitativo.",
+      "Conviene probar nortada y un noviembre, no solo un día de mar llana en Doniños.",
+    ],
+    vivir: [
+      "El invierno se nota en el piso del ensanche o de la Magdalena: humedad atlántica, niebla y viento medios. Conviene mirar aislamiento un noviembre, no solo un sábado de sol en la playa de salida. Hacia la costa hay que contar con viento y salitre.",
+      "Sin coche, la vida urbana es viable: comercio, cultura —el Centro Cultural Carvalho Calero mantiene actividad fuera de verano— y sanidad caben en la ciudad. En enero Ferrol es trabajo naval y calles más quietas que A Coruña; no se apaga, pero no es el modelo residencial limpio del arco este.",
+      "Llegar de fuera implica aceptar declive demográfico y comercial. Se oye gallego en el barrio; el castellano basta para lo cotidiano. Entre semana manda el trabajo; en verano las playas de salida se llenan. Quien busque urbanización ordenada tipo Mera mira Oleiros.",
+      "La sanidad de urgencia y especialidades está a pie de ciudad: el CHUF queda cerca. Empadronarse abre cabecera urbana y hospital de referencia en el mismo municipio. Es el dato que distingue Ferrol en el norte del golfo.",
+      "Ir y volver a Mallorca: Alvedro a un trayecto medio (Palma sobre todo en verano); Santiago-Lavacolla aporta enlace durante casi todo el año a un trayecto mayor. El aeropuerto no es el de Oleiros a minutos: conviene mirar el calendario real.",
+      "Magdalena y ensanche ofrecen pisos; las afueras, más espacio. Fibra; obra nueva limitada. En el centro importan calle y comercio cercano; hacia la costa, viento y salitre. Conviene elegir calle con cuidado, sin promesas de mercado.",
+    ],
+    historia: [
+      "El barrio de la Magdalena es el ensanche ilustrado: calles rectas, plazas y una ciudad pensada junto al arsenal. El arsenal y los astilleros —hoy Navantia— organizaron empleo, población y carácter durante siglos; el declive industrial explica parte del vaciado demográfico.",
+      "El castillo de San Felipe custodia la boca de la ría; Cabo Prior y Prioriño miran al Atlántico abierto. La Semana Santa ferrolana añade capa cultural. Lo que conviene saber es naval y urbana, no de villa marinera pequeña ni de corona residencial.",
+    ],
+    fuera: [
+      "Los paseos urbanos y de ría son el gesto cotidiano. Doniños —arenal, laguna y oleaje— y San Xurxo son salidas atlánticas a un trayecto: playa brava, no baño desde el centro. Un martes de junio se respira; un domingo de agosto, el acceso se llena.",
+      "San Felipe y Cabo Prior son las salidas de patrimonio y horizonte cuando no apetece solo playa. Ares y Redes quedan a un trayecto corto hacia el sur de la ría si se quiere color de orilla abrigada.",
+      "A Coruña queda a un trayecto mayor cuando hace falta capital. Aquí la orilla de diario es ciudad y ría; el Atlántico abierto, excursión.",
+    ],
+    casa: [
+      "Pisos en la Magdalena o el ensanche; viviendas con más espacio en afueras. Conviene probar Semana Santa en el centro y un invierno de calle comercial antes de firmar solo por el metro más amable del golfo.",
+      "Los precios permanecen en la capa factual. No homogenizar el mercado ni el peaje con Oleiros: son modelos distintos.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si ciudad naval, hospital cerca y vivienda más asequible importan más que urbanización limpia o playa a pie desde el centro. Magdalena, arsenal y Doniños o San Xurxo como salidas dan un perfil propio.",
+        "También si se acepta declive demográfico y comercial a cambio de autonomía urbana muy alta y Atlántico bravo a un trayecto corto.",
+      ],
+      no: [
+        "Encaja peor si se busca el modelo residencial de Mera, Santa Cruz o Costa Miño, o baño de ría templada como gesto diario desde casa: aquí la playa atlántica es salida.",
+        "Tampoco si el aeropuerto debe quedar a minutos o si se decide solo tras un sábado de sol en Doniños, sin probar el centro en invierno ni Semana Santa.",
+      ],
+      veredicto:
+        "Ferrol es ciudad de arsenal y Magdalena: servicios y sanidad cercanos a cambio de playa atlántica como salida y un tejido urbano en declive. Su atractivo está en la ciudad naval real; su peaje, en no confundirlo con Oleiros ni fingir que Doniños empieza en la puerta del ensanche."
+    },
+    fotosAbrir: [
+      { src: "/fotos/golfo-artabro-e-ferrol/ferrol-magdalena.jpg", pie: "Barrio de la Magdalena, ensanche ilustrado" },
+      { src: "/fotos/golfo-artabro-e-ferrol/ferrol-arsenal.jpg", pie: "Arsenal y carácter naval de Ferrol" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/golfo-artabro-e-ferrol/ferrol-san-felipe.jpg", pie: "Castillo de San Felipe en la boca de la ría" },
+      { src: "/fotos/golfo-artabro-e-ferrol/ferrol-prior.jpg", pie: "Cabo Prior, horizonte atlántico" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/golfo-artabro-e-ferrol/ferrol-doninos.jpg", pie: "Doniños: playa, laguna y oleaje" },
+      { src: "/fotos/golfo-artabro-e-ferrol/ferrol-san-xurxo.jpg", pie: "San Xurxo, arenal atlántico cerca de Ferrol" },
+    ],
+    creditoFotos: credito,
+  }

@@ -1,0 +1,52 @@
+{
+    escala: "Villa fluvial y arte",
+    abrir: [
+      "Vila Nova de Cerveira se siente al cruzar el puente de la Amizade desde Goián, la parroquia gallega enfrente: villa cuidada sobre el Miño, castillo, Aquamuseu —museo del río y de la pesca fluvial—, praia fluvial y Alto do Cervo, el mirador sobre la vega. En los veranos de los años impares, la Bienal de Arte llena calles y salas. Entre Tui y Caminha, Cerveira es villa fluvial culta, no colonia de chalés ni ciudad completa.",
+      "La autonomía cotidiana es media. Un martes de noviembre se camina el casco, se cruza a Goián a comprar o a pasear, y el Miño sigue ancho y manso. Hay comercio de villa con carácter, sin gran superficie. El Hospital de Santa Luzia, en Viana do Castelo, queda fuera; el aeropuerto práctico es Porto. Para lo diario el coche ayuda; para el puente a Galicia, no siempre hace falta.",
+      "En verano la praia fluvial y el puente reciben más afluencia; la Bienal marca el calendario con exposición, visitas y mesas llenas unas semanas. Los sábados, la feria —fruta, ropa, artesanía— atrae también a medio Baixo Miño desde el otro lado. Primavera y otoño muestran el Alto do Cervo y el paseo fluvial sin la foto de exposición. El Atlántico —Moledo— es salida, no paisaje de puerta.",
+    ],
+    tiempo: [
+      "El Miño trae humedad de valle y un verano más cálido que la franja atlántica abierta. Frente a Mallorca hay menos continuidad de sol y más mañanas grises; las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno es de río: humedad, terraza que se usa menos y ritmo de villa pequeña. Conviene mirar orientación y aislamiento en casa de casco o ensanche. Un martes gris de río dice más que un fin de semana de Bienal.",
+      "La rutina básica se resuelve en Cerveira y Goián; servicios mayores, hospital y costa piden coche o tren. En enero hay vida local, no vacío total; en agosto y en Bienal crecen visitas y mesas. El portugués manda; Galicia enfrente se oye y se camina.",
+      "Ir y volver a Mallorca pasa por Porto. Santa Luzia es la referencia hospitalaria práctica. Quien elija Cerveira acepta escala de villa fluvial: arte y río a cambio de no tener océano a la puerta ni autonomía de ciudad.",
+    ],
+    historia: [
+      "El castillo, el Aquamuseu y la Bienal explican Cerveira: villa que hizo del río y del arte su carácter. El puente de la Amizade convierte Goián en continuación cotidiana, no en excursión. Lo que conviene saber es Miño, arte y frontera suave, no catálogo de salas.",
+    ],
+    fuera: [
+      "El paseo fluvial, la praia de río y la Ecopista do Rio Minho —recorrido llano junto al agua— son la tarde de diario. El Alto do Cervo abre la vega cuando se quiere altura sin salir lejos.",
+      "Moledo cubre el Atlántico como salida corta. Viana y Porto amplían hospital, cultura y avión; Cerveira debe valorarse por cómo funciona el casco un martes, no solo por la Bienal.",
+    ],
+    casa: [
+      "El casco y el entorno del río ofrecen viviendas de villa; hay fibra. El modelo no es urbanización de playa: es piso o casa con el Miño cerca y Goián a minutos. En verano hay que contar con afluencia fluvial y, en años de Bienal, ocupación extra.",
+      "Los precios y totales permanecen en la capa factual. Conviene firmar tras un martes de noviembre y, si coincide, una semana de exposición: son dos ritmos distintos del mismo sitio.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca villa fluvial con arte, puente a Goián y paseo de río, aceptando autonomía media y mar como salida.",
+        "También si Santa Luzia en Viana y Porto como aeropuerto resultan asumibles y la escala pequeña de Cerveira no se confunde con ciudad completa.",
+      ],
+      no: [
+        "Encaja peor si se necesita playa marina cotidiana o gran comercio a pie: aquí el Atlántico no está integrado en el núcleo.",
+        "Tampoco si se espera la intensidad de una ciudad o se decide solo tras un fin de semana de Bienal, sin probar el martes gris de río.",
+      ],
+      veredicto:
+        "Cerveira ofrece Miño, Goián y calendario cultural a cambio de escala pequeña y océano fuera. Su atractivo está en el río vivido; su peaje, en que el arte no sustituye la autonomía que falta cuando hace falta hospital o mar."
+    },
+ fotoIdentidad: {
+ src: "/fotos/alto-minho/vila-nova-de-cerveira-identidad.jpg",
+ pie: "Vila Nova de Cerveira: casas junto al Miño, con el monte y el estuario",
+ },
+ fotosAbrir: [
+ { src: "/fotos/alto-minho/cerveira-villa.jpg", pie: "Vila Nova de Cerveira sobre el Miño" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/alto-minho/cerveira-arte.jpg", pie: "Arte y villa en Vila Nova de Cerveira" },
+ { src: "/fotos/alto-minho/cerveira-aquamuseu.jpg", pie: "Aquamuseu de Vila Nova de Cerveira" },
+ ],
+ fotosFuera: [],
+ creditoFotos: credito,
+  }

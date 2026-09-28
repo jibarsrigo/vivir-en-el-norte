@@ -1,0 +1,52 @@
+{
+    escala: "Villa de playa muy estacional",
+    abrir: [
+      "Noja vive entre dos grandes playas, Ris y Trengandín, y las marismas de Victoria y Joyel. El mar está integrado de forma directa en el núcleo y el terreno facilita recorridos cotidianos sin grandes pendientes.",
+      "La autonomía es media, pero cambia mucho con la estación. La infraestructura comercial y residencial está fuertemente dimensionada por el verano; fuera de temporada parte de la actividad se reduce. No debe describirse como una villa igual de intensa en enero que en agosto.",
+      "El parque de vivienda de apartamentos y segunda residencia forma parte de esa identidad. La ventaja es tener playa a mano; el peaje es una oscilación estacional mucho mayor que en villas de trabajo cercanas.",
+    ],
+    tiempo: [
+      "El clima atlántico mantiene humedad, lluvia repartida y verano suave. Frente a Mallorca hay menos continuidad de sol. En una vivienda cerrada parte del año conviene prestar especial atención a ventilación, humedad y estado real fuera de temporada; las cifras climáticas quedan en la capa factual.",
+    ],
+    vivir: [
+      "Ris y Trengandín permiten que paseo y playa formen parte de una mañana normal. Las marismas amplían el recorrido sin convertirlo en una excursión larga.",
+      "La gran variable es el calendario: en verano crecen población, tráfico y actividad; en invierno se reduce parte del comercio. La capa factual conserva la valoración exacta de servicios, que no debe redondearse ni transformarse en una nota narrativa.",
+      "El hospital práctico está en Laredo y el aeropuerto en Santander. Son desplazamientos asumibles, pero fuera del municipio.",
+    ],
+    historia: [
+      "Noja se entiende mejor por su transformación residencial y turística junto a Ris y Trengandín que por un único hito monumental. Las marismas de Victoria y Joyel añaden un paisaje protegido que separa la experiencia del simple frente de apartamentos.",
+    ],
+    fuera: [
+      "Ris y Trengandín son playas realmente vinculadas al núcleo y pueden usarse de manera cotidiana. Los recorridos hacia las marismas ofrecen otra forma de caminar en terreno generalmente amable.",
+      "Santoña y Laredo amplían servicios y paisaje cercano, pero Noja debe valorarse por cómo funciona su propio núcleo fuera de temporada.",
+    ],
+    casa: [
+      "En apartamentos y viviendas de uso estacional conviene comprobar vecinos permanentes, funcionamiento del edificio en invierno, ventilación, humedad, aislamiento y aparcamiento de verano.",
+      "La cercanía a Ris o Trengandín puede cambiar mucho la experiencia y el precio. Las cifras actualizadas quedan en la tabla factual.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere playa plenamente integrada en la vida cotidiana y se acepta una localidad muy marcada por la temporada.",
+        "También si la reducción de actividad invernal no supone un problema y el hospital fuera del municipio resulta asumible.",
+      ],
+      no: [
+        "Encaja peor si se busca la misma densidad comercial y social durante todo el año.",
+        "También si se quiere evitar la presión residencial y de tráfico propia de un destino de segunda residencia en verano.",
+      ],
+      veredicto:
+        "Noja ofrece una relación muy directa con Ris y Trengandín, pero esa ventaja viene unida a una estacionalidad estructural. Para entenderla hay que mirar tanto un día de verano como el funcionamiento real del invierno."
+    },
+ fotosAbrir: [
+ { src: "/fotos/cantabria-oriental/noja-bloques.jpg", pie: "Noja: bloques de apartamentos de veraneo" },
+ { src: "/fotos/cantabria-oriental/noja-ris.jpg", pie: "Playa de Ris, Noja" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/cantabria-oriental/noja-villa.jpg", pie: "Noja fuera de temporada" },
+ { src: "/fotos/cantabria-oriental/noja-marismas.jpg", pie: "Marismas de Victoria y Joyel, Noja" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/cantabria-oriental/noja-trengandin.jpg", pie: "Playa de Trengandín, Noja" },
+ { src: "/fotos/cantabria-oriental/noja-playa.jpg", pie: "Orilla abierta de Noja" },
+ ],
+ creditoFotos: credito,
+  }

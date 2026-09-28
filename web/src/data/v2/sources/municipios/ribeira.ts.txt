@@ -1,0 +1,59 @@
+{
+    escala: "Capital portuaria del Barbanza",
+    abrir: [
+      "Ribeira no se disfraza de villa de postal: es la capital práctica del Barbanza. Unos veintisiete mil habitantes, uno de los mayores puertos pesqueros de bajura de Europa, lonja, astilleros y el Hospital do Barbanza dentro del municipio. El casco es denso y activo; Coroso es la playa urbana de diario.",
+      "Quien vive aquí es gente de puerto, lonja y servicios, y veraneantes que animan Coroso en agosto sin vaciar el invierno. Un martes de noviembre se puede ir andando a mercado, salud, comercio, biblioteca, piscina, auditorio y conservatorio. El hospital queda a minutos; Santiago sigue a un trayecto mayor.",
+      "Corrubedo —parque de dunas, lagunas Carregal y Vixán, pasarelas y océano abierto— es salida de naturaleza, no la playa diaria de la ciudad. Aguiño, Castiñeiras, As Saíñas y Río Azor amplían la costa. La senda litoral une malecón, lonja, puerto deportivo y Coroso en un paseo usable.",
+      "La Virxe do Carme, alrededor del 16 de julio, llena el puerto con procesión marinera, música y aparcamiento difícil junto a la lonja. Si solo conoces un martes laborable, pensarás que el pueblo es solo logística. Si has visto el Carmen y un día de viento en Corrubedo, ya puedes decidir.",
+    ],
+    tiempo: [
+      "Frente a Mallorca el cielo se nota más gris; Ribeira es de las franjas más abiertas al viento de la punta dentro de la comarca. El verano es fresco atlántico. Coroso tiene agua de ría calmada; Corrubedo ya mira al Atlántico, con oleaje y otro ambiente en el mismo municipio. Las cifras detalladas quedan en la capa factual.",
+      "Conviene venir un día de viento en Corrubedo y un noviembre en el casco, no solo un sábado de sol en Coroso.",
+    ],
+    vivir: [
+      "El invierno se siente en el viento medio de la punta y en la humedad de un casco denso. Conviene revisar piedra, cubiertas y salitre cerca del puerto. Un noviembre en el casco enseña más que un sábado de sol en Coroso.",
+      "Sin coche, la autonomía es la más alta de la comarca: mercado, salud, comercio, cultura y deporte caben andando. En enero la lonja no cierra la temporada. Es centro comarcal anual.",
+      "Llegar de fuera es la norma de una capital portuaria. Se oye gallego en el puerto; el castellano basta para lo cotidiano. Entre semana manda el oficio; el Carmen de julio llena la lonja. Quien busque solo villa silenciosa preferirá Rianxo.",
+      "La sanidad es la más inmediata del Barbanza: el Hospital do Barbanza queda a minutos del centro. Empadronarse abre cabecera y hospital comarcal en el mismo municipio. Esa es la gran diferencia frente a Rianxo, Porto do Son o Noia.",
+      "Ir y volver a Mallorca pasa por Santiago-Lavacolla, con enlace a Palma durante casi todo el año —conviene comprobar temporada—. El trayecto es el habitual de la punta del Barbanza.",
+      "El modelo es piso en casco denso o casa hacia Coroso, Aguiño o Castiñeiras. Fibra; poca obra nueva. Cerca del puerto importan ruido, tráfico y salitre; hacia Coroso, ocupación de verano.",
+    ],
+    historia: [
+      "El puerto explica Ribeira mejor que cualquier monumento: bajura, lonja y astilleros han organizado empleo y paisaje urbano. Creció como capital pesquera del Barbanza, no como centro monumental al estilo de Noia.",
+      "El dolmen de Axeitos —sepulcro megalítico de corredor— y el Parque de San Roque añaden capa antigua y de paseo. Corrubedo protege dunas y lagunas. En verano, el ferry hacia Sálvora abre horizonte de islas cuando apetece salir de la lonja.",
+    ],
+    fuera: [
+      "Coroso es el baño cotidiano del núcleo: agua de ría, toalla de siempre, poco trayecto. Un martes de junio la arena cabe casi sola; un domingo de agosto el paseo se llena. Se vuelve andando al casco.",
+      "Río Azor, Aguiño y Castiñeiras amplían opciones. Corrubedo ofrece dunas, pasarelas y océano: otro carácter, más viento y más ola. Quien quiera ría más calmada mira A Pobra o Boiro; quien quiera soledad atlántica, Porto do Son.",
+      "El paseo marítimo une tejido portuario y orilla usable. Axeitos y San Roque sirven para una tarde sin coche largo. Santiago concentra compras grandes y aeropuerto.",
+    ],
+    casa: [
+      "Piso de distintas décadas en casco denso, o casa hacia Coroso, Aguiño o Castiñeiras. Cerca del puerto importan ruido, tráfico y salitre; hacia la playa urbana, ocupación de agosto.",
+      "Conviene elegir calle respecto al Carmen junto a la lonja. Los precios permanecen en la capa factual; aquí no se fija una media municipal en prosa.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si hospital, mercado y vida diaria sin coche importan más que el encanto de una villa pequeña. Coroso da playa urbana; Corrubedo, naturaleza atlántica a un trayecto corto; la lonja organiza el carácter del año.",
+        "También si se acepta ciudad portuaria de trabajo —más ruido y más oficio— a cambio de la autonomía más completa del Barbanza y Lavacolla como aeropuerto práctico.",
+      ],
+      no: [
+        "Encaja peor si se busca silencio de villa literaria o soledad de parroquia atlántica: Ribeira es capital de lonja. Rianxo o Porto do Son cubren esos peajes distintos.",
+        "Tampoco si el Carmen junto al puerto o el agosto en Coroso deben ser silenciosos. Quien se decida solo tras un martes laborable, sin probar fiesta marinera ni viento en Corrubedo, descubrirá otra escala.",
+      ],
+      veredicto:
+        "Ribeira es la logística del Barbanza: Coroso a pie, hospital cerca y lonja viva a cambio de densidad portuaria y paisaje atlántico espectacular como salida. Su atractivo está en la autonomía diaria; su peaje, en no confundir capital pesquera con villa de postal."
+    },
+ fotosAbrir: [
+ { src: "/fotos/barbanza-e-noia/ribeira-puerto.jpg", pie: "Puerto pesquero de Ribeira" },
+ { src: "/fotos/barbanza-e-noia/ribeira-coroso.jpg", pie: "Coroso, playa urbana de Ribeira" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/barbanza-e-noia/ribeira-axeitos.jpg", pie: "Dolmen de Axeitos, sepulcro megalítico" },
+ { src: "/fotos/barbanza-e-noia/ribeira-san-roque.jpg", pie: "Embarcaciones en el puerto de Ribeira" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/barbanza-e-noia/ribeira-corrubedo.jpg", pie: "Dunas de Corrubedo, parque natural atlántico" },
+ { src: "/fotos/barbanza-e-noia/ribeira-aguiño.jpg", pie: "Aguiño, costa hacia el Atlántico" },
+ ],
+ creditoFotos: credito,
+  }

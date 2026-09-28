@@ -242,23 +242,28 @@ function BloqueParaDecidirte({ filas }: { filas: FilaCompara[] }) {
                 </BloqueEncajaColapsable>
               ) : null}
 
-              {f.encajaVeredicto ? (
+              {f.queComprobar.length > 0 ? (
                 <BloqueEncajaColapsable
-                  id={`encaja-veredicto-${f.slug}`}
-                  titulo="Veredicto"
-                  abierto={abiertos.has(`${f.slug}:veredicto`)}
-                  onToggle={() => toggle(`${f.slug}:veredicto`)}
+                  id={`encaja-que-comprobar-${f.slug}`}
+                  titulo="Qué comprobar"
+                  abierto={abiertos.has(`${f.slug}:que-comprobar`)}
+                  onToggle={() => toggle(`${f.slug}:que-comprobar`)}
                 >
-                  <p className="text-[15px] leading-relaxed text-[var(--tinta)]">
-                    {f.encajaVeredicto.replace(/^Veredicto:\s*/i, "")}
-                  </p>
+                  {f.queComprobar.map((p, i) => (
+                    <p
+                      key={`qc-${i}`}
+                      className="mt-1.5 text-[15px] leading-relaxed text-[var(--tinta)] first:mt-0"
+                    >
+                      {p}
+                    </p>
+                  ))}
                 </BloqueEncajaColapsable>
               ) : null}
 
               {!hayFrente &&
               !f.encajaSi.length &&
               !f.encajaNo.length &&
-              !f.encajaVeredicto ? (
+              !f.queComprobar.length ? (
                 <p className="mt-2 text-sm text-[var(--tinta-suave)]">Sin balance en el relato.</p>
               ) : null}
             </li>

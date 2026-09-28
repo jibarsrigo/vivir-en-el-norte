@@ -1,0 +1,413 @@
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import type { ReactNode } from "react";
+import BloqueZonaFicha from "@/components/BloqueZonaFicha";
+import CabeceraFichaMunicipio from "@/components/CabeceraFichaMunicipio";
+import EnlaceIdealista from "@/components/EnlaceIdealista";
+import Foto from "@/components/Foto";
+import MapaMunicipioFicha from "@/components/MapaMunicipioFicha";
+import { RELATO_MUNICIPIOS } from "@/components/RelatoMunicipio";
+import TablaComparativaZona from "@/components/TablaComparativaZona";
+import { municipiosDeZonaFicha, municipioPorSlug, zonaIdDeFicha } from "@/lib/municipios";
+import { zonaPorId } from "@/lib/zonas";
+import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
+
+/**
+ * NUEVO2 — Baiona (Val Miñor).
+ * Texto: Lote_Val_Minor_Cursor_NUEVO2.txt (APROBADO EDITORIALMENTE)
+ */
+
+const RESUMEN_ZONA_NUEVO2 = [
+  "Val Miñor reúne tres formas bastante distintas de vivir alrededor del río Miñor y su salida al mar. Baiona concentra la escala de villa marítima; Nigrán reparte costa, servicios y vivienda entre varias microzonas; Gondomar ocupa el interior del valle, con más distancia al mar y otra relación con el terreno.",
+  "Baiona se organiza alrededor de una bahía protegida. El casco histórico baja hacia el puerto y las playas urbanas; la península de Monterreal cierra uno de sus lados y Sabarís prolonga la vida cotidiana hacia A Ramallosa y la desembocadura del Miñor.",
+  "Es la parte del valle donde resulta más fácil combinar un núcleo reconocible, servicios y mar a pie. Esa ventaja tiene una contrapartida clara: la presión turística y residencial se nota más, especialmente en verano y en las calles próximas al frente marítimo.",
+  "Las laderas de Baíña y Belesar cambian la experiencia. Allí aparecen casas con más espacio y vistas, pero la rutina deja de parecerse a la del centro y aumenta la dependencia del coche.",
+] as const;
+
+const COMO_SE_VIVE_NUEVO2 = [
+  "Baiona funciona como una villa real durante todo el año. En el centro hay comercio, farmacias, colegios, instituto, restauración, puerto y servicios suficientes para resolver buena parte de una semana sin salir del municipio.",
+  "Desde una vivienda céntrica se pueden encadenar a pie compra, café, paseo y playa. Sabarís añade supermercados, comercio y mercado y funciona como otro punto práctico del municipio.",
+  "La proximidad del mar no convierte toda Baiona en la misma microzona. Vivir junto al casco y A Ribeira es muy distinto de instalarse en una ladera de Baíña o Belesar. En estas últimas se puede ganar jardín, vistas y tranquilidad, pero aparecen pendientes y más coche.",
+  "El verano cambia mucho la escala. Aumentan visitantes, ocupación de segundas viviendas, tráfico y presión sobre el aparcamiento. Una calle tranquila en febrero puede tener una experiencia completamente distinta en agosto.",
+  "La Arribada produce otro pico muy visible a comienzos de marzo. El casco se transforma durante varios días y recibe actividades, mercado y una afluencia excepcional. Para una vivienda céntrica es parte del calendario residencial, no un detalle turístico.",
+  "Para hospital especializado, el área de Vigo queda aproximadamente a 20 minutos. El aeropuerto de Vigo está aproximadamente a 25 minutos. Esa cercanía permite vivir en una villa marítima sin quedar tan separado de la infraestructura metropolitana como en otros puntos de la costa.",
+] as const;
+
+const CLIMA_NUEVO2 = [
+  "Baiona tiene un clima marítimo templado. En verano, la temperatura media ronda los 20 °C y la proximidad de la bahía limita el calor sostenido que puede sentirse más hacia el interior del valle.",
+  "Frente a Mallorca, la diferencia no está únicamente en la temperatura. Hay menos continuidad de cielo despejado, más lluvia y una humedad mucho más presente durante otoño e invierno.",
+  "El mar introduce además salitre y viento. Una vivienda junto a la bahía puede tener una temperatura agradable y, al mismo tiempo, exigir más atención a carpinterías, ventilación, cierres y elementos metálicos.",
+  "El verano permite utilizar mucho el exterior sin reproducir el calor mediterráneo persistente. En invierno ocurre lo contrario: una terraza que parece una estancia adicional en agosto puede tener un uso mucho más limitado durante semanas húmedas.",
+  "La orientación se vuelve decisiva. Dos viviendas próximas pueden comportarse de manera muy diferente según reciban sol de invierno, estén protegidas del viento o permanezcan en sombra buena parte del día.",
+] as const;
+
+const VIVIR_NUEVO2 = [
+  "Baiona permite incorporar el mar a la rutina con una facilidad poco común. Desde el centro se puede caminar junto al puerto, llegar a pequeñas playas urbanas y rodear Monterreal sin organizar una salida en coche.",
+  "Eso también concentra actividad. Vivir sobre una calle de hostelería o muy cerca del paseo implica aceptar más movimiento, especialmente en verano y durante acontecimientos como la Arribada.",
+  "Sabarís ofrece una alternativa más práctica para quien prioriza compra, accesos y una relación directa con A Ramallosa y el estuario. No tiene exactamente la misma experiencia urbana que el casco histórico.",
+  "En las laderas cambia otra vez el trato: más casa, parcela y vistas a cambio de coche y de una relación menos inmediata con el paseo.",
+  "La proximidad de Vigo permite utilizar la ciudad para hospital, compras mayores, trabajo o aeropuerto sin vivir dentro de ella. Para alguien que llega desde Mallorca, esa combinación puede ser tan importante como la propia playa.",
+  "El mantenimiento de una vivienda marítima merece entrar desde el principio en el presupuesto. Salitre, humedad, orientación y ventilación forman parte de la vida cotidiana tanto como las vistas.",
+] as const;
+
+const DE_DONDE_VIENE_NUEVO2 = [
+  "La forma de Baiona se entiende desde Monterreal. El promontorio protege la bahía y fue fortificado durante siglos, dejando una península amurallada que todavía separa puerto, playas y mar abierto.",
+  "Debajo de esas defensas creció una villa vinculada a la navegación y al comercio marítimo.",
+  "El episodio histórico más visible ocurrió el 1 de marzo de 1493, cuando la carabela Pinta llegó al puerto de Baiona con noticias del viaje al otro lado del Atlántico. La Arribada mantiene ese acontecimiento en la memoria pública de la villa.",
+  "Monterreal siguió teniendo función defensiva mientras el puerto y el casco crecían a sus pies. Hoy la fortificación, el puerto deportivo y la réplica de la Pinta conviven dentro del mismo recorrido cotidiano.",
+  "La Virxe da Rocha añade otra capa del paisaje baionés. Levantada sobre la costa durante las primeras décadas del siglo XX, funciona como mirador y como referencia visual en el extremo occidental de la villa.",
+  "Baiona ha convertido así navegación, defensa y relación con el Atlántico en partes visibles de su estructura actual, no en episodios aislados de un museo.",
+] as const;
+
+const MAR_RIO_CAMINO_NUEVO2 = [
+  "Baiona permite llegar andando a varias playas desde las zonas centrales.",
+  "A Ribeira está integrada en el propio frente urbano, junto al paseo y el puerto. Barbeira queda bajo Monterreal y ofrece una pequeña playa protegida. Son baños de escala urbana: útiles precisamente porque pueden entrar en una tarde normal.",
+  "A Ladeira cambia de tamaño. Es una playa larga que se extiende hacia la desembocadura del Miñor y la zona húmeda de A Foz. Permite una relación más amplia con arena, paseo y estuario.",
+  "El recorrido alrededor de Monte Boi tiene casi 2 km y bordea buena parte de la base de la fortaleza. El firme combina tierra y tramos acondicionados junto a la muralla. Es suficientemente corto para repetirse como paseo cotidiano y ofrece mar, calas y vistas hacia las Cíes.",
+  "Quien quiera alargar la caminata puede enlazar el frente urbano con el litoral hacia A Ramallosa. El sendero litoral completo de Baiona ronda los seis kilómetros entre esa zona y Monterreal.",
+  "La Foz do Miñor introduce otra experiencia: marisma, desembocadura y terreno mucho más llano que las laderas que rodean la villa.",
+  "Para monte, la Serra da Groba queda detrás de Baiona. Allí cambian por completo firme, desnivel y exposición; es una salida deliberada, no una continuación del paseo marítimo.",
+] as const;
+
+const CASA_NUEVO2 = [
+  "Baiona combina pisos en el centro y junto a la bahía con vivienda unifamiliar en laderas y parroquias exteriores.",
+  "Cerca del casco y de A Ribeira, la ventaja es poder convertir servicios, paseo y mar en recorridos peatonales. Es también donde hay que comprobar mejor ruido, aparcamiento y presión estival.",
+  "Sabarís ofrece una semana distinta: más orientada a compra cotidiana, accesos y A Ramallosa. En Baíña o Belesar aparecen más casas y terreno, pero también más pendiente y coche.",
+  "En vivienda marítima conviene revisar salitre, carpinterías, cierres de terraza, fachada, ventilación y humedad. En edificios antiguos o muy expuestos, una vista privilegiada no compensa automáticamente un comportamiento incómodo durante el invierno.",
+  "Como referencia municipal, Baiona se sitúa en 2.528 €/m².",
+] as const;
+
+const CASA_ADVERTENCIA_MICROZONA = [
+  "Centro, A Ribeira y Monterreal no representan todo Baiona.",
+  "Una vivienda céntrica puede ofrecer mar y servicios a pie, pero también más ruido y presión de verano. Sabarís cambia hacia una rutina comercial y de estuario. Las laderas pueden ganar espacio y vistas mientras pierden caminabilidad.",
+  "Antes de comparar precios conviene comparar esas semanas distintas.",
+] as const;
+
+const CASA_QUE_CONVIENE_REVISAR = [
+  "Hacer andando desde la vivienda los recorridos que se repetirían durante una semana: supermercado, farmacia, centro, paseo y playa.",
+  "Volver una noche de verano si la vivienda está cerca de hostelería o del frente marítimo. Ruido y movimiento pueden cambiar mucho respecto a una visita de invierno.",
+  "Comprobar aparcamiento y accesos en temporada alta y durante un día de actividad intensa en la villa.",
+  "En viviendas próximas al mar, revisar carpinterías, fachada, cierres y elementos metálicos. Buscar también señales de humedad y comprobar ventilación.",
+  "Si se elige una ladera, recorrer a pie la pendiente hasta el núcleo y medir cuánto dependería realmente la semana del coche.",
+  "Visitar A Ribeira o Barbeira y A Ladeira por separado permite comprobar qué tipo de playa se incorporaría de verdad a la rutina.",
+] as const;
+
+const CASA_MERCADO_REVENTA = [
+  "Baiona tiene una demanda residencial en la que se mezclan vida anual, costa y segunda residencia.",
+  "Para reventa ayudan especialmente una ubicación comprensible, distancia realmente caminable al centro o al mar, ascensor cuando corresponde, aparcamiento y un exterior utilizable.",
+  "Las vistas pueden aumentar el atractivo, pero una vivienda demasiado expuesta, ruidosa o difícil de aparcar reduce el público potencial.",
+  "Las propiedades de ladera compiten con otro mercado: allí pesan acceso, orientación, terreno y facilidad de mantenimiento.",
+] as const;
+
+const CASA_LEYENDA_COMPACTA =
+  "A: ≤5 min de la costa · B: 5–30 min · 2 hab ≈65 m² · 3 hab ≈90 m². Estimaciones comparativas; conviene contrastarlas con la oferta del momento.";
+
+const CASA_FILA_PRECIOS = {
+  municipio: "Baiona",
+  a2: "213.616 €",
+  a3: "295.776 €",
+  b2: "172.536 €",
+  b3: "238.896 €",
+  m2: "2.528 €/m²",
+} as const;
+
+const ENCAJA_SI_NUEVO2 = [
+  "Encaja si se quiere que el mar forme parte de una semana normal. Desde las microzonas centrales se puede caminar al puerto, al paseo y a playas urbanas sin convertir cada baño en un desplazamiento.",
+  "También si se busca una villa reconocible y activa durante todo el año, manteniendo Vigo suficientemente cerca para hospital, aeropuerto y servicios de mayor escala.",
+  "Puede encajar especialmente si un paseo como Monte Boi, la bahía y el casco pesan más que disponer de una vivienda grande por el mismo presupuesto.",
+  "Y encaja si se acepta que el atractivo de la villa trae presión turística: el verano lleno y la Arribada forman parte del lugar tanto como un martes tranquilo de invierno.",
+] as const;
+
+const NO_ENCAJA_SI_NUEVO2 = [
+  "Encaja peor si el silencio de julio y agosto es una condición esencial. El centro, el paseo y las zonas de playa reciben mucha más actividad en temporada alta.",
+  "También si se necesita mucha superficie residencial cerca del mar con un presupuesto contenido. La costa de Baiona es el mercado más caro de Val Miñor después de Nigrán.",
+  "Puede resultar menos adecuada si humedad, salitre y mantenimiento marítimo son inconvenientes difíciles de asumir.",
+  "Y pierde parte de su sentido si se termina comprando en una ladera dependiente del coche esperando conservar exactamente la caminabilidad del centro.",
+] as const;
+
+const QUE_COMPROBAR_NUEVO2 = [
+  "Pasar una jornada sin coche desde la vivienda candidata y comprobar qué parte de la rutina queda realmente a pie.",
+  "Volver en una noche de verano y escuchar la calle con ventanas abiertas.",
+  "Hacer el recorrido hasta una playa que se utilizaría de verdad, no simplemente hasta el punto más próximo del mar.",
+  "Recorrer Monte Boi y el paseo urbano para comprobar si esa relación cotidiana con la costa es una ventaja que realmente se aprovecharía.",
+  "Si la vivienda está en Sabarís, Baíña o Belesar, medir de nuevo compra, centro y playa desde esa dirección concreta.",
+  "Por último, hacer el trayecto hacia Vigo en una jornada normal y comprobar cómo encajan hospital, trabajo o aeropuerto en la semana real.",
+] as const;
+
+const FOTO_COMO_VILLA = {
+  src: "/fotos/val-minor/baiona-villa.jpg",
+  pie: "Baiona alrededor de su bahía: casco, puerto y la península amurallada de Monterreal",
+} as const;
+
+const FOTO_COMO_PASEO = {
+  src: "/fotos/val-minor/baiona-paseo.jpg",
+  pie: "El paseo marítimo, una calle cotidiana frente a los barcos",
+} as const;
+
+const FOTO_HISTORIA_MONTERREAL = {
+  src: "/fotos/val-minor/baiona-monterreal.jpg",
+  pie: "Fortaleza de Monterreal: tres kilómetros de muralla sobre el mar",
+} as const;
+
+const FOTO_HISTORIA_PINTA = {
+  src: "/fotos/val-minor/baiona-pinta.jpg",
+  pie: "Réplica de la carabela Pinta junto al puerto, memoria de la llegada de 1493",
+} as const;
+
+const FOTO_MAR_BARBEIRA = {
+  src: "/fotos/val-minor/baiona-barbeira.jpg",
+  pie: "Barbeira, la pequeña playa protegida bajo las murallas",
+} as const;
+
+const FOTO_MAR_LADEIRA = {
+  src: "/fotos/val-minor/baiona-ladeira.jpg",
+  pie: "Praia Ladeira: arena larga, paseo y la marisma del Miñor",
+} as const;
+
+const CREDITO_FOTOS = "Wikimedia Commons (CC BY-SA).";
+
+function FilaCasaNuevo2({
+  etiqueta,
+  cuerpo,
+}: {
+  etiqueta: string;
+  cuerpo: readonly string[];
+}) {
+  return (
+    <div className="border-b border-[var(--linea)] py-3 last:border-b-0">
+      <p className="text-[11px] font-semibold uppercase tracking-[0.06em] text-[var(--tinta-suave)]">
+        {etiqueta}
+      </p>
+      {cuerpo.map((p) => (
+        <p key={p.slice(0, 64)} className="mt-1.5 text-[15px] leading-relaxed text-[var(--tinta)]">
+          {p}
+        </p>
+      ))}
+    </div>
+  );
+}
+
+function ConNegritas({ texto, fragmentos }: { texto: string; fragmentos: string[] }) {
+  const nodos: ReactNode[] = [];
+  let resto = texto;
+  fragmentos.forEach((fragmento, idx) => {
+    const i = resto.indexOf(fragmento);
+    if (i === -1) {
+      throw new Error(`Negrita: fragmento no encontrado — ${fragmento.slice(0, 48)}`);
+    }
+    nodos.push(resto.slice(0, i));
+    nodos.push(<strong key={`${idx}-${fragmento.slice(0, 24)}`}>{fragmento}</strong>);
+    resto = resto.slice(i + fragmento.length);
+  });
+  nodos.push(resto);
+  return <>{nodos}</>;
+}
+
+export default function Nuevo2BaionaPage() {
+  const ficha = municipioPorSlug("baiona");
+  if (!ficha) notFound();
+  const zonaId = zonaIdDeFicha(ficha);
+  const z = zonaPorId(zonaId);
+  if (!z) notFound();
+
+  const vecinos = municipiosDeZonaFicha(zonaId);
+  const escalas = Object.fromEntries(
+    vecinos.map((m) => {
+      const relato = RELATO_MUNICIPIOS[m.slug];
+      return [m.municipio, relato?.escala ?? ""] as const;
+    }),
+  );
+
+  return (
+    <main className="mx-auto max-w-6xl px-4 py-8">
+      <CabeceraFichaMunicipio ficha={ficha} zonaId={z.id} zonaNombre={z.zona} />
+
+      <BloqueZonaFicha zonaId={z.id} nombreZona={z.zona} resumen={RESUMEN_ZONA_NUEVO2[0]} />
+      {RESUMEN_ZONA_NUEVO2.slice(1).map((p) => (
+        <p key={p.slice(0, 64)} className="mt-3 max-w-2xl text-[17px] leading-relaxed text-[var(--tinta)]">
+          {p}
+        </p>
+      ))}
+
+      <MapaMunicipioFicha ficha={ficha} capasPortada={Boolean(ficha.mapa)} />
+
+      <DesplegableNuevo2 titulo="Cómo se vive" varianteTarjetaV1>
+        {COMO_SE_VIVE_NUEVO2.slice(0, 5).map((p) => (
+          <p key={p.slice(0, 64)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+            {p}
+          </p>
+        ))}
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+          <ConNegritas
+            texto={COMO_SE_VIVE_NUEVO2[5]}
+            fragmentos={["20 minutos", "25 minutos"]}
+          />
+        </p>
+        <Foto src={FOTO_COMO_VILLA.src} pie={FOTO_COMO_VILLA.pie} />
+        <Foto src={FOTO_COMO_PASEO.src} pie={FOTO_COMO_PASEO.pie} />
+      </DesplegableNuevo2>
+
+      <DesplegableNuevo2 titulo="Frente a Mallorca" varianteTarjetaV1>
+        <h3 className="mt-1 text-base font-semibold uppercase tracking-wide text-[var(--acento)]">
+          Clima
+        </h3>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+          <ConNegritas texto={CLIMA_NUEVO2[0]} fragmentos={["20 °C"]} />
+        </p>
+        {CLIMA_NUEVO2.slice(1).map((p) => (
+          <p key={p.slice(0, 64)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+            {p}
+          </p>
+        ))}
+        <h3 className="mt-7 text-base font-semibold uppercase tracking-wide text-[var(--acento)]">
+          Vivir
+        </h3>
+        {VIVIR_NUEVO2.map((p) => (
+          <p key={p.slice(0, 64)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+            {p}
+          </p>
+        ))}
+      </DesplegableNuevo2>
+
+      <DesplegableNuevo2 titulo="De dónde viene" varianteTarjetaV1>
+        {DE_DONDE_VIENE_NUEVO2.slice(0, 2).map((p) => (
+          <p key={p.slice(0, 64)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+            {p}
+          </p>
+        ))}
+        <Foto src={FOTO_HISTORIA_MONTERREAL.src} pie={FOTO_HISTORIA_MONTERREAL.pie} />
+        {DE_DONDE_VIENE_NUEVO2.slice(2, 4).map((p) => (
+          <p key={p.slice(0, 64)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+            {p}
+          </p>
+        ))}
+        <Foto src={FOTO_HISTORIA_PINTA.src} pie={FOTO_HISTORIA_PINTA.pie} />
+        {DE_DONDE_VIENE_NUEVO2.slice(4).map((p) => (
+          <p key={p.slice(0, 64)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+            {p}
+          </p>
+        ))}
+      </DesplegableNuevo2>
+
+      <DesplegableNuevo2 titulo="Mar, río y camino" varianteTarjetaV1>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{MAR_RIO_CAMINO_NUEVO2[0]}</p>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+          <ConNegritas
+            texto={MAR_RIO_CAMINO_NUEVO2[1]}
+            fragmentos={["A Ribeira", "Barbeira"]}
+          />
+        </p>
+        <Foto src={FOTO_MAR_BARBEIRA.src} pie={FOTO_MAR_BARBEIRA.pie} />
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+          <ConNegritas texto={MAR_RIO_CAMINO_NUEVO2[2]} fragmentos={["A Ladeira"]} />
+        </p>
+        <Foto src={FOTO_MAR_LADEIRA.src} pie={FOTO_MAR_LADEIRA.pie} />
+        {MAR_RIO_CAMINO_NUEVO2.slice(3).map((p) => (
+          <p key={p.slice(0, 64)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+            {p}
+          </p>
+        ))}
+      </DesplegableNuevo2>
+
+      <DesplegableNuevo2 titulo="Casa" varianteTarjetaV1>
+        {CASA_NUEVO2.slice(0, 4).map((p) => (
+          <p key={p.slice(0, 64)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+            {p}
+          </p>
+        ))}
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+          <ConNegritas texto={CASA_NUEVO2[4]} fragmentos={["2.528 €/m²"]} />
+        </p>
+
+        <EnlaceIdealista ambito="municipio" slug={ficha.slug} nombre={ficha.municipio} />
+
+        <div className="mt-6 pt-1">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.06em] text-[var(--tinta-suave)]">
+            Precio y bandas
+          </p>
+          <div className="mt-4 overflow-x-auto rounded-xl border border-[var(--linea)] bg-white">
+            <table className="min-w-[36rem] w-full text-left text-sm">
+              <thead className="border-b border-[var(--linea)] bg-[var(--papel)] text-[var(--tinta-suave)]">
+                <tr>
+                  <th className="px-3 py-2 font-medium">Municipio</th>
+                  <th className="px-3 py-2 font-medium">A · 2 hab</th>
+                  <th className="px-3 py-2 font-medium">A · 3 hab</th>
+                  <th className="px-3 py-2 font-medium">B · 2 hab</th>
+                  <th className="px-3 py-2 font-medium">B · 3 hab</th>
+                  <th className="px-3 py-2 font-medium">€/m²</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-[var(--linea)]">
+                <tr>
+                  <th className="px-3 py-2.5 font-medium text-[var(--acento)]">
+                    {CASA_FILA_PRECIOS.municipio}
+                  </th>
+                  <td className="px-3 py-2.5 tabular-nums">{CASA_FILA_PRECIOS.a2}</td>
+                  <td className="px-3 py-2.5 tabular-nums">{CASA_FILA_PRECIOS.a3}</td>
+                  <td className="px-3 py-2.5 tabular-nums">{CASA_FILA_PRECIOS.b2}</td>
+                  <td className="px-3 py-2.5 tabular-nums">{CASA_FILA_PRECIOS.b3}</td>
+                  <td className="px-3 py-2.5 tabular-nums">{CASA_FILA_PRECIOS.m2}</td>
+                </tr>
+              </tbody>
+            </table>
+            <p className="px-3 py-2 text-xs leading-relaxed text-[var(--tinta-suave)]">
+              {CASA_LEYENDA_COMPACTA}
+            </p>
+          </div>
+        </div>
+        <FilaCasaNuevo2 etiqueta="Advertencia de microzona" cuerpo={CASA_ADVERTENCIA_MICROZONA} />
+        <FilaCasaNuevo2
+          etiqueta="Qué conviene revisar en una vivienda"
+          cuerpo={CASA_QUE_CONVIENE_REVISAR}
+        />
+        <FilaCasaNuevo2 etiqueta="Mercado y reventa" cuerpo={CASA_MERCADO_REVENTA} />
+      </DesplegableNuevo2>
+
+      <DesplegableNuevo2 titulo="¿Encaja?" varianteTarjetaV1>
+        <h3 className="mt-1 text-base font-semibold uppercase tracking-wide text-[var(--acento)]">
+          Encaja si
+        </h3>
+        {ENCAJA_SI_NUEVO2.map((p) => (
+          <p key={p.slice(0, 64)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+            {p}
+          </p>
+        ))}
+        <h3 className="mt-7 text-base font-semibold uppercase tracking-wide text-[var(--acento)]">
+          No encaja si
+        </h3>
+        {NO_ENCAJA_SI_NUEVO2.map((p) => (
+          <p key={p.slice(0, 64)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+            {p}
+          </p>
+        ))}
+        <h3 className="mt-7 text-base font-semibold uppercase tracking-wide text-[var(--acento)]">
+          Qué comprobar
+        </h3>
+        {QUE_COMPROBAR_NUEVO2.map((p) => (
+          <p key={p.slice(0, 64)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+            {p}
+          </p>
+        ))}
+      </DesplegableNuevo2>
+
+      <section className="mt-12 max-w-3xl">
+        <h2 className="font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">
+          Más pueblos de{" "}
+          <Link href={`/zona/${zonaId}/`} className="underline-offset-2 hover:underline">
+            {ficha.zona}
+          </Link>
+        </h2>
+        <TablaComparativaZona
+          municipios={vecinos}
+          zonaId={zonaId}
+          slugActual={ficha.slug}
+          escalas={escalas}
+        />
+      </section>
+
+      <p className="mt-8 max-w-3xl text-sm text-[var(--tinta-suave)]">
+        Crédito de las fotografías: {CREDITO_FOTOS}
+      </p>
+    </main>
+  );
+}

@@ -1,0 +1,58 @@
+{
+    escala: "Villa entre el Sella y Santa Marina",
+    abrir: [
+      "Ribadesella concentra en una escala pequeña cosas que en otros municipios están separadas: casco, ría, puerto y la playa de Santa Marina pueden formar parte de la misma rutina. El Sella organiza la villa y el paseo marítimo la abre al Cantábrico.",
+      "La autonomía cotidiana es fuerte. Comercio y servicios permiten resolver buena parte de la semana dentro de la villa; el hospital queda fuera, en Arriondas, y el aeropuerto exige un desplazamiento largo.",
+    ],
+    tiempo: [
+      "Frente a Mallorca, el clima es mucho más húmedo y fresco, con más días grises. Cerca de Santa Marina conviene mirar salitre, humedad, orientación y aislamiento; una vivienda que funciona bien en verano puede sentirse distinta durante varios días de lluvia.",
+      "Santa Marina es una playa realmente integrada en la villa. La ría y el paseo siguen funcionando cuando no apetece bañarse, de modo que el agua forma parte de la vida cotidiana durante todo el año.",
+    ],
+    vivir: [
+      "Una mañana puede empezar en el casco, cruzar la ría y continuar por Santa Marina sin convertir el día en una excursión. Comercio, mercado y cine refuerzan una vida local que no depende únicamente del visitante.",
+      "El hospital práctico está en Arriondas. El aeropuerto de Asturias queda bastante más lejos y las conexiones a Palma dependen de programación, por lo que viajar con frecuencia exige más planificación que en Asturias Centro.",
+      "El verano cambia mucho la densidad, y el Descenso del Sella lleva esa diferencia al extremo durante su celebración. Tráfico, ruido y ocupación deben comprobarse si la vivienda queda en una zona afectada.",
+      "Fuera de esos picos, Ribadesella conserva una villa funcional. La elección de calle sigue importando: casco, ría y Santa Marina ofrecen relaciones distintas con aparcamiento, salitre y movimiento estacional.",
+    ],
+    historia: [
+      "La desembocadura del Sella explica el trazado y la identidad de la villa. El puente conecta dos orillas que viven de manera distinta pero forman una sola rutina urbana.",
+      "Santa Marina añade el frente de playa y las casas de Indianos. Tito Bustillo aporta una dimensión prehistórica que amplía la historia local sin sustituir el carácter cotidiano de ría y puerto.",
+    ],
+    fuera: [
+      "Santa Marina es cotidiana; Vega pertenece más claramente a una salida. Tito Bustillo puede entrar en una mañana cultural, mientras el interior del Sella abre el mapa hacia Arriondas y los Picos.",
+      "La ventaja de Ribadesella es no necesitar el coche para cada contacto con el mar. La contrapartida aparece cuando se busca hospital, aeropuerto o salidas mayores.",
+    ],
+    casa: [
+      "Conviene revisar accesibilidad, exterior, distancia a servicios, relación real con ría o playa, aparcamiento y humedad. Junto a Santa Marina se añaden salitre y presión estacional.",
+      "Precio y estimaciones quedan en la capa factual. Una calle tranquila de invierno puede funcionar de manera muy distinta durante agosto o el Descenso.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere una villa bastante autónoma donde ría, casco y playa puedan entrar en una mañana normal sin coche.",
+        "También si se acepta una temporada alta intensa a cambio de mantener vida local y servicios durante el resto del año.",
+      ],
+      no: [
+        "Encaja peor si hospital y aeropuerto deben quedar muy próximos o si se necesita la misma calma durante los grandes momentos del verano.",
+        "Tampoco si la vivienda elegida depende de aparcamiento fácil o silencio y no se ha probado la microzona en temporada alta.",
+      ],
+      veredicto:
+        "Ribadesella combina autonomía de villa con una relación cotidiana excepcionalmente directa con ría y playa. El intercambio está en la distancia al aeropuerto y hospital y en una estacionalidad muy visible, especialmente alrededor del Descenso y de Santa Marina."
+    },
+ fotoIdentidad: {
+ src: "/fotos/asturias-oriente/ribadesella-identidad.jpg",
+ pie: "Ribadesella: casas junto a la desembocadura del Sella, con los Picos al fondo",
+ },
+ fotosAbrir: [
+ { src: "/fotos/asturias-oriente/ribadesella-puerto.jpg", pie: "Puerto de Ribadesella" },
+ { src: "/fotos/asturias-oriente/ribadesella-santa-marina.jpg", pie: "Paseo de Santa Marina" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/asturias-oriente/ribadesella-indianos.jpg", pie: "Casas de Indianos en Santa Marina" },
+ { src: "/fotos/asturias-oriente/ribadesella-tito.jpg", pie: "Entorno de Tito Bustillo, Ribadesella" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/asturias-oriente/ribadesella-sella.jpg", pie: "Ría del Sella en Ribadesella" },
+ { src: "/fotos/asturias-oriente/ribadesella-vega.jpg", pie: "Playa de Vega, cerca de Ribadesella" },
+ ],
+ creditoFotos: credito,
+  }

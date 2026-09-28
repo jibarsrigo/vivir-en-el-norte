@@ -1,0 +1,58 @@
+{
+    escala: "Villa con puerto de ría",
+    abrir: [
+      "Sada se siente villa de ría, no solo urbanización. Unos diecisiete mil habitantes en la ría de Betanzos: puerto deportivo en Fontán, paseo marítimo, playa urbana de agua más abrigada que el Atlántico abierto, comercio y biblioteca junto al puerto. Gandarío —arenal largo de ría— queda a minutos.",
+      "Quien vive aquí es gente de villa y de veraneo que vuelve al puerto. Un martes de noviembre se compra, se va a primaria y se camina al paseo sin depender de A Coruña para lo diario. El coche aparece para el CHUAC y para salidas mayores.",
+      "En verano el veraneo y las fiestas locales llenan Fontán, el paseo y la playa urbana con terrazas, tráfico y aparcamiento difícil. Tierra adentro el volumen baja. Es alternativa a Oleiros con carácter de casco reconocible.",
+      "Si solo conoces un sábado de sol en el puerto, te llevas ría de folleto. Si has visto un noviembre cubierto y una tarde de Gandarío llena, ya puedes decidir.",
+    ],
+    tiempo: [
+      "Frente a Mallorca el cielo del golfo se nota más gris; al fondo de la ría de Betanzos la variación local existe. El verano es suave. Playa urbana y Gandarío ofrecen agua de ría más usable muchos días en que Riazor no invita. Las cifras detalladas quedan en la capa factual.",
+      "Conviene probar un frente gris y un agosto en Gandarío, no solo el sol de Fontán.",
+    ],
+    vivir: [
+      "El invierno se nota en la vivienda junto a la ría: humedad y terraza que se usa menos entre noviembre y febrero. El salitre suave de ría no es el oleaje de Riazor, pero la humedad sí pesa.",
+      "Sin coche, la villa compacta resuelve comercio, biblioteca, paseo y primaria. Gandarío queda a un trayecto corto. En enero Sada vuelve a ser villa de trabajo y residencia; junto a Fontán, agosto llena la orilla.",
+      "Llegar de fuera es habitual. Se oye gallego en el comercio; el castellano basta para lo cotidiano. Entre semana manda la villa; en verano sube el volumen. Quien busque vecinos todo el año los encontrará en escala de villa con puerto.",
+      "La sanidad especializada no está en el municipio: el CHUAC queda a un trayecto corto desde el casco. Empadronarse abre cabecera local; para hospital se conduce a A Coruña.",
+      "Ir y volver a Mallorca: Alvedro queda cerca (Palma sobre todo en verano); Santiago-Lavacolla aporta enlace durante casi todo el año. Conviene comprobar programación.",
+      "El casco y el entorno del puerto ofrecen pisos y viviendas; las afueras, más parcela. Fibra. Conviene probar Fontán en temporada antes de comprar la primera línea.",
+    ],
+    historia: [
+      "El puerto de Fontán y el paseo explican Sada moderna: villa que miró a la ría de Betanzos como ocio y residencia coruñesa, no solo como oficio de bajura. El tejido urbano concentra comercio en un casco reconocible —la diferencia con Oleiros se nota en la escala de villa.",
+      "Gandarío y la cercanía a Betanzos —casco histórico a un trayecto corto— añaden capa comarcal: ría templada y orilla más abrigada que Riazor.",
+    ],
+    fuera: [
+      "La playa urbana de Sada es el baño cotidiano parcial del frente; Cirro completa opciones. Un martes de junio la toalla cabe; un domingo de agosto, el paseo se llena.",
+      "Gandarío amplía el arenal de ría. A Coruña aporta ciudad, hospital y cultura; Oleiros, otras microzonas de orilla. Aquí el mar de diario es ría, no Doniños.",
+      "Betanzos y su casco histórico quedan a un trayecto corto cuando se quiere piedra comarcal sin entrar en la capital.",
+    ],
+    casa: [
+      "Pisos y viviendas en casco y entorno del puerto; más parcela hacia el interior. Junto a la orilla hay que contar con ocupación de agosto y humedad.",
+      "Los precios permanecen en la capa factual. Conviene firmar tras un martes de noviembre y una tarde de verano en Fontán: son dos ritmos del mismo sitio.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere villa con puerto, paseo y agua de ría, con A Coruña cerca para hospital y ciudad, sin el modelo puro de urbanización de Oleiros.",
+        "También si se acepta verano activo en Fontán y Gandarío a cambio de autonomía fuerte en el casco el resto del año.",
+      ],
+      no: [
+        "Encaja peor si se busca chalé de microzona tipo Mera o ciudad naval con hospital a pie: Sada es villa de ría, no Ferrol ni corona de Oleiros.",
+        "Tampoco si agosto junto al paseo debe ser silencioso o si se decide solo tras un sábado de sol en el puerto.",
+      ],
+      veredicto:
+        "Sada es villa de ría con Fontán y paseo: autonomía diaria y mar abrigado a cambio de hospital fuera y verano lleno en la orilla. Su atractivo está en el casco reconocible; su peaje, en no pedirle el silencio de parroquia ni la densidad de capital."
+    },
+    fotosAbrir: [
+      { src: "/fotos/golfo-artabro-e-ferrol/sada-puerto.jpg", pie: "Puerto deportivo de Sada" },
+      { src: "/fotos/golfo-artabro-e-ferrol/sada-villa.jpg", pie: "Villa de Sada junto a la ría" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/golfo-artabro-e-ferrol/sada-fontan.jpg", pie: "Restos del castillo de Fontán en Sada" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/golfo-artabro-e-ferrol/sada-playa.jpg", pie: "Playa urbana de Sada, agua de ría" },
+      { src: "/fotos/golfo-artabro-e-ferrol/sada-gandario.jpg", pie: "Gandarío, arenal cercano a Sada" },
+    ],
+    creditoFotos: credito,
+  }

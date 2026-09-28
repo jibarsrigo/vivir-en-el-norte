@@ -1,0 +1,55 @@
+{
+    escala: "Villa costera en dos cotas",
+    abrir: [
+      "Suances no se entiende como una única superficie llana. El pueblo alto y la zona de La Ribera, La Concha y Los Locos ofrecen experiencias distintas: arriba se concentra parte de la vida de villa; abajo el mar entra mucho más directamente en la rutina.",
+      "La autonomía cotidiana es media-fuerte, con servicios básicos y Torrelavega muy próxima para ampliar compras y sanidad. Esa base anual diferencia Suances de enclaves más dependientes de la temporada, aunque el verano aumenta claramente la presión sobre las playas.",
+      "La gran pregunta residencial es la microzona. Vivir cerca de La Concha permite integrar playa y paseo; hacerlo en el núcleo alto introduce un desnivel estructural que cambia la caminabilidad.",
+    ],
+    tiempo: [
+      "El clima es húmedo y atlántico, con verano suave y menos continuidad de sol que Mallorca. En vivienda conviene priorizar orientación, ventilación y protección frente a humedad y viento; las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "La Ribera, La Concha, la zona del faro y Los Locos forman un eje costero muy utilizable si se vive abajo. Desde el pueblo alto el mismo recorrido implica pendiente y puede hacer que el coche aparezca más de lo esperado.",
+      "La villa mantiene vida fuera del verano y Torrelavega amplía el radio cotidiano sin convertir cada necesidad en un viaje largo. El hospital práctico también está allí, fuera del municipio pero relativamente próximo.",
+      "En verano La Concha y Los Locos reciben mucha más afluencia. La vivienda concreta debe probarse pensando en aparcamiento, ruido y recorrido real entre cota alta y baja.",
+    ],
+    historia: [
+      "La ría de San Martín, el puerto y el crecimiento hacia las playas explican una villa que mira al agua desde alturas distintas. Punta del Dichoso y Los Locos añaden el frente más abierto y expuesto del paisaje costero.",
+    ],
+    fuera: [
+      "En zona baja, playa y paseo pueden ser realmente cotidianos: La Concha, La Ribera y el recorrido hacia el faro se enlazan con facilidad. Los Locos añade un carácter más abierto y surfero.",
+      "Santillana del Mar y otros destinos próximos amplían las salidas, mientras Torrelavega cumple una función mucho más práctica de servicios y hospital.",
+    ],
+    casa: [
+      "Antes de valorar una vivienda hay que recorrer a pie la distancia entre ella y la costa. Pueblo alto y Ribera no son equivalentes: cambian pendiente, acceso a playa y dependencia del coche.",
+      "Revisar accesibilidad, aparcamiento, humedad, orientación y exposición estival. Los precios y totales quedan en la capa factual y la tabla.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca una villa con vida anual y playa muy integrada, especialmente escogiendo bien la zona baja.",
+        "También si se valora tener Torrelavega y el hospital a un desplazamiento corto sin renunciar al frente costero.",
+      ],
+      no: [
+        "Encaja peor si se exige una caminabilidad uniforme entre pueblo alto y playa.",
+        "También si se quiere evitar la presión estival de las zonas de La Concha y Los Locos.",
+      ],
+      veredicto:
+        "Suances combina vida anual y costa mejor que muchos enclaves puramente vacacionales, pero la microzona manda: vivir arriba o abajo cambia de forma real la playa cotidiana, la pendiente y el uso del coche."
+    },
+ fotoIdentidad: {
+ src: "/fotos/cantabria-occidental/suances-identidad.jpg",
+ pie: "Suances: casas sobre la bahía y la ría — vivir entre playa y puerto",
+ },
+ fotosAbrir: [
+ { src: "/fotos/cantabria-occidental/suances-villa.jpg", pie: "Suances: villa-playa" },
+ { src: "/fotos/cantabria-occidental/suances-concha.jpg", pie: "Playa de La Concha, Suances" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/cantabria-occidental/suances-puerto.jpg", pie: "Puerto de Suances en la ría" },
+ { src: "/fotos/cantabria-occidental/suances-paseo.jpg", pie: "Paseo de Suances" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/cantabria-occidental/suances-locos.jpg", pie: "Playa de Los Locos, Suances" },
+ ],
+ creditoFotos: credito,
+  }

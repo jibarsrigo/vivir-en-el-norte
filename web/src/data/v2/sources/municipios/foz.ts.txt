@@ -1,0 +1,53 @@
+{
+    escala: "Villa de ría y playa",
+    abrir: [
+      "Foz se organiza alrededor de una relación bastante cotidiana con el agua. A Rapadoira está integrada en la villa y el paseo continúa hacia una costa que se abre en Llas y Peizás; al otro lado del mapa mental aparecen la ría, la marisma y el puente. No hace falta reservar el mar para una excursión: forma parte de un paseo normal.",
+      "Fuera del verano sigue funcionando como villa. Comercio, atención primaria, biblioteca y servicios mantienen actividad durante el año, de modo que muchas rutinas básicas pueden resolverse en el núcleo sin coger el coche. Agosto añade veraneantes, terrazas y más presión junto al paseo, pero después Foz vuelve a una escala más calmada sin apagarse."
+    ],
+    tiempo: [
+      "Frente a Mallorca, la diferencia se nota en un verano más fresco y en una vivienda que debe convivir mejor con humedad, niebla y meses grises. Una terraza que parece decisiva en agosto puede usarse de otra manera en invierno; por eso orientación, aislamiento y luz merecen una visita con mal tiempo.",
+      "El mar tampoco se vive igual en toda la costa. A Rapadoira ofrece una playa urbana más protegida y unida al paseo; Llas y Peizás abren el horizonte y quedan más expuestas al Cantábrico. Esa transición permite escoger entre una orilla muy cotidiana y una salida algo más abierta sin abandonar el entorno de Foz."
+    ],
+    vivir: [
+      "Un martes de noviembre se puede hacer bastante vida dentro de la villa: compra, centro de salud, biblioteca, comercio y paseo forman parte del radio cotidiano. El coche sigue siendo útil para el hospital y para ampliar la costa o las salidas, pero en el núcleo no organiza cada recado.",
+      "La ría ayuda a orientarse. A Rapadoira representa la parte más urbana del mar; Llas y Peizás prolongan la costa hacia espacios más abiertos; la marisma introduce una orilla distinta, más quieta. Esa variedad hace que una mañana libre pueda consistir simplemente en caminar el frente marítimo, sin convertir el día en una excursión.",
+      "En verano el paseo y A Rapadoira reciben más gente, tráfico y terrazas. La presión vacacional existe y se nota especialmente junto a la orilla, pero fuera de agosto permanece una base de servicios y vida local. Esa continuidad es una diferencia importante frente a municipios de A Mariña mucho más dependientes de la segunda residencia.",
+      "Para necesidades hospitalarias hay que desplazarse a Burela. Esa salida no impide una autonomía cotidiana fuerte dentro de Foz, pero sí marca el límite entre una villa que resuelve bien el día a día y una cabecera sanitaria."
+    ],
+    historia: [
+      "San Martiño de Mondoñedo añade una capa histórica muy próxima: su basílica fue antigua sede episcopal y conecta Foz con una historia anterior a la villa costera moderna. Mondoñedo, algo más hacia el interior, amplía esa lectura histórica de la comarca.",
+      "La Foz cotidiana, sin embargo, se entiende mejor por el paseo, la ría y la temporada. La marisma y el puente forman parte del paisaje habitual, mientras las playas explican el crecimiento residencial y el aumento de actividad del verano."
+    ],
+    fuera: [
+      "A Rapadoira es la playa que mejor se integra en una rutina a pie: arena y paseo forman parte del núcleo. Hacia Llas y Peizás la costa se vuelve más abierta y el paseo permite pasar gradualmente de la fachada urbana a otro tipo de Cantábrico.",
+      "Para cambiar de registro, San Martiño de Mondoñedo aporta patrimonio cercano y el interior conduce hacia Mondoñedo. En la costa, Barreiros y As Catedrais quedan hacia el este; Burela concentra el hospital hacia el oeste; Ribadeo ofrece otra escala de casco y frontera. Son salidas que complementan Foz, no sustitutos de su vida diaria."
+    ],
+    casa: [
+      "La elección cambia según se mire el paseo, la marisma o las zonas más interiores. Cerca de A Rapadoira se gana acceso inmediato a la orilla y se acepta más movimiento en las semanas fuertes de verano; alejándose del frente marítimo cambia la relación con ruido, aparcamiento y humedad.",
+      "En pisos y casas conviene mirar accesibilidad, orientación, aislamiento y cómo se comporta la vivienda en un noviembre húmedo. La capa factual y la tabla concentran precios y estimaciones; aquí la cuestión es si la casa permite aprovechar la autonomía de la villa sin pagar con una ubicación incómoda durante el resto del año."
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere una villa donde playa y paseo formen parte de la rutina y donde una parte importante de los recados pueda hacerse dentro del núcleo. A Rapadoira, la ría y la marisma dan una relación diaria con el agua; Llas y Peizás permiten abrir el paseo hacia una costa menos urbana.",
+        "También encaja si se acepta una temporada de verano más intensa a cambio de que la villa siga teniendo actividad fuera de ella. El equilibrio está en combinar autonomía cotidiana con una costa muy accesible, sabiendo que para hospital y algunas necesidades mayores hay que salir."
+      ],
+      no: [
+        "Encaja peor si se necesita hospital a pie o una ciudad con una oferta mucho más amplia. Foz resuelve bien la escala cotidiana, pero no pretende sustituir las funciones comarcales de Burela ni la dimensión urbana de otros núcleos mayores.",
+        "Tampoco si se quiere silencio constante junto al paseo durante agosto o si el clima cantábrico se tolera solo en vacaciones. Para entender Foz conviene haber visto tanto A Rapadoira con actividad de verano como la ría en un día gris de noviembre."
+      ],
+      veredicto:
+        "Foz combina villa, ría y playa con una autonomía cotidiana fuerte para su escala. Su punto de equilibrio está en poder caminar buena parte del día a día y llegar al mar sin convertirlo en excursión, aceptando más presión vacacional en verano y el desplazamiento a Burela para la atención hospitalaria."
+    },
+    fotosAbrir: [
+      { src: "/fotos/a-marina/foz-ria.jpg", pie: "Ría de Foz" },
+      { src: "/fotos/a-marina/foz-playa.jpg", pie: "A Rapadoira u otra playa urbana de Foz" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/a-marina/foz-villa.jpg", pie: "Villa de Foz hacia el paseo" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/a-marina/foz-paseo.jpg", pie: "Paseo marítimo de Foz" },
+      { src: "/fotos/a-marina/foz-marisma.jpg", pie: "Marisma y orilla de la ría en Foz" },
+    ],
+    creditoFotos: credito,
+  }

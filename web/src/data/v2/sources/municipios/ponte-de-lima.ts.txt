@@ -1,0 +1,49 @@
+{
+    escala: "Villa romana sobre el Lima",
+    abrir: [
+      "Ponte de Lima se entiende al cruzar el puente de piedra sobre el Lima: villa de interior minhoto, plaza de la feria, Ecovia do Lima y Lagoas de Bertiandos —humedales protegidos— cerca. El viñedo de Loureiro forma parte del paisaje de quintas. No hay orilla atlántica en el municipio: Cabedelo, en Viana, queda como salida. La autonomía cotidiana es fuerte.",
+      "Un martes de noviembre se camina el puente y la plaza: comercio, mercado y vida de villa. El Hospital Conde de Bertiandos cubre atención básica en la propia villa; para mayor complejidad, Santa Luzia en Viana. El aeropuerto práctico es Porto. En el centro el coche puede pesar poco; para costa y servicios superiores, más.",
+      "Las Feiras Novas de septiembre llenan la villa —ruido, afluencia, aparcamiento justo—; el Festival de Jardines marca otra capa del calendario. El valle calienta en verano más que la costa; en invierno la niebla de valle puede levantar tarde. Quien busque piedra, río y feria entenderá el sitio; quien busque océano a pie, no.",
+    ],
+    tiempo: [
+      "El valle del Lima trae humedad, niebla alta de invierno y un verano más cálido que la franja atlántica. Frente a Mallorca hay menos continuidad de sol y más mañanas blancas; las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno es de niebla de valle y humedad de río: conviene calefacción, aislamiento y orientación al sol en casa de villa o quinta. Un martes de niebla dice más que un día de jardines en primavera.",
+      "La villa compacta se resuelve a pie; el mar y Braga piden coche. Feiras Novas hay que contarlas como parte del año, no como excepción. En enero hay vida de piedra, no de costa vacía.",
+      "Conde de Bertiandos delante para lo básico; Santa Luzia para complejidad. Porto cubre el avión. La integración es de villa interior: feria, Loureiro y portugués de valle, sin frontera gallega a la puerta como Valença.",
+    ],
+    historia: [
+      "El puente romano-medieval y el fuero medieval explican Ponte de Lima: villa antigua sobre el Lima, feria viva y piedra cotidiana. Las Feiras Novas y el Festival de Jardines no son notas al margen: mueven afluencia real. La Ecovia y las Lagoas de Bertiandos completan la ficha de río y verde.",
+    ],
+    fuera: [
+      "Puente, plaza y Ecovia do Lima son el paseo llano de diario. Las Lagoas de Bertiandos cubren naturaleza y sombra cuando el valle aprieta.",
+      "Cabedelo y Viana cubren Atlántico y hospital de mayor capacidad. No hay playa de mar en el municipio: esa es la honestidad del interior.",
+    ],
+    casa: [
+      "Casco y entorno del río: pisos y casas de villa; quintas con Loureiro cuando el terreno pesa. Conviene orientación, humedad de valle y probar julio caluroso y niebla de invierno. El centro puede cotizar distinto del promedio municipal.",
+      "Los precios y totales permanecen en la capa factual. Firmar tras Feiras Novas o imaginándolas: el calendario forma parte de la casa.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere villa fuerte sobre el Lima —puente, feria, Ecovia— con hospital básico cerca y mar como salida.",
+        "También si se acepta calor de valle, niebla de invierno y Santa Luzia para lo complejo, con Porto como aeropuerto.",
+      ],
+      no: [
+        "Encaja peor si se necesita playa marina a pie o el verano suave de la costa minhota: aquí el valle aprieta más.",
+        "Tampoco si el ruido y la afluencia de Feiras Novas resultan incompatibles con la idea de villa quieta todo el año.",
+      ],
+      veredicto:
+        "Ponte de Lima ofrece piedra, río y autonomía de villa a cambio de no tener mar y de un valle con calor y niebla. Su atractivo está en el puente vivido; su peaje, en que el Atlántico y la alta complejidad sanitaria quedan fuera."
+    },
+ fotosAbrir: [
+ { src: "/fotos/alto-minho/ponte-villa.jpg", pie: "Ponte de Lima: villa sobre el Lima" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/alto-minho/ponte-jardines.jpg", pie: "Jardines y orilla del Lima en Ponte de Lima" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/alto-minho/ponte-bertiandos.jpg", pie: "Lagoas de Bertiandos, Ponte de Lima" },
+ ],
+ creditoFotos: credito,
+  }

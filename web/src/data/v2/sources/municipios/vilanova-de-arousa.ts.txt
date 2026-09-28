@@ -1,0 +1,58 @@
+{
+    escala: "Villa marinera y parroquias de viñedo",
+    abrir: [
+      "Vilanova de Arousa se siente más equilibrio que foto típica. Villa entre Cambados y Vilagarcía, frente a la ría: O Terrón es puerto y península junto al casco; Ariño, pequeña playa protegida enlazada por paseo desde el entorno urbano; Caleiro y Baión, parroquias de viñedo. No es Fefiñáns ni la ciudad de Vilagarcía: es orilla de escala cómoda con mar cercano.",
+      "Un martes de noviembre el núcleo cubre salud, mercado, súper, colegios y cafés; el frente marítimo y la pasarela hacia Ariño entran en la rutina. Desde Baión o Caleiro el coche une finca y servicios. Autonomía media-fuerte en el núcleo; menor en parroquias exteriores. Vilagarcía completa hospital, tren y compras grandes a trayecto corto.",
+      "San Roque (16 de agosto), A Pastoriza (8 de septiembre) y San Cipriano (16 de septiembre) ocupan el centro con procesiones y orquestas. La Festa do Mexillón e o Berberecho añade agosto gastronómico. Vida anual con verano más activo, sin la saturación permanente de otras orillas.",
+      "Hospital do Salnés a unos quince minutos; Vigo hacia cuarenta como aeropuerto práctico; Santiago refuerza Palma casi todo el año. Escala cómoda y mar cercano, pero menor oferta que Vilagarcía.",
+    ],
+    tiempo: [
+      "La ría trae humedad y algo de viento en la costa abierta. Frente a Mallorca hay menos continuidad de sol; el verano sigue suave. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno se nota en viento de costa y humedad de parroquia. Conviene salitre en Ariño o As Sinas y aislamiento en Baión. Un noviembre junto al paseo enseña más que un sábado de sol.",
+      "Sin coche, la villa resuelve lo básico; desde el interior el coche pesa. En enero hay vida local. De agosto a mediados de septiembre el calendario patronal anima el centro.",
+      "Atención primaria local; hospital en Vilagarcía. Para Mallorca, Vigo en verano y Santiago con mejor continuidad. La integración mezcla puerto, bateas y veraneo contenido.",
+    ],
+    historia: [
+      "Ramón María del Valle-Inclán nació aquí en 1866. La Casa do Cuadrante, hoy casa-museo, conserva memoria del autor: la villa se explica también desde esa puerta.",
+      "La torre de Cálogo recuerda el antiguo monasterio de San Cibrán. O Terrón guarda puerto y marisqueo; el Pazo de Baión enlaza señorío, viñedo y una historia contemporánea que cambió de oficio sin dejar de ser pazo.",
+    ],
+    fuera: [
+      "Frente marítimo y pasarela hacia Ariño: playa cotidiana parcial, de ría protegida. O Terrón une arena y puerto; As Sinas prolonga costa residencial hacia Vilagarcía.",
+      "El Monte Lobeira ofrece mirador sobre Arousa. Cambados cubre villa de piedra; Vilagarcía, escala mayor; A Illa, calas al otro lado del puente. Vilanova reparte ría asequible y esas salidas.",
+    ],
+    casa: [
+      "Pisos cerca del paseo, viviendas de costa o casa con finca en Baión y Caleiro. Conviene accesibilidad, exterior y servicios cotidianos reales; en costa, tráfico y salitre; en interior, humedad y acceso.",
+      "Los precios y totales permanecen en la capa factual. Firmar tras un noviembre y una noche festiva de agosto–septiembre.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere ría con baño cercano —Ariño, O Terrón— y villa de escala media entre Cambados y Vilagarcía.",
+        "También si se acepta menor oferta que la ciudad vecina a cambio de calma y mar en el gesto diario del núcleo.",
+      ],
+      no: [
+        "Encaja peor si se necesitan tren, hospital a cinco minutos o mucha vida cultural dentro del mismo casco.",
+        "Tampoco si el calendario patronal de agosto–septiembre debe pasar desapercibido, o se busca solo el carácter señorial de Fefiñáns.",
+      ],
+      veredicto:
+        "Vilanova equilibra ría, Ariño y vida de villa a cambio de menos oferta que Vilagarcía. Su atractivo está en el paseo cotidiano; su peaje, en no pedir ciudad completa ni firmar sin probar fiestas y un martes de noviembre."
+    },
+ fotoIdentidad: {
+ src: "/fotos/o-salnes/vilanova-de-arousa-identidad.jpg",
+ pie: "Vilanova de Arousa: casas frente a la ría, con bateas y monte detrás",
+ },
+ fotosAbrir: [
+ { src: "/fotos/o-salnes/vilanova-paseo.jpg", pie: "Vilanova: paseo y villa frente a la ría" },
+ { src: "/fotos/o-salnes/vilanova-terron.jpg", pie: "O Terrón, puerto y playa junto al casco" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/o-salnes/vilanova-valle-inclan.jpg", pie: "Casa do Cuadrante, memoria de Valle-Inclán" },
+ { src: "/fotos/o-salnes/vilanova-baion.jpg", pie: "Pazo de Baión, señorío y viñedo en la parroquia" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/o-salnes/vilanova-sinas.jpg", pie: "As Sinas, costa residencial de agua calma" },
+ { src: "/fotos/o-salnes/vilanova-monte-lobeira.jpg", pie: "Monte Lobeira, mirador sobre toda Arousa" },
+ ],
+ creditoFotos: credito,
+  }

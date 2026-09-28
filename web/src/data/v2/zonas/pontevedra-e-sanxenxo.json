@@ -1,0 +1,467 @@
+{
+  "tipo": "zona",
+  "zonaId": "pontevedra-e-sanxenxo",
+  "nombre": "Pontevedra e Sanxenxo",
+  "sourcePath": "web/src/components/RelatoPontevedraESanxenxo.tsx",
+  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+  "sourceTag": "current-freeze-2026-09-26",
+  "sourceFileHash": "6c9bae290345c792c8e78a7f312c2a1444053ce894b3f2279e8f53b2b9cfe0aa",
+  "contentHash": "c635fa2811891a0059c41232800d6bf2c3e3dbf88772aa78db68f2603c5d0552",
+  "zonaBaseline": {
+    "id": "pontevedra-e-sanxenxo",
+    "zona": "Pontevedra e Sanxenxo",
+    "provincia": "Pontevedra",
+    "pais": "España",
+    "lat": 42.442750000000004,
+    "lon": -8.749,
+    "solHoras": 2350,
+    "despejados": 71,
+    "cubiertos": 120,
+    "lluviaDias": 122,
+    "lluviaMm": 1400,
+    "lluvia": {
+      "oct_mar": "13–16",
+      "peor": "diciembre",
+      "peor_n": "16",
+      "verano": "3–6"
+    },
+    "tempVerano": 19.8,
+    "calorAprieta": null,
+    "viento": "Baja",
+    "niebla": "Baja",
+    "activa": true
+  },
+  "mallorcaBaseline": {
+    "despejados": 120,
+    "solHoras": 2800,
+    "lluviaDias": 58,
+    "lluvia": {
+      "oct_mar": "6–8",
+      "peor": "octubre–enero",
+      "peor_n": "8",
+      "verano": "1–3"
+    },
+    "viento": "Media",
+    "niebla": "Baja"
+  },
+  "fichas": [
+    {
+      "n": 17,
+      "zona": "Pontevedra e Sanxenxo",
+      "municipio": "Pontevedra",
+      "slug": "pontevedra",
+      "provincia": "Pontevedra",
+      "pais": "España",
+      "lat": 42.431,
+      "lon": -8.644,
+      "solHoras": 2250,
+      "despejados": 72,
+      "cubiertos": 120,
+      "lluviaDias": 130,
+      "lluviaMm": 1600,
+      "tempVerano": 20.5,
+      "tempInvierno": 9.5,
+      "humedad": 78,
+      "viento": "Baja",
+      "niebla": "Baja",
+      "clase": "Favorable",
+      "minCosta": 1,
+      "playaBano": "Areas",
+      "minBano": 24,
+      "tempAgua": "18-20",
+      "franja": "A",
+      "servicios": 10,
+      "serviciosNota": "Capital provincial peatonal con centros de salud, hospitales público y privado, farmacias, supermercados, mercado, colegios, institutos, universidad, cultura, comercio, restauración y tren.",
+      "fibra": "Sí",
+      "comunicaciones": "AP-9 y N-550; tren a Vigo, Santiago y Madrid; estación de autobuses; red urbana peatonal",
+      "comunicacionesNota10": 10,
+      "hospitalPub": "4 km · 5 min · Montecelo (Pontevedra)",
+      "hospitalPriv": "2 km · 5 min · Quirónsalud Miguel Domínguez (Pontevedra)",
+      "hospitalMin": 5,
+      "aeropuertos": "Vigo 27 km · 25 min (Palma: verano); Santiago 67 km · 50 min (Palma: casi todo el año); Porto 161 km · 120 min (Palma: verano)",
+      "aeropuertoMin": 25,
+      "palmaMasCercano": "Verano",
+      "palmaMejor": "Santiago (casi todo el año) · 50 min",
+      "precioM2": 2596,
+      "A_2hab": 219362,
+      "A_3hab": 303732,
+      "B_2hab": 177177,
+      "B_3hab": 245322,
+      "obraNueva": "Sí",
+      "mapa": "17_pontevedra.png",
+      "serviciosEstado": "VALIDADO — Galicia",
+      "radioCotidiano": "Mercado de Abastos, comercio, farmacia, cultura y servicios dentro de un centro muy caminable.",
+      "radioSalida": "Playas de ría/costa y municipios próximos; no están a la puerta del centro.",
+      "dependenciaCocheTexto": "Baja en centro; coche para playas y algunas salidas.",
+      "autonomiaCotidiana": "MUY ALTA",
+      "estacionalidad2026": "Ciudad plenamente anual.",
+      "peajeRealidad": "Excelente vida peatonal, pero sin playa marina cotidiana.",
+      "sanidadPrimaria2026": "Red urbana completa",
+      "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Complejo hospitalario de Pontevedra/Montecelo.",
+      "hospitalPractico2026": "Complejo hospitalario de Pontevedra/Montecelo",
+      "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 3 km · 5 min · Montecelo (Pontevedra); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+      "aeropuertoPractico2026": "Vigo 27 km · 25 min (Palma: verano); Santiago 67 km · 50 min (Palma: casi todo el año); Porto 161 km · 120 min (Palma: verano) Tiempo histórico orientativo: ~25 min. Usar como orientación de acceso, no como tiempo garantizado.",
+      "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 50 min La programación aérea es variable; comprobar temporada y horario vigente.",
+      "transporteRelevante2026": "Ferrocarril y bus interurbano.",
+      "playaCotidiana": "NO",
+      "playaCotidianaModo": "Ciudad de ría/río; el baño marítimo requiere desplazamiento.",
+      "paseoCotidiano": "Lérez, Illa do Covo y A Xunqueira enlazan paseos verdes con el centro.",
+      "paseoPendienteTopografia": null,
+      "advertenciaMicrozona": null,
+      "microzonaPrecio": null,
+      "casaQueBuscar": "Ascensor o acceso sin barreras, exterior, 2–3 dormitorios y servicios andando...",
+      "mercadoReventa": "Mercado relativamente amplio por demanda residencial permanente y servicios. ..."
+    },
+    {
+      "n": 18,
+      "zona": "Pontevedra e Sanxenxo",
+      "municipio": "Poio",
+      "slug": "poio",
+      "provincia": "Pontevedra",
+      "pais": "España",
+      "lat": 42.445,
+      "lon": -8.68,
+      "solHoras": 2300,
+      "despejados": 72,
+      "cubiertos": 120,
+      "lluviaDias": 125,
+      "lluviaMm": 1500,
+      "tempVerano": 20,
+      "tempInvierno": 10,
+      "humedad": 79,
+      "viento": "Baja",
+      "niebla": "Baja",
+      "clase": "Favorable",
+      "minCosta": 2,
+      "playaBano": "Areas",
+      "minBano": 20,
+      "tempAgua": "18-20",
+      "franja": "A",
+      "servicios": 7,
+      "serviciosNota": "Centro de salud, farmacias, supermercados, colegios, comercio y restauración en San Xoán y Combarro; Pontevedra completa la oferta a 5-10 minutos.",
+      "fibra": "Sí",
+      "comunicaciones": "PO-308 por la costa y accesos a AP-9; autobús a Pontevedra y Sanxenxo; sin tren",
+      "comunicacionesNota10": 8,
+      "hospitalPub": "8 km · 10 min · Montecelo (Pontevedra)",
+      "hospitalPriv": "6 km · 10 min · Quirónsalud Miguel Domínguez (Pontevedra)",
+      "hospitalMin": 10,
+      "aeropuertos": "Vigo 30 km · 25 min (Palma: verano); Santiago 67 km · 50 min (Palma: casi todo el año); Porto 162 km · 120 min (Palma: verano)",
+      "aeropuertoMin": 25,
+      "palmaMasCercano": "Verano",
+      "palmaMejor": "Santiago (casi todo el año) · 50 min",
+      "precioM2": 1887,
+      "A_2hab": 159452,
+      "A_3hab": 220779,
+      "B_2hab": 128788,
+      "B_3hab": 178322,
+      "obraNueva": "Sí",
+      "mapa": "18_poio.png",
+      "serviciosEstado": "VALIDADO — Galicia",
+      "radioCotidiano": "San Salvador se apoya en Pontevedra; Campelo es residencial; Combarro combina servicios con fuerte uso turístico.",
+      "radioSalida": "Raxó/playas, costa y resto de la ría según microzona.",
+      "dependenciaCocheTexto": "Muy variable: baja junto a Pontevedra, mayor en áreas dispersas.",
+      "autonomiaCotidiana": "MEDIA-FUERTE SEGÚN MICROZONA",
+      "estacionalidad2026": "Vida anual con fuerte estacionalidad en Combarro/Raxó.",
+      "peajeRealidad": "Gran variedad interna: elegir mal la microzona cambia por completo coche, turismo y servicios.",
+      "sanidadPrimaria2026": "Atención primaria local",
+      "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Pontevedra.",
+      "hospitalPractico2026": "Pontevedra",
+      "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 8 km · 10 min · Montecelo (Pontevedra); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+      "aeropuertoPractico2026": "Vigo 30 km · 25 min (Palma: verano); Santiago 67 km · 50 min (Palma: casi todo el año); Porto 162 km · 120 min (Palma: verano) Tiempo histórico orientativo: ~25 min. Usar como orientación de acceso, no como tiempo garantizado.",
+      "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 50 min La programación aérea es variable; comprobar temporada y horario vigente.",
+      "transporteRelevante2026": "PO-308 / AP-9; bus a Pontevedra Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+      "playaCotidiana": "DEPENDE MICROZONA",
+      "playaCotidianaModo": "Raxó y algunos puntos costeros pueden dar baño cercano; no generalizar al municipio.",
+      "paseoCotidiano": "Combarro: casco de piedra, soportales y hórreos junto a la ría; presión turística y acceso/parking condicionan el uso diario.",
+      "paseoPendienteTopografia": null,
+      "advertenciaMicrozona": "San Salvador, Combarro, Campelo, Raxó y áreas dispersas ofrecen vidas distintas.",
+      "microzonaPrecio": null,
+      "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+      "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
+    },
+    {
+      "n": 19,
+      "zona": "Pontevedra e Sanxenxo",
+      "municipio": "Sanxenxo",
+      "slug": "sanxenxo",
+      "provincia": "Pontevedra",
+      "pais": "España",
+      "lat": 42.401,
+      "lon": -8.807,
+      "solHoras": 2400,
+      "despejados": 70,
+      "cubiertos": 120,
+      "lluviaDias": 118,
+      "lluviaMm": 1300,
+      "tempVerano": 19.5,
+      "tempInvierno": 10,
+      "humedad": 79,
+      "viento": "Media",
+      "niebla": "Baja",
+      "clase": "Más favorable",
+      "minCosta": 6,
+      "playaBano": "Silgar",
+      "minBano": 6,
+      "tempAgua": "18-20",
+      "franja": "B",
+      "servicios": 8,
+      "serviciosNota": "Centro de salud, farmacias, supermercados, colegios, puerto, comercio y restauración todo el año; la oferta se multiplica en verano.",
+      "fibra": "Sí",
+      "comunicaciones": "AG-41 hacia Pontevedra y PO-308 por la costa; autobús interurbano; puerto deportivo; sin tren",
+      "comunicacionesNota10": 7,
+      "hospitalPub": "22 km · 25 min · Montecelo (Pontevedra)",
+      "hospitalPriv": "20 km · 20 min · Quirónsalud Miguel Domínguez (Pontevedra)",
+      "hospitalMin": 20,
+      "aeropuertos": "Vigo 64 km · 50 min (Palma: verano); Santiago 71 km · 55 min (Palma: casi todo el año); Porto 157 km · 115 min (Palma: verano)",
+      "aeropuertoMin": 50,
+      "palmaMasCercano": "Verano",
+      "palmaMejor": "Santiago (casi todo el año) · 55 min",
+      "precioM2": 3351,
+      "A_2hab": 283160,
+      "A_3hab": 392067,
+      "B_2hab": 228706,
+      "B_3hab": 316670,
+      "obraNueva": "Sí",
+      "mapa": "19_sanxenxo.png",
+      "serviciosEstado": "VALIDADO — Galicia",
+      "radioCotidiano": "Núcleo y Portonovo permiten encadenar comercio, hostelería, puerto y playa a pie.",
+      "radioSalida": "Montalvo y A Lanzada; esta última suma playa atlántica larga, arqueología y paseo.",
+      "dependenciaCocheTexto": "Baja en núcleo para diario; coche para playas exteriores y hospital de mayor complejidad.",
+      "autonomiaCotidiana": "FUERTE",
+      "estacionalidad2026": "Muy marcada presión estival; base de servicios permanece.",
+      "peajeRealidad": "Playa cotidiana y paseo excelentes a cambio de precio alto y verano intenso.",
+      "sanidadPrimaria2026": "Atención primaria local",
+      "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital do Salnés/Pontevedra según necesidad.",
+      "hospitalPractico2026": "Hospital do Salnés/Pontevedra según necesidad",
+      "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 20 km · 25 min · Montecelo (Pontevedra); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+      "aeropuertoPractico2026": "Vigo 64 km · 50 min (Palma: verano); Santiago 71 km · 55 min (Palma: casi todo el año); Porto 157 km · 115 min (Palma: verano) Tiempo histórico orientativo: ~50 min. Usar como orientación de acceso, no como tiempo garantizado.",
+      "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 55 min La programación aérea es variable; comprobar temporada y horario vigente.",
+      "transporteRelevante2026": "PO-308 / VG-4.1; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+      "playaCotidiana": "SÍ",
+      "playaCotidianaModo": "Silgar/Baltar/Caneliñas son parte directa de la vida peatonal según núcleo.",
+      "paseoCotidiano": "Ruta litoral Sanxenxo–Portonovo ~8–8,6 km: Panadeira, Silgar, Punta Vicaño, Baltar, Portonovo y Caneliñas.",
+      "paseoPendienteTopografia": null,
+      "advertenciaMicrozona": null,
+      "microzonaPrecio": "Núcleo ~3846 €/m²; Adina-Portonovo ~2900 €/m²; municipal ~3351 €/m².",
+      "casaQueBuscar": "Accesibilidad, terraza/aparcamiento y servicios utilizables todo el año. Comp...",
+      "mercadoReventa": "Mercado intermedio con componente turístico/segunda residencia. La liquidez d..."
+    },
+    {
+      "n": 20,
+      "zona": "Pontevedra e Sanxenxo",
+      "municipio": "O Grove",
+      "slug": "o-grove",
+      "provincia": "Pontevedra",
+      "pais": "España",
+      "lat": 42.494,
+      "lon": -8.865,
+      "solHoras": 2400,
+      "despejados": 70,
+      "cubiertos": 120,
+      "lluviaDias": 115,
+      "lluviaMm": 1250,
+      "tempVerano": 19.5,
+      "tempInvierno": 10,
+      "humedad": 79,
+      "viento": "Media",
+      "niebla": "Baja",
+      "clase": "Más favorable",
+      "minCosta": 2,
+      "playaBano": "Foxos",
+      "minBano": 5,
+      "tempAgua": "18-20",
+      "franja": "A",
+      "servicios": 7,
+      "serviciosNota": "Centro de salud, farmacias, supermercados, mercado, colegios, comercio, puerto y restauración todo el año; Vilagarcía completa especialistas y compras grandes.",
+      "fibra": "Sí",
+      "comunicaciones": "PO-316 y istmo de A Lanzada hacia AG-41; autobús interurbano; barcos turísticos; sin tren",
+      "comunicacionesNota10": 6,
+      "hospitalPub": "31 km · 30 min · Hospital do Salnés (Vilagarcía)",
+      "hospitalPriv": "42 km · 45 min · Quirónsalud Miguel Domínguez (Pontevedra)",
+      "hospitalMin": 30,
+      "aeropuertos": "Vigo 78 km · 60 min (Palma: verano); Santiago 78 km · 60 min (Palma: casi todo el año)",
+      "aeropuertoMin": 60,
+      "palmaMasCercano": "Verano",
+      "palmaMejor": "Santiago (casi todo el año) · 60 min",
+      "precioM2": 2500,
+      "A_2hab": 211250,
+      "A_3hab": 292500,
+      "B_2hab": 170625,
+      "B_3hab": 236250,
+      "obraNueva": "Poca",
+      "mapa": "20_o_grove.png",
+      "serviciosEstado": "VALIDADO — Galicia",
+      "radioCotidiano": "Villa: puerto, lonja, comercio, biblioteca y Casa da Cultura; vida diaria resoluble sin depender de la costa exterior.",
+      "radioSalida": "A Toxa; San Vicente/Pedras Negras; A Lanzada fuera de la península.",
+      "dependenciaCocheTexto": "Baja-media en villa; mayor en San Vicente y costa.",
+      "autonomiaCotidiana": "FUERTE EN VILLA",
+      "estacionalidad2026": "Turística, pero con equipamientos y vida anual.",
+      "peajeRealidad": "La mejor costa y la mejor autonomía no siempre están en la misma microzona.",
+      "sanidadPrimaria2026": "Atención primaria local",
+      "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital do Salnés.",
+      "hospitalPractico2026": "Hospital do Salnés",
+      "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 30 km · 30 min · Hospital do Salnés (Vilagarcía); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+      "aeropuertoPractico2026": "Vigo 78 km · 60 min (Palma: verano); Santiago 78 km · 60 min (Palma: casi todo el año) Tiempo histórico orientativo: ~60 min. Usar como orientación de acceso, no como tiempo garantizado.",
+      "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 60 min La programación aérea es variable; comprobar temporada y horario vigente.",
+      "transporteRelevante2026": "PO-316 / VG-4.1; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+      "playaCotidiana": "DEPENDE MICROZONA",
+      "playaCotidianaModo": "Villa vive la ría/puerto; San Vicente prioriza costa y paseo pero aumenta coche.",
+      "paseoCotidiano": "Puerto/ría en villa; pasarela costera de Pedras Negras como salida o cotidiano si se reside allí.",
+      "paseoPendienteTopografia": null,
+      "advertenciaMicrozona": "Villa de O Grove ≠ San Vicente/Pedras Negras.",
+      "microzonaPrecio": null,
+      "casaQueBuscar": "Accesibilidad, exterior/terraza y distancia realmente caminable a núcleo y pa...",
+      "mercadoReventa": "Mercado intermedio con componente turístico/segunda residencia. La liquidez d..."
+    }
+  ],
+  "mapaDetalle": "/mapas/zona_05_detalle.png",
+  "idealistaUrl": "https://www.idealista.com/venta-viviendas/pontevedra/pontevedra-provincia/",
+  "resumen": "Del casco peatonal de Pontevedra al Atlántico por la orilla norte de su ría. Poio reúne Combarro y parroquias de costa; Sanxenxo, playas y verano intenso; O Grove, puerto, marisqueo y la isla termal de A Toxa.",
+  "escalas": {
+    "Pontevedra": "Ciudad pequeña, compacta y peatonal",
+    "Poio": "Parroquias de ría pegadas a la ciudad",
+    "Sanxenxo": "Villa turística, puerto y parroquias de playa",
+    "O Grove": "Villa marinera y península turística"
+  },
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Dónde está"
+    },
+    {
+      "type": "p",
+      "text": "Esta zona sigue la orilla norte de la ría de Pontevedra desde la capital provincial hasta el Atlántico. Pontevedra ocupa el fondo de la ría, donde desemboca el río Lérez; Poio empieza al cruzar el puente de A Barca y reúne Combarro, Raxó, Samieira y las playas de Lourido. Sanxenxo abre la costa hacia Silgar, Portonovo y A Lanzada. O Grove es la península final, unida a tierra por el istmo arenoso de A Lanzada y asomada también a la ría de Arousa."
+    },
+    {
+      "type": "p",
+      "text": "Los nombres describen escalas distintas. Pontevedra es una ciudad peatonal de unos ochenta y cuatro mil habitantes. Poio no tiene un solo centro: San Xoán concentra servicios y Combarro conserva hórreos y casas marineras. Sanxenxo —San Ginés en gallego— es villa y municipio turístico. O Grove nombra tanto la villa portuaria como la península; A Toxa es la isla termal unida por puente."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/pontevedra-e-sanxenxo/poio-combarro.jpg",
+      "pie": "Combarro, en Poio: piedra y ría entre la ciudad y el Atlántico"
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/pontevedra-e-sanxenxo/zona-pontevedra-ferraria.jpg",
+      "pie": "Praza da Leña: piedra y casas del casco histórico de Pontevedra"
+    },
+    {
+      "type": "h2",
+      "text": "El tiempo comparado con Baleares"
+    },
+    {
+      "type": "p",
+      "text": "La zona promedia unas 2.350 horas de sol y 71 días despejados, frente a 2.800 horas y 120 jornadas claras en Mallorca. La diferencia se concentra en invierno: caen unos 1.400 milímetros durante 122 días, con trece o dieciséis jornadas húmedas al mes entre octubre y marzo."
+    },
+    {
+      "type": "p",
+      "text": "La costa exterior suele notar menos humedad acumulada que el fondo de la ría, pero la diferencia no se traduce aquí en milímetros por municipio: la cifra de zona es la referencia. El verano ronda 19.8 °C, con máximas habituales cercanas a 25–26 °C. Pontevedra ciudad puede sumar algunos días por encima de 30 °C; junto al Atlántico suelen ser menos. Frente a Baleares se pierde agua cálida y se ganan noches frescas."
+    },
+    {
+      "type": "h2",
+      "text": "Cómo se vive"
+    },
+    {
+      "type": "p",
+      "text": "Un martes de noviembre, Pontevedra resuelve hospital, mercado, tren y cultura caminando; Poio reparte la semana entre parroquias y una ciudad que queda a cinco o diez minutos. Portonovo mantiene lonja y comercio aun cuando se vacían los apartamentos de Sanxenxo. O Grove sigue oliendo a puerto y marisqueo. Los cuatro tienen vida propia, pero solo la capital permite prescindir realmente del coche."
+    },
+    {
+      "type": "p",
+      "text": "Agosto transforma la costa. Sanxenxo pasa de unos diecisiete mil habitantes permanentes a una población estacional muy superior, y la presión llega a playas, aparcamientos y noches. Combarro recibe excursiones; A Lanzada y O Grove concentran tráfico en el istmo. Pontevedra mantiene una escala urbana más estable. Elegir municipio es escoger entre peatonalidad, parroquia de ría, temporada intensa o península marinera."
+    },
+    {
+      "type": "h2",
+      "text": "Mar, ría y camino"
+    },
+    {
+      "type": "p",
+      "text": "Poio ofrece Lourido, Cabeceira, Chancelas y Raxó, playas de ría con agua calma entre 18 y 20 °C. La senda litoral Pontevedra–Combarro recorre unos siete kilómetros junto al agua; detrás sube el Monte Castrove, la sierra baja de 613 metros que mira a las rías de Pontevedra y Arousa."
+    },
+    {
+      "type": "p",
+      "text": "Sanxenxo encadena Silgar, Areas, Canelas, Montalvo, Major y A Lanzada. Esta última es una lengua de dunas de unos 2,5 kilómetros abierta al Atlántico. O Grove permite cambiar de costa: Con Negro y Area da Cruz reciben mar abierto; Raeiros y Pipas miran al agua más tranquila de Arousa. El Monte Siradella, de 167 metros, explica la forma completa de la península."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/pontevedra-e-sanxenxo/sanxenxo-lanzada.jpg",
+      "pie": "A Lanzada, arenal e istmo entre Sanxenxo y O Grove"
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/pontevedra-e-sanxenxo/zona-lanzada-istmo.jpg",
+      "pie": "El istmo de A Lanzada une Sanxenxo con la península de O Grove"
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/pontevedra-e-sanxenxo/zona-combarro-ria.jpg",
+      "pie": "Combarro desde la ría: hórreos y casas marineras sobre el agua"
+    },
+    {
+      "type": "h2",
+      "text": "Mercados, fiestas y calendario"
+    },
+    {
+      "type": "p",
+      "text": "Pontevedra vive A Peregrina desde el segundo sábado de agosto y la Feira Franca el primer fin de semana de septiembre: conciertos, feria y calles tomadas en el centro. Poio celebra San Xoán el 24 de junio y el Carmen en sus núcleos marineros el 16 de julio. Combarro añade a esas fechas su afluencia diaria de verano."
+    },
+    {
+      "type": "p",
+      "text": "Portonovo celebra San Roque del 14 al 19 de agosto y la Festa da Raia el día 17; Sanxenxo reúne Santa Rosalía y el Carmen alrededor del 4 y 5 de septiembre. O Grove convierte el puerto en gran comedor durante la Festa do Marisco, en la primera quincena de octubre. Cerca de estos recorridos hay música, cortes y aparcamiento difícil. La mesa común es la ría: mejillón de batea, almeja, pulpo y pescado de lonja."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/pontevedra-e-sanxenxo/zona-grove-bateas.jpg",
+      "pie": "Bateas frente a O Grove: el mejillón como paisaje y trabajo"
+    },
+    {
+      "type": "h2",
+      "text": "Qué cuesta una casa"
+    },
+    {
+      "type": "p",
+      "text": "El mercado dibuja un contraste claro: Pontevedra y Poio se mueven en la franja más asequible de la zona; Sanxenxo concentra la demanda turística y la orilla más cara; O Grove queda entre ambos, más asequible cuanto más se aleja del frente demandado. Una casa con vistas en Raxó o Samieira entra en franja media, muy dependiente de terreno, acceso y reforma. Los números concretos cambian con el anuncio: la tabla y Idealista mandan."
+    },
+    {
+      "type": "p",
+      "text": "Hay obra nueva en Pontevedra, Poio y Sanxenxo; poca en O Grove. En ciudad pesan piso y casco; en Poio, parroquia y acceso; en Sanxenxo y O Grove, temporada, salitre y distancia a la primera línea."
+    },
+    {
+      "type": "tablaPrecios"
+    },
+    {
+      "type": "idealista"
+    },
+    {
+      "type": "h2",
+      "text": "Servicios, hospital, aeropuerto"
+    },
+    {
+      "type": "p",
+      "text": "Pontevedra concentra hospitales, universidad, tren, mercado y cultura: es la única escala de la zona donde la vida diaria cabe a pie. Poio cubre lo básico y tiene la capital a cinco o diez minutos. Sanxenxo y O Grove resuelven compra, salud primaria, colegio y restauración durante todo el año, aunque dependen de Pontevedra o Vilagarcía para especialidades y compras mayores."
+    },
+    {
+      "type": "p",
+      "text": "Montecelo y Quirónsalud están a unos cinco minutos desde Pontevedra y diez desde Poio. Sanxenxo tarda entre veinte y veinticinco. O Grove tiene el Hospital do Salnés a treinta y el privado de Pontevedra a cuarenta y cinco. Vigo-Peinador queda a veinticinco minutos de Pontevedra y Poio, cincuenta de Sanxenxo y sesenta de O Grove; Santiago ofrece la conexión más continua con Palma a unos cincuenta o sesenta minutos."
+    },
+    {
+      "type": "encaja",
+      "si": [
+        "Se quiere escoger entre una ciudad peatonal completa y una costa de ría cercana. Pontevedra resuelve hospital, tren y cultura; Poio añade piedra, playa y monte a cinco o diez minutos; Sanxenxo concentra el abanico de arenales de Silgar a A Lanzada; O Grove aporta marisqueo, Arousa y una península para caminar.",
+        "Se busca verano más fresco que en Mallorca. El agua está entre 17 y 20 °C y las noches refrescan; la costa exterior suele sentirse menos húmeda que el fondo de la ría."
+      ],
+      "no": [
+        "Se quieren a la vez silencio de agosto, playa a pie, tres habitaciones asequibles y hospital inmediato. Sanxenxo da playa pero recibe multitud y tiene la vivienda más cara; O Grove da mar pero queda a treinta minutos del hospital; Pontevedra resuelve sanidad sin playa urbana; Poio es el compromiso, no la suma perfecta."
+      ],
+      "veredicto": "Veredicto de zona: Poio encaja si se quieren ría, casa y Pontevedra a pocos minutos; la capital, si mandan vida peatonal y hospital; Sanxenxo, si playa y mercado turístico justifican precio y agosto; O Grove, si se acepta más distancia al hospital para ganar península, marisqueo y dos costas. En Poio conviene mirar Lourido o San Xoán para lo práctico y Raxó o Samieira para paisaje, siempre después de probar tráfico y humedad."
+    },
+    {
+      "type": "municipiosFin"
+    },
+    {
+      "type": "credito",
+      "text": "Fotos: Wikimedia Commons. Consulta la atribución y licencia en cada imagen."
+    }
+  ],
+  "serializationNote": "Prosa + widgets congelados del Relato*.tsx CURRENT; interpolaciones {zona.*}/{mallorca.*} resueltas; {\" \"} JSX eliminado; fichas/Idealista/mapas embebidos en freeze/."
+}

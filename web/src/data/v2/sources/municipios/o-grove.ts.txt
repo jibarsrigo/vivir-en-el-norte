@@ -1,0 +1,55 @@
+{
+    escala: "Villa marinera y península turística",
+    abrir: [
+      "O Grove se siente como una isla que aprendió a ser península. Unida a tierra por el istmo de A Lanzada, la villa vive de puerto, lonja, comercio, biblioteca y Casa da Cultura; al oeste, San Vicente do Mar y Pedras Negras priorizan costa y paseo a cambio de más coche. Grove recuerda un antiguo nombre de isla: hasta que los sedimentos cerraron el istmo, este territorio estuvo separado del continente.",
+      "Villa de O Grove no es San Vicente ni Pedras Negras. En la villa, un martes de noviembre huele a lonja y la vida diaria se resuelve sin depender de la costa exterior. En San Vicente la semana es más silenciosa y el coche abre compra, salud y salida. La mejor costa y la mejor autonomía no siempre están en la misma microzona.",
+      "La Festa do Marisco ocupa la primera quincena de octubre y convierte el puerto en comedor y escenario: tráfico, afluencia y aparcamiento justo. El 16 de julio, el Carmen sale desde la villa. A Toxa —isla del balneario unida por puente— añade ritmo hotelero distinto del vecinal.",
+      "El Hospital do Salnés queda hacia media hora; Vigo y Santiago, alrededor de una hora. Hay equipamientos y vida anual además del turismo. Quien se decida solo tras un día en A Toxa, sin probar villa en noviembre ni San Vicente en agosto, se equivoca de peaje.",
+    ],
+    tiempo: [
+      "La península suele sentirse algo más seca y soleada que el interior de la ría, pero sigue lejos del cielo de Mallorca. El viento se nota en Con Negro y A Lanzada; la villa abriga más. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno en la villa huele a lonja; en San Vicente, a pinar húmedo y menos movimiento. Conviene revisar humedad y salitre según microzona. Un noviembre junto al puerto enseña más que un día soleado en A Toxa.",
+      "Sin coche, la villa cubre diario; desde San Vicente o Pedras Negras el coche pesa. Agosto llena playas; octubre vuelve a llenar con el marisco. El istmo de A Lanzada concentra toda salida por carretera: se nota en temporada.",
+      "Atención primaria local; hospital comarcal fuera. Para Mallorca, Vigo en verano y Santiago con enlace más estable el resto del año —ambos a trayecto largo—. La integración mezcla oficio marinero y veraneo; no reducir O Grove a resort de A Toxa.",
+    ],
+    historia: [
+      "O Grove vivió de la pesca y del marisqueo mucho antes del turismo. Las bateas —plataformas flotantes de mejillón— dibujan la ría de Arousa. La Festa do Marisco, nacida en 1963, convirtió ese oficio en celebración gastronómica de referencia.",
+      "A Toxa cambió a finales del siglo XIX con aguas termales, balneario y Gran Hotel; un puente la une a la villa desde 1910. La capela de San Caralampio, cubierta de conchas de vieira, marca un paisaje termal singular dentro de un municipio de lonja.",
+      "Siradella —mirador bajo— permite leer península, A Lanzada y ría. Oficio, balneario y Atlántico explican el lugar mucho antes del veraneo moderno.",
+    ],
+    fuera: [
+      "En la villa, puerto y ría son el paseo cotidiano. Pedras Negras aporta pasarela costera como salida o como diario si se reside allí. A Lanzada, Area da Cruz, Mexilloeira y Con Negro abren Atlántico; Raeiros y Pipas, agua más tranquila de Arousa.",
+      "A Toxa ofrece paseo bajo pinos; San Vicente cose calas. El tiempo libre es mar antes que ciudad: dos costas, lonja y península, eligiendo microzona.",
+    ],
+    casa: [
+      "Accesibilidad, exterior o terraza y distancia realmente caminable al núcleo o al paseo que se desea. La villa no traslada automáticamente el mercado ni el ritmo de San Vicente o A Toxa.",
+      "Conviene revisar humedad en casas entre pinos y medir el istmo en temporada. Los precios y totales permanecen en la capa factual.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere villa marinera activa todo el año —lonja, mercado, puerto— con dos costas a elegir según microzona.",
+        "También si se acepta logística de península y se distingue villa de San Vicente/Pedras Negras a la hora de comprar.",
+      ],
+      no: [
+        "Encaja peor si hospital y aeropuerto deben quedar cerca, o si se quiere costa sin coche viviendo lejos de la villa.",
+        "Tampoco si se confunde A Toxa hotelera con la vida cotidiana del puerto, o se firma sin probar el istmo en temporada.",
+      ],
+      veredicto:
+        "O Grove compra oficio, Arousa y Atlántico a cambio de península y microzonas distintas. Su atractivo está en la villa marinera vivida en noviembre; su peaje, en no mezclar Pedras Negras, A Toxa y lonja en la misma decisión."
+    },
+ fotosAbrir: [
+ { src: "/fotos/pontevedra-e-sanxenxo/grove-villa.jpg", pie: "O Grove, villa marinera entre puerto y ría de Arousa" },
+ { src: "/fotos/pontevedra-e-sanxenxo/grove-porto.jpg", pie: "Puerto y bateas: el mar como trabajo cotidiano" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/pontevedra-e-sanxenxo/grove-toxa.jpg", pie: "A Toxa, isla termal unida por puente a la villa" },
+ { src: "/fotos/pontevedra-e-sanxenxo/grove-capela.jpg", pie: "Capela de San Caralampio, cubierta de conchas de vieira" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/pontevedra-e-sanxenxo/grove-siradella.jpg", pie: "Monte Siradella, mirador sobre la península y A Lanzada" },
+ { src: "/fotos/pontevedra-e-sanxenxo/grove-con-negro.jpg", pie: "Con Negro, costa de granito abierta al Atlántico" },
+ ],
+ creditoFotos: credito,
+  }

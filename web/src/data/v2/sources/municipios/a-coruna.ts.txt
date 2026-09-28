@@ -1,0 +1,63 @@
+{
+    escala: "Ciudad atlántica compacta",
+    abrir: [
+      "A Coruña se siente más grande y más compacta de lo que el mapa sugiere. Alrededor de doscientos cincuenta mil habitantes en una península atlántica: Torre de Hércules —faro romano patrimonio de la humanidad—, paseo marítimo de más de trece kilómetros, casco viejo, Marina con galerías de cristal, y el Monte de San Pedro como mirador. Es ciudad completa: el Atlántico no es escapada; es vecino.",
+      "Un martes de noviembre se resuelve comercio, salud, universidad, cine y restauración sin salir lejos si se elige bien el barrio. Riazor y Orzán funcionan como playas urbanas integradas en el paseo, pero el peaje cambia según se viva en primera línea, en Monte Alto o en la Ciudad Vieja: pendiente, salitre, ruido y precio no son los mismos.",
+      "Las fiestas de María Pita, en torno a agosto, llenan el centro con actos, música y aparcamiento difícil. San Juan enciende hogueras en la orilla. El resto del año es capital de trabajo, lonja y AVE: vida que no se apaga en invierno.",
+      "Si solo conoces un sábado de sol junto a la Torre, te llevas imagen de folleto. Si has visto un frente gris de noviembre y María Pita, ya puedes decidir si quieres ciudad tal cual es.",
+    ],
+    tiempo: [
+      "Frente a Mallorca el cielo atlántico de A Coruña se nota más gris y con menos continuidad de sol; la llovizna también aparece en verano. El verano es suave frente a Baleares, con noches frescas. Riazor y Orzán traen agua atlántica con oleaje; Oza y As Lapas ofrecen tramos más recogidos. Las cifras de estación y de ficha no se mezclan aquí: el clima se cuenta en cualitativo.",
+      "Conviene venir un día de nortada y un noviembre, no solo un sábado de sol en el paseo marítimo.",
+    ],
+    vivir: [
+      "El invierno se nota en el piso: salitre junto a Riazor u Orzán, humedad atlántica y viento que pide ventanas y calefacción en condiciones. Una terraza que en agosto parece el centro de la vida, entre noviembre y febrero se usa la mitad o menos.",
+      "Sin coche, la autonomía es muy alta en barrios centrales bien elegidos: mercados, bibliotecas, comercio, cultura y sanidad caben en la misma península. El paseo marítimo permite kilómetros a pie. En enero la ciudad no se apaga.",
+      "Llegar de fuera a una capital es habitual. Se oye gallego en el mercado y en el ayuntamiento; el castellano basta para lo cotidiano. Entre semana manda el trabajo; en agosto María Pita llena el centro. Quien busque solo veraneo encontrará ruido; quien busque vecinos todo el año, también —en escala de capital, no de urbanización.",
+      "La sanidad de urgencia y especialidades está en el municipio: el CHUAC —Complejo Hospitalario Universitario de A Coruña— queda cerca desde el centro; los tiempos cambian según barrio y tráfico. Empadronarse asigna cabecera urbana y deja el CHUAC como referencia.",
+      "Ir y volver a Mallorca: Alvedro es el aeropuerto de la ciudad (Palma sobre todo en verano); Santiago-Lavacolla aporta enlace durante casi todo el año a un trayecto mayor. La programación es variable: conviene comprobar temporada, no asumir vuelo permanente.",
+      "La vivienda típica es piso en ensanche o casco, de distintas décadas; hay obra nueva y fibra. Cerca de Riazor importan ruido, salitre y ocupación de verano; en el centro, aparcamiento y fiestas. El modelo no es chalé con jardín —eso mira Oleiros o Sada—.",
+    ],
+    historia: [
+      "La Torre de Hércules está considerada el faro romano en uso más antiguo del mundo y es el emblema de la ciudad: piedra romana, reconstrucciones posteriores y el Atlántico a los pies. El paseo que la rodea explica mejor A Coruña que cualquier folleto.",
+      "La Marina y el casco viejo hablan de comercio, pesca y galerías acristaladas que protegen del viento. María Pita —heroína de la defensa frente a la armada inglesa en 1589— da nombre a la plaza y a las fiestas mayores. Hoy el dato útil es el de una capital atlántica compacta que no se vacía en invierno.",
+    ],
+    fuera: [
+      "Riazor y Orzán son las playas urbanas de diario según el barrio: arena, oleaje y agua fresca a minutos del ensanche. Un martes de junio la toalla cabe; un domingo de agosto, el paseo se llena. Oza y As Lapas completan opciones más abrigadas.",
+      "El paseo marítimo permite kilómetros a pie sin coche: orilla urbana continua desde Riazor y Orzán hacia la Torre y la costa norte. No hace falta convertir cada salida en excursión.",
+      "El Monte de San Pedro ofrece baterías, mirador y césped sobre la ciudad. Para ría más templada se conduce a Oleiros o Gandarío; para bosque atlántico, hacia las Fragas do Eume. Aquí el mar de diario es Atlántico abierto.",
+    ],
+    casa: [
+      "Ensanche y casco ofrecen pisos de distintas décadas; hay obra nueva y fibra. Conviene probar María Pita y un frente gris antes de comprar la primera línea de Riazor u Orzán. Ascensor y acceso sin barreras importan en la rutina larga.",
+      "Barrio bajo con vistas a precio medio casi no existe: Riazor, Monte Alto y Ciudad Vieja cambian playa, pendiente y servicios. Los precios y totales permanecen en la capa factual.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si la ciudad completa y el mar en el mismo día importan más que una urbanización silenciosa. Paseo marítimo, Torre de Hércules, Riazor y Orzán según barrio, Oza, As Lapas y el Monte de San Pedro llenan semanas sin forzar coche.",
+        "También si se acepta Atlántico abierto como baño de diario y se reserva la orilla de ría, más abrigada, para salidas a Oleiros, Sada o Gandarío. El CHUAC y Alvedro quedan en la misma lógica de capital.",
+      ],
+      no: [
+        "Encaja peor si se busca chalé con jardín, calles de urbanización y playa de ría como baño cotidiano. Santa Cruz, Mera o Fontán cubren ese perfil; aquí mandan densidad, María Pita y océano abierto.",
+        "Tampoco si el cielo debe parecerse al de Mallorca o si se decide solo tras un sábado de sol, sin probar un frente gris ni el ruido de fiestas junto al tramo festivo.",
+      ],
+      veredicto:
+        "A Coruña es capital atlántica compacta: ciudad, hospital y paseo marítimo juntos a cambio de densidad, tráfico y diferencias fuertes entre barrios. Su atractivo está en no tener que elegir entre servicios y mar; su peaje, en no fingir que Riazor es el mismo peaje que un chalé de ría."
+    },
+    fotoIdentidad: {
+      src: "/fotos/golfo-artabro-e-ferrol/a-coruna-identidad.jpg",
+      pie: "A Coruña: galerías y casas de la marina frente al puerto",
+    },
+    fotosAbrir: [
+      { src: "/fotos/golfo-artabro-e-ferrol/coruna-hercules.jpg", pie: "Torre de Hércules sobre el Atlántico" },
+      { src: "/fotos/golfo-artabro-e-ferrol/coruna-paseo.jpg", pie: "Paseo marítimo de A Coruña" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/golfo-artabro-e-ferrol/coruna-marina.jpg", pie: "Marina de A Coruña y sus galerías" },
+      { src: "/fotos/golfo-artabro-e-ferrol/coruna-casco.jpg", pie: "Casco viejo de A Coruña" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/golfo-artabro-e-ferrol/coruna-riazor.jpg", pie: "Riazor, playa urbana atlántica" },
+      { src: "/fotos/golfo-artabro-e-ferrol/coruna-san-pedro.jpg", pie: "Monte de San Pedro, mirador sobre la ciudad" },
+    ],
+    creditoFotos: credito,
+  }

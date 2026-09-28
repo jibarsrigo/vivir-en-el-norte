@@ -1,0 +1,512 @@
+{
+  "tipo": "zona",
+  "zonaId": "vigo-e-ria",
+  "nombre": "Vigo e ría",
+  "sourcePath": "web/src/components/RelatoVigoERia.tsx",
+  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+  "sourceTag": "current-freeze-2026-09-26",
+  "sourceFileHash": "a434b27ad11b1ba7ce8cfc4f85be48f9ea21fe2ff1ed1ac38f6ed2e40d910f67",
+  "contentHash": "fb9597a7c479ed1f8ba93ba02e30ce274c5f9581be8c26492953a56e3122ddb5",
+  "zonaBaseline": {
+    "id": "vigo-e-ria",
+    "zona": "Vigo e ría",
+    "provincia": "Pontevedra",
+    "pais": "España",
+    "lat": 42.299,
+    "lon": -8.63275,
+    "solHoras": 2250,
+    "despejados": 72,
+    "cubiertos": 118,
+    "lluviaDias": 129,
+    "lluviaMm": 1700,
+    "lluvia": {
+      "oct_mar": "13–16",
+      "peor": "diciembre–enero",
+      "peor_n": "16–17",
+      "verano": "4–7"
+    },
+    "tempVerano": 20.5,
+    "calorAprieta": null,
+    "viento": "Baja",
+    "niebla": "Baja",
+    "activa": true
+  },
+  "mallorcaBaseline": {
+    "despejados": 120,
+    "solHoras": 2800,
+    "lluviaDias": 58,
+    "lluvia": {
+      "oct_mar": "6–8",
+      "peor": "octubre–enero",
+      "peor_n": "8",
+      "verano": "1–3"
+    },
+    "viento": "Media",
+    "niebla": "Baja"
+  },
+  "fichas": [
+    {
+      "n": 9,
+      "zona": "Vigo e ría",
+      "municipio": "Vigo",
+      "slug": "vigo",
+      "provincia": "Pontevedra",
+      "pais": "España",
+      "lat": 42.231,
+      "lon": -8.712,
+      "solHoras": 2350,
+      "despejados": 72,
+      "cubiertos": 118,
+      "lluviaDias": 128,
+      "lluviaMm": 1700,
+      "tempVerano": 20.5,
+      "tempInvierno": 9.5,
+      "humedad": 78,
+      "viento": "Baja",
+      "niebla": "Baja",
+      "clase": "Favorable",
+      "minCosta": 4,
+      "playaBano": "Samil",
+      "minBano": 10,
+      "tempAgua": "17-19",
+      "franja": "A",
+      "servicios": 10,
+      "serviciosNota": "Hospitales, centros de salud, universidad, colegios, mercados, comercio completo, cultura, deporte, AVE, puerto y aeropuerto. La oferta cambia mucho entre el centro urbano y las parroquias costeras.",
+      "fibra": "Sí",
+      "comunicaciones": "AP-9, A-55 y VG-20; AVE y tren regional; bus urbano; puerto; aeropuerto",
+      "comunicacionesNota10": 10,
+      "hospitalPub": "6 km · 10 min · Álvaro Cunqueiro (Vigo)",
+      "hospitalPriv": "3 km · 10 min · Povisa (Vigo)",
+      "hospitalMin": 10,
+      "aeropuertos": "Vigo 9 km · 10 min (Palma: verano); Santiago 95 km · 70 min (Palma: casi todo el año); Porto 133 km · 100 min (Palma: verano)",
+      "aeropuertoMin": 10,
+      "palmaMasCercano": "Verano",
+      "palmaMejor": "Santiago (casi todo el año) · 70 min",
+      "precioM2": 2591,
+      "A_2hab": 218940,
+      "A_3hab": 303147,
+      "B_2hab": 176836,
+      "B_3hab": 244850,
+      "obraNueva": "Sí",
+      "mapa": "09_vigo.png",
+      "serviciosEstado": "VALIDADO — Galicia",
+      "radioCotidiano": "En centro: comercio, cultura, sanidad, restauración y puerto; en Samil/Alcabre: costa con menor densidad de servicios.",
+      "radioSalida": "Playas atlánticas, montes y Cíes; según microzona parte de la costa puede ser cotidiana.",
+      "dependenciaCocheTexto": "Baja en zonas centrales bien elegidas; mayor en laderas y periferia.",
+      "autonomiaCotidiana": "MUY ALTA",
+      "estacionalidad2026": "Ciudad plenamente anual.",
+      "peajeRealidad": "Gran autonomía a cambio de pendientes, tráfico y fuerte diferencia entre microzonas.",
+      "sanidadPrimaria2026": "Red urbana completa",
+      "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Hospital Álvaro Cunqueiro y red hospitalaria de Vigo.",
+      "hospitalPractico2026": "Hospital Álvaro Cunqueiro y red hospitalaria de Vigo",
+      "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 5 km · 10 min · Álvaro Cunqueiro (Vigo); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+      "aeropuertoPractico2026": "Vigo",
+      "palmaDirecta2026": "Limitada/estacional en 2026; no presentar como conexión anual garantizada.",
+      "transporteRelevante2026": "Bus urbano, ferrocarril y conexiones marítimas metropolitanas.",
+      "playaCotidiana": "DEPENDE MICROZONA",
+      "playaCotidianaModo": "Samil/Alcabre pueden dar playa diaria; el centro urbano no tiene una gran playa a la puerta.",
+      "paseoCotidiano": "Frente portuario/centro o paseo de Samil según vivienda.",
+      "paseoPendienteTopografia": "Pendientes fuertes: distancia horizontal no equivale a caminabilidad.",
+      "advertenciaMicrozona": null,
+      "microzonaPrecio": "Centro, Samil/Alcabre y laderas residenciales tienen precios y vida cotidiana muy distintos.",
+      "casaQueBuscar": "Ascensor o acceso sin barreras, exterior, 2–3 dormitorios y servicios andando...",
+      "mercadoReventa": "Mercado relativamente amplio por demanda residencial permanente y servicios. ..."
+    },
+    {
+      "n": 10,
+      "zona": "Vigo e ría",
+      "municipio": "Redondela",
+      "slug": "redondela",
+      "provincia": "Pontevedra",
+      "pais": "España",
+      "lat": 42.283,
+      "lon": -8.609,
+      "solHoras": 2250,
+      "despejados": 72,
+      "cubiertos": 118,
+      "lluviaDias": 128,
+      "lluviaMm": 1700,
+      "tempVerano": 20.5,
+      "tempInvierno": 9.5,
+      "humedad": 78,
+      "viento": "Baja",
+      "niebla": "Baja",
+      "clase": "Favorable",
+      "minCosta": 6,
+      "playaBano": "Cesantes",
+      "minBano": 6,
+      "tempAgua": "18-20",
+      "franja": "B",
+      "servicios": 8,
+      "serviciosNota": "Centro de salud, farmacias, mercado, supermercados, comercio, colegios, institutos, deporte y estación de tren. Falta: hospital y gran oferta cultural, disponibles en Vigo o Pontevedra.",
+      "fibra": "Sí",
+      "comunicaciones": "AP-9 y N-550; tren a Vigo y Pontevedra; bus interurbano",
+      "comunicacionesNota10": 8,
+      "hospitalPub": "18 km · 20 min · Álvaro Cunqueiro (Vigo)",
+      "hospitalPriv": "16 km · 20 min · Povisa (Vigo)",
+      "hospitalMin": 20,
+      "aeropuertos": "Vigo 7 km · 10 min (Palma: verano); Santiago 85 km · 65 min (Palma: casi todo el año); Porto 141 km · 105 min (Palma: verano)",
+      "aeropuertoMin": 10,
+      "palmaMasCercano": "Verano",
+      "palmaMejor": "Santiago (casi todo el año) · 65 min",
+      "precioM2": 1499,
+      "A_2hab": 126666,
+      "A_3hab": 175383,
+      "B_2hab": 102307,
+      "B_3hab": 141656,
+      "obraNueva": "Poca",
+      "mapa": "10_redondela.png",
+      "serviciosEstado": "VALIDADO — Galicia",
+      "radioCotidiano": "Redondela villa: comercio, tren, biblioteca y servicios; Chapela se integra más en el corredor de Vigo.",
+      "radioSalida": "Cesantes y ensenada de San Simón para mar/paisaje.",
+      "dependenciaCocheTexto": "Baja-media en villa; variable en parroquias.",
+      "autonomiaCotidiana": "FUERTE EN VILLA",
+      "estacionalidad2026": "Vida anual.",
+      "peajeRealidad": "Buena conexión y servicios, pero experiencia muy desigual por parroquia.",
+      "sanidadPrimaria2026": "Atención primaria local",
+      "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Área de Vigo.",
+      "hospitalPractico2026": "Área de Vigo",
+      "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 18 km · 20 min · Álvaro Cunqueiro (Vigo); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+      "aeropuertoPractico2026": "Vigo 7 km · 10 min (Palma: verano); Santiago 85 km · 65 min (Palma: casi todo el año); Porto 141 km · 105 min (Palma: verano) Tiempo histórico orientativo: ~10 min. Usar como orientación de acceso, no como tiempo garantizado.",
+      "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 65 min La programación aérea es variable; comprobar temporada y horario vigente.",
+      "transporteRelevante2026": "Ferrocarril y corredor metropolitano.",
+      "playaCotidiana": "DEPENDE MICROZONA",
+      "playaCotidianaModo": "Cesantes ofrece playa somera de ría; no es la experiencia cotidiana de toda Redondela.",
+      "paseoCotidiano": "Villa/ría según microzona.",
+      "paseoPendienteTopografia": null,
+      "advertenciaMicrozona": "Distinguir Redondela villa, Chapela y Cesantes.",
+      "microzonaPrecio": null,
+      "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+      "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
+    },
+    {
+      "n": 11,
+      "zona": "Vigo e ría",
+      "municipio": "Soutomaior",
+      "slug": "soutomaior",
+      "provincia": "Pontevedra",
+      "pais": "España",
+      "lat": 42.33,
+      "lon": -8.57,
+      "solHoras": 2250,
+      "despejados": 72,
+      "cubiertos": 118,
+      "lluviaDias": 130,
+      "lluviaMm": 1750,
+      "tempVerano": 20.5,
+      "tempInvierno": 9.5,
+      "humedad": 78,
+      "viento": "Baja",
+      "niebla": "Baja",
+      "clase": "Favorable",
+      "minCosta": 8,
+      "playaBano": "Cesantes",
+      "minBano": 10,
+      "tempAgua": "18-20",
+      "franja": "B",
+      "servicios": 6,
+      "serviciosNota": "Centro de salud, farmacias, alimentación, colegios, restauración y comercio básico concentrado en Arcade. Falta: hospital, instituto con oferta amplia, cine y grandes superficies.",
+      "fibra": "Parcial",
+      "comunicaciones": "N-550 y AP-9 cercana; estación de Arcade; bus a Pontevedra y Vigo",
+      "comunicacionesNota10": 7,
+      "hospitalPub": "14 km · 15 min · Montecelo (Pontevedra)",
+      "hospitalPriv": "14 km · 20 min · Quirónsalud Miguel Domínguez (Pontevedra)",
+      "hospitalMin": 15,
+      "aeropuertos": "Vigo 15 km · 15 min (Palma: verano); Santiago 78 km · 60 min (Palma: casi todo el año); Porto 147 km · 110 min (Palma: verano)",
+      "aeropuertoMin": 15,
+      "palmaMasCercano": "Verano",
+      "palmaMejor": "Santiago (casi todo el año) · 60 min",
+      "precioM2": 2111,
+      "A_2hab": 178380,
+      "A_3hab": 246987,
+      "B_2hab": 144076,
+      "B_3hab": 199490,
+      "obraNueva": "Poca",
+      "mapa": "11_soutomaior.png",
+      "serviciosEstado": "VALIDADO — Galicia",
+      "radioCotidiano": "Arcade: comercio, centro de salud, biblioteca Luís Seoane, pabellón y Multiúsos.",
+      "radioSalida": "Castillo, viñedo e interior; ría y rutas desde Arcade.",
+      "dependenciaCocheTexto": "Baja-media en Arcade; mayor en interior.",
+      "autonomiaCotidiana": "MEDIA-FUERTE EN ARCADE",
+      "estacionalidad2026": "Programación cultural y servicios durante el año.",
+      "peajeRealidad": "Arcade funciona bien; fuera del núcleo aumenta rápidamente el coche.",
+      "sanidadPrimaria2026": "Centro de salud local",
+      "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es 14 km · 15 min · Montecelo (Pontevedra).",
+      "hospitalPractico2026": "14 km · 15 min · Montecelo (Pontevedra) Tiempo histórico orientativo: ~15 min. Conservar como referencia práctica orientativa, no como garantía de adscripción.",
+      "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 14 km · 15 min · Montecelo (Pontevedra); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+      "aeropuertoPractico2026": "Vigo 15 km · 15 min (Palma: verano); Santiago 78 km · 60 min (Palma: casi todo el año); Porto 147 km · 110 min (Palma: verano) Tiempo histórico orientativo: ~15 min. Usar como orientación de acceso, no como tiempo garantizado.",
+      "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 60 min La programación aérea es variable; comprobar temporada y horario vigente.",
+      "transporteRelevante2026": "N-550 / AP-9; tren en Arcade Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+      "playaCotidiana": "PARCIAL",
+      "playaCotidianaModo": "Relación de ría en Arcade; no asumir gran playa urbana.",
+      "paseoCotidiano": "Frente de ría/Arcade y recorridos locales.",
+      "paseoPendienteTopografia": null,
+      "advertenciaMicrozona": "Arcade concentra mucha más vida cotidiana que áreas interiores.",
+      "microzonaPrecio": null,
+      "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+      "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
+    },
+    {
+      "n": 12,
+      "zona": "Vigo e ría",
+      "municipio": "Vilaboa",
+      "slug": "vilaboa",
+      "provincia": "Pontevedra",
+      "pais": "España",
+      "lat": 42.352,
+      "lon": -8.64,
+      "solHoras": 2250,
+      "despejados": 72,
+      "cubiertos": 118,
+      "lluviaDias": 130,
+      "lluviaMm": 1700,
+      "tempVerano": 20.5,
+      "tempInvierno": 9.5,
+      "humedad": 78,
+      "viento": "Baja",
+      "niebla": "Baja",
+      "clase": "Favorable",
+      "minCosta": 3,
+      "playaBano": "Cesantes",
+      "minBano": 10,
+      "tempAgua": "18-20",
+      "franja": "A",
+      "servicios": 4,
+      "serviciosNota": "Consultorio, farmacia, tiendas y bares repartidos entre parroquias. Para mercado, instituto, hospital, gran compra y cultura se depende de Pontevedra, Arcade o Redondela.",
+      "fibra": "Parcial",
+      "comunicaciones": "N-550, N-554 y AP-9 cercana; bus interurbano; sin estación propia útil",
+      "comunicacionesNota10": 6,
+      "hospitalPub": "12 km · 15 min · Montecelo (Pontevedra)",
+      "hospitalPriv": "11 km · 15 min · Quirónsalud Miguel Domínguez (Pontevedra)",
+      "hospitalMin": 15,
+      "aeropuertos": "Vigo 16 km · 15 min (Palma: verano); Santiago 77 km · 60 min (Palma: casi todo el año); Porto 150 km · 110 min (Palma: verano)",
+      "aeropuertoMin": 15,
+      "palmaMasCercano": "Verano",
+      "palmaMejor": "Santiago (casi todo el año) · 60 min",
+      "precioM2": null,
+      "A_2hab": null,
+      "A_3hab": null,
+      "B_2hab": null,
+      "B_3hab": null,
+      "obraNueva": "No",
+      "mapa": "12_vilaboa.png",
+      "serviciosEstado": "VALIDADO — Galicia",
+      "radioCotidiano": "Servicios repartidos por parroquias; no existe una pequeña ciudad compacta equivalente.",
+      "radioSalida": "Ría, costa y proximidad a Pontevedra/Vigo como principales ventajas.",
+      "dependenciaCocheTexto": "Alta en buena parte del municipio.",
+      "autonomiaCotidiana": "BAJA-MEDIA",
+      "estacionalidad2026": "Vida residencial anual, con servicios dispersos.",
+      "peajeRealidad": "Paisaje y posición entre ciudades a cambio de coche.",
+      "sanidadPrimaria2026": "Atención primaria local/distribuida",
+      "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es 10 km · 15 min · Montecelo (Pontevedra).",
+      "hospitalPractico2026": "10 km · 15 min · Montecelo (Pontevedra) Tiempo histórico orientativo: ~15 min. Conservar como referencia práctica orientativa, no como garantía de adscripción.",
+      "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 10 km · 15 min · Montecelo (Pontevedra); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+      "aeropuertoPractico2026": "Vigo 16 km · 15 min (Palma: verano); Santiago 77 km · 60 min (Palma: casi todo el año); Porto 150 km · 110 min (Palma: verano) Tiempo histórico orientativo: ~15 min. Usar como orientación de acceso, no como tiempo garantizado.",
+      "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 60 min La programación aérea es variable; comprobar temporada y horario vigente.",
+      "transporteRelevante2026": "N-550 / AP-9; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+      "playaCotidiana": "NO GENERALIZABLE",
+      "playaCotidianaModo": "Depende de parroquia; costa no significa baño cotidiano desde casa.",
+      "paseoCotidiano": "Rutas locales según parroquia.",
+      "paseoPendienteTopografia": null,
+      "advertenciaMicrozona": null,
+      "microzonaPrecio": null,
+      "casaQueBuscar": "No comprar solo por vistas o €/m²: comprobar farmacia, compra, acceso, pendie...",
+      "mercadoReventa": "Mercado estrecho o de muestra limitada: la salida depende mucho del producto...."
+    }
+  ],
+  "mapaDetalle": "/mapas/zona_03_detalle.png",
+  "idealistaUrl": "https://www.idealista.com/venta-viviendas/pontevedra/vigo-comarca/",
+  "resumen": "La ciudad más grande de Galicia y el fondo de su ría: playas de Samil y Canido, Redondela frente a San Simón, Soutomaior y Vilaboa en la ensenada tranquila. Hospital y aeropuerto a minutos; el mar de la ría, no del océano abierto.",
+  "escalas": {
+    "Vigo": "Ciudad",
+    "Redondela": "Villa",
+    "Soutomaior": "Pueblo y parroquias",
+    "Vilaboa": "Casas dispersas / parroquias"
+  },
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Dónde está"
+    },
+    {
+      "type": "p",
+      "text": "Vigo e ría ocupa la gran entrada de mar del sur de Galicia y su fondo más protegido. Vigo, la mayor ciudad gallega, sube en anfiteatro desde el puerto y mira hacia las Illas Cíes, el archipiélago que cierra la ría por el oeste. Al nordeste, el agua pasa bajo el puente de Rande y se abre de nuevo en la ensenada de San Simón, una cubeta tranquila de mareas, bancos de arena y marisma. Allí se suceden Redondela, Soutomaior y Vilaboa."
+    },
+    {
+      "type": "p",
+      "text": "Cuatro ayuntamientos contienen cuatro escalas. Vigo es ciudad: hospitales, universidad, puerto, cultura, tráfico y barrios muy distintos. Redondela es villa: mercado, estación, casco y playa cercana. Soutomaior se reparte entre Arcade —la pequeña villa junto a la ría—, el núcleo del castillo y parroquias rurales. Vilaboa no tiene un centro único: son casas y aldeas sobre San Simón, con Pontevedra a un cuarto de hora."
+    },
+    {
+      "type": "p",
+      "text": "Los nombres ayudan a no perderse. Ría no significa río, sino un valle costero ocupado por el mar. San Simón es tanto la ensenada interior como la isla situada frente a Cesantes. Arcade pertenece al municipio de Soutomaior; Cesantes, al de Redondela. Oia puede ser el municipio de la costa atlántica o, aquí, una parroquia del suroeste de Vigo. Cobres nombra dos parroquias de Vilaboa que miran al agua desde la ladera."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/vigo-e-ria/vigo-ria.jpg",
+      "pie": "La ría desde Vigo: ciudad y puerto antes de que el agua alcance San Simón"
+    },
+    {
+      "type": "h2",
+      "text": "El tiempo comparado con Baleares"
+    },
+    {
+      "type": "p",
+      "text": "Frente a Baleares, la ruptura no es un invierno helado, sino un invierno mojado. La zona suma unos 72 días despejados y 2.250 horas de sol al año; Mallorca ronda 120 jornadas despejadas y 2.800 horas. Vigo, más abierto a la ría, alcanza unas dos mil trescientas cincuenta horas; Redondela, Soutomaior y Vilaboa se quedan algo por debajo."
+    },
+    {
+      "type": "p",
+      "text": "La lluvia ronda 129 días y 1.700 milímetros al año. Entre octubre y marzo aparecen unos 13–16 días húmedos cada mes; diciembre–enero suele ser el tramo peor, con 16–17. No siempre llueve desde la mañana hasta la noche, pero los frentes se suceden y dejan jardín, muros y cubiertas mojados durante semanas. Una casa debe visitarse con agua, no solo con luz de septiembre."
+    },
+    {
+      "type": "p",
+      "text": "El verano cambia el balance. La media ronda los 20,5 °C, las máximas habituales se quedan en 25–26 °C y las noches bajan hacia 15 °C. Solo unos tres a ocho días al año superan los 30 °C. En Mallorca, el calor se instala durante semanas; aquí una tarde cálida suele terminar con ventana abierta y chaqueta ligera junto a la ría. La contrapartida es que incluso julio puede traer un frente y romper dos días de playa."
+    },
+    {
+      "type": "p",
+      "text": "El fondo de San Simón está más resguardado que Samil y O Vao. Tiene poco viento, agua algo más templada y niebla generalmente baja, aunque las nubes pueden apoyarse en las laderas. Dentro de Vigo, una vivienda alta recibe más aire que una calle encerrada; en Soutomaior, el valle del Verdugo conserva algo más de calor y humedad. La orientación concreta pesa tanto como la cifra municipal."
+    },
+    {
+      "type": "h2",
+      "text": "Cómo se vive"
+    },
+    {
+      "type": "p",
+      "text": "Un martes de noviembre empieza de cuatro maneras. Vigo abre mercados, hospitales, facultades, astilleros y oficinas; el tráfico baja hacia el puerto y vuelve a subir por las cuestas. Redondela recibe trenes bajo sus dos viaductos y concentra compra, colegio y café en una villa reconocible. Arcade mantiene tiendas y restaurantes cerca de la estación, mientras las parroquias de Soutomaior despiertan entre bosque y fincas. En Vilaboa, la misma mañana exige coche para enlazar casa, consultorio y compra."
+    },
+    {
+      "type": "p",
+      "text": "La ciudad y las parroquias no son dos versiones del mismo retiro. En el centro de Vigo se puede vivir sin coche y tener cultura, especialistas y comercio a pie, pero se aceptan densidad y pendiente. En Coruxo, Oia o Saiáns —parroquias costeras del suroeste— aparecen casas, huertas y vistas a las Cíes, pero la semana depende más del vehículo. Redondela ofrece el punto intermedio: villa con tren y parroquias a pocos minutos."
+    },
+    {
+      "type": "p",
+      "text": "Agosto llena Samil, O Vao y Cesantes, y aumenta el tráfico de acceso a las playas. Vigo no se vuelve ciudad turística: puerto, industria y hospitales continúan. Redondela conserva su vida de villa aunque Cesantes reciba bañistas. Soutomaior concentra su fiesta más singular en abril, cuando Arcade celebra la ostra. Vilaboa cambia poco; su litoral de marisma y playas pequeñas no convoca una multitud comparable."
+    },
+    {
+      "type": "p",
+      "text": "La logística densa de esta orilla atraviesa todo el año. La AP-9 une Vigo y Pontevedra; los trenes paran en Vigo, Redondela y Arcade; Peinador queda entre diez y quince minutos desde los cuatro centros tomados como referencia. Esa red ahorra trayectos largos, pero también produce ruido: vía, autopista, puente de Rande y carreteras nacionales deben escucharse desde cada vivienda."
+    },
+    {
+      "type": "p",
+      "text": "Primavera y otoño equilibran la vida exterior. En marzo florecen las camelias del castillo de Soutomaior; en mayo se alargan los paseos por Ulló y Cesantes; en octubre vuelve el verde intenso y se comprueba si la casa ventila. Un martes mojado de noviembre y un domingo soleado de agosto revelan más que una semana de visitas inmobiliarias."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/vigo-e-ria/redondela-villa.jpg",
+      "pie": "Redondela: una villa ferroviaria con vida durante todo el año"
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/vigo-e-ria/zona-rande.jpg",
+      "pie": "El puente de Rande: la AP-9 cruza la ría y une Vigo con O Morrazo"
+    },
+    {
+      "type": "h2",
+      "text": "Fiestas, mercados y cultura"
+    },
+    {
+      "type": "p",
+      "text": "La primavera abre el calendario en dos orillas. En Vigo, la Reconquista ocupa el Casco Vello alrededor del 28 de marzo —a menudo el último fin de semana de marzo o el primero de abril— y recuerda la expulsión de las tropas francesas en 1809. En Arcade, la Festa da Ostra llega a comienzos de primavera, habitualmente el primer fin de semana de abril, aunque conviene consultar la fecha de cada edición. Ambas llenan calles y restaurantes: quien viva en sus recorridos encontrará cortes, visitantes y ruido, no una celebración confinada en un recinto."
+    },
+    {
+      "type": "p",
+      "text": "Redondela encadena la Festa do Choco el segundo domingo de mayo y la Festa da Coca en Corpus. El choco —la sepia de la ensenada— reúne mesas y puestos; la Coca es el dragón legendario que sale con la Danza das Espadas y las Penlas. En Vilaboa, el Entroido de Cobres lleva desde el siglo XVIII a madamas y galáns por las dos parroquias de Cobres: aquí la cultura no se concentra en un casco, sino que recorre caminos y pequeños lugares."
+    },
+    {
+      "type": "p",
+      "text": "El verano vuelve a Vigo más intenso. La Semana Grande ocupa la primera semana de agosto y O Marisquiño añade deporte urbano, música y público junto al litoral; en Redondela, el Entroido de Verán cierra el penúltimo fin de semana del mes. Mercados urbanos como los de Vigo y Redondela sostienen, en cambio, la vida ordinaria durante todo el año. En la mesa, la ría se lee con claridad: el choco de Redondela, las ostras de Arcade, el pescado de lonja en Vigo y el pulpo que aparece en fiestas y romerías. Conviene visitar la calle elegida en un día de mercado y en su fiesta mayor: el mismo portal puede tener dos ritmos opuestos."
+    },
+    {
+      "type": "h2",
+      "text": "Mar, ría y camino"
+    },
+    {
+      "type": "p",
+      "text": "Samil es el gran arenal urbano de Vigo: 1,7 kilómetros de arena, paseo, jardines y piscinas. O Vao, más al suroeste, conserva dunas y mira al islote de Toralla; Canido es el pequeño núcleo marinero contiguo. El agua suele estar entre 17 y 19 °C en agosto, lejos de los 25 °C del Mediterráneo mallorquín. Desde el puerto salen barcos hacia las Cíes entre primavera y comienzos de otoño, con autorización en fechas de alta demanda."
+    },
+    {
+      "type": "p",
+      "text": "Cesantes pertenece a Redondela y cambia por completo el agua: arena larga, casi sin olas y la isla de San Simón enfrente. La ensenada puede alcanzar 18–20 °C en verano. La marea se retira mucho y deja bancos visibles; el baño necesita mirar la hora, no solo el cielo. La isla fue monasterio, lazareto y prisión, y hoy se visita en rutas y actividades autorizadas."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/vigo-e-ria/redondela-cesantes.jpg",
+      "pie": "Cesantes: arena y agua calma frente a la isla de San Simón"
+    },
+    {
+      "type": "p",
+      "text": "Arcade, en Soutomaior, vive donde el río Verdugo alcanza la ría. Su orilla es pequeña y está ligada al marisqueo y a las ostras; para un gran baño se va a Cesantes. El río añade senda y el puente histórico de Pontesampaio, paso del Camino Portugués. Sobre el valle, el castillo de Soutomaior reúne murallas, bosque y uno de los jardines de camelias más conocidos de Galicia."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/vigo-e-ria/soutomaior-castelo.jpg",
+      "pie": "El castillo de Soutomaior: fortaleza, bosque y camelias sobre el valle"
+    },
+    {
+      "type": "p",
+      "text": "Vilaboa ofrece la ría como humedal. Las Salinas de Ulló son antiguos estanques salineros convertidos en marisma, recorridos por una senda llana entre aves y diques. Deilán y Paredes son playas pequeñas, dependientes de la marea. En la parte alta, Lago Castiñeiras abre caminos de bosque y Cotorredondo mira a la vez hacia las rías de Vigo y Pontevedra. Aquí el agua se contempla y se camina tanto como se nada."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/vigo-e-ria/vilaboa-ullo.jpg",
+      "pie": "Las Salinas de Ulló, donde la antigua industria de sal volvió a ser marisma"
+    },
+    {
+      "type": "h2",
+      "text": "Qué cuesta una casa"
+    },
+    {
+      "type": "p",
+      "text": "Vigo abre una distancia clara respecto a la villa y a las parroquias de la ría: en la costa suroeste se pagan las Cíes, la playa y el hospital cerca; en Redondela el mercado afloja hacia más metros, aunque el ruido cambia según vía y carretera; en Soutomaior aparecen casas de piedra con terreno entre el castillo, el Verdugo y Arcade. Vilaboa no se resume en un precio de metro: allí mandan la finca, el coche entre parroquias y la marisma —y, en algunos puntos, la vista a la ensenada—. Los números de quien tiene dato vivo están en la tabla; donde no hay serie fiable, no conviene inventarla."
+    },
+    {
+      "type": "p",
+      "text": "Fuera de Vigo hay poca o ninguna obra nueva. El ahorro debe reservar margen para cubierta, drenaje, aislamiento y ventilación. En una parroquia se comprueban además saneamiento, acceso y fibra por dirección: «hay fibra en el municipio» no garantiza que llegue a una casa al final de un camino. En Redondela y Arcade se añade aislamiento acústico; en Vilaboa, horas de sol invernal."
+    },
+    {
+      "type": "tablaPrecios"
+    },
+    {
+      "type": "idealista"
+    },
+    {
+      "type": "h2",
+      "text": "Servicios, hospital, aeropuerto"
+    },
+    {
+      "type": "p",
+      "text": "Vigo no necesita ciudad de referencia: hospitales, universidad, mercados, gran comercio, cultura, deporte, tren de alta velocidad y aeropuerto están dentro del municipio. Redondela resuelve la semana con mercado, comercio, centros educativos, centro de salud y estación; Vigo y Pontevedra completan lo que falta. Soutomaior concentra lo básico en Arcade. Vilaboa vive repartida y depende del coche."
+    },
+    {
+      "type": "p",
+      "text": "Vigo usa el Álvaro Cunqueiro como hospital público y Povisa como gran centro privado-concertado, ambos a unos diez minutos desde muchas zonas de referencia. Desde Redondela quedan aproximadamente a veinte. Soutomaior y Vilaboa miran a Montecelo, el hospital público de Pontevedra, a unos quince minutos; Quirónsalud Pontevedra cubre la alternativa privada en un tiempo parecido."
+    },
+    {
+      "type": "p",
+      "text": "Peinador, el aeropuerto de Vigo, queda a unos diez minutos de Vigo y Redondela y a quince de Soutomaior y Vilaboa, según tráfico y parroquia. Su vuelo directo a Palma es principalmente estacional. Santiago, a unos sesenta o setenta minutos, mantiene una conexión con Palma durante casi todo el año. Porto amplía destinos, pero queda entre hora y cuarenta y hora y cincuenta desde el fondo de la ría."
+    },
+    {
+      "type": "p",
+      "text": "La proximidad numérica no elimina las diferencias. Una casa de Vilaboa puede estar a quince minutos del hospital y exigir coche para comprar pan; un piso de Vigo puede tener especialistas a mano y tardar veinte minutos en cruzar la ciudad en hora punta. La logística de esta zona es excelente, pero siempre debe medirse desde el portal concreto."
+    },
+    {
+      "type": "encaja",
+      "si": [
+        "Se quiere hospital, aeropuerto, tren y mar en la misma órbita. Vigo resuelve la vida urbana completa y permite buscar costa residencial en Alcabre, Coruxo, Oia o Saiáns; Redondela ofrece villa, estación y Cesantes —la playa tranquila frente a San Simón— con menos tensión de mercado que la orilla viguesa.",
+        "Se busca casa y calma sin aislarse. Soutomaior permite vivir entre el castillo, el río Verdugo y Arcade con Pontevedra a unos quince minutos. Vilaboa ofrece finca, marisma y vistas sobre la ensenada, también cerca del hospital, si se acepta que parroquia significa coche y servicios dispersos."
+      ],
+      "no": [
+        "es-ES",
+        "Se imagina que toda la zona permite una vida de pueblo a pie. Solo Redondela funciona claramente como villa compacta; Arcade cubre una escala menor. Vigo es ciudad y las parroquias de Vilaboa o Soutomaior dependen del coche. El ruido de trenes, AP-9 y carreteras también debe comprobarse casa por casa."
+      ],
+      "veredicto": "Veredicto de zona: Redondela equilibra vivienda amplia, tren, mercado, hospital cercano y baño tranquilo en Cesantes. Vigo encaja cuando hospitales, cultura y ciudad completa son irrenunciables; en su costa suroeste lo habitual es piso cerca del mar más que casa con jardín y vistas a las Cíes. Soutomaior aporta casa con terreno y un apoyo urbano en Arcade. Vilaboa ofrece silencio y paisaje de ensenada a cambio de coche y servicios escasos, sin pretender una media de mercado homogénea. Frente a Mallorca, la zona cambia sol invernal por lluvia y entrega veranos más suaves."
+    },
+    {
+      "type": "municipiosFin"
+    },
+    {
+      "type": "credito",
+      "text": "Fotos: Wikimedia Commons. Consulta la atribución y licencia en cada imagen."
+    }
+  ],
+  "serializationNote": "Prosa + widgets congelados del Relato*.tsx CURRENT; interpolaciones {zona.*}/{mallorca.*} resueltas; {\" \"} JSX eliminado; fichas/Idealista/mapas embebidos en freeze/."
+}

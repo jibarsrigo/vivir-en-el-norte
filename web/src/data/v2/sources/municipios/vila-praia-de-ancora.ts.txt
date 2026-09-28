@@ -1,0 +1,47 @@
+{
+    escala: "Villa marinera abrigada",
+    abrir: [
+      "Vila Praia de Âncora —Âncora para quien vive aquí— es villa marinera abrigada: puerto, paseo, playa atlántica integrada y el espigón de Lagarteira que suaviza el frente. No es Moledo ni la plaza de Caminha: es núcleo con vida anual, mercado y tren de la Linha do Minho, sin inventar frecuencias. Detrás, el valle del Âncora sube hacia la Serra d'Arga; Gelfa queda en el entorno costero.",
+      "La autonomía cotidiana es media-fuerte. Un martes de noviembre se camina marginal, puerto y playa; en agosto crece el veraneo sin vaciar del todo la vida local. El Hospital de Santa Luzia, en Viana do Castelo, queda fuera; el aeropuerto práctico es Porto. El tren ayuda hacia Caminha y Viana; el coche cubre lo disperso.",
+      "La playa y el frente marítimo entran en el día. El mar sigue frío al tacto atlántico; el abrigo del espigón cambia la experiencia respecto a dunas abiertas. Quien busque solo colonia de chalés se equivoca: Âncora tiene gesto de villa de trabajo y veraneo a la vez.",
+    ],
+    tiempo: [
+      "La franja litoral trae humedad, viento y un verano suave de costa. Frente a Mallorca hay menos continuidad de sol; conviene mirar orientación y salitre en casa. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno mantiene vida de villa: no es vacío total de segunda residencia. Aun así, humedad y viento piden buen aislamiento. Probar enero y agosto evita firmar solo por el paseo en sol de julio.",
+      "Paseo, playa y comercio básico pueden resolverse en el núcleo; hospital y gran ciudad piden desplazamiento. El tren es capa estructural útil, no promesa de horario. En agosto hay que contar con afluencia y aparcamiento más justo.",
+      "Santa Luzia es la referencia hospitalaria; Porto, el aeropuerto. La integración pasa por mercado, puerto y ritmo anual minhoto: Âncora no es apéndice de Moledo ni de Caminha.",
+    ],
+    historia: [
+      "El puerto, el espigón y el valle del Âncora hacia Arga explican la villa: abrigo costero y camino de interior. Lagarteira y Gelfa completan el mapa local. Lo que conviene saber es marina abrigada y vida de núcleo, no catálogo turístico.",
+    ],
+    fuera: [
+      "Marginal, puerto y playa forman el paseo llano de diario. El espigón cambia el viento y el uso de la orilla respecto a una playa totalmente abierta.",
+      "Caminha ofrece estuario y plaza; Moledo, dunas; Viana, hospital y ciudad. Âncora debe valorarse por su propio equilibrio playa-núcleo.",
+    ],
+    casa: [
+      "Pisos y casas de villa cerca del frente o del ensanche; comprobar salitre, humedad, aparcamiento de agosto y distancia real al tren y a la playa que se usa. El mercado es de escala pequeña y nota estacional.",
+      "Los precios y totales permanecen en la capa factual. Firmar tras un martes de noviembre y un fin de semana de agosto.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere villa con playa y puerto en el mismo gesto cotidiano, autonomía media-fuerte y vida anual además del verano.",
+        "También si Santa Luzia y Porto quedan asumibles y se acepta el aumento estival sin confundir Âncora con Moledo o Caminha.",
+      ],
+      no: [
+        "Encaja peor si se busca silencio absoluto de colonia o playa de duna abierta sin núcleo: aquí hay villa y afluencia de agosto.",
+        "Tampoco si se necesita hospital en el municipio o se espera transporte sin coche para todo lo disperso.",
+      ],
+      veredicto:
+        "Âncora equilibra playa abrigada y vida de villa a cambio de hospital en Viana y verano lleno. Su atractivo está en el frente marítimo integrado; su peaje, en no venderla como quietud de pinar ni como ciudad completa."
+    },
+ fotosAbrir: [
+ { src: "/fotos/alto-minho/ancora-playa.jpg", pie: "Playa abrigada de Vila Praia de Âncora" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/alto-minho/ancora-lagarteira.jpg", pie: "Fortaleza de Lagarteira, Âncora" },
+ ],
+ fotosFuera: [],
+ creditoFotos: credito,
+  }

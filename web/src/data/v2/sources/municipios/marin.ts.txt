@@ -1,0 +1,60 @@
+{
+    escala: "Villa portuaria y costa residencial",
+    abrir: [
+      "Marín se siente como dos mundos a pocos minutos: el casco compacto mira a un puerto comercial y a la Escuela Naval Militar; hacia el oeste, Portocelo, Mogor, Aguete y Loira cambian contenedores por playas, pinares y urbanizaciones de chalés. Marín nombra villa y municipio; Mogor y Aguete son núcleos costeros, no barrios del centro.",
+      "Un martes de noviembre hay mercado, comercio, colegios, centro de salud y autobuses frecuentes hacia Pontevedra. La autonomía es fuerte para la vida urbana; el coche o el bus abren las playas. Se puede resolver la semana a pie en el casco, pero para bañarse se sale hacia Portocelo o Mogor. En Aguete el ritmo es residencial y el coche une casa y compra.",
+      "La playa no está desde todo el centro: las mejores playas son salida corta más que orilla a la puerta. El paseo cotidiano es el frente portuario o urbano; la costa de ocio comienza al oeste. Agosto llena playas y terrazas, pero puerto, Naval y cercanía a Pontevedra mantienen población todo el año.",
+      "Las fiestas del Carmen comienzan alrededor del 16 de julio y extienden actos unos diez días. El 22 de agosto, la Festa Corsaria recuerda a Juan Gago de Mendoza y 1809. El 29 de septiembre, San Miguel lleva la Danza das Espadas; el último sábado del mes, el San Migheleiro reúne peñas. Una vivienda céntrica participa de varias semanas intensas. Antes de comprar junto al centro hay que escuchar el puerto a distintas horas: Montecelo queda cerca, pero el ruido industrial también.",
+    ],
+    tiempo: [
+      "Frente a Mallorca, Marín pierde sol sobre todo en invierno y gana un verano más fresco, con agua de ría en Portocelo, Mogor y Aguete. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno se siente en la humedad de la ría y en el contraste entre puerto y costa residencial. Conviene revisar aislamiento y, junto al centro, el ruido industrial. Visitar un lunes laborable cerca del puerto enseña más que un sábado soleado en Aguete.",
+      "Sin coche, el casco resuelve mercado, comercio, colegios, salud y bus a Pontevedra. Para bañarse se sale unos minutos; en Aguete el coche pesa. En enero puerto y Naval mantienen población.",
+      "Conviven gente local, personal ligado al puerto y a la Naval, y vecinos que quieren Pontevedra cerca. Se oye gallego en el mercado. Entre semana manda el ritmo portuario; en julio el Carmen ocupa el centro.",
+      "Hay centro de salud con urgencias. El hospital práctico es Montecelo / área de Pontevedra, a un trayecto corto: la sanidad más inmediata de O Morrazo. Empadronarse abre cabecera local.",
+      "Ir y volver a Mallorca: Peinador a un trayecto medio con programación más estacional; Santiago con continuidad más estable. Pontevedra cerca facilita también la logística diaria.",
+      "El casco ofrece pisos con ascensor; hacia Mogor y Aguete, urbanizaciones de chalés con jardín y más coche. Conviene contar con aislamiento acústico y humedad, no solo cercanía a Portocelo.",
+    ],
+    historia: [
+      "Marín creció entre el antiguo priorato de Oseira, la pesca y un puerto cuya escala aumentó con la industrialización. El traslado de la Escuela Naval Militar desde San Fernando en 1943 convirtió la villa en centro de formación de oficiales y dio al frente urbano ceremonias, uniformes y espacios cerrados.",
+      "En Mogor se conservan petroglifos de la Edad del Bronce. La Pedra do Labirinto contiene uno de los pocos laberintos grabados conocidos en Galicia: líneas concéntricas a pocos metros de la playa. Petroglifo significa dibujo picado en la roca; aquí está dentro del paisaje costero.",
+      "Juan Gago de Mendoza organizó en 1809 la resistencia local contra las tropas napoleónicas; la Festa Corsaria recuerda aquel episodio. La Danza das Espadas de San Miguel conserva otra memoria: los mareantes recorren la villa unidos por piezas llamadas espadas al son de las gaitas.",
+    ],
+    fuera: [
+      "Portocelo es la primera playa desde la villa: arena protegida, pinar y servicios. Mogor añade arenales y el conjunto de petroglifos detrás. Aguete tiene playa, puerto deportivo y casas de costa; Loira, un arenal tranquilo hacia el límite con Bueu.",
+      "La senda litoral permite encadenar tramos entre Marín y Aguete. No todo el frente urbano es paseo por el peso del puerto y la Escuela Naval: la costa de ocio comienza realmente al oeste del casco. Esa separación ayuda a elegir vivienda.",
+      "Hacia el interior, el Lago de Castiñeiras es área forestal entre Marín y Vilaboa; Cotorredondo ofrece miradores sobre las rías. El río Lameira atraviesa la villa y su senda recupera una escala más pequeña lejos de las grúas.",
+    ],
+    casa: [
+      "El casco ofrece pisos con ascensor cerca de mercado, autobús y comercio. Hacia Mogor y Aguete aparecen urbanizaciones de chalés y casas con jardín: se gana playa y se depende más del coche. Antes de comprar junto al centro hay que escuchar el puerto y medir el recorrido de camiones.",
+      "Los precios y totales permanecen en la capa factual y en Idealista del mes. Playa, parcela y vistas cambian mucho el valor hacia Mogor y Aguete; no conviene inventar una cifra única para esos chalés.",
+      "Hay centro de salud con urgencias, mercado, supermercados, farmacias, colegios, institutos, biblioteca, deporte y comercio. Faltan hospital propio y gran oferta cultural, disponibles en Pontevedra a pocos minutos.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si hospital y Pontevedra deben estar cerca sin renunciar del todo al baño: Portocelo, Mogor —con la Pedra do Labirinto— y Aguete quedan como salida corta desde un casco funcional.",
+        "También si se acepta elegir entre piso urbano práctico y costa residencial a cambio de coche, y se asume que el centro no entrega playa inmediata.",
+      ],
+      no: [
+        "Encaja peor si se exige silencio en el centro: grúas, contenedores, camiones y Naval ocupan buena parte del frente. Carmen, Corsaria y San Miguel añaden semanas de ruido.",
+        "Tampoco si se quiere una villa orientada por completo al paseo turístico: Cangas o Bueu ofrecen una relación más continua entre casco marinero y agua de ocio.",
+      ],
+      veredicto:
+        "Marín ofrece logística fuerte —casco, bus a Pontevedra, hospital cerca— y playas de ría a pocos minutos al oeste a cambio de un centro que no es playa a la puerta y de ruido portuario según calle. Su atractivo está en la funcionalidad; su peaje, en confundir Aguete con el frente de contenedores."
+    },
+    fotosAbrir: [
+      { src: "/fotos/o-morrazo/marin-villa.jpg", pie: "Marín: villa compacta entre puerto y ría" },
+      { src: "/fotos/o-morrazo/marin-escuela-naval.jpg", pie: "Escuela Naval Militar, parte decisiva del frente urbano" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/o-morrazo/marin-mogor-laberinto.jpg", pie: "Laberinto de Mogor, petroglifo de la Edad del Bronce" },
+      { src: "/fotos/o-morrazo/marin-danza-espadas.jpg", pie: "El puerto de Marín, escenario de trabajo y de las fiestas de San Miguel" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/o-morrazo/marin-portocelo.jpg", pie: "Portocelo, primera playa al oeste del casco" },
+      { src: "/fotos/o-morrazo/marin-aguete.jpg", pie: "Aguete: playa, puerto deportivo y costa residencial" },
+    ],
+    creditoFotos: "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen).",
+  }

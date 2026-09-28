@@ -1,0 +1,59 @@
+{
+    escala: "Pueblo y parroquias",
+    abrir: [
+      "Soutomaior reúne dos mundos en un municipio pequeño. Arcade es la villa junto al fondo de la ría y la desembocadura del río Verdugo: estación, comercios, centro de salud, biblioteca Luís Seoane, pabellón y Multiúsos. Soutomaior, tierra adentro, da nombre al ayuntamiento y al castillo medieval sobre el valle. Alrededor quedan parroquias de casas, fincas y bosque. Vivir en Arcade y vivir junto al castillo son rutinas distintas.",
+      "Un martes de noviembre Arcade mantiene abiertos farmacias, tiendas y bares; pasan trenes hacia Vigo y Pontevedra, y el Camino Portugués cruza el puente de Pontesampaio, en el límite con Pontevedra. En el interior el día es más silencioso y el coche pesa. La autonomía es media-fuerte en Arcade; fuera del núcleo aumenta rápidamente la dependencia del vehículo.",
+      "La playa cotidiana es parcial: hay relación de ría en Arcade, no una gran playa urbana. A comienzos de primavera —habitualmente el primer fin de semana de abril— la Festa da Ostra llena Arcade alrededor del producto de la ensenada de San Simón, a menudo con albariño; durante la fiesta hay tráfico y mesas llenas. El resto del año la ría vuelve a ser paisaje de trabajo y paseo. El castillo ofrece otro calendario: camelias al final del invierno, bosque fresco en verano.",
+      "La posición es cómoda para una vida pequeña: Montecelo en Pontevedra y Peinador quedan a un trayecto corto. Esa accesibilidad no convierte Soutomaior en ciudad: fuera de Arcade faltan servicios a pie y la fibra puede cambiar de una parroquia a otra.",
+    ],
+    tiempo: [
+      "Frente a Mallorca, el valle del Verdugo trae más humedad y menos continuidad de sol; el jardín y los muros pasan muchas semanas mojados de octubre a marzo. El verano sigue lejos del calor sostenido mallorquín; la ensenada ofrece agua quieta. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno se siente en el jardín mojado y en los muros de piedra. Conviene revisar cubierta, drenaje, ventilación y moho en planta baja. Visitar la casa un día de lluvia seria enseña más que las camelias del castillo en foto de primavera.",
+      "Sin coche, solo cuadra bien Arcade: salud, farmacias, tiendas, bares y estación. En las parroquias el coche abre la semana. En enero Arcade mantiene servicios y el Camino; no hay urbanización turística que se vacíe.",
+      "La población es local; se oye gallego en Arcade. Entre semana manda el ritmo de pueblo; en abril la Festa da Ostra llena calles. Quien busque solo veraneo de gran arenal preferirá Cesantes; quien busque valle y ría de trabajo, Soutomaior.",
+      "Hay centro de salud local; el hospital práctico es Montecelo, en Pontevedra. Empadronarse abre lo local; para hospital se va a la ciudad. Es logística buena para una vida pequeña.",
+      "Ir y volver a Mallorca: Peinador cerca con programación más estacional; Santiago con continuidad más estable. Conviene mirar el calendario real de vuelos y el trayecto desde la parroquia concreta, no solo desde Arcade.",
+      "En Arcade hay pisos sobre calles con comercio; en Soutomaior y parroquias, casas de piedra, chalés y fincas. Fibra parcial: hay que comprobarla en el portal exacto. En una casa con accesos estrechos conviene imaginar la rutina dentro de diez años.",
+    ],
+    historia: [
+      "El castillo de Soutomaior nació como fortaleza medieval y quedó ligado a Pedro Álvarez de Sotomayor, llamado Pedro Madruga, señor gallego del siglo XV. Las revueltas irmandiñas de 1467 a 1469 alcanzaron también esta fortaleza antes de que fuera reconstruida. En el siglo XIX se transformó en residencia; sus jardines incorporaron magnolios, secuoyas y camelias. Desde 2018 un museo recorre la historia del recinto.",
+      "Arcade creció donde el Verdugo alcanza la ría. Del 7 al 9 de junio de 1809, el puente de Pontesampaio fue escenario de la batalla en la que fuerzas populares y militares frenaron a las tropas napoleónicas. El Camino Portugués lo cruza todavía. Entre puente, estación, ostras y castillo se entiende un municipio de paso y agua, no solo de retiro rural.",
+    ],
+    fuera: [
+      "Arcade tiene una pequeña orilla en la desembocadura; para un baño de arena más amplio la referencia cercana es Cesantes, en Redondela. La costa de Soutomaior es más de marea, marisqueo y paseo que de gran arenal.",
+      "La senda del río Verdugo permite caminar junto al agua dulce antes de que se mezcle con la ría. Alrededor del castillo, jardines y bosque forman un paseo de varias horas. Pontesampaio añade puente de piedra, casas junto al río y paso de peregrinos.",
+      "En media hora se amplía el mapa: Lago Castiñeiras y el mirador de Cotorredondo, entre Vilaboa y Marín; Pontevedra para un día de lluvia; Vigo y los barcos a las Cíes en temporada. Soutomaior funciona como base entre dos ciudades y dos aguas.",
+    ],
+    casa: [
+      "En Arcade hay pisos sobre calles con comercio y estación. En Soutomaior y las parroquias predominan casas de piedra, chalés y fincas, a menudo con accesos estrechos. Hay poca obra nueva; la fibra se comprueba en el portal exacto.",
+      "Los precios y totales permanecen en la capa factual y en Idealista del mes. Hay que mirar cubierta, drenaje, saneamiento, orientación invernal y humedad en planta baja; en Arcade, escuchar la N-550 y la vía; junto al río, preguntar por zonas inundables.",
+      "Los servicios cotidianos se concentran en Arcade. Faltan hospital, instituto con oferta amplia, cine y grandes superficies: Pontevedra y Vigo cubren lo que el núcleo no da.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca casa con terreno o ritmo de pueblo sin quedar aislado: Arcade para compra, tren y ría; parroquias para bosque y silencio; Montecelo y Peinador a un trayecto corto.",
+        "También si se acepta que la vida peatonal fuerte está en Arcade y que la playa propia es parcial —relación de ensenada, no gran arenal urbano—.",
+      ],
+      no: [
+        "Encaja peor si todos los servicios deben estar a pie fuera de Arcade: el coche abre la semana en el interior.",
+        "Tampoco si se busca un gran arenal propio o se decide solo tras la Festa da Ostra, sin probar un martes gris de valle.",
+      ],
+      veredicto:
+        "Soutomaior ofrece castillo, Verdugo y Arcade funcional a cambio de coche rápido fuera del núcleo y playa solo parcial. Su atractivo está en la calma conectada entre Vigo y Pontevedra; su peaje, en confundir el municipio entero con la villa de la estación."
+    },
+ fotosAbrir: [
+ { src: "/fotos/vigo-e-ria/soutomaior-arcade.jpg", pie: "El castillo de Soutomaior domina el valle sobre Arcade" },
+ { src: "/fotos/vigo-e-ria/soutomaior-castelo.jpg", pie: "Ventanales y piedra del castillo entre el bosque" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/vigo-e-ria/soutomaior-torres.jpg", pie: "La fortaleza vinculada a Pedro Madruga, señores de la Galicia medieval" },
+ { src: "/fotos/vigo-e-ria/soutomaior-pontesampaio.jpg", pie: "Pontesampaio: orilla y puente histórico sobre el río Verdugo" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/vigo-e-ria/soutomaior-camelias.jpg", pie: "Jardines del castillo: camelias y sombra de invierno gallego" },
+ { src: "/fotos/vigo-e-ria/soutomaior-verdugo.jpg", pie: "El Verdugo cerca de Pontesampaio, antes de encontrarse con la ría" },
+ ],
+ creditoFotos: "Fotos: Wikimedia Commons (CC BY-SA).",
+  }

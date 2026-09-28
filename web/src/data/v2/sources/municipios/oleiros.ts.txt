@@ -1,0 +1,63 @@
+{
+    escala: "Corona residencial de microzonas",
+    abrir: [
+      "Oleiros no es una sola vida: es un municipio de microzonas. Alrededor de treinta y ocho mil habitantes repartidos junto a la ría y la costa: Santa Cruz —castillo en islote, bahía pequeña y paseo—, Mera —faro, playa y núcleo marítimo—, Perillo —continuidad urbana y biblioteca central—, Bastiagueiro —playa mayor y más abierta— y el Monumento Natural de Dexo-Serantes, con acantilados y senda.",
+      "Quien vive aquí busca orden, casas bajas y capital cerca, no lonja densa. Un martes de noviembre el súper, la primaria y el colegio cubren la semana básica en muchas microzonas sin entrar cada día en A Coruña; el coche, sin embargo, reaparece según se elija orilla o interior.",
+      "En verano Santa Cristina, Mera y Bastiagueiro reciben toallas, tráfico y aparcamiento escaso. San Juan anima la costa. Tierra adentro, hacia las urbanizaciones, el silencio vuelve antes. Si se mezclan Santa Cruz, Mera y Perillo en una sola frase, se inventa un Oleiros que no existe.",
+      "Fuera de agosto recupera ritmo residencial. Si solo conoces un sábado de sol en Santa Cristina, te llevas urbanización de folleto. Si has visto un noviembre cubierto y el trayecto real a compra y playa, ya puedes decidir.",
+    ],
+    tiempo: [
+      "Frente a Mallorca el cielo del Golfo Ártabro se nota más cubierto y con llovizna que también aparece en verano; no se fija aquí una media municipal heredada de otra estación. El verano es suave. Santa Cruz y Mera ofrecen agua de ría o costa suave, en general más usable que Riazor; Bastiagueiro abre más el horizonte. El clima se cuenta en cualitativo.",
+      "Conviene probar un noviembre cubierto, no solo el sol de agosto en la orilla.",
+    ],
+    vivir: [
+      "El invierno se nota en la casa baja: humedad de ría y terraza o jardín que se usan menos entre noviembre y febrero. Conviene preguntar por aislamiento y orientación; un noviembre cubierto enseña más que mil fotos de Santa Cristina.",
+      "Sin coche, la autonomía es fuerte en algunas microzonas y media en otras. Perillo ofrece continuidad urbana; Santa Cruz combina pequeño núcleo y bahía; Mera tiene escala marítima menor. La casa exacta decide si el súper y la playa caben en el mismo gesto.",
+      "Llegar de fuera es habitual: corona residencial coruñesa, no villa marinera de lonja. Se oye gallego en el ayuntamiento; el castellano basta para lo cotidiano. Entre semana manda el ir y venir hacia A Coruña; en verano sube el volumen en la orilla.",
+      "La sanidad especializada no está en el municipio: el CHUAC queda a un trayecto corto desde Perillo o Santa Cristina; desde Mera o Dexo se alarga. Empadronarse abre primaria distribuida; para hospital se baja a A Coruña.",
+      "Ir y volver a Mallorca: Alvedro queda muy cerca (Palma sobre todo en verano); Santiago-Lavacolla aporta enlace durante casi todo el año a un trayecto mayor. Conviene comprobar programación vigente.",
+      "Predominan chalés y casas bajas; también pisos en algunos núcleos. En la orilla hay que contar con salitre y ocupación de agosto; tierra adentro, orientación y parcela.",
+    ],
+    historia: [
+      "Santa Cruz concentra la ficha señorial y defensiva: el castillo sobre un islote, el paseo y el puerto deportivo convierten el núcleo en foto vivida, no en decorado. Oleiros creció como corona residencial de A Coruña, no como villa marinera densa.",
+      "Dexo-Serantes protege acantilados y senda costera: el otro carácter del municipio, más bravo que la ría de Santa Cristina. El urbanismo moderno —parques, equipamientos, casas bajas— explica por qué aquí se siente urbanización con playa más que pueblo antiguo.",
+    ],
+    fuera: [
+      "Santa Cruz ofrece bahía y paseo; Mera, arena y faro; Bastiagueiro, playa mayor. Son experiencias distintas según la vivienda. Un martes de junio la toalla cabe; un domingo de agosto, el aparcamiento no.",
+      "La senda de Dexo-Serantes permite caminar acantilado cuando la ría se queda corta. A Coruña queda a minutos para compras grandes, cultura y hospital; Gandarío amplía arenal de ría templada.",
+      "Aquí la orilla de diario depende de la microzona; la capital, del mismo trayecto corto que el aeropuerto cuando se elige bien el núcleo.",
+    ],
+    casa: [
+      "Chalés y casas bajas en urbanización; pisos en algunos núcleos. Conviene ver un día de veraneo en la orilla y un noviembre gris. Santa Cruz, Mera, Perillo y Bastiagueiro no deben mezclarse al firmar.",
+      "Los precios permanecen en la capa factual. Quien priorice orden y playa lo entiende; quien busque casco gótico o ciudad naval, mira otro municipio.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca urbanización ordenada con playa a minutos y A Coruña cerca, aceptando que la vida real depende de Santa Cruz, Mera, Perillo o Bastiagueiro —no de un Oleiros único—.",
+        "También si se acepta usar la ciudad para hospital y cultura mayor, con Alvedro cerca y Lavacolla como refuerzo de Palma durante casi todo el año.",
+      ],
+      no: [
+        "Encaja peor si se necesita casco antiguo, aldea marinera o ciudad naval: aquí mandan el chalé y el paseo. Tampoco si se espera una única vida peatonal idéntica en todo el municipio.",
+        "Tampoco si el cielo debe parecerse al de Mallorca o si se decide solo tras un sábado de sol en Santa Cristina, sin probar noviembre ni el aparcamiento de agosto.",
+      ],
+      veredicto:
+        "Oleiros es corona residencial de microzonas: Santa Cruz, Mera y Perillo cambian el peaje a cambio de orden y A Coruña cerca. Su atractivo está en la calidad residencial; su peaje, en no inventar un solo Oleiros ni homogenizarlo con Ferrol o con la capital."
+    },
+    fotoIdentidad: {
+      src: "/fotos/golfo-artabro-e-ferrol/oleiros-identidad.jpg",
+      pie: "Oleiros–Santa Cristina: casas frente a la ría, con el monte detrás",
+    },
+    fotosAbrir: [
+      { src: "/fotos/golfo-artabro-e-ferrol/oleiros-santa-cruz.jpg", pie: "Santa Cruz: castillo en islote y paseo" },
+      { src: "/fotos/golfo-artabro-e-ferrol/oleiros-mera.jpg", pie: "Mera, faro y playa en Oleiros" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/golfo-artabro-e-ferrol/oleiros-santa-cristina.jpg", pie: "Santa Cristina, paseo de ría" },
+      { src: "/fotos/golfo-artabro-e-ferrol/oleiros-perillo.jpg", pie: "Perillo, núcleo residencial junto a la ría" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/golfo-artabro-e-ferrol/oleiros-dexo.jpg", pie: "Dexo-Serantes: acantilados y senda costera" },
+      { src: "/fotos/golfo-artabro-e-ferrol/oleiros-bastiagueiro.jpg", pie: "Bastiagueiro, playa de oleaje suave" },
+    ],
+    creditoFotos: credito,
+  }

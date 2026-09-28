@@ -140,19 +140,24 @@ function ContenidoAcordeones({
           <p className="text-[15px] leading-relaxed text-[var(--tinta)]">{f.encajaNo[0]}</p>
         </Accordion>
       )}
-      {f.encajaVeredicto ? (
+      {f.queComprobar.length > 0 ? (
         <Accordion
           id={`${prefix}-ver`}
-          titulo="Veredicto"
+          titulo="Qué comprobar"
           abierto={abierto("ver")}
           onToggle={() => toggle("ver")}
           tituloClase={tituloClase}
           panelClase={panelClase}
           masClase={masClase}
         >
-          <p className="text-[15px] leading-relaxed text-[var(--tinta)]">
-            {f.encajaVeredicto.replace(/^Veredicto:\s*/i, "")}
-          </p>
+          {f.queComprobar.map((p, i) => (
+            <p
+              key={`qc-${i}`}
+              className="mt-1.5 text-[15px] leading-relaxed text-[var(--tinta)] first:mt-0"
+            >
+              {p}
+            </p>
+          ))}
         </Accordion>
       ) : null}
     </>

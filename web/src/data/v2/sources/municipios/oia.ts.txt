@@ -1,0 +1,58 @@
+{
+    escala: "Casas dispersas entre sierra y océano",
+    abrir: [
+      "Oia no es un pueblo con plaza que lo reúna todo. Son parroquias —Oia, Mougás, Viladesuso, Pedornes, Burgueira, Loureza, Torroña— colgadas entre la Serra da Groba y el Atlántico. Se vive en aldea: océano delante, sierra detrás, y un monasterio de piedra plantado frente al mar que organiza la imagen más reconocible del municipio.",
+      "La autonomía cotidiana es baja-media y la dependencia del coche, alta. Un martes de noviembre se pueden recorrer kilómetros sin cruzarse con nadie salvo el viento; el súper grande y el instituto están en Baiona o A Guarda. Tener costa no equivale a playa cotidiana desde cualquier vivienda: el baño y el paseo cambian mucho por parroquia.",
+      "Hay semanas en que la sierra rompe el silencio. El lunes después de Pentecostés, la Virxe do Mar reúne parroquias junto al océano. Entre mayo y junio, los curros de Valga, Torroña y Mougás bajan los caballos de la Groba; en agosto llegan las «moscas». Carretera, polvo y voces ocupan entonces un paisaje que el resto del año parece vacío.",
+    ],
+    tiempo: [
+      "El cielo es de costa atlántica abierta: más gris y humedad en invierno que en Mallorca, verano fresco y viento que pesa más que el termómetro. Un noviembre en aldea dice más que un agosto soleado junto al monasterio.",
+    ],
+    vivir: [
+      "El invierno se siente en la soledad de la casa tanto como en la lluvia. Piedra o chalé con vistas pueden retener humedad si fallan aislamiento y ventilación. Visitar la aldea concreta un día gris enseña más que el anuncio de horizonte.",
+      "Sin coche no hay rutina completa: compra, médico e instituto piden volante. Los servicios básicos dependen de la parroquia; centro de salud, farmacia y aula municipal no sustituyen un núcleo compacto. En enero las aldeas se vacían; en agosto hay más coches en la PO-552, pero el carácter disperso no cambia.",
+      "Llegar de fuera suele ser decisión deliberada: silencio y paisaje a cambio de distancia. Se oye gallego en las parroquias; la vida social pasa por vecindario, no por calle mayor. Para ir y volver a Mallorca, Vigo y Porto suelen servir en verano; Santiago aporta más continuidad. El trayecto empieza en la aldea concreta, no en un casco inexistente.",
+      "El peaje es paisaje atlántico a cambio de dispersión. Quien confunda Oia con villa de bahía se equivocará de municipio.",
+    ],
+    historia: [
+      "Todo gira alrededor del monasterio de Santa María de Oia: comunidad documentada desde el siglo XII, Císter frente al océano, piedra y oleaje en la misma imagen. Desamortizado en el XIX, hoy el conjunto es privado; iglesia y claustro se ven desde la senda litoral.",
+      "Cuando el monasterio se cerró, quedó el mapa actual: aldeas, sierra y océano. En la Cabeciña de Mougás hay petroglifos; arriba pervive la ganadería comunal de los curros. Los nombres —Mougás, Torroña, Valga— nombran lugares distintos, no barrios de un único casco.",
+    ],
+    fuera: [
+      "Los paseos costeros existen según parroquia; no hay continuidad urbana que una un paseo marítimo único. Praia de Mougás es pequeña y batida: se va a mirar y a sentir el oleaje más que a un baño largo de resort. Para arena abrigada mucha gente baja a Baiona.",
+      "La senda litoral —Camino Portugués de la Costa— y el Alto da Groba —meseta de brezo y garranos— son las salidas que explican Oia. Monasterio, costa y sierra se recorren con desplazamientos frecuentes entre parroquias.",
+    ],
+    casa: [
+      "Lo habitual es casa aislada de piedra o chalé con vistas. No comprar solo por el horizonte: comprobar farmacia, compra, acceso y pendiente reales desde esa dirección.",
+      "La fibra es parcial y debe verificarse vivienda a vivienda. La experiencia cambia mucho por parroquia; dos anuncios con «vistas al mar» pueden describir vidas cotidianas distintas.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca océano salvaje y silencio y se acepta coche para casi todo lo que no sea mirar el mar. Monasterio, senda litoral y Groba están cerca de la puerta; el súper grande, no.",
+        "También si se entiende que el baño cómodo puede quedar en Baiona y que noviembre vacía las aldeas sin convertir eso en fallo del municipio.",
+      ],
+      no: [
+        "Encaja peor si se necesita plaza, comercio continuo y vida resoluble andando un martes de enero. Tampoco si el hospital del área de Vigo o el instituto fuera resultan inasumibles.",
+        "Tampoco si se decide solo en agosto soleado, sin haber visto el silencio y la dependencia del volante en invierno.",
+      ],
+      veredicto:
+        "Oia ofrece Atlántico y sierra a cambio de dispersión y coche. No es villa compacta ni playa cotidiana generalizable; es la opción de quien quiere horizonte bruto y ha comprobado un noviembre en la parroquia concreta donde piensa vivir."
+    },
+    fotoIdentidad: {
+      src: "/fotos/baixo-mino/oia-identidad.jpg",
+      pie: "Oia: casas junto al monasterio, Atlántico delante y la sierra detrás",
+    },
+    fotosAbrir: [
+      { src: "/fotos/baixo-mino/oia-mosteiro.jpg", pie: "Mosteiro de Santa María de Oia: piedra entre sierra y océano" },
+      { src: "/fotos/baixo-mino/oia-costa.jpg", pie: "La costa atlántica hacia Oia: oleaje y aldeas" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/baixo-mino/oia-mosteiro-lado.jpg", pie: "El monasterio visto desde tierra: el corazón de las parroquias" },
+      { src: "/fotos/baixo-mino/oia-fachada.jpg", pie: "Fachada barroca del monasterio" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/baixo-mino/oia-peirao.jpg", pie: "Peirao de Oia: el Atlántico se mira más que se nada" },
+      { src: "/fotos/baixo-mino/oia-groba-cabalos.jpg", pie: "Garranos en la Serra da Groba, sobre Mougás" },
+    ],
+    creditoFotos: "Fotos: Wikimedia Commons (CC BY-SA).",
+  }

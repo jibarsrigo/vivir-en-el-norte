@@ -1,0 +1,52 @@
+{
+    escala: "Ciudad costera en el eje de Bilbao",
+    abrir: [
+      "Castro-Urdiales tiene escala de ciudad pequeña y una doble orientación: puerto y costa cántabra por un lado, y una relación cotidiana muy fuerte con el eje de Bilbao por otro. El casco, Santa María, el castillo-faro y el puente forman un frente histórico que se enlaza con el paseo marítimo.",
+      "La autonomía cotidiana es fuerte: comercio y servicios permiten resolver la rutina en el núcleo con una dependencia baja-media del coche. Para hospital, la referencia práctica de la capa es Laredo; no debe sustituirse por Cruces por simple proximidad metropolitana.",
+      "Brazomar y otras playas o calas se integran en el frente urbano según barrio, pero la etiqueta correcta es parcial: no toda vivienda tiene la misma relación caminable con el baño.",
+    ],
+    tiempo: [
+      "El clima es marítimo, húmedo y de verano suave, con menos continuidad de sol que Mallorca. En el frente costero conviene revisar salitre, ventilación, aislamiento y exposición. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "Puerto, casco, comercio y paseo permiten una vida urbana anual que no depende del verano. La conexión por carretera y autobús con el área de Bilbao amplía empleo, compras y aeropuerto sin borrar la autonomía propia de Castro.",
+      "El hospital práctico sigue siendo Laredo según la capa 2026. El aeropuerto útil puede ser Bilbao y la conexión con Palma debe entenderse dentro de su programación, no como una propiedad de Castro.",
+      "El verano añade visitantes al frente marítimo y a las playas, pero la ciudad mantiene una base residencial y de servicios durante el resto del año.",
+    ],
+    historia: [
+      "Santa María, el castillo-faro y el puente forman una de las siluetas históricas más reconocibles de la costa oriental. El puerto explica el origen marítimo; el crecimiento residencial posterior explica la fuerte relación actual con Bizkaia.",
+      "Esa doble órbita es parte de la identidad: Castro no es solo destino de playa ni solo ciudad dormitorio, sino una ciudad costera con vida propia y conexiones metropolitanas.",
+    ],
+    fuera: [
+      "El puerto, el casco y el frente hacia Brazomar permiten paseos cotidianos sin salir de la ciudad. La playa puede integrarse mucho en algunos barrios y menos en otros.",
+      "Oriñón, Islares y otros tramos de costa amplían el radio de salida. Bilbao añade una dimensión metropolitana para cultura, compras y aeropuerto, pero no sustituye los servicios básicos de Castro.",
+    ],
+    casa: [
+      "La vivienda debe valorarse por barrio: distancia real al casco y al mar, aparcamiento, ruido de ejes de salida y facilidad para enlazar con Bilbao pueden cambiar la rutina.",
+      "En primera línea o zonas expuestas revisar salitre, aislamiento, ventilación y mantenimiento. Los precios actualizados quedan en la capa factual y la tabla.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca una ciudad costera con servicios propios y una conexión muy fuerte con Bilbao, sin renunciar a puerto y paseo marítimo.",
+        "También si se acepta que hospital y algunas funciones metropolitanas están fuera y que la playa cotidiana depende del barrio.",
+      ],
+      no: [
+        "Encaja peor si se quiere una villa pequeña y aislada de una dinámica metropolitana.",
+        "Tampoco si se presupone que Cruces es el hospital práctico asignado o que todas las zonas residenciales tienen playa a pie.",
+      ],
+      veredicto:
+        "Castro-Urdiales combina autonomía urbana, patrimonio marítimo y acceso al eje de Bilbao. Su lectura residencial correcta mantiene dos matices: el hospital práctico de la capa está en Laredo y la relación cotidiana con la playa cambia según el barrio."
+    },
+ fotosAbrir: [
+ { src: "/fotos/cantabria-oriental/castro-villa.jpg", pie: "Castro-Urdiales: villa medieval" },
+ { src: "/fotos/cantabria-oriental/castro-paseo.jpg", pie: "Paseo de Castro-Urdiales" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/cantabria-oriental/castro-santa-maria.jpg", pie: "Iglesia de Santa María, Castro-Urdiales" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/cantabria-oriental/castro-brazomar.jpg", pie: "Playa de Brazomar, Castro-Urdiales" },
+ { src: "/fotos/cantabria-oriental/castro-ostende.jpg", pie: "Playa de Ostende, Castro-Urdiales" },
+ ],
+ creditoFotos: credito,
+  }

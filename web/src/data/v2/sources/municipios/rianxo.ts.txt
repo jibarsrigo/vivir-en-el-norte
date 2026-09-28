@@ -1,0 +1,62 @@
+{
+    escala: "Villa literaria de ría",
+    abrir: [
+      "Rianxo se reconoce por la piedra y por los libros. Unos once mil habitantes al fondo de la ría de Arousa —la gran entrada de mar protegida de las Rías Baixas—, con puerto, plaza de soportales y calles cortas que bajan a la dársena. Es la villa natal de Castelao, Manuel Antonio y Rafael Dieste: tres nombres que aquí no son placas aisladas, sino el carácter del casco.",
+      "Quien vive aquí es gente de oficio y de lectura, y veraneantes gallegos que vuelven en agosto sin el volumen de Boiro o A Pobra. Un martes de noviembre el comercio básico, la biblioteca, el Centro Sociocultural-Auditorio y la atención primaria cubren la semana en el núcleo. El coche aparece para el Hospital do Barbanza y para Santiago; Padrón queda cerca como refuerzo de villa interior.",
+      "El paseo da Ribeira se prolonga hacia Praia da Torre: arena de ría, agua calmada, baño de diario sin pretender océano abierto. La circular oficial de unos doce kilómetros es otra salida, más larga. En julio el Carmen anima el puerto con procesión marinera, música y tráfico; fuera de esas fechas la villa recupera el silencio de orilla trabajada.",
+      "Primavera y otoño muestran Rianxo sin disfraz: orilla usable en mayo, humedad de granito en noviembre. Si solo conoces un sábado de sol junto a la Torre, te llevas calma de estuario. Si has visto un frente de invierno junto al puerto, ya puedes decidir si quieres esa piedra.",
+    ],
+    tiempo: [
+      "Frente a Mallorca el cielo de ría se nota más gris y con menos continuidad de sol; la terraza se usa la mitad en invierno. El verano es fresco atlántico, con noches que invitan a dormir con la ventana. Praia da Torre y el baño urbano tienen agua de ría usable en baños cortos, más calmada que el océano abierto. Las cifras detalladas quedan en la capa factual.",
+      "Conviene probar un noviembre lluvioso y un martes de junio en el paseo, no solo un sábado de agosto con el aparcamiento justo cerca del puerto.",
+    ],
+    vivir: [
+      "El invierno se siente en la humedad del granito y en las mañanas grises que la Serra do Barbanza —la sierra de granito de la comarca— puede alargar. Conviene revisar cubierta, ventilación y rastros de moho; un frente junto al puerto enseña más que un día claro en Torre.",
+      "Sin coche, el núcleo resuelve lo diario: comercio, farmacia, primaria y biblioteca. En enero hay mesas abiertas y marisqueo. El coche aparece para el Hospital do Barbanza y para salidas mayores. No es capital comarcal; es villa de trabajo y de piedra.",
+      "Llegar de fuera mezcla oficio, lectura y veraneo gallego contenido. Se oye gallego en la plaza; el castellano basta para lo cotidiano. Entre semana manda el ritmo de ría; el Carmen de julio anima el puerto. Quien busque solo resort no lo encontrará.",
+      "La sanidad especializada no está en el municipio: el Hospital do Barbanza queda a un trayecto comarcal razonable pero no inmediato. Empadronarse abre cabecera local; para hospital se conduce. Ese dato no se arregla eligiendo otra calle del casco.",
+      "Ir y volver a Mallorca pasa por el aeropuerto de Santiago-Lavacolla, con enlace a Palma durante casi todo el año —programación variable, conviene comprobar temporada—. En invierno el calendario real importa más que la idea de vuelo permanente.",
+      "El modelo habitual es piso o casa de piedra en el casco, o vivienda con más parcela en parroquias. Fibra en el núcleo; poca sensación de urbanización cerrada. Conviene imaginar humedad, aparcamiento de agosto cerca del puerto y escaleras dentro de diez años.",
+    ],
+    historia: [
+      "Alfonso Daniel Rodríguez Castelao nació en Rianxo en 1886. Dibujante, escritor y político, es una figura central de la cultura gallega del siglo XX; la villa conserva su memoria en calles y visitas ligadas a su obra. Manuel Antonio y Rafael Dieste completan un mapa literario que se siente en el casco, no solo en una placa.",
+      "El puerto y el marisqueo sostuvieron la economía mientras emigración y comercio dejaban casas de piedra y galerías. Hoy el dato útil es el de una orilla trabajada que sigue abierta en enero: cajas, marea y mesas que no esperan a agosto.",
+    ],
+    fuera: [
+      "Praia da Torre es el baño cotidiano al prolongar el paseo da Ribeira: agua de ría, poca ola, marea visible. Un martes de junio la arena cabe casi sola; un domingo de agosto el veraneo gallego se nota en el aparcamiento. Es playa de vecinos, no de resort.",
+      "Quien quiera un arenal más grande mira Barraña, en Boiro; quien quiera pinar y ría, Cabío en A Pobra. Vilagarcía queda al otro lado de Arousa; Padrón aporta escala interior. El registro aquí es estuario calmado, no costa brava.",
+      "La senda del río Te ofrece sombra cuando aprieta el sol en la orilla. Para monte se sube a la Serra do Barbanza o hacia A Curota —el mirador comarcal—. Santiago concentra compras grandes, hospital de referencia superior y el aeropuerto.",
+    ],
+    casa: [
+      "El modelo no es urbanización cerrada: piso o casa de piedra hacia el puerto y la plaza, o parcela en parroquia. Lo que se compra ya existe y tiene historia de uso: galerías, humedad de granito, olor a ría.",
+      "Conviene revisar humedad en noviembre, cubierta y aparcamiento cerca del puerto en el Carmen. Los precios y totales permanecen en la capa factual y en Idealista del mes.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si la ría calmada y la villa literaria importan más que tener el hospital a la vuelta de la esquina. Praia da Torre y el paseo da Ribeira dan baño y calle a pie; Castelao, Manuel Antonio y Dieste se sienten en el casco; Santiago y Lavacolla quedan a un trayecto cómodo para la comarca.",
+        "También si se valora mesas abiertas en enero, escala pequeña y agua de estuario frente a un gran arenal atlántico o a la densidad de Ribeira.",
+      ],
+      no: [
+        "Encaja peor si la prioridad absoluta es sanidad inmediata: el Hospital do Barbanza queda a un trayecto comarcal, no a pie. A Pobra o Ribeira acortan ese peaje.",
+        "Tampoco si se busca Atlántico abierto, dunas o capital comercial densa. Porto do Son da océano; Ribeira, lonja y hospital cerca. Quien se decida solo tras un sábado de sol en Torre, sin probar humedad de noviembre ni el Carmen junto al puerto, se llevará otra villa.",
+      ],
+      veredicto:
+        "Rianxo es villa de piedra y de ría: Torre a pie, cultura local y Santiago cerca a cambio de menor profundidad de servicios y hospital comarcal a un trayecto. Su atractivo está en la orilla literaria vivida; su peaje, en no confundir calma de estuario con autonomía de capital."
+    },
+ fotoIdentidad: {
+ src: "/fotos/barbanza-e-noia/rianxo-identidad.jpg",
+ pie: "Rianxo: casas de la villa frente a la ría de Arousa, con el monte detrás",
+ },
+ fotosAbrir: [
+ { src: "/fotos/barbanza-e-noia/rianxo-villa.jpg", pie: "Rianxo: villa de piedra al fondo de la ría de Arousa" },
+ { src: "/fotos/barbanza-e-noia/rianxo-tanxil.jpg", pie: "Tanxil, playa urbana de agua calma" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/barbanza-e-noia/rianxo-castelao.jpg", pie: "Memoria de Castelao en la villa natal" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/barbanza-e-noia/rianxo-puerto.jpg", pie: "Puerto de Rianxo, orilla de trabajo" },
+ { src: "/fotos/barbanza-e-noia/rianxo-paseo.jpg", pie: "Paseo junto a la ría en Rianxo" },
+ ],
+ creditoFotos: credito,
+  }

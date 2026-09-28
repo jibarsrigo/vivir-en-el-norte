@@ -1,0 +1,63 @@
+{
+    escala: "Parroquias residenciales de ría",
+    abrir: [
+      "Bergondo no pretende ser villa completa: pretende jardín, calma y proximidad metropolitana. Unos siete mil habitantes en parroquias residenciales y rurales junto a la ría de Betanzos. Los equipamientos no forman un único núcleo peatonal: biblioteca en A Senra, salud en Guísamo, compra a menudo en Sada o Betanzos.",
+      "La autonomía cotidiana es baja-media y la dependencia del coche, alta. Gandarío y O Regueiro existen como puntos de costa; no se puede asumir playa andando desde una vivienda municipal cualquiera. Quien viva hacia una parroquia interior comprará silencio a cambio de volante para casi todo.",
+      "En verano Gandarío y Pedrido reciben veraneo con tráfico y aparcamiento justo. Cerca, Betanzos celebra Os Caneiros —fiesta fluvial en el río Mandeo— con afluencia y cortes en fechas concretas. Fuera de temporada vuelve el ritmo de parroquia: verde, humedad y coche.",
+      "Si solo conoces un sábado de sol en Gandarío, te llevas ría de folleto. Si has visto un noviembre húmedo y la ruta real a farmacia y súper, ya puedes decidir.",
+    ],
+    tiempo: [
+      "Frente a Mallorca el cielo del golfo se nota más gris; al fondo de ría la niebla pesa más que en la orilla abierta. El verano es suave. Donde hay playa de ría, el agua suele ser más usable que el Atlántico de Ferrol; eso no convierte toda vivienda en casa con baño a pie. El clima se cuenta en cualitativo.",
+      "Conviene probar niebla y un agosto en la orilla, no solo el sol del pazo de Mariñán.",
+    ],
+    vivir: [
+      "El invierno se nota en la casa con jardín: humedad de ría y un noviembre que enseña coche y moho mejor que el anuncio. El jardín de agosto se usa menos entre noviembre y febrero.",
+      "Sin coche, la vida diaria casi no existe de forma generalizable. Hay que comprobar parroquia exacta y ruta real a compra, farmacia y salud. En enero Bergondo es parroquia, no villa con mesas a pie.",
+      "Llegar de fuera busca parcela y calma, no mercado compacto. Se oye gallego en los núcleos y en Betanzos cercano; el castellano basta para lo cotidiano. La vida social pasa por vecinos de parroquia, no por una plaza única.",
+      "El CHUAC queda a un trayecto metropolitano razonable; no está en el municipio. Empadronarse abre primaria en Guísamo; para hospital se conduce a A Coruña.",
+      "Ir y volver a Mallorca: Alvedro queda cerca (Palma sobre todo en verano); Santiago-Lavacolla aporta enlace durante casi todo el año. Conviene comprobar programación.",
+      "Predominan casas con jardín y terreno; fibra a comprobar por dirección. No comprar solo por vistas: comprobar acceso, pendiente, humedad y distancia real a servicios.",
+    ],
+    historia: [
+      "El pazo de Mariñán —casa solariega gallega de piedra con finca y jardines hacia la ría— es el emblema señorial de Bergondo. Se entiende como paisaje cuidado, no solo como monumento cerrado.",
+      "El monasterio de San Salvador añade capa religiosa y de piedra. Betanzos, a un trayecto corto, aporta el casco histórico comarcal y Os Caneiros. Lo que conviene saber es de ría residencial dispersa: pazo, monasterio y orilla, sin densidad urbana.",
+    ],
+    fuera: [
+      "Gandarío y O Regueiro son salidas de costa en puntos concretos, no un derecho peatonal de todo el municipio. Un martes de junio la toalla cabe; un domingo de agosto, la cuneta se llena.",
+      "Sada y Betanzos cubren comercio y casco; A Coruña, hospital y ciudad. Aquí la tarde de diario es parcela y carretera, no paseo de villa compacta.",
+      "Mariñán sirve para una visita de paisaje cuando no apetece pelear con el aparcamiento de agosto en la orilla.",
+    ],
+    casa: [
+      "Casas con jardín en parroquias; poca sensación de núcleo único. Conviene comprobar fibra, acceso, humedad y ruta a súper y farmacia antes de firmar por la parcela.",
+      "Los precios permanecen en la capa factual. El anuncio enseña verde; noviembre enseña coche.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se acepta coche casi cada día a cambio de jardín, calma y proximidad a A Coruña, Sada o Betanzos, sin exigir playa generalizable a pie.",
+        "También si se comprueba la parroquia concreta —A Senra, Guísamo, orilla o interior— y se asume el CHUAC a un trayecto metropolitano.",
+      ],
+      no: [
+        "Encaja peor si se busca villa compacta, playa cotidiana asegurada o autonomía peatonal: la playa no es generalizable y los servicios están repartidos.",
+        "Tampoco si se compra solo por Gandarío en foto, sin probar noviembre ni la distancia real a compra y salud.",
+      ],
+      veredicto:
+        "Bergondo ofrece parcela y ría cercana a cambio de autonomía baja-media y coche. Su atractivo está en la calma metropolitana; su peaje, en no inventar una villa ni una playa andando desde cualquier dirección."
+    },
+    fotoIdentidad: {
+      src: "/fotos/golfo-artabro-e-ferrol/bergondo-identidad.jpg",
+      pie: "Bergondo: casas junto a la ría de Betanzos y el puente do Pedrido",
+    },
+    fotosAbrir: [
+      { src: "/fotos/golfo-artabro-e-ferrol/bergondo-marinan.jpg", pie: "Pazo de Mariñán hacia la ría" },
+      { src: "/fotos/golfo-artabro-e-ferrol/bergondo-gandario.jpg", pie: "Gandarío, playa larga de ría en Bergondo" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/golfo-artabro-e-ferrol/bergondo-pazo.jpg", pie: "Jardines y piedra del pazo de Mariñán" },
+      { src: "/fotos/golfo-artabro-e-ferrol/bergondo-monasterio.jpg", pie: "Monasterio de San Salvador de Bergondo" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/golfo-artabro-e-ferrol/bergondo-pedrido.jpg", pie: "Pedrido, orilla de ría" },
+      { src: "/fotos/golfo-artabro-e-ferrol/bergondo-ria.jpg", pie: "Ría de Betanzos desde Bergondo" },
+    ],
+    creditoFotos: credito,
+  }

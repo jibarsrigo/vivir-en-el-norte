@@ -1,0 +1,54 @@
+{
+    escala: "Villa marinera conectada con Gijón",
+    abrir: [
+      "Candás funciona como una villa marinera con vida propia y una conexión estrecha con Gijón. Puerto, centro y playa quedan próximos, mientras el tren de ancho métrico añade una alternativa al coche para moverse por el eje costero.",
+      "La autonomía cotidiana es fuerte para su tamaño. Comercio y equipamientos locales permiten resolver bastante semana dentro de la villa; Gijón amplía oferta sin convertir Candás en un simple dormitorio.",
+    ],
+    tiempo: [
+      "Frente a Mallorca, aquí el año es más húmedo y fresco y el verano menos caluroso. Cerca del puerto y las playas conviene mirar salitre, viento, orientación y ventilación antes que quedarse solo con la cercanía al agua.",
+      "Palmera y Carranques permiten una relación cotidiana o parcial con el baño según la vivienda; Xivares amplía la costa hacia el oeste. El mar forma parte de la villa, no únicamente de una excursión.",
+    ],
+    vivir: [
+      "Una mañana puede transcurrir entre el puerto, el frente marítimo y el centro. La biblioteca y el Teatro Prendes amplían la vida local más allá del paseo, y el tren permite pensar algunos desplazamientos hacia Gijón sin depender siempre del coche.",
+      "La capa 2026 sitúa la capacidad de servicios por encima de la que reflejaba el relato antiguo. No hace falta convertirlo en una nota numérica: la consecuencia es que Candás mantiene una rutina anual bastante completa para una villa de esta escala.",
+      "La sanidad hospitalaria está fuera. Las fuentes internas conservan una discrepancia entre un tiempo histórico corto y la referencia práctica hacia Cabueñes; por eso el relato no fija un minuto único. Para hospital hay que salir, con Gijón como parte natural del mapa.",
+      "Aboño es el peaje territorial que no debe ocultarse. La actividad industrial al oeste forma parte del entorno y puede importar al elegir microzona; no es necesario atribuirle efectos concretos que las fuentes no documenten.",
+    ],
+    historia: [
+      "Puerto y faro mantienen la identidad marinera de Candás, mientras equipamientos culturales como el Museo Antón forman parte de una villa que conserva actividad más allá del verano.",
+      "La cercanía de Aboño introduce la otra cara del litoral de Carreño: costa habitada, comunicaciones e industria conviven en pocos kilómetros.",
+    ],
+    fuera: [
+      "Palmera y Carranques son las referencias inmediatas de playa; Xivares amplía el mapa costero. Gijón queda suficientemente conectado para convertirse en salida habitual de comercio, cultura y sanidad.",
+      "El tren es útil como conexión existente, pero no conviene prometer frecuencias o tiempos que la capa no documenta. La ventaja es disponer de otra opción además de la carretera.",
+    ],
+    casa: [
+      "En Candás conviene comprobar accesibilidad, distancia real al centro y al mar, aparcamiento, salitre y orientación. Hacia el oeste debe mirarse también la relación concreta de la vivienda con el entorno industrial.",
+      "Precio y estimaciones quedan en la capa factual. La vivienda se entiende mejor por calle y microzona que mediante antiguas medias narrativas.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca una villa pequeña con puerto, playa, servicios propios y conexión práctica con Gijón, sin necesitar vivir dentro de una gran ciudad.",
+        "También si se valora poder alternar coche y tren para parte de los desplazamientos y mantener una rutina anual local.",
+      ],
+      no: [
+        "Encaja peor si la cercanía de Aboño resulta incompatible con la vivienda buscada o si el hospital debe estar dentro de la propia villa.",
+        "Tampoco si se espera que toda la costa de Carreño tenga la misma autonomía peatonal que el centro de Candás.",
+      ],
+      veredicto:
+        "Candás combina una autonomía local fuerte con puerto, playa y conexión ferroviaria hacia Gijón. Su principal contrapartida es la convivencia territorial con Aboño y la necesidad de salir para hospital y oferta de gran ciudad; por eso la microzona concreta importa."
+    },
+ fotosAbrir: [
+ { src: "/fotos/asturias-centro/candas-puerto.jpg", pie: "Puerto de Candás" },
+ { src: "/fotos/asturias-centro/candas-villa.jpg", pie: "Candás: villa marinera de Carreño" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/asturias-centro/candas-faro.jpg", pie: "Faro de Candás" },
+ { src: "/fotos/asturias-centro/candas-paseo.jpg", pie: "Paseo en Candás" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/asturias-centro/candas-playa.jpg", pie: "Playa en Candás" },
+ { src: "/fotos/asturias-centro/candas-palmera.jpg", pie: "Costa de Candás hacia el Pedrero" },
+ ],
+ creditoFotos: credito,
+  }

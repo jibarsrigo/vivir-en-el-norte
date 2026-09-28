@@ -1,0 +1,58 @@
+{
+    escala: "Núcleo interior, Lastres y costa",
+    abrir: [
+      "Colunga obliga a distinguir el núcleo municipal de Lastres y de las playas. En Colunga se concentran servicios básicos; Lastres baja hacia el puerto con una topografía muy marcada; La Griega y otras zonas costeras añaden una tercera experiencia.",
+      "La autonomía cotidiana es media y el coche tiene un papel estructural. La costa está cerca, pero no toda vivienda permite usarla igual, y vivir en Lastres introduce pendientes que no deben extrapolarse al núcleo de Colunga.",
+    ],
+    tiempo: [
+      "Frente a Mallorca, el oriente asturiano es más húmedo, gris y fresco. En Lastres la pendiente se combina con exposición marítima; en otras zonas importan especialmente aislamiento, orientación y acceso durante el invierno.",
+      "La relación cotidiana con el baño depende de la microzona. La Griega y el entorno de Lastres forman parte del mapa costero, pero no convierten todo Colunga en una localidad de playa a pie.",
+    ],
+    vivir: [
+      "Una mañana en Colunga puede resolver básicos locales; en Lastres la rutina se mezcla con puerto, vistas y cuestas. Para ampliar servicios y desplazamientos, el coche aparece pronto.",
+      "La Griega y el MUJA pueden formar una salida corta, mientras el Fitu y el Sueve cambian la escala hacia paisaje y montaña. Son recursos próximos, no sustitutos de una oferta cotidiana limitada.",
+      "El hospital práctico está en Arriondas y el aeropuerto queda bastante más lejos que en Asturias Centro. Esa logística pesa si los desplazamientos frecuentes son importantes.",
+      "La estacionalidad se nota más en Lastres y la costa que en el núcleo. Elegir vivienda sin distinguir esas microzonas puede producir una imagen equivocada de ruido, pendiente o autonomía.",
+    ],
+    historia: [
+      "Lastres conserva una relación muy visible entre puerto y ladera, con el caserío subiendo desde el mar. Esa topografía es identidad y también condición cotidiana.",
+      "El MUJA y las huellas de La Griega conectan el municipio con su patrimonio jurásico, mientras el Sueve y el Fitu explican la cercanía entre mar y montaña.",
+    ],
+    fuera: [
+      "La Griega es una referencia de playa y el MUJA una salida próxima. El Fitu abre una jornada más larga hacia el Sueve y las vistas sobre la costa.",
+      "Arriondas entra en el mapa por la sanidad; Villaviciosa y Ribadesella amplían servicios y vida de villa en direcciones opuestas.",
+    ],
+    casa: [
+      "En Lastres hay que medir pendiente, acceso, aparcamiento, humedad y exposición. En Colunga núcleo cambian las prioridades hacia servicios y coche para llegar al mar.",
+      "Precio y estimaciones quedan en la capa factual. La vivienda debe compararse por microzona porque puerto, núcleo y costa no ofrecen la misma rutina.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se acepta usar coche y se valora tener en pocos kilómetros pueblo, costa, patrimonio jurásico y el Sueve.",
+        "Lastres encaja especialmente con quien acepta pendientes a cambio de una relación directa con el puerto; Colunga ofrece una rutina más práctica pero menos marítima.",
+      ],
+      no: [
+        "Encaja peor si se necesita una semana muy autónoma a pie o hospital y aeropuerto próximos.",
+        "Tampoco si se quiere playa cotidiana garantizada desde cualquier vivienda o una topografía sencilla en Lastres.",
+      ],
+      veredicto:
+        "Colunga reúne varias experiencias próximas pero no intercambiables: servicios básicos en el núcleo, puerto y pendientes en Lastres, y costa como salida según microzona. El paisaje es muy accesible; la contrapartida es coche, autonomía intermedia y una logística hospitalaria y aeroportuaria menos inmediata."
+    },
+ fotoIdentidad: {
+ src: "/fotos/asturias-oriente/colunga-identidad.jpg",
+ pie: "Lastres (Colunga): casas blancas colgadas sobre la bahía — así se vive entre cuesta y mar",
+ },
+ fotosAbrir: [
+ { src: "/fotos/asturias-oriente/colunga-lastres.jpg", pie: "Lastres, pueblo colgado" },
+ { src: "/fotos/asturias-oriente/colunga-mirador.jpg", pie: "Mirador de San Roque, Lastres" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/asturias-oriente/colunga-muja.jpg", pie: "MUJA, Museo del Jurásico de Asturias" },
+ { src: "/fotos/asturias-oriente/colunga-sueve.jpg", pie: "Sierra del Sueve sobre Colunga" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/asturias-oriente/colunga-griega.jpg", pie: "Playa de La Griega" },
+ { src: "/fotos/asturias-oriente/colunga-isla.jpg", pie: "Playa de La Isla, Colunga" },
+ ],
+ creditoFotos: credito,
+  }

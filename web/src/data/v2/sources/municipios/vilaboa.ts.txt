@@ -1,0 +1,60 @@
+{
+    escala: "Casas dispersas / parroquias",
+    abrir: [
+      "Vilaboa no es una villa compacta pese a su nombre. Los habitantes viven repartidos entre parroquias sobre la ensenada de San Simón, al fondo de la ría de Vigo. Santa Cristina de Cobres y Santo Adrián de Cobres miran al agua desde la ladera; Vilaboa reúne ayuntamiento y algunos servicios; Figueirido y Bértola se acercan a Pontevedra. Casas, fincas, pequeños núcleos y carreteras forman una vida dispersa sin una plaza única que lo ordene todo.",
+      "Un martes de noviembre hay humo en alguna chimenea, actividad en talleres de carretera y pocos peatones. La autonomía cotidiana es baja-media: el coche abre casi todos los días. La compra grande, el instituto, el hospital o el cine llevan a Pontevedra; Arcade y Redondela completan lo cotidiano hacia el sur. La calma es real, pero la N-550, la N-554 y los accesos a la AP-9 atraviesan el municipio.",
+      "La playa no es generalizable. Depende de la parroquia; costa no significa baño cotidiano desde casa. El agua que se ve es la ensenada de San Simón: con marea alta parece un lago marino; con bajamar descubre fango, canales y zonas de marisqueo. Las Salinas de Ulló —antiguas salinas convertidas en marisma— ocupan uno de sus bordes: aves, juncos y trabajo de marea, no paseo comercial.",
+      "El Entroido de Cobres —carnaval documentado desde el siglo XVIII— rompe el invierno con la Danza dos Cobres: madamas y galáns recorren los lugares con trajes ornamentados y sombreros de flores, cintas y piezas brillantes. Quien llegue buscando «pueblo» debe saber que aquí pueblo significa parroquia y vecinos repartidos, no calle mayor.",
+    ],
+    tiempo: [
+      "Frente a Mallorca, Vilaboa pierde continuidad de sol y gana un invierno húmedo: muros, jardín y monte permanecen mojados buena parte de octubre a marzo. El verano es más fresco que el mallorquín; la ensenada protege del viento fuerte, pero las playas propias son pequeñas y la marea manda. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno se siente en muros, jardín y monte húmedos. Conviene revisar cubierta, drenaje, saneamiento y orientación invernal: en una ladera norte el sol puede desaparecer temprano. Visitar la finca un día gris y otro de sol bajo enseña más que la vista a San Simón en foto.",
+      "El día a día sin coche casi no existe: consultorio, farmacia, tiendas y bares están repartidos. En enero hay pocos peatones. La calma no equivale a vida a pie.",
+      "Llegar de fuera suele buscar casa y silencio de parroquia, no un casco único. Se oye gallego en Cobres. Entre semana manda el ritmo disperso; el Entroido de Cobres rompe el invierno. Quien busque plaza mayor no la encontrará.",
+      "La atención primaria es local o distribuida; el hospital práctico es Montecelo, en Pontevedra. Empadronarse abre lo local vía consultorio; para hospital se va a la ciudad. Arcade y Redondela completan otras compras.",
+      "Ir y volver a Mallorca: Peinador cerca con programación más estacional; Santiago con continuidad más estable. Conviene mirar el calendario vigente.",
+      "La vivienda característica es casa de piedra reformada o chalé con finca en ladera. No hay apenas obra nueva; fibra parcial por dirección. Hay que comprobar acceso estrecho, saneamiento, agua y humedad —no comprar solo por vistas—.",
+    ],
+    historia: [
+      "Las Salinas de Ulló explican una antigua relación económica con la ensenada: se construyeron para obtener sal por evaporación y después se abandonaron; diques y estanques fueron ocupados por carrizal y aves. Hoy una senda llana recorre aquel paisaje industrial transformado en humedal.",
+      "Durante el siglo XIX, Vilaboa conservó una economía rural en la que el cultivo de la vid convivía con la pesca y los trabajos de la ensenada. El paisaje de Rande —el estrecho, las islas y el puente— era horizonte y vía de comunicación. En la parte alta, túmulos y petroglifos llevan la ocupación humana mucho más atrás.",
+      "El Entroido de Cobres conserva otra memoria: madamas y galáns bailan por las parroquias desde el siglo XVIII. No es un adorno importado para visitantes, sino tradición vecinal que ocupa caminos dispersos.",
+    ],
+    fuera: [
+      "Deilán y Paredes son pequeñas playas de la ensenada, útiles cuando la marea acompaña; no tienen la amplitud ni los servicios de Samil o Cesantes. Para un baño largo de arena, Cesantes queda como salida corta. Aquí aprender la tabla de mareas importa más que elegir sombrilla.",
+      "Las Salinas de Ulló ofrecen el paseo más propio: recorrido llano sobre antiguos diques, entre marisma y observación de aves. Lago Castiñeiras, en el monte entre Vilaboa y Marín, es embalse rodeado de bosque; desde allí se sube al mirador de Cotorredondo, con vistas a la ría de Vigo y a la de Pontevedra.",
+      "Para montaña más larga están el Galiñeiro y el parque natural del Monte Aloia. Pontevedra queda tan cerca que su casco peatonal puede ser el paseo de un día lluvioso. Vilaboa permite volver de la ciudad a una casa sobre la ensenada en un trayecto corto; esa proximidad sostiene una vida que, dentro del municipio, depende mucho del coche.",
+    ],
+    casa: [
+      "La vivienda característica es casa de piedra reformada o chalé con finca en parroquia de ladera. Algunas miran a San Simón y a Rande; otras se internan en bosque y valle. El mercado es fino y disperso: no hay una media municipal homogénea en la que anclarse; conviene mirar Idealista del mes y la finca concreta. No hay apenas obra nueva y la fibra es parcial.",
+      "La vista no basta. Hay que comprobar acceso —muchos caminos son estrechos—, saneamiento, agua, cubierta, drenaje y orientación invernal. Cerca de las carreteras, el ruido viaja por la ensenada. La cobertura de fibra debe verificarse por dirección.",
+      "Los servicios están repartidos: consultorio, farmacia, tiendas y bares. Pontevedra aporta mercado, institutos, especialistas y cultura; Arcade y Redondela cubren otras compras. Montecelo y Peinador quedan a un trayecto corto desde buena parte del municipio.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere casa con terreno, mirada sobre agua calma y dos ciudades accesibles sin vivir dentro de ellas, aceptando coche y servicios dispersos.",
+        "También si Salinas de Ulló, Lago Castiñeiras y Cotorredondo convierten marisma, bosque y mirador en paseos de diario, y se asume que el baño grande suele ser salida.",
+      ],
+      no: [
+        "Encaja peor si se necesita vida diaria a pie: no hay un casco que reúna supermercado, mercado, instituto y gestiones.",
+        "Tampoco si se espera playa cotidiana generalizable o se compra solo por la foto de la ensenada, sin revisar acceso, humedad y ruido de carretera.",
+      ],
+      veredicto:
+        "Vilaboa ofrece parroquia sobre San Simón, marisma en Ulló y proximidad a Pontevedra y Vigo a cambio de coche y de una playa que no se puede generalizar. Su atractivo está en la finca y el silencio relativo; su peaje, en que no existe una pequeña ciudad compacta equivalente."
+    },
+ fotosAbrir: [
+ { src: "/fotos/vigo-e-ria/vilaboa-ensenada.jpg", pie: "Parroquias de Vilaboa sobre la ensenada de San Simón" },
+ { src: "/fotos/vigo-e-ria/vilaboa-cobres.jpg", pie: "Cobres: casas de ladera mirando al agua calma" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/vigo-e-ria/vilaboa-ullo.jpg", pie: "Salinas de Ulló: antiguos estanques de sal convertidos en humedal" },
+ { src: "/fotos/vigo-e-ria/vilaboa-entroido.jpg", pie: "Madamas y galáns del Entroido tradicional de Cobres" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/vigo-e-ria/vilaboa-castineiras.jpg", pie: "Lago Castiñeiras, bosque y paseo en la parte alta" },
+ { src: "/fotos/vigo-e-ria/vilaboa-cotorredondo.jpg", pie: "La ensenada de San Simón desde las orillas de Vilaboa" },
+ ],
+ creditoFotos: "Fotos: Wikimedia Commons (CC BY-SA).",
+  }

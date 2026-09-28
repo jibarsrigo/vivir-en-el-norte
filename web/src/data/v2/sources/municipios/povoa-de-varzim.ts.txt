@@ -1,0 +1,48 @@
+{
+    escala: "Ciudad-balneario",
+    abrir: [
+      "Póvoa de Varzim es ciudad de playa con paseo marítimo largo, frente de bloques, casino como hito urbano y puerto pesquero que sigue siendo de trabajo. Mercado, comercio y Metro do Porto —línea estructural hacia el área metropolitana— dan autonomía muy alta en el núcleo bien situado. No es villa de casas bajas: es ciudad-balneario con vida anual y verano que gana intensidad.",
+      "Un martes de noviembre la ciudad funciona: no depende de agosto. El hospital de la red Póvoa–Vila do Conde queda en el radio práctico corto. El aeropuerto de Porto está próximo. En zona urbana el coche puede pesar poco; en periferia no debe prometerse vida sin vehículo.",
+      "La playa urbana entra en el día. El frente es denso; el peaje es precio y densidad, no aislamiento. Quien busque aldea o duna quieta se equivoca de ficha. Póvoa promete mar, paseo y ciudad; no silencio de pinar.",
+    ],
+    tiempo: [
+      "El frente atlántico trae viento, humedad y un verano suave de costa urbana. Frente a Mallorca hay menos continuidad de sol; en pisos de frente conviene mirar salitre y exposición. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno es de ciudad abierta: paseo, comercio y ritmo anual. La humedad marina pide buen cierre; el frente no se apaga como una colonia. Agosto llena terraza y paseo sin vaciar el resto del año.",
+      "En el núcleo bien situado la rutina puede resolverse a pie o con Metro; la periferia cambia el peaje del coche. El Metro es enlace estructural con Porto y el aeropuerto mediante transbordo, no promesa de cero coche en todo el concelho.",
+      "Hospital de la red local cerca; Porto muy a mano para volar. La integración es urbana y marinera: puerto funcional, no solo postal.",
+    ],
+    historia: [
+      "Paseo, casino, puerto y la transformación balnearia explican Póvoa: ciudad que miró al mar para veraneo y trabajo a la vez. El Metro la ata al área metropolitana. Lo útil es ciudad-balneario con pesca viva, no solo frente fotogénico.",
+    ],
+    fuera: [
+      "La marginal marítima llana es el paseo cotidiano: kilómetros de frente utilizables a diario. La playa urbana forma parte de la mañana normal en el núcleo.",
+      "Vila do Conde ofrece casco histórico y Ave; Porto, escala mayor. Póvoa debe valorarse por su propio paseo y densidad, no como gemela exacta de Vila do Conde.",
+    ],
+    casa: [
+      "Bloques de frente, ensanche y periferia no ofrecen la misma relación con playa, ruido y coche. Comprobar salitre, vecinos permanentes y aparcamiento de verano. Obra nueva y mercado amplio forman parte del carácter.",
+      "Los precios y totales permanecen en la capa factual. Decidir si se quiere frente denso o una calle atrás antes de firmar.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere ciudad-balneario con playa urbana, paseo largo, Metro estructural y hospital de la red local cerca.",
+        "También si se acepta densidad de bloques en el frente y se entiende que el Metro no borra el coche en toda la periferia.",
+      ],
+      no: [
+        "Encaja peor si se busca quietud de duna, casas bajas o escala de villa pequeña.",
+        "Tampoco si la presión de verano en el frente y el urbanismo denso resultan incompatibles con la idea de casa.",
+      ],
+      veredicto:
+        "Póvoa ofrece mar, ciudad y Metro a cambio de densidad y un frente de bloques. Su atractivo está en la autonomía urbana junto al Atlántico; su peaje, en no vender periferia como paseo sin coche."
+    },
+ fotosAbrir: [
+ { src: "/fotos/litoral-norte/zona-povoa.jpg", pie: "Póvoa de Varzim: ciudad-balneario frente al Atlántico" },
+ ],
+ fotosHistoria: [],
+ fotosFuera: [
+ { src: "/fotos/litoral-norte/povoa-playa.jpg", pie: "Praia da Póvoa: Redonda y orilla atlántica" },
+ { src: "/fotos/litoral-norte/povoa-estela.jpg", pie: "Estela Golf, links junto al mar en Póvoa" },
+ ],
+ creditoFotos: credito,
+  }

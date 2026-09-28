@@ -1,0 +1,55 @@
+{
+    escala: "Isla, villa marinera y costa natural",
+    abrir: [
+      "A Illa de Arousa se siente más isla de lo que el puente promete. Unida al continente por la PO-307 desde 1985, O Xufre concentra el puerto; O Campo y O Cantiño cosen la trama; Carreirón protege el extremo sur entre pinares, marismas y calas. El mar está presente: pequeñas playas, O Bao y la costa entran en la vida diaria según vivienda.",
+      "Un martes de noviembre se compra en tiendas pequeñas, se va al centro de salud y se camina al puerto o a una playa. O Xufre, farmacias, biblioteca, Casa do Mar, auditorio y deporte caben en una isla pequeña. Para súper grande, especialistas u hospital se cruza el puente hacia Vilanova y Vilagarcía. Vida propia anual con aumento fuerte en verano.",
+      "Las Festas do Carme ocupan varios días alrededor del 16 de julio con verbenas y procesión marítima hacia O Xufre. El último fin de semana de agosto suele llegar la Festa da Ameixa Roxa. En una isla con un solo puente, el tráfico se nota enseguida.",
+      "Hospital do Salnés a unos veinte minutos al otro lado; Vigo hacia cuarenta minutos como aeropuerto práctico; Santiago refuerza Palma casi todo el año. El peaje: mar muy presente a cambio de dependencia del puente para necesidades superiores.",
+    ],
+    tiempo: [
+      "La exposición insular trae más viento que una villa abrigada de ría. Frente a Mallorca hay menos continuidad de sol; el agua de Arousa sigue fresca respecto al Mediterráneo, pero las calas son calmadas. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno es muy local y muy quieto: playas casi vacías, salitre y viento. Conviene ventilación y exposición real de la casa. Un noviembre vacío enseña más que un sábado de toalla en O Bao.",
+      "Dentro de la isla, mucha rutina cabe a pie; fuera, el coche y el puente mandan. En enero el oficio no cierra del todo, pero la calle se vacía. Agosto multiplica coches y toallas.",
+      "Atención primaria local; hospital comarcal cruzando. Para Mallorca, mirar Vigo en verano y Santiago el resto del año. La integración es de isla marinera: gallego de lonja, veraneo que vuelve y puente como gesto diario.",
+    ],
+    historia: [
+      "Durante siglos dependió de Vilanova; el puente de 1985 sustituyó el barco diario y aceleró la autonomía; el municipio independiente data de 1997. No es un barrio de la ría: es isla que aprendió a ser municipio.",
+      "Conservas y puertos crecieron alrededor de sardina, mejillón y marisco. El Centro de Interpretación da Conserva ocupa una antigua fábrica. El Faro de Punta Cabalo guía desde 1852; O Xufre sigue siendo corazón del oficio.",
+      "El Parque Natural de Carreirón, en la punta sur, forma parte del espacio Umia-O Grove: pinar, marisma y calas que se protegen, no solo se explotan.",
+    ],
+    fuera: [
+      "O Xufre y el paseo; O Bao hacia Carreirón por senda o carril bici: mar y camino en el mismo día. Area da Secada, Cabodeiro y Camaxe completan calas según orilla.",
+      "Carreirón al sur y Punta Cabalo al norte cierran salidas a pie. Al otro lado del puente, Vilanova y Vilagarcía resuelven escala mayor. El horizonte es ría y bateas, no sierra a la espalda.",
+    ],
+    casa: [
+      "Pisos bajos, casas marineras y chalés compactos; tierra escasa. Conviene accesibilidad, exterior, salitre, ventilación, aparcamiento estival y distancia real al puente.",
+      "Los precios y totales permanecen en la capa factual y en Idealista del mes; aquí no se narra ninguna media municipal. Firmar tras un día de viento y una tarde de agosto.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si el mar debe organizarse andando —O Bao, Carreirón, O Xufre— y se acepta una vida pequeña en invierno con el puente como umbral.",
+        "También si calas y costa natural importan más que gran oferta comercial o hospital dentro del municipio.",
+      ],
+      no: [
+        "Encaja peor si se necesitan varias salidas por carretera, súper grande a pie o silencio absoluto en julio.",
+        "Tampoco si se decide solo tras un día de sol en O Bao, sin cruzar el puente en hora punta ni dormir una noche de Carmen.",
+      ],
+      veredicto:
+        "A Illa compra mar a pie y escala insular a cambio del puente para casi todo lo superior. Su atractivo está en O Xufre y Carreirón vividos en noviembre; su peaje, en no firmar por la foto de cala sin probar viento, verano y la única salida por carretera."
+    },
+ fotosAbrir: [
+ { src: "/fotos/o-salnes/illa-puente.jpg", pie: "El puente convirtió la isla en municipio conectado por carretera" },
+ { src: "/fotos/o-salnes/illa-porto-xufre.jpg", pie: "O Xufre, puerto de trabajo y centro marinero" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/o-salnes/illa-punta-cabalo.jpg", pie: "Punta Cabalo, faro en la costa norte" },
+ { src: "/fotos/o-salnes/illa-conserva.jpg", pie: "A Illa: villa, puerto y memoria de la conserva" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/o-salnes/illa-parque-carreiron.jpg", pie: "Carreirón: pinar, marisma y calas en la punta sur" },
+ { src: "/fotos/o-salnes/illa-o-bao.jpg", pie: "O Bao, el arenal largo junto al puente" },
+ ],
+ creditoFotos: credito,
+  }

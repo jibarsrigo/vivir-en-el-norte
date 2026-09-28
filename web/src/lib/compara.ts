@@ -8,6 +8,8 @@ import { climaDeMunicipio } from "@/lib/clima";
 import { marDeMunicipio } from "@/lib/mar";
 import { avionDeMunicipio, etiquetaPalmaCorta } from "@/lib/avion";
 import { hospitalCortoDe } from "@/lib/hospital";
+import { hrefFichaMunicipio } from "@/lib/nuevo2-municipios";
+import { paraDecidirteNuevo2 } from "@/lib/nuevo2-para-decidirte";
 
 export const TOPE_BANDEJA = 5;
 export const LS_BANDEJA = "vivir-norte-compara-vs";
@@ -36,10 +38,15 @@ export type FilaCompara = {
   aeropuertoMin: number | null;
   aeroCercano: string | null;
   palma: string | null;
-  /** Párrafos completos del Encaja de la ficha. */
+  /** Párrafos completos del Encaja de la ficha (NUEVO2 si existe; si no, CURRENT). */
   encajaSi: string[];
   encajaNo: string[];
-  encajaVeredicto: string;
+  /**
+   * Bloque «Qué comprobar».
+   * NUEVO2 con registro: párrafos nuevos.
+   * CURRENT / NUEVO2 sin registro: veredicto CURRENT como fallback (sin reescribirlo).
+   */
+  queComprobar: string[];
   /** Frente a Mallorca: clima (tiempo) + vivir de la ficha. */
   frenteClima: string[];
   frenteVivir: string[];
@@ -78,6 +85,11 @@ export function filaCompara(slug: string): FilaCompara | undefined {
   const mar = marDeMunicipio(zonaId, f.municipio);
   const avion = avionDeMunicipio(zonaId, f.municipio);
   const zona = zonas.find((x) => x.id === zonaId);
+  const n2 = paraDecidirteNuevo2(f.slug);
+  const veredictoCurrent = (relato?.encaja.veredicto ?? "").replace(
+    /^Veredicto:\s*/i,
+    "",
+  );
 
   return {
     slug: f.slug,
@@ -85,7 +97,7 @@ export function filaCompara(slug: string): FilaCompara | undefined {
     zonaId,
     zonaNombre: zonaNombreDe(zonaId, f.zona),
     escala: relato?.escala ?? "",
-    href: `/zona/${zonaId}/${f.slug}/`,
+    href: hrefFichaMunicipio(zonaId, f.slug),
     solHoras: clima?.solHoras ?? f.solHoras ?? null,
     despejados: clima?.despejados ?? f.despejados ?? null,
     lluviaDias: clima?.lluviaDias ?? f.lluviaDias ?? null,
@@ -102,14 +114,18 @@ export function filaCompara(slug: string): FilaCompara | undefined {
     aeropuertoMin: avion?.aeropuertoMin ?? f.aeropuertoMin ?? null,
     aeroCercano: avion?.aeroCercano ?? null,
     palma: avion ? etiquetaPalmaCorta(avion.palmaMasCercano) : null,
-    encajaSi: relato?.encaja.si ?? [],
-    encajaNo: relato?.encaja.no ?? [],
-    encajaVeredicto: relato?.encaja.veredicto ?? "",
+    encajaSi: n2 ? [...n2.encajaSi] : (relato?.encaja.si ?? []),
+    encajaNo: n2 ? [...n2.encajaNo] : (relato?.encaja.no ?? []),
+    queComprobar: n2
+      ? [...n2.queComprobar]
+      : veredictoCurrent
+        ? [veredictoCurrent]
+        : [],
     frenteClima: relato?.tiempo ?? [],
     frenteVivir: relato?.vivir ?? [],
     fotoIdentidad: (() => {
-      const f = relato?.fotoIdentidad ?? relato?.fotosAbrir[0];
-      return f ? { src: f.src, pie: f.pie } : null;
+      const foto = relato?.fotoIdentidad ?? relato?.fotosAbrir[0];
+      return foto ? { src: foto.src, pie: foto.pie } : null;
     })(),
   };
 }

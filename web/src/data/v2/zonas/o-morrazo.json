@@ -1,0 +1,503 @@
+{
+  "tipo": "zona",
+  "zonaId": "o-morrazo",
+  "nombre": "O Morrazo",
+  "sourcePath": "web/src/components/RelatoOMorrazo.tsx",
+  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+  "sourceTag": "current-freeze-2026-09-26",
+  "sourceFileHash": "0b0961f2f2be2648ceecbeb752622fc92b5732a53c19fe73c6712b7010117450",
+  "contentHash": "c32ef5d8323d6fb0ffed4bd96ab402b98bc10b5c4199bcc51d5d83daa302d258",
+  "zonaBaseline": {
+    "id": "o-morrazo",
+    "zona": "O Morrazo",
+    "provincia": "Pontevedra",
+    "pais": "España",
+    "lat": 42.315250000000006,
+    "lon": -8.75075,
+    "solHoras": 2300,
+    "despejados": 72,
+    "cubiertos": 120,
+    "lluviaDias": 125,
+    "lluviaMm": 1525,
+    "lluvia": {
+      "oct_mar": "13–16",
+      "peor": "diciembre–enero",
+      "peor_n": "16–17",
+      "verano": "4–6"
+    },
+    "tempVerano": 20.0,
+    "calorAprieta": null,
+    "viento": "Baja",
+    "niebla": "Baja",
+    "activa": true
+  },
+  "mallorcaBaseline": {
+    "despejados": 120,
+    "solHoras": 2800,
+    "lluviaDias": 58,
+    "lluvia": {
+      "oct_mar": "6–8",
+      "peor": "octubre–enero",
+      "peor_n": "8",
+      "verano": "1–3"
+    },
+    "viento": "Media",
+    "niebla": "Baja"
+  },
+  "fichas": [
+    {
+      "n": 13,
+      "zona": "O Morrazo",
+      "municipio": "Cangas",
+      "slug": "cangas",
+      "provincia": "Pontevedra",
+      "pais": "España",
+      "lat": 42.264,
+      "lon": -8.782,
+      "solHoras": 2300,
+      "despejados": 72,
+      "cubiertos": 120,
+      "lluviaDias": 125,
+      "lluviaMm": 1500,
+      "tempVerano": 20,
+      "tempInvierno": 10,
+      "humedad": 79,
+      "viento": "Baja",
+      "niebla": "Baja",
+      "clase": "Favorable",
+      "minCosta": 1,
+      "playaBano": "Rodeira",
+      "minBano": 1,
+      "tempAgua": "17-19",
+      "franja": "A",
+      "servicios": 8,
+      "serviciosNota": "Centro de salud con urgencias, farmacias, supermercados, mercado, colegios, institutos, pequeño cine, comercio, restauración y puerto. Falta: hospital y gran superficie.",
+      "fibra": "Sí",
+      "comunicaciones": "Barco a Vigo en 20 min; PO-551 y corredor do Morrazo hacia Rande; bus interurbano; sin tren",
+      "comunicacionesNota10": 7,
+      "hospitalPub": "34 km · 35 min · Montecelo (Pontevedra)",
+      "hospitalPriv": "31 km · 35 min · Quirónsalud Miguel Domínguez (Pontevedra)",
+      "hospitalMin": 35,
+      "aeropuertos": "Vigo 50 km · 40 min (Palma: verano); Santiago 93 km · 70 min (Palma: casi todo el año); Porto 138 km · 105 min (Palma: verano)",
+      "aeropuertoMin": 40,
+      "palmaMasCercano": "Verano",
+      "palmaMejor": "Santiago (casi todo el año) · 70 min",
+      "precioM2": 2157,
+      "A_2hab": 182267,
+      "A_3hab": 252369,
+      "B_2hab": 147215,
+      "B_3hab": 203837,
+      "obraNueva": "Sí",
+      "mapa": "13_cangas.png",
+      "serviciosEstado": "VALIDADO — Galicia",
+      "radioCotidiano": "Villa: comercio, servicios, biblioteca, puerto y ferry a Vigo dentro de un radio peatonal razonable.",
+      "radioSalida": "O Hío, Aldán y Costa da Vela para playas y costa más natural.",
+      "dependenciaCocheTexto": "Baja-media en villa; alta en zonas costeras dispersas.",
+      "autonomiaCotidiana": "FUERTE EN VILLA",
+      "estacionalidad2026": "Vida anual sólida; verano aumenta presión en playas.",
+      "peajeRealidad": "Villa muy funcional; costa más espectacular suele exigir coche y mayor estacionalidad.",
+      "sanidadPrimaria2026": "Atención primaria local",
+      "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Área de Vigo/Pontevedra según necesidad.",
+      "hospitalPractico2026": "Área de Vigo/Pontevedra según necesidad",
+      "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 35 km · 35 min · Montecelo (Pontevedra); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+      "aeropuertoPractico2026": "Vigo 50 km · 40 min (Palma: verano); Santiago 93 km · 70 min (Palma: casi todo el año); Porto 138 km · 105 min (Palma: verano) Tiempo histórico orientativo: ~40 min. Usar como orientación de acceso, no como tiempo garantizado.",
+      "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 70 min La programación aérea es variable; comprobar temporada y horario vigente.",
+      "transporteRelevante2026": "Ferry Cangas–Vigo: reduce dependencia del coche para acceder a la ciudad.",
+      "playaCotidiana": "SÍ/PARCIAL EN VILLA",
+      "playaCotidianaModo": "Pequeñas playas y ría próximas; grandes playas dependen de microzona/salida.",
+      "paseoCotidiano": "Puerto y frente de ría desde la villa.",
+      "paseoPendienteTopografia": null,
+      "advertenciaMicrozona": "Villa de Cangas ≠ O Hío/Aldán/Costa da Vela.",
+      "microzonaPrecio": null,
+      "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+      "mercadoReventa": "Mercado relativamente amplio por demanda residencial permanente y servicios. ..."
+    },
+    {
+      "n": 14,
+      "zona": "O Morrazo",
+      "municipio": "Moaña",
+      "slug": "moana",
+      "provincia": "Pontevedra",
+      "pais": "España",
+      "lat": 42.28,
+      "lon": -8.735,
+      "solHoras": 2250,
+      "despejados": 72,
+      "cubiertos": 120,
+      "lluviaDias": 128,
+      "lluviaMm": 1550,
+      "tempVerano": 20,
+      "tempInvierno": 10,
+      "humedad": 79,
+      "viento": "Baja",
+      "niebla": "Baja",
+      "clase": "Favorable",
+      "minCosta": 2,
+      "playaBano": "A Xunqueira",
+      "minBano": 2,
+      "tempAgua": "18-20",
+      "franja": "A",
+      "servicios": 7,
+      "serviciosNota": "Centro de salud, farmacias, supermercados, mercado, colegios, institutos, deporte, comercio básico, restauración y puerto. Falta: hospital, cine y gran superficie.",
+      "fibra": "Sí",
+      "comunicaciones": "Barco a Vigo en 20 min; corredor do Morrazo y puente de Rande; bus interurbano; sin tren",
+      "comunicacionesNota10": 7,
+      "hospitalPub": "29 km · 30 min · Montecelo (Pontevedra)",
+      "hospitalPriv": "25 km · 30 min · Quirónsalud Miguel Domínguez (Pontevedra)",
+      "hospitalMin": 30,
+      "aeropuertos": "Vigo 42 km · 35 min (Palma: verano); Santiago 89 km · 70 min (Palma: casi todo el año); Porto 140 km · 105 min (Palma: verano)",
+      "aeropuertoMin": 35,
+      "palmaMasCercano": "Verano",
+      "palmaMejor": "Santiago (casi todo el año) · 70 min",
+      "precioM2": 1608,
+      "A_2hab": 135876,
+      "A_3hab": 188136,
+      "B_2hab": 109746,
+      "B_3hab": 151956,
+      "obraNueva": "Poca",
+      "mapa": "14_moana.png",
+      "serviciosEstado": "VALIDADO — Galicia",
+      "radioCotidiano": "Franja lineal con servicios, puerto, paseo y pequeñas playas; ferry a Vigo.",
+      "radioSalida": "Playas y zonas altas del municipio; otras áreas de Morrazo.",
+      "dependenciaCocheTexto": "Media; menor en primera franja costera bien situada.",
+      "autonomiaCotidiana": "FUERTE EN FRANJA CENTRAL",
+      "estacionalidad2026": "Vida anual.",
+      "peajeRealidad": "Buena ría diaria; ladera y dispersión aumentan dependencia del coche.",
+      "sanidadPrimaria2026": "Atención primaria local",
+      "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Área de Vigo/Pontevedra.",
+      "hospitalPractico2026": "Área de Vigo/Pontevedra",
+      "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 30 km · 30 min · Montecelo (Pontevedra); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+      "aeropuertoPractico2026": "Vigo 42 km · 35 min (Palma: verano); Santiago 89 km · 70 min (Palma: casi todo el año); Porto 140 km · 105 min (Palma: verano) Tiempo histórico orientativo: ~35 min. Usar como orientación de acceso, no como tiempo garantizado.",
+      "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 70 min La programación aérea es variable; comprobar temporada y horario vigente.",
+      "transporteRelevante2026": "Ferry a Vigo.",
+      "playaCotidiana": "SÍ EN FRANJA COSTERA",
+      "playaCotidianaModo": "Pequeñas playas de ría pueden formar parte del paseo diario.",
+      "paseoCotidiano": "Paseo lineal junto a la ría.",
+      "paseoPendienteTopografia": "El municipio gana pendiente al alejarse de la costa.",
+      "advertenciaMicrozona": null,
+      "microzonaPrecio": null,
+      "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+      "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
+    },
+    {
+      "n": 15,
+      "zona": "O Morrazo",
+      "municipio": "Bueu",
+      "slug": "bueu",
+      "provincia": "Pontevedra",
+      "pais": "España",
+      "lat": 42.325,
+      "lon": -8.786,
+      "solHoras": 2300,
+      "despejados": 72,
+      "cubiertos": 120,
+      "lluviaDias": 125,
+      "lluviaMm": 1500,
+      "tempVerano": 20,
+      "tempInvierno": 10,
+      "humedad": 79,
+      "viento": "Baja",
+      "niebla": "Baja",
+      "clase": "Favorable",
+      "minCosta": 1,
+      "playaBano": "Beluso",
+      "minBano": 5,
+      "tempAgua": "17-19",
+      "franja": "A",
+      "servicios": 7,
+      "serviciosNota": "Centro de salud, farmacias, supermercados, mercado, colegios, instituto, biblioteca, comercio básico, restauración y puerto. Falta: hospital, cine y gran superficie.",
+      "fibra": "Sí",
+      "comunicaciones": "PO-551 hacia Cangas y Marín; bus interurbano; ferry estacional a Ons; sin tren",
+      "comunicacionesNota10": 6,
+      "hospitalPub": "24 km · 30 min · Montecelo (Pontevedra)",
+      "hospitalPriv": "20 km · 25 min · Quirónsalud Miguel Domínguez (Pontevedra)",
+      "hospitalMin": 25,
+      "aeropuertos": "Vigo 57 km · 45 min (Palma: verano); Santiago 86 km · 65 min (Palma: casi todo el año); Porto 146 km · 110 min (Palma: verano)",
+      "aeropuertoMin": 45,
+      "palmaMasCercano": "Verano",
+      "palmaMejor": "Santiago (casi todo el año) · 65 min",
+      "precioM2": 1908,
+      "A_2hab": 161226,
+      "A_3hab": 223236,
+      "B_2hab": 130221,
+      "B_3hab": 180306,
+      "obraNueva": "Poca",
+      "mapa": "15_bueu.png",
+      "serviciosEstado": "VALIDADO — Galicia",
+      "radioCotidiano": "Centro/puerto con comercio, servicios y equipamientos culturales como Museo Massó y Centro Social do Mar.",
+      "radioSalida": "Beluso y Cabo Udra para costa más natural.",
+      "dependenciaCocheTexto": "Baja-media en núcleo; coche para costa exterior.",
+      "autonomiaCotidiana": "FUERTE",
+      "estacionalidad2026": "Vida anual con cultura propia; verano añade visitantes.",
+      "peajeRealidad": "Escala cómoda, pero servicios de alta complejidad fuera.",
+      "sanidadPrimaria2026": "Atención primaria local",
+      "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es 30 km · 30 min · Montecelo (Pontevedra).",
+      "hospitalPractico2026": "30 km · 30 min · Montecelo (Pontevedra) Tiempo histórico orientativo: ~25 min. Conservar como referencia práctica orientativa, no como garantía de adscripción.",
+      "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 30 km · 30 min · Montecelo (Pontevedra); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+      "aeropuertoPractico2026": "Vigo 57 km · 45 min (Palma: verano); Santiago 86 km · 65 min (Palma: casi todo el año); Porto 146 km · 110 min (Palma: verano) Tiempo histórico orientativo: ~45 min. Usar como orientación de acceso, no como tiempo garantizado.",
+      "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 65 min La programación aérea es variable; comprobar temporada y horario vigente.",
+      "transporteRelevante2026": "PO-551 / PO-320; bus Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+      "playaCotidiana": "SÍ/PARCIAL",
+      "playaCotidianaModo": "Banda do Río y frente portuario integran mar en la vida del núcleo; otras playas son salida.",
+      "paseoCotidiano": "Puerto y frente marítimo del núcleo.",
+      "paseoPendienteTopografia": null,
+      "advertenciaMicrozona": null,
+      "microzonaPrecio": null,
+      "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+      "mercadoReventa": "Mercado intermedio: base residencial propia y/o demanda exterior. Priorizar u..."
+    },
+    {
+      "n": 16,
+      "zona": "O Morrazo",
+      "municipio": "Marín",
+      "slug": "marin",
+      "provincia": "Pontevedra",
+      "pais": "España",
+      "lat": 42.392,
+      "lon": -8.7,
+      "solHoras": 2300,
+      "despejados": 72,
+      "cubiertos": 120,
+      "lluviaDias": 125,
+      "lluviaMm": 1550,
+      "tempVerano": 20,
+      "tempInvierno": 10,
+      "humedad": 79,
+      "viento": "Baja",
+      "niebla": "Baja",
+      "clase": "Favorable",
+      "minCosta": 1,
+      "playaBano": "Portocelo",
+      "minBano": 5,
+      "tempAgua": "18-20",
+      "franja": "A",
+      "servicios": 8,
+      "serviciosNota": "Centro de salud con urgencias, farmacias, supermercados, mercado, colegios, institutos, biblioteca, deporte, comercio y restauración. Falta: hospital y gran oferta cultural, disponibles en Pontevedra.",
+      "fibra": "Sí",
+      "comunicaciones": "PO-11 y PO-546 a Pontevedra; PO-551 hacia Bueu; bus frecuente; sin tren de viajeros",
+      "comunicacionesNota10": 8,
+      "hospitalPub": "8 km · 15 min · Montecelo (Pontevedra)",
+      "hospitalPriv": "7 km · 10 min · Quirónsalud Miguel Domínguez (Pontevedra)",
+      "hospitalMin": 10,
+      "aeropuertos": "Vigo 50 km · 40 min (Palma: verano); Santiago 74 km · 55 min (Palma: casi todo el año); Porto 155 km · 115 min (Palma: verano)",
+      "aeropuertoMin": 40,
+      "palmaMasCercano": "Verano",
+      "palmaMejor": "Santiago (casi todo el año) · 55 min",
+      "precioM2": 1539,
+      "A_2hab": 130046,
+      "A_3hab": 180063,
+      "B_2hab": 105037,
+      "B_3hab": 145436,
+      "obraNueva": "Poca",
+      "mapa": "16_marin.png",
+      "serviciosEstado": "VALIDADO — Galicia",
+      "radioCotidiano": "Ciudad compacta y funcional, con comercio y servicios propios ligados también al puerto.",
+      "radioSalida": "Portocelo, Mogor y Aguete; en Mogor, petroglifos como Pedra do Labirinto.",
+      "dependenciaCocheTexto": "Baja para vida urbana; coche/bus para playas.",
+      "autonomiaCotidiana": "FUERTE",
+      "estacionalidad2026": "Ciudad anual.",
+      "peajeRealidad": "Muy funcional, pero el centro no entrega la experiencia de playa inmediata.",
+      "sanidadPrimaria2026": "Atención primaria local",
+      "urgenciasPAC2026": "PAC/urgencias extrahospitalarias: no consta un punto diferenciado y auditado en la fuente maestra. Para urgencia hospitalaria, la referencia práctica indicada es Pontevedra/Montecelo.",
+      "hospitalPractico2026": "Pontevedra/Montecelo",
+      "hospitalReferencia2026": "Hospital de referencia superior: no diferenciado con suficiente seguridad en la fuente maestra. La referencia hospitalaria histórica de la fila es 10 km · 15 min · Montecelo (Pontevedra); verificar circuito de derivación antes de publicar un centro terciario distinto.",
+      "aeropuertoPractico2026": "Vigo 50 km · 40 min (Palma: verano); Santiago 74 km · 55 min (Palma: casi todo el año); Porto 155 km · 115 min (Palma: verano) Tiempo histórico orientativo: ~40 min. Usar como orientación de acceso, no como tiempo garantizado.",
+      "palmaDirecta2026": "Verano / Santiago (casi todo el año) · 55 min La programación aérea es variable; comprobar temporada y horario vigente.",
+      "transporteRelevante2026": "PO-551 / VG-4.4; bus frecuente a Pontevedra Interpretar por utilidad cotidiana real, no por mera existencia nominal de una línea.",
+      "playaCotidiana": "NO DESDE TODO EL CENTRO",
+      "playaCotidianaModo": "Las mejores playas están fuera del centro urbano; son salida corta más que playa a la puerta.",
+      "paseoCotidiano": "Frente portuario/urbano; playas como extensión mediante desplazamiento.",
+      "paseoPendienteTopografia": null,
+      "advertenciaMicrozona": null,
+      "microzonaPrecio": null,
+      "casaQueBuscar": "Vivienda cómoda y accesible, 2–3 dormitorios, exterior, servicios cotidianos ...",
+      "mercadoReventa": "Mercado relativamente amplio por demanda residencial permanente y servicios. ..."
+    }
+  ],
+  "mapaDetalle": "/mapas/zona_04_detalle.png",
+  "idealistaUrl": "https://www.idealista.com/venta-viviendas/pontevedra/o-morrazo/",
+  "resumen": "La península entre las rías de Vigo y Pontevedra. Cangas reúne villa, Aldán y la Costa da Vela; Moaña mira a Vigo y llega en barco; Bueu vive frente a Ons; Marín combina puerto, playas y Pontevedra a diez minutos.",
+  "escalas": {
+    "Cangas": "Villa marinera y parroquias de costa",
+    "Moaña": "Villa lineal y parroquias",
+    "Bueu": "Villa marinera tranquila",
+    "Marín": "Villa portuaria y costa residencial"
+  },
+  "blocks": [
+    {
+      "type": "h2",
+      "text": "Dónde está"
+    },
+    {
+      "type": "p",
+      "text": "O Morrazo es la península que separa las rías de Vigo y Pontevedra, dos entradas de mar de las Rías Baixas gallegas. Su orilla sur, con Cangas y Moaña, mira hacia Vigo; la norte, con Bueu y Marín, se abre hacia Pontevedra y la isla de Ons. En la punta occidental, la Costa da Vela —vela en el sentido de vigilar, una costa de atalayas— termina en Cabo Home frente a las Illas Cíes."
+    },
+    {
+      "type": "p",
+      "text": "El nombre Morrazo designa la península y la comarca histórica, no una única villa. Cangas reúne casco, puerto y parroquias atlánticas como O Hío y Aldán. Moaña es una franja urbana frente a Vigo. Bueu vive alrededor de un puerto más pequeño en la ría de Pontevedra. Marín, ya pegado a Pontevedra, combina puerto comercial, Escuela Naval y playas residenciales hacia Mogor y Aguete."
+    },
+    {
+      "type": "p",
+      "text": "Las distancias engañan porque el agua obliga a escoger ruta. Cangas y Moaña alcanzan Vigo en unos veinte minutos de barco; por carretera dependen del corredor y del puente de Rande. Bueu mira a Pontevedra por la costa. Marín está a unos diez minutos de esa ciudad. La península permite vivir entre dos capitales urbanas, pero no todos sus municipios las alcanzan con la misma facilidad."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/o-morrazo/cangas-cabo-home.jpg",
+      "pie": "Cabo Home: la punta de O Morrazo frente a las Illas Cíes"
+    },
+    {
+      "type": "h2",
+      "text": "El tiempo comparado con Baleares"
+    },
+    {
+      "type": "p",
+      "text": "O Morrazo suma unas 2.300 horas de sol y 72 días despejados al año. Mallorca ronda 2.800 horas y 120 jornadas despejadas. La diferencia aparece sobre todo entre noviembre y febrero: aquí se suceden frentes, piedra mojada y tardes en las que la terraza deja de ser una habitación segura."
+    },
+    {
+      "type": "p",
+      "text": "Caen unos 1.525 milímetros repartidos en 125 días. Entre octubre y marzo puede llover 13–16 días al mes; el peor tramo es diciembre–enero, con 16–17. No significa lluvia continua cada jornada, pero sí suelo húmedo, musgo y la obligación de revisar cubierta, ventilación y orientación de una vivienda."
+    },
+    {
+      "type": "p",
+      "text": "El verano devuelve el equilibrio. La media ronda 20.0 °C, las máximas habituales quedan cerca de 25 °C y solo entre tres y seis días al año superan los 30 °C. Las noches refrescan y el calor sostenido de Mallorca desaparece. Cangas y Bueu rondan 2.300 horas de sol; Moaña baja hacia 2.250. La diferencia entre municipios importa menos que la exposición de la casa al norte o a una ladera cerrada."
+    },
+    {
+      "type": "p",
+      "text": "El agua se mueve entre 17 y 20 °C. Las ensenadas de Aldán, Moaña y Marín son más calmadas y pueden alcanzar la parte alta de esa franja; Barra, Melide o Cabo Udra sienten más el Atlántico. Frente al Mediterráneo se pierde temperatura de baño y se gana un litoral que rara vez pasa semanas bajo calor extremo."
+    },
+    {
+      "type": "h2",
+      "text": "Cómo se vive"
+    },
+    {
+      "type": "p",
+      "text": "Un martes de noviembre revela cuatro ritmos. Cangas abre mercado, comercio y embarcadero en una villa caminable. Moaña reparte la vida entre paseo, parroquias y barco a Vigo. Bueu baja el volumen alrededor de su puerto, pero mantiene compra y colegio. Marín suena a puerto comercial y autobús hacia Pontevedra. Ninguna desaparece en invierno: son villas de trabajo antes que urbanizaciones estacionales."
+    },
+    {
+      "type": "p",
+      "text": "El coche depende de la dirección exacta. En los cascos de Cangas, Bueu y Marín se resuelve la compra diaria a pie. En Aldán, O Hío, Domaio, Cela, Mogor o Aguete —parroquias y núcleos fuera de los centros— sirve para enlazar casa, mercado y hospital. El barco reduce esa dependencia entre Cangas o Moaña y Vigo, pero no sustituye al coche para una urgencia ni para recorrer la península."
+    },
+    {
+      "type": "p",
+      "text": "Agosto llena arenales, carreteras y aparcamientos. Cangas recibe la presión más visible en Rodeira, Aldán y los accesos a Nerga y Barra. Moaña reparte bañistas por su costa urbana. Bueu suma ferris a Ons y Marín llena Portocelo, Mogor y Aguete, aunque su puerto sigue trabajando. Una casa silenciosa en febrero puede quedar junto al camino de una playa muy concurrida en verano."
+    },
+    {
+      "type": "p",
+      "text": "La vida social conserva un pie en el mar: lonjas, remo, conserva, puertos deportivos y procesiones del Carmen. Vigo entra en la semana de Cangas y Moaña; Pontevedra en la de Bueu y, sobre todo, Marín. Esa doble orientación distingue O Morrazo de una comarca con una sola cabecera."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/o-morrazo/cangas-villa.jpg",
+      "pie": "El centro de Cangas conserva comercio y vida cotidiana durante el invierno"
+    },
+    {
+      "type": "h2",
+      "text": "Mercados, fiestas y calendario"
+    },
+    {
+      "type": "p",
+      "text": "Los mercados de Cangas, Bueu, Moaña y Marín sostienen la compra cotidiana con pescado, verduras y conversación incluso en invierno. Alrededor están las lonjas y los puertos, donde la gastronomía no se reduce a una carta turística: pulpo, mejillón, sardina y pescado de ría nacen de una economía todavía visible. Bueu añade el Museo Massó, memoria de la conserva y de la navegación."
+    },
+    {
+      "type": "p",
+      "text": "Cangas concentra varios días grandes. La Semana Santa lleva nueve procesiones por el casco; el 16 de agosto, la Danza de San Roque ocupa el atrio de O Hío; el último domingo del mes, el Cristo del Consuelo llena la villa. Moaña celebra la Virxe do Carme el 16 de julio, con procesión y a veces recorrido marítimo, y San Martiño el 11 de noviembre. En esas fechas hay música, calles cortadas y aparcamiento difícil cerca de puertos y atrios."
+    },
+    {
+      "type": "p",
+      "text": "Bueu cubre de alfombras florales sus calles durante el Corpus, en fecha variable entre mayo y junio, y celebra el Carmen el 16 de julio. Marín prolonga sus fiestas del Carmen durante unos diez días, representa la Festa Corsaria el 22 de agosto y lleva la Danza das Espadas por las calles el 29 de septiembre. Antes de elegir un piso céntrico conviene conocer una noche de ese calendario: participar en él puede ser un privilegio o una fuente anual de ruido."
+    },
+    {
+      "type": "h2",
+      "text": "Mar, rías y caminos"
+    },
+    {
+      "type": "p",
+      "text": "Cangas reúne el litoral más diverso. Rodeira es playa urbana; Aldán es una ría pequeña de agua quieta; Nerga, Viñó y Barra se abren hacia el océano. Más allá, Cabo Home y el Monte Facho de Donón forman la Costa da Vela: tres faros, castro, brezo y las Cíes a pocos kilómetros de mar."
+    },
+    {
+      "type": "p",
+      "text": "Moaña ofrece A Xunqueira y O Con junto al paseo, con agua calma frente a Vigo. Desde Domaio se sube al Monte Faro, techo de la península con 624 metros y vistas hacia las dos rías. Bueu mira a Ons desde Beluso, Area de Bon y Portomaior; Cabo Udra añade una senda circular sobre granito y pequeñas calas."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/o-morrazo/bueu-cabo-udra.jpg",
+      "pie": "La antigua batería costera de Cabo Udra domina la orilla norte"
+    },
+    {
+      "type": "p",
+      "text": "Marín separa el puerto de trabajo y la costa de ocio. Portocelo es la primera playa hacia el oeste; Mogor suma petroglifos detrás de la arena; Aguete, puerto deportivo y casas bajas; Loira, una ensenada tranquila. Tierra adentro, el Lago de Castiñeiras y Cotorredondo ofrecen bosque y miradores entre Marín y Vilaboa."
+    },
+    {
+      "type": "p",
+      "text": "Ons se alcanza en ferry desde Bueu durante la temporada. La isla pertenece al Parque Nacional das Illas Atlánticas y conserva aldea, faro y senderos de acantilado. En el lado sur, el barco Cangas–Vigo convierte la ría en una calle de agua. Aquí el mar sirve para bañarse, caminar, trabajar y viajar."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/o-morrazo/marin-mogor-laberinto.jpg",
+      "pie": "Mogor: un laberinto de la Edad del Bronce junto a las playas de Marín"
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/o-morrazo/zona-morrazo-costa.jpg",
+      "pie": "Costa da Vela: el Morrazo atlántico entre faros, brezo y las Cíes al fondo"
+    },
+    {
+      "type": "h2",
+      "text": "Qué cuesta una casa"
+    },
+    {
+      "type": "p",
+      "text": "El mercado de la península no es una escala única de metro cuadrado: Cangas carga más el litoral y las calas; Moaña, la orientación a Vigo; Bueu y Marín, villas con tipologías distintas según puerto, parroquia o playa de ría. En la franja asequible se buscan pisos útiles en el centro; en la media, casa en Aldán u O Hío, parroquia de Moaña, Beluso o Mogor y Aguete. Los números vivos están en la tabla; donde no hay cifra homogénea, se comparan reforma, acceso, saneamiento y ruido."
+    },
+    {
+      "type": "p",
+      "text": "Hay fibra en los cuatro municipios. Cangas conserva algo de obra nueva; en Moaña, Bueu y Marín es escasa. Una casa de piedra debe visitarse después de lluvia para revisar cubierta y humedad. Un piso de puerto necesita otra prueba: ventanas abiertas un día laborable, cuando pasan camiones o trabaja la lonja."
+    },
+    {
+      "type": "tablaPrecios"
+    },
+    {
+      "type": "idealista"
+    },
+    {
+      "type": "h2",
+      "text": "Servicios, hospital, aeropuerto"
+    },
+    {
+      "type": "p",
+      "text": "Cangas y Marín cubren bien la vida diaria: centro de salud con urgencias, supermercados, farmacias, mercado, colegios, institutos y comercio. Moaña y Bueu resuelven la semana básica, pero dependen más de Vigo o Pontevedra para cultura, especialistas y compras grandes."
+    },
+    {
+      "type": "p",
+      "text": "Marín tiene la sanidad más cercana: Quirónsalud Pontevedra está a unos diez minutos y Montecelo, hospital público, a unos diez o quince. Bueu tarda aproximadamente veinticinco o treinta. Moaña ronda treinta y Cangas treinta y cinco. La diferencia es estructural: escoger otra calle en Cangas no convierte el hospital en cercano."
+    },
+    {
+      "type": "p",
+      "text": "Vigo-Peinador queda entre treinta y cinco y cuarenta y cinco minutos según el municipio, con conexión directa a Palma sobre todo en verano. Santiago ofrece el enlace más estable durante el año y queda entre cincuenta y cinco y setenta minutos. Marín acorta distancias de logística; Bueu queda más lejos de Vigo, aunque algo más cerca de Santiago."
+    },
+    {
+      "type": "foto",
+      "src": "/fotos/o-morrazo/marin-portocelo.jpg",
+      "pie": "Portocelo: playa de ría a pocos minutos de Pontevedra y del hospital"
+    },
+    {
+      "type": "encaja",
+      "si": [
+        "Se quiere un verano claramente más fresco que el de Mallorca y una relación diaria con el mar. Cangas ofrece Rodeira, Aldán y la Costa da Vela; Moaña, paseo y barco a Vigo; Bueu, calma, Cabo Udra y Ons; Marín, playas de ría con Pontevedra y el hospital al lado.",
+        "Se acepta escoger entre escalas verdaderamente distintas. Cangas pone el acento en el litoral y los senderos; Moaña, en la conexión con Vigo; Bueu, en el silencio de una villa pequeña; Marín, en sanidad y servicios. La península permite ajustar la vida sin renunciar por completo a playa, mercado o ciudad."
+      ],
+      "no": [
+        "Se quiere hospital próximo y a la vez la punta más atlántica. Cangas y sus parroquias ofrecen el mar más abierto, pero Montecelo queda a unos treinta y cinco minutos. Marín resuelve sanidad y Pontevedra, aunque su centro convive con puerto comercial y no tiene la continuidad marinera de Cangas o Bueu."
+      ],
+      "veredicto": "Veredicto de zona: Cangas responde si mar, calas y senderos pesan más que el hospital; Moaña, si Vigo forma parte de la semana y el barco evita el coche; Bueu, si se busca una villa tranquila; Marín, si mandan hospital, Pontevedra y una vivienda asequible. Aldán u O Hío muestran el paisaje tras probar agosto; Mogor o Aguete, el equilibrio junto a Marín; el entorno del embarcadero de Moaña, la vida frente a Vigo."
+    },
+    {
+      "type": "municipiosFin"
+    },
+    {
+      "type": "credito",
+      "text": "Fotos: Wikimedia Commons. Consulta la atribución y licencia en cada imagen."
+    }
+  ],
+  "serializationNote": "Prosa + widgets congelados del Relato*.tsx CURRENT; interpolaciones {zona.*}/{mallorca.*} resueltas; {\" \"} JSX eliminado; fichas/Idealista/mapas embebidos en freeze/."
+}

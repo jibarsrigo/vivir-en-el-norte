@@ -1,0 +1,53 @@
+{
+    escala: "Villa de servicios en su ría",
+    abrir: [
+      "Navia se entiende mejor por lo que permite hacer un martes que por una sola imagen de postal. La villa concentra comercio, mercado, atención primaria y cine, con la ría y su paseo dentro de la rutina. El agua está presente en el núcleo; para una experiencia de playa más clara hay que contar con un pequeño desplazamiento.",
+      "Esa combinación le da una autonomía cotidiana fuerte para la escala de la zona. El coche sirve para ampliar el mapa hacia la costa, Puerto de Vega o el hospital, pero buena parte de la semana puede resolverse en la propia villa."
+    ],
+    tiempo: [
+      "Frente a Mallorca, Navia ofrece un verano más fresco y una vivienda sometida a más humedad y días grises. En una visita conviene mirar orientación, aislamiento y cómo responde la casa cerca de la ría cuando el tiempo no acompaña, no solo el uso de una terraza en agosto.",
+      "La ría es el agua cotidiana; Frexulfe y Barayo pertenecen a otro tipo de salida, más abierta al Cantábrico. Esa diferencia evita confundir vivir junto al estuario con tener una gran playa integrada en cada parte de la villa."
+    ],
+    vivir: [
+      "Una mañana corriente puede encadenar compra, mercado, centro de salud, paseo de ría y alguna gestión sin salir de Navia. Incluso el cine forma parte de esa escala de villa comarcal. En invierno esa base sigue funcionando y evita que la vida diaria dependa de la temporada turística.",
+      "El Hospital de Jarrio queda fuera del núcleo pero muy próximo en la lógica comarcal. Para la rutina sanitaria básica está la atención primaria local; para hospital hay que desplazarse. La A-8 facilita las salidas y el tren de ancho métrico existe en el mapa de comunicaciones, aunque su presencia no garantiza que sustituya al coche en cada trayecto.",
+      "El verano añade movimiento en la costa y en lugares próximos como Puerto de Vega, Frexulfe y Barayo. Dentro de Navia permanece una vida de comercio y servicios menos dependiente de esa afluencia, lo que diferencia la villa de enclaves más estacionales.",
+      "El aeropuerto de Asturias requiere un desplazamiento y las conexiones con Palma dependen de la programación. Es una logística razonablemente accesible dentro del occidente asturiano, pero sigue siendo una salida planificada, no una infraestructura integrada en el día a día."
+    ],
+    historia: [
+      "La ría y el papel de villa comarcal explican Navia mejor que un gran monumento central. El casco funciona como lugar de servicios, comercio y paseo, con la autovía conectando rápidamente el resto de la costa occidental.",
+      "Puerto de Vega aporta, a corta distancia, otra imagen del municipio: un núcleo marinero más concentrado alrededor del puerto. El castro de Coaña añade una salida histórica cercana y recuerda que el mapa cotidiano de Navia se extiende también al entorno inmediato."
+    ],
+    fuera: [
+      "Para una mañana sin plan especial basta el paseo de la ría y el frente urbano. La playa requiere algo más de desplazamiento que en Tapia, de modo que conviene separar el agua que acompaña la vida diaria del día que se organiza alrededor de la arena.",
+      "Puerto de Vega ofrece una salida marinera corta. Frexulfe y Barayo abren la costa hacia espacios más naturales, mientras el castro de Coaña cambia mar por patrimonio. Son extensiones de la vida en Navia, no sustitutos de una villa que ya resuelve bastante por sí misma."
+    ],
+    casa: [
+      "En el casco y junto al paseo se gana acceso a servicios y una rutina caminable; cerca de la ría hay que mirar humedad, orientación y comportamiento de la vivienda en invierno. Hacia las afueras cambian el acceso a pie y la necesidad de coche.",
+      "La capa factual y la tabla concentran precios y estimaciones. Para la vivienda concreta pesan más accesibilidad, estado, luz y distancia efectiva a comercio y paseo, además de comprobar que la ubicación permite aprovechar la autonomía que distingue a Navia."
+    ],
+    encaja: {
+      si: [
+        "Encaja si se valora una villa que resuelva bien la semana: comercio, mercado, atención primaria, paseo y vida anual dentro del núcleo, con Jarrio y la costa próxima como desplazamientos cortos cuando hacen falta.",
+        "También encaja si se prefiere tener una base cotidiana sólida y reservar Puerto de Vega, Frexulfe, Barayo o Coaña para salidas. La ría aporta agua al día a día sin exigir que toda la identidad del lugar dependa de una playa."
+      ],
+      no: [
+        "Encaja peor si se quiere salir de casa directamente a una gran playa o si la prioridad es que el paisaje más espectacular esté concentrado en el propio casco. Parte de la costa más abierta y de los núcleos marineros del entorno exige desplazarse.",
+        "Tampoco si se necesita hospital dentro de la villa o aeropuerto inmediato. Navia reduce esas distancias dentro de la escala occidental, pero no elimina la logística comarcal."
+      ],
+      veredicto:
+        "Navia funciona como una villa comarcal práctica junto a su ría: mucha autonomía cotidiana, hospital próximo fuera del núcleo y una costa que se amplía con pequeñas salidas. Su identidad está menos en una postal única que en poder resolver la semana y tener Puerto de Vega, Frexulfe, Barayo y Coaña alrededor."
+    },
+    fotosAbrir: [
+      { src: "/fotos/asturias-occidente/navia-ria.jpg", pie: "Ría de Navia y frente de la villa" },
+      { src: "/fotos/asturias-occidente/navia-villa.jpg", pie: "Navia: villa de servicios junto a la ría" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/asturias-occidente/navia-vega.jpg", pie: "Puerto de Vega, núcleo marinero del concejo" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/asturias-occidente/navia-playa.jpg", pie: "Costa y playa en el entorno de Navia" },
+      { src: "/fotos/asturias-occidente/navia-coana.jpg", pie: "Castro de Coaña, cerca de Navia" },
+    ],
+    creditoFotos: credito,
+  }

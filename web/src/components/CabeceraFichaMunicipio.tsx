@@ -13,10 +13,13 @@ export default function CabeceraFichaMunicipio({
   ficha,
   zonaId,
   zonaNombre,
+  titulo,
 }: {
   ficha: FichaMunicipio;
   zonaId: string;
   zonaNombre: string;
+  /** Título público opcional (p. ej. Nuevo2 Soto / San Juan). */
+  titulo?: string;
 }) {
   const relato = RELATO_MUNICIPIOS[ficha.slug];
   const foto = relato?.fotoIdentidad ?? relato?.fotosAbrir[0];
@@ -61,7 +64,7 @@ export default function CabeceraFichaMunicipio({
 
         <div className="min-w-0 flex-1">
           <h1 className="font-[family-name:var(--font-serif)] text-3xl text-[var(--acento)] sm:text-4xl">
-            {ficha.municipio}
+            {titulo ?? ficha.municipio}
           </h1>
           <p className="mt-1 text-[var(--tinta-suave)] sm:mt-2">{ficha.provincia}</p>
         </div>

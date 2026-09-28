@@ -1,0 +1,53 @@
+{
+    escala: "Villa marinera y costa de Peñas",
+    abrir: [
+      "Luanco concentra la parte más autónoma de Gozón: puerto, casco, servicios y playas urbanas forman una villa marítima que funciona todo el año. Fuera de ella, el concejo se abre hacia Xagó, Cabo Peñas y núcleos más dispersos, donde el coche gana importancia.",
+      "La diferencia importa al buscar vivienda. En Luanco se puede hacer bastante vida andando; vivir en Gozón no significa necesariamente tener la misma autonomía ni las playas urbanas a la puerta.",
+    ],
+    tiempo: [
+      "Frente a Mallorca, el clima es más húmedo, gris y fresco, con viento y salitre relevantes cerca del frente marítimo. Orientación, aislamiento y ventilación merecen tanta atención como las vistas.",
+      "La Ribera y Aramar permiten que el mar entre de verdad en la rutina de Luanco. Xagó y Cabo Peñas son otra cosa: costa abierta y salidas que amplían el día, normalmente con desplazamiento.",
+    ],
+    vivir: [
+      "Una mañana en la villa puede enlazar puerto, frente marítimo, playa y equipamientos locales como el Museo Marítimo. Esa proximidad sostiene una autonomía fuerte dentro de Luanco, aunque la oferta mayor siga estando en Avilés y Gijón.",
+      "El hospital está fuera de la villa. Las fuentes internas manejan referencias próximas hacia Avilés y Gijón sin una única cifra completamente uniforme, así que la conclusión útil es no prometer un minuto exacto: la atención hospitalaria exige desplazamiento, pero queda dentro del área central.",
+      "El aeropuerto de Asturias también queda a una distancia práctica; los vuelos a Palma dependen de programación. Para la costa exterior, el coche sigue siendo la herramienta normal.",
+      "El verano aumenta la ocupación vacacional, pero Luanco conserva vida anual. Cabo Peñas, Xagó y el resto de Gozón pertenecen al mapa de salida, no a la misma experiencia peatonal del casco.",
+    ],
+    historia: [
+      "El puerto y el casco de piedra explican la identidad marinera de Luanco. El Museo Marítimo refuerza esa relación con los oficios y la navegación sin convertir la villa en un decorado turístico.",
+      "Cabo Peñas lleva el municipio a otra escala: faro, acantilados y costa abierta. Es una referencia territorial de Gozón y una salida natural desde Luanco.",
+    ],
+    fuera: [
+      "La Ribera y Aramar son playas de villa; Xagó ofrece dunas y una costa más abierta. Cabo Peñas completa el mapa cuando se quiere caminar o mirar el Cantábrico fuera del núcleo.",
+      "Avilés y Gijón amplían comercio, sanidad y cultura. La posición entre ambas ciudades ayuda a que Luanco pueda conservar escala pequeña sin quedar aislada.",
+    ],
+    casa: [
+      "En la villa conviene medir distancia real a servicios y paseo, accesibilidad, aparcamiento, orientación y exposición al salitre. Fuera de Luanco aumenta la importancia del acceso y del coche.",
+      "Precio y estimaciones quedan en la capa factual. La distinción clave para vivienda es Luanco frente al resto de Gozón, no una media que trate todo el concejo como una única microzona.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca una villa marinera donde puerto, paseo y playa puedan formar parte de una mañana normal, con ciudades mayores relativamente próximas.",
+        "También si Cabo Peñas y la costa exterior se valoran como salidas cercanas y se acepta usar coche para ellas.",
+      ],
+      no: [
+        "Encaja peor si se quiere hospital dentro del municipio o si se pretende vivir en cualquier punto de Gozón con la autonomía peatonal de Luanco.",
+        "Tampoco si la mayor ocupación del verano resulta incompatible con la vivienda elegida junto al frente marítimo.",
+      ],
+      veredicto:
+        "Luanco ofrece una autonomía fuerte de villa, con puerto, playas y paseo integrados, mientras Gozón añade la costa abierta de Xagó y Cabo Peñas. La contrapartida es salir para hospital y oferta urbana mayor y distinguir cuidadosamente la villa de las zonas más dispersas del concejo."
+    },
+ fotosAbrir: [
+ { src: "/fotos/asturias-centro/luanco-casco.jpg", pie: "Casco de piedra de Luanco" },
+ { src: "/fotos/asturias-centro/luanco-puerto.jpg", pie: "Puerto de Luanco" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/asturias-centro/luanco-museo.jpg", pie: "Museo Marítimo de Luanco" },
+ { src: "/fotos/asturias-centro/luanco-penas.jpg", pie: "Cabo Peñas, cerca de Luanco" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/asturias-centro/luanco-playa.jpg", pie: "Playa de La Ribera, Luanco" },
+ ],
+ creditoFotos: credito,
+  }

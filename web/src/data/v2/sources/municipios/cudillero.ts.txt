@@ -1,0 +1,57 @@
+{
+    escala: "Puerto en anfiteatro y concejo disperso",
+    abrir: [
+      "Cudillero tiene dos experiencias que conviene no mezclar. Abajo, el puerto y el anfiteatro de casas forman el núcleo más reconocible, pero también concentran cuestas, escaleras y movimiento turístico. Arriba, El Pito ofrece una relación más llana con la vivienda y cambia bastante la rutina.",
+      "La autonomía cotidiana es media-baja. El pequeño núcleo cubre lo básico, mientras una compra amplia y buena parte de los servicios empujan hacia Avilés. El coche cose puerto, vivienda, playas y ciudad de apoyo; vivir ‘cerca’ en el mapa no significa necesariamente moverse con facilidad a pie.",
+    ],
+    tiempo: [
+      "Frente a Mallorca, el cambio importante no es un frío extremo sino un clima mucho más húmedo, gris y fresco. En una casa del anfiteatro importan luz, ventilación y aislamiento; en noviembre las escaleras mojadas y la orientación pesan bastante más que en una visita de verano.",
+      "El Cantábrico está siempre próximo, pero las playas de baño no son una extensión peatonal generalizable del núcleo. Aguilar y Concha de Artedo son salidas cortas; la playa del Silencio y Cabo Vidio pertenecen ya a una tarde de costa.",
+    ],
+    vivir: [
+      "Una mañana normal puede empezar en el puerto y continuar por los miradores, sabiendo que aquí pasear implica desnivel. La compra básica se resuelve a pequeña escala; para ampliar recados y servicios aparece Avilés. El tren de ancho métrico y la carretera forman parte de las comunicaciones, sin convertir el concejo en una vida sin coche.",
+      "La diferencia entre agosto y noviembre es visible. El turismo ocupa mucho más el anfiteatro en temporada y fuera de ella baja la actividad. Antes de elegir una vivienda conviene probar tanto el acceso cotidiano con lluvia como el aparcamiento y el movimiento de un día fuerte de verano.",
+      "El hospital práctico está fuera, en San Agustín de Avilés, y el aeropuerto de Asturias queda relativamente próximo. La conexión aérea con Palma depende de programación y temporada; la ventaja estable es tener el aeropuerto cerca, no disponer de un vuelo concreto todo el año.",
+      "El Pito merece mirarse como microzona propia: permite evitar parte de la pendiente del puerto, aunque aumenta la lógica de desplazarse en coche. Esa elección entre anfiteatro y cota más cómoda cambia más la experiencia diaria que una descripción genérica de ‘vivir en Cudillero’.",
+    ],
+    historia: [
+      "El anfiteatro portuario resume la identidad de Cudillero: casas adaptadas a una ladera muy marcada y una relación histórica con el puerto. La misma topografía que produce su imagen más conocida es una condición física de la vida cotidiana.",
+      "El Pito añade otra capa, más llana y vinculada al patrimonio indiano, mientras Cabo Vidio abre el concejo hacia una costa de acantilado y faro. Son escenarios distintos dentro de un municipio que no funciona como una única villa compacta.",
+    ],
+    fuera: [
+      "Aguilar y Concha de Artedo son las referencias de baño, pero requieren salir del núcleo según la vivienda. La playa del Silencio y Cabo Vidio amplían el mapa cuando apetece una salida de costa abierta.",
+      "Avilés cumple la función práctica que Cudillero no intenta asumir: comercio amplio, hospital y mayor oferta urbana. Esa proximidad ayuda, pero no elimina la dependencia del coche ni las escaleras del núcleo portuario.",
+    ],
+    casa: [
+      "En el anfiteatro hay que mirar acceso real, número de escaleras, luz, aislamiento, humedad y posibilidad de aparcar. Una distancia corta sobre el plano puede ser incómoda a pie. En El Pito cambian la pendiente y el acceso, pero también la relación inmediata con el puerto.",
+      "La vivienda debe probarse en invierno y en temporada alta. Precio y estimaciones quedan en la capa factual; en el relato importa distinguir una casa atractiva para visitar de otra que funcione bien cada día.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si el puerto y la costa pesan mucho y se acepta que la vida práctica combine un núcleo pequeño con coche y apoyo de Avilés. La recompensa es una relación muy directa con un paisaje portuario singular.",
+        "También si se está dispuesto a elegir microzona por accesibilidad y no solo por vistas: El Pito y el anfiteatro pueden producir rutinas completamente distintas.",
+      ],
+      no: [
+        "Encaja peor si se necesita una semana muy autónoma a pie, una topografía sencilla o playa de baño integrada en cualquier vivienda del núcleo.",
+        "Tampoco si el movimiento turístico del verano o una casa con muchas escaleras se convierten en un problema cotidiano.",
+      ],
+      veredicto:
+        "Cudillero ofrece un puerto extraordinariamente reconocible a cambio de una topografía exigente y autonomía limitada. La decisión se juega en la microzona: anfiteatro si se aceptan cuestas y actividad turística; cotas más cómodas como El Pito si se prioriza acceso, siempre con Avilés y el coche formando parte de la semana."
+    },
+    fotoIdentidad: {
+      src: "/fotos/asturias-centro/cudillero-pueblo.jpg",
+      pie: "Pueblo colgado de Cudillero",
+    },
+    fotosAbrir: [
+      { src: "/fotos/asturias-centro/cudillero-puerto.jpg", pie: "Puerto de Cudillero" },
+    ],
+ fotosHistoria: [
+ { src: "/fotos/asturias-centro/cudillero-vidio.jpg", pie: "Cabo Vidio, cerca de Cudillero" },
+ { src: "/fotos/asturias-centro/cudillero-pito.jpg", pie: "El Pito, arriba de Cudillero" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/asturias-centro/cudillero-playa.jpg", pie: "Playa cerca de Cudillero" },
+ { src: "/fotos/asturias-centro/cudillero-cuesta.jpg", pie: "Calles en cuesta de Cudillero" },
+ ],
+ creditoFotos: credito,
+  }

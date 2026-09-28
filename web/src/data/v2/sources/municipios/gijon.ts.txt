@@ -1,0 +1,54 @@
+{
+    escala: "Ciudad cantábrica frente al mar",
+    abrir: [
+      "Gijón no funciona como una villa costera ampliada, sino como una ciudad completa con el mar integrado en su estructura. San Lorenzo y el Muro, Cimavilla y Poniente forman parte de la vida urbana junto a barrios, comercio, cultura, sanidad y transporte.",
+      "La autonomía cotidiana es muy alta. En los barrios centrales se puede resolver gran parte de la semana sin coche; en zonas residenciales como Somió cambian distancias y dependencia. La microzona importa por precio, acceso y relación con la playa, pero no altera el carácter urbano de Gijón.",
+    ],
+    tiempo: [
+      "Frente a Mallorca, Gijón ofrece veranos mucho más frescos y un año más húmedo y gris. En primera línea pesan salitre, viento y exposición; en cualquier barrio, luz, aislamiento y ventilación siguen siendo cuestiones prácticas durante los meses húmedos.",
+      "San Lorenzo y Poniente son playas urbanas reales. El baño depende del Cantábrico y de la marea, pero el paseo marítimo y la relación con el agua permanecen incluso cuando no apetece entrar al mar.",
+    ],
+    vivir: [
+      "Una mañana normal puede unir recados, comercio y servicios con un tramo del Muro, Cimavilla o el paseo hacia el Piles. No hace falta convertir esa rutina en turismo: la costa está insertada en una ciudad que funciona durante todo el año.",
+      "La sanidad hospitalaria está dentro del propio sistema urbano, con Cabueñes y Jove como referencias. El aeropuerto de Asturias exige desplazamiento fuera de la ciudad; los vuelos a Palma dependen de la programación.",
+      "Ferrocarril y autobús amplían las conexiones, pero el relato no necesita prometer frecuencias concretas. Dentro de Gijón, la diferencia principal está entre barrios caminables y zonas residenciales donde el coche gana peso.",
+      "El verano llena más San Lorenzo y el centro, pero no redefine la ciudad. Gijón mantiene comercio, cultura, universidad y servicios durante todo el año. El peaje de esa funcionalidad es aceptar tráfico, densidad y un mercado de vivienda muy desigual por barrios.",
+    ],
+    historia: [
+      "Cimavilla y el cerro de Santa Catalina recuerdan el origen marítimo de la ciudad, mientras el crecimiento urbano ha extendido esa relación con el mar a un frente mucho mayor.",
+      "San Lorenzo y el Muro son infraestructura cotidiana además de imagen urbana. Poniente añade otra playa y otro paseo, y los parques completan una ciudad donde costa y espacio público están conectados.",
+    ],
+    fuera: [
+      "El propio frente urbano ofrece kilómetros de paseo sin necesidad de salir de Gijón. Cuando se quiere cambiar de escala aparecen la costa oriental y occidental, pero no son necesarias para tener mar en la semana.",
+      "Somió ofrece una experiencia residencial distinta, con casas y más dependencia del coche. Es una microzona a valorar por sí misma, no una representación de cómo se vive en los barrios centrales.",
+    ],
+    casa: [
+      "En el centro y barrios consolidados pesan ascensor, accesibilidad, luz, ruido, aislamiento y distancia real a servicios. Cerca del mar se añaden salitre y exposición; en Somió, acceso y coche.",
+      "Precio y estimaciones quedan en la capa factual. Gijón exige comparar barrios y calles, no aplicar una media de ciudad a viviendas con rutinas completamente diferentes.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere combinar ciudad completa con playa y paseo marítimo cotidianos, manteniendo sanidad, comercio y cultura dentro del mismo sistema urbano.",
+        "También si se prefiere poder elegir entre una rutina muy peatonal en barrios centrales y otra más residencial en microzonas exteriores.",
+      ],
+      no: [
+        "Encaja peor si se busca la escala y el silencio de una villa pequeña o si tráfico y densidad urbana pesan más que la autonomía que ofrecen.",
+        "Tampoco si se pretende encontrar una única experiencia de vivienda: Gijón cambia mucho entre primera línea, barrios interiores y Somió.",
+      ],
+      veredicto:
+        "Gijón es una ciudad completa con el Cantábrico incorporado a la vida diaria. Ofrece la mayor autonomía urbana de este bloque y playa a pie en buena parte del centro; a cambio, exige elegir bien barrio y vivienda para gestionar precio, tráfico, densidad y exposición marítima."
+    },
+ fotosAbrir: [
+ { src: "/fotos/asturias-centro/gijon-san-lorenzo.jpg", pie: "Playa de San Lorenzo, Gijón" },
+ { src: "/fotos/asturias-centro/gijon-cimavilla.jpg", pie: "Cimadevilla, Gijón" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/asturias-centro/gijon-paseo.jpg", pie: "Paseo del Muro, Gijón" },
+ { src: "/fotos/asturias-centro/gijon-cervigon.jpg", pie: "Senda del Cervigón, Gijón" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/asturias-centro/gijon-poniente.jpg", pie: "Playa de Poniente, Gijón" },
+ { src: "/fotos/asturias-centro/gijon-somio.jpg", pie: "Somió, Gijón" },
+ ],
+ creditoFotos: credito,
+  }

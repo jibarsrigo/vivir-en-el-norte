@@ -1,0 +1,57 @@
+{
+    escala: "Ciudad atlántica junto a la bahía",
+    abrir: [
+      "Santander es una ciudad completa, no una villa con playa. La bahía, Puerto Chico, la Magdalena y el Sardinero permiten vivir el mar dentro de la ciudad, mientras el centro concentra comercio, cultura, sanidad y servicios de una escala que ningún otro lugar cántabro del estudio reproduce.",
+      "La autonomía cotidiana es muy alta y puede ser baja la dependencia del coche en barrios centrales bien elegidos. Pero la ciudad tiene cuestas y microzonas muy distintas: centro, Sardinero y periferia cambian playa, pendiente, precio y forma de moverse.",
+      "La playa es realmente cotidiana en zonas costeras, no desde cualquier barrio. Elegir vivienda exige decidir si pesa más tener el Sardinero cerca, la vida del centro o una ubicación más periférica.",
+    ],
+    tiempo: [
+      "El clima marítimo trae humedad, lluvia repartida y veranos suaves. Frente a Mallorca hay menos continuidad de sol; en una ciudad con cuestas y fachadas expuestas importa especialmente orientación, aislamiento y recorrido peatonal en días de lluvia. Las cifras permanecen en la capa factual.",
+    ],
+    vivir: [
+      "Aquí una mañana libre no depende del coche: compra, sanidad, cultura, paseo y transporte forman parte de una ciudad activa todo el año. Según barrio, la bahía o el Sardinero pueden incorporarse al recorrido ordinario.",
+      "El hospital de Valdecilla y el aeropuerto están integrados en una logística urbana muy favorable. Palma depende de la programación publicada y no debe presentarse como garantía permanente.",
+      "El verano aumenta la afluencia en Sardinero y frentes turísticos, pero no sustituye la base anual de la ciudad. El peaje no es falta de servicios sino tráfico, precio y elegir bien entre playa, centro y pendiente.",
+    ],
+    historia: [
+      "La bahía ha organizado la ciudad tanto como sus barrios. Paseo de Pereda, Puerto Chico, Magdalena y Sardinero muestran distintas etapas de una capital marítima que creció entre puerto, veraneo y servicios.",
+      "Cabo Mayor amplía el frente costero hacia un paisaje más abierto, mientras el centro mantiene la dimensión administrativa y comercial.",
+    ],
+    fuera: [
+      "El paseo cotidiano puede ir por la bahía y Puerto Chico hacia la Magdalena, o concentrarse en Sardinero según la vivienda. No existe un único paseo residencial válido para toda Santander.",
+      "Cabo Mayor y Mataleñas amplían la costa sin salir de la lógica urbana; otras playas y la bahía oriental permiten salidas cercanas sin que la ciudad dependa de ellas para tener vida propia.",
+    ],
+    casa: [
+      "La microzona es decisiva. Centro, Sardinero y barrios periféricos cambian precio, pendiente, playa y necesidad de coche. Una vivienda aparentemente céntrica puede exigir cuestas que alteren la comodidad diaria.",
+      "Priorizar ascensor y ausencia de barreras cuando corresponda, orientación, aislamiento, aparcamiento si se necesita coche y recorrido real a servicios. Los precios quedan en la tabla factual.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca máxima autonomía cotidiana, sanidad y cultura sin renunciar a una relación urbana real con el mar.",
+        "También si se acepta escoger barrio con cuidado para equilibrar playa, centro, cuestas y movilidad.",
+      ],
+      no: [
+        "Encaja peor si se busca escala de pueblo, poco tráfico o una vivienda costera económica.",
+        "También si se presupone que toda la ciudad permite bajar andando al Sardinero con la misma facilidad.",
+      ],
+      veredicto:
+        "Santander ofrece la autonomía de una capital con una relación excepcionalmente directa con bahía y playas. Su decisión residencial no es ciudad sí o no, sino qué barrio: esa elección determina mar cotidiano, cuestas, precio y dependencia del coche."
+    },
+ fotoIdentidad: {
+ src: "/fotos/cantabria-occidental/santander-identidad.jpg",
+ pie: "Santander: casas de la ciudad frente a la bahía, con los montes detrás",
+ },
+ fotosAbrir: [
+ { src: "/fotos/cantabria-occidental/santander-bahia.jpg", pie: "Bahía de Santander" },
+ { src: "/fotos/cantabria-occidental/santander-sardinero.jpg", pie: "El Sardinero, Santander" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/cantabria-occidental/santander-pereda.jpg", pie: "Paseo de Pereda, Santander" },
+ { src: "/fotos/cantabria-occidental/santander-botin.jpg", pie: "Centro Botín, Santander" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/cantabria-occidental/santander-magdalena.jpg", pie: "Península de la Magdalena" },
+ { src: "/fotos/cantabria-occidental/santander-cabo-mayor.jpg", pie: "Cabo Mayor, Santander" },
+ ],
+ creditoFotos: credito,
+  }

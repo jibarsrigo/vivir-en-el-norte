@@ -1,0 +1,59 @@
+{
+    escala: "Villa completa de ría",
+    abrir: [
+      "Boiro equilibra lo que otras villas del Barbanza separan. Unos diecinueve mil habitantes en la orilla norte de la ría de Arousa, con la Serra do Barbanza a la espalda. El casco concentra mercado, comercio, biblioteca y Casa da Cultura, centro social y el complejo deportivo A Cachada; a pocos minutos quedan Barraña —el arenal grande—, Carragueiros y Mañóns.",
+      "Quien vive aquí es gente de pesca, conserva y servicios, y veraneantes de Santiago y Ourense que llenan agosto sin convertir la villa en ciudad turística. Un martes de noviembre se compra, se va a primaria y se camina al paseo de Barraña sin depender de Ribeira para lo diario. El coche aparece para el Hospital do Barbanza y para Santiago.",
+      "Abanqueiro, Cespón y otras parroquias cambian la escala: más finca, más volante, misma ría cerca. En julio y agosto las fiestas y verbenas llenan el entorno de Barraña con música, puestos y coches en las cunetas; tierra adentro hacia la sierra el volumen baja.",
+      "Fuera de temporada Boiro vuelve a ser villa de trabajo: mesas abiertas, mercado, comercio que no cierra. Si solo conoces un sábado de sol en Barraña, te llevas equilibrio de folleto. Si has visto un frente de invierno y una noche de verbena, ya puedes decidir.",
+    ],
+    tiempo: [
+      "Frente a Mallorca hay menos continuidad de sol y más cielo gris entre noviembre y febrero; la sierra detrás puede dar sombra de tarde. El verano es fresco atlántico frente a Baleares. Barraña y Carragueiros tienen agua de ría usable en baños cortos, calmada frente al océano abierto. Las cifras detalladas quedan en la capa factual.",
+      "Conviene probar un noviembre lluvioso y un martes de junio en Barraña, no solo un domingo de agosto con la cuneta llena.",
+    ],
+    vivir: [
+      "El invierno pide cubierta bien resuelta y piedra ventilada. La orientación respecto a la Serra do Barbanza importa: mañanas grises, terraza que se usa a medias. Un frente de invierno enseña más que un sábado de sol en la playa grande.",
+      "Sin coche, el casco resuelve mercado, salud básica, comercio y paseo. En Abanqueiro o Cespón el coche une finca y villa. En enero hay mesas y mercado: vida anual a la que el verano añade playa sin vaciar el resto del año.",
+      "Llegar de fuera mezcla oficio del mar y veraneo interior. Se oye gallego en el mercado; el castellano basta para lo cotidiano. Quien busque silencio absoluto junto a Barraña debe medir las semanas de verbena.",
+      "El Hospital do Barbanza queda a un trayecto corto dentro de lo razonable de la comarca —más cercano que en Rianxo, más lejos que en Ribeira—. Empadronarse abre cabecera local; para hospital se conduce a la capital comarcal.",
+      "Ir y volver a Mallorca pasa por Santiago-Lavacolla, con enlace a Palma durante casi todo el año —conviene comprobar temporada y horario—. En invierno el calendario real manda.",
+      "En el casco: pisos cerca de mercado y paseo; en parroquia: casa con terreno. Fibra y poca obra nueva. Conviene mirar salitre en costa, humedad en parroquia y ruido de agosto en la orilla.",
+    ],
+    historia: [
+      "Los castros de Neixón —poblados fortificados de la Edad del Hierro sobre la península que mira a la ría— son el hilo antiguo de Boiro. El centro arqueológico explica casas circulares y vida frente al agua mucho antes de la villa moderna.",
+      "La villa creció con pesca, marisqueo, conserva y comercio local. El paseo y el tejido urbano actual hablan de un municipio que no se vacía en invierno. La sierra aporta el otro relato: pistas, mámoas y el camino hacia A Curota.",
+    ],
+    fuera: [
+      "Barraña es el baño y el paseo cotidiano: arenal grande de ría, carril, equipamientos, agua calmada. Carragueiros y Mañóns ofrecen tramos más recogidos. Un martes de junio la arena cabe casi sola; un domingo de agosto el veraneo se nota en el aparcamiento.",
+      "Corrubedo, en Ribeira, cambia el registro a dunas y Atlántico. Cabío, en A Pobra, mantiene pinar y ría. Aquí manda marea calmada; el océano bravo queda al otro lado de la península.",
+      "Neixón combina visita arqueológica y vistas. Las pistas de la sierra llevan a A Curota en un trayecto corto. Para hospital y cine se conduce a Ribeira; para ciudad, a Santiago.",
+    ],
+    casa: [
+      "Dos escalas: pisos cerca de mercado y paseo, o casa con terreno en Abanqueiro y Cespón. Lo que se compra ya existe; conviene mirar orientación a la sierra y salitre en la costa.",
+      "En la orilla se revisan ocupación de agosto y ruido de verbenas; en la parroquia, acceso, humedad y distancia real a Barraña un domingo de verano. Los precios permanecen en la capa factual.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca el equilibrio del Barbanza: ría delante, sierra detrás, villa que resuelve la semana y Barraña como playa de diario. Neixón y A Curota llenan salidas sin forzar capital.",
+        "También si se acepta el Hospital do Barbanza a un trayecto corto y Lavacolla como aeropuerto práctico, y se distingue casco caminable de parroquia con finca.",
+      ],
+      no: [
+        "Encaja peor si se necesita hospital a pie o la densidad de lonja, cine y comercio de Ribeira: Boiro cubre lo básico; la capital comarcal sigue siendo otra.",
+        "Tampoco si agosto junto a Barraña debe ser silencioso. Las verbenas y el veraneo llenan orilla y cunetas; las parroquias altas bajan el volumen a cambio de coche.",
+      ],
+      veredicto:
+        "Boiro es la opción equilibrada del Barbanza: Barraña, mercado y monte cerca a cambio de no ser capital portuaria ni costa brava. Su atractivo está en la villa usable todo el año; su peaje, en medir agosto en la orilla y el trayecto al hospital comarcal."
+    },
+    fotosAbrir: [
+      { src: "/fotos/barbanza-e-noia/boiro-villa.jpg", pie: "Boiro: villa completa frente a la ría" },
+      { src: "/fotos/barbanza-e-noia/boiro-barraña.jpg", pie: "Barraña, el arenal grande de Boiro" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/barbanza-e-noia/boiro-neixon.jpg", pie: "Castros de Neixón sobre la península" },
+      { src: "/fotos/barbanza-e-noia/boiro-paseo.jpg", pie: "Paseo marítimo de Boiro" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/barbanza-e-noia/boiro-carragueiros.jpg", pie: "Carragueiros, playa recogida de ría" },
+      { src: "/fotos/barbanza-e-noia/boiro-sierra.jpg", pie: "La Serra do Barbanza detrás de Boiro" },
+    ],
+    creditoFotos: credito,
+  }

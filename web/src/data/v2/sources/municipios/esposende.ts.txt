@@ -1,0 +1,55 @@
+{
+    escala: "Villa y dunas residenciales",
+    abrir: [
+      "Esposende reparte la vida entre el estuario del Cávado —paseo, puerto, villa— y las microzonas costeras: Ofir —urbanización entre pinos, torres y chalés—, Fão —núcleo antiguo— y Apúlia —dunas, molinos y playa abierta—. El Parque Natural do Litoral Norte envuelve tramos del frente. No son la misma residencia: estuario abrigado y Atlántico expuesto piden mapa distinto.",
+      "La autonomía cotidiana es media-fuerte. El núcleo resuelve mucho; parte de las playas y los servicios superiores piden coche. La A-28 y el bus estructuran el acceso; no hay que inventar tren ni Metro. El hospital de mayor nivel está fuera: la referencia pública de la capa mira hacia la red de Póvoa de Varzim–Vila do Conde. El aeropuerto práctico es Porto.",
+      "En verano crecen ocupación, nortada y uso de la costa; el resto del año vuelve una escala más residencial. Quien elija Ofir no elige el mismo peaje que quien elija el centro junto al Cávado. Esposende es costa llana al norte de Porto, no ciudad-balneario de bloques como Póvoa.",
+    ],
+    tiempo: [
+      "La costa llana trae viento alto, humedad y un verano atlántico suave. Frente a Mallorca hay menos continuidad de sol; en vivienda conviene revisar exposición a la nortada. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno mantiene vida anual en el núcleo, con menos intensidad que agosto. Humedad y viento piden buen cierre en casas y pisos de frente. Un enero en Apúlia no se parece a un enero en el paseo del Cávado.",
+      "Compra y rutina básica pueden resolverse en Esposende; hospital queda fuera del municipio. A-28 y bus ayudan hacia Porto y vecinos; el coche sigue presente para microzonas y playas. No narrar Metro aquí.",
+      "Porto cubre el aeropuerto con trayecto asumible. La integración depende de microzona: villa de estuario, urbanización de Ofir o dunas de Apúlia no socializan igual.",
+    ],
+    historia: [
+      "El Cávado, el puerto y el Parque Natural do Litoral Norte explican Esposende más que un único monumento. Ofir y Apúlia cuentan la historia residencial reciente del litoral; Fão aporta otra capa de núcleo. Lo útil es separar estuario y océano.",
+    ],
+    fuera: [
+      "Marginal del Cávado y recorridos del litoral/parque son el paseo cotidiano según vivienda. Apúlia y Ofir acercan dunas y mar abierto; el centro combina río y orilla de otro modo.",
+      "Póvoa y Vila do Conde amplían ciudad y red hospitalaria; Porto, el avión. Esposende debe valorarse por su propia microzona, no como apéndice de Póvoa.",
+    ],
+    casa: [
+      "La primera decisión es microzona: centro/estuario, Ofir/Fão o Apúlia. Comprobar viento, distancia real a playa y servicios, y necesidad de coche. Obra reciente y chalés conviven con tipologías distintas.",
+      "Los precios y totales permanecen en la capa factual. Firmar tras ver la casa en día de nortada y fuera de temporada alta.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere costa residencial con estuario y dunas, autonomía media-fuerte y se elige microzona con honestidad —Ofir no es Apúlia ni el centro—.",
+        "También si se acepta hospital fuera, hacia la red pública de Póvoa–Vila do Conde, y Porto como aeropuerto, sin inventar tren.",
+      ],
+      no: [
+        "Encaja peor si se necesita hospital en el municipio o se espera Metro y vida de ciudad-balneario densa.",
+        "Tampoco si se decide por una sola foto de duna sin probar el viento y el ritmo de enero en esa microzona concreta.",
+      ],
+      veredicto:
+        "Esposende ofrece Cávado, Ofir y Apúlia como vidas distintas bajo el mismo nombre. Su atractivo está en la costa llana residencial; su peaje, en el hospital fuera, la nortada y no confundir microzonas."
+    },
+ fotoIdentidad: {
+ src: "/fotos/litoral-norte/esposende-identidad.jpg",
+ pie: "Esposende: plaza y casas del centro, con la iglesia matriz al fondo",
+ },
+ fotosAbrir: [
+ { src: "/fotos/litoral-norte/esposende-ofir.jpg", pie: "Ofir: pinos y urbanización en Esposende" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/litoral-norte/esposende-fao.jpg", pie: "Fão: villa antigua en Esposende" },
+ { src: "/fotos/litoral-norte/esposende-apulia.jpg", pie: "Molinos de Apúlia sobre las dunas" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/litoral-norte/esposende-estuario.jpg", pie: "Estuario del Cávado en Esposende" },
+ { src: "/fotos/litoral-norte/esposende-dunas.jpg", pie: "Dunas y pasarelas del Parque Natural do Litoral Norte" },
+ ],
+ creditoFotos: credito,
+  }

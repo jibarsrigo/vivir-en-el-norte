@@ -1,0 +1,55 @@
+{
+    escala: "Parroquias de ría pegadas a la ciudad",
+    abrir: [
+      "Poio no es un solo pueblo. Bajo el mismo ayuntamiento conviven San Salvador —apoyado en Pontevedra—, Campelo residencial, Combarro —casco de piedra, soportales y hórreos junto a la ría—, Raxó y áreas dispersas hacia la costa. El Monte Castrove cierra el horizonte por detrás. Elegir mal la microzona cambia por completo coche, turismo y servicios.",
+      "Un martes de noviembre, San Salvador y el entorno cercano a Pontevedra resuelven mucho con la capital a minutos; Campelo es más residencial; Combarro combina servicios con fuerte uso turístico. Raxó y algunos puntos costeros pueden dar baño cercano; no generalizar al municipio entero. La autonomía cotidiana es media-fuerte según dónde se viva.",
+      "El 24 de junio, San Xoán celebra hogueras alrededor del monasterio. El 16 de julio, núcleos marineros viven el Carmen. En verano, Combarro y Raxó saturan calles, aparcamiento y la PO-308. Quien compre entre hórreos debe conocer un sábado de agosto además de un martes lluvioso.",
+      "Montecelo y Quirónsalud quedan a unos diez minutos: ventaja clara frente a Sanxenxo u O Grove. El peaje es la variedad interna: Lourido no es Combarro; Combarro no es Raxó; Raxó no es una aldea dispersa.",
+    ],
+    tiempo: [
+      "La ría abriga y reduce viento, pero una casa en ladera mal orientada pierde sol pronto y retiene humedad. Frente a Mallorca hay menos continuidad de sol y más jornadas grises; el verano sigue fresco respecto al Mediterráneo. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno se nota en humedad de ladera y en el contraste entre parroquias. Conviene orientación, aislamiento y acceso real; un noviembre en Raxó enseña más que un martes soleado entre hórreos de Combarro.",
+      "Sin coche, la vida cuadra mejor junto a Pontevedra o en núcleos con servicios; desde áreas dispersas el coche cose compra, playa y ciudad. En enero Combarro conserva vecinos tras las fachadas turísticas; en agosto la presión cambia el uso diario del casco.",
+      "La sanidad de mayor nivel está en Pontevedra, a unos diez minutos. Vigo-Peinador es el aeropuerto práctico cercano; Santiago refuerza Palma casi todo el año. Conviene mirar el calendario real de vuelos. La integración es de parroquia: gallego local, puente corto a la capital.",
+    ],
+    historia: [
+      "El Mosteiro de San Xoán de Poio tiene origen medieval y fue casa benedictina antes de pasar a los mercedarios. Su gran hórreo recuerda la economía agrícola de las parroquias. Hórreo es el granero elevado que ventila el grano; en Combarro una treintena se alinea casi tocando la marea.",
+      "Combarro conserva casas marineras, cruceiros y calles de granito declaradas conjunto histórico. En A Caeira, petroglifos de la Edad del Bronce muestran ciervos y círculos grabados mucho antes de la villa turística.",
+      "El municipio se entiende como suma de parroquias, no como una villa crecida desde una única plaza. Esa suma explica por qué no se vive igual en cada orilla.",
+    ],
+    fuera: [
+      "Combarro ofrece paseo de piedra junto a la ría —condicionado por turismo y parking—. Lourido, Cabeceira, Chancelas y Raxó abren franjas de arena según microzona; el agua de ría suele estar más calma que el Atlántico abierto.",
+      "El Monte Castrove da miradores sobre las rías de Pontevedra y Arousa. Quien busque más variedad atlántica mirará Sanxenxo; quien busque peatonalidad total, Pontevedra. Poio gana por equilibrio: agua delante, monte detrás, capital cerca —si se elige bien la parroquia—.",
+    ],
+    casa: [
+      "Según microzona: vivienda ligada a Pontevedra, casa histórica en Combarro, costa en Raxó o dispersión en ladera. Conviene accesibilidad, exterior, servicios realmente caminables y, en ladera, acceso, saneamiento, orientación y humedad.",
+      "En Combarro hay que medir ruido y aparcamiento de verano. Los precios y totales permanecen en la capa factual. Firmar tras un noviembre y un sábado de agosto en la PO-308.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se acepta elegir microzona a conciencia: ría cerca de Pontevedra, Combarro de piedra o Raxó con baño, con hospital a unos diez minutos.",
+        "También si se quiere equilibrio entre pueblo de ría y ciudad próxima, aceptando coche desde las parroquias altas o dispersas.",
+      ],
+      no: [
+        "Encaja peor si se generaliza el municipio: Combarro en agosto no es San Salvador en noviembre, ni Raxó es Campelo.",
+        "Tampoco si se pretende hacer toda la semana andando desde una casa alta o dispersa, o si una calle turística llena arruina la experiencia.",
+      ],
+      veredicto:
+        "Poio es varias vidas bajo un ayuntamiento: agua, Castrove y Pontevedra cerca a cambio de elegir bien parroquia. Su atractivo está en el equilibrio de ría; su peaje, en confundir Combarro, Raxó y las áreas dispersas en una sola ficha."
+    },
+    fotosAbrir: [
+      { src: "/fotos/pontevedra-e-sanxenxo/poio-combarro.jpg", pie: "Combarro: casas marineras y hórreos al borde de la ría" },
+      { src: "/fotos/pontevedra-e-sanxenxo/poio-raxo.jpg", pie: "Raxó, parroquia marinera escalonada sobre el agua" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/pontevedra-e-sanxenxo/poio-mosteiro.jpg", pie: "Mosteiro de San Xoán de Poio, centro histórico del municipio" },
+      { src: "/fotos/pontevedra-e-sanxenxo/poio-horreos.jpg", pie: "Los hórreos de Combarro, graneros elevados frente a la marea" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/pontevedra-e-sanxenxo/poio-lourido.jpg", pie: "Lourido, playa de ría a las puertas de Pontevedra" },
+      { src: "/fotos/pontevedra-e-sanxenxo/poio-castrove.jpg", pie: "El Castrove, monte y mirador detrás de las parroquias" },
+    ],
+    creditoFotos: credito,
+  }

@@ -1,0 +1,76 @@
+{
+    escala: "Urbanización y parroquias del Val Miñor",
+    abrir: [
+      "Nigrán no se organiza alrededor de un único casco. Se reparte entre A Ramallosa —comercio junto al Miñor—, Panxón —puerto y villa marinera—, Praia América —gran bahía residencial— y Patos —más abierta, orientada al surf—. Tierra adentro, parroquias como Priegue o Camos ofrecen casas y vistas a cambio de coche. Hablar de Nigrán es elegir una de esas vidas.",
+      "La autonomía es fuerte en Ramallosa y media en otras microzonas. Playa América y Panxón forman una franja costera utilizable a diario si se vive ahí; no se puede trasladar esa caminabilidad a todo el municipio. Vigo queda cerca; en julio y agosto crecen turismo, tráfico en la PO-552 y ocupación de segundas viviendas.",
+      "San Xoán en Panxón y San Fiz en Praia América marcan noches de hogueras, ruido y aparcamiento difícil. La Bandeira de Nigrán lleva remo a la costa; Patos mantiene surf incluso en invierno. Conviene conocer esos picos antes de elegir vivienda junto a los arenales.",
+    ],
+    tiempo: [
+      "Comparte con Baiona un verano fresco de ensenada frente al calor de Mallorca, e invierno más gris y húmedo que el mediterráneo. La brisa entra por la bahía; Monteferro —península entre Praia América y Patos— matiza tramos de costa. Las cifras quedan en la capa factual.",
+    ],
+    vivir: [
+      "El invierno se nota en humedad y salitre. Conviene aislamiento y orientación; una terraza de agosto puede usarse poco entre noviembre y febrero. Visitar un día gris y otro de nortada ayuda más que la foto de la bahía.",
+      "Servicios hay —centro de salud, súper, farmacias, colegios— pero repartidos. En Panxón se resuelve más a pie; en parroquias altas el coche abre compra y café. En enero no hay vacío total; la densidad es residencial, no de casco continuo.",
+      "Conviven locales, quien trabaja en Vigo y quien convirtió el verano en residencia. Se oye gallego; la vida social pasa por parroquia y vecinos más que por una plaza única. Hospital en el área de Vigo, de los más cercanos de la selección. Para Mallorca, Vigo en verano y Santiago con más continuidad: comprobar calendario, no asumir enlace permanente.",
+      "Buena costa a cambio de microzonas dispersas y un mercado tensionado en franja playera. Panxón/Praia América, A Ramallosa y el interior no son equivalentes.",
+    ],
+    historia: [
+      "Nigrán se entiende como suma de parroquias. La vida marinera se asentó en Panxón; el crecimiento residencial llenó el espacio entre playas y caminos. El Templo Votivo do Mar de Antonio Palacios mira al puerto; un arco visigótico recuerda un tiempo anterior.",
+      "A Ramallosa conserva el puente medieval sobre el Miñor. Monteferro añade el monumento a la Marina Universal y un sendero con vistas a las Cíes. Arco, puente y monumento vuelven visible una historia que el chalé dejó repartida.",
+    ],
+    fuera: [
+      "Praia América y Panxón permiten paseo y baño de franja costera; Patos añade ola y surf. La Senda Azul A Ramallosa–Monteferro alarga el recorrido cuando se quiere más que el paseo corto de la urbanización.",
+      "La Foz do Miñor ofrece marisma llana hacia Baiona; el Galiñeiro, ya hacia Gondomar, abre monte y petroglifos. El tiempo libre tiene varias escalas si se acepta que no todo queda a pie desde cualquier parroquia.",
+    ],
+    casa: [
+      "El modelo característico es chalé o adosado con jardín y coche; también pisos con terraza cerca de Panxón. Accesibilidad y distancia real a núcleo o playa importan más que el nombre del municipio.",
+      "Panxón/Praia América, A Ramallosa y parroquias interiores no comparten precio ni caminabilidad. Conviene oír la PO-552 un día laborable y ver Praia América un sábado de agosto.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca casas bajas, jardín y playa de franja costera con Vigo y hospital cerca, aceptando que la vida está repartida entre parroquias.",
+        "También si se elige a propósito Panxón, Praia América, Ramallosa o una ladera interior, sin pretender que una sola descripción cubra todo Nigrán.",
+      ],
+      no: [
+        "Encaja peor si se necesita casco compacto donde plaza, farmacia y paseo formen una sola calle. Tampoco si se espera caminabilidad de Panxón en una parroquia alta.",
+        "Tampoco si el silencio de agosto en primera línea es condición: la costa llena y la urbanización de febrero son el mismo domicilio.",
+      ],
+      veredicto:
+        "Nigrán ofrece costa diversa y proximidad a Vigo a cambio de microzonas que no se pueden mezclar. Encaja quien elige franja o ladera con ojos abiertos; no quien busca un único casco o traslada la playa cotidiana de América/Panxón a todo el mapa municipal."
+    },
+ fotoIdentidad: {
+ src: "/fotos/val-minor/nigran-identidad.jpg",
+ pie: "Panxón (Nigrán): casas del pueblo junto a la bahía, con el monte detrás",
+ },
+ fotosAbrir: [
+ {
+ src: "/fotos/val-minor/nigran-praia-america.jpg",
+ pie: "Praia América: arena larga y urbanizaciones de casas bajas detrás",
+ },
+ {
+ src: "/fotos/val-minor/nigran-panxon.jpg",
+ pie: "Panxón, la villa marinera de Nigrán, con puerto y vida durante todo el año",
+ },
+ ],
+ fotosHistoria: [
+ {
+ src: "/fotos/val-minor/nigran-templo-votivo.jpg",
+ pie: "Templo Votivo do Mar, la iglesia de Antonio Palacios sobre Panxón",
+ },
+ {
+ src: "/fotos/val-minor/nigran-monteferro-monumento.jpg",
+ pie: "Monumento a la Marina Universal en la península boscosa de Monteferro",
+ },
+ ],
+ fotosFuera: [
+ {
+ src: "/fotos/val-minor/nigran-patos.jpg",
+ pie: "Patos: la playa de surf, abierta al oeste y con las Cíes enfrente",
+ },
+ {
+ src: "/fotos/val-minor/nigran-monteferro.jpg",
+ pie: "Desde Monteferro: las Illas Cíes cerrando el horizonte de la ría",
+ },
+ ],
+ creditoFotos: "Fotos: Wikimedia Commons (CC BY-SA).",
+  }

@@ -1,0 +1,52 @@
+{
+    escala: "Costa de pueblos frente a Santander",
+    abrir: [
+      "Ribamontán al Mar no es una sola villa: Somo, Loredo, Langre, Galizano y otros núcleos reparten la vida entre costa, prados y vivienda dispersa. Somo y Loredo concentran la relación más directa con la gran playa y el surf; otras microzonas dependen más del coche.",
+      "La autonomía cotidiana es media. Hay servicios básicos repartidos, pero sanidad, compra amplia y movimientos entre pueblos hacen que el coche siga siendo importante. La cercanía visual a Santander no convierte el municipio en un barrio de la capital.",
+      "La lancha desde Somo añade una conexión singular con Santander cuando opera. Es una posibilidad útil, no una promesa de transporte urbano continuo ni un sustituto universal del coche.",
+    ],
+    tiempo: [
+      "El frente abierto de Somo y Loredo combina humedad, viento y un clima atlántico suave en verano. Frente a Mallorca hay menos estabilidad de sol; en casas y chalés conviene revisar exposición, aislamiento y ventilación. Las cifras detalladas quedan en la capa factual.",
+    ],
+    vivir: [
+      "En Somo la rutina básica puede concentrarse más y la playa entra de lleno en el día; en otras localidades el patrón es más disperso. Comprar, ir al médico o enlazar distintos núcleos puede requerir coche.",
+      "El verano intensifica playa, surf y tráfico, mientras el resto del año recupera una escala mucho más residencial. La fibra no es uniforme en toda la experiencia descrita, por lo que debe comprobarse en la dirección concreta.",
+      "Valdecilla y el aeropuerto están relativamente próximos por carretera. La conexión marítima con Santander aporta una alternativa atractiva cuando funciona, pero no debe narrarse con horarios inventados.",
+    ],
+    historia: [
+      "La identidad del municipio está menos en un casco monumental que en la sucesión de pueblos, playas y acantilados frente a la bahía. Somo y Loredo forman el frente más continuo; Langre introduce una costa más abrupta y Galizano otra escala residencial.",
+    ],
+    fuera: [
+      "En Somo y Loredo la playa, las dunas y el pinar pueden formar parte del paseo cotidiano. Langre y otros tramos funcionan mejor como salida costera que como extensión caminable de cualquier vivienda.",
+      "Santander queda enfrente y amplía enormemente cultura, servicios y sanidad, pero la vida ordinaria sigue dependiendo de dónde se resida dentro del municipio.",
+    ],
+    casa: [
+      "La primera decisión es microzona: Somo/Loredo no ofrecen la misma rutina que Galizano u otros núcleos. Comprobar distancia real a servicios, playa, parada útil, fibra y necesidad de coche.",
+      "En casas bajas y chalés revisar humedad, aislamiento, exposición al viento y mantenimiento exterior. Los precios y totales permanecen en la capa factual.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca costa de casas bajas y pueblos, con playa muy cotidiana en Somo/Loredo y Santander próxima.",
+        "También si se acepta una autonomía media y cierta dependencia del coche fuera de las microzonas mejor servidas.",
+      ],
+      no: [
+        "Encaja peor si se necesita una villa compacta con todos los servicios a pie.",
+        "Tampoco si se interpreta la lancha o la proximidad a Santander como sustituto permanente del coche en todo el municipio.",
+      ],
+      veredicto:
+        "Ribamontán al Mar combina una costa muy vivible en Somo/Loredo con un municipio disperso. Su atractivo está en playa y paisaje frente a Santander; su peaje es que la microzona decide cuánto coche, cuántos servicios y cuánta playa cotidiana se tienen de verdad."
+    },
+ fotosAbrir: [
+ { src: "/fotos/cantabria-oriental/ribamontan-somo.jpg", pie: "Somo: playa y surf en Ribamontán al Mar" },
+ { src: "/fotos/cantabria-oriental/ribamontan-casas.jpg", pie: "Casas bajas y prados en Ribamontán al Mar" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/cantabria-oriental/ribamontan-loredo.jpg", pie: "Loredo, en Ribamontán al Mar" },
+ { src: "/fotos/cantabria-oriental/ribamontan-langre.jpg", pie: "Acantilados de Langre" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/cantabria-oriental/ribamontan-galizano.jpg", pie: "Playa de Galizano" },
+ { src: "/fotos/cantabria-oriental/ribamontan-playa.jpg", pie: "Costa abierta de Ribamontán al Mar" },
+ ],
+ creditoFotos: credito,
+  }

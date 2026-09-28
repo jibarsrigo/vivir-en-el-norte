@@ -1,0 +1,58 @@
+{
+    escala: "Estuario, miradores y San Esteban",
+    abrir: [
+      "Muros de Nalón vive alrededor de la desembocadura del Nalón, pero no toda la experiencia está en el mismo punto. El núcleo de Muros, la Ruta de los Miradores y San Esteban de Pravia forman piezas distintas de una vida pequeña, ligada al estuario y con bastante dependencia del coche.",
+      "La autonomía cotidiana es media-baja. Hay básicos locales, pero para una compra amplia y más servicios pesan Avilés y Pravia. La playa de Aguilar es una salida, no una playa urbana integrada en el núcleo, y el precio municipal actual se mantiene como no disponible en la capa 2026.",
+    ],
+    tiempo: [
+      "Frente a Mallorca, aquí pesan más la humedad, los días grises y la niebla del entorno de la desembocadura. Orientación, ventilación y aislamiento merecen comprobarse durante una semana húmeda, especialmente en viviendas próximas al estuario.",
+      "El agua cotidiana es sobre todo el Nalón y su paisaje. Para bañarse hay que cambiar de escenario y salir hacia la costa; tener el estuario delante no equivale a tener una playa de baño a pie.",
+    ],
+    vivir: [
+      "Una mañana puede dedicarse a caminar por el entorno del Nalón o enlazar parte de los miradores, teniendo presente que el recorrido no es un paseo completamente llano. San Esteban ofrece otra relación con el río, más portuaria, y merece tratarse como microzona propia.",
+      "La compra grande y muchos recados requieren coche. Esa dependencia es parte estructural del municipio, no una incidencia de temporada. A cambio, el aeropuerto de Asturias queda muy accesible y Avilés está suficientemente cerca para ampliar servicios.",
+      "El hospital práctico está fuera, en San Agustín de Avilés. Para Palma, la programación desde Asturias es variable; lo estable es la buena accesibilidad al aeropuerto, no una conexión aérea permanente.",
+      "El verano aporta más movimiento hacia costa y miradores, pero Muros conserva una escala pequeña. San Esteban, el núcleo y las viviendas más dispersas no deben juzgarse como si ofrecieran exactamente la misma rutina.",
+    ],
+    historia: [
+      "La desembocadura del Nalón organiza el paisaje y explica la relación entre Muros y San Esteban. Los miradores permiten leer el estuario desde arriba; el antiguo frente portuario de San Esteban lo hace desde la orilla.",
+      "La cercanía de El Pito y la Quinta de Selgas añade patrimonio indiano al mapa comarcal, pero la identidad cotidiana de Muros sigue siendo la de un municipio pequeño alrededor del Nalón.",
+    ],
+    fuera: [
+      "Aguilar es la referencia de playa, pero pertenece al mapa de salida. Los miradores ofrecen otra forma de acercarse al mar y al estuario, con desnivel y sin necesidad de convertir cada paseo en una excursión larga.",
+      "Avilés y Pravia completan comercio y servicios. Esa red próxima hace viable la escala pequeña de Muros, aunque obliga a asumir el coche para una parte relevante de la semana.",
+    ],
+    casa: [
+      "Conviene distinguir Muros de San Esteban y comprobar acceso, humedad, orientación, fibra y facilidad para resolver recados. La proximidad visual al estuario no garantiza una rutina peatonal completa.",
+      "La capa 2026 no ofrece un precio municipal actual fiable. No debe reconstruirse con cifras antiguas ni describirse el municipio como ‘barato’ a partir de ellas; la comparación debe hacerse casa por casa y por microzona.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se busca una escala pequeña junto al Nalón y se acepta apoyarse en coche, Avilés y Pravia para completar la semana.",
+        "También si se valora más el estuario, San Esteban y los miradores que tener una playa de baño urbana junto a casa.",
+      ],
+      no: [
+        "Encaja peor si se quiere comercio amplio a pie, una playa cotidiana integrada en el núcleo o un paseo siempre llano.",
+        "Tampoco si se necesita una referencia municipal de precio robusta antes de explorar viviendas concretas: el dato actual se mantiene como n.d.",
+      ],
+      veredicto:
+        "Muros de Nalón ofrece estuario y escala pequeña con una logística sorprendentemente cómoda hacia aeropuerto y Avilés. El peaje es una autonomía limitada, bastante coche y una geografía donde miradores, San Esteban y playa son experiencias distintas; además, el precio municipal actual debe tratarse como no disponible."
+    },
+ fotoIdentidad: {
+ src: "/fotos/asturias-centro/muros-de-nalon-identidad.jpg",
+ pie: "San Esteban (Muros de Nalón): casas del puerto frente al estuario, con el monte detrás",
+ },
+ fotosAbrir: [
+ { src: "/fotos/asturias-centro/muros-miradores.jpg", pie: "Miradores de Muros de Nalón" },
+ { src: "/fotos/asturias-centro/muros-ria.jpg", pie: "Desembocadura del Nalón desde Muros" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/asturias-centro/muros-villa.jpg", pie: "Muros de Nalón: villa sobre el estuario" },
+ { src: "/fotos/asturias-centro/muros-selgas.jpg", pie: "Quinta de Selgas, en El Pito" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/asturias-centro/muros-paseo.jpg", pie: "Paseo en Muros de Nalón" },
+ { src: "/fotos/asturias-centro/muros-nalon.jpg", pie: "Estuario del Nalón" },
+ ],
+ creditoFotos: credito,
+  }

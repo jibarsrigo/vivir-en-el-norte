@@ -1,0 +1,53 @@
+{
+    escala: "Villa marinera de surf",
+    abrir: [
+      "Tapia de Casariego concentra bastante vida en poca distancia: casco marinero, puerto, faro, paseo y playas enlazadas con la villa. Anguileiro, Represas y Serantes hacen que el mar no sea solo una salida de fin de semana; forma parte de una mañana corriente, tanto para caminar como para entrar al agua cuando el Cantábrico lo permite.",
+      "Fuera del verano sigue funcionando como villa. La rutina básica puede resolverse en el núcleo y el coche tiene un papel menor que en municipios más dispersos, aunque vuelve a ser necesario para el hospital y para ampliar el radio de salidas. Agosto añade presión sobre playas, aparcamiento y orilla sin convertir Tapia en un lugar exclusivamente estacional."
+    ],
+    tiempo: [
+      "El contraste con Mallorca está en un verano más fresco, humedad, niebla frecuente y más días de cielo cerrado. Una vivienda junto al mar debe juzgarse también con viento y bruma: orientación, aislamiento y exposición al salitre cambian mucho la experiencia entre agosto y enero.",
+      "Las playas son de Cantábrico abierto y el estado del mar manda. El surf forma parte de la identidad local, pero para un baño tranquilo no todos los días son iguales. La piscina de agua de mar añade otra pieza al frente costero sin necesidad de convertir cada salida al agua en una excursión."
+    ],
+    vivir: [
+      "Un martes de noviembre se puede caminar del casco al puerto, seguir hacia el faro y la costa, resolver compras y atención primaria y volver sin organizar el día alrededor del coche. Esa continuidad a pie es una de las diferencias prácticas de Tapia frente a municipios occidentales más dispersos.",
+      "Anguileiro y las playas próximas permiten incorporar mar y surf a la rutina. En verano ese mismo frente recibe más visitantes y coches; vivir muy pegado a la orilla significa aceptar una temporada más intensa que en calles interiores.",
+      "Para atención hospitalaria hay que desplazarse a Jarrio. El aeropuerto de Asturias queda también fuera de la rutina inmediata y las conexiones con Palma son de programación variable, de modo que viajar exige mirar la temporada real y no dar por permanente una ruta de verano.",
+      "Ribadeo y Navia amplían comercio y servicios a una distancia de salida corta. Tapia, sin embargo, no necesita esas villas para cada gesto cotidiano: su autonomía es suficiente para que el casco mantenga vida durante el año."
+    ],
+    historia: [
+      "El puerto y la isla del faro explican mejor Tapia que una lista de monumentos. La escala es la de una villa marinera compacta, con calles que vuelven una y otra vez hacia la dársena y el frente costero.",
+      "El surf añade una capa contemporánea a esa identidad. Anguileiro, Represas y Serantes no son solo nombres de playa: explican por qué la relación con el Cantábrico se ve en la vida diaria y por qué el verano cambia el ritmo de la orilla."
+    ],
+    fuera: [
+      "El paseo puerto–faro–costa puede formar parte de una mañana normal. La piscina de agua de mar y las playas próximas amplían ese recorrido, mientras Anguileiro ofrece la relación más directa entre villa, arena y surf.",
+      "Penarronda cambia el paisaje hacia dunas y Castropol; la ruta costera hacia Figueras acerca la ría del Eo. Navia queda como villa de apoyo hacia el este y Ribadeo como otra escala urbana hacia el oeste, pero ninguna de esas salidas sustituye el paseo cotidiano de Tapia."
+    ],
+    casa: [
+      "En el casco y cerca del puerto conviene comprobar accesibilidad, orientación y distancia realmente caminable a compra y playa. Junto a la orilla pesan salitre, niebla, viento y el movimiento de verano; unas calles hacia dentro pueden cambiar bastante esa exposición.",
+      "El mercado tiene componente turístico y de segunda residencia, por lo que no conviene extrapolar una vivienda a todo el municipio. Los precios y estimaciones quedan en la capa factual y en la tabla; en la visita importan más estado, accesibilidad y funcionamiento fuera de temporada."
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere una villa pequeña donde puerto, paseo y playa formen parte de la rutina y donde buena parte del día a día pueda hacerse dentro del núcleo. El coche sigue siendo útil, pero no organiza cada recado.",
+        "También encaja si se acepta que el verano intensifique el uso de las playas y el aparcamiento. Fuera de esa temporada queda una base local suficiente para que Tapia siga siendo villa y no únicamente destino de costa."
+      ],
+      no: [
+        "Encaja peor si se necesita hospital en el propio municipio, una oferta urbana amplia o conexiones aéreas inmediatas. Para esas funciones hay que salir de Tapia.",
+        "Tampoco si la niebla, el salitre y un Cantábrico que no garantiza baño tranquilo cada día restan demasiado valor a tener el mar tan integrado. La vivienda debe funcionar con bruma y en invierno, no solo junto a una playa llena de agosto."
+      ],
+      veredicto:
+        "Tapia combina casco marinero, puerto y una relación especialmente directa con el mar. Su equilibrio está en poder hacer bastante vida a pie y tener playas y paseo incorporados a la villa, aceptando una temporada de verano más intensa y desplazamientos para hospital, aeropuerto y servicios de mayor escala."
+    },
+    fotosAbrir: [
+      { src: "/fotos/asturias-occidente/tapia-puerto.jpg", pie: "Puerto de Tapia de Casariego" },
+      { src: "/fotos/asturias-occidente/tapia-casco.jpg", pie: "Casco marinero de Tapia" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/asturias-occidente/tapia-faro.jpg", pie: "Faro e isla frente a Tapia" },
+      { src: "/fotos/asturias-occidente/tapia-paseo.jpg", pie: "Paseo costero de Tapia" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/asturias-occidente/tapia-playa.jpg", pie: "Playa de Tapia hacia el Cantábrico" },
+    ],
+    creditoFotos: credito,
+  }

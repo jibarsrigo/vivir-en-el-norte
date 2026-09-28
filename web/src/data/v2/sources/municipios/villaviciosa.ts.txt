@@ -1,0 +1,53 @@
+{
+    escala: "Villa de servicios junto a la ría",
+    abrir: [
+      "Villaviciosa es primero una villa con vida propia y después una puerta hacia la costa. El casco concentra comercio y servicios; la ría aporta agua, paseo y paisaje; Rodiles y Tazones pertenecen a otro radio y normalmente exigen desplazamiento.",
+      "Esa separación es una de sus ventajas y también su peaje. Se puede tener una rutina bastante autónoma en la villa sin vivir en una localidad de playa, pero quien quiera bajar andando a bañarse debe buscar otra microzona.",
+    ],
+    tiempo: [
+      "Frente a Mallorca, aquí pesan la humedad, la niebla y un verano mucho más fresco. La proximidad de la ría hace especialmente útil comprobar ventilación, orientación y comportamiento de la vivienda durante semanas húmedas.",
+      "La ría es el agua cotidiana, pero no una playa de toalla. Rodiles ofrece el baño y el Cantábrico abierto como salida; confundir ambas experiencias distorsiona cómo se vive realmente en la villa.",
+    ],
+    vivir: [
+      "Una mañana normal puede resolverse en el casco con compras y recados y continuar por el entorno de la ría. Esa combinación sostiene una autonomía fuerte sin necesidad de coger el coche para cada tarea.",
+      "Para la playa hay que cambiar de escenario. Rodiles, Tazones y Valdediós funcionan como salidas cercanas, cada una por motivos distintos: mar, pueblo costero y patrimonio.",
+      "El hospital práctico está fuera, en Cabueñes, y el aeropuerto de Asturias requiere un desplazamiento mayor que desde el centro de la región. Palma depende de temporada y programación.",
+      "La vida anual de la villa es más estable que la de las zonas de costa. Esa diferencia puede ser útil: servicios y rutina en el núcleo, playa cuando se decide salir, en lugar de soportar toda la estacionalidad junto a la orilla.",
+    ],
+    historia: [
+      "La sidra y los llagares forman parte de la identidad de Villaviciosa, vinculada a la manzana y a un territorio rural que rodea la villa. No hace falta convertirlo en una ruta turística para que siga presente en la vida local.",
+      "La ría aporta la otra gran referencia, con su paisaje de agua y aves. Tazones y Valdediós amplían la historia municipal hacia la costa y el patrimonio, pero no sustituyen el funcionamiento cotidiano del casco.",
+    ],
+    fuera: [
+      "Rodiles es la gran salida de playa; Tazones cambia la escala hacia un pequeño núcleo marinero; Valdediós ofrece otra dirección y otro tipo de jornada.",
+      "Gijón amplía sanidad, cultura y oferta urbana. Esa proximidad ayuda a que Villaviciosa mantenga una escala menor sin perder acceso razonable a servicios superiores.",
+    ],
+    casa: [
+      "En la villa conviene valorar luz, humedad, accesibilidad y distancia real a comercio y paseo. En las zonas costeras cambian el coche, la estacionalidad y la relación con los servicios.",
+      "Precio y estimaciones quedan en la capa factual. La elección principal es entre autonomía de villa y proximidad de costa, no una supuesta vivienda que reúna automáticamente ambas.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se valora una villa con vida anual y bastante autonomía, con la ría dentro de la rutina y playas como Rodiles a una salida corta.",
+        "También si se prefiere separar la semana práctica del movimiento estacional de la costa.",
+      ],
+      no: [
+        "Encaja peor si la playa debe quedar a pie desde el centro o si hospital y aeropuerto tienen que estar especialmente próximos.",
+        "Tampoco si se confunde vivir junto a la ría con vivir en una villa de baño: son relaciones con el agua distintas.",
+      ],
+      veredicto:
+        "Villaviciosa combina una villa autónoma y anual con la ría como paisaje cotidiano y Rodiles como salida de playa. Su principal intercambio es claro: más servicios y vida a pie en el núcleo a cambio de coger el coche para el Cantábrico abierto y para la sanidad hospitalaria."
+    },
+ fotosAbrir: [
+ { src: "/fotos/asturias-oriente/villaviciosa-villa.jpg", pie: "Villaviciosa: villa de la sidra" },
+ { src: "/fotos/asturias-oriente/villaviciosa-ria.jpg", pie: "Ría de Villaviciosa" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/asturias-oriente/villaviciosa-valdedios.jpg", pie: "Valdediós, cerca de Villaviciosa" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/asturias-oriente/villaviciosa-tazones.jpg", pie: "Tazones, pueblo marinero" },
+ { src: "/fotos/asturias-oriente/villaviciosa-rodiles.jpg", pie: "Rodiles y la ría desde el monte" },
+ ],
+ creditoFotos: credito,
+  }

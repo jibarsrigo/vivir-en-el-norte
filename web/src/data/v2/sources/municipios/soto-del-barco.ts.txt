@@ -1,0 +1,54 @@
+{
+    escala: "Nalón, núcleo y San Juan de la Arena",
+    abrir: [
+      "Soto del Barco cambia mucho según se viva en el núcleo o en San Juan de la Arena. El primero organiza servicios y conexiones; el segundo se acerca a la desembocadura, al puerto y a Los Quebrantos. Hablar del concejo como una sola experiencia borra precisamente su diferencia más útil.",
+      "La autonomía es media: hay básicos, pero Avilés amplía comercio y servicios. El coche sigue siendo importante, aunque el aeropuerto de Asturias queda muy próximo y la posición junto al Nalón facilita moverse por el centro-occidente asturiano.",
+    ],
+    tiempo: [
+      "Frente a Mallorca, la humedad y el cielo cantábrico cambian la forma de usar la vivienda. Cerca del estuario conviene revisar ventilación, aislamiento y orientación; en invierno el río y la costa se sienten de otra manera que durante una visita de verano.",
+      "Los Quebrantos aporta playa cotidiana de forma parcial, sobre todo para quien vive en San Juan de la Arena. Desde Soto núcleo la relación con el mar exige desplazarse: la microzona determina si la playa forma parte de una tarde normal o de una salida.",
+    ],
+    vivir: [
+      "En San Juan una mañana puede seguir la ribera y el puerto y acercarse a Los Quebrantos. En Soto la rutina se organiza de otro modo, alrededor del núcleo y de los desplazamientos. Esa separación debe comprobarse antes de elegir vivienda.",
+      "Para una compra amplia y una oferta mayor aparece Avilés. El hospital práctico también está fuera, en San Agustín, mientras el aeropuerto queda especialmente cerca. Palma depende de la programación estacional.",
+      "El verano activa más la zona de playa, pero el municipio mantiene vida anual. No hace falta convertir esa estacionalidad en un problema absoluto: importa sobre todo si la casa está en San Juan, en Soto o en una zona dispersa.",
+      "La desembocadura del Nalón ofrece un paisaje cotidiano distinto de una villa de playa compacta. Aquí la vida funciona por piezas y el coche sirve para conectarlas.",
+    ],
+    historia: [
+      "San Juan de la Arena conserva una identidad marinera ligada a la desembocadura y a las angulas, mientras el castillo de San Martín recuerda el control histórico de este paso del Nalón.",
+      "El estuario es el hilo común entre las distintas microzonas. No convierte Soto y San Juan en el mismo lugar, pero explica por qué puerto, río y costa aparecen juntos en el mapa municipal.",
+    ],
+    fuera: [
+      "Los Quebrantos es la salida natural hacia el Cantábrico y puede ser realmente cotidiana desde San Juan. Desde otras partes del concejo exige desplazamiento.",
+      "Avilés amplía comercio, hospital y vida urbana. Muros y San Esteban, al otro lado del sistema del Nalón, completan un mapa de estuario que se entiende mejor recorriéndolo que mirando solo distancias.",
+    ],
+    casa: [
+      "La primera pregunta es si la vivienda está en Soto, San Juan o una zona intermedia. Acceso, fibra, humedad y cuánto coche exige cada recado cambian con esa elección.",
+      "Los precios y estimaciones quedan en la capa factual. El relato debe ayudar a distinguir microzonas y funcionamiento cotidiano, no repetir medias o totales de vivienda.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se acepta una vida repartida y se valora tener estuario, playa y aeropuerto muy accesibles sin necesitar una gran villa turística.",
+        "San Juan encaja especialmente con quien quiere puerto y Los Quebrantos dentro de una rutina más marítima; Soto ofrece otra relación, más de núcleo y conexiones.",
+      ],
+      no: [
+        "Encaja peor si se espera tener playa, comercio amplio y servicios superiores todos en el mismo radio peatonal.",
+        "Tampoco si se compra pensando en ‘Soto del Barco’ sin comprobar la microzona: Soto y San Juan producen semanas distintas.",
+      ],
+      veredicto:
+        "Soto del Barco combina una posición logística cómoda con dos experiencias claras: núcleo y conexiones en Soto, estuario y playa en San Juan de la Arena. La autonomía es intermedia y el coche sigue contando; la elección de microzona determina cuánto mar entra realmente en la vida diaria."
+    },
+    fotosAbrir: [
+      { src: "/fotos/asturias-centro/soto-arena.jpg", pie: "San Juan de la Arena, Soto del Barco" },
+      { src: "/fotos/asturias-centro/soto-villa.jpg", pie: "Soto del Barco hacia el estuario" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/asturias-centro/soto-castillo.jpg", pie: "Castillo de San Martín, Soto del Barco" },
+      { src: "/fotos/asturias-centro/soto-estuario.jpg", pie: "Estuario del Nalón en Soto del Barco" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/asturias-centro/soto-playa.jpg", pie: "Playa en Soto del Barco" },
+      { src: "/fotos/asturias-centro/soto-quebrantos.jpg", pie: "Los Quebrantos, San Juan de la Arena" },
+    ],
+    creditoFotos: credito,
+  }

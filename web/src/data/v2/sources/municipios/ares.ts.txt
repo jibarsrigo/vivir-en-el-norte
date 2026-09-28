@@ -1,0 +1,59 @@
+{
+    escala: "Villa de ría con playa",
+    abrir: [
+      "Ares se siente pequeña y fotogénica en la ría de Ares. Unos seis mil habitantes: villa compacta con playa protegida de ría integrada en el paseo, y Redes —aldea marinera de casas de colores, muy fotografiada—. Seselle y Chanteiro miran hacia A Coruña; Mugardos completa el paisaje de orilla.",
+      "Quien vive aquí prioriza paisaje y escala de villa. Un martes de noviembre hay centro de salud, farmacias, biblioteca, mercado y deporte en el núcleo; el coche organiza hospital y oferta amplia hacia Ferrol. La caminabilidad descrita corresponde a la villa, no a todo el municipio ni a viviendas exteriores.",
+      "En verano Redes, la playa urbana y Chanteiro reciben visitantes, tráfico estrecho y aparcamiento justo. Las fiestas locales animan la villa. Fuera de temporada Ares vuelve a ser villa pequeña y aldea.",
+      "Si solo conoces un sábado de sol en las casas de colores, te llevas postal. Si has visto un invierno húmedo y el atasco de agosto, ya puedes decidir si aceptas la dependencia de Ferrol.",
+    ],
+    tiempo: [
+      "Frente a Mallorca el cielo se nota más gris. El verano es suave. La playa urbana, Seselle y Chanteiro permiten baño de ría más abrigado que Doniños, aunque sigue fresco. Las cifras detalladas quedan en la capa factual.",
+      "Conviene probar un invierno húmedo, no solo el sol de Redes.",
+    ],
+    vivir: [
+      "El invierno se nota en la villa y en Redes: humedad de ría y terraza que se usa menos entre noviembre y febrero. Conviene mirar aislamiento un día gris, no solo el color de las fachadas.",
+      "Sin coche, la villa resuelve la rutina básica; hospital y comercio grande piden desplazamiento. En enero Ares no se apaga del todo, pero tampoco es corona residencial con súper enorme a pie.",
+      "Llegar de fuera prioriza paisaje sobre servicios. Se oye gallego en la villa y en Redes; el castellano basta para lo cotidiano. En verano Redes y la orilla reciben gente; entre semana manda la dependencia de Ferrol o A Coruña.",
+      "La sanidad especializada está en Ferrol —CHUF— a un trayecto medio. Empadronarse abre cabecera local; para hospital se conduce. No es aislamiento total, pero tampoco sanidad a pie en Redes.",
+      "Ir y volver a Mallorca: Alvedro a un trayecto mayor (Palma sobre todo en verano); Santiago-Lavacolla aporta enlace durante casi todo el año a un trayecto largo. Conviene comprobar programación.",
+      "Hay viviendas en la villa, en Redes y en parroquias. En Redes hay que contar con acceso estrecho y ocupación de verano; en el resto, distancia real a un súper.",
+    ],
+    historia: [
+      "Redes es la ficha visual del municipio: casas de colores pegadas a la orilla, escala de aldea marinera y un paseo que se entiende sin explicación larga. Creció con el oficio del mar en la ría de Ares.",
+      "La villa de Ares y las playas de Seselle y Chanteiro —frente a la silueta de A Coruña— completan un mapa de ría trabajada y residencial. Lo que conviene saber es orilla pequeña con carácter cuando Oleiros apuesta por la urbanización.",
+    ],
+    fuera: [
+      "La playa urbana de Ares es el baño de diario: arena de ría integrada en villa y paseo. Un martes de junio la toalla cabe; un domingo de agosto, el acceso estrecho se nota.",
+      "Redes, Seselle y Chanteiro amplían orilla y foto. Ferrol cubre hospital y oferta mayor; la costa exterior atlántica queda como excursión, no como gesto del centro.",
+      "Mugardos y el resto de la ría completan paseos cuando no apetece repetir la misma dársena.",
+    ],
+    casa: [
+      "Vivienda en la villa, en Redes o en parroquia. Conviene probar agosto en la aldea y un invierno húmedo antes de comprar la postal de las fachadas de colores.",
+      "Los precios permanecen en la capa factual. La caminabilidad de la villa no se traslada automáticamente a una casa exterior.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere villa con playa de ría a pie, paseo y escala fotogénica, aceptando Ferrol para hospital y servicios de mayor tamaño.",
+        "También si Redes y el color de la orilla importan más que la corona residencial de Oleiros o la densidad de A Coruña.",
+      ],
+      no: [
+        "Encaja peor si se necesita hospital cerca, aeropuerto a minutos o comercio grande a pie: aquí la villa es cómoda y el resto queda fuera.",
+        "Tampoco si se confunde la caminabilidad del núcleo con todo el municipio, o si se decide solo tras un sábado de sol en Redes.",
+      ],
+      veredicto:
+        "Ares es villa de ría con playa integrada: color, paseo y escala pequeña a cambio de depender de Ferrol para lo mayor. Su atractivo está en la orilla vivida; su peaje, en no pedirle autonomía de ciudad ni homogenizarlo con Oleiros."
+    },
+    fotosAbrir: [
+      { src: "/fotos/golfo-artabro-e-ferrol/ares-redes.jpg", pie: "Casa modernista en Redes, aldea de Ares" },
+      { src: "/fotos/golfo-artabro-e-ferrol/ares-villa-ria.jpg", pie: "Ares frente a su ría, villa y orilla" },
+    ],
+    fotosHistoria: [
+      { src: "/fotos/golfo-artabro-e-ferrol/ares-seselle.jpg", pie: "Seselle, orilla frente a A Coruña" },
+      { src: "/fotos/golfo-artabro-e-ferrol/ares-chanteiro.jpg", pie: "Chanteiro, playa de la ría de Ares" },
+    ],
+    fotosFuera: [
+      { src: "/fotos/golfo-artabro-e-ferrol/ares-playa.jpg", pie: "Playa urbana de Ares" },
+      { src: "/fotos/golfo-artabro-e-ferrol/ares-ria.jpg", pie: "Ría de Ares desde la orilla" },
+    ],
+    creditoFotos: credito,
+  }

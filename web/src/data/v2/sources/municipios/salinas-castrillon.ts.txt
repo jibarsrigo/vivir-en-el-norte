@@ -1,0 +1,58 @@
+{
+    escala: "Villa-playa y concejo de servicios repartidos",
+    abrir: [
+      "Salinas es una de las experiencias más claramente marítimas de Asturias Centro: paseo, playa y El Espartal forman parte de la vida de la villa. Pero Castrillón no se reduce a Salinas. Piedras Blancas concentra otra parte de los servicios y maneja una lógica residencial y de precios distinta.",
+      "La autonomía cotidiana es media-fuerte según microzona. En Salinas se puede hacer mucha vida a pie junto al mar; para ciertos servicios aparece Piedras Blancas y, muy cerca, Avilés. Esa red funciona bien, pero obliga a distinguir playa, capital municipal y ciudad de apoyo.",
+    ],
+    tiempo: [
+      "Frente a Mallorca, el verano es mucho más fresco y el año más húmedo y gris. Junto a la playa importan viento, salitre, aislamiento y orientación; una vivienda luminosa y protegida puede cambiar mucho la experiencia del invierno.",
+      "El Espartal no es una playa de excursión: desde Salinas forma parte de la rutina, junto al paseo y las dunas. Esa ventaja no debe trasladarse automáticamente a cualquier vivienda de Castrillón.",
+    ],
+    vivir: [
+      "Una mañana en Salinas puede resolverse caminando por el paseo, la playa y el entorno dunar. La Peñona y el Museo de Anclas forman parte de ese frente cotidiano. Para gestiones y oferta adicional, Piedras Blancas y Avilés amplían el radio sin exigir grandes desplazamientos.",
+      "Hospital y aeropuerto están especialmente próximos. Esa logística es una fortaleza estructural de la zona, aunque los vuelos concretos a Palma sigan dependiendo de temporada y programación.",
+      "El verano aumenta ocupación, tráfico y presión de aparcamiento junto a la playa. Fuera de temporada queda una base residencial real; no es un núcleo que desaparezca en invierno.",
+      "La proximidad de la actividad industrial de Avilés también forma parte del territorio. No hace falta atribuir efectos no documentados: basta saber que industria, viento y microzona deben mirarse junto con playa y paseo.",
+    ],
+    historia: [
+      "Salinas creció como frente residencial ligado a la playa, mientras El Espartal conserva un sistema dunar que da continuidad al litoral. La Peñona y el Museo de Anclas añaden una referencia reconocible al paseo.",
+      "Piedras Blancas recuerda que el municipio funciona con más de un centro. La vida de playa de Salinas y la vida administrativa y de servicios del concejo se complementan, pero no son intercambiables.",
+    ],
+    fuera: [
+      "El Espartal y el paseo son cotidianos desde Salinas. Bahínas y otras playas del concejo amplían el mapa, mientras Avilés ofrece casco, comercio y servicios urbanos muy cerca.",
+      "La ventaja de Castrillón está en esa combinación: mar a pie en Salinas y una red de servicios próxima. El precio de esa posición es que la microzona importa mucho y la franja de Salinas soporta una prima clara.",
+    ],
+    casa: [
+      "En Salinas conviene buscar accesibilidad, ascensor o ausencia de barreras, buena orientación, exterior y aparcamiento cuando sea necesario. Salitre, viento y ocupación de verano también deben comprobarse.",
+      "El mercado de Salinas no debe confundirse con Piedras Blancas ni con el conjunto de Castrillón. Precio y estimaciones se muestran en la capa factual; la casa concreta debe juzgarse por microzona y funcionamiento anual.",
+    ],
+    encaja: {
+      si: [
+        "Encaja si se quiere que playa y paseo formen parte real de la semana y se valora tener hospital, aeropuerto, Avilés y servicios del concejo muy próximos.",
+        "También si se acepta que Salinas paga esa combinación con un mercado más exigente y con más movimiento en verano.",
+      ],
+      no: [
+        "Encaja peor si se busca el mismo nivel de precio y tranquilidad en primera línea que en las zonas interiores del concejo.",
+        "Tampoco si la proximidad del entorno industrial de Avilés pesa demasiado en la elección o si se pretende que toda vivienda de Castrillón tenga la vida peatonal de Salinas.",
+      ],
+      veredicto:
+        "Salinas combina playa y paseo realmente cotidianos con una logística muy fuerte hacia hospital, aeropuerto y Avilés. Su peaje está en el precio, la presión estival y una microzona que no debe confundirse con Piedras Blancas ni con el resto de Castrillón."
+    },
+ fotoIdentidad: {
+ src: "/fotos/asturias-centro/salinas-castrillon-identidad.jpg",
+ pie: "Salinas: casas y chalés frente al Cantábrico, con el cabo detrás",
+ },
+ fotosAbrir: [
+ { src: "/fotos/asturias-centro/salinas-playa.jpg", pie: "Playa de Salinas" },
+ { src: "/fotos/asturias-centro/salinas-paseo.jpg", pie: "Paseo de Salinas" },
+ ],
+ fotosHistoria: [
+ { src: "/fotos/asturias-centro/salinas-anclas.jpg", pie: "Museo de Anclas, Peñona de Salinas" },
+ { src: "/fotos/asturias-centro/salinas-chalets.jpg", pie: "Casas bajas y chalés en Salinas" },
+ ],
+ fotosFuera: [
+ { src: "/fotos/asturias-centro/salinas-dunas.jpg", pie: "El Espartal desde el paseo, Salinas" },
+ { src: "/fotos/asturias-centro/salinas-aviles.jpg", pie: "Avilés, a minutos de Salinas" },
+ ],
+ creditoFotos: credito,
+  }

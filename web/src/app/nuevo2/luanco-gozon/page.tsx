@@ -17,9 +17,9 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
-  "Luanco está en la costa central de Asturias y es la capital de Gozón, un concejo que se extiende mucho más allá de la villa. Esta ficha describe la experiencia de vivir en Luanco, donde casas, comercios, servicios, puerto y playa se concentran en un espacio relativamente pequeño. No describe automáticamente la vida en una vivienda rural de Gozón ni junto a cualquiera de las otras playas del concejo.",
-  "La villa ocupa una pequeña ensenada abierta al Cantábrico. El puerto queda integrado en el núcleo y, a su lado, el frente marítimo enlaza con la playa urbana y con calles donde siguen estando buena parte de los servicios cotidianos.",
-  "Fuera de Luanco cambia la escala. Gozón continúa por una costa y un interior más dispersos, con otras playas y núcleos donde el coche adquiere más peso. Elegir Gozón y elegir Luanco no garantiza, por tanto, la misma vida cotidiana.",
+  "Asturias Centro reúne formas muy distintas de vivir junto al Cantábrico: desde el puerto en ladera de Cudillero y los núcleos del estuario del Nalón hasta las villas marineras de Luanco y Candás, la playa de Salinas y la escala urbana de Gijón. Avilés y Oviedo completan un territorio en el que costa, ciudades y aeropuerto quedan relativamente próximos, aunque la vida cotidiana cambia mucho según el lugar elegido.",
+  "Luanco ocupa la costa oriental de Asturias Centro, entre Avilés y Gijón, y es la capital de Gozón. Frente a la escala urbana de Gijón o a la gran playa de Salinas, aquí la vida se concentra en una villa marinera pequeña donde puerto, playa, comercio y servicios quedan muy próximos.",
+  "El resto de Gozón se extiende por una costa y un interior mucho más dispersos. Vivir en Luanco no es lo mismo que vivir en una parroquia rural o junto a otra playa del concejo: la villa permite reducir bastante el coche, mientras fuera de ella aumenta la dependencia de los desplazamientos.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
@@ -39,7 +39,7 @@ const CLIMA_NUEVO2 = [
 
 const VIVIR_NUEVO2 = [
   "En Luanco, mar y vida práctica caben dentro de una villa pequeña. Puerto, playa, farmacia, centro de salud, biblioteca y calles comerciales están suficientemente próximos para enlazar varios de esos lugares andando desde una vivienda bien situada.",
-  "El límite aparece cuando se necesita una escala mayor. Para hospital, determinadas compras, servicios especializados o parte de la oferta cultural hay que desplazarse hacia Avilés o Gijón.",
+  "Para hospital, determinadas compras, servicios especializados o una oferta cultural más amplia hay que desplazarse hacia Avilés o Gijón.",
   "El resto de Gozón funciona de otra manera. Sus playas, núcleos rurales y viviendas dispersas amplían mucho las posibilidades de costa y naturaleza, pero normalmente introducen más coche que el centro de Luanco.",
   "El aeropuerto está a unos veinte minutos en coche. Para viajar a Mallorca hay que comprobar la programación concreta, porque la cercanía al aeropuerto no equivale a disponer de conexión permanente con Palma durante todo el año.",
 ] as const;
@@ -72,7 +72,7 @@ const CASA_PRECIO_INTRO =
   "Gozón — referencia municipal: 2.379 €/m² · mayo de 2026";
 
 const CASA_BANDAS_NOTA = [
-  "Las cifras permiten comparar con el resto del proyecto y utilizan aproximadamente 65 m² para dos dormitorios y 90 m² para tres. Las bandas A y B expresan cercanía a la costa; no garantizan centro de Luanco, vistas, comodidad a pie ni el precio exacto de una vivienda.",
+  "Las cifras utilizan aproximadamente 65 m² para dos dormitorios y 90 m² para tres. Las bandas A y B expresan cercanía a la costa; no garantizan centro de Luanco, vistas, comodidad a pie ni el precio exacto de una vivienda.",
 ] as const;
 
 const CASA_ADVERTENCIA_MICROZONA = [

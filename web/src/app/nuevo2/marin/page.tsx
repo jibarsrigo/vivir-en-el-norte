@@ -18,10 +18,9 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
-  "Marín ocupa el extremo de O Morrazo más próximo a Pontevedra y ofrece una combinación que no se repite exactamente en los otros tres municipios.",
-  "El casco es una pequeña ciudad portuaria, compacta y funcional. Puerto comercial y Escuela Naval Militar ocupan una parte decisiva del frente marítimo. Hacia el oeste, Portocelo, Mogor, Aguete y Loira cambian grúas y actividad portuaria por playas, pinares y vivienda residencial.",
-  "Por eso Marín contiene dos experiencias que conviene no mezclar: casco para servicios y logística; costa occidental para playa y una vida más residencial.",
-  "La proximidad a Pontevedra refuerza la primera. Hospital, comercio y servicios urbanos de mayor escala quedan dentro de desplazamientos cortos.",
+  "O Morrazo es una península entre las rías de Vigo y Pontevedra, pero no ofrece una única forma de vivir junto al mar. Cangas y Moaña miran principalmente a Vigo y mantienen conexiones marítimas con la ciudad; Bueu se abre hacia la ría de Pontevedra y Ons; Marín combina ciudad portuaria, proximidad a Pontevedra y una costa de playas al oeste. Vigo y Pontevedra funcionan como apoyos urbanos distintos según el municipio.",
+  "Marín ocupa el extremo de O Morrazo más próximo a Pontevedra. El casco funciona como una pequeña ciudad portuaria, con puerto comercial y Escuela Naval; hacia el oeste, Portocelo, Mogor, Aguete y Loira cambian actividad portuaria por playas, pinares y vivienda residencial.",
+  "La diferencia residencial está entre un centro con servicios y logística y una costa occidental más vinculada a playa y casa. Pontevedra queda tan cerca que hospital, comercio y servicios urbanos pueden formar parte normal de la semana.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
@@ -34,7 +33,7 @@ const COMO_SE_VIVE_NUEVO2 = [
   "En Aguete o Mogor se puede ganar jardín, tranquilidad y mar, pero la compra y buena parte de los servicios vuelven a requerir coche o bus.",
   "La proximidad sanitaria es una ventaja práctica dentro de O Morrazo. Pontevedra y Montecelo quedan aproximadamente a 15 minutos desde la referencia municipal, con variaciones según tráfico y punto de salida.",
   "Agosto llena las playas y alarga las terrazas, pero puerto, Naval, colegios y proximidad a Pontevedra sostienen una ciudad anual.",
-  "El calendario festivo añade varias semanas de intensidad: Carmen en julio, Festa Corsaria en agosto y San Miguel/Danza das Espadas en septiembre. Una vivienda céntrica debe comprobarse también durante actividad, no solo un lunes tranquilo.",
+  "Varias celebraciones aumentan la actividad del centro: las fiestas del Carmen en julio, la Festa Corsaria en agosto y, en septiembre, las fiestas de San Miguel con la Danza das Espadas. Una vivienda céntrica debe comprobarse también durante esos días, no solo un lunes tranquilo.",
 ] as const;
 
 const CLIMA_NUEVO2 = [
@@ -60,7 +59,7 @@ const DE_DONDE_VIENE_NUEVO2 = [
   "La huella actual es imposible de separar de la vida residencial: puerto y Naval explican empleo, movimientos, cierres y por qué la costa de ocio empieza realmente al oeste del casco.",
   "Mogor conserva otra capa mucho más antigua. Sus petroglifos pertenecen a la Edad del Bronce y la Pedra do Labirinto contiene uno de los pocos motivos laberínticos conocidos en la fachada atlántica europea.",
   "La particularidad es que ese patrimonio no está aislado en un museo urbano: aparece a pocos metros de las playas y forma parte del paisaje que hoy se utiliza para caminar y bañarse.",
-  "La memoria de 1809 y la tradición marinera reaparecen en la Festa Corsaria y la Danza das Espadas. La celebración actual mantiene visibles episodios históricos y oficios ligados al mar.",
+  "La Festa Corsaria y la Danza das Espadas llevan a las calles episodios de la historia local y tradiciones ligadas al mar. Durante esas celebraciones, parte de esa memoria deja de estar solo en monumentos o archivos y ocupa el espacio público.",
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
@@ -69,7 +68,7 @@ const MAR_RIO_CAMINO_NUEVO2 = [
   "Aguete incorpora playa, puerto deportivo y vivienda de costa. Loira continúa hacia el límite con Bueu con un ambiente más separado del casco.",
   "La Ruta das Praias permite recorrer de forma lineal unos 8,6 km desde Portocelo hasta O Santo, pasando por Mogor, Aguete, Loira y Ribeira. La información municipal la clasifica como de dificultad moderada, con unos 228 metros de subida y alrededor de dos horas de recorrido.",
   "Para caminar con más desnivel existe el Roteiro dos Cinco Miradoiros, de alrededor de 9 km y dificultad moderada, con unos 222 metros de subida. Es una salida de varias horas, no el paseo cotidiano.",
-  "Hacia el interior, Lago de Castiñeiras y Cotorredondo cambian playa por bosque y miradores. El Lameira ofrece una escala fluvial más próxima a la villa.",
+  "Hacia el interior, Lago de Castiñeiras y Cotorredondo cambian playa por bosque y miradores. El río Lameira permite, en cambio, una relación fluvial más próxima a la villa.",
   "El centro concentra servicios y frente portuario; las playas occidentales concentran el baño; y el monte y los miradores requieren una salida más deliberada.",
 ] as const;
 
@@ -99,7 +98,7 @@ const CASA_QUE_CONVIENE_REVISAR = [
 ] as const;
 
 const CASA_MERCADO_REVENTA = [
-  "Marín dispone de una base residencial permanente reforzada por puerto, Naval y proximidad a Pontevedra.",
+  "Marín mantiene demanda de vivienda habitual apoyada por el puerto, la Escuela Naval y la proximidad a Pontevedra.",
   "En el casco ayudan a la reventa ascensor, accesibilidad, buen aislamiento y facilidad de transporte.",
   "El ruido portuario puede limitar el interés de compradores sensibles a esa exposición incluso cuando la ubicación resulta muy práctica.",
   "En la costa occidental, playa, parcela y vistas añaden atractivo, pero la propiedad debe conservar accesos y mantenimiento razonables.",

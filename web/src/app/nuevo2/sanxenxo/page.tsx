@@ -18,10 +18,9 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
-  "Sanxenxo es el municipio más claramente orientado a playa y temporada de esta zona, pero no se reduce a una franja turística.",
-  "La villa de Sanxenxo se organiza alrededor de Silgar y del puerto deportivo. Portonovo conserva puerto pesquero, lonja y un centro propio a poca distancia. Más al oeste aparecen Canelas, Montalvo, Major y A Lanzada; hacia el interior, Vilalonga, Noalla y otras parroquias ofrecen una vida mucho menos peatonal y más dependiente del coche.",
-  "La primera decisión residencial es, por tanto, elegir entre Sanxenxo, Portonovo y las parroquias exteriores. Compartir municipio no significa compartir rutina.",
-  "Silgar y Portonovo permiten incorporar playa, paseo, compra y hostelería a pie. Las zonas exteriores ganan espacio, tranquilidad o proximidad a otros arenales, pero el coche entra con mucha más facilidad.",
+  "Esta zona reúne cuatro formas muy distintas de vivir alrededor de las rías de Pontevedra y Arousa: Pontevedra aporta una ciudad pequeña y muy caminable; Poio se extiende por la orilla norte de la ría con parroquias, puertos y costa; Sanxenxo concentra playa, segunda residencia y fuerte estacionalidad; O Grove ocupa una península marinera entre la ría de Arousa y el Atlántico. Las distancias son cortas, pero la dependencia del coche, el acceso al baño y la presión del verano cambian mucho entre municipios.",
+  "Sanxenxo es el municipio más orientado a playa y temporada de esta zona. La villa se organiza alrededor de Silgar y el puerto deportivo; Portonovo conserva puerto pesquero y centro propio; hacia el oeste aparecen Canelas, Montalvo, Major y A Lanzada.",
+  "Las parroquias interiores, como Vilalonga o Noalla, cambian playa caminable por más espacio y coche. La primera decisión residencial es elegir entre los núcleos costeros y las zonas exteriores, porque comparten municipio pero no rutina.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
@@ -48,7 +47,7 @@ const VIVIR_NUEVO2 = [
   "Sanxenxo permite una vida de playa cotidiana de una forma que Pontevedra no ofrece.",
   "En Silgar se puede bajar andando a la arena, recorrer el paseo y enlazar con puerto y comercio. En Portonovo, Baltar y Caneliñas hacen algo parecido alrededor de un núcleo más marinero.",
   "Eso no significa que toda la costa funcione igual. Vivir junto a Montalvo o Major puede acercar una playa espectacular y alejar la compra o el centro de salud.",
-  "La mayor adaptación respecto a Mallorca puede ser social y estacional. El verano concentra visitantes, segundas residencias y ocio nocturno. El ruido y el tráfico deben juzgarse como parte de la vivienda, no como un fenómeno externo.",
+  "El cambio respecto a Mallorca no es solo climático. En verano se concentran visitantes, segundas residencias y ocio nocturno, y el ruido y el tráfico pasan a formar parte de la experiencia de determinadas calles.",
   "Fuera de temporada la presión desaparece de golpe. Para algunas personas esa calma es una ventaja; para otras, la reducción de comercio y ambiente puede resultar demasiado marcada.",
   "La costa permite cambiar de playa sin salir del municipio: bahía urbana, calas más protegidas y arenales atlánticos. Esa variedad tiene valor real si se usa; si la vida cotidiana termina reducida a coche y aparcamiento, deja de compensar parte del coste de la ubicación.",
 ] as const;
@@ -66,7 +65,7 @@ const MAR_RIO_CAMINO_NUEVO2 = [
   "Silgar es la playa urbana de la villa. Desde una vivienda céntrica puede utilizarse para un baño, una caminata o una vuelta al final de la tarde sin coger el coche.",
   "Portonovo ofrece Baltar y Caneliñas dentro de su propia trama. Canelas queda inmediatamente después y sigue siendo accesible desde muchas viviendas del núcleo.",
   "El Sendero Azul Sanxenxo–Portonovo enlaza ambos centros pasando por Silgar, Punta Vicaño, Baltar, el puerto de Portonovo y el mirador de Caneliñas. La guía turística municipal sitúa el recorrido en unos 8,6 km; para la vida diaria puede utilizarse solo un tramo y regresar cuando convenga.",
-  "Montalvo, Major y A Lanzada cambian de escala. Para muchas viviendas exigen coche y en verano el aparcamiento forma parte de la salida.",
+  "Montalvo, Major y A Lanzada están fuera de los dos núcleos principales. Para muchas viviendas exigen coche y, en verano, el aparcamiento forma parte de la salida.",
   "A Lanzada es un arenal largo y mucho más expuesto al Atlántico. El sendero azul de su entorno recorre unos 3 km y conecta paisaje, yacimiento y ermita. Aquí el viento, el oleaje y el espacio abierto son muy distintos de Silgar.",
   "La combinación permite elegir entre baño urbano y costa más abierta. El error sería comprar en una parroquia exterior pensando que todas esas playas forman parte de la misma rutina peatonal.",
 ] as const;
@@ -76,7 +75,7 @@ const CASA_NUEVO2 = [
   "Silgar concentra apartamentos, pisos y promociones de precio elevado, con la ventaja de tener playa y paseo a pie. Allí hay que comprobar ruido, aparcamiento, ascensor y exposición al salitre.",
   "Portonovo mezcla vivienda permanente con segunda residencia. Para vivir todo el año puede ofrecer una relación más directa con mercado, lonja y servicios que algunas áreas puramente vacacionales.",
   "Las parroquias exteriores añaden casas, urbanizaciones y viviendas próximas a playas concretas. Su precio puede parecer más razonable que primera línea, pero hay que sumar coche y tiempo hasta servicios.",
-  "La microzona tiene además efecto directo sobre el precio. La referencia estructurada sitúa el municipio en 3.351 €/m², pero el núcleo de Sanxenxo puede moverse claramente por encima y Portonovo por debajo de esa media.",
+  "La microzona tiene además efecto directo sobre el precio. El precio medio municipal es 3.351 €/m², pero el núcleo de Sanxenxo puede moverse claramente por encima y Portonovo por debajo de esa media.",
 ] as const;
 
 const CASA_ADVERTENCIA_MICROZONA = [

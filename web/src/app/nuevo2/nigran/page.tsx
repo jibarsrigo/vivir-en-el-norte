@@ -18,10 +18,9 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
-  "Val Miñor se reparte entre costa y valle. Baiona funciona como villa marítima compacta; Gondomar ocupa el interior; Nigrán queda entre ambos modelos y es el municipio que más depende de la microzona elegida.",
-  "No existe un único Nigrán residencial. A Ramallosa concentra comercio y servicios junto al Miñor; Panxón conserva puerto y una pequeña escala marinera; Praia América forma una larga franja residencial junto a la playa; Patos mira a una costa más abierta y ligada al surf.",
-  "Tierra adentro aparecen Priegue, Camos, Parada, Chandebrito y otras parroquias donde la experiencia cambia hacia casas, jardines, laderas y coche.",
-  "Por eso dos viviendas con la misma dirección municipal pueden ofrecer semanas completamente diferentes. Aquí la microzona no es un matiz: es parte central de la decisión.",
+  "Val Miñor reúne tres formas distintas de vivir entre la costa y el interior del valle: Baiona funciona como villa marítima compacta y turística; Nigrán reparte playas, servicios y vivienda entre varias microzonas; Gondomar ocupa el interior, con más casas y terreno y una relación menos inmediata con el mar. Vigo queda lo bastante cerca para completar hospital, empleo, aeropuerto y servicios de mayor escala.",
+  "Nigrán queda entre la villa marítima de Baiona y el interior de Gondomar, y no tiene un único centro residencial. A Ramallosa concentra comercio y servicios; Panxón conserva puerto y vida marinera; Praia América forma una larga franja residencial; Patos mira a una costa más abierta y vinculada al surf.",
+  "Hacia el interior, Priegue, Camos, Parada o Chandebrito cambian la semana hacia casas, jardines y coche. En Nigrán la microzona elegida determina casi tanto como el propio municipio.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
@@ -42,7 +41,7 @@ const CLIMA_NUEVO2 = [
 ] as const;
 
 const VIVIR_NUEVO2 = [
-  "La principal adaptación no es climática sino territorial: Nigrán obliga a saber dónde se quiere vivir antes de decidir qué vivienda se quiere comprar.",
+  "Para quien llega desde Mallorca, no basta con decidir que quiere vivir cerca del mar: en Nigrán hay que elegir primero qué zona encaja con la rutina que se quiere tener.",
   "En Panxón se puede incorporar puerto, playa y restauración a pie. En Praia América la playa puede dominar la rutina. A Ramallosa favorece compra y servicios. Una parroquia interior puede ofrecer una casa mucho más tranquila, pero sin la misma vida a pie ni la misma relación inmediata con el mar.",
   "La proximidad a Vigo hace posible vivir aquí trabajando o utilizando servicios en la ciudad. Esa ventaja también genera desplazamientos diarios y convierte el acceso por carretera en parte importante de la elección.",
   "En primera línea o muy cerca de la costa, el verano añade aparcamiento, peatones y ruido. En las zonas interiores la presión puede ser mucho menor.",
@@ -54,7 +53,7 @@ const DE_DONDE_VIENE_NUEVO2 = [
   "Nigrán se entiende mejor como suma de parroquias que como crecimiento alrededor de una única plaza.",
   "Panxón conserva una de las huellas históricas más reconocibles. Junto a la costa se encuentra el antiguo arco asociado al templo precedente y, a pocos metros, el Templo Votivo do Mar, proyectado por Antonio Palacios y construido entre 1932 y 1937.",
   "La arquitectura del templo convirtió una referencia religiosa y marinera en uno de los elementos más visibles del paisaje de Panxón.",
-  "A Ramallosa conserva otro punto histórico junto al Miñor y recuerda que el valle funcionó durante siglos mediante caminos y pasos entre parroquias antes de que la costa se llenara de urbanizaciones residenciales.",
+  "A Ramallosa se desarrolló junto al Miñor y a los caminos que comunicaban las parroquias del valle mucho antes de que la costa se llenara de urbanizaciones residenciales.",
   "Monteferro incorpora una historia diferente. La península conserva restos y patrimonio militar, petroglifos y el Monumento a la Marina Universal.",
   "El Nigrán actual superpone así poblamiento parroquial, memoria marinera y una fuerte expansión residencial vinculada a las playas y a la proximidad de Vigo.",
 ] as const;
@@ -94,7 +93,7 @@ const CASA_MERCADO_REVENTA = [
   "Nigrán tiene un mercado residencial muy condicionado por microzona y cercanía al mar.",
   "Panxón y Praia América cuentan con una demanda costera reconocible, pero precio, ruido, aparcamiento y exposición pueden variar mucho incluso dentro de pocas calles.",
   "A Ramallosa tiene una lógica más práctica y residencial. Las casas interiores compiten por espacio, parcela, orientación y accesos.",
-  "Para reventa ayudan una ubicación que pueda explicarse fácilmente, buen acceso, aparcamiento y una relación clara con playa o servicios.",
+  "Para una futura venta ayudan un buen acceso, aparcamiento y una relación clara con aquello que justifica la ubicación: playa caminable, servicios próximos o una casa con espacio y tranquilidad.",
   "Una vivienda que dependa mucho del coche sin ofrecer a cambio terreno, tranquilidad o vistas suficientes pierde parte de su diferenciación.",
 ] as const;
 
@@ -140,7 +139,7 @@ const FOTO_COMO_PRAIA_AMERICA = {
 
 const FOTO_COMO_PANXON = {
   src: "/fotos/val-minor/nigran-panxon.jpg",
-  pie: "Panxón, la villa marinera de Nigrán, con puerto y vida durante todo el año",
+  pie: "Panxón, núcleo marinero de Nigrán, con puerto y vida durante todo el año",
 } as const;
 
 const FOTO_HISTORIA_TEMPLO = {

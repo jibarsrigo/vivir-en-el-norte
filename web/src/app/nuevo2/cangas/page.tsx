@@ -18,21 +18,20 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
-  "O Morrazo es una península, pero no ofrece una única forma de vivir junto al mar. Cangas y Moaña miran principalmente a la ría de Vigo; Bueu se abre a la ría de Pontevedra y a Ons; Marín combina ciudad portuaria, proximidad a Pontevedra y una costa de playas al oeste del casco.",
-  "Cangas contiene varias escalas dentro del mismo municipio. La villa mira al interior de la ría de Vigo y concentra mercado, comercio, puerto y ferry. Aldán ocupa una ensenada propia al norte. O Hío se extiende hacia Nerga, Barra, Donón y la Costa da Vela, donde el paisaje deja de sentirse como ría urbana y se abre al Atlántico.",
-  "Darbo y otras áreas de ladera cosen esas piezas mediante vivienda residencial. Por eso una dirección en \"Cangas\" puede significar bajar andando al mercado y al barco o vivir entre carreteras pequeñas a varios kilómetros de la compra cotidiana.",
-  "Para valorar una vivienda conviene distinguir primero villa, Aldán y O Hío. Cada una organiza de forma distinta los servicios, el coche y la relación cotidiana con el mar.",
+  "O Morrazo es una península entre las rías de Vigo y Pontevedra, pero no ofrece una única forma de vivir junto al mar. Cangas y Moaña miran principalmente a Vigo y mantienen conexiones marítimas con la ciudad; Bueu se abre hacia la ría de Pontevedra y Ons; Marín combina ciudad portuaria, proximidad a Pontevedra y una costa de playas al oeste. Vigo y Pontevedra funcionan como apoyos urbanos distintos según el municipio.",
+  "Cangas reúne dentro del mismo municipio la villa de la ría de Vigo, la ensenada de Aldán y la costa atlántica de O Hío. La villa concentra mercado, comercio, puerto y ferry; Aldán tiene un núcleo más pequeño alrededor de su ensenada; O Hío se prolonga hacia Nerga, Barra, Donón y la Costa da Vela.",
+  "Darbo y otras zonas de ladera añaden vivienda residencial entre esas piezas. Una dirección en Cangas puede significar bajar andando al mercado y al barco o depender del coche para casi todos los recados.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
   "La villa mantiene actividad durante todo el año. La plaza de abastos, los supermercados, las farmacias, los colegios, el instituto, la restauración y el pequeño comercio siguen funcionando fuera del verano; la dársena conserva actividad y el ferry mantiene Vigo al otro lado de la ría como destino cotidiano, no únicamente turístico.",
   "Desde una vivienda céntrica se puede encadenar a pie compra, café, centro de salud, puerto, paseo y embarque. Esa autonomía es una de las ventajas prácticas de Cangas: permite vivir en una villa marítima y utilizar Vigo sin conducir siempre alrededor de la ría.",
-  "El ferry no elimina el coche para todo. Hospital, determinadas compras, actividades en las parroquias y buena parte de las playas exteriores requieren otra logística. La referencia hospitalaria práctica queda en el área de Vigo/Pontevedra y obliga a contar con un desplazamiento claramente mayor que desde Marín.",
+  "El ferry no elimina el coche para todo. Para hospital, determinadas compras, actividades en las parroquias y buena parte de las playas exteriores hay que organizar otros desplazamientos. La atención hospitalaria práctica queda fuera del municipio, en el área de Vigo o Pontevedra según el circuito asistencial.",
   "Rodeira introduce playa dentro de la vida urbana. Puede utilizarse para caminar o bañarse sin convertir la tarde en una excursión. Areamilla queda al otro lado del casco. Para Nerga, Barra, Melide o buena parte de Aldán, en cambio, la relación cotidiana depende de la microzona y normalmente entra el coche.",
   "En Aldán la rutina es más pequeña y residencial. Puerto, ensenada y playas próximas pueden quedar muy cerca, pero la compra amplia y muchos servicios se resuelven mejor en coche. En O Hío la dispersión aumenta todavía más: se gana acceso a una costa excepcional a cambio de carreteras locales y menos autonomía peatonal.",
   "El verano altera especialmente las salidas hacia las playas. Nerga, Barra y Costa da Vela reciben mucha más presión de tráfico y aparcamiento. Una casa que parece aislada y tranquila en febrero puede estar en una ruta muy utilizada en agosto.",
   "La villa, sin embargo, no se apaga al terminar la temporada. Mercado, colegios, comercio, pesca y ferry sostienen actividad anual. Esa continuidad distingue Cangas de una localidad de segunda residencia pura.",
-  "El calendario también entra en las calles. Semana Santa, Cristo del Consuelo y otras celebraciones ocupan temporalmente el centro. En O Hío, la Danza de San Roque introduce otra escala festiva vinculada a la parroquia. Vivir junto a un recorrido festivo exige aceptar algunos días de ruido, calles ocupadas y aparcamiento difícil.",
+  "Algunas celebraciones ocupan temporalmente las calles. Durante Semana Santa y las fiestas del Cristo del Consuelo aumenta la actividad en el centro. En O Hío, la tradicional Danza de San Roque concentra la celebración en la parroquia. Vivir junto a esos recorridos significa aceptar algunos días de ruido, calles ocupadas y aparcamiento difícil.",
   "Para aeropuerto, Vigo queda aproximadamente a 40 minutos como referencia orientativa de acceso. Santiago es más lejano, pero puede resultar útil según la programación aérea vigente.",
 ] as const;
 
@@ -54,7 +53,7 @@ const VIVIR_NUEVO2 = [
 
 const DE_DONDE_VIENE_NUEVO2 = [
   "Cangas creció de cara a la pesca y a la ría. El casco se formó alrededor de calles estrechas, viviendas marineras y espacios vinculados al puerto. Esa estructura sigue siendo visible hoy en la concentración de comercio y vida peatonal junto al frente marítimo.",
-  "La excolegiata de Santiago conserva capas constructivas de los siglos XV y XVI. En 1617 un ataque de piratas berberiscos destruyó buena parte del núcleo. La reconstrucción posterior no borró la relación compacta entre iglesia, calles y puerto que todavía organiza la villa.",
+  "La iglesia de Santiago, antigua colegiata, conserva partes construidas en los siglos XV y XVI. En 1617 un ataque de piratas berberiscos destruyó buena parte del núcleo. La reconstrucción posterior no borró la relación compacta entre iglesia, calles y puerto que todavía organiza la villa.",
   "O Hío cuenta otra historia territorial. Su célebre cruceiro, tallado por Ignacio Cerviño en 1872, convirtió el atrio parroquial en una de las imágenes más reconocibles del municipio. La Danza de San Roque mantiene allí una tradición que sigue ocupando físicamente el espacio de la parroquia.",
   "Más al oeste, el Monte Facho de Donón conserva un castro y un santuario galaico-romano relacionado con el dios Berobreo. Su posición elevada no es casual: desde allí se dominan Costa da Vela, Cíes y océano.",
   "La huella actual de esas capas es territorial: villa marinera compacta en una orilla; parroquias históricas y caminos hacia una costa mucho más abierta en la otra.",
@@ -65,7 +64,7 @@ const MAR_RIO_CAMINO_NUEVO2 = [
   "Areamilla ofrece otra pequeña playa próxima al casco, aunque su posición al otro lado de la villa cambia el recorrido según dónde se viva.",
   "Aldán es otra experiencia. Menduíña, Areacova y otras playas de la ensenada ofrecen agua más protegida. Para una vivienda situada en Aldán pueden formar parte de la semana normal; desde el centro de Cangas ya son una salida.",
   "Nerga, Viñó y Barra abren el municipio hacia una costa más natural. Barra mantiene tradición naturista. El acceso en verano y el aparcamiento forman parte práctica de la experiencia.",
-  "La Costa da Vela y Cabo Home pertenecen a otra escala. Desde Donón se puede caminar entre brezo y granito hacia los faros, con las Cíes ocupando el horizonte. Hay terreno natural, desnivel y exposición; no es la continuación del paseo urbano de Cangas.",
+  "La Costa da Vela y Cabo Home requieren dedicar más tiempo que un paseo por la villa. Desde Donón se puede caminar entre brezo y granito hacia los faros, con las Cíes ocupando el horizonte. Hay terreno natural, desnivel y exposición; no es la continuación del paseo urbano de Cangas.",
   "El Monte Facho añade subida y patrimonio arqueológico. Es una salida deliberada para caminar y mirar ambas vertientes de la península.",
   "Cangas permite combinar rutinas distintas: paseo y baño urbano junto a la villa; ensenada y playas próximas en Aldán; y costa atlántica y senderos cuando se quiere dedicar más tiempo.",
 ] as const;
@@ -96,7 +95,7 @@ const CASA_QUE_CONVIENE_REVISAR = [
 
 const CASA_MERCADO_REVENTA = [
   "Cangas combina demanda residencial anual, atractivo costero y conexión marítima con Vigo.",
-  "En la villa ayudan a la reventa una ubicación comprensible, ascensor cuando corresponde, servicios a pie y acceso sencillo al ferry.",
+  "En la villa ayudan a una futura venta el ascensor cuando corresponde, los servicios a pie, el acceso sencillo al ferry y una ubicación desde la que la rutina se entienda con facilidad.",
   "En Aldán y O Hío el mercado cambia: pesan estado de la casa, parcela manejable, acceso, orientación y cercanía real a una playa utilizable.",
   "Las vistas pueden ampliar el atractivo, pero una propiedad difícil de mantener o excesivamente dependiente del coche reduce el público futuro.",
 ] as const;

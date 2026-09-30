@@ -18,10 +18,9 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
-  "Pontevedra es la pieza urbana de esta zona. Poio se extiende por la orilla norte de la ría con parroquias y costa; Sanxenxo concentra buena parte del turismo de playa; O Grove ocupa una península marinera entre Arousa y Atlántico. Pontevedra, en cambio, se vive primero como una ciudad pequeña y muy caminable.",
-  "El centro histórico y el ensanche forman una continuidad compacta alrededor del Lérez. Mercado, comercio, colegios, campus, cultura, tren, autobuses y sanidad quedan dentro de una escala que permite resolver gran parte de la semana andando.",
-  "La ciudad está al fondo de la ría y junto a la desembocadura del río, pero esa cercanía al agua no significa tener una playa marítima de baño delante del centro. El Lérez entra en la rutina como paseo y paisaje fluvial; para playa de mar hay que salir.",
-  "Las parroquias del municipio amplían mucho la realidad de Pontevedra. Vivir en el centro o en el ensanche no se parece a hacerlo en Lérez, Mourente, Marcón o Ponte Sampaio. La ventaja peatonal más fuerte pertenece a la ciudad compacta; al salir de ella aumenta el peso del coche.",
+  "Esta zona reúne cuatro formas muy distintas de vivir alrededor de las rías de Pontevedra y Arousa: Pontevedra aporta una ciudad pequeña y muy caminable; Poio se extiende por la orilla norte de la ría con parroquias, puertos y costa; Sanxenxo concentra playa, segunda residencia y fuerte estacionalidad; O Grove ocupa una península marinera entre la ría de Arousa y el Atlántico. Las distancias son cortas, pero la dependencia del coche, el acceso al baño y la presión del verano cambian mucho entre municipios.",
+  "Pontevedra se vive primero como ciudad. El centro histórico y el ensanche forman una continuidad compacta alrededor del Lérez, con mercado, comercio, colegios, campus, cultura, tren, autobuses y sanidad.",
+  "La ciudad está al fondo de la ría y junto al río, pero esa cercanía al agua no equivale a playa marítima a pie. Fuera del núcleo urbano, parroquias como Lérez, Mourente, Marcón o Ponte Sampaio cambian la rutina y aumentan el peso del coche.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
@@ -35,7 +34,7 @@ const COMO_SE_VIVE_NUEVO2 = [
 ] as const;
 
 const CLIMA_NUEVO2 = [
-  "Pontevedra tiene un verano claramente más suave que Mallorca. La referencia estructurada sitúa la media estival alrededor de 20,5 °C y la invernal en torno a 9,5 °C.",
+  "Pontevedra tiene un verano claramente más suave que Mallorca. La media estival ronda los 20,5 °C y la invernal, los 9,5 °C.",
   "La diferencia más importante no es el frío extremo, sino la frecuencia de lluvia, la humedad y la menor continuidad de cielo despejado. Otoño e invierno pueden encadenar varios días húmedos y eso cambia tanto el uso del exterior como el comportamiento de la vivienda.",
   "El centro histórico tiene mucha piedra y calles estrechas. En invierno conviene prestar atención a orientación, ventilación y entrada real de luz. Un piso atractivo por ubicación puede resultar oscuro o húmedo si la fachada recibe poco sol.",
   "El verano, a cambio, permite caminar, sentarse en una terraza o hacer recados a horas que en Mallorca pueden resultar demasiado calurosas. Puede haber días cálidos, pero el calor persistente tiene menos peso.",
@@ -43,7 +42,7 @@ const CLIMA_NUEVO2 = [
 ] as const;
 
 const VIVIR_NUEVO2 = [
-  "La adaptación principal frente a Mallorca es menos meteorológica de lo que parece: se pasa de una relación diaria muy marcada por el coche y el calor a una ciudad donde muchas necesidades pueden resolverse andando y donde el tiempo húmedo forma parte de la normalidad.",
+  "Para quien llega desde Mallorca, el cambio no está solo en el tiempo. En la ciudad compacta muchas necesidades pueden resolverse andando, mientras la lluvia y la humedad pasan a formar parte normal de la semana.",
   "En la ciudad compacta, el coche puede convertirse en herramienta para salir y no en requisito para cada recado. Eso permite que una vivienda sin garaje sea viable para algunos perfiles, aunque el aparcamiento debe estudiarse si se usa coche con frecuencia.",
   "El Lérez ofrece una salida cotidiana sin abandonar la ciudad. La Illa das Esculturas, las sendas de ambas orillas y la Xunqueira de Alba permiten caminar o hacer deporte sin preparar una excursión.",
   "El límite está en el baño marítimo. Tener la ría delante no equivale a tener una playa de mar dentro del centro. Para arena y baño hay que desplazarse hacia Poio, Marín o la costa exterior de la ría.",
@@ -76,7 +75,7 @@ const CASA_NUEVO2 = [
   "En el casco conviene valorar accesibilidad antes que encanto. Escaleras, ausencia de ascensor, ventanas pequeñas o una orientación poco soleada pueden convertirse en problemas diarios. También hay que comprobar ruido si la vivienda queda junto a plazas, hostelería o recorridos festivos.",
   "El ensanche suele simplificar esas variables, pero puede introducir más tráfico. Una vivienda a diez minutos andando del centro puede ofrecer una vida casi igual de peatonal con menos limitaciones constructivas.",
   "En las parroquias la ecuación cambia. Se puede ganar superficie, jardín y tranquilidad, pero la ventaja de “vivir en Pontevedra” deja de equivaler automáticamente a hacer la semana a pie.",
-  "Como referencia municipal vigente, Pontevedra se sitúa en 2.596 €/m².",
+  "El precio medio municipal utilizado es 2.596 €/m².",
 ] as const;
 
 const CASA_ADVERTENCIA_MICROZONA = [

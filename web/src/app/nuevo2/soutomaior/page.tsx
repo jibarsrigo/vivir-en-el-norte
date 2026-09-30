@@ -18,11 +18,9 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
-  "Soutomaior se vive de manera muy distinta en Arcade y en las parroquias del interior.",
-  "Arcade está junto al fondo de la ría y a la desembocadura del Verdugo. Allí se concentran estación, centro de salud, farmacias, comercio, biblioteca, instalaciones deportivas y buena parte de la vida cotidiana.",
-  "Soutomaior, tierra adentro, da nombre al municipio y al castillo. A su alrededor aparecen parroquias de casas, fincas, bosque y viñedo con una vida más dispersa.",
-  "En Arcade se pueden resolver bastantes recados a pie. En las parroquias interiores, el coche suele ser necesario para comprar, ir al centro de salud o enlazar con la estación.",
-  "Pontevedra, Redondela y Vigo quedan relativamente cerca, pero dentro del municipio la mayoría de los servicios se concentran en Arcade. Vivir fuera de ese núcleo significa apoyarse mucho más en el coche.",
+  "Vigo e ría reúne la gran ciudad de Vigo y varios municipios que se organizan alrededor del fondo de la ría y de la ensenada de San Simón. Vigo concentra hospitales, empleo, universidad, aeropuerto, puerto y servicios urbanos; Redondela combina una villa ferroviaria con Cesantes y Chapela; Soutomaior se reparte entre Arcade y un interior más rural; Vilaboa ocupa la orilla de la ensenada y las laderas que conectan la ría con Pontevedra. En pocos kilómetros se pasa de una vida plenamente urbana a parroquias donde el coche vuelve a ser imprescindible.",
+  "Soutomaior ocupa el fondo de la ría y el valle del Verdugo. Arcade, junto a la desembocadura, concentra estación, salud, comercio y buena parte de la vida cotidiana; Soutomaior y las parroquias interiores se reparten entre casas, fincas, bosque y viñedo.",
+  "En Arcade se pueden resolver bastantes recados a pie. En el interior aumenta el coche. Pontevedra, Redondela y Vigo quedan relativamente cerca, pero los servicios municipales siguen concentrándose sobre todo en Arcade.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
@@ -45,7 +43,7 @@ const CLIMA_NUEVO2 = [
 ] as const;
 
 const VIVIR_NUEVO2 = [
-  "Vivir en Soutomaior significa decidir cuánto pesa Arcade en la semana.",
+  "En Soutomaior, la rutina cambia mucho según se viva en Arcade o en una parroquia interior.",
   "Si se reside en el núcleo, compra, salud, estación y parte del ocio pueden hacerse sin coche. Esa autonomía disminuye rápidamente al entrar en las parroquias.",
   "En Arcade la ría entra en la vida diaria a través del peirao, la desembocadura y la actividad marisquera. No ofrece, sin embargo, una gran playa urbana comparable con Cesantes.",
   "La Festa da Ostra recuerda la importancia del cultivo y la venta de ostras en Arcade. Durante el primer fin de semana de abril el peirao recibe mucha más gente y actividad; el resto del año recupera un ritmo local.",
@@ -78,7 +76,7 @@ const CASA_NUEVO2 = [
   "En el interior predominan casas, chalés y fincas. Allí hay que mirar acceso, saneamiento, cubierta, drenaje, orientación y mantenimiento de parcela.",
   "Una casa con terreno puede dar más espacio por el mismo presupuesto, pero conviene calcular cuántos desplazamientos diarios exigirá. Si compra, actividades y consultas requieren coche, esa dependencia forma parte del coste real de vivir allí.",
   "La fibra es parcial según dirección, por lo que conviene verificar cobertura en la vivienda exacta.",
-  "El precio medio municipal utilizado como referencia es 2.111 €/m².",
+  "El precio medio municipal es 2.111 €/m².",
 ] as const;
 
 const CASA_ADVERTENCIA_MICROZONA = [
@@ -96,7 +94,7 @@ const CASA_QUE_CONVIENE_REVISAR = [
 ] as const;
 
 const CASA_MERCADO_REVENTA = [
-  "Arcade puede atraer a perfiles muy distintos porque concentra estación y servicios y mantiene Pontevedra y Vigo a una distancia asumible.",
+  "Arcade puede interesar tanto a quien quiere utilizar el tren como a quien necesita servicios cotidianos cerca y desplazarse con frecuencia hacia Pontevedra o Vigo.",
   "Un piso accesible, bien aislado y caminable a los servicios puede interesar a perfiles muy distintos.",
   "En las casas rurales pesan mucho más las características concretas de la propiedad. Buen acceso, una parcela manejable, cubierta en buen estado, buena orientación y conexión a internet pueden ampliar el número de compradores interesados.",
   "Una finca grande pero difícil de mantener o una casa con mucho coche diario puede reducir compradores futuros.",

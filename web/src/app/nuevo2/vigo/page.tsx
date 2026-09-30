@@ -18,10 +18,9 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
-  "Vigo es la pieza urbana de esta zona y, al mismo tiempo, un municipio con costa, playas y parroquias residenciales que se alejan mucho de la imagen de una ciudad compacta.",
-  "El centro, el Casco Vello, O Berbés, el Ensanche, Travesas o Coia concentran comercio, empleo, sanidad, cultura y transporte. Al suroeste, Alcabre, Coruxo, Oia y Saiáns permiten vivir mucho más cerca de Samil, O Vao y de la costa de la ría, con casas, pequeños edificios y zonas de menor densidad.",
-  "La pendiente es una de las variables que más cambia la vida cotidiana. Dos viviendas que parecen próximas en el mapa pueden exigir esfuerzos y recorridos muy distintos si una queda varias calles por encima de la otra.",
-  "Vigo reúne dentro del mismo municipio hospitales, aeropuerto, tren, universidad, puerto, servicios urbanos y costa. Pero esa oferta no queda repartida de la misma manera en todas partes: vivir en el centro, en una ladera urbana o en una parroquia costera cambia mucho los desplazamientos y el uso del coche.",
+  "Vigo e ría reúne la gran ciudad de Vigo y varios municipios que se organizan alrededor del fondo de la ría y de la ensenada de San Simón. Vigo concentra hospitales, empleo, universidad, aeropuerto, puerto y servicios urbanos; Redondela combina una villa ferroviaria con Cesantes y Chapela; Soutomaior se reparte entre Arcade y un interior más rural; Vilaboa ocupa la orilla de la ensenada y las laderas que conectan la ría con Pontevedra. En pocos kilómetros se pasa de una vida plenamente urbana a parroquias donde el coche vuelve a ser imprescindible.",
+  "Vigo es la pieza urbana de la zona y, al mismo tiempo, un municipio con costa, playas y parroquias residenciales que se alejan mucho de la imagen de una ciudad compacta. Centro, Casco Vello, O Berbés, Ensanche, Travesas y Coia concentran servicios; Alcabre, Coruxo, Oia y Saiáns acercan Samil, O Vao y la costa.",
+  "La pendiente y la microzona cambian mucho la vida diaria. Dentro del mismo municipio se puede vivir con gran autonomía peatonal o depender bastante del coche para subir, comprar o llegar a servicios.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
@@ -41,7 +40,7 @@ const CLIMA_NUEVO2 = [
   "La diferencia mayor aparece entre octubre y marzo. Llueve con mucha más frecuencia, la humedad permanece durante días y el cielo puede encadenar periodos grises que en Mallorca son menos habituales.",
   "El municipio está protegido por la ría, pero la exposición cambia por microzona. La costa de Samil y O Vao recibe brisa y salitre; las laderas interiores pueden estar más resguardadas, aunque una orientación poco favorable puede reducir mucho el sol de invierno.",
   "El verano permite caminar, dormir y utilizar la costa con menos calor nocturno. Samil, O Vao o Canido se pueden disfrutar a horas que en Mallorca resultarían más duras por temperatura.",
-  "El agua es claramente más fría. La referencia estival está aproximadamente en 17–19 °C, por lo que el baño no tiene la misma sensación térmica que en el Mediterráneo.",
+  "El agua es claramente más fría. En verano suele rondar aproximadamente los 17–19 °C, por lo que el baño no tiene la misma sensación térmica que en el Mediterráneo.",
   "En vivienda, la inspección de invierno es importante. Ventilación, orientación, carpinterías, aislamiento y posibles condensaciones pesan especialmente en edificios antiguos o en casas de ladera.",
 ] as const;
 
@@ -67,7 +66,7 @@ const DE_DONDE_VIENE_NUEVO2 = [
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
-  "Vigo ofrece varias escalas de agua y paseo.",
+  "En Vigo se puede elegir entre playa urbana, paseo fluvial, parques junto al agua y salidas de monte sin salir del municipio.",
   "Samil es la playa urbana más conocida. El arenal supera un kilómetro y tiene paseo, jardines, instalaciones deportivas, hostelería y paradas de autobús. Para quien vive en Alcabre puede entrar en una tarde normal; desde el centro exige un desplazamiento corto.",
   "O Vao ofrece otro baño amplio en la costa suroeste y mira hacia Toralla. Canido, Fontaíña y otras playas pequeñas permiten elegir ambientes distintos sin salir del municipio.",
   "La Senda Azul conecta ciudad, río y playas. El tramo del Lagares tiene unos 8,3 km, dificultad baja y alrededor de dos horas de recorrido completo. Se puede acceder desde numerosos puntos y recorrer solo una parte, de modo que puede funcionar como paseo habitual sin necesidad de completarlo entero.",
@@ -75,7 +74,7 @@ const MAR_RIO_CAMINO_NUEVO2 = [
   "Castrelos es otra pieza cotidiana: parque, jardines y caminos junto al Lagares dentro de la ciudad.",
   "El Monte do Castro permite subir andando desde el centro, pero la pendiente es importante. Monte da Guía ofrece otro mirador urbano sobre Rande desde Teis.",
   "Para una salida más larga, Alba y Cepudo permiten ganar altura sobre la ría. Desde sus miradores se entiende bien la forma de Vigo y la relación entre ciudad, laderas y mar.",
-  "Las Cíes pertenecen a otra escala. Requieren barco y, en periodos de alta demanda, autorización. Son una salida de día completo; no deben presentarse como equivalente a tener playa junto a casa.",
+  "Las Cíes requieren barco y, en periodos de alta demanda, autorización. Son una salida de día completo y no equivalen a tener una playa junto a casa.",
 ] as const;
 
 const CASA_NUEVO2 = [
@@ -84,7 +83,7 @@ const CASA_NUEVO2 = [
   "En Bouzas y Alcabre aparecen edificios y casas próximas al litoral. La cercanía a Samil o las vistas hacia las Cíes aumentan el precio y también hacen más importante revisar exposición al salitre, tráfico de verano y aparcamiento.",
   "Coruxo, Oia y Saiáns ofrecen más casas, parcelas y pequeños núcleos. Allí la pregunta principal no es solo cuánto terreno se obtiene, sino cuánto coche exige cada actividad.",
   "En zonas altas hay que comprobar pendiente tanto dentro como fuera de la parcela. Un acceso que parece sencillo en coche puede ser poco amable andando, y una casa con varias plantas puede ser incómoda a largo plazo.",
-  "El precio medio municipal utilizado como referencia es 2.591 €/m².",
+  "El precio medio municipal es 2.591 €/m².",
 ] as const;
 
 const CASA_ADVERTENCIA_MICROZONA = [

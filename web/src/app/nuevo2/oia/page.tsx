@@ -17,8 +17,9 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
-  "Baixo Miño reúne formas bastante distintas de vivir en el extremo suroeste de Galicia. A Guarda concentra puerto, comercio y servicios junto a la desembocadura del Miño; O Rosal y Tomiño se extienden por valles y núcleos dispersos; Tui aporta una pequeña ciudad histórica y fronteriza. Oia ocupa otra posición: una franja estrecha entre el océano Atlántico y la sierra de A Groba, con unos 18 km de costa y pequeños núcleos repartidos entre el mar y el monte.",
-  "Dentro del propio municipio también cambia mucho la experiencia. Santa María de Oia concentra el monasterio y el pequeño barrio histórico de O Arrabal junto al mar. Viladesuso y Mougás continúan hacia el norte por el corredor costero. Burgueira y Loureza quedan hacia el interior, donde el océano deja de organizar de la misma manera la rutina diaria.",
+  "Baixo Miño reúne formas muy distintas de vivir en el extremo suroeste de Galicia: A Guarda concentra puerto, comercio y servicios junto a la desembocadura del Miño; Oia ocupa una franja estrecha entre el Atlántico y la sierra de A Groba; O Rosal combina valle, viñedo y ribera; Tomiño se extiende por la vega del Miño; y Tui aporta una pequeña ciudad histórica y fronteriza. Portugal queda al otro lado del río y Vigo funciona como apoyo urbano mayor.",
+  "Oia ocupa la parte más atlántica y dispersa de la zona, con unos 18 km de costa y pequeños núcleos entre el mar y la sierra. Santa María de Oia concentra el monasterio y O Arrabal; Viladesuso y Mougás continúan por el corredor litoral; Burgueira y Loureza quedan hacia el interior.",
+  "La diferencia residencial está en cuánto Atlántico entra realmente en la rutina: vivir junto al corredor costero no se parece a hacerlo en los valles interiores, aunque todo pertenezca al mismo municipio.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
@@ -27,9 +28,9 @@ const COMO_SE_VIVE_NUEVO2 = [
   "Viladesuso y Mougás funcionan de otra manera. Son núcleos costeros más extendidos a lo largo del eje viario. Se mantiene muy cerca el Atlántico y se gana una posición cómoda para moverse hacia Baiona, pero la experiencia es menos la de bajar a un centro compacto que la de enlazar puntos repartidos por carretera.",
   "Burgueira y Loureza introducen otra Oia: valles interiores, monte y núcleos rurales separados del corredor litoral. Allí vivir en el mismo municipio no significa tener el mar incorporado de la misma forma a la puerta de casa.",
   "Hay servicios básicos dentro del municipio: centro de salud, farmacia, colegios, escuela infantil y servicios municipales. Eso permite resolver una parte de la rutina sin salir de Oia, pero no convierte al municipio en autosuficiente para todas las compras, gestiones o necesidades sanitarias.",
-  "Para ampliar ese radio aparecen dos apoyos costeros próximos: A Guarda hacia el sur y Baiona hacia el norte. Desde Santa María de Oia ambos quedan aproximadamente en el orden de veinte minutos en coche, aunque la cifra cambia según el núcleo desde el que se salga. Para una oferta urbana mucho mayor hay que continuar hacia Vigo.",
+  "Para compras, gestiones o servicios que no se resuelven dentro del municipio, A Guarda queda hacia el sur y Baiona hacia el norte. Desde Santa María de Oia ambos están aproximadamente a unos veinte minutos en coche, aunque el tiempo cambia según el núcleo de salida. Para una oferta urbana mucho mayor hay que continuar hacia Vigo.",
   "La atención primaria se resuelve en el municipio. Para atención hospitalaria de mayor complejidad la referencia práctica está en el área de Vigo; el Hospital Álvaro Cunqueiro queda aproximadamente a 40 km y unos 40 minutos desde el núcleo de referencia. Son tiempos orientativos que cambian con el punto de salida y el tráfico.",
-  "Hay autobús por el corredor costero y conexiones hacia Baiona, Nigrán y Vigo, pero en un municipio tan disperso el coche sigue teniendo un peso alto en la rutina. La dirección concreta pesa mucho: puede haber bastantes cosas a una distancia razonable y, al mismo tiempo, pocas concentradas en un único punto al que se llegue andando.",
+  "Hay autobús por el corredor costero y conexiones hacia Baiona, Nigrán y Vigo, pero en un municipio tan disperso el coche sigue teniendo un peso alto en la rutina. La dirección concreta importa mucho: una vivienda puede quedar a pocos minutos en coche de varios servicios y, al mismo tiempo, no tener casi ninguno concentrado a una distancia cómoda para ir andando.",
 ] as const;
 
 const CLIMA_NUEVO2 = [
@@ -41,7 +42,7 @@ const CLIMA_NUEVO2 = [
 ] as const;
 
 const VIVIR_NUEVO2 = [
-  "El cambio no termina en el clima. Oia ofrece mucha costa pero poca ciudad. La escala diaria pasa de elegir entre muchos servicios próximos a decidir qué puede resolverse en el propio núcleo y para qué conviene conducir hacia A Guarda, Baiona o Vigo.",
+  "El cambio no termina en el clima. Oia ofrece mucha costa pero poca ciudad. En la vida diaria hay que distinguir qué puede resolverse en el propio núcleo y para qué será necesario conducir hacia A Guarda, Baiona o Vigo.",
   "También cambia la relación con el mar. Aquí el Atlántico puede estar delante de la ventana y, sin embargo, no existir debajo de casa una gran playa de arena en la que instalar espontáneamente una tarde de baño. La costa de Oia es abierta y rocosa; sus pequeños espacios de baño, las mareas y las pozas interiores obligan a relacionarse con el agua de otra manera.",
   "El coche adquiere por eso un papel importante. No necesariamente hace falta cogerlo para salir a caminar si la vivienda está junto al Camino o en Santa María, pero aparece con facilidad para compras mayores, determinados servicios, playas más cómodas o actividades situadas en otra parroquia.",
   "Mar, monte y pequeños núcleos rurales están muy juntos físicamente. Desde la costa se puede pasar en pocos kilómetros de las casas junto al Atlántico a pistas y caminos de la sierra de A Groba. Esa proximidad no elimina la dispersión: forma parte de ella.",
@@ -64,7 +65,7 @@ const MAR_RIO_CAMINO_NUEVO2 = [
   "El baño marítimo es más condicionado. La playa de Santa María está justo frente al monasterio, pero es pequeña y depende mucho de la marea. En bajamar aparecen arena, cantos y roca; cuando sube el agua, la playa queda casi completamente cubierta. Vivir al lado permite acercarse al agua andando, pero no equivale a tener una playa amplia y estable disponible a cualquier hora.",
   "Aquí hay que mirar no solo el tiempo sino también la marea y el estado del Atlántico. El propio carácter rocoso y abierto de esta costa hace que «tener playa delante» no describa suficientemente la experiencia de baño.",
   "Oia ofrece además baño de agua dulce. En Mougás, el río Peito desciende entre roca y vegetación formando cascadas y pozas naturales. Su aspecto y caudal cambian con la lluvia; no funcionan como una piscina ni como sustituto automático de la playa, sino como un lugar natural al que se va expresamente.",
-  "La combinación final es poco urbana pero variada: desde determinadas casas puede haber un paseo costero incorporable al día normal; las rutas de monte amplían las opciones cuando se quiere caminar más; la pequeña playa de Santa María depende fuertemente de la marea; y las pozas ofrecen otro tipo de baño que exige desplazamiento. En Oia, la costa puede ser cotidiana con más facilidad que el día de playa.",
+  "Según dónde se viva, un tramo del Camino costero puede entrar en el paseo habitual; las rutas de monte requieren dedicar más tiempo; la pequeña playa de Santa María depende mucho de la marea; y las pozas de Mougás exigen desplazarse expresamente. En Oia es más fácil tener el océano presente cada día que disponer de una playa amplia y previsible para el baño.",
 ] as const;
 
 const CASA_NUEVO2 = [

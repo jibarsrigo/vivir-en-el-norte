@@ -18,18 +18,17 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
-  "Val Miñor reúne tres formas bastante distintas de vivir alrededor del río Miñor y su salida al mar. Baiona concentra la escala de villa marítima; Nigrán reparte costa, servicios y vivienda entre varias microzonas; Gondomar ocupa el interior del valle, con más distancia al mar y otra relación con el terreno.",
-  "Baiona se organiza alrededor de una bahía protegida. El casco histórico baja hacia el puerto y las playas urbanas; la península de Monterreal cierra uno de sus lados y Sabarís prolonga la vida cotidiana hacia A Ramallosa y la desembocadura del Miñor.",
-  "Es la parte del valle donde resulta más fácil combinar un núcleo reconocible, servicios y mar a pie. Esa ventaja tiene una contrapartida clara: la presión turística y residencial se nota más, especialmente en verano y en las calles próximas al frente marítimo.",
-  "Las laderas de Baíña y Belesar cambian la experiencia. Allí aparecen casas con más espacio y vistas, pero la rutina deja de parecerse a la del centro y aumenta la dependencia del coche.",
+  "Val Miñor reúne tres formas distintas de vivir entre la costa y el interior del valle: Baiona funciona como villa marítima compacta y turística; Nigrán reparte playas, servicios y vivienda entre varias microzonas; Gondomar ocupa el interior, con más casas y terreno y una relación menos inmediata con el mar. Vigo queda lo bastante cerca para completar hospital, empleo, aeropuerto y servicios de mayor escala.",
+  "Baiona se organiza alrededor de una bahía protegida. El casco histórico baja hacia el puerto y las playas urbanas; Monterreal cierra uno de sus lados y Sabarís prolonga la vida cotidiana hacia A Ramallosa y la desembocadura del Miñor.",
+  "Es la parte del valle donde resulta más fácil combinar núcleo reconocible, servicios y mar a pie. Las laderas de Baíña y Belesar cambian esa experiencia hacia casas con más espacio y vistas, pero también más dependencia del coche.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
   "Baiona funciona como una villa real durante todo el año. En el centro hay comercio, farmacias, colegios, instituto, restauración, puerto y servicios suficientes para resolver buena parte de una semana sin salir del municipio.",
   "Desde una vivienda céntrica se pueden encadenar a pie compra, café, paseo y playa. Sabarís añade supermercados, comercio y mercado y funciona como otro punto práctico del municipio.",
   "La proximidad del mar no convierte toda Baiona en la misma microzona. Vivir junto al casco y A Ribeira es muy distinto de instalarse en una ladera de Baíña o Belesar. En estas últimas se puede ganar jardín, vistas y tranquilidad, pero aparecen pendientes y más coche.",
-  "El verano cambia mucho la escala. Aumentan visitantes, ocupación de segundas viviendas, tráfico y presión sobre el aparcamiento. Una calle tranquila en febrero puede tener una experiencia completamente distinta en agosto.",
-  "La Arribada produce otro pico muy visible a comienzos de marzo. El casco se transforma durante varios días y recibe actividades, mercado y una afluencia excepcional. Para una vivienda céntrica es parte del calendario residencial, no un detalle turístico.",
+  "En verano aumentan los visitantes, la ocupación de segundas viviendas, el tráfico y la presión sobre el aparcamiento. Una calle tranquila en febrero puede funcionar de manera completamente distinta en agosto.",
+  "A comienzos de marzo, la Festa da Arribada —que conmemora la llegada de la carabela Pinta a Baiona en 1493— transforma el casco durante varios días con actividades, mercado y una afluencia excepcional. Para una vivienda céntrica forma parte del calendario anual, no es solo un acontecimiento para visitantes.",
   "Para atención hospitalaria de mayor complejidad, la referencia práctica está en el área de Vigo. El Hospital Álvaro Cunqueiro queda aproximadamente a 20 km y unos 20 minutos desde la referencia municipal; el aeropuerto de Vigo está aproximadamente a 25 minutos. Son tiempos orientativos y dependen del punto de salida y del tráfico.",
 ] as const;
 
@@ -55,7 +54,7 @@ const DE_DONDE_VIENE_NUEVO2 = [
   "Debajo de esas defensas creció una villa vinculada a la navegación y al comercio marítimo.",
   "El episodio histórico más visible ocurrió el 1 de marzo de 1493, cuando la carabela Pinta llegó al puerto de Baiona con noticias del viaje al otro lado del Atlántico. La Arribada mantiene ese acontecimiento en la memoria pública de la villa.",
   "Monterreal siguió teniendo función defensiva mientras el puerto y el casco crecían a sus pies. Hoy la fortificación, el puerto deportivo y la réplica de la Pinta conviven dentro del mismo recorrido cotidiano.",
-  "La Virxe da Rocha añade otra capa del paisaje baionés. Levantada sobre la costa durante las primeras décadas del siglo XX, funciona como mirador y como referencia visual en el extremo occidental de la villa.",
+  "El monumento de la Virxe da Rocha añade otra referencia al paisaje de Baiona. Levantado sobre la costa durante las primeras décadas del siglo XX, funciona como mirador y como referencia visual en el extremo occidental de la villa.",
   "Baiona ha convertido así navegación, defensa y relación con el Atlántico en partes visibles de su estructura actual, no en episodios aislados de un museo.",
 ] as const;
 
@@ -92,7 +91,7 @@ const CASA_QUE_CONVIENE_REVISAR = [
 
 const CASA_MERCADO_REVENTA = [
   "Baiona tiene una demanda residencial en la que se mezclan vida anual, costa y segunda residencia.",
-  "Para reventa ayudan especialmente una ubicación comprensible, distancia realmente caminable al centro o al mar, ascensor cuando corresponde, aparcamiento y un exterior utilizable.",
+  "Para una futura venta ayudan especialmente una ubicación con una ventaja clara —centro o mar realmente caminables—, ascensor cuando corresponde, aparcamiento y un exterior que pueda utilizarse de verdad.",
   "Las vistas pueden aumentar el atractivo, pero una vivienda demasiado expuesta, ruidosa o difícil de aparcar reduce el público potencial.",
   "Las propiedades de ladera compiten con otro mercado: allí pesan acceso, orientación, terreno y facilidad de mantenimiento.",
 ] as const;

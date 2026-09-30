@@ -18,20 +18,19 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
-  "Baixo Miño cambia mucho en pocos kilómetros. Oia es costa dispersa entre mar y sierra; O Rosal es valle, viña y pequeños núcleos; Tomiño se extiende por la vega del Miño; y Tui concentra la escala urbana y fronteriza.",
-  "A Guarda ocupa la punta donde el Miño llega al Atlántico. Es la localidad de la zona donde puerto, comercio, playas, paseo marítimo y servicios cotidianos quedan más concentrados alrededor de un núcleo reconocible.",
-  "El Monte Santa Trega cierra el paisaje por detrás y la desembocadura abre Portugal delante. Camposancos prolonga el municipio hacia el estuario y ofrece otra relación con el agua: menos océano abierto y más Miño.",
-  "Dentro del núcleo puede resolverse bastante vida andando. Hacia Camposancos o las laderas del Santa Trega cambia la relación entre vivienda, coche, vistas y servicios.",
+  "Baixo Miño reúne formas muy distintas de vivir en el extremo suroeste de Galicia: A Guarda concentra puerto, comercio y servicios junto a la desembocadura del Miño; Oia ocupa una franja estrecha entre el Atlántico y la sierra de A Groba; O Rosal combina valle, viñedo y ribera; Tomiño se extiende por la vega del Miño; y Tui aporta una pequeña ciudad histórica y fronteriza. Portugal queda al otro lado del río y Vigo funciona como apoyo urbano mayor.",
+  "A Guarda ocupa la punta donde el Miño llega al Atlántico. Dentro de Baixo Miño es el lugar donde puerto, comercio, playas, paseo y servicios cotidianos quedan más concentrados alrededor de un núcleo reconocible.",
+  "El Monte Santa Trega cierra el paisaje por detrás y Camposancos prolonga el municipio hacia el estuario. Vivir en el centro, en Camposancos o en las laderas del monte cambia la relación con el coche, las vistas, el baño y los servicios.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
   "A Guarda funciona como una villa pequeña que conserva actividad durante todo el año. Puerto, mercado, comercio, farmacias, colegios, cafeterías y paseo permiten que una parte importante de la rutina se concentre dentro del casco.",
   "Eso la diferencia de los municipios más dispersos de Baixo Miño. Vivir cerca del centro o del puerto permite salir andando para muchas necesidades ordinarias y dejar el coche para hospital, compras de mayor escala o desplazamientos fuera del municipio.",
   "El puerto sigue dando a la villa una identidad de trabajo y no solo de ocio. La relación con el mar se ve en la dársena, la lonja, los barcos y el movimiento diario del frente portuario.",
-  "En verano la escala cambia. Aumentan visitantes, tráfico y presión sobre el aparcamiento, especialmente en los accesos a playas y durante las fiestas. La PO-552 concentra buena parte de los desplazamientos de la costa y conviene conocerla también en agosto, no únicamente fuera de temporada.",
+  "En verano aumentan los visitantes, el tráfico y la presión sobre el aparcamiento, especialmente en los accesos a playas y durante las fiestas. La PO-552 concentra buena parte de los desplazamientos de la costa y conviene conocerla también en agosto, no únicamente fuera de temporada.",
   "Portugal está a la vista desde la desembocadura, pero no existe actualmente un cruce directo operativo por ferry. El ferry A Guarda–Caminha está fuera de servicio desde octubre de 2021; para cruzar por carretera, la conexión práctica pasa por la Ponte da Amizade entre Goián y Vila Nova de Cerveira. Esto hace que Caminha esté visualmente muy cerca y, sin embargo, requiera un rodeo por tierra.",
   "Para atención hospitalaria de mayor complejidad la referencia práctica está en el área de Vigo. El Hospital Álvaro Cunqueiro queda aproximadamente a 45 km y unos 45 minutos. Esa distancia es uno de los límites claros de vivir en la punta.",
-  "El calendario local altera varios días del verano. La Festa da Langosta, la Virxe do Carme y, sobre todo, la Festa do Monte introducen más gente, música y tráfico. Para una vivienda junto al puerto o en los accesos al Santa Trega forman parte de la experiencia anual.",
+  "Varias celebraciones alteran durante algunos días la rutina del verano. La Festa da Langosta, las fiestas marineras de la Virxe do Carme y, sobre todo, la Festa do Monte atraen más gente, música y tráfico. Para una vivienda junto al puerto o en los accesos al Santa Trega forman parte del calendario anual.",
 ] as const;
 
 const CLIMA_NUEVO2 = [
@@ -60,14 +59,14 @@ const DE_DONDE_VIENE_NUEVO2 = [
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
-  "A Guarda permite distinguir varias formas de agua dentro del mismo municipio.",
+  "En A Guarda se puede elegir entre baño atlántico, agua de estuario y paseo junto al puerto sin salir del municipio.",
   "Area Grande es playa marítima abierta al Atlántico. Es una opción de baño próxima a la villa, con arena y servicios estivales, pero conserva el carácter de costa oceánica: agua fresca, exposición al mar y condiciones que pueden cambiar con viento y oleaje.",
   "O Muíño, en Camposancos, ocupa la desembocadura del Miño. Allí el paisaje es de estuario: Portugal enfrente y una relación con el agua diferente de la costa abierta.",
   "Las dos son playas reales de baño y no deben confundirse entre sí. Para decidir vivienda importa saber si se busca el Atlántico inmediato o una orilla más ligada al río.",
   "El Sendero Azul une O Muíño y Area Grande a lo largo de casi toda la costa de A Guarda, atravesando el puerto. El recorrido oficial se presenta como una ruta lineal de unos 5,6 km y permite pasar del estuario al océano abierto sin necesidad de convertirlo en una ruta de monte.",
   "Para un paseo cotidiano más corto, el frente portuario y marítimo permite caminar sin completar todo ese recorrido. El terreno es mucho más amable junto al agua que en la subida hacia el Santa Trega.",
   "Subir al Monte Santa Trega es otra experiencia. Desde la villa se gana desnivel; arriba esperan castro, museo, ermita y miradores. Es una salida de monte y patrimonio, no el paseo llano de todos los días.",
-  "La combinación es poco habitual: puerto para la rutina, Atlántico para baño y paseo, estuario en Camposancos y monte inmediatamente detrás.",
+  "El puerto puede formar parte de la rutina diaria; Area Grande ofrece baño atlántico; Camposancos abre la desembocadura del Miño; y el Monte Santa Trega queda inmediatamente detrás de la villa.",
 ] as const;
 
 const CASA_NUEVO2 = [

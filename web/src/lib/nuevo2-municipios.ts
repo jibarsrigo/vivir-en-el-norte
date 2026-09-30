@@ -27,6 +27,18 @@ export const NUEVO2_MUNICIPIO_SLUGS = new Set([
   "redondela",
   "soutomaior",
   "vilaboa",
+  "meano",
+  "cambados",
+  "a-illa-de-arousa",
+  "vilanova-de-arousa",
+  "vilagarcia-de-arousa",
+  "rianxo",
+  "boiro",
+  "a-pobra-do-caraminal",
+  "ribeira",
+  "porto-do-son",
+  "noia",
+  "oleiros",
 ]);
 
 /** Enlace a ficha: Nuevo2 si existe; si no, ruta current de zona. */

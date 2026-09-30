@@ -18,20 +18,20 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
-  "Bueu ocupa la vertiente norte de O Morrazo, mirando a la ría de Pontevedra y a la isla de Ons.",
-  "La villa concentra puerto, mercado, comercio, centro de salud y equipamientos culturales. Beluso prolonga la vida marinera hacia el oeste. Cela y San Martiño ascienden hacia un interior más residencial. Cabo Udra y la costa de Beluso introducen una naturaleza que no está dentro del casco pero sí suficientemente cerca para formar parte habitual del tiempo libre.",
-  "Frente a Cangas, Bueu tiene una escala más contenida y no dispone de ferry cotidiano a Vigo. Frente a Marín, está menos integrado en el corredor urbano de Pontevedra. A cambio, puerto, paseo y cultura marítima ocupan el centro de la identidad local.",
+  "O Morrazo es una península entre las rías de Vigo y Pontevedra, pero no ofrece una única forma de vivir junto al mar. Cangas y Moaña miran principalmente a Vigo y mantienen conexiones marítimas con la ciudad; Bueu se abre hacia la ría de Pontevedra y Ons; Marín combina ciudad portuaria, proximidad a Pontevedra y una costa de playas al oeste. Vigo y Pontevedra funcionan como apoyos urbanos distintos según el municipio.",
+  "Bueu ocupa la vertiente norte de O Morrazo, mirando a la ría de Pontevedra y a la isla de Ons. La villa concentra puerto, mercado, comercio, centro de salud y equipamientos culturales; Beluso prolonga la vida marinera hacia el oeste; Cela y San Martiño ascienden hacia un interior más residencial.",
+  "Cabo Udra y la costa de Beluso añaden playas y naturaleza próximas, pero fuera del casco. Bueu mantiene una escala más pequeña que Cangas y menos relación metropolitana con Pontevedra que Marín.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
   "Bueu mantiene una vida de villa durante todo el año. Hay mercado, centro de salud, supermercados, colegios, instituto, biblioteca, puerto y restauración. La lonja y las embarcaciones recuerdan que el mar no aparece solo como paisaje.",
   "Desde una vivienda céntrica se puede resolver a pie buena parte de la semana. Compra, farmacia, mercado, café y paseo quedan dentro de un radio pequeño.",
-  "La escala comercial es suficiente para la vida básica, pero no sustituye Pontevedra para hospital, gran compra o determinados servicios especializados. La referencia hospitalaria práctica está en el área de Pontevedra, con Montecelo como referencia útil y unos 30 minutos orientativos por carretera desde la referencia municipal.",
+  "El comercio local cubre la vida básica, pero para hospital, compras grandes o determinados servicios especializados hay que desplazarse hacia Pontevedra. Montecelo queda como referencia hospitalaria práctica, con un trayecto orientativo de unos 30 minutos desde la villa.",
   "Beluso ofrece una rutina más residencial, con puerto, playa y casas en ladera. La distancia a la villa es corta, pero el coche entra con más facilidad.",
   "Cela y San Martiño permiten ganar terreno y tranquilidad. Allí conviene medir la frecuencia real de desplazamientos hacia la villa, no limitarse a calcular kilómetros.",
   "Banda do Río y el frente portuario integran el agua en la vida del núcleo. Las playas mayores y Cabo Udra son salidas próximas, pero no todas forman parte de una rutina a pie desde el centro.",
   "El verano añade barcos a Ons, más ocupación de playas y más mesas en el puerto. Aun así, Bueu conserva una escala más contenida que los puntos más presionados de Cangas.",
-  "Corpus Christi y Carmen cambian temporalmente el centro. Las alfombras florales del Corpus ocupan las calles y convierten una tradición local en una experiencia muy visible para quien vive sobre el recorrido.",
+  "Las celebraciones del Corpus Christi y las fiestas del Carmen cambian temporalmente el centro. Durante el Corpus, las alfombras florales ocupan varias calles y afectan de forma directa a quien vive sobre el recorrido.",
 ] as const;
 
 const CLIMA_NUEVO2 = [
@@ -55,14 +55,14 @@ const DE_DONDE_VIENE_NUEVO2 = [
   "La transformación decisiva llegó con la industria de salazón y conserva. La familia Massó desarrolló desde el siglo XIX un complejo industrial que terminó marcando profundamente la villa.",
   "A partir de 1928, la antigua fábrica Massó empezó a acoger la biblioteca y las colecciones sobre historia de la navegación reunidas por la familia. El museo fue creciendo dentro del propio complejo conservero y hoy ocupa edificios supervivientes de aquel conjunto industrial, con colecciones sobre navegación, salazón, conserva, pesca y actividad ballenera.",
   "La huella actual está alrededor del puerto: Bueu se entiende mejor como lugar de trabajo marítimo que como simple acceso a playas.",
-  "Ons añade otra escala histórica y territorial. La isla pertenece administrativamente al municipio y conserva faro, aldea, caminos y memoria de una comunidad insular.",
+  "La isla de Ons pertenece administrativamente a Bueu y amplía el municipio más allá de la península. Conserva faro, aldea, caminos y memoria de una comunidad insular.",
   "La conexión estacional desde el puerto vuelve esa geografía visible cada verano y refuerza una identidad municipal que se extiende más allá de la península.",
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
   "Banda do Río y el frente portuario son el mar cotidiano del núcleo. Permiten caminar junto al agua sin organizar una excursión.",
   "Beluso combina pequeño puerto y playa y queda suficientemente cerca para convertirse en salida habitual desde muchas zonas del municipio.",
-  "Area de Bon, Portomaior y Lapamán ofrecen arenales de ría de otra escala. En verano hay que contar con más presión de aparcamiento.",
+  "Area de Bon, Portomaior y Lapamán ofrecen arenales fuera de la villa y requieren desplazarse desde el centro. En verano hay que contar con más presión de aparcamiento.",
   "Cabo Udra permite una caminata por una costa más natural, entre granito, brezo, antiguas estructuras costeras, calas y vistas hacia Ons. Es una salida deliberada de varias horas, no una prolongación del paseo diario de la villa.",
   "Ons pertenece a otra categoría. El barco es estacional y la visita requiere dedicar buena parte del día. Una vez allí se puede caminar hacia el faro, playas o el Buraco do Inferno.",
   "En la práctica, puerto y Banda do Río pueden formar parte del día normal; Beluso y las playas próximas funcionan como salidas cortas; Cabo Udra y Ons requieren reservar más tiempo.",
@@ -93,7 +93,7 @@ const CASA_QUE_CONVIENE_REVISAR = [
 ] as const;
 
 const CASA_MERCADO_REVENTA = [
-  "Bueu tiene una base residencial propia y un atractivo costero reconocible, pero una escala de mercado menor que Cangas o Marín.",
+  "Bueu mantiene vida residencial durante todo el año y atrae también por su costa, aunque su mercado inmobiliario es menor que el de Cangas o Marín.",
   "En la villa ayudan servicios a pie, accesibilidad y estado del edificio.",
   "En Beluso y las áreas residenciales pesan vistas, acceso, orientación y calidad de la rehabilitación.",
   "Una casa grande con mantenimiento difícil o una reforma pendiente reduce el público futuro.",

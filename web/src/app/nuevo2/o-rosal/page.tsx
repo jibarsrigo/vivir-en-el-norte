@@ -18,16 +18,15 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
-  "Baixo Miño reúne formas bastante distintas de vivir en el extremo suroeste de Galicia. A Guarda concentra puerto, comercio y servicios junto a la desembocadura del Miño; Oia se extiende entre el Atlántico y la sierra de A Groba; Tomiño ocupa una vega más amplia y dispersa junto al río; y Tui aporta una pequeña ciudad histórica y fronteriza.",
-  "O Rosal ocupa una posición intermedia entre esos mundos. Es un municipio de valle, viñedo y pequeños núcleos, encerrado entre la sierra de A Groba, el entorno del monte Santa Trega y el Miño. El mar está cerca, pero no organiza directamente la vida cotidiana como en A Guarda u Oia.",
-  "O Calvario funciona como núcleo principal: allí se concentran ayuntamiento, plaza y parte de los servicios. Fuera de él, lugares como San Miguel de Tabagón, As Eiras, Fornelos o Martín cambian la experiencia hacia una vida más dispersa, ligada a carreteras locales, fincas, viñedos y al coche.",
-  "La parte oriental del municipio introduce además una relación directa con el agua que no es marítima: el Miño y el Tamuxe ofrecen caminos de ribera, zonas recreativas y baño fluvial. Por eso vivir en O Rosal puede significar tener el centro del pueblo cerca, vivir entre viñas o estar más próximo al río. La dirección concreta importa.",
+  "Baixo Miño reúne formas muy distintas de vivir en el extremo suroeste de Galicia: A Guarda concentra puerto, comercio y servicios junto a la desembocadura del Miño; Oia ocupa una franja estrecha entre el Atlántico y la sierra de A Groba; O Rosal combina valle, viñedo y ribera; Tomiño se extiende por la vega del Miño; y Tui aporta una pequeña ciudad histórica y fronteriza. Portugal queda al otro lado del río y Vigo funciona como apoyo urbano mayor.",
+  "O Rosal queda entre A Guarda, Tomiño y la sierra de A Groba. Es un municipio de valle, viñedo y pequeños núcleos donde O Calvario concentra ayuntamiento y parte de los servicios, mientras el resto se reparte entre carreteras locales, fincas y parroquias.",
+  "El Miño y el Tamuxe añaden paseo y baño fluvial; el océano está cerca, pero no organiza la vida diaria como en A Guarda u Oia. La dirección concreta decide si la semana se vive más alrededor del centro, del viñedo o del río.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
   "O Rosal combina un pequeño núcleo donde se pueden resolver bastantes cosas a pie con un territorio residencial mucho más extendido. Esa diferencia es la primera que conviene entender.",
   "En O Calvario hay plaza, comercio básico, farmacia y atención primaria. Vivir cerca permite incorporar parte de los recados a una rutina peatonal y mantener una relación reconocible con un centro. No alcanza la autonomía urbana de Tui ni la concentración comercial de A Guarda, pero tampoco obliga a coger el coche para absolutamente todo.",
-  "Fuera del núcleo cambia la escala. Las casas se reparten entre carreteras locales, viñedos y pequeños lugares. Allí el coche gana peso para compra, actividades, gestiones y desplazamientos entre distintas partes del municipio.",
+  "Fuera de O Calvario, las casas se reparten entre carreteras locales, viñedos y pequeños lugares. Allí el coche gana peso para compra, actividades, gestiones y desplazamientos entre distintas partes del municipio.",
   "A Guarda funciona como apoyo cercano para ampliar comercio y servicios y queda aproximadamente a diez o quince minutos desde buena parte del valle. Para atención hospitalaria de mayor complejidad la referencia práctica está en el área de Vigo; el Álvaro Cunqueiro queda en el orden de 40 km y unos 40 minutos desde el núcleo de referencia.",
   "El autobús permite algunos desplazamientos por la comarca y hacia otros núcleos, pero O Rosal no tiene tren y la dispersión hace que su utilidad dependa mucho de dónde esté la vivienda. Para una casa alejada de O Calvario, disponer de coche simplifica claramente la semana.",
   "El municipio mantiene vida local durante todo el año. En julio, la Feira do Viño transforma durante unos días la Praza do Calvario en un punto de encuentro mucho más concurrido. El resto del año devuelve el protagonismo al ritmo de pueblo, las parroquias, las bodegas, las fincas y los recorridos cotidianos.",
@@ -48,7 +47,7 @@ const VIVIR_NUEVO2 = [
   "El coche sigue teniendo un papel importante, sobre todo fuera del núcleo. Pero no todos los desplazamientos son largos: parte de la vida consiste precisamente en unir lugares cercanos del valle, bajar hacia A Guarda o acercarse al Miño y al Tamuxe.",
   "El agua también se vive de otra manera. El océano no está delante de casa, pero la costa de A Guarda queda a un desplazamiento corto y el propio municipio ofrece ribera y baño fluvial. Eso permite alternar valle, río y costa sin que ninguno monopolice la rutina.",
   "La vida social tiene escala local. Plaza, bodegas, fiestas y relaciones vecinales pesan más que una gran oferta de ocio urbano. En julio, la Feira do Viño llena O Calvario de actividad; el resto del año la escala vuelve a ser mucho más pequeña.",
-  "Frente a Mallorca, O Rosal cambia servicios concentrados y menor dependencia del coche por una vida de valle con un pequeño centro de referencia, más vivienda con terreno y acceso cercano al río y a la costa. Esa combinación funciona mejor para quien acepta desplazarse más a cambio de espacio y entorno rural.",
+  "Frente a Mallorca, O Rosal ofrece menos servicios concentrados y exige más coche, pero permite una vida de valle con un pequeño centro de referencia, más vivienda con terreno y acceso cercano al río y a la costa. Funciona mejor para quien acepta desplazarse más a cambio de espacio y entorno rural.",
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
@@ -66,7 +65,7 @@ const MAR_RIO_CAMINO_NUEVO2 = [
   "El municipio tiene además baño fluvial propio. La Praia das Eiras, junto al Miño, dispone de arenal y conecta directamente con el Sendeiro de Pescadores. En As Aceñas, junto al Tamuxe, hay otra zona habilitada para el baño, con sombra, mesas y caminos junto al río.",
   "Eso cambia bastante la comparación con una localidad puramente interior: no hace falta salir de O Rosal cada vez que se quiere estar junto al agua en verano.",
   "Para baño de mar, la lógica es distinta. Area Grande y otras playas de A Guarda quedan aproximadamente a diez o quince minutos según el punto de partida. El Atlántico es por tanto una salida próxima, no el paisaje inmediato de la vivienda.",
-  "La gran caminata propia del municipio es otra. La ruta de los Muíños do Folón e do Picón es circular, tiene unos 3,5 km y se recorre aproximadamente en hora y media. La distancia engaña: hay suelo irregular, escalones y pendientes. Se puede subir por una de las laderas y bajar por la otra, atravesando las dos agrupaciones de molinos.",
+  "La ruta de los Muíños do Folón e do Picón exige más esfuerzo que el paseo fluvial. Es circular, tiene unos 3,5 km y se recorre aproximadamente en hora y media. La distancia engaña: hay suelo irregular, escalones y pendientes. Se puede subir por una de las laderas y bajar por la otra, atravesando las dos agrupaciones de molinos.",
   "No es el equivalente a un paseo llano después de comer. Es una salida corta pero deliberada, con desnivel y un paisaje muy reconocible de piedra, agua, bosque y vistas sobre el valle.",
   "Entre ambos recorridos aparece una combinación poco habitual: un paseo fluvial fácil para repetir, una ruta de ladera con identidad propia y el Atlántico a pocos minutos en coche. En O Rosal, el mar es salida; el río y el valle pueden entrar mucho más fácilmente en la semana normal.",
 ] as const;

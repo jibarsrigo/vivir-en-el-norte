@@ -18,17 +18,16 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
-  "Baixo Miño termina hacia el interior con una escala distinta. A Guarda es villa marítima; Oia, costa dispersa; O Rosal, valle y viña; Tomiño, vega y parroquias. Tui funciona como la pequeña ciudad de la comarca.",
-  "Está construida sobre el Miño frente a Valença. El casco histórico sube desde el río hacia la catedral; alrededor aparecen ensanche, comercio, equipamientos y barrios residenciales. La A-55 y el puente internacional añaden una dimensión logística que no tienen los municipios de la costa.",
-  "La diferencia residencial más importante está entre vivir dentro o junto al casco, instalarse en el ensanche o salir hacia parroquias y laderas próximas al Monte Aloia.",
-  "En el centro se gana autonomía andando. En el ensanche aparecen calles más anchas, ascensor, aparcamiento y vivienda más reciente. Fuera de ese radio se gana espacio y verde, pero vuelve a crecer el papel del coche.",
+  "Baixo Miño reúne formas muy distintas de vivir en el extremo suroeste de Galicia: A Guarda concentra puerto, comercio y servicios junto a la desembocadura del Miño; Oia ocupa una franja estrecha entre el Atlántico y la sierra de A Groba; O Rosal combina valle, viñedo y ribera; Tomiño se extiende por la vega del Miño; y Tui aporta una pequeña ciudad histórica y fronteriza. Portugal queda al otro lado del río y Vigo funciona como apoyo urbano mayor.",
+  "Tui ocupa la parte interior y urbana de Baixo Miño, construida sobre el Miño frente a Valença. El casco histórico asciende desde el río hacia la catedral; alrededor aparecen ensanche, comercio, equipamientos y barrios residenciales.",
+  "La frontera, la A-55 y el puente internacional añaden una dimensión que no tienen los municipios costeros. El centro favorece la vida a pie; el ensanche simplifica coche y vivienda reciente; las parroquias y laderas hacia el Monte Aloia ganan espacio y verde a cambio de más desplazamientos.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
-  "Tui concentra la mayor autonomía cotidiana de Baixo Miño. Comercio, supermercados, farmacia, atención primaria, biblioteca, teatro, conservatorio, piscina y otros servicios caben dentro de una ciudad pequeña.",
+  "En Tui es más fácil resolver la semana sin coche que en los otros municipios de Baixo Miño. Comercio, supermercados, farmacia, atención primaria, biblioteca, teatro, conservatorio, piscina y otros servicios caben dentro de una ciudad pequeña.",
   "El casco histórico añade una vida urbana poco habitual en la zona: calles empedradas, plazas, cafeterías, patrimonio y el paso constante del Camino Portugués. No depende únicamente del verano para tener movimiento.",
   "La topografía importa. La ciudad histórica asciende desde el Miño hacia la catedral y algunas calles tienen pendientes claras. Una vivienda situada pocos cientos de metros más arriba o abajo puede cambiar bastante la comodidad de los recorridos diarios.",
-  "El ensanche ofrece otra semana: calles más anchas, edificios más recientes, supermercados y mejor relación con el coche. Conviene, sin embargo, comprobar el ruido de la A-55 según la calle.",
+  "En el ensanche aparecen calles más anchas, edificios más recientes, supermercados y una relación más sencilla con el coche. Conviene, sin embargo, comprobar el ruido de la A-55 según la calle.",
   "Valença está al otro lado del río. Cruzar a Portugal forma parte de la vida normal para compras, paseo, restauración y actividades de la Eurocidade; no necesita plantearse como una excursión ocasional.",
   "Tui dispone además de ferrocarril y conexión directa por carretera hacia Vigo y Portugal. La utilidad del transporte público depende del horario concreto, pero la combinación de tren, autovía y servicios locales la diferencia del resto de la comarca.",
   "Para atención hospitalaria de mayor complejidad, la referencia práctica está en el área de Vigo, aproximadamente a 25 km y unos 30 minutos. El aeropuerto de Vigo queda aproximadamente a 25 minutos.",
@@ -47,10 +46,10 @@ const CLIMA_NUEVO2 = [
 const VIVIR_NUEVO2 = [
   "Tui permite reducir el coche más que los demás municipios de Baixo Miño si se elige bien la vivienda. Desde casco y ensanche pueden quedar a pie buena parte de la compra, servicios y actividades.",
   "Eso no elimina el coche de la semana. Sigue siendo útil para hospital, costa, algunas parroquias y salidas de ocio, pero deja de ser imprescindible para cada gesto pequeño.",
-  "Valença amplía además el radio cotidiano sin necesidad de recurrir a Vigo. La frontera introduce comercio, restauración y actividades portuguesas dentro de una escala muy próxima.",
+  "Valença añade comercio, restauración y actividades al otro lado del Miño sin necesidad de ir hasta Vigo. Cruzar la frontera puede formar parte de una tarde normal.",
   "El Camino Portugués mantiene paso de gente durante buena parte del año y añade actividad al casco. Quien quiera silencio absoluto debe elegir calle con cuidado; quien valore una ciudad pequeña con vida exterior puede verlo como ventaja.",
   "Mantener conexión con Mallorca resulta logísticamente más sencillo que desde la punta de A Guarda porque el aeropuerto de Vigo queda más cerca. Aun así, la disponibilidad de vuelos directos depende de temporada y calendario.",
-  "El peaje frente a los municipios costeros es claro: aquí el agua cotidiana es el Miño y no el océano. Para playa marítima hay que conducir.",
+  "La contrapartida respecto a los municipios costeros es clara: aquí el agua cotidiana es el Miño y no el océano. Para playa marítima hay que conducir.",
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
@@ -83,7 +82,7 @@ const CASA_NUEVO2 = [
 ] as const;
 
 const CASA_ADVERTENCIA_MICROZONA = [
-  "En Tui la cota y la relación con la A-55 pueden importar tanto como la distancia lineal al centro. Casco, ensanche y parroquias no ofrecen la misma experiencia. Una vivienda histórica puede estar muy cerca de todo y exigir más esfuerzo por pendientes o accesibilidad; un piso del ensanche puede simplificar ascensor y aparcamiento; una casa exterior gana terreno a cambio de coche.",
+  "En Tui la altura de la vivienda, las pendientes y la relación con la A-55 pueden importar tanto como la distancia lineal al centro. Casco, ensanche y parroquias no ofrecen la misma experiencia. Una vivienda histórica puede estar muy cerca de todo y exigir más esfuerzo por pendientes o accesibilidad; un piso del ensanche puede simplificar ascensor y aparcamiento; una casa exterior gana terreno a cambio de coche.",
 ] as const;
 
 const CASA_QUE_CONVIENE_REVISAR = [
@@ -100,7 +99,7 @@ const CASA_MERCADO_REVENTA = [
   "Para reventa ayudan especialmente ascensor, aparcamiento, cercanía peatonal a servicios y una ubicación que no sufra demasiado ruido de la autovía.",
   "El casco histórico tiene un producto más específico: arquitectura y ubicación pueden aportar atractivo, pero accesibilidad, humedad, rehabilitación y aparcamiento reducen el público potencial si están mal resueltos.",
   "Las casas de parroquia compiten en otro mercado. Allí pesan terreno, acceso, mantenimiento y tiempo real hasta el núcleo.",
-  "La ventaja estructural de Tui es que no depende únicamente de costa o segunda residencia para explicar su demanda: servicios, frontera y conexiones sostienen una base residencial propia.",
+  "Tui no depende únicamente de la costa o de la segunda residencia para atraer compradores: sus servicios, la cercanía de Portugal y las conexiones con Vigo sostienen una demanda de vivienda habitual.",
 ] as const;
 
 const CASA_LEYENDA_COMPACTA =

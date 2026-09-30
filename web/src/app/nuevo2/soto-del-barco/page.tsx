@@ -17,8 +17,9 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
-  "Asturias Centro reúne maneras muy distintas de vivir junto al Cantábrico. Soto del Barco ocupa una posición propia porque aquí el territorio se organiza alrededor de la desembocadura del Nalón.",
-  "Dentro de un municipio pequeño hay dos experiencias residenciales distintas. Soto del Barco y San Juan de la Arena no son dos nombres para una misma vida. Soto queda algo más hacia el interior, ligado al río y a su papel administrativo; San Juan se acerca hasta la desembocadura, donde aparecen el puerto, las embarcaciones y, al final del pueblo, el Cantábrico.",
+  "Asturias Centro reúne formas muy distintas de vivir junto al Cantábrico: desde el puerto en ladera de Cudillero y los núcleos del estuario del Nalón hasta las villas marineras de Luanco y Candás, la playa de Salinas y la escala urbana de Gijón. Avilés y Oviedo completan un territorio en el que costa, ciudades y aeropuerto quedan relativamente próximos, aunque la vida cotidiana cambia mucho según el lugar elegido.",
+  "Soto del Barco ocupa la parte occidental de esa zona, alrededor de la desembocadura del Nalón. Dentro de un concejo pequeño hay dos experiencias residenciales muy distintas: Soto del Barco, algo más interior y ligado a los servicios municipales, y San Juan de la Arena, junto al puerto y a la ría antes de que el Nalón llegue al Cantábrico.",
+  "Esa posición permite combinar una escala pequeña con Avilés y el aeropuerto relativamente cerca. La elección entre Soto y San Juan cambia cuánto río, puerto y costa entran en la vida diaria y cuánto coche hace falta para los servicios que quedan fuera del concejo.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
@@ -26,7 +27,7 @@ const COMO_SE_VIVE_NUEVO2 = [
   "San Juan de la Arena tiene vida básica propia: centro médico, farmacia, biblioteca, polideportivo, supermercado y centro social de mayores, además de algunos servicios sociales determinados días. Eso permite resolver una parte apreciable de la rutina dentro del propio pueblo.",
   "Desde muchas viviendas de San Juan se puede hacer una compra o resolver una necesidad básica y después acercarse al puerto andando. El Nalón ya está ensanchándose antes de llegar al mar; barcos, puerto y desembocadura forman parte del paisaje habitual.",
   "Soto y San Juan están cerca, pero no son intercambiables. En Soto, el río acompaña una vida más interior y administrativa. En San Juan, la ría, el puerto y después la playa tienen mucha más presencia en los recorridos cotidianos.",
-  "Cuando la necesidad supera esa escala pequeña hay que salir. El Hospital San Agustín de Avilés queda aproximadamente a 16 km y unos 20 minutos. El aeropuerto de Asturias está excepcionalmente cerca, en torno a 6 km y unos 10 minutos.",
+  "Para hospital, compras grandes y servicios que no existen dentro del concejo hay que desplazarse. El Hospital San Agustín de Avilés queda aproximadamente a 16 km y unos 20 minutos. El aeropuerto de Asturias está excepcionalmente cerca, en torno a 6 km y unos 10 minutos.",
   "El coche sigue formando parte de la vida para hospital, compras de mayor escala y muchas salidas. Eso no impide que en San Juan una parte de las necesidades básicas pueda resolverse sin arrancarlo.",
 ] as const;
 
@@ -39,7 +40,7 @@ const CLIMA_NUEVO2 = [
 
 const VIVIR_NUEVO2 = [
   "En San Juan, el agua aparece primero como río ancho y puerto. Se puede caminar junto a la desembocadura, ver las embarcaciones y continuar hasta que el Nalón termina y comienza la costa abierta. Los Quebrantos añade la playa, pero no sustituye esa primera relación con el agua.",
-  "La escala diaria es pequeña. No hay que salir del pueblo para cada compra o necesidad básica, aunque Pravia y Avilés amplían pronto lo que puede resolverse cerca. Para hospital, comercio de mayor entidad o determinadas gestiones, el coche vuelve a entrar en escena.",
+  "En San Juan no hace falta salir del pueblo para cada compra o necesidad básica. Para una oferta comercial mayor, hospital o determinadas gestiones hay que desplazarse hacia Pravia, Avilés u otros núcleos del entorno, y el coche vuelve a formar parte de la semana.",
   "El aeropuerto queda muy cerca para un lugar de este tamaño. Eso acorta mucho la parte terrestre de un viaje. La conexión con Palma no debe darse por permanente: depende de la programación de cada temporada.",
 ] as const;
 
@@ -64,14 +65,14 @@ const MAR_RIO_CAMINO_NUEVO2 = [
 const CASA_NUEVO2 = [
   "En este municipio conviene elegir primero entre Soto y San Juan y después comparar viviendas. Una dirección en cada núcleo puede pertenecer al mismo concejo y ofrecer una rutina bastante distinta.",
   "En San Juan merece la pena salir de la vivienda candidata y hacer el recorrido real: compra, farmacia, centro médico, puerto y playa. Una casa bien situada puede reunir buena parte de esa secuencia sin coche.",
-  "Soto ofrece otra lógica. Fuera de su pequeño centro, el tejido se vuelve más disperso y una distancia que parece corta en el anuncio puede terminar significando más desplazamientos cotidianos. Allí importa especialmente comprobar desde la puerta de casa cuánto puede hacerse andando y para qué acaba siendo necesario coger el coche.",
+  "En Soto, fuera del pequeño centro, las viviendas se vuelven más dispersas y una distancia que parece corta en el anuncio puede terminar significando más desplazamientos cotidianos. Conviene comprobar desde la puerta de casa cuánto puede hacerse andando y para qué acaba siendo necesario coger el coche.",
 ] as const;
 
 const CASA_PRECIO_INTRO =
   "Referencia municipal: 1.185 €/m² · abril de 2026.";
 
 const CASA_BANDAS_NOTA =
-  "Las bandas permiten comparar con el resto del proyecto, pero no tasar una vivienda concreta. Utilizan aproximadamente 65 m² para dos habitaciones y 90 m² para tres, con las mismas franjas A y B del resto de fichas.";
+  "Estas cifras son orientativas y no tasan una vivienda concreta. Se calculan con aproximadamente 65 m² para dos habitaciones y 90 m² para tres; las franjas A y B corresponden a la cercanía a la costa indicada en la leyenda.";
 
 const CASA_ADVERTENCIA_MICROZONA =
   "En San Juan conviene comprobar cuánto cambia la vivienda cuando se pasa de «cerca del puerto» a poder llegar realmente andando a compra, farmacia, centro médico y playa. En Soto pesan más el acceso desde la vivienda, la dispersión y la frecuencia con la que el coche acaba resolviendo una necesidad que sobre el mapa parecía próxima. La cobertura de fibra debe comprobarse en la dirección concreta.";
@@ -95,7 +96,7 @@ const CASA_FILA_PRECIOS = {
 } as const;
 
 const ENCAJA_SI_NUEVO2 = [
-  "Puede encajar si se busca una escala pequeña sin quedar muy lejos de hospital y aeropuerto, y se acepta que para las necesidades de mayor entidad habrá que salir del municipio.",
+  "Puede encajar si se busca vivir en un concejo pequeño sin quedar muy lejos de hospital y aeropuerto, y se acepta salir del municipio para compras grandes, atención hospitalaria y otros servicios que no existen allí.",
   "San Juan añade una combinación particular: un pueblo pequeño donde compra básica, médico, farmacia, puerto, desembocadura y playa pueden formar parte de una misma vida diaria.",
   "Soto ofrece la otra posibilidad: vivir algo más retirado de la costa abierta, junto al Nalón y en el núcleo administrativo, manteniendo servicios básicos propios.",
 ] as const;
@@ -103,7 +104,7 @@ const ENCAJA_SI_NUEVO2 = [
 const NO_ENCAJA_SI_NUEVO2 = [
   "Puede encajar peor si se quiere una oferta amplia de comercio, actividades y sanidad dentro del propio pueblo o reducir mucho el uso del coche cuando la necesidad sale de lo básico.",
   "También hay que aceptar el cambio respecto a Mallorca: menos sol, mucha más humedad y lluvia y un verano bastante más fresco. En San Juan, tener Los Quebrantos junto al pueblo tampoco convierte el Cantábrico en una playa de baño previsible.",
-  "La vivienda añade otro límite: poca obra nueva, fibra que conviene comprobar dirección por dirección y un mercado de escala pequeña en el que la vivienda concreta pesa más que una media general.",
+  "También puede encajar peor si se busca mucha obra nueva o se necesita dar por segura la fibra sin comprobar la dirección concreta. En un mercado pequeño, el estado, el acceso y la ubicación de cada vivienda pesan más que una media municipal.",
 ] as const;
 
 const QUE_COMPROBAR_NUEVO2 = [

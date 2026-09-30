@@ -18,10 +18,9 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
-  "O Grove ocupa una península unida al continente por el istmo de A Lanzada. Esa geografía condiciona casi todo: el mar rodea el municipio, pero toda salida por carretera pasa por el mismo corredor.",
-  "La villa de O Grove concentra puerto, lonja, mercado, comercio, centro de salud y buena parte de la vida anual. A Toxa queda unida por puente y tiene una identidad termal y hotelera. San Vicente do Mar y Pedras Negras miran a la costa occidental, con casas, pinares, calas y una relación mucho más directa con el Atlántico.",
-  "La principal diferencia residencial está entre vivir en la villa y vivir en la costa exterior. La villa ofrece autonomía cotidiana. San Vicente y otras zonas de costa ofrecen mar y tranquilidad, pero introducen más coche.",
-  "O Grove no debe imaginarse como A Toxa ni como una sucesión de playas. Su centro sigue siendo una villa marinera que trabaja con la ría de Arousa.",
+  "Esta zona reúne cuatro formas muy distintas de vivir alrededor de las rías de Pontevedra y Arousa: Pontevedra aporta una ciudad pequeña y muy caminable; Poio se extiende por la orilla norte de la ría con parroquias, puertos y costa; Sanxenxo concentra playa, segunda residencia y fuerte estacionalidad; O Grove ocupa una península marinera entre la ría de Arousa y el Atlántico. Las distancias son cortas, pero la dependencia del coche, el acceso al baño y la presión del verano cambian mucho entre municipios.",
+  "O Grove ocupa una península unida al continente por el istmo de A Lanzada. La villa concentra puerto, lonja, mercado, comercio y centro de salud; A Toxa tiene una lógica termal y hotelera; San Vicente do Mar y Pedras Negras miran a la costa occidental, con calas, pinares y vivienda residencial.",
+  "La villa ofrece más autonomía cotidiana; San Vicente y otras zonas de costa acercan mar y tranquilidad a cambio de más coche. Toda salida por carretera pasa por el mismo istmo, algo especialmente visible en temporada alta.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
@@ -29,9 +28,9 @@ const COMO_SE_VIVE_NUEVO2 = [
   "El mar sigue siendo trabajo visible. Lonja, embarcaciones, bateas y marisqueo forman parte del paisaje cotidiano. En invierno el municipio pierde buena parte del volumen turístico, pero no pierde su base económica ni vecinal.",
   "Desde una vivienda céntrica se puede hacer a pie una parte importante de la semana. Mercado, farmacia, compra y puerto pueden quedar dentro de un radio pequeño.",
   "San Vicente do Mar ofrece otra vida. Allí la costa, las calas y la pasarela de Pedras Negras pueden quedar muy cerca, pero la compra amplia, el centro de salud y muchos servicios exigen coche.",
-  "A Toxa vuelve a cambiar la lógica. Balneario, hoteles, golf y paseo bajo pinos crean un entorno muy distinto de la villa y de San Vicente. No es una síntesis del municipio.",
+  "A Toxa funciona de una manera distinta tanto de la villa como de San Vicente. Balneario, hoteles, golf y paseos bajo pinos crean un entorno específico que no representa la vida cotidiana del resto del municipio.",
   "La Festa do Marisco transforma O Grove en octubre, no solo en pleno verano. Durante esos días el puerto y el centro reciben mucha más gente y aparcar se complica. El Carmen introduce otro momento de actividad marinera.",
-  "El Hospital do Salnés es la referencia práctica, aproximadamente a 30 minutos. Para servicios hospitalarios de otra escala hay que ampliar el desplazamiento hacia Pontevedra. Vigo y Santiago quedan aproximadamente a una hora como referencias aeroportuarias.",
+  "El Hospital do Salnés queda aproximadamente a 30 minutos. Para determinados servicios hospitalarios hay que continuar hacia Pontevedra. Los aeropuertos de Vigo y Santiago quedan aproximadamente a una hora.",
   "El istmo condiciona todos los desplazamientos por carretera hacia el continente. En temporada alta un trayecto sencillo sobre el mapa puede alargarse, de modo que hospital, aeropuerto y compras fuera del municipio deben valorarse también con tráfico real.",
 ] as const;
 
@@ -69,7 +68,7 @@ const MAR_RIO_CAMINO_NUEVO2 = [
   "Pedras Negras ofrece uno de los recorridos más fáciles de incorporar a la vida diaria si se reside en San Vicente. La pasarela de madera bordea la costa entre pinos, roca y pequeñas calas. Desde la villa, en cambio, exige desplazamiento previo y funciona como salida.",
   "El mirador de A Siradella permite leer la geografía completa: ría de Arousa, A Toxa, ensenada de O Vao, istmo de A Lanzada y Atlántico. Es una salida corta en coche desde la villa, no un paseo urbano.",
   "La ruta de Adro Vello es lineal y ronda los 3,1 km. Recorre un tramo de costa con pequeñas calas y patrimonio arqueológico, de modo que permite combinar paseo y conocimiento del litoral sin dedicar el día entero.",
-  "La ruta del Padre Sarmiento alrededor de la península pertenece a otra escala: su etapa local es larga y exige varias horas. No debe confundirse con el paseo cotidiano.",
+  "La etapa local de la ruta del Padre Sarmiento es una caminata larga que exige varias horas. No debe confundirse con el paseo cotidiano.",
   "A Toxa ofrece un recorrido mucho más sencillo bajo pinos y junto a la ría.",
 ] as const;
 
@@ -100,7 +99,7 @@ const CASA_MERCADO_REVENTA = [
   "O Grove mezcla demanda residencial local con segunda residencia y turismo.",
   "En la villa ayudan la proximidad a servicios, accesibilidad, estado del edificio y aparcamiento.",
   "En San Vicente la venta depende más de costa, parcela, vistas, acceso y facilidad de mantenimiento. Una casa atractiva en verano puede perder público si resulta húmeda, oscura o demasiado dependiente del coche durante el invierno.",
-  "A Toxa pertenece a un segmento distinto y no debe generalizarse al municipio.",
+  "Las viviendas de A Toxa responden a precios y tipologías muy distintos de los de la villa o San Vicente, por lo que no sirven para describir el mercado residencial corriente de O Grove.",
   "La facilidad para entrar y salir de la península, especialmente en temporada, también influye en cómo se percibe una vivienda para uso habitual.",
 ] as const;
 

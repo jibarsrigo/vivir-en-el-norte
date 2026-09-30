@@ -18,20 +18,19 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
-  "Baixo Miño reúne formas bastante distintas de vivir en el extremo suroeste de Galicia. A Guarda concentra puerto, comercio y servicios junto a la desembocadura; Oia ocupa una franja estrecha entre el Atlántico y la sierra; O Rosal mezcla un pequeño núcleo, viñedo y ribera; y Tui funciona como pequeña ciudad histórica y fronteriza.",
-  "Tomiño cambia de escala. Se extiende por la vega del Miño y no se entiende bien como un único pueblo: Tomiño y O Seixo concentran parte de la vida administrativa y comercial, Goián forma otro núcleo reconocible junto al río y el resto del municipio se reparte entre parroquias, carreteras locales, casas con finca, viveros y monte.",
-  "Esa dispersión es una de sus características esenciales. Dos viviendas dentro de Tomiño pueden ofrecer semanas muy distintas según estén cerca de O Seixo, en Goián o en una parroquia más apartada.",
-  "Goián añade además una dimensión que diferencia al municipio dentro de la comarca. Está frente a Vila Nova de Cerveira y unido a Portugal por la Ponte da Amizade. Allí el Miño no funciona como fondo del paisaje: forma parte del paseo, el ocio y los desplazamientos cotidianos.",
+  "Baixo Miño reúne formas muy distintas de vivir en el extremo suroeste de Galicia: A Guarda concentra puerto, comercio y servicios junto a la desembocadura del Miño; Oia ocupa una franja estrecha entre el Atlántico y la sierra de A Groba; O Rosal combina valle, viñedo y ribera; Tomiño se extiende por la vega del Miño; y Tui aporta una pequeña ciudad histórica y fronteriza. Portugal queda al otro lado del río y Vigo funciona como apoyo urbano mayor.",
+  "Tomiño ocupa una gran parte de la vega del Miño y es el municipio más extendido y disperso de la zona. Tomiño y O Seixo concentran parte de la vida administrativa y comercial; Goián forma otro núcleo importante junto al río; y el resto se reparte entre parroquias, viveros, casas con finca y monte.",
+  "Goián añade una relación directa con Portugal a través de la Ponte da Amizade hacia Vila Nova de Cerveira. En Tomiño, elegir vivienda significa elegir también cuánto coche, río y frontera forman parte de la semana.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
-  "Tomiño es un municipio que hay que entender por microzonas. La vida cerca de O Seixo no es la misma que en Goián ni que en una casa rodeada de finca en una parroquia interior.",
+  "Tomiño cambia mucho según dónde se viva. La vida cerca de O Seixo no es la misma que en Goián ni que en una casa rodeada de finca en una parroquia interior.",
   "En el entorno de Tomiño y O Seixo se concentran ayuntamiento, atención primaria, comercio y servicios básicos. Se puede resolver una parte de la rutina sin grandes desplazamientos si la vivienda está bien situada, aunque la escala municipal sigue siendo dispersa.",
   "Goián funciona como un segundo núcleo y tiene una personalidad distinta. Su avenida principal, plaza, equipamientos y servicios se combinan con la proximidad inmediata del Miño. Desde allí la Ponte da Amizade cruza a Vila Nova de Cerveira, de modo que Portugal puede entrar en una semana normal para mercado, restaurantes, compras o paseo.",
   "Fuera de esos núcleos, el coche gana mucho peso. Las distancias no tienen por qué ser grandes, pero se acumulan: compra, colegio, actividades, farmacia o una salida hacia Tui pueden estar en direcciones distintas.",
-  "Tui funciona como apoyo próximo y como acceso a conexiones de mayor escala. Para atención hospitalaria de mayor complejidad, la referencia práctica está en el área de Vigo; el Hospital Álvaro Cunqueiro queda aproximadamente a 30 km y unos 35 minutos desde el núcleo de referencia.",
+  "Tui queda cerca para ampliar comercio, gestiones y conexiones de transporte. Para atención hospitalaria de mayor complejidad hay que continuar hacia el área de Vigo; el Hospital Álvaro Cunqueiro queda aproximadamente a 30 km y unos 35 minutos desde el núcleo de referencia.",
   "El transporte público existe, pero no elimina la lógica del coche en un municipio tan extendido. La utilidad concreta depende mucho de la parroquia y del recorrido habitual.",
-  "Tomiño mantiene vida propia durante todo el año. El calendario local ayuda además a reunir un territorio que físicamente está muy repartido: San Campio de Figueiró, la Virxe do Alivio, el Lanzo da Cruz, el Entroido o la Festa da Rosca introducen días de más movimiento en lugares normalmente tranquilos.",
+  "Tomiño mantiene vida propia durante todo el año. Las fiestas locales concentran durante algunos días mucha más actividad en puntos que el resto del año son tranquilos. Entre ellas están San Campio de Figueiró, la Virxe do Alivio, el Lanzo da Cruz, el Entroido y la Festa da Rosca.",
 ] as const;
 
 const CLIMA_NUEVO2 = [

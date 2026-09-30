@@ -18,20 +18,19 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
-  "Redondela ocupa el fondo oriental de la ría de Vigo y combina una villa compacta con parroquias que funcionan de forma muy distinta.",
-  "El casco está atravesado por los grandes viaductos ferroviarios y concentra mercado, comercio, colegios, instituto, centro de salud y estación. Cesantes abre el municipio hacia la ensenada de San Simón y su playa. Chapela se orienta mucho más hacia Vigo y al corredor de Rande.",
-  "Vivir en el casco permite hacer muchos recados a pie; Cesantes acerca la playa y la ensenada; Chapela queda mucho más vinculada a Vigo. A cambio, tren, AP-9, N-550 y accesos de Rande atraviesan distintas partes del municipio, de modo que el ruido cambia mucho de una calle a otra.",
-  "Redondela permite mantener vida propia de villa y utilizar Vigo o Pontevedra con facilidad.",
+  "Vigo e ría reúne la gran ciudad de Vigo y varios municipios que se organizan alrededor del fondo de la ría y de la ensenada de San Simón. Vigo concentra hospitales, empleo, universidad, aeropuerto, puerto y servicios urbanos; Redondela combina una villa ferroviaria con Cesantes y Chapela; Soutomaior se reparte entre Arcade y un interior más rural; Vilaboa ocupa la orilla de la ensenada y las laderas que conectan la ría con Pontevedra. En pocos kilómetros se pasa de una vida plenamente urbana a parroquias donde el coche vuelve a ser imprescindible.",
+  "Redondela ocupa el fondo oriental de la ría de Vigo. El casco concentra mercado, comercio, colegios, centro de salud y estación; Cesantes abre el municipio hacia la ensenada de San Simón y su playa; Chapela se orienta mucho más hacia Vigo y Rande.",
+  "La estación y las carreteras facilitan utilizar Vigo y Pontevedra, pero también introducen ruido e infraestructuras. Vivir en el casco, en Cesantes o en Chapela significa rutinas claramente distintas.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
-  "En la villa se puede resolver una parte importante de la semana andando. Mercado, supermercados, farmacia, cafeterías, colegios, biblioteca y estación quedan dentro de una escala pequeña.",
+  "En la villa se puede resolver una parte importante de la semana andando. Mercado, supermercados, farmacia, cafeterías, colegios, biblioteca y estación quedan relativamente cerca unos de otros.",
   "La estación es especialmente útil porque conecta con Vigo y Pontevedra. Para quien trabaje o haga gestiones en cualquiera de las dos ciudades, el tren puede reducir bastante el uso del coche si la vivienda está cerca.",
   "Cesantes cambia la rutina. Allí aparecen casas, pequeños edificios y una relación mucho más directa con la ensenada. La playa puede quedar a pie desde algunas viviendas, pero esa ventaja no se puede trasladar al municipio entero.",
   "Chapela es distinta tanto de la villa como de Cesantes. Su relación cotidiana con Vigo es mucho más directa, pero también tiene más densidad, tráfico e infraestructuras.",
   "Reboreda, Ventosela y otras parroquias permiten buscar más espacio o casa, pero la semana se dispersa. Una vivienda puede estar a pocos kilómetros del casco y aun así requerir coche para casi todos los recados.",
   "Redondela tiene atención primaria local. Para atención hospitalaria hay que desplazarse al área de Vigo; el trayecto orientativo ronda los veinte minutos desde buena parte del municipio.",
-  "El aeropuerto de Vigo está muy cerca, alrededor de diez minutos como referencia orientativa. Santiago queda bastante más lejos pero puede ofrecer una programación más estable hacia Palma según temporada.",
+  "El aeropuerto de Vigo queda alrededor de diez minutos en coche desde la referencia utilizada para el municipio. Santiago está bastante más lejos, pero puede ofrecer una programación más estable hacia Palma según temporada.",
   "El comercio, el tren y los colegios mantienen actividad durante todo el año. El Camino Portugués atraviesa la villa y algunas fiestas ocupan el centro durante fechas concretas, pero Redondela no depende del verano para mantener su vida cotidiana.",
   "El ruido debe comprobarse vivienda por vivienda. Una calle puede recibir tren, autopista o tráfico de carretera y otra próxima no. El aislamiento acústico puede importar tanto como la superficie o una terraza.",
 ] as const;
@@ -80,7 +79,7 @@ const CASA_NUEVO2 = [
   "Cesantes, Reboreda y Ventosela ofrecen más casas y pequeños edificios entre fincas. Allí importan acceso, humedad, orientación y distancia real hasta los servicios.",
   "Chapela tiene otra lógica: la proximidad a Vigo puede ser muy útil, pero también aparecen más tráfico, densidad e infraestructuras.",
   "El ruido debe estudiarse como característica física de la vivienda. Tren, AP-9 y carreteras pueden escucharse de manera muy distinta incluso dentro de la misma parroquia.",
-  "El precio medio municipal utilizado como referencia es 1.499 €/m².",
+  "El precio medio municipal es 1.499 €/m².",
 ] as const;
 
 const CASA_ADVERTENCIA_MICROZONA = [
@@ -147,7 +146,7 @@ const FOTO_COMO_1 = {
 
 const FOTO_HIST_1 = {
   src: "/fotos/vigo-e-ria/redondela-viaduto.jpg",
-  pie: "Viaducto de Madrid: la vía elevada que define el perfil de Redondela",
+  pie: "Antiguo viaducto a Madrid, hoy viaducto de Ourense: la vía elevada que define el perfil de Redondela",
 } as const;
 
 const FOTO_HIST_2 = {

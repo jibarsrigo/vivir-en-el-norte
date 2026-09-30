@@ -18,18 +18,17 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
-  "Val Miñor no termina en la playa. El río Miñor atraviesa el valle desde el interior antes de llegar a la desembocadura entre Baiona y Nigrán, y Gondomar ocupa buena parte de ese territorio interior.",
-  "Frente a la bahía de Baiona y las franjas costeras de Nigrán, aquí predominan una pequeña villa de servicios, parroquias, casas con finca y laderas que ascienden hacia la Serra do Galiñeiro.",
-  "El núcleo de Gondomar concentra comercio, farmacia, centro de salud y parte de la vida municipal. Fuera de él aparecen parroquias como Mañufe, Donas, Chaín, Vincios o Morgadáns, con experiencias residenciales bastante distintas.",
-  "El mar está cerca, pero no forma parte de la puerta de casa. Esa es la diferencia fundamental: Gondomar permite vivir en el mismo valle y utilizar las playas de Nigrán o Baiona como salida, conservando una rutina más interior.",
+  "Val Miñor reúne tres formas distintas de vivir entre la costa y el interior del valle: Baiona funciona como villa marítima compacta y turística; Nigrán reparte playas, servicios y vivienda entre varias microzonas; Gondomar ocupa el interior, con más casas y terreno y una relación menos inmediata con el mar. Vigo queda lo bastante cerca para completar hospital, empleo, aeropuerto y servicios de mayor escala.",
+  "Gondomar ocupa el interior del valle del Miñor. Frente a la bahía de Baiona y las playas de Nigrán, aquí predominan una pequeña villa de servicios, parroquias, casas con finca y laderas hacia la Serra do Galiñeiro.",
+  "El núcleo concentra comercio, farmacia y centro de salud; fuera aparecen Mañufe, Donas, Chaín, Vincios o Morgadáns. El mar sigue estando cerca, pero se utiliza como salida hacia Nigrán o Baiona, no como parte inmediata de la puerta de casa.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
   "Gondomar tiene una escala de villa pequeña rodeada de parroquias.",
   "En el núcleo se pueden resolver a pie bastantes necesidades básicas: supermercado, farmacia, centro de salud, comercio y otros servicios cotidianos. No ofrece la variedad urbana de Vigo ni la relación directa con el mar de Baiona o Nigrán.",
   "Fuera de la villa cambia rápidamente la semana. Una casa en Vincios, Morgadáns, Chaín o Donas puede ganar terreno y tranquilidad, pero compra, actividades y ocio empiezan a depender más del coche.",
-  "La conexión con Vigo es una de las ventajas prácticas. Para atención hospitalaria de mayor complejidad, la referencia práctica está en el área de Vigo; el Hospital Álvaro Cunqueiro queda aproximadamente a 15 km y unos 15 minutos desde la referencia municipal. El aeropuerto de Vigo está a unos 20 minutos. Son tiempos orientativos y cambian según la parroquia y el tráfico.",
-  "La costa también queda suficientemente cerca para utilizarla durante una tarde. Praia América es la referencia de baño más próxima, aproximadamente a 12 minutos desde la referencia municipal, aunque el tiempo real cambia según parroquia y tráfico.",
+  "Vigo queda suficientemente cerca para utilizarlo con frecuencia. Para atención hospitalaria de mayor complejidad, el Hospital Álvaro Cunqueiro está aproximadamente a 15 km y unos 15 minutos desde la villa de Gondomar; el aeropuerto de Vigo queda a unos 20 minutos. Son tiempos orientativos y cambian según la parroquia y el tráfico.",
+  "La costa queda suficientemente cerca para utilizarla durante una tarde. Praia América es una de las playas más próximas, aproximadamente a 12 minutos desde la villa de Gondomar, aunque el tiempo real cambia según la parroquia y el tráfico.",
   "Vivir fuera de la primera línea permite mantener hospital, ciudad y playa dentro de trayectos relativamente cortos, a cambio de que el coche forme parte de la semana con mucha más frecuencia.",
   "La estacionalidad se nota menos que en la costa. Agosto no transforma Gondomar de la misma manera que Praia América o Baiona. Las fiestas parroquiales producen picos locales, pero la vida anual mantiene un ritmo más estable.",
 ] as const;
@@ -91,9 +90,9 @@ const CASA_QUE_CONVIENE_REVISAR = [
 ] as const;
 
 const CASA_MERCADO_REVENTA = [
-  "Gondomar tiene una base residencial propia y un precio municipal claramente inferior al de Baiona y Nigrán.",
+  "Gondomar mantiene demanda de vivienda habitual y un precio medio municipal claramente inferior al de Baiona y Nigrán.",
   "Eso no convierte cualquier casa grande en una compra fácil de revender. Acceso, estado, orientación, parcela manejable y distancia a servicios siguen determinando el público potencial.",
-  "Una vivienda próxima a la villa puede interesar a quien busca más espacio sin perder demasiada autonomía. En parroquias más dispersas el producto debe justificar el coche mediante terreno, tranquilidad, vistas o calidad de vivienda.",
+  "Una vivienda próxima a la villa puede interesar a quien busca más espacio sin perder demasiada autonomía. En parroquias más dispersas, la casa resulta más atractiva cuando ofrece a cambio del coche una parcela útil, tranquilidad, buenas vistas o una vivienda especialmente cómoda.",
   "Para reventa ayuda especialmente que la propiedad sea fácil de mantener y que los accesos hacia Vigo y el resto del valle sean sencillos.",
 ] as const;
 

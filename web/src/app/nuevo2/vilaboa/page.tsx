@@ -18,11 +18,10 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
-  "Vilaboa no funciona como una villa compacta.",
-  "Sus habitantes se reparten entre parroquias y pequeños núcleos alrededor de la ensenada de San Simón y de las laderas que conectan la ría de Vigo con el entorno de Pontevedra.",
-  "Santa Cristina de Cobres y Santo Adrián de Cobres miran hacia la ensenada. Vilaboa concentra ayuntamiento y algunos servicios. Figueirido y Bértola se orientan más hacia Pontevedra. Entre unas y otras aparecen casas, fincas, carreteras y pequeños grupos de viviendas.",
-  "Vilaboa permite vivir en una escala rural entre Pontevedra y el corredor de Vigo, pero no tiene un centro capaz de resolver a pie la mayoría de la semana.",
-  "La ría está muy presente en el paisaje, pero costa no significa automáticamente playa cotidiana. Marea, marisma y pequeñas playas definen mejor la relación con el agua.",
+  "Vigo e ría reúne la gran ciudad de Vigo y varios municipios que se organizan alrededor del fondo de la ría y de la ensenada de San Simón. Vigo concentra hospitales, empleo, universidad, aeropuerto, puerto y servicios urbanos; Redondela combina una villa ferroviaria con Cesantes y Chapela; Soutomaior se reparte entre Arcade y un interior más rural; Vilaboa ocupa la orilla de la ensenada y las laderas que conectan la ría con Pontevedra. En pocos kilómetros se pasa de una vida plenamente urbana a parroquias donde el coche vuelve a ser imprescindible.",
+  "Vilaboa ocupa la orilla de la ensenada de San Simón y las laderas que conectan la ría de Vigo con el entorno de Pontevedra. Dentro de Vigo e ría es el municipio más rural y disperso: no tiene una villa compacta comparable a Vigo, Redondela o Arcade, sino parroquias y pequeños núcleos repartidos entre costa e interior.",
+  "Santa Cristina de Cobres y Santo Adrián de Cobres miran hacia la ensenada; Vilaboa concentra ayuntamiento y algunos servicios; Figueirido y Bértola se orientan más hacia Pontevedra. Esa posición permite vivir en un entorno rural sin quedar lejos de núcleos mayores, pero no ofrece un centro capaz de resolver a pie la mayor parte de la semana.",
+  "La ría está muy presente en el paisaje, aunque costa no significa automáticamente playa cotidiana. Marea, marisma, pequeñas playas y vistas hacia San Simón y Rande explican mejor la relación de Vilaboa con el agua.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [

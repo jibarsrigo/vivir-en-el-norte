@@ -17,9 +17,9 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
-  "Salinas está en la costa central de Asturias, dentro del municipio de Castrillón y muy cerca de Avilés. Para entender cómo sería vivir aquí conviene separar tres lugares que cumplen funciones distintas.",
-  "Salinas es el núcleo costero: las viviendas llegan hasta una gran playa abierta al Cantábrico. Piedras Blancas, situada tierra adentro a pocos minutos, es la capital de Castrillón y concentra parte de los servicios municipales. Avilés es ya una ciudad, con más comercio, cultura, gestiones y el hospital público de referencia cercano.",
-  "Esa disposición explica buena parte de la vida en Salinas. Se puede vivir junto a una playa extensa y recurrir a Piedras Blancas o Avilés cuando hace falta algo que el propio núcleo no ofrece. El mar puede quedar a pie; una parte de los servicios, a pocos minutos de coche.",
+  "Asturias Centro reúne formas muy distintas de vivir junto al Cantábrico: desde el puerto en ladera de Cudillero y los núcleos del estuario del Nalón hasta las villas marineras de Luanco y Candás, la playa de Salinas y la escala urbana de Gijón. Avilés y Oviedo completan un territorio en el que costa, ciudades y aeropuerto quedan relativamente próximos, aunque la vida cotidiana cambia mucho según el lugar elegido.",
+  "Salinas ocupa la parte costera de Castrillón, inmediatamente al oeste de Avilés. Dentro de la misma zona, su rasgo más claro es poder vivir junto a una gran playa abierta al Cantábrico y mantener al mismo tiempo Piedras Blancas, Avilés y el aeropuerto a pocos minutos.",
+  "Salinas es el núcleo costero; Piedras Blancas, tierra adentro, es la capital municipal y concentra parte de los servicios; Avilés completa hospital, comercio, cultura y gestiones. Esa proximidad permite tener el mar a pie sin exigir que toda la vida cotidiana se resuelva dentro del propio núcleo.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
@@ -33,14 +33,14 @@ const COMO_SE_VIVE_NUEVO2 = [
 
 const CLIMA_NUEVO2 = [
   "Mudarse desde Mallorca a Salinas supone un verano bastante más fresco y muchos más días húmedos, lluviosos o cubiertos a lo largo del año.",
-  "Las referencias climáticas del entorno de Avilés y Castrillón sitúan los meses más cálidos alrededor de los 19 °C de media y muestran una humedad alta y lluvias repartidas a lo largo del año. Sirven para describir el entorno costero, no como medición exclusiva del núcleo de Salinas.",
+  "En el entorno de Avilés y Castrillón, los meses más cálidos rondan los 19 °C de media y la humedad es alta, con lluvias repartidas a lo largo del año. Salinas comparte ese patrón costero.",
   "En julio y agosto el calor intenso y persistente pesa mucho menos que en Mallorca, pero tampoco se puede contar con una sucesión estable de días secos y soleados. Habrá jornadas buenas para caminar junto al mar en las que el baño o una tarde larga de terraza resulten menos apetecibles.",
   "En una vivienda próxima a la playa importan también la humedad, el viento y la exposición al Cantábrico. Orientación, aislamiento, carpinterías y estado de la fachada pueden marcar una diferencia importante entre dos pisos que sobre el mapa parecen igual de bien situados.",
 ] as const;
 
 const VIVIR_NUEVO2 = [
   "En Salinas una parte de la vida diaria puede resolverse dentro del propio núcleo y combinarse con playa y paseo a pie. Para algunos servicios municipales o compras concretas hay que desplazarse a Piedras Blancas; Avilés amplía mucho más el radio con hospital, comercio y oferta cultural.",
-  "La proximidad entre los tres lugares permite repartir las necesidades sin que cada salida fuera de Salinas se convierta en un desplazamiento largo. Eso no convierte al núcleo en autosuficiente: elegir Salinas implica aceptar que una parte de la semana se completa en Piedras Blancas o Avilés.",
+  "Piedras Blancas y Avilés están lo bastante cerca para utilizarlas durante la semana sin hacer un desplazamiento largo. Salinas, sin embargo, no resuelve todo por sí sola: algunos servicios y compras siguen llevando a uno de esos dos núcleos.",
   "El aeropuerto está aproximadamente a diez minutos. Esa cercanía acorta mucho el trayecto terrestre cuando toca viajar. Para volar a Palma hay que comprobar la programación de cada temporada, porque la cercanía al aeropuerto no garantiza esa conexión durante todo el año.",
 ] as const;
 
@@ -62,18 +62,18 @@ const MAR_RIO_CAMINO_NUEVO2 = [
 
 const CASA_NUEVO2 = [
   "Buscar vivienda en Salinas exige separar el precio del núcleo costero del conjunto de Castrillón. En agosto de 2026, Castrillón estaba en 2.241 €/m² y Piedras Blancas alrededor de 1.984 €/m², mientras Salinas alcanzaba 3.226 €/m².",
-  "La diferencia importa porque esta ficha describe precisamente la vida que ofrece Salinas: tener la playa a pie y mantener Avilés, Piedras Blancas y el aeropuerto a pocos minutos. La media municipal no representa bien el coste de comprar esa ubicación concreta.",
+  "La diferencia es relevante porque comprar en Salinas significa pagar por una ubicación donde la playa puede quedar a pie y Avilés, Piedras Blancas y el aeropuerto están a pocos minutos. La media de Castrillón no representa bien el coste de esa ubicación concreta.",
   "Dentro del propio Salinas tampoco basta con medir metros hasta el mar. Conviene comprobar desde el portal el recorrido hasta la playa, la compra cotidiana y el coche. Planta, orientación y edificios situados delante cambian además la luz y las vistas incluso dentro de una misma calle.",
   "En los edificios próximos al Cantábrico hay que revisar aislamiento, carpinterías, ventilación, humedad, salitre, fachada y reformas pendientes. Una terraza o unas vistas abiertas pueden aportar mucho, pero la exposición al mar también puede aumentar las necesidades de mantenimiento.",
 ] as const;
 
 const CASA_PRECIO_REFS = [
-  "Castrillón — referencia municipal: 2.241 €/m² · agosto de 2026",
-  "Salinas — referencia del lugar descrito: 3.226 €/m² · agosto de 2026",
+  "Castrillón: 2.241 €/m² · agosto de 2026",
+  "Salinas: 3.226 €/m² · agosto de 2026",
 ] as const;
 
 const CASA_BANDAS_NOTA =
-  "Las estimaciones utilizan la referencia de Salinas porque esta página describe ese núcleo. Para comparar con el resto del proyecto se toman aproximadamente 65 m² para dos dormitorios y 90 m² para tres. Las franjas A y B expresan cercanía a la costa; no indican calidad, vistas ni el precio exacto de una vivienda.";
+  "Las estimaciones utilizan el precio medio de Salinas y aproximadamente 65 m² para dos dormitorios y 90 m² para tres. Las franjas A y B expresan cercanía a la costa; no indican calidad, vistas ni el precio exacto de una vivienda.";
 
 const CASA_ADVERTENCIA_MICROZONA =
   "Incluso dentro de Salinas, «cerca de la playa» puede significar cosas distintas. Hay que comprobar desde el portal el recorrido hasta el paseo, la compra cotidiana y el coche. La planta, la orientación y los edificios situados delante cambian la luz y las vistas.";

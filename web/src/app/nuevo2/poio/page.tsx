@@ -18,10 +18,9 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
-  "Poio ocupa la orilla norte de la ría de Pontevedra entre la capital y O Salnés. No tiene un único núcleo que represente al municipio entero. Su forma residencial se reparte entre San Salvador y San Xoán, muy vinculados a Pontevedra; Campelo, con puerto y vida residencial; Combarro, casco histórico junto a la ría; y Raxó y Samieira, que prolongan la costa hacia Sanxenxo.",
-  "Esa variedad es su principal atractivo y también su principal riesgo de compra. Una dirección con “Poio” puede significar vivir prácticamente en continuidad con Pontevedra o residir en una ladera donde el coche interviene en casi todos los recados.",
-  "El Monte Castrove queda detrás de las parroquias y la ría delante. Entre ambos aparecen más de veinte playas, puertos pequeños, casas con vistas, urbanizaciones y núcleos históricos.",
-  "No conviene, por tanto, imaginar Poio como “Combarro”. Combarro es una de sus piezas más conocidas, pero la vida municipal es mucho más amplia.",
+  "Esta zona reúne cuatro formas muy distintas de vivir alrededor de las rías de Pontevedra y Arousa: Pontevedra aporta una ciudad pequeña y muy caminable; Poio se extiende por la orilla norte de la ría con parroquias, puertos y costa; Sanxenxo concentra playa, segunda residencia y fuerte estacionalidad; O Grove ocupa una península marinera entre la ría de Arousa y el Atlántico. Las distancias son cortas, pero la dependencia del coche, el acceso al baño y la presión del verano cambian mucho entre municipios.",
+  "Poio ocupa la orilla norte de la ría entre Pontevedra y O Salnés y no tiene un único núcleo que represente al municipio entero. San Salvador y San Xoán se relacionan mucho con Pontevedra; Campelo añade puerto; Combarro concentra casco histórico; Raxó y Samieira prolongan la costa hacia Sanxenxo.",
+  "Una dirección con “Poio” puede significar vivir casi en continuidad con Pontevedra o en una ladera donde el coche participa en casi todos los recados. La microzona decide la relación real con servicios, baño y turismo.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
@@ -45,7 +44,7 @@ const CLIMA_NUEVO2 = [
 ] as const;
 
 const VIVIR_NUEVO2 = [
-  "Poio exige elegir una relación concreta entre ría y ciudad.",
+  "En Poio hay que decidir cuánto se quiere depender de Pontevedra y cuánto se quiere acercar la vida diaria a la ría.",
   "En San Salvador o Lourido, Pontevedra puede formar parte de la rutina diaria. Se puede vivir en un entorno más residencial y seguir utilizando la capital para hospital, compras o cultura con muy poco desplazamiento.",
   "En Combarro, la vida gira mucho más alrededor del casco histórico, el puerto y la presión turística. Tener hórreos y ría delante no es una ventaja neutra: significa también compartir las calles con mucha gente en temporada.",
   "Raxó ofrece otra combinación. La playa puede quedar cerca y el mar entrar con facilidad en una tarde normal, pero la ladera y la distancia a servicios aumentan la dependencia del coche.",
@@ -70,7 +69,7 @@ const MAR_RIO_CAMINO_NUEVO2 = [
   "Raxó sí incorpora pequeñas playas al núcleo. Vivir allí puede permitir bajar andando al agua según la dirección concreta, algo que no se puede generalizar a todo Poio.",
   "La costa permite enlazar paseos y recorridos entre parroquias, pero los tramos no forman una única pasarela litoral continua. Para una caminata larga hay que combinar paseos, caminos locales y algunos tramos urbanos, por lo que conviene conocer de antemano el recorrido.",
   "El Monte Castrove ofrece el contraste. Desde las zonas altas se obtienen vistas amplias sobre la ría y aparecen pistas forestales y caminos con más desnivel. Es una salida deliberada, no el equivalente al paseo llano junto al agua.",
-  "La Illa de Tambo introduce otra escala. Está dentro de la ría y las visitas se realizan de forma organizada desde el puerto de Combarro, con control de acceso. Es una salida de patrimonio y naturaleza, no un recurso cotidiano desde cualquier vivienda.",
+  "La Illa de Tambo requiere una visita organizada. Está dentro de la ría y las salidas se realizan desde el puerto de Combarro con control de acceso. Es una excursión de patrimonio y naturaleza, no un lugar al que se llegue de forma espontánea desde cualquier vivienda.",
   "Poio permite así combinar playa de ría, puerto, casco histórico y monte. La clave es que cada una de esas experiencias pertenece a una microzona distinta.",
 ] as const;
 
@@ -99,7 +98,7 @@ const CASA_QUE_CONVIENE_REVISAR = [
 
 const CASA_MERCADO_REVENTA = [
   "Poio combina demanda residencial ligada a Pontevedra con demanda costera y turística.",
-  "Las viviendas próximas a la capital tienen un mercado fácil de explicar: permiten vivir fuera del centro manteniendo hospital, trabajo y servicios cerca.",
+  "Las viviendas próximas a Pontevedra pueden atraer a quienes quieren vivir fuera del centro manteniendo hospital, trabajo y servicios a pocos minutos.",
   "Combarro tiene un atractivo muy reconocible, pero una vivienda difícil de aparcar o demasiado expuesta a ruido puede reducir el número de compradores interesados en residir todo el año.",
   "Raxó y Samieira dependen más de vistas, acceso, orientación y cercanía real al agua.",
   "En una futura venta ayudan especialmente un acceso sencillo, buen estado, aparcamiento y una microzona cuya rutina sea clara.",

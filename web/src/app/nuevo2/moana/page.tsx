@@ -18,9 +18,9 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
  */
 
 const RESUMEN_ZONA_NUEVO2 = [
-  "Moaña ocupa una franja estrecha entre la ría de Vigo y las laderas de O Morrazo. Esa geografía explica casi toda su vida cotidiana: abajo están paseo, playas, puerto, comercio y ferry; al subir aparecen casas, caminos y una dependencia creciente del coche.",
-  "Meira, Moaña, Tirán y Domaio no son variaciones menores. La franja central permite una vida bastante autónoma. Domaio queda junto al estrecho de Rande y tiene una relación propia con Vigo y el monte. Las zonas altas de Meira y otras parroquias pueden ganar vistas y terreno mientras pierden caminabilidad.",
-  "Frente a Cangas, Moaña ofrece menos contraste entre villa y gran costa atlántica y una relación más continua con la ría de Vigo. Frente a Marín, su conexión marítima con Vigo pesa mucho más.",
+  "O Morrazo es una península entre las rías de Vigo y Pontevedra, pero no ofrece una única forma de vivir junto al mar. Cangas y Moaña miran principalmente a Vigo y mantienen conexiones marítimas con la ciudad; Bueu se abre hacia la ría de Pontevedra y Ons; Marín combina ciudad portuaria, proximidad a Pontevedra y una costa de playas al oeste. Vigo y Pontevedra funcionan como apoyos urbanos distintos según el municipio.",
+  "Moaña ocupa una franja estrecha entre la ría de Vigo y las laderas de O Morrazo. Abajo se concentran paseo, playas, puerto, comercio y ferry; al subir aparecen casas, caminos y una dependencia creciente del coche.",
+  "Meira, Moaña, Tirán y Domaio no ofrecen la misma rutina. La franja central favorece la vida a pie; Domaio se relaciona más con Rande y el extremo oriental; las zonas altas ganan vistas y terreno a cambio de caminabilidad.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
@@ -64,7 +64,7 @@ const MAR_RIO_CAMINO_NUEVO2 = [
   "O Con queda hacia Tirán, al final de otro tramo del paseo. Es una playa urbana más pequeña, de unos 150 metros, y vuelve a permitir combinar baño y paseo.",
   "El paseo marítimo es uno de los recorridos cotidianos más útiles de la franja central. Enlaza Meira con el entorno de O Con y acompaña bateas, barcos, zonas portuarias y actividad marisquera. Puede utilizarse para caminar a diario sin convertir la salida en una excursión.",
   "Tirán añade pequeñas calas y una costa donde vivienda e iglesia se acercan mucho al agua.",
-  "Domaio pertenece a otra escala. Desde allí se asciende hacia la zona alta del Faro de Domaio. El recorrido introduce pendiente, monte y vistas sobre Rande y ambas rías; exige una salida deliberada y no debe confundirse con el paseo llano del frente marítimo.",
+  "Desde Domaio se puede subir hacia la zona alta del Faro de Domaio, pero ya es una salida de monte. El recorrido introduce pendiente y vistas sobre Rande y ambas rías; exige dedicar más tiempo y no debe confundirse con el paseo llano del frente marítimo.",
   "Moaña ofrece así una separación muy clara: paseo y baño de ría para repetir a diario en la franja litoral; monte y miradores cuando se quiere una actividad de varias horas.",
 ] as const;
 
@@ -80,7 +80,7 @@ const CASA_NUEVO2 = [
 
 const CASA_ADVERTENCIA_MICROZONA = [
   "La franja litoral central no representa todo Moaña.",
-  "Allí se concentra la mejor autonomía. Meira alta y otras laderas pueden ganar terreno y vistas a cambio de coche. Domaio tiene una lógica propia ligada a Rande y al extremo oriental del municipio.",
+  "En la franja litoral se concentran mercado, servicios, paseo y ferry, por lo que es donde resulta más fácil reducir el coche. Meira alta y otras laderas pueden ganar terreno y vistas a cambio de más desplazamientos. Domaio funciona de forma distinta por su posición junto a Rande y en el extremo oriental del municipio.",
 ] as const;
 
 const CASA_QUE_CONVIENE_REVISAR = [
@@ -93,7 +93,7 @@ const CASA_QUE_CONVIENE_REVISAR = [
 ] as const;
 
 const CASA_MERCADO_REVENTA = [
-  "Moaña tiene una base residencial propia y el ferry añade una ventaja comprensible para personas vinculadas a Vigo.",
+  "Moaña mantiene población y servicios durante todo el año, y el ferry puede resultar especialmente útil para quienes trabajan o utilizan Vigo con frecuencia.",
   "En la franja central, ascensor, servicios a pie y proximidad al embarque ayudan a ampliar el público futuro.",
   "En las casas en altura pesan especialmente las vistas, la orientación, la parcela y la facilidad de acceso.",
   "Una propiedad que exige mucho coche sin ofrecer a cambio espacio, tranquilidad o buenas condiciones de vivienda puede resultar menos atractiva para una futura venta.",

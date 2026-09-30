@@ -313,19 +313,20 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
   },
   "soto-del-barco": {
     encajaSi: [
-      "Puede encajar si se busca una escala pequeña sin quedar muy lejos de hospital y aeropuerto, y se acepta que para las necesidades de mayor entidad habrá que salir del municipio.",
+      "Puede encajar si se busca vivir en un concejo pequeño sin quedar muy lejos de hospital y aeropuerto, y se acepta salir del municipio para compras grandes, atención hospitalaria y otros servicios que no existen allí.",
       "San Juan añade una combinación particular: un pueblo pequeño donde compra básica, médico, farmacia, puerto, desembocadura y playa pueden formar parte de una misma vida diaria.",
       "Soto ofrece la otra posibilidad: vivir algo más retirado de la costa abierta, junto al Nalón y en el núcleo administrativo, manteniendo servicios básicos propios.",
     ],
     encajaNo: [
       "Puede encajar peor si se quiere una oferta amplia de comercio, actividades y sanidad dentro del propio pueblo o reducir mucho el uso del coche cuando la necesidad sale de lo básico.",
       "También hay que aceptar el cambio respecto a Mallorca: menos sol, mucha más humedad y lluvia y un verano bastante más fresco. En San Juan, tener Los Quebrantos junto al pueblo tampoco convierte el Cantábrico en una playa de baño previsible.",
-      "La vivienda añade otro límite: poca obra nueva, fibra que conviene comprobar dirección por dirección y un mercado de escala pequeña en el que la vivienda concreta pesa más que una media general.",
+      "También puede encajar peor si se busca mucha obra nueva o se necesita dar por segura la fibra sin comprobar la dirección concreta. En un mercado pequeño, el estado, el acceso y la ubicación de cada vivienda pesan más que una media municipal.",
     ],
     queComprobar: [
       "Probar por separado Soto y San Juan. En Soto, salir desde una vivienda posible y hacer la vida corriente: compra, farmacia, médico, paseo y coche. En San Juan, hacer lo mismo y continuar hacia el puerto, la desembocadura y Los Quebrantos. Después conviene hacer el trayecto al Hospital San Agustín y al aeropuerto.",
     ],
   },
+
   "salinas-castrillon": {
     encajaSi: [
       "Puede encajar si se quiere tener una playa extensa y un paseo marítimo a pie desde casa sin renunciar a la cercanía de una ciudad.",
@@ -545,6 +546,243 @@ export const NUEVO2_PARA_DECIDIRTE: Readonly<
       "Y comprobar fibra, saneamiento y abastecimiento antes de dar por buena una casa por su precio o sus vistas.",
     ],
   },
+  "meano": {
+    encajaSi: [
+      "Se busca casa, terreno o viñedo y se acepta que el coche forme parte normal de la semana.",
+      "Resulta suficiente tener A Lanzada y Cambados a pocos minutos en lugar de vivir con el mar delante.",
+      "Se valora un entorno rural anual, poco dependiente del turismo, y se prefiere espacio exterior a una plaza compacta llena de servicios.",
+    ],
+    encajaNo: [
+      "Se quiere resolver gran parte de la semana andando desde casa.",
+      "La playa marítima debe quedar a pie o formar parte espontánea de cada tarde.",
+      "Una vivienda con humedad, parcela exigente, mala orientación o internet incierto sería una carga difícil de asumir.",
+    ],
+    queComprobar: [
+      "Hacer los recados básicos desde la vivienda candidata y contar trayectos reales en coche.",
+      "Visitar después de varios días húmedos y revisar luz, cubierta, ventilación, drenaje y accesos.",
+      "Probar la carretera hacia A Lanzada en temporada alta.",
+      "Medir el trayecto al Hospital do Salnés y a los servicios que se utilizarían cada semana.",
+      "Confirmar fibra en la dirección exacta.",
+    ],
+  },
+
+  "cambados": {
+    encajaSi: [
+      "Se busca una villa histórica donde mercado, comercio, salud, restauración y paseo puedan formar parte de la semana a pie.",
+      "El mar puede vivirse como ría, marea y marisqueo sin exigir una gran playa urbana delante de casa.",
+      "El vino, el patrimonio y la actividad de todo el año pesan más que una experiencia de resort.",
+    ],
+    encajaNo: [
+      "La playa de arena a pie es una condición esencial.",
+      "El silencio durante la primera semana de agosto es imprescindible en una vivienda céntrica.",
+      "Se busca mucha obra nueva o una casa amplia con terreno sin utilizar coche.",
+    ],
+    queComprobar: [
+      "Pasar un día completo a pie desde la vivienda candidata.",
+      "Volver durante la Festa do Albariño si la vivienda está cerca de Fefiñáns, A Calzada o recorridos de gran actividad.",
+      "Revisar humedad, cubierta y ventilación después de lluvia en casas antiguas.",
+      "Comprobar aparcamiento y ascensor en pisos céntricos.",
+      "Hacer el trayecto real al Hospital do Salnés y a la playa que se usaría con frecuencia.",
+    ],
+  },
+
+  "a-illa-de-arousa": {
+    encajaSi: [
+      "El mar debe formar parte de la vida diaria y se quiere poder caminar al puerto, a una playa o a un sendero.",
+      "Se acepta una vida muy tranquila en invierno y que hospital, compras grandes y otros servicios se resuelvan en el continente.",
+      "Calas, ría y pinar pesan más que disponer de una ciudad completa dentro del municipio.",
+    ],
+    encajaNo: [
+      "Hospital, gran comercio o tren deben quedar dentro del propio municipio.",
+      "Depender de un único puente para todas las salidas por carretera genera demasiada incomodidad.",
+      "El presupuesto es ajustado o viento, salitre y presión estival serían inconvenientes difíciles de asumir.",
+    ],
+    queComprobar: [
+      "Hacer una jornada completa sin coche dentro de la isla.",
+      "Cruzar el puente en una tarde fuerte de verano y en un día laboral ordinario.",
+      "Visitar la vivienda con viento y después de lluvia.",
+      "Comprobar aparcamiento en temporada alta.",
+      "Recorrer desde la vivienda el trayecto real a O Xufre, playa habitual y puente.",
+      "Hacer el trayecto al Hospital do Salnés.",
+    ],
+  },
+
+  "vilanova-de-arousa": {
+    encajaSi: [
+      "Se quiere una villa pequeña con ría, paseo y servicios básicos sin vivir en una ciudad.",
+      "Se valora tener Vilagarcía cerca para hospital, tren y compras grandes.",
+      "Una playa de ría y vida anual tranquila pesan más que el carácter monumental de Cambados o la condición insular de A Illa.",
+    ],
+    encajaNo: [
+      "Hospital, estación o gran oferta comercial deben estar dentro del propio núcleo.",
+      "Las celebraciones de agosto y septiembre deben pasar completamente desapercibidas.",
+      "Se compra en una parroquia esperando mantener la misma vida a pie que en la villa.",
+    ],
+    queComprobar: [
+      "Hacer una mañana completa sin coche en el núcleo.",
+      "Recorrer a pie desde la vivienda hasta Ariño u O Terrón.",
+      "Volver durante una noche festiva si se compra en el centro.",
+      "Comprobar tráfico y ruido en As Sinas.",
+      "Hacer el trayecto real a Vilagarcía y al Hospital do Salnés.",
+      "Revisar humedad, salitre o drenaje según la microzona.",
+    ],
+  },
+
+  "vilagarcia-de-arousa": {
+    encajaSi: [
+      "Hospital, tren y vida sin coche pesan más que vivir en una villa pequeña o en una isla.",
+      "Se quiere mantener playa de ría y paseo dentro de la rutina sin renunciar a comercio, institutos, mercado y servicios urbanos.",
+      "Se necesita una ciudad activa todo el año y se acepta una trama urbana menos uniforme que la de Cambados.",
+    ],
+    encajaNo: [
+      "Se busca un casco histórico muy compacto y silencioso.",
+      "El puerto, el tráfico urbano o la actividad de agosto son inconvenientes difíciles de aceptar.",
+      "El objetivo principal es una gran playa atlántica o una vida insular rodeada de calas.",
+    ],
+    queComprobar: [
+      "Hacer a pie desde la vivienda mercado, estación, salud y paseo.",
+      "Escuchar la calle con ventanas abiertas en un día laborable.",
+      "Volver durante San Roque si se compra en el centro.",
+      "Recorrer Compostela y Carril para comprobar qué relación con la ría entraría realmente en la semana.",
+      "Medir trayectos reales desde Carril, Vilaxoán o parroquias altas hasta hospital y estación.",
+      "Revisar aislamiento acústico y estado comunitario en pisos.",
+    ],
+  },
+
+  "rianxo": {
+    encajaSi: [
+      "Se busca una villa pequeña de ría donde centro, puerto y playa puedan formar parte de la misma jornada a pie.",
+      "Cultura local, vida anual y proximidad razonable a Santiago pesan más que disponer de una ciudad completa.",
+      "Se acepta conducir aproximadamente media hora para hospital comarcal.",
+    ],
+    encajaNo: [
+      "Hospital y especialistas deben quedar a pocos minutos.",
+      "Se busca una gran playa atlántica con oleaje en la puerta.",
+      "Una casa en parroquia se compra esperando conservar la misma autonomía peatonal del casco.",
+    ],
+    queComprobar: [
+      "Hacer una mañana de recados a pie desde la vivienda.",
+      "Caminar hasta Tanxil o A Torre y comprobar la marea.",
+      "Probar el trayecto al Hospital do Barbanza y a Santiago.",
+      "Visitar después de lluvia y revisar humedad, luz y ventilación.",
+      "Comprobar aparcamiento y ruido durante las principales fiestas si se compra en el centro.",
+    ],
+  },
+  "boiro": {
+    encajaSi: [
+      "Se busca una villa de tamaño medio donde compra, salud, colegio y playa puedan encajar en la misma semana.",
+      "Barraña como paseo y playa cotidiana pesa más que vivir frente al Atlántico abierto.",
+      "Se acepta desplazarse unos veinte minutos para hospital.",
+    ],
+    encajaNo: [
+      "Se necesita tren o gran ciudad dentro del municipio.",
+      "El océano con oleaje es una prioridad diaria.",
+      "Se compra una casa en parroquia esperando mantener vida peatonal.",
+    ],
+    queComprobar: [
+      "Hacer la ruta real vivienda–mercado–centro de salud–Barraña.",
+      "Visitar la costa en un domingo fuerte de agosto.",
+      "Revisar humedad, cubierta, ventilación y salitre según microzona.",
+      "Medir el trayecto al Hospital do Barbanza.",
+      "Confirmar fibra en la dirección concreta si es necesaria para trabajar.",
+    ],
+  },
+  "a-pobra-do-caraminal": {
+    encajaSi: [
+      "Se busca villa pequeña con hospital comarcal muy próximo.",
+      "Se quiere alternar ría, playa y monte sin grandes desplazamientos.",
+      "Cultura local y vida anual importan más que disponer del comercio de una ciudad.",
+    ],
+    encajaNo: [
+      "Se necesita gran oferta comercial dentro del propio núcleo.",
+      "Una casa en ladera no puede depender del coche.",
+      "Viento, humedad o mantenimiento de una finca inclinada serían problemas importantes.",
+    ],
+    queComprobar: [
+      "Hacer la semana a pie desde una vivienda del casco.",
+      "Probar Cabío en agosto y medir aparcamiento.",
+      "Recorrer el trayecto al Hospital do Barbanza.",
+      "Visitar casas de ladera después de lluvia y comprobar drenaje y sol.",
+      "Escuchar el centro durante las principales fiestas antes de comprar.",
+    ],
+  },
+  "ribeira": {
+    encajaSi: [
+      "Hospital, comercio y servicios completos son prioritarios.",
+      "Se quiere playa urbana sin renunciar a una ciudad pequeña activa todo el año.",
+      "Tener Corrubedo, Aguiño y Sálvora dentro del mismo municipio añade valor.",
+    ],
+    encajaNo: [
+      "Se busca un casco histórico homogéneo y silencioso.",
+      "La actividad portuaria o el tráfico son incompatibles con la vivienda deseada.",
+      "No se quiere conducir para llegar a la parte más espectacular de la costa atlántica.",
+    ],
+    queComprobar: [
+      "Hacer la semana a pie desde el piso candidato.",
+      "Escuchar la calle en día laborable cerca del puerto.",
+      "Probar Coroso en temporada alta.",
+      "Visitar Corrubedo con viento si se compra en la fachada atlántica.",
+      "Revisar salitre, aislamiento acústico y estado de comunidad.",
+    ],
+  },
+  "porto-do-son": {
+    encajaSi: [
+      "El Atlántico, las playas y el paisaje pesan más que vivir en una villa muy completa.",
+      "Se acepta utilizar coche con frecuencia y comprobar servicios desde la dirección concreta.",
+      "Se valora tener Baroña, Enxa, humedales y una costa extensa dentro del mismo municipio.",
+    ],
+    encajaNo: [
+      "La semana debe resolverse andando.",
+      "Fibra garantizada y comercio amplio son imprescindibles.",
+      "Viento, oleaje y mantenimiento costero serían un problema constante.",
+    ],
+    queComprobar: [
+      "Hacer todos los recados desde la vivienda candidata.",
+      "Visitar con viento y después de lluvia.",
+      "Probar la playa habitual con distintos estados de marea y mar.",
+      "Confirmar fibra en la dirección exacta.",
+      "Medir el trayecto real al Hospital do Barbanza.",
+      "Revisar tráfico y aparcamiento en agosto.",
+    ],
+  },
+  "noia": {
+    encajaSi: [
+      "Se busca una villa histórica con comercio, mercado y vida diaria a pie.",
+      "Santiago a unos cuarenta minutos resulta una ventaja suficiente para completar hospital, aeropuerto y servicios.",
+      "La playa puede ser una salida corta en vez de estar integrada en el casco.",
+    ],
+    encajaNo: [
+      "Hospital de mayor capacidad debe quedar a menos de media hora.",
+      "Se quiere bajar andando a una playa de baño desde la mayoría de las calles del centro.",
+      "Humedad y rehabilitación de vivienda antigua son problemas que no se quieren asumir.",
+    ],
+    queComprobar: [
+      "Hacer una mañana completa a pie desde la vivienda.",
+      "Probar Testal con pleamar y bajamar.",
+      "Medir el trayecto hospitalario a Santiago.",
+      "Visitar una casa histórica después de varios días de lluvia.",
+      "Comprobar aparcamiento en agosto si se compra en el casco.",
+    ],
+  },
+  "oleiros": {
+    encajaSi: [
+      "Puede encajar si se busca urbanización ordenada o casa baja con playa a minutos y A Coruña a unos diez minutos como ciudad de referencia, aceptando que la vida real depende de la microzona —Santa Cruz, Mera, Perillo, Santa Cristina, Bastiagueiro— y no de un Oleiros único.",
+      "También si se quiere resolver lo básico (súper, centro de salud, colegio) en el municipio y usar la capital para hospital, compras grandes y cultura, sin vivir en densidad de casco antiguo ni en ciudad naval.",
+      "Y si el baño de diario puede ser ría o costa suave (Santa Cristina, Mera, Bastiagueiro) y Dexo-Serantes queda como salida de acantilado cuando apetece otro paisaje.",
+    ],
+    encajaNo: [
+      "Puede encajar peor si el presupuesto para tres habitaciones o para un chalé debe quedar en franja media del golfo: el metro de referencia ronda 2.605 €/m² y esas tipologías entran con facilidad en franja cara. Ferrol, Bergondo o Sada suelen bajar el precio; Sada, además, ofrece villa con puerto.",
+      "También si se busca casco gótico, aldea marinera densa tipo Redes o ciudad con hospital a pie: aquí mandan el chalé, el paseo y la corona residencial.",
+      "Y si el cielo debe parecerse al de Mallorca. La referencia de A Coruña da mucho menos sol y muchos más días cubiertos, con llovizna también en verano. Decidir solo tras un sábado soleado en Santa Cristina, sin probar noviembre ni el aparcamiento de agosto, suele llevar a sorpresa.",
+    ],
+    queComprobar: [
+      "Elegir dos o tres microzonas candidatas y tratarlas como sitios distintos. Desde cada vivienda real: compra sencilla, trayecto a la playa o paseo que se usaría, y salida hacia A Coruña y al CHUAC en hora punta.",
+      "Pasar una tarde de verano en la orilla elegida (aparcamiento, ruido, ocupación) y visitar la misma casa un día cubierto de noviembre (luz, humedad, jardín).",
+      "Caminar un tramo de Dexo-Serantes o subir al faro de Mera si el atractivo incluye costa abierta, no solo ría.",
+      "Comprobar fibra, orientación y estado de la vivienda en la dirección exacta; en orilla, salitre y cerramientos.",
+    ],
+  },
+
 };
 
 export function paraDecidirteNuevo2(

@@ -20,7 +20,7 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
 const RESUMEN_ZONA_NUEVO2 = [
   "Baixo Miño reúne formas muy distintas de vivir en el extremo suroeste de Galicia: A Guarda concentra puerto, comercio y servicios junto a la desembocadura del Miño; Oia ocupa una franja estrecha entre el Atlántico y la sierra de A Groba; O Rosal combina valle, viñedo y ribera; Tomiño se extiende por la vega del Miño; y Tui aporta una pequeña ciudad histórica y fronteriza. Portugal queda al otro lado del río y Vigo funciona como apoyo urbano mayor.",
   "A Guarda ocupa la punta donde el Miño llega al Atlántico. Dentro de Baixo Miño es el lugar donde puerto, comercio, playas, paseo y servicios cotidianos quedan más concentrados alrededor de un núcleo reconocible.",
-  "El Monte Santa Trega cierra el paisaje por detrás y Camposancos prolonga el municipio hacia el estuario. Vivir en el centro, en Camposancos o en las laderas del monte cambia la relación con el coche, las vistas, el baño y los servicios.",
+  "El Monte Santa Trega cierra el paisaje por detrás y Camposancos prolonga el municipio hacia el estuario. Vivir en el centro, en Camposancos o en las laderas del monte cambia cómo se usa el coche, qué vistas se tienen, cómo se llega al baño y qué servicios quedan cerca.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
@@ -51,22 +51,22 @@ const VIVIR_NUEVO2 = [
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
-  "Antes de la villa portuaria, el Monte Santa Trega ya dominaba la desembocadura. Su castro conserva el rastro de un gran asentamiento de la Edad del Hierro situado en una posición excepcional sobre el Miño y el Atlántico.",
-  "Desde arriba se entiende por qué este lugar fue estratégico durante siglos: el río, la costa gallega y Portugal quedan reunidos en una sola vista.",
-  "La condición fronteriza volvió a dejar huella en la Edad Moderna. El Castelo de Santa Cruz pertenece al sistema defensivo levantado en el siglo XVII durante los conflictos con Portugal y todavía marca una parte del tejido urbano.",
-  "La pesca terminó dando a la villa buena parte de su forma moderna. El puerto, la actividad marinera y las construcciones vinculadas a familias que emigraron y regresaron conviven en un casco donde la historia no queda aislada en un monumento.",
-  "El Santa Trega, el puerto y Camposancos resumen tres capas distintas del municipio: asentamiento antiguo y control de la desembocadura; oficio marítimo; y vida en el estuario frente a Portugal.",
+  "Antes de la villa portuaria, el Monte Santa Trega ya dominaba la desembocadura. Su castro —gran asentamiento de la Edad del Hierro— conserva el rastro de quien eligió esa cumbre para controlar a la vez el Miño y el Atlántico. Desde arriba se entiende la punta: río, costa gallega y Portugal quedan reunidos en una sola vista. Quien llega solo por Area Grande descubre que la identidad antigua de A Guarda no nace en el paseo moderno, sino en ese monte que cierra el municipio por detrás.",
+  "Esa posición estratégica no se quedó en la prehistoria. En la Edad Moderna la frontera volvió a marcar el tejido: el Castelo de Santa Cruz pertenece al sistema defensivo del siglo XVII, levantado en los conflictos con Portugal, y todavía organiza una parte del casco. No es un decorado al margen: es piedra que recuerda que vivir en la desembocadura fue, durante siglos, vivir en un límite vigilado. Camposancos prolonga esa lógica hacia el estuario, con otra orilla y Portugal enfrente.",
+  "La pesca terminó dando a la villa buena parte de su forma moderna. Puerto, lonja, dársena y el oficio de las familias marineras —incluidas las que emigraron y regresaron con capital— convirtieron el frente en trabajo cotidiano, no solo en postal. El casco concentra comercio y servicios alrededor de ese eje: la historia no queda aislada en un monumento, se camina entre el muelle y la plaza. Quien conozca A Guarda solo por el Santa Trega debe sumar esa capa de villa de puerto.",
+  "El calendario de verano —Festa da Langosta, Virxe do Carme, Festa do Monte— añade ruido, tráfico y afluencia en días concretos, sobre todo en accesos al monte y al frente. Fuera de esas fechas permanece una base de vecinos que sostiene la villa cuando se acaba agosto. El ferry A Guarda–Caminha está fuera de servicio desde octubre de 2021: Portugal se ve de cerca y se alcanza por carretera vía Goián–Vila Nova de Cerveira, un rodeo que pesa en la idea de «frontera a la vista».",
+  "Hoy, el Santa Trega, el puerto y Camposancos resumen tres capas distintas: asentamiento antiguo y control de la desembocadura; oficio marítimo de villa; y vida de estuario frente a Portugal. Comprar «en A Guarda» sigue siendo elegir cuál de esas tres se quiere cerca de la puerta. El anuncio municipal no distingue cuál.",
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
-  "En A Guarda se puede elegir entre baño atlántico, agua de estuario y paseo junto al puerto sin salir del municipio.",
-  "Area Grande es playa marítima abierta al Atlántico. Es una opción de baño próxima a la villa, con arena y servicios estivales, pero conserva el carácter de costa oceánica: agua fresca, exposición al mar y condiciones que pueden cambiar con viento y oleaje.",
-  "O Muíño, en Camposancos, ocupa la desembocadura del Miño. Allí el paisaje es de estuario: Portugal enfrente y una relación con el agua diferente de la costa abierta.",
-  "Las dos son playas reales de baño y no deben confundirse entre sí. Para decidir vivienda importa saber si se busca el Atlántico inmediato o una orilla más ligada al río.",
-  "El Sendero Azul une O Muíño y Area Grande a lo largo de casi toda la costa de A Guarda, atravesando el puerto. El recorrido oficial se presenta como una ruta lineal de unos 5,6 km y permite pasar del estuario al océano abierto sin necesidad de convertirlo en una ruta de monte.",
-  "Para un paseo cotidiano más corto, el frente portuario y marítimo permite caminar sin completar todo ese recorrido. El terreno es mucho más amable junto al agua que en la subida hacia el Santa Trega.",
-  "Subir al Monte Santa Trega es otra experiencia. Desde la villa se gana desnivel; arriba esperan castro, museo, ermita y miradores. Es una salida de monte y patrimonio, no el paseo llano de todos los días.",
-  "El puerto puede formar parte de la rutina diaria; Area Grande ofrece baño atlántico; Camposancos abre la desembocadura del Miño; y el Monte Santa Trega queda inmediatamente detrás de la villa.",
+  "En A Guarda se puede elegir entre baño atlántico, agua de estuario y paseo junto al puerto sin salir del municipio, pero no se viven igual desde el casco que desde Camposancos o desde una ladera hacia el Santa Trega. El puerto es la orilla de trabajo y de paseo corto: dársena, barcos, lonja y un frente que entra en la semana andando si la vivienda queda bien situada. Un martes de junio suele haber holgura; un domingo de agosto el aparcamiento y los accesos a playa se notan.",
+  "Area Grande es playa marítima abierta al Atlántico, próxima a la villa, con arena y servicios estivales, pero conserva el carácter de costa oceánica: agua fresca —en verano suele rondar los 18–20 °C—, exposición al oleaje y días en los que el viento decide si apetece quedarse. No es una cala recogida de ría: es océano. Quien vive en el casco puede bajar con un trayecto corto; quien vive elevado convierte esa bajada en plan deliberado.",
+  "O Muíño, en Camposancos, ocupa la desembocadura del Miño. Allí el paisaje es de estuario: Portugal enfrente, agua más ligada al río y una escena distinta de la costa abierta. Es baño real, pero no el mismo baño que Area Grande. Para decidir vivienda importa saber si se busca Atlántico inmediato o una orilla más fluvial y fronteriza.",
+  "Las dos playas no deben confundirse entre sí ni con el paseo del puerto. El Sendero Azul une O Muíño y Area Grande a lo largo de casi toda la costa de A Guarda —ruta lineal de unos 5,6 km que atraviesa el puerto— y permite pasar del estuario al océano sin convertirlo en ruta de monte. Completarlo entero es una salida; usarlo a tramos es otra forma de vivir la orilla.",
+  "Para un paseo cotidiano más corto, el frente portuario y marítimo permite caminar sin completar todo ese recorrido. El terreno es mucho más amable junto al agua que en la subida hacia el Santa Trega: aquí se nota el viento de desembocadura, no el desnivel de castro. Quien elige casa elevada gana vistas y pierde esa llaneza diaria.",
+  "Subir al Monte Santa Trega es otra experiencia. Desde la villa se gana desnivel real; arriba esperan castro, museo, ermita y miradores sobre Miño y Atlántico. Es salida de monte y patrimonio, no el paseo llano de todos los días. En días de Festa do Monte el acceso cambia de ritmo: más gente, más coche, menos espontaneidad.",
+  "Cuando el día pide ampliar el mapa, Oia aporta costa de acantilado; O Rosal, valle y viña; Caminha se ve pero pide rodeo por tierra; Vigo y el Álvaro Cunqueiro cubren la sanidad de mayor complejidad a unos cuarenta y cinco minutos. Aquí el día a día pide elegir casco, Camposancos o ladera; el hospital, salir.",
+  "El puerto puede formar parte de la rutina casi todos los días; Area Grande ofrece baño atlántico; Camposancos abre la desembocadura; el Santa Trega queda detrás como horizonte de subida. Esa diferencia describe mejor A Guarda que contar playas. Vivir aquí es elegir cuál de esas orillas se quiere cerca —y aceptar el viento cuando el Atlántico lo trae.",
 ] as const;
 
 const CASA_NUEVO2 = [
@@ -92,7 +92,7 @@ const CASA_QUE_CONVIENE_REVISAR = [
 const CASA_MERCADO_REVENTA = [
   "A Guarda tiene una base residencial anual y una identidad reconocible como villa marítima. Para reventa ayudan especialmente una ubicación fácil de explicar, proximidad a servicios, ascensor cuando el edificio lo necesita, aparcamiento y un exterior realmente utilizable.",
   "Las vistas aportan atractivo, pero no compensan por sí solas una exposición incómoda al viento, una terraza poco aprovechable o problemas de humedad y salitre.",
-  "En vivienda unifamiliar, acceso, mantenimiento y distancia al núcleo pesan junto con parcela y paisaje. Una casa muy dependiente del coche compite con un mercado distinto al de un piso desde el que se resuelve la semana andando.",
+  "En vivienda unifamiliar, acceso, mantenimiento y distancia al núcleo pesan junto con parcela y paisaje. Una casa muy dependiente del coche compite con un mercado distinto al de un piso desde el que compra y gestiones caben andando.",
 ] as const;
 
 const CASA_LEYENDA_COMPACTA =

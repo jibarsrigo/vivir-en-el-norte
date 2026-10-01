@@ -25,7 +25,7 @@ const RESUMEN_ZONA_NUEVO2 = [
 
 const COMO_SE_VIVE_NUEVO2 = [
   "Bueu mantiene una vida de villa durante todo el año. Hay mercado, centro de salud, supermercados, colegios, instituto, biblioteca, puerto y restauración. La lonja y las embarcaciones recuerdan que el mar no aparece solo como paisaje.",
-  "Desde una vivienda céntrica se puede resolver a pie buena parte de la semana. Compra, farmacia, mercado, café y paseo quedan dentro de un radio pequeño.",
+  "Desde una vivienda céntrica se puede hacer a pie compra y buena parte de las gestiones. Compra, farmacia, mercado, café y paseo quedan dentro de un radio pequeño.",
   "El comercio local cubre la vida básica, pero para hospital, compras grandes o determinados servicios especializados hay que desplazarse hacia Pontevedra. Montecelo queda como referencia hospitalaria práctica, con un trayecto orientativo de unos 30 minutos desde la villa.",
   "Beluso ofrece una rutina más residencial, con puerto, playa y casas en ladera. La distancia a la villa es corta, pero el coche entra con más facilidad.",
   "Cela y San Martiño permiten ganar terreno y tranquilidad. Allí conviene medir la frecuencia real de desplazamientos hacia la villa, no limitarse a calcular kilómetros.",
@@ -51,21 +51,17 @@ const VIVIR_NUEVO2 = [
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
-  "La relación de Bueu con la explotación de los recursos del mar es muy anterior a la industria conservera moderna. El yacimiento romano de Pescadoira conserva restos de una factoría de salazón y de un taller de ánforas.",
-  "La transformación decisiva llegó con la industria de salazón y conserva. La familia Massó desarrolló desde el siglo XIX un complejo industrial que terminó marcando profundamente la villa.",
-  "A partir de 1928, la antigua fábrica Massó empezó a acoger la biblioteca y las colecciones sobre historia de la navegación reunidas por la familia. El museo fue creciendo dentro del propio complejo conservero y hoy ocupa edificios supervivientes de aquel conjunto industrial, con colecciones sobre navegación, salazón, conserva, pesca y actividad ballenera.",
-  "La huella actual está alrededor del puerto: Bueu se entiende mejor como lugar de trabajo marítimo que como simple acceso a playas.",
-  "La isla de Ons pertenece administrativamente a Bueu y amplía el municipio más allá de la península. Conserva faro, aldea, caminos y memoria de una comunidad insular.",
-  "La conexión estacional desde el puerto vuelve esa geografía visible cada verano y refuerza una identidad municipal que se extiende más allá de la península.",
+  "La relación de Bueu con el mar es muy anterior a la industria conservera moderna. El yacimiento romano de Pescadoira conserva restos de una factoría de salazón y de un taller de ánforas: ya entonces la orilla producía y exportaba. Lo que hoy parece villa de puerto y paseo fue antes un lugar de trabajo del mar. El puerto sigue oliendo a flota y a lonja cuando el veraneo de Ons todavía no ha llenado el muelle. Quien llega solo por Ons descubre que la identidad cotidiana se sostiene en esa costa trabajada de la península.",
+  "La transformación decisiva llegó con la industria de salazón y conserva. La familia Massó desarrolló desde el siglo XIX un complejo industrial que marcó profundamente la villa. A partir de 1928, la antigua fábrica empezó a acoger la biblioteca y las colecciones sobre historia de la navegación reunidas por la familia. El museo creció dentro del propio complejo conservero y hoy ocupa edificios supervivientes de aquel conjunto, con piezas sobre navegación, salazón, conserva, pesca y actividad ballenera.",
+  "La isla de Ons pertenece administrativamente a Bueu y amplía el municipio más allá de la península: faro, aldea, caminos y memoria de una comunidad insular. La conexión estacional desde el puerto vuelve esa geografía visible cada verano. Beluso —núcleo con pequeño puerto y playa— completa el mapa costero fuera del centro. Quien conozca Bueu solo por el muelle debe sumar Massó, Ons y Beluso.",
+  "Hoy, comprar «en Bueu» sigue siendo elegir entre villa —mercado y puerto a pie— o Beluso / parroquias, con más orilla o terreno y más coche. El anuncio no distingue cuál de las dos ni cuánto pesa Ons en la idea que uno se hace del municipio antes de vivir el invierno en la península.",
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
-  "Banda do Río y el frente portuario son el mar cotidiano del núcleo. Permiten caminar junto al agua sin organizar una excursión.",
-  "Beluso combina pequeño puerto y playa y queda suficientemente cerca para convertirse en salida habitual desde muchas zonas del municipio.",
-  "Area de Bon, Portomaior y Lapamán ofrecen arenales fuera de la villa y requieren desplazarse desde el centro. En verano hay que contar con más presión de aparcamiento.",
-  "Cabo Udra permite una caminata por una costa más natural, entre granito, brezo, antiguas estructuras costeras, calas y vistas hacia Ons. Es una salida deliberada de varias horas, no una prolongación del paseo diario de la villa.",
-  "Ons pertenece a otra categoría. El barco es estacional y la visita requiere dedicar buena parte del día. Una vez allí se puede caminar hacia el faro, playas o el Buraco do Inferno.",
-  "En la práctica, puerto y Banda do Río pueden formar parte del día normal; Beluso y las playas próximas funcionan como salidas cortas; Cabo Udra y Ons requieren reservar más tiempo.",
+  "El mar está siempre cerca en Bueu, pero vivir en la villa no es lo mismo que vivir hacia Beluso o Cela. Banda do Río y el frente portuario son el agua cotidiana del núcleo: permiten caminar junto a la ría de Pontevedra sin organizar una salida larga. En verano el agua suele rondar los 17–19 °C en playas más abiertas y algo más en rincones abrigados. Beluso combina pequeño puerto y playa y queda suficientemente cerca para convertirse en salida habitual desde muchas zonas del municipio. Quien vive en la villa puede bajar al frente andando; quien vive en Cela convierte Beluso o Lapamán en salida con coche. Un martes de junio en el frente urbano suele haber holgura; un domingo de agosto en las playas el aparcamiento se disputa.",
+  "Area de Bon, Portomaior y Lapamán ofrecen arenales fuera de la villa y requieren desplazarse desde el centro. Cabo Udra permite una caminata por costa más natural —granito, brezo, antiguas estructuras costeras, calas y vistas hacia Ons—: es salida deliberada de varias horas, no prolongación del paseo diario. Ons pertenece a otra categoría: el barco es estacional y la visita pide dedicar buena parte del día; una vez allí se camina hacia el faro, las playas o el Buraco do Inferno.",
+  "En la práctica, puerto y Banda do Río pueden formar parte del día normal; Beluso y las playas próximas funcionan como salidas cortas; Cabo Udra y Ons requieren reservar más tiempo. Pontevedra queda a unos veinticinco o treinta minutos cuando hace falta hospital o ciudad.",
+  "En la villa el puerto queda integrado en la rutina casi todos los días; en Beluso o en parroquias la orilla elegida pesa más y el comercio denso pide volver al centro. Esa diferencia describe mejor Bueu que contar playas. Montecelo cubre la sanidad hospitalaria cuando hace falta lo que aquí no hay.",
 ] as const;
 
 const CASA_NUEVO2 = [

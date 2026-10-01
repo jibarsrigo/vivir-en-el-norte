@@ -35,6 +35,10 @@ Prosa de libro (no listas secas), con topónimos explicados la primera vez:
 
 ## Página de municipio
 
+### Prosa NUEVO2 (obligatorio)
+
+Al escribir o reescribir fichas en **NUEVO2**, seguir `docs/continuidad-nuevo2.md` → **Cómo generar la prosa — método Cudillero** y releer `web/src/app/nuevo2/cudillero/page.tsx`. Un eje A vs B; densar, no cubrir; glosar topónimos; sin inventarios. Regla Cursor: `.cursor/rules/prosa-cudillero-nuevo2.mdc`.
+
 ### Cabecera y mapa
 
 Orden fijo tras título / comparar:
@@ -105,6 +109,22 @@ Prohibido en cualquier página de zona o municipio:
 7. Página de municipio: `MapaMunicipioFicha` bajo el cuadro Zona, con `capasPortada` (misma pastilla que portada vía `iconosMapaPueblo`).
 
 Orden de zonas: el de `zonas.json` / estudio (tras Baixo Miño → Val Miñor → Vigo e ría → O Morrazo → …).
+
+## Pendiente — Clima / lluvia (no implementar aún)
+
+Al reescribir Clima: ~15 o más días de lluvia/mes (oct–feb/mar); ~mitad de los días del año (cifra de zona / `estudio_zonas.md`); muchos días = horas de llovizna floja y persistente, no solo mm anuales.
+
+Detalle: `docs/continuidad-nuevo2.md` → Pendiente.
+
+## Pendiente — No encaja si / servicios que faltan (no implementar aún en lote)
+
+En **todos** los municipios, al revisar **No encaja si**: explicar **qué servicios faltan** (o quedan fuera/lejos) y **su importancia** para la vida diaria — no taquigrafía ni solo la nota 1–10. Qué echa en falta y qué implica (coche a villa X, minutos, dependencia…).
+
+Detalle: `docs/continuidad-nuevo2.md` → Pendiente.
+
+## Pendiente — Mapa de portada / CCAA (ideas; no implementar aún)
+
+Jose: desplegables bajo el mapa no terminan de gustar. Ideas: (1) clic en nombre de CCAA → mapa solo de esa comunidad, mismo tamaño que el actual (alternativa al zoom si caben los nombres); (2) página/mapa por CCAA con todos los municipios; en ficha, la CCAA bajo el nombre como enlace a ese mapa; (3) sustituir o integrar los desplegables con mapas de CCAA. **Zonas:** duda de si sobran en portada (poco uso cotidiano del nombre); criterio propuesto — CCAA = orientación primaria; zona = agrupación editorial debajo (compara/ficha), no eje de desplegables de inicio. Detalle: `docs/continuidad-nuevo2.md` → Pendiente.
 
 ## Pendiente — CAPAS del mapa (revisar más adelante; no implementar aún)
 
@@ -222,6 +242,10 @@ Ideas cubiertas en Vivir (por pueblo):
 
 **Aparcado:** página «si vienes de Mallorca» (descartada).
 
+## Pendiente — Enlaces útiles del municipio (no implementar aún)
+
+Bloque curado de links por pueblo (turismo/excursiones, más info del sitio, fotos/rutas) para acercarse al municipio. Decidir si **apartado nuevo** o **integrar** en uno existente. Detalle: `docs/continuidad-nuevo2.md` → Pendiente.
+
 ## Pendiente — Fotos plantilla 13 (aparcado; retomar luego)
 
 **No colocar aún** en RelatoMunicipio. Revisar solo cuando Jose lo pida.
@@ -239,3 +263,4 @@ Ideas cubiertas en Vivir (por pueblo):
 2. Mostrar solo foto + leyenda para validar (sin inventario).
 3. Colocar en relatos actuales solo tras OK explícito; V1 histórico.
 4. Unicidad SHA-256; no stand-ins; cambiar nombre de archivo al sustituir.
+5. **Colocación junto al texto (acordado):** donde falten fotos (o al enriquecer slots), situarlas **justo antes o justo después** de que el topónimo / escena se nombre en la prosa, para dar **visión real** de lo leído — no agrupar al final del apartado ni desligar pie y frase. La foto refuerza el párrafo que habla de ese sitio.

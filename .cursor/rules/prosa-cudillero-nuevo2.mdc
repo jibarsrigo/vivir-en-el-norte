@@ -1,0 +1,38 @@
+---
+description: Prosa NUEVO2 — método Cudillero obligatorio
+globs:
+  - web/src/app/nuevo2/**/*.tsx
+  - docs/continuidad-nuevo2.md
+alwaysApply: false
+---
+
+# Prosa NUEVO2 = método Cudillero
+
+Antes de escribir o reescribir relato de municipio en NUEVO2:
+
+1. Leer `docs/continuidad-nuevo2.md` → sección **Cómo generar la prosa — método Cudillero**.
+2. Releer `web/src/app/nuevo2/cudillero/page.tsx` (Cómo se vive + Vivir + Encaja).
+3. Fijar en una línea el eje **A vs B**. Si no cabe, no escribir aún.
+
+## No negociable
+
+- **Cómo se vive ~5 párrafos** (esqueleto Cudillero); **Vivir ~3** (no checklist médico/vuelos/tipología).
+- **Pocas rayas «—…—» en Cómo se vive.** Preferir frase nueva o dos puntos, como Cudillero. No inventarios entre rayas («En el casco —plaza, torre, calles—»).
+- **Un eje**, no tour de sitios. Al nombrar un lugar: qué es, dónde queda, cómo se vive.
+- **Prohibido inventario** («Hay X, Y y Z») y **habla indio** («hay arenal largo»; «ocupación, kite, aparcamiento más difícil»). Frase completa en castellano: sujeto + verbo + qué pasa.
+- **Prohibido «gesto mínimo» / «fuera del gesto…» / «aguanta mal» / «autonomía delgada»** sin decir qué se puede y qué no a pie.
+- **Prohibido fragmentos colgados tras coma** que solo listan efectos. Si se habla de aparcamiento: «encontrar aparcamiento se vuelve más difícil».
+- **Barrido completo del apartado** antes de dar por escrita la ficha: no parchear solo la frase que Jose marcó.
+- **Prohibido Encaja en taquigrafía:** no «aceptando… a cambio de… a cambio de…»; no etiquetas opacas («Cantábrico de carácter», «Cantábrico de península», «los arcos» sin decir qué son). Explicar como Cudillero.
+- **Clima:** no abrir siempre con «En X el contraste con Mallorca no es de matiz». Variar como Cudillero («X supone un cambio climático claro…»). No comparar con Covas/Xilloi sin decir qué son.
+- **Prohibido «sin montar un viaje / una excursión»** (Cómo se vive y Mar). Variar: andando, a pie, sin sacar el coche, sin convertir la tarde en plan de coche…
+- **Prohibido Mar §3 clonado:** «Algunas salidas merecen el trayecto porque el camino pesa tanto como el baño» (y clones). Abrir con el hecho local.
+- **Prohibido Casa §1 clonado:** «Comprar casa en X es decidir primero…». Empezar por el hecho (muralla, playa, cota…) en llano; no «intramuros» sin decir antes qué muralla.
+- **Glosar en el apartado:** Ecopista, intramuros, adarve, estuario… se explican donde aparecen; no asumir memoria de otra sección.
+- **Rayas honestas:** «X —…—» solo si lo entre rayas define X. «estuario —plaza, comercio—» es error: plaza no es estuario. Estuario = río que se ensancha hacia el mar; orilla de desembocadura, no playa de oleaje.
+- **De dónde / Mar:** densidad tipo Cudillero (~4 párrafos con hechos, camino, desnivel, calendario); no cuatro frases cortas de inventario. **Umbral:** cada bloque suele ≥ ~1.700–2.000 caracteres (Cudillero ~2.500). Si en un lote salen cortos, **parar y densificar** — Jose lo ha marcado varias veces.
+- Completitud no gana a densación. Cubrir menos; profundizar más.
+- Test del doc: si falla, rehacer el apartado (no parchear una frase).
+- **Siempre** en municipios nuevos a partir de ahora: comprobar hist/mar uno a uno contra Cudillero antes de dar por escrita la ficha.
+
+Jose ha repetido esto muchas veces. Fallar el método = fallar la tarea.

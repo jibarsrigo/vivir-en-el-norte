@@ -20,12 +20,12 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
 const RESUMEN_ZONA_NUEVO2 = [
   "Barbanza e Noia reúne tres paisajes residenciales en una misma península: la orilla norte de la ría de Arousa, el litoral atlántico de Porto do Son y el fondo de la ría de Muros e Noia. Rianxo, Boiro, A Pobra do Caramiñal y Ribeira encadenan villas de Arousa con distinta escala; Porto do Son gira hacia una costa más abierta y Noia funciona como villa histórica y de servicios en la cabecera de la otra ría. La Serra do Barbanza —el macizo montañoso que ocupa el centro de la península— atraviesa el territorio, de modo que en pocos kilómetros se pasa de playas abrigadas y paseos de ría a laderas, monte y arenales expuestos al Atlántico.",
   "Boiro ocupa una posición central en la orilla norte de Arousa. El núcleo urbano concentra comercio, mercado, salud y equipamientos; Barraña funciona como gran playa y paseo cotidiano; Escarabote, Abanqueiro y otras parroquias acercan puerto, costa o vivienda con terreno.",
-  "Dentro de la zona es una de las opciones más equilibradas entre autonomía diaria, playa y precio. No ofrece hospital propio ni tren, pero permite resolver buena parte de la semana sin desplazarse a Ribeira o Santiago.",
+  "Dentro de la zona es una de las opciones más equilibradas entre autonomía diaria, playa y precio. No ofrece hospital propio ni tren, pero permite hacer compra y buena parte de las gestiones sin desplazarse a Ribeira o Santiago.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
-  "Boiro tiene suficiente tamaño para que la vida no dependa de una única calle. Mercado, supermercados, pequeño comercio, centro de salud, colegios, biblioteca, Casa da Cultura y complejo deportivo permiten resolver una semana bastante completa dentro del núcleo.",
-  "Barraña cambia mucho la relación con el municipio. Es una playa larga de ría unida al casco por paseo, de modo que caminar, correr o bajar a la arena puede formar parte de la rutina y no solo del fin de semana.",
+  "Boiro tiene suficiente tamaño para que la vida no dependa de una única calle. Mercado, supermercados, pequeño comercio, centro de salud, colegios, biblioteca, Casa da Cultura y complejo deportivo cubren buena parte del día a día dentro del núcleo.",
+  "Barraña cambia mucho cómo se vive el municipio. Es una playa larga de ría unida al casco por paseo, de modo que caminar, correr o bajar a la arena puede formar parte de la rutina y no solo del fin de semana.",
   "Escarabote y Abanqueiro acercan la vida al agua y a núcleos marineros. En otras parroquias aparecen casas con terreno y una relación más rural con la sierra. La contrapartida es que el coche entra antes en los recados.",
   "El Hospital do Barbanza, en Ribeira, queda aproximadamente a veinte minutos. Santiago ronda los cuarenta y cinco minutos y concentra aeropuerto, hospital de referencia y servicios de ciudad.",
   "La autovía AG-11, la vía rápida que recorre buena parte del Barbanza, facilita los desplazamientos longitudinales por la península. Aun así, la utilidad de una vivienda debe medirse por su acceso real a esa carretera y no solo por una distancia dibujada en el mapa.",

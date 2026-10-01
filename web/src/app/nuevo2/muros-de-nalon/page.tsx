@@ -25,7 +25,7 @@ const RESUMEN_ZONA_NUEVO2 = [
 const COMO_SE_VIVE_NUEVO2 = [
   "Muros es la capital municipal y concentra el ayuntamiento y parte de los servicios del concejo. Está separado del frente portuario, de modo que la vida diaria se organiza alrededor del propio pueblo y de desplazamientos cortos hacia San Esteban y otros núcleos del entorno.",
   "San Esteban tiene entidad residencial propia y dispone, igual que Muros, de consultorio sanitario. Al salir de casa, el Nalón ya es una gran ría a punto de encontrarse con el Cantábrico. El puerto, las embarcaciones, los antiguos cargaderos de carbón y el trazado ferroviario forman parte del paisaje cotidiano.",
-  "En Muros la relación con el agua funciona de otra manera. El mar está próximo, pero no ocupa el centro de la calle ni aparece una playa urbana al final del núcleo. Aguilar es la referencia de baño más clara y se alcanza por carretera. San Esteban tiene el puerto y la ría inmediatamente presentes, pero tampoco equivale a vivir frente a una gran playa de arena.",
+  "En Muros el agua se vive de otra manera. El mar está próximo, pero no ocupa el centro de la calle ni aparece una playa urbana al final del núcleo. Aguilar es la referencia de baño más clara y se alcanza por carretera. San Esteban tiene el puerto y la ría inmediatamente presentes, pero tampoco equivale a vivir frente a una gran playa de arena.",
   "Parte de la vida básica se resuelve dentro del concejo. Para hospital, compras grandes y servicios especializados hay que desplazarse a poblaciones mayores del entorno, y la frecuencia con la que se necesita el coche cambia según la dirección concreta.",
   "En invierno la diferencia entre Muros y San Esteban sigue siendo visible. San Esteban conserva el paseo junto a la desembocadura y el puerto como una salida corta y repetible. En Muros, los recorridos hacia playa, puerto o costa son más deliberados.",
 ] as const;
@@ -39,7 +39,7 @@ const CLIMA_NUEVO2 = [
 const VIVIR_NUEVO2 = [
   "Muros de Nalón es un concejo pequeño. Parte de la compra, el hospital y los servicios especializados se resuelven fuera, sobre todo en poblaciones mayores del entorno. El coche forma por ello parte normal de la semana.",
   "En San Esteban, el puerto y la desembocadura están al alcance de un paseo corto desde muchas viviendas del núcleo. En Muros, Aguilar y la costa quedan cerca, pero normalmente se incorporan al día mediante un desplazamiento específico.",
-  "También cambia la relación con la playa. San Esteban tiene el agua delante, pero lo que ofrece de forma inmediata es puerto y ría. Aguilar es el arenal de referencia del concejo y desde Muros se llega por carretera.",
+  "También cambia cómo se llega a la playa. San Esteban tiene el agua delante, pero lo que ofrece de forma inmediata es puerto y ría. Aguilar es el arenal de referencia del concejo y desde Muros se llega por carretera.",
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
@@ -84,7 +84,7 @@ const ENCAJA_SI_NUEVO2 = [
 ] as const;
 
 const NO_ENCAJA_SI_NUEVO2 = [
-  "Puede encajar peor si se necesita resolver una parte muy amplia de la semana sin coche o sin salir de un núcleo pequeño, o si se espera una oferta urbana de comercio y servicios inmediatamente disponible.",
+  "Puede encajar peor si se necesita cubrir una parte muy amplia del día a día sin coche o sin salir de un núcleo pequeño, o si se espera una oferta urbana de comercio y servicios inmediatamente disponible.",
   "También puede encajar peor si vivir junto al mar significa necesariamente tener una gran playa urbana al final de la calle. San Esteban tiene el agua muy presente, pero es puerto y desembocadura; Muros está cerca de Aguilar, pero no forma una continuidad urbana con la playa.",
 ] as const;
 

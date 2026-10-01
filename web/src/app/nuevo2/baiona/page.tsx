@@ -24,7 +24,7 @@ const RESUMEN_ZONA_NUEVO2 = [
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
-  "Baiona funciona como una villa real durante todo el año. En el centro hay comercio, farmacias, colegios, instituto, restauración, puerto y servicios suficientes para resolver buena parte de una semana sin salir del municipio.",
+  "Baiona funciona como una villa real durante todo el año. En el centro el comercio, las farmacias, los colegios, el instituto, la restauración y el puerto cubren buena parte del día a día sin salir del municipio.",
   "Desde una vivienda céntrica se pueden encadenar a pie compra, café, paseo y playa. Sabarís añade supermercados, comercio y mercado y funciona como otro punto práctico del municipio.",
   "La proximidad del mar no convierte toda Baiona en la misma microzona. Vivir junto al casco y A Ribeira es muy distinto de instalarse en una ladera de Baíña o Belesar. En estas últimas se puede ganar jardín, vistas y tranquilidad, pero aparecen pendientes y más coche.",
   "En verano aumentan los visitantes, la ocupación de segundas viviendas, el tráfico y la presión sobre el aparcamiento. Una calle tranquila en febrero puede funcionar de manera completamente distinta en agosto.",
@@ -50,22 +50,22 @@ const VIVIR_NUEVO2 = [
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
-  "La forma de Baiona se entiende desde Monterreal. El promontorio protege la bahía y fue fortificado durante siglos, dejando una península amurallada que todavía separa puerto, playas y mar abierto.",
-  "Debajo de esas defensas creció una villa vinculada a la navegación y al comercio marítimo.",
-  "El episodio histórico más visible ocurrió el 1 de marzo de 1493, cuando la carabela Pinta llegó al puerto de Baiona con noticias del viaje al otro lado del Atlántico. La Arribada mantiene ese acontecimiento en la memoria pública de la villa.",
-  "Monterreal siguió teniendo función defensiva mientras el puerto y el casco crecían a sus pies. Hoy la fortificación, el puerto deportivo y la réplica de la Pinta conviven dentro del mismo recorrido cotidiano.",
-  "El monumento de la Virxe da Rocha añade otra referencia al paisaje de Baiona. Levantado sobre la costa durante las primeras décadas del siglo XX, funciona como mirador y como referencia visual en el extremo occidental de la villa.",
-  "Baiona ha convertido así navegación, defensa y relación con el Atlántico en partes visibles de su estructura actual, no en episodios aislados de un museo.",
+  "Baiona se entiende como villa fortificada frente a la ría de Vigo: el Monte do Boi, la Fortaleza y el casco histórico organizan la imagen y buena parte de la vida. La llegada de la carabela Pinta en 1493 —noticia del viaje de Colón— convirtió el puerto en un hito de memoria colectiva que todavía se celebra y se explica a quien llega. Quien vea solo chalé y playa de veraneo se pierde esa capa de villa con muralla, calles de piedra y un relato marítimo anterior al turismo moderno.",
+  "La Fortaleza de Monterreal —recinto amurallado sobre el promontorio— concentra siglos de defensa y, hoy, un uso hotelero y de paseo que mantiene el perímetro en el mapa cotidiano. No es un museo cerrado al margen: caminar el adarve o rodear el monte es una de las formas de habitar Baiona. El casco, a sus pies, reúne comercio, plazas y una escala de villa que en agosto se llena y en noviembre recupera aire.",
+  "Las playas —A Ribeira, Barbeira, A Concheira, Ladeira hacia el sur— añadieron la capa de baño y veraneo que pesa en el mercado inmobiliario. Esa doble identidad (villa histórica + frente de arena) explica tensiones de aparcamiento, precio y ruido estival. El municipio no es solo casco: parroquias y zonas más residenciales hacia el interior o hacia Nigrán cambian la distancia real a la muralla y al agua.",
+  "Baiona vivió del mar y del tránsito de la ría mucho antes de convertirse en destino. El puerto deportivo y el movimiento de verano son herederos de esa orientación al agua, aunque el oficio haya cambiado de peso. Las fiestas y el calendario de temporada alta siguen marcando semáforos, terrazas y el ánimo de quien vive todo el año junto al paseo.",
+  "Vigo queda cerca como ciudad de hospital, compras amplias y empleo; Val Miñor enlaza con Nigrán y Gondomar en un continuo costero-residencial. Esa red explica por qué Baiona puede sentirse completa en escala de villa y, a la vez, dependiente de trayectos cortos en coche. La historia útil para quien compra es esa: villa con relato propio, no suburbio anónimo, pero inserida en la lógica de área metropolitana de Vigo.",
+  "Hoy, comprar «en Baiona» es decidir entre casco y entorno de Fortaleza —piedra, cuesta, agosto intenso— o zonas más residenciales con más coche hasta el paseo. El anuncio no siempre lo aclara; el invierno sí.",
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
-  "Baiona permite llegar andando a varias playas desde las zonas centrales.",
-  "A Ribeira está integrada en el propio frente urbano, junto al paseo y el puerto. Barbeira queda bajo Monterreal y ofrece una pequeña playa protegida. Son playas de escala urbana: útiles precisamente porque pueden entrar en una tarde normal.",
-  "A Ladeira cambia de tamaño. Es una playa larga que se extiende hacia la desembocadura del Miñor y la zona húmeda de A Foz. Permite una relación más amplia con arena, paseo y estuario.",
-  "El recorrido alrededor de Monte Boi tiene casi 2 km y bordea buena parte de la base de la fortaleza. El firme combina tierra y tramos acondicionados junto a la muralla. Es suficientemente corto para repetirse como paseo cotidiano y ofrece mar, calas y vistas hacia las Cíes.",
-  "Quien quiera alargar la caminata puede enlazar el frente urbano con el litoral hacia A Ramallosa. El Sendero Litoral de Baiona ronda los 6 km, tiene dificultad baja y discurre desde A Ramallosa hasta el entorno del Parador incorporando también el Paseo de Monte Boi.",
-  "La Foz do Miñor introduce otra experiencia: marisma, desembocadura y terreno mucho más llano que las laderas que rodean la villa.",
-  "Para monte, la Serra da Groba queda detrás de Baiona. Allí cambian por completo firme, desnivel y exposición; es una salida deliberada, no una continuación del paseo marítimo.",
+  "En Baiona el mar está presente, pero no se vive igual en el casco junto al puerto que hacia Ladeira o en una calle retirada. A Ribeira y Barbeira concentran el baño más ligado a la villa: arena cercana, paseo, y en verano agua que suele rondar los 18–21 °C. Un martes de junio permite holgura; un domingo de agosto el acceso y el aparcamiento forman parte del plan. Quien vive arriba hacia la Fortaleza gana vistas y pendiente; quien vive pegado al paseo gana espontaneidad y cede quietud en temporada.",
+  "El paseo alrededor del Monte do Boi y la Fortaleza convierte el promontorio en camino cotidiano de viento, piedra y ría. No es un boulevard llano interminable: hay tramos de exposición, curvas y la sensación de villa abierta al agua. Desde ahí la ría de Vigo se lee como escenario, con las Cíes al fondo en los días claros.",
+  "Ladeira —arenal más largo hacia el sur— cambia la escala: más playa abierta, más lógica de coche desde el casco según dónde se viva, y un perfil más de día de arena que de plaza de piedra. A Concheira y otros tramos completan el mapa de baño municipal. Confundir todos en una sola «playa de Baiona» borra diferencias de acceso y de exposición.",
+  "Para caminar sin salir lejos, el frente de villa y el perímetro de la Fortaleza bastan casi todos los días. Cuando el día pide ampliar, las Cíes exigen barco y plan; Vigo aporta Samil y ciudad; Nigrán, otras playas del Val Miñor. Baiona sostiene mucha orilla propia; el resto es salida elegida.",
+  "En el casco el agua y el paseo pueden entrar en la semana andando; hacia Ladeira o zonas residenciales el coche gana peso para repetir el mismo gesto. Esa diferencia describe mejor Baiona que inventariar arenales. El viento de ría y el salitre pesan en terrazas de primera línea: conviene probarlas en día movido, no solo en una tarde dulce de folleto.",
+  "Agosto multiplica gente en el casco y en los accesos a playa; noviembre devuelve la villa a una escala más local. Vivir aquí todo el año es aceptar las dos caras sin fingir que la postal de verano sea el clima emocional permanente.",
+  "El cierre útil: villa fortificada con baño cercano, ría delante y Vigo a minutos. Elegir microzona —casco, Ladeira, retirado— pesa más que el nombre Baiona en el portal.",
 ] as const;
 
 const CASA_NUEVO2 = [

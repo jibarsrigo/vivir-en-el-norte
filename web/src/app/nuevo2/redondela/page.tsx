@@ -24,7 +24,7 @@ const RESUMEN_ZONA_NUEVO2 = [
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
-  "En la villa se puede resolver una parte importante de la semana andando. Mercado, supermercados, farmacia, cafeterías, colegios, biblioteca y estación quedan relativamente cerca unos de otros.",
+  "En la villa se puede cubrir una parte importante del día a día andando. Mercado, supermercados, farmacia, cafeterías, colegios, biblioteca y estación quedan relativamente cerca unos de otros.",
   "La estación es especialmente útil porque conecta con Vigo y Pontevedra. Para quien trabaje o haga gestiones en cualquiera de las dos ciudades, el tren puede reducir bastante el uso del coche si la vivienda está cerca.",
   "Cesantes cambia la rutina. Allí aparecen casas, pequeños edificios y una relación mucho más directa con la ensenada. La playa puede quedar a pie desde algunas viviendas, pero esa ventaja no se puede trasladar al municipio entero.",
   "Chapela es distinta tanto de la villa como de Cesantes. Su relación cotidiana con Vigo es mucho más directa, pero también tiene más densidad, tráfico e infraestructuras.",
@@ -54,23 +54,23 @@ const VIVIR_NUEVO2 = [
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
-  "Los dos grandes viaductos ferroviarios explican por qué el tren forma parte de la imagen y de la vida de Redondela desde el siglo XIX.",
-  "El antiguo viaducto a Madrid, denominado hoy viaducto de Ourense en la información municipal, fue inaugurado en 1876. Su estructura metálica y de piedra atraviesa el valle a gran altura y ya no soporta tráfico ferroviario.",
-  "El viaducto de la línea Vigo-Pontevedra fue inaugurado en 1884 y sigue integrado en la red ferroviaria. La estación y el tren continúan haciendo útil hoy aquella transformación del siglo XIX.",
-  "La isla de San Simón, visible desde Cesantes, tuvo usos muy distintos a lo largo del tiempo: fue monasterio, lazareto y, durante la Guerra Civil y la posguerra, prisión. Hoy se visita mediante actividades y rutas autorizadas.",
-  "El estrecho de Rande conecta el municipio con la batalla naval de 1702. El centro de interpretación de Meirande permite entender aquel episodio y el patrimonio de la ría desde el propio lugar.",
-  "Las variantes del Camino Portugués confluyen en Redondela. Los peregrinos atraviesan las mismas calles que utilizan a diario vecinos, comercios y servicios del casco.",
+  "Los dos grandes viaductos ferroviarios explican por qué el tren forma parte de la imagen y de la vida de Redondela. El municipio se entiende en la ría de Vigo: villa y parroquias entre el fondo de ría, el hierro de los puentes y la cercanía de Vigo como ciudad de apoyo. Quien busque solo playa de Val Miñor se equivoca de tramo; quien busque ría, tren y media distancia a la ciudad, no. Esa geometría —vía + estuario + Vigo cerca— es la historia útil para quien compra.",
+  "El antiguo viaducto hacia Madrid —denominado hoy viaducto de Ourense en la información municipal— fue inaugurado a finales del XIX y dejó una silueta que todavía organiza fotos, miradores y la sensación de paso. No es un adorno: recuerda que Redondela creció como lugar de conexión, no solo como orilla de baño. El tráfico ferroviario y la posición en el corredor hacia Vigo y Pontevedra marcaron comercio, empleo y tipología residencial durante generaciones.",
+  "El viaducto de la línea Vigo–Pontevedra, inaugurado en 1884, sigue integrado en la red y completa ese doble arco de hierro sobre el valle. Vivir con esos puentes a la vista es vivir con una capa industrial y de tránsito que no se borra en agosto. La identidad local se reparte entre ese perfil, el casco y las parroquias; no se agota en un único monumento de playa.",
+  "La isla de San Simón, visible desde Cesantes, tuvo usos muy distintos: monasterio, lazareto, prisión y hoy espacio visitado en programas concretos. Esa historia densa —incluida la memoria dura del siglo XX— añade gravedad al horizonte de la ensenada. No es un islote decorativo: es un recordatorio de que la ría también fue frontera sanitaria y política. Quien mira solo la arena de Cesantes se pierde esa capa.",
+  "El estrecho de Rande conecta el municipio con la batalla naval de 1702. El centro de interpretación y el relato del combate sitúan Redondela en un episodio europeo de guerra y comercio atlántico, no solo en el mapa metropolitano de Vigo. Es historia que se explica y se visita; no sustituye la vida diaria, pero da profundidad al lugar cuando se elige vivir aquí todo el año.",
+  "Las variantes del Camino Portugués confluyen en Redondela. Los peregrinos atraviesan las mismas calles que el vecino usa para la compra y continúan hacia Cesantes y O Porriño. En temporada el tránsito se nota; fuera de ella queda la red de caminos como posibilidad cotidiana. Hoy, comprar «en Redondela» es decidir entre Cesantes y frente de ría —más orilla, más verano— o núcleos más residenciales, con más quietud y más trayecto al agua. El portal mezcla ambos bajo el mismo nombre.",
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
-  "Cesantes es la playa más clara para el baño dentro de Redondela.",
-  "Es una playa de ensenada, con marea muy visible y agua más calmada que la costa exterior. Desde algunas viviendas de Cesantes se puede llegar andando; desde el casco hay que desplazarse hasta la parroquia.",
-  "La bajamar cambia mucho el paisaje: aparecen bancos de arena, fangos y zonas de marisqueo, de modo que el aspecto y la distancia hasta el agua varían bastante a lo largo del día.",
-  "En la villa, el río Alvedosa permite recorridos locales y conecta el casco con un paisaje más verde sin exigir una salida larga.",
-  "El Camino Portugués es otra posibilidad cotidiana: atraviesa la villa y continúa hacia Cesantes y O Viso. Se puede utilizar un tramo sin plantearlo como una etapa completa.",
-  "Monte Penide requiere desplazarse desde la villa. Allí hay mámoas —túmulos funerarios prehistóricos—, petroglifos y vistas sobre la ría, por lo que funciona como salida de monte y patrimonio, no como paseo cotidiano del casco.",
-  "La Senda del Agua también recorre el entorno alto entre Vigo y Redondela. Su trazado es prácticamente llano y permite recorridos largos con vistas a Rande, aunque exige llegar hasta sus accesos.",
-  "Las visitas a San Simón se realizan en programas y horarios concretos. Son una salida cultural, no transporte habitual ni parte de la rutina diaria.",
+  "Cesantes es la playa más clara para el baño dentro de Redondela: ensenada de ría, arena local y una escala que no pretende competir con Samil ni con Ladeira. Quien vive cerca puede bajar andando o en trayecto mínimo; quien vive en otra parroquia convierte Cesantes en salida corta en coche. En verano el agua suele rondar los 18–21 °C. Un martes de junio suele haber holgura; un domingo soleado de agosto el arenal y el acceso se notan.",
+  "Es una playa de ensenada, con marea muy visible y agua más calmada que la costa exterior. Desde algunas viviendas el agua entra en el horizonte diario; desde otras, solo cuando se decide ir. No hay que confundir ría interior con océano abierto: aquí mandan lámina, viento de estuario y la silueta de San Simón en los días claros.",
+  "La bajamar cambia mucho el paisaje: aparecen bancos de arena, fangos y zonas de marisqueo, de modo que el mismo frente no se parece a sí mismo a lo largo del día. Caminar entonces es otra experiencia —más olor a ría, más espacio descubierto— que en pleamar. Esa variación forma parte del trato de vivir junto a Cesantes, no un detalle menor.",
+  "En la villa, el río Alvedosa permite recorridos locales y conecta el casco con un paisaje más verde e interior. No sustituye la playa; ofrece otra orilla de paseo cuando no se quiere arena. El desnivel y el tráfico del corredor pesan según la calle elegida: Redondela no es un boulevard continuo de ría desde cualquier puerta.",
+  "El Camino Portugués es otra posibilidad cotidiana: atraviesa la villa y continúa hacia Cesantes y O Porriño. Se puede usar un tramo corto como paseo o asumirlo como tránsito de mochilas en temporada. Convive con la lógica del tren y de los viaductos: Redondela se camina y se cruza, no solo se contempla.",
+  "Monte Penide requiere desplazarse desde la villa. Allí hay mámoas —túmulos funerarios prehistóricos— y un entorno alto con otra vista sobre la ría. Es salida de patrimonio y aire, no la prolongación espontánea del baño de Cesantes. Quien viva lejos del frente notará más el coche para encadenar playa y monte el mismo día.",
+  "La Senda del Agua también recorre el entorno alto entre Vigo y Redondela. Su trazado es prácticamente de desplazamiento y plan: no sustituye el paseo corto de Cesantes. Cuando el día pide ciudad, Vigo aporta Samil, hospital y comercio denso a minutos; Soutomaior y Arcade amplían el mapa de ría interior.",
+  "Las visitas a San Simón se realizan en programas y horarios concretos. Son una salida cultural, no la playa de todos los días. El cierre útil: ría y Cesantes a mano, Vigo a minutos, océano a trayecto. Elegir Cesantes o interior pesa más que el nombre Redondela en el anuncio.",
 ] as const;
 
 const CASA_NUEVO2 = [

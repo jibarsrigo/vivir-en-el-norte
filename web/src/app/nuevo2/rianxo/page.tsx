@@ -24,7 +24,7 @@ const RESUMEN_ZONA_NUEVO2 = [
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
-  "Rianxo permite resolver una parte importante de la semana dentro del casco. Centro de salud, farmacias, supermercado, colegio, biblioteca, pequeños comercios, bares y el paseo de la ría quedan en un radio cómodo si se vive cerca del centro.",
+  "Rianxo permite cubrir una parte importante del día a día dentro del casco. Centro de salud, farmacias, supermercado, colegio, biblioteca, pequeños comercios, bares y el paseo de la ría quedan en un radio cómodo si se vive cerca del centro.",
   "El puerto no es solo paisaje. Barcos, marisqueo y trabajo ligado al agua forman parte de la mañana. Por la tarde el mismo frente sirve para caminar, sentarse en la plaza o continuar hacia Tanxil y A Torre. Esa superposición entre trabajo y paseo es una de las claves de la villa.",
   "Fuera del núcleo cambia bastante la rutina. Taragoña, Asados, Leiro, Araño y otras parroquias pueden ofrecer casa, terreno y más tranquilidad, pero el coche entra antes en la compra, la escuela, el centro de salud o una salida a la playa.",
   "El Hospital do Barbanza, en Ribeira, queda aproximadamente a treinta minutos. Para servicios de mayor escala, Santiago también entra en la vida práctica: ronda los cuarenta minutos por carretera y concentra hospital terciario, grandes compras, universidad y aeropuerto.",

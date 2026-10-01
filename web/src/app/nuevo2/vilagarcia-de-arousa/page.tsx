@@ -20,7 +20,7 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
 const RESUMEN_ZONA_NUEVO2 = [
   "O Salnés reúne villa histórica, viñedo, costa de ría, isla y ciudad en un espacio muy compacto alrededor de Arousa. Meaño ocupa el interior de viñedos y parroquias; Cambados combina casco histórico, vino y marisqueo; A Illa de Arousa vive rodeada de mar y depende de un único puente; Vilanova mezcla villa, pequeñas playas y parroquias de viñedo; Vilagarcía aporta hospital, tren, puerto y la mayor concentración de servicios. Las distancias son cortas, pero la posibilidad de vivir a pie, el acceso al baño y el peso del coche cambian mucho entre municipios.",
   "Vilagarcía es la ciudad pequeña de O Salnés. El municipio reúne Vilagarcía, Carril y Vilaxoán y concentra hospital, estación, comercio, colegios, puerto y servicios sanitarios.",
-  "El centro permite resolver una parte muy amplia de la semana a pie; Carril añade marisqueo y Cortegada; Vilaxoán conserva un núcleo más marinero. Las parroquias altas ganan terreno y vistas, pero pierden parte de la autonomía urbana.",
+  "El centro permite cubrir una parte muy amplia del día a día a pie; Carril añade marisqueo y Cortegada; Vilaxoán conserva un núcleo más marinero. Las parroquias altas ganan terreno y vistas, pero pierden parte de la autonomía urbana.",
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
@@ -28,7 +28,7 @@ const COMO_SE_VIVE_NUEVO2 = [
   "En el centro, una vivienda bien situada puede permitir hacer a pie mercado, compra, farmacia, colegio, estación y paseo. Esa autonomía cotidiana es una diferencia real frente a las villas más pequeñas de la comarca.",
   "Carril ofrece otra relación con la ciudad. El puerto, los parques de cultivo de almeja y la silueta de Cortegada están delante de casa en muchas calles. El paseo hacia Vilagarcía permite mantener conexión peatonal con el centro, aunque el tiempo exacto depende de la dirección.",
   "Vilaxoán mantiene un núcleo más pequeño y marinero, con puerto propio. Vivir allí no equivale a vivir junto a la estación o el mercado central, aunque se siga dentro del mismo municipio.",
-  "En las parroquias y laderas hacia el interior aparecen casas, terreno y vistas. Allí aumenta el coche y parte de la ventaja de Vilagarcía —resolver la semana andando— se pierde. La dirección concreta importa tanto como el municipio.",
+  "En las parroquias y laderas hacia el interior aparecen casas, terreno y vistas. Allí aumenta el coche y parte de la ventaja de Vilagarcía —organizar el día a día andando— se pierde. La dirección concreta importa tanto como el municipio.",
   "El Hospital do Salnés está dentro del término municipal y queda aproximadamente a cinco minutos desde el centro urbano. Para quien valore proximidad sanitaria, es una diferencia muy clara dentro de O Salnés.",
   "La estación conecta con Santiago, Vigo y otros destinos. Los aeropuertos de Vigo y Santiago quedan aproximadamente a cuarenta y cuarenta y cinco minutos por carretera. La programación hacia Palma debe comprobarse por temporada.",
   "En agosto, las fiestas de San Roque cambian el centro durante varios días. La Festa da Auga llena de gente y agua una zona acotada de la ciudad; el Combate Naval es un gran espectáculo pirotécnico en el puerto. En Carril, la Festa da Ameixa añade otra concentración de actividad. Una vivienda próxima a esas zonas debe conocerse también durante las fiestas.",
@@ -51,20 +51,20 @@ const VIVIR_NUEVO2 = [
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
-  "La Vilagarcía actual se formó a partir del crecimiento y la unión de varios núcleos vinculados a la ría.",
-  "Carril tuvo un papel clave en el desarrollo ferroviario. La línea Santiago–Carril, inaugurada en 1873, fue la primera línea ferroviaria de Galicia y terminaba junto al puerto. Esa conexión entre tren y ría ayudó a transformar comercio y movilidad.",
-  "Carril sigue ligado al cultivo de almeja y a Cortegada, isla integrada en el Parque Nacional das Illas Atlánticas. El paisaje frente al puerto conserva esa relación productiva con la ría.",
-  "Vilaxoán mantiene puerto y vivienda marinera. En el centro, el Pazo de Vista Alegre —una antigua casa señorial— y el convento forman un conjunto histórico dentro de una ciudad que creció alrededor del comercio, el puerto y el ferrocarril.",
-  "La Festa da Auga es una tradición mucho más reciente. Nació en 1984 y acabó convirtiéndose en uno de los actos más conocidos de las fiestas de San Roque. Su importancia actual demuestra que la identidad local no depende únicamente de patrimonio antiguo.",
+  "Vilagarcía de Arousa no nació como una sola villa cerrada: creció soldando núcleos distintos alrededor de la ría. El centro comercial y portuario, Carril con su tradición de almeja y tren, y Vilaxoán con puerto marinero, forman hoy una misma ciudad, pero cada uno conserva una historia y un ritmo distintos. Quien llega pensando en «Vilagarcía» como un bloque homogéneo se equivoca de mapa: comprar o vivir aquí implica decidir qué núcleo se elige y qué distancia queda hasta el paseo, el hospital o el tren.",
+  "Carril pesó en el desarrollo moderno más de lo que sugiere su escala. La línea Santiago–Carril, inaugurada en 1873, fue la primera ferroviaria de Galicia y terminaba junto al puerto: unió ría, comercio y movilidad en un momento en que pocas villas atlánticas tenían ese vínculo. Esa herencia se lee todavía en el perfil productivo de la orilla —parques de cultivo, dársena, movimiento de trabajo— y en la idea de que Vilagarcía no es solo veraneo: es ciudad de puerto y de conexión. Quien conozca solo Compostela en agosto debe sumar esa capa de oficio.",
+  "Frente a Carril, la isla de Cortegada —integrada en el Parque Nacional das Illas Atlánticas— añade una capa de paisaje y de salida que no se confunde con el paseo urbano. No es un barrio: se alcanza con acceso autorizado y se vive como excursion breve de bosque y orilla, no como prolongación espontánea del día a pie. En el mismo municipio, Vilaxoán mantiene puerto y vivienda marinera con otra escala, más pegada al oficio cotidiano y menos a la densidad comercial del centro.",
+  "En el casco, el Pazo de Vista Alegre —antigua casa señorial— y el convento forman un conjunto histórico dentro de una ciudad que creció por comercio, puerto y ferrocarril. No son un museo aislado al margen de la vida: quedan dentro del tejido donde se hace la compra, se espera el tren o se baja al paseo. Esa convivencia de patrimonio y ciudad de servicios explica por qué Vilagarcía funciona como capital práctica de O Salnés para mucha gente de los municipios vecinos.",
+  "La Festa da Auga, nacida en 1984 dentro de las fiestas de San Roque, muestra que la identidad local también se construye en el calendario reciente: calles mojadas, multitud y un ritmo que en esos días cambia aparcamiento, ruido y acceso al centro. No sustituye la historia de Carril o Vista Alegre; la completa. Hoy, leer Vilagarcía bien es leer a la vez ciudad de apoyo, núcleos marineros y una temporada que se oye en agosto sin convertir el resto del año en silencio.",
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
-  "La playa de Compostela es el baño urbano más evidente. Está integrada en el paseo y puede alcanzarse andando desde buena parte del centro.",
-  "Hacia Carril, el paseo continúa junto a la ría. Allí el paisaje cambia: puerto, parques marisqueros y Cortegada sustituyen parte de la imagen de playa.",
-  "A Concha y otros tramos del frente urbano permiten caminar junto al agua sin organizar una salida larga. La marea modifica la cantidad de arena visible y el aspecto del paseo.",
-  "Cortegada requiere acceso por barco autorizado y se vive como una salida concreta, no como una prolongación espontánea del paseo. Sus senderos ofrecen un paisaje de bosque insular muy distinto del frente urbano.",
-  "Hacia el interior, el Monte Xiabre ofrece pistas, bosque y vistas sobre la ría dentro del entorno de Vilagarcía. El mirador de Lobeira, ya en Vilanova, es otra salida próxima. Ambos requieren desplazarse y dedicar más tiempo que a Compostela.",
-  "Para océano abierto, A Lanzada exige coche. Vilagarcía ofrece ría, playa urbana y paseo en la rutina; el Atlántico queda como salida elegida.",
+  "En Vilagarcía el agua está cerca, pero no se vive igual desde el centro que desde Carril o Vilaxoán. La playa de Compostela es el baño urbano más evidente: arena integrada en el paseo, usable andando desde buena parte del casco, con el ritmo de ciudad de ría. En verano el agua suele rondar los 18–21 °C. Un martes de junio suele haber holgura; un domingo de agosto el frente se nota en gente, coches y sombra disputada. Quien vive hacia el interior gana quietud y convierte Compostela en trayecto corto, no en puerta de casa.",
+  "Hacia Carril el paseo continúa junto a la ría y el paisaje cambia de registro: puerto, parques marisqueros y la silueta de Cortegada sustituyen parte de la imagen de playa abierta. Allí el agua cotidiana es más de trabajo y de marea que de arena de veraneo: orilla productiva y de estuario, con olores y horarios de cultivo. Quien elige Carril elige esa escena; quien busca solo arena de Compostela se equivoca de microzona.",
+  "A Concha y otros tramos del frente urbano permiten caminar junto al agua sin organizar una salida larga. La marea modifica cuánta arena queda visible y cómo se siente el paseo: a marea baja el estuario enseña otra orilla; a marea alta el frente se estrecha y gana brisa. No es un boulevard de ciudad enorme, pero sí una rutina posible casi todos los días si la vivienda queda bien situada respecto al paseo.",
+  "Cortegada pide barco autorizado y se vive como salida concreta: senderos de bosque insular, orilla distinta y un tiempo dedicado que no se improvisa entre la compra y el café. No sustituye el paseo de Compostela; lo amplía cuando se quiere otra escala de paisaje dentro del mismo municipio. Confundir isla y playa urbana es el error habitual del visitante de fin de semana.",
+  "Cuando el día pide ampliar el mapa, el Monte Xiabre aporta pistas, bosque y vistas sobre la ría; el mirador de Lobeira, ya en Vilanova, añade otra mirada cercana. Ambos piden desplazarse y más tiempo que bajar a Compostela. Para océano abierto, A Lanzada exige coche: Vilagarcía ofrece ría, playa urbana y paseo en la rutina; el Atlántico queda como salida elegida, no como horizonte de cada mañana.",
+  "En el centro y Compostela el agua puede entrar en la semana casi todos los días; en Carril manda la ría productiva; en Vilaxoán, el puerto marinero. Esa diferencia describe mejor Vilagarcía que contar playas. El hospital y buena parte de los servicios densos están en la propia ciudad: aquí el dilema no es «sin servicios», sino elegir qué orilla se quiere tener cerca de casa.",
 ] as const;
 
 const CASA_NUEVO2 = [
@@ -74,7 +74,7 @@ const CASA_NUEVO2 = [
   "Carril mezcla pisos, casas y vivienda marinera. Allí el paseo y la ría pueden formar parte muy directa de la rutina. Conviene revisar humedad, aparcamiento y accesos durante momentos de gran afluencia, además de la distancia real hasta estación, hospital o centro.",
   "Vilaxoán ofrece un entorno más pequeño y marinero. Puede interesar a quien quiera seguir dentro de Vilagarcía sin vivir en el centro, pero hay que comprobar qué servicios quedan a pie y cuántos recados vuelven a requerir coche.",
   "En las parroquias altas aparecen casas con terreno y vistas. Allí importan cubierta, drenaje, acceso, pendiente y mantenimiento de parcela. También hay que medir el tiempo real hasta hospital, estación y compra, porque la ventaja municipal deja de significar autonomía peatonal.",
-  "El mercado tiene una base residencial amplia por hospital, tren, comercio, empleo y servicios. En reventa suelen ayudar ascensor, luz, accesibilidad, garaje o aparcamiento razonable y una ubicación que permita resolver la semana con facilidad.",
+  "El mercado tiene una base residencial amplia por hospital, tren, comercio, empleo y servicios. En reventa suelen ayudar ascensor, luz, accesibilidad, garaje o aparcamiento razonable y una ubicación que permita organizar el día a día con facilidad.",
   "Precio medio municipal utilizado: 1.779 €/m².",
 ] as const;
 
@@ -83,7 +83,7 @@ const CASA_ADVERTENCIA_MICROZONA = [
 ] as const;
 
 const CASA_MERCADO_REVENTA = [
-  "Vilagarcía tiene una base residencial más amplia que las villas pequeñas de la zona. Una vivienda caminable, luminosa y accesible puede atraer a un público diverso. En Carril o Vilaxoán la relación con la ría añade atractivo; en parroquias pesan más acceso, estado y mantenimiento.",
+  "Vilagarcía tiene una base residencial más amplia que las villas pequeñas de la zona. Una vivienda caminable, luminosa y accesible puede atraer a un público diverso. En Carril o Vilaxoán estar junto a la ría añade atractivo; en parroquias pesan más acceso, estado y mantenimiento.",
 ] as const;
 
 const ENCAJA_SI_NUEVO2 = [

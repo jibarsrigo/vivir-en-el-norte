@@ -30,7 +30,7 @@ const COMO_SE_VIVE_NUEVO2 = [
   "El municipio tiene buena relación con Santiago. La carretera permite llegar aproximadamente en cuarenta minutos, y la capital gallega completa hospital, universidad, gran comercio y aeropuerto.",
   "La sanidad es el punto débil relativo. Los hospitales de Santiago quedan aproximadamente a cuarenta minutos. Aunque existe atención primaria local, para urgencias hospitalarias o especialidades complejas el desplazamiento pesa.",
   "Noia mantiene vida anual. Comercio, mercado y servicios responden a población local y comarcal. En agosto, las fiestas patronales de San Bartolomeu y la Festa da Empanada —una celebración gastronómica dedicada a la empanada local— aumentan actividad, ruido y aparcamiento en el centro.",
-  "Las afueras y parroquias permiten viviendas mayores y más terreno, pero reducen la principal ventaja del municipio: poder resolver una parte muy grande de la semana caminando por una villa compacta.",
+  "Las afueras y parroquias permiten viviendas mayores y más terreno, pero reducen la principal ventaja del municipio: poder cubrir una parte muy grande del día a día caminando por una villa compacta.",
 ] as const;
 
 const CLIMA_NUEVO2 = [
@@ -50,21 +50,17 @@ const VIVIR_NUEVO2 = [
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
-  "Noia fue una villa medieval importante vinculada al comercio, al puerto y a la ruta entre la costa y Santiago. Ese pasado explica la densidad de iglesias, casas señoriales y soportales del casco.",
-  "San Martiño es una iglesia de los siglos XV–XVI y uno de los ejemplos del llamado gótico marinero, la arquitectura gótica desarrollada en varias villas costeras gallegas durante la Baja Edad Media. Se menciona porque San Martiño es uno de los elementos que dan al centro su carácter actual.",
-  "Santa María a Nova es otra iglesia medieval, hoy convertida en museo. Conserva una colección excepcional de lápidas gremiales y nobiliarias. Una lápida gremial es una losa funeraria marcada con símbolos del oficio del difunto —por ejemplo herramientas o signos vinculados a artesanos y comerciantes—. Por eso el conjunto permite entender quién vivía y trabajaba en la Noia de siglos pasados.",
-  "El berberecho de la ría forma parte de la economía local. El marisqueo aprovecha bancos intermareales que quedan accesibles con la bajamar; esa actividad explica por qué Testal y otras zonas de la ría son espacios de trabajo además de costa recreativa.",
-  "La empanada de maíz, muchas veces rellena de productos de la ría, forma parte de esa cultura alimentaria. La Festa da Empanada, celebrada durante las fiestas de San Bartolomeu, se menciona porque convierte un producto doméstico y local en una de las celebraciones más visibles del verano.",
-  "La historia ayuda a leer la villa actual: un centro comercial y administrativo que sigue apoyándose en el mismo cruce entre ría, territorio interior y conexión con Santiago.",
+  "Noia fue una villa medieval importante vinculada al comercio, al puerto y a la ruta entre la costa y Santiago. Ese pasado explica la densidad de iglesias, casas señoriales y soportales del casco: lo que hoy parece centro administrativo de ría fue antes un nudo de oficio y de piedra. Quien llega solo por Testal descubre que la identidad cotidiana se sostiene en esas calles, no en un arenal aislado.",
+  "San Martiño es una iglesia de los siglos XV–XVI y uno de los ejemplos del llamado gótico marinero —la arquitectura gótica desarrollada en varias villas costeras gallegas durante la Baja Edad Media—. Santa María a Nova, otra iglesia medieval hoy convertida en museo, conserva una colección excepcional de lápidas gremiales y nobiliarias. Una lápida gremial es una losa funeraria marcada con símbolos del oficio del difunto —herramientas o signos de artesanos y comerciantes—. Ese conjunto permite entender quién vivía y trabajaba en la Noia de siglos pasados.",
+  "El berberecho de la ría sigue formando parte de la economía local. El marisqueo aprovecha bancos intermareales que quedan accesibles con la bajamar; por eso Testal y otras zonas son espacios de trabajo además de costa recreativa. La empanada de maíz —muchas veces rellena de productos de la ría— y la Festa da Empanada, durante las fiestas de San Bartolomeu, convierten esa cultura alimentaria en calendario visible de verano. Quien conozca Noia solo por el casco debe sumar ría trabajada y ese ritmo festivo.",
+  "Hoy, comprar «en Noia» sigue siendo elegir entre casco —mercado, salud y piedra a pie— o orilla hacia Testal y Boa, con más ría delante y menos autonomía peatonal del centro. El anuncio no distingue cuál de las dos ni cuánto cambia la semana entre agosto y un martes de noviembre.",
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
-  "El frente de ría permite caminar junto al agua desde el entorno urbano, pero la costa del casco no equivale a una playa de baño.",
-  "Testal es uno de los arenales más conocidos. La marea es determinante y el espacio está ligado también al marisqueo. En bajamar quedan extensas superficies intermareales, de modo que la experiencia cambia mucho según la hora.",
-  "Boa ofrece otra opción de playa dentro del municipio, también de ría y agua relativamente calmada.",
-  "Para costa atlántica abierta hay que salir hacia Porto do Son. Area Longa, Aguieira o As Furnas ofrecen un paisaje y un oleaje completamente diferentes.",
-  "El paseo más cotidiano sigue siendo el casco: San Martiño, Santa María a Nova, plazas, soportales, mercado y frente de ría se enlazan sin necesidad de coche.",
-  "La Serra do Barbanza queda próxima, pero para rutas de monte hay que salir deliberadamente del centro. Esa separación entre villa y naturaleza hace que Noia sea más urbana en la rutina que Porto do Son.",
+  "El mar está cerca en Noia, pero vivir en el casco no es lo mismo que vivir hacia Testal. El frente de ría permite caminar junto al agua desde el entorno urbano, pero la costa del casco no equivale a una playa de baño cotidiana: es orilla de villa, puerto y marea. Testal es uno de los arenales más conocidos del municipio: la marea es determinante y el espacio está ligado también al marisqueo; en bajamar quedan extensas superficies intermareales, de modo que la experiencia cambia mucho según la hora. Boa ofrece otra opción de playa dentro del municipio, también de ría y agua relativamente calmada. En verano el agua suele rondar los 18–20 °C. Un martes de junio en el frente urbano suele haber holgura; un domingo de agosto en Testal el acceso se nota.",
+  "Para caminar andando desde el casco, San Martiño, Santa María a Nova, plazas, soportales, mercado y frente de ría se enlazan sin sacar el coche. No es un boulevard de ciudad grande: es villa de piedra con orilla de estuario. Hacia Testal o Boa ese mismo día cambia de registro: más arena y más dependencia de la marea, con el comercio denso detrás, en el centro.",
+  "Para costa atlántica abierta hay que salir hacia Porto do Son: Area Longa, Aguieira o As Furnas ofrecen oleaje y paisaje completamente distintos. La Serra do Barbanza queda próxima, pero para rutas de monte hay que salir deliberadamente del centro. Esa separación entre villa y naturaleza hace que Noia sea más urbana en la rutina que Porto do Son.",
+  "En el casco la ría y la piedra quedan integradas en la rutina casi todos los días; hacia Testal o Boa la orilla de baño pesa más y el centro pide trayecto. Esa diferencia describe mejor Noia que contar playas. Santiago y el hospital de referencia cubren la escala mayor cuando hace falta lo que aquí no hay.",
 ] as const;
 
 const CASA_NUEVO2 = [

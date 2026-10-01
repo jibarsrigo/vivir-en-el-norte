@@ -25,7 +25,7 @@ const RESUMEN_ZONA_NUEVO2 = [
 
 const COMO_SE_VIVE_NUEVO2 = [
   "El centro mantiene actividad durante todo el año, con mercado, comercio, colegios, institutos, centro de salud, deporte, biblioteca y autobuses frecuentes hacia Pontevedra.",
-  "Desde un piso céntrico se puede resolver a pie buena parte de la semana. La relación con Pontevedra es además lo bastante próxima como para incorporarla a trabajo, sanidad, compras o cultura sin convertir cada salida en una excursión.",
+  "Desde un piso céntrico se puede hacer a pie compra y buena parte de las gestiones. La relación con Pontevedra es además lo bastante próxima como para incorporarla a trabajo, sanidad, compras o cultura sin convertir cada salida en una excursión.",
   "El puerto introduce una actividad que no desaparece en invierno. Grúas, contenedores, camiones y operaciones portuarias forman parte del paisaje y del ruido de determinadas calles.",
   "La Escuela Naval Militar añade otra presencia estable y ocupa una porción importante del frente urbano. Marín no tiene un paseo marítimo continuo de ocio delante del casco comparable al de Moaña.",
   "Para playa se sale hacia el oeste. Portocelo es la primera referencia y Mogor queda inmediatamente después. Aguete y Loira prolongan la costa residencial.",
@@ -46,7 +46,7 @@ const CLIMA_NUEVO2 = [
 
 const VIVIR_NUEVO2 = [
   "Marín concentra una vida urbana compacta y una relación muy directa con Pontevedra, además de la actividad propia de su puerto y de la Escuela Naval.",
-  "El casco permite reducir coche para la vida básica y el bus facilita la relación con Pontevedra.",
+  "El casco permite reducir coche para la vida básica y el bus facilita ir y volver a Pontevedra.",
   "La playa no desaparece, pero se convierte en salida corta. Para alguien que necesita arena literalmente a la puerta, la dirección concreta importa mucho.",
   "El puerto es una ventaja económica y una posible molestia residencial. Hay que aceptar que parte del frente marítimo trabaja.",
   "La proximidad hospitalaria reduce los desplazamientos respecto a otros puntos de O Morrazo. Para quien prevé utilizar especialistas o valora mucho tener atención hospitalaria cerca, esa diferencia puede pesar más que disponer de un paseo marítimo delante de casa.",

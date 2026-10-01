@@ -51,21 +51,17 @@ const VIVIR_NUEVO2 = [
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
-  "Gondomar se desarrolló como territorio de valle antes que como núcleo urbano compacto. El río Miñor articula las tierras bajas y las parroquias se distribuyen entre el fondo del valle y las laderas que lo rodean.",
-  "Las montañas conservan huellas mucho más antiguas. En Vincios, al pie del Galiñeiro, la estación rupestre de Auga da Laxe reúne grabados atribuidos al Bronce Inicial, entre el III y el II milenio a. C.",
-  "Otra capa histórica aparece en el Pazo de Gondomar, vinculado a Diego Sarmiento de Acuña, primer conde de Gondomar. El conjunto conserva el rastro de una residencia señorial reforzada y transformada a lo largo de los siglos.",
-  "La historia local no se concentra, por tanto, en un único casco monumental. Está repartida entre parroquias, caminos, pazos, iglesias y estaciones rupestres.",
-  "Esa dispersión histórica se parece bastante a la estructura residencial actual: la villa funciona como centro, pero una parte importante de la identidad municipal sigue estando fuera de ella.",
+  "Gondomar se desarrolló como territorio de valle antes que como núcleo urbano compacto. El río Miñor articula las tierras bajas y las parroquias se distribuyen entre el fondo del valle y las laderas que lo rodean —Vincios, Donas, Chaín, Morgadáns y otras—. Lo que hoy parece municipio de casas de piedra y monte fue antes una red parroquial sin una sola plaza que lo resolviera todo. La villa concentra ayuntamiento y comercio básico; el resto del término pide coche casi siempre. Quien busca un casco amurallado se equivoca de mapa: aquí la historia está repartida.",
+  "Las montañas conservan huellas mucho más antiguas. En Vincios, al pie de la Serra do Galiñeiro —cumbres de granito de unos 700 m con vistas a la ría de Vigo y a las Cíes—, la estación rupestre de Auga da Laxe reúne grabados atribuidos al Bronce Inicial, entre el III y el II milenio a. C. Quien sube al monte no hace solo deporte: camina sobre un paisaje ya marcado miles de años antes de la villa actual, con petroglifos junto al camino y áreas de recreo para empezar la ruta.",
+  "Otra capa histórica aparece en el Pazo de Gondomar, vinculado a Diego Sarmiento de Acuña, primer conde de Gondomar. El conjunto conserva el rastro de una residencia señorial reforzada y transformada a lo largo de los siglos. Iglesias parroquiales y caminos de valle completan esa lectura dispersa. Quien conozca Gondomar solo por el nombre del pazo debe sumar Galiñeiro, Miñor y la lógica de parroquias que todavía organiza la compra de casa.",
+  "Hoy, comprar «en Gondomar» sigue siendo elegir entre villa —más servicios a pie— o parroquias de valle y ladera, con más terreno, más sombra de monte y más coche. El anuncio no distingue cuál de las dos ni cuánta pendiente hay hasta la AG-57.",
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
-  "Gondomar no tiene costa marítima. El agua cotidiana es el río Miñor y sus afluentes.",
-  "Desde la villa se puede incorporar la ribera a paseos cortos. La Ruta de Ánimas ofrece un recorrido lineal de unos 2 km desde Praza Paradela hacia el Parque de Ánimas y continúa junto al Miñor en dirección a Peitieiros.",
-  "Es una salida muy diferente de las rutas de montaña: empieza prácticamente en la villa, sigue vegetación de ribera y permite caminar sin convertir cada paseo en una excursión larga.",
-  "La Serra do Galiñeiro cambia por completo el terreno. Desde la zona de Vincios aparecen caminos de monte, granito, desnivel y vistas amplias. Allí el calzado, la pendiente y las condiciones meteorológicas importan mucho más.",
-  "No debe confundirse esa experiencia con el paseo cotidiano del río.",
-  "Para baño marítimo hay que salir del municipio. Praia América queda aproximadamente a doce minutos desde la referencia municipal; Baiona y Patos amplían las opciones con recorridos algo distintos.",
-  "Gondomar permite así repartir el tiempo libre entre río y monte sin renunciar a la playa, pero la playa siempre implica desplazamiento.",
+  "Gondomar no tiene costa marítima. El agua cotidiana es el río Miñor y sus afluentes: ribera, vegetación y un ritmo de valle, no de ola atlántica. Desde la villa se puede incorporar esa orilla a paseos cortos. La Ruta de Ánimas ofrece un recorrido lineal de unos 2 km desde Praza Paradela hacia el Parque de Ánimas y continúa junto al Miñor en dirección a Peitieiros. Es una salida muy diferente de las rutas de montaña: empieza prácticamente en la villa, sigue vegetación de ribera y permite caminar sin convertir cada tarde en una salida larga. En invierno esa ribera se nota más húmeda y silenciosa que cualquier postal de verano en Praia América.",
+  "La Serra do Galiñeiro cambia por completo el terreno. Desde la zona de Vincios aparecen caminos de monte, granito, desnivel y vistas amplias hacia la ría y las Cíes. Allí el calzado, la pendiente y las condiciones meteorológicas importan mucho más que en el paseo del río. No debe confundirse esa experiencia con el paseo cotidiano de la ribera: son dos registros del mismo municipio, y confundirlos lleva a comprar esperando playa donde hay camino de monte.",
+  "Para baño marítimo hay que salir del municipio. Praia América queda aproximadamente a doce minutos desde la referencia municipal; Baiona y Patos amplían las opciones con recorridos algo distintos y, en agosto, más presión de aparcamiento. Vigo queda a unos quince o veinte minutos cuando hace falta hospital o ciudad. Aquí el día a día pide valle; la playa, un trayecto corto pero deliberado.",
+  "En la villa el río y los servicios quedan más cerca de la rutina; en las parroquias el monte o la parcela pesan más y la playa siempre implica desplazamiento. Esa diferencia describe mejor Gondomar que fingir que tiene orilla atlántica propia. El Álvaro Cunqueiro cubre la sanidad hospitalaria en Vigo.",
 ] as const;
 
 const CASA_NUEVO2 = [

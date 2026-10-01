@@ -25,7 +25,7 @@ const RESUMEN_ZONA_NUEVO2 = [
 
 const COMO_SE_VIVE_NUEVO2 = [
   "Nigrán tiene servicios suficientes para una vida anual sólida, pero están repartidos. Centro de salud, supermercados, farmacias, colegios y equipamientos no forman un único casco continuo.",
-  "A Ramallosa es una de las zonas más prácticas para la compra y los servicios. Panxón permite combinar una pequeña vida de núcleo con puerto, paseo y playa. Praia América prioriza la relación con la costa. Patos añade un ambiente distinto, más abierto al océano y muy ligado al surf.",
+  "A Ramallosa es una de las zonas más prácticas para la compra y los servicios. Panxón permite combinar una pequeña vida de núcleo con puerto, paseo y playa. Praia América prioriza vivir pegado a la costa. Patos añade un ambiente distinto, más abierto al océano y muy ligado al surf.",
   "En parroquias interiores se puede ganar casa, jardín y tranquilidad, pero aumenta el papel del coche. No conviene comprar en Priegue o Camos extrapolando la caminabilidad que se ha visto durante una tarde en Panxón.",
   "Vigo está suficientemente cerca para entrar con facilidad en la rutina laboral, sanitaria o comercial. Para atención hospitalaria de mayor complejidad, la referencia práctica está en el área de Vigo; el Hospital Álvaro Cunqueiro queda aproximadamente a 15 km y unos 15 minutos desde la referencia municipal. El aeropuerto de Vigo queda a unos 20 minutos. Son tiempos orientativos y dependen de la microzona y del tráfico.",
   "El verano aumenta claramente la ocupación de las playas y el tráfico de la PO-552. El municipio no se transforma en un único centro saturado porque la actividad está repartida, pero las calles próximas a Praia América, Panxón y Patos sí cambian de ritmo.",
@@ -50,22 +50,17 @@ const VIVIR_NUEVO2 = [
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
-  "Nigrán se entiende mejor como suma de parroquias que como crecimiento alrededor de una única plaza.",
-  "Panxón conserva una de las huellas históricas más reconocibles. Junto a la costa se encuentra el antiguo arco asociado al templo precedente y, a pocos metros, el Templo Votivo do Mar, proyectado por Antonio Palacios y construido entre 1932 y 1937.",
-  "La arquitectura del templo convirtió una referencia religiosa y marinera en uno de los elementos más visibles del paisaje de Panxón.",
-  "A Ramallosa se desarrolló junto al Miñor y a los caminos que comunicaban las parroquias del valle mucho antes de que la costa se llenara de urbanizaciones residenciales.",
-  "Monteferro incorpora una historia diferente. La península conserva restos y patrimonio militar, petroglifos y el Monumento a la Marina Universal.",
-  "El Nigrán actual superpone así poblamiento parroquial, memoria marinera y una fuerte expansión residencial vinculada a las playas y a la proximidad de Vigo.",
+  "Nigrán se entiende mejor como suma de parroquias que como crecimiento alrededor de una única plaza. Panxón, Praia América, Patos, A Ramallosa, Priegue, Camos o Chandebrito no son barrios de un mismo centro: son piezas con historia y ritmo propios. Lo que hoy parece municipio-urbanización de Galicia —casas bajas, jardín, coche y playa cerca— fue antes una red parroquial del valle del Miñor. Quien busca «el casco de Nigrán» como en una villa amurallada se equivoca de mapa.",
+  "Panxón conserva una de las huellas históricas más reconocibles. Junto a la costa queda el recuerdo del templo precedente y, a pocos metros, el Templo Votivo do Mar, proyectado por Antonio Palacios y construido entre 1932 y 1937. Esa arquitectura convirtió una referencia religiosa y marinera en uno de los elementos más visibles del paisaje de Panxón. El puerto pesquero y deportivo mantiene el oficio junto a la playa urbana. Quien solo ve chalés detrás de Praia América se pierde esa mitad marinera.",
+  "A Ramallosa se desarrolló junto al Miñor y a los caminos que comunicaban las parroquias del valle mucho antes de que la costa se llenara de urbanizaciones residenciales. Monteferro incorpora otra historia: península de pinar con restos y patrimonio militar, petroglifos y el Monumento a la Marina Universal. El Nigrán actual superpone así poblamiento parroquial, memoria marinera y una fuerte expansión residencial vinculada a las playas y a la proximidad de Vigo. Quien conozca Nigrán solo por Praia América debe sumar Panxón, Patos, Ramallosa y Monteferro.",
+  "Hoy, comprar «en Nigrán» sigue siendo elegir entre franja de playa —Praia América, Panxón, Patos— o parroquias interiores y altas, con más quietud o vistas y más coche. El anuncio no distingue cuál de las dos.",
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
-  "La costa de Nigrán no ofrece una única experiencia.",
-  "Praia América y Panxón forman una gran bahía de varios kilómetros, con paseo y aguas relativamente protegidas. Para quien vive en esa franja, playa y paseo pueden formar parte de la rutina diaria.",
-  "Al otro lado de Monteferro, Patos cambia la exposición. El surf tiene allí mucho más peso y la relación con el océano es distinta de la bahía de Praia América.",
-  "Para un paseo cotidiano no hace falta completar ninguna gran ruta. Los tramos de paseo de Praia América y Panxón permiten caminar junto al mar sobre terreno cómodo y regresar cuando convenga.",
-  "La Senda Azul es otra cosa. Su recorrido oficial es lineal, de 10 km, parte de A Ramallosa y continúa por Praia América, Panxón y A Madorra antes de ascender hacia Monteferro. La duración orientativa completa es de 3 a 3 horas y media y el tramo final introduce subida y terreno de sendero.",
-  "No conviene presentar esos 10 km como si fueran el paseo llano habitual de la playa. Se puede utilizar solo una parte para una salida corta y reservar Monteferro para cuando se quiera más recorrido.",
-  "A Ramallosa y la Foz do Miñor añaden marisma y estuario. Hacia el interior aparecen caminos parroquiales y monte, de modo que la variedad de recorridos es grande pero no todos parten de la misma puerta.",
+  "El mar está cerca en Nigrán, pero no ofrece una única experiencia. Praia América y Panxón forman una gran bahía de varios kilómetros, con paseo y aguas relativamente protegidas por Monteferro y las Cíes; en verano el agua suele rondar los 17–19 °C. Para quien vive en esa franja, playa y paseo pueden formar parte de la rutina diaria. Al otro lado de Monteferro, Patos cambia la exposición: el surf pesa más y el océano se siente distinto de la bahía de Praia América. Un martes de junio en Praia América suele haber holgura; un domingo de agosto el acceso se llena.",
+  "Para un paseo cotidiano no hace falta completar ninguna gran ruta. Los tramos de paseo de Praia América y Panxón permiten caminar junto al mar sobre terreno cómodo y regresar cuando convenga. La Senda Azul es otra cosa: recorrido oficial lineal de unos 10 km que parte de A Ramallosa y continúa por Praia América, Panxón y A Madorra antes de ascender hacia Monteferro. La duración completa orientativa es de tres a tres horas y media; el tramo final introduce subida y terreno de sendero. Se puede usar solo una parte para una salida corta.",
+  "A Ramallosa y la Foz do Miñor añaden marisma y estuario: paseo llano de madera y tierra, aves y el puente medieval, con Ladeira al final. Hacia el interior aparecen caminos parroquiales y monte. No todos esos recorridos parten de la misma puerta: desde Priegue o Camos la playa ya es trayecto en coche, aunque el Atlántico siga a la vista en días claros.",
+  "En Praia América o Panxón la orilla cabe en la rutina casi todos los días; en parroquias interiores el jardín queda delante y la arena pide minutos de coche. Esa diferencia describe mejor Nigrán que contar playas. Vigo cubre hospital y escala de ciudad a unos quince o veinte minutos.",
 ] as const;
 
 const CASA_NUEVO2 = [

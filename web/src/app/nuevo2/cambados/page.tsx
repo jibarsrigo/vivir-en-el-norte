@@ -50,20 +50,20 @@ const VIVIR_NUEVO2 = [
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
-  "Cambados se formó a partir de varios núcleos históricos que terminaron uniéndose. Esa unión sigue siendo visible en Fefiñáns, el centro y Santo Tomé.",
-  "La Praza de Fefiñáns reúne el Pazo de Fefiñáns —una antigua casa señorial gallega—, la iglesia de San Bieito y un gran espacio abierto que todavía organiza una parte de la vida del centro. El pazo comenzó a levantarse en el siglo XVI y está ligado a la historia local del vino.",
-  "Santa Mariña Dozo conserva sus arcos góticos abiertos al cielo dentro del cementerio. El edificio dejó de funcionar como iglesia, pero su ruina mantiene visible una etapa de prosperidad anterior de la villa.",
-  "En Santo Tomé, la Torre de San Sadurniño recuerda la importancia estratégica de la ría y de la vigilancia de su entrada. Hoy la marea rodea los restos y el lugar forma parte de un paseo, no de una defensa.",
-  "El Albariño convirtió el viñedo en uno de los rasgos económicos más reconocibles del municipio. La Festa do Albariño nació en los años cincuenta y con el tiempo pasó de un concurso de vino a una celebración de gran tamaño que hoy afecta de forma directa a la vida del centro durante varios días.",
+  "Cambados se entiende como villa histórica de O Salnés frente a la ría de Arousa: Fefiñáns, Santo Tomé y el tejido de plazas y pazos organizan una identidad de piedra y vino que no se reduce a una playa. El conjunto de Fefiñáns —plaza, pazo, iglesia de San Bieito— concentra la imagen más reconocible: escala de villa, no de ciudad, con comercio y paseo que todavía permiten mucha vida a pie en el casco. Quien llega solo por el albariño de etiqueta se pierde el peso de ese centro caminable.",
+  "Santo Tomé aporta la cara más marinera: cercanía a la ría, oficio ligado al marisqueo y al agua, y una atmósfera distinta de la plaza monumental. No es un barrio decorativo: es otro polo dentro del mismo municipio. Detrás, Corvillón, Vilariño o Castrelo abren el mapa de viñedo y parroquia, donde la casa entre cepas pide coche para la compra seria del casco.",
+  "La historia del vino —albariño, bodegas, Rías Baixas— atraviesa la economía y el paisaje. No es un añadido turístico reciente del todo: es una forma de ocupar el territorio que se ve en muros, caminos y en el calendario de fiestas y vendimia. El Pazo de Fefiñáns y otras casas señoriales recuerdan que la villa acumuló poder agrario y comercial antes del veraneo moderno.",
+  "Cambados vivió también de la ría: marisqueo, tráfico de Arousa y una relación cotidiana con la orilla que cambia según la marea. Esa capa marinera convive con la monumental sin fundirse: se puede vivir mirando más a la plaza o más al agua. Las fiestas y el verano aumentan afluencia; el resto del año la villa sostiene una base de servicios que la diferencia de parroquias puramente residenciales.",
+  "Hoy, comprar «en Cambados» es decidir entre casco de Fefiñáns —piedra, autonomía a pie, agosto más lleno— Santo Tomé —más ría— o viñedo, con más quietud y más coche. El anuncio municipal raramente lo detalla; la semana lo deja claro.",
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
-  "El paseo más fácil de incorporar a la rutina enlaza el centro con el frente marítimo y Santo Tomé. Gran parte del recorrido es urbano y permite salir a caminar sin preparar una excursión.",
-  "La marea cambia por completo la imagen de la ría. En bajamar quedan expuestas zonas de fango y bancos de marisqueo. Es una costa productiva y muy visible; no una playa continua de arena.",
-  "A Mouta y pequeñas franjas de Santo Tomé permiten acercarse al agua, pero para un baño largo y claramente playero suele ser más práctico salir hacia As Sinas o A Lanzada.",
-  "A Pastora añade una subida corta desde la villa. Desde arriba se ven el casco, los viñedos y la ría. La pendiente la convierte en un paseo distinto del frente marítimo, pero sigue siendo accesible como salida breve desde el centro.",
-  "Hacia el sur, el entorno del Umia aporta caminos de ribera, juncales y zonas húmedas. Quien quiera alternar piedra, ría y un paseo de naturaleza puede hacerlo sin recurrir a una gran ruta de montaña.",
-  "Para vivir aquí importa entender esta diferencia: el mar está muy presente, pero el uso cotidiano es sobre todo paseo, marea y paisaje de ría; la playa de baño se busca fuera del centro.",
+  "En Cambados el agua cercana es de ría de Arousa, no de océano abierto tipo A Lanzada. Desde Santo Tomé y tramos del frente la lámina, los bateas y la marea organizan la escena: olor a marisco, orilla trabajada y un horizonte de ría que cambia con el día. El baño existe en playas locales de escala modesta; no hay que esperar un arenal atlántico interminable bajo la ventana del pazo.",
+  "Caminar el casco y bajar hacia la orilla permite encadenar plaza, comercio y agua en un radio corto si se vive bien situado. El terreno es más amable que una villa de acantilado, pero las distancias engañan cuando se elige casa entre viñedos: lo que en mapa parece «junto a Cambados» puede pedir coche para repetir el mismo paseo cada tarde.",
+  "Cuando el día pide ampliar, A Illa de Arousa aporta isla y puente; O Grove y A Lanzada, océano y dunas; Vilagarcía, ciudad y hospital; el mirador de Lobeira, vistas. Cambados sostiene villa y ría en la rutina; el Atlántico abierto queda como salida elegida.",
+  "Un martes de noviembre el frente de ría respira; un domingo de agosto el casco y los accesos se notan. La presión no alcanza siempre la de Baiona, pero existe. Quien quiera silencio absoluto en primera línea de plaza se equivoca de temporada.",
+  "En Fefiñáns manda la piedra y el paseo de villa; en Santo Tomé, la ría; en el viñedo, la parcela y el coche. Esa diferencia describe mejor Cambados que inventariar playas. El albariño está en el paisaje; el agua, en la elección de microzona. Probar un día de semana y un sábado de verano en la misma calle evita comprar solo con la imagen de la plaza vacía.",
+  "El cierre útil: villa histórica con ría cerca y océano a trayecto. Elegir casco, Santo Tomé o cepas pesa más que la marca Cambados en el portal. Vilagarcía cubre hospital y ciudad de apoyo a minutos; A Lanzada cubre el Atlántico cuando se quiere ola y duna de propósito.",
 ] as const;
 
 const CASA_NUEVO2 = [

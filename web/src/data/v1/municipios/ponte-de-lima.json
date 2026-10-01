@@ -1,4 +1,4 @@
-{
+﻿{
   "tipo": "municipio",
   "slug": "ponte-de-lima",
   "nombre": "Ponte de Lima",
@@ -73,8 +73,8 @@
     ],
     "fotosFuera": [
       {
-        "src": "/fotos/alto-minho/ponte-bertiandos.jpg",
-        "pie": "Lagoas de Bertiandos, Ponte de Lima"
+        "src": "/fotos/alto-minho/ponte-bertiandos-humedal.jpg",
+        "pie": "Lagoas de Bertiandos al amanecer, Ponte de Lima"
       }
     ],
     "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."

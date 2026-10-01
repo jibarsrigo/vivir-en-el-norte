@@ -24,7 +24,7 @@ const RESUMEN_ZONA_NUEVO2 = [
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
-  "En Tui es más fácil resolver la semana sin coche que en los otros municipios de Baixo Miño. Comercio, supermercados, farmacia, atención primaria, biblioteca, teatro, conservatorio, piscina y otros servicios caben dentro de una ciudad pequeña.",
+  "En Tui es más fácil organizar el día a día sin coche que en los otros municipios de Baixo Miño. Comercio, supermercados, farmacia, atención primaria, biblioteca, teatro, conservatorio, piscina y otros servicios caben dentro de una ciudad pequeña.",
   "El casco histórico añade una vida urbana poco habitual en la zona: calles empedradas, plazas, cafeterías, patrimonio y el paso constante del Camino Portugués. No depende únicamente del verano para tener movimiento.",
   "La topografía importa. La ciudad histórica asciende desde el Miño hacia la catedral y algunas calles tienen pendientes claras. Una vivienda situada pocos cientos de metros más arriba o abajo puede cambiar bastante la comodidad de los recorridos diarios.",
   "En el ensanche aparecen calles más anchas, edificios más recientes, supermercados y una relación más sencilla con el coche. Conviene, sin embargo, comprobar el ruido de la A-55 según la calle.",
@@ -57,7 +57,7 @@ const DE_DONDE_VIENE_NUEVO2 = [
   "El conjunto histórico asciende desde el río hasta la Catedral de Santa María, cuya construcción comenzó en el siglo XII y culminó con su consagración en 1225. Su aspecto de fortaleza recuerda que una catedral en una ciudad fronteriza debía cumplir también una función defensiva.",
   "Las calles que la rodean conservan iglesias, conventos, casas históricas y huellas de las distintas comunidades que pasaron por la ciudad. Tui fue además una de las antiguas capitales provinciales del Reino de Galicia.",
   "El Camino Portugués atraviesa el casco después de entrar desde Portugal y mantiene viva una función histórica de paso que todavía se percibe en las calles.",
-  "El puente internacional de finales del siglo XIX convirtió la relación con Valença en una conexión física permanente por carretera y ferrocarril. Hoy las dos ciudades cooperan además como Eurocidade, pero la relación cotidiana entre ambas orillas es anterior a esa estructura administrativa.",
+  "El puente internacional de finales del siglo XIX convirtió el vínculo con Valença en una conexión física permanente por carretera y ferrocarril. Hoy las dos ciudades cooperan además como Eurocidade, pero la relación cotidiana entre ambas orillas es anterior a esa estructura administrativa.",
   "La ciudad actual mezcla así tres capas que siguen siendo visibles: sede histórica y religiosa, frontera sobre el Miño y pequeña ciudad de servicios.",
 ] as const;
 
@@ -76,13 +76,13 @@ const CASA_NUEVO2 = [
   "Tui ofrece una variedad residencial mayor que otros municipios de Baixo Miño.",
   "En el ensanche aparecen pisos recientes o relativamente modernos, con ascensor y servicios próximos. Cerca del casco se puede mantener una vida muy peatonal sin asumir necesariamente las limitaciones de una vivienda histórica.",
   "Dentro del casco, el atractivo está en la arquitectura y en tener la ciudad antigua en la puerta. A cambio hay que mirar con especial atención accesibilidad, pendientes, aparcamiento, humedad y eficiencia de edificios antiguos.",
-  "Las parroquias y laderas próximas al Aloia ofrecen casa y más verde, pero cambian la relación con servicios y coche.",
+  "Las parroquias y laderas próximas al Aloia ofrecen casa y más verde, pero cambian lo cerca que quedan los servicios y cuánto se necesita el coche.",
   "La proximidad de la A-55 es una ventaja logística y puede convertirse en un defecto acústico. No basta con medir kilómetros hasta Vigo: hay que escuchar la vivienda con tráfico en distintas horas.",
   "Como referencia municipal, Tui se sitúa en 1.541 €/m².",
 ] as const;
 
 const CASA_ADVERTENCIA_MICROZONA = [
-  "En Tui la altura de la vivienda, las pendientes y la relación con la A-55 pueden importar tanto como la distancia lineal al centro. Casco, ensanche y parroquias no ofrecen la misma experiencia. Una vivienda histórica puede estar muy cerca de todo y exigir más esfuerzo por pendientes o accesibilidad; un piso del ensanche puede simplificar ascensor y aparcamiento; una casa exterior gana terreno a cambio de coche.",
+  "En Tui la altura de la vivienda, las pendientes y lo cerca que queda la A-55 pueden importar tanto como la distancia lineal al centro. Casco, ensanche y parroquias no ofrecen la misma experiencia. Una vivienda histórica puede estar muy cerca de todo y exigir más esfuerzo por pendientes o accesibilidad; un piso del ensanche puede simplificar ascensor y aparcamiento; una casa exterior gana terreno a cambio de coche.",
 ] as const;
 
 const CASA_QUE_CONVIENE_REVISAR = [

@@ -20,7 +20,7 @@ import DesplegableNuevo2 from "../cudillero/DesplegableNuevo2";
 const RESUMEN_ZONA_NUEVO2 = [
   "Vigo e ría reúne la gran ciudad de Vigo y varios municipios que se organizan alrededor del fondo de la ría y de la ensenada de San Simón. Vigo concentra hospitales, empleo, universidad, aeropuerto, puerto y servicios urbanos; Redondela combina una villa ferroviaria con Cesantes y Chapela; Soutomaior se reparte entre Arcade y un interior más rural; Vilaboa ocupa la orilla de la ensenada y las laderas que conectan la ría con Pontevedra. En pocos kilómetros se pasa de una vida plenamente urbana a parroquias donde el coche vuelve a ser imprescindible.",
   "Vilaboa ocupa la orilla de la ensenada de San Simón y las laderas que conectan la ría de Vigo con el entorno de Pontevedra. Dentro de Vigo e ría es el municipio más rural y disperso: no tiene una villa compacta comparable a Vigo, Redondela o Arcade, sino parroquias y pequeños núcleos repartidos entre costa e interior.",
-  "Santa Cristina de Cobres y Santo Adrián de Cobres miran hacia la ensenada; Vilaboa concentra ayuntamiento y algunos servicios; Figueirido y Bértola se orientan más hacia Pontevedra. Esa posición permite vivir en un entorno rural sin quedar lejos de núcleos mayores, pero no ofrece un centro capaz de resolver a pie la mayor parte de la semana.",
+  "Santa Cristina de Cobres y Santo Adrián de Cobres miran hacia la ensenada; Vilaboa concentra ayuntamiento y algunos servicios; Figueirido y Bértola se orientan más hacia Pontevedra. Esa posición permite vivir en un entorno rural sin quedar lejos de núcleos mayores, pero no ofrece un centro capaz de hacer a pie compra y la mayor parte de las gestiones.",
   "La ría está muy presente en el paisaje, aunque costa no significa automáticamente playa cotidiana. Marea, marisma, pequeñas playas y vistas hacia San Simón y Rande explican mejor la relación de Vilaboa con el agua.",
 ] as const;
 
@@ -44,7 +44,7 @@ const CLIMA_NUEVO2 = [
 ] as const;
 
 const VIVIR_NUEVO2 = [
-  "Vilaboa puede ofrecer casa, finca y proximidad por carretera a varios núcleos, pero en buena parte del municipio no permite resolver la semana andando.",
+  "Vilaboa puede ofrecer casa, finca y proximidad por carretera a varios núcleos, pero en buena parte del municipio no permite hacer compra y gestiones andando.",
   "Una casa con finca puede quedar a pocos minutos en coche de Pontevedra o de Arcade y, al mismo tiempo, sentirse rural al llegar. Para quien valore terreno y tranquilidad, esa combinación es una parte importante del atractivo.",
   "La semana, sin embargo, se organiza alrededor del coche. Compra, actividades, hospital, instituto o cultura no están concentrados en una única plaza.",
   "La ensenada forma parte del paisaje ordinario. Desde Cobres se observan mareas, marisqueo y Rande. Eso no significa tener una playa grande para bajar con toalla desde cualquier vivienda.",
@@ -110,7 +110,7 @@ const ENCAJA_SI_NUEVO2 = [
 ] as const;
 
 const NO_ENCAJA_SI_NUEVO2 = [
-  "Encaja peor si se necesita resolver la semana andando desde casa.",
+  "Encaja peor si se necesita hacer compra y gestiones andando desde casa.",
   "También si se quiere un núcleo compacto con mercado, instituto, hospital y oferta cultural concentrados.",
   "Puede resultar menos adecuado si la playa grande a pie es una condición central.",
   "Y encaja peor si se compra únicamente por vistas a la ensenada sin asumir coche, mantenimiento y posibles ruidos de carretera.",

@@ -45,7 +45,7 @@ const VIVIR_NUEVO2 = [
   "A Pobra permite vivir a una escala pequeña sin quedar lejos de hospital. Para una residencia permanente, esa combinación reduce uno de los principales peajes de las villas pequeñas.",
   "La playa no siempre empieza en la puerta del casco, pero Cabío, Lombiña y A Corna quedan suficientemente cerca para usarlas con frecuencia.",
   "El monte entra con la misma facilidad que el mar. Río Pedras y A Curota permiten pasar de paseo marítimo a agua dulce, granito y vistas en pocos minutos.",
-  "La vida cultural tiene un anclaje local fuerte gracias a la relación con Valle-Inclán, el Museo, el teatro y la programación municipal. No convierte la villa en una ciudad, pero añade actividad más allá del verano.",
+  "La vida cultural tiene un anclaje local fuerte gracias a Valle-Inclán, el Museo, el teatro y la programación municipal. No convierte la villa en una ciudad, pero añade actividad más allá del verano.",
   "Una casa en ladera puede ofrecer una imagen espectacular de la ría y, al mismo tiempo, obligar a coger el coche para comprar pan. Esa diferencia entre paisaje y autonomía debe medirse antes de decidir.",
 ] as const;
 

@@ -1,0 +1,20 @@
+---
+description: Guion de checks obligatorio antes de dar por escrita una ficha NUEVO2
+globs:
+  - web/src/app/nuevo2/**/*.tsx
+  - docs/continuidad-nuevo2.md
+  - docs/nuevo2-checklist-prosa.md
+alwaysApply: false
+---
+
+# Checklist prosa NUEVO2 — obligatorio
+
+Antes de marcar lista / «lista para lectura» cualquier ficha en `web/src/app/nuevo2/`:
+
+1. Abrir y **cumplir** `docs/nuevo2-checklist-prosa.md` (guion con checks).
+2. Releer Cudillero (`cómo se vive` + Vivir + Encaja) si escribes o retocas prosa.
+3. Si Jose pide homogenizar: priorizar fichas con cabecera «método Cudillero», no lotes CERTIFICADOS salvo orden expresa.
+
+No dar por cerrado un municipio si falla densidad hist/mar, muletillas de lote, rayas abusivas en Cómo se vive, glosas opacas (estuario, intramuros, Ecopista, «plaza densa», «toalla delante»…), habla indio/telegráfica (artículos faltantes, «es aldea entre monte y mar», «No es cala recogida ni bahía…», «caminar playa y caminos»), la muletilla «se resuelve (casi) toda / mucha / buena parte de la semana» repetida en el lote, o metáforas tipo «gesto mínimo» / «aguanta mal». Si se nombran dos polos (Viana / Âncora), decir qué se hace en cada uno. Castellano completo con artículos.
+
+Detalle narrativo: `docs/continuidad-nuevo2.md` + `.cursor/rules/prosa-cudillero-nuevo2.mdc`.

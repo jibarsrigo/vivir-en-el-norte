@@ -74,7 +74,7 @@ const CASA_NUEVO2 = [
   "Pontevedra ofrece más variedad de piso urbano que el resto de la zona. El centro histórico conserva edificios con carácter y ubicaciones muy caminables; el ensanche añade ascensor, garaje y distribuciones más recientes; las parroquias permiten buscar casa y terreno.",
   "En el casco conviene valorar accesibilidad antes que encanto. Escaleras, ausencia de ascensor, ventanas pequeñas o una orientación poco soleada pueden convertirse en problemas diarios. También hay que comprobar ruido si la vivienda queda junto a plazas, hostelería o recorridos festivos.",
   "El ensanche suele simplificar esas variables, pero puede introducir más tráfico. Una vivienda a diez minutos andando del centro puede ofrecer una vida casi igual de peatonal con menos limitaciones constructivas.",
-  "En las parroquias la ecuación cambia. Se puede ganar superficie, jardín y tranquilidad, pero la ventaja de “vivir en Pontevedra” deja de equivaler automáticamente a hacer la semana a pie.",
+  "En las parroquias la ecuación cambia. Se puede ganar superficie, jardín y tranquilidad, pero la ventaja de “vivir en Pontevedra” deja de equivaler automáticamente a organizar el día a día a pie.",
   "El precio medio municipal utilizado es 2.596 €/m².",
 ] as const;
 
@@ -100,7 +100,7 @@ const CASA_MERCADO_REVENTA = [
 ] as const;
 
 const ENCAJA_SI_NUEVO2 = [
-  "Encaja si se quiere una ciudad pequeña donde gran parte de la semana pueda hacerse andando y donde hospital, tren, comercio y cultura formen parte de la misma escala urbana.",
+  "Encaja si se quiere una ciudad pequeña donde compra y gestiones puedan hacerse andando y donde hospital, tren, comercio y cultura formen parte de la misma escala urbana.",
   "También si el paseo junto al río puede cubrir la necesidad cotidiana de exterior y basta con desplazarse cuando se quiere playa de mar.",
   "Puede encajar especialmente si se valora una ciudad plenamente activa durante todo el año, sin depender del calendario turístico para que haya servicios y vida en la calle.",
   "Y encaja si la proximidad al hospital y a las conexiones de Vigo y Santiago pesa más que vivir literalmente junto a un arenal.",

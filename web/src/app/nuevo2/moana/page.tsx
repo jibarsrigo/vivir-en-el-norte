@@ -51,21 +51,17 @@ const VIVIR_NUEVO2 = [
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
-  "Moaña actual nació de una red parroquial anterior a la villa lineal que hoy vemos junto al mar.",
-  "Meira, Moaña y Domaio estuvieron históricamente ligadas a Cangas. Durante el siglo XIX se configuró el municipio moderno y en 1874 adoptó el nombre de Moaña.",
-  "La iglesia de San Martiño conserva la memoria de aquel centro parroquial interior. San Xoán de Tirán ocupa otra posición histórica sobre la costa.",
-  "La industrialización marítima y conservera desplazó parte del peso hacia la costa. Meira y Moaña quedaron ligadas a pesca, marisqueo, conserva y posteriormente a una intensa cultura del remo.",
-  "El Fisgón recuerda una forma de pesca con fisga y luz y convierte un oficio de la ría en una referencia visible del paseo.",
-  "La apertura del puente de Rande transformó la conexión terrestre con Vigo. El ferry mantiene, además, una conexión marítima directa que sigue siendo útil cuando horarios y destino encajan.",
+  "Moaña actual nació de una red parroquial anterior a la villa lineal que hoy se ve junto a la ría de Vigo. Meira, Moaña y Domaio estuvieron históricamente ligadas a Cangas; durante el siglo XIX se configuró el municipio moderno y en 1874 adoptó el nombre de Moaña. Lo que parece un frente continuo de paseo y pisos fue antes una suma de parroquias con centros propios. Quien compra «en Moaña» sin mirar esa red confunde el municipio con una sola calle de orilla y se equivoca de rutina.",
+  "La iglesia de San Martiño conserva la memoria de un centro parroquial más interior; San Xoán de Tirán ocupa otra posición histórica sobre la costa, con vivienda e iglesia muy cerca del agua. La industrialización marítima y conservera desplazó parte del peso hacia la franja litoral: pesca, marisqueo y conserva organizaron Meira y Moaña durante generaciones. El remo —cultura de traineras muy viva en la ría— añadió identidad deportiva y de club sin sustituir el oficio. El Fisgón —figura que recuerda la pesca con fisga y luz— convierte ese pasado en una referencia visible del paseo.",
+  "La apertura del puente de Rande transformó la conexión terrestre con Vigo: lo que antes pedía rodeos o barco ganó un acceso rodado decisivo, también con el peaje del tráfico en hora punta. El ferry mantiene, además, una conexión marítima directa útil cuando horarios y destino encajan, sin depender del puente. Quien conozca Moaña solo por A Xunqueira debe sumar Domaio, Tirán, Rande y esa doble puerta hacia la ciudad.",
+  "Hoy, comprar «en Moaña» sigue siendo elegir entre franja central —paseo, mercado y ferry a pie— o altura y parroquias como Domaio, con más vistas al puente y más coche para bajar. El anuncio no distingue cuál de las dos.",
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
-  "A Xunqueira es la playa urbana más evidente. Tiene unos 600 metros, arena fina, agua tranquila y acceso directo al paseo marítimo. Desde la franja central puede utilizarse para caminar o bañarse sin coger el coche.",
-  "O Con queda hacia Tirán, al final de otro tramo del paseo. Es una playa urbana más pequeña, de unos 150 metros, y vuelve a permitir combinar baño y paseo.",
-  "El paseo marítimo es uno de los recorridos cotidianos más útiles de la franja central. Enlaza Meira con el entorno de O Con y acompaña bateas, barcos, zonas portuarias y actividad marisquera. Puede utilizarse para caminar a diario sin convertir la salida en una excursión.",
-  "Tirán añade pequeñas calas y una costa donde vivienda e iglesia se acercan mucho al agua.",
-  "Desde Domaio se puede subir hacia la zona alta del Faro de Domaio, pero ya es una salida de monte. El recorrido introduce pendiente y vistas sobre Rande y ambas rías; exige dedicar más tiempo y no debe confundirse con el paseo llano del frente marítimo.",
-  "Moaña ofrece así una separación muy clara: paseo y baño de ría para repetir a diario en la franja litoral; monte y miradores cuando se quiere una actividad de varias horas.",
+  "El mar está siempre cerca en Moaña, pero vivir en la franja central no es lo mismo que vivir en Domaio. A Xunqueira es la playa urbana más evidente: unos 600 metros de arena fina, agua de ría relativamente tranquila —en verano suele rondar los 18–20 °C— y acceso directo al paseo. Desde buena parte del frente central se puede caminar o bañarse sin sacar el coche. O Con queda hacia Tirán, al final de otro tramo del paseo: playa urbana más pequeña, de unos 150 metros, que vuelve a combinar baño y caminata. Un martes de junio en A Xunqueira suele haber holgura; un domingo de agosto el paseo se llena.",
+  "El paseo marítimo es el recorrido cotidiano más útil de la franja central. Enlaza Meira con el entorno de O Con y acompaña bateas —plataformas flotantes donde se cría mejillón—, barcos, zonas portuarias y actividad marisquera. No es un boulevard de ciudad grande: es frente de ría trabajada, con viento cuando la boca de la ría lo trae. Tirán añade pequeñas calas donde la vivienda se acerca mucho al agua; allí el salitre y la marea pesan más en la fachada.",
+  "Desde Domaio se puede subir hacia el Faro de Domaio —mirador de monte sobre Rande y ambas rías—, pero ya es salida de pendiente y tiempo, no la prolongación del paseo llano. El golf de Domaio y las vistas cambian el registro: monte y horizonte, no el baño urbano de A Xunqueira. Vigo queda al otro lado del agua en ferry o por el puente cuando hace falta la ciudad.",
+  "En la franja central el paseo y el baño de ría caben en la rutina casi todos los días; en Domaio o en altura las vistas quedan delante y la orilla urbana pide bajar o sacar el coche. Esa diferencia describe mejor Moaña que contar playas. Vigo y Pontevedra cubren hospital y escala mayor cuando hace falta lo que aquí no hay.",
 ] as const;
 
 const CASA_NUEVO2 = [

@@ -1,4 +1,4 @@
-{
+﻿{
     escala: "Villa romana sobre el Lima",
     abrir: [
       "Ponte de Lima se siente, al cruzar el puente de piedra, como la villa que el interior del Minho enseña cuando quiere ser hermosa. Unos cuarenta y cuatro mil habitantes en el concelho —unos tres mil en la villa—: puente romano-medieval sobre el Lima, plaza de la feria, Feiras Novas en septiembre —feria grande: ruido, afluencia, aparcamiento justo—, Festival de Jardines, Ecovia do Lima, Lagoas de Bertiandos —humedales protegidos—, viñedo de Loureiro y golf. Es interior de franja B: Cabedelo, la playa de surf de Viana, anda alrededor de los veinticinco minutos.",
@@ -52,7 +52,7 @@
       { src: "/fotos/alto-minho/ponte-jardines.jpg", pie: "Jardines y orilla del Lima en Ponte de Lima" },
     ],
     fotosFuera: [
-      { src: "/fotos/alto-minho/ponte-bertiandos.jpg", pie: "Lagoas de Bertiandos, Ponte de Lima" },
+      { src: "/fotos/alto-minho/ponte-bertiandos-humedal.jpg", pie: "Lagoas de Bertiandos al amanecer, Ponte de Lima" },
     ],
     creditoFotos: credito,
   }

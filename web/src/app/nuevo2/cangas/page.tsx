@@ -115,7 +115,7 @@ const NO_ENCAJA_SI_NUEVO2 = [
 ] as const;
 
 const QUE_COMPROBAR_NUEVO2 = [
-  "Pasar una jornada sin coche desde una vivienda de la villa y comprobar qué parte de la semana queda realmente a pie.",
+  "Pasar una jornada sin coche desde una vivienda de la villa y comprobar qué parte del día a día queda realmente a pie.",
   "Probar el ferry a Vigo si esa conexión es una razón importante para elegir Cangas.",
   "Visitar la microzona candidata en un fin de semana de verano y comprobar tráfico y aparcamiento.",
   "Hacer el recorrido real hasta la playa que se utilizaría con frecuencia.",

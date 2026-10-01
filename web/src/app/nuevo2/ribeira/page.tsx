@@ -24,7 +24,7 @@ const RESUMEN_ZONA_NUEVO2 = [
 ] as const;
 
 const COMO_SE_VIVE_NUEVO2 = [
-  "Ribeira funciona más como ciudad pequeña que como villa. Hospital, centros de salud, supermercados, mercado, colegios, institutos, biblioteca, auditorio, conservatorio, piscina, comercio y restauración permiten resolver una parte muy amplia de la semana sin salir del municipio.",
+  "Ribeira funciona más como ciudad pequeña que como villa. Hospital, centros de salud, supermercados, mercado, colegios, institutos, biblioteca, auditorio, conservatorio, piscina, comercio y restauración permiten cubrir una parte muy amplia del día a día sin salir del municipio.",
   "El puerto pesquero condiciona el centro. La lonja —el edificio donde se subasta y comercializa pescado recién desembarcado—, los barcos y el transporte asociado forman parte del paisaje laboral. Vivir cerca significa aceptar actividad real de puerto, no solo vistas al mar.",
   "Coroso es la playa más fácil de integrar en la rutina del casco. El paseo enlaza zonas urbanas con arena y permite caminar o bañarse sin coger el coche desde muchas calles.",
   "Palmeira, Aguiño y Castiñeiras ofrecen núcleos más pequeños. Allí se puede ganar proximidad al mar o una escala más tranquila, aunque parte de la autonomía peatonal del centro disminuye.",
@@ -50,21 +50,17 @@ const VIVIR_NUEVO2 = [
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
-  "Ribeira creció alrededor de la pesca y de un puerto que acabó convirtiéndose en uno de los grandes centros de desembarque de Galicia. La lonja, los muelles y la flota explican mejor la ciudad actual que un casco monumental.",
-  "La actividad pesquera generó empleo directo y también conserveras, talleres, transporte, comercio y servicios. Esa red explica por qué Ribeira desarrolló una escala urbana mayor que las villas vecinas.",
-  "El Dolmen de Axeitos muestra una historia mucho más antigua. Un dolmen es una tumba megalítica construida con grandes losas de piedra durante la Prehistoria. Axeitos conserva cámara y corredor y se menciona porque demuestra que el territorio estuvo ocupado miles de años antes del crecimiento portuario.",
-  "El Castro da Cidá es un asentamiento fortificado de la Edad del Hierro situado en una altura. Un castro era una aldea protegida por defensas; desde su emplazamiento se controlaba visualmente buena parte de la costa.",
-  "Corrubedo explica otra parte del municipio. Su parque natural protege una gran duna móvil, playas, marismas y dos lagunas: Carregal, de influencia salina, y Vixán, de agua dulce. Se menciona porque esa costa abierta contrasta radicalmente con el puerto y la ría del centro.",
-  "El archipiélago de Sálvora pertenece al municipio y forma parte del Parque Nacional das Illas Atlánticas de Galicia. Sálvora protege la entrada norte de la ría de Arousa y conserva faro, antigua aldea y memoria de naufragios. No es una playa cotidiana: es una salida marítima concreta y regulada.",
+  "Ribeira creció como villa de puerto en la boca de la ría de Arousa: lonja, flota y un casco que mira al trabajo del mar antes que a un paseo de veraneo. Lo que hoy parece ciudad costera de servicios fue antes una manera de vivir de la pesca y de la conserva. Palmeira y Aguiño añaden oficio y orilla sin sustituir el peso del centro. Quien llega solo por Corrubedo descubre que la identidad cotidiana se sostiene también en el Malecón, en la lonja y en el ruido de la flota.",
+  "El municipio es grande y desigual. Palmeira, Aguiño y Corrubedo no son barrios del mismo centro: son piezas con orilla y ritmo propios. Corrubedo —dunas, lagunas y fachada atlántica— añade una capa natural distinta del puerto urbano. Sálvora, en la boca de Arousa, amplía el mapa hacia isla protegida cuando el día pide barco. Quien conozca Ribeira solo por Coroso debe sumar ese arco desde el núcleo hasta el Atlántico abierto.",
+  "El hospital comarcal dentro del municipio cambia la historia práctica: aquí la sanidad de mayor escala no queda tan lejos como en otras villas de Barbanza. El mercado y el comercio denso del centro refuerzan esa autonomía de semana. El calendario de fiestas y de temporada marca agosto en la costa y un invierno más de puerto, de lonja y de vecinos. Quien mire Ribeira solo por la duna debe contar también con esa base urbana y con el peso del trabajo marítimo en la calle.",
+  "Hoy, comprar «en Ribeira» sigue siendo elegir entre centro —servicios y Coroso a pie— o Palmeira / Aguiño / Corrubedo, con más orilla concreta y otra dosis de coche. El anuncio no distingue cuál de las cuatro ni cuánto cambia el ruido entre lonja y duna, ni cuánto viento entra en una casa abierta al Atlántico en invierno.",
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
-  "Coroso es la playa cotidiana del núcleo. Tiene paseo, arena de ría y agua generalmente más tranquila que la fachada atlántica.",
-  "Río Azor, Castiñeiras y Aguiño añaden otras playas y tramos costeros. El carácter cambia progresivamente a medida que se avanza hacia la boca de la ría.",
-  "Corrubedo es una salida distinta. El Parque Natural do Complexo Dunar de Corrubedo e Lagoas de Carregal e Vixán protege dunas, lagunas y una larga fachada de playas abiertas al Atlántico. Allí el viento y el oleaje tienen más peso.",
-  "El paseo urbano puede prolongarse desde el Malecón y el puerto hacia Coroso y otras zonas costeras. Es el recorrido más fácil de repetir sin coche.",
-  "El río Artes ofrece una ruta fluvial más larga, con vegetación de ribera y molinos hasta el entorno de la laguna de Carregal. Es una salida de varias horas, no un paseo urbano corto.",
-  "Sálvora requiere barco autorizado o excursión organizada. Su interés reside precisamente en salir del tejido urbano y entender la boca de Arousa desde una isla protegida.",
+  "El mar está siempre cerca en Ribeira, pero vivir en el centro no es lo mismo que vivir hacia Corrubedo. Coroso es la playa cotidiana del núcleo: paseo, arena de ría y agua generalmente más tranquila que la fachada atlántica; en verano suele rondar los 18–20 °C. Río Azor, Castiñeiras y Aguiño añaden otras playas y tramos costeros cuyo carácter cambia a medida que se avanza hacia la boca de la ría. Quien vive junto a Coroso puede bajar a la arena andando; quien vive hacia Corrubedo convierte el centro en trayecto. Un martes de junio en Coroso suele haber holgura; un domingo de agosto el paseo se llena.",
+  "Para caminar andando desde el centro, el Malecón y el puerto hacia Coroso convierten la orilla urbana en horizonte cercano. No es un boulevard de ciudad grande: es frente de villa pesquera con actividad laboral y viento de ría. El río Artes ofrece una ruta fluvial más larga, con vegetación de ribera y molinos hasta el entorno de la laguna de Carregal: salida de varias horas, no paseo urbano corto.",
+  "Corrubedo es otra cosa del mismo municipio. El Parque Natural do Complexo Dunar de Corrubedo e Lagoas de Carregal e Vixán protege dunas, lagunas y una larga fachada de playas abiertas al Atlántico; allí el viento y el oleaje tienen más peso. Sálvora requiere barco autorizado o excursión organizada: su interés está en salir del tejido urbano y leer la boca de Arousa desde una isla protegida.",
+  "En el centro Coroso y el puerto caben en la rutina casi todos los días; hacia Corrubedo o Aguiño la orilla elegida pesa más y el hospital-comercio del núcleo pide trayecto. Esa diferencia describe mejor Ribeira que contar playas. El hospital comarcal cubre la sanidad de mayor escala dentro del propio municipio.",
 ] as const;
 
 const CASA_NUEVO2 = [

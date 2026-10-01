@@ -63,7 +63,7 @@ const DE_DONDE_VIENE_NUEVO2 = [
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
-  "Poio dispone de mucha costa, pero la relación con el baño depende de dónde se viva.",
+  "Poio dispone de mucha costa, pero poder bañarse cerca depende de dónde se viva.",
   "Lourido y Cabeceira quedan muy cerca de Pontevedra y permiten una salida corta desde las zonas orientales del municipio. Son playas de ría, más protegidas que los grandes arenales atlánticos.",
   "Combarro ofrece agua y puerto delante del casco, pero no debe confundirse ese paisaje con tener una gran playa urbana.",
   "Raxó sí incorpora pequeñas playas al núcleo. Vivir allí puede permitir bajar andando al agua según la dirección concreta, algo que no se puede generalizar a todo Poio.",

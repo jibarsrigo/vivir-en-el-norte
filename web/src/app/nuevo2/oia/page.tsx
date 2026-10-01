@@ -43,7 +43,7 @@ const CLIMA_NUEVO2 = [
 
 const VIVIR_NUEVO2 = [
   "El cambio no termina en el clima. Oia ofrece mucha costa pero poca ciudad. En la vida diaria hay que distinguir qué puede resolverse en el propio núcleo y para qué será necesario conducir hacia A Guarda, Baiona o Vigo.",
-  "También cambia la relación con el mar. Aquí el Atlántico puede estar delante de la ventana y, sin embargo, no existir debajo de casa una gran playa de arena en la que instalar espontáneamente una tarde de baño. La costa de Oia es abierta y rocosa; sus pequeños espacios de baño, las mareas y las pozas interiores obligan a relacionarse con el agua de otra manera.",
+  "También cambia cómo se vive el mar. Aquí el Atlántico puede estar delante de la ventana y, sin embargo, no existir debajo de casa una gran playa de arena en la que instalar espontáneamente una tarde de baño. La costa de Oia es abierta y rocosa; sus pequeños espacios de baño, las mareas y las pozas interiores obligan a relacionarse con el agua de otra manera.",
   "El coche adquiere por eso un papel importante. No necesariamente hace falta cogerlo para salir a caminar si la vivienda está junto al Camino o en Santa María, pero aparece con facilidad para compras mayores, determinados servicios, playas más cómodas o actividades situadas en otra parroquia.",
   "Mar, monte y pequeños núcleos rurales están muy juntos físicamente. Desde la costa se puede pasar en pocos kilómetros de las casas junto al Atlántico a pistas y caminos de la sierra de A Groba. Esa proximidad no elimina la dispersión: forma parte de ella.",
   "El Camino Portugués de la Costa añade además un ritmo propio. Los peregrinos atraviesan unos veinte kilómetros del municipio y pasan por varios de sus núcleos. Su presencia da movimiento a determinados tramos y negocios, sobre todo en temporada, pero Oia continúa siendo un municipio pequeño cuando esa circulación baja.",
@@ -106,7 +106,7 @@ const ENCAJA_SI_NUEVO2 = [
 ] as const;
 
 const NO_ENCAJA_SI_NUEVO2 = [
-  "Puede encajar peor si se necesita resolver casi toda la semana andando desde un único centro. Hay servicios locales, pero comercio amplio, determinados trámites, atención hospitalaria y muchas actividades obligan a ampliar el radio.",
+  "Puede encajar peor si se necesita organizar el día a día andando desde un único centro. Hay servicios locales, pero comercio amplio, determinados trámites, atención hospitalaria y muchas actividades obligan a ampliar el radio.",
   "También si depender del coche para una parte importante de la vida diaria resulta un problema. El autobús ofrece conexiones útiles por la costa y hacia Vigo, pero la dispersión del municipio hace que no todas las viviendas tengan la misma relación con esas paradas ni con los horarios.",
   "Y si la expectativa principal es salir de casa a una playa amplia, arenosa y utilizable con independencia de la marea, Santa María puede decepcionar pese a tener el Atlántico literalmente delante. Oia ofrece mucha costa; eso no significa ofrecer la misma experiencia de playa que Mallorca.",
 ] as const;

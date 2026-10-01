@@ -105,13 +105,13 @@ const CASA_FILA_PRECIOS = {
 const ENCAJA_SI_NUEVO2 = [
   "Puede encajar si se busca una casa con finca y se acepta que la contrapartida sea una vida más dispersa y dependiente del coche.",
   "También si el río puede sustituir al mar como paisaje cotidiano. En Goián se puede caminar junto al Miño, utilizar la playa fluvial, pasar tiempo en Espazo Fortaleza y cruzar a Cerveira sin organizar una excursión.",
-  "Puede encajar especialmente si la relación con Portugal resulta atractiva. La Ponte da Amizade hace que la frontera tenga una dimensión práctica: mercado, restaurantes, actividades y paseos pueden quedar al otro lado de un trayecto muy corto.",
+  "Puede encajar especialmente si cruzar a Portugal resulta atractivo. La Ponte da Amizade hace que la frontera tenga una dimensión práctica: mercado, restaurantes, actividades y paseos pueden quedar al otro lado de un trayecto muy corto.",
   "Y puede encajar si se entiende que Tomiño no es una experiencia única. Elegir bien entre O Seixo, Goián y una parroquia más rural permite ajustar bastante la relación entre servicios, río, terreno y tranquilidad.",
 ] as const;
 
 const NO_ENCAJA_SI_NUEVO2 = [
   "Puede encajar peor si el objetivo principal de la mudanza es tener un verano claramente costero y el Atlántico a pie. Tomiño es valle y río; para playa marítima hay que conducir.",
-  "También si se quiere resolver casi toda la semana andando desde un único casco compacto. Hay núcleos con servicios, pero el municipio funciona mediante varios centros y muchas viviendas dispersas.",
+  "También si se quiere organizar el día a día andando desde un único casco compacto. Hay núcleos con servicios, pero el municipio funciona mediante varios centros y muchas viviendas dispersas.",
   "Puede resultar menos adecuado si el coche se quiere reducir al mínimo. Una casa aparentemente cercana en el mapa puede exigir varios desplazamientos diarios cuando se suman compra, actividades y servicios.",
   "Y puede encajar peor si el calor de valle o la humedad de una casa con finca son aspectos poco tolerables. Una visita agradable junto al río no sustituye probar cómo se vive la vivienda en una tarde cálida y después de varios días de lluvia.",
 ] as const;

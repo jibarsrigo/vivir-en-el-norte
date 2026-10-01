@@ -1,4 +1,4 @@
-{
+﻿{
   "tipo": "municipio",
   "slug": "afife-carreco",
   "nombre": "Afife-Carreço (Viana)",
@@ -65,8 +65,8 @@
     },
     "fotosAbrir": [
       {
-        "src": "/fotos/alto-minho/afife-aldea.jpg",
-        "pie": "Afife: aldea de granito"
+        "src": "/fotos/alto-minho/carreco-playa.jpg",
+        "pie": "Carreço: pasarela de duna y casas en la ladera hacia Montedor"
       },
       {
         "src": "/fotos/alto-minho/afife-playa.jpg",

@@ -1,4 +1,4 @@
-import type { RelatoMun } from "@/components/RelatoMunicipio";
+﻿import type { RelatoMun } from "@/components/RelatoMunicipio";
 
 const credito = "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen).";
 
@@ -300,7 +300,7 @@ export const RELATOS_ALTO_MINHO: Record<string, RelatoMun> = {
  pie: "Afife–Carreço: casa entre pinos con el Atlántico al fondo",
  },
  fotosAbrir: [
- { src: "/fotos/alto-minho/afife-aldea.jpg", pie: "Afife: aldea de granito" },
+ { src: "/fotos/alto-minho/carreco-playa.jpg", pie: "Carreço: pasarela de duna y casas en la ladera hacia Montedor" },
  { src: "/fotos/alto-minho/afife-playa.jpg", pie: "Playa de Afife" },
  ],
  fotosHistoria: [
@@ -407,7 +407,7 @@ export const RELATOS_ALTO_MINHO: Record<string, RelatoMun> = {
  { src: "/fotos/alto-minho/ponte-jardines.jpg", pie: "Jardines y orilla del Lima en Ponte de Lima" },
  ],
  fotosFuera: [
- { src: "/fotos/alto-minho/ponte-bertiandos.jpg", pie: "Lagoas de Bertiandos, Ponte de Lima" },
+ { src: "/fotos/alto-minho/ponte-bertiandos-humedal.jpg", pie: "Lagoas de Bertiandos al amanecer, Ponte de Lima" },
  ],
  creditoFotos: credito,
   },

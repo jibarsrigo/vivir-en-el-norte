@@ -53,21 +53,17 @@ const VIVIR_NUEVO2 = [
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
-  "Sanxenxo creció sobre una base marinera y parroquial que el turismo transformó con enorme intensidad durante el siglo XX.",
-  "Portonovo conserva mejor la relación visible con pesca y lonja. El puerto sigue recordando que antes de convertirse en destino de veraneo esta costa trabajaba con el mar.",
-  "La villa de Sanxenxo cambió de otra manera. Silgar pasó de playa junto a un pequeño núcleo a frente urbano con paseo, hoteles, apartamentos y uno de los puertos deportivos más importantes de Galicia.",
-  "A Lanzada aporta una historia mucho más antigua. Junto al arenal se conservan restos arqueológicos y la ermita de Nosa Señora da Lanzada. El lugar combina paisaje atlántico, ocupación antigua y tradiciones ligadas al baño de las nueve olas.",
-  "El resultado actual son varias identidades superpuestas: villa turística, puerto marinero, parroquias interiores y una costa exterior que mantiene espacios mucho menos urbanos.",
+  "Sanxenxo creció sobre una base marinera y parroquial que el turismo transformó con enorme intensidad durante el siglo XX. Portonovo conserva mejor la relación visible con pesca y lonja: el puerto sigue recordando que antes de convertirse en destino de veraneo esta costa trabajaba con el mar. Lo que hoy parece un continuo de paseos y apartamentos fue antes una red de núcleos con oficio propio. Quien compra «en Sanxenxo» sin distinguir Silgar de Portonovo confunde el municipio con una sola postal de agosto.",
+  "La villa de Sanxenxo cambió de otra manera. Silgar pasó de playa junto a un pequeño núcleo a frente urbano con paseo, hoteles, apartamentos y uno de los puertos deportivos más importantes de Galicia. Esa transformación no borró del todo el invierno: dejó una villa que en temporada se multiplica y fuera de ella se encoge hacia residentes y servicios básicos. El contraste entre agosto y un martes de noviembre forma parte de la historia reciente tanto como la lonja de Portonovo.",
+  "A Lanzada aporta una historia mucho más antigua. Junto al arenal se conservan restos arqueológicos y la ermita de Nosa Señora da Lanzada; el lugar combina paisaje atlántico, ocupación antigua y tradiciones ligadas al baño de las nueve olas. No es una prolongación de Silgar: es costa exterior, viento y espacio abierto. El resultado actual son varias identidades superpuestas: villa turística, puerto marinero, parroquias interiores y una orilla atlántica menos urbana. Quien conozca Sanxenxo solo por Silgar debe sumar Portonovo y A Lanzada.",
+  "Hoy, comprar «en Sanxenxo» sigue siendo elegir entre Silgar —playa y paseo a pie, precio alto— o Portonovo y parroquias exteriores, con otra mezcla de oficio, segunda residencia y coche. El anuncio no distingue cuál de las tres.",
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
-  "En Sanxenxo es fácil distinguir lo cotidiano de la salida deliberada.",
-  "Silgar es la playa urbana de la villa. Desde una vivienda céntrica puede utilizarse para un baño, una caminata o una vuelta al final de la tarde sin coger el coche.",
-  "Portonovo ofrece Baltar y Caneliñas dentro de su propia trama. Canelas queda inmediatamente después y sigue siendo accesible desde muchas viviendas del núcleo.",
-  "El Sendero Azul Sanxenxo–Portonovo enlaza ambos centros pasando por Silgar, Punta Vicaño, Baltar, el puerto de Portonovo y el mirador de Caneliñas. La guía turística municipal sitúa el recorrido en unos 8,6 km; para la vida diaria puede utilizarse solo un tramo y regresar cuando convenga.",
-  "Montalvo, Major y A Lanzada están fuera de los dos núcleos principales. Para muchas viviendas exigen coche y, en verano, el aparcamiento forma parte de la salida.",
-  "A Lanzada es un arenal largo y mucho más expuesto al Atlántico. El sendero azul de su entorno recorre unos 3 km y conecta paisaje, yacimiento y ermita. Aquí el viento, el oleaje y el espacio abierto son muy distintos de Silgar.",
-  "La combinación permite elegir entre baño urbano y costa más abierta. El error sería comprar en una parroquia exterior pensando que todas esas playas forman parte de la misma rutina peatonal.",
+  "El mar está siempre cerca en Sanxenxo, pero vivir en Silgar no es lo mismo que vivir hacia A Lanzada. Silgar es la playa urbana de la villa: desde una vivienda céntrica se puede bañar, caminar o dar una vuelta al final de la tarde sin sacar el coche. En verano el agua suele rondar los 18–20 °C y el aparcamiento forma parte del plan. Portonovo ofrece Baltar y Caneliñas dentro de su propia trama; Canelas queda inmediatamente después y sigue siendo accesible desde muchas viviendas del núcleo. Un martes de junio en Silgar suele haber holgura; un domingo de agosto el paseo se llena.",
+  "El Sendero Azul Sanxenxo–Portonovo enlaza ambos centros pasando por Silgar, Punta Vicaño, Baltar, el puerto de Portonovo y el mirador de Caneliñas. La guía turística municipal sitúa el recorrido en unos 8,6 km; para la vida diaria puede utilizarse solo un tramo y regresar cuando convenga. No es obligatorio completarlo: es una red de orilla caminable entre dos polos, con viento de ría y tramos más urbanos.",
+  "Montalvo, Major y A Lanzada están fuera de los dos núcleos principales. Para muchas viviendas exigen coche y, en verano, el aparcamiento es parte de la salida. A Lanzada es un arenal largo y mucho más expuesto al Atlántico: el sendero de su entorno recorre unos 3 km y conecta paisaje, yacimiento y ermita. Aquí el oleaje, el viento y el espacio abierto son muy distintos de Silgar; no conviene tratarla como la playa cotidiana del piso junto al paseo.",
+  "En Silgar o Portonovo el baño urbano cabe en la rutina casi todos los días; en parroquias exteriores la playa elegida pide trayecto y el verano se nota más en el acceso. Esa diferencia describe mejor Sanxenxo que contar arenales. Pontevedra cubre hospital y escala de ciudad cuando hace falta lo que aquí no hay.",
 ] as const;
 
 const CASA_NUEVO2 = [

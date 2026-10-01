@@ -1,4 +1,4 @@
-{
+﻿{
     escala: "Aldea de granito entre monte y mar",
     abrir: [
       "Afife y Carreço son parroquias costeras dispersas del concelho de Viana do Castelo: granito, viñas en pérgola, Serra d'Arga detrás y Atlántico delante. Paçô y el faro de Montedor marcan tramos del litoral; Areosa queda en el entorno. No son un único núcleo urbano ni equivalen a Viana ciudad. La playa cotidiana depende de la vivienda: en algunas casas el mar está cerca; en otras la dispersión exige coche incluso viviendo «junto al mar».",
@@ -41,7 +41,7 @@
  pie: "Afife–Carreço: casa entre pinos con el Atlántico al fondo",
  },
  fotosAbrir: [
- { src: "/fotos/alto-minho/afife-aldea.jpg", pie: "Afife: aldea de granito" },
+ { src: "/fotos/alto-minho/carreco-playa.jpg", pie: "Carreço: pasarela de duna y casas en la ladera hacia Montedor" },
  { src: "/fotos/alto-minho/afife-playa.jpg", pie: "Playa de Afife" },
  ],
  fotosHistoria: [

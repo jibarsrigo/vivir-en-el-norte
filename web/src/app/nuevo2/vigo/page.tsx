@@ -25,10 +25,10 @@ const RESUMEN_ZONA_NUEVO2 = [
 
 const COMO_SE_VIVE_NUEVO2 = [
   "Vigo mantiene actividad durante todo el año. Puerto, hospitales, comercio, universidad, industria, colegios y oficinas hacen que enero no dependa de la temporada turística.",
-  "En el centro se puede vivir con poca dependencia del coche si la vivienda está bien elegida. Mercados, supermercados, farmacias, restauración, cultura y una red amplia de autobuses permiten resolver gran parte de la semana dentro de la ciudad.",
+  "En el centro se puede vivir con poca dependencia del coche si la vivienda está bien elegida. Mercados, supermercados, farmacias, restauración, cultura y una red amplia de autobuses permiten hacer compra y buena parte de las gestiones dentro de la ciudad.",
   "La pendiente cambia mucho lo que significa vivir cerca de algo. Una distancia corta sobre el mapa puede incluir una subida exigente. Antes de valorar una vivienda conviene caminar hasta la compra, la parada de autobús o el aparcamiento y comprobar el desnivel real.",
   "Coia y Travesas ofrecen otra forma de ciudad: bloques residenciales, comercio cotidiano, colegios y buenas conexiones urbanas sin la presión del centro. Bouzas combina vida de barrio, puerto y paseo litoral, pero algunas calles notan actividad portuaria, restauración y celebraciones.",
-  "Alcabre cambia la relación con el mar. Samil puede quedar a pocos minutos y aparecen más casas, urbanizaciones y pequeños edificios. En Coruxo, Oia y Saiáns aumenta la posibilidad de jardín, vistas o costa próxima, pero también la necesidad de coche para compras, colegio o actividades si la vivienda queda apartada de los ejes de autobús.",
+  "Alcabre cambia cómo se vive el mar. Samil puede quedar a pocos minutos y aparecen más casas, urbanizaciones y pequeños edificios. En Coruxo, Oia y Saiáns aumenta la posibilidad de jardín, vistas o costa próxima, pero también la necesidad de coche para compras, colegio o actividades si la vivienda queda apartada de los ejes de autobús.",
   "Vigo cuenta con hospitales y centros de salud dentro del propio municipio. El Álvaro Cunqueiro y la red hospitalaria viguesa permiten resolver atención especializada sin desplazarse a otra ciudad.",
   "El aeropuerto de Vigo está dentro del entorno inmediato de la ciudad. La conexión directa con Palma es limitada o estacional, por lo que Santiago sigue siendo una alternativa cuando hace falta más continuidad anual.",
   "El tren y los autobuses amplían las opciones para salir sin coche. Aun así, una vivienda costera mal conectada puede hacer que la semana dependa bastante del vehículo aunque administrativamente se viva en una gran ciudad.",
@@ -79,7 +79,7 @@ const MAR_RIO_CAMINO_NUEVO2 = [
 
 const CASA_NUEVO2 = [
   "Vigo tiene un mercado residencial muy diverso.",
-  "En el centro, Ensanche, Travesas o Coia predominan pisos de distintas décadas. La prioridad suele estar en ascensor, garaje, orientación, ruido y facilidad para hacer la semana andando.",
+  "En el centro, Ensanche, Travesas o Coia predominan pisos de distintas décadas. La prioridad suele estar en ascensor, garaje, orientación, ruido y facilidad para compra y gestiones andando.",
   "En Bouzas y Alcabre aparecen edificios y casas próximas al litoral. La cercanía a Samil o las vistas hacia las Cíes aumentan el precio y también hacen más importante revisar exposición al salitre, tráfico de verano y aparcamiento.",
   "Coruxo, Oia y Saiáns ofrecen más casas, parcelas y pequeños núcleos. Allí la pregunta principal no es solo cuánto terreno se obtiene, sino cuánto coche exige cada actividad.",
   "En zonas altas hay que comprobar pendiente tanto dentro como fuera de la parcela. Un acceso que parece sencillo en coche puede ser poco amable andando, y una casa con varias plantas puede ser incómoda a largo plazo.",

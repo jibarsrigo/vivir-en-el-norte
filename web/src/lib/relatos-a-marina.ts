@@ -48,16 +48,16 @@ export const RELATOS_A_MARINA: Record<string, RelatoMun> = {
       pie: "O Vicedo: casas junto a la ría, con el monte detrás",
     },
     fotosAbrir: [
-      { src: "/fotos/a-marina/vicedo-villa.jpg", pie: "O Vicedo: villa marinera en el extremo occidental" },
-      { src: "/fotos/a-marina/vicedo-puerto.jpg", pie: "Puerto y orilla de trabajo en O Vicedo" },
+      { src: "/fotos/a-marina/vicedo-villa.jpg", pie: "Núcleo de O Vicedo junto a la ría do Barqueiro" },
+      { src: "/fotos/a-marina/vicedo-horizonte.jpg", pie: "Arealonga y la ría do Barqueiro desde el mirador" },
     ],
     fotosHistoria: [
-      { src: "/fotos/a-marina/vicedo-faro.jpg", pie: "Faro y horizonte hacia Estaca de Bares" },
-      { src: "/fotos/a-marina/vicedo-ria.jpg", pie: "Ría do Barqueiro junto a O Vicedo" },
+      { src: "/fotos/a-marina/vicedo-ria.jpg", pie: "Casa y campos mirando a la ría do Barqueiro" },
+      { src: "/fotos/a-marina/vicedo-faro.jpg", pie: "Fuciño do Porco: Punta Socastro sobre el Cantábrico" },
     ],
     fotosFuera: [
-      { src: "/fotos/a-marina/vicedo-playa.jpg", pie: "Playa atlántica en O Vicedo" },
-      { src: "/fotos/a-marina/vicedo-costa.jpg", pie: "Costa y acantilados de O Vicedo" },
+      { src: "/fotos/a-marina/vicedo-barqueiro.jpg", pie: "Boca de la ría do Barqueiro a marea baja" },
+      { src: "/fotos/a-marina/vicedo-costa.jpg", pie: "Pasarelas de Fuciño do Porco sobre el acantilado" },
     ],
     creditoFotos: credito,
   },
@@ -103,15 +103,16 @@ export const RELATOS_A_MARINA: Record<string, RelatoMun> = {
         "Viveiro combina una villa histórica que funciona todo el año con puerto de oficio y una Covas más marítima y estacional. Su equilibrio depende mucho de escoger bien entre casco, Celeiro y Covas: se gana autonomía cotidiana y variedad de paseos, mientras hospital, aeropuerto y algunas salidas quedan fuera del radio inmediato."
     },
     fotosAbrir: [
-      { src: "/fotos/a-marina/viveiro-casco.jpg", pie: "Casco de Viveiro hacia la ría" },
-      { src: "/fotos/a-marina/viveiro-covas.jpg", pie: "Covas, playa larga en ría abrigada" },
+      { src: "/fotos/a-marina/viveiro-porta.jpg", pie: "Porta de Carlos V: entrada al casco de Viveiro" },
+      { src: "/fotos/a-marina/viveiro-covas.jpg", pie: "Covas: playa de ría y Os Castelos" },
     ],
     fotosHistoria: [
-      { src: "/fotos/a-marina/viveiro-porta.jpg", pie: "Porta de Carlos V, arco del casco amurallado" },
+      { src: "/fotos/a-marina/viveiro-celeiro.jpg", pie: "Puerto de Celeiro desde la orilla" },
+      { src: "/fotos/a-marina/viveiro-casco.jpg", pie: "Viveiro y la ría desde el monte" },
     ],
     fotosFuera: [
-      { src: "/fotos/a-marina/viveiro-celeiro.jpg", pie: "Puerto de Celeiro, lonja y merluza del pincho" },
-      { src: "/fotos/a-marina/viveiro-ria.jpg", pie: "Ría de Viveiro desde Covas" },
+      { src: "/fotos/a-marina/viveiro-ria.jpg", pie: "Ría de Viveiro hacia Covas" },
+      { src: "/fotos/a-marina/viveiro-identidad.jpg", pie: "Mirador sobre la ría de Viveiro" },
     ],
     creditoFotos: credito,
   },
@@ -157,15 +158,16 @@ export const RELATOS_A_MARINA: Record<string, RelatoMun> = {
         "Xove es un municipio disperso donde San Bartolomé concentra una parte de la vida cotidiana y la costa exige cambiar de escenario. Ofrece equipamientos propios y un litoral potente, a cambio de bastante coche, fibra que debe comprobarse y la convivencia territorial con el complejo industrial de San Ciprián."
     },
     fotosAbrir: [
-      { src: "/fotos/a-marina/xove-villa.jpg", pie: "Xove: núcleos entre costa y parroquias" },
-      { src: "/fotos/a-marina/xove-playa.jpg", pie: "Esteiro, playa de arcos y surf" },
+      { src: "/fotos/a-marina/xove-villa.jpg", pie: "San Bartolomé: Casa do Concello de Xove" },
+      { src: "/fotos/a-marina/xove-playa.jpg", pie: "Esteiro: playa abierta al Cantábrico" },
     ],
     fotosHistoria: [
-      { src: "/fotos/a-marina/xove-portocelo.jpg", pie: "Portocelo, orilla de Xove" },
-      { src: "/fotos/a-marina/xove-parroquia.jpg", pie: "Parroquia y escala dispersa en Xove" },
+      { src: "/fotos/a-marina/xove-faro.jpg", pie: "Faro de Punta Roncadoira" },
+      { src: "/fotos/a-marina/xove-portocelo.jpg", pie: "Restos de piedra junto al mar en Xove" },
     ],
     fotosFuera: [
-      { src: "/fotos/a-marina/xove-faro.jpg", pie: "Faro de Punta Roncadoira en la costa de Xove" },
+      { src: "/fotos/a-marina/xove-portocelo-playa.jpg", pie: "Portocelo: ensenada más recogida" },
+      { src: "/fotos/a-marina/xove-parroquia.jpg", pie: "Granito y Cantábrico en la costa de Xove" },
     ],
     creditoFotos: credito,
   },

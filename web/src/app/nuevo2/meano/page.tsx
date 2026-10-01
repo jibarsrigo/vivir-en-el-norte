@@ -91,7 +91,7 @@ const ENCAJA_SI_NUEVO2 = [
 ] as const;
 
 const NO_ENCAJA_SI_NUEVO2 = [
-  "Se quiere resolver gran parte de la semana andando desde casa.",
+  "Se quiere hacer compra y buena parte de las gestiones andando desde casa.",
   "La playa marítima debe quedar a pie o formar parte espontánea de cada tarde.",
   "Una vivienda con humedad, parcela exigente, mala orientación o internet incierto sería una carga difícil de asumir.",
 ] as const;

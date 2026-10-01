@@ -1,4 +1,4 @@
-{
+﻿{
     escala: "Aldea de granito entre monte y mar",
     abrir: [
       "Afife —unos mil quinientos habitantes— y Carreço —unos mil ochocientos—, con Areosa a continuación, se sienten como el pueblo donde el Alto Minho más se parece a vivir en granito con océano cerca. Son las freguesias del norte de Viana: aldeas de piedra entre la Serra d'Arga —825 m, caballos, aldeas de monte— y el mar, viñas en pérgola, huertas, molinos y faro de Montedor en Carreço, playas de Afife —surf, orilla abierta— y Paçô a unos tres minutos, apeaderos de tren hacia Viana.",
@@ -50,7 +50,7 @@
       pie: "Afife–Carreço: casa entre pinos con el Atlántico al fondo",
     },
     fotosAbrir: [
-      { src: "/fotos/alto-minho/afife-aldea.jpg", pie: "Afife: aldea de granito" },
+      { src: "/fotos/alto-minho/carreco-playa.jpg", pie: "Carreço: pasarela de duna y casas en la ladera hacia Montedor" },
       { src: "/fotos/alto-minho/afife-playa.jpg", pie: "Playa de Afife" },
     ],
     fotosHistoria: [

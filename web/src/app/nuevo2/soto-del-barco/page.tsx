@@ -58,7 +58,7 @@ const MAR_RIO_CAMINO_NUEVO2 = [
   "Si se continúa hacia la costa aparece Los Quebrantos, la única playa del municipio, comunicada directamente con San Juan. Tiene unos 800 metros y continúa con el playón de Bayas hasta formar un arenal de más de tres kilómetros.",
   "Aquí el mar ya no es la ría protegida por el puerto. Es Cantábrico abierto. La playa dispone de acceso sencillo, aparcamiento, carril bici independiente y acceso adaptado al baño, además de servicios estivales. También se utiliza para surf.",
   "Puerto y desembocadura pueden entrar en un paseo corto; Los Quebrantos permite alargarlo hasta una costa mucho más abierta. Tener la playa al lado no significa tener siempre un baño fácil: el estado del Cantábrico importa más que la distancia desde casa.",
-  "En Soto la relación con el agua es distinta. El Nalón sigue estando presente, pero puerto y playa no forman parte inmediata de la vida doméstica como pueden hacerlo en San Juan.",
+  "En Soto el agua se vive de otra forma. El Nalón sigue estando presente, pero puerto y playa no forman parte inmediata de la vida doméstica como pueden hacerlo en San Juan.",
   "El Camino de Santiago todavía conduce hacia el antiguo embarcadero del Castillo de San Martín, pero la barca que permitía continuar directamente hacia la otra orilla ya no existe. Para cruzar hoy hay que volver a la carretera y utilizar el puente.",
 ] as const;
 

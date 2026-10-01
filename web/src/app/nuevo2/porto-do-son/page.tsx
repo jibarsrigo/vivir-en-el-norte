@@ -92,7 +92,7 @@ const ENCAJA_SI_NUEVO2 = [
 ] as const;
 
 const NO_ENCAJA_SI_NUEVO2 = [
-  "La semana debe resolverse andando.",
+  "Compra y gestiones deben caber andando.",
   "Fibra garantizada y comercio amplio son imprescindibles.",
   "Viento, oleaje y mantenimiento costero serían un problema constante.",
 ] as const;

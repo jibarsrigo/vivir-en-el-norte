@@ -52,22 +52,22 @@ const VIVIR_NUEVO2 = [
 ] as const;
 
 const DE_DONDE_VIENE_NUEVO2 = [
-  "El castillo de Soutomaior ocupa una posición estratégica sobre el valle y las rutas que unían el sur y el norte de Galicia.",
-  "Su origen es medieval y estuvo ligado a la familia Sotomayor. Pedro Álvarez de Sotomayor, conocido como Pedro Madruga, es la figura histórica más asociada a la fortaleza del siglo XV.",
-  "Las guerras y revueltas medievales dañaron y transformaron el recinto. Con el tiempo perdió función militar y en el siglo XIX fue convertido en residencia, incorporando jardines y especies ornamentales.",
-  "Arcade creció en una posición de paso junto al Verdugo y el fondo de la ría. La estación, la carretera y el Camino Portugués reforzaron esa función.",
-  "Ponte Sampaio, en la orilla pontevedresa del Verdugo frente a Arcade, recuerda la batalla de 1809 contra las tropas napoleónicas. El puente sigue formando parte del Camino Portugués y mantiene hoy ese paso histórico dentro de un recorrido todavía utilizado.",
-  "El cultivo y la comercialización de ostras en la desembocadura del Verdugo forman parte de la identidad de Arcade. Esa actividad dio origen en 1987 a la Festa da Ostra.",
+  "Soutomaior no se explica como villa marinera de primera línea: se explica como municipio de interior de ría, con el castillo y el Lérez/Verdugo marcando el paisaje y Vigo y Pontevedra como ciudades de apoyo cercanas. El Castelo de Soutomaior —fortaleza medieval ampliada y restaurada, con jardines y un perfil reconocible— concentra buena parte de la identidad visible: no es un adorno turístico aislado, es el ancla histórica del nombre. Quien llega buscando playa atlántica a pie se equivoca de ficha; quien busca piedra, ribera y quietud relativa, no.",
+  "La historia del castillo atraviesa linajes, conflictos y usos posteriores que lo devolvieron al mapa público. Visitarlo es entender por qué el municipio mira más al valle y a la defensa de paso que al oficio de lonja. Alrededor, parroquias y núcleos dispersos sostienen una vida de coche: la escala no es de casco denso con súper bajo la ventana, sino de casas y pequeñas agrupaciones entre verde y pendientes suaves hacia la ría interior.",
+  "Arcade aporta otra capa: núcleo con más actividad cotidiana y una relación más directa con la ría de Vigo en su tramo interior, donde el agua es lámina de estuario y no océano abierto. Esa diferencia dentro del mismo municipio importa al comprar: Arcade no es el castillo, y el castillo no es Arcade. El anuncio «Soutomaior» puede ocultar cuál de los dos polos se elige y cuántos minutos quedan hasta la compra seria o hasta Vigo.",
+  "El municipio creció a la sombra de las dinámicas de Vigo y Pontevedra: residencia, trayecto laboral y fin de semana en un territorio más barato o más verde que la primera línea de Val Miñor o del Morrazo. Esa historia reciente de «vivir cerca de la ciudad sin vivir en ella» pesa tanto como la medieval. Quien ignore esa dependencia práctica se llevará sorpresa el primer invierno de gestiones y hospital.",
+  "El calendario local y las visitas al castillo marcan picos de afluencia sin convertir Soutomaior en destino de masificación costera. Fuera de esos días, el ritmo es de municipio residencial y rural-periurbano. Hoy, leer Soutomaior bien es leer castillo + Arcade + coche hacia la ciudad: tres piezas, no una postal única.",
+  "Comprar aquí sigue siendo decidir entre cercanía a Arcade —más vida diaria y ría interior— o entornos más dispersos hacia el castillo y las parroquias, con más quietud y más trayectos. El portal no siempre lo dice; la semana sí.",
 ] as const;
 
 const MAR_RIO_CAMINO_NUEVO2 = [
-  "Arcade vive junto a la desembocadura del Verdugo y la ensenada de San Simón.",
-  "El frente del peirao sirve para caminar junto al agua y observar marea, bateas y actividad marisquera. Es un paseo de núcleo, no una playa extensa.",
-  "Para un baño de arena más amplio, Cesantes queda cerca, ya en Redondela. Eso significa que Soutomaior tiene relación cotidiana con la ría sin ofrecer el mismo tipo de arenal.",
-  "El Verdugo permite seguir el agua hacia el interior. En el entorno de Arcade y Pontesampaio se puede caminar junto al río y cruzar el puente histórico sin organizar una salida de día completo.",
-  "El castillo y sus jardines ofrecen una salida distinta del paseo junto a la ría. Hay que desplazarse hasta el recinto, donde se puede caminar entre bosque, camelias y patrimonio durante unas horas.",
-  "El Camino Portugués atraviesa este territorio y puede utilizarse por tramos entre Arcade y Pontesampaio. Para quien viva cerca, ofrece un recorrido sencillo de repetir sin pensar en peregrinar hasta Santiago.",
-  "Las zonas rurales abren caminos, bosque y viñedo. Allí el paseo puede empezar junto a casa, aunque la falta de aceras en algunos viales obliga a elegir recorridos seguros.",
+  "En Soutomaior el agua cercana es de ría interior, no de playa atlántica famosa. Desde Arcade la lámina de la ría de Vigo se siente como orilla de estuario: marea, orilla trabajada o de paseo según el tramo, y una luz distinta de la costa abierta. No hay que confundirla con Samil ni con las playas de Nigrán: aquí el baño cotidiano, si existe, es otra experiencia, más de agua abrigada y menos de ola oceánica.",
+  "El castillo y su entorno ofrecen paseo de jardín, sombra y vistas de valle más que de espuma. Es una salida de patrimonio y verde que puede entrar en la semana si se vive cerca; no sustituye un arenal. Quien necesite mar de arena abierta tendrá que salir en coche hacia Val Miñor, Vigo o el Morrazo.",
+  "Caminar por la ribera o por sendas del municipio pide aceptar desnivel suave, tramos de coche entre núcleos y la lógica de un mapa disperso. Un martes de noviembre el silencio es parte del atractivo; un domingo soleado de primavera pueden aparecer visitas al castillo y más movimiento en accesos. La presión no es la de Baiona en agosto, pero tampoco es cero.",
+  "Cuando el día pide ampliar, Redondela aporta frente de ría y puentes; Vigo, ciudad y hospital; Pontevedra, otra capital cercana; Cesantes u otras orillas de ría se alcanzan en trayectos cortos. Soutomaior se entiende mejor como base residencial con salidas elegidas que como municipio donde el baño abre la puerta cada mañana.",
+  "En Arcade la ría puede formar parte del horizonte diario; hacia el castillo mandan piedra, jardín y valle. Esa diferencia describe mejor el municipio que inventar una costa que no tiene. El coche enlaza ambas y enlaza la ciudad: sin él, la semana se encoge.",
+  "Para océano abierto hay que salir. Eso no invalida Soutomaior: lo define. Quien acepta ría interior, castillo y proximidad a Vigo encuentra un trato claro; quien esperaba Area Grande o Samil bajo la ventana eligió mal el mapa.",
+  "El cierre útil es simple: aquí el agua cotidiana es de estuario y de salida; el Atlántico es plan. El castillo ancla la visita; Arcade ancla más la vida. Elegir entre ambos pesa más que el nombre del concello en el anuncio.",
 ] as const;
 
 const CASA_NUEVO2 = [
@@ -102,9 +102,9 @@ const CASA_MERCADO_REVENTA = [
 
 const ENCAJA_SI_NUEVO2 = [
   "Encaja si se quiere una escala de pueblo con tren y servicios concentrados en Arcade.",
-  "También si una casa con terreno interesa más que poder hacer toda la semana andando y se acepta utilizar coche desde el interior.",
+  "También si una casa con terreno interesa más que poder hacer compra y gestiones andando y se acepta utilizar coche desde el interior.",
   "Puede encajar especialmente si Pontevedra y Vigo deben estar cerca sin vivir dentro de ninguna de las dos ciudades.",
-  "Y encaja si la relación con ría, río, castillo y bosque es suficiente aunque no exista una gran playa urbana propia.",
+  "Y encaja si ría, río, castillo y bosque bastan aunque no exista una gran playa urbana propia.",
 ] as const;
 
 const NO_ENCAJA_SI_NUEVO2 = [

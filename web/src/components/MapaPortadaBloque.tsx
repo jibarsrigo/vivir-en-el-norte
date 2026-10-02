@@ -60,7 +60,7 @@ function Chip({
       aria-pressed={pressed}
       onClick={onClick}
       className={
-        "rounded-full border px-3 py-1.5 text-sm font-semibold shadow-sm backdrop-blur " +
+        "shrink-0 whitespace-nowrap rounded-full border px-2 py-1 text-[11px] font-semibold shadow-sm backdrop-blur sm:px-3 sm:py-1.5 sm:text-sm " +
         (pressed
           ? "border-[var(--acento)] bg-[var(--acento)] text-white"
           : "border-[var(--linea)] bg-white/95 text-[var(--tinta)]")
@@ -81,7 +81,7 @@ function ChipsCapas({
   className?: string;
 }) {
   return (
-    <div className={`flex max-w-full flex-wrap gap-2 ${className}`.trim()}>
+    <div className={`flex max-w-full flex-nowrap gap-1 sm:flex-wrap sm:gap-2 ${className}`.trim()}>
       {CAPAS.map((c) => (
         <Chip key={c.id} pressed={activas.has(c.id)} onClick={() => onToggle(c.id)}>
           {c.etiqueta}
@@ -161,7 +161,7 @@ export default function MapaPortadaBloque() {
       </section>
 
       <section className="mt-4 overflow-hidden rounded-xl border border-[var(--linea)] bg-white">
-        <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-2 border-b border-[var(--linea)] px-4 py-3">
+        <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-2 border-b border-[var(--linea)] px-3 py-3 sm:px-4">
           <p className="shrink-0 text-xs font-semibold uppercase tracking-wide text-[var(--tinta-suave)]">
             Por comunidad
           </p>

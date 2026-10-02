@@ -39,8 +39,8 @@
         "Barreiros es una forma dispersa y estacional de vivir A Mariña: mucha orilla, playas y As Catedrais muy presentes, pero sin una villa densa que concentre la rutina. La vivienda adecuada depende menos de una etiqueta municipal que de comprobar acceso, servicios reales, vecinos de invierno, humedad y cuánto coche exige la microzona."
     },
     fotoIdentidad: {
-      src: "/fotos/a-marina/barreiros-identidad.jpg",
-      pie: "Barreiros: casas junto al mar, con la sierra detrás",
+      src: "/fotos/a-marina/barreiros-identidad-costa.jpg",
+      pie: "Barreiros: acantilado y cueva en la costa de Lángara",
     },
     fotosAbrir: [
       { src: "/fotos/a-marina/barreiros-catedrais.jpg", pie: "As Catedrais a minutos de Barreiros" },

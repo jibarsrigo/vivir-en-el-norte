@@ -79,7 +79,7 @@ export default function RevisarIdentidadPage() {
               <p className="text-sm leading-snug text-[var(--tinta-suave)]">{f.pie}</p>
               <p className="pt-1">
                 <Link
-                  href={`/zona/${f.zonaId}/${f.slug}/`}
+                  href={`/${f.slug}/`}
                   className="text-sm font-semibold text-[var(--acento)] underline-offset-2 hover:underline"
                 >
                   Abrir ficha

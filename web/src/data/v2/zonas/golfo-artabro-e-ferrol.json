@@ -3,8 +3,8 @@
   "zonaId": "golfo-artabro-e-ferrol",
   "nombre": "Golfo Ártabro e Ferrol",
   "sourcePath": "web/src/components/RelatoGolfoArtabroEFerrol.tsx",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
   "sourceFileHash": "c1b3a47006582358b063a9948b2eca57c2ad4a0c8a06d8d6a4b9b9c02f44fefa",
   "contentHash": "887d2e12d7fbd016e45222c229cfbd05201c5cbf5b320e942c71569f1c761c92",
   "zonaBaseline": {

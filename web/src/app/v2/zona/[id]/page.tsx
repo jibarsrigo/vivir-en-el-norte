@@ -66,14 +66,6 @@ export default async function PaginaV2Zona({ params }: { params: Promise<{ id: s
         </Link>
       </p>
 
-      {z.calorAprieta ? (
-        <p className="mt-3 font-semibold text-[var(--calor)]">
-          El calor aprieta en {z.calorAprieta}.
-        </p>
-      ) : (
-        <p className="mt-3 text-[var(--tinta-suave)]">El verano no aprieta como en Mallorca.</p>
-      )}
-
       <div className="mt-6 grid gap-4 lg:grid-cols-2">
         <figure className="overflow-hidden rounded-xl border border-[var(--linea)] bg-white">
           <div className="relative aspect-[16/10] min-h-[280px]">

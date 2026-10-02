@@ -10,8 +10,8 @@
   "sourcePath": "web/src/lib/relatos-litoral-norte.ts",
   "sourceKey": "povoa-de-varzim",
   "sourceExport": "RELATOS_LITORAL_NORTE",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
   "contentHash": "10684cc3e0c68e300c0ce842c2bd0d16958beb127a64fd55a2e8a0d324ade98c",
   "ficha": {
     "n": 82,

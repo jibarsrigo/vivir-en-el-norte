@@ -44,8 +44,8 @@
         "Bergondo ofrece parcela y ría cercana a cambio de autonomía baja-media y coche. Su atractivo está en la calma metropolitana; su peaje, en no inventar una villa ni una playa andando desde cualquier dirección."
     },
     fotoIdentidad: {
-      src: "/fotos/golfo-artabro-e-ferrol/bergondo-identidad.jpg",
-      pie: "Bergondo: casas junto a la ría de Betanzos y el puente do Pedrido",
+      src: "/fotos/golfo-artabro-e-ferrol/bergondo-identidad-marinan.jpg",
+      pie: "Bergondo: pazo de Mariñán junto a la ría",
     },
     fotosAbrir: [
       { src: "/fotos/golfo-artabro-e-ferrol/bergondo-marinan.jpg", pie: "Pazo de Mariñán hacia la ría" },

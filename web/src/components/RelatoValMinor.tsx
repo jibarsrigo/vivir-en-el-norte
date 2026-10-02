@@ -1,34 +1,20 @@
-import Encaja from "@/components/Encaja";
+import EncajaZona from "@/components/EncajaZona";
+import SeccionZona from "@/components/SeccionZona";
 import Foto from "@/components/Foto";
 import TablaPrecios from "@/components/TablaPrecios";
 import EnlaceIdealista from "@/components/EnlaceIdealista";
-import MunicipiosZonaFin from "@/components/MunicipiosZonaFin";
 import { mallorca, type Zona } from "@/lib/zonas";
 import { municipiosValMinor } from "@/lib/municipios";
-
-function H2({ children }: { children: React.ReactNode }) {
-  return (
-    <h2 className="mt-10 font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">
-      {children}
-    </h2>
-  );
-}
 
 function P({ children }: { children: React.ReactNode }) {
   return <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{children}</p>;
 }
 
-const ESCALA: Record<string, string> = {
-  Baiona: "Villa",
-  Nigrán: "Urbanización y parroquias",
-  Gondomar: "Pueblo de valle y casas dispersas",
-};
 
 export default function RelatoValMinor({ zona }: { zona: Zona }) {
   return (
     <article className="mt-8">
-      <section>
-        <H2>Dónde está</H2>
+      <SeccionZona titulo="Dónde está">
         <P>
           Val Miñor es el valle del río Miñor, en el sur de la provincia de Pontevedra. El agua
           baja desde la Serra do Galiñeiro —una sierra de granito que alcanza unos setecientos
@@ -55,10 +41,9 @@ export default function RelatoValMinor({ zona }: { zona: Zona }) {
           src="/fotos/val-minor/baiona-villa.jpg"
           pie="Baiona: villa de piedra, puerto y playa a pie"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>El tiempo comparado con Baleares</H2>
+      <SeccionZona titulo="El tiempo comparado con Baleares">
         <P>
           Si vienes de Baleares, el cambio no está tanto en el frío como en la luz. Val Miñor suma
           unos {zona.despejados} días despejados al año, frente a {mallorca.despejados} en Mallorca,
@@ -90,14 +75,9 @@ export default function RelatoValMinor({ zona }: { zona: Zona }) {
           la vivienda con lluvia y volver una mañana de niebla, no decidir solo por una tarde de
           agosto.
         </P>
-        <p className="mt-4 max-w-2xl font-semibold text-[var(--calor)]">
-          Verano suave junto a la bahía: máximas de 25–26 °C y, según el punto, unos 3–8 días al año
-          por encima de 30 °C.
-        </p>
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Cómo se vive</H2>
+      <SeccionZona titulo="Cómo se vive">
         <P>
           Un martes de noviembre enseña el lugar mejor que una foto de turismo. En Baiona hay persianas
           abiertas, mercado, puerto y gente haciendo recados por el casco; la villa baja el volumen,
@@ -138,10 +118,9 @@ export default function RelatoValMinor({ zona }: { zona: Zona }) {
           src="/fotos/val-minor/baiona-monterreal.jpg"
           pie="Monterreal: muralla, pinos y bahía alrededor de la villa"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mercados, fiestas y calendario</H2>
+      <SeccionZona titulo="Mercados, fiestas y calendario">
         <P>
           El año no reparte la multitud por igual. El primer fin de semana de marzo, la Arribada
           recuerda en Baiona la entrada de la Pinta el 1 de marzo de 1493 y reúne a decenas de
@@ -166,10 +145,9 @@ export default function RelatoValMinor({ zona }: { zona: Zona }) {
           conviene visitar ambos ritmos: una mañana de mercado y una noche de fiesta, además del
           domingo de agosto en que la bahía está llena.
         </P>
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mar, río y camino</H2>
+      <SeccionZona titulo="Mar, río y camino">
         <P>
           Barbeira es la pequeña playa urbana pegada a la península de Monterreal, el recinto
           amurallado que protege el puerto de Baiona. Ladeira es la playa larga que sale de la villa
@@ -210,10 +188,9 @@ export default function RelatoValMinor({ zona }: { zona: Zona }) {
           src="/fotos/val-minor/gondomar-galineiro.jpg"
           pie="Serra do Galiñeiro: granito y vistas sobre el valle"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Qué cuesta una casa</H2>
+      <SeccionZona titulo="Qué cuesta una casa">
         <P>
           El precio sigue la cercanía a la bahía y la tipología, no un metro cuadrado único para
           los tres. Una casa caminable a Praia América, Panxón o el casco de Baiona suele situarse
@@ -236,10 +213,9 @@ export default function RelatoValMinor({ zona }: { zona: Zona }) {
         </P>
         <TablaPrecios filas={municipiosValMinor} />
         <EnlaceIdealista ambito="zona" zonaId={zona.id} nombre={zona.zona} />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Servicios, hospital, aeropuerto</H2>
+      <SeccionZona titulo="Servicios, hospital, aeropuerto">
         <P>
           Baiona cubre la vida diaria de villa —centro de salud, farmacias, supermercados,
           mercado, colegios y hostelería—, con mucha oferta pero también estacionalidad. Nigrán
@@ -271,9 +247,9 @@ export default function RelatoValMinor({ zona }: { zona: Zona }) {
           src="/fotos/val-minor/gondomar-valle.jpg"
           pie="Gondomar: villa pequeña, fincas y parroquias en el fondo del valle"
         />
-      </section>
+      </SeccionZona>
 
-      <Encaja
+      <EncajaZona
         si={[
           "Se busca una casa con silencio sin quedar lejos de Vigo: Gondomar pone finca, valle y monte a unos quince o veinte minutos del hospital Álvaro Cunqueiro, siempre que se acepte el coche y se revise la humedad casa por casa. El Galiñeiro —la sierra granítica del este— y la Groba —la meseta de brezo y caballos sobre Baiona— convierten el paseo y el monte en parte de la semana.",
           "Importa combinar mar y servicios. Nigrán ofrece el equilibrio más directo: Praia América —el gran arenal protegido—, Panxón —la parroquia marinera—, Patos —la playa de surf— y Vigo cerca. Baiona encaja si pesa más una villa reconocible, con casco de piedra, puerto, Barbeira y Ladeira a pie, y se acepta la presión de agosto.",
@@ -282,10 +258,8 @@ export default function RelatoValMinor({ zona }: { zona: Zona }) {
           `Se necesita sol de Baleares y una terraza utilizable casi todos los días del invierno. Aquí hay unos ${zona.lluviaDias} días de lluvia al año, niebla ocasional en el estuario y humedad que exige mirar orientación, cubierta y ventilación antes de mirar la cocina.`,
           "Se quiere pueblo compacto y vida completa a pie, pero se elige una parroquia de Nigrán o una casa dispersa de Gondomar. Baiona sí funciona como villa; Nigrán funciona como red residencial; Gondomar, fuera de su pequeño centro, como valle de fincas. La escala cambia la dependencia del coche.",
         ]}
-        veredicto="Veredicto de zona: Gondomar responde a quien prioriza casa, terreno y silencio sin perder Vigo —eligiendo bien la parroquia y comprobando humedad, acceso y fibra—. Nigrán ofrece playa, servicios y hospital cerca en una red residencial densa, con un mercado más tenso. Baiona entrega villa de verdad —puerto y playa a pie—, con el peaje del precio y un agosto que multiplica la población. Tres escalas distintas: valle de fincas, urbanización-parroquia y villa marinera; conviene probarlas en noviembre, no solo en agosto."
+        veredicto="Gondomar responde a quien prioriza casa, terreno y silencio sin perder Vigo —eligiendo bien la parroquia y comprobando humedad, acceso y fibra—. Nigrán ofrece playa, servicios y hospital cerca en una red residencial densa, con un mercado más tenso. Baiona entrega villa de verdad —puerto y playa a pie—, con el peaje del precio y un agosto que multiplica la población. Tres escalas distintas: valle de fincas, urbanización-parroquia y villa marinera; conviene probarlas en noviembre, no solo en agosto."
       />
-
-      <MunicipiosZonaFin zonaId={zona.id} municipios={municipiosValMinor} escalas={ESCALA} />
 
       <p className="mt-12 max-w-2xl text-xs text-[var(--tinta-suave)]">
         Fotos: Wikimedia Commons. Consulta la atribución y licencia en cada imagen.

@@ -1,35 +1,20 @@
-import Encaja from "@/components/Encaja";
+import EncajaZona from "@/components/EncajaZona";
+import SeccionZona from "@/components/SeccionZona";
 import Foto from "@/components/Foto";
 import TablaPrecios from "@/components/TablaPrecios";
 import EnlaceIdealista from "@/components/EnlaceIdealista";
-import MunicipiosZonaFin from "@/components/MunicipiosZonaFin";
 import { municipiosVigoERia } from "@/lib/municipios";
 import { mallorca, type Zona } from "@/lib/zonas";
-
-function H2({ children }: { children: React.ReactNode }) {
-  return (
-    <h2 className="mt-10 font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">
-      {children}
-    </h2>
-  );
-}
 
 function P({ children }: { children: React.ReactNode }) {
   return <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{children}</p>;
 }
 
-const ESCALA: Record<string, string> = {
-  Vigo: "Ciudad",
-  Redondela: "Villa",
-  Soutomaior: "Pueblo y parroquias",
-  Vilaboa: "Casas dispersas / parroquias",
-};
 
 export default function RelatoVigoERia({ zona }: { zona: Zona }) {
   return (
     <article className="mt-8">
-      <section>
-        <H2>Dónde está</H2>
+      <SeccionZona titulo="Dónde está">
         <P>
           Vigo e ría ocupa la gran entrada de mar del sur de Galicia y su fondo más protegido.
           Vigo, la mayor ciudad gallega, sube en anfiteatro desde el puerto y mira hacia las Illas
@@ -55,10 +40,9 @@ export default function RelatoVigoERia({ zona }: { zona: Zona }) {
           src="/fotos/vigo-e-ria/vigo-ria.jpg"
           pie="La ría desde Vigo: ciudad y puerto antes de que el agua alcance San Simón"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>El tiempo comparado con Baleares</H2>
+      <SeccionZona titulo="El tiempo comparado con Baleares">
         <P>
           Frente a Baleares, la ruptura no es un invierno helado, sino un invierno mojado. La zona
           suma unos {zona.despejados} días despejados y{" "}
@@ -91,13 +75,9 @@ export default function RelatoVigoERia({ zona }: { zona: Zona }) {
           el valle del Verdugo conserva algo más de calor y humedad. La orientación concreta pesa
           tanto como la cifra municipal.
         </P>
-        <p className="mt-4 max-w-2xl font-semibold text-[var(--calor)]">
-          Verano de 25–26 °C y noches frescas; invierno templado, pero con unos 129 días de lluvia.
-        </p>
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Cómo se vive</H2>
+      <SeccionZona titulo="Cómo se vive">
         <P>
           Un martes de noviembre empieza de cuatro maneras. Vigo abre mercados, hospitales,
           facultades, astilleros y oficinas; el tráfico baja hacia el puerto y vuelve a subir por
@@ -141,10 +121,9 @@ export default function RelatoVigoERia({ zona }: { zona: Zona }) {
           src="/fotos/vigo-e-ria/zona-rande.jpg"
           pie="El puente de Rande: la AP-9 cruza la ría y une Vigo con O Morrazo"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Fiestas, mercados y cultura</H2>
+      <SeccionZona titulo="Fiestas, mercados y cultura">
         <P>
           La primavera abre el calendario en dos orillas. En Vigo, la Reconquista ocupa el Casco
           Vello alrededor del 28 de marzo —a menudo el último fin de semana de marzo o el primero
@@ -171,10 +150,9 @@ export default function RelatoVigoERia({ zona }: { zona: Zona }) {
           elegida en un día de mercado y en su fiesta mayor: el mismo portal puede tener dos ritmos
           opuestos.
         </P>
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mar, ría y camino</H2>
+      <SeccionZona titulo="Mar, ría y camino">
         <P>
           Samil es el gran arenal urbano de Vigo: 1,7 kilómetros de arena, paseo, jardines y
           piscinas. O Vao, más al suroeste, conserva dunas y mira al islote de Toralla; Canido es el
@@ -215,10 +193,9 @@ export default function RelatoVigoERia({ zona }: { zona: Zona }) {
           src="/fotos/vigo-e-ria/vilaboa-ullo.jpg"
           pie="Las Salinas de Ulló, donde la antigua industria de sal volvió a ser marisma"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Qué cuesta una casa</H2>
+      <SeccionZona titulo="Qué cuesta una casa">
         <P>
           Vigo abre una distancia clara respecto a la villa y a las parroquias de la ría: en la
           costa suroeste se pagan las Cíes, la playa y el hospital cerca; en Redondela el mercado
@@ -237,10 +214,9 @@ export default function RelatoVigoERia({ zona }: { zona: Zona }) {
         </P>
         <TablaPrecios filas={municipiosVigoERia} />
         <EnlaceIdealista ambito="zona" zonaId={zona.id} nombre={zona.zona} />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Servicios, hospital, aeropuerto</H2>
+      <SeccionZona titulo="Servicios, hospital, aeropuerto">
         <P>
           Vigo no necesita ciudad de referencia: hospitales, universidad, mercados, gran
           comercio, cultura, deporte, tren de alta velocidad y aeropuerto están dentro del
@@ -268,9 +244,9 @@ export default function RelatoVigoERia({ zona }: { zona: Zona }) {
           especialistas a mano y tardar veinte minutos en cruzar la ciudad en hora punta. La
           logística de esta zona es excelente, pero siempre debe medirse desde el portal concreto.
         </P>
-      </section>
+      </SeccionZona>
 
-      <Encaja
+      <EncajaZona
         si={[
           "Se quiere hospital, aeropuerto, tren y mar en la misma órbita. Vigo resuelve la vida urbana completa y permite buscar costa residencial en Alcabre, Coruxo, Oia o Saiáns; Redondela ofrece villa, estación y Cesantes —la playa tranquila frente a San Simón— con menos tensión de mercado que la orilla viguesa.",
           "Se busca casa y calma sin aislarse. Soutomaior permite vivir entre el castillo, el río Verdugo y Arcade con Pontevedra a unos quince minutos. Vilaboa ofrece finca, marisma y vistas sobre la ensenada, también cerca del hospital, si se acepta que parroquia significa coche y servicios dispersos.",
@@ -279,10 +255,8 @@ export default function RelatoVigoERia({ zona }: { zona: Zona }) {
           `Se necesita el cielo fiable de Baleares. Aquí hay unos ${zona.lluviaDias} días de lluvia y alrededor de ${zona.lluviaMm.toLocaleString("es-ES")} milímetros al año; el invierno es templado, pero las cubiertas, los muros y el jardín permanecen mojados durante largas secuencias.`,
           "Se imagina que toda la zona permite una vida de pueblo a pie. Solo Redondela funciona claramente como villa compacta; Arcade cubre una escala menor. Vigo es ciudad y las parroquias de Vilaboa o Soutomaior dependen del coche. El ruido de trenes, AP-9 y carreteras también debe comprobarse casa por casa.",
         ]}
-        veredicto="Veredicto de zona: Redondela equilibra vivienda amplia, tren, mercado, hospital cercano y baño tranquilo en Cesantes. Vigo encaja cuando hospitales, cultura y ciudad completa son irrenunciables; en su costa suroeste lo habitual es piso cerca del mar más que casa con jardín y vistas a las Cíes. Soutomaior aporta casa con terreno y un apoyo urbano en Arcade. Vilaboa ofrece silencio y paisaje de ensenada a cambio de coche y servicios escasos, sin pretender una media de mercado homogénea. Frente a Mallorca, la zona cambia sol invernal por lluvia y entrega veranos más suaves."
+        veredicto="Redondela equilibra vivienda amplia, tren, mercado, hospital cercano y baño tranquilo en Cesantes. Vigo encaja cuando hospitales, cultura y ciudad completa son irrenunciables; en su costa suroeste lo habitual es piso cerca del mar más que casa con jardín y vistas a las Cíes. Soutomaior aporta casa con terreno y un apoyo urbano en Arcade. Vilaboa ofrece silencio y paisaje de ensenada a cambio de coche y servicios escasos, sin pretender una media de mercado homogénea. Frente a Mallorca, la zona cambia sol invernal por lluvia y entrega veranos más suaves."
       />
-
-      <MunicipiosZonaFin zonaId={zona.id} municipios={municipiosVigoERia} escalas={ESCALA} />
 
       <p className="mt-12 max-w-2xl text-xs text-[var(--tinta-suave)]">
         Fotos: Wikimedia Commons. Consulta la atribución y licencia en cada imagen.

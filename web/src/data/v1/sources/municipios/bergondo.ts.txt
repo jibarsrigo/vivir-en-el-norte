@@ -46,7 +46,7 @@
         "Veredicto: Bergondo es la apuesta jardín-ría del arco —casa con terreno lejos del tramo más ocupado de Gandarío en agosto, con fibra y acceso comprobados—. Encaja si calma, agua templada y precio más bajo que Oleiros importan más que villa caminable. Como casa única solo si se acepta coche y hospital a unos veinte minutos; si mandan puerto y comercio, Sada; si mandan chalé ordenado junto a la ciudad, Oleiros. Se ganan ría y parcela; se aceptan servicios 4/10 en nuestra escala y cielo gris frente a Mallorca.",
     },
     fotoIdentidad: {
-      src: "/fotos/golfo-artabro-e-ferrol/bergondo-identidad.jpg",
+      src: "/fotos/golfo-artabro-e-ferrol/bergondo-identidad-marinan.jpg",
       pie: "Bergondo: casas junto a la ría de Betanzos y el puente do Pedrido",
     },
     fotosAbrir: [

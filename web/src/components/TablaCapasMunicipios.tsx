@@ -3,6 +3,8 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import EnlaceBuscaCompara from "@/components/EnlaceBuscaCompara";
+import MapaComunidadAutonomaCliente from "@/components/MapaComunidadAutonomaCliente";
+import { nombreComunidad } from "@/lib/mapa-comunidad";
 import {
   COLUMNAS_EXTRA_CAPA,
   arbolTablaMunicipios,
@@ -429,16 +431,6 @@ export default function TablaCapasMunicipios({
     });
   }
 
-  const propsBloque = {
-    columnas,
-    orden: ordenActivo,
-    onOrden,
-    onQuitarCriterio: quitarCriterio,
-    onQuitarTodo: () => setOrden(null),
-    expandida: expandidaActiva,
-    onToggleExtra,
-  };
-
   const cuerpo = (
     <>
       {embebido ? null : (
@@ -481,42 +473,23 @@ export default function TablaCapasMunicipios({
               </button>
 
               {abierta ? (
-                <div className="space-y-3 border-t border-[var(--linea)] bg-[var(--papel)]/50 px-4 py-4">
-                  {c.tramos ? (
-                    <ul className="space-y-2">
-                      {c.tramos.map((t) => {
-                        const tramoAbierto = tramo === t.id;
-                        return (
-                          <li
-                            key={t.id}
-                            className="overflow-hidden rounded-md border border-[var(--linea)] bg-white"
-                          >
-                            <button
-                              type="button"
-                              aria-expanded={tramoAbierto}
-                              onClick={() => toggleTramo(t.id)}
-                              className="flex w-full items-center gap-2 px-3 py-2.5 text-left"
-                            >
-                              <span className="font-semibold text-[var(--acento)]">{t.nombre}</span>
-                              <span className="ml-auto text-sm text-[var(--tinta-suave)]">
-                                {t.nPueblos} pueblos
-                              </span>
-                              <span className="text-lg leading-none" aria-hidden>
-                                {tramoAbierto ? "−" : "+"}
-                              </span>
-                            </button>
-                            {tramoAbierto ? (
-                              <div className="border-t border-[var(--linea)] px-3 py-3">
-                                <BloqueZonas zonas={t.zonas} {...propsBloque} />
-                              </div>
-                            ) : null}
-                          </li>
-                        );
-                      })}
-                    </ul>
-                  ) : c.zonas ? (
-                    <BloqueZonas zonas={c.zonas} {...propsBloque} />
-                  ) : null}
+                <div className="border-t border-[var(--linea)] bg-[var(--papel)]/50 px-4 py-4">
+                  <figure className="overflow-hidden rounded-xl border border-[var(--linea)] bg-white">
+                    <div className="relative aspect-[16/10] min-h-[280px]">
+                      <MapaComunidadAutonomaCliente
+                        comunidadId={c.id}
+                        clima={capasActivas.has("clima")}
+                        mar={capasActivas.has("mar")}
+                        servicios={capasActivas.has("servicios")}
+                        hospital={capasActivas.has("hospital")}
+                        avion={capasActivas.has("avion")}
+                        precio={capasActivas.has("precio")}
+                      />
+                    </div>
+                    <figcaption className="px-3 py-2 text-sm text-[var(--tinta-suave)]">
+                      Dónde están los pueblos de {nombreComunidad(c.id)}, en el norte.
+                    </figcaption>
+                  </figure>
                 </div>
               ) : null}
             </li>

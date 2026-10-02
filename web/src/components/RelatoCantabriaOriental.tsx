@@ -1,32 +1,20 @@
-import Encaja from "@/components/Encaja";
+import EncajaZona from "@/components/EncajaZona";
+import SeccionZona from "@/components/SeccionZona";
 import Foto from "@/components/Foto";
 import TablaPrecios from "@/components/TablaPrecios";
 import EnlaceIdealista from "@/components/EnlaceIdealista";
-import MunicipiosZonaFin from "@/components/MunicipiosZonaFin";
 import { mallorca, type Zona } from "@/lib/zonas";
 import { municipiosCantabriaOriental } from "@/lib/municipios";
-
-function H2({ children }: { children: React.ReactNode }) {
-  return <h2 className="mt-10 font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">{children}</h2>;
-}
 
 function P({ children }: { children: React.ReactNode }) {
   return <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{children}</p>;
 }
 
-const ESCALA: Record<string, string> = {
-  "Ribamontán al Mar": "Casas bajas y surf",
-  Noja: "Veraneo en bloques",
-  Santoña: "Villa marinera y monte",
-  Laredo: "Playa larga y hospital",
-  "Castro-Urdiales": "Ciudad hacia Bilbao",
-};
 
 export default function RelatoCantabriaOriental({ zona }: { zona: Zona }) {
   return (
     <article className="mt-8">
-      <section>
-        <H2>Dónde está</H2>
+      <SeccionZona titulo="Dónde está">
         <P>
           Cantabria Oriental cubre la costa de Trasmiera hasta Bizkaia: playas largas, marismas,
           el Monte Buciero y, al este, la villa medieval convertida en ciudad hacia Bilbao. No es
@@ -56,10 +44,9 @@ export default function RelatoCantabriaOriental({ zona }: { zona: Zona }) {
           src="/fotos/cantabria-oriental/zona-somo.jpg"
           pie="Somo y la costa de Ribamontán al Mar"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>El tiempo comparado con Baleares</H2>
+      <SeccionZona titulo="El tiempo comparado con Baleares">
         <P>
           Cantabria Oriental suma unas {zona.solHoras.toLocaleString("es-ES")} horas de sol y{" "}
           {zona.despejados} días despejados al año —en la franja de 1.650 a 1.700 horas y unos 40
@@ -86,13 +73,9 @@ export default function RelatoCantabriaOriental({ zona }: { zona: Zona }) {
           baño cuando el mar lo permite; las playas son largas y abiertas. Para bañarse con más
           calma, Laredo y la bahía de Santoña.
         </P>
-        <p className="mt-4 max-w-2xl font-semibold text-[var(--calor)]">
-          Verano fresco: media alrededor de 20 °C y apenas dos a seis días por encima de 30 °C.
-        </p>
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Cómo se vive</H2>
+      <SeccionZona titulo="Cómo se vive">
         <P>
           Un martes de noviembre muestra escalas muy distintas. Castro es ciudad completa: comercio,
           farmacias, metro a Bilbao en la práctica y hospital comarcal a unos veinticinco minutos.
@@ -116,10 +99,9 @@ export default function RelatoCantabriaOriental({ zona }: { zona: Zona }) {
           src="/fotos/cantabria-oriental/zona-noja.jpg"
           pie="Noja: bloques y playa de veraneo"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mar, marisma y camino</H2>
+      <SeccionZona titulo="Mar, marisma y camino">
         <P>
           En Ribamontán, Somo —surf, paseo, lancha a Santander—, Loredo, Langre y Galizano cubren
           orilla abierta y acantilado. Noja aporta Ris y Trengandín —largas, con islotes— y las
@@ -147,10 +129,9 @@ export default function RelatoCantabriaOriental({ zona }: { zona: Zona }) {
           src="/fotos/cantabria-oriental/zona-laredo.jpg"
           pie="Laredo: La Salvé y el frente de playa"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mercados, fiestas y calendario</H2>
+      <SeccionZona titulo="Mercados, fiestas y calendario">
         <P>
           Santoña y Laredo resuelven mercado, comercio y mesas abiertas con ritmo de villa todo
           el año; Castro, como ciudad. Ribamontán reparte lo básico entre parroquias y mira a
@@ -171,10 +152,9 @@ export default function RelatoCantabriaOriental({ zona }: { zona: Zona }) {
           src="/fotos/cantabria-oriental/zona-castro.jpg"
           pie="Castro-Urdiales: villa medieval hacia Bilbao"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Qué cuesta una casa</H2>
+      <SeccionZona titulo="Qué cuesta una casa">
         <P>
           Cantabria Oriental cubre franjas distintas. Santoña suele situarse en el tramo más
           contenido; Laredo, en media; Ribamontán, Noja y Castro, en orillas más altas —sobre todo
@@ -194,10 +174,9 @@ export default function RelatoCantabriaOriental({ zona }: { zona: Zona }) {
         </P>
         <TablaPrecios filas={municipiosCantabriaOriental} />
         <EnlaceIdealista ambito="zona" zonaId={zona.id} nombre={zona.zona} />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Servicios, hospital, aeropuerto</H2>
+      <SeccionZona titulo="Servicios, hospital, aeropuerto">
         <P>
           Castro y Laredo cubren la vida diaria de ciudad o villa completa. Santoña resuelve lo
           básico de villa de trabajo. Ribamontán reparte tiendas y farmacia entre parroquias;
@@ -228,9 +207,9 @@ export default function RelatoCantabriaOriental({ zona }: { zona: Zona }) {
           src="/fotos/cantabria-oriental/zona-buciero.jpg"
           pie="Monte Buciero sobre Santoña"
         />
-      </section>
+      </SeccionZona>
 
-      <Encaja
+      <EncajaZona
         si={[
           "Pesan la conexión con Bilbao —Palma todo el año a unos treinta y cinco o cuarenta minutos desde Castro— o casas bajas y calma en Ribamontán —Somo, Loredo, Langre—, aceptando el sol más bajo de la tabla (~1.650–1.700 horas y unos 40 despejados).",
           "Se valora villa de trabajo con monte y marismas en Santoña —tramo más contenido que sus vecinas—, o playa enorme con hospital a pie en Laredo, sin pedir el cielo de Baleares.",
@@ -239,13 +218,7 @@ export default function RelatoCantabriaOriental({ zona }: { zona: Zona }) {
           `Se necesita el cielo de Baleares: Cantabria Oriental tiene ${zona.lluviaDias} días de lluvia, ${zona.despejados} despejados y ${zona.cubiertos} cubiertos, frente a ${mallorca.lluviaDias} y ${mallorca.despejados} en Mallorca. Aquí el sol es el mínimo de la costa norte.`,
           "Se buscan tres habitaciones en primera línea de Castro, Noja o Ribamontán dentro de la franja asequible habitual, vida de pueblo en Noja de octubre a mayo, casas bajas en Laredo y Noja, o montaña cerca salvo el Buciero.",
         ]}
-        veredicto="Veredicto de zona: Cantabria Oriental destaca por Bilbao y por el vuelo a Palma todo el año desde Castro, no por sol. Si el aeropuerto manda, Castro o Ribamontán —Loredo, Langre—; Santoña, villa de trabajo con Buciero y precio más contenido; Laredo, Salvé y hospital a cinco minutos a cambio del urbanismo de torres; Noja, segunda residencia, no para vivir todo el año. Con el sol como prioridad primera, esta zona no. Antes de elegir, probar un noviembre cubierto y un agosto en Noja, Laredo o Somo."
-      />
-
-      <MunicipiosZonaFin
-        zonaId={zona.id}
-        municipios={municipiosCantabriaOriental}
-        escalas={ESCALA}
+        veredicto="Cantabria Oriental destaca por Bilbao y por el vuelo a Palma todo el año desde Castro, no por sol. Si el aeropuerto manda, Castro o Ribamontán —Loredo, Langre—; Santoña, villa de trabajo con Buciero y precio más contenido; Laredo, Salvé y hospital a cinco minutos a cambio del urbanismo de torres; Noja, segunda residencia, no para vivir todo el año. Con el sol como prioridad primera, esta zona no. Antes de elegir, probar un noviembre cubierto y un agosto en Noja, Laredo o Somo."
       />
 
       <p className="mt-12 max-w-2xl text-xs text-[var(--tinta-suave)]">

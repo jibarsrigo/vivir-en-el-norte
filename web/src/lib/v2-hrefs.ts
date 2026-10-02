@@ -9,7 +9,7 @@ export function v2HrefZona(zonaId: string): string {
 }
 
 export function actualHrefMunicipio(zonaId: string, slug: string): string {
-  return `/zona/${zonaId}/${slug}/`;
+  return `/${slug}/`;
 }
 
 export function actualHrefZona(zonaId: string): string {

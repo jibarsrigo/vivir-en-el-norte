@@ -10,8 +10,8 @@
   "sourcePath": "web/src/lib/relatos-litoral-norte.ts",
   "sourceKey": "esposende",
   "sourceExport": "RELATOS_LITORAL_NORTE",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
   "contentHash": "40d70740629f47f0e70711280d8d0a173ed2bd420a57f8fda8bf5afd6d84f8df",
   "ficha": {
     "n": 81,

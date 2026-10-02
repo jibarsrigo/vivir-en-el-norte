@@ -44,8 +44,8 @@ export const RELATOS_A_MARINA: Record<string, RelatoMun> = {
         "O Vicedo ofrece una costa muy presente a cambio de poca autonomía cotidiana. La decisión depende menos de la postal que de aceptar coche, servicios limitados y un invierno muy tranquilo, y de encontrar una vivienda cuyo acceso, orientación, humedad y conectividad funcionen también fuera de temporada."
     },
     fotoIdentidad: {
-      src: "/fotos/a-marina/o-vicedo-identidad.jpg",
-      pie: "O Vicedo: casas junto a la ría, con el monte detrás",
+      src: "/fotos/a-marina/vicedo-identidad-faro.jpg",
+      pie: "O Vicedo: faro blanco en la costa entre monte y mar",
     },
     fotosAbrir: [
       { src: "/fotos/a-marina/vicedo-villa.jpg", pie: "Núcleo de O Vicedo junto a la ría do Barqueiro" },
@@ -213,8 +213,8 @@ export const RELATOS_A_MARINA: Record<string, RelatoMun> = {
         "Cervo combina dos experiencias claras: San Cibrao, donde puerto, paseo y playa pueden entrar en la rutina, y Sargadelos, ligado a la cerámica y al Xunco. La cercanía de Burela facilita servicios y hospital, mientras la dispersión y la presencia industrial hacen especialmente importante escoger bien la microzona."
     },
     fotoIdentidad: {
-      src: "/fotos/a-marina/cervo-identidad.jpg",
-      pie: "Cervo: casas del pueblo frente al mar",
+      src: "/fotos/a-marina/cervo-pazo-sargadelos.jpg",
+      pie: "Cervo: pazo de Sargadelos con palmera",
     },
     fotosAbrir: [
       { src: "/fotos/a-marina/cervo-sargadelos.jpg", pie: "Sargadelos: cerámica y Real Fábrica en Cervo" },
@@ -380,8 +380,8 @@ export const RELATOS_A_MARINA: Record<string, RelatoMun> = {
         "Barreiros es una forma dispersa y estacional de vivir A Mariña: mucha orilla, playas y As Catedrais muy presentes, pero sin una villa densa que concentre la rutina. La vivienda adecuada depende menos de una etiqueta municipal que de comprobar acceso, servicios reales, vecinos de invierno, humedad y cuánto coche exige la microzona."
     },
     fotoIdentidad: {
-      src: "/fotos/a-marina/barreiros-identidad.jpg",
-      pie: "Barreiros: casas junto al mar, con la sierra detrás",
+      src: "/fotos/a-marina/barreiros-identidad-costa.jpg",
+      pie: "Barreiros: acantilado y cueva en la costa de Lángara",
     },
     fotosAbrir: [
       { src: "/fotos/a-marina/barreiros-catedrais.jpg", pie: "As Catedrais a minutos de Barreiros" },

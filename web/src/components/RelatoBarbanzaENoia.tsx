@@ -1,33 +1,20 @@
-import Encaja from "@/components/Encaja";
+import EncajaZona from "@/components/EncajaZona";
+import SeccionZona from "@/components/SeccionZona";
 import Foto from "@/components/Foto";
 import TablaPrecios from "@/components/TablaPrecios";
 import EnlaceIdealista from "@/components/EnlaceIdealista";
-import MunicipiosZonaFin from "@/components/MunicipiosZonaFin";
 import { mallorca, type Zona } from "@/lib/zonas";
 import { municipiosBarbanzaENoia } from "@/lib/municipios";
-
-function H2({ children }: { children: React.ReactNode }) {
-  return <h2 className="mt-10 font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">{children}</h2>;
-}
 
 function P({ children }: { children: React.ReactNode }) {
   return <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{children}</p>;
 }
 
-const ESCALA: Record<string, string> = {
-  Rianxo: "Villa literaria de ría",
-  Boiro: "Villa completa de ría",
-  "A Pobra do Caramiñal": "Villa marinera bajo la sierra",
-  Ribeira: "Villa portuaria y capital comarcal",
-  "Porto do Son": "Costa atlántica y parroquias",
-  Noia: "Villa histórica de ría",
-};
 
 export default function RelatoBarbanzaENoia({ zona }: { zona: Zona }) {
   return (
     <article className="mt-8">
-      <section>
-        <H2>Dónde está</H2>
+      <SeccionZona titulo="Dónde está">
         <P>
           Barbanza e Noia es la orilla norte de la ría de Arousa y la ría de Muros e Noia, con la
           Serra do Barbanza —una sierra de granito de unos seiscientos metros— levantada a la
@@ -49,10 +36,9 @@ export default function RelatoBarbanzaENoia({ zona }: { zona: Zona }) {
           franja relativamente asequible dentro de las Rías Baixas.
         </P>
         <Foto src="/fotos/barbanza-e-noia/zona-curota.jpg" pie="A Curota: la sierra mira las rías" />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>El tiempo comparado con Baleares</H2>
+      <SeccionZona titulo="El tiempo comparado con Baleares">
         <P>
           Barbanza e Noia suma unas {zona.solHoras.toLocaleString("es-ES")} horas de sol y{" "}
           {zona.despejados} días despejados al año. Mallorca ronda{" "}
@@ -77,13 +63,9 @@ export default function RelatoBarbanzaENoia({ zona }: { zona: Zona }) {
           templada de Mallorca, pero permite baños cortos en Barraña, Tanxil o Cabío, y paseos largos
           cuando el océano no invita a entrar.
         </P>
-        <p className="mt-4 max-w-2xl font-semibold text-[var(--calor)]">
-          Verano suave: máximas habituales de 24–25 °C y pocas jornadas por encima de 30 °C.
-        </p>
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Cómo se vive</H2>
+      <SeccionZona titulo="Cómo se vive">
         <P>
           Un martes de noviembre muestra seis escalas. Ribeira abre mercado, comercio y hospital
           dentro de una villa portuaria densa. Boiro y Noia cubren la semana básica en cascos
@@ -103,10 +85,9 @@ export default function RelatoBarbanzaENoia({ zona }: { zona: Zona }) {
           la cantidad de gente y el ruido, pero lonja, mercado y barcos siguen en enero.
         </P>
         <Foto src="/fotos/barbanza-e-noia/zona-barraña.jpg" pie="Barraña: ría calmada en Boiro" />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mar, ría y sierra</H2>
+      <SeccionZona titulo="Mar, ría y sierra">
         <P>
           En Arousa el baño es de agua protegida: Tanxil y A Torre en Rianxo; Barraña, Carragueiros
           y Mañóns en Boiro; Cabío, A Corna y Lombiña en A Pobra; Coroso, Río Azor y Aguiño en
@@ -133,10 +114,9 @@ export default function RelatoBarbanzaENoia({ zona }: { zona: Zona }) {
           src="/fotos/barbanza-e-noia/zona-baroña.jpg"
           pie="Castro de Baroña: piedra sobre el Atlántico"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mercados, fiestas y calendario</H2>
+      <SeccionZona titulo="Mercados, fiestas y calendario">
         <P>
           Ribeira concentra lonja, mercado y restauración alrededor del puerto. La Virxe do Carme,
           hacia el 16 de julio, baja en procesión marinera con música, cortes y mucha gente junto a
@@ -160,10 +140,9 @@ export default function RelatoBarbanzaENoia({ zona }: { zona: Zona }) {
           src="/fotos/barbanza-e-noia/zona-noia-casco.jpg"
           pie="Noia: casco gótico al fondo de la ría"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Qué cuesta una casa</H2>
+      <SeccionZona titulo="Qué cuesta una casa">
         <P>
           Es una de las franjas relativamente asequibles de las Rías Baixas: Rianxo suele abrir el
           tramo más bajo; Boiro, A Pobra, Porto do Son y Noia se mueven en orillas intermedias;
@@ -181,10 +160,9 @@ export default function RelatoBarbanzaENoia({ zona }: { zona: Zona }) {
         </P>
         <TablaPrecios filas={municipiosBarbanzaENoia} />
         <EnlaceIdealista ambito="zona" zonaId={zona.id} nombre={zona.zona} />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Servicios, hospital, aeropuerto</H2>
+      <SeccionZona titulo="Servicios, hospital, aeropuerto">
         <P>
           Ribeira concentra hospital, comercio, mercado, cine y restauración de capital comarcal.
           Boiro y Noia cubren la semana básica en cascos caminables. Rianxo y A Pobra bajan a lo
@@ -208,9 +186,9 @@ export default function RelatoBarbanzaENoia({ zona }: { zona: Zona }) {
           src="/fotos/barbanza-e-noia/zona-axeitos.jpg"
           pie="Dolmen de Axeitos, cerca de Ribeira"
         />
-      </section>
+      </SeccionZona>
 
-      <Encaja
+      <EncajaZona
         si={[
           "Se quiere monte detrás y mar delante en una franja relativamente asequible de las Rías Baixas, con verano mucho más suave que en Mallorca. Boiro y A Pobra equilibran villa, ría y sierra; Ribeira aporta hospital y capital comarcal; Rianxo, calma literaria; Noia, casco gótico; Porto do Son, Atlántico abierto.",
           "Se valora Santiago-Lavacolla a cuarenta o cincuenta minutos, con enlace a Palma casi todo el año. Incluso desde las parroquias, el Hospital do Barbanza queda alrededor de media hora salvo en Noia, donde el referente es el CHUS.",
@@ -219,10 +197,8 @@ export default function RelatoBarbanzaENoia({ zona }: { zona: Zona }) {
           `Se necesita el cielo de Baleares: Barbanza e Noia tiene ${zona.lluviaDias} días de lluvia y ${zona.despejados} despejados, frente a ${mallorca.lluviaDias} y ${mallorca.despejados} en Mallorca. El verano es luminoso, pero el invierno exige convivir con humedad, sierra en sombra y semanas grises.`,
           "Se busca a la vez ciudad a quince minutos, hospital privado cerca y vida sin coche en toda la comarca. Santiago queda a cuarenta o cincuenta; el privado, en Compostela. Porto do Son exige coche; Ribeira da servicios a cambio de densidad portuaria.",
         ]}
-        veredicto="Veredicto de zona: Boiro o A Pobra encajan por ría, sierra, precio y hospital a diez o veinte minutos. Ribeira, si mandan servicios y sanidad a pie; Rianxo, si pesan calma, literatura y un metro más bajo; Noia, si el casco gótico y Santiago importan más que el hospital comarcal; Porto do Son, si el Atlántico debe empezar en la puerta. Antes de elegir, conviene probar un noviembre húmedo y la fiesta mayor de la calle concreta."
+        veredicto="Boiro o A Pobra encajan por ría, sierra, precio y hospital a diez o veinte minutos. Ribeira, si mandan servicios y sanidad a pie; Rianxo, si pesan calma, literatura y un metro más bajo; Noia, si el casco gótico y Santiago importan más que el hospital comarcal; Porto do Son, si el Atlántico debe empezar en la puerta. Antes de elegir, conviene probar un noviembre húmedo y la fiesta mayor de la calle concreta."
       />
-
-      <MunicipiosZonaFin zonaId={zona.id} municipios={municipiosBarbanzaENoia} escalas={ESCALA} />
 
       <p className="mt-12 max-w-2xl text-xs text-[var(--tinta-suave)]">
         Fotos: Wikimedia Commons. Consulta la atribución y licencia en cada imagen.

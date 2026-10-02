@@ -10,9 +10,9 @@
   "sourcePath": "web/src/lib/relatos-o-salnes.ts",
   "sourceKey": "meano",
   "sourceExport": "RELATOS_O_SALNES",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
-  "contentHash": "acc12db1afe3f024889e03e4c98b34e5ec5bbc9b6f5ec26ef30454748fff03d6",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
+  "contentHash": "c61074c22c041a12561556bde126380e92100e80f76fc701670f579f33df3060",
   "ficha": {
     "n": 21,
     "zona": "O Salnés",
@@ -459,8 +459,8 @@
       "veredicto": "Meaño es valle de Albariño y Dena práctica a cambio de coche y mar como salida. Su atractivo está en la parroquia y el Castrove; su peaje, en no vender A Lanzada como paseo desde casa ni el municipio como villa costera."
     },
     "fotoIdentidad": {
-      "src": "/fotos/o-salnes/meano-identidad.jpg",
-      "pie": "Meaño: casas de parroquia y monte Castrove detrás"
+      "src": "/fotos/o-salnes/meano-identidad-parroquia.jpg",
+      "pie": "Meaño: emparrado de viña con esteos de granito"
     },
     "fotosAbrir": [
       {

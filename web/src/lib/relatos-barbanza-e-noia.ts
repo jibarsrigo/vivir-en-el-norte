@@ -172,8 +172,8 @@ export const RELATOS_BARBANZA_E_NOIA: Record<string, RelatoMun> = {
         "A Pobra ofrece sierra y ría en el mismo municipio: Curota, Os Areos y hospital comarcal cerca a cambio de no ser capital comercial. Su atractivo está en la doble orilla; su peaje, en medir viento, agosto y la escala real de servicios de villa."
     },
  fotoIdentidad: {
- src: "/fotos/barbanza-e-noia/a-pobra-do-caraminal-identidad.jpg",
- pie: "A Pobra do Caramiñal: casas del puerto frente a la ría, con el monte detrás",
+ src: "/fotos/barbanza-e-noia/pobra-identidad-ria.jpg",
+ pie: "A Pobra do Caramiñal: puerto frente a la ría",
  },
  fotosAbrir: [
  { src: "/fotos/barbanza-e-noia/pobra-casco.jpg", pie: "Casco de piedra de A Pobra do Caramiñal" },

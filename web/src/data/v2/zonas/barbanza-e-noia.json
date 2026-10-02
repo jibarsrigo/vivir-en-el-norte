@@ -3,8 +3,8 @@
   "zonaId": "barbanza-e-noia",
   "nombre": "Barbanza e Noia",
   "sourcePath": "web/src/components/RelatoBarbanzaENoia.tsx",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
   "sourceFileHash": "085d471c80bcf469225c03333473f47da9c67665504d10246e4b2357ffeb2c96",
   "contentHash": "daae35ec6cf72113ff3de75d4cbeac3c8893e66b9ce1b89443a77546f9607ff8",
   "zonaBaseline": {

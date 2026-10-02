@@ -214,8 +214,8 @@ export const RELATOS_CANTABRIA_OCCIDENTAL: Record<string, RelatoMun> = {
         "Liencres/Piélagos ofrece costa natural y una logística metropolitana muy favorable, pero es un territorio disperso: la calidad cotidiana depende más de la vivienda concreta y de sus recorridos que de la distancia lineal al mar."
     },
  fotoIdentidad: {
- src: "/fotos/cantabria-occidental/liencres-pielagos-identidad.jpg",
- pie: "Liencres–Mortera: casas bajas con el monte detrás",
+ src: "/fotos/cantabria-occidental/liencres-identidad-dunas.jpg",
+ pie: "Liencres: costa quebrada y flysch junto a las dunas",
  },
  fotosAbrir: [
  { src: "/fotos/cantabria-occidental/liencres-urbanizacion.jpg", pie: "Urbanización de casas bajas en Liencres" },

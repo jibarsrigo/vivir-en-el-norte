@@ -1,35 +1,20 @@
-import Encaja from "@/components/Encaja";
+import EncajaZona from "@/components/EncajaZona";
+import SeccionZona from "@/components/SeccionZona";
 import Foto from "@/components/Foto";
 import TablaPrecios from "@/components/TablaPrecios";
 import EnlaceIdealista from "@/components/EnlaceIdealista";
-import MunicipiosZonaFin from "@/components/MunicipiosZonaFin";
 import { mallorca, type Zona } from "@/lib/zonas";
 import { municipiosAMarina } from "@/lib/municipios";
-
-function H2({ children }: { children: React.ReactNode }) {
-  return <h2 className="mt-10 font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">{children}</h2>;
-}
 
 function P({ children }: { children: React.ReactNode }) {
   return <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{children}</p>;
 }
 
-const ESCALA: Record<string, string> = {
-  "O Vicedo": "Villa marinera cantábrica",
-  Viveiro: "Villa de ría con casco",
-  Xove: "Costa y parroquias",
-  Cervo: "Costa y cerámica",
-  Burela: "Villa portuaria pesquera",
-  Foz: "Villa de ría y playa",
-  Barreiros: "Playas y parroquias",
-          Ribadeo: "Villa de frontera sobre el Eo",
-};
 
 export default function RelatoAMarina({ zona }: { zona: Zona }) {
   return (
     <article className="mt-8">
-      <section>
-        <H2>Dónde está</H2>
+      <SeccionZona titulo="Dónde está">
         <P>
           A Mariña es la costa norte de Lugo, ya en el Cantábrico: acantilados, playas abiertas y
           tres rías pequeñas —Viveiro, Foz y Ribadeo— que abrigan orillas más calmadas que el mar
@@ -59,10 +44,9 @@ export default function RelatoAMarina({ zona }: { zona: Zona }) {
           src="/fotos/a-marina/zona-catedrais.jpg"
           pie="As Catedrais: arcos de piedra en la costa de A Mariña"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>El tiempo comparado con Baleares</H2>
+      <SeccionZona titulo="El tiempo comparado con Baleares">
         <P>
           A Mariña suma unas {zona.solHoras.toLocaleString("es-ES")} horas de sol y{" "}
           {zona.despejados} días despejados al año. Mallorca ronda{" "}
@@ -94,14 +78,9 @@ export default function RelatoAMarina({ zona }: { zona: Zona }) {
           Viveiro —playa de Covas— y de Foz. As Catedrais, Esteiro o Xilloi invitan más al paseo que
           al baño largo cuando sopla el Cantábrico.
         </P>
-        <p className="mt-4 max-w-2xl font-semibold text-[var(--calor)]">
-          Verano fresco: media alrededor de {zona.tempVerano} °C frente al calor sostenido de
-          Mallorca.
-        </p>
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Cómo se vive</H2>
+      <SeccionZona titulo="Cómo se vive">
         <P>
           Un martes de noviembre muestra ocho escalas. Viveiro y Ribadeo resuelven comercio,
           mercado y centro de salud en villas caminables. Burela aporta puerto y el hospital comarcal
@@ -128,10 +107,9 @@ export default function RelatoAMarina({ zona }: { zona: Zona }) {
           src="/fotos/a-marina/zona-viveiro.jpg"
           pie="Viveiro: villa de ría con casco y vida todo el año"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mar, ría y camino</H2>
+      <SeccionZona titulo="Mar, ría y camino">
         <P>
           En O Vicedo el baño y el paseo miran a Xilloi, Arealonga y Vidreiro; Fuciño do Porco —
           pasarelas sobre el acantilado— y Estaca de Bares, a unos veinte o treinta minutos según
@@ -162,10 +140,9 @@ export default function RelatoAMarina({ zona }: { zona: Zona }) {
           src="/fotos/a-marina/zona-ribadeo.jpg"
           pie="Ribadeo: villa de frontera sobre la ría del Eo"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mercados, fiestas y calendario</H2>
+      <SeccionZona titulo="Mercados, fiestas y calendario">
         <P>
           Viveiro y Ribadeo concentran mercado, comercio y mesas abiertas todo el año. Burela
           añade lonja y ambiente de puerto pesquero; Foz mantiene ritmo de villa de veraneo con
@@ -190,10 +167,9 @@ export default function RelatoAMarina({ zona }: { zona: Zona }) {
           src="/fotos/a-marina/zona-burela.jpg"
           pie="Burela: puerto pesquero y villa de servicios"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Qué cuesta una casa</H2>
+      <SeccionZona titulo="Qué cuesta una casa">
         <P>
           A Mariña no es uniforme. El tramo oeste e industrial —O Vicedo, Xove, Cervo, Burela—
           suele leerse más contenido; Barreiros ya no es esa orilla barata de hace unos años; Foz y
@@ -215,10 +191,9 @@ export default function RelatoAMarina({ zona }: { zona: Zona }) {
         </P>
         <TablaPrecios filas={municipiosAMarina} />
         <EnlaceIdealista ambito="zona" zonaId={zona.id} nombre={zona.zona} />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Servicios, hospital, aeropuerto</H2>
+      <SeccionZona titulo="Servicios, hospital, aeropuerto">
         <P>
           Ribadeo, Viveiro y Burela resuelven comercio, farmacia y centro de salud en villa
           caminable. Foz cubre la semana básica; Cervo, Xove, Barreiros y O Vicedo bajan a lo
@@ -250,9 +225,9 @@ export default function RelatoAMarina({ zona }: { zona: Zona }) {
           src="/fotos/a-marina/zona-vicedo.jpg"
           pie="O Vicedo: extremo occidental de A Mariña hacia Estaca de Bares"
         />
-      </section>
+      </SeccionZona>
 
-      <Encaja
+      <EncajaZona
         si={[
           "Se busca precio contenido con Cantábrico delante y se acepta cielo gris, niebla y aeropuerto a una hora o más. Viveiro da villa con vida propia todo el año; Ribadeo, frontera sobre el Eo y acceso a As Catedrais a unos diez minutos —visita y peaje de agosto, no playa de diario— más el aeropuerto de Asturias a unos sesenta minutos según ruta; Burela, hospital comarcal en el propio municipio.",
           "Se valora ría abrigada para baño corto —Covas o Foz—, paseos de acantilado y un mercado aún contenido en el tramo oeste, sin necesidad de ciudad a menos de una hora y cuarto. En Foz y Ribadeo, en cambio, hay que contar ya con precios de costa media.",
@@ -261,13 +236,7 @@ export default function RelatoAMarina({ zona }: { zona: Zona }) {
           `Se necesita el cielo de Baleares: A Mariña tiene ${zona.lluviaDias} días de lluvia, ${zona.despejados} despejados y ${zona.cubiertos} cubiertos, frente a ${mallorca.lluviaDias} y ${mallorca.despejados} en Mallorca. El verano sigue trayendo lluvia algunos días; la niebla es frecuente.`,
           "Se busca hospital privado cerca, ciudad a media hora o vuelo directo a Palma todo el año desde un aeropuerto próximo. Aquí el comarcal está en Burela, no hay privado en la comarca, Santiago queda a cien o ciento veinte minutos y la programación de vuelos hay que comprobarla cada temporada.",
         ]}
-        veredicto="Veredicto de zona: A Mariña ofrece costa cantábrica y orilla más contenida en el tramo oeste, no sol ni logística corta. Viveiro y Ribadeo concentran vida propia todo el año; Burela interesa si pesa el hospital comarcal en el municipio; Foz, veraneo de ría ya con precios de costa media; O Vicedo, Xove, Cervo y Barreiros piden coche y aceptan estacionalidad marcada. Antes de elegir, probaría un noviembre de niebla, la Semana Santa de Viveiro si el casco importa, y un agosto junto a As Catedrais."
-      />
-
-      <MunicipiosZonaFin
-        zonaId={zona.id}
-        municipios={municipiosAMarina}
-        escalas={ESCALA}
+        veredicto="A Mariña ofrece costa cantábrica y orilla más contenida en el tramo oeste, no sol ni logística corta. Viveiro y Ribadeo concentran vida propia todo el año; Burela interesa si pesa el hospital comarcal en el municipio; Foz, veraneo de ría ya con precios de costa media; O Vicedo, Xove, Cervo y Barreiros piden coche y aceptan estacionalidad marcada. Antes de elegir, probaría un noviembre de niebla, la Semana Santa de Viveiro si el casco importa, y un agosto junto a As Catedrais."
       />
 
       <p className="mt-12 max-w-2xl text-xs text-[var(--tinta-suave)]">

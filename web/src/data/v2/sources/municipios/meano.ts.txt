@@ -39,8 +39,8 @@
         "Meaño es valle de Albariño y Dena práctica a cambio de coche y mar como salida. Su atractivo está en la parroquia y el Castrove; su peaje, en no vender A Lanzada como paseo desde casa ni el municipio como villa costera."
     },
  fotoIdentidad: {
- src: "/fotos/o-salnes/meano-identidad.jpg",
- pie: "Meaño: casas de parroquia y monte Castrove detrás",
+ src: "/fotos/o-salnes/meano-identidad-parroquia.jpg",
+ pie: "Meaño: emparrado de viña con esteos de granito",
  },
  fotosAbrir: [
  { src: "/fotos/o-salnes/meano-emparrado.jpg", pie: "Meaño: viñedos en emparrado entre parroquias" },

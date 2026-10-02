@@ -3,8 +3,8 @@
   "zonaId": "a-marina",
   "nombre": "A Mariña",
   "sourcePath": "web/src/components/RelatoAMarina.tsx",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
   "sourceFileHash": "05be815d5d9960c01b52a72611784b9c26885f6347bc33673a0d3c43afcd121b",
   "contentHash": "88dfa172ac90d4ad9164a5fb3223537bef113aa0102cdf1bca6abc80bf6ece3f",
   "zonaBaseline": {

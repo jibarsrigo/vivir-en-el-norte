@@ -10,8 +10,8 @@
   "sourcePath": "web/src/lib/relatos-asturias-oriente.ts",
   "sourceKey": "llanes",
   "sourceExport": "RELATOS_ASTURIAS_ORIENTE",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
   "contentHash": "1443561e838674dc258dc1edc42208745c0a40257730bc94cb38b4c6595343a5",
   "ficha": {
     "n": 61,

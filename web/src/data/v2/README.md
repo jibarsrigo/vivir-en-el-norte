@@ -5,8 +5,8 @@ Copia navegable y congelada de la web **CURRENT** tal como existía al crear V2
 
 ## Fuente
 
-- Tag de congelación: `current-freeze-2026-09-26`
-- HEAD de referencia: `afaded44aea9026d9167871e60c56aa4b4a82aa8`
+- Tag de congelación: `current-freeze-2026-10-02`
+- HEAD de referencia: `4bb25ca65911159fb646271b6203836946467ca7`
 - Contenido: working tree CURRENT (no NUEVO2)
 
 ## Qué contiene

@@ -46,7 +46,7 @@
         "Veredicto: Meaño es la opción rural de O Salnés —casa orientada al sur en Xil, Simes o Padrenda tras comprobar fibra, humedad y acceso en noviembre; Dena si los recados hay que contar con más—. Encaja si viñedo, piedra y A Lanzada a diez minutos importan más que villa a pie. Se ganan ~1.350 €/m², verano fresco frente a Mallorca y hospital a veinte; se aceptan coche diario, servicios 3/10 y 118 días de lluvia. Si mandan mercado y Fefiñáns caminables, Cambados; si ría asequible con baño cerca, Vilanova; si isla y calas a pie, A Illa.",
     },
     fotoIdentidad: {
-      src: "/fotos/o-salnes/meano-identidad.jpg",
+      src: "/fotos/o-salnes/meano-identidad-parroquia.jpg",
       pie: "Meaño: casas de parroquia y monte Castrove detrás",
     },
     fotosAbrir: [

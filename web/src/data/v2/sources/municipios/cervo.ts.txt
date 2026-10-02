@@ -39,8 +39,8 @@
         "Cervo combina dos experiencias claras: San Cibrao, donde puerto, paseo y playa pueden entrar en la rutina, y Sargadelos, ligado a la cerámica y al Xunco. La cercanía de Burela facilita servicios y hospital, mientras la dispersión y la presencia industrial hacen especialmente importante escoger bien la microzona."
     },
     fotoIdentidad: {
-      src: "/fotos/a-marina/cervo-identidad.jpg",
-      pie: "Cervo: casas del pueblo frente al mar",
+      src: "/fotos/a-marina/cervo-pazo-sargadelos.jpg",
+      pie: "Cervo: pazo de Sargadelos con palmera",
     },
     fotosAbrir: [
       { src: "/fotos/a-marina/cervo-sargadelos.jpg", pie: "Sargadelos: cerámica y Real Fábrica en Cervo" },

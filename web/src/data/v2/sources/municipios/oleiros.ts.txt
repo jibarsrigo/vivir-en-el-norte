@@ -44,8 +44,8 @@
         "Oleiros es corona residencial de microzonas: Santa Cruz, Mera y Perillo cambian el peaje a cambio de orden y A Coruña cerca. Su atractivo está en la calidad residencial; su peaje, en no inventar un solo Oleiros ni homogenizarlo con Ferrol o con la capital."
     },
     fotoIdentidad: {
-      src: "/fotos/golfo-artabro-e-ferrol/oleiros-identidad.jpg",
-      pie: "Oleiros–Santa Cristina: casas frente a la ría, con el monte detrás",
+      src: "/fotos/golfo-artabro-e-ferrol/oleiros-identidad-ria.jpg",
+      pie: "Oleiros: camino húmedo en el parque de Bastiagueiro",
     },
     fotosAbrir: [
       { src: "/fotos/golfo-artabro-e-ferrol/oleiros-santa-cruz.jpg", pie: "Santa Cruz: castillo en islote y paseo" },

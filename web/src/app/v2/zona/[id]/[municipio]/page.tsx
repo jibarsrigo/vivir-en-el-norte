@@ -1,12 +1,10 @@
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import FichaCapa2026 from "@/components/FichaCapa2026";
+import FotoIdentidadCabecera from "@/components/FotoIdentidadCabecera";
 import MapaMunicipioFicha from "@/components/MapaMunicipioFicha";
 import V2BloqueZonaFicha from "@/components/V2BloqueZonaFicha";
 import V2RelatoMunicipio from "@/components/V2RelatoMunicipio";
-import { objectPositionIdentidad } from "@/lib/encuadre-identidad";
-import { rutaPublica } from "@/lib/ruta-publica";
 import {
   actualHrefMunicipio,
   loadV2Municipio,
@@ -56,20 +54,7 @@ export default async function PaginaV2Municipio({
 
       <div className="mt-2 flex items-start gap-3 sm:gap-4">
         <div className="shrink-0">
-          {foto ? (
-            <figure className="h-24 w-40 overflow-hidden rounded-lg border border-[var(--linea)] bg-white shadow-sm sm:h-32 sm:w-56">
-              <Image
-                src={rutaPublica(foto.src)}
-                alt={foto.pie}
-                width={224}
-                height={128}
-                className="h-full w-full object-cover"
-                style={{ objectPosition: objectPositionIdentidad(foto.src) }}
-                sizes="224px"
-                priority
-              />
-            </figure>
-          ) : null}
+          {foto ? <FotoIdentidadCabecera src={foto.src} pie={foto.pie} /> : null}
           <p className="mt-6">
             <Link
               href={`/compara/?con=${ficha.slug}`}

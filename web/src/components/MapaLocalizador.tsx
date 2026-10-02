@@ -3,11 +3,16 @@
 import { useEffect, useRef } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import { VISTA_NORTE } from "@/lib/mapa-base";
 import { TESELA_CLARA } from "@/lib/teselas";
 import { COLOR_CLASE } from "@/lib/zonas";
 
 type Props = { zonaId: string; nombre: string };
 
+/**
+ * Localizador: el norte entero, con la zona actual resaltada.
+ * No hace zoom a la zona (eso es el mapa de detalle).
+ */
 export default function MapaLocalizador({ zonaId, nombre }: Props) {
   const caja = useRef<HTMLDivElement>(null);
 
@@ -19,41 +24,48 @@ export default function MapaLocalizador({ zonaId, nombre }: Props) {
       scrollWheelZoom: false,
       dragging: true,
       zoomSnap: 0.25,
-    }).setView([42.9, -6.1], 7);
+    });
 
     L.tileLayer(TESELA_CLARA.url, { attribution: TESELA_CLARA.attribution }).addTo(map);
 
+    const limitesNorte = L.latLngBounds(VISTA_NORTE[0], VISTA_NORTE[1]);
     let muerto = false;
-    let limites: L.LatLngBounds | null = null;
+    let yaEncuadrado = false;
+
     const encuadrar = () => {
-      if (!limites || !caja.current || caja.current.clientHeight < 40) return;
+      if (!caja.current || caja.current.clientHeight < 40) return;
       map.invalidateSize();
-      map.fitBounds(limites, { padding: [18, 22], maxZoom: 10, animate: false });
+      if (!yaEncuadrado) {
+        map.fitBounds(limitesNorte, {
+          padding: [12, 16],
+          animate: false,
+        });
+        yaEncuadrado = true;
+      }
     };
     const ro = new ResizeObserver(encuadrar);
     ro.observe(caja.current);
+    encuadrar();
 
     fetch(`${process.env.NEXT_PUBLIC_BASE || ""}/data/zonas.geojson`, { cache: "no-store" })
       .then((r) => r.json())
       .then((geo) => {
         if (muerto) return;
-        let foco: L.Layer | null = null;
-        const capa = L.geoJSON(geo, {
+        L.geoJSON(geo, {
           style: (feat) => {
             const p = feat?.properties as { id?: string; clase?: string };
             const esta = p.id === zonaId;
             const color = COLOR_CLASE[p.clase ?? ""] ?? "#888";
             return {
-              color: esta ? "#0b3d5c" : "#8a97a0",
-              weight: esta ? 2.6 : 0.9,
-              fillColor: esta ? color : "#c5cdd2",
-              fillOpacity: esta ? 0.72 : 0.14,
+              color: esta ? "#0b3d5c" : "#6a7a84",
+              weight: esta ? 2.6 : 1,
+              fillColor: esta ? color : color,
+              fillOpacity: esta ? 0.82 : 0.28,
             };
           },
           onEachFeature: (feat, layer) => {
             const p = feat.properties as { id: string; lat?: number; lon?: number };
             if (p.id !== zonaId) return;
-            foco = layer;
             const centro =
               p.lat != null && p.lon != null
                 ? L.latLng(p.lat, p.lon)
@@ -65,9 +77,7 @@ export default function MapaLocalizador({ zonaId, nombre }: Props) {
                 .addTo(map);
             }
           },
-        });
-        capa.addTo(map);
-        limites = (foco as L.Polygon | null)?.getBounds?.() ?? capa.getBounds();
+        }).addTo(map);
         encuadrar();
       })
       .catch(() => undefined);

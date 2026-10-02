@@ -46,7 +46,7 @@
         "Veredicto: A Coruña es la capital atlántica del golfo —piso caminable a paseo y servicios, fuera del tramo más ruidoso de María Pita y San Juan—, no la urbanización residencial. Encaja si ciudad, hospital a pocos minutos y mar juntos importan más que el silencio de chalé. Como casa única, tras comprobar un invierno húmedo y el frente de oleaje; si mandan jardín y ría calmada, Oleiros o Sada a diez o quince minutos. Se ganan servicios 10/10 en nuestra escala y Alvedro a unos diez minutos; se aceptan precio alto, agua fresca y cielo gris frente a Mallorca.",
     },
     fotoIdentidad: {
-      src: "/fotos/golfo-artabro-e-ferrol/a-coruna-identidad.jpg",
+      src: "/fotos/golfo-artabro-e-ferrol/coruna-identidad-torre.jpg",
       pie: "A Coruña: galerías y casas de la marina frente al puerto",
     },
     fotosAbrir: [

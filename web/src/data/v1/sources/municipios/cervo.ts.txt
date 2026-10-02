@@ -46,7 +46,7 @@
         "Veredicto: Cervo es costa, cerámica y hospital cerca. Buscaría vivienda en San Cibrao o cerca de Sargadelos, con fibra comprobada (es parcial), tras probar un agosto en la península y un día de niebla. Se ganan Cubelas, O Torno, Sargadelos y Burela a unos diez minutos; se aceptan servicios limitados, coche para el comercio grande, cielo de Mariña y el complejo de San Ciprián —Cervo/Xove, Alcoa 2026— en el horizonte.",
     },
     fotoIdentidad: {
-      src: "/fotos/a-marina/cervo-identidad.jpg",
+      src: "/fotos/a-marina/cervo-pazo-sargadelos.jpg",
       pie: "Cervo: casas del pueblo frente al mar",
     },
     fotosAbrir: [

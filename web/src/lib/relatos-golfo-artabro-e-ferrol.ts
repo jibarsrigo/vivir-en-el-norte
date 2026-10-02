@@ -49,8 +49,8 @@ export const RELATOS_GOLFO_ARTABRO_E_FERROL: Record<string, RelatoMun> = {
         "A Coruña es capital atlántica compacta: ciudad, hospital y paseo marítimo juntos a cambio de densidad, tráfico y diferencias fuertes entre barrios. Su atractivo está en no tener que elegir entre servicios y mar; su peaje, en no fingir que Riazor es el mismo peaje que un chalé de ría."
     },
     fotoIdentidad: {
-      src: "/fotos/golfo-artabro-e-ferrol/a-coruna-identidad.jpg",
-      pie: "A Coruña: galerías y casas de la marina frente al puerto",
+      src: "/fotos/golfo-artabro-e-ferrol/coruna-identidad-torre.jpg",
+      pie: "A Coruña: Torre de Hércules sobre la costa",
     },
     fotosAbrir: [
       { src: "/fotos/golfo-artabro-e-ferrol/coruna-hercules.jpg", pie: "Torre de Hércules sobre el Atlántico" },
@@ -113,8 +113,8 @@ export const RELATOS_GOLFO_ARTABRO_E_FERROL: Record<string, RelatoMun> = {
         "Oleiros es corona residencial de microzonas: Santa Cruz, Mera y Perillo cambian el peaje a cambio de orden y A Coruña cerca. Su atractivo está en la calidad residencial; su peaje, en no inventar un solo Oleiros ni homogenizarlo con Ferrol o con la capital."
     },
     fotoIdentidad: {
-      src: "/fotos/golfo-artabro-e-ferrol/oleiros-identidad.jpg",
-      pie: "Oleiros–Santa Cristina: casas frente a la ría, con el monte detrás",
+      src: "/fotos/golfo-artabro-e-ferrol/oleiros-identidad-ria.jpg",
+      pie: "Oleiros: camino húmedo en el parque de Bastiagueiro",
     },
     fotosAbrir: [
       { src: "/fotos/golfo-artabro-e-ferrol/oleiros-santa-cruz.jpg", pie: "Santa Cruz: castillo en islote y paseo" },
@@ -236,8 +236,8 @@ export const RELATOS_GOLFO_ARTABRO_E_FERROL: Record<string, RelatoMun> = {
         "Bergondo ofrece parcela y ría cercana a cambio de autonomía baja-media y coche. Su atractivo está en la calma metropolitana; su peaje, en no inventar una villa ni una playa andando desde cualquier dirección."
     },
     fotoIdentidad: {
-      src: "/fotos/golfo-artabro-e-ferrol/bergondo-identidad.jpg",
-      pie: "Bergondo: casas junto a la ría de Betanzos y el puente do Pedrido",
+      src: "/fotos/golfo-artabro-e-ferrol/bergondo-identidad-marinan.jpg",
+      pie: "Bergondo: pazo de Mariñán junto a la ría",
     },
     fotosAbrir: [
       { src: "/fotos/golfo-artabro-e-ferrol/bergondo-marinan.jpg", pie: "Pazo de Mariñán hacia la ría" },

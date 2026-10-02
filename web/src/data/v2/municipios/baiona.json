@@ -10,8 +10,8 @@
   "sourcePath": "web/src/lib/relatos-val-minor.ts",
   "sourceKey": "baiona",
   "sourceExport": "RELATOS_VAL_MINOR",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
   "contentHash": "1e2eeef236b347991a703d88698fe3df4c8ea52ec7a2d1a48bacdff4236125b7",
   "ficha": {
     "n": 6,

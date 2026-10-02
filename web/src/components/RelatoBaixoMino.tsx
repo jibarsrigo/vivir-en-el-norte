@@ -1,34 +1,20 @@
-import Encaja from "@/components/Encaja";
+import EncajaZona from "@/components/EncajaZona";
+import SeccionZona from "@/components/SeccionZona";
 import Foto from "@/components/Foto";
 import TablaPrecios from "@/components/TablaPrecios";
 import EnlaceIdealista from "@/components/EnlaceIdealista";
-import MunicipiosZonaFin from "@/components/MunicipiosZonaFin";
 import { mallorca, type Zona } from "@/lib/zonas";
 import { municipiosBaixoMino } from "@/lib/municipios";
-
-function H2({ children }: { children: React.ReactNode }) {
-  return (
-    <h2 className="mt-10 font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">{children}</h2>
-  );
-}
 
 function P({ children }: { children: React.ReactNode }) {
   return <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{children}</p>;
 }
 
-const ESCALA: Record<string, string> = {
-  "A Guarda": "Villa",
-  Oia: "Casas dispersas",
-  "O Rosal": "Pueblo compacto y casas dispersas",
-  Tomiño: "Casas dispersas",
-  Tui: "Villa",
-};
 
 export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
   return (
     <article className="mt-8">
-      <section>
-        <H2>Dónde está</H2>
+      <SeccionZona titulo="Dónde está">
         <P>
           La esquina suroeste de Galicia: el último tramo del Miño antes de entrar en el Atlántico,
           con Portugal en la otra orilla. Mirando al mar, A Guarda —una villa de pescadores apretada
@@ -56,10 +42,9 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
           sobre todo en disperso. Quien no entienda esa diferencia llegará pensando en «pueblo» y
           encontrará otra cosa: paisaje, sí; calle que una la vida diaria, no siempre.
         </P>
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>El tiempo comparado con Baleares</H2>
+      <SeccionZona titulo="El tiempo comparado con Baleares">
         <P>
           Si vienes de Baleares, notará el cielo más gris y con menos sol que en Mallorca; el cuerpo tarda unas semanas en acostumbrarse. No porque el invierno
           sea más frío —en enero las máximas y mínimas se parecen mucho a las de la isla; el mar
@@ -96,14 +81,9 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
           mundo hasta media mañana y luego lo devuelven. No es drama. Es el clima de frontera
           atlántica, y conviene vivirlo un noviembre antes de comprar.
         </P>
-        <p className="mt-4 max-w-2xl font-semibold text-[var(--calor)]">
-          El calor aprieta en julio y agosto en el interior (Tui, Tomiño). En A Guarda y Oia, unos
-          cinco días al año por encima de 30 °C.
-        </p>
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Cómo se vive</H2>
+      <SeccionZona titulo="Cómo se vive">
         <P>
           Un martes de noviembre en A Guarda: el puerto trabaja. Hay cajas, olor a lonja, alguien
           que grita una medida. En el paseo hay café; no es temporada alta y sin embargo la villa
@@ -170,10 +150,9 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
           escala, no solo código postal.
         </P>
         <Foto src="/fotos/baixo-mino/a-guarda-villa.jpg" pie="A Guarda: villa de puerto que no se apaga en invierno" />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mar, río y camino</H2>
+      <SeccionZona titulo="Mar, río y camino">
         <P>
           Aquí el paseo cuenta tanto como nadar. Quien llega pensando en el Mediterráneo —agua a
           veinticinco grados, bahía quieta, toalla sin prisa— necesita un momento para entender el
@@ -221,10 +200,9 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
           paseo del domingo. Goián y Tui tienen su paseo fluvial; cruzando el puente, la Ecopista
           Valença–Monção sigue el río hacia el interior de Portugal.
         </P>
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mercados, fiestas y mesa</H2>
+      <SeccionZona titulo="Mercados, fiestas y mesa">
         <P>
           La mesa cuenta cómo se vive tanto como el clima. A Guarda tiene mercado diario y
           mercadillo semanal: pescado, verdura, el ritmo de una villa que no depende del turista.
@@ -255,10 +233,9 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
           añade visitantes sin borrar a los vecinos. Esa continuidad sostiene la comarca fuera
           del folleto.
         </P>
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Monte</H2>
+      <SeccionZona titulo="Monte">
         <P>
           El Santa Trega, trescientos cuarenta y un metros, cae sobre la desembocadura como un
           balcón natural: castro de casas circulares, ermita, mirador, el Miño abriéndose al
@@ -279,10 +256,9 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
           src="/fotos/baixo-mino/zona-tui-catedral.jpg"
           pie="Tui: la catedral y el casco sobre el Miño, frente a Valença"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Día de lluvia</H2>
+      <SeccionZona titulo="Día de lluvia">
         <P>
           De octubre a marzo llueve muchos días al mes —trece a dieciséis, según el tramo—. Un día
           así no se queda uno mirando el cristal si ha entendido la comarca: se cruza a Valença
@@ -297,10 +273,9 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
           verde. Quien acepte el valle vivirá bien aquí. Quien solo lo mire en agosto se decidirá sin haber visto el invierno.
         </P>
         <Foto src="/fotos/baixo-mino/rosal-folon-vista.jpg" pie="Muíños do Folón: aún más vivos con lluvia fina" />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Calma</H2>
+      <SeccionZona titulo="Calma">
         <P>
           La calma aquí no es silencio absoluto. Tiene caras, y conviene conocerlas antes de
           enamorar del paisaje. En Oia, la carretera de la costa —la PO-552— pasa tan pegada al
@@ -327,10 +302,9 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
           padrón. Si no hay calle que una, no hay pueblo en el sentido en que muchos lo imaginan.
           Hay paisaje. Y paisaje no es lo mismo.
         </P>
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Servicios, hospital, aeropuerto</H2>
+      <SeccionZona titulo="Servicios, hospital, aeropuerto">
         <P>
           No hay ciudad en la comarca. Hay villas y parroquias. A Guarda cubre lo esencial de villa:
           centro de salud con urgencias día y noche, farmacias, supermercados, mercado, lonja,
@@ -359,10 +333,9 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
           mirar esa logística antes que el color del Atlántico. La fibra llega bien a A Guarda y
           Tui; en O Rosal, Tomiño y Oia es parcial: se comprueba casa a casa, no pueblo a pueblo.
         </P>
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Qué cuesta una casa</H2>
+      <SeccionZona titulo="Qué cuesta una casa">
         <P>
           El mercado no ordena los cinco pueblos en un ranking limpio de metro cuadrado: aquí se
           paga tipología y paisaje tanto como servicios. En Oia y en la punta atlántica pesa el
@@ -379,9 +352,9 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
         </P>
         <TablaPrecios filas={municipiosBaixoMino} />
         <EnlaceIdealista ambito="zona" zonaId={zona.id} nombre={zona.zona} />
-      </section>
+      </SeccionZona>
 
-      <Encaja
+      <EncajaZona
         si={[
           "El paisaje —valle de parras, piedra, monte detrás— y el tiempo para recorrerlo importan más que tener la ciudad y el hospital a un cuarto de hora. Quien acepte Vigo a unos cuarenta minutos y el hospital público Álvaro Cunqueiro (en Vigo) entre treinta y cuarenta y cinco encontrará en esta comarca un tramo donde el día a día cabe en villa o valle, con Portugal como costumbre semanal: Valença, Cerveira, Caminha a un puente. Un invierno de trece a dieciséis días de lluvia al mes (octubre a marzo) tiene que caber: la terraza se usa la mitad; a cambio, de junio a septiembre el sol se estrecha con Baleares.",
           "El mar a diez minutos desde el valle de O Rosal basta para quien no necesita océano en la puerta —Area Grande, la cala de A Guarda, o O Muíño, la playa del estuario—; o a veinticinco desde Tui, si lo que pesa es el hospital. Quien tenga tiempo libre para el circuito de molinos del Folón (O Rosal), para subir al Monte Santa Trega (castro y mirador sobre la desembocadura), al Monte Aloia (parque natural sobre Tui), para la lonja de A Guarda y la frontera portuguesa sacará de Baixo Miño lo que el folleto no cuenta.",
@@ -390,10 +363,8 @@ export default function RelatoBaixoMino({ zona }: { zona: Zona }) {
           "Hace falta hospital a menos de treinta minutos y ciudad a un cuarto de hora —salvo Tui, y Tui trae el calor de valle en julio—. Quien busque pueblo compacto de plaza, súper y farmacia a pie y mire Oia se equivoca de pueblo: ahí hay aldeas colgadas entre sierra y océano, no calle que una.",
           "El verano tiene que ser fresco y se elige Tui o Tomiño: en el fondo del Miño vuelven quince o veinte días por encima de treinta grados. Quien huya del calor debería mirar A Guarda u Oia (punta atlántica) u O Rosal (valle sin ese calor extremo), no la vega de Tomiño ni el ensanche de Tui.",
         ]}
-        veredicto="Veredicto de zona: O Rosal es donde el día a día se siente pueblo —valle, plaza de O Calvario, monte detrás, mar a pocos minutos—. Tui encaja si hospital y ciudad pequeña pesan más que el mar y el calor de vega. A Guarda funciona como villa de mar y complemento, no siempre como casa única. Tomiño pide aceptar calor de valle; Oia, soledad atlántica. Conviene verlo en noviembre: el invierno es lo que se acepta o se rechaza."
+        veredicto="O Rosal es donde el día a día se siente pueblo —valle, plaza de O Calvario, monte detrás, mar a pocos minutos—. Tui encaja si hospital y ciudad pequeña pesan más que el mar y el calor de vega. A Guarda funciona como villa de mar y complemento, no siempre como casa única. Tomiño pide aceptar calor de valle; Oia, soledad atlántica. Conviene verlo en noviembre: el invierno es lo que se acepta o se rechaza."
       />
-
-      <MunicipiosZonaFin zonaId={zona.id} municipios={municipiosBaixoMino} escalas={ESCALA} />
 
       <p className="mt-12 max-w-2xl text-xs text-[var(--tinta-suave)]">
         Fotos: Wikimedia Commons. Luis Miguel Bugallo Sánchez (CC BY-SA 4.0 / 3.0).

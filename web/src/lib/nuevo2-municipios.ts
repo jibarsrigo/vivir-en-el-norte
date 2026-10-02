@@ -1,4 +1,4 @@
-/** Slugs con ficha Nuevo2 montada (rutas bajo /nuevo2/). */
+/** Slugs con ficha publicada (promovidos desde NUEVO2). Ruta canónica: /{slug}/ */
 export const NUEVO2_MUNICIPIO_SLUGS = new Set([
   "cudillero",
   "candas-carreno",
@@ -85,8 +85,10 @@ export const NUEVO2_MUNICIPIO_SLUGS = new Set([
   "vila-do-conde",
 ]);
 
-/** Enlace a ficha: Nuevo2 si existe; si no, ruta current de zona. */
-export function hrefFichaMunicipio(zonaId: string, slug: string): string {
-  if (NUEVO2_MUNICIPIO_SLUGS.has(slug)) return `/nuevo2/${slug}/`;
-  return `/zona/${zonaId}/${slug}/`;
+/** Alias histórico del set de fichas NUEVO2. */
+export const FICHAS_PUBLICADAS_SLUGS = NUEVO2_MUNICIPIO_SLUGS;
+
+/** Enlace canónico a ficha de municipio. */
+export function hrefFichaMunicipio(_zonaId: string, slug: string): string {
+  return `/${slug}/`;
 }

@@ -1,0 +1,29 @@
+/** Mapas estáticos de detalle por zona (panel mapa2 recortado). */
+export const MAPA_DETALLE_ESTATICO: Record<string, string> = {
+  "baixo-mino": "/mapas/zona_01_detalle.png",
+  "val-minor": "/mapas/zona_02_detalle.png",
+  "vigo-e-ria": "/mapas/zona_03_detalle.png",
+  "o-morrazo": "/mapas/zona_04_detalle.png",
+  "pontevedra-e-sanxenxo": "/mapas/zona_05_detalle.png",
+  "o-salnes": "/mapas/zona_06_detalle.png",
+  "barbanza-e-noia": "/mapas/zona_07_detalle.png",
+  "golfo-artabro-e-ferrol": "/mapas/zona_08_detalle.png",
+  "a-marina": "/mapas/zona_09_detalle.png",
+  "asturias-occidente": "/mapas/zona_10_detalle.png",
+  "asturias-centro": "/mapas/zona_11_detalle.png",
+  "asturias-oriente": "/mapas/zona_12_detalle.png",
+  "cantabria-occidental": "/mapas/zona_13_detalle.png",
+  "cantabria-oriental": "/mapas/zona_14_detalle.png",
+  "alto-minho": "/mapas/zona_15_detalle.png",
+  "litoral-norte": "/mapas/zona_16_detalle.png",
+};
+
+/** Ruta canónica de zona (tras cutover). */
+export function hrefZonaNuevo2(zonaId: string): string {
+  return `/zona/${zonaId}/`;
+}
+
+/** Alias explícito. */
+export function hrefZona(zonaId: string): string {
+  return `/zona/${zonaId}/`;
+}

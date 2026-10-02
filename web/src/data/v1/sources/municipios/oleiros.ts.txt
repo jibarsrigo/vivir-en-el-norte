@@ -46,7 +46,7 @@
         "Veredicto: Oleiros es la apuesta urbanización-playa del golfo —vivienda en Mera o Santa Cruz, fuera del tramo más ocupado de agosto—. Encaja si orden, playa y A Coruña a diez minutos importan más que el metro bajo o el casco antiguo. Como casa única, tras comprobar sol real en noviembre y una tarde de veraneo en la orilla; si mandan precio o villa con puerto, Sada o Costa Miño. Se ganan CHUAC a diez minutos y Alvedro a diez; se aceptan precio alto y cielo gris frente a Mallorca.",
     },
     fotoIdentidad: {
-      src: "/fotos/golfo-artabro-e-ferrol/oleiros-identidad.jpg",
+      src: "/fotos/golfo-artabro-e-ferrol/oleiros-identidad-ria.jpg",
       pie: "Oleiros–Santa Cristina: casas frente a la ría, con el monte detrás",
     },
     fotosAbrir: [

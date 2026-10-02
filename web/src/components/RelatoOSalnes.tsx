@@ -1,32 +1,20 @@
-import Encaja from "@/components/Encaja";
+import EncajaZona from "@/components/EncajaZona";
+import SeccionZona from "@/components/SeccionZona";
 import Foto from "@/components/Foto";
 import TablaPrecios from "@/components/TablaPrecios";
 import EnlaceIdealista from "@/components/EnlaceIdealista";
-import MunicipiosZonaFin from "@/components/MunicipiosZonaFin";
 import { mallorca, type Zona } from "@/lib/zonas";
 import { municipiosOSalnes } from "@/lib/municipios";
-
-function H2({ children }: { children: React.ReactNode }) {
-  return <h2 className="mt-10 font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">{children}</h2>;
-}
 
 function P({ children }: { children: React.ReactNode }) {
   return <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{children}</p>;
 }
 
-const ESCALA: Record<string, string> = {
-  Meaño: "Parroquias de viñedo",
-  Cambados: "Villa histórica",
-  "A Illa de Arousa": "Isla y villa marinera",
-  "Vilanova de Arousa": "Villa y parroquias",
-  "Vilagarcía de Arousa": "Ciudad pequeña",
-};
 
 export default function RelatoOSalnes({ zona }: { zona: Zona }) {
   return (
     <article className="mt-8">
-      <section>
-        <H2>Dónde está</H2>
+      <SeccionZona titulo="Dónde está">
         <P>
           O Salnés es el valle bajo que se abre entre el Monte Castrove y el Monte Xiabre hacia la
           ría de Arousa, la mayor de las Rías Baixas. Una ría es un valle fluvial inundado por el
@@ -50,10 +38,9 @@ export default function RelatoOSalnes({ zona }: { zona: Zona }) {
           o Sanxenxo como salida de playa, no como arenal de diario.
         </P>
         <Foto src="/fotos/o-salnes/cambados-fefinans.jpg" pie="Cambados: granito, Albariño y la ría de Arousa" />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>El tiempo comparado con Baleares</H2>
+      <SeccionZona titulo="El tiempo comparado con Baleares">
         <P>
           O Salnés suma unas {zona.solHoras.toLocaleString("es-ES")} horas de sol y{" "}
           {zona.despejados} días despejados al año. Mallorca ronda{" "}
@@ -78,13 +65,9 @@ export default function RelatoOSalnes({ zona }: { zona: Zona }) {
           de Mallorca, pero facilita baños cortos en O Bao, As Sinas o Compostela. A Lanzada, al
           sur de la comarca, ya es Atlántico abierto: más oleaje y agua próxima a 17-20 °C.
         </P>
-        <p className="mt-4 max-w-2xl font-semibold text-[var(--calor)]">
-          Verano suave: máximas habituales de 25–26 °C y pocas jornadas por encima de 30 °C.
-        </p>
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Cómo se vive</H2>
+      <SeccionZona titulo="Cómo se vive">
         <P>
           Un martes de noviembre muestra cinco escalas. Cambados abre mercado y comercio dentro de
           una villa caminable. Vilagarcía añade hospital, estación y compras de ciudad pequeña.
@@ -110,10 +93,9 @@ export default function RelatoOSalnes({ zona }: { zona: Zona }) {
           ruido, pero mercado, hospital, tren, bodegas y barcos siguen funcionando en enero.
         </P>
         <Foto src="/fotos/o-salnes/zona-bateas-arousa.jpg" pie="Bateas de mejillón en la ría de Arousa" />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mar, ría y caminos</H2>
+      <SeccionZona titulo="Mar, ría y caminos">
         <P>
           A Illa ofrece el baño más inmediato: O Bao junto al puente, Area da Secada al noroeste y
           las calas de Carreirón en la punta sur. Carreirón es parque natural de pinar, dunas,
@@ -136,10 +118,9 @@ export default function RelatoOSalnes({ zona }: { zona: Zona }) {
           desde Cambados.
         </P>
         <Foto src="/fotos/o-salnes/meano-umia.jpg" pie="El Umia atraviesa el valle antes de llegar a la ría" />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mercados, fiestas y calendario</H2>
+      <SeccionZona titulo="Mercados, fiestas y calendario">
         <P>
           Cambados concentra mercado, bodegas y restauración alrededor de Fefiñáns y la Calzada. La
           primera semana de agosto, la Festa do Albariño llena la villa con casetas, conciertos y
@@ -160,10 +141,9 @@ export default function RelatoOSalnes({ zona }: { zona: Zona }) {
           paisaje y la semana.
         </P>
         <Foto src="/fotos/o-salnes/meano-emparrado.jpg" pie="Emparrados de Albariño: el paisaje productivo de O Salnés" />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Qué cuesta una casa</H2>
+      <SeccionZona titulo="Qué cuesta una casa">
         <P>
           El mercado abre un abanico amplio: Meaño suele ser la franja más asequible del valle;
           Cambados y Vilagarcía se mueven en tramos intermedios; A Illa concentra escasez de suelo
@@ -179,10 +159,9 @@ export default function RelatoOSalnes({ zona }: { zona: Zona }) {
         </P>
         <TablaPrecios filas={municipiosOSalnes} />
         <EnlaceIdealista ambito="zona" zonaId={zona.id} nombre={zona.zona} />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Servicios, hospital, aeropuerto</H2>
+      <SeccionZona titulo="Servicios, hospital, aeropuerto">
         <P>
           Vilagarcía concentra hospital, estación, mercado, supermercados, colegios, institutos y
           comercio de ciudad pequeña. Cambados cubre la semana básica en villa caminable. Vilanova
@@ -204,9 +183,9 @@ export default function RelatoOSalnes({ zona }: { zona: Zona }) {
           veinticinco minutos y servicios de larga distancia.
         </P>
         <Foto src="/fotos/o-salnes/illa-puente.jpg" pie="El puente de A Illa: la comarca también se vive en isla" />
-      </section>
+      </SeccionZona>
 
-      <Encaja
+      <EncajaZona
         si={[
           "Se quiere verano mucho más suave que en Mallorca, agua de ría calma y una comarca que conserva vida todo el año. Cambados aporta villa e historia; A Illa, playas a pie; Vilanova, orilla de ría; Vilagarcía, hospital y tren; Meaño, piedra y viñedo —con A Lanzada como salida, no como playa cotidiana—.",
           "Se valora poder escoger escala sin alejarse del hospital. Incluso desde la isla o las parroquias de Meaño, el Hospital do Salnés queda alrededor de veinte minutos; Santiago y su enlace con Palma están a menos de una hora.",
@@ -215,10 +194,8 @@ export default function RelatoOSalnes({ zona }: { zona: Zona }) {
           `Se necesita el cielo de Baleares: O Salnés tiene ${zona.lluviaDias} días de lluvia y ${zona.despejados} despejados, frente a ${mallorca.lluviaDias} y ${mallorca.despejados} en Mallorca. El verano es luminoso, pero el invierno exige convivir con humedad y semanas grises.`,
           "Se busca a la vez océano abierto, gran ciudad y vida sin coche. La ría es protegida; A Lanzada requiere desplazamiento. Vilagarcía da servicios sin el encanto de Cambados, mientras Meaño da paisaje y casa a cambio de conducir.",
         ]}
-        veredicto="Veredicto de zona: Cambados encaja por villa, mercado, historia y hospital a quince minutos. Vilanova, si pesan orilla de ría y un metro más amable; A Illa, si mar y senderos deben empezar a pie; Vilagarcía, si mandan hospital, tren y servicios; Meaño, si se quiere casa entre viñas y se acepta coche. Antes de elegir, conviene probar un noviembre húmedo y la semana festiva de agosto de la calle concreta."
+        veredicto="Cambados encaja por villa, mercado, historia y hospital a quince minutos. Vilanova, si pesan orilla de ría y un metro más amable; A Illa, si mar y senderos deben empezar a pie; Vilagarcía, si mandan hospital, tren y servicios; Meaño, si se quiere casa entre viñas y se acepta coche. Antes de elegir, conviene probar un noviembre húmedo y la semana festiva de agosto de la calle concreta."
       />
-
-      <MunicipiosZonaFin zonaId={zona.id} municipios={municipiosOSalnes} escalas={ESCALA} />
 
       <p className="mt-12 max-w-2xl text-xs text-[var(--tinta-suave)]">
         Fotos: Wikimedia Commons. Consulta la atribución y licencia en cada imagen.

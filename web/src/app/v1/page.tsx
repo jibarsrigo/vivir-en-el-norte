@@ -6,11 +6,34 @@ import {
   v1MunicipiosDeZona,
   v1Zonas,
 } from "@/lib/v1";
+import { comunidadDeZona, zonaPorId, type ComunidadId } from "@/lib/zonas";
+
+const COMUNIDADES: { id: ComunidadId; nombre: string }[] = [
+  { id: "galicia", nombre: "Galicia" },
+  { id: "asturias", nombre: "Asturias" },
+  { id: "cantabria", nombre: "Cantabria" },
+  { id: "portugal", nombre: "Portugal" },
+];
+
+function comunidadDeZonaId(zonaId: string): ComunidadId {
+  const z = zonaPorId(zonaId);
+  return z ? comunidadDeZona(z) : "galicia";
+}
 
 export default function PaginaV1Indice() {
   const { counts, sourceTag, sourceCommit } = v1Manifest;
+
+  const porComunidad = COMUNIDADES.map((c) => {
+    const zonas = v1Zonas.filter((z) => comunidadDeZonaId(z.zonaId) === c.id);
+    const nMunicipios = zonas.reduce(
+      (acc, z) => acc + v1MunicipiosDeZona(z.zonaId).length,
+      0,
+    );
+    return { ...c, zonas, nMunicipios };
+  }).filter((c) => c.zonas.length > 0);
+
   return (
-    <main className="mx-auto max-w-6xl px-4 py-8">
+    <main className="mx-auto max-w-6xl px-4 py-8 pb-20">
       <p className="text-sm text-[var(--tinta-suave)]">
         <Link href="/" className="underline-offset-2 hover:underline">
           Inicio
@@ -27,7 +50,7 @@ export default function PaginaV1Indice() {
         factual vigente.
       </p>
       <p className="mt-2 text-sm text-[var(--tinta-suave)]">
-        {counts.zonas} zonas / {counts.municipios} lugares · fuente {sourceTag} (
+        {counts.zonas} zonas / {counts.municipios} municipios · fuente {sourceTag} (
         <code className="text-xs">{sourceCommit.slice(0, 7)}</code>)
       </p>
       <p className="mt-4">
@@ -36,31 +59,50 @@ export default function PaginaV1Indice() {
         </Link>
       </p>
 
-      <div className="mt-10 space-y-8">
-        {v1Zonas.map((z) => {
-          const muns = v1MunicipiosDeZona(z.zonaId);
-          return (
-            <section key={z.zonaId}>
-              <h2 className="font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">
-                <Link href={v1HrefZona(z.zonaId)} className="underline-offset-2 hover:underline">
-                  {z.nombre}
-                </Link>
-              </h2>
-              <ul className="mt-2 columns-1 gap-x-8 sm:columns-2 md:columns-3">
-                {muns.map((m) => (
-                  <li key={m.slug} className="break-inside-avoid py-0.5 text-[15px]">
-                    <Link
-                      href={v1HrefMunicipio(z.zonaId, m.slug)}
-                      className="underline-offset-2 hover:underline"
-                    >
-                      {m.nombre}
-                    </Link>
+      <div className="mt-10 space-y-12">
+        {porComunidad.map((c) => (
+          <section key={c.id}>
+            <h2 className="font-[family-name:var(--font-serif)] text-3xl text-[var(--acento)]">
+              {c.nombre}
+              <span className="ml-2 text-base font-normal text-[var(--tinta-suave)]">
+                ({c.nMunicipios})
+              </span>
+            </h2>
+            <ol className="mt-4 list-none space-y-5 p-0">
+              {c.zonas.map((z) => {
+                const muns = v1MunicipiosDeZona(z.zonaId);
+                return (
+                  <li key={z.zonaId}>
+                    <h3 className="font-[family-name:var(--font-serif)] text-xl text-[var(--acento)]">
+                      <Link
+                        href={v1HrefZona(z.zonaId)}
+                        className="underline-offset-2 hover:underline"
+                      >
+                        {z.nombre}
+                      </Link>
+                      <span className="ml-2 text-sm font-normal text-[var(--tinta-suave)]">
+                        ({muns.length})
+                      </span>
+                    </h3>
+                    <p className="mt-1 text-[15px] leading-relaxed">
+                      {muns.map((m, i) => (
+                        <span key={m.slug}>
+                          {i > 0 ? " · " : null}
+                          <Link
+                            href={v1HrefMunicipio(z.zonaId, m.slug)}
+                            className="underline-offset-2 hover:underline"
+                          >
+                            {m.nombre}
+                          </Link>
+                        </span>
+                      ))}
+                    </p>
                   </li>
-                ))}
-              </ul>
-            </section>
-          );
-        })}
+                );
+              })}
+            </ol>
+          </section>
+        ))}
       </div>
     </main>
   );

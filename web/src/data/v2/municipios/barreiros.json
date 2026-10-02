@@ -10,9 +10,9 @@
   "sourcePath": "web/src/lib/relatos-a-marina.ts",
   "sourceKey": "barreiros",
   "sourceExport": "RELATOS_A_MARINA",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
-  "contentHash": "5d261f0632cbc37d68ac57cbbc2e89fc941fcff83679e0f53c62fea0eade1e34",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
+  "contentHash": "c62a19ddaee3d722ba496dd750a70d19d9f0ed03d44d5645c63db6a08f395728",
   "ficha": {
     "n": 45,
     "zona": "A Mariña",
@@ -660,8 +660,8 @@
       "veredicto": "Barreiros es una forma dispersa y estacional de vivir A Mariña: mucha orilla, playas y As Catedrais muy presentes, pero sin una villa densa que concentre la rutina. La vivienda adecuada depende menos de una etiqueta municipal que de comprobar acceso, servicios reales, vecinos de invierno, humedad y cuánto coche exige la microzona."
     },
     "fotoIdentidad": {
-      "src": "/fotos/a-marina/barreiros-identidad.jpg",
-      "pie": "Barreiros: casas junto al mar, con la sierra detrás"
+      "src": "/fotos/a-marina/barreiros-identidad-costa.jpg",
+      "pie": "Barreiros: acantilado y cueva en la costa de Lángara"
     },
     "fotosAbrir": [
       {

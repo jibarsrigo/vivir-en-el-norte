@@ -3,8 +3,8 @@
   "zonaId": "val-minor",
   "nombre": "Val Miñor",
   "sourcePath": "web/src/components/RelatoValMinor.tsx",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
   "sourceFileHash": "201134ed2970ae8408b1bd68f58bed5063b3159e205cc84fc5af41e0b25e5783",
   "contentHash": "09c7e53f06941f2e795cb7e6d6e6df6b2ad470e03a7984de77f296158ca86ac1",
   "zonaBaseline": {

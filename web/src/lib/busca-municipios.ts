@@ -41,7 +41,7 @@ function deFicha(f: FichaMunicipio): HitBuscaMunicipio {
     zonaId,
     zonaNombre: zonaNombreDe(zonaId, f.zona),
     escala: relato?.escala ?? "",
-    href: `/zona/${zonaId}/${f.slug}/`,
+    href: `/${f.slug}/`,
     hospitalMin: f.hospitalMin,
     precioM2: f.precioM2,
     servicios: f.servicios,

@@ -3,8 +3,8 @@
   "zonaId": "o-morrazo",
   "nombre": "O Morrazo",
   "sourcePath": "web/src/components/RelatoOMorrazo.tsx",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
   "sourceFileHash": "0b0961f2f2be2648ceecbeb752622fc92b5732a53c19fe73c6712b7010117450",
   "contentHash": "c32ef5d8323d6fb0ffed4bd96ab402b98bc10b5c4199bcc51d5d83daa302d258",
   "zonaBaseline": {

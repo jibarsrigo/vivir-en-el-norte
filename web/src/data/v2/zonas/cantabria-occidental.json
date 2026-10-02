@@ -3,8 +3,8 @@
   "zonaId": "cantabria-occidental",
   "nombre": "Cantabria Occidental",
   "sourcePath": "web/src/components/RelatoCantabriaOccidental.tsx",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
   "sourceFileHash": "f2ccf7ad617edc8d150a4707c36ce3f7436f31b97bf59b9445db64c49de5e71e",
   "contentHash": "6c9740ea9373fe8cf1ec541e7aa8bcd9c34969284f81a36dfdee9025a9cd6582",
   "zonaBaseline": {

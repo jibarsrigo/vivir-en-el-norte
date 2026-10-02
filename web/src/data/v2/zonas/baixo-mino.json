@@ -3,8 +3,8 @@
   "zonaId": "baixo-mino",
   "nombre": "Baixo Miño",
   "sourcePath": "web/src/components/RelatoBaixoMino.tsx",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
   "sourceFileHash": "9ecdb1e91d4fd4cdc9744c829146f771386ec3b630de90202f11cd49a6b6f087",
   "contentHash": "6e5bc7f1788da27ba32b05d6b82d217bb8db5b3e44b421674a24a89161e0416a",
   "zonaBaseline": {

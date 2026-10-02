@@ -10,9 +10,9 @@
   "sourcePath": "web/src/lib/relatos-golfo-artabro-e-ferrol.ts",
   "sourceKey": "oleiros",
   "sourceExport": "RELATOS_GOLFO_ARTABRO_E_FERROL",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
-  "contentHash": "48b2507a8eed0977d55fdd8e85da5c243d7cf635325e218223f7c86f852bc9f3",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
+  "contentHash": "6ca0ad8714ab85cf6b78bd9eba3f4ee4d4d2bf55b7e0d697a6244245dfec75a5",
   "ficha": {
     "n": 33,
     "zona": "Golfo Ártabro e Ferrol",
@@ -598,8 +598,8 @@
       "veredicto": "Oleiros es corona residencial de microzonas: Santa Cruz, Mera y Perillo cambian el peaje a cambio de orden y A Coruña cerca. Su atractivo está en la calidad residencial; su peaje, en no inventar un solo Oleiros ni homogenizarlo con Ferrol o con la capital."
     },
     "fotoIdentidad": {
-      "src": "/fotos/golfo-artabro-e-ferrol/oleiros-identidad.jpg",
-      "pie": "Oleiros–Santa Cristina: casas frente a la ría, con el monte detrás"
+      "src": "/fotos/golfo-artabro-e-ferrol/oleiros-identidad-ria.jpg",
+      "pie": "Oleiros: camino húmedo en el parque de Bastiagueiro"
     },
     "fotosAbrir": [
       {

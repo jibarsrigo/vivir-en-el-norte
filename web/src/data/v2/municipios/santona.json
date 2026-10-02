@@ -10,8 +10,8 @@
   "sourcePath": "web/src/lib/relatos-cantabria-oriental.ts",
   "sourceKey": "santona",
   "sourceExport": "RELATOS_CANTABRIA_ORIENTAL",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
   "contentHash": "72f280bea96edb2a24b8baf7bd13195215c94856aed46dae6121eb65d8f6985a",
   "ficha": {
     "n": 70,

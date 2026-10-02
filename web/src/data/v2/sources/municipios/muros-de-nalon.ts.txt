@@ -39,8 +39,8 @@
         "Muros de Nalón ofrece estuario y escala pequeña con una logística sorprendentemente cómoda hacia aeropuerto y Avilés. El peaje es una autonomía limitada, bastante coche y una geografía donde miradores, San Esteban y playa son experiencias distintas; además, el precio municipal actual debe tratarse como no disponible."
     },
  fotoIdentidad: {
- src: "/fotos/asturias-centro/muros-de-nalon-identidad.jpg",
- pie: "San Esteban (Muros de Nalón): casas del puerto frente al estuario, con el monte detrás",
+ src: "/fotos/asturias-centro/muros-identidad-selgas.jpg",
+ pie: "Muros de Nalón: tramo arbolado del Camino del Norte",
  },
  fotosAbrir: [
  { src: "/fotos/asturias-centro/muros-miradores.jpg", pie: "Miradores de Muros de Nalón" },

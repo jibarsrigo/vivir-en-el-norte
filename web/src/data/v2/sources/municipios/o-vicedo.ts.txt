@@ -39,20 +39,20 @@
         "O Vicedo ofrece una costa muy presente a cambio de poca autonomía cotidiana. La decisión depende menos de la postal que de aceptar coche, servicios limitados y un invierno muy tranquilo, y de encontrar una vivienda cuyo acceso, orientación, humedad y conectividad funcionen también fuera de temporada."
     },
     fotoIdentidad: {
-      src: "/fotos/a-marina/o-vicedo-identidad.jpg",
-      pie: "O Vicedo: casas junto a la ría, con el monte detrás",
+      src: "/fotos/a-marina/vicedo-identidad-faro.jpg",
+      pie: "O Vicedo: faro blanco en la costa entre monte y mar",
     },
     fotosAbrir: [
-      { src: "/fotos/a-marina/vicedo-villa.jpg", pie: "O Vicedo: villa marinera en el extremo occidental" },
-      { src: "/fotos/a-marina/vicedo-puerto.jpg", pie: "Puerto y orilla de trabajo en O Vicedo" },
+      { src: "/fotos/a-marina/vicedo-villa.jpg", pie: "Núcleo de O Vicedo junto a la ría do Barqueiro" },
+      { src: "/fotos/a-marina/vicedo-horizonte.jpg", pie: "Arealonga y la ría do Barqueiro desde el mirador" },
     ],
     fotosHistoria: [
-      { src: "/fotos/a-marina/vicedo-faro.jpg", pie: "Faro y horizonte hacia Estaca de Bares" },
-      { src: "/fotos/a-marina/vicedo-ria.jpg", pie: "Ría do Barqueiro junto a O Vicedo" },
+      { src: "/fotos/a-marina/vicedo-ria.jpg", pie: "Casa y campos mirando a la ría do Barqueiro" },
+      { src: "/fotos/a-marina/vicedo-faro.jpg", pie: "Fuciño do Porco: Punta Socastro sobre el Cantábrico" },
     ],
     fotosFuera: [
-      { src: "/fotos/a-marina/vicedo-playa.jpg", pie: "Playa atlántica en O Vicedo" },
-      { src: "/fotos/a-marina/vicedo-costa.jpg", pie: "Costa y acantilados de O Vicedo" },
+      { src: "/fotos/a-marina/vicedo-barqueiro.jpg", pie: "Boca de la ría do Barqueiro a marea baja" },
+      { src: "/fotos/a-marina/vicedo-costa.jpg", pie: "Pasarelas de Fuciño do Porco sobre el acantilado" },
     ],
     creditoFotos: credito,
   }

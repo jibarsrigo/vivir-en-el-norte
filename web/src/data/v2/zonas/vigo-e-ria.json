@@ -3,8 +3,8 @@
   "zonaId": "vigo-e-ria",
   "nombre": "Vigo e ría",
   "sourcePath": "web/src/components/RelatoVigoERia.tsx",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
   "sourceFileHash": "a434b27ad11b1ba7ce8cfc4f85be48f9ea21fe2ff1ed1ac38f6ed2e40d910f67",
   "contentHash": "fb9597a7c479ed1f8ba93ba02e30ce274c5f9581be8c26492953a56e3122ddb5",
   "zonaBaseline": {

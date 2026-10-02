@@ -10,9 +10,9 @@
   "sourcePath": "web/src/lib/relatos-a-marina.ts",
   "sourceKey": "xove",
   "sourceExport": "RELATOS_A_MARINA",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
-  "contentHash": "bcad46d71f7a109fab9ddd66bb75fcda838ada8f5688a5e52f0dc1f06bdbc288",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
+  "contentHash": "2f4e265dbd8e99f1b430c7200d33e7a2399bbef716e518cfa87c917069480dc8",
   "ficha": {
     "n": 41,
     "zona": "A Mariña",
@@ -662,27 +662,31 @@
     "fotosAbrir": [
       {
         "src": "/fotos/a-marina/xove-villa.jpg",
-        "pie": "Xove: núcleos entre costa y parroquias"
+        "pie": "San Bartolomé: Casa do Concello de Xove"
       },
       {
         "src": "/fotos/a-marina/xove-playa.jpg",
-        "pie": "Esteiro, playa de arcos y surf"
+        "pie": "Esteiro: playa abierta al Cantábrico"
       }
     ],
     "fotosHistoria": [
       {
-        "src": "/fotos/a-marina/xove-portocelo.jpg",
-        "pie": "Portocelo, orilla de Xove"
+        "src": "/fotos/a-marina/xove-faro.jpg",
+        "pie": "Faro de Punta Roncadoira"
       },
       {
-        "src": "/fotos/a-marina/xove-parroquia.jpg",
-        "pie": "Parroquia y escala dispersa en Xove"
+        "src": "/fotos/a-marina/xove-portocelo.jpg",
+        "pie": "Restos de piedra junto al mar en Xove"
       }
     ],
     "fotosFuera": [
       {
-        "src": "/fotos/a-marina/xove-faro.jpg",
-        "pie": "Faro de Punta Roncadoira en la costa de Xove"
+        "src": "/fotos/a-marina/xove-portocelo-playa.jpg",
+        "pie": "Portocelo: ensenada más recogida"
+      },
+      {
+        "src": "/fotos/a-marina/xove-parroquia.jpg",
+        "pie": "Granito y Cantábrico en la costa de Xove"
       }
     ],
     "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."

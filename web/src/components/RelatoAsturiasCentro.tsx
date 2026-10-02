@@ -1,34 +1,20 @@
-import Encaja from "@/components/Encaja";
+import EncajaZona from "@/components/EncajaZona";
+import SeccionZona from "@/components/SeccionZona";
 import Foto from "@/components/Foto";
 import TablaPrecios from "@/components/TablaPrecios";
 import EnlaceIdealista from "@/components/EnlaceIdealista";
-import MunicipiosZonaFin from "@/components/MunicipiosZonaFin";
 import { mallorca, type Zona } from "@/lib/zonas";
 import { municipiosAsturiasCentro } from "@/lib/municipios";
-
-function H2({ children }: { children: React.ReactNode }) {
-  return <h2 className="mt-10 font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">{children}</h2>;
-}
 
 function P({ children }: { children: React.ReactNode }) {
   return <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{children}</p>;
 }
 
-const ESCALA: Record<string, string> = {
-  Cudillero: "Pueblo colgado sobre el puerto",
-  "Muros de Nalón": "Estuario y miradores",
-  "Soto del Barco": "Estuario del Nalón",
-  "Salinas (Castrillón)": "Villa-playa residencial",
-  "Luanco (Gozón)": "Villa marinera del cabo Peñas",
-  "Candás (Carreño)": "Villa marinera junto a Gijón",
-  Gijón: "Ciudad de mar",
-};
 
 export default function RelatoAsturiasCentro({ zona }: { zona: Zona }) {
   return (
     <article className="mt-8">
-      <section>
-        <H2>Dónde está</H2>
+      <SeccionZona titulo="Dónde está">
         <P>
           Asturias Centro es la costa del área metropolitana asturiana: Gijón —unos doscientos
           setenta mil habitantes—, Avilés —setenta y siete mil— y Oviedo —doscientos veinte mil,
@@ -52,10 +38,9 @@ export default function RelatoAsturiasCentro({ zona }: { zona: Zona }) {
           src="/fotos/asturias-centro/zona-cudillero.jpg"
           pie="Cudillero: pueblo colgado sobre el puerto"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>El tiempo comparado con Baleares</H2>
+      <SeccionZona titulo="El tiempo comparado con Baleares">
         <P>
           Asturias Centro suma unas {zona.solHoras.toLocaleString("es-ES")} horas de sol y{" "}
           {zona.despejados} días despejados al año. Mallorca ronda{" "}
@@ -78,14 +63,9 @@ export default function RelatoAsturiasCentro({ zona }: { zona: Zona }) {
           Aguilar y Concha de Artedo, El Silencio, Los Quebrantos, Salinas–El Espartal, Xagó, La
           Ribera, Palmera o San Lorenzo invitan al paseo y al baño cuando el mar lo permite.
         </P>
-        <p className="mt-4 max-w-2xl font-semibold text-[var(--calor)]">
-          Verano fresco: media alrededor de {zona.tempVerano} °C frente al calor sostenido de
-          Mallorca.
-        </p>
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Cómo se vive</H2>
+      <SeccionZona titulo="Cómo se vive">
         <P>
           Un martes de noviembre muestra escalas muy distintas. Gijón resuelve todo a pie. Salinas
           es villa con paseo y comercio, Avilés a diez minutos. Candás y Luanco cubren lo básico
@@ -109,10 +89,9 @@ export default function RelatoAsturiasCentro({ zona }: { zona: Zona }) {
           src="/fotos/asturias-centro/zona-salinas.jpg"
           pie="Salinas: villa-playa residencial junto a Avilés"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mar, río y camino</H2>
+      <SeccionZona titulo="Mar, río y camino">
         <P>
           En Cudillero el pueblo colgado mira al puerto; las playas de diario —Aguilar y Concha de
           Artedo— quedan a unos cinco minutos en coche, y la playa del Silencio, en Castañeras, a
@@ -142,10 +121,9 @@ export default function RelatoAsturiasCentro({ zona }: { zona: Zona }) {
           src="/fotos/asturias-centro/zona-gijon.jpg"
           pie="Gijón: ciudad de mar y paseo de San Lorenzo"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mercados, fiestas y calendario</H2>
+      <SeccionZona titulo="Mercados, fiestas y calendario">
         <P>
           Gijón concentra mercado, comercio, cultura y mesas abiertas todo el año. Salinas
           resuelve la semana en villa y se apoya en Avilés —casco histórico, Centro Niemeyer,
@@ -168,10 +146,9 @@ export default function RelatoAsturiasCentro({ zona }: { zona: Zona }) {
           src="/fotos/asturias-centro/zona-penas.jpg"
           pie="Cabo Peñas: faro y acantilados en Gozón"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Qué cuesta una casa</H2>
+      <SeccionZona titulo="Qué cuesta una casa">
         <P>
           Asturias Centro cubre franjas muy distintas. El estuario —Muros y Soto— suele leerse más
           contenido; Candás y Cudillero, de villa; Salinas y Luanco, ya más demandados; Gijón, de
@@ -192,10 +169,9 @@ export default function RelatoAsturiasCentro({ zona }: { zona: Zona }) {
         </P>
         <TablaPrecios filas={municipiosAsturiasCentro} />
         <EnlaceIdealista ambito="zona" zonaId={zona.id} nombre={zona.zona} />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Servicios, hospital, aeropuerto</H2>
+      <SeccionZona titulo="Servicios, hospital, aeropuerto">
         <P>
           Gijón resuelve la vida diaria completa. Salinas cubre villa con paseo; Candás y Luanco,
           lo básico de villa marinera; Cudillero y Soto, lo esencial; Muros, aún menos y se apoya
@@ -221,9 +197,9 @@ export default function RelatoAsturiasCentro({ zona }: { zona: Zona }) {
           src="/fotos/asturias-centro/zona-silencio.jpg"
           pie="Playa del Silencio, cerca de Cudillero"
         />
-      </section>
+      </SeccionZona>
 
-      <Encaja
+      <EncajaZona
         si={[
           "Se busca logística corta del Cantábrico occidental —aeropuerto a diez o treinta minutos, Avilés, Gijón, Oviedo y hospitales públicos cercanos—, aceptando cielo cantábrico y, según el punto, aire de industria. Salinas funciona como villa-playa residencial práctica; Luanco y Candás, como villas marineras del Cabo Peñas.",
           "Se valora playa usable —Salinas, San Lorenzo, Quebrantos, Ribera—, estuario del Nalón o ciudad de mar completa en Gijón, con orilla más contenida hacia Muros y Soto.",
@@ -232,13 +208,7 @@ export default function RelatoAsturiasCentro({ zona }: { zona: Zona }) {
           `Se necesita el cielo de Baleares: Asturias Centro tiene ${zona.lluviaDias} días de lluvia, ${zona.despejados} despejados y ${zona.cubiertos} cubiertos, frente a ${mallorca.lluviaDias} y ${mallorca.despejados} en Mallorca. El verano sigue trayendo lluvia varios días al mes.`,
           "Se busca aire limpio garantizado junto a la siderurgia de Avilés o a Aboño, o calma total en el pueblo colgado de Cudillero en temporada. Cudillero encanta para visitar; para vivir suele pesar más la cuesta y el visitante de día que la foto bonita.",
         ]}
-        veredicto="Veredicto de zona: Asturias Centro ofrece aeropuerto, hospitales y ciudades a diez o treinta minutos, no sol. Si la logística manda, Salinas funciona como villa de casas bajas junto a la playa, con San Agustín y el aeropuerto a diez minutos —aceptando la siderurgia a unos tres kilómetros según el viento—. Luanco y Candás aportan villa marinera; Gijón, ciudad completa (Somió, si se buscan casas bajas cerca de la playa); Muros y Soto, estuario; Cudillero, pueblo de foto —visitarlo o vivir arriba, en El Pito—. Antes de elegir, probar un noviembre cubierto, un día con viento del sur cerca de Avilés o Aboño y un agosto en Cudillero o San Lorenzo."
-      />
-
-      <MunicipiosZonaFin
-        zonaId={zona.id}
-        municipios={municipiosAsturiasCentro}
-        escalas={ESCALA}
+        veredicto="Asturias Centro ofrece aeropuerto, hospitales y ciudades a diez o treinta minutos, no sol. Si la logística manda, Salinas funciona como villa de casas bajas junto a la playa, con San Agustín y el aeropuerto a diez minutos —aceptando la siderurgia a unos tres kilómetros según el viento—. Luanco y Candás aportan villa marinera; Gijón, ciudad completa (Somió, si se buscan casas bajas cerca de la playa); Muros y Soto, estuario; Cudillero, pueblo de foto —visitarlo o vivir arriba, en El Pito—. Antes de elegir, probar un noviembre cubierto, un día con viento del sur cerca de Avilés o Aboño y un agosto en Cudillero o San Lorenzo."
       />
 
       <p className="mt-12 max-w-2xl text-xs text-[var(--tinta-suave)]">

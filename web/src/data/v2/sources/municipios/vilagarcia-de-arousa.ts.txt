@@ -40,8 +40,8 @@
         "Vilagarcía compra hospital, tren y autonomía cotidiana a cambio de menos armonía de villa. Su atractivo está en resolver la semana en el mismo municipio; su peaje, en no confundir Compostela con Fefiñáns ni firmar sin oír el puerto y una noche de Auga."
     },
  fotoIdentidad: {
- src: "/fotos/o-salnes/vilagarcia-de-arousa-identidad.jpg",
- pie: "Vilagarcía–Carril: casas junto a la ría de Arousa y el monte detrás",
+ src: "/fotos/o-salnes/vilagarcia-identidad-vista.jpg",
+ pie: "Vilagarcía de Arousa: plaza con escultura entre bloques y palmeras",
  },
  fotosAbrir: [
  { src: "/fotos/o-salnes/vilagarcia-paseo.jpg", pie: "Vilagarcía y Carril: ciudad, puerto y ría de Arousa" },

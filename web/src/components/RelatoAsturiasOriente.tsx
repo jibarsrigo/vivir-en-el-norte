@@ -1,32 +1,20 @@
-import Encaja from "@/components/Encaja";
+import EncajaZona from "@/components/EncajaZona";
+import SeccionZona from "@/components/SeccionZona";
 import Foto from "@/components/Foto";
 import TablaPrecios from "@/components/TablaPrecios";
 import EnlaceIdealista from "@/components/EnlaceIdealista";
-import MunicipiosZonaFin from "@/components/MunicipiosZonaFin";
 import { mallorca, type Zona } from "@/lib/zonas";
 import { municipiosAsturiasOriente } from "@/lib/municipios";
-
-function H2({ children }: { children: React.ReactNode }) {
-  return <h2 className="mt-10 font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">{children}</h2>;
-}
 
 function P({ children }: { children: React.ReactNode }) {
   return <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{children}</p>;
 }
 
-const ESCALA: Record<string, string> = {
-  Villaviciosa: "Villa de la sidra",
-  Colunga: "Lastres y el Sueve",
-  Ribadesella: "Villa del Sella",
-  Llanes: "Villa amurallada y playas",
-  Ribadedeva: "Frontera e Indianos",
-};
 
 export default function RelatoAsturiasOriente({ zona }: { zona: Zona }) {
   return (
     <article className="mt-8">
-      <section>
-        <H2>Dónde está</H2>
+      <SeccionZona titulo="Dónde está">
         <P>
           Asturias Oriente es la costa donde la montaña cae al mar: la Sierra del Sueve —1.160
           metros— se alza sobre Colunga; la Sierra del Cuera —unos 1.300 metros— sobre Llanes; y
@@ -53,10 +41,9 @@ export default function RelatoAsturiasOriente({ zona }: { zona: Zona }) {
           src="/fotos/asturias-oriente/zona-lastres.jpg"
           pie="Lastres: pueblo colgado sobre el puerto, en Colunga"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>El tiempo comparado con Baleares</H2>
+      <SeccionZona titulo="El tiempo comparado con Baleares">
         <P>
           Asturias Oriente suma unas {zona.solHoras.toLocaleString("es-ES")} horas de sol y{" "}
           {zona.despejados} días despejados al año. Mallorca ronda{" "}
@@ -79,14 +66,9 @@ export default function RelatoAsturiasOriente({ zona }: { zona: Zona }) {
           paseo y al baño cuando el mar lo permite; muchas playas son pequeñas y abrigadas entre
           acantilados.
         </P>
-        <p className="mt-4 max-w-2xl font-semibold text-[var(--calor)]">
-          Verano fresco: media alrededor de {zona.tempVerano} °C frente al calor sostenido de
-          Mallorca.
-        </p>
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Cómo se vive</H2>
+      <SeccionZona titulo="Cómo se vive">
         <P>
           Un martes de noviembre muestra escalas distintas. Llanes y Ribadesella son villas
           completas con centro de salud, comercio, mercado y mesas abiertas. Villaviciosa también
@@ -110,10 +92,9 @@ export default function RelatoAsturiasOriente({ zona }: { zona: Zona }) {
           src="/fotos/asturias-oriente/zona-llanes.jpg"
           pie="Llanes: villa amurallada y puerto"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mar, río y camino</H2>
+      <SeccionZona titulo="Mar, río y camino">
         <P>
           En Villaviciosa la villa vive de la sidra y de la ría —paseo y aves—; la playa de diario
           no está en el casco: Rodiles —playa larga con pinar y surf— queda a unos doce minutos, y
@@ -144,10 +125,9 @@ export default function RelatoAsturiasOriente({ zona }: { zona: Zona }) {
           src="/fotos/asturias-oriente/zona-rodiles.jpg"
           pie="Rodiles: playa larga con pinar, Villaviciosa"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mercados, fiestas y calendario</H2>
+      <SeccionZona titulo="Mercados, fiestas y calendario">
         <P>
           Llanes, Ribadesella y Villaviciosa concentran mercado, comercio y mesas abiertas casi
           todo el año. Colunga y Ribadedeva viven del coche y de Llanes o Unquera cercanos. La
@@ -169,10 +149,9 @@ export default function RelatoAsturiasOriente({ zona }: { zona: Zona }) {
           src="/fotos/asturias-oriente/zona-picos.jpg"
           pie="Picos de Europa, a media hora de la costa oriental"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Qué cuesta una casa</H2>
+      <SeccionZona titulo="Qué cuesta una casa">
         <P>
           Asturias Oriente cubre franjas distintas. Villaviciosa, Ribadedeva y Colunga suelen
           leerse más contenidas; Llanes y Ribadesella, más demandadas —sobre todo en villa y
@@ -193,10 +172,9 @@ export default function RelatoAsturiasOriente({ zona }: { zona: Zona }) {
         </P>
         <TablaPrecios filas={municipiosAsturiasOriente} />
         <EnlaceIdealista ambito="zona" zonaId={zona.id} nombre={zona.zona} />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Servicios, hospital, aeropuerto</H2>
+      <SeccionZona titulo="Servicios, hospital, aeropuerto">
         <P>
           Llanes, Ribadesella y Villaviciosa concentran tiendas, farmacia, centro de salud y
           comercio de villa. Colunga y Ribadedeva bajan a lo esencial. Servicios significa vida
@@ -223,9 +201,9 @@ export default function RelatoAsturiasOriente({ zona }: { zona: Zona }) {
           src="/fotos/asturias-oriente/zona-gulpiyuri.jpg"
           pie="Gulpiyuri: playa interior circular, Llanes"
         />
-      </section>
+      </SeccionZona>
 
-      <Encaja
+      <EncajaZona
         si={[
           "Se busca paisaje de sierra sobre el mar y Picos a media hora, aceptando poco sol y sanidad y aeropuerto en el límite. Ribadesella funciona como villa equilibrada; Villaviciosa, como opción práctica con Gijón y Cabueñes a veinticinco minutos —sin playa en la villa: Rodiles a unos doce minutos—.",
           "Se valora caminar ría, playa abrigada y montaña real —Fitu, Cuera, Covadonga—, con villas de piedra e Indianos y orilla más contenida hacia Villaviciosa, Ribadedeva y Colunga.",
@@ -234,13 +212,7 @@ export default function RelatoAsturiasOriente({ zona }: { zona: Zona }) {
           `Se necesita el cielo de Baleares: Asturias Oriente tiene ${zona.lluviaDias} días de lluvia, ${zona.despejados} despejados y ${zona.cubiertos} cubiertos, frente a ${mallorca.lluviaDias} y ${mallorca.despejados} en Mallorca. El contraste con Mallorca es fuerte.`,
           "Se busca hospital privado cerca, ciudad a menos de veinticinco minutos, obra nueva o calma en Llanes y Ribadesella en julio y agosto. Tampoco si el vuelo a Palma debe quedar a menos de cincuenta y cinco o setenta minutos desde el este.",
         ]}
-        veredicto="Veredicto de zona: Asturias Oriente ofrece paisaje —montaña que cae al mar y Picos cerca—, no sol ni logística corta. Si un día los Picos pesan más que el cielo balear, Ribadesella o Villaviciosa equilibran villa y accesos; Llanes concentra villa completa a cambio de agosto lleno y Arriondas a treinta y cinco minutos; Colunga, Lastres y el Fitu con coche; Ribadedeva, Indianos y Santander a cincuenta y cinco. Antes de elegir, probaría un noviembre cubierto, un Descenso del Sella o un agosto en Llanes o Ribadesella."
-      />
-
-      <MunicipiosZonaFin
-        zonaId={zona.id}
-        municipios={municipiosAsturiasOriente}
-        escalas={ESCALA}
+        veredicto="Asturias Oriente ofrece paisaje —montaña que cae al mar y Picos cerca—, no sol ni logística corta. Si un día los Picos pesan más que el cielo balear, Ribadesella o Villaviciosa equilibran villa y accesos; Llanes concentra villa completa a cambio de agosto lleno y Arriondas a treinta y cinco minutos; Colunga, Lastres y el Fitu con coche; Ribadedeva, Indianos y Santander a cincuenta y cinco. Antes de elegir, probaría un noviembre cubierto, un Descenso del Sella o un agosto en Llanes o Ribadesella."
       />
 
       <p className="mt-12 max-w-2xl text-xs text-[var(--tinta-suave)]">

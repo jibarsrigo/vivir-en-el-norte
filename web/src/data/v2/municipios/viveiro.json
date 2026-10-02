@@ -10,9 +10,9 @@
   "sourcePath": "web/src/lib/relatos-a-marina.ts",
   "sourceKey": "viveiro",
   "sourceExport": "RELATOS_A_MARINA",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
-  "contentHash": "926e297cfe2b223f802269a5401ad6e283706a044242df1e89f244d2883835e0",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
+  "contentHash": "e77831acc30e5f0dc7c8959b21802c63b914ed4b10fcb359dbab0c522f3bceac",
   "ficha": {
     "n": 40,
     "zona": "A Mariña",
@@ -661,28 +661,32 @@
     },
     "fotosAbrir": [
       {
-        "src": "/fotos/a-marina/viveiro-casco.jpg",
-        "pie": "Casco de Viveiro hacia la ría"
+        "src": "/fotos/a-marina/viveiro-porta.jpg",
+        "pie": "Porta de Carlos V: entrada al casco de Viveiro"
       },
       {
         "src": "/fotos/a-marina/viveiro-covas.jpg",
-        "pie": "Covas, playa larga en ría abrigada"
+        "pie": "Covas: playa de ría y Os Castelos"
       }
     ],
     "fotosHistoria": [
       {
-        "src": "/fotos/a-marina/viveiro-porta.jpg",
-        "pie": "Porta de Carlos V, arco del casco amurallado"
+        "src": "/fotos/a-marina/viveiro-celeiro.jpg",
+        "pie": "Puerto de Celeiro desde la orilla"
+      },
+      {
+        "src": "/fotos/a-marina/viveiro-casco.jpg",
+        "pie": "Viveiro y la ría desde el monte"
       }
     ],
     "fotosFuera": [
       {
-        "src": "/fotos/a-marina/viveiro-celeiro.jpg",
-        "pie": "Puerto de Celeiro, lonja y merluza del pincho"
+        "src": "/fotos/a-marina/viveiro-ria.jpg",
+        "pie": "Ría de Viveiro hacia Covas"
       },
       {
-        "src": "/fotos/a-marina/viveiro-ria.jpg",
-        "pie": "Ría de Viveiro desde Covas"
+        "src": "/fotos/a-marina/viveiro-identidad.jpg",
+        "pie": "Mirador sobre la ría de Viveiro"
       }
     ],
     "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."

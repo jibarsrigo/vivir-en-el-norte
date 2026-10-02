@@ -10,9 +10,9 @@
   "sourcePath": "web/src/lib/relatos-o-salnes.ts",
   "sourceKey": "vilagarcia-de-arousa",
   "sourceExport": "RELATOS_O_SALNES",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
-  "contentHash": "6e1607bd1bfe2e5920368a70f68584a473c327836a663fe0b8e24c925d4fb455",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
+  "contentHash": "a66fc4a8f914c30913807b14f91b591b36c35d7a036b8b030a90fac44e92c3d5",
   "ficha": {
     "n": 25,
     "zona": "O Salnés",
@@ -460,8 +460,8 @@
       "veredicto": "Vilagarcía compra hospital, tren y autonomía cotidiana a cambio de menos armonía de villa. Su atractivo está en resolver la semana en el mismo municipio; su peaje, en no confundir Compostela con Fefiñáns ni firmar sin oír el puerto y una noche de Auga."
     },
     "fotoIdentidad": {
-      "src": "/fotos/o-salnes/vilagarcia-de-arousa-identidad.jpg",
-      "pie": "Vilagarcía–Carril: casas junto a la ría de Arousa y el monte detrás"
+      "src": "/fotos/o-salnes/vilagarcia-identidad-vista.jpg",
+      "pie": "Vilagarcía de Arousa: plaza con escultura entre bloques y palmeras"
     },
     "fotosAbrir": [
       {

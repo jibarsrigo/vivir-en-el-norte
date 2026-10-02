@@ -1,34 +1,20 @@
-import Encaja from "@/components/Encaja";
+import EncajaZona from "@/components/EncajaZona";
+import SeccionZona from "@/components/SeccionZona";
 import Foto from "@/components/Foto";
 import TablaPrecios from "@/components/TablaPrecios";
 import EnlaceIdealista from "@/components/EnlaceIdealista";
-import MunicipiosZonaFin from "@/components/MunicipiosZonaFin";
 import { mallorca, type Zona } from "@/lib/zonas";
 import { municipiosGolfoArtabroEFerrol } from "@/lib/municipios";
-
-function H2({ children }: { children: React.ReactNode }) {
-  return <h2 className="mt-10 font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">{children}</h2>;
-}
 
 function P({ children }: { children: React.ReactNode }) {
   return <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{children}</p>;
 }
 
-const ESCALA: Record<string, string> = {
-  "A Coruña": "Ciudad atlántica compacta",
-  Oleiros: "Urbanizaciones y playas de ría",
-  Sada: "Villa con puerto de ría",
-  Bergondo: "Parroquias residenciales de ría",
-  Miño: "Praia Grande y parroquias",
-  Ares: "Villa de ría y Redes",
-  Ferrol: "Ciudad naval",
-};
 
 export default function RelatoGolfoArtabroEFerrol({ zona }: { zona: Zona }) {
   return (
     <article className="mt-8">
-      <section>
-        <H2>Dónde está</H2>
+      <SeccionZona titulo="Dónde está">
         <P>
           Golfo Ártabro e Ferrol es el arco de rías que rodea A Coruña: la ría de O Burgo —la lámina
           de agua entre la ciudad y Oleiros—, la ría de Betanzos —con Sada, Bergondo y Miño—, la ría
@@ -58,10 +44,9 @@ export default function RelatoGolfoArtabroEFerrol({ zona }: { zona: Zona }) {
           src="/fotos/golfo-artabro-e-ferrol/zona-hercules.jpg"
           pie="Torre de Hércules: faro romano sobre el Atlántico en A Coruña"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>El tiempo comparado con Baleares</H2>
+      <SeccionZona titulo="El tiempo comparado con Baleares">
         <P>
           El invierno aquí es de cielo gris y llovizna frecuente: menos sol estable que en Mallorca
           ({mallorca.solHoras.toLocaleString("es-ES")} horas y {mallorca.despejados} jornadas
@@ -94,14 +79,9 @@ export default function RelatoGolfoArtabroEFerrol({ zona }: { zona: Zona }) {
           Mediterráneo, y en los días buenos la ría permite baños cortos más cómodos que la costa
           abierta.
         </P>
-        <p className="mt-4 max-w-2xl font-semibold text-[var(--calor)]">
-          Verano suave: máximas habituales alrededor de 23 °C y muy pocas jornadas por encima de
-          30 °C.
-        </p>
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Cómo se vive</H2>
+      <SeccionZona titulo="Cómo se vive">
         <P>
           Un martes de noviembre muestra siete escalas. A Coruña resuelve comercio, cultura,
           sanidad y universidad a pie en una ciudad atlántica densa. Oleiros y Sada cubren la semana
@@ -128,10 +108,9 @@ export default function RelatoGolfoArtabroEFerrol({ zona }: { zona: Zona }) {
           src="/fotos/golfo-artabro-e-ferrol/zona-oleiros-mera.jpg"
           pie="Mera, en Oleiros: faro y playa de ría a minutos de A Coruña"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mar, ría y camino</H2>
+      <SeccionZona titulo="Mar, ría y camino">
         <P>
           En Oleiros el baño de diario es de ría y costa suave: Santa Cristina con paseo, Mera y
           Espiñeiro junto al faro, Bastiagueiro con oleaje ligero. Sada ofrece playa urbana y Cirro;
@@ -162,10 +141,9 @@ export default function RelatoGolfoArtabroEFerrol({ zona }: { zona: Zona }) {
           src="/fotos/golfo-artabro-e-ferrol/zona-gandario.jpg"
           pie="Gandarío: arenal largo de ría en Bergondo"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mercados, fiestas y calendario</H2>
+      <SeccionZona titulo="Mercados, fiestas y calendario">
         <P>
           A Coruña concentra mercado, lonja de ambiente, restauración y grandes superficies —
           Marineda City, El Corte Inglés—. Las fiestas de María Pita, en torno a agosto, llenan el
@@ -190,10 +168,9 @@ export default function RelatoGolfoArtabroEFerrol({ zona }: { zona: Zona }) {
           src="/fotos/golfo-artabro-e-ferrol/zona-redes.jpg"
           pie="Redes, en Ares: aldea marinera de casas de colores"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Qué cuesta una casa</H2>
+      <SeccionZona titulo="Qué cuesta una casa">
         <P>
           El mercado dibuja dos polos: A Coruña y Oleiros concentran la franja cara del arco; Ferrol
           y Bergondo abren la orilla más asequible; Sada, Miño y Ares se mueven en tramos
@@ -213,10 +190,9 @@ export default function RelatoGolfoArtabroEFerrol({ zona }: { zona: Zona }) {
         </P>
         <TablaPrecios filas={municipiosGolfoArtabroEFerrol} />
         <EnlaceIdealista ambito="zona" zonaId={zona.id} nombre={zona.zona} />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Servicios, hospital, aeropuerto</H2>
+      <SeccionZona titulo="Servicios, hospital, aeropuerto">
         <P>
           A Coruña concentra comercio, cultura, universidad y vida diaria completa: es la escala
           donde se puede prescindir del coche. Ferrol mantiene servicios de ciudad, aunque el tejido
@@ -249,9 +225,9 @@ export default function RelatoGolfoArtabroEFerrol({ zona }: { zona: Zona }) {
           src="/fotos/golfo-artabro-e-ferrol/zona-doninos.jpg"
           pie="Doniños: playa atlántica y laguna cerca de Ferrol"
         />
-      </section>
+      </SeccionZona>
 
-      <Encaja
+      <EncajaZona
         si={[
           "Se quiere urbanización ordenada con playa y A Coruña a diez o quince minutos —Oleiros (Santa Cruz, Mera, Perillo) o Sada—, o Praia Grande y golf en Costa Miño a precio más razonable. El verano es mucho más suave que en Mallorca y el hospital público de referencia —CHUAC o Arquitecto Marcide— queda cerca.",
           "Se valora tener Alvedro al lado y Santiago-Lavacolla, con más destinos, a menos de hora y cuarto, con hospital de referencia a menos de media hora en casi todo el arco este —comprobando cada temporada la programación real de vuelos a Palma—. A Coruña da ciudad atlántica completa; Ferrol, precio más bajo y hospital a pocos minutos, con Doniños como salida de Atlántico abierto.",
@@ -260,13 +236,7 @@ export default function RelatoGolfoArtabroEFerrol({ zona }: { zona: Zona }) {
           `Se necesita el cielo de Baleares: aquí el invierno es de llovizna y cielo gris —unos ${zona.lluviaDias} días de lluvia frente a ${mallorca.lluviaDias} en Mallorca—, y el verano sigue trayendo algunas jornadas húmedas. Las cifras de sol de la tabla son referencia de Alvedro, no media de cada pueblo.`,
           "Se busca montaña detrás, mar templado en costa abierta y tres habitaciones en primera línea de Oleiros o A Coruña a precio medio. El relieve junto a la orilla se queda en altitudes bajas; el agua de Riazor y Doniños es fresca incluso en verano; la tipología cara de la orilla urbana queda fuera de la franja habitual.",
         ]}
-        veredicto="Veredicto de zona: Oleiros (Mera, Santa Cruz) encaja si mandan urbanización limpia, playa y A Coruña a diez minutos; Sada, si se quiere villa, puerto y un metro más amable; Costa Miño, si pesan Praia Grande, golf y precio; Bergondo, jardín y calma a quince o veinte minutos; Ares, aldea de ría y Redes a cambio de coche; A Coruña, ciudad completa junto al mar; Ferrol, si mandan precio y hospital a pocos minutos, con Doniños como salida. Antes de elegir, conviene probar un noviembre de llovizna y la fiesta mayor de la calle concreta."
-      />
-
-      <MunicipiosZonaFin
-        zonaId={zona.id}
-        municipios={municipiosGolfoArtabroEFerrol}
-        escalas={ESCALA}
+        veredicto="Oleiros (Mera, Santa Cruz) encaja si mandan urbanización limpia, playa y A Coruña a diez minutos; Sada, si se quiere villa, puerto y un metro más amable; Costa Miño, si pesan Praia Grande, golf y precio; Bergondo, jardín y calma a quince o veinte minutos; Ares, aldea de ría y Redes a cambio de coche; A Coruña, ciudad completa junto al mar; Ferrol, si mandan precio y hospital a pocos minutos, con Doniños como salida. Antes de elegir, conviene probar un noviembre de llovizna y la fiesta mayor de la calle concreta."
       />
 
       <p className="mt-12 max-w-2xl text-xs text-[var(--tinta-suave)]">

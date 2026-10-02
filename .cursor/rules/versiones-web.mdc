@@ -1,30 +1,28 @@
 ---
-description: Arquitectura global V1 / V2 / CURRENT / NUEVO2 — no tocar versionado salvo orden expresa
+description: Arquitectura global V1 / V2 / CURRENT tras cutover NUEVO2
 alwaysApply: true
 ---
 
 # Arquitectura global de versiones
 
-La web mantiene esta lógica:
-
 | Capa | Rol |
 |------|-----|
-| **V1** | Primera versión histórica protegida. |
-| **V2** | Copia navegable de la web CURRENT tal como existe **antes** de que NUEVO2 la sustituya. |
-| **CURRENT** | Versión publicada actual mientras se construye NUEVO2. |
-| **NUEVO2** | Única zona de trabajo para las nuevas fichas de municipios y zonas. |
+| **V1** | Primera versión histórica (`/v1/`). |
+| **V2** | Snapshot de CURRENT **antes** del cutover NUEVO2 (`/v2/`, freeze `current-freeze-2026-10-02`). |
+| **CURRENT** | Web pública tras cutover: `/`, `/zona/…`, fichas `/{slug}/`. |
+| **Legacy NUEVO2** | `/nuevo2/…` redirige a CURRENT (no editar contenido ahí). |
 
-## Objetivo de cierre
+## Cutover (hecho)
 
-Cuando estén terminados, revisados e implementados **todos** los municipios y **todas** las zonas en NUEVO2:
+NUEVO2 pasó a ser CURRENT:
 
-1. NUEVO2 pasa a ser el nuevo CURRENT.
-2. La versión que hoy es CURRENT debe seguir disponible como **V2**, del mismo modo que ahora existe acceso a V1.
-3. En la interfaz final debe existir un acceso **V2** junto al acceso **V1**, con funcionamiento equivalente como versión histórica navegable.
+1. Fichas de municipio en `/{slug}/` (antes `/nuevo2/{slug}/`).
+2. Zonas en `/zona/{id}/`.
+3. `/nuevo2/…` y `/zona/{id}/{slug}/` redirigen a las rutas canónicas.
+4. Pie: **V1 | V2** como histórico.
 
-## Reglas de trabajo (hasta orden expresa)
+## Reglas de trabajo
 
-- **No** implementar cambios globales de versionado (rutas V2, cutover CURRENT←NUEVO2, menús de versión, etc.) salvo que un TXT o el usuario lo ordene expresamente.
-- Fichas nuevas / transferencias editoriales: trabajar **únicamente en NUEVO2**.
-- **No** modificar V1, V2 ni CURRENT al implementar municipios o zonas en NUEVO2 (salvo instrucción explícita en el TXT de esa ficha).
-- Conservar esta arquitectura como requisito global hasta el cierre del proyecto.
+- Editar fichas y zonas en las rutas CURRENT (`web/src/app/{slug}/`, `web/src/app/zona/`).
+- **No** modificar V1 ni el contenido congelado de V2 a mano; regenerar V2 solo con el script de snapshot.
+- No reabrir un árbol de trabajo paralelo tipo NUEVO2 salvo orden expresa.

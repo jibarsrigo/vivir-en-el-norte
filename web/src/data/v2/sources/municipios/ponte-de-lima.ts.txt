@@ -1,4 +1,4 @@
-﻿{
+{
     escala: "Villa romana sobre el Lima",
     abrir: [
       "Ponte de Lima se entiende al cruzar el puente de piedra sobre el Lima: villa de interior minhoto, plaza de la feria, Ecovia do Lima y Lagoas de Bertiandos —humedales protegidos— cerca. El viñedo de Loureiro forma parte del paisaje de quintas. No hay orilla atlántica en el municipio: Cabedelo, en Viana, queda como salida. La autonomía cotidiana es fuerte.",

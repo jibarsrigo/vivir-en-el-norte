@@ -10,9 +10,9 @@
   "sourcePath": "web/src/lib/relatos-asturias-centro.ts",
   "sourceKey": "muros-de-nalon",
   "sourceExport": "RELATOS_ASTURIAS_CENTRO",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
-  "contentHash": "274b66b7b4c5b6a49b1e72ac9d7a6e3ba8e6ab88ce44165dea90459de5953666",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
+  "contentHash": "0c0580946b8b9c42122a3d04beb74feaed5372fe66663102d91ccfb52d31eec6",
   "ficha": {
     "n": 52,
     "zona": "Asturias Centro",
@@ -593,8 +593,8 @@
       "veredicto": "Muros de Nalón ofrece estuario y escala pequeña con una logística sorprendentemente cómoda hacia aeropuerto y Avilés. El peaje es una autonomía limitada, bastante coche y una geografía donde miradores, San Esteban y playa son experiencias distintas; además, el precio municipal actual debe tratarse como no disponible."
     },
     "fotoIdentidad": {
-      "src": "/fotos/asturias-centro/muros-de-nalon-identidad.jpg",
-      "pie": "San Esteban (Muros de Nalón): casas del puerto frente al estuario, con el monte detrás"
+      "src": "/fotos/asturias-centro/muros-identidad-selgas.jpg",
+      "pie": "Muros de Nalón: tramo arbolado del Camino del Norte"
     },
     "fotosAbrir": [
       {

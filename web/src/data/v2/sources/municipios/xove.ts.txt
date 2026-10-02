@@ -39,15 +39,16 @@
         "Xove es un municipio disperso donde San Bartolomé concentra una parte de la vida cotidiana y la costa exige cambiar de escenario. Ofrece equipamientos propios y un litoral potente, a cambio de bastante coche, fibra que debe comprobarse y la convivencia territorial con el complejo industrial de San Ciprián."
     },
     fotosAbrir: [
-      { src: "/fotos/a-marina/xove-villa.jpg", pie: "Xove: núcleos entre costa y parroquias" },
-      { src: "/fotos/a-marina/xove-playa.jpg", pie: "Esteiro, playa de arcos y surf" },
+      { src: "/fotos/a-marina/xove-villa.jpg", pie: "San Bartolomé: Casa do Concello de Xove" },
+      { src: "/fotos/a-marina/xove-playa.jpg", pie: "Esteiro: playa abierta al Cantábrico" },
     ],
     fotosHistoria: [
-      { src: "/fotos/a-marina/xove-portocelo.jpg", pie: "Portocelo, orilla de Xove" },
-      { src: "/fotos/a-marina/xove-parroquia.jpg", pie: "Parroquia y escala dispersa en Xove" },
+      { src: "/fotos/a-marina/xove-faro.jpg", pie: "Faro de Punta Roncadoira" },
+      { src: "/fotos/a-marina/xove-portocelo.jpg", pie: "Restos de piedra junto al mar en Xove" },
     ],
     fotosFuera: [
-      { src: "/fotos/a-marina/xove-faro.jpg", pie: "Faro de Punta Roncadoira en la costa de Xove" },
+      { src: "/fotos/a-marina/xove-portocelo-playa.jpg", pie: "Portocelo: ensenada más recogida" },
+      { src: "/fotos/a-marina/xove-parroquia.jpg", pie: "Granito y Cantábrico en la costa de Xove" },
     ],
     creditoFotos: credito,
   }

@@ -10,8 +10,8 @@
   "sourcePath": "web/src/lib/relatos-litoral-norte.ts",
   "sourceKey": "vila-do-conde",
   "sourceExport": "RELATOS_LITORAL_NORTE",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
   "contentHash": "19c145a60cc2e59f39168175a61bf7a1dcf75eee4dac3a11b37a15dd1d3cb122",
   "ficha": {
     "n": 83,

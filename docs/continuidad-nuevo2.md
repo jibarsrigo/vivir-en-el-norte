@@ -250,7 +250,15 @@ Orden acordado (Jose, post-83 municipios; cutover después):
 2. **Homogeneización** — misma pasada: checklist `docs/nuevo2-checklist-prosa.md` en lotes método Cudillero primero; CERTIFICADOS solo si el patrón también aparece ahí y molesta al leer.
 3. **Páginas de zona** al estándar homogéneo (tras municipios). Hoy las zonas viven en `/zona/[id]` (CURRENT); hay que decidir/montar relato NUEVO2 de zona por comarca (mapas + 6 fotos + prosa).
 
-**Cutover** (CURRENT→V2 junto a V1; NUEVO2→CURRENT): **después** de estos tres. Sin fecha hasta cerrar calidad de lectura.
+**Estado (2026-10-02) — cutover NUEVO2→CURRENT hecho:**
+
+- Muletillas + densidad hist/mar municipios: **0** en escáner.
+- Fotos: **0 dups** en las 16 zonas.
+- **V2** conserva el CURRENT previo (`current-freeze-2026-10-02`): **83 municipios + 16 zonas**. Pie: V1 | V2.
+- **CURRENT** = antiguo NUEVO2: fichas en `/{slug}/`, zonas en `/zona/{id}/`.
+- `/nuevo2/…` y `/zona/{id}/{slug}/` redirigen a las rutas canónicas.
+
+**Cutover:** hecho. Portada, busca y compara apuntan a CURRENT.
 
 ### Otros pendientes (no cutover)
 

@@ -46,7 +46,7 @@
         "Veredicto: O Vicedo es el extremo aislado de A Mariña —precio y Cantábrico a cambio de servicios mínimos—. Buscaría vivienda con fibra comprobada (es parcial), acceso claro en invierno y orientación que aguante viento y humedad, lejos del atasco de agosto en Xilloi o Fuciño do Porco. Se ganan costa cantábrica y uno de los metros más asequibles de la zona; se aceptan coche casi cada día, hospital a treinta y cinco minutos, aeropuerto a unos cien según ruta y un cielo que no es el de Mallorca.",
     },
     fotoIdentidad: {
-      src: "/fotos/a-marina/o-vicedo-identidad.jpg",
+      src: "/fotos/a-marina/vicedo-identidad-faro.jpg",
       pie: "O Vicedo: casas junto a la ría, con el monte detrás",
     },
     fotosAbrir: [

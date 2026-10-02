@@ -1,4 +1,4 @@
-﻿{
+{
   "tipo": "municipio",
   "slug": "afife-carreco",
   "nombre": "Afife-Carreço (Viana)",
@@ -10,9 +10,9 @@
   "sourcePath": "web/src/lib/relatos-alto-minho.ts",
   "sourceKey": "afife-carreco",
   "sourceExport": "RELATOS_ALTO_MINHO",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
-  "contentHash": "8fdcee3e8a51e53c55f5dd831123a5120092a9bc0afcf0fcfcbb3a07623c0e1b",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
+  "contentHash": "bd1ec11d5107f8a7698346eac409adc2a4047548aa99ab73350fac2c003c4df9",
   "ficha": {
     "n": 78,
     "zona": "Alto Minho (PT)",

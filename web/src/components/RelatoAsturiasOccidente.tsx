@@ -1,31 +1,20 @@
-import Encaja from "@/components/Encaja";
+import EncajaZona from "@/components/EncajaZona";
+import SeccionZona from "@/components/SeccionZona";
 import Foto from "@/components/Foto";
 import TablaPrecios from "@/components/TablaPrecios";
 import EnlaceIdealista from "@/components/EnlaceIdealista";
-import MunicipiosZonaFin from "@/components/MunicipiosZonaFin";
 import { mallorca, type Zona } from "@/lib/zonas";
 import { municipiosAsturiasOccidente } from "@/lib/municipios";
-
-function H2({ children }: { children: React.ReactNode }) {
-  return <h2 className="mt-10 font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">{children}</h2>;
-}
 
 function P({ children }: { children: React.ReactNode }) {
   return <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{children}</p>;
 }
 
-const ESCALA: Record<string, string> = {
-  Castropol: "Pueblo blanco sobre la ría",
-  "Tapia de Casariego": "Villa marinera de surf",
-  Navia: "Villa de servicios en su ría",
-  "Luarca (Valdés)": "Villa blanca de la Costa Verde",
-};
 
 export default function RelatoAsturiasOccidente({ zona }: { zona: Zona }) {
   return (
     <article className="mt-8">
-      <section>
-        <H2>Dónde está</H2>
+      <SeccionZona titulo="Dónde está">
         <P>
           Asturias Occidente es la franja verde y marinera del oeste asturiano, entre la ría del Eo
           —el estuario que marca la frontera con Galicia frente a Ribadeo— y el Cabo Busto, ya
@@ -50,10 +39,9 @@ export default function RelatoAsturiasOccidente({ zona }: { zona: Zona }) {
           src="/fotos/asturias-occidente/zona-luarca.jpg"
           pie="Luarca: villa blanca de la Costa Verde"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>El tiempo comparado con Baleares</H2>
+      <SeccionZona titulo="El tiempo comparado con Baleares">
         <P>
           Asturias Occidente suma unas {zona.solHoras.toLocaleString("es-ES")} horas de sol y{" "}
           {zona.despejados} días despejados al año. Mallorca ronda{" "}
@@ -77,14 +65,9 @@ export default function RelatoAsturiasOccidente({ zona }: { zona: Zona }) {
           Penarronda, Frexulfe, Barayo o las playas de Luarca invitan al paseo y al baño corto cuando
           el Cantábrico lo permite.
         </P>
-        <p className="mt-4 max-w-2xl font-semibold text-[var(--calor)]">
-          Verano fresco: media alrededor de {zona.tempVerano} °C frente al calor sostenido de
-          Mallorca.
-        </p>
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Cómo se vive</H2>
+      <SeccionZona titulo="Cómo se vive">
         <P>
           Un martes de noviembre muestra cuatro escalas distintas. Navia, Tapia y Luarca resuelven
           comercio, centro de salud y recados en villas caminables. Castropol baja a lo esencial:
@@ -108,10 +91,9 @@ export default function RelatoAsturiasOccidente({ zona }: { zona: Zona }) {
           src="/fotos/asturias-occidente/zona-tapia.jpg"
           pie="Tapia de Casariego: villa marinera de puerto y surf"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mar, ría y camino</H2>
+      <SeccionZona titulo="Mar, ría y camino">
         <P>
           Entre Castropol y Tapia, Penarronda —playa de dunas— marca la orilla compartida. En Tapia
           el surf mira a Arnao, Anguileiro-Represas y Serantes; el paseo costero y la isla del faro
@@ -138,10 +120,9 @@ export default function RelatoAsturiasOccidente({ zona }: { zona: Zona }) {
           src="/fotos/asturias-occidente/zona-castropol.jpg"
           pie="Castropol: pueblo blanco sobre la ría del Eo"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mercados, fiestas y calendario</H2>
+      <SeccionZona titulo="Mercados, fiestas y calendario">
         <P>
           Navia, Tapia y Luarca concentran mercado, comercio y mesas abiertas todo el año. Luarca
           mantiene mercado y vida de villa blanca; Navia añade cine y el ritmo de villa de
@@ -163,10 +144,9 @@ export default function RelatoAsturiasOccidente({ zona }: { zona: Zona }) {
           src="/fotos/asturias-occidente/zona-penarronda.jpg"
           pie="Penarronda: dunas entre Castropol y Tapia"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Qué cuesta una casa</H2>
+      <SeccionZona titulo="Qué cuesta una casa">
         <P>
           El mercado no es uniforme entre las cuatro villas. Tapia —surf y orilla demandada— se
           lee ya más cara que el resto; Castropol, Navia y Luarca siguen en franjas más contenidas,
@@ -186,10 +166,9 @@ export default function RelatoAsturiasOccidente({ zona }: { zona: Zona }) {
         </P>
         <TablaPrecios filas={municipiosAsturiasOccidente} />
         <EnlaceIdealista ambito="zona" zonaId={zona.id} nombre={zona.zona} />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Servicios, hospital, aeropuerto</H2>
+      <SeccionZona titulo="Servicios, hospital, aeropuerto">
         <P>
           Navia, Tapia y Luarca concentran centro de salud, comercio y vida diaria en villa.
           Castropol se apoya en Ribadeo. Servicios significa vida diaria dentro del municipio —
@@ -212,9 +191,9 @@ export default function RelatoAsturiasOccidente({ zona }: { zona: Zona }) {
           src="/fotos/asturias-occidente/zona-vega.jpg"
           pie="Puerto de Vega: pueblo marinero junto a Navia"
         />
-      </section>
+      </SeccionZona>
 
-      <Encaja
+      <EncajaZona
         si={[
           "Se busca costa asturiana auténtica y villas pequeñas con mar delante, aceptando cielo cantábrico, niebla y verano fresco. Luarca aporta villa blanca y aeropuerto a unos cuarenta minutos; Navia, Jarrio a unos diez y servicios prácticos.",
           "Se valora ría abrigada —Eo o Navia—, surf en Tapia, Puerto de Vega cerca y un mercado todavía más contenido que otras costas del norte —con la salvedad de Tapia, ya más demandada—.",
@@ -223,13 +202,7 @@ export default function RelatoAsturiasOccidente({ zona }: { zona: Zona }) {
           `Se necesita el cielo de Baleares: Asturias Occidente tiene ${zona.lluviaDias} días de lluvia, ${zona.despejados} despejados y ${zona.cubiertos} cubiertos, frente a ${mallorca.lluviaDias} y ${mallorca.despejados} en Mallorca. El verano sigue trayendo lluvia varios días al mes.`,
           "Se busca ciudad a media hora, hospital privado cerca o Palma todo el año a menos de una hora de aeropuerto. Aquí Oviedo queda a una hora, el privado también, y Santiago a dos horas.",
         ]}
-        veredicto="Veredicto de zona: Asturias Occidente ofrece villa blanca, ría y escala pequeña, no sol ni ciudad. Luarca por encanto y aeropuerto a cuarenta minutos; Navia por Jarrio a diez; Tapia, surf y casco marinero; Castropol, pueblo blanco con Ribadeo de apoyo. Antes de elegir, probaría un noviembre de niebla en Tapia o Castropol, unas patronales locales y un agosto en el puerto de Luarca."
-      />
-
-      <MunicipiosZonaFin
-        zonaId={zona.id}
-        municipios={municipiosAsturiasOccidente}
-        escalas={ESCALA}
+        veredicto="Asturias Occidente ofrece villa blanca, ría y escala pequeña, no sol ni ciudad. Luarca por encanto y aeropuerto a cuarenta minutos; Navia por Jarrio a diez; Tapia, surf y casco marinero; Castropol, pueblo blanco con Ribadeo de apoyo. Antes de elegir, probaría un noviembre de niebla en Tapia o Castropol, unas patronales locales y un agosto en el puerto de Luarca."
       />
 
       <p className="mt-12 max-w-2xl text-xs text-[var(--tinta-suave)]">

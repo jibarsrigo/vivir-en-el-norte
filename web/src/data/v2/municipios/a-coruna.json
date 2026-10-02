@@ -10,9 +10,9 @@
   "sourcePath": "web/src/lib/relatos-golfo-artabro-e-ferrol.ts",
   "sourceKey": "a-coruna",
   "sourceExport": "RELATOS_GOLFO_ARTABRO_E_FERROL",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
-  "contentHash": "2631c8dbac95390452c178899bfba13161698705e9c31ad70ac222c7d7ceb8fd",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
+  "contentHash": "452941855a51953207f37bac262b856777010f1339e7388604d9ebb7634e5672",
   "ficha": {
     "n": 32,
     "zona": "Golfo Ártabro e Ferrol",
@@ -598,8 +598,8 @@
       "veredicto": "A Coruña es capital atlántica compacta: ciudad, hospital y paseo marítimo juntos a cambio de densidad, tráfico y diferencias fuertes entre barrios. Su atractivo está en no tener que elegir entre servicios y mar; su peaje, en no fingir que Riazor es el mismo peaje que un chalé de ría."
     },
     "fotoIdentidad": {
-      "src": "/fotos/golfo-artabro-e-ferrol/a-coruna-identidad.jpg",
-      "pie": "A Coruña: galerías y casas de la marina frente al puerto"
+      "src": "/fotos/golfo-artabro-e-ferrol/coruna-identidad-torre.jpg",
+      "pie": "A Coruña: Torre de Hércules sobre la costa"
     },
     "fotosAbrir": [
       {

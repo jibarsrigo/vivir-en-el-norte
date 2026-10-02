@@ -47,7 +47,7 @@
         "Veredicto: Muros es la apuesta barata y tranquila del estuario. Buscaría vivienda con vistas claras al Nalón y fibra comprobada —es parcial—, apoyándome en Avilés para el día a día, tras probar un noviembre de niebla y un agosto suave en Aguilar. Se ganan miradores, precio bajo y aeropuerto a diez minutos; se aceptan servicios 3/10, coche casi cada día y San Agustín a veinte.",
     },
     fotoIdentidad: {
-      src: "/fotos/asturias-centro/muros-de-nalon-identidad.jpg",
+      src: "/fotos/asturias-centro/muros-identidad-selgas.jpg",
       pie: "San Esteban (Muros de Nalón): casas del puerto frente al estuario, con el monte detrás",
     },
     fotosAbrir: [

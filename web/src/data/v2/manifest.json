@@ -1,8 +1,8 @@
 {
   "version": "v2",
   "title": "V2 · CURRENT congelado",
-  "sourceTag": "current-freeze-2026-09-26",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+  "sourceTag": "current-freeze-2026-10-02",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
   "extractedFrom": "Working tree CURRENT (relatos + Relato*.tsx + fichas JSON + Idealista/resúmenes/mapas); independiente de NUEVO2",
   "counts": {
     "municipios": 83,
@@ -19,7 +19,7 @@
       "n": 1,
       "sourcePath": "web/src/components/RelatoMunicipio.tsx",
       "sourceKey": "a-guarda",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "1c79d9544760d0e85c5c9a132d97f9e7d9773fe95888aad093db84de78d422b4",
       "file": "municipios/a-guarda.json"
     },
@@ -32,7 +32,7 @@
       "n": 2,
       "sourcePath": "web/src/components/RelatoMunicipio.tsx",
       "sourceKey": "oia",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "38ce46855cfacbec878130460d1281f7fbad724e46d0c0454353b86b9b000d4a",
       "file": "municipios/oia.json"
     },
@@ -45,8 +45,8 @@
       "n": 3,
       "sourcePath": "web/src/components/RelatoMunicipio.tsx",
       "sourceKey": "o-rosal",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-      "contentHash": "2032131d9f6c8a5bfe7e21a29493198dbf61767d8c928840d9c2fc9d1e151bd2",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+      "contentHash": "dba35a810dc85a308fd3a3546cf0e34cf9877d0c0cc22579662879b17596c514",
       "file": "municipios/o-rosal.json"
     },
     {
@@ -58,7 +58,7 @@
       "n": 4,
       "sourcePath": "web/src/components/RelatoMunicipio.tsx",
       "sourceKey": "tomino",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "7a7880445ad3d07c470a1d767018e680bfd65ab86655b4def126db606fce14ee",
       "file": "municipios/tomino.json"
     },
@@ -71,7 +71,7 @@
       "n": 5,
       "sourcePath": "web/src/components/RelatoMunicipio.tsx",
       "sourceKey": "tui",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "253b17238ef7060e82148dbbb0bd330e4413e6db795bc88723b7debb595f1428",
       "file": "municipios/tui.json"
     },
@@ -84,7 +84,7 @@
       "n": 6,
       "sourcePath": "web/src/lib/relatos-val-minor.ts",
       "sourceKey": "baiona",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "1e2eeef236b347991a703d88698fe3df4c8ea52ec7a2d1a48bacdff4236125b7",
       "file": "municipios/baiona.json"
     },
@@ -97,7 +97,7 @@
       "n": 7,
       "sourcePath": "web/src/lib/relatos-val-minor.ts",
       "sourceKey": "nigran",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "edf987f16f51d6623e7a8972624e11056943452ab9e07fa3f190d31ff1f4d928",
       "file": "municipios/nigran.json"
     },
@@ -110,7 +110,7 @@
       "n": 8,
       "sourcePath": "web/src/lib/relatos-val-minor.ts",
       "sourceKey": "gondomar",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "bfee280db592f1dc49958c5ebc86474f705d23c4d36a2bf91713791db01c8ef5",
       "file": "municipios/gondomar.json"
     },
@@ -123,7 +123,7 @@
       "n": 9,
       "sourcePath": "web/src/lib/relatos-vigo-e-ria.ts",
       "sourceKey": "vigo",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "7df725a00a265a896d37b013f6a02bf209c0b0c2af3b8d124e8fbbbd2744b8f8",
       "file": "municipios/vigo.json"
     },
@@ -136,7 +136,7 @@
       "n": 10,
       "sourcePath": "web/src/lib/relatos-vigo-e-ria.ts",
       "sourceKey": "redondela",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "65960fba324f7b8f33b337193b2684ed8ac5eb31132f826b407ced4022762885",
       "file": "municipios/redondela.json"
     },
@@ -149,7 +149,7 @@
       "n": 11,
       "sourcePath": "web/src/lib/relatos-vigo-e-ria.ts",
       "sourceKey": "soutomaior",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "763b24e6b5db39d14f1993c8574fdf775b63ca17d140ed24bd6fca4d3bb1a436",
       "file": "municipios/soutomaior.json"
     },
@@ -162,7 +162,7 @@
       "n": 12,
       "sourcePath": "web/src/lib/relatos-vigo-e-ria.ts",
       "sourceKey": "vilaboa",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "bef28e12a7512f6f778dfbecdf9624b4e7ea7eb0b3087ce5117f0c7959dbb402",
       "file": "municipios/vilaboa.json"
     },
@@ -175,7 +175,7 @@
       "n": 13,
       "sourcePath": "web/src/lib/relatos-o-morrazo.ts",
       "sourceKey": "cangas",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "d37bc907e31d2cd7d1b6d0224182787bb445c3bfcae2dbf53bcfb787da841a35",
       "file": "municipios/cangas.json"
     },
@@ -188,7 +188,7 @@
       "n": 14,
       "sourcePath": "web/src/lib/relatos-o-morrazo.ts",
       "sourceKey": "moana",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "df1abc738551ff1226f45ddbcca1783ce45072a9089b5de6a05d8aa4f127edc6",
       "file": "municipios/moana.json"
     },
@@ -201,7 +201,7 @@
       "n": 15,
       "sourcePath": "web/src/lib/relatos-o-morrazo.ts",
       "sourceKey": "bueu",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "bb6c6a1e7d2f96a6dacc7cb51b78f7f3e21f602e7319ae0336f8731d7265501b",
       "file": "municipios/bueu.json"
     },
@@ -214,7 +214,7 @@
       "n": 16,
       "sourcePath": "web/src/lib/relatos-o-morrazo.ts",
       "sourceKey": "marin",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "fba1b18b497426589f63e8ff5c9176f29e6aff7964d5f68802aa0eead8d0b639",
       "file": "municipios/marin.json"
     },
@@ -227,7 +227,7 @@
       "n": 17,
       "sourcePath": "web/src/lib/relatos-pontevedra-e-sanxenxo.ts",
       "sourceKey": "pontevedra",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "07a457790595116c370063d47c1fe96ae2f6177e7413da54bca2e7accf3ec888",
       "file": "municipios/pontevedra.json"
     },
@@ -240,7 +240,7 @@
       "n": 18,
       "sourcePath": "web/src/lib/relatos-pontevedra-e-sanxenxo.ts",
       "sourceKey": "poio",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "0842984aa7746c185d4bd24b030feab9971dda8a40440194826fb431d6b70e6f",
       "file": "municipios/poio.json"
     },
@@ -253,7 +253,7 @@
       "n": 19,
       "sourcePath": "web/src/lib/relatos-pontevedra-e-sanxenxo.ts",
       "sourceKey": "sanxenxo",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "21b33295ce1e3896200cd919db1712ba6b142b19f9cf36339149a3a1d308670f",
       "file": "municipios/sanxenxo.json"
     },
@@ -266,7 +266,7 @@
       "n": 20,
       "sourcePath": "web/src/lib/relatos-pontevedra-e-sanxenxo.ts",
       "sourceKey": "o-grove",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "aed4d62b800f103cd7297883db523acdb4287cc59be3553311360196d27290f9",
       "file": "municipios/o-grove.json"
     },
@@ -279,8 +279,8 @@
       "n": 21,
       "sourcePath": "web/src/lib/relatos-o-salnes.ts",
       "sourceKey": "meano",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-      "contentHash": "acc12db1afe3f024889e03e4c98b34e5ec5bbc9b6f5ec26ef30454748fff03d6",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+      "contentHash": "c61074c22c041a12561556bde126380e92100e80f76fc701670f579f33df3060",
       "file": "municipios/meano.json"
     },
     {
@@ -292,7 +292,7 @@
       "n": 22,
       "sourcePath": "web/src/lib/relatos-o-salnes.ts",
       "sourceKey": "cambados",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "47d852a5855f3c054d5fb6b6897363793dc17b8ba3930bbc47487c55b7fded0e",
       "file": "municipios/cambados.json"
     },
@@ -305,7 +305,7 @@
       "n": 23,
       "sourcePath": "web/src/lib/relatos-o-salnes.ts",
       "sourceKey": "a-illa-de-arousa",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "b7bd6015e72210c65e47eb6cf233f3137f5b58bcab062cc80eeb24f98c36b214",
       "file": "municipios/a-illa-de-arousa.json"
     },
@@ -318,7 +318,7 @@
       "n": 24,
       "sourcePath": "web/src/lib/relatos-o-salnes.ts",
       "sourceKey": "vilanova-de-arousa",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "ae48c20b6422c8a240785f7df92be9eafd4605345183cec1b9ef55170eaeac9b",
       "file": "municipios/vilanova-de-arousa.json"
     },
@@ -331,8 +331,8 @@
       "n": 25,
       "sourcePath": "web/src/lib/relatos-o-salnes.ts",
       "sourceKey": "vilagarcia-de-arousa",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-      "contentHash": "6e1607bd1bfe2e5920368a70f68584a473c327836a663fe0b8e24c925d4fb455",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+      "contentHash": "a66fc4a8f914c30913807b14f91b591b36c35d7a036b8b030a90fac44e92c3d5",
       "file": "municipios/vilagarcia-de-arousa.json"
     },
     {
@@ -344,7 +344,7 @@
       "n": 26,
       "sourcePath": "web/src/lib/relatos-barbanza-e-noia.ts",
       "sourceKey": "rianxo",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "6a73933c9da9da4458bea21ddcbf43071de580eca1a720d91e3c06b422eb0a53",
       "file": "municipios/rianxo.json"
     },
@@ -357,7 +357,7 @@
       "n": 27,
       "sourcePath": "web/src/lib/relatos-barbanza-e-noia.ts",
       "sourceKey": "boiro",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "976ffee8da9e31ada325f7a547abd73709c11773641393b6cef5f02722e3f804",
       "file": "municipios/boiro.json"
     },
@@ -370,8 +370,8 @@
       "n": 28,
       "sourcePath": "web/src/lib/relatos-barbanza-e-noia.ts",
       "sourceKey": "a-pobra-do-caraminal",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-      "contentHash": "a51086020ec5b3c87aaab5df37af576488737617a55f30e39227e60626d9782c",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+      "contentHash": "77232df37c38b8e110a27064b943e5c8f1da97bf543732ce70fc5995ba06248e",
       "file": "municipios/a-pobra-do-caraminal.json"
     },
     {
@@ -383,7 +383,7 @@
       "n": 29,
       "sourcePath": "web/src/lib/relatos-barbanza-e-noia.ts",
       "sourceKey": "ribeira",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "d1128afd5bd9ddd89f0a612c0278f59acba6a86185567eb98093e7a720bc3bc2",
       "file": "municipios/ribeira.json"
     },
@@ -396,7 +396,7 @@
       "n": 30,
       "sourcePath": "web/src/lib/relatos-barbanza-e-noia.ts",
       "sourceKey": "porto-do-son",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "994627bdbea64efc1862d2ae808075724db8b208b3ee4d4e0697bfd1c060680a",
       "file": "municipios/porto-do-son.json"
     },
@@ -409,7 +409,7 @@
       "n": 31,
       "sourcePath": "web/src/lib/relatos-barbanza-e-noia.ts",
       "sourceKey": "noia",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "d48805de78cede136c34762f3e105b2d29714300751804a02246c7782f45d195",
       "file": "municipios/noia.json"
     },
@@ -422,8 +422,8 @@
       "n": 32,
       "sourcePath": "web/src/lib/relatos-golfo-artabro-e-ferrol.ts",
       "sourceKey": "a-coruna",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-      "contentHash": "2631c8dbac95390452c178899bfba13161698705e9c31ad70ac222c7d7ceb8fd",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+      "contentHash": "452941855a51953207f37bac262b856777010f1339e7388604d9ebb7634e5672",
       "file": "municipios/a-coruna.json"
     },
     {
@@ -435,8 +435,8 @@
       "n": 33,
       "sourcePath": "web/src/lib/relatos-golfo-artabro-e-ferrol.ts",
       "sourceKey": "oleiros",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-      "contentHash": "48b2507a8eed0977d55fdd8e85da5c243d7cf635325e218223f7c86f852bc9f3",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+      "contentHash": "6ca0ad8714ab85cf6b78bd9eba3f4ee4d4d2bf55b7e0d697a6244245dfec75a5",
       "file": "municipios/oleiros.json"
     },
     {
@@ -448,7 +448,7 @@
       "n": 34,
       "sourcePath": "web/src/lib/relatos-golfo-artabro-e-ferrol.ts",
       "sourceKey": "sada",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "fee71b2f1b4189f96efcffff0d6ccff87994dd189a46a9ec8a809c0b3a84c9e6",
       "file": "municipios/sada.json"
     },
@@ -461,8 +461,8 @@
       "n": 35,
       "sourcePath": "web/src/lib/relatos-golfo-artabro-e-ferrol.ts",
       "sourceKey": "bergondo",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-      "contentHash": "a4a74d7200b27ee822e7ca3019f464c23fac3ed4c7ccc791b2c3ec332350a070",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+      "contentHash": "e863d8ff4488e79be8df275e482cf785738c69cc07940acba545f8054bddcd78",
       "file": "municipios/bergondo.json"
     },
     {
@@ -474,7 +474,7 @@
       "n": 36,
       "sourcePath": "web/src/lib/relatos-golfo-artabro-e-ferrol.ts",
       "sourceKey": "mino",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "2c6c8e1e46f05b2b8701e233ab46d698f2e8f2e90b054dfdbbc18d82493e060f",
       "file": "municipios/mino.json"
     },
@@ -487,7 +487,7 @@
       "n": 37,
       "sourcePath": "web/src/lib/relatos-golfo-artabro-e-ferrol.ts",
       "sourceKey": "ares",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "8730ceeb4668126db9ed8c1b31b12dfc05be27706df0bf6912dffbfe6799553e",
       "file": "municipios/ares.json"
     },
@@ -500,7 +500,7 @@
       "n": 38,
       "sourcePath": "web/src/lib/relatos-golfo-artabro-e-ferrol.ts",
       "sourceKey": "ferrol",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "0514b2cd58039276f48234fde5aad3b852ed7aafc54953657a69479609f5f4b0",
       "file": "municipios/ferrol.json"
     },
@@ -513,8 +513,8 @@
       "n": 39,
       "sourcePath": "web/src/lib/relatos-a-marina.ts",
       "sourceKey": "o-vicedo",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-      "contentHash": "52923420c25f3ee05e5c621dbc065f49b36a1529ba83cc4000e2c30983a6e71f",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+      "contentHash": "5063f920fb596a63b3a3f5b795170e61d4111fb94ee468a66baa1c30f9ab092d",
       "file": "municipios/o-vicedo.json"
     },
     {
@@ -526,8 +526,8 @@
       "n": 40,
       "sourcePath": "web/src/lib/relatos-a-marina.ts",
       "sourceKey": "viveiro",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-      "contentHash": "926e297cfe2b223f802269a5401ad6e283706a044242df1e89f244d2883835e0",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+      "contentHash": "e77831acc30e5f0dc7c8959b21802c63b914ed4b10fcb359dbab0c522f3bceac",
       "file": "municipios/viveiro.json"
     },
     {
@@ -539,8 +539,8 @@
       "n": 41,
       "sourcePath": "web/src/lib/relatos-a-marina.ts",
       "sourceKey": "xove",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-      "contentHash": "bcad46d71f7a109fab9ddd66bb75fcda838ada8f5688a5e52f0dc1f06bdbc288",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+      "contentHash": "2f4e265dbd8e99f1b430c7200d33e7a2399bbef716e518cfa87c917069480dc8",
       "file": "municipios/xove.json"
     },
     {
@@ -552,8 +552,8 @@
       "n": 42,
       "sourcePath": "web/src/lib/relatos-a-marina.ts",
       "sourceKey": "cervo",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-      "contentHash": "d29a8d54f85aad4f451f548d453e2f07cbf58be831bb5b62d0936aacee3de8d0",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+      "contentHash": "f595c4bfe62681ae658975f29e3f53c2c61f442ef42c91369a593b4366226610",
       "file": "municipios/cervo.json"
     },
     {
@@ -565,7 +565,7 @@
       "n": 43,
       "sourcePath": "web/src/lib/relatos-a-marina.ts",
       "sourceKey": "burela",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "18c6bd7536c5aa68681af6a3fb6d439c4c18787c467149d02a07f3ae3c416af8",
       "file": "municipios/burela.json"
     },
@@ -578,7 +578,7 @@
       "n": 44,
       "sourcePath": "web/src/lib/relatos-a-marina.ts",
       "sourceKey": "foz",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "18ab2a7be34bc4a47d1b04b7c5260832301b995f7ac05ca101b7ec918af471cb",
       "file": "municipios/foz.json"
     },
@@ -591,8 +591,8 @@
       "n": 45,
       "sourcePath": "web/src/lib/relatos-a-marina.ts",
       "sourceKey": "barreiros",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-      "contentHash": "5d261f0632cbc37d68ac57cbbc2e89fc941fcff83679e0f53c62fea0eade1e34",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+      "contentHash": "c62a19ddaee3d722ba496dd750a70d19d9f0ed03d44d5645c63db6a08f395728",
       "file": "municipios/barreiros.json"
     },
     {
@@ -604,7 +604,7 @@
       "n": 46,
       "sourcePath": "web/src/lib/relatos-a-marina.ts",
       "sourceKey": "ribadeo",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "8814d7888bec9c0427271f00a88f490244bc48f118f176d5dee4dc4576f6d41b",
       "file": "municipios/ribadeo.json"
     },
@@ -617,7 +617,7 @@
       "n": 47,
       "sourcePath": "web/src/lib/relatos-asturias-occidente.ts",
       "sourceKey": "castropol",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "f5f50ad335334c4e9799052e7cdd92a3ea386ed6ddbd48d88d4ca8788e841ec9",
       "file": "municipios/castropol.json"
     },
@@ -630,7 +630,7 @@
       "n": 48,
       "sourcePath": "web/src/lib/relatos-asturias-occidente.ts",
       "sourceKey": "tapia-de-casariego",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "317bd70e068952411c4998a6f9a184bf0369da9efea3885543b8fc8b7678b873",
       "file": "municipios/tapia-de-casariego.json"
     },
@@ -643,7 +643,7 @@
       "n": 49,
       "sourcePath": "web/src/lib/relatos-asturias-occidente.ts",
       "sourceKey": "navia",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "84c7129c245ab43bfbd1c3732f876c6e2ef4c29cb8a43729b20c88d620d7436b",
       "file": "municipios/navia.json"
     },
@@ -656,7 +656,7 @@
       "n": 50,
       "sourcePath": "web/src/lib/relatos-asturias-occidente.ts",
       "sourceKey": "luarca-valdes",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "d1e6f1509946eaf2751c664acc54f640da58b019f626984cae29d3e786616fcd",
       "file": "municipios/luarca-valdes.json"
     },
@@ -669,7 +669,7 @@
       "n": 51,
       "sourcePath": "web/src/lib/relatos-asturias-centro.ts",
       "sourceKey": "cudillero",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "036f9a3da84044f0082cfde23291ed607ff63c5ab29a9667c336d3deb6f4da68",
       "file": "municipios/cudillero.json"
     },
@@ -682,8 +682,8 @@
       "n": 52,
       "sourcePath": "web/src/lib/relatos-asturias-centro.ts",
       "sourceKey": "muros-de-nalon",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-      "contentHash": "274b66b7b4c5b6a49b1e72ac9d7a6e3ba8e6ab88ce44165dea90459de5953666",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+      "contentHash": "0c0580946b8b9c42122a3d04beb74feaed5372fe66663102d91ccfb52d31eec6",
       "file": "municipios/muros-de-nalon.json"
     },
     {
@@ -695,7 +695,7 @@
       "n": 53,
       "sourcePath": "web/src/lib/relatos-asturias-centro.ts",
       "sourceKey": "soto-del-barco",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "413fbd572935374d99635de902c4982b86048d2fbaaee1b35e16d55ac127e3c3",
       "file": "municipios/soto-del-barco.json"
     },
@@ -708,7 +708,7 @@
       "n": 54,
       "sourcePath": "web/src/lib/relatos-asturias-centro.ts",
       "sourceKey": "salinas-castrillon",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "a565415e721050ab27a38efc31dda0046c8870495c058a2b1d74c296ac5673a4",
       "file": "municipios/salinas-castrillon.json"
     },
@@ -721,7 +721,7 @@
       "n": 55,
       "sourcePath": "web/src/lib/relatos-asturias-centro.ts",
       "sourceKey": "luanco-gozon",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "632e037dde007a100ad5603afc0d86c9f6a44c08060c066fb7be83b9a1cb6401",
       "file": "municipios/luanco-gozon.json"
     },
@@ -734,7 +734,7 @@
       "n": 56,
       "sourcePath": "web/src/lib/relatos-asturias-centro.ts",
       "sourceKey": "candas-carreno",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "05b668cdf5e27ee27d77d03ffa1fe60c1c7c3c3c07fa916a26e5ded84fa74353",
       "file": "municipios/candas-carreno.json"
     },
@@ -747,7 +747,7 @@
       "n": 57,
       "sourcePath": "web/src/lib/relatos-asturias-centro.ts",
       "sourceKey": "gijon",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "c5ab214c05e449508ec8fd69c9b03164f0c130f6a455750730e526a8d30bfc5d",
       "file": "municipios/gijon.json"
     },
@@ -760,7 +760,7 @@
       "n": 58,
       "sourcePath": "web/src/lib/relatos-asturias-oriente.ts",
       "sourceKey": "villaviciosa",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "1629f8c39a6cc12bd6b83e3f2c5ddbe747f579e6d3698abe5dd6593ded08a8ca",
       "file": "municipios/villaviciosa.json"
     },
@@ -773,7 +773,7 @@
       "n": 59,
       "sourcePath": "web/src/lib/relatos-asturias-oriente.ts",
       "sourceKey": "colunga",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "d04c97f48ba034cb55412bb4a2622711b4387787ca8e4ba99ae85f6ff46b62d8",
       "file": "municipios/colunga.json"
     },
@@ -786,7 +786,7 @@
       "n": 60,
       "sourcePath": "web/src/lib/relatos-asturias-oriente.ts",
       "sourceKey": "ribadesella",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "107a7f20d6b17ade2115023fd60544a08a72d471166541f9011c28ded51029f8",
       "file": "municipios/ribadesella.json"
     },
@@ -799,7 +799,7 @@
       "n": 61,
       "sourcePath": "web/src/lib/relatos-asturias-oriente.ts",
       "sourceKey": "llanes",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "1443561e838674dc258dc1edc42208745c0a40257730bc94cb38b4c6595343a5",
       "file": "municipios/llanes.json"
     },
@@ -812,7 +812,7 @@
       "n": 62,
       "sourcePath": "web/src/lib/relatos-asturias-oriente.ts",
       "sourceKey": "ribadedeva",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "8c6ca728a08f4603bf932b893c2458acaed5c9eee5f384b1f6fd40c5630c7494",
       "file": "municipios/ribadedeva.json"
     },
@@ -825,7 +825,7 @@
       "n": 63,
       "sourcePath": "web/src/lib/relatos-cantabria-occidental.ts",
       "sourceKey": "san-vicente-de-la-barquera",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "e1df3602dfd9c335b5bd7e3e9ed7471d24e1a7883ed44a4572195dcc1a0ac557",
       "file": "municipios/san-vicente-de-la-barquera.json"
     },
@@ -838,7 +838,7 @@
       "n": 64,
       "sourcePath": "web/src/lib/relatos-cantabria-occidental.ts",
       "sourceKey": "comillas",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "1cb91c838acb29b6fa79bc5df8cad95f64c50a481977a6561f4a31088d48bfe2",
       "file": "municipios/comillas.json"
     },
@@ -851,7 +851,7 @@
       "n": 65,
       "sourcePath": "web/src/lib/relatos-cantabria-occidental.ts",
       "sourceKey": "suances",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "060f2f0a67374220abca4bbb9fc41dbc3d8f223e35f201cb8fdebfc037103ddf",
       "file": "municipios/suances.json"
     },
@@ -864,8 +864,8 @@
       "n": 66,
       "sourcePath": "web/src/lib/relatos-cantabria-occidental.ts",
       "sourceKey": "liencres-pielagos",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-      "contentHash": "09c12e8b6fc71459e732a603267b41561a5b2c25b3db18434176d47e981f23c0",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+      "contentHash": "75329e8576eb33b802365c07e2ce2183ee14b83cb5813a10d2cb2db0f7e07b1d",
       "file": "municipios/liencres-pielagos.json"
     },
     {
@@ -877,7 +877,7 @@
       "n": 67,
       "sourcePath": "web/src/lib/relatos-cantabria-occidental.ts",
       "sourceKey": "santander",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "e13edadba529827da0b31939860aa18211c4c728964d62498759c1593a6d04a9",
       "file": "municipios/santander.json"
     },
@@ -890,7 +890,7 @@
       "n": 68,
       "sourcePath": "web/src/lib/relatos-cantabria-oriental.ts",
       "sourceKey": "ribamontan-al-mar",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "9edb93e88f516c22bbc1d940d0d1568252116295a820dbc16b3383cb95469cbb",
       "file": "municipios/ribamontan-al-mar.json"
     },
@@ -903,7 +903,7 @@
       "n": 69,
       "sourcePath": "web/src/lib/relatos-cantabria-oriental.ts",
       "sourceKey": "noja",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "bef8f9e0dfc1a32a9334fa4ff95aa30b02c5b8b7c26d03d10f67ee309e0d7806",
       "file": "municipios/noja.json"
     },
@@ -916,7 +916,7 @@
       "n": 70,
       "sourcePath": "web/src/lib/relatos-cantabria-oriental.ts",
       "sourceKey": "santona",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "72f280bea96edb2a24b8baf7bd13195215c94856aed46dae6121eb65d8f6985a",
       "file": "municipios/santona.json"
     },
@@ -929,7 +929,7 @@
       "n": 71,
       "sourcePath": "web/src/lib/relatos-cantabria-oriental.ts",
       "sourceKey": "laredo",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "2db2ed2601314159c381872a6e04f02889db74533b9a2e2d781fd96e2bcf0824",
       "file": "municipios/laredo.json"
     },
@@ -942,7 +942,7 @@
       "n": 72,
       "sourcePath": "web/src/lib/relatos-cantabria-oriental.ts",
       "sourceKey": "castro-urdiales",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "e95aaa19ce7ed4d96a427d40672f52ede0dca3a96b0d1fa61e7a3e126625fab3",
       "file": "municipios/castro-urdiales.json"
     },
@@ -955,7 +955,7 @@
       "n": 73,
       "sourcePath": "web/src/lib/relatos-alto-minho.ts",
       "sourceKey": "valenca",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "cb93e3d3701cea2c9d1bb9db951a51c125118d302ebf79c4a53243a4e1ceccaa",
       "file": "municipios/valenca.json"
     },
@@ -968,7 +968,7 @@
       "n": 74,
       "sourcePath": "web/src/lib/relatos-alto-minho.ts",
       "sourceKey": "vila-nova-de-cerveira",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "cd17eb18c5b199913ab5ad8de0022b65d33d3d73f06056dc4af30f5da1f13e2d",
       "file": "municipios/vila-nova-de-cerveira.json"
     },
@@ -981,7 +981,7 @@
       "n": 75,
       "sourcePath": "web/src/lib/relatos-alto-minho.ts",
       "sourceKey": "caminha",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "36d258e71842f8147d3337d66ff8ff34463ff25769b3d93fae332106797fc4c4",
       "file": "municipios/caminha.json"
     },
@@ -994,7 +994,7 @@
       "n": 76,
       "sourcePath": "web/src/lib/relatos-alto-minho.ts",
       "sourceKey": "moledo-caminha",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "6fa292a76fc04aa9ae1027122b822bf941db23bd3105aa35ead6e7cb0b76753f",
       "file": "municipios/moledo-caminha.json"
     },
@@ -1007,7 +1007,7 @@
       "n": 77,
       "sourcePath": "web/src/lib/relatos-alto-minho.ts",
       "sourceKey": "vila-praia-de-ancora",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "b0d3011533ba395e2826292a1b34a7dacccf76bc982f9595904788854a241f6a",
       "file": "municipios/vila-praia-de-ancora.json"
     },
@@ -1020,8 +1020,8 @@
       "n": 78,
       "sourcePath": "web/src/lib/relatos-alto-minho.ts",
       "sourceKey": "afife-carreco",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-      "contentHash": "8fdcee3e8a51e53c55f5dd831123a5120092a9bc0afcf0fcfcbb3a07623c0e1b",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+      "contentHash": "bd1ec11d5107f8a7698346eac409adc2a4047548aa99ab73350fac2c003c4df9",
       "file": "municipios/afife-carreco.json"
     },
     {
@@ -1033,7 +1033,7 @@
       "n": 79,
       "sourcePath": "web/src/lib/relatos-alto-minho.ts",
       "sourceKey": "viana-do-castelo",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "a144a2a6e7b43af104cbbe0d4c956bea646a5c0e5fba94bc3e1a8b64d9b5f856",
       "file": "municipios/viana-do-castelo.json"
     },
@@ -1046,8 +1046,8 @@
       "n": 80,
       "sourcePath": "web/src/lib/relatos-alto-minho.ts",
       "sourceKey": "ponte-de-lima",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-      "contentHash": "0e40b317ae6320b9736fb9d61903ba6650e27fd33f7a1606ad8716b909bc8fed",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+      "contentHash": "e8f37861d9eabc4fbfc4c7dd512550ee785de30f5f5adf2c9ddacd61880be94a",
       "file": "municipios/ponte-de-lima.json"
     },
     {
@@ -1059,7 +1059,7 @@
       "n": 81,
       "sourcePath": "web/src/lib/relatos-litoral-norte.ts",
       "sourceKey": "esposende",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "40d70740629f47f0e70711280d8d0a173ed2bd420a57f8fda8bf5afd6d84f8df",
       "file": "municipios/esposende.json"
     },
@@ -1072,7 +1072,7 @@
       "n": 82,
       "sourcePath": "web/src/lib/relatos-litoral-norte.ts",
       "sourceKey": "povoa-de-varzim",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "10684cc3e0c68e300c0ce842c2bd0d16958beb127a64fd55a2e8a0d324ade98c",
       "file": "municipios/povoa-de-varzim.json"
     },
@@ -1085,7 +1085,7 @@
       "n": 83,
       "sourcePath": "web/src/lib/relatos-litoral-norte.ts",
       "sourceKey": "vila-do-conde",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "19c145a60cc2e59f39168175a61bf7a1dcf75eee4dac3a11b37a15dd1d3cb122",
       "file": "municipios/vila-do-conde.json"
     },
@@ -1096,7 +1096,7 @@
       "zonaId": "baixo-mino",
       "zonaNombre": "Baixo Miño",
       "sourcePath": "web/src/components/RelatoBaixoMino.tsx",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "6e5bc7f1788da27ba32b05d6b82d217bb8db5b3e44b421674a24a89161e0416a",
       "sourceFileHash": "9ecdb1e91d4fd4cdc9744c829146f771386ec3b630de90202f11cd49a6b6f087",
       "file": "zonas/baixo-mino.json"
@@ -1108,7 +1108,7 @@
       "zonaId": "val-minor",
       "zonaNombre": "Val Miñor",
       "sourcePath": "web/src/components/RelatoValMinor.tsx",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "09c7e53f06941f2e795cb7e6d6e6df6b2ad470e03a7984de77f296158ca86ac1",
       "sourceFileHash": "201134ed2970ae8408b1bd68f58bed5063b3159e205cc84fc5af41e0b25e5783",
       "file": "zonas/val-minor.json"
@@ -1120,7 +1120,7 @@
       "zonaId": "vigo-e-ria",
       "zonaNombre": "Vigo e ría",
       "sourcePath": "web/src/components/RelatoVigoERia.tsx",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "fb9597a7c479ed1f8ba93ba02e30ce274c5f9581be8c26492953a56e3122ddb5",
       "sourceFileHash": "a434b27ad11b1ba7ce8cfc4f85be48f9ea21fe2ff1ed1ac38f6ed2e40d910f67",
       "file": "zonas/vigo-e-ria.json"
@@ -1132,7 +1132,7 @@
       "zonaId": "o-morrazo",
       "zonaNombre": "O Morrazo",
       "sourcePath": "web/src/components/RelatoOMorrazo.tsx",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "c32ef5d8323d6fb0ffed4bd96ab402b98bc10b5c4199bcc51d5d83daa302d258",
       "sourceFileHash": "0b0961f2f2be2648ceecbeb752622fc92b5732a53c19fe73c6712b7010117450",
       "file": "zonas/o-morrazo.json"
@@ -1144,9 +1144,9 @@
       "zonaId": "pontevedra-e-sanxenxo",
       "zonaNombre": "Pontevedra e Sanxenxo",
       "sourcePath": "web/src/components/RelatoPontevedraESanxenxo.tsx",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-      "contentHash": "c635fa2811891a0059c41232800d6bf2c3e3dbf88772aa78db68f2603c5d0552",
-      "sourceFileHash": "6c9bae290345c792c8e78a7f312c2a1444053ce894b3f2279e8f53b2b9cfe0aa",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+      "contentHash": "4360756573fa99c44984612d706bd6856ac69acd776df29105191c90d165959f",
+      "sourceFileHash": "d63bf3541305aa4855c1db91c4da0d5b69eaa19a16d9286326ce699865d8ac46",
       "file": "zonas/pontevedra-e-sanxenxo.json"
     },
     {
@@ -1156,7 +1156,7 @@
       "zonaId": "o-salnes",
       "zonaNombre": "O Salnés",
       "sourcePath": "web/src/components/RelatoOSalnes.tsx",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "383e53302e84b9328bd351f16f15b3aa9ed99d063e2d9dcab1ed9d2bd85cd098",
       "sourceFileHash": "1f610452ce85395db1db182f19d2c6a5a8c7f81eae22e102ad7e242353eb382a",
       "file": "zonas/o-salnes.json"
@@ -1168,7 +1168,7 @@
       "zonaId": "barbanza-e-noia",
       "zonaNombre": "Barbanza e Noia",
       "sourcePath": "web/src/components/RelatoBarbanzaENoia.tsx",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "daae35ec6cf72113ff3de75d4cbeac3c8893e66b9ce1b89443a77546f9607ff8",
       "sourceFileHash": "085d471c80bcf469225c03333473f47da9c67665504d10246e4b2357ffeb2c96",
       "file": "zonas/barbanza-e-noia.json"
@@ -1180,7 +1180,7 @@
       "zonaId": "golfo-artabro-e-ferrol",
       "zonaNombre": "Golfo Ártabro e Ferrol",
       "sourcePath": "web/src/components/RelatoGolfoArtabroEFerrol.tsx",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "887d2e12d7fbd016e45222c229cfbd05201c5cbf5b320e942c71569f1c761c92",
       "sourceFileHash": "c1b3a47006582358b063a9948b2eca57c2ad4a0c8a06d8d6a4b9b9c02f44fefa",
       "file": "zonas/golfo-artabro-e-ferrol.json"
@@ -1192,7 +1192,7 @@
       "zonaId": "a-marina",
       "zonaNombre": "A Mariña",
       "sourcePath": "web/src/components/RelatoAMarina.tsx",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "88dfa172ac90d4ad9164a5fb3223537bef113aa0102cdf1bca6abc80bf6ece3f",
       "sourceFileHash": "05be815d5d9960c01b52a72611784b9c26885f6347bc33673a0d3c43afcd121b",
       "file": "zonas/a-marina.json"
@@ -1204,7 +1204,7 @@
       "zonaId": "asturias-occidente",
       "zonaNombre": "Asturias Occidente",
       "sourcePath": "web/src/components/RelatoAsturiasOccidente.tsx",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "6860b757981ce0c8d9ad908426d672a5563ecfc705d6e50743bde4d2a92a4090",
       "sourceFileHash": "a60f7f440293feac5ed36ad10cf4a759e23283662946810d219bb24f0a980018",
       "file": "zonas/asturias-occidente.json"
@@ -1216,7 +1216,7 @@
       "zonaId": "asturias-centro",
       "zonaNombre": "Asturias Centro",
       "sourcePath": "web/src/components/RelatoAsturiasCentro.tsx",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "1015c52f3317ed87f5b3e8cde1eeec16f778c2e2e3206901aec926218de9d42a",
       "sourceFileHash": "3eda75e83cb94e7da2834338578a928df6ac5fd186569741c07fbc65d1aa05c5",
       "file": "zonas/asturias-centro.json"
@@ -1228,7 +1228,7 @@
       "zonaId": "asturias-oriente",
       "zonaNombre": "Asturias Oriente",
       "sourcePath": "web/src/components/RelatoAsturiasOriente.tsx",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "3c373439a5c08ce79d42e635e47ef8477ac6bac1e04b4ce6b3633e47f7662638",
       "sourceFileHash": "5873c380262b2d3276773f8442e71674e63a590d01783e77acc6ec40fed16cfe",
       "file": "zonas/asturias-oriente.json"
@@ -1240,7 +1240,7 @@
       "zonaId": "cantabria-occidental",
       "zonaNombre": "Cantabria Occidental",
       "sourcePath": "web/src/components/RelatoCantabriaOccidental.tsx",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "6c9740ea9373fe8cf1ec541e7aa8bcd9c34969284f81a36dfdee9025a9cd6582",
       "sourceFileHash": "f2ccf7ad617edc8d150a4707c36ce3f7436f31b97bf59b9445db64c49de5e71e",
       "file": "zonas/cantabria-occidental.json"
@@ -1252,7 +1252,7 @@
       "zonaId": "cantabria-oriental",
       "zonaNombre": "Cantabria Oriental",
       "sourcePath": "web/src/components/RelatoCantabriaOriental.tsx",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "a02ecaddcd951568ed8d1876d85eb0a0c4d972225851e00810d19c75d1224b2a",
       "sourceFileHash": "0c0a5c46f2758f17e658d68c0977a6e22b689f07c02b82bd4a46c0adb29662f4",
       "file": "zonas/cantabria-oriental.json"
@@ -1264,7 +1264,7 @@
       "zonaId": "alto-minho",
       "zonaNombre": "Alto Minho (PT)",
       "sourcePath": "web/src/components/RelatoAltoMinho.tsx",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
       "contentHash": "c7f8437d0a3b4358a2423b447188cc87c51c3c659b75a9c0ce3a8cdcef8c14f0",
       "sourceFileHash": "9055bd628512b6a41d29eca5f20f691c39c6a5fb15a4af3a4f3577153cec5500",
       "file": "zonas/alto-minho.json"
@@ -1276,9 +1276,9 @@
       "zonaId": "litoral-norte",
       "zonaNombre": "Litoral Norte (PT)",
       "sourcePath": "web/src/components/RelatoLitoralNorte.tsx",
-      "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-      "contentHash": "a422d3428167e4071bca984c355a629592042d0b8a61aefba3dd238e1d906e28",
-      "sourceFileHash": "e3bac3f30047087fada6adeafcdabcd993d6835195e3f25261f36277460fa30f",
+      "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+      "contentHash": "30bc426df7dfd8afc4282d8dd5868e195671275c2ab05b415f88a95a5de4b38e",
+      "sourceFileHash": "9032620a492e9f4212a99dc454c9583762250301c93bb3f7987703b08e5fb8c1",
       "file": "zonas/litoral-norte.json"
     }
   ],

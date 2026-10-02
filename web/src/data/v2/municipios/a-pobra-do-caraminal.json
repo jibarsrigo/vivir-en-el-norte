@@ -10,9 +10,9 @@
   "sourcePath": "web/src/lib/relatos-barbanza-e-noia.ts",
   "sourceKey": "a-pobra-do-caraminal",
   "sourceExport": "RELATOS_BARBANZA_E_NOIA",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
-  "contentHash": "a51086020ec5b3c87aaab5df37af576488737617a55f30e39227e60626d9782c",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
+  "contentHash": "77232df37c38b8e110a27064b943e5c8f1da97bf543732ce70fc5995ba06248e",
   "ficha": {
     "n": 28,
     "zona": "Barbanza e Noia",
@@ -531,8 +531,8 @@
       "veredicto": "A Pobra ofrece sierra y ría en el mismo municipio: Curota, Os Areos y hospital comarcal cerca a cambio de no ser capital comercial. Su atractivo está en la doble orilla; su peaje, en medir viento, agosto y la escala real de servicios de villa."
     },
     "fotoIdentidad": {
-      "src": "/fotos/barbanza-e-noia/a-pobra-do-caraminal-identidad.jpg",
-      "pie": "A Pobra do Caramiñal: casas del puerto frente a la ría, con el monte detrás"
+      "src": "/fotos/barbanza-e-noia/pobra-identidad-ria.jpg",
+      "pie": "A Pobra do Caramiñal: puerto frente a la ría"
     },
     "fotosAbrir": [
       {

@@ -39,15 +39,16 @@
         "Viveiro combina una villa histórica que funciona todo el año con puerto de oficio y una Covas más marítima y estacional. Su equilibrio depende mucho de escoger bien entre casco, Celeiro y Covas: se gana autonomía cotidiana y variedad de paseos, mientras hospital, aeropuerto y algunas salidas quedan fuera del radio inmediato."
     },
     fotosAbrir: [
-      { src: "/fotos/a-marina/viveiro-casco.jpg", pie: "Casco de Viveiro hacia la ría" },
-      { src: "/fotos/a-marina/viveiro-covas.jpg", pie: "Covas, playa larga en ría abrigada" },
+      { src: "/fotos/a-marina/viveiro-porta.jpg", pie: "Porta de Carlos V: entrada al casco de Viveiro" },
+      { src: "/fotos/a-marina/viveiro-covas.jpg", pie: "Covas: playa de ría y Os Castelos" },
     ],
     fotosHistoria: [
-      { src: "/fotos/a-marina/viveiro-porta.jpg", pie: "Porta de Carlos V, arco del casco amurallado" },
+      { src: "/fotos/a-marina/viveiro-celeiro.jpg", pie: "Puerto de Celeiro desde la orilla" },
+      { src: "/fotos/a-marina/viveiro-casco.jpg", pie: "Viveiro y la ría desde el monte" },
     ],
     fotosFuera: [
-      { src: "/fotos/a-marina/viveiro-celeiro.jpg", pie: "Puerto de Celeiro, lonja y merluza del pincho" },
-      { src: "/fotos/a-marina/viveiro-ria.jpg", pie: "Ría de Viveiro desde Covas" },
+      { src: "/fotos/a-marina/viveiro-ria.jpg", pie: "Ría de Viveiro hacia Covas" },
+      { src: "/fotos/a-marina/viveiro-identidad.jpg", pie: "Mirador sobre la ría de Viveiro" },
     ],
     creditoFotos: credito,
   }

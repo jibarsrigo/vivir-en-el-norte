@@ -3,8 +3,8 @@
   "zonaId": "asturias-centro",
   "nombre": "Asturias Centro",
   "sourcePath": "web/src/components/RelatoAsturiasCentro.tsx",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
   "sourceFileHash": "3eda75e83cb94e7da2834338578a928df6ac5fd186569741c07fbc65d1aa05c5",
   "contentHash": "1015c52f3317ed87f5b3e8cde1eeec16f778c2e2e3206901aec926218de9d42a",
   "zonaBaseline": {

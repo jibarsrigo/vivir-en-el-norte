@@ -12,6 +12,7 @@ type Props = {
 
 export default function BloqueZonaFicha({ zonaId, nombreZona, resumen }: Props) {
   const [leida, setLeida] = useState(false);
+  const hrefDetalles = `/zona/${zonaId}/`;
 
   useEffect(() => {
     setLeida(esZonaLeida(zonaId));
@@ -24,10 +25,10 @@ export default function BloqueZonaFicha({ zonaId, nombreZona, resumen }: Props) 
 
   return (
     <aside
-      className={`mt-6 max-w-2xl rounded-xl border px-4 py-4 ${
+      className={`mt-6 max-w-2xl rounded-xl border bg-white px-4 py-4 ${
         leida
-          ? "border-[var(--linea)] bg-[var(--papel)]"
-          : "border-[var(--acento)]/25 bg-white shadow-[0_1px_0_rgb(28_42_50/6%)]"
+          ? "border-[var(--linea)]"
+          : "border-[var(--acento)]/25 shadow-[0_1px_0_rgb(28_42_50/6%)]"
       }`}
     >
       <div className="flex flex-wrap items-baseline justify-between gap-2">
@@ -41,7 +42,7 @@ export default function BloqueZonaFicha({ zonaId, nombreZona, resumen }: Props) 
       <h2 className="mt-1 flex flex-wrap items-baseline gap-x-2 gap-y-0.5 font-[family-name:var(--font-serif)] text-xl text-[var(--acento)]">
         <span>{nombreZona}</span>
         <Link
-          href={`/zona/${zonaId}/`}
+          href={hrefDetalles}
           onClick={alAbrirZona}
           className="font-[family-name:var(--font-sans)] text-xs font-semibold tracking-wide text-[var(--acento)] underline-offset-2 hover:underline"
         >

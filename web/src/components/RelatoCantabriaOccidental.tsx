@@ -1,32 +1,20 @@
-import Encaja from "@/components/Encaja";
+import EncajaZona from "@/components/EncajaZona";
+import SeccionZona from "@/components/SeccionZona";
 import Foto from "@/components/Foto";
 import TablaPrecios from "@/components/TablaPrecios";
 import EnlaceIdealista from "@/components/EnlaceIdealista";
-import MunicipiosZonaFin from "@/components/MunicipiosZonaFin";
 import { mallorca, type Zona } from "@/lib/zonas";
 import { municipiosCantabriaOccidental } from "@/lib/municipios";
-
-function H2({ children }: { children: React.ReactNode }) {
-  return <h2 className="mt-10 font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">{children}</h2>;
-}
 
 function P({ children }: { children: React.ReactNode }) {
   return <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{children}</p>;
 }
 
-const ESCALA: Record<string, string> = {
-  "San Vicente de la Barquera": "Villa marinera y ría",
-  Comillas: "Villa modernista",
-  Suances: "Villa-playa",
-  "Liencres (Piélagos)": "Urbanización junto a dunas",
-  Santander: "Ciudad de bahía",
-};
 
 export default function RelatoCantabriaOccidental({ zona }: { zona: Zona }) {
   return (
     <article className="mt-8">
-      <section>
-        <H2>Dónde está</H2>
+      <SeccionZona titulo="Dónde está">
         <P>
           Cantabria Occidental cubre la costa desde la ría de San Vicente de la Barquera hasta la
           bahía de Santander: playas grandes, acantilados, el Parque Natural de las Dunas de
@@ -55,10 +43,9 @@ export default function RelatoCantabriaOccidental({ zona }: { zona: Zona }) {
           src="/fotos/cantabria-occidental/zona-san-vicente.jpg"
           pie="San Vicente de la Barquera: ría, villa y Picos al fondo"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>El tiempo comparado con Baleares</H2>
+      <SeccionZona titulo="El tiempo comparado con Baleares">
         <P>
           Cantabria Occidental suma unas {zona.solHoras.toLocaleString("es-ES")} horas de sol y{" "}
           {zona.despejados} días despejados al año —en la franja de 1.680 a 1.700 horas y unos 38
@@ -86,13 +73,9 @@ export default function RelatoCantabriaOccidental({ zona }: { zona: Zona }) {
           mar lo permite; las playas son grandes, abiertas y con oleaje. Para bañarse con más
           calma, la bahía de Santander y el Sardinero en días de mar llana.
         </P>
-        <p className="mt-4 max-w-2xl font-semibold text-[var(--calor)]">
-          Verano fresco: media alrededor de 20 °C y apenas dos a seis días por encima de 30 °C.
-        </p>
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Cómo se vive</H2>
+      <SeccionZona titulo="Cómo se vive">
         <P>
           Un martes de noviembre muestra escalas muy distintas. Santander resuelve el día a pie:
           comercio, farmacias, centro de salud y cultura sin salir de la ciudad. Liencres cubre lo
@@ -117,10 +100,9 @@ export default function RelatoCantabriaOccidental({ zona }: { zona: Zona }) {
           src="/fotos/cantabria-occidental/zona-comillas.jpg"
           pie="Comillas: villa modernista frente al Cantábrico"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mar, dunas y camino</H2>
+      <SeccionZona titulo="Mar, dunas y camino">
         <P>
           En San Vicente, la ría con los Picos al fondo —la foto más citada de Cantabria—, el
           puente de la Maza, Merón —playa de unos cuatro kilómetros— y Oyambre —parque natural—
@@ -150,10 +132,9 @@ export default function RelatoCantabriaOccidental({ zona }: { zona: Zona }) {
           src="/fotos/cantabria-occidental/zona-liencres.jpg"
           pie="Dunas de Liencres y Costa Quebrada"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mercados, fiestas y calendario</H2>
+      <SeccionZona titulo="Mercados, fiestas y calendario">
         <P>
           Santander concentra mercado, comercio, cultura y mesas abiertas todo el año. Suances y
           Liencres resuelven el día a día con apoyo de Torrelavega o Bezana. Comillas y San
@@ -175,10 +156,9 @@ export default function RelatoCantabriaOccidental({ zona }: { zona: Zona }) {
           src="/fotos/cantabria-occidental/zona-sardinero.jpg"
           pie="El Sardinero y la bahía de Santander"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Qué cuesta una casa</H2>
+      <SeccionZona titulo="Qué cuesta una casa">
         <P>
           Cantabria Occidental cubre franjas distintas. Liencres suele situarse en el tramo más
           contenido de la zona; Suances y San Vicente, en franja media; Comillas y Santander, en
@@ -201,10 +181,9 @@ export default function RelatoCantabriaOccidental({ zona }: { zona: Zona }) {
         </P>
         <TablaPrecios filas={municipiosCantabriaOccidental} />
         <EnlaceIdealista ambito="zona" zonaId={zona.id} nombre={zona.zona} />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Servicios, hospital, aeropuerto</H2>
+      <SeccionZona titulo="Servicios, hospital, aeropuerto">
         <P>
           Santander cubre la vida diaria completa dentro del municipio. Liencres y Suances
           resuelven tiendas, farmacia y centro de salud con apoyo cercano de Bezana, Torrelavega o
@@ -234,9 +213,9 @@ export default function RelatoCantabriaOccidental({ zona }: { zona: Zona }) {
           src="/fotos/cantabria-occidental/zona-oyambre.jpg"
           pie="Oyambre: parque natural entre San Vicente y Comillas"
         />
-      </section>
+      </SeccionZona>
 
-      <Encaja
+      <EncajaZona
         si={[
           "Pesan Valdecilla, el Seve Ballesteros con Palma casi todo el año y una costa de dunas y bahía, aceptando un cielo de sol bajo (~1.700 horas y unos 38 despejados). Liencres o Mortera encajan como urbanización de casas bajas junto a las Dunas y la Costa Quebrada; Suances, como villa-playa con vida todo el año.",
           "Se valora caminar dunas, Costa Quebrada, bahía o ría con Picos al fondo, con capital completa a quince o treinta minutos desde Liencres y Suances, y fibra y obra nueva en Piélagos.",
@@ -245,13 +224,7 @@ export default function RelatoCantabriaOccidental({ zona }: { zona: Zona }) {
           `Se necesita el cielo de Baleares: Cantabria Occidental tiene ${zona.lluviaDias} días de lluvia, ${zona.despejados} despejados y ${zona.cubiertos} cubiertos, frente a ${mallorca.lluviaDias} y ${mallorca.despejados} en Mallorca. El contraste con Mallorca es fuerte en cielo cubierto.`,
           "Se buscan tres habitaciones en Comillas o Santander dentro de la franja asequible habitual, calma turística en Comillas y San Vicente en verano, hospital cerca desde San Vicente (unos cuarenta minutos) o montaña detrás de casa en Liencres y Santander —los Picos quedan a una hora—.",
         ]}
-        veredicto="Veredicto de zona: Cantabria Occidental encaja por logística —Valdecilla y vuelo a Palma casi todo el año—, no por sol. Si hospital y aeropuerto pesan más que el cielo balear, Liencres o Mortera equilibran dunas y capital a quince minutos; Suances, villa-playa con Torrelavega a quince; San Vicente, la foto de ría y Picos a cambio de hospital y aeropuerto a cuarenta o cuarenta y cinco; Comillas, villa modernista cuidada y tranquila en invierno; Santander, ciudad de referencia. Antes de elegir, probar un noviembre cubierto y un agosto en Comillas, San Vicente o el Sardinero."
-      />
-
-      <MunicipiosZonaFin
-        zonaId={zona.id}
-        municipios={municipiosCantabriaOccidental}
-        escalas={ESCALA}
+        veredicto="Cantabria Occidental encaja por logística —Valdecilla y vuelo a Palma casi todo el año—, no por sol. Si hospital y aeropuerto pesan más que el cielo balear, Liencres o Mortera equilibran dunas y capital a quince minutos; Suances, villa-playa con Torrelavega a quince; San Vicente, la foto de ría y Picos a cambio de hospital y aeropuerto a cuarenta o cuarenta y cinco; Comillas, villa modernista cuidada y tranquila en invierno; Santander, ciudad de referencia. Antes de elegir, probar un noviembre cubierto y un agosto en Comillas, San Vicente o el Sardinero."
       />
 
       <p className="mt-12 max-w-2xl text-xs text-[var(--tinta-suave)]">

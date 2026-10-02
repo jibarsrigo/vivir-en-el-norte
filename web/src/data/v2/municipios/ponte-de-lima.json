@@ -1,4 +1,4 @@
-﻿{
+{
   "tipo": "municipio",
   "slug": "ponte-de-lima",
   "nombre": "Ponte de Lima",
@@ -10,9 +10,9 @@
   "sourcePath": "web/src/lib/relatos-alto-minho.ts",
   "sourceKey": "ponte-de-lima",
   "sourceExport": "RELATOS_ALTO_MINHO",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
-  "contentHash": "0e40b317ae6320b9736fb9d61903ba6650e27fd33f7a1606ad8716b909bc8fed",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
+  "contentHash": "e8f37861d9eabc4fbfc4c7dd512550ee785de30f5f5adf2c9ddacd61880be94a",
   "ficha": {
     "n": 80,
     "zona": "Alto Minho (PT)",

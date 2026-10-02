@@ -1,35 +1,20 @@
-import Encaja from "@/components/Encaja";
+import EncajaZona from "@/components/EncajaZona";
+import SeccionZona from "@/components/SeccionZona";
 import Foto from "@/components/Foto";
 import TablaPrecios from "@/components/TablaPrecios";
 import EnlaceIdealista from "@/components/EnlaceIdealista";
-import MunicipiosZonaFin from "@/components/MunicipiosZonaFin";
 import { mallorca, type Zona } from "@/lib/zonas";
 import { municipiosOMorrazo } from "@/lib/municipios";
-
-function H2({ children }: { children: React.ReactNode }) {
-  return (
-    <h2 className="mt-10 font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">
-      {children}
-    </h2>
-  );
-}
 
 function P({ children }: { children: React.ReactNode }) {
   return <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{children}</p>;
 }
 
-const ESCALA: Record<string, string> = {
-  Cangas: "Villa marinera y parroquias de costa",
-  Moaña: "Villa lineal y parroquias",
-  Bueu: "Villa marinera tranquila",
-  Marín: "Villa portuaria y costa residencial",
-};
 
 export default function RelatoOMorrazo({ zona }: { zona: Zona }) {
   return (
     <article className="mt-8">
-      <section>
-        <H2>Dónde está</H2>
+      <SeccionZona titulo="Dónde está">
         <P>
           O Morrazo es la península que separa las rías de Vigo y Pontevedra, dos entradas de mar
           de las Rías Baixas gallegas. Su orilla sur, con Cangas y Moaña, mira hacia Vigo; la norte,
@@ -55,10 +40,9 @@ export default function RelatoOMorrazo({ zona }: { zona: Zona }) {
           src="/fotos/o-morrazo/cangas-cabo-home.jpg"
           pie="Cabo Home: la punta de O Morrazo frente a las Illas Cíes"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>El tiempo comparado con Baleares</H2>
+      <SeccionZona titulo="El tiempo comparado con Baleares">
         <P>
           O Morrazo suma unas {zona.solHoras.toLocaleString("es-ES")} horas de sol y{" "}
           {zona.despejados} días despejados al año. Mallorca ronda{" "}
@@ -86,14 +70,9 @@ export default function RelatoOMorrazo({ zona }: { zona: Zona }) {
           Atlántico. Frente al Mediterráneo se pierde temperatura de baño y se gana un litoral que
           rara vez pasa semanas bajo calor extremo.
         </P>
-        <p className="mt-4 max-w-2xl font-semibold text-[var(--calor)]">
-          Verano suave: máximas habituales próximas a 25 °C y unos 3–6 días al año por encima de
-          30 °C.
-        </p>
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Cómo se vive</H2>
+      <SeccionZona titulo="Cómo se vive">
         <P>
           Un martes de noviembre revela cuatro ritmos. Cangas abre mercado, comercio y embarcadero
           en una villa caminable. Moaña reparte la vida entre paseo, parroquias y barco a Vigo.
@@ -125,10 +104,9 @@ export default function RelatoOMorrazo({ zona }: { zona: Zona }) {
           src="/fotos/o-morrazo/cangas-villa.jpg"
           pie="El centro de Cangas conserva comercio y vida cotidiana durante el invierno"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mercados, fiestas y calendario</H2>
+      <SeccionZona titulo="Mercados, fiestas y calendario">
         <P>
           Los mercados de Cangas, Bueu, Moaña y Marín sostienen la compra cotidiana con pescado,
           verduras y conversación incluso en invierno. Alrededor están las lonjas y los puertos,
@@ -151,10 +129,9 @@ export default function RelatoOMorrazo({ zona }: { zona: Zona }) {
           conocer una noche de ese calendario: participar en él puede ser un privilegio o una
           fuente anual de ruido.
         </P>
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mar, rías y caminos</H2>
+      <SeccionZona titulo="Mar, rías y caminos">
         <P>
           Cangas reúne el litoral más diverso. Rodeira es playa urbana; Aldán es una ría pequeña de
           agua quieta; Nerga, Viñó y Barra se abren hacia el océano. Más allá, Cabo Home y el Monte
@@ -191,10 +168,9 @@ export default function RelatoOMorrazo({ zona }: { zona: Zona }) {
           src="/fotos/o-morrazo/zona-morrazo-costa.jpg"
           pie="Costa da Vela: el Morrazo atlántico entre faros, brezo y las Cíes al fondo"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Qué cuesta una casa</H2>
+      <SeccionZona titulo="Qué cuesta una casa">
         <P>
           El mercado de la península no es una escala única de metro cuadrado: Cangas carga más el
           litoral y las calas; Moaña, la orientación a Vigo; Bueu y Marín, villas con tipologías
@@ -211,10 +187,9 @@ export default function RelatoOMorrazo({ zona }: { zona: Zona }) {
         </P>
         <TablaPrecios filas={municipiosOMorrazo} />
         <EnlaceIdealista ambito="zona" zonaId={zona.id} nombre={zona.zona} />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Servicios, hospital, aeropuerto</H2>
+      <SeccionZona titulo="Servicios, hospital, aeropuerto">
         <P>
           Cangas y Marín cubren bien la vida diaria: centro de salud con urgencias,
           supermercados, farmacias, mercado, colegios, institutos y comercio. Moaña y Bueu
@@ -237,9 +212,9 @@ export default function RelatoOMorrazo({ zona }: { zona: Zona }) {
           src="/fotos/o-morrazo/marin-portocelo.jpg"
           pie="Portocelo: playa de ría a pocos minutos de Pontevedra y del hospital"
         />
-      </section>
+      </SeccionZona>
 
-      <Encaja
+      <EncajaZona
         si={[
           "Se quiere un verano claramente más fresco que el de Mallorca y una relación diaria con el mar. Cangas ofrece Rodeira, Aldán y la Costa da Vela; Moaña, paseo y barco a Vigo; Bueu, calma, Cabo Udra y Ons; Marín, playas de ría con Pontevedra y el hospital al lado.",
           "Se acepta escoger entre escalas verdaderamente distintas. Cangas pone el acento en el litoral y los senderos; Moaña, en la conexión con Vigo; Bueu, en el silencio de una villa pequeña; Marín, en sanidad y servicios. La península permite ajustar la vida sin renunciar por completo a playa, mercado o ciudad.",
@@ -248,10 +223,8 @@ export default function RelatoOMorrazo({ zona }: { zona: Zona }) {
           `Se necesita el cielo de Baleares: O Morrazo tiene unos ${zona.lluviaDias} días de lluvia y ${zona.despejados} días despejados, frente a ${mallorca.despejados} en Mallorca. El invierno exige convivir con humedad y semanas grises, aunque el verano sea suave.`,
           "Se quiere hospital próximo y a la vez la punta más atlántica. Cangas y sus parroquias ofrecen el mar más abierto, pero Montecelo queda a unos treinta y cinco minutos. Marín resuelve sanidad y Pontevedra, aunque su centro convive con puerto comercial y no tiene la continuidad marinera de Cangas o Bueu.",
         ]}
-        veredicto="Veredicto de zona: Cangas responde si mar, calas y senderos pesan más que el hospital; Moaña, si Vigo forma parte de la semana y el barco evita el coche; Bueu, si se busca una villa tranquila; Marín, si mandan hospital, Pontevedra y una vivienda asequible. Aldán u O Hío muestran el paisaje tras probar agosto; Mogor o Aguete, el equilibrio junto a Marín; el entorno del embarcadero de Moaña, la vida frente a Vigo."
+        veredicto="Cangas responde si mar, calas y senderos pesan más que el hospital; Moaña, si Vigo forma parte de la semana y el barco evita el coche; Bueu, si se busca una villa tranquila; Marín, si mandan hospital, Pontevedra y una vivienda asequible. Aldán u O Hío muestran el paisaje tras probar agosto; Mogor o Aguete, el equilibrio junto a Marín; el entorno del embarcadero de Moaña, la vida frente a Vigo."
       />
-
-      <MunicipiosZonaFin zonaId={zona.id} municipios={municipiosOMorrazo} escalas={ESCALA} />
 
       <p className="mt-12 max-w-2xl text-xs text-[var(--tinta-suave)]">
         Fotos: Wikimedia Commons. Consulta la atribución y licencia en cada imagen.

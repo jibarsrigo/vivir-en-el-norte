@@ -1,22 +1,16 @@
-import Link from "next/link";
 import TablaComparativaZona from "@/components/TablaComparativaZona";
-import type { FichaMunicipio } from "@/lib/municipios";
+import { ESCALAS_ZONA } from "@/lib/escalas-zona";
+import { municipiosDeZonaFicha } from "@/lib/municipios";
 
 /**
- * Cierre homogéneo de página de zona: tabla de notas 1–10 + escala de cada pueblo.
+ * Tabla comparativa de municipios de la zona (notas 1–10 + escala).
  */
-export default function MunicipiosZonaFin({
-  zonaId,
-  municipios,
-  escalas,
-}: {
-  zonaId: string;
-  municipios: FichaMunicipio[];
-  /** Etiqueta de escala por nombre de municipio (Villa, Isla, …). */
-  escalas: Record<string, string>;
-}) {
+export default function MunicipiosZonaFin({ zonaId }: { zonaId: string }) {
+  const municipios = municipiosDeZonaFicha(zonaId);
+  const escalas = ESCALAS_ZONA[zonaId] ?? {};
+
   return (
-    <section className="mt-12 max-w-3xl">
+    <section className="mt-8 max-w-3xl">
       <h2 className="font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">
         Municipios
       </h2>
@@ -24,28 +18,7 @@ export default function MunicipiosZonaFin({
         Las notas permiten comparar de un vistazo. Debajo de cada nombre, la escala dice si la vida
         diaria es de villa, ciudad, isla o casas entre viñas.
       </p>
-      <TablaComparativaZona
-        municipios={municipios}
-        zonaId={zonaId}
-        escalas={escalas}
-      />
-      <ul className="mt-4 divide-y divide-[var(--linea)] overflow-hidden rounded-xl border border-[var(--linea)] bg-white">
-        {municipios.map((m) => (
-          <li key={m.slug}>
-            <Link
-              href={`/zona/${zonaId}/${m.slug}/`}
-              className="flex min-h-[4.5rem] touch-manipulation flex-col gap-1 px-4 py-4 sm:flex-row sm:items-baseline sm:justify-between"
-            >
-              <span className="font-[family-name:var(--font-serif)] text-xl text-[var(--acento)]">
-                {m.municipio}
-              </span>
-              <span className="text-sm text-[var(--tinta-suave)]">
-                {escalas[m.municipio] ?? ""}
-              </span>
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <TablaComparativaZona municipios={municipios} zonaId={zonaId} escalas={escalas} />
     </section>
   );
 }

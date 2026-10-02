@@ -10,9 +10,9 @@
   "sourcePath": "web/src/lib/relatos-a-marina.ts",
   "sourceKey": "cervo",
   "sourceExport": "RELATOS_A_MARINA",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
-  "contentHash": "d29a8d54f85aad4f451f548d453e2f07cbf58be831bb5b62d0936aacee3de8d0",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
+  "contentHash": "f595c4bfe62681ae658975f29e3f53c2c61f442ef42c91369a593b4366226610",
   "ficha": {
     "n": 42,
     "zona": "A Mariña",
@@ -660,8 +660,8 @@
       "veredicto": "Cervo combina dos experiencias claras: San Cibrao, donde puerto, paseo y playa pueden entrar en la rutina, y Sargadelos, ligado a la cerámica y al Xunco. La cercanía de Burela facilita servicios y hospital, mientras la dispersión y la presencia industrial hacen especialmente importante escoger bien la microzona."
     },
     "fotoIdentidad": {
-      "src": "/fotos/a-marina/cervo-identidad.jpg",
-      "pie": "Cervo: casas del pueblo frente al mar"
+      "src": "/fotos/a-marina/cervo-pazo-sargadelos.jpg",
+      "pie": "Cervo: pazo de Sargadelos con palmera"
     },
     "fotosAbrir": [
       {

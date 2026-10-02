@@ -3,8 +3,8 @@
   "zonaId": "alto-minho",
   "nombre": "Alto Minho (PT)",
   "sourcePath": "web/src/components/RelatoAltoMinho.tsx",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
   "sourceFileHash": "9055bd628512b6a41d29eca5f20f691c39c6a5fb15a4af3a4f3577153cec5500",
   "contentHash": "c7f8437d0a3b4358a2423b447188cc87c51c3c659b75a9c0ce3a8cdcef8c14f0",
   "zonaBaseline": {

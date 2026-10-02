@@ -44,8 +44,8 @@ export const RELATOS_O_SALNES: Record<string, RelatoMun> = {
         "Meaño es valle de Albariño y Dena práctica a cambio de coche y mar como salida. Su atractivo está en la parroquia y el Castrove; su peaje, en no vender A Lanzada como paseo desde casa ni el municipio como villa costera."
     },
  fotoIdentidad: {
- src: "/fotos/o-salnes/meano-identidad.jpg",
- pie: "Meaño: casas de parroquia y monte Castrove detrás",
+ src: "/fotos/o-salnes/meano-identidad-parroquia.jpg",
+ pie: "Meaño: emparrado de viña con esteos de granito",
  },
  fotosAbrir: [
  { src: "/fotos/o-salnes/meano-emparrado.jpg", pie: "Meaño: viñedos en emparrado entre parroquias" },
@@ -274,8 +274,8 @@ export const RELATOS_O_SALNES: Record<string, RelatoMun> = {
         "Vilagarcía compra hospital, tren y autonomía cotidiana a cambio de menos armonía de villa. Su atractivo está en resolver la semana en el mismo municipio; su peaje, en no confundir Compostela con Fefiñáns ni firmar sin oír el puerto y una noche de Auga."
     },
  fotoIdentidad: {
- src: "/fotos/o-salnes/vilagarcia-de-arousa-identidad.jpg",
- pie: "Vilagarcía–Carril: casas junto a la ría de Arousa y el monte detrás",
+ src: "/fotos/o-salnes/vilagarcia-identidad-vista.jpg",
+ pie: "Vilagarcía de Arousa: plaza con escultura entre bloques y palmeras",
  },
  fotosAbrir: [
  { src: "/fotos/o-salnes/vilagarcia-paseo.jpg", pie: "Vilagarcía y Carril: ciudad, puerto y ría de Arousa" },

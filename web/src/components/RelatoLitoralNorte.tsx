@@ -1,61 +1,49 @@
-import Encaja from "@/components/Encaja";
+import EncajaZona from "@/components/EncajaZona";
+import SeccionZona from "@/components/SeccionZona";
 import Foto from "@/components/Foto";
 import TablaPrecios from "@/components/TablaPrecios";
 import EnlaceIdealista from "@/components/EnlaceIdealista";
-import MunicipiosZonaFin from "@/components/MunicipiosZonaFin";
 import { mallorca, type Zona } from "@/lib/zonas";
 import { municipiosLitoralNorte } from "@/lib/municipios";
-
-function H2({ children }: { children: React.ReactNode }) {
-  return <h2 className="mt-10 font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">{children}</h2>;
-}
 
 function P({ children }: { children: React.ReactNode }) {
   return <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{children}</p>;
 }
 
-const ESCALA: Record<string, string> = {
-  Esposende: "Villa y dunas residenciales",
-  "Póvoa de Varzim": "Ciudad-balneario",
-  "Vila do Conde": "Ciudad histórica junto al aeropuerto",
-};
 
 export default function RelatoLitoralNorte({ zona }: { zona: Zona }) {
   return (
     <article className="mt-8">
-      <section>
-        <H2>Dónde está</H2>
+      <SeccionZona titulo="Dónde está">
         <P>
-          Litoral Norte es la costa llana al norte de Porto: Esposende —unos treinta y cuatro mil
-          habitantes; Ofir entre pinos, Apúlia con molinos sobre las dunas, el estuario del Cávado y
-          el Parque Natural do Litoral Norte—, Póvoa de Varzim —unos sesenta y tres mil;
-          ciudad-balneario con casino, paseo y bloques en primera línea— y Vila do Conde —unos
-          ochenta mil; casco histórico con el acueducto y el convento de Santa Clara, astilleros
-          históricos y Azurara—.
+          Litoral Norte es la franja atlántica llana al norte de Porto, antes de que la costa se
+          meta del todo en el Minho. Tres escalas distintas se suceden en pocos kilómetros:
+          Esposende, con Ofir entre pinos, Apúlia y sus molinos sobre las dunas, y el estuario del
+          Cávado dentro del Parque Natural do Litoral Norte; Póvoa de Varzim, ciudad-balneario de
+          paseo, casino y bloques en primera línea; Vila do Conde, casco histórico con el acueducto
+          y el convento de Santa Clara, memoria de astilleros y Azurara hacia el mar.
         </P>
         <P>
-          El metro de Porto —línea B— llega a Póvoa y Vila do Conde; la A28 lleva a Porto en unos
-          treinta a cuarenta minutos; el aeropuerto de Sá Carneiro queda a quince–treinta y cinco.
-          Porto —unos doscientos treinta mil habitantes, área de 1,7 millones— anda alrededor de
-          cuarenta minutos en coche o sesenta–setenta en metro; Braga, a unos treinta desde
-          Esposende.
+          El metro de Porto —línea B— llega a Póvoa y Vila do Conde; la A28 lleva a la ciudad en
+          media hora larga según tráfico; el aeropuerto de Sá Carneiro queda a un trayecto corto.
+          Porto organiza empleo, cultura y vuelos; Braga queda a unos treinta minutos desde
+          Esposende. La A28 hacia Porto se congestiona en hora punta: eso forma parte del trato de
+          vivir aquí, no un detalle de mapa.
         </P>
         <P>
           Portugal está entre los países más seguros del mundo; el área de Porto tiene más
-          incidencia que el Minho, pero muy inferior a Palma. La población extranjera crece en el
-          área metropolitana —brasileños, sobre todo—, alrededor del 5–8 %. Esposende es
-          residencial y familiar; Póvoa y Vila do Conde son ciudades de playa vivas todo el año,
-          con mucho veraneante de Porto en agosto. La A28 hacia Porto se congestiona en hora
-          punta.
+          movimiento que el Minho interior, pero muy inferior a Palma. Esposende se siente más
+          residencial y familiar; Póvoa y Vila do Conde son ciudades de playa vivas todo el año, con
+          mucho veraneante de Porto en agosto. Elegir entre las tres no es elegir el mismo Atlántico
+          ni la misma semana.
         </P>
         <Foto
           src="/fotos/litoral-norte/zona-esposende.jpg"
           pie="Esposende: villa en el estuario del Cávado"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>El tiempo comparado con Baleares</H2>
+      <SeccionZona titulo="El tiempo comparado con Baleares">
         <P>
           Litoral Norte suma unas {zona.solHoras.toLocaleString("es-ES")} horas de sol y{" "}
           {zona.despejados} días despejados al año —el máximo de toda la tabla—, con unos{" "}
@@ -82,10 +70,9 @@ export default function RelatoLitoralNorte({ zona }: { zona: Zona }) {
           ornitológica— invitan al paseo; para bañarse con calma, el estuario de Esposende y las
           piscinas.
         </P>
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Cómo se vive</H2>
+      <SeccionZona titulo="Cómo se vive">
         <P>
           Un martes de noviembre muestra escalas distintas. Póvoa y Vila do Conde son ciudades
           completas: hospital, metro, mercado, comercio y cultura. Esposende cubre villa completa;
@@ -107,10 +94,9 @@ export default function RelatoLitoralNorte({ zona }: { zona: Zona }) {
           src="/fotos/litoral-norte/zona-ofir.jpg"
           pie="Ofir: pinos y playa en Esposende"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mar, dunas y camino</H2>
+      <SeccionZona titulo="Mar, dunas y camino">
         <P>
           El Parque Natural do Litoral Norte —pasarelas de madera sobre dunas, unos dieciséis
           kilómetros entre Apúlia y la Foz do Cávado— es el paseo de referencia. Los molinos de
@@ -138,10 +124,9 @@ export default function RelatoLitoralNorte({ zona }: { zona: Zona }) {
           src="/fotos/litoral-norte/zona-povoa.jpg"
           pie="Póvoa de Varzim: ciudad-balneario y paseo"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mercados, fiestas y calendario</H2>
+      <SeccionZona titulo="Mercados, fiestas y calendario">
         <P>
           Póvoa y Vila do Conde resuelven mercado, comercio y mesas abiertas con ritmo de ciudad
           todo el año. Esposende mantiene villa con vida propia; Ofir y Apúlia miran a la villa o
@@ -161,10 +146,9 @@ export default function RelatoLitoralNorte({ zona }: { zona: Zona }) {
           src="/fotos/litoral-norte/zona-vila-do-conde.jpg"
           pie="Vila do Conde: casco histórico junto al Ave"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Qué cuesta una casa</H2>
+      <SeccionZona titulo="Qué cuesta una casa">
         <P>
           Esposende suele situarse algo por debajo de Póvoa de Varzim y Vila do Conde. Dos
           habitaciones pueden entrar en la franja asequible habitual; tres habitaciones en primera
@@ -183,10 +167,9 @@ export default function RelatoLitoralNorte({ zona }: { zona: Zona }) {
         </P>
         <TablaPrecios filas={municipiosLitoralNorte} />
         <EnlaceIdealista ambito="zona" zonaId={zona.id} nombre={zona.zona} />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Servicios, hospital, aeropuerto</H2>
+      <SeccionZona titulo="Servicios, hospital, aeropuerto">
         <P>
           Póvoa y Vila do Conde cubren la vida diaria de ciudad; Esposende, de villa completa.
           Servicios significa vida diaria dentro del municipio —tiendas, farmacia, centro de
@@ -212,9 +195,9 @@ export default function RelatoLitoralNorte({ zona }: { zona: Zona }) {
           src="/fotos/litoral-norte/zona-dunas.jpg"
           pie="Parque Natural do Litoral Norte: pasarelas sobre dunas"
         />
-      </section>
+      </SeccionZona>
 
-      <Encaja
+      <EncajaZona
         si={[
           "Pesan el máximo sol de la tabla (~2.550 horas y unos 85 despejados) y Porto–Sá Carneiro a 15–35 minutos, aceptando costa llana sin montaña, mar frío (16–18 °C) y nortada de tarde de junio a agosto —con Palma solo en verano desde Sá Carneiro—.",
           "Se valora ciudad de playa con metro a Porto (Póvoa o Vila do Conde) o la opción residencial y tranquila de Esposende —Ofir o Apúlia, dunas y pinos—, con Braga y Porto a 30–40 minutos.",
@@ -223,13 +206,7 @@ export default function RelatoLitoralNorte({ zona }: { zona: Zona }) {
           `Se necesita montaña detrás, casas bajas en el frente de mar de Póvoa o Vila do Conde, agua de mar templada o tardes de terraza sin viento en verano. Litoral Norte tiene ${zona.lluviaDias} días de lluvia y ${zona.despejados} despejados —cielo alto—, pero Atlántico frío y llano.`,
           "Se buscan tres habitaciones en primera línea dentro de la orilla asequible habitual, hospital privado a menos de 30–40 minutos, vuelo a Palma todo el año desde Sá Carneiro, o sanidad pública española.",
         ]}
-        veredicto="Veredicto de zona: Litoral Norte destaca por sol —el máximo de la tabla— y aeropuerto. Esposende —Ofir o Apúlia— encaja como opción residencial y tranquila; Póvoa, quien quiera ciudad-balneario con metro; Vila do Conde, ciudad histórica con el aeropuerto a un cuarto de hora. El peaje es mar frío, nortada de tarde, sin montaña y bloques en los frentes urbanos; Palma, solo en verano. Antes de elegir, probar un noviembre cubierto y un agosto en Póvoa, Vila do Conde u Ofir."
-      />
-
-      <MunicipiosZonaFin
-        zonaId={zona.id}
-        municipios={municipiosLitoralNorte}
-        escalas={ESCALA}
+        veredicto="Litoral Norte destaca por sol —el máximo de la tabla— y aeropuerto. Esposende —Ofir o Apúlia— encaja como opción residencial y tranquila; Póvoa, quien quiera ciudad-balneario con metro; Vila do Conde, ciudad histórica con el aeropuerto a un cuarto de hora. El peaje es mar frío, nortada de tarde, sin montaña y bloques en los frentes urbanos; Palma, solo en verano. Antes de elegir, probar un noviembre cubierto y un agosto en Póvoa, Vila do Conde u Ofir."
       />
 
       <p className="mt-12 max-w-2xl text-xs text-[var(--tinta-suave)]">

@@ -26,27 +26,26 @@ export default function RelatoLitoralNorte({ zona }: { zona: Zona }) {
       <section>
         <H2>Dónde está</H2>
         <P>
-          Litoral Norte es la costa llana al norte de Porto: Esposende —unos treinta y cuatro mil
-          habitantes; Ofir entre pinos, Apúlia con molinos sobre las dunas, el estuario del Cávado y
-          el Parque Natural do Litoral Norte—, Póvoa de Varzim —unos sesenta y tres mil;
-          ciudad-balneario con casino, paseo y bloques en primera línea— y Vila do Conde —unos
-          ochenta mil; casco histórico con el acueducto y el convento de Santa Clara, astilleros
-          históricos y Azurara—.
+          Litoral Norte es la franja atlántica llana al norte de Porto, antes de que la costa se
+          meta del todo en el Minho. Tres escalas distintas se suceden en pocos kilómetros:
+          Esposende, con Ofir entre pinos, Apúlia y sus molinos sobre las dunas, y el estuario del
+          Cávado dentro del Parque Natural do Litoral Norte; Póvoa de Varzim, ciudad-balneario de
+          paseo, casino y bloques en primera línea; Vila do Conde, casco histórico con el acueducto
+          y el convento de Santa Clara, memoria de astilleros y Azurara hacia el mar.
         </P>
         <P>
-          El metro de Porto —línea B— llega a Póvoa y Vila do Conde; la A28 lleva a Porto en unos
-          treinta a cuarenta minutos; el aeropuerto de Sá Carneiro queda a quince–treinta y cinco.
-          Porto —unos doscientos treinta mil habitantes, área de 1,7 millones— anda alrededor de
-          cuarenta minutos en coche o sesenta–setenta en metro; Braga, a unos treinta desde
-          Esposende.
+          El metro de Porto —línea B— llega a Póvoa y Vila do Conde; la A28 lleva a la ciudad en
+          media hora larga según tráfico; el aeropuerto de Sá Carneiro queda a un trayecto corto.
+          Porto organiza empleo, cultura y vuelos; Braga queda a unos treinta minutos desde
+          Esposende. La A28 hacia Porto se congestiona en hora punta: eso forma parte del trato de
+          vivir aquí, no un detalle de mapa.
         </P>
         <P>
           Portugal está entre los países más seguros del mundo; el área de Porto tiene más
-          incidencia que el Minho, pero muy inferior a Palma. La población extranjera crece en el
-          área metropolitana —brasileños, sobre todo—, alrededor del 5–8 %. Esposende es
-          residencial y familiar; Póvoa y Vila do Conde son ciudades de playa vivas todo el año,
-          con mucho veraneante de Porto en agosto. La A28 hacia Porto se congestiona en hora
-          punta.
+          movimiento que el Minho interior, pero muy inferior a Palma. Esposende se siente más
+          residencial y familiar; Póvoa y Vila do Conde son ciudades de playa vivas todo el año, con
+          mucho veraneante de Porto en agosto. Elegir entre las tres no es elegir el mismo Atlántico
+          ni la misma semana.
         </P>
         <Foto
           src="/fotos/litoral-norte/zona-esposende.jpg"

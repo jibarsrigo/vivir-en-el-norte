@@ -10,9 +10,9 @@
   "sourcePath": "web/src/lib/relatos-a-marina.ts",
   "sourceKey": "o-vicedo",
   "sourceExport": "RELATOS_A_MARINA",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
-  "contentHash": "52923420c25f3ee05e5c621dbc065f49b36a1529ba83cc4000e2c30983a6e71f",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
+  "contentHash": "5063f920fb596a63b3a3f5b795170e61d4111fb94ee468a66baa1c30f9ab092d",
   "ficha": {
     "n": 39,
     "zona": "A Mariña",
@@ -660,37 +660,37 @@
       "veredicto": "O Vicedo ofrece una costa muy presente a cambio de poca autonomía cotidiana. La decisión depende menos de la postal que de aceptar coche, servicios limitados y un invierno muy tranquilo, y de encontrar una vivienda cuyo acceso, orientación, humedad y conectividad funcionen también fuera de temporada."
     },
     "fotoIdentidad": {
-      "src": "/fotos/a-marina/o-vicedo-identidad.jpg",
-      "pie": "O Vicedo: casas junto a la ría, con el monte detrás"
+      "src": "/fotos/a-marina/vicedo-identidad-faro.jpg",
+      "pie": "O Vicedo: faro blanco en la costa entre monte y mar"
     },
     "fotosAbrir": [
       {
         "src": "/fotos/a-marina/vicedo-villa.jpg",
-        "pie": "O Vicedo: villa marinera en el extremo occidental"
+        "pie": "Núcleo de O Vicedo junto a la ría do Barqueiro"
       },
       {
-        "src": "/fotos/a-marina/vicedo-puerto.jpg",
-        "pie": "Puerto y orilla de trabajo en O Vicedo"
+        "src": "/fotos/a-marina/vicedo-horizonte.jpg",
+        "pie": "Arealonga y la ría do Barqueiro desde el mirador"
       }
     ],
     "fotosHistoria": [
       {
-        "src": "/fotos/a-marina/vicedo-faro.jpg",
-        "pie": "Faro y horizonte hacia Estaca de Bares"
+        "src": "/fotos/a-marina/vicedo-ria.jpg",
+        "pie": "Casa y campos mirando a la ría do Barqueiro"
       },
       {
-        "src": "/fotos/a-marina/vicedo-ria.jpg",
-        "pie": "Ría do Barqueiro junto a O Vicedo"
+        "src": "/fotos/a-marina/vicedo-faro.jpg",
+        "pie": "Fuciño do Porco: Punta Socastro sobre el Cantábrico"
       }
     ],
     "fotosFuera": [
       {
-        "src": "/fotos/a-marina/vicedo-playa.jpg",
-        "pie": "Playa atlántica en O Vicedo"
+        "src": "/fotos/a-marina/vicedo-barqueiro.jpg",
+        "pie": "Boca de la ría do Barqueiro a marea baja"
       },
       {
         "src": "/fotos/a-marina/vicedo-costa.jpg",
-        "pie": "Costa y acantilados de O Vicedo"
+        "pie": "Pasarelas de Fuciño do Porco sobre el acantilado"
       }
     ],
     "creditoFotos": "Fotos: Wikimedia Commons (licencias indicadas en los archivos de origen)."

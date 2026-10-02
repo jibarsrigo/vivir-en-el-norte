@@ -10,9 +10,9 @@
   "sourcePath": "web/src/lib/relatos-golfo-artabro-e-ferrol.ts",
   "sourceKey": "bergondo",
   "sourceExport": "RELATOS_GOLFO_ARTABRO_E_FERROL",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
-  "contentHash": "a4a74d7200b27ee822e7ca3019f464c23fac3ed4c7ccc791b2c3ec332350a070",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
+  "contentHash": "e863d8ff4488e79be8df275e482cf785738c69cc07940acba545f8054bddcd78",
   "ficha": {
     "n": 35,
     "zona": "Golfo Ártabro e Ferrol",
@@ -598,8 +598,8 @@
       "veredicto": "Bergondo ofrece parcela y ría cercana a cambio de autonomía baja-media y coche. Su atractivo está en la calma metropolitana; su peaje, en no inventar una villa ni una playa andando desde cualquier dirección."
     },
     "fotoIdentidad": {
-      "src": "/fotos/golfo-artabro-e-ferrol/bergondo-identidad.jpg",
-      "pie": "Bergondo: casas junto a la ría de Betanzos y el puente do Pedrido"
+      "src": "/fotos/golfo-artabro-e-ferrol/bergondo-identidad-marinan.jpg",
+      "pie": "Bergondo: pazo de Mariñán junto a la ría"
     },
     "fotosAbrir": [
       {

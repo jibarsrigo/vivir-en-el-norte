@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import LightboxImagen, { PistaAmpliar } from "@/components/LightboxImagen";
 import type { FichaMunicipio } from "@/lib/municipios";
 import { zonaIdDeFicha } from "@/lib/municipios";
 import {
@@ -15,6 +16,7 @@ import { rutaPublica } from "@/lib/ruta-publica";
  * los mismos iconos que el mapa de inicio con todas las capas de mapa activas
  * (fuente: `iconosMapaPueblo`). Un clic en la pastilla abre el detalle
  * unificado (todas las capas) como pie dentro del mapa.
+ * Clic en el mapa (fuera de la pastilla) → vista ampliada.
  */
 export default function MapaMunicipioFicha({
   ficha,
@@ -23,33 +25,57 @@ export default function MapaMunicipioFicha({
   ficha: FichaMunicipio;
   capasPortada?: boolean;
 }) {
+  const [abierta, setAbierta] = useState(false);
+
   if (!ficha.mapa) return null;
 
   const zonaId = zonaIdDeFicha(ficha);
   const capas = capasPortada
     ? iconosMapaPueblo(zonaId, ficha.municipio, "todas")
     : [];
+  const src = `/mapas/municipios/${ficha.mapa}`;
+  const pie = `Situación de ${ficha.municipio}`;
 
   return (
-    <figure className="mt-6 max-w-xl overflow-hidden rounded-xl border border-[var(--linea)] bg-white">
-      <div className="relative">
-        <Image
-          src={rutaPublica(`/mapas/municipios/${ficha.mapa}`)}
-          alt={`Mapa de ${ficha.municipio}`}
-          width={811}
-          height={791}
-          className="h-auto w-full"
-          priority
-        />
-        {capas.length > 0 ? (
-          <CapasSobreMapa capas={capas} nombre={ficha.municipio} />
-        ) : null}
-      </div>
-      <figcaption className="px-3 py-2 text-sm text-[var(--tinta-suave)]">
-        Situación de {ficha.municipio}
-        {capas.length > 0 ? " - Clic sobre iconos para ver detalles." : ""}
-      </figcaption>
-    </figure>
+    <>
+      <figure className="mt-6 max-w-xl overflow-hidden rounded-xl border border-[var(--linea)] bg-white">
+        <div className="relative">
+          <button
+            type="button"
+            className="relative block w-full cursor-zoom-in p-0 text-left focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--acento)]"
+            onClick={() => setAbierta(true)}
+            aria-label={`Ver ampliada: ${pie}`}
+          >
+            <Image
+              src={rutaPublica(src)}
+              alt={`Mapa de ${ficha.municipio}`}
+              width={811}
+              height={791}
+              className="h-auto w-full"
+              priority
+            />
+            <PistaAmpliar />
+          </button>
+          {capas.length > 0 ? (
+            <CapasSobreMapa capas={capas} nombre={ficha.municipio} />
+          ) : null}
+        </div>
+        <figcaption className="px-3 py-2 text-sm text-[var(--tinta-suave)]">
+          {pie}
+          {capas.length > 0 ? " - Clic sobre iconos para ver detalles." : ""}
+        </figcaption>
+      </figure>
+
+      <LightboxImagen
+        abierta={abierta}
+        onCerrar={() => setAbierta(false)}
+        src={src}
+        alt={`Mapa de ${ficha.municipio}`}
+        pie={pie}
+        width={811}
+        height={791}
+      />
+    </>
   );
 }
 
@@ -70,7 +96,10 @@ function CapasSobreMapa({
           className="mapa-muni-grupo"
           aria-expanded={abierto}
           aria-label={`Capas de ${nombre}: clima, mar, servicios, hospital, avión y precio. Clic para ver detalles.`}
-          onClick={() => setAbierto((v) => !v)}
+          onClick={(e) => {
+            e.stopPropagation();
+            setAbierto((v) => !v);
+          }}
         >
           <span
             className="atlas-capas-fila mapa-muni-capas shadow-sm"

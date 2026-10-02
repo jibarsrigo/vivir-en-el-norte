@@ -44,8 +44,8 @@
         "A Coruña es capital atlántica compacta: ciudad, hospital y paseo marítimo juntos a cambio de densidad, tráfico y diferencias fuertes entre barrios. Su atractivo está en no tener que elegir entre servicios y mar; su peaje, en no fingir que Riazor es el mismo peaje que un chalé de ría."
     },
     fotoIdentidad: {
-      src: "/fotos/golfo-artabro-e-ferrol/a-coruna-identidad.jpg",
-      pie: "A Coruña: galerías y casas de la marina frente al puerto",
+      src: "/fotos/golfo-artabro-e-ferrol/coruna-identidad-torre.jpg",
+      pie: "A Coruña: Torre de Hércules sobre la costa",
     },
     fotosAbrir: [
       { src: "/fotos/golfo-artabro-e-ferrol/coruna-hercules.jpg", pie: "Torre de Hércules sobre el Atlántico" },

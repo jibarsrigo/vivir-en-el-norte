@@ -249,12 +249,12 @@ const RELATOS_BAIXO_MINO: Record<string, RelatoMun> = {
         "O Rosal es la opción de valle de Baixo Miño: parra, O Calvario y Folón a cambio de mar como salida y menos vida andando. Encaja quien prioriza paisaje interior y acepta A Guarda y Vigo como apoyos; no quien necesita océano o hospital en el umbral."
     },
     fotoIdentidad: {
-      src: "/fotos/baixo-mino/o-rosal-identidad.jpg",
-      pie: "O Rosal: casas de San Miguel de Tabagón junto al puente del Tamuxe, con el valle detrás",
+      src: "/fotos/baixo-mino/o-rosal-calvario-identidad.jpg",
+      pie: "O Calvario: plaza y casas del núcleo de O Rosal",
     },
     fotosAbrir: [
       { src: "/fotos/baixo-mino/rosal-concello.jpg", pie: "Casa do concello: el núcleo de O Calvario" },
-      { src: "/fotos/baixo-mino/rosal-tamuxe.jpg", pie: "San Miguel de Tabagón: calle de pueblo y puente sobre el Tamuxe" },
+      { src: "/fotos/baixo-mino/rosal-tamuxe-rio.jpg", pie: "Río Tamuxe en O Rosal: orilla de valle hacia el Miño" },
     ],
     fotosHistoria: [
       { src: "/fotos/baixo-mino/rosal-tabagon.jpg", pie: "Igrexa de San Xoán de Tabagón: piedra de parroquia" },

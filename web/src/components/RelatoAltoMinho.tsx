@@ -1,35 +1,20 @@
-import Encaja from "@/components/Encaja";
+import EncajaZona from "@/components/EncajaZona";
+import SeccionZona from "@/components/SeccionZona";
 import Foto from "@/components/Foto";
 import TablaPrecios from "@/components/TablaPrecios";
 import EnlaceIdealista from "@/components/EnlaceIdealista";
-import MunicipiosZonaFin from "@/components/MunicipiosZonaFin";
 import { mallorca, type Zona } from "@/lib/zonas";
 import { municipiosAltoMinho } from "@/lib/municipios";
-
-function H2({ children }: { children: React.ReactNode }) {
-  return <h2 className="mt-10 font-[family-name:var(--font-serif)] text-2xl text-[var(--acento)]">{children}</h2>;
-}
 
 function P({ children }: { children: React.ReactNode }) {
   return <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{children}</p>;
 }
 
-const ESCALA: Record<string, string> = {
-  Valença: "Fortaleza frente a Tui",
-  "Vila Nova de Cerveira": "Villa fluvial y arte",
-  Caminha: "Villa en la boca del Miño",
-  "Moledo (Caminha)": "Pinar y playa elegante",
-  "Vila Praia de Âncora (Caminha)": "Villa marinera abrigada",
-  "Afife-Carreço (Viana)": "Aldea de granito entre monte y mar",
-  "Viana do Castelo": "Ciudad del Lima",
-  "Ponte de Lima": "Villa romana sobre el Lima",
-};
 
 export default function RelatoAltoMinho({ zona }: { zona: Zona }) {
   return (
     <article className="mt-8">
-      <section>
-        <H2>Dónde está</H2>
+      <SeccionZona titulo="Dónde está">
         <P>
           Alto Minho es el norte de Portugal entre el Miño y Viana do Castelo —unos noventa mil
           habitantes en el concelho—, con la Serra d&apos;Arga (825 m) plantada entre el río y el
@@ -58,10 +43,9 @@ export default function RelatoAltoMinho({ zona }: { zona: Zona }) {
           src="/fotos/alto-minho/zona-valenca.jpg"
           pie="Valença: fortaleza frente a Tui"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>El tiempo comparado con Baleares</H2>
+      <SeccionZona titulo="El tiempo comparado con Baleares">
         <P>
           Alto Minho suma unas {zona.solHoras.toLocaleString("es-ES")} horas de sol y{" "}
           {zona.despejados} días despejados al año —en la franja de 2.400 a 2.500 horas y unos 78 a
@@ -93,17 +77,9 @@ export default function RelatoAltoMinho({ zona }: { zona: Zona }) {
           fluviales de Cerveira y Ponte de Lima. Quien quiera agua templada cruza a Cesantes o a
           la ría de Vigo —unos 40 a 60 minutos desde Valença—.
         </P>
-        {zona.calorAprieta ? (
-          <p className="mt-4 max-w-2xl font-semibold text-[var(--calor)]">
-            El calor aprieta en {zona.calorAprieta} en el interior (Ponte de Lima, Valença). En la
-            costa, verano fresco alrededor de 20,5 °C y apenas tres a seis días por encima de 30
-            °C.
-          </p>
-        ) : null}
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Cómo se vive</H2>
+      <SeccionZona titulo="Cómo se vive">
         <P>
           Un martes de noviembre muestra escalas muy distintas. Viana es ciudad completa: comercio,
           hospital, tren, cultura, mercado y paseo. Valença, Vila Praia de Âncora y Ponte de Lima
@@ -128,10 +104,9 @@ export default function RelatoAltoMinho({ zona }: { zona: Zona }) {
           src="/fotos/alto-minho/zona-caminha.jpg"
           pie="Caminha: villa en la desembocadura del Miño"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mar, río y camino</H2>
+      <SeccionZona titulo="Mar, río y camino">
         <P>
           Moledo aporta playa larga con dunas, pinar y viento —kite, surf— y el Forte da Ínsua con
           Santa Trega enfrente. Vila Praia de Âncora une puerto, fortaleza de Lagarteira y el
@@ -162,10 +137,9 @@ export default function RelatoAltoMinho({ zona }: { zona: Zona }) {
           src="/fotos/alto-minho/zona-ancora.jpg"
           pie="Vila Praia de Âncora: villa marinera y playa abrigada"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Mercados, fiestas y calendario</H2>
+      <SeccionZona titulo="Mercados, fiestas y calendario">
         <P>
           Viana resuelve mercado, comercio y mesas abiertas con ritmo de ciudad todo el año.
           Âncora, Valença y Ponte de Lima mantienen villa con vida propia; Caminha y Cerveira,
@@ -188,10 +162,9 @@ export default function RelatoAltoMinho({ zona }: { zona: Zona }) {
           src="/fotos/alto-minho/zona-viana.jpg"
           pie="Viana do Castelo: ciudad del Lima y Santa Luzia"
         />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Qué cuesta una casa</H2>
+      <SeccionZona titulo="Qué cuesta una casa">
         <P>
           Alto Minho cubre franjas distintas. Valença, Cerveira y Ponte de Lima suelen situarse en
           el tramo más contenido —río e interior sin playa marítima—. En costa, Caminha y Moledo
@@ -213,10 +186,9 @@ export default function RelatoAltoMinho({ zona }: { zona: Zona }) {
         </P>
         <TablaPrecios filas={municipiosAltoMinho} />
         <EnlaceIdealista ambito="zona" zonaId={zona.id} nombre={zona.zona} />
-      </section>
+      </SeccionZona>
 
-      <section>
-        <H2>Servicios, hospital, aeropuerto</H2>
+      <SeccionZona titulo="Servicios, hospital, aeropuerto">
         <P>
           Viana cubre la vida diaria de ciudad. Valença, Âncora y Ponte de Lima mantienen villa con
           lo esencial; Cerveira y Caminha, plaza y lo básico; Moledo y Afife-Carreço miran a Âncora
@@ -247,9 +219,9 @@ export default function RelatoAltoMinho({ zona }: { zona: Zona }) {
           src="/fotos/alto-minho/zona-arga.jpg"
           pie="Serra d'Arga entre el río y el mar"
         />
-      </section>
+      </SeccionZona>
 
-      <Encaja
+      <EncajaZona
         si={[
           "Pesan un cielo alto de sol (~2.500 horas y unos 80 despejados), aldea de granito con monte y mar en Afife-Carreço —Viana a 10–15 minutos— o villa marinera con playa abrigada en Vila Praia de Âncora, aceptando mar frío (16–18 °C), nortada de tarde y seguro privado portugués.",
           "Se valora país muy seguro, coste de vida inferior al de Galicia, Porto a una hora y precio más contenido en el interior —Valença, Cerveira, Ponte de Lima—, con un pie en cada orilla del Miño si se elige la fortaleza frente a Tui.",
@@ -258,13 +230,7 @@ export default function RelatoAltoMinho({ zona }: { zona: Zona }) {
           `Se necesita agua de mar templada, tardes de terraza sin nortada de junio a agosto en la costa, o hospital privado a menos de 40–60 minutos. Alto Minho tiene ${zona.lluviaDias} días de lluvia y ${zona.despejados} despejados —cielo alto frente a Galicia, pero mar atlántico frío—.`,
           "Se buscan tres habitaciones en primera línea de Moledo o Âncora dentro de la franja asequible habitual, verano suave en Ponte de Lima o Valença —20–25 días > 30 °C—, casas bajas en el centro de Viana, el régimen fiscal especial para residentes extranjeros —cerrado en 2024—, o trámites y papeleo en castellano sin esfuerzo (NIF, Finanças, matriculación).",
         ]}
-        veredicto="Veredicto de zona: Alto Minho destaca por sol —junto con el Litoral Norte—, granito, monte detrás de la costa (Arga) y precio contenido en río e interior. Afife, Carreço o Areosa —aldea con mar a pocos minutos y Viana cerca— o Vila Praia de Âncora —villa con servicios y playa abrigada— encajan en costa; Valença, quien quiera un pie en cada país. El peaje es sanidad privada, papeleo portugués y nortada de tarde a comprobar en persona en julio. Antes de elegir, probar un noviembre cubierto y un agosto en Moledo, Âncora o Afife."
-      />
-
-      <MunicipiosZonaFin
-        zonaId={zona.id}
-        municipios={municipiosAltoMinho}
-        escalas={ESCALA}
+        veredicto="Alto Minho destaca por sol —junto con el Litoral Norte—, granito, monte detrás de la costa (Arga) y precio contenido en río e interior. Afife, Carreço o Areosa —aldea con mar a pocos minutos y Viana cerca— o Vila Praia de Âncora —villa con servicios y playa abrigada— encajan en costa; Valença, quien quiera un pie en cada país. El peaje es sanidad privada, papeleo portugués y nortada de tarde a comprobar en persona en julio. Antes de elegir, probar un noviembre cubierto y un agosto en Moledo, Âncora o Afife."
       />
 
       <p className="mt-12 max-w-2xl text-xs text-[var(--tinta-suave)]">

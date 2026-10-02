@@ -10,8 +10,8 @@
   "sourcePath": "web/src/lib/relatos-vigo-e-ria.ts",
   "sourceKey": "vigo",
   "sourceExport": "RELATOS_VIGO_E_RIA",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
   "contentHash": "7df725a00a265a896d37b013f6a02bf209c0b0c2af3b8d124e8fbbbd2744b8f8",
   "ficha": {
     "n": 9,

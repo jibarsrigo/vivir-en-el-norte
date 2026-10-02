@@ -3,8 +3,8 @@
   "zonaId": "asturias-oriente",
   "nombre": "Asturias Oriente",
   "sourcePath": "web/src/components/RelatoAsturiasOriente.tsx",
-  "sourceCommit": "afaded44aea9026d9167871e60c56aa4b4a82aa8",
-  "sourceTag": "current-freeze-2026-09-26",
+  "sourceCommit": "4bb25ca65911159fb646271b6203836946467ca7",
+  "sourceTag": "current-freeze-2026-10-02",
   "sourceFileHash": "5873c380262b2d3276773f8442e71674e63a590d01783e77acc6ec40fed16cfe",
   "contentHash": "3c373439a5c08ce79d42e635e47ef8477ac6bac1e04b4ce6b3633e47f7662638",
   "zonaBaseline": {

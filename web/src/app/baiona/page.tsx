@@ -287,16 +287,16 @@ export default function Nuevo2BaionaPage() {
       </DesplegableNuevo2>
 
       <DesplegableNuevo2 titulo="Mar, río y camino" varianteTarjetaV1>
-        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{MAR_RIO_CAMINO_NUEVO2[0]}</p>
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
           <ConNegritas
-            texto={MAR_RIO_CAMINO_NUEVO2[1]}
+            texto={MAR_RIO_CAMINO_NUEVO2[0]}
             fragmentos={["A Ribeira", "Barbeira"]}
           />
         </p>
         <Foto src={FOTO_MAR_BARBEIRA.src} pie={FOTO_MAR_BARBEIRA.pie} />
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{MAR_RIO_CAMINO_NUEVO2[1]}</p>
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
-          <ConNegritas texto={MAR_RIO_CAMINO_NUEVO2[2]} fragmentos={["A Ladeira"]} />
+          <ConNegritas texto={MAR_RIO_CAMINO_NUEVO2[2]} fragmentos={["Ladeira"]} />
         </p>
         <Foto src={FOTO_MAR_LADEIRA.src} pie={FOTO_MAR_LADEIRA.pie} />
         {MAR_RIO_CAMINO_NUEVO2.slice(3).map((p) => (

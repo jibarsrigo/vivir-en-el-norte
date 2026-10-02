@@ -289,14 +289,11 @@ export default function Nuevo2AGuardaPage() {
         </p>
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{MAR_RIO_CAMINO_NUEVO2[3]}</p>
         <Foto src={FOTO_MAR_COSTA.src} pie={FOTO_MAR_COSTA.pie} />
-        {MAR_RIO_CAMINO_NUEVO2.slice(4, 6).map((p) => (
-          <p key={p.slice(0, 64)} className="mt-3 max-w-2xl text-[17px] leading-relaxed">
-            {p}
-          </p>
-        ))}
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{MAR_RIO_CAMINO_NUEVO2[4]}</p>
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
-          <ConNegritas texto={MAR_RIO_CAMINO_NUEVO2[6]} fragmentos={["Monte Santa Trega"]} />
+          <ConNegritas texto={MAR_RIO_CAMINO_NUEVO2[5]} fragmentos={["Monte Santa Trega"]} />
         </p>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{MAR_RIO_CAMINO_NUEVO2[6]}</p>
         <Foto src={FOTO_MAR_CAMPOSANCOS.src} pie={FOTO_MAR_CAMPOSANCOS.pie} />
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{MAR_RIO_CAMINO_NUEVO2[7]}</p>
       </DesplegableNuevo2>

@@ -288,17 +288,17 @@ export default function Nuevo2NigranPage() {
       </DesplegableNuevo2>
 
       <DesplegableNuevo2 titulo="Mar, río y camino" varianteTarjetaV1>
-        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{MAR_RIO_CAMINO_NUEVO2[0]}</p>
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
+          <ConNegritas texto={MAR_RIO_CAMINO_NUEVO2[0]} fragmentos={["Patos"]} />
+        </p>
+        <Foto src={FOTO_MAR_PATOS.src} pie={FOTO_MAR_PATOS.pie} />
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
           <ConNegritas
             texto={MAR_RIO_CAMINO_NUEVO2[1]}
             fragmentos={["Praia América", "Panxón", "Senda Azul"]}
           />
         </p>
-        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">
-          <ConNegritas texto={MAR_RIO_CAMINO_NUEVO2[2]} fragmentos={["Patos"]} />
-        </p>
-        <Foto src={FOTO_MAR_PATOS.src} pie={FOTO_MAR_PATOS.pie} />
+        <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{MAR_RIO_CAMINO_NUEVO2[2]}</p>
         <p className="mt-3 max-w-2xl text-[17px] leading-relaxed">{MAR_RIO_CAMINO_NUEVO2[3]}</p>
         <Foto src={FOTO_MAR_MONTEFERRO.src} pie={FOTO_MAR_MONTEFERRO.pie} />
       </DesplegableNuevo2>
